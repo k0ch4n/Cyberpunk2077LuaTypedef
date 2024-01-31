@@ -5,4 +5,5 @@
 ---@field VeryNear Enum 1
 ---@field Near Enum 2
 ---@field Normal Enum 3
+---@field None Enum 4
 questCameraPlanesPreset = {}

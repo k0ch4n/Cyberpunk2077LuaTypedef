@@ -34,9 +34,20 @@ function UIInventoryItemWeaponBars.CalculateMeleeStamina() end
 ---@return Float
 function UIInventoryItemWeaponBars.CalculateStamina(weaponTypeToStaminaCost, magazineCapacity, weaponEvolutionToStaminaCost, firePower) end
 
+---@param itemData gameItemData
+---@return Float
+function UIInventoryItemWeaponBars.GetCumulativeHealing(itemData) end
+
 ---@param barsType UIInventoryItemWeaponBarsType
 ---@return WeaponBarType[]
 function UIInventoryItemWeaponBars.GetDisplayedStats(barsType) end
+
+---@return Float
+function UIInventoryItemWeaponBars.GetInjectorDuration() end
+
+---@param itemData gameItemData
+---@return Float
+function UIInventoryItemWeaponBars.GetInstantHealing(itemData) end
 
 ---@param itemType gamedataItemType
 ---@return Float
@@ -52,15 +63,22 @@ function UIInventoryItemWeaponBars.GetProjectileLauncherDamage(itemData, player)
 function UIInventoryItemWeaponBars.IsBarReversed(barType) end
 
 ---@param statsManager UIInventoryItemStatsManager
+---@param itemData gameItemData
 ---@param itemType gamedataItemType
 ---@param type UIInventoryItemWeaponBarsType
 ---@return UIInventoryItemWeaponBars
-function UIInventoryItemWeaponBars.Make(statsManager, itemType, type) end
+function UIInventoryItemWeaponBars.Make(statsManager, itemData, itemType, type) end
 
 ---@param statsManager UIInventoryItemStatsManager
 ---@param itemType gamedataItemType
 ---@return UIInventoryItemWeaponBars
 function UIInventoryItemWeaponBars.MakeCyberwareRangedWeapon(statsManager, itemType) end
+
+---@param statsManager UIInventoryItemStatsManager
+---@param itemData gameItemData
+---@param itemType gamedataItemType
+---@return UIInventoryItemWeaponBars
+function UIInventoryItemWeaponBars.MakeHealing(statsManager, itemData, itemType) end
 
 ---@param statsManager UIInventoryItemStatsManager
 ---@param itemType gamedataItemType

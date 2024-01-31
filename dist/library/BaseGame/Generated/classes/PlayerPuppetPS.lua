@@ -6,6 +6,7 @@
 ---@field hasAutoReveal Bool
 ---@field combatExitTimestamp Float
 ---@field isInDriverCombat Bool
+---@field pocketRadioStation Int32
 ---@field permanentHealthBonus Float
 ---@field permanentStaminaBonus Float
 ---@field permanentMemoryBonus Float
@@ -41,6 +42,9 @@ function PlayerPuppetPS:GetPermanentMemoryBonus() end
 
 ---@return Float
 function PlayerPuppetPS:GetPermanentStaminaBonus() end
+
+---@return Int32
+function PlayerPuppetPS:GetPocketRadioStation() end
 
 ---@return Bool
 function PlayerPuppetPS:HasAutoReveal() end
@@ -92,6 +96,10 @@ function PlayerPuppetPS:SetPermanentMemoryBonus(value) end
 ---@param value Float
 ---@return nil
 function PlayerPuppetPS:SetPermanentStaminaBonus(value) end
+
+---@param value Int32
+---@return nil
+function PlayerPuppetPS:SetPocketRadioStation(value) end
 
 ---@param id TweakDBID|string
 ---@return nil

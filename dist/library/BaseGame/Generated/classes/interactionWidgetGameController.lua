@@ -16,6 +16,7 @@
 ---@field id Int32
 ---@field isActive Bool
 ---@field areContactsOpen Bool
+---@field dataActive Bool
 ---@field progressBarHolder inkWidgetReference
 ---@field progressBar DialogChoiceTimerController
 ---@field hasProgressBar Bool
@@ -70,6 +71,9 @@ function interactionWidgetGameController:GetSkillcheck(choice, skillcheck) end
 ---@param choiceHubData gameinteractionsvisInteractionChoiceHubData
 ---@return UIInteractionSkillCheck[]
 function interactionWidgetGameController:GetSkillchecks(choiceHubData) end
+
+---@return nil
+function interactionWidgetGameController:ResolveRootVisibility() end
 
 ---@return nil
 function interactionWidgetGameController:UpadateChoiceData() end

@@ -26,6 +26,9 @@
 ---@field vehicleSkillChecks EngDemoContainer
 ---@field controlStimShouldBeActive Bool
 ---@field controlStimRunning Bool
+---@field vehicleApperanceCustomizationActive Bool
+---@field vehicleAppearanceCustomizationBlockedByDamage Bool
+---@field vehicleApperanceDefinition vehicleVisualModdingDefinition
 ---@field ready Bool
 ---@field isPlayerPerformingBodyDisposal Bool
 ---@field submergedTimestamp Float
@@ -192,6 +195,15 @@ function VehicleComponentPS:GetIsSubmerged() end
 ---@return Bool
 function VehicleComponentPS:GetIsUiQuestModified() end
 
+---@return Bool
+function VehicleComponentPS:GetIsVehicleVisualCustomizationActive() end
+
+---@return Bool
+function VehicleComponentPS:GetIsVehicleVisualCustomizationBlockedByDamage() end
+
+---@return Bool
+function VehicleComponentPS:GetIsVehicleVisualCustomizationDefinitionDefined() end
+
 ---@return CName[]
 function VehicleComponentPS:GetNpcOccupiedSlots() end
 
@@ -259,6 +271,9 @@ function VehicleComponentPS:GetVehicleControllerPSConst() end
 ---@param doorName CName|string
 ---@return Bool, vehicleEVehicleDoor door
 function VehicleComponentPS:GetVehicleDoorEnum(doorName) end
+
+---@return vehicleVisualModdingDefinition
+function VehicleComponentPS:GetVehicleVisualCustomizationDefinition() end
 
 ---@param door vehicleEVehicleDoor
 ---@return vehicleEVehicleWindowState
@@ -636,6 +651,18 @@ function VehicleComponentPS:SetThrusterState(set) end
 ---@param value Bool
 ---@return nil
 function VehicleComponentPS:SetUiQuestState(value) end
+
+---@param set Bool
+---@return nil
+function VehicleComponentPS:SetVehicleVisualCustomizationActive(set) end
+
+---@param app vehicleVisualModdingDefinition
+---@return nil
+function VehicleComponentPS:SetVehicleVisualCustomizationDefinition(app) end
+
+---@param value Bool
+---@return nil
+function VehicleComponentPS:SetVehicleVisualCustomizationnBlockedByDamage(value) end
 
 ---@param door vehicleEVehicleDoor
 ---@param state vehicleEVehicleWindowState

@@ -95,11 +95,6 @@ function ItemTooltipCommonController:OnCyberwareUpgradeModuleSpawned(widget, use
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnCyberwareWeaponModuleSpawned(widget, userData) end
-
----@param widget inkWidget
----@param userData IScriptable
----@return Bool
 function ItemTooltipCommonController:OnDetailsModuleSpawned(widget, userData) end
 
 ---@param widget inkWidget
@@ -150,11 +145,6 @@ function ItemTooltipCommonController:OnNEW_CraftedModuleSpawned(widget, userData
 ---@param userData IScriptable
 ---@return Bool
 function ItemTooltipCommonController:OnNEW_CyberwareUpgradeModuleSpawned(widget, userData) end
-
----@param widget inkWidget
----@param userData IScriptable
----@return Bool
-function ItemTooltipCommonController:OnNEW_CyberwareWeaponModuleSpawned(widget, userData) end
 
 ---@param widget inkWidget
 ---@param userData IScriptable
@@ -213,6 +203,11 @@ function ItemTooltipCommonController:OnNEW_TransmogModuleSpawned(widget, userDat
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
+function ItemTooltipCommonController:OnNEW_UpdateStatBarsModuleSpawned(widget, userData) end
+
+---@param widget inkWidget
+---@param userData IScriptable
+---@return Bool
 function ItemTooltipCommonController:OnNEW_WeaponInfoModuleSpawned(widget, userData) end
 
 ---@param widget inkWidget
@@ -229,6 +224,11 @@ function ItemTooltipCommonController:OnRecipeModuleSpawned(widget, userData) end
 ---@param userData IScriptable
 ---@return Bool
 function ItemTooltipCommonController:OnRequirementsModuleSpawned(widget, userData) end
+
+---@param widget inkWidget
+---@param userData IScriptable
+---@return Bool
+function ItemTooltipCommonController:OnUpdateStatBarsModuleSpawned(widget, userData) end
 
 ---@param widget inkWidget
 ---@param userData IScriptable
@@ -268,9 +268,6 @@ function ItemTooltipCommonController:NEW_UpdateCyberwareQuickHackMenuLinkModule(
 function ItemTooltipCommonController:NEW_UpdateCyberwareUpgradeModule() end
 
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateCyberwareWeaponModule() end
-
----@return nil
 function ItemTooltipCommonController:NEW_UpdateDetailsModule() end
 
 ---@return nil
@@ -308,6 +305,9 @@ function ItemTooltipCommonController:NEW_UpdateRecipeModule() end
 
 ---@return nil
 function ItemTooltipCommonController:NEW_UpdateRequirementsModule() end
+
+---@return nil
+function ItemTooltipCommonController:NEW_UpdateStatBarsModule() end
 
 ---@return nil
 function ItemTooltipCommonController:NEW_UpdateTransmogModule() end
@@ -374,9 +374,6 @@ function ItemTooltipCommonController:UpdateCyberwareQuickHackMenuLinkModule() en
 ---@return nil
 function ItemTooltipCommonController:UpdateCyberwareUpgradeModule() end
 
----@return nil
-function ItemTooltipCommonController:UpdateCyberwareWeaponModule() end
-
 ---@param tooltipData InventoryTooltipData
 ---@return nil
 function ItemTooltipCommonController:UpdateData(tooltipData) end
@@ -419,6 +416,9 @@ function ItemTooltipCommonController:UpdateRecipeModule() end
 
 ---@return nil
 function ItemTooltipCommonController:UpdateRequirementsModule() end
+
+---@return nil
+function ItemTooltipCommonController:UpdateStatBarsModule() end
 
 ---@return nil
 function ItemTooltipCommonController:UpdateTooltipSize() end

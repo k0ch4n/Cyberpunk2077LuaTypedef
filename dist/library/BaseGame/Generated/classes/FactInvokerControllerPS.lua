@@ -27,6 +27,10 @@ function FactInvokerControllerPS:GetInkWidgetTweakDBID(context) end
 ---@return CName[]
 function FactInvokerControllerPS:GetPasswords() end
 
+---@param name String
+---@return Bool
+function FactInvokerControllerPS:IgnoreDisallowedAction(name) end
+
 ---@return Bool
 function FactInvokerControllerPS:IsDeviceSecured() end
 

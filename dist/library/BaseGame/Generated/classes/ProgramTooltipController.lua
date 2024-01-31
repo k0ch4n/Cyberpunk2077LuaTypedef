@@ -103,13 +103,13 @@ function ProgramTooltipController:UpdateDamage() end
 ---@return nil
 function ProgramTooltipController:UpdateDescription() end
 
----@param itemID TweakDBID|string
+---@param shwoProgramDuration Bool
 ---@param targetWidget inkWidgetReference
 ---@param key String
 ---@param value Float
 ---@param diff Float
 ---@return nil
-function ProgramTooltipController:UpdateDetail(itemID, targetWidget, key, value, diff) end
+function ProgramTooltipController:UpdateDetail(shwoProgramDuration, targetWidget, key, value, diff) end
 
 ---@param item UIInventoryItem
 ---@param value Float

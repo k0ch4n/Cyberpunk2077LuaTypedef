@@ -50,6 +50,7 @@
 ---@field OverridePlayerDamageWithFixedPercentage Enum 46
 ---@field DeviceExplosionAttack Enum 47
 ---@field NPCPassengerVehicleCollision Enum 48
+---@field TargetWasAlreadyDeadNoStatPool Enum 49
 ---@field PROJECT_SPECIFIC_FLAGS Enum 100000
 ---@field UsedKerenzikov Enum 100001
 ---@field FragmentationSplinter Enum 100002

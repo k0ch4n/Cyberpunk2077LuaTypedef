@@ -13,6 +13,10 @@ function RadioStationDataProvider.GetChannelName(radioStationType) end
 
 ---@param currentIndex Int32
 ---@return ERadioStationList
+function RadioStationDataProvider.GetNextStationPocketRadio(currentIndex) end
+
+---@param currentIndex Int32
+---@return ERadioStationList
 function RadioStationDataProvider.GetNextStationTo(currentIndex) end
 
 ---@param station ERadioStationList

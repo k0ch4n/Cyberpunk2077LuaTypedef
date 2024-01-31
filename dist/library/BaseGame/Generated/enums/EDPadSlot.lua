@@ -19,4 +19,5 @@
 ---@field VehicleInsideWheel Enum 15
 ---@field ConsumableWheel Enum 16
 ---@field PocketRadio Enum 17
+---@field VehicleVisualCustomization Enum 18
 EDPadSlot = {}

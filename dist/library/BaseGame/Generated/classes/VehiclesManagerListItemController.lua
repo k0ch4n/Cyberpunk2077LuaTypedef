@@ -27,5 +27,8 @@ function VehiclesManagerListItemController:OnInitialize() end
 ---@return Bool
 function VehiclesManagerListItemController:OnSelected(itemController, discreteNav) end
 
+---@return Bool
+function VehiclesManagerListItemController:OnUninitialize() end
+
 ---@return VehicleListItemData
 function VehiclesManagerListItemController:GetVehicleData() end

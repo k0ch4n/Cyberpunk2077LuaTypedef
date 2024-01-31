@@ -8,6 +8,7 @@
 ---@field itemWrapper inkWidgetReference
 ---@field cyberwareSlotRootRefs inkCompoundWidgetReference
 ---@field cyberwareHolder inkWidgetReference
+---@field cyberdeckInventoryStatsContainer inkCompoundWidgetReference
 ---@field paperDollWidget inkWidgetReference
 ---@field sortingButton inkWidgetReference
 ---@field sortingDropdown inkWidgetReference
@@ -64,6 +65,7 @@
 ---@field inventoryStatsListener InventoryStatsListener
 ---@field quantityPickerPopupToken inkGameNotificationToken
 ---@field psmBlackboard gameIBlackboard
+---@field cyberdeckInventoryStatsController CyberdeckInventoryStatsController
 ---@field equipmentAreaCategoryEventQueue EquipmentAreaCategoryCreated[]
 ---@field cyberwareItems gameInventoryItemData[]
 ---@field equipmentAreaCategories EquipmentAreaCategory[]

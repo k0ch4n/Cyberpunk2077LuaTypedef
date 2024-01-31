@@ -230,6 +230,10 @@ function Vendor:PlayerCanSell(itemID, allowQuestItems, excludeEquipped) end
 ---@return nil
 function Vendor:RegenerateStock() end
 
+---@param itemID gameItemID
+---@return Bool
+function Vendor:RemoveItemIDFromStock(itemID) end
+
 ---@param itemStack gameSItemStack
 ---@return Bool
 function Vendor:RemoveItemsFromStock(itemStack) end

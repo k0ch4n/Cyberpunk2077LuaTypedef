@@ -272,6 +272,10 @@ function InventoryDataManagerV2:FilterOutInvalidIDs(ids) end
 ---@return AbilityData
 function InventoryDataManagerV2:GetAbilityData(itemId) end
 
+---@param effectToCast gamedataStatusEffect_Record
+---@return Float
+function InventoryDataManagerV2:GetAdditionalOverheatDuration(effectToCast) end
+
 ---@param equipmentArea gamedataEquipmentArea
 ---@return gameInventoryItemData[]
 function InventoryDataManagerV2:GetAllComparisonItems(equipmentArea) end
@@ -468,14 +472,14 @@ function InventoryDataManagerV2:GetGrenadeDuration(attackRecord) end
 ---@return Float
 function InventoryDataManagerV2:GetGrenadeRange(grenadeRecord) end
 
----@param tooltipItemData gameInventoryItemData
----@return InventoryTooltiData_GrenadeData
-function InventoryDataManagerV2:GetGrenadeTooltipData(tooltipItemData) end
-
 ---@param itemID TweakDBID|string
 ---@param itemData gameItemData
 ---@return InventoryTooltiData_GrenadeData
 function InventoryDataManagerV2:GetGrenadeTooltipData(itemID, itemData) end
+
+---@param tooltipItemData gameInventoryItemData
+---@return InventoryTooltiData_GrenadeData
+function InventoryDataManagerV2:GetGrenadeTooltipData(tooltipItemData) end
 
 ---@param itemData gameItemData
 ---@return Float

@@ -10,6 +10,7 @@
 ---@field isCurrentTarget Bool
 ---@field visibleThroughWalls Bool
 ---@field hasOffscreenArrow Bool
+---@field isShardRead Bool
 ---@field range Float
 ---@field duration Float
 ---@field progressBarType EProgressBarType

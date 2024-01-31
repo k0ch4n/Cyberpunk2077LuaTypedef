@@ -5,6 +5,8 @@
 ---@field playerStatusEffectRecordData gamedataStatusEffectPlayerData_Record
 ---@field animFeatureStatusEffect AnimFeature_StatusEffect
 ---@field statusEffectEnumName String
+---@field timeInAnimState Float
+---@field timeInEffect Float
 StatusEffectEvents = {}
 
 ---@param fields? StatusEffectEvents
@@ -63,10 +65,8 @@ function StatusEffectEvents:GetStatusEffectRemainingDuration(scriptInterface, st
 ---@return gamedataStatusEffectType
 function StatusEffectEvents:GetStatusEffectType(scriptInterface, stateContext) end
 
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function StatusEffectEvents:GetTimeInStatusEffect(stateContext, scriptInterface) end
+function StatusEffectEvents:GetTimeInAnimState() end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
@@ -137,3 +137,8 @@ function StatusEffectEvents:ShouldRotateToSource() end
 ---@param type gamedataStatusEffectType
 ---@return Bool
 function StatusEffectEvents:ShouldUseCustomAdditives(scriptInterface, type) end
+
+---@param timeDelta Float
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function StatusEffectEvents:UpdateTimes(timeDelta, scriptInterface) end

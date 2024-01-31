@@ -27,3 +27,6 @@ function ShardCaseContainer:OnTakeControl(ri) end
 
 ---@return Bool
 function ShardCaseContainer:IsShardContainer() end
+
+---@return Bool
+function ShardCaseContainer:IsShardRead() end

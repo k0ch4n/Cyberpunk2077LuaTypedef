@@ -42,8 +42,9 @@ function InventoryItemPreferredComparisonResolver:FlushCache() end
 function InventoryItemPreferredComparisonResolver:ForceComparedItem(item) end
 
 ---@param equipmentArea gamedataEquipmentArea
+---@param comparedItemID? gameItemID
 ---@return InventoryItemPreferredAreaItems
-function InventoryItemPreferredComparisonResolver:GetAreaItems(equipmentArea) end
+function InventoryItemPreferredComparisonResolver:GetAreaItems(equipmentArea, comparedItemID) end
 
 ---@param item UIInventoryItem
 ---@return UIInventoryItem[]

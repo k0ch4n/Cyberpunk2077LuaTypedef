@@ -32,6 +32,12 @@
 ---@field ChaseTimeDelayToLeaveVehicle gamebbScriptID_Float
 ---@field MinimapMappinDeleteAnim gamebbScriptID_CName
 ---@field UseCarAlarmStim gamebbScriptID_Bool
+---@field VehicleCustomizationBlockedByDamage gamebbScriptID_Bool
+---@field VehicleCustomizationActive gamebbScriptID_Bool
+---@field VehicleCustomizationDecoPreset gamebbScriptID_Int32
+---@field VehicleCustomizationInstant gamebbScriptID_Bool
+---@field VehicleCustomizationWidgetDelay gamebbScriptID_Float
+---@field VehicleCustomizationPhotoMode gamebbScriptID_Bool
 VehicleDef = {}
 
 ---@param fields? VehicleDef

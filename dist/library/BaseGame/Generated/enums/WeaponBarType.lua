@@ -16,5 +16,9 @@
 ---@field MeleeCount Enum 12
 ---@field CyberwareAttackSpeed Enum 13
 ---@field CyberwareDamagePerHit Enum 14
+---@field CyberwareCount Enum 15
+---@field Healing Enum 16
+---@field HealingOverTime Enum 17
+---@field HealingCount Enum 18
 ---@field Invalid Enum -1
 WeaponBarType = {}

@@ -84,6 +84,8 @@
 ---@field screenDisplayContext ScreenDisplayContext
 ---@field globalSellInputPending Bool
 ---@field isPopupPending Bool
+---@field cursorData MenuCursorUserData
+---@field pressedItemDisplay InventoryItemDisplayController
 FullscreenVendorGameController = {}
 
 ---@param fields? FullscreenVendorGameController
@@ -156,6 +158,14 @@ function FullscreenVendorGameController:OnInventoryItemHoverOver(evt) end
 ---@param value Variant
 ---@return Bool
 function FullscreenVendorGameController:OnInventoryItemRemoved(value) end
+
+---@param evt ItemDisplayHoldEvent
+---@return Bool
+function FullscreenVendorGameController:OnItemDisplayHold(evt) end
+
+---@param evt ItemDisplayPressEvent
+---@return Bool
+function FullscreenVendorGameController:OnItemDisplayPress(evt) end
 
 ---@param data inkGameNotificationData
 ---@return Bool
@@ -262,11 +272,19 @@ function FullscreenVendorGameController:GetSellableJunk() end
 
 ---@param evt ItemDisplayClickEvent
 ---@return nil
-function FullscreenVendorGameController:HandleStorageSlotInput(evt) end
+function FullscreenVendorGameController:HandleStorageSlotClick(evt) end
+
+---@param evt ItemDisplayHoldEvent
+---@return nil
+function FullscreenVendorGameController:HandleStorageSlotHold(evt) end
 
 ---@param evt ItemDisplayClickEvent
 ---@return nil
-function FullscreenVendorGameController:HandleVendorSlotInput(evt) end
+function FullscreenVendorGameController:HandleVendorSlotClick(evt) end
+
+---@param evt ItemDisplayHoldEvent
+---@return nil
+function FullscreenVendorGameController:HandleVendorSlotHold(evt) end
 
 ---@return nil
 function FullscreenVendorGameController:Init() end

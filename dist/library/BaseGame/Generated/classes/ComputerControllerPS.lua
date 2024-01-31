@@ -142,6 +142,9 @@ function ComputerControllerPS:GetFileWidget(documentAdress) end
 ---@return TweakDBID
 function ComputerControllerPS:GetFileWidgetTweakDBID() end
 
+---@return Bool
+function ComputerControllerPS:GetHideTopNavigationBar() end
+
 ---@return EComputerMenuType
 function ComputerControllerPS:GetInitialMenuType() end
 

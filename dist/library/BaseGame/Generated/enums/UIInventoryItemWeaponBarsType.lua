@@ -6,4 +6,6 @@
 ---@field Throwable Enum 2
 ---@field CyberwareWeapon Enum 3
 ---@field CyberwareRangedWeapon Enum 4
+---@field InjectorHealing Enum 5
+---@field InhalerHealing Enum 6
 UIInventoryItemWeaponBarsType = {}

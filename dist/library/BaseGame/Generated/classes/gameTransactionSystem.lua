@@ -322,6 +322,17 @@ function gameTransactionSystem:IsSlotEmpty(obj, slotID) end
 ---@return Bool
 function gameTransactionSystem:IsSlotEmptySpawningItem(obj, slotID) end
 
+---@param obj gameObject
+---@param slotID TweakDBID|string
+---@return Bool
+function gameTransactionSystem:IsSlotSpawningAnyItem(obj, slotID) end
+
+---@param obj gameObject
+---@param slotID TweakDBID|string
+---@param itemID gameItemID
+---@return Bool
+function gameTransactionSystem:IsSlotSpawningItem(obj, slotID, itemID) end
+
 ---@param entity entEntity
 ---@param tag CName|string
 ---@param matchUsingDefaultAppearance? Bool

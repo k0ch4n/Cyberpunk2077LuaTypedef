@@ -13,6 +13,10 @@ UIInventoryItemProgramData = {}
 ---@return UIInventoryItemProgramData
 function UIInventoryItemProgramData.new(fields) end
 
+---@param effectToCast gamedataStatusEffect_Record
+---@return Float
+function UIInventoryItemProgramData.GetAdditionalOverheatDuration(effectToCast) end
+
 ---@param instance UIInventoryItemProgramData
 ---@param actionRecord gamedataObjectAction_Record
 ---@param player PlayerPuppet

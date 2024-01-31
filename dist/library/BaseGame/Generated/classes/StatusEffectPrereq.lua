@@ -7,6 +7,7 @@
 ---@field invert Bool
 ---@field fireAndForget Bool
 ---@field objectToCheck CName
+---@field evaluateOnRegister Bool
 StatusEffectPrereq = {}
 
 ---@param fields? StatusEffectPrereq

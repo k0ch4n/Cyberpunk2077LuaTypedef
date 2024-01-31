@@ -57,6 +57,10 @@ function Stash.IsInStash(stashObj, item) end
 
 ---@param stashObj gameObject
 ---@return nil
+function Stash.ProcessAmazonGritAttachmentsPurgeInStash(stashObj) end
+
+---@param stashObj gameObject
+---@return nil
 function Stash.ProcessGritModsPurgeInStash(stashObj) end
 
 ---@param stashObj gameObject

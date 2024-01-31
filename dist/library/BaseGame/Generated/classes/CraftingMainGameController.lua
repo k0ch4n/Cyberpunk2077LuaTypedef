@@ -113,6 +113,10 @@ function CraftingMainGameController:GetScriptableSystem() end
 ---@return gameuiTooltipsManager
 function CraftingMainGameController:GetTooltipManager() end
 
+---@param index Int32
+---@return Bool
+function CraftingMainGameController:IsCurrentTab(index) end
+
 ---@return Bool
 function CraftingMainGameController:IsTabEnabled() end
 

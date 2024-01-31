@@ -29,6 +29,9 @@ function cpPlayerSystem:IsCPOControlSchemeForced() end
 ---@return Bool
 function cpPlayerSystem:IsInFreeCamera() end
 
+---@return Bool
+function cpPlayerSystem:IsRestorationFinished() end
+
 ---@param entityID entEntityID
 ---@return nil
 function cpPlayerSystem:LocalPlayerControlExistingObject(entityID) end

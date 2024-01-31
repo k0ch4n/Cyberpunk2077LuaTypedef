@@ -13,6 +13,7 @@
 ---@field portals AIArgumentMapping
 ---@field trafficTryNeighborsForStart AIArgumentMapping
 ---@field trafficTryNeighborsForEnd AIArgumentMapping
+---@field ignoreNoAIDrivingLanes AIArgumentMapping
 AIbehaviorDriveToNodeTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorDriveToNodeTreeNodeDefinition

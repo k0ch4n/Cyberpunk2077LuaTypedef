@@ -142,6 +142,10 @@ function InventoryItemDisplayController:OnDisplayHoverOut(evt) end
 ---@return Bool
 function InventoryItemDisplayController:OnDisplayHoverOver(evt) end
 
+---@param evt inkPointerEvent
+---@return Bool
+function InventoryItemDisplayController:OnDisplayPressed(evt) end
+
 ---@param e inkCallbackData
 ---@return Bool
 function InventoryItemDisplayController:OnIconCallback(e) end
@@ -425,6 +429,10 @@ function InventoryItemDisplayController:SetDisplayContext(context, recipeData) e
 ---@return nil
 function InventoryItemDisplayController:SetHUDMode(inHUD) end
 
+---@param color CName|string
+---@return nil
+function InventoryItemDisplayController:SetHighlightColor(color) end
+
 ---@param value Bool
 ---@return nil
 function InventoryItemDisplayController:SetHighlighted(value) end
@@ -483,23 +491,6 @@ function InventoryItemDisplayController:SetUpgradableCyberware(isUpgradable) end
 ---@return nil
 function InventoryItemDisplayController:SetWardrobeDisabled(value) end
 
----@param itemData gameInventoryItemData
----@param equipmentArea gamedataEquipmentArea
----@param slotName? String
----@param slotIndex? Int32
----@param displayContext? gameItemDisplayContext
----@return nil
-function InventoryItemDisplayController:Setup(itemData, equipmentArea, slotName, slotIndex, displayContext) end
-
----@param inventoryItem UIInventoryItem
----@param displayContextData ItemDisplayContextData
----@param isEnoughMoney? Bool
----@param owned? Bool
----@param isUpgradable? Bool
----@param overrideQuantity? Int32
----@return nil
-function InventoryItemDisplayController:Setup(inventoryItem, displayContextData, isEnoughMoney, owned, isUpgradable, overrideQuantity) end
-
 ---@param inventoryItem UIInventoryItem
 ---@param equipmentArea gamedataEquipmentArea
 ---@param slotName? String
@@ -508,19 +499,6 @@ function InventoryItemDisplayController:Setup(inventoryItem, displayContextData,
 ---@return nil
 function InventoryItemDisplayController:Setup(inventoryItem, equipmentArea, slotName, slotIndex, displayContextData) end
 
----@param itemData gameInventoryItemData
----@param displayContext gameItemDisplayContext
----@param isEnoughMoney? Bool
----@param owned? Bool
----@param isUpgradable? Bool
----@return nil
-function InventoryItemDisplayController:Setup(itemData, displayContext, isEnoughMoney, owned, isUpgradable) end
-
----@param recipeData RecipeData
----@param displayContext? gameItemDisplayContext
----@return nil
-function InventoryItemDisplayController:Setup(recipeData, displayContext) end
-
 ---@param inventoryItem UIInventoryItem
 ---@param equipmentArea gamedataEquipmentArea
 ---@param slotName? String
@@ -528,15 +506,6 @@ function InventoryItemDisplayController:Setup(recipeData, displayContext) end
 ---@param displayContext? gameItemDisplayContext
 ---@return nil
 function InventoryItemDisplayController:Setup(inventoryItem, equipmentArea, slotName, slotIndex, displayContext) end
-
----@param itemData gameInventoryItemData
----@param slotIndex? Int32
----@return nil
-function InventoryItemDisplayController:Setup(itemData, slotIndex) end
-
----@param tooltipData InventoryTooltipData
----@return nil
-function InventoryItemDisplayController:Setup(tooltipData) end
 
 ---@param inventoryDataManager InventoryDataManagerV2
 ---@param itemData gameInventoryItemData
@@ -553,9 +522,48 @@ function InventoryItemDisplayController:Setup(inventoryDataManager, itemData, sl
 function InventoryItemDisplayController:Setup(itemData, slotID, displayContext) end
 
 ---@param inventoryItem UIInventoryItem
+---@param displayContextData ItemDisplayContextData
+---@param isEnoughMoney? Bool
+---@param owned? Bool
+---@param isUpgradable? Bool
+---@param overrideQuantity? Int32
+---@return nil
+function InventoryItemDisplayController:Setup(inventoryItem, displayContextData, isEnoughMoney, owned, isUpgradable, overrideQuantity) end
+
+---@param inventoryItem UIInventoryItem
 ---@param slotIndex? Int32
 ---@return nil
 function InventoryItemDisplayController:Setup(inventoryItem, slotIndex) end
+
+---@param itemData gameInventoryItemData
+---@param equipmentArea gamedataEquipmentArea
+---@param slotName? String
+---@param slotIndex? Int32
+---@param displayContext? gameItemDisplayContext
+---@return nil
+function InventoryItemDisplayController:Setup(itemData, equipmentArea, slotName, slotIndex, displayContext) end
+
+---@param itemData gameInventoryItemData
+---@param displayContext gameItemDisplayContext
+---@param isEnoughMoney? Bool
+---@param owned? Bool
+---@param isUpgradable? Bool
+---@return nil
+function InventoryItemDisplayController:Setup(itemData, displayContext, isEnoughMoney, owned, isUpgradable) end
+
+---@param recipeData RecipeData
+---@param displayContext? gameItemDisplayContext
+---@return nil
+function InventoryItemDisplayController:Setup(recipeData, displayContext) end
+
+---@param itemData gameInventoryItemData
+---@param slotIndex? Int32
+---@return nil
+function InventoryItemDisplayController:Setup(itemData, slotIndex) end
+
+---@param tooltipData InventoryTooltipData
+---@return nil
+function InventoryItemDisplayController:Setup(tooltipData) end
 
 ---@return Bool
 function InventoryItemDisplayController:ShouldShowEquipped() end

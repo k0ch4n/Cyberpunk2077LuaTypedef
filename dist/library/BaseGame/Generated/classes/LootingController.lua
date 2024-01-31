@@ -66,6 +66,10 @@ function LootingController:OnItemsPoolItemSpawned(widget, userData) end
 ---@return Bool
 function LootingController:OnWidgetsPoolItemSpawned(widget, userData) end
 
+---@param inspectedItem UIInventoryItem
+---@return UIInventoryItem
+function LootingController:GetComparisonHealingItem(inspectedItem) end
+
 ---@return entEntityID
 function LootingController:GetCurrentItemOwnerId() end
 
@@ -95,13 +99,13 @@ function LootingController:GetMinimalLootingData(itemData, itemRecord, equipment
 ---@return UIInventoryItem
 function LootingController:GetOrCreateUIInventoryItem(itemData) end
 
----@param itemRecord gamedataItem_Record
----@return gameJournalOnscreen
-function LootingController:GetShardData(itemRecord) end
-
 ---@param itemTDBID TweakDBID|string
 ---@return gameJournalOnscreen
 function LootingController:GetShardData(itemTDBID) end
+
+---@param itemRecord gamedataItem_Record
+---@return gameJournalOnscreen
+function LootingController:GetShardData(itemRecord) end
 
 ---@param index Int32
 ---@return entEntityID

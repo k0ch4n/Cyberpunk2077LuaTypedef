@@ -16,6 +16,10 @@ FindTeleportPositionKurt = {}
 function FindTeleportPositionKurt.new(fields) end
 
 ---@param context AIbehaviorScriptExecutionContext
+---@return nil
+function FindTeleportPositionKurt:Activate(context) end
+
+---@param context AIbehaviorScriptExecutionContext
 ---@param targetPosition Vector4
 ---@return Bool
 function FindTeleportPositionKurt:CheckForGround(context, targetPosition) end

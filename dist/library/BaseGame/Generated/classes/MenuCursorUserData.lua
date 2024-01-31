@@ -13,6 +13,10 @@ function MenuCursorUserData.new(fields) end
 ---@return nil
 function MenuCursorUserData:AddAction(action) end
 
+---@param action CName|string
+---@return nil
+function MenuCursorUserData:AddUniqueAction(action) end
+
 ---@return CName[]
 function MenuCursorUserData:GetActions() end
 
@@ -21,6 +25,10 @@ function MenuCursorUserData:GetActionsListSize() end
 
 ---@return CName
 function MenuCursorUserData:GetAnimationOverride() end
+
+---@param action CName|string
+---@return nil
+function MenuCursorUserData:RemoveAction(action) end
 
 ---@param anim CName|string
 ---@return nil

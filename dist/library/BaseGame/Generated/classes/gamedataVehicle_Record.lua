@@ -60,6 +60,9 @@ function gamedataVehicle_Record:CrowdMemberSettingsHandle() end
 ---@return redResourceReferenceScriptToken
 function gamedataVehicle_Record:CurvesPath() end
 
+---@return CName
+function gamedataVehicle_Record:CustomizableAppearance() end
+
 ---@return String
 function gamedataVehicle_Record:DebugStatusString() end
 
@@ -243,6 +246,12 @@ function gamedataVehicle_Record:GetWeaponsItem(index) end
 ---@param index Int32
 ---@return gamedataVehicleWeapon_Record
 function gamedataVehicle_Record:GetWeaponsItemHandle(index) end
+
+---@return Bool
+function gamedataVehicle_Record:HasSideWindows() end
+
+---@return Bool
+function gamedataVehicle_Record:HasVisualCustomization() end
 
 ---@return Int32[]
 function gamedataVehicle_Record:HeadlightColor() end
@@ -554,6 +563,9 @@ function gamedataVehicle_Record:VehicleUIData() end
 
 ---@return gamedataVehicleUIData_Record
 function gamedataVehicle_Record:VehicleUIDataHandle() end
+
+---@return Bool
+function gamedataVehicle_Record:VisualCustomizationTeaser() end
 
 ---@return gamedataVehicleVisualDestruction_Record
 function gamedataVehicle_Record:VisualDestruction() end

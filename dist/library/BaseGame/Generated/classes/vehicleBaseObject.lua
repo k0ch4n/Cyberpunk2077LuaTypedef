@@ -19,6 +19,7 @@
 ---@field triggerPanicDrivingEventDelayID gameDelayID
 ---@field reactionTriggerEvent HandleReactionEvent
 ---@field fearInside Bool
+---@field photoModeActiveListener redCallbackObject
 ---@field vehicleUpsideDown Bool
 ---@field isQhackUploadInProgress Bool
 ---@field hitByPlayer Bool
@@ -394,6 +395,9 @@ function vehicleBaseObject:OnDamageReceived(evt) end
 ---@return Bool
 function vehicleBaseObject:OnDelayReactionToMissingPassengersEvent(evt) end
 
+---@return Bool
+function vehicleBaseObject:OnDetach() end
+
 ---@param evt DeviceLinkRequest
 ---@return Bool
 function vehicleBaseObject:OnDeviceLinkRequest(evt) end
@@ -429,6 +433,10 @@ function vehicleBaseObject:OnLookedAtEvent(evt) end
 ---@return Bool
 function vehicleBaseObject:OnMountingEvent(evt) end
 
+---@param evt NewVehicleVisualCustomizationEvent
+---@return Bool
+function vehicleBaseObject:OnNewVehicleVisualCustomizationEvent(evt) end
+
 ---@param evt gameOffPavement
 ---@return Bool
 function vehicleBaseObject:OnOffPavement(evt) end
@@ -440,6 +448,10 @@ function vehicleBaseObject:OnOutOfCrowd(evt) end
 ---@param evt gameOnPavement
 ---@return Bool
 function vehicleBaseObject:OnPavement(evt) end
+
+---@param evt VehicleCustomizationLightsEvent
+---@return Bool
+function vehicleBaseObject:OnProcessVehicleVisualCustomizationLights(evt) end
 
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
@@ -456,6 +468,10 @@ function vehicleBaseObject:OnStealVehicleEvent(evt) end
 ---@param evt vehicleVehicleStuckEvent
 ---@return Bool
 function vehicleBaseObject:OnStuckEvent(evt) end
+
+---@param evt SwitchVehicleVisualCustomizationStateEvent
+---@return Bool
+function vehicleBaseObject:OnSwitchVehicleVisualCustomizationStateEvent(evt) end
 
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
@@ -497,6 +513,14 @@ function vehicleBaseObject:OnVehicleFinishedMounting(evt) end
 ---@return Bool
 function vehicleBaseObject:OnVehicleFlippedOverEvent(evt) end
 
+---@param evt VehicleVisualCustomizationPerformedEvent
+---@return Bool
+function vehicleBaseObject:OnVehicleVisualCustomizationPerformedEvent(evt) end
+
+---@param val Bool
+---@return Bool
+function vehicleBaseObject:OnVisualCustomizationPhotomodeStateChangeEvent(val) end
+
 ---@param evt WaitForPassengersToSpawnEvent
 ---@return Bool
 function vehicleBaseObject:OnWaitForPassengersToSpawnEvent(evt) end
@@ -528,6 +552,14 @@ function vehicleBaseObject:DamagePipelineFinalized(evt) end
 ---@return nil
 function vehicleBaseObject:EscalateBumpVehicleReaction() end
 
+---@param set Bool
+---@param reset Bool
+---@param instant Bool
+---@param delay? Float
+---@param noVFX? Bool
+---@return nil
+function vehicleBaseObject:ExecuteVisualCustomizationWithDelay(set, reset, instant, delay, noVFX) end
+
 ---@return gameAttitudeAgent
 function vehicleBaseObject:GetAttitudeAgent() end
 
@@ -545,6 +577,9 @@ function vehicleBaseObject:GetCurrentSpeed() end
 
 ---@return ScriptableDeviceAction
 function vehicleBaseObject:GetCurrentlyUploadingAction() end
+
+---@return WorldWidgetComponent[]
+function vehicleBaseObject:GetCustomizationWidgets() end
 
 ---@return FocusForcedHighlightData
 function vehicleBaseObject:GetDefaultHighlight() end
@@ -633,20 +668,24 @@ function vehicleBaseObject:PanicDrivingBehavior() end
 ---@return nil
 function vehicleBaseObject:ReactToHitProcess(hitEvent) end
 
+---@param tag CName|string
+---@return Bool
+function vehicleBaseObject:RecordHasTag(tag) end
+
 ---@param vehicleRecord gamedataVehicle_Record
 ---@param tag CName|string
 ---@return Bool
 function vehicleBaseObject:RecordHasTag(vehicleRecord, tag) end
-
----@param tag CName|string
----@return Bool
-function vehicleBaseObject:RecordHasTag(tag) end
 
 ---@param character gameObject
 ---@param slotID CName|string
 ---@param stealingAction Bool
 ---@return Bool
 function vehicleBaseObject:ReevaluateStealing(character, slotID, stealingAction) end
+
+---@param val Bool
+---@return nil
+function vehicleBaseObject:RegisterVisualCustomizationPhotoModeListener(val) end
 
 ---@return nil
 function vehicleBaseObject:ResendHandleReactionEvent() end
@@ -685,6 +724,9 @@ function vehicleBaseObject:ShouldShowScanner() end
 ---@param thief gameObject
 ---@return nil
 function vehicleBaseObject:StealVehicle(thief) end
+
+---@return nil
+function vehicleBaseObject:SyncVehicleVisualCustomizationDefinition() end
 
 ---@param threatPosition Vector4
 ---@return nil

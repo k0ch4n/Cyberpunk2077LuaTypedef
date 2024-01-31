@@ -7,6 +7,8 @@
 ---@field emptyInventoryText inkTextWidgetReference
 ---@field filterButtonsGrid inkCompoundWidgetReference
 ---@field outfitsFilterInfoText inkTextWidgetReference
+---@field prevFilterHint inkWidgetReference
+---@field nextFilterHint inkWidgetReference
 ---@field itemGridContainer inkWidgetReference
 ---@field itemGridScrollControllerWidget inkWidgetReference
 ---@field wardrobeSlotsContainer inkWidgetReference
@@ -37,7 +39,9 @@
 ---@field itemGridDataView ItemModeGridView
 ---@field itemGridDataSource inkScriptableDataSourceWrapper
 ---@field activeFilter BackpackFilterButtonController
+---@field filters BackpackFilterButtonController[]
 ---@field filterManager ItemCategoryFliterManager
+---@field currentFilterIndex Int32
 ---@field savedFilter ItemFilterCategory
 ---@field lastSelectedDisplay InventoryItemDisplayController
 ---@field itemModeInventoryListenerCallback ItemModeInventoryListenerCallback
@@ -60,13 +64,18 @@
 ---@field delayedItemEquippedRequested Bool
 ---@field delaySystem gameDelaySystem
 ---@field delayedTimeoutCallbackId gameDelayID
+---@field delayedOutfitCooldownResetCallbackId gameDelayID
 ---@field timeoutPeroid Float
+---@field outfitInCooldown Bool
+---@field outfitCooldownPeroid Float
 ---@field tokenPopup inkGameNotificationToken
 ---@field refreshRequested Bool
 ---@field currentFilter ItemFilterCategory
 ---@field viewMode ItemViewModes
 ---@field currentItems WrappedInventoryItemData[]
----@field previousSelectedItem gameItemID
+---@field previousSelectedItem InventoryItemDisplayController
+---@field cursorData MenuCursorUserData
+---@field pressedItemDisplay InventoryItemDisplayController
 ---@field virtualGridInitialized Bool
 ---@field replaceModNotification inkGameNotificationToken
 ---@field installModData InstallModConfirmationData
@@ -100,6 +109,10 @@ function InventoryItemModeLogicController:OnDisassembleComplete(value) end
 ---@param inProgress Bool
 ---@return Bool
 function InventoryItemModeLogicController:OnEquipmentInProgress(inProgress) end
+
+---@param evt inkPointerEvent
+---@return Bool
+function InventoryItemModeLogicController:OnFilterHotkeyPressed(evt) end
 
 ---@return Bool
 function InventoryItemModeLogicController:OnInitialize() end
@@ -147,6 +160,10 @@ function InventoryItemModeLogicController:OnItemDisplayHoverOut(evt) end
 ---@param evt ItemDisplayHoverOverEvent
 ---@return Bool
 function InventoryItemModeLogicController:OnItemDisplayHoverOver(evt) end
+
+---@param evt ItemDisplayPressEvent
+---@return Bool
+function InventoryItemModeLogicController:OnItemDisplayPress(evt) end
 
 ---@param value Variant
 ---@return Bool
@@ -274,8 +291,9 @@ function InventoryItemModeLogicController:HandleItemClick(itemData, actionName, 
 ---@param itemData gameInventoryItemData
 ---@param actionName inkActionName
 ---@param isPlayerLocked Bool
+---@param controller InventoryItemDisplayController
 ---@return nil
-function InventoryItemModeLogicController:HandleItemHold(itemData, actionName, isPlayerLocked) end
+function InventoryItemModeLogicController:HandleItemHold(itemData, actionName, isPlayerLocked, controller) end
 
 ---@return nil
 function InventoryItemModeLogicController:HandleItemHoverOut() end
@@ -286,21 +304,21 @@ function InventoryItemModeLogicController:HideTooltips() end
 ---@return nil
 function InventoryItemModeLogicController:InvalidateItemTooltipEvent() end
 
----@param equipmentAreas gamedataEquipmentArea[]
----@return Bool
-function InventoryItemModeLogicController:IsEquipmentAreaClothing(equipmentAreas) end
-
 ---@param equipmentArea gamedataEquipmentArea
 ---@return Bool
 function InventoryItemModeLogicController:IsEquipmentAreaClothing(equipmentArea) end
 
----@param equipmentArea gamedataEquipmentArea
+---@param equipmentAreas gamedataEquipmentArea[]
 ---@return Bool
-function InventoryItemModeLogicController:IsEquipmentAreaWeapon(equipmentArea) end
+function InventoryItemModeLogicController:IsEquipmentAreaClothing(equipmentAreas) end
 
 ---@param equipmentAreas gamedataEquipmentArea[]
 ---@return Bool
 function InventoryItemModeLogicController:IsEquipmentAreaWeapon(equipmentAreas) end
+
+---@param equipmentArea gamedataEquipmentArea
+---@return Bool
+function InventoryItemModeLogicController:IsEquipmentAreaWeapon(equipmentArea) end
 
 ---@param itemType gamedataItemType
 ---@return Bool
@@ -323,6 +341,10 @@ function InventoryItemModeLogicController:IsUnequipBlocked(itemID) end
 ---@param targetSet gameWardrobeClothingSetIndex
 ---@return Bool
 function InventoryItemModeLogicController:IsWardrobeSetDefined(sets, targetSet) end
+
+---@param option ECustomFilterDPadNavigationOption
+---@return nil
+function InventoryItemModeLogicController:NavigateFilters(option) end
 
 ---@return nil
 function InventoryItemModeLogicController:NotifyItemUpdate() end
@@ -361,6 +383,12 @@ function InventoryItemModeLogicController:RequestClose() end
 ---@return nil
 function InventoryItemModeLogicController:RequestItemInspected(itemID) end
 
+---@return nil
+function InventoryItemModeLogicController:ResetScrollPosition() end
+
+---@return Bool
+function InventoryItemModeLogicController:ScheduleOutfitCooldownReset() end
+
 ---@param targetFilter ItemFilterCategory
 ---@return nil
 function InventoryItemModeLogicController:SelectFilterButton(targetFilter) end
@@ -394,6 +422,10 @@ function InventoryItemModeLogicController:SetInventoryItemButtonHintsHoverOut() 
 ---@param display? InventoryItemDisplayController
 ---@return nil
 function InventoryItemModeLogicController:SetInventoryItemButtonHintsHoverOver(displayingData, display) end
+
+---@param inCooldown Bool
+---@return nil
+function InventoryItemModeLogicController:SetOutfitCooldown(inCooldown) end
 
 ---@param itemID gameItemID
 ---@param isUnequip Bool
@@ -442,14 +474,14 @@ function InventoryItemModeLogicController:ShowNotification(type) end
 ---@return nil
 function InventoryItemModeLogicController:ShowTooltipsForItemData(equippedItem, target, inspectedItemData, skipCompare, iconErrorInfo, display, transmogItem) end
 
----@param modifiedItem gameInventoryItemData
----@param itemPart gameInventoryItemData
+---@param modifiedItem gameTelemetryInventoryItem
+---@param itemPart gameTelemetryInventoryItem
 ---@param slotID TweakDBID|string
 ---@return nil
 function InventoryItemModeLogicController:TelemetryLogPartInstalled(modifiedItem, itemPart, slotID) end
 
----@param modifiedItem gameTelemetryInventoryItem
----@param itemPart gameTelemetryInventoryItem
+---@param modifiedItem gameInventoryItemData
+---@param itemPart gameInventoryItemData
 ---@param slotID TweakDBID|string
 ---@return nil
 function InventoryItemModeLogicController:TelemetryLogPartInstalled(modifiedItem, itemPart, slotID) end
@@ -498,13 +530,13 @@ function InventoryItemModeLogicController:UpdateFavouriteHint(state) end
 function InventoryItemModeLogicController:UpdateGridItemFavourite(itemID, favourite) end
 
 ---@param active Bool
----@return nil
-function InventoryItemModeLogicController:UpdateOutfitWardrobe(active) end
-
----@param active Bool
 ---@param activeSetOverride Int32
 ---@return nil
 function InventoryItemModeLogicController:UpdateOutfitWardrobe(active, activeSetOverride) end
+
+---@param active Bool
+---@return nil
+function InventoryItemModeLogicController:UpdateOutfitWardrobe(active) end
 
 ---@param setID gameWardrobeClothingSetIndex
 ---@return nil

@@ -35,6 +35,7 @@
 ---@field Popup_VehiclesManager_IsShown gamebbScriptID_Bool
 ---@field Popup_Radio_IsShown gamebbScriptID_Bool
 ---@field Popup_Radio_Enabled gamebbScriptID_Bool
+---@field Popup_CarColorPicker_IsShown gamebbScriptID_Bool
 UIGameDataDef = {}
 
 ---@param fields? UIGameDataDef

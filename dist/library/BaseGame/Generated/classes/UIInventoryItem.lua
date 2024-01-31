@@ -275,6 +275,9 @@ function UIInventoryItem:IsCyberwareWeapon() end
 function UIInventoryItem:IsEquipped(force) end
 
 ---@return Bool
+function UIInventoryItem:IsHealingItem() end
+
+---@return Bool
 function UIInventoryItem:IsIconic() end
 
 ---@return Bool
@@ -309,6 +312,9 @@ function UIInventoryItem:IsSellable() end
 
 ---@return Bool
 function UIInventoryItem:IsTransmogItem() end
+
+---@return Bool
+function UIInventoryItem:IsUsingBars() end
 
 ---@return Bool
 function UIInventoryItem:IsWeapon() end

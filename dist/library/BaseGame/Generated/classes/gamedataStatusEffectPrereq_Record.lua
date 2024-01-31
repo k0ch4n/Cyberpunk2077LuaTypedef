@@ -14,6 +14,9 @@ function gamedataStatusEffectPrereq_Record:CheckType() end
 function gamedataStatusEffectPrereq_Record:CheckTypeHandle() end
 
 ---@return Bool
+function gamedataStatusEffectPrereq_Record:EvaluateOnRegister() end
+
+---@return Bool
 function gamedataStatusEffectPrereq_Record:Invert() end
 
 ---@return CName

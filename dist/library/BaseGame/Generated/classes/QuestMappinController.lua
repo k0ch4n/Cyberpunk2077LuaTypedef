@@ -68,6 +68,9 @@ function QuestMappinController:IsIconic() end
 function QuestMappinController:IsQuest() end
 
 ---@return Bool
+function QuestMappinController:IsShardRead() end
+
+---@return Bool
 function QuestMappinController:IsTagged() end
 
 ---@return Bool

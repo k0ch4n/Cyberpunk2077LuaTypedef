@@ -31,6 +31,7 @@
 ---@field expansionErrorToken inkGameNotificationToken
 ---@field patchNotesToken inkGameNotificationToken
 ---@field expansionStateToken inkGameNotificationToken
+---@field vehicleVisualCustomizationSelectorToken inkGameNotificationToken
 gameuiPopupsManager = {}
 
 ---@param fields? gameuiPopupsManager
@@ -168,6 +169,10 @@ function gameuiPopupsManager:OnVehicleRadioCloseRequest(data) end
 
 ---@param data inkGameNotificationData
 ---@return Bool
+function gameuiPopupsManager:OnVehicleVisualCustomizationCloseRequest(data) end
+
+---@param data inkGameNotificationData
+---@return Bool
 function gameuiPopupsManager:OnVehiclesManagerCloseRequest(data) end
 
 ---@return nil
@@ -217,6 +222,9 @@ function gameuiPopupsManager:ShowTutorial() end
 function gameuiPopupsManager:SpawnVehicleRadioPopup() end
 
 ---@return nil
+function gameuiPopupsManager:SpawnVehicleVisualCustomizationSelectorPopup() end
+
+---@return nil
 function gameuiPopupsManager:SpawnVehiclesManagerPopup() end
 
 ---@return nil
@@ -224,3 +232,6 @@ function gameuiPopupsManager:TrySpawnPocketRadioPopup() end
 
 ---@return nil
 function gameuiPopupsManager:TrySpawnVehicleRadioPopup() end
+
+---@return nil
+function gameuiPopupsManager:TrySpawnVehicleVisualCustomizationSelectorPopup() end

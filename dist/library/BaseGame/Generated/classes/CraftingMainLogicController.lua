@@ -50,6 +50,7 @@
 ---@field Game ScriptGameInstance
 ---@field firstClicked Bool
 ---@field progress Float
+---@field isFirstOpen Bool
 CraftingMainLogicController = {}
 
 ---@param fields? CraftingMainLogicController
@@ -123,8 +124,9 @@ function CraftingMainLogicController:InitVirtualList() end
 ---@return Bool
 function CraftingMainLogicController:IsEmptyData() end
 
+---@param isCurrent Bool
 ---@return nil
-function CraftingMainLogicController:OnChangeTab() end
+function CraftingMainLogicController:OnChangeTab(isCurrent) end
 
 ---@param evt inkPointerEvent
 ---@return nil

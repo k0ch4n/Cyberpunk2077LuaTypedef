@@ -46,6 +46,9 @@ function ItemCategoryFliterManager:GetAt(index) end
 ---@return ItemFilterCategory[]
 function ItemCategoryFliterManager:GetFiltersList() end
 
+---@return Int32
+function ItemCategoryFliterManager:GetFiltersListSize() end
+
 ---@return Int32[]
 function ItemCategoryFliterManager:GetIntFiltersList() end
 

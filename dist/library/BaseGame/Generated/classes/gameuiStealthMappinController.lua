@@ -140,6 +140,9 @@ function gameuiStealthMappinController:PlayAnim(animName, callBack) end
 function gameuiStealthMappinController:PlayNameplateAnim(animName, callBack) end
 
 ---@return nil
+function gameuiStealthMappinController:ResetMainArtWidgetProperties() end
+
+---@return nil
 function gameuiStealthMappinController:SetGameInstance() end
 
 ---@return Bool

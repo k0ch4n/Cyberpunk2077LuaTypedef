@@ -71,6 +71,9 @@ function VehicleRadioPopupGameController:GetRadioReceiverStationName() end
 ---@return CName
 function VehicleRadioPopupGameController:GetRadioReceiverTrackName() end
 
+---@return CName
+function VehicleRadioPopupGameController:GetVolumeSettingVarName() end
+
 ---@return Bool
 function VehicleRadioPopupGameController:IsRadioReceiverActive() end
 

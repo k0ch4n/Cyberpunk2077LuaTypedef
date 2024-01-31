@@ -24,6 +24,7 @@
 ---@field tooltipRightAnchor inkWidgetReference
 ---@field upgradeResourcesAnchor inkCompoundWidgetReference
 ---@field upgradeCWInputName CName
+---@field upgradeResourcesContainerMaxWidth Float
 ---@field allocationPointContainerDefault inkCompoundWidgetReference
 ---@field inventoryViewAnchor inkCompoundWidgetReference
 ---@field selectorAnchor inkCompoundWidgetReference
@@ -252,6 +253,14 @@ function RipperDocGameController:OnCategoryHoverOverEvent(evt) end
 ---@return Bool
 function RipperDocGameController:OnCloseMenu(userData) end
 
+---@param evt inkPointerEvent
+---@return Bool
+function RipperDocGameController:OnCraftingMaterialHoverOut(evt) end
+
+---@param evt inkPointerEvent
+---@return Bool
+function RipperDocGameController:OnCraftingMaterialHoverOver(evt) end
+
 ---@param widget inkWidget
 ---@param callbackData BackpackCraftingMaterialItemCallbackData
 ---@return Bool
@@ -376,15 +385,18 @@ function RipperDocGameController:AddTutorialItemsToStock(area, force) end
 ---@return nil
 function RipperDocGameController:AnimateMinigrids() end
 
----@param itemData gameItemData
----@param equipped gameItemData
----@return Bool
-function RipperDocGameController:CheckIfCanEquip(itemData, equipped) end
+---@return nil
+function RipperDocGameController:CheckCraftingMaterialContainerOverflow() end
 
 ---@param itemData gameItemData
 ---@param itemArea gamedataEquipmentArea
 ---@return Bool
 function RipperDocGameController:CheckIfCanEquip(itemData, itemArea) end
+
+---@param itemData gameItemData
+---@param equipped gameItemData
+---@return Bool
+function RipperDocGameController:CheckIfCanEquip(itemData, equipped) end
 
 ---@return Bool
 function RipperDocGameController:CheckTokenAvailability() end
@@ -495,15 +507,15 @@ function RipperDocGameController:GetItemArmor(item) end
 ---@return nil, Float attunemend, Float multiplier
 function RipperDocGameController:GetItemArmorBonuses(item) end
 
----@param itemData gameItemData
----@param attribute gamedataStatType
----@return Float
-function RipperDocGameController:GetItemAttribute(itemData, attribute) end
-
 ---@param item UIInventoryItem
 ---@param attribute gamedataStatType
 ---@return Float
 function RipperDocGameController:GetItemAttribute(item, attribute) end
+
+---@param itemData gameItemData
+---@param attribute gamedataStatType
+---@return Float
+function RipperDocGameController:GetItemAttribute(itemData, attribute) end
 
 ---@param item UIInventoryItem
 ---@return gameSItemStackRequirementData[]
@@ -654,8 +666,9 @@ function RipperDocGameController:RequestItemInspected(itemID) end
 function RipperDocGameController:ResetMinigridPositions() end
 
 ---@param toDefault Bool
+---@param isClose? Bool
 ---@return nil
-function RipperDocGameController:SetButtonHints(toDefault) end
+function RipperDocGameController:SetButtonHints(toDefault, isClose) end
 
 ---@param item UIInventoryItem
 ---@param isVendorItem Bool

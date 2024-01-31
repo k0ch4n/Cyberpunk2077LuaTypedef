@@ -6,6 +6,7 @@
 ---@field cluesContainer inkCompoundWidgetReference
 ---@field toggleDescirptionHackPart inkWidgetReference
 ---@field kiroshiLogo inkWidgetReference
+---@field lastOpenTab ScannerDetailTab
 ---@field player gameObject
 ---@field scanningState gameScanningState
 ---@field scannedObjectType ScannerObjectType

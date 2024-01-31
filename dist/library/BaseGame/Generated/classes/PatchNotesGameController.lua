@@ -1,8 +1,8 @@
 ---@meta
 
 ---@class PatchNotesGameController: gameuiWidgetGameController
----@field ["21NotesContainerRef"] inkWidgetReference
----@field ["20NotesContainerRef"] inkWidgetReference
+---@field notesContainerRef inkCompoundWidgetReference
+---@field patch20TitleContainerRef inkWidgetReference
 ---@field itemLibraryName CName
 ---@field introAnimationName CName
 ---@field outroAnimationName CName
@@ -29,11 +29,6 @@ function PatchNotesGameController:OnInitialize() end
 ---@return Bool
 function PatchNotesGameController:OnIntroAnimationFinished(proxy) end
 
----@param widget inkWidget
----@param userData IScriptable
----@return Bool
-function PatchNotesGameController:OnNoteSpawned(widget, userData) end
-
 ---@param proxy inkanimProxy
 ---@return Bool
 function PatchNotesGameController:OnOutroAnimationFinished(proxy) end
@@ -58,7 +53,6 @@ function PatchNotesGameController:PopulateNotesList() end
 
 ---@param title CName|string
 ---@param description CName|string
----@param patch CName|string
 ---@param imagePart CName|string
 ---@return nil
-function PatchNotesGameController:SpawnNote(title, description, patch, imagePart) end
+function PatchNotesGameController:SpawnNote(title, description, imagePart) end

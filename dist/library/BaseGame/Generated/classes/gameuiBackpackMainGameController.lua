@@ -21,6 +21,7 @@
 ---@field itemDropQueueItems gameItemID[]
 ---@field itemDropQueue gameItemModParams[]
 ---@field junkItems UIInventoryItem[]
+---@field isRefreshUIScheduled Bool
 ---@field craftingMaterialsListItems CrafringMaterialItemController[]
 ---@field DisassembleCallback UI_CraftingDef
 ---@field DisassembleBlackboard gameIBlackboard
@@ -30,7 +31,9 @@
 ---@field EquippedBBID redCallbackObject
 ---@field InventoryCallback UI_InventoryDef
 ---@field InventoryBlackboard gameIBlackboard
----@field InventoryBBID redCallbackObject
+---@field InventoryItemAddedBBID redCallbackObject
+---@field InventoryItemRemvoedBBID redCallbackObject
+---@field InventoryItemQuantityChangedBBID redCallbackObject
 ---@field menuEventDispatcher inkMenuEventDispatcher
 ---@field activeFilter BackpackFilterButtonController
 ---@field filterSpawnRequests inkAsyncSpawnRequest[]
@@ -56,6 +59,11 @@
 ---@field isComparisonDisabled Bool
 ---@field immediateNotificationListener BakcpackImmediateNotificationListener
 ---@field lastDisassembledWidget InventoryItemDisplayController
+---@field cursorData MenuCursorUserData
+---@field pressedItemDisplay InventoryItemDisplayController
+---@field delayedOutfitCooldownResetCallbackId gameDelayID
+---@field outfitInCooldown Bool
+---@field outfitCooldownPeroid Float
 ---@field virtualWidgets inkScriptWeakHashMap
 ---@field allWidgets inkScriptWeakHashMap
 ---@field itemPreviewPopupToken inkGameNotificationToken
@@ -121,6 +129,14 @@ function gameuiBackpackMainGameController:OnInitialize() end
 
 ---@param value Variant
 ---@return Bool
+function gameuiBackpackMainGameController:OnInventoryItemAdded(value) end
+
+---@param value Variant
+---@return Bool
+function gameuiBackpackMainGameController:OnInventoryItemQuantityChanged(value) end
+
+---@param value Variant
+---@return Bool
 function gameuiBackpackMainGameController:OnInventoryItemRemoved(value) end
 
 ---@param evt ItemDisplayClickEvent
@@ -138,6 +154,10 @@ function gameuiBackpackMainGameController:OnItemDisplayHoverOut(evt) end
 ---@param evt ItemDisplayHoverOverEvent
 ---@return Bool
 function gameuiBackpackMainGameController:OnItemDisplayHoverOver(evt) end
+
+---@param evt ItemDisplayPressEvent
+---@return Bool
+function gameuiBackpackMainGameController:OnItemDisplayPress(evt) end
 
 ---@param value Variant
 ---@return Bool
@@ -174,6 +194,10 @@ function gameuiBackpackMainGameController:OnPostOnRelease(evt) end
 ---@param data inkGameNotificationData
 ---@return Bool
 function gameuiBackpackMainGameController:OnQuantityPickerPopupClosed(data) end
+
+---@param e BackpackUpdateNextFrameEvent
+---@return Bool
+function gameuiBackpackMainGameController:OnRefreshUINextFrame(e) end
 
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
@@ -216,6 +240,11 @@ function gameuiBackpackMainGameController:GetDisassemblyResult(inventoryItem) en
 ---@param itemID gameItemID
 ---@return gameItemModParams
 function gameuiBackpackMainGameController:GetDropQueueItem(itemID) end
+
+---@param itemID gameItemID
+---@param backpackItem Bool
+---@return nil
+function gameuiBackpackMainGameController:HandleItemQuantityModified(itemID, backpackItem) end
 
 ---@return nil
 function gameuiBackpackMainGameController:HideDisassemblyHighlight() end
@@ -285,6 +314,9 @@ function gameuiBackpackMainGameController:RefreshFilterButtons(filters) end
 function gameuiBackpackMainGameController:RefreshUI() end
 
 ---@return nil
+function gameuiBackpackMainGameController:RefreshUINextFrame() end
+
+---@return nil
 function gameuiBackpackMainGameController:RegisterToBB() end
 
 ---@param itemID gameItemID
@@ -294,12 +326,19 @@ function gameuiBackpackMainGameController:RequestItemInspected(itemID) end
 ---@return nil
 function gameuiBackpackMainGameController:ResetVirtualGrid() end
 
+---@return Bool
+function gameuiBackpackMainGameController:ScheduleOutfitCooldownReset() end
+
 ---@return nil
 function gameuiBackpackMainGameController:SetInventoryItemButtonHintsHoverOut() end
 
 ---@param displayingData gameInventoryItemData
 ---@return nil
 function gameuiBackpackMainGameController:SetInventoryItemButtonHintsHoverOver(displayingData) end
+
+---@param inCooldown Bool
+---@return nil
+function gameuiBackpackMainGameController:SetOutfitCooldown(inCooldown) end
 
 ---@param message String
 ---@return nil
@@ -326,6 +365,3 @@ function gameuiBackpackMainGameController:UpdateCraftingMaterial(materialID, ski
 ---@param state Bool
 ---@return nil
 function gameuiBackpackMainGameController:UpdateFavouriteHint(state) end
-
----@return nil
-function gameuiBackpackMainGameController:UpdateQuantites() end

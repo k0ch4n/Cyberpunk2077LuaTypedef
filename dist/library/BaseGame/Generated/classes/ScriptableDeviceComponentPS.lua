@@ -566,14 +566,14 @@ function ScriptableDeviceComponentPS:EvaluateActionsRPGAvailabilty(outActions, c
 function ScriptableDeviceComponentPS:ExecuteCurrentSpiderbotActionPerformed() end
 
 ---@param action ScriptableDeviceAction
----@param layerTag? CName|string
----@return nil
-function ScriptableDeviceComponentPS:ExecutePSAction(action, layerTag) end
-
----@param action ScriptableDeviceAction
 ---@param persistentState gamePersistentState
 ---@return nil
 function ScriptableDeviceComponentPS:ExecutePSAction(action, persistentState) end
+
+---@param action ScriptableDeviceAction
+---@param layerTag? CName|string
+---@return nil
+function ScriptableDeviceComponentPS:ExecutePSAction(action, layerTag) end
 
 ---@param action ScriptableDeviceAction
 ---@param persistentState gamePersistentState
@@ -602,11 +602,11 @@ function ScriptableDeviceComponentPS:ExtractKeycardsFromAuthorizationData(data) 
 ---@return TweakDBID[]
 function ScriptableDeviceComponentPS:ExtractKeycardsFromAuthorizationData(data) end
 
----@param data SecurityAccessLevelEntry[]
+---@param data SecurityAccessLevelEntryClient[]
 ---@return CName[]
 function ScriptableDeviceComponentPS:ExtractPasswordsFromAuthorizationData(data) end
 
----@param data SecurityAccessLevelEntryClient[]
+---@param data SecurityAccessLevelEntry[]
 ---@return CName[]
 function ScriptableDeviceComponentPS:ExtractPasswordsFromAuthorizationData(data) end
 
@@ -671,14 +671,14 @@ function ScriptableDeviceComponentPS:GameAttached() end
 function ScriptableDeviceComponentPS:GenerateContext(requestType, providedClearance, providedProcessInitiator, providedRequestor) end
 
 ---@param actionName CName|string
----@param entityID? entEntityID
----@return gamedeviceAction
-function ScriptableDeviceComponentPS:GetActionByName(actionName, entityID) end
-
----@param actionName CName|string
 ---@param context gameGetActionsContext
 ---@return gamedeviceAction
 function ScriptableDeviceComponentPS:GetActionByName(actionName, context) end
+
+---@param actionName CName|string
+---@param entityID? entEntityID
+---@return gamedeviceAction
+function ScriptableDeviceComponentPS:GetActionByName(actionName, entityID) end
 
 ---@param context gameGetActionsContext
 ---@return SActionWidgetPackage[]
@@ -924,20 +924,20 @@ function ScriptableDeviceComponentPS:GetScannerStatusRecord() end
 ---@return SecurityAlarmControllerPS
 function ScriptableDeviceComponentPS:GetSecurityAlarm() end
 
----@param whoToCheck entEntityID
----@return SecurityAreaControllerPS[]
-function ScriptableDeviceComponentPS:GetSecurityAreasWithUserInside(whoToCheck) end
-
 ---@param whoToCheck gameObject
 ---@return SecurityAreaControllerPS[]
 function ScriptableDeviceComponentPS:GetSecurityAreasWithUserInside(whoToCheck) end
 
----@param uniqueUsers AreaEntry[]
+---@param whoToCheck entEntityID
 ---@return SecurityAreaControllerPS[]
-function ScriptableDeviceComponentPS:GetSecurityAreasWithUsersInside(uniqueUsers) end
+function ScriptableDeviceComponentPS:GetSecurityAreasWithUserInside(whoToCheck) end
 
 ---@return SecurityAreaControllerPS[]
 function ScriptableDeviceComponentPS:GetSecurityAreasWithUsersInside() end
+
+---@param uniqueUsers AreaEntry[]
+---@return SecurityAreaControllerPS[]
+function ScriptableDeviceComponentPS:GetSecurityAreasWithUsersInside(uniqueUsers) end
 
 ---@return BaseSkillCheckContainer
 function ScriptableDeviceComponentPS:GetSkillCheckContainer() end
@@ -1067,6 +1067,10 @@ function ScriptableDeviceComponentPS:HasUICameraZoom() end
 ---@param id entEntityID
 ---@return Bool
 function ScriptableDeviceComponentPS:HasWillingInvestigator(id) end
+
+---@param actionName String
+---@return Bool
+function ScriptableDeviceComponentPS:IgnoreDisallowedAction(actionName) end
 
 ---@return nil
 function ScriptableDeviceComponentPS:Initialize() end
@@ -1853,13 +1857,13 @@ function ScriptableDeviceComponentPS:RequestActionWidgetsUpdate(blackboard) end
 function ScriptableDeviceComponentPS:RequestBreadCrumbUpdate(blackboard, data) end
 
 ---@param blackboard gameIBlackboard
----@return nil
-function ScriptableDeviceComponentPS:RequestDeviceWidgetsUpdate(blackboard) end
-
----@param blackboard gameIBlackboard
 ---@param widgetsData SDeviceWidgetPackage[]
 ---@return nil
 function ScriptableDeviceComponentPS:RequestDeviceWidgetsUpdate(blackboard, widgetsData) end
+
+---@param blackboard gameIBlackboard
+---@return nil
+function ScriptableDeviceComponentPS:RequestDeviceWidgetsUpdate(blackboard) end
 
 ---@return nil
 function ScriptableDeviceComponentPS:ResetPerformedActionsStorage() end
@@ -2131,13 +2135,13 @@ function ScriptableDeviceComponentPS:UserAuthorizationAttempt(userToAuthorize, p
 function ScriptableDeviceComponentPS:WakeUpDevice() end
 
 ---@param actionID CName|string
+---@return Int32
+function ScriptableDeviceComponentPS:WasActionPerformed(actionID) end
+
+---@param actionID CName|string
 ---@param context EActionContext
 ---@return Bool
 function ScriptableDeviceComponentPS:WasActionPerformed(actionID, context) end
-
----@param actionID CName|string
----@return Int32
-function ScriptableDeviceComponentPS:WasActionPerformed(actionID) end
 
 ---@return Bool
 function ScriptableDeviceComponentPS:WasDemolitionSkillCheckActive() end

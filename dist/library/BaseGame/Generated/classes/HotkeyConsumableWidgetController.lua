@@ -2,6 +2,7 @@
 
 ---@class HotkeyConsumableWidgetController: gameuiNewPhoneRelatedHUDGameController
 ---@field radioSlot inkCompoundWidgetReference
+---@field vehicleCustomizationSlot inkCompoundWidgetReference
 ---@field container inkCompoundWidgetReference
 ---@field DpadHintLibraryPath inkWidgetLibraryReference
 ---@field IsInDriverCombat Bool

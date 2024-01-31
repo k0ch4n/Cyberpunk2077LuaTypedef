@@ -167,6 +167,9 @@ function ComputerMainLayoutWidgetController:GetNewsfeedMenuContainer() end
 function ComputerMainLayoutWidgetController:GetOffButton() end
 
 ---@return inkWidget
+function ComputerMainLayoutWidgetController:GetWindow() end
+
+---@return inkWidget
 function ComputerMainLayoutWidgetController:GetWindowCloseButton() end
 
 ---@return inkWidget
@@ -265,13 +268,13 @@ function ComputerMainLayoutWidgetController:InitializeMenuButtons(gameController
 ---@return nil
 function ComputerMainLayoutWidgetController:MarkFileThumbnailAsSelected(controller) end
 
----@param adress SDocumentAdress
----@return nil
-function ComputerMainLayoutWidgetController:MarkMailThumbnailAsSelected(adress) end
-
 ---@param controller ComputerDocumentThumbnailWidgetController
 ---@return nil
 function ComputerMainLayoutWidgetController:MarkMailThumbnailAsSelected(controller) end
+
+---@param adress SDocumentAdress
+---@return nil
+function ComputerMainLayoutWidgetController:MarkMailThumbnailAsSelected(adress) end
 
 ---@param menuID String
 ---@return nil
@@ -315,6 +318,10 @@ function ComputerMainLayoutWidgetController:SetNewsFeedMenu(gameController, pare
 ---@param parentWidget inkWidget
 ---@return nil
 function ComputerMainLayoutWidgetController:SetScreenSaver(gameController, parentWidget) end
+
+---@param isHidden Bool
+---@return nil
+function ComputerMainLayoutWidgetController:SetTopNavigationBarHidden(isHidden) end
 
 ---@param gameController ComputerInkGameController
 ---@param parentWidget inkWidget

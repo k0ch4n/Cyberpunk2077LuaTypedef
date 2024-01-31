@@ -7,6 +7,7 @@
 ---@field forceToTopWithinLevel Bool
 ---@field widgetType Uint32
 ---@field data IScriptable
+---@field isSortable Bool
 VirutalNestedListData = {}
 
 ---@param fields? VirutalNestedListData

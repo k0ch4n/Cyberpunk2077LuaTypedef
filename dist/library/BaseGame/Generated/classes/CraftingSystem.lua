@@ -103,6 +103,9 @@ function CraftingSystem:CompensateForOwnedMilitaryKatanaRecipes() end
 ---@return nil
 function CraftingSystem:CompensateForOwnedPipeWrenchRecipes() end
 
+---@return nil
+function CraftingSystem:CompensateMissingBuzzsawPsalmRecipes() end
+
 ---@param target gameObject
 ---@param itemRecord gamedataItem_Record
 ---@param amount Int32
@@ -167,11 +170,6 @@ function CraftingSystem:GetIngredientQuality(data) end
 ---@return IngredientData[]
 function CraftingSystem:GetItemBaseUpgradeCost(itemType, quality) end
 
----@param record gamedataItem_Record
----@param craftingData gamedataRecipeElement_Record[]
----@return IngredientData[]
-function CraftingSystem:GetItemCraftingCost(record, craftingData) end
-
 ---@param itemData gameItemData
 ---@return IngredientData[]
 function CraftingSystem:GetItemCraftingCost(itemData) end
@@ -179,6 +177,11 @@ function CraftingSystem:GetItemCraftingCost(itemData) end
 ---@param itemRecord gamedataItem_Record
 ---@return IngredientData[]
 function CraftingSystem:GetItemCraftingCost(itemRecord) end
+
+---@param record gamedataItem_Record
+---@param craftingData gamedataRecipeElement_Record[]
+---@return IngredientData[]
+function CraftingSystem:GetItemCraftingCost(record, craftingData) end
 
 ---@param itemData gameItemData
 ---@return IngredientData[]
@@ -286,6 +289,9 @@ function CraftingSystem:OnShowRecipeRequest(request) end
 ---@param request UpgradeItemRequest
 ---@return nil
 function CraftingSystem:OnUpgradeItemRequest(request) end
+
+---@return nil
+function CraftingSystem:ProcessAmazonGritAttachmentsPurge() end
 
 ---@param xpAmount Float
 ---@return nil

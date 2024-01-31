@@ -16,8 +16,14 @@
 ---@field statsDependantItems inkScriptWeakHashMap
 ---@field InventoryBlackboard gameIBlackboard
 ---@field CraftingBlackboardDefinition UI_CraftingDef
+---@field LevelUpDef UI_LevelUpDef
+---@field AttributeBoughtDef UI_AttributeBoughtDef
 ---@field Blackboard gameIBlackboard
+---@field BlackboardAttributeBought gameIBlackboard
+---@field BlackboardLevelUp gameIBlackboard
 ---@field UpgradeBlackboardCallback redCallbackObject
+---@field CharacterLevelBlackboardCallback redCallbackObject
+---@field OnAttributesChangeCallback redCallbackObject
 ---@field TEMP_questSystem questQuestsSystem
 ---@field TEMP_cuverBarsListener Uint32
 ---@field TEMP_separatorBarsListener Uint32
@@ -33,6 +39,14 @@ function UIInventoryScriptableSystem.GetInstance() end
 
 ---@return Int32
 function UIInventoryScriptableSystem.NumberOfWeaponSlots() end
+
+---@param value Variant
+---@return Bool
+function UIInventoryScriptableSystem:OnCharacterAttributeUpdated(value) end
+
+---@param value Variant
+---@return Bool
+function UIInventoryScriptableSystem:OnCharacterLevelUpdated(value) end
 
 ---@param value Variant
 ---@return Bool
@@ -71,6 +85,10 @@ function UIInventoryScriptableSystem:GetInventoryItemsManager() end
 ---@return UIInventoryItem
 function UIInventoryScriptableSystem:GetNonInventoryItem(itemID) end
 
+---@param query gameItemID
+---@return gameItemID[]
+function UIInventoryScriptableSystem:GetNonInventoryQueryIDs(query) end
+
 ---@param equipmentArea gamedataEquipmentArea
 ---@param slotIndex? Int32
 ---@return UIInventoryItem
@@ -79,6 +97,9 @@ function UIInventoryScriptableSystem:GetPlayerAreaItem(equipmentArea, slotIndex)
 ---@param equipmentArea gamedataEquipmentArea
 ---@return UIInventoryItem[]
 function UIInventoryScriptableSystem:GetPlayerAreaItems(equipmentArea) end
+
+---@return UIInventoryItem[]
+function UIInventoryScriptableSystem:GetPlayerHealingItems() end
 
 ---@param itemID gameItemID
 ---@return UIInventoryItem
@@ -95,10 +116,19 @@ function UIInventoryScriptableSystem:GetPlayerItemFromAnySource(itemData) end
 ---@return inkScriptHashMap
 function UIInventoryScriptableSystem:GetPlayerItemsMap() end
 
+---@param query gameItemID
+---@return gameItemID[]
+function UIInventoryScriptableSystem:GetQueryIDs(query) end
+
 ---@param hash Uint64
 ---@param itemData UIInventoryItem
 ---@return nil
 function UIInventoryScriptableSystem:InsertPlayerItem(hash, itemData) end
+
+---@param hash Uint64
+---@param itemID gameItemID
+---@return Bool
+function UIInventoryScriptableSystem:InternalRemovePlayerItems(hash, itemID) end
 
 ---@param hash Uint64
 ---@param itemData gameItemData
@@ -172,7 +202,7 @@ function UIInventoryScriptableSystem:RefreshItem(itemID) end
 
 ---@param hash Uint64
 ---@param itemID gameItemID
----@return nil
+---@return Bool
 function UIInventoryScriptableSystem:RemovePlayerItem(hash, itemID) end
 
 ---@return nil

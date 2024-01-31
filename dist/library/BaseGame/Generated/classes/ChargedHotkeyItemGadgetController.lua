@@ -57,6 +57,9 @@ function ChargedHotkeyItemGadgetController:GetRechargeDuration() end
 ---@return Bool
 function ChargedHotkeyItemGadgetController:IsCyberwareActive() end
 
+---@return Bool
+function ChargedHotkeyItemGadgetController:IsInDefaultState() end
+
 ---@return nil
 function ChargedHotkeyItemGadgetController:RegisterCombatStateListener() end
 

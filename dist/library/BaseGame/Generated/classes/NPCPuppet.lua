@@ -551,6 +551,10 @@ function NPCPuppet:OnVehicleHackedEvent(evt) end
 ---@return Bool
 function NPCPuppet:OnVehicleHijackEvent(evt) end
 
+---@param evt VehicleRammedEvent
+---@return Bool
+function NPCPuppet:OnVehicleRammedEvent(evt) end
+
 ---@param evt TestNPCOutsideNavmeshEvent
 ---@return Bool
 function NPCPuppet:On_TEMP_TestNPCOutsideNavmeshEvent(evt) end

@@ -31,6 +31,10 @@ function RadioHotkeyController:OnPlayerEnteredVehicle(value) end
 ---@return Bool
 function RadioHotkeyController:OnPocketRadioUIEvent(evt) end
 
+---@param evt UIVehicleRadioCycleEvent
+---@return Bool
+function RadioHotkeyController:OnVehicleRadioCycleEvent(evt) end
+
 ---@param evt UIVehicleRadioEvent
 ---@return Bool
 function RadioHotkeyController:OnVehicleRadioEvent(evt) end

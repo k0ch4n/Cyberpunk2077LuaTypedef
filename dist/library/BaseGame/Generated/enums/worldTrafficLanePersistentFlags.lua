@@ -14,4 +14,6 @@
 ---@field ShowDebug Enum 1024
 ---@field Blockade Enum 2048
 ---@field Yield Enum 4096
+---@field NoAIDriving Enum 8192
+---@field Highway Enum 16384
 worldTrafficLanePersistentFlags = {}

@@ -183,13 +183,13 @@ function PlayerPuppet.GetLowHealthThreshold() end
 function PlayerPuppet.GetPlayerQuickHackInCyberDeck(player) end
 
 ---@param player PlayerPuppet
+---@return TweakDBID[]
+function PlayerPuppet.GetPlayerQuickHackInCyberDeckTweakDBID(player) end
+
+---@param player PlayerPuppet
 ---@param quality gamedataQuality
 ---@return TweakDBID[]
 function PlayerPuppet.GetPlayerQuickHackInCyberDeckTweakDBID(player, quality) end
-
----@param player PlayerPuppet
----@return TweakDBID[]
-function PlayerPuppet.GetPlayerQuickHackInCyberDeckTweakDBID(player) end
 
 ---@return Float
 function PlayerPuppet.GetQuickMeleeCooldown() end
@@ -654,6 +654,10 @@ function PlayerPuppet:OnRestoreVisualSlot(evt) end
 ---@param evt RetrofixCyberwaresEvent
 ---@return Bool
 function PlayerPuppet:OnRetrofixCyberwaresEvent(evt) end
+
+---@param evt RetrofixOverallocatedCyberwareEvent
+---@return Bool
+function PlayerPuppet:OnRetrofixOverallocatedCyberwareEvent(evt) end
 
 ---@param evt RetrofixQuickhacksEvent
 ---@return Bool
@@ -1128,6 +1132,9 @@ function PlayerPuppet:GetStaminaValueUnsafe() end
 ---@return Int32
 function PlayerPuppet:GetUnlockedVehiclesSize() end
 
+---@return vehicleVisualCustomizationComponent
+function PlayerPuppet:GetVehicleVisualCustomizationComponent() end
+
 ---@return Bool
 function PlayerPuppet:GetZoomBlackboardValues() end
 
@@ -1232,6 +1239,9 @@ function PlayerPuppet:IsNaked() end
 
 ---@return Bool
 function PlayerPuppet:IsNetworkLinkDynamic() end
+
+---@return Bool
+function PlayerPuppet:IsPhoneCallActive() end
 
 ---@return Bool
 function PlayerPuppet:IsPlayer() end
@@ -1351,8 +1361,15 @@ function PlayerPuppet:OnStatusEffectUsedHealingItemOrCyberwareApplied() end
 ---@return nil
 function PlayerPuppet:OnZoneFactChanged(val) end
 
+---@return Int32
+function PlayerPuppet:PSGetPocketRadioStation() end
+
 ---@return Bool
 function PlayerPuppet:PSIsInDriverCombat() end
+
+---@param value Int32
+---@return nil
+function PlayerPuppet:PSSetPocketRadioStation(value) end
 
 ---@return nil
 function PlayerPuppet:PlayCritHealthRumble() end
@@ -1572,6 +1589,9 @@ function PlayerPuppet:ShouldRegisterToHUD() end
 ---@return Bool
 function PlayerPuppet:ShouldShowScanner() end
 
+---@return nil
+function PlayerPuppet:ShowSandevistanBlockedNotification() end
+
 ---@param deathInstigator gameObject
 ---@return nil
 function PlayerPuppet:StartProcessingVForVendettaAchievement(deathInstigator) end
@@ -1596,6 +1616,11 @@ function PlayerPuppet:TryScaleItemToPlayer(itemData) end
 
 ---@return nil
 function PlayerPuppet:UnInitializeFocusModeTagging() end
+
+---@param items gameItemID[]
+---@param availableCapacity Float
+---@return Float
+function PlayerPuppet:UnequipOverallocatedCyberware(items, availableCapacity) end
 
 ---@param itemData gameItemData
 ---@return nil

@@ -10,6 +10,7 @@
 ---@field unequipSound audioMeleeSound
 ---@field blockSound audioMeleeSound
 ---@field parrySound audioMeleeSound
+---@field attackChargedThreshold Float
 ---@field attackChargedSound audioMeleeSound
 ---@field attackDischargedSound audioMeleeSound
 ---@field meleeSoundsByHitPerMaterialType audioMeleeHitTypeMeleeSoundDictionary

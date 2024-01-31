@@ -10,6 +10,7 @@
 ---@field NotEnoughSlotsSaveResctriction Enum 6
 ---@field NotEnoughSpaceSaveResctriction Enum 7
 ---@field PhotoModeDisabledRestriction Enum 8
----@field ExpansionInstalled Enum 9
----@field GenericNotification Enum 10
+---@field SandevistanInCallRestriction Enum 9
+---@field ExpansionInstalled Enum 10
+---@field GenericNotification Enum 11
 UIInGameNotificationType = {}

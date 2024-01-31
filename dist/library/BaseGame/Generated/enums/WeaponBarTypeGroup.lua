@@ -8,5 +8,7 @@
 ---@field Stamina Enum 4
 ---@field Handling Enum 5
 ---@field ReturnTime Enum 6
+---@field Healing Enum 7
+---@field HealingOverTime Enum 8
 ---@field Invalid Enum -1
 WeaponBarTypeGroup = {}

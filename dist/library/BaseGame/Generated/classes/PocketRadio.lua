@@ -13,6 +13,7 @@
 ---@field questContentLockListener PocketRadioQuestContentLockListener
 ---@field radioPressTime Float
 ---@field isInMetro Bool
+---@field settings RadioportSettingsListener
 PocketRadio = {}
 
 ---@param fields? PocketRadio
@@ -21,6 +22,9 @@ function PocketRadio.new(fields) end
 
 ---@return Bool
 function PocketRadio.ConfigEnablePocketRadio() end
+
+---@return Int32
+function PocketRadio:GetStation() end
 
 ---@return CName
 function PocketRadio:GetStationName() end
@@ -82,6 +86,9 @@ function PocketRadio:InitializeRestrictions() end
 function PocketRadio:IsActive() end
 
 ---@return Bool
+function PocketRadio:IsMutedByVolumeSetting() end
+
+---@return Bool
 function PocketRadio:IsRestricted() end
 
 ---@return Bool
@@ -104,6 +111,9 @@ function PocketRadio:OnStatusEffectApplied(evt, gameplayTags) end
 ---@param gameplayTags CName[]|string[]
 ---@return nil
 function PocketRadio:OnStatusEffectRemoved(evt, gameplayTags) end
+
+---@return Bool
+function PocketRadio:ShouldIgnoreEvents() end
 
 ---@param playSFX Bool
 ---@return nil

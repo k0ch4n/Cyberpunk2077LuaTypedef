@@ -6,6 +6,7 @@
 ---@field quantityChangeText inkTextWidgetReference
 ---@field icon inkImageWidgetReference
 ---@field frame inkWidgetReference
+---@field tooltipAnchor inkWidgetReference
 ---@field data CachedCraftingMaterial
 ---@field quantity Int32
 ---@field hovered Bool
@@ -13,6 +14,7 @@
 ---@field shouldBeHighlighted Bool
 ---@field useSimpleFromat Bool
 ---@field hideIfZero Bool
+---@field isCollapsed Bool
 CrafringMaterialItemController = {}
 
 ---@param fields? CrafringMaterialItemController
@@ -34,6 +36,10 @@ function CrafringMaterialItemController:OnCraftingMaterialHoverOver(evt) end
 ---@return Bool
 function CrafringMaterialItemController:OnInitialize() end
 
+---@param collapse Bool
+---@return nil
+function CrafringMaterialItemController:Collapse(collapse) end
+
 ---@return CachedCraftingMaterial
 function CrafringMaterialItemController:GetCachedCraftingMaterial() end
 
@@ -45,6 +51,9 @@ function CrafringMaterialItemController:GetMateialDisplayName() end
 
 ---@return Int32
 function CrafringMaterialItemController:GetQuantity() end
+
+---@return inkWidget
+function CrafringMaterialItemController:GetTooltipAnchorWidget() end
 
 ---@param hideIfZero? Bool
 ---@return nil

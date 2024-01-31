@@ -113,6 +113,9 @@ function Computer:GetController() end
 ---@return ComputerControllerPS
 function Computer:GetDevicePS() end
 
+---@return Bool
+function Computer:GetHideTopNavigationBar() end
+
 ---@return EComputerMenuType
 function Computer:GetInitialMenuType() end
 

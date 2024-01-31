@@ -15,6 +15,7 @@
 ---@field keepDistanceDistance Float
 ---@field rubberBandingBool Bool
 ---@field rubberBandingTargetRef gameObject
+---@field rubberBandingTargetForwardOffset Float
 ---@field rubberBandingMinDistance Float
 ---@field rubberBandingMaxDistance Float
 ---@field rubberBandingStopAndWait Bool
@@ -46,6 +47,7 @@
 ---@field stopWhenTargetReached Bool
 ---@field trafficTryNeighborsForStart Bool
 ---@field trafficTryNeighborsForEnd Bool
+---@field ignoreNoAIDrivingLanes Bool
 ---@field driveFollowCommand AIVehicleFollowCommand
 ---@field driveChaseCommand AIVehicleChaseCommand
 ---@field drivePanicCommand AIVehiclePanicCommand

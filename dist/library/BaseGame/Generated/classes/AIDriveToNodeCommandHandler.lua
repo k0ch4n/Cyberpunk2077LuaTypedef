@@ -11,6 +11,7 @@
 ---@field portals AIArgumentMapping
 ---@field outTrafficTryNeighborsForStart AIArgumentMapping
 ---@field outTrafficTryNeighborsForEnd AIArgumentMapping
+---@field outIgnoreNoAIDrivingLanes AIArgumentMapping
 AIDriveToNodeCommandHandler = {}
 
 ---@param fields? AIDriveToNodeCommandHandler

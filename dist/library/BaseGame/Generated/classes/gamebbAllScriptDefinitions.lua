@@ -86,6 +86,7 @@
 ---@field UI_HudButtonHelp UI_HudButtonHelpDef
 ---@field UI_ActivityLog UI_ActivityLogDef
 ---@field UI_LevelUp UI_LevelUpDef
+---@field UI_AttributeBought UI_AttributeBoughtDef
 ---@field UI_Vendor UI_VendorDef
 ---@field UI_Briefing UI_BriefingDef
 ---@field UI_ItemModSystem UI_ItemModSystemDef

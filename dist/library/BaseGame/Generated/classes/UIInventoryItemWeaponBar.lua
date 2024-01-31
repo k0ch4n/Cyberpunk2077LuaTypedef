@@ -24,13 +24,12 @@ function UIInventoryItemWeaponBar.GetBarTypeGroup(barType) end
 ---@return UIInventoryItemWeaponBar
 function UIInventoryItemWeaponBar.Make(itemType, type, value, maxValue, withoutValue) end
 
----@param itemType gamedataItemType
 ---@param type WeaponBarType
 ---@param value Float
 ---@param statsManager UIInventoryItemStatsManager
 ---@param withoutValue? Bool
 ---@return UIInventoryItemWeaponBar
-function UIInventoryItemWeaponBar.MakeCurve(itemType, type, value, statsManager, withoutValue) end
+function UIInventoryItemWeaponBar.MakeCurve(type, value, statsManager, withoutValue) end
 
 ---@return WeaponBarTypeGroup
 function UIInventoryItemWeaponBar:GetBarTypeGroup() end

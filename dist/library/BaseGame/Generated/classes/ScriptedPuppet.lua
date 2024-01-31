@@ -702,6 +702,9 @@ function ScriptedPuppet:GetBreachControllerComponent() end
 ---@return gameinfluenceBumpComponent
 function ScriptedPuppet:GetBumpComponent() end
 
+---@return FocusForcedHighlightData
+function ScriptedPuppet:GetChimeraHighlight() end
+
 ---@return CombatHUDManager
 function ScriptedPuppet:GetCombatHUDManagerComponent() end
 
@@ -862,19 +865,19 @@ function ScriptedPuppet:GetPuppetReactionPresetType() end
 ---@return gameIBlackboard
 function ScriptedPuppet:GetPuppetStateBlackboard() end
 
----@param quickHackID TweakDBID|string
----@param rootObject gameObject
----@param targetID gameStatsObjectID
----@param instigatorID entEntityID
----@return Float
-function ScriptedPuppet:GetQuickHackDuration(quickHackID, rootObject, targetID, instigatorID) end
-
 ---@param quickHackRecord gamedataObjectAction_Record
 ---@param rootObject gameObject
 ---@param targetID gameStatsObjectID
 ---@param instigatorID entEntityID
 ---@return Float
 function ScriptedPuppet:GetQuickHackDuration(quickHackRecord, rootObject, targetID, instigatorID) end
+
+---@param quickHackID TweakDBID|string
+---@param rootObject gameObject
+---@param targetID gameStatsObjectID
+---@param instigatorID entEntityID
+---@return Float
+function ScriptedPuppet:GetQuickHackDuration(quickHackID, rootObject, targetID, instigatorID) end
 
 ---@param quickHackRecord gamedataObjectAction_Record
 ---@param rootObject gameObject
@@ -1064,6 +1067,9 @@ function ScriptedPuppet:IsCharacterGanger() end
 
 ---@return Bool
 function ScriptedPuppet:IsCharacterPolice() end
+
+---@return Bool
+function ScriptedPuppet:IsChimera() end
 
 ---@return Bool
 function ScriptedPuppet:IsCivilian() end

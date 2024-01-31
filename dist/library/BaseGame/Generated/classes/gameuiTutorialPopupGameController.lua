@@ -73,6 +73,9 @@ function gameuiTutorialPopupGameController:OnUninitialize() end
 ---@return nil
 function gameuiTutorialPopupGameController:AdaptToBlackBars(offset) end
 
+---@return nil
+function gameuiTutorialPopupGameController:AdaptToDpadHints() end
+
 ---@param safezones Vector2
 ---@return nil
 function gameuiTutorialPopupGameController:AdaptToHudSafezones(safezones) end

@@ -28,6 +28,7 @@
 ---@field keepDistanceParamDistance Float
 ---@field rubberBandingBool Bool
 ---@field rubberBandingTargetRef gameObject
+---@field rubberBandingTargetForwardOffset Float
 ---@field rubberBandingMinDistance Float
 ---@field rubberBandingMaxDistance Float
 ---@field rubberBandingStopAndWait Bool
@@ -37,6 +38,7 @@
 ---@field portalsList vehiclePortalsList
 ---@field trafficTryNeighborsForStart Bool
 ---@field trafficTryNeighborsForEnd Bool
+---@field ignoreNoAIDrivingLanes Bool
 ---@field allowSimplifiedMovement Bool
 ---@field ignoreTickets Bool
 ---@field disableStuckDetection Bool

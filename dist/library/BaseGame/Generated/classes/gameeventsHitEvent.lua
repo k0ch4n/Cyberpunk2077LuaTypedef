@@ -11,7 +11,6 @@
 ---@field attackPentration Float
 ---@field hasPiercedTechSurface Bool
 ---@field attackComputed gameAttackComputed
----@field wasAliveBeforeHit Bool
 ---@field projectionPipeline Bool
 gameeventsHitEvent = {}
 

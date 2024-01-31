@@ -16,7 +16,9 @@
 ---@field stationStatusWidget inkTextWidgetReference
 ---@field districtNameWidget inkTextWidgetReference
 ---@field stationDistrictBackgroundColor inkImageWidgetReference
+---@field sun_moon_container inkWidgetReference
 ---@field weather_sun_widget inkImageWidgetReference
+---@field weather_moon_widget inkImageWidgetReference
 ---@field weather_cloud_a_widget inkImageWidgetReference
 ---@field weather_cloud_b_widget inkImageWidgetReference
 ---@field weather_rain_widget inkImageWidgetReference
@@ -81,6 +83,9 @@ function NcartDoorScreenInkController:TrainStopAnim() end
 
 ---@return nil
 function NcartDoorScreenInkController:UnregisterBlackBoardCallbacks() end
+
+---@return nil
+function NcartDoorScreenInkController:UpdateDayNightWeatherIcon() end
 
 ---@param DestinationStation Int32
 ---@return nil

@@ -11,6 +11,7 @@
 ---@field detonationTimer Float
 ---@field explosionRadius Float
 ---@field playerPuppet PlayerPuppet
+---@field mappinID gameNewMappinID
 MineBarrageProjectile = {}
 
 ---@param fields? MineBarrageProjectile
@@ -29,6 +30,10 @@ function MineBarrageProjectile:OnHit(evt) end
 ---@return Bool
 function MineBarrageProjectile:OnProjectileInitialize(eventData) end
 
+---@param eventData gameprojectileShootEvent
+---@return Bool
+function MineBarrageProjectile:OnShoot(eventData) end
+
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
 function MineBarrageProjectile:OnShootTarget(eventData) end
@@ -43,3 +48,6 @@ function MineBarrageProjectile:OnTick(eventData) end
 
 ---@return nil
 function MineBarrageProjectile:Explode() end
+
+---@return nil
+function MineBarrageProjectile:ReleaseMappin() end

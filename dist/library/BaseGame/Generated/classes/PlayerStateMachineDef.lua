@@ -105,6 +105,7 @@
 ---@field AimInTime gamebbScriptID_Float
 ---@field CanThrowCarriedNPC gamebbScriptID_Bool
 ---@field IsWeaponFirstEquip gamebbScriptID_Bool
+---@field IsVisualCustomizationPhotomodeVehicleSlotTaken gamebbScriptID_Bool
 PlayerStateMachineDef = {}
 
 ---@param fields? PlayerStateMachineDef

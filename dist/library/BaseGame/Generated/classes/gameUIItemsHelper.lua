@@ -101,6 +101,12 @@ function gameUIItemsHelper.GetItemName(itemID, itemData) end
 ---@return String
 function gameUIItemsHelper.GetItemTypeKey(itemType) end
 
+---@param itemID TweakDBID|string
+---@param itemType gamedataItemType
+---@param weaponEvolutionType gamedataWeaponEvolution
+---@return String
+function gameUIItemsHelper.GetItemTypeKey(itemID, itemType, weaponEvolutionType) end
+
 ---@param itemData gameItemData
 ---@param equipmentArea gamedataEquipmentArea
 ---@param itemID TweakDBID|string
@@ -109,17 +115,6 @@ function gameUIItemsHelper.GetItemTypeKey(itemType) end
 ---@return String
 function gameUIItemsHelper.GetItemTypeKey(itemData, equipmentArea, itemID, itemType, weaponEvolutionType) end
 
----@param itemID TweakDBID|string
----@param itemType gamedataItemType
----@param weaponEvolutionType gamedataWeaponEvolution
----@return String
-function gameUIItemsHelper.GetItemTypeKey(itemID, itemType, weaponEvolutionType) end
-
----@param itemType gamedataItemType
----@param weaponEvolutionType gamedataWeaponEvolution
----@return String
-function gameUIItemsHelper.GetItemTypeKey(itemType, weaponEvolutionType) end
-
 ---@param equipmentArea gamedataEquipmentArea
 ---@param itemID TweakDBID|string
 ---@param itemType gamedataItemType
@@ -127,9 +122,21 @@ function gameUIItemsHelper.GetItemTypeKey(itemType, weaponEvolutionType) end
 ---@return String
 function gameUIItemsHelper.GetItemTypeKey(equipmentArea, itemID, itemType, weaponEvolutionType) end
 
+---@param itemType gamedataItemType
+---@param weaponEvolutionType gamedataWeaponEvolution
+---@return String
+function gameUIItemsHelper.GetItemTypeKey(itemType, weaponEvolutionType) end
+
+---@param itemType gamedataItemType
 ---@param equipmentArea gamedataEquipmentArea
 ---@return CName
-function gameUIItemsHelper.GetLootingShadowIcon(equipmentArea) end
+function gameUIItemsHelper.GetLootingShadowIcon(itemType, equipmentArea) end
+
+---@param slotID TweakDBID|string
+---@param itemType gamedataItemType
+---@param equipmentArea gamedataEquipmentArea
+---@return CName
+function gameUIItemsHelper.GetLootingShadowIcon(slotID, itemType, equipmentArea) end
 
 ---@param itemTDBID TweakDBID|string
 ---@param slotID TweakDBID|string
@@ -138,16 +145,9 @@ function gameUIItemsHelper.GetLootingShadowIcon(equipmentArea) end
 ---@return CName
 function gameUIItemsHelper.GetLootingShadowIcon(itemTDBID, slotID, itemType, equipmentArea) end
 
----@param slotID TweakDBID|string
----@param itemType gamedataItemType
 ---@param equipmentArea gamedataEquipmentArea
 ---@return CName
-function gameUIItemsHelper.GetLootingShadowIcon(slotID, itemType, equipmentArea) end
-
----@param itemType gamedataItemType
----@param equipmentArea gamedataEquipmentArea
----@return CName
-function gameUIItemsHelper.GetLootingShadowIcon(itemType, equipmentArea) end
+function gameUIItemsHelper.GetLootingShadowIcon(equipmentArea) end
 
 ---@param itemType gamedataItemType
 ---@return gamedataPerkWeaponGroupType
@@ -229,15 +229,15 @@ function gameUIItemsHelper.GetStateNameForStat(statType) end
 ---@return CName
 function gameUIItemsHelper.GetStateNameForType(damageType) end
 
+---@param data InventoryTooltipData
+---@return String
+function gameUIItemsHelper.GetTooltipItemName(data) end
+
 ---@param itemID TweakDBID|string
 ---@param itemData gameItemData
 ---@param fallbackName String
 ---@return String
 function gameUIItemsHelper.GetTooltipItemName(itemID, itemData, fallbackName) end
-
----@param data InventoryTooltipData
----@return String
-function gameUIItemsHelper.GetTooltipItemName(data) end
 
 ---@param damageType gamedataDamageType
 ---@return TweakDBID
@@ -258,6 +258,10 @@ function gameUIItemsHelper.GetWeaponTypeIcon(itemType) end
 ---@param stat gamedataStatType
 ---@return Bool
 function gameUIItemsHelper.IsAttributeAllocationStat(stat) end
+
+---@param itemTDBID TweakDBID|string
+---@return Bool
+function gameUIItemsHelper.IsShardRead(itemTDBID) end
 
 ---@param itemType gamedataItemType
 ---@param itemData? gameItemData

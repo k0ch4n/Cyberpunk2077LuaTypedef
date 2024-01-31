@@ -7,9 +7,8 @@ exEntitySpawner = {}
 ---@return exEntitySpawner
 function exEntitySpawner.new(fields) end
 
----@param entity entEntity
 ---@return nil
-function exEntitySpawner.Despawn(entity) end
+function exEntitySpawner.Despawn() end
 
 ---@param entityPath CResource
 ---@param worldTransform WorldTransform

@@ -29,6 +29,10 @@ function gameGameAudioSystem:EquipNewOutfitByPlayer(itemID) end
 ---@return gameInputTriggerState
 function gameGameAudioSystem:GetLeftTriggerState() end
 
+---@param configName CName|string
+---@return Float
+function gameGameAudioSystem:GetMeleeChargedAttackMinimumValue(configName) end
+
 ---@param playlistName CName|string
 ---@return CName
 function gameGameAudioSystem:GetPlaylistCurrentSong(playlistName) end
@@ -74,6 +78,12 @@ function gameGameAudioSystem:Play(eventName, entityID, emitterName) end
 ---@param object gameObject
 ---@return nil
 function gameGameAudioSystem:PlayImpact(impactContext, position, object) end
+
+---@param eventName CName|string
+---@param entityID entEntityID
+---@param emitterName CName|string
+---@return nil
+function gameGameAudioSystem:PlayOnEmitter(eventName, entityID, emitterName) end
 
 ---@param shockwaveType CName|string
 ---@param position Vector4

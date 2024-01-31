@@ -154,6 +154,9 @@ function gameuiWeaponRosterGameController:SetRosterSlotData() end
 function gameuiWeaponRosterGameController:SetRosterSlotData_MP(isMelee) end
 
 ---@return Bool
+function gameuiWeaponRosterGameController:ShouldHideAmmoCount() end
+
+---@return Bool
 function gameuiWeaponRosterGameController:ShouldIgnoreSmartUI() end
 
 ---@return nil

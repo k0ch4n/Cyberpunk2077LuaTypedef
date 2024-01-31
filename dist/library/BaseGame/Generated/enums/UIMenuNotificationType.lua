@@ -20,4 +20,5 @@
 ---@field InventoryNoFreeSlot Enum 16
 ---@field FaceUnequipBlocked Enum 17
 ---@field TutorialUnequipBlocked Enum 18
+---@field NoJunkToDisassemble Enum 19
 UIMenuNotificationType = {}

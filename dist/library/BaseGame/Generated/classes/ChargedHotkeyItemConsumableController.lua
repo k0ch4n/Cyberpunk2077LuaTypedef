@@ -14,6 +14,9 @@ function ChargedHotkeyItemConsumableController:GetMaxCharges() end
 ---@return Float
 function ChargedHotkeyItemConsumableController:GetRechargeDuration() end
 
+---@return Bool
+function ChargedHotkeyItemConsumableController:IsInDefaultState() end
+
 ---@return nil
 function ChargedHotkeyItemConsumableController:RegisterStatListener() end
 

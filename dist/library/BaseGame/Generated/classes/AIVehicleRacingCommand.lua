@@ -8,6 +8,7 @@
 ---@field startFromClosest Bool
 ---@field rubberBandingBool Bool
 ---@field rubberBandingTargetRef gameObject
+---@field rubberBandingTargetForwardOffset Float
 ---@field rubberBandingMinDistance Float
 ---@field rubberBandingMaxDistance Float
 ---@field rubberBandingStopAndWait Bool

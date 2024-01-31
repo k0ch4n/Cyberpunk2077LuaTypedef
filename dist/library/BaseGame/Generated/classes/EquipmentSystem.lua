@@ -444,6 +444,9 @@ function EquipmentSystem:PrintEquipment() end
 function EquipmentSystem:ProcessIconicsFactsForBlackMarketer() end
 
 ---@return nil
+function EquipmentSystem:ProcessMaskCWRestoration() end
+
+---@return nil
 function EquipmentSystem:ProcessNonIconicWeaponsRescale() end
 
 ---@return nil
@@ -472,6 +475,9 @@ function EquipmentSystem:RetrofixCyberwares() end
 
 ---@return nil
 function EquipmentSystem:RetrofixHolsteredArms() end
+
+---@return nil
+function EquipmentSystem:RetrofixOverallocatedCyberware() end
 
 ---@return nil
 function EquipmentSystem:RetrofixQuickhacks() end

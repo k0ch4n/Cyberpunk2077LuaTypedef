@@ -38,5 +38,6 @@
 ---@field CP77_Patch_2_0_Hotfix1 Enum 2010
 ---@field CP77_Patch_2_0_Hotfix2 Enum 2020
 ---@field CP77_Patch_2_1 Enum 2100
----@field Current Enum 2100
+---@field CP77_Patch_2_1_Hotfix1 Enum 2110
+---@field Current Enum 2110
 gameGameVersion = {}

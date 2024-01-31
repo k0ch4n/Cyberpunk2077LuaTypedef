@@ -51,5 +51,5 @@ function gameStatusEffect:GetRemainingDuration() end
 ---@return Uint32
 function gameStatusEffect:GetStackCount() end
 
----@return nil
+---@return Float
 function gameStatusEffect:GetTotalDuration() end

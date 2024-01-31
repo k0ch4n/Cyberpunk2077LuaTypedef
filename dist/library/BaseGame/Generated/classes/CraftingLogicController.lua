@@ -117,8 +117,9 @@ function CraftingLogicController:IsCurrentSelectedRecipeValid() end
 ---@return Bool
 function CraftingLogicController:IsQuickHackItem() end
 
+---@param isCurrent Bool
 ---@return nil
-function CraftingLogicController:OnChangeTab() end
+function CraftingLogicController:OnChangeTab(isCurrent) end
 
 ---@param itemData gameInventoryItemData
 ---@param maxQuantity Int32

@@ -135,6 +135,10 @@ function UIInventoryItemStatsManager:InternalFetchStatByType(statType, statId, s
 ---@return Bool
 function UIInventoryItemStatsManager:IsCurveBarsEnabled() end
 
+---@param itemData UIInventoryItem
+---@return Bool
+function UIInventoryItemStatsManager:IsItemTypeUsingBars(itemData) end
+
 ---@return Bool
 function UIInventoryItemStatsManager:IsSeparatorBarsEnabled() end
 

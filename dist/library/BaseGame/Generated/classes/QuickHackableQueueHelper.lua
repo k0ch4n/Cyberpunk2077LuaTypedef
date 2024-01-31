@@ -21,6 +21,10 @@ function QuickHackableQueueHelper.CanNewActionBeQueued(currentlyUploadingAction)
 ---@return Bool
 function QuickHackableQueueHelper.CheckAndSetInactivityReasonForVehicleActions(actions, scriptableDeviceAction) end
 
+---@param player PlayerPuppet
+---@return nil
+function QuickHackableQueueHelper.DecreaseQuickHackQueueCount(player) end
+
 ---@param player gameObject
 ---@param target gameObject
 ---@return Float

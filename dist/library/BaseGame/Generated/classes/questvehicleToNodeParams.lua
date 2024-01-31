@@ -10,6 +10,7 @@
 ---@field portals vehiclePortalsList
 ---@field trafficTryNeighborsForStart Bool
 ---@field trafficTryNeighborsForEnd Bool
+---@field ignoreNoAIDrivingLanes Bool
 questvehicleToNodeParams = {}
 
 ---@param fields? questvehicleToNodeParams

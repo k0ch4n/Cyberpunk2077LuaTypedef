@@ -15,6 +15,7 @@
 ---@field keepDistanceParamDistance AIArgumentMapping
 ---@field rubberBandingBool AIArgumentMapping
 ---@field rubberBandingTargetRef AIArgumentMapping
+---@field rubberBandingTargetForwardOffset AIArgumentMapping
 ---@field rubberBandingMinDistance AIArgumentMapping
 ---@field rubberBandingMaxDistance AIArgumentMapping
 ---@field rubberBandingStopAndWait AIArgumentMapping

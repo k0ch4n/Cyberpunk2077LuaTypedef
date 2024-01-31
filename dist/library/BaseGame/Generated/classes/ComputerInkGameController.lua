@@ -241,6 +241,10 @@ function ComputerInkGameController:ResolveQuestInfo(questInfo) end
 ---@return nil
 function ComputerInkGameController:SetDevicesMenu(gameController, parentWidget) end
 
+---@param isHidden Bool
+---@return nil
+function ComputerInkGameController:SetTopNavigationBarHidden(isHidden) end
+
 ---@return nil
 function ComputerInkGameController:SetupWidgets() end
 

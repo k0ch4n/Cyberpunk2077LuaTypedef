@@ -77,6 +77,10 @@ function UpgradingScreenController:IsQualityShown(itemQuality) end
 ---@return Bool
 function UpgradingScreenController:IsUpgradable(item, sendNotification) end
 
+---@param isCurrent Bool
+---@return nil
+function UpgradingScreenController:OnChangeTab(isCurrent) end
+
 ---@param inventoryItemData? gameInventoryItemData
 ---@return nil
 function UpgradingScreenController:RefreshListViewContent(inventoryItemData) end

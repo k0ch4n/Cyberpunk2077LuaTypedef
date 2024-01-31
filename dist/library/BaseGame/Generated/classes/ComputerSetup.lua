@@ -8,6 +8,7 @@
 ---@field internetMenu Bool
 ---@field newsFeedMenu Bool
 ---@field stylePreset TweakDBID
+---@field hideTopNavigationBar Bool
 ---@field mailsStructure gamedeviceGenericDataContent[]
 ---@field filesStructure gamedeviceGenericDataContent[]
 ---@field newsFeed SNewsFeedElementData[]

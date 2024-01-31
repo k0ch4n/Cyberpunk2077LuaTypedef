@@ -12,6 +12,11 @@ function LocomotionSwimmingEvents.new(fields) end
 ---@return nil
 function LocomotionSwimmingEvents:ExitCleanup(stateContext, scriptInterface) end
 
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@param timeDelta Float
+---@return Float
+function LocomotionSwimmingEvents:GetSwimmingImpulseMultiplier(scriptInterface, timeDelta) end
+
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool

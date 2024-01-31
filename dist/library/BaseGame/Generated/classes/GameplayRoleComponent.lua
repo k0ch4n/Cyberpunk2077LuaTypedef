@@ -215,13 +215,13 @@ function GameplayRoleComponent:GetUISystem() end
 ---@return Bool
 function GameplayRoleComponent:HasActiveMappin(mappinVariant) end
 
----@param gameplayRole EGameplayRole
----@return Bool
-function GameplayRoleComponent:HasMappin(gameplayRole) end
-
 ---@param data SDeviceMappinData
 ---@return Bool
 function GameplayRoleComponent:HasMappin(data) end
+
+---@param gameplayRole EGameplayRole
+---@return Bool
+function GameplayRoleComponent:HasMappin(gameplayRole) end
 
 ---@param mappinVariant gamedataMappinVariant
 ---@return Bool
@@ -276,6 +276,9 @@ function GameplayRoleComponent:IsMappinDataValid(mappinData) end
 ---@return Bool
 function GameplayRoleComponent:IsMappinDynamic() end
 
+---@return Bool
+function GameplayRoleComponent:IsShardRead() end
+
 ---@return nil
 function GameplayRoleComponent:OnGameAttach() end
 
@@ -323,6 +326,11 @@ function GameplayRoleComponent:ShowSingleMappin(index, visualData, bindPositionT
 ---@return nil
 function GameplayRoleComponent:ShowSingleMappin_Event(index) end
 
+---@param mappinIndex Int32
+---@param enable Bool
+---@return nil
+function GameplayRoleComponent:ToggleMappin(mappinIndex, enable) end
+
 ---@param mappinVariant gamedataMappinVariant
 ---@param enable Bool
 ---@param show Bool
@@ -336,11 +344,6 @@ function GameplayRoleComponent:ToggleMappin(mappinVariant, enable, show, visualD
 ---@param show Bool
 ---@return nil
 function GameplayRoleComponent:ToggleMappin(mappinVariant, enable, show) end
-
----@param mappinIndex Int32
----@param enable Bool
----@return nil
-function GameplayRoleComponent:ToggleMappin(mappinIndex, enable) end
 
 ---@param mappinVariant gamedataMappinVariant
 ---@param enable Bool

@@ -150,6 +150,9 @@ function gameuiVehicleShopGameController:SetUpOffers(brandController) end
 ---@return nil
 function gameuiVehicleShopGameController:ShowBrandOffers(brandController) end
 
+---@return nil
+function gameuiVehicleShopGameController:ShowNotification() end
+
 ---@param offerController VehicleOfferLogicController
 ---@return nil
 function gameuiVehicleShopGameController:ShowOfferDetails(offerController) end

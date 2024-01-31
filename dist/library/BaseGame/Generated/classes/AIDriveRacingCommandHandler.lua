@@ -10,6 +10,7 @@
 ---@field outStartFromClosest AIArgumentMapping
 ---@field outRubberBandingBool AIArgumentMapping
 ---@field outRubberBandingTargetRef AIArgumentMapping
+---@field outRubberBandingTargetForwardOffset AIArgumentMapping
 ---@field outRubberBandingMinDistance AIArgumentMapping
 ---@field outRubberBandingMaxDistance AIArgumentMapping
 ---@field outRubberBandingStopAndWait AIArgumentMapping

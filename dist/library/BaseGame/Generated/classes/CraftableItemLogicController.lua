@@ -44,3 +44,6 @@ function CraftableItemLogicController:SelectSlot(select) end
 
 ---@return nil
 function CraftableItemLogicController:UpdateControllerData() end
+
+---@return nil
+function CraftableItemLogicController:UpdateHightlightColor() end
