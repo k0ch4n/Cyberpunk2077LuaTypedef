@@ -242,9 +242,6 @@ function NewObject(acName) end
 ---@return T? # `SingletonReference`
 function GetSingleton(acName) end
 
----@return any[]
-function GetMods() end
-
 ---
 ---[View documents](https://wiki.redmodding.org/cyber-engine-tweaks/cet-functions/misc/getters-functions#getmod)
 ---

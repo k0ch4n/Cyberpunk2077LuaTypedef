@@ -7,8 +7,9 @@ WorldFunctionalTests = {}
 ---@return WorldFunctionalTests
 function WorldFunctionalTests.new(fields) end
 
+---@param entity entEntity
 ---@return nil
-function WorldFunctionalTests:Internal_DespawnEntity() end
+function WorldFunctionalTests:Internal_DespawnEntity(entity) end
 
 ---@param entityPath String
 ---@param worldTransform WorldTransform
