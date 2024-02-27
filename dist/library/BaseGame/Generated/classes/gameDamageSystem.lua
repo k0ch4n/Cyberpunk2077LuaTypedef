@@ -186,12 +186,12 @@ function gameDamageSystem:FillInDamageBlackboard(hitEvent) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
----@return nil, gamedamageHitDebugData hitDebugData
+---@return gamedamageHitDebugData hitDebugData
 function gameDamageSystem:GatherDebugData(hitEvent, cache) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
----@return nil, gamedamageServerHitData serverHitData
+---@return gamedamageServerHitData serverHitData
 function gameDamageSystem:GatherServerData(hitEvent, cache) end
 
 ---@param weapon gameweaponObject

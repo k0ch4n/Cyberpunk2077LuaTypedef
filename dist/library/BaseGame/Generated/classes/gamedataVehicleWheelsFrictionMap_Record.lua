@@ -26,7 +26,7 @@ function gamedataVehicleWheelsFrictionMap_Record:GetSurfacesItem(index) end
 ---@return gamedataVehicleSurfaceBinding_Record
 function gamedataVehicleWheelsFrictionMap_Record:GetSurfacesItemHandle(index) end
 
----@return nil, gamedataVehicleSurfaceBinding_Record[] outList
+---@return gamedataVehicleSurfaceBinding_Record[] outList
 function gamedataVehicleWheelsFrictionMap_Record:Surfaces() end
 
 ---@param item gamedataVehicleSurfaceBinding_Record

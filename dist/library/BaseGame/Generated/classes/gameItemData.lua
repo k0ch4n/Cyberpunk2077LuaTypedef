@@ -16,17 +16,17 @@ function gameItemData:GetBareStatValueByType(type) end
 ---@return CName[]
 function gameItemData:GetDynamicTags() end
 
----@return nil, TweakDBID[] emptySlots
+---@return TweakDBID[] emptySlots
 function gameItemData:GetEmptySlotsOnItem() end
 
 ---@return gameItemID
 function gameItemData:GetID() end
 
 ---@param slotId TweakDBID|string
----@return nil, gameInnerItemData part
+---@return gameInnerItemData part
 function gameItemData:GetItemPart(slotId) end
 
----@return nil, gameInnerItemData[] parts
+---@return gameInnerItemData[] parts
 function gameItemData:GetItemParts() end
 
 ---@return gamedataItemType
@@ -57,7 +57,7 @@ function gameItemData:GetTemporaryStatBundle() end
 ---@return GameTime
 function gameItemData:GetTimestamp() end
 
----@return nil, TweakDBID[] usedSlots
+---@return TweakDBID[] usedSlots
 function gameItemData:GetUsedSlotsOnItem() end
 
 ---@return Int32

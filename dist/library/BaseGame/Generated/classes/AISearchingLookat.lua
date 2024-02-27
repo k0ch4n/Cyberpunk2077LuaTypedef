@@ -51,7 +51,7 @@ function AISearchingLookat:InitializeMemberVariables(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param lastTargetPosition Vector4
----@return nil, Float leftAngleCap, Float rightAngleCap
+---@return Float leftAngleCap, Float rightAngleCap
 function AISearchingLookat:LookatOffsetAngleLimit(context, lastTargetPosition) end
 
 ---@param context AIbehaviorScriptExecutionContext

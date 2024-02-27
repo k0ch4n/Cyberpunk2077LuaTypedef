@@ -77,7 +77,7 @@ function gamedataStatusEffectUIData_Record:NameValuesContains(item) end
 ---@return Float
 function gamedataStatusEffectUIData_Record:Priority() end
 
----@return nil, gamedataStat_Record[] outList
+---@return gamedataStat_Record[] outList
 function gamedataStatusEffectUIData_Record:Stats() end
 
 ---@param item gamedataStat_Record

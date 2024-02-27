@@ -12,7 +12,7 @@ function gamedataAIDirectorScheduleSpawningDesc_Record.new(fields) end
 ---@return Int32
 function gamedataAIDirectorScheduleSpawningDesc_Record:EnemiesAmount() end
 
----@return nil, gamedataAIDirectorSchedulePlanEnemyEntry_Record[] outList
+---@return gamedataAIDirectorSchedulePlanEnemyEntry_Record[] outList
 function gamedataAIDirectorScheduleSpawningDesc_Record:Entries() end
 
 ---@param item gamedataAIDirectorSchedulePlanEnemyEntry_Record

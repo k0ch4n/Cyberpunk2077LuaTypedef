@@ -9,7 +9,7 @@ gamedataArcadeScoreboard_Record = {}
 ---@return gamedataArcadeScoreboard_Record
 function gamedataArcadeScoreboard_Record.new(fields) end
 
----@return nil, gamedataArcadeScoreboardEntry_Record[] outList
+---@return gamedataArcadeScoreboardEntry_Record[] outList
 function gamedataArcadeScoreboard_Record:ArcadeScoreboardEntryList() end
 
 ---@param item gamedataArcadeScoreboardEntry_Record

@@ -43,14 +43,14 @@ function gamedataGameplayAbility_Record:Loc_key_desc() end
 ---@return CName
 function gamedataGameplayAbility_Record:Loc_key_name() end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataGameplayAbility_Record:PrereqsForUIValidation() end
 
 ---@param item gamedataIPrereq_Record
 ---@return Bool
 function gamedataGameplayAbility_Record:PrereqsForUIValidationContains(item) end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataGameplayAbility_Record:PrereqsForUse() end
 
 ---@param item gamedataIPrereq_Record

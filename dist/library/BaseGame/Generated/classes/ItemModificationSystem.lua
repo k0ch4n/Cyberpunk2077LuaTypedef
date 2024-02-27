@@ -25,7 +25,7 @@ function ItemModificationSystem.GetAllSlotsFromItemData(itemData) end
 function ItemModificationSystem.GetSlotsForCyberdeckFromItemData(itemData) end
 
 ---@param blueprintRecord gamedataItemBlueprintElement_Record
----@return nil, gamedataAttachmentSlot_Record[] attachments
+---@return gamedataAttachmentSlot_Record[] attachments
 function ItemModificationSystem.GetattachementFromBlueprint(blueprintRecord) end
 
 ---@param obj gameObject

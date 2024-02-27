@@ -11,7 +11,7 @@ ModifyDamagePerHackEffector = {}
 function ModifyDamagePerHackEffector.new(fields) end
 
 ---@param list gameStatusEffect[]
----@return nil, Float count
+---@return Float count
 function ModifyDamagePerHackEffector:CountEffects(list) end
 
 ---@param record TweakDBID|string

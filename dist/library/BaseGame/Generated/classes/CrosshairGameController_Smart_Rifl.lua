@@ -87,7 +87,7 @@ function CrosshairGameController_Smart_Rifl:AllocateNewTarget(data, newTargets) 
 ---@return nil
 function CrosshairGameController_Smart_Rifl:ApplyCrosshairGUIState(state, aimedAtEntity) end
 
----@return nil, Vector2 targetableRegionSize, Vector2 reticleSize
+---@return Vector2 targetableRegionSize, Vector2 reticleSize
 function CrosshairGameController_Smart_Rifl:CheckIfRectangleNeedsToBeResized() end
 
 ---@param firstEquip Bool

@@ -158,7 +158,7 @@ function VehicleComponent.GetPassengersSlotNames(slotNames) end
 function VehicleComponent.GetSeats(vehicle) end
 
 ---@param vehicle vehicleBaseObject
----@return nil, Int32 totalSeatSlots, Int32 occupiedSeatSlots, Int32 reservedSlots
+---@return Int32 totalSeatSlots, Int32 occupiedSeatSlots, Int32 reservedSlots
 function VehicleComponent.GetSeatsStatus(vehicle) end
 
 ---@param owner gameObject

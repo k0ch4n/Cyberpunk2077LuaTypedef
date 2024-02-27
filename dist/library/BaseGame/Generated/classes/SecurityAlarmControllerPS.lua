@@ -40,11 +40,11 @@ function SecurityAlarmControllerPS:GetBackgroundTextureTweakDBID() end
 function SecurityAlarmControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function SecurityAlarmControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function SecurityAlarmControllerPS:GetQuickHackActions(context) end
 
 ---@return nil

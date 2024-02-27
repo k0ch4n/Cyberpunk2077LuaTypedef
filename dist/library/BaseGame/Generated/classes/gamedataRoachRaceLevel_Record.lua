@@ -47,14 +47,14 @@ function gamedataRoachRaceLevel_Record:GetPreLoadedResourceListCount() end
 ---@return redResourceReferenceScriptToken
 function gamedataRoachRaceLevel_Record:GetPreLoadedResourceListItem(index) end
 
----@return nil, gamedataRoachRaceObstacle_Record[] outList
+---@return gamedataRoachRaceObstacle_Record[] outList
 function gamedataRoachRaceLevel_Record:ObstacleList() end
 
 ---@param item gamedataRoachRaceObstacle_Record
 ---@return Bool
 function gamedataRoachRaceLevel_Record:ObstacleListContains(item) end
 
----@return nil, gamedataRoachRaceObstacleTexturePartPair_Record[] outList
+---@return gamedataRoachRaceObstacleTexturePartPair_Record[] outList
 function gamedataRoachRaceLevel_Record:ObstacleTexturePartMap() end
 
 ---@param item gamedataRoachRaceObstacleTexturePartPair_Record

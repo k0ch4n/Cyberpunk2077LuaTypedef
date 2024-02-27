@@ -12,7 +12,7 @@ function gamedataAISubActionCover_Record.new(fields) end
 ---@return Float
 function gamedataAISubActionCover_Record:ClearLOSDistanceTolerance() end
 
----@return nil, gamedataAIActionCondition_Record[] outList
+---@return gamedataAIActionCondition_Record[] outList
 function gamedataAISubActionCover_Record:CommandCoverConditions() end
 
 ---@param item gamedataAIActionCondition_Record
@@ -32,7 +32,7 @@ function gamedataAISubActionCover_Record:DelayExposedInCoverReset() end
 ---@return Int32
 function gamedataAISubActionCover_Record:ExposedInCover() end
 
----@return nil, gamedataAIExposureMethodType_Record[] outList
+---@return gamedataAIExposureMethodType_Record[] outList
 function gamedataAISubActionCover_Record:ExposureMethodPriority() end
 
 ---@param item gamedataAIExposureMethodType_Record

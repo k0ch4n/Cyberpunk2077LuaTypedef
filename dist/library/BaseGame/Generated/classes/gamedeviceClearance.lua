@@ -28,5 +28,5 @@ function gamedeviceClearance.GetMinClearanceLevel() end
 function gamedeviceClearance.IsInRange(clearance, clearanceLevel) end
 
 ---@param clearance gamedeviceClearance
----@return nil, Int32 min, Int32 max
+---@return Int32 min, Int32 max
 function gamedeviceClearance.ReadValues(clearance) end

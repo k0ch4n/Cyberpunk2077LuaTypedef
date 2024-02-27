@@ -20,7 +20,7 @@ function gamedataAIInTacticPositionCond_Record:GetTacticsItem(index) end
 ---@return gamedataAITacticType_Record
 function gamedataAIInTacticPositionCond_Record:GetTacticsItemHandle(index) end
 
----@return nil, gamedataAITacticType_Record[] outList
+---@return gamedataAITacticType_Record[] outList
 function gamedataAIInTacticPositionCond_Record:Tactics() end
 
 ---@param item gamedataAITacticType_Record

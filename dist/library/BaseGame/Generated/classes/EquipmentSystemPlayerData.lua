@@ -445,7 +445,7 @@ function EquipmentSystemPlayerData:GetPlacementSlot(equipAreaIndex, slotIndex) e
 ---@return TweakDBID
 function EquipmentSystemPlayerData:GetPlacementSlotByAreaType(area) end
 
----@return nil, gamedataEquipmentArea_Record[] list
+---@return gamedataEquipmentArea_Record[] list
 function EquipmentSystemPlayerData:GetPlayerEquipmentAreas() end
 
 ---@param eqManipulationAction EquipmentManipulationAction
@@ -544,18 +544,18 @@ function EquipmentSystemPlayerData:InitializeClothingOverrideInfo() end
 function EquipmentSystemPlayerData:InitializeClothingSlotsInfo() end
 
 ---@param slotRecord gamedataEquipSlot_Record
----@return nil, gameSEquipSlot equipSlot
+---@return gameSEquipSlot equipSlot
 function EquipmentSystemPlayerData:InitializeEquipSlotFromRecord(slotRecord) end
 
 ---@param slotRecords gamedataEquipSlot_Record[]
----@return nil, gameSEquipSlot[] equipSlots
+---@return gameSEquipSlot[] equipSlots
 function EquipmentSystemPlayerData:InitializeEquipSlotsFromRecords(slotRecords) end
 
 ---@return nil
 function EquipmentSystemPlayerData:InitializeEquipment() end
 
 ---@param equipAreaRecord gamedataEquipmentArea_Record
----@return nil, gameSEquipArea equipArea
+---@return gameSEquipArea equipArea
 function EquipmentSystemPlayerData:InitializeEquipmentArea(equipAreaRecord) end
 
 ---@return nil
@@ -880,7 +880,7 @@ function EquipmentSystemPlayerData:ResetItemAppearance(area, force) end
 ---@return nil
 function EquipmentSystemPlayerData:ResetItemAppearanceEvent(area) end
 
----@return nil, gameSEquipArea equipArea
+---@return gameSEquipArea equipArea
 function EquipmentSystemPlayerData:RestoreEquipSlotsData() end
 
 ---@param setName String

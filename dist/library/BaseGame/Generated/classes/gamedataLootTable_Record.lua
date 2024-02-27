@@ -45,14 +45,14 @@ function gamedataLootTable_Record:GetQueriesItemHandle(index) end
 ---@return String
 function gamedataLootTable_Record:LootGenerationType() end
 
----@return nil, gamedataLootItem_Record[] outList
+---@return gamedataLootItem_Record[] outList
 function gamedataLootTable_Record:LootItems() end
 
 ---@param item gamedataLootItem_Record
 ---@return Bool
 function gamedataLootTable_Record:LootItemsContains(item) end
 
----@return nil, gamedataLootTable_Record[] outList
+---@return gamedataLootTable_Record[] outList
 function gamedataLootTable_Record:LootTableInclusions() end
 
 ---@param item gamedataLootTable_Record
@@ -65,7 +65,7 @@ function gamedataLootTable_Record:MaxItemsToLoot() end
 ---@return Int32
 function gamedataLootTable_Record:MinItemsToLoot() end
 
----@return nil, gamedataItemQueryElement_Record[] outList
+---@return gamedataItemQueryElement_Record[] outList
 function gamedataLootTable_Record:Queries() end
 
 ---@param item gamedataItemQueryElement_Record

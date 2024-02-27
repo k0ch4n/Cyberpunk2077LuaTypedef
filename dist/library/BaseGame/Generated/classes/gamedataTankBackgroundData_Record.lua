@@ -9,7 +9,7 @@ gamedataTankBackgroundData_Record = {}
 ---@return gamedataTankBackgroundData_Record
 function gamedataTankBackgroundData_Record.new(fields) end
 
----@return nil, gamedataArcadeBackgroundLayer_Record[] outList
+---@return gamedataArcadeBackgroundLayer_Record[] outList
 function gamedataTankBackgroundData_Record:BackgroundLayerList() end
 
 ---@param item gamedataArcadeBackgroundLayer_Record

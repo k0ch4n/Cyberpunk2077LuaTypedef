@@ -40,7 +40,7 @@ function SpeakerControllerPS:GetDeviceIconTweakDBID() end
 function SpeakerControllerPS:GetGlitchSFX() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function SpeakerControllerPS:GetQuickHackActions(context) end
 
 ---@return Float

@@ -20,7 +20,7 @@ function gamedataVehicleFxCollision_Record:GetMaterialsItem(index) end
 ---@return gamedataVehicleFxCollisionMaterial_Record
 function gamedataVehicleFxCollision_Record:GetMaterialsItemHandle(index) end
 
----@return nil, gamedataVehicleFxCollisionMaterial_Record[] outList
+---@return gamedataVehicleFxCollisionMaterial_Record[] outList
 function gamedataVehicleFxCollision_Record:Materials() end
 
 ---@param item gamedataVehicleFxCollisionMaterial_Record

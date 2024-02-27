@@ -35,7 +35,7 @@ function InteractiveAdControllerPS:GetActions(context) end
 function InteractiveAdControllerPS:GetBlackboardDef() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function InteractiveAdControllerPS:GetQuestActions(context) end
 
 ---@return nil

@@ -26,7 +26,7 @@ function gameVisionModeSystem:EnterMode(activator, mode) end
 function gameVisionModeSystem:ForceVisionAppearance(entity, appearance, transitionTime) end
 
 ---@param revealEntityId entEntityID
----@return nil, gameVisionModeSystemRevealIdentifier[] revealIds
+---@return gameVisionModeSystemRevealIdentifier[] revealIds
 function gameVisionModeSystem:GetDelayedRevealEntries(revealEntityId) end
 
 ---@return gameScanningController

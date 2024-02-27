@@ -20,7 +20,7 @@ function gamedataItemList_Record:GetItemsItem(index) end
 ---@return gamedataItem_Record
 function gamedataItemList_Record:GetItemsItemHandle(index) end
 
----@return nil, gamedataItem_Record[] outList
+---@return gamedataItem_Record[] outList
 function gamedataItemList_Record:Items() end
 
 ---@param item gamedataItem_Record

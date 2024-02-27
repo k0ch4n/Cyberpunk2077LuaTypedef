@@ -14,7 +14,7 @@ function gamedataTDBIDHelper.new(fields) end
 function gamedataTDBIDHelper.OpenRecordInVSCode(tdbID) end
 
 ---@param toAppend TweakDBID|string
----@return nil, TweakDBID tdbID
+---@return TweakDBID tdbID
 function gamedataTDBIDHelper:Append(toAppend) end
 
 ---@param str String
@@ -29,7 +29,7 @@ function gamedataTDBIDHelper:IsValid(tdbID) end
 function gamedataTDBIDHelper:None() end
 
 ---@param toPrepend TweakDBID|string
----@return nil, TweakDBID tdbID
+---@return TweakDBID tdbID
 function gamedataTDBIDHelper:Prepend(toPrepend) end
 
 ---@param tdbID TweakDBID|string

@@ -64,35 +64,35 @@ function gamedataUIStatsMap_Record:GetTypesToCompareWithItem(index) end
 ---@return gamedataItemType_Record
 function gamedataUIStatsMap_Record:GetTypesToCompareWithItemHandle(index) end
 
----@return nil, gamedataStat_Record[] outList
+---@return gamedataStat_Record[] outList
 function gamedataUIStatsMap_Record:PrimaryStats() end
 
 ---@param item gamedataStat_Record
 ---@return Bool
 function gamedataUIStatsMap_Record:PrimaryStatsContains(item) end
 
----@return nil, gamedataStat_Record[] outList
+---@return gamedataStat_Record[] outList
 function gamedataUIStatsMap_Record:SecondaryStats() end
 
 ---@param item gamedataStat_Record
 ---@return Bool
 function gamedataUIStatsMap_Record:SecondaryStatsContains(item) end
 
----@return nil, gamedataStat_Record[] outList
+---@return gamedataStat_Record[] outList
 function gamedataUIStatsMap_Record:StatsToCompare() end
 
 ---@param item gamedataStat_Record
 ---@return Bool
 function gamedataUIStatsMap_Record:StatsToCompareContains(item) end
 
----@return nil, gamedataStat_Record[] outList
+---@return gamedataStat_Record[] outList
 function gamedataUIStatsMap_Record:TooltipStats() end
 
 ---@param item gamedataStat_Record
 ---@return Bool
 function gamedataUIStatsMap_Record:TooltipStatsContains(item) end
 
----@return nil, gamedataItemType_Record[] outList
+---@return gamedataItemType_Record[] outList
 function gamedataUIStatsMap_Record:TypesToCompareWith() end
 
 ---@param item gamedataItemType_Record

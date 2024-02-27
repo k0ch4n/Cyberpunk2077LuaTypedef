@@ -26,7 +26,7 @@ function gamedataItemRecipe_Record:GetHideOnItemsAddedItem(index) end
 ---@return gamedataItem_Record
 function gamedataItemRecipe_Record:GetHideOnItemsAddedItemHandle(index) end
 
----@return nil, gamedataItem_Record[] outList
+---@return gamedataItem_Record[] outList
 function gamedataItemRecipe_Record:HideOnItemsAdded() end
 
 ---@param item gamedataItem_Record

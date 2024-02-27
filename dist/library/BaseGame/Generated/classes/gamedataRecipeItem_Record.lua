@@ -9,7 +9,7 @@ gamedataRecipeItem_Record = {}
 ---@return gamedataRecipeItem_Record
 function gamedataRecipeItem_Record.new(fields) end
 
----@return nil, gamedataItem_Record[] outList
+---@return gamedataItem_Record[] outList
 function gamedataRecipeItem_Record:CraftableItems() end
 
 ---@param item gamedataItem_Record

@@ -46,11 +46,11 @@ function RoadBlockControllerPS:GetDeviceIconTweakDBID() end
 function RoadBlockControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function RoadBlockControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function RoadBlockControllerPS:GetQuickHackActions(context) end
 
 ---@return Bool

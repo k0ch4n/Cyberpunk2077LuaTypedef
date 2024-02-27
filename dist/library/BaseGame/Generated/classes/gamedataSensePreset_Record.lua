@@ -9,7 +9,7 @@ gamedataSensePreset_Record = {}
 ---@return gamedataSensePreset_Record
 function gamedataSensePreset_Record.new(fields) end
 
----@return nil, gamedataDetectionCurve_Record[] outList
+---@return gamedataDetectionCurve_Record[] outList
 function gamedataSensePreset_Record:Curves() end
 
 ---@param item gamedataDetectionCurve_Record
@@ -79,14 +79,14 @@ function gamedataSensePreset_Record:GetShapesItemHandle(index) end
 ---@return Bool
 function gamedataSensePreset_Record:IgnorePhysicsTest() end
 
----@return nil, gamedataDetectionCurve_Record[] outList
+---@return gamedataDetectionCurve_Record[] outList
 function gamedataSensePreset_Record:MaterialCurves() end
 
 ---@param item gamedataDetectionCurve_Record
 ---@return Bool
 function gamedataSensePreset_Record:MaterialCurvesContains(item) end
 
----@return nil, gamedataSenseShape_Record[] outList
+---@return gamedataSenseShape_Record[] outList
 function gamedataSensePreset_Record:Shapes() end
 
 ---@param item gamedataSenseShape_Record

@@ -9,7 +9,7 @@ gamedataArcadeMinigameDataList_Record = {}
 ---@return gamedataArcadeMinigameDataList_Record
 function gamedataArcadeMinigameDataList_Record.new(fields) end
 
----@return nil, gamedataArcadeMinigameData_Record[] outList
+---@return gamedataArcadeMinigameData_Record[] outList
 function gamedataArcadeMinigameDataList_Record:Data() end
 
 ---@param item gamedataArcadeMinigameData_Record

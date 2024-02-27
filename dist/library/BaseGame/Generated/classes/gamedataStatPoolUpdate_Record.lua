@@ -20,7 +20,7 @@ function gamedataStatPoolUpdate_Record:GetStatModifiersItem(index) end
 ---@return gamedataStatModifier_Record
 function gamedataStatPoolUpdate_Record:GetStatModifiersItemHandle(index) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataStatPoolUpdate_Record:StatModifiers() end
 
 ---@param item gamedataStatModifier_Record

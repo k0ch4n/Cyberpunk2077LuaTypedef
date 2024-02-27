@@ -23,7 +23,7 @@ function gamedataCPOLoadoutBase_Record:GetItemsItem(index) end
 ---@return gamedataInventoryItem_Record
 function gamedataCPOLoadoutBase_Record:GetItemsItemHandle(index) end
 
----@return nil, gamedataInventoryItem_Record[] outList
+---@return gamedataInventoryItem_Record[] outList
 function gamedataCPOLoadoutBase_Record:Items() end
 
 ---@param item gamedataInventoryItem_Record

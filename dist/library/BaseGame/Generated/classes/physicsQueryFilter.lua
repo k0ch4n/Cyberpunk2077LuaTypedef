@@ -15,7 +15,7 @@ function physicsQueryFilter.new(fields) end
 function physicsQueryFilter.ALL() end
 
 ---@param group CName|string
----@return nil, physicsQueryFilter filter
+---@return physicsQueryFilter filter
 function physicsQueryFilter.AddGroup(group) end
 
 ---@return physicsQueryFilter

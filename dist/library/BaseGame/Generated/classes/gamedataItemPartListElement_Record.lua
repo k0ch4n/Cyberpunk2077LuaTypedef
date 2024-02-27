@@ -26,7 +26,7 @@ function gamedataItemPartListElement_Record:Item() end
 ---@return gamedataItem_Record
 function gamedataItemPartListElement_Record:ItemHandle() end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataItemPartListElement_Record:StatModifierWeight() end
 
 ---@param item gamedataStatModifier_Record

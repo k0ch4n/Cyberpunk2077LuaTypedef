@@ -20,7 +20,7 @@ function gamedataAINodeMap_Record:GetMapItem(index) end
 ---@return gamedataAINodeMapField_Record
 function gamedataAINodeMap_Record:GetMapItemHandle(index) end
 
----@return nil, gamedataAINodeMapField_Record[] outList
+---@return gamedataAINodeMapField_Record[] outList
 function gamedataAINodeMap_Record:Map() end
 
 ---@param item gamedataAINodeMapField_Record

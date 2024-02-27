@@ -32,7 +32,7 @@ function gamedataSubCharacter_Record:IsPrevention() end
 ---@return CName
 function gamedataSubCharacter_Record:ReferenceName() end
 
----@return nil, gamedataItem_Record[] outList
+---@return gamedataItem_Record[] outList
 function gamedataSubCharacter_Record:StartingEquippedItems() end
 
 ---@param item gamedataItem_Record

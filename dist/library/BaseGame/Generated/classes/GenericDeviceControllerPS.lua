@@ -71,11 +71,11 @@ function GenericDeviceControllerPS:GetPerformedCustomActionsStorage() end
 function GenericDeviceControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function GenericDeviceControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function GenericDeviceControllerPS:GetQuickHackActions(context) end
 
 ---@param inputAction gamedeviceAction

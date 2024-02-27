@@ -9,7 +9,7 @@ gamedataNPCEquipmentItem_Record = {}
 ---@return gamedataNPCEquipmentItem_Record
 function gamedataNPCEquipmentItem_Record.new(fields) end
 
----@return nil, gamedataAIActionCondition_Record[] outList
+---@return gamedataAIActionCondition_Record[] outList
 function gamedataNPCEquipmentItem_Record:EquipCondition() end
 
 ---@param item gamedataAIActionCondition_Record
@@ -56,7 +56,7 @@ function gamedataNPCEquipmentItem_Record:OnBodySlot() end
 ---@return gamedataAttachmentSlot_Record
 function gamedataNPCEquipmentItem_Record:OnBodySlotHandle() end
 
----@return nil, gamedataAIActionCondition_Record[] outList
+---@return gamedataAIActionCondition_Record[] outList
 function gamedataNPCEquipmentItem_Record:UnequipCondition() end
 
 ---@param item gamedataAIActionCondition_Record

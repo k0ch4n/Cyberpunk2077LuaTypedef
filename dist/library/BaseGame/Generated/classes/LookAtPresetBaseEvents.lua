@@ -12,7 +12,7 @@ LookAtPresetBaseEvents = {}
 ---@param recordID TweakDBID|string
 ---@param priority Int32
 ---@param lookAtEventsArray entLookAtAddEvent[]
----@return nil, Bool attachLeft, Bool attachRight
+---@return Bool attachLeft, Bool attachRight
 function LookAtPresetBaseEvents.AddLookat(scriptInterface, recordID, priority, lookAtEventsArray) end
 
 ---@param lookatPresetRecord gamedataLookAtPreset_Record

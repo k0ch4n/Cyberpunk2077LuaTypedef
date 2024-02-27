@@ -51,7 +51,7 @@ function ApartmentScreenControllerPS:GetInitialOverdueValue() end
 function ApartmentScreenControllerPS:GetPaymentScheduleValue() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function ApartmentScreenControllerPS:GetQuestActions(context) end
 
 ---@return Int32

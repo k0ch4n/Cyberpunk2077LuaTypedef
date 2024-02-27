@@ -32,7 +32,7 @@ function Quaternion.Dot(a, b) end
 function Quaternion.GetAngle(q) end
 
 ---@param quat Quaternion
----@return nil, Vector4 forward, Vector4 right, Vector4 up
+---@return Vector4 forward, Vector4 right, Vector4 up
 function Quaternion.GetAxes(quat) end
 
 ---@param q Quaternion
@@ -97,7 +97,7 @@ function Quaternion.Rand(min, max) end
 
 ---@param axis Vector4
 ---@param angle Float
----@return nil, Quaternion q
+---@return Quaternion q
 function Quaternion.SetAxisAngle(axis, angle) end
 
 ---@param quat Quaternion

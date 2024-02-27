@@ -20,7 +20,7 @@ function gamedataHandicapLootList_Record:GetLootItem(index) end
 ---@return gamedataHandicapLootPreset_Record
 function gamedataHandicapLootList_Record:GetLootItemHandle(index) end
 
----@return nil, gamedataHandicapLootPreset_Record[] outList
+---@return gamedataHandicapLootPreset_Record[] outList
 function gamedataHandicapLootList_Record:Loot() end
 
 ---@param item gamedataHandicapLootPreset_Record

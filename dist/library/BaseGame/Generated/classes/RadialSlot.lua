@@ -38,7 +38,7 @@ function RadialSlot:Deactivate() end
 ---@return Float
 function RadialSlot:GetAngle() end
 
----@return nil, String[] info
+---@return String[] info
 function RadialSlot:GetDebugInfo() end
 
 ---@return inkWidget

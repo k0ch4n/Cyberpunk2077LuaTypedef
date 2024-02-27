@@ -9,7 +9,7 @@ gamedataNPCEquipmentGroup_Record = {}
 ---@return gamedataNPCEquipmentGroup_Record
 function gamedataNPCEquipmentGroup_Record.new(fields) end
 
----@return nil, gamedataNPCEquipmentGroupEntry_Record[] outList
+---@return gamedataNPCEquipmentGroupEntry_Record[] outList
 function gamedataNPCEquipmentGroup_Record:EquipmentItems() end
 
 ---@param item gamedataNPCEquipmentGroupEntry_Record

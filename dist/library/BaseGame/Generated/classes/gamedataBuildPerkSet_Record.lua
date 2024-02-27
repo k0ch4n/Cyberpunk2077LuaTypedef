@@ -20,7 +20,7 @@ function gamedataBuildPerkSet_Record:GetPerksItem(index) end
 ---@return gamedataBuildPerk_Record
 function gamedataBuildPerkSet_Record:GetPerksItemHandle(index) end
 
----@return nil, gamedataBuildPerk_Record[] outList
+---@return gamedataBuildPerk_Record[] outList
 function gamedataBuildPerkSet_Record:Perks() end
 
 ---@param item gamedataBuildPerk_Record

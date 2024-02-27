@@ -88,11 +88,11 @@ function SecurityTurretControllerPS:GetMinigameActions(actions, context) end
 function SecurityTurretControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function SecurityTurretControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function SecurityTurretControllerPS:GetQuickHackActions(context) end
 
 ---@return BaseSkillCheckContainer

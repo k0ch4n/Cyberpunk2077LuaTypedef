@@ -238,7 +238,7 @@ class Annotation:
         if ~flags & Flags.Function.isStatic:
             operator = ":"
 
-        types = [type]
+        types = []
         param_names = []
         for param in params:
             if param["type"] == "ScriptGameInstance":
@@ -256,6 +256,9 @@ class Annotation:
 
             self.add_param(param["name"], param["type"], param["flags"])
             param_names.append(param["name"])
+
+        if not types or type != "nil":
+            types.insert(0, type)
 
         separator = ", "
 

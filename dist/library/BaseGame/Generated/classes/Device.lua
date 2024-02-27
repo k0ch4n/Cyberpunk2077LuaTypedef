@@ -758,7 +758,7 @@ function Device:ExtractEntityID(evt) end
 ---@return nil
 function Device:FastForwardAnimations() end
 
----@return nil, gameScanningTooltipElementDef[] arr
+---@return gameScanningTooltipElementDef[] arr
 function Device:FillObjectDescription() end
 
 ---@return nil

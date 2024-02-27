@@ -29,7 +29,7 @@ function gamedataWorldMapZoomLevel_Record:GetMappinFilterGroupsItemHandle(index)
 ---@return Float
 function gamedataWorldMapZoomLevel_Record:IconScale() end
 
----@return nil, gamedataMappinUIFilterGroup_Record[] outList
+---@return gamedataMappinUIFilterGroup_Record[] outList
 function gamedataWorldMapZoomLevel_Record:MappinFilterGroups() end
 
 ---@param item gamedataMappinUIFilterGroup_Record

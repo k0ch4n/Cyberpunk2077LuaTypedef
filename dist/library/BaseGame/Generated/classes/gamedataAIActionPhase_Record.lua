@@ -70,7 +70,7 @@ function gamedataAIActionPhase_Record:MovePolicy() end
 ---@return gamedataMovementPolicy_Record
 function gamedataAIActionPhase_Record:MovePolicyHandle() end
 
----@return nil, gamedataAIActionCondition_Record[] outList
+---@return gamedataAIActionCondition_Record[] outList
 function gamedataAIActionPhase_Record:NotRepeatPhaseCondition() end
 
 ---@param item gamedataAIActionCondition_Record
@@ -80,7 +80,7 @@ function gamedataAIActionPhase_Record:NotRepeatPhaseConditionContains(item) end
 ---@return Int32
 function gamedataAIActionPhase_Record:Repeat() end
 
----@return nil, gamedataAIActionCondition_Record[] outList
+---@return gamedataAIActionCondition_Record[] outList
 function gamedataAIActionPhase_Record:ToNextPhaseCondition() end
 
 ---@return Float

@@ -34,7 +34,7 @@ function SetCustomShootPosition.new(fields) end
 ---@param ownerPosition Vector4
 ---@param offset Vector3
 ---@param shootToTheGround Bool
----@return nil, Vector4 targetPosition
+---@return Vector4 targetPosition
 function SetCustomShootPosition.ApplyTargetOffset(ownerPosition, offset, shootToTheGround) end
 
 ---@param context AIbehaviorScriptExecutionContext

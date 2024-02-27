@@ -49,7 +49,7 @@ function MessengerUtils.GetCallableAndNonEmptyContacts(journal) end
 ---@param journal gameJournalManager
 ---@param messagesReceived gameJournalEntry[]
 ---@param playerReplies gameJournalEntry[]
----@return nil, ContactData contactData
+---@return ContactData contactData
 function MessengerUtils.GetContactMessageData(journal, messagesReceived, playerReplies) end
 
 ---@param journal gameJournalManager
@@ -92,15 +92,15 @@ function MessengerUtils.HasQuestImportantMessages(journal) end
 
 ---@param journal gameJournalManager
 ---@param messagesReceived gameJournalEntry[]
----@return nil, ContactData contactData
+---@return ContactData contactData
 function MessengerUtils.RefreshQuestRelatedStatus(journal, messagesReceived) end
 
 ---@param journal gameJournalManager
 ---@param messagesReceived gameJournalEntry[]
 ---@param conversationEntry gameJournalPhoneConversation
----@return nil, ContactData contactData
+---@return ContactData contactData
 function MessengerUtils.SetTimestamp(journal, messagesReceived, conversationEntry) end
 
 ---@param conversationEntry gameJournalPhoneConversation
----@return nil, ContactData contactData
+---@return ContactData contactData
 function MessengerUtils.SetTitle(conversationEntry) end

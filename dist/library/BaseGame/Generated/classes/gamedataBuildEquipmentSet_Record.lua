@@ -9,7 +9,7 @@ gamedataBuildEquipmentSet_Record = {}
 ---@return gamedataBuildEquipmentSet_Record
 function gamedataBuildEquipmentSet_Record.new(fields) end
 
----@return nil, gamedataBuildEquipment_Record[] outList
+---@return gamedataBuildEquipment_Record[] outList
 function gamedataBuildEquipmentSet_Record:Equipment() end
 
 ---@param item gamedataBuildEquipment_Record

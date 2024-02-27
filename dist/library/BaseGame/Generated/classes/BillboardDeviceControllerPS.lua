@@ -35,7 +35,7 @@ function BillboardDeviceControllerPS:GetGlitchSFX() end
 function BillboardDeviceControllerPS:GetLightsSettings() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function BillboardDeviceControllerPS:GetQuickHackActions(context) end
 
 ---@return Bool

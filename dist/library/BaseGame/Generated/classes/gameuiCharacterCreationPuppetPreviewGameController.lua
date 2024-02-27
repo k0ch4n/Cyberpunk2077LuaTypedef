@@ -29,5 +29,5 @@ function gameuiCharacterCreationPuppetPreviewGameController:OnSetCameraSetupEven
 ---@return Bool
 function gameuiCharacterCreationPuppetPreviewGameController:OnUninitialize() end
 
----@return nil, AnimFeature_Paperdoll animFeature
+---@return AnimFeature_Paperdoll animFeature
 function gameuiCharacterCreationPuppetPreviewGameController:GetAnimFeature() end

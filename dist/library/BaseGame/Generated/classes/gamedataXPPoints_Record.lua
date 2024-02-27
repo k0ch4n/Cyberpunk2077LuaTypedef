@@ -20,7 +20,7 @@ function gamedataXPPoints_Record:GetQuantityModifiersItem(index) end
 ---@return gamedataStatModifier_Record
 function gamedataXPPoints_Record:GetQuantityModifiersItemHandle(index) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataXPPoints_Record:QuantityModifiers() end
 
 ---@param item gamedataStatModifier_Record

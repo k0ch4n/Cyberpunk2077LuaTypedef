@@ -9,7 +9,7 @@ gamedataRewardBase_Record = {}
 ---@return gamedataRewardBase_Record
 function gamedataRewardBase_Record.new(fields) end
 
----@return nil, gamedataAchievement_Record[] outList
+---@return gamedataAchievement_Record[] outList
 function gamedataRewardBase_Record:Achievement() end
 
 ---@param item gamedataAchievement_Record
@@ -22,14 +22,14 @@ function gamedataRewardBase_Record:ContentAssignment() end
 ---@return gamedataContentAssignment_Record
 function gamedataRewardBase_Record:ContentAssignmentHandle() end
 
----@return nil, gamedataCurrencyReward_Record[] outList
+---@return gamedataCurrencyReward_Record[] outList
 function gamedataRewardBase_Record:CurrencyPackage() end
 
 ---@param item gamedataCurrencyReward_Record
 ---@return Bool
 function gamedataRewardBase_Record:CurrencyPackageContains(item) end
 
----@return nil, gamedataXPPoints_Record[] outList
+---@return gamedataXPPoints_Record[] outList
 function gamedataRewardBase_Record:Experience() end
 
 ---@param item gamedataXPPoints_Record
@@ -113,7 +113,7 @@ function gamedataRewardBase_Record:GetStatModifiersItem(index) end
 ---@return gamedataStatModifier_Record
 function gamedataRewardBase_Record:GetStatModifiersItemHandle(index) end
 
----@return nil, gamedataInventoryItem_Record[] outList
+---@return gamedataInventoryItem_Record[] outList
 function gamedataRewardBase_Record:Items() end
 
 ---@param item gamedataInventoryItem_Record
@@ -123,21 +123,21 @@ function gamedataRewardBase_Record:ItemsContains(item) end
 ---@return String
 function gamedataRewardBase_Record:Name() end
 
----@return nil, gamedataPhotoModeItem_Record[] outList
+---@return gamedataPhotoModeItem_Record[] outList
 function gamedataRewardBase_Record:PhotoModeItem() end
 
 ---@param item gamedataPhotoModeItem_Record
 ---@return Bool
 function gamedataRewardBase_Record:PhotoModeItemContains(item) end
 
----@return nil, gamedataItem_Record[] outList
+---@return gamedataItem_Record[] outList
 function gamedataRewardBase_Record:Recipes() end
 
 ---@param item gamedataItem_Record
 ---@return Bool
 function gamedataRewardBase_Record:RecipesContains(item) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataRewardBase_Record:StatModifiers() end
 
 ---@param item gamedataStatModifier_Record

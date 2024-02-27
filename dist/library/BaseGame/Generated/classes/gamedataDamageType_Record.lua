@@ -39,7 +39,7 @@ function gamedataDamageType_Record:GetTagsCount() end
 ---@return CName
 function gamedataDamageType_Record:GetTagsItem(index) end
 
----@return nil, gamedataStatDistributionData_Record[] outList
+---@return gamedataStatDistributionData_Record[] outList
 function gamedataDamageType_Record:Resistances() end
 
 ---@param item gamedataStatDistributionData_Record

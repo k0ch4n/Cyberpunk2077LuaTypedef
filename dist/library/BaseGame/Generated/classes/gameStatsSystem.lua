@@ -65,7 +65,7 @@ function gameStatsSystem:GetDamageType(statType) end
 function gameStatsSystem:GetDamageTypeByRecordID(damageTypeRecordId) end
 
 ---@param objID gameStatsObjectID
----@return nil, CName[] outThemes
+---@return CName[] outThemes
 function gameStatsSystem:GetSortedStatsThemes(objID) end
 
 ---@param objID gameStatsObjectID

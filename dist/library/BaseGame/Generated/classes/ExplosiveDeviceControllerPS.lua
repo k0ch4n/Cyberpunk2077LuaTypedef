@@ -91,11 +91,11 @@ function ExplosiveDeviceControllerPS:GetHealthDecay() end
 function ExplosiveDeviceControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function ExplosiveDeviceControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function ExplosiveDeviceControllerPS:GetQuickHackActions(context) end
 
 ---@return BaseSkillCheckContainer

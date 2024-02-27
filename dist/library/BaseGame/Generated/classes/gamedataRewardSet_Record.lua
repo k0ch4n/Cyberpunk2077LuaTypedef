@@ -20,7 +20,7 @@ function gamedataRewardSet_Record:GetRewardItemsItem(index) end
 ---@return gamedataItem_Record
 function gamedataRewardSet_Record:GetRewardItemsItemHandle(index) end
 
----@return nil, gamedataItem_Record[] outList
+---@return gamedataItem_Record[] outList
 function gamedataRewardSet_Record:RewardItems() end
 
 ---@param item gamedataItem_Record

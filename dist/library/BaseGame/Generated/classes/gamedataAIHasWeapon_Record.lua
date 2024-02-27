@@ -31,7 +31,7 @@ function gamedataAIHasWeapon_Record:GetItemTypeItem(index) end
 ---@return gamedataItemType_Record
 function gamedataAIHasWeapon_Record:GetItemTypeItemHandle(index) end
 
----@return nil, gamedataItemCategory_Record[] outList
+---@return gamedataItemCategory_Record[] outList
 function gamedataAIHasWeapon_Record:ItemCategory() end
 
 ---@param item gamedataItemCategory_Record
@@ -41,7 +41,7 @@ function gamedataAIHasWeapon_Record:ItemCategoryContains(item) end
 ---@return CName
 function gamedataAIHasWeapon_Record:ItemTag() end
 
----@return nil, gamedataItemType_Record[] outList
+---@return gamedataItemType_Record[] outList
 function gamedataAIHasWeapon_Record:ItemType() end
 
 ---@param item gamedataItemType_Record

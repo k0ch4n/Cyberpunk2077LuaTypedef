@@ -82,7 +82,7 @@ function DisposalDeviceControllerPS:GetNumberOfUses() end
 function DisposalDeviceControllerPS:GetPlayerSMBlackboard() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function DisposalDeviceControllerPS:GetQuickHackActions(context) end
 
 ---@return TweakDBID

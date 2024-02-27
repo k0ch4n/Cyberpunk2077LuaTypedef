@@ -35,7 +35,7 @@ function gamedataEffector_Record:RemoveAfterActionCall() end
 ---@return Bool
 function gamedataEffector_Record:RemoveAfterPrereqCheck() end
 
----@return nil, gamedataStatModifierGroup_Record[] outList
+---@return gamedataStatModifierGroup_Record[] outList
 function gamedataEffector_Record:StatModifierGroups() end
 
 ---@param item gamedataStatModifierGroup_Record

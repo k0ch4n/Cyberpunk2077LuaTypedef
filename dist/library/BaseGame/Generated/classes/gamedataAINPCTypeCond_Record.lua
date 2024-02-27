@@ -9,7 +9,7 @@ gamedataAINPCTypeCond_Record = {}
 ---@return gamedataAINPCTypeCond_Record
 function gamedataAINPCTypeCond_Record.new(fields) end
 
----@return nil, gamedataNPCType_Record[] outList
+---@return gamedataNPCType_Record[] outList
 function gamedataAINPCTypeCond_Record:AllowedNPCTypes() end
 
 ---@param item gamedataNPCType_Record

@@ -99,7 +99,7 @@ function gamedataStatusEffect_Record:GetVFXItem(index) end
 ---@return gamedataStatusEffectFX_Record
 function gamedataStatusEffect_Record:GetVFXItemHandle(index) end
 
----@return nil, gamedataStat_Record[] outList
+---@return gamedataStat_Record[] outList
 function gamedataStatusEffect_Record:ImmunityStats() end
 
 ---@param item gamedataStat_Record
@@ -118,7 +118,7 @@ function gamedataStatusEffect_Record:MaxStacks() end
 ---@return gamedataStatModifierGroup_Record
 function gamedataStatusEffect_Record:MaxStacksHandle() end
 
----@return nil, gamedataGameplayLogicPackage_Record[] outList
+---@return gamedataGameplayLogicPackage_Record[] outList
 function gamedataStatusEffect_Record:Packages() end
 
 ---@param item gamedataGameplayLogicPackage_Record
@@ -149,7 +149,7 @@ function gamedataStatusEffect_Record:RemoveOnStoryTier() end
 ---@return Bool
 function gamedataStatusEffect_Record:Replicated() end
 
----@return nil, gamedataStatusEffectFX_Record[] outList
+---@return gamedataStatusEffectFX_Record[] outList
 function gamedataStatusEffect_Record:SFX() end
 
 ---@param item gamedataStatusEffectFX_Record
@@ -174,7 +174,7 @@ function gamedataStatusEffect_Record:UiData() end
 ---@return gamedataStatusEffectUIData_Record
 function gamedataStatusEffect_Record:UiDataHandle() end
 
----@return nil, gamedataStatusEffectFX_Record[] outList
+---@return gamedataStatusEffectFX_Record[] outList
 function gamedataStatusEffect_Record:VFX() end
 
 ---@param item gamedataStatusEffectFX_Record

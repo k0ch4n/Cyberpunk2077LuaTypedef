@@ -9,7 +9,7 @@ gamedataAISquadItemCategoryPriorityFilter_Record = {}
 ---@return gamedataAISquadItemCategoryPriorityFilter_Record
 function gamedataAISquadItemCategoryPriorityFilter_Record.new(fields) end
 
----@return nil, gamedataItemCategory_Record[] outList
+---@return gamedataItemCategory_Record[] outList
 function gamedataAISquadItemCategoryPriorityFilter_Record:Categories() end
 
 ---@param item gamedataItemCategory_Record

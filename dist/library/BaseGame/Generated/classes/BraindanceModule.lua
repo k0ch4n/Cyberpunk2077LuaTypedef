@@ -14,9 +14,9 @@ function BraindanceModule.new(fields) end
 function BraindanceModule:DuplicateLastInstance(actor) end
 
 ---@param mode ActiveMode
----@return nil, HUDJob task
+---@return HUDJob task
 function BraindanceModule:Process(mode) end
 
 ---@param mode ActiveMode
----@return nil, HUDJob[] jobs
+---@return HUDJob[] jobs
 function BraindanceModule:Process(mode) end

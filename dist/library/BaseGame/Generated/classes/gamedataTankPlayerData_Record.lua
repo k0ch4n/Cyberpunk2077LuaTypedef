@@ -44,7 +44,7 @@ function gamedataTankPlayerData_Record:RammingDamage() end
 ---@return Vector2
 function gamedataTankPlayerData_Record:Velocity() end
 
----@return nil, gamedataTankPlayerWeaponLevel_Record[] outList
+---@return gamedataTankPlayerWeaponLevel_Record[] outList
 function gamedataTankPlayerData_Record:WeaponLevelList() end
 
 ---@param item gamedataTankPlayerWeaponLevel_Record

@@ -43,7 +43,7 @@ function AOEAreaControllerPS:GetEffectDuration() end
 function AOEAreaControllerPS:GetInkWidgetTweakDBID(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function AOEAreaControllerPS:GetQuestActions(context) end
 
 ---@return Bool

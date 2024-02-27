@@ -149,7 +149,7 @@ function gamedataProgressionBuild_Record:GetStartingProgramsItem(index) end
 ---@return gamedataBuildProgram_Record
 function gamedataProgressionBuild_Record:GetStartingProgramsItemHandle(index) end
 
----@return nil, gamedataCPOItemCategoryBase_Record[] outList
+---@return gamedataCPOItemCategoryBase_Record[] outList
 function gamedataProgressionBuild_Record:InventoryLayout() end
 
 ---@param item gamedataCPOItemCategoryBase_Record
@@ -174,7 +174,7 @@ function gamedataProgressionBuild_Record:PerkSet() end
 ---@return gamedataBuildPerkSet_Record
 function gamedataProgressionBuild_Record:PerkSetHandle() end
 
----@return nil, gamedataBuildPerkSet_Record[] outList
+---@return gamedataBuildPerkSet_Record[] outList
 function gamedataProgressionBuild_Record:PerkSets() end
 
 ---@param item gamedataBuildPerkSet_Record
@@ -190,56 +190,56 @@ function gamedataProgressionBuild_Record:ProficiencySetHandle() end
 ---@return Bool
 function gamedataProgressionBuild_Record:RandomizeClothing() end
 
----@return nil, gamedataBuildAttribute_Record[] outList
+---@return gamedataBuildAttribute_Record[] outList
 function gamedataProgressionBuild_Record:StartingAttributes() end
 
 ---@param item gamedataBuildAttribute_Record
 ---@return Bool
 function gamedataProgressionBuild_Record:StartingAttributesContains(item) end
 
----@return nil, gamedataBuildCyberware_Record[] outList
+---@return gamedataBuildCyberware_Record[] outList
 function gamedataProgressionBuild_Record:StartingCyberware() end
 
 ---@param item gamedataBuildCyberware_Record
 ---@return Bool
 function gamedataProgressionBuild_Record:StartingCyberwareContains(item) end
 
----@return nil, gamedataBuildEquipment_Record[] outList
+---@return gamedataBuildEquipment_Record[] outList
 function gamedataProgressionBuild_Record:StartingEquipment() end
 
 ---@param item gamedataBuildEquipment_Record
 ---@return Bool
 function gamedataProgressionBuild_Record:StartingEquipmentContains(item) end
 
----@return nil, gamedataInventoryItem_Record[] outList
+---@return gamedataInventoryItem_Record[] outList
 function gamedataProgressionBuild_Record:StartingItems() end
 
 ---@param item gamedataInventoryItem_Record
 ---@return Bool
 function gamedataProgressionBuild_Record:StartingItemsContains(item) end
 
----@return nil, gamedataBuildNewPerk_Record[] outList
+---@return gamedataBuildNewPerk_Record[] outList
 function gamedataProgressionBuild_Record:StartingNewPerks() end
 
 ---@param item gamedataBuildNewPerk_Record
 ---@return Bool
 function gamedataProgressionBuild_Record:StartingNewPerksContains(item) end
 
----@return nil, gamedataBuildPerk_Record[] outList
+---@return gamedataBuildPerk_Record[] outList
 function gamedataProgressionBuild_Record:StartingPerks() end
 
 ---@param item gamedataBuildPerk_Record
 ---@return Bool
 function gamedataProgressionBuild_Record:StartingPerksContains(item) end
 
----@return nil, gamedataBuildProficiency_Record[] outList
+---@return gamedataBuildProficiency_Record[] outList
 function gamedataProgressionBuild_Record:StartingProficiencies() end
 
 ---@param item gamedataBuildProficiency_Record
 ---@return Bool
 function gamedataProgressionBuild_Record:StartingProficienciesContains(item) end
 
----@return nil, gamedataBuildProgram_Record[] outList
+---@return gamedataBuildProgram_Record[] outList
 function gamedataProgressionBuild_Record:StartingPrograms() end
 
 ---@param item gamedataBuildProgram_Record

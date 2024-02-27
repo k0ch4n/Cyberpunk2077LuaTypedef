@@ -26,24 +26,24 @@ function gameJournalManager:ChangeEntryStateByHash(hash, state, notifyOption) en
 function gameJournalManager:DebugShowAllPoiMappins() end
 
 ---@param context gameJournalRequestContext
----@return nil, gameJournalEntry[] entries
+---@return gameJournalEntry[] entries
 function gameJournalManager:GetBriefings(context) end
 
 ---@param parentEntry gameJournalEntry
 ---@param filter gameJournalRequestStateFilter
----@return nil, gameJournalEntry[] childEntries
+---@return gameJournalEntry[] childEntries
 function gameJournalManager:GetChildren(parentEntry, filter) end
 
 ---@param context gameJournalRequestContext
----@return nil, gameJournalEntry[] entries
+---@return gameJournalEntry[] entries
 function gameJournalManager:GetCodexCategories(context) end
 
 ---@param context gameJournalRequestContext
----@return nil, gameJournalEntry[] entries
+---@return gameJournalEntry[] entries
 function gameJournalManager:GetContacts(context) end
 
 ---@param contactEntry gameJournalEntry
----@return nil, gameJournalEntry[] conversations
+---@return gameJournalEntry[] conversations
 function gameJournalManager:GetConversations(contactEntry) end
 
 ---@param entry gameJournalQuestObjective
@@ -77,15 +77,15 @@ function gameJournalManager:GetEntryState(entry) end
 function gameJournalManager:GetEntryTimestamp(entry) end
 
 ---@param contactEntry gameJournalEntry
----@return nil, gameJournalEntry[] messages, gameJournalEntry[] choiceEntries
+---@return gameJournalEntry[] messages, gameJournalEntry[] choiceEntries
 function gameJournalManager:GetFlattenedMessagesAndChoices(contactEntry) end
 
 ---@param context gameJournalRequestContext
----@return nil, gameJournalEntry[] entries
+---@return gameJournalEntry[] entries
 function gameJournalManager:GetInternetPages(context) end
 
 ---@param context gameJournalRequestContext
----@return nil, gameJournalEntry[] entries
+---@return gameJournalEntry[] entries
 function gameJournalManager:GetInternetSites(context) end
 
 ---@param entry gameJournalQuestObjectiveBase
@@ -97,7 +97,7 @@ function gameJournalManager:GetIsObjectiveOptional(entry) end
 function gameJournalManager:GetMainInternetPage(siteEntry) end
 
 ---@param conversationEntry gameJournalEntry
----@return nil, gameJournalEntry[] messages, gameJournalEntry[] choiceEntries
+---@return gameJournalEntry[] messages, gameJournalEntry[] choiceEntries
 function gameJournalManager:GetMessagesAndChoices(conversationEntry) end
 
 ---@param metaQuestId gamedataMetaQuest
@@ -105,7 +105,7 @@ function gameJournalManager:GetMessagesAndChoices(conversationEntry) end
 function gameJournalManager:GetMetaQuestData(metaQuestId) end
 
 ---@param context gameJournalRequestContext
----@return nil, gameJournalEntry[] entries
+---@return gameJournalEntry[] entries
 function gameJournalManager:GetMetaQuests(context) end
 
 ---@param entry gameJournalQuestObjective
@@ -118,7 +118,7 @@ function gameJournalManager:GetObjectiveTotalCounter(entry) end
 
 ---@param context gameJournalRequestContext
 ---@param fallbackGroupName? CName|string
----@return nil, gameJournalOnscreensStructuredGroup[] entries
+---@return gameJournalOnscreensStructuredGroup[] entries
 function gameJournalManager:GetOnscreens(context, fallbackGroupName) end
 
 ---@param childEntry gameJournalEntry
@@ -134,13 +134,13 @@ function gameJournalManager:GetPointOfInterestMappinHashFromQuestHash(hash) end
 function gameJournalManager:GetQuestType(entry) end
 
 ---@param context gameJournalRequestContext
----@return nil, gameJournalEntry[] entries
+---@return gameJournalEntry[] entries
 function gameJournalManager:GetQuests(context) end
 
 ---@param parentEntry gameJournalEntry
 ---@param filter gameJournalRequestStateFilter
 ---@param childCount Int32
----@return nil, gameJournalEntry[] childEntries
+---@return gameJournalEntry[] childEntries
 function gameJournalManager:GetRandomChildren(parentEntry, filter, childCount) end
 
 ---@param entry gameJournalEntry
@@ -152,7 +152,7 @@ function gameJournalManager:GetRecommendedLevel(entry) end
 function gameJournalManager:GetRecommendedLevelID(entry) end
 
 ---@param context gameJournalRequestContext
----@return nil, gameJournalEntry[] entries
+---@return gameJournalEntry[] entries
 function gameJournalManager:GetTarots(context) end
 
 ---@return gameJournalEntry

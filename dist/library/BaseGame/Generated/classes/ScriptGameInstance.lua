@@ -13,7 +13,7 @@ function ScriptGameInstance.new() end
 function ScriptGameInstance.FindEntityByID(entityId) end
 
 ---@param tag CName|string
----@return nil, Vector4[] waypoints
+---@return Vector4[] waypoints
 function ScriptGameInstance.FindWaypointsByTag(tag) end
 
 ---@return AINavigationSystem

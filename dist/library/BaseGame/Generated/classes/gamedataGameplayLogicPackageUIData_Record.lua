@@ -71,7 +71,7 @@ function gamedataGameplayLogicPackageUIData_Record:NameValues() end
 ---@return Bool
 function gamedataGameplayLogicPackageUIData_Record:NameValuesContains(item) end
 
----@return nil, gamedataStat_Record[] outList
+---@return gamedataStat_Record[] outList
 function gamedataGameplayLogicPackageUIData_Record:Stats() end
 
 ---@param item gamedataStat_Record

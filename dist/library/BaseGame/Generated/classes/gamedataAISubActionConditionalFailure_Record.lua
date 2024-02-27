@@ -9,14 +9,14 @@ gamedataAISubActionConditionalFailure_Record = {}
 ---@return gamedataAISubActionConditionalFailure_Record
 function gamedataAISubActionConditionalFailure_Record.new(fields) end
 
----@return nil, gamedataAIActionCondition_Record[] outList
+---@return gamedataAIActionCondition_Record[] outList
 function gamedataAISubActionConditionalFailure_Record:Condition() end
 
 ---@param item gamedataAIActionCondition_Record
 ---@return Bool
 function gamedataAISubActionConditionalFailure_Record:ConditionContains(item) end
 
----@return nil, gamedataAIActionCooldown_Record[] outList
+---@return gamedataAIActionCooldown_Record[] outList
 function gamedataAISubActionConditionalFailure_Record:Cooldowns() end
 
 ---@param item gamedataAIActionCooldown_Record

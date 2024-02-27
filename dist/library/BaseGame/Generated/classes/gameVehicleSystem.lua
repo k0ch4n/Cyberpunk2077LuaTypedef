@@ -45,10 +45,10 @@ function gameVehicleSystem:EnablePlayerVehicleCollision(enable) end
 ---@return vehiclePlayerVehicle
 function gameVehicleSystem:GetActivePlayerVehicle(vehicleType) end
 
----@return nil, vehiclePlayerVehicle[] unlockedVehicles
+---@return vehiclePlayerVehicle[] unlockedVehicles
 function gameVehicleSystem:GetPlayerUnlockedVehicles() end
 
----@return nil, vehiclePlayerVehicle[] vehicles
+---@return vehiclePlayerVehicle[] vehicles
 function gameVehicleSystem:GetPlayerVehicles() end
 
 ---@param vehicleType? gamedataVehicleType

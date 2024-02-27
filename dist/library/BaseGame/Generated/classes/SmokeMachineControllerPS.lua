@@ -19,7 +19,7 @@ function SmokeMachineControllerPS:ActionOverloadDevice() end
 function SmokeMachineControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function SmokeMachineControllerPS:GetQuickHackActions(context) end
 
 ---@return nil

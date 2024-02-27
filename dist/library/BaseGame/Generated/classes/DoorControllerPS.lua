@@ -205,11 +205,11 @@ function DoorControllerPS:GetPlayerToggleOpenAction() end
 function DoorControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function DoorControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function DoorControllerPS:GetQuickHackActions(context) end
 
 ---@return BaseSkillCheckContainer
@@ -460,7 +460,7 @@ function DoorControllerPS:SetCloseItself(val) end
 ---@return nil
 function DoorControllerPS:SetDefaultDoorState() end
 
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function DoorControllerPS:SetInactiveActionsWithExceptions() end
 
 ---@param isBusy Bool

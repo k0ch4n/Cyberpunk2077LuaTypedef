@@ -45,7 +45,7 @@ function gamedataVehicleDriveModelData_Record:Chassis_mass() end
 ---@return Float
 function gamedataVehicleDriveModelData_Record:DifferentialOvershootFactor() end
 
----@return nil, gamedataDriveHelper_Record[] outList
+---@return gamedataDriveHelper_Record[] outList
 function gamedataVehicleDriveModelData_Record:DriveHelpers() end
 
 ---@param item gamedataDriveHelper_Record

@@ -41,7 +41,7 @@ function gamedataWeakspot_Record:GetValidCharacterAppearancesCount() end
 ---@return CName
 function gamedataWeakspot_Record:GetValidCharacterAppearancesItem(index) end
 
----@return nil, gamedataEffector_Record[] outList
+---@return gamedataEffector_Record[] outList
 function gamedataWeakspot_Record:OnDestroyedEffectors() end
 
 ---@param item gamedataEffector_Record

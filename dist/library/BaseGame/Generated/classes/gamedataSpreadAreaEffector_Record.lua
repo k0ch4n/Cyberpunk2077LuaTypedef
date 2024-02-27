@@ -23,7 +23,7 @@ function gamedataSpreadAreaEffector_Record:GetObjectActionsItemHandle(index) end
 ---@return Int32
 function gamedataSpreadAreaEffector_Record:MaxTargetNum() end
 
----@return nil, gamedataObjectAction_Record[] outList
+---@return gamedataObjectAction_Record[] outList
 function gamedataSpreadAreaEffector_Record:ObjectActions() end
 
 ---@param item gamedataObjectAction_Record

@@ -35,7 +35,7 @@ function gamedataPerk_Record:GetLevelsItemHandle(index) end
 ---@return CName
 function gamedataPerk_Record:IconPath() end
 
----@return nil, gamedataPerkLevelData_Record[] outList
+---@return gamedataPerkLevelData_Record[] outList
 function gamedataPerk_Record:Levels() end
 
 ---@param item gamedataPerkLevelData_Record

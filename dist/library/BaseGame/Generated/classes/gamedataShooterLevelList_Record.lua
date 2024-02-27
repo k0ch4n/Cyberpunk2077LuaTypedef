@@ -9,7 +9,7 @@ gamedataShooterLevelList_Record = {}
 ---@return gamedataShooterLevelList_Record
 function gamedataShooterLevelList_Record.new(fields) end
 
----@return nil, gamedataShooterLevel_Record[] outList
+---@return gamedataShooterLevel_Record[] outList
 function gamedataShooterLevelList_Record:Data() end
 
 ---@param item gamedataShooterLevel_Record

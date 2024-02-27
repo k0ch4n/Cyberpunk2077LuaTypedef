@@ -16,7 +16,7 @@ function gameuiMappinUIUtils.GetEngineTime() end
 ---@return Bool
 function gameuiMappinUIUtils.IsPlayerInArea(mappin) end
 
----@return nil, CName state
+---@return CName state
 function gameuiMappinUIUtils.CyclePreventionState() end
 
 ---@param questSystem questQuestsSystem

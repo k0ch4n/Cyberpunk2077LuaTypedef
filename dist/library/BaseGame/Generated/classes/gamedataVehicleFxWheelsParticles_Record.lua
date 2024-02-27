@@ -42,21 +42,21 @@ function gamedataVehicleFxWheelsParticles_Record:GetWet_material_overridesItem(i
 ---@return gamedataVehicleFxWheelsParticlesMaterial_Record
 function gamedataVehicleFxWheelsParticles_Record:GetWet_material_overridesItemHandle(index) end
 
----@return nil, gamedataVehicleFxWheelsParticlesMaterial_Record[] outList
+---@return gamedataVehicleFxWheelsParticlesMaterial_Record[] outList
 function gamedataVehicleFxWheelsParticles_Record:Materials() end
 
 ---@param item gamedataVehicleFxWheelsParticlesMaterial_Record
 ---@return Bool
 function gamedataVehicleFxWheelsParticles_Record:MaterialsContains(item) end
 
----@return nil, gamedataVehicleFxWheelsParticlesMaterial_Record[] outList
+---@return gamedataVehicleFxWheelsParticlesMaterial_Record[] outList
 function gamedataVehicleFxWheelsParticles_Record:Rain_material_overrides() end
 
 ---@param item gamedataVehicleFxWheelsParticlesMaterial_Record
 ---@return Bool
 function gamedataVehicleFxWheelsParticles_Record:Rain_material_overridesContains(item) end
 
----@return nil, gamedataVehicleFxWheelsParticlesMaterial_Record[] outList
+---@return gamedataVehicleFxWheelsParticlesMaterial_Record[] outList
 function gamedataVehicleFxWheelsParticles_Record:Wet_material_overrides() end
 
 ---@param item gamedataVehicleFxWheelsParticlesMaterial_Record

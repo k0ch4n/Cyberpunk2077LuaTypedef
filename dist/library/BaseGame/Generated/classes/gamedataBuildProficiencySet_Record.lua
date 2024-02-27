@@ -20,7 +20,7 @@ function gamedataBuildProficiencySet_Record:GetProficienciesItem(index) end
 ---@return gamedataBuildProficiency_Record
 function gamedataBuildProficiencySet_Record:GetProficienciesItemHandle(index) end
 
----@return nil, gamedataBuildProficiency_Record[] outList
+---@return gamedataBuildProficiency_Record[] outList
 function gamedataBuildProficiencySet_Record:Proficiencies() end
 
 ---@param item gamedataBuildProficiency_Record

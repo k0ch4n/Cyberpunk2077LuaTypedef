@@ -506,7 +506,7 @@ function RipperDocGameController:GetCyberwareUpgradeData(item, isUpgradeScreen) 
 function RipperDocGameController:GetItemArmor(item) end
 
 ---@param item UIInventoryItem
----@return nil, Float attunemend, Float multiplier
+---@return Float attunemend, Float multiplier
 function RipperDocGameController:GetItemArmorBonuses(item) end
 
 ---@param item UIInventoryItem

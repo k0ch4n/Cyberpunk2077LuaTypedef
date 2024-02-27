@@ -66,7 +66,7 @@ function PhoneHotkeyController:OnTrackedEntryChanges(hash, className, notifyOpti
 
 ---@param convEntry gameJournalPhoneConversation
 ---@param tracked Int32[]
----@return nil, Int32 questImportantMessages, Int32 unreadMessages
+---@return Int32 questImportantMessages, Int32 unreadMessages
 function PhoneHotkeyController:CountMessages(convEntry, tracked) end
 
 ---@return Bool

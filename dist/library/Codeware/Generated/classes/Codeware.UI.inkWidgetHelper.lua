@@ -12,7 +12,7 @@ function Codeware_UI_inkWidgetHelper.GetClosestControllerByType(widget, controll
 
 ---@param widget inkWidget
 ---@param controllerType CName|string
----@return nil, inkWidgetLogicController[] controllers
+---@return inkWidgetLogicController[] controllers
 function Codeware_UI_inkWidgetHelper.GetControllersByType(widget, controllerType) end
 
 ---@param widget inkWidget

@@ -20,7 +20,7 @@ function gamedataTankDecorationSpawnerData_Record:GetLevelListItem(index) end
 ---@return gamedataTankLevelObject_Record
 function gamedataTankDecorationSpawnerData_Record:GetLevelListItemHandle(index) end
 
----@return nil, gamedataTankLevelObject_Record[] outList
+---@return gamedataTankLevelObject_Record[] outList
 function gamedataTankDecorationSpawnerData_Record:LevelList() end
 
 ---@param item gamedataTankLevelObject_Record

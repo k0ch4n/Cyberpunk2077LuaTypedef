@@ -20,7 +20,7 @@ function gamedataInventoryItemGroup_Record:GetItemsItem(index) end
 ---@return gamedataInventoryItem_Record
 function gamedataInventoryItemGroup_Record:GetItemsItemHandle(index) end
 
----@return nil, gamedataInventoryItem_Record[] outList
+---@return gamedataInventoryItem_Record[] outList
 function gamedataInventoryItemGroup_Record:Items() end
 
 ---@param item gamedataInventoryItem_Record

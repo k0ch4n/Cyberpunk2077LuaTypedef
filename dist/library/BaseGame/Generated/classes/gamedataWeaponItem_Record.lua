@@ -15,7 +15,7 @@ function gamedataWeaponItem_Record:Ammo() end
 ---@return gamedataItem_Record
 function gamedataWeaponItem_Record:AmmoHandle() end
 
----@return nil, gamedataAttack_Record[] outList
+---@return gamedataAttack_Record[] outList
 function gamedataWeaponItem_Record:Attacks() end
 
 ---@param item gamedataAttack_Record
@@ -154,7 +154,7 @@ function gamedataWeaponItem_Record:SecondaryTriggerMode() end
 ---@return gamedataTriggerMode_Record
 function gamedataWeaponItem_Record:SecondaryTriggerModeHandle() end
 
----@return nil, gamedataAIPatternsPackage_Record[] outList
+---@return gamedataAIPatternsPackage_Record[] outList
 function gamedataWeaponItem_Record:ShootingPatternPackages() end
 
 ---@param item gamedataAIPatternsPackage_Record
@@ -164,7 +164,7 @@ function gamedataWeaponItem_Record:ShootingPatternPackagesContains(item) end
 ---@return CName
 function gamedataWeaponItem_Record:TriggerEffectName() end
 
----@return nil, gamedataTriggerMode_Record[] outList
+---@return gamedataTriggerMode_Record[] outList
 function gamedataWeaponItem_Record:TriggerModes() end
 
 ---@param item gamedataTriggerMode_Record

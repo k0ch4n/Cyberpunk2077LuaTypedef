@@ -41,11 +41,11 @@ function ServerNodeControllerPS:GetCoverState() end
 function ServerNodeControllerPS:GetNotificationBasedOnServerUpdateState(wasStateUpdated) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function ServerNodeControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function ServerNodeControllerPS:GetQuickHackActions(context) end
 
 ---@return ServerState

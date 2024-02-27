@@ -75,7 +75,7 @@ function RadioControllerPS:GetHighPitchNoiseSFX() end
 function RadioControllerPS:GetHighPitchNoiseVFX() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function RadioControllerPS:GetQuickHackActions(context) end
 
 ---@return ERadioStationList

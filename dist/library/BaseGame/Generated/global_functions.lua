@@ -886,13 +886,13 @@ function Game.GetAllBlackboardDefs() end
 GetAllBlackboardDefs = Game.GetAllBlackboardDefs
 
 ---@param puppetRef gameEntityReference
----@return nil, entEntityID[] outEntityIds
+---@return entEntityID[] outEntityIds
 function Game.GetFixedEntityIdsFromEntityReference(puppetRef) end
 GetFixedEntityIdsFromEntityReference = Game.GetFixedEntityIdsFromEntityReference
 
 ---@param entityID entEntityID
 ---@param communityEntryNames CName[]|string[]
----@return nil, entEntityID[] outEntityIds
+---@return entEntityID[] outEntityIds
 function Game.GetFixedEntityIdsFromSpawnerEntityID(entityID, communityEntryNames) end
 GetFixedEntityIdsFromSpawnerEntityID = Game.GetFixedEntityIdsFromSpawnerEntityID
 
@@ -902,7 +902,7 @@ GetGameInstance = Game.GetGameInstance
 
 ---@param entityID entEntityID
 ---@param communityEntryNames CName[]|string[]
----@return nil, gameObject[] outGameObjects
+---@return gameObject[] outGameObjects
 function Game.GetGameObjectsFromSpawnerEntityID(entityID, communityEntryNames) end
 GetGameObjectsFromSpawnerEntityID = Game.GetGameObjectsFromSpawnerEntityID
 

@@ -91,11 +91,11 @@ function TerminalControllerPS:GetInkWidgetTweakDBID(context) end
 function TerminalControllerPS:GetMatchingVirtualSystemsData(device, listToCheck, data) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function TerminalControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function TerminalControllerPS:GetQuickHackActions(context) end
 
 ---@return BaseSkillCheckContainer

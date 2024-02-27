@@ -20,7 +20,7 @@ function gamedataMappinDefinition_Record:GetPossibleVariantsItem(index) end
 ---@return gamedataMappinVariant_Record
 function gamedataMappinDefinition_Record:GetPossibleVariantsItemHandle(index) end
 
----@return nil, gamedataMappinVariant_Record[] outList
+---@return gamedataMappinVariant_Record[] outList
 function gamedataMappinDefinition_Record:PossibleVariants() end
 
 ---@param item gamedataMappinVariant_Record

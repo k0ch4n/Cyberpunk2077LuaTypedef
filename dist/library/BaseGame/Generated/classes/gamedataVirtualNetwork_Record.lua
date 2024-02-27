@@ -26,7 +26,7 @@ function gamedataVirtualNetwork_Record:MinDistanceToOther() end
 ---@return Float
 function gamedataVirtualNetwork_Record:OffsetMultiplier() end
 
----@return nil, gamedataVirtualNetworkPath_Record[] outList
+---@return gamedataVirtualNetworkPath_Record[] outList
 function gamedataVirtualNetwork_Record:Paths() end
 
 ---@param item gamedataVirtualNetworkPath_Record

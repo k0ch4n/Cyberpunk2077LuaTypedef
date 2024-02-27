@@ -54,11 +54,11 @@ function InventoryDataManager:GetItemEquipArea(itemId) end
 ---@return gameItemViewData
 function InventoryDataManager:GetItemStatsByData(itemData, compareWithData) end
 
----@return nil, gameItemData[] itemsList
+---@return gameItemData[] itemsList
 function InventoryDataManager:GetItemsList() end
 
 ---@param tag CName|string
----@return nil, gameItemData[] itemsList
+---@return gameItemData[] itemsList
 function InventoryDataManager:GetItemsListByTag(tag) end
 
 ---@param count Int32

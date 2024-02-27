@@ -20,7 +20,7 @@ function gamedataAIActionOR_Record:GetORItem(index) end
 ---@return gamedataAIActionSubCondition_Record
 function gamedataAIActionOR_Record:GetORItemHandle(index) end
 
----@return nil, gamedataAIActionSubCondition_Record[] outList
+---@return gamedataAIActionSubCondition_Record[] outList
 function gamedataAIActionOR_Record:OR() end
 
 ---@param item gamedataAIActionSubCondition_Record

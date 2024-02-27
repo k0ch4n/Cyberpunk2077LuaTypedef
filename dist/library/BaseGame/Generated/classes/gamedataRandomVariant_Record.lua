@@ -42,21 +42,21 @@ function gamedataRandomVariant_Record:GetVariantPrereqsItem(index) end
 ---@return gamedataIPrereq_Record
 function gamedataRandomVariant_Record:GetVariantPrereqsItemHandle(index) end
 
----@return nil, gamedataStatModifierGroup_Record[] outList
+---@return gamedataStatModifierGroup_Record[] outList
 function gamedataRandomVariant_Record:StatModifierGroups() end
 
 ---@param item gamedataStatModifierGroup_Record
 ---@return Bool
 function gamedataRandomVariant_Record:StatModifierGroupsContains(item) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataRandomVariant_Record:StatModifiers() end
 
 ---@param item gamedataStatModifier_Record
 ---@return Bool
 function gamedataRandomVariant_Record:StatModifiersContains(item) end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataRandomVariant_Record:VariantPrereqs() end
 
 ---@param item gamedataIPrereq_Record

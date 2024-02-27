@@ -16,7 +16,7 @@ function gameuiPuppetPreviewGameController:GetGamePuppet() end
 ---@return Bool
 function gameuiPuppetPreviewGameController:OnPreviewInitialized() end
 
----@return nil, AnimFeature_Paperdoll animFeature
+---@return AnimFeature_Paperdoll animFeature
 function gameuiPuppetPreviewGameController:GetAnimFeature() end
 
 ---@return nil

@@ -19,7 +19,7 @@ function GameplayLightControllerPS:CanCreateAnyQuickHackActions() end
 function GameplayLightControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function GameplayLightControllerPS:GetQuickHackActions(context) end
 
 ---@return nil

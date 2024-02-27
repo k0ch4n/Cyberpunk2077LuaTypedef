@@ -9,7 +9,7 @@ gamedataApplyStatusEffectByChanceEffector_Record = {}
 ---@return gamedataApplyStatusEffectByChanceEffector_Record
 function gamedataApplyStatusEffectByChanceEffector_Record.new(fields) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataApplyStatusEffectByChanceEffector_Record:EffectorChance() end
 
 ---@param item gamedataStatModifier_Record

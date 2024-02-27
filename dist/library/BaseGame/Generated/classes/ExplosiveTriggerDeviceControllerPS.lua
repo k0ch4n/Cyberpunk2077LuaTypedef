@@ -56,11 +56,11 @@ function ExplosiveTriggerDeviceControllerPS:GetActions(context) end
 function ExplosiveTriggerDeviceControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function ExplosiveTriggerDeviceControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function ExplosiveTriggerDeviceControllerPS:GetQuickHackActions(context) end
 
 ---@param actions gamedeviceAction[]

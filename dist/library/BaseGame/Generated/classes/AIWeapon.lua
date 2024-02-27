@@ -146,7 +146,7 @@ function AIWeapon.SelectShootingPattern(record, weapon, weaponOwner, forceResele
 
 ---@param weapon gameweaponObject
 ---@param patternsList gamedataAIPattern_Record[]
----@return nil, gamedataAIPattern_Record selectedPattern
+---@return gamedataAIPattern_Record selectedPattern
 function AIWeapon.SelectShootingPatternFromList(weapon, patternsList) end
 
 ---@param weaponOwner gameObject

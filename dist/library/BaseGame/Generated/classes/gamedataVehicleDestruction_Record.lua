@@ -21,14 +21,14 @@ function gamedataVehicleDestruction_Record:DamageExponent() end
 ---@return Float
 function gamedataVehicleDestruction_Record:DamageThreshold() end
 
----@return nil, gamedataVehicleDeformablePart_Record[] outList
+---@return gamedataVehicleDeformablePart_Record[] outList
 function gamedataVehicleDestruction_Record:DeformableParts() end
 
 ---@param item gamedataVehicleDeformablePart_Record
 ---@return Bool
 function gamedataVehicleDestruction_Record:DeformablePartsContains(item) end
 
----@return nil, gamedataVehicleDetachablePart_Record[] outList
+---@return gamedataVehicleDetachablePart_Record[] outList
 function gamedataVehicleDestruction_Record:DetachableParts() end
 
 ---@param item gamedataVehicleDetachablePart_Record
@@ -38,7 +38,7 @@ function gamedataVehicleDestruction_Record:DetachablePartsContains(item) end
 ---@return redResourceReferenceScriptToken
 function gamedataVehicleDestruction_Record:DetachedPartExplosionEffect() end
 
----@return nil, gamedataVehicleDoorDetachRule_Record[] outList
+---@return gamedataVehicleDoorDetachRule_Record[] outList
 function gamedataVehicleDestruction_Record:DoorDetachRules() end
 
 ---@param item gamedataVehicleDoorDetachRule_Record
@@ -128,7 +128,7 @@ function gamedataVehicleDestruction_Record:GetWheelsItem(index) end
 ---@return gamedataVehicleDestructibleWheel_Record
 function gamedataVehicleDestruction_Record:GetWheelsItemHandle(index) end
 
----@return nil, gamedataVehicleDestructibleGlass_Record[] outList
+---@return gamedataVehicleDestructibleGlass_Record[] outList
 function gamedataVehicleDestruction_Record:Glass() end
 
 ---@param item gamedataVehicleDestructibleGlass_Record
@@ -141,7 +141,7 @@ function gamedataVehicleDestruction_Record:GridDimensions() end
 ---@return Vector3
 function gamedataVehicleDestruction_Record:GridLocalOffset() end
 
----@return nil, gamedataVehicleDestructibleLight_Record[] outList
+---@return gamedataVehicleDestructibleLight_Record[] outList
 function gamedataVehicleDestruction_Record:Lights() end
 
 ---@param item gamedataVehicleDestructibleLight_Record
@@ -151,7 +151,7 @@ function gamedataVehicleDestruction_Record:LightsContains(item) end
 ---@return Float
 function gamedataVehicleDestruction_Record:OnHitVelocity() end
 
----@return nil, gamedataVehicleDestructionPointDamper_Record[] outList
+---@return gamedataVehicleDestructionPointDamper_Record[] outList
 function gamedataVehicleDestruction_Record:PointDampers() end
 
 ---@param item gamedataVehicleDestructionPointDamper_Record
@@ -167,7 +167,7 @@ function gamedataVehicleDestruction_Record:VelocityValueMaxDamage() end
 ---@return Float
 function gamedataVehicleDestruction_Record:VelocityValueMinDamage() end
 
----@return nil, gamedataVehicleDestructibleWheel_Record[] outList
+---@return gamedataVehicleDestructibleWheel_Record[] outList
 function gamedataVehicleDestruction_Record:Wheels() end
 
 ---@param item gamedataVehicleDestructibleWheel_Record

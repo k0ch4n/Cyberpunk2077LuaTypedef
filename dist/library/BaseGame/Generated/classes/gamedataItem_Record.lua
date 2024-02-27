@@ -31,7 +31,7 @@ function gamedataItem_Record:AppearanceName() end
 ---@return CName
 function gamedataItem_Record:AppearanceResourceName() end
 
----@return nil, gamedataItemsFactoryAppearanceSuffixBase_Record[] outList
+---@return gamedataItemsFactoryAppearanceSuffixBase_Record[] outList
 function gamedataItem_Record:AppearanceSuffixes() end
 
 ---@param item gamedataItemsFactoryAppearanceSuffixBase_Record
@@ -45,7 +45,7 @@ function gamedataItem_Record:AppearanceSuffixesOwnerOverride() end
 ---@return Bool
 function gamedataItem_Record:AppearanceSuffixesOwnerOverrideContains(item) end
 
----@return nil, gamedataAttachmentSlot_Record[] outList
+---@return gamedataAttachmentSlot_Record[] outList
 function gamedataItem_Record:AttachmentSlots() end
 
 ---@param item gamedataAttachmentSlot_Record
@@ -67,7 +67,7 @@ function gamedataItem_Record:Blueprint() end
 ---@return gamedataItemBlueprint_Record
 function gamedataItem_Record:BlueprintHandle() end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataItem_Record:BuyPrice() end
 
 ---@param item gamedataStatModifier_Record
@@ -83,7 +83,7 @@ function gamedataItem_Record:CameraUp() end
 ---@return Bool
 function gamedataItem_Record:CanDrop() end
 
----@return nil, gamedataItemPartConnection_Record[] outList
+---@return gamedataItemPartConnection_Record[] outList
 function gamedataItem_Record:Connections() end
 
 ---@param item gamedataItemPartConnection_Record
@@ -141,14 +141,14 @@ function gamedataItem_Record:EquipArea() end
 ---@return gamedataEquipmentArea_Record
 function gamedataItem_Record:EquipAreaHandle() end
 
----@return nil, gamedataEquipmentArea_Record[] outList
+---@return gamedataEquipmentArea_Record[] outList
 function gamedataItem_Record:EquipAreas() end
 
 ---@param item gamedataEquipmentArea_Record
 ---@return Bool
 function gamedataItem_Record:EquipAreasContains(item) end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataItem_Record:EquipPrereqs() end
 
 ---@param item gamedataIPrereq_Record
@@ -167,7 +167,7 @@ function gamedataItem_Record:EquivalentHandle() end
 ---@return String
 function gamedataItem_Record:FriendlyName() end
 
----@return nil, gamedataGameplayRestrictionStatusEffect_Record[] outList
+---@return gamedataGameplayRestrictionStatusEffect_Record[] outList
 function gamedataItem_Record:GameplayRestrictions() end
 
 ---@param item gamedataGameplayRestrictionStatusEffect_Record
@@ -500,14 +500,14 @@ function gamedataItem_Record:NpcRPGData() end
 ---@return gamedataRPGDataPackage_Record
 function gamedataItem_Record:NpcRPGDataHandle() end
 
----@return nil, gamedataGameplayLogicPackage_Record[] outList
+---@return gamedataGameplayLogicPackage_Record[] outList
 function gamedataItem_Record:OnAttach() end
 
 ---@param item gamedataGameplayLogicPackage_Record
 ---@return Bool
 function gamedataItem_Record:OnAttachContains(item) end
 
----@return nil, gamedataGameplayLogicPackage_Record[] outList
+---@return gamedataGameplayLogicPackage_Record[] outList
 function gamedataItem_Record:OnEquip() end
 
 ---@param item gamedataGameplayLogicPackage_Record
@@ -520,7 +520,7 @@ function gamedataItem_Record:OnEquipStats() end
 ---@return gamedataStatsList_Record
 function gamedataItem_Record:OnEquipStatsHandle() end
 
----@return nil, gamedataGameplayLogicPackage_Record[] outList
+---@return gamedataGameplayLogicPackage_Record[] outList
 function gamedataItem_Record:OnLooted() end
 
 ---@param item gamedataGameplayLogicPackage_Record
@@ -533,14 +533,14 @@ function gamedataItem_Record:ParentAttachmentType() end
 ---@return gamedataParentAttachmentType_Record
 function gamedataItem_Record:ParentAttachmentTypeHandle() end
 
----@return nil, gamedataItem_Record[] outList
+---@return gamedataItem_Record[] outList
 function gamedataItem_Record:Parts() end
 
 ---@param item gamedataItem_Record
 ---@return Bool
 function gamedataItem_Record:PartsContains(item) end
 
----@return nil, gamedataAttachmentSlot_Record[] outList
+---@return gamedataAttachmentSlot_Record[] outList
 function gamedataItem_Record:PlacementSlots() end
 
 ---@param item gamedataAttachmentSlot_Record
@@ -569,14 +569,14 @@ function gamedataItem_Record:QualityRestrictedByParent() end
 ---@return Bool
 function gamedataItem_Record:ReplicateWhenNotActive() end
 
----@return nil, gamedataItemRequiredSlot_Record[] outList
+---@return gamedataItemRequiredSlot_Record[] outList
 function gamedataItem_Record:RequiredSlots() end
 
 ---@param item gamedataItemRequiredSlot_Record
 ---@return Bool
 function gamedataItem_Record:RequiredSlotsContains(item) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataItem_Record:SellPrice() end
 
 ---@param item gamedataStatModifier_Record
@@ -589,14 +589,14 @@ function gamedataItem_Record:SideUpgradeItem() end
 ---@return gamedataItem_Record
 function gamedataItem_Record:SideUpgradeItemHandle() end
 
----@return nil, gamedataSlotItemPartListElement_Record[] outList
+---@return gamedataSlotItemPartListElement_Record[] outList
 function gamedataItem_Record:SlotPartList() end
 
 ---@param item gamedataSlotItemPartListElement_Record
 ---@return Bool
 function gamedataItem_Record:SlotPartListContains(item) end
 
----@return nil, gamedataSlotItemPartPreset_Record[] outList
+---@return gamedataSlotItemPartPreset_Record[] outList
 function gamedataItem_Record:SlotPartListPreset() end
 
 ---@param item gamedataSlotItemPartPreset_Record
@@ -625,7 +625,7 @@ function gamedataItem_Record:UseNewSpawnMethod() end
 ---@return Bool
 function gamedataItem_Record:UsesVariants() end
 
----@return nil, gamedataRandomVariant_Record[] outList
+---@return gamedataRandomVariant_Record[] outList
 function gamedataItem_Record:Variants() end
 
 ---@param item gamedataRandomVariant_Record

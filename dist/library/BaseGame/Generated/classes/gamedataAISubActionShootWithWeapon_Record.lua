@@ -63,7 +63,7 @@ function gamedataAISubActionShootWithWeapon_Record:MaxNumberOfShots() end
 ---@return Int32
 function gamedataAISubActionShootWithWeapon_Record:NumberOfShots() end
 
----@return nil, gamedataAIActionCondition_Record[] outList
+---@return gamedataAIActionCondition_Record[] outList
 function gamedataAISubActionShootWithWeapon_Record:PauseCondition() end
 
 ---@return Float
@@ -82,7 +82,7 @@ function gamedataAISubActionShootWithWeapon_Record:RangedAttack() end
 ---@return gamedataRangedAttack_Record
 function gamedataAISubActionShootWithWeapon_Record:RangedAttackHandle() end
 
----@return nil, gamedataAIPatternsPackage_Record[] outList
+---@return gamedataAIPatternsPackage_Record[] outList
 function gamedataAISubActionShootWithWeapon_Record:ShootingPatternPackages() end
 
 ---@param item gamedataAIPatternsPackage_Record
@@ -110,7 +110,7 @@ function gamedataAISubActionShootWithWeapon_Record:TriggerModeHandle() end
 ---@return CName
 function gamedataAISubActionShootWithWeapon_Record:WeaponCustomEvent() end
 
----@return nil, gamedataAttachmentSlot_Record[] outList
+---@return gamedataAttachmentSlot_Record[] outList
 function gamedataAISubActionShootWithWeapon_Record:WeaponSlots() end
 
 ---@param item gamedataAttachmentSlot_Record

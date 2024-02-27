@@ -212,7 +212,7 @@ function InventoryDataManagerV2:DistinctPrograms(items) end
 ---@param inventorySystem gameInventoryManager
 ---@param inventoryManager InventoryDataManagerV2
 ---@param player PlayerPuppet
----@return nil, gameItemData selectedItemGameData, gameInventoryItemData selectedItemData
+---@return gameItemData selectedItemGameData, gameInventoryItemData selectedItemData
 function InventoryDataManagerV2:DryMakeItem(selectedRecipe, inventorySystem, inventoryManager, player) end
 
 ---@param itemId gameItemID

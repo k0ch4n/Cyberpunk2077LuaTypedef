@@ -20,7 +20,7 @@ function gamedataTankPlayerWeaponLevel_Record:GetWeaponListItem(index) end
 ---@return gamedataTankWeapon_Record
 function gamedataTankPlayerWeaponLevel_Record:GetWeaponListItemHandle(index) end
 
----@return nil, gamedataTankWeapon_Record[] outList
+---@return gamedataTankWeapon_Record[] outList
 function gamedataTankPlayerWeaponLevel_Record:WeaponList() end
 
 ---@param item gamedataTankWeapon_Record

@@ -9,14 +9,14 @@ gamedataAIPattern_Record = {}
 ---@return gamedataAIPattern_Record
 function gamedataAIPattern_Record.new(fields) end
 
----@return nil, gamedataAIActionCondition_Record[] outList
+---@return gamedataAIActionCondition_Record[] outList
 function gamedataAIPattern_Record:ActivationConditions() end
 
 ---@param item gamedataAIActionCondition_Record
 ---@return Bool
 function gamedataAIPattern_Record:ActivationConditionsContains(item) end
 
----@return nil, gamedataAIPatternDelay_Record[] outList
+---@return gamedataAIPatternDelay_Record[] outList
 function gamedataAIPattern_Record:Delays() end
 
 ---@param item gamedataAIPatternDelay_Record

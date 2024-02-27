@@ -12,14 +12,14 @@ function gamedataObjectAction_Record.new(fields) end
 ---@return CName
 function gamedataObjectAction_Record:ActionName() end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataObjectAction_Record:ActivationTime() end
 
 ---@param item gamedataStatModifier_Record
 ---@return Bool
 function gamedataObjectAction_Record:ActivationTimeContains(item) end
 
----@return nil, gamedataObjectActionEffect_Record[] outList
+---@return gamedataObjectActionEffect_Record[] outList
 function gamedataObjectAction_Record:CompletionEffects() end
 
 ---@param item gamedataObjectActionEffect_Record
@@ -32,7 +32,7 @@ function gamedataObjectAction_Record:Cooldown() end
 ---@return gamedataCooldown_Record
 function gamedataObjectAction_Record:CooldownHandle() end
 
----@return nil, gamedataObjectActionCost_Record[] outList
+---@return gamedataObjectActionCost_Record[] outList
 function gamedataObjectAction_Record:Costs() end
 
 ---@param item gamedataObjectActionCost_Record
@@ -45,7 +45,7 @@ function gamedataObjectAction_Record:DeviceHackCategory() end
 ---@return gamedataDeviceHackCategory_Record
 function gamedataObjectAction_Record:DeviceHackCategoryHandle() end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataObjectAction_Record:DurationTime() end
 
 ---@param item gamedataStatModifier_Record
@@ -191,14 +191,14 @@ function gamedataObjectAction_Record:HackTier() end
 ---@return gamedataDeviceHackTier_Record
 function gamedataObjectAction_Record:HackTierHandle() end
 
----@return nil, gamedataObjectActionPrereq_Record[] outList
+---@return gamedataObjectActionPrereq_Record[] outList
 function gamedataObjectAction_Record:InstigatorActivePrereqs() end
 
 ---@param item gamedataObjectActionPrereq_Record
 ---@return Bool
 function gamedataObjectAction_Record:InstigatorActivePrereqsContains(item) end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataObjectAction_Record:InstigatorPrereqs() end
 
 ---@param item gamedataIPrereq_Record
@@ -208,7 +208,7 @@ function gamedataObjectAction_Record:InstigatorPrereqsContains(item) end
 ---@return CName
 function gamedataObjectAction_Record:InteractionLayer() end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataObjectAction_Record:InterruptionPrereqs() end
 
 ---@param item gamedataIPrereq_Record
@@ -230,28 +230,28 @@ function gamedataObjectAction_Record:ObjectActionUIHandle() end
 ---@return Float
 function gamedataObjectAction_Record:Priority() end
 
----@return nil, gamedataRewardBase_Record[] outList
+---@return gamedataRewardBase_Record[] outList
 function gamedataObjectAction_Record:Rewards() end
 
 ---@param item gamedataRewardBase_Record
 ---@return Bool
 function gamedataObjectAction_Record:RewardsContains(item) end
 
----@return nil, gamedataObjectActionEffect_Record[] outList
+---@return gamedataObjectActionEffect_Record[] outList
 function gamedataObjectAction_Record:StartEffects() end
 
 ---@param item gamedataObjectActionEffect_Record
 ---@return Bool
 function gamedataObjectAction_Record:StartEffectsContains(item) end
 
----@return nil, gamedataObjectActionPrereq_Record[] outList
+---@return gamedataObjectActionPrereq_Record[] outList
 function gamedataObjectAction_Record:TargetActivePrereqs() end
 
 ---@param item gamedataObjectActionPrereq_Record
 ---@return Bool
 function gamedataObjectAction_Record:TargetActivePrereqsContains(item) end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataObjectAction_Record:TargetPrereqs() end
 
 ---@param item gamedataIPrereq_Record

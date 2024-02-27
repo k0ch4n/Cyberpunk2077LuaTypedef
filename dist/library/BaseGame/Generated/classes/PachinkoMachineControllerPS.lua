@@ -13,5 +13,5 @@ function PachinkoMachineControllerPS.new(fields) end
 function PachinkoMachineControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function PachinkoMachineControllerPS:GetQuickHackActions(context) end

@@ -122,7 +122,7 @@ function StatusEffectHelper.HasTag(record, tag) end
 ---@param statusEffectRecord gamedataStatusEffect_Record
 ---@param state EKnockdownStates
 ---@param hitDirection Vector4
----@return nil, AnimFeature_StatusEffect animData
+---@return AnimFeature_StatusEffect animData
 function StatusEffectHelper.PopulateStatusEffectAnimData(owner, statusEffectRecord, state, hitDirection) end
 
 ---@param target gameObject

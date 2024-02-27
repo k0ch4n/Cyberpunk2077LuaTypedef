@@ -21,7 +21,7 @@ function gamedataDistrict_Record:EnumName() end
 ---@return Float
 function gamedataDistrict_Record:ExplosiveDeviceStimRangeMultiplier() end
 
----@return nil, gamedataAffiliation_Record[] outList
+---@return gamedataAffiliation_Record[] outList
 function gamedataDistrict_Record:Gangs() end
 
 ---@param item gamedataAffiliation_Record

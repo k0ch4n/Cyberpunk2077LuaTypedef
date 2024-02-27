@@ -34,14 +34,14 @@ function gamedataRoachRaceBackground_Record:GetObjectListItemHandle(index) end
 ---@return Bool
 function gamedataRoachRaceBackground_Record:IsSunAndMoonVisible() end
 
----@return nil, gamedataArcadeBackgroundLayer_Record[] outList
+---@return gamedataArcadeBackgroundLayer_Record[] outList
 function gamedataRoachRaceBackground_Record:LayerList() end
 
 ---@param item gamedataArcadeBackgroundLayer_Record
 ---@return Bool
 function gamedataRoachRaceBackground_Record:LayerListContains(item) end
 
----@return nil, gamedataRoachRaceBackgroundObject_Record[] outList
+---@return gamedataRoachRaceBackgroundObject_Record[] outList
 function gamedataRoachRaceBackground_Record:ObjectList() end
 
 ---@param item gamedataRoachRaceBackgroundObject_Record

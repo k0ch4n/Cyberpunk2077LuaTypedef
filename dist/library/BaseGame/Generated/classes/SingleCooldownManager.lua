@@ -42,7 +42,7 @@ function SingleCooldownManager:OnFillOutroAnimationOver(proxy) end
 function SingleCooldownManager:ActivateCooldown(buffData) end
 
 ---@param f Float
----@return nil, GameTime time, Int32 totalSeconds, Int32 fraction
+---@return GameTime time, Int32 totalSeconds, Int32 fraction
 function SingleCooldownManager:ConvertFloatToTime(f) end
 
 ---@return nil

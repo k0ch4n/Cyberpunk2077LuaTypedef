@@ -12,7 +12,7 @@ function gamedataAdvertisementGroup_Record.new(fields) end
 ---@return Vector3
 function gamedataAdvertisementGroup_Record:AdvertTintColor() end
 
----@return nil, gamedataAdvertisement_Record[] outList
+---@return gamedataAdvertisement_Record[] outList
 function gamedataAdvertisementGroup_Record:Advertisements() end
 
 ---@param item gamedataAdvertisement_Record
@@ -44,7 +44,7 @@ function gamedataAdvertisementGroup_Record:GetIncludedGroupsItem(index) end
 ---@return gamedataAdvertisementGroup_Record
 function gamedataAdvertisementGroup_Record:GetIncludedGroupsItemHandle(index) end
 
----@return nil, gamedataAdvertisementGroup_Record[] outList
+---@return gamedataAdvertisementGroup_Record[] outList
 function gamedataAdvertisementGroup_Record:IncludedGroups() end
 
 ---@param item gamedataAdvertisementGroup_Record

@@ -18,7 +18,7 @@ function NetrunnerControlPanelControllerPS:ActionCreateFactQuickHack() end
 function NetrunnerControlPanelControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function NetrunnerControlPanelControllerPS:GetQuickHackActions(context) end
 
 ---@param evt FactQuickHack

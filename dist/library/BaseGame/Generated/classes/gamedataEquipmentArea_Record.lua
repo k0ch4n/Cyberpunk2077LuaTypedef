@@ -15,7 +15,7 @@ function gamedataEquipmentArea_Record:EnumComment() end
 ---@return CName
 function gamedataEquipmentArea_Record:EnumName() end
 
----@return nil, gamedataEquipSlot_Record[] outList
+---@return gamedataEquipSlot_Record[] outList
 function gamedataEquipmentArea_Record:EquipSlots() end
 
 ---@param item gamedataEquipSlot_Record

@@ -532,7 +532,7 @@ function HitReactionComponent:ReactionZoneEnumToBarkListEnum(reactionZone) end
 function HitReactionComponent:ReactionZoneEnumToBodyPartID(reactionZone) end
 
 ---@param currentTimeStamp Float
----@return nil, Int32 hitReactionMin, Int32 hitReactionMax
+---@return Int32 hitReactionMin, Int32 hitReactionMax
 function HitReactionComponent:RecalculateHitReactionValsForHacks(currentTimeStamp) end
 
 ---@return nil
@@ -567,11 +567,11 @@ function HitReactionComponent:SendTwitchDataToAnimationGraph() end
 ---@return nil
 function HitReactionComponent:SendTwitchDataToPlayerAnimationGraph(playerObject) end
 
----@return nil, Int32 hitDirection, EHitReactionZone hitReactionZone
+---@return Int32 hitDirection, EHitReactionZone hitReactionZone
 function HitReactionComponent:SetAnimVariation() end
 
 ---@param target gameObject
----@return nil, Float guardBreakImpulse
+---@return Float guardBreakImpulse
 function HitReactionComponent:SetCumulatedDamages(target) end
 
 ---@return nil

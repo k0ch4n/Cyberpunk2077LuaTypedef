@@ -26,7 +26,7 @@ function gamedataActionMap_Record:GetMapItem(index) end
 ---@return gamedataActionMapField_Record
 function gamedataActionMap_Record:GetMapItemHandle(index) end
 
----@return nil, gamedataActionMapField_Record[] outList
+---@return gamedataActionMapField_Record[] outList
 function gamedataActionMap_Record:Map() end
 
 ---@param item gamedataActionMapField_Record

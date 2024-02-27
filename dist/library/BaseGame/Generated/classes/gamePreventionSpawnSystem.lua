@@ -19,7 +19,7 @@ function gamePreventionSpawnSystem:CancelSpawnRequest(requestID) end
 ---@return nil
 function gamePreventionSpawnSystem:ClearStrategyPreCheckRequests() end
 
----@return nil, vehiclePoliceStrategy strategy
+---@return vehiclePoliceStrategy strategy
 function gamePreventionSpawnSystem:DebugTryOverrideWithForcedStrategy() end
 
 ---@param spawnOriginPositions Vector4[]
@@ -40,7 +40,7 @@ function gamePreventionSpawnSystem:GetAvailableStrategies() end
 ---@return Vector4
 function gamePreventionSpawnSystem:GetIntersectionInFrontOfPlayerPos() end
 
----@return nil, gameNearestRoadFromPlayerInfo info
+---@return gameNearestRoadFromPlayerInfo info
 function gamePreventionSpawnSystem:GetNearestRoadFromPlayerInfo() end
 
 ---@return Int32

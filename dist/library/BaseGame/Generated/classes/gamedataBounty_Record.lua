@@ -42,7 +42,7 @@ function gamedataBounty_Record:Reward() end
 ---@return gamedataRewardBase_Record
 function gamedataBounty_Record:RewardHandle() end
 
----@return nil, gamedataTransgression_Record[] outList
+---@return gamedataTransgression_Record[] outList
 function gamedataBounty_Record:Transgressions() end
 
 ---@param item gamedataTransgression_Record

@@ -41,11 +41,11 @@ function SoundSystemControllerPS:GetBackgroundTextureTweakDBID() end
 function SoundSystemControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function SoundSystemControllerPS:GetQuickHackActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function SoundSystemControllerPS:GetQuickHackActionsExternal(context) end
 
 ---@return nil

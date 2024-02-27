@@ -23,7 +23,7 @@ function gamedataRPGAction_Record:GetPrereqsItem(index) end
 ---@return gamedataIPrereq_Record
 function gamedataRPGAction_Record:GetPrereqsItemHandle(index) end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataRPGAction_Record:Prereqs() end
 
 ---@param item gamedataIPrereq_Record

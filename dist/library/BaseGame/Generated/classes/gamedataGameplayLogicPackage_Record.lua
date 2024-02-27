@@ -16,7 +16,7 @@ function gamedataGameplayLogicPackage_Record:AnimationWrapperOverrides() end
 ---@return Bool
 function gamedataGameplayLogicPackage_Record:AnimationWrapperOverridesContains(item) end
 
----@return nil, gamedataEffector_Record[] outList
+---@return gamedataEffector_Record[] outList
 function gamedataGameplayLogicPackage_Record:Effectors() end
 
 ---@param item gamedataEffector_Record
@@ -74,7 +74,7 @@ function gamedataGameplayLogicPackage_Record:GetStatsItem(index) end
 ---@return gamedataStatModifier_Record
 function gamedataGameplayLogicPackage_Record:GetStatsItemHandle(index) end
 
----@return nil, gamedataInventoryItem_Record[] outList
+---@return gamedataInventoryItem_Record[] outList
 function gamedataGameplayLogicPackage_Record:Items() end
 
 ---@param item gamedataInventoryItem_Record
@@ -87,14 +87,14 @@ function gamedataGameplayLogicPackage_Record:Prereq() end
 ---@return Bool
 function gamedataGameplayLogicPackage_Record:Stackable() end
 
----@return nil, gamedataStatPool_Record[] outList
+---@return gamedataStatPool_Record[] outList
 function gamedataGameplayLogicPackage_Record:StatPools() end
 
 ---@param item gamedataStatPool_Record
 ---@return Bool
 function gamedataGameplayLogicPackage_Record:StatPoolsContains(item) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataGameplayLogicPackage_Record:Stats() end
 
 ---@param item gamedataStatModifier_Record

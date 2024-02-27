@@ -35,11 +35,11 @@ function LcdScreenControllerPS:GetDeviceIconTweakDBID() end
 function LcdScreenControllerPS:GetMessageRecordID() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function LcdScreenControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function LcdScreenControllerPS:GetQuickHackActions(context) end
 
 ---@return Bool

@@ -46,12 +46,12 @@ function gameStatusEffectSystem.ObjectHasStatusEffectWithTags(target, tag) end
 function gameStatusEffectSystem:ApplyStatusEffect(objID, statusEffectID, instigatorID, instigatorEntityID, applyCount, direction, isSavable, proxyEntityID) end
 
 ---@param objID entEntityID
----@return nil, gameStatusEffect[] appliedEffects
+---@return gameStatusEffect[] appliedEffects
 function gameStatusEffectSystem:GetAppliedEffects(objID) end
 
 ---@param objID entEntityID
 ---@param statusEffectType gamedataStatusEffectType
----@return nil, gameStatusEffect[] appliedEffects
+---@return gameStatusEffect[] appliedEffects
 function gameStatusEffectSystem:GetAppliedEffectsOfType(objID, statusEffectType) end
 
 ---@param objID entEntityID
@@ -62,12 +62,12 @@ function gameStatusEffectSystem:GetAppliedEffectsOfTypeName(objID, statusEffectT
 
 ---@param objID entEntityID
 ---@param statusEffectID TweakDBID|string
----@return nil, gameStatusEffect[] appliedEffects
+---@return gameStatusEffect[] appliedEffects
 function gameStatusEffectSystem:GetAppliedEffectsWithID(objID, statusEffectID) end
 
 ---@param objID entEntityID
 ---@param tag CName|string
----@return nil, gameStatusEffect[] appliedEffects
+---@return gameStatusEffect[] appliedEffects
 function gameStatusEffectSystem:GetAppliedEffectsWithTag(objID, tag) end
 
 ---@param objID entEntityID

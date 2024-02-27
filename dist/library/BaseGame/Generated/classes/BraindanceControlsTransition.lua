@@ -182,7 +182,7 @@ function BraindanceControlsTransition:SendClearBraindanceStateRequest(scriptInte
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@param newState Bool
----@return nil, Float blendTime
+---@return Float blendTime
 function BraindanceControlsTransition:SetBraindanceState(scriptInterface, stateContext, newState) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
@@ -213,7 +213,7 @@ function BraindanceControlsTransition:SetCachedPlaySpeedPermVariable(scriptInter
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@param setState Bool
----@return nil, Float blendTime
+---@return Float blendTime
 function BraindanceControlsTransition:SetCameraControl(scriptInterface, stateContext, setState) end
 
 ---@param newState Bool
@@ -253,7 +253,7 @@ function BraindanceControlsTransition:StopGlitchFx(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
----@return nil, Float blendTime
+---@return Float blendTime
 function BraindanceControlsTransition:ToggleCameraControlEnabled(scriptInterface, stateContext) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
@@ -262,5 +262,5 @@ function BraindanceControlsTransition:ToggleCameraControlEnabled(scriptInterface
 function BraindanceControlsTransition:TogglePausePlayForward(scriptInterface, stateContext) end
 
 ---@param timeDelta Float
----@return nil, Float BlockPerspectiveSwitchTimer
+---@return Float BlockPerspectiveSwitchTimer
 function BraindanceControlsTransition:UpdatePerspectiveTransitionTimer(timeDelta) end

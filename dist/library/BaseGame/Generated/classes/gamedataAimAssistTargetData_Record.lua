@@ -15,7 +15,7 @@ function gamedataAimAssistTargetData_Record:AimSnapAngle() end
 ---@return Float
 function gamedataAimAssistTargetData_Record:AimSnapPriorityWeight() end
 
----@return nil, gamedataAimAssistType_Record[] outList
+---@return gamedataAimAssistType_Record[] outList
 function gamedataAimAssistTargetData_Record:Filters() end
 
 ---@param item gamedataAimAssistType_Record

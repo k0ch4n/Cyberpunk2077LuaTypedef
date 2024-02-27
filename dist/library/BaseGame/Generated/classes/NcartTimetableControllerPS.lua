@@ -40,11 +40,11 @@ function NcartTimetableControllerPS:GetDepartFrequency() end
 function NcartTimetableControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function NcartTimetableControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function NcartTimetableControllerPS:GetQuickHackActions(context) end
 
 ---@return Float

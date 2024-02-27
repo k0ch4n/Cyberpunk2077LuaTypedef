@@ -65,7 +65,7 @@ function gamedataAISubActionAttackWithWeapon_Record:PositionOffset() end
 ---@return Bool
 function gamedataAISubActionAttackWithWeapon_Record:StopContinuousAttackOnDurationEnd() end
 
----@return nil, gamedataAttachmentSlot_Record[] outList
+---@return gamedataAttachmentSlot_Record[] outList
 function gamedataAISubActionAttackWithWeapon_Record:WeaponSlots() end
 
 ---@param item gamedataAttachmentSlot_Record

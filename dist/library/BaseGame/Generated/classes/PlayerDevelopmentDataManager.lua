@@ -20,7 +20,7 @@ function PlayerDevelopmentDataManager.PerkUtilityToString(utility) end
 function PlayerDevelopmentDataManager:CheckRespecCost() end
 
 ---@param attribute SAttribute
----@return nil, AttributeData outData
+---@return AttributeData outData
 function PlayerDevelopmentDataManager:FillAttributeData(attribute) end
 
 ---@param perkArea gamedataPerkArea

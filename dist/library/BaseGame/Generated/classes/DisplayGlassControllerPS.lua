@@ -52,11 +52,11 @@ function DisplayGlassControllerPS:GetDeviceIconTweakDBID() end
 function DisplayGlassControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function DisplayGlassControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function DisplayGlassControllerPS:GetQuickHackActions(context) end
 
 ---@return CName

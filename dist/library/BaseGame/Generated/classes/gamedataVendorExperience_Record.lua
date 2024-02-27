@@ -20,7 +20,7 @@ function gamedataVendorExperience_Record:GetPricePerPointItem(index) end
 ---@return gamedataStatModifier_Record
 function gamedataVendorExperience_Record:GetPricePerPointItemHandle(index) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataVendorExperience_Record:PricePerPoint() end
 
 ---@param item gamedataStatModifier_Record

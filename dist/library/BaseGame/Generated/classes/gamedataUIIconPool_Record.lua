@@ -20,7 +20,7 @@ function gamedataUIIconPool_Record:GetIconsItem(index) end
 ---@return gamedataUIIcon_Record
 function gamedataUIIconPool_Record:GetIconsItemHandle(index) end
 
----@return nil, gamedataUIIcon_Record[] outList
+---@return gamedataUIIcon_Record[] outList
 function gamedataUIIconPool_Record:Icons() end
 
 ---@param item gamedataUIIcon_Record

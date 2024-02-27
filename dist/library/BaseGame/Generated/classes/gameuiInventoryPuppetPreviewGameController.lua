@@ -38,5 +38,5 @@ function gameuiInventoryPuppetPreviewGameController:OnSetCameraSetupEvent(index,
 ---@return Bool
 function gameuiInventoryPuppetPreviewGameController:OnUninitialize() end
 
----@return nil, AnimFeature_Paperdoll animFeature
+---@return AnimFeature_Paperdoll animFeature
 function gameuiInventoryPuppetPreviewGameController:GetAnimFeature() end

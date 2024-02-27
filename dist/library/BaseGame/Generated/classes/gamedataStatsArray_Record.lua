@@ -9,7 +9,7 @@ gamedataStatsArray_Record = {}
 ---@return gamedataStatsArray_Record
 function gamedataStatsArray_Record.new(fields) end
 
----@return nil, gamedataStat_Record[] outList
+---@return gamedataStat_Record[] outList
 function gamedataStatsArray_Record:AdditionalStats() end
 
 ---@param item gamedataStat_Record
@@ -19,7 +19,7 @@ function gamedataStatsArray_Record:AdditionalStatsContains(item) end
 ---@return CName
 function gamedataStatsArray_Record:ArrayName() end
 
----@return nil, gamedataStat_Record[] outList
+---@return gamedataStat_Record[] outList
 function gamedataStatsArray_Record:EnumStats() end
 
 ---@param item gamedataStat_Record

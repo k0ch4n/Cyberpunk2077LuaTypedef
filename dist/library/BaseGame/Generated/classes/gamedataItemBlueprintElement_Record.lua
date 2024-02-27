@@ -9,7 +9,7 @@ gamedataItemBlueprintElement_Record = {}
 ---@return gamedataItemBlueprintElement_Record
 function gamedataItemBlueprintElement_Record.new(fields) end
 
----@return nil, gamedataItemBlueprintElement_Record[] outList
+---@return gamedataItemBlueprintElement_Record[] outList
 function gamedataItemBlueprintElement_Record:ChildElements() end
 
 ---@param item gamedataItemBlueprintElement_Record

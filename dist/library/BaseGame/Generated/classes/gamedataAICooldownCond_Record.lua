@@ -9,7 +9,7 @@ gamedataAICooldownCond_Record = {}
 ---@return gamedataAICooldownCond_Record
 function gamedataAICooldownCond_Record.new(fields) end
 
----@return nil, gamedataAIActionCooldown_Record[] outList
+---@return gamedataAIActionCooldown_Record[] outList
 function gamedataAICooldownCond_Record:Cooldowns() end
 
 ---@param item gamedataAIActionCooldown_Record

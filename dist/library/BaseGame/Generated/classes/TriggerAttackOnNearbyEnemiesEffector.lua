@@ -35,7 +35,7 @@ function TriggerAttackOnNearbyEnemiesEffector:CanRaycastBetweenTwoPositions(spat
 
 ---@param hitevent gameeventsHitEvent
 ---@param threats entEntity[]
----@return nil, ScriptedPuppet[] closestEnemies
+---@return ScriptedPuppet[] closestEnemies
 function TriggerAttackOnNearbyEnemiesEffector:GetClosestEnemies(hitevent, threats) end
 
 ---@param record TweakDBID|string

@@ -9,7 +9,7 @@ gamedataHackingMiniGame_Record = {}
 ---@return gamedataHackingMiniGame_Record
 function gamedataHackingMiniGame_Record.new(fields) end
 
----@return nil, gamedataTrap_Record[] outList
+---@return gamedataTrap_Record[] outList
 function gamedataHackingMiniGame_Record:AllowedTraps() end
 
 ---@param item gamedataTrap_Record

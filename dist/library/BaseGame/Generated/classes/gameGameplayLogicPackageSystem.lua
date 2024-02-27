@@ -23,7 +23,7 @@ function gameGameplayLogicPackageSystem:ApplyPackage(object, instigator, package
 function gameGameplayLogicPackageSystem:ApplyPackages(object, instigator, packageID, applyCount) end
 
 ---@param object gameObject
----@return nil, TweakDBID[] outPackageIDs
+---@return TweakDBID[] outPackageIDs
 function gameGameplayLogicPackageSystem:GetAppliedPackages(object) end
 
 ---@param object gameObject

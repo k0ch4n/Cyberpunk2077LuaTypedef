@@ -55,7 +55,7 @@ function DeviceLinkComponentPS:Disconnect(link) end
 ---@return nil
 function DeviceLinkComponentPS:EstablishLink(connect) end
 
----@return nil, gameDeviceComponentPS[] outDevices
+---@return gameDeviceComponentPS[] outDevices
 function DeviceLinkComponentPS:GetAncestors() end
 
 ---@param deviceLink DeviceLink
@@ -68,7 +68,7 @@ function DeviceLinkComponentPS:GetParentDevice() end
 ---@return DeviceLink
 function DeviceLinkComponentPS:GetParentDeviceLink() end
 
----@return nil, gameDeviceComponentPS[] outDevices
+---@return gameDeviceComponentPS[] outDevices
 function DeviceLinkComponentPS:GetParents() end
 
 ---@return Bool

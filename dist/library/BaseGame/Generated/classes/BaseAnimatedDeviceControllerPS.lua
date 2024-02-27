@@ -35,11 +35,11 @@ function BaseAnimatedDeviceControllerPS:GetActions(context) end
 function BaseAnimatedDeviceControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function BaseAnimatedDeviceControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function BaseAnimatedDeviceControllerPS:GetQuickHackActions(context) end
 
 ---@return Bool

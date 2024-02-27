@@ -57,7 +57,7 @@ function gamedataReactionPreset_Record:GetStatModifiersItemHandle(index) end
 ---@return Bool
 function gamedataReactionPreset_Record:IsAggressive() end
 
----@return nil, gamedataPresetMapper_Record[] outList
+---@return gamedataPresetMapper_Record[] outList
 function gamedataReactionPreset_Record:PresetMapper() end
 
 ---@param item gamedataPresetMapper_Record
@@ -67,14 +67,14 @@ function gamedataReactionPreset_Record:PresetMapperContains(item) end
 ---@return String
 function gamedataReactionPreset_Record:ReactionGroup() end
 
----@return nil, gamedataRule_Record[] outList
+---@return gamedataRule_Record[] outList
 function gamedataReactionPreset_Record:Rules() end
 
 ---@param item gamedataRule_Record
 ---@return Bool
 function gamedataReactionPreset_Record:RulesContains(item) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataReactionPreset_Record:StatModifiers() end
 
 ---@param item gamedataStatModifier_Record

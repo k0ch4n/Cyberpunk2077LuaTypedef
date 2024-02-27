@@ -51,11 +51,11 @@ function QuickhackModule:DuplicateLastInstance(actor) end
 function QuickhackModule:IsModuleOperational() end
 
 ---@param mode ActiveMode
----@return nil, HUDJob task
+---@return HUDJob task
 function QuickhackModule:Process(mode) end
 
 ---@param mode ActiveMode
----@return nil, HUDJob[] jobs
+---@return HUDJob[] jobs
 function QuickhackModule:Process(mode) end
 
 ---@param commands QuickhackData[]

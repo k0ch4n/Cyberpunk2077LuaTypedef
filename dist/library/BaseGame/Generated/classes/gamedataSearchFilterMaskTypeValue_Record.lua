@@ -23,7 +23,7 @@ function gamedataSearchFilterMaskTypeValue_Record:GetValuesItemHandle(index) end
 ---@return CName
 function gamedataSearchFilterMaskTypeValue_Record:OpType() end
 
----@return nil, gamedataSearchFilterMaskType_Record[] outList
+---@return gamedataSearchFilterMaskType_Record[] outList
 function gamedataSearchFilterMaskTypeValue_Record:Values() end
 
 ---@param item gamedataSearchFilterMaskType_Record

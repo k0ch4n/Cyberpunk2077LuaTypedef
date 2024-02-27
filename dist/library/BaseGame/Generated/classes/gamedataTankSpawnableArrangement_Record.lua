@@ -26,7 +26,7 @@ function gamedataTankSpawnableArrangement_Record:GetObjectArrangementListItem(in
 ---@return gamedataTankArrangement_Record
 function gamedataTankSpawnableArrangement_Record:GetObjectArrangementListItemHandle(index) end
 
----@return nil, gamedataTankArrangement_Record[] outList
+---@return gamedataTankArrangement_Record[] outList
 function gamedataTankSpawnableArrangement_Record:ObjectArrangementList() end
 
 ---@param item gamedataTankArrangement_Record

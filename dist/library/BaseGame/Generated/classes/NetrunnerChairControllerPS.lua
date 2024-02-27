@@ -18,7 +18,7 @@ function NetrunnerChairControllerPS:ActionOverloadDevice() end
 function NetrunnerChairControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function NetrunnerChairControllerPS:GetQuickHackActions(context) end
 
 ---@param evt OverloadDevice

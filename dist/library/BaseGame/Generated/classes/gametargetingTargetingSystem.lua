@@ -47,7 +47,7 @@ function gametargetingTargetingSystem:GetBestComponentOnTargetObject(shootStartP
 function gametargetingTargetingSystem:GetComponentClosestToCrosshair(instigator, query) end
 
 ---@param instigator gameObject
----@return nil, Vector4 crosshairPosition, Vector4 crosshairForward
+---@return Vector4 crosshairPosition, Vector4 crosshairForward
 function gametargetingTargetingSystem:GetCrosshairData(instigator) end
 
 ---@param instigator gameObject
@@ -55,7 +55,7 @@ function gametargetingTargetingSystem:GetCrosshairData(instigator) end
 function gametargetingTargetingSystem:GetCurrentSpread(instigator) end
 
 ---@param instigator gameObject
----@return nil, Vector4 crosshairPosition, Vector4 crosshairForward
+---@return Vector4 crosshairPosition, Vector4 crosshairForward
 function gametargetingTargetingSystem:GetDefaultCrosshairData(instigator) end
 
 ---@param instigator gameObject
@@ -150,7 +150,7 @@ function gametargetingTargetingSystem:IsAnyEnemyVisible(instigator, distance) en
 function gametargetingTargetingSystem:IsVisibleTarget(instigator, target) end
 
 ---@param instigator gameObject
----@return nil, gameaimAssistAimRequest params
+---@return gameaimAssistAimRequest params
 function gametargetingTargetingSystem:LookAt(instigator) end
 
 ---@param instigator gameObject

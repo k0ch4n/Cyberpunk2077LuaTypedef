@@ -47,7 +47,7 @@ function SecurityGateControllerPS:GetBackgroundTextureTweakDBID() end
 function SecurityGateControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function SecurityGateControllerPS:GetQuickHackActions(context) end
 
 ---@return ESecurityGateEntranceType

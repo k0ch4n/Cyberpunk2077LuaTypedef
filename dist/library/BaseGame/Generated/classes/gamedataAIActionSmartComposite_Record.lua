@@ -40,7 +40,7 @@ function gamedataAIActionSmartComposite_Record:GetNodesItem(index) end
 ---@return gamedataAINode_Record
 function gamedataAIActionSmartComposite_Record:GetNodesItemHandle(index) end
 
----@return nil, gamedataAIActionCondition_Record[] outList
+---@return gamedataAIActionCondition_Record[] outList
 function gamedataAIActionSmartComposite_Record:GracefulInterruptionCondition() end
 
 ---@return Float
@@ -50,7 +50,7 @@ function gamedataAIActionSmartComposite_Record:GracefulInterruptionConditionChec
 ---@return Bool
 function gamedataAIActionSmartComposite_Record:GracefulInterruptionConditionContains(item) end
 
----@return nil, gamedataAINode_Record[] outList
+---@return gamedataAINode_Record[] outList
 function gamedataAIActionSmartComposite_Record:Nodes() end
 
 ---@param item gamedataAINode_Record

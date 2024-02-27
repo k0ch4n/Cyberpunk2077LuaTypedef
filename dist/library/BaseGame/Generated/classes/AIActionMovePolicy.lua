@@ -7,7 +7,7 @@ AIActionMovePolicy = {}
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataMovementPolicy_Record
----@return nil, movePolicies policy
+---@return movePolicies policy
 function AIActionMovePolicy.Add(context, record) end
 
 ---@param context AIbehaviorScriptExecutionContext
@@ -22,5 +22,5 @@ function AIActionMovePolicy.CheckCondition(context, condition) end
 function AIActionMovePolicy.GetTargetPositionProvider(owner, target, trackingMode) end
 
 ---@param context AIbehaviorScriptExecutionContext
----@return nil, movePolicies policy
+---@return movePolicies policy
 function AIActionMovePolicy.Pop(context) end

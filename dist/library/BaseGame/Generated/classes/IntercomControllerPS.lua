@@ -59,11 +59,11 @@ function IntercomControllerPS:GetImmediateSlaves() end
 function IntercomControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function IntercomControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function IntercomControllerPS:GetQuickHackActions(context) end
 
 ---@return nil

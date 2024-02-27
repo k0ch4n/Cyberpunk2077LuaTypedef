@@ -18,7 +18,7 @@ function gamedataVendorWare_Record:AvailabilityPrereqHandle() end
 ---@return CName
 function gamedataVendorWare_Record:ForceQuality() end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataVendorWare_Record:GenerationPrereqs() end
 
 ---@param item gamedataIPrereq_Record
@@ -47,7 +47,7 @@ function gamedataVendorWare_Record:GetQuantityItem(index) end
 ---@return gamedataStatModifier_Record
 function gamedataVendorWare_Record:GetQuantityItemHandle(index) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataVendorWare_Record:Quantity() end
 
 ---@param item gamedataStatModifier_Record

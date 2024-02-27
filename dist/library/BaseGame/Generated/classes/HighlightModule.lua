@@ -14,11 +14,11 @@ function HighlightModule.new(fields) end
 function HighlightModule:DuplicateLastInstance(actor) end
 
 ---@param mode ActiveMode
----@return nil, HUDJob task
+---@return HUDJob task
 function HighlightModule:Process(mode) end
 
 ---@param mode ActiveMode
----@return nil, HUDJob[] jobs
+---@return HUDJob[] jobs
 function HighlightModule:Process(mode) end
 
 ---@param jobs HUDJob[]

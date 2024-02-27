@@ -88,7 +88,7 @@ function AICoverHelper.GetAvailableExposureSpots(puppet, coverID, target, record
 function AICoverHelper.GetCoverBlackboard(puppet) end
 
 ---@param puppet ScriptedPuppet
----@return nil, AICoverExposureMethod method
+---@return AICoverExposureMethod method
 function AICoverHelper.GetCoverExposureMethod(puppet) end
 
 ---@param puppet ScriptedPuppet
@@ -136,11 +136,11 @@ function AICoverHelper.GetCurrentCoverId(puppet) end
 function AICoverHelper.GetCurrentCoverStance(puppet) end
 
 ---@param puppet ScriptedPuppet
----@return nil, gameCoverHeight coverStance
+---@return gameCoverHeight coverStance
 function AICoverHelper.GetCurrentCoverStance(puppet) end
 
 ---@param puppet ScriptedPuppet
----@return nil, gameCoverHeight coverStance
+---@return gameCoverHeight coverStance
 function AICoverHelper.GetDesiredCoverStance(puppet) end
 
 ---@param puppet ScriptedPuppet
@@ -148,11 +148,11 @@ function AICoverHelper.GetDesiredCoverStance(puppet) end
 function AICoverHelper.GetDesiredCoverStance(puppet) end
 
 ---@param puppet ScriptedPuppet
----@return nil, AICoverExposureMethod method
+---@return AICoverExposureMethod method
 function AICoverHelper.GetFallbackCoverExposureMethod(puppet) end
 
 ---@param puppet ScriptedPuppet
----@return nil, AICoverExposureMethod method
+---@return AICoverExposureMethod method
 function AICoverHelper.GetRandomCoverLastAvailableExposureMethod(puppet) end
 
 ---@param puppet ScriptedPuppet

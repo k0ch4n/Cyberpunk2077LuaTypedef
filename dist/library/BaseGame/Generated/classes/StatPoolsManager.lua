@@ -12,12 +12,12 @@ function StatPoolsManager.new(fields) end
 ---@param type gamedataStatPoolType
 ---@param value Float
 ---@param dmgType gamedataDamageType
----@return nil, SDamageDealt[] arr
+---@return SDamageDealt[] arr
 function StatPoolsManager.AddDrain(type, value, dmgType) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@param forReal Bool
----@return nil, SDamageDealt[] valuesLost
+---@return SDamageDealt[] valuesLost
 function StatPoolsManager.ApplyDamage(hitEvent, forReal) end
 
 ---@param hitEvent gameeventsHitEvent
@@ -32,14 +32,14 @@ function StatPoolsManager.ApplyDamageSingle(hitEvent, dmgType, initialDamageValu
 ---@param dmgType gamedataDamageType
 ---@param forReal Bool
 ---@param valuesLost SDamageDealt[]
----@return nil, Float initialDamageValue
+---@return Float initialDamageValue
 function StatPoolsManager.ApplyDamageToArmorSingle(hitEvent, dmgType, forReal, valuesLost) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@param dmgType gamedataDamageType
 ---@param forReal Bool
 ---@param valuesLost SDamageDealt[]
----@return nil, Float initialDamageValue
+---@return Float initialDamageValue
 function StatPoolsManager.ApplyDamageToOverShieldSingle(hitEvent, dmgType, forReal, valuesLost) end
 
 ---@param hitEvent gameeventsHitEvent
@@ -77,7 +77,7 @@ function StatPoolsManager.IsFinisherGrace(hitEvent) end
 function StatPoolsManager.IsStatPoolValid(type) end
 
 ---@param from SDamageDealt[]
----@return nil, SDamageDealt[] to
+---@return SDamageDealt[] to
 function StatPoolsManager.MergeStatPoolsLost(from) end
 
 ---@param hitEvent gameeventsHitEvent

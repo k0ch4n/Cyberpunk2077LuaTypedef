@@ -32,7 +32,7 @@ function gamedataAIReactionCond_Record:PresetHandle() end
 ---@return CName
 function gamedataAIReactionCond_Record:ReactionBehaviorName() end
 
----@return nil, gamedataStimType_Record[] outList
+---@return gamedataStimType_Record[] outList
 function gamedataAIReactionCond_Record:StimType() end
 
 ---@param item gamedataStimType_Record

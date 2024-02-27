@@ -25,7 +25,7 @@ function SlidingLadderControllerPS:GetActions(context) end
 function SlidingLadderControllerPS:GetAnimTime() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function SlidingLadderControllerPS:GetQuickHackActions(context) end
 
 ---@return Bool

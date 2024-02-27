@@ -34,7 +34,7 @@ function NumericDisplayControllerPS:GetCurrentNumber() end
 function NumericDisplayControllerPS:GetInkWidgetTweakDBID(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function NumericDisplayControllerPS:GetQuestActions(context) end
 
 ---@param evt QuestDecreaseNumber

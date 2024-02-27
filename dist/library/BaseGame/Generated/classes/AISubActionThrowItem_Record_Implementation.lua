@@ -46,7 +46,7 @@ function AISubActionThrowItem_Record_Implementation.DropItem(context, record) en
 function AISubActionThrowItem_Record_Implementation.GetCachedGrenadeQuery(context, outStartType) end
 
 ---@param paramsTDBRecord TweakDBID|string
----@return nil, gameprojectileFollowCurveTrajectoryParams trajectoryParams
+---@return gameprojectileFollowCurveTrajectoryParams trajectoryParams
 function AISubActionThrowItem_Record_Implementation.ReadCurvedTrajectoryTDBParams(paramsTDBRecord) end
 
 ---@param context AIbehaviorScriptExecutionContext

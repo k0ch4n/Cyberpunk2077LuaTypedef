@@ -55,7 +55,7 @@ function ArmorEquipGameController.new(fields) end
 ---@return Bool
 function ArmorEquipGameController:OnInitialize() end
 
----@return nil, InventorySlotTooltip tooltipController
+---@return InventorySlotTooltip tooltipController
 function ArmorEquipGameController:CreateTooltip() end
 
 ---@param itemID gameItemID

@@ -17,47 +17,47 @@ function gameDeviceSystem.new(fields) end
 function gameDeviceSystem:AddDynamicConnection(deviceEntityID, deviceClassName, parentEntityID, parentClassName) end
 
 ---@param entityID entEntityID
----@return nil, worldDeviceRef[] outDevicesData
+---@return worldDeviceRef[] outDevicesData
 function gameDeviceSystem:DEBUG_GetAncestorsData(entityID) end
 
 ---@param entityID entEntityID
----@return nil, worldDeviceRef[] outDevicesData
+---@return worldDeviceRef[] outDevicesData
 function gameDeviceSystem:DEBUG_GetChildrenData(entityID) end
 
 ---@param entityID entEntityID
----@return nil, worldDeviceRef[] outDevicesData
+---@return worldDeviceRef[] outDevicesData
 function gameDeviceSystem:DEBUG_GetDescendantsData(entityID) end
 
 ---@param entityID entEntityID
----@return nil, worldDeviceRef[] outDevicesData
+---@return worldDeviceRef[] outDevicesData
 function gameDeviceSystem:DEBUG_GetParentsData(entityID) end
 
 ---@param entityID entEntityID
----@return nil, gameDeviceComponentPS[] outDevices
+---@return gameDeviceComponentPS[] outDevices
 function gameDeviceSystem:GetAllAncestors(entityID) end
 
 ---@param entityID entEntityID
----@return nil, gameDeviceComponentPS[] outDevices
+---@return gameDeviceComponentPS[] outDevices
 function gameDeviceSystem:GetAllDescendants(entityID) end
 
 ---@param entityID entEntityID
----@return nil, gameDeviceComponentPS[] outDevices
+---@return gameDeviceComponentPS[] outDevices
 function gameDeviceSystem:GetChildren(entityID) end
 
 ---@param entityID entEntityID
----@return nil, gameLazyDevice[] outDevices
+---@return gameLazyDevice[] outDevices
 function gameDeviceSystem:GetLazyAllAncestors(entityID) end
 
 ---@param entityID entEntityID
----@return nil, gameLazyDevice[] outDevices
+---@return gameLazyDevice[] outDevices
 function gameDeviceSystem:GetLazyAllDescendants(entityID) end
 
 ---@param entityID entEntityID
----@return nil, gameLazyDevice[] outDevices
+---@return gameLazyDevice[] outDevices
 function gameDeviceSystem:GetLazyChildren(entityID) end
 
 ---@param entityID entEntityID
----@return nil, gameLazyDevice[] outDevices
+---@return gameLazyDevice[] outDevices
 function gameDeviceSystem:GetLazyParents(entityID) end
 
 ---@param entityID entEntityID
@@ -65,7 +65,7 @@ function gameDeviceSystem:GetLazyParents(entityID) end
 function gameDeviceSystem:GetNodePosition(entityID) end
 
 ---@param entityID entEntityID
----@return nil, gameDeviceComponentPS[] outDevices
+---@return gameDeviceComponentPS[] outDevices
 function gameDeviceSystem:GetParents(entityID) end
 
 ---@param entityID entEntityID

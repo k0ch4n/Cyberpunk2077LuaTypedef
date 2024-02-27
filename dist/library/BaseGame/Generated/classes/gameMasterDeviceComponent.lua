@@ -11,8 +11,8 @@ gameMasterDeviceComponent = {}
 function gameMasterDeviceComponent.new(fields) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function gameMasterDeviceComponent:GetActionsOfConnectedDevices(context) end
 
----@return nil, gameDeviceComponentPS[] outDevices
+---@return gameDeviceComponentPS[] outDevices
 function gameMasterDeviceComponent:GetConnectedDevices() end

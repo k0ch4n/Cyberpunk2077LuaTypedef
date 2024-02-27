@@ -9,7 +9,7 @@ gamedataAIActionSequence_Record = {}
 ---@return gamedataAIActionSequence_Record
 function gamedataAIActionSequence_Record.new(fields) end
 
----@return nil, gamedataAIAction_Record[] outList
+---@return gamedataAIAction_Record[] outList
 function gamedataAIActionSequence_Record:Actions() end
 
 ---@param item gamedataAIAction_Record

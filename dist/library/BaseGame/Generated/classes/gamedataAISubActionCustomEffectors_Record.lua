@@ -15,7 +15,7 @@ function gamedataAISubActionCustomEffectors_Record:Apply() end
 ---@return Float
 function gamedataAISubActionCustomEffectors_Record:Delay() end
 
----@return nil, gamedataEffector_Record[] outList
+---@return gamedataEffector_Record[] outList
 function gamedataAISubActionCustomEffectors_Record:Effectors() end
 
 ---@param item gamedataEffector_Record

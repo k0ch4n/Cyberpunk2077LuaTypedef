@@ -9,7 +9,7 @@ gamedataAIAbilityCond_Record = {}
 ---@return gamedataAIAbilityCond_Record
 function gamedataAIAbilityCond_Record.new(fields) end
 
----@return nil, gamedataGameplayAbility_Record[] outList
+---@return gamedataGameplayAbility_Record[] outList
 function gamedataAIAbilityCond_Record:Abilities() end
 
 ---@param item gamedataGameplayAbility_Record

@@ -9,7 +9,7 @@ gamedataAIOptimalDistanceCond_Record = {}
 ---@return gamedataAIOptimalDistanceCond_Record
 function gamedataAIOptimalDistanceCond_Record.new(fields) end
 
----@return nil, gamedataAIRingType_Record[] outList
+---@return gamedataAIRingType_Record[] outList
 function gamedataAIOptimalDistanceCond_Record:CheckRings() end
 
 ---@param item gamedataAIRingType_Record

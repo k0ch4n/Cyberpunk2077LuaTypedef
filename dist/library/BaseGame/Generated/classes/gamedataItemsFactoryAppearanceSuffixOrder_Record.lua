@@ -9,7 +9,7 @@ gamedataItemsFactoryAppearanceSuffixOrder_Record = {}
 ---@return gamedataItemsFactoryAppearanceSuffixOrder_Record
 function gamedataItemsFactoryAppearanceSuffixOrder_Record.new(fields) end
 
----@return nil, gamedataItemsFactoryAppearanceSuffixBase_Record[] outList
+---@return gamedataItemsFactoryAppearanceSuffixBase_Record[] outList
 function gamedataItemsFactoryAppearanceSuffixOrder_Record:AppearanceSuffixes() end
 
 ---@param item gamedataItemsFactoryAppearanceSuffixBase_Record

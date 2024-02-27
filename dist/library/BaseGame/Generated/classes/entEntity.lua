@@ -104,5 +104,5 @@ function entEntity:OnSetGlitchOnUIEvent(evt) end
 ---@return WorldTransform
 function entEntity:GetWorldTransform() end
 
----@return nil, rendInfoBox box
+---@return rendInfoBox box
 function entEntity:OnInspectorDebugDraw() end

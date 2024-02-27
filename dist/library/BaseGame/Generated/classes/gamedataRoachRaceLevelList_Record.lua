@@ -9,7 +9,7 @@ gamedataRoachRaceLevelList_Record = {}
 ---@return gamedataRoachRaceLevelList_Record
 function gamedataRoachRaceLevelList_Record.new(fields) end
 
----@return nil, gamedataRoachRaceLevel_Record[] outList
+---@return gamedataRoachRaceLevel_Record[] outList
 function gamedataRoachRaceLevelList_Record:Data() end
 
 ---@param item gamedataRoachRaceLevel_Record

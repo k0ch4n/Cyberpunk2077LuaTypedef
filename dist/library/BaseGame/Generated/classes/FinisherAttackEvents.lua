@@ -16,7 +16,7 @@ function FinisherAttackEvents.new(fields) end
 function FinisherAttackEvents.ApplyFinisherBuffs(playerPuppet, isWorkspotFinisher) end
 
 ---@param tweakDBPath String
----@return nil, GameplayCameraData cameraParameters
+---@return GameplayCameraData cameraParameters
 function FinisherAttackEvents.GetGameplayCameraParameters(tweakDBPath) end
 
 ---@param target gameObject

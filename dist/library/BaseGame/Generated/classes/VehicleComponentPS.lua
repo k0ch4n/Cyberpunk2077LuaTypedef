@@ -223,7 +223,7 @@ function VehicleComponentPS:GetPlayerTrunkActions(actions, context) end
 function VehicleComponentPS:GetQuestLockedActions(actions, context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function VehicleComponentPS:GetQuickHackActions(context) end
 
 ---@return gamedataVehicleSeat_Record[]

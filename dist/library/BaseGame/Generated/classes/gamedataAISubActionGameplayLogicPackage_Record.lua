@@ -20,7 +20,7 @@ function gamedataAISubActionGameplayLogicPackage_Record:GetPackagesItem(index) e
 ---@return gamedataGameplayLogicPackage_Record
 function gamedataAISubActionGameplayLogicPackage_Record:GetPackagesItemHandle(index) end
 
----@return nil, gamedataGameplayLogicPackage_Record[] outList
+---@return gamedataGameplayLogicPackage_Record[] outList
 function gamedataAISubActionGameplayLogicPackage_Record:Packages() end
 
 ---@param item gamedataGameplayLogicPackage_Record

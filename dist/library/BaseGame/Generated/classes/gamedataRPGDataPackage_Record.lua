@@ -9,7 +9,7 @@ gamedataRPGDataPackage_Record = {}
 ---@return gamedataRPGDataPackage_Record
 function gamedataRPGDataPackage_Record.new(fields) end
 
----@return nil, gamedataEffector_Record[] outList
+---@return gamedataEffector_Record[] outList
 function gamedataRPGDataPackage_Record:Effectors() end
 
 ---@param item gamedataEffector_Record
@@ -60,21 +60,21 @@ function gamedataRPGDataPackage_Record:GetStatPoolsItem(index) end
 ---@return gamedataStatPool_Record
 function gamedataRPGDataPackage_Record:GetStatPoolsItemHandle(index) end
 
----@return nil, gamedataStatModifierGroup_Record[] outList
+---@return gamedataStatModifierGroup_Record[] outList
 function gamedataRPGDataPackage_Record:StatModifierGroups() end
 
 ---@param item gamedataStatModifierGroup_Record
 ---@return Bool
 function gamedataRPGDataPackage_Record:StatModifierGroupsContains(item) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataRPGDataPackage_Record:StatModifiers() end
 
 ---@param item gamedataStatModifier_Record
 ---@return Bool
 function gamedataRPGDataPackage_Record:StatModifiersContains(item) end
 
----@return nil, gamedataStatPool_Record[] outList
+---@return gamedataStatPool_Record[] outList
 function gamedataRPGDataPackage_Record:StatPools() end
 
 ---@param item gamedataStatPool_Record

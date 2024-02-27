@@ -20,7 +20,7 @@ function gamedataMiniGame_AllSymbols_Record:GetSymbolsWithRarityItem(index) end
 ---@return gamedataMiniGame_SymbolsWithRarity_Record
 function gamedataMiniGame_AllSymbols_Record:GetSymbolsWithRarityItemHandle(index) end
 
----@return nil, gamedataMiniGame_SymbolsWithRarity_Record[] outList
+---@return gamedataMiniGame_SymbolsWithRarity_Record[] outList
 function gamedataMiniGame_AllSymbols_Record:SymbolsWithRarity() end
 
 ---@param item gamedataMiniGame_SymbolsWithRarity_Record

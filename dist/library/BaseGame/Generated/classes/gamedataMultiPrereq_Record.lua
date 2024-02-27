@@ -23,7 +23,7 @@ function gamedataMultiPrereq_Record:GetNestedPrereqsItem(index) end
 ---@return gamedataIPrereq_Record
 function gamedataMultiPrereq_Record:GetNestedPrereqsItemHandle(index) end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataMultiPrereq_Record:NestedPrereqs() end
 
 ---@param item gamedataIPrereq_Record

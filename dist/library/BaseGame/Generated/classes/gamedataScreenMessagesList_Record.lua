@@ -20,7 +20,7 @@ function gamedataScreenMessagesList_Record:GetMessagesItem(index) end
 ---@return gamedataScreenMessageData_Record
 function gamedataScreenMessagesList_Record:GetMessagesItemHandle(index) end
 
----@return nil, gamedataScreenMessageData_Record[] outList
+---@return gamedataScreenMessageData_Record[] outList
 function gamedataScreenMessagesList_Record:Messages() end
 
 ---@param item gamedataScreenMessageData_Record

@@ -20,7 +20,7 @@ function gamedataAISquadORCondition_Record:GetORItem(index) end
 ---@return gamedataAITicketCheck_Record
 function gamedataAISquadORCondition_Record:GetORItemHandle(index) end
 
----@return nil, gamedataAITicketCheck_Record[] outList
+---@return gamedataAITicketCheck_Record[] outList
 function gamedataAISquadORCondition_Record:OR() end
 
 ---@param item gamedataAITicketCheck_Record

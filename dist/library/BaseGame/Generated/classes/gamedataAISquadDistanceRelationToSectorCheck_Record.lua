@@ -20,7 +20,7 @@ function gamedataAISquadDistanceRelationToSectorCheck_Record:GetSectorsItem(inde
 ---@return gamedataAISectorType_Record
 function gamedataAISquadDistanceRelationToSectorCheck_Record:GetSectorsItemHandle(index) end
 
----@return nil, gamedataAISectorType_Record[] outList
+---@return gamedataAISectorType_Record[] outList
 function gamedataAISquadDistanceRelationToSectorCheck_Record:Sectors() end
 
 ---@param item gamedataAISectorType_Record

@@ -53,28 +53,28 @@ function gamedataVehicleFxWheelsDecals_Record:GetWet_material_overridesItem(inde
 ---@return gamedataVehicleFxWheelsDecalsMaterial_Record
 function gamedataVehicleFxWheelsDecals_Record:GetWet_material_overridesItemHandle(index) end
 
----@return nil, gamedataVehicleFxWheelsDecalsMaterial_Record[] outList
+---@return gamedataVehicleFxWheelsDecalsMaterial_Record[] outList
 function gamedataVehicleFxWheelsDecals_Record:Materials() end
 
 ---@param item gamedataVehicleFxWheelsDecalsMaterial_Record
 ---@return Bool
 function gamedataVehicleFxWheelsDecals_Record:MaterialsContains(item) end
 
----@return nil, gamedataVehicleFxWheelsDecalsMaterial_Record[] outList
+---@return gamedataVehicleFxWheelsDecalsMaterial_Record[] outList
 function gamedataVehicleFxWheelsDecals_Record:Rain_material_overrides() end
 
 ---@param item gamedataVehicleFxWheelsDecalsMaterial_Record
 ---@return Bool
 function gamedataVehicleFxWheelsDecals_Record:Rain_material_overridesContains(item) end
 
----@return nil, gamedataVehicleFxWheelsDecalsMaterialSmear_Record[] outList
+---@return gamedataVehicleFxWheelsDecalsMaterialSmear_Record[] outList
 function gamedataVehicleFxWheelsDecals_Record:Smear_materials() end
 
 ---@param item gamedataVehicleFxWheelsDecalsMaterialSmear_Record
 ---@return Bool
 function gamedataVehicleFxWheelsDecals_Record:Smear_materialsContains(item) end
 
----@return nil, gamedataVehicleFxWheelsDecalsMaterial_Record[] outList
+---@return gamedataVehicleFxWheelsDecalsMaterial_Record[] outList
 function gamedataVehicleFxWheelsDecals_Record:Wet_material_overrides() end
 
 ---@param item gamedataVehicleFxWheelsDecalsMaterial_Record

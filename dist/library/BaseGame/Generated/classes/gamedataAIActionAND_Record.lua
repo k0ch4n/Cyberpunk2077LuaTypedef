@@ -9,7 +9,7 @@ gamedataAIActionAND_Record = {}
 ---@return gamedataAIActionAND_Record
 function gamedataAIActionAND_Record.new(fields) end
 
----@return nil, gamedataAIActionSubCondition_Record[] outList
+---@return gamedataAIActionSubCondition_Record[] outList
 function gamedataAIActionAND_Record:AND() end
 
 ---@param item gamedataAIActionSubCondition_Record

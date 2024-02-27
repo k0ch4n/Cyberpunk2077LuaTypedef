@@ -53,7 +53,7 @@ function gamedataAIItemCond_Record:ItemType() end
 ---@return gamedataItemType_Record
 function gamedataAIItemCond_Record:ItemTypeHandle() end
 
----@return nil, gamedataTriggerMode_Record[] outList
+---@return gamedataTriggerMode_Record[] outList
 function gamedataAIItemCond_Record:TriggerModes() end
 
 ---@param item gamedataTriggerMode_Record

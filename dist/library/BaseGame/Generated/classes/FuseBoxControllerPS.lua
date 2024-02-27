@@ -57,7 +57,7 @@ function FuseBoxControllerPS:GetDeviceIconTweakDBID() end
 function FuseBoxControllerPS:GetExpectedSlaveState() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function FuseBoxControllerPS:GetQuickHackActions(context) end
 
 ---@return BaseSkillCheckContainer

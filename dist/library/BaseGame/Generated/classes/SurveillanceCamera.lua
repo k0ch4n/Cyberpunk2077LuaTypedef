@@ -118,7 +118,7 @@ function SurveillanceCamera:OnValidTargetAppears(target) end
 ---@return nil
 function SurveillanceCamera:OnValidTargetDisappears(target) end
 
----@return nil, entLookAtAddEvent lookAtEntityEvent
+---@return entLookAtAddEvent lookAtEntityEvent
 function SurveillanceCamera:OverrideLookAtSetupHor() end
 
 ---@return nil

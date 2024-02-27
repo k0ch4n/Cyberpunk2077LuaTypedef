@@ -24,7 +24,7 @@ function EulerAngles.AlmostEqual(a, b, epsilon) end
 function EulerAngles.Dot(a, b) end
 
 ---@param rotation EulerAngles
----@return nil, Vector4 forward, Vector4 right, Vector4 up
+---@return Vector4 forward, Vector4 right, Vector4 up
 function EulerAngles.GetAxes(rotation) end
 
 ---@param rotation EulerAngles

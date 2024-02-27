@@ -20,11 +20,11 @@ function IconsModule:IsEnemyGrappled() end
 function IconsModule:IsPlayerCarrying() end
 
 ---@param mode ActiveMode
----@return nil, HUDJob task
+---@return HUDJob task
 function IconsModule:Process(mode) end
 
 ---@param mode ActiveMode
----@return nil, HUDJob[] jobs
+---@return HUDJob[] jobs
 function IconsModule:Process(mode) end
 
 ---@param actor gameHudActor

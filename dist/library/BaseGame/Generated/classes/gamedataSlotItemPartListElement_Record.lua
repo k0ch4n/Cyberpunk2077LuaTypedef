@@ -20,7 +20,7 @@ function gamedataSlotItemPartListElement_Record:GetItemPartListItem(index) end
 ---@return gamedataItemPartListElement_Record
 function gamedataSlotItemPartListElement_Record:GetItemPartListItemHandle(index) end
 
----@return nil, gamedataItemPartListElement_Record[] outList
+---@return gamedataItemPartListElement_Record[] outList
 function gamedataSlotItemPartListElement_Record:ItemPartList() end
 
 ---@param item gamedataItemPartListElement_Record

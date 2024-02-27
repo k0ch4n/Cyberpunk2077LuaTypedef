@@ -54,11 +54,11 @@ function ActivatorControllerPS:GetActions(context) end
 function ActivatorControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function ActivatorControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function ActivatorControllerPS:GetQuickHackActions(context) end
 
 ---@return BaseSkillCheckContainer

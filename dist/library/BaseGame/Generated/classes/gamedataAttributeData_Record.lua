@@ -44,7 +44,7 @@ function gamedataAttributeData_Record:Loc_desc_key() end
 ---@return String
 function gamedataAttributeData_Record:Loc_name_key() end
 
----@return nil, gamedataNewPerk_Record[] outList
+---@return gamedataNewPerk_Record[] outList
 function gamedataAttributeData_Record:Perks() end
 
 ---@param item gamedataNewPerk_Record

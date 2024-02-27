@@ -73,7 +73,7 @@ function LocomotionTransition:GetLandingType(stateContext) end
 ---@return Float
 function LocomotionTransition:GetSpeedBasedOnDistance(scriptInterface, desiredDistance) end
 
----@return nil, gamestateMachineparameterTypeActionLocomotionParameters locomotionParameters
+---@return gamestateMachineparameterTypeActionLocomotionParameters locomotionParameters
 function LocomotionTransition:GetStateDefaultLocomotionParameters() end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
@@ -214,7 +214,7 @@ function LocomotionTransition:SetupSprintInputLock(stateContext, scriptInterface
 
 ---@param text String
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@return nil, Uint32 layerId
+---@return Uint32 layerId
 function LocomotionTransition:ShowDebugText(text, scriptInterface) end
 
 ---@param attackId TweakDBID|string

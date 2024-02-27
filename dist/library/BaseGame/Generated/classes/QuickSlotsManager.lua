@@ -65,7 +65,7 @@ function QuickSlotsManager:AssignItem(itemId) end
 ---@return nil
 function QuickSlotsManager:AssignItemToCyberwareSlot(itemId, slotIndex) end
 
----@return nil, QuickSlotCommand[] weaponsWheel
+---@return QuickSlotCommand[] weaponsWheel
 function QuickSlotsManager:ChooseWeaponsWheel() end
 
 ---@param direction EDPadSlot

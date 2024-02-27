@@ -32,7 +32,7 @@ function gamedataAIDirectorScheduleEntry_Record:GetPlansItemHandle(index) end
 ---@return Int32
 function gamedataAIDirectorScheduleEntry_Record:KillsLimit() end
 
----@return nil, gamedataAIDirectorSchedulePlan_Record[] outList
+---@return gamedataAIDirectorSchedulePlan_Record[] outList
 function gamedataAIDirectorScheduleEntry_Record:Plans() end
 
 ---@param item gamedataAIDirectorSchedulePlan_Record

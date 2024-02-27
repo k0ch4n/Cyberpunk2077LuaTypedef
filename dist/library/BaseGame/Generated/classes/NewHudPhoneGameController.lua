@@ -431,5 +431,5 @@ function NewHudPhoneGameController:TutorialActivated() end
 function NewHudPhoneGameController:UpdateHoloAudioCall() end
 
 ---@param contactDataArray IScriptable[]
----@return nil, Int32 messageToOpenHash
+---@return Int32 messageToOpenHash
 function NewHudPhoneGameController:VerifyMessageToOpenHash(contactDataArray) end

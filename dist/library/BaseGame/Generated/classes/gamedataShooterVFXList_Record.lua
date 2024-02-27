@@ -9,7 +9,7 @@ gamedataShooterVFXList_Record = {}
 ---@return gamedataShooterVFXList_Record
 function gamedataShooterVFXList_Record.new(fields) end
 
----@return nil, gamedataShooterVFX_Record[] outList
+---@return gamedataShooterVFX_Record[] outList
 function gamedataShooterVFXList_Record:Data() end
 
 ---@param item gamedataShooterVFX_Record

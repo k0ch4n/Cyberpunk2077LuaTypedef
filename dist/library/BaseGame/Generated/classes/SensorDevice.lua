@@ -548,10 +548,10 @@ function SensorDevice:OnValidTargetDisappears(target) end
 ---@return nil
 function SensorDevice:OneShotLookAtPosition(targetPos, forcedLook) end
 
----@return nil, entLookAtAddEvent lookAtEntityEvent
+---@return entLookAtAddEvent lookAtEntityEvent
 function SensorDevice:OverrideLookAtSetupHor() end
 
----@return nil, entLookAtAddEvent lookAtEntityEvent
+---@return entLookAtAddEvent lookAtEntityEvent
 function SensorDevice:OverrideLookAtSetupVert() end
 
 ---@param newObject gameObject
@@ -621,7 +621,7 @@ function SensorDevice:RevertTemporaryAttitude() end
 ---@param effectRef gameEffectRef
 ---@param slotName CName|string
 ---@param range Float
----@return nil, gameEffectInstance effectInstance
+---@return gameEffectInstance effectInstance
 function SensorDevice:RunGameEffect(effectRef, slotName, range) end
 
 ---@return nil
@@ -709,7 +709,7 @@ function SensorDevice:SyncRotationWithAnimGraph() end
 ---@return nil
 function SensorDevice:TCSMeshToggle(isVisible) end
 
----@return nil, gameEffectInstance effectInstance
+---@return gameEffectInstance effectInstance
 function SensorDevice:TerminateGameEffect() end
 
 ---@param active Bool

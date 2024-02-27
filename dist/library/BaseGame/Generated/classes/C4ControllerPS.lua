@@ -42,7 +42,7 @@ function C4ControllerPS:GetInventoryItemID() end
 function C4ControllerPS:GetItemTweakDBString() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function C4ControllerPS:GetQuickHackActions(context) end
 
 ---@param evt ActivateC4

@@ -31,7 +31,7 @@ function VendorDataManager.GetLocalPlayerCurrencyAmount(player) end
 function VendorDataManager:AddToBuyingCart(itemToAdd) end
 
 ---@param itemToAdd gameItemData
----@return nil, VendorShoppingCartItem[] cart
+---@return VendorShoppingCartItem[] cart
 function VendorDataManager:AddToCart(itemToAdd) end
 
 ---@param itemToAdd gameItemData

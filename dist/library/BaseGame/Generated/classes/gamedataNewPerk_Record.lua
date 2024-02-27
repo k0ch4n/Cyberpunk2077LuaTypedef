@@ -61,7 +61,7 @@ function gamedataNewPerk_Record:GetRequiresPerksItemHandle(index) end
 ---@return CName
 function gamedataNewPerk_Record:IconPath() end
 
----@return nil, gamedataNewPerkLevelData_Record[] outList
+---@return gamedataNewPerkLevelData_Record[] outList
 function gamedataNewPerk_Record:Levels() end
 
 ---@param item gamedataNewPerkLevelData_Record
@@ -92,7 +92,7 @@ function gamedataNewPerk_Record:Requirement() end
 ---@return gamedataIPrereq_Record
 function gamedataNewPerk_Record:RequirementHandle() end
 
----@return nil, gamedataNewPerk_Record[] outList
+---@return gamedataNewPerk_Record[] outList
 function gamedataNewPerk_Record:RequiresPerks() end
 
 ---@param item gamedataNewPerk_Record

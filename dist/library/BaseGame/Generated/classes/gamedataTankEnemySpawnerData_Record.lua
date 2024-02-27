@@ -9,7 +9,7 @@ gamedataTankEnemySpawnerData_Record = {}
 ---@return gamedataTankEnemySpawnerData_Record
 function gamedataTankEnemySpawnerData_Record.new(fields) end
 
----@return nil, gamedataTankEnemy_Record[] outList
+---@return gamedataTankEnemy_Record[] outList
 function gamedataTankEnemySpawnerData_Record:EnemyList() end
 
 ---@param item gamedataTankEnemy_Record
@@ -38,7 +38,7 @@ function gamedataTankEnemySpawnerData_Record:GetLevelListItem(index) end
 ---@return gamedataTankLevelSpawnableArrangement_Record
 function gamedataTankEnemySpawnerData_Record:GetLevelListItemHandle(index) end
 
----@return nil, gamedataTankLevelSpawnableArrangement_Record[] outList
+---@return gamedataTankLevelSpawnableArrangement_Record[] outList
 function gamedataTankEnemySpawnerData_Record:LevelList() end
 
 ---@param item gamedataTankLevelSpawnableArrangement_Record

@@ -52,7 +52,7 @@ function SceneTierIIEvents:UpdateLocomotionStatsBasedOnMovementType(stateContext
 
 ---@param locomotionStateName CName|string
 ---@param movementPreset Tier2WalkType
----@return nil, Float speedValue
+---@return Float speedValue
 function SceneTierIIEvents:UpdateMaxSpeedBasedOnPlayerState(locomotionStateName, movementPreset) end
 
 ---@param stateContext gamestateMachineStateContextScript

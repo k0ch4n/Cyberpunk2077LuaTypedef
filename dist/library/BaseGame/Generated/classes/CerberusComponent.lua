@@ -41,8 +41,8 @@ function CerberusComponent:OnGameDetach() end
 ---@param effectRef gameEffectRef
 ---@param slotName CName|string
 ---@param range Float
----@return nil, gameEffectInstance effectInstance
+---@return gameEffectInstance effectInstance
 function CerberusComponent:RunGameEffect(effectRef, slotName, range) end
 
----@return nil, gameEffectInstance effectInstance
+---@return gameEffectInstance effectInstance
 function CerberusComponent:TerminateGameEffect() end

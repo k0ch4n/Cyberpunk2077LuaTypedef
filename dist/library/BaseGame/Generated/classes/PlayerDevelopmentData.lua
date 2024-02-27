@@ -335,7 +335,7 @@ function PlayerDevelopmentData:GetPerks() end
 function PlayerDevelopmentData:GetProficiencyAbsoluteMaxLevel(type) end
 
 ---@param type gamedataProficiencyType
----@return nil, CName curvName, CName colName
+---@return CName curvName, CName colName
 function PlayerDevelopmentData:GetProficiencyExpCurveNames(type) end
 
 ---@param perkArea gamedataPerkArea
@@ -404,7 +404,7 @@ function PlayerDevelopmentData:GetTraitLevel(traitIndex) end
 function PlayerDevelopmentData:GetTraitRecord(traitType) end
 
 ---@param perkType gamedataNewPerkType
----@return nil, gamedataNewPerkType[] unlockedPerks
+---@return gamedataNewPerkType[] unlockedPerks
 function PlayerDevelopmentData:GetUnlockedPerkList(perkType) end
 
 ---@param i Int32

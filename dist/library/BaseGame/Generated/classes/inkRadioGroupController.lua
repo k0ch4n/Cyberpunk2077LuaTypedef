@@ -21,7 +21,7 @@ function inkRadioGroupController:AddToggle(toAdd) end
 ---@return inkToggleController
 function inkRadioGroupController:GetController(index) end
 
----@return nil, inkToggleController[] controllers
+---@return inkToggleController[] controllers
 function inkRadioGroupController:GetControllers() end
 
 ---@return Int32

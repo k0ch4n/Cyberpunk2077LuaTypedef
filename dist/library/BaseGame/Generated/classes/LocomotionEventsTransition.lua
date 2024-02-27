@@ -59,7 +59,7 @@ function LocomotionEventsTransition:ResetGravityParametersForChargedJump(stateCo
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param minTimeBeforeCrouch Float
 ---@param dontToggleCrouchOffOnSprint Bool
----@return nil, Bool toggledSprint, Bool toggledCrouch
+---@return Bool toggledSprint, Bool toggledCrouch
 function LocomotionEventsTransition:UpdateInputToggles(stateContext, scriptInterface, minTimeBeforeCrouch, dontToggleCrouchOffOnSprint) end
 
 ---@param stateContext gamestateMachineStateContextScript

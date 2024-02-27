@@ -18,11 +18,11 @@ function ScannerModule:DuplicateLastInstance(actor) end
 function ScannerModule:InitiateFreshScan() end
 
 ---@param mode ActiveMode
----@return nil, HUDJob task
+---@return HUDJob task
 function ScannerModule:Process(mode) end
 
 ---@param mode ActiveMode
----@return nil, HUDJob[] jobs
+---@return HUDJob[] jobs
 function ScannerModule:Process(mode) end
 
 ---@param jobs HUDJob[]

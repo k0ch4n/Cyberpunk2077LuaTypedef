@@ -89,21 +89,21 @@ function gamedataAttack_Record:PlayerIncomingDamageMultiplier() end
 ---@return Float
 function gamedataAttack_Record:Range() end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataAttack_Record:StaminaCost() end
 
 ---@param item gamedataStatModifier_Record
 ---@return Bool
 function gamedataAttack_Record:StaminaCostContains(item) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataAttack_Record:StatModifiers() end
 
 ---@param item gamedataStatModifier_Record
 ---@return Bool
 function gamedataAttack_Record:StatModifiersContains(item) end
 
----@return nil, gamedataStatusEffectAttackData_Record[] outList
+---@return gamedataStatusEffectAttackData_Record[] outList
 function gamedataAttack_Record:StatusEffects() end
 
 ---@param item gamedataStatusEffectAttackData_Record

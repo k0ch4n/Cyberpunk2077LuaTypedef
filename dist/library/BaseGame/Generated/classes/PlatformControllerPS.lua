@@ -58,7 +58,7 @@ function PlatformControllerPS:GetError() end
 function PlatformControllerPS:GetFloorNode(floor) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function PlatformControllerPS:GetQuestActions(context) end
 
 ---@return Float

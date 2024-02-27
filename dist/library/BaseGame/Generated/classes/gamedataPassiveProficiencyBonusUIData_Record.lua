@@ -54,7 +54,7 @@ function gamedataPassiveProficiencyBonusUIData_Record:Loc_desc_key() end
 ---@return CName
 function gamedataPassiveProficiencyBonusUIData_Record:Loc_name_key() end
 
----@return nil, gamedataStat_Record[] outList
+---@return gamedataStat_Record[] outList
 function gamedataPassiveProficiencyBonusUIData_Record:Stats() end
 
 ---@param item gamedataStat_Record

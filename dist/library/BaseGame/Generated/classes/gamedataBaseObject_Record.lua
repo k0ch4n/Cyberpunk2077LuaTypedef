@@ -9,7 +9,7 @@ gamedataBaseObject_Record = {}
 ---@return gamedataBaseObject_Record
 function gamedataBaseObject_Record.new(fields) end
 
----@return nil, gamedataEffector_Record[] outList
+---@return gamedataEffector_Record[] outList
 function gamedataBaseObject_Record:Effectors() end
 
 ---@param item gamedataEffector_Record
@@ -82,7 +82,7 @@ function gamedataBaseObject_Record:GetWeakspotsItem(index) end
 ---@return gamedataWeakspot_Record
 function gamedataBaseObject_Record:GetWeakspotsItemHandle(index) end
 
----@return nil, gamedataObjectAction_Record[] outList
+---@return gamedataObjectAction_Record[] outList
 function gamedataBaseObject_Record:ObjectActions() end
 
 ---@param item gamedataObjectAction_Record
@@ -92,28 +92,28 @@ function gamedataBaseObject_Record:ObjectActionsContains(item) end
 ---@return Bool
 function gamedataBaseObject_Record:Savable() end
 
----@return nil, gamedataStatModifierGroup_Record[] outList
+---@return gamedataStatModifierGroup_Record[] outList
 function gamedataBaseObject_Record:StatModifierGroups() end
 
 ---@param item gamedataStatModifierGroup_Record
 ---@return Bool
 function gamedataBaseObject_Record:StatModifierGroupsContains(item) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataBaseObject_Record:StatModifiers() end
 
 ---@param item gamedataStatModifier_Record
 ---@return Bool
 function gamedataBaseObject_Record:StatModifiersContains(item) end
 
----@return nil, gamedataStatPool_Record[] outList
+---@return gamedataStatPool_Record[] outList
 function gamedataBaseObject_Record:StatPools() end
 
 ---@param item gamedataStatPool_Record
 ---@return Bool
 function gamedataBaseObject_Record:StatPoolsContains(item) end
 
----@return nil, gamedataWeakspot_Record[] outList
+---@return gamedataWeakspot_Record[] outList
 function gamedataBaseObject_Record:Weakspots() end
 
 ---@param item gamedataWeakspot_Record

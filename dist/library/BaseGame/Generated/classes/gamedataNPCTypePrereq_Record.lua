@@ -9,7 +9,7 @@ gamedataNPCTypePrereq_Record = {}
 ---@return gamedataNPCTypePrereq_Record
 function gamedataNPCTypePrereq_Record.new(fields) end
 
----@return nil, gamedataNPCType_Record[] outList
+---@return gamedataNPCType_Record[] outList
 function gamedataNPCTypePrereq_Record:AllowedTypes() end
 
 ---@param item gamedataNPCType_Record

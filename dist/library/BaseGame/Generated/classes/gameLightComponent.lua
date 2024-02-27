@@ -144,5 +144,5 @@ function gameLightComponent:OnToggleLight(evt) end
 function gameLightComponent:OnToggleLightByName(evt) end
 
 ---@param inputData EditableGameLightSettings
----@return nil, gameLightSettings outputData
+---@return gameLightSettings outputData
 function gameLightComponent:SetupLightSettings(inputData) end

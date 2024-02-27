@@ -230,7 +230,7 @@ function gameScanningComponent:GetQuestHighlight(highlightInstructions) end
 ---@return gameScanningTooltipElementDef[], gameScanningTooltipElementDef conclusionData
 function gameScanningComponent:GetScannableDataForSingleClueByIndex(index) end
 
----@return nil, gameScanningTooltipElementDef[] arr
+---@return gameScanningTooltipElementDef[] arr
 function gameScanningComponent:GetScannableObjects() end
 
 ---@return TweakDBID

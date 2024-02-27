@@ -9,14 +9,14 @@ gamedataStatsFolder_Record = {}
 ---@return gamedataStatsFolder_Record
 function gamedataStatsFolder_Record.new(fields) end
 
----@return nil, gamedataStatsArray_Record[] outList
+---@return gamedataStatsArray_Record[] outList
 function gamedataStatsFolder_Record:Arrays() end
 
 ---@param item gamedataStatsArray_Record
 ---@return Bool
 function gamedataStatsFolder_Record:ArraysContains(item) end
 
----@return nil, gamedataStatsFolder_Record[] outList
+---@return gamedataStatsFolder_Record[] outList
 function gamedataStatsFolder_Record:Folders() end
 
 ---@param item gamedataStatsFolder_Record
@@ -56,7 +56,7 @@ function gamedataStatsFolder_Record:GetStatsItem(index) end
 ---@return gamedataStat_Record
 function gamedataStatsFolder_Record:GetStatsItemHandle(index) end
 
----@return nil, gamedataStat_Record[] outList
+---@return gamedataStat_Record[] outList
 function gamedataStatsFolder_Record:Stats() end
 
 ---@param item gamedataStat_Record

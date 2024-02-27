@@ -9,7 +9,7 @@ gamedataAIPatternsPackage_Record = {}
 ---@return gamedataAIPatternsPackage_Record
 function gamedataAIPatternsPackage_Record.new(fields) end
 
----@return nil, gamedataAIActionCondition_Record[] outList
+---@return gamedataAIActionCondition_Record[] outList
 function gamedataAIPatternsPackage_Record:ActivationConditions() end
 
 ---@param item gamedataAIActionCondition_Record
@@ -38,7 +38,7 @@ function gamedataAIPatternsPackage_Record:GetPatternsItem(index) end
 ---@return gamedataAIPattern_Record
 function gamedataAIPatternsPackage_Record:GetPatternsItemHandle(index) end
 
----@return nil, gamedataAIPattern_Record[] outList
+---@return gamedataAIPattern_Record[] outList
 function gamedataAIPatternsPackage_Record:Patterns() end
 
 ---@param item gamedataAIPattern_Record

@@ -20,7 +20,7 @@ function gamedataTankProjectileSpawnerData_Record:GetProjectileListItem(index) e
 ---@return gamedataTankProjectile_Record
 function gamedataTankProjectileSpawnerData_Record:GetProjectileListItemHandle(index) end
 
----@return nil, gamedataTankProjectile_Record[] outList
+---@return gamedataTankProjectile_Record[] outList
 function gamedataTankProjectileSpawnerData_Record:ProjectileList() end
 
 ---@param item gamedataTankProjectile_Record

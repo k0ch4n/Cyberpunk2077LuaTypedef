@@ -42,11 +42,11 @@ function VendingMachineControllerPS:GetGlitchStopSFX() end
 function VendingMachineControllerPS:GetHackedItemCount() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function VendingMachineControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function VendingMachineControllerPS:GetQuickHackActions(context) end
 
 ---@return gameSItemStack[]

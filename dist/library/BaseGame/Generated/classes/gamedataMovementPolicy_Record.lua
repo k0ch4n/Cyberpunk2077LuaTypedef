@@ -9,7 +9,7 @@ gamedataMovementPolicy_Record = {}
 ---@return gamedataMovementPolicy_Record
 function gamedataMovementPolicy_Record.new(fields) end
 
----@return nil, gamedataMovementPolicyTagList_Record[] outList
+---@return gamedataMovementPolicyTagList_Record[] outList
 function gamedataMovementPolicy_Record:AllowedTags() end
 
 ---@param item gamedataMovementPolicyTagList_Record
@@ -34,7 +34,7 @@ function gamedataMovementPolicy_Record:AvoidThreatIgnoringDirection() end
 ---@return Float
 function gamedataMovementPolicy_Record:AvoidThreatRange() end
 
----@return nil, gamedataMovementPolicyTagList_Record[] outList
+---@return gamedataMovementPolicyTagList_Record[] outList
 function gamedataMovementPolicy_Record:BlockedTags() end
 
 ---@param item gamedataMovementPolicyTagList_Record

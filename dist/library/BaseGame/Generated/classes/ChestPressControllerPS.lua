@@ -35,11 +35,11 @@ function ChestPressControllerPS:GetFactOnQHack() end
 function ChestPressControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function ChestPressControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function ChestPressControllerPS:GetQuickHackActions(context) end
 
 ---@return BaseSkillCheckContainer

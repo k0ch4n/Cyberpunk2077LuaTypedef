@@ -20,7 +20,7 @@ function gamedataAISquadInSectorFilter_Record:GetSectorsItem(index) end
 ---@return gamedataAISectorType_Record
 function gamedataAISquadInSectorFilter_Record:GetSectorsItemHandle(index) end
 
----@return nil, gamedataAISectorType_Record[] outList
+---@return gamedataAISectorType_Record[] outList
 function gamedataAISquadInSectorFilter_Record:Sectors() end
 
 ---@param item gamedataAISectorType_Record

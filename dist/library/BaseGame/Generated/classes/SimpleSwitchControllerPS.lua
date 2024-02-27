@@ -35,7 +35,7 @@ function SimpleSwitchControllerPS:GetClearance() end
 function SimpleSwitchControllerPS:GetExpectedSlaveState() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function SimpleSwitchControllerPS:GetQuickHackActions(context) end
 
 ---@return nil

@@ -20,7 +20,7 @@ function gamedataApperanceToEthnicitiesMap_Record:GetMapItem(index) end
 ---@return gamedataApperanceToEthnicities_Record
 function gamedataApperanceToEthnicitiesMap_Record:GetMapItemHandle(index) end
 
----@return nil, gamedataApperanceToEthnicities_Record[] outList
+---@return gamedataApperanceToEthnicities_Record[] outList
 function gamedataApperanceToEthnicitiesMap_Record:Map() end
 
 ---@param item gamedataApperanceToEthnicities_Record

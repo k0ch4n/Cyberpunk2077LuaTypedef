@@ -36,7 +36,7 @@ function LocomotionTakedownEvents:GetBossNameBasedOnRecord(target) end
 
 ---@param target gameObject
 ---@param stateContext gamestateMachineStateContextScript
----@return nil, Int32 phase
+---@return Int32 phase
 function LocomotionTakedownEvents:GetCurrentBossPhase(target, stateContext) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface

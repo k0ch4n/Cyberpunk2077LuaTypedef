@@ -49,7 +49,7 @@ function ActionsSequencerControllerPS:GetDelayTimeStamps(intervals) end
 function ActionsSequencerControllerPS:GetEligibleSlaves(sequenceInitiator) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function ActionsSequencerControllerPS:GetQuestActions(context) end
 
 ---@param amountOfIntervals Int32

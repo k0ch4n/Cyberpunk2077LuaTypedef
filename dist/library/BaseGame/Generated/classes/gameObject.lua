@@ -330,7 +330,7 @@ function gameObject:GetCurrentContext() end
 
 ---@param curveName CName|string
 ---@param isDebug Bool
----@return nil, Float x, Float y
+---@return Float x, Float y
 function gameObject:GetCurveValue(curveName, isDebug) end
 
 ---@return nil
@@ -697,7 +697,7 @@ function gameObject:EnableOffMeshConnections(player, npc) end
 ---@return nil
 function gameObject:EvaluateMappinsVisualState() end
 
----@return nil, gameScanningTooltipElementDef[] arr
+---@return gameScanningTooltipElementDef[] arr
 function gameObject:FillObjectDescription() end
 
 ---@param killType gameKillType

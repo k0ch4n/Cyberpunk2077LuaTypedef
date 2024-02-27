@@ -16,5 +16,5 @@ function RoboticArmsControllerPS:ActionQuickHackDistraction() end
 function RoboticArmsControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function RoboticArmsControllerPS:GetQuickHackActions(context) end

@@ -9,7 +9,7 @@ gamedataShooterWeaponList_Record = {}
 ---@return gamedataShooterWeaponList_Record
 function gamedataShooterWeaponList_Record.new(fields) end
 
----@return nil, gamedataShooterWeaponData_Record[] outList
+---@return gamedataShooterWeaponData_Record[] outList
 function gamedataShooterWeaponList_Record:Data() end
 
 ---@param item gamedataShooterWeaponData_Record

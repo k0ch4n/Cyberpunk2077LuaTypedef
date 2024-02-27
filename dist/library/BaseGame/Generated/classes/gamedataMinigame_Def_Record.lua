@@ -9,7 +9,7 @@ gamedataMinigame_Def_Record = {}
 ---@return gamedataMinigame_Def_Record
 function gamedataMinigame_Def_Record.new(fields) end
 
----@return nil, gamedataProgram_Record[] outList
+---@return gamedataProgram_Record[] outList
 function gamedataMinigame_Def_Record:AdditionalProgramsList() end
 
 ---@param item gamedataProgram_Record
@@ -37,7 +37,7 @@ function gamedataMinigame_Def_Record:ExtraDifficulty() end
 ---@return CName
 function gamedataMinigame_Def_Record:FailExitText() end
 
----@return nil, gamedataProgram_Record[] outList
+---@return gamedataProgram_Record[] outList
 function gamedataMinigame_Def_Record:ForbiddenProgramsList() end
 
 ---@param item gamedataProgram_Record
@@ -108,14 +108,14 @@ function gamedataMinigame_Def_Record:GreatSuccessExitText() end
 ---@return Int32
 function gamedataMinigame_Def_Record:GridSize() end
 
----@return nil, gamedataRowSymbols_Record[] outList
+---@return gamedataRowSymbols_Record[] outList
 function gamedataMinigame_Def_Record:GridSymbols() end
 
 ---@param item gamedataRowSymbols_Record
 ---@return Bool
 function gamedataMinigame_Def_Record:GridSymbolsContains(item) end
 
----@return nil, gamedataRowTraps_Record[] outList
+---@return gamedataRowTraps_Record[] outList
 function gamedataMinigame_Def_Record:GridTraps() end
 
 ---@param item gamedataRowTraps_Record
@@ -128,7 +128,7 @@ function gamedataMinigame_Def_Record:NoTraps() end
 ---@return Float
 function gamedataMinigame_Def_Record:OverlapProbability() end
 
----@return nil, gamedataProgram_Record[] outList
+---@return gamedataProgram_Record[] outList
 function gamedataMinigame_Def_Record:OverrideProgramsList() end
 
 ---@param item gamedataProgram_Record

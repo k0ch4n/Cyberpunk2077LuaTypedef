@@ -27,7 +27,7 @@ function gamedataCodexRecord_Record:GetTagsCount() end
 ---@return CName
 function gamedataCodexRecord_Record:GetTagsItem(index) end
 
----@return nil, gamedataCodexRecordPart_Record[] outList
+---@return gamedataCodexRecordPart_Record[] outList
 function gamedataCodexRecord_Record:RecordContent() end
 
 ---@param item gamedataCodexRecordPart_Record

@@ -39,7 +39,7 @@ function gamedataLootInjectionSettings_Record:InjectedLoot() end
 ---@return gamedataLootTable_Record
 function gamedataLootInjectionSettings_Record:InjectedLootHandle() end
 
----@return nil, gamedataStat_Record[] outList
+---@return gamedataStat_Record[] outList
 function gamedataLootInjectionSettings_Record:StatsExlcudingBroken() end
 
 ---@param item gamedataStat_Record

@@ -74,17 +74,17 @@ function Vendor:CompareWithPlayerGrenadesQuality(itemStack) end
 function Vendor:CompareWithPlayerHealingItemsQuality(itemStack) end
 
 ---@param player gameObject
----@return nil, gameSItemStack[] outputStacks
+---@return gameSItemStack[] outputStacks
 function Vendor:CreateDynamicStockFromPlayerProgression(player) end
 
 ---@param vendorItem gamedataVendorItem_Record
 ---@param player PlayerPuppet
----@return nil, gameSItemStack[] outputStacks
+---@return gameSItemStack[] outputStacks
 function Vendor:CreateStacksFromVendorItem(vendorItem, player) end
 
 ---@param vendorItemQuery gamedataVendorItemQuery_Record
 ---@param player PlayerPuppet
----@return nil, gameSItemStack[] outputStack
+---@return gameSItemStack[] outputStack
 function Vendor:CreateStacksFromVendorItemQuery(vendorItemQuery, player) end
 
 ---@param position Vector4
@@ -170,7 +170,7 @@ function Vendor:InitPlayerHacks() end
 
 ---@param itemRecord gamedataItem_Record
 ---@param itemID gameItemID
----@return nil, gameSItemStack itemStack
+---@return gameSItemStack itemStack
 function Vendor:InitSingleItemStack(itemRecord, itemID) end
 
 ---@param vendorID TweakDBID|string

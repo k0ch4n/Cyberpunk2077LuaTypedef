@@ -12,7 +12,7 @@ function gamedataLootTableElement_Record.new(fields) end
 ---@return Float
 function gamedataLootTableElement_Record:DropChance() end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataLootTableElement_Record:DropChanceModifiers() end
 
 ---@param item gamedataStatModifier_Record
@@ -64,14 +64,14 @@ function gamedataLootTableElement_Record:PlayerPrereqID() end
 ---@return gamedataIPrereq_Record
 function gamedataLootTableElement_Record:PlayerPrereqIDHandle() end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataLootTableElement_Record:QuantityModifiers() end
 
 ---@param item gamedataStatModifier_Record
 ---@return Bool
 function gamedataLootTableElement_Record:QuantityModifiersContains(item) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataLootTableElement_Record:StatModifiers() end
 
 ---@param item gamedataStatModifier_Record

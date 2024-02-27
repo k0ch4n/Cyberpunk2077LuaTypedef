@@ -36,7 +36,7 @@ function gameDeviceComponentPS:GetDeviceName() end
 function gameDeviceComponentPS:GetDeviceStatus() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function gameDeviceComponentPS:GetNativeActions(context) end
 
 ---@return CName
@@ -69,7 +69,7 @@ function gameDeviceComponentPS:GetActions(context) end
 ---@return gamedeviceAction[]
 function gameDeviceComponentPS:GetActionsToNative(context) end
 
----@return nil, gameDeviceComponentPS[] outDevices
+---@return gameDeviceComponentPS[] outDevices
 function gameDeviceComponentPS:GetAncestors() end
 
 ---@param context? MasterControllerPS
@@ -88,7 +88,7 @@ function gameDeviceComponentPS:GetBlackboard() end
 ---@return DeviceBaseBlackboardDef
 function gameDeviceComponentPS:GetBlackboardDef() end
 
----@return nil, gameDeviceComponentPS[] outDevices
+---@return gameDeviceComponentPS[] outDevices
 function gameDeviceComponentPS:GetChildren() end
 
 ---@return ControlPanelObjectiveData
@@ -127,7 +127,7 @@ function gameDeviceComponentPS:GetInkWidgetTweakDBID(context) end
 ---@return gameLazyDevice[]
 function gameDeviceComponentPS:GetLazyAncestors() end
 
----@return nil, gameLazyDevice[] outDevices
+---@return gameLazyDevice[] outDevices
 function gameDeviceComponentPS:GetLazyChildren() end
 
 ---@return gameLazyDevice[]
@@ -146,7 +146,7 @@ function gameDeviceComponentPS:GetOwnerEntityWeak() end
 ---@return gameDeviceComponentPS
 function gameDeviceComponentPS:GetPS(deviceLink) end
 
----@return nil, gameDeviceComponentPS[] outDevices
+---@return gameDeviceComponentPS[] outDevices
 function gameDeviceComponentPS:GetParents() end
 
 ---@return CName
@@ -161,7 +161,7 @@ function gameDeviceComponentPS:GetQuestActionByName(actionName) end
 function gameDeviceComponentPS:GetQuestActionByNameToNative(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function gameDeviceComponentPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext

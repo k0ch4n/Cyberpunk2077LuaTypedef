@@ -31,14 +31,14 @@ function gamedataTankObstacleSpawnerData_Record:GetObstacleListItem(index) end
 ---@return gamedataTankDestroyableObject_Record
 function gamedataTankObstacleSpawnerData_Record:GetObstacleListItemHandle(index) end
 
----@return nil, gamedataTankLevelObjectID_Record[] outList
+---@return gamedataTankLevelObjectID_Record[] outList
 function gamedataTankObstacleSpawnerData_Record:LevelList() end
 
 ---@param item gamedataTankLevelObjectID_Record
 ---@return Bool
 function gamedataTankObstacleSpawnerData_Record:LevelListContains(item) end
 
----@return nil, gamedataTankDestroyableObject_Record[] outList
+---@return gamedataTankDestroyableObject_Record[] outList
 function gamedataTankObstacleSpawnerData_Record:ObstacleList() end
 
 ---@param item gamedataTankDestroyableObject_Record

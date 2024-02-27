@@ -20,7 +20,7 @@ function gamedataVehicleSeatSet_Record:GetVehSeatsItem(index) end
 ---@return gamedataVehicleSeat_Record
 function gamedataVehicleSeatSet_Record:GetVehSeatsItemHandle(index) end
 
----@return nil, gamedataVehicleSeat_Record[] outList
+---@return gamedataVehicleSeat_Record[] outList
 function gamedataVehicleSeatSet_Record:VehSeats() end
 
 ---@param item gamedataVehicleSeat_Record

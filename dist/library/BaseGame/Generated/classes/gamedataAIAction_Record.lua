@@ -44,7 +44,7 @@ function gamedataAIAction_Record:CommandsContains(item) end
 ---@return Bool
 function gamedataAIAction_Record:CompleteWithFailure() end
 
----@return nil, gamedataAIActionCooldown_Record[] outList
+---@return gamedataAIActionCooldown_Record[] outList
 function gamedataAIAction_Record:Cooldowns() end
 
 ---@param item gamedataAIActionCooldown_Record
@@ -162,14 +162,14 @@ function gamedataAIAction_Record:GetTicketsItem(index) end
 ---@return gamedataAITicketType_Record
 function gamedataAIAction_Record:GetTicketsItemHandle(index) end
 
----@return nil, gamedataAIActionCooldown_Record[] outList
+---@return gamedataAIActionCooldown_Record[] outList
 function gamedataAIAction_Record:InitCooldowns() end
 
 ---@param item gamedataAIActionCooldown_Record
 ---@return Bool
 function gamedataAIAction_Record:InitCooldownsContains(item) end
 
----@return nil, gamedataAIActionLookAtData_Record[] outList
+---@return gamedataAIActionLookAtData_Record[] outList
 function gamedataAIAction_Record:Lookats() end
 
 ---@param item gamedataAIActionLookAtData_Record
@@ -194,7 +194,7 @@ function gamedataAIAction_Record:LoopRepeatCondition() end
 ---@return gamedataAIActionOR_Record
 function gamedataAIAction_Record:LoopRepeatConditionHandle() end
 
----@return nil, gamedataAISubAction_Record[] outList
+---@return gamedataAISubAction_Record[] outList
 function gamedataAIAction_Record:LoopSubActions() end
 
 ---@param item gamedataAISubAction_Record
@@ -219,7 +219,7 @@ function gamedataAIAction_Record:RecoveryRepeatCondition() end
 ---@return gamedataAIActionOR_Record
 function gamedataAIAction_Record:RecoveryRepeatConditionHandle() end
 
----@return nil, gamedataAISubAction_Record[] outList
+---@return gamedataAISubAction_Record[] outList
 function gamedataAIAction_Record:RecoverySubActions() end
 
 ---@param item gamedataAISubAction_Record
@@ -247,14 +247,14 @@ function gamedataAIAction_Record:StartupRepeatCondition() end
 ---@return gamedataAIActionOR_Record
 function gamedataAIAction_Record:StartupRepeatConditionHandle() end
 
----@return nil, gamedataAISubAction_Record[] outList
+---@return gamedataAISubAction_Record[] outList
 function gamedataAIAction_Record:StartupSubActions() end
 
 ---@param item gamedataAISubAction_Record
 ---@return Bool
 function gamedataAIAction_Record:StartupSubActionsContains(item) end
 
----@return nil, gamedataAISubAction_Record[] outList
+---@return gamedataAISubAction_Record[] outList
 function gamedataAIAction_Record:SubActions() end
 
 ---@return Bool
@@ -267,7 +267,7 @@ function gamedataAIAction_Record:SubActionsContains(item) end
 ---@return Float
 function gamedataAIAction_Record:TicketAcknowledgeTimeout() end
 
----@return nil, gamedataAITicketType_Record[] outList
+---@return gamedataAITicketType_Record[] outList
 function gamedataAIAction_Record:Tickets() end
 
 ---@param item gamedataAITicketType_Record

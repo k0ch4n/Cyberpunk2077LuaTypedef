@@ -20,7 +20,7 @@ function gamedataStatsList_Record:GetStatsItem(index) end
 ---@return gamedataStat_Record
 function gamedataStatsList_Record:GetStatsItemHandle(index) end
 
----@return nil, gamedataStat_Record[] outList
+---@return gamedataStat_Record[] outList
 function gamedataStatsList_Record:Stats() end
 
 ---@param item gamedataStat_Record

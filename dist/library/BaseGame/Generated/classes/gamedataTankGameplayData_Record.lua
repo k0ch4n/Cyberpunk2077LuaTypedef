@@ -31,14 +31,14 @@ function gamedataTankGameplayData_Record:GetScoreMultiplierBreakpointListItem(in
 ---@return gamedataTankScoreMultiplierBreakpoint_Record
 function gamedataTankGameplayData_Record:GetScoreMultiplierBreakpointListItemHandle(index) end
 
----@return nil, gamedataTankLevelGameplay_Record[] outList
+---@return gamedataTankLevelGameplay_Record[] outList
 function gamedataTankGameplayData_Record:LevelList() end
 
 ---@param item gamedataTankLevelGameplay_Record
 ---@return Bool
 function gamedataTankGameplayData_Record:LevelListContains(item) end
 
----@return nil, gamedataTankScoreMultiplierBreakpoint_Record[] outList
+---@return gamedataTankScoreMultiplierBreakpoint_Record[] outList
 function gamedataTankGameplayData_Record:ScoreMultiplierBreakpointList() end
 
 ---@param item gamedataTankScoreMultiplierBreakpoint_Record

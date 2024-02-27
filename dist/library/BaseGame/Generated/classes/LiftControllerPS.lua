@@ -195,11 +195,11 @@ function LiftControllerPS:GetMovingCurve() end
 function LiftControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function LiftControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function LiftControllerPS:GetQuickHackActions(context) end
 
 ---@return CName

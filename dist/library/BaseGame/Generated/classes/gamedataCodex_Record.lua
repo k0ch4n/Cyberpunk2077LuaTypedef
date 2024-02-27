@@ -9,7 +9,7 @@ gamedataCodex_Record = {}
 ---@return gamedataCodex_Record
 function gamedataCodex_Record.new(fields) end
 
----@return nil, gamedataCodexRecord_Record[] outList
+---@return gamedataCodexRecord_Record[] outList
 function gamedataCodex_Record:Entries() end
 
 ---@param item gamedataCodexRecord_Record

@@ -20,7 +20,7 @@ function gamedataDynamicVehicleData_Record:GetUnitRecordsPoolItem(index) end
 ---@return gamedataWeightedCharacter_Record
 function gamedataDynamicVehicleData_Record:GetUnitRecordsPoolItemHandle(index) end
 
----@return nil, gamedataWeightedCharacter_Record[] outList
+---@return gamedataWeightedCharacter_Record[] outList
 function gamedataDynamicVehicleData_Record:UnitRecordsPool() end
 
 ---@param item gamedataWeightedCharacter_Record

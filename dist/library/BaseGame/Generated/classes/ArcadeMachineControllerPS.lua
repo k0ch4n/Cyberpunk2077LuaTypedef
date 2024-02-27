@@ -40,11 +40,11 @@ function ArcadeMachineControllerPS:GetDeviceIconTweakDBID() end
 function ArcadeMachineControllerPS:GetGameVideoPath() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function ArcadeMachineControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function ArcadeMachineControllerPS:GetQuickHackActions(context) end
 
 ---@return Bool

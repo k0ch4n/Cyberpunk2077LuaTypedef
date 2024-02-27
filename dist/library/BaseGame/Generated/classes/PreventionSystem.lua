@@ -404,7 +404,7 @@ function PreventionSystem:DebugGetCivilianDestroyedVehicleCount() end
 ---@return nil
 function PreventionSystem:DespawnAllPolice(useAggressiveDespawn) end
 
----@return nil, gamePreventionSystemDebugData dataToFill
+---@return gamePreventionSystemDebugData dataToFill
 function PreventionSystem:FillPreventionSystemDebugData() end
 
 ---@return PoliceAgentRegistry
@@ -441,7 +441,7 @@ function PreventionSystem:GetDataTableForHeat(heatStage) end
 ---@return Float
 function PreventionSystem:GetDistrictMultiplier() end
 
----@return nil, Vector4 pos, Vector4 dir
+---@return Vector4 pos, Vector4 dir
 function PreventionSystem:GetFindSpawnPointsOrigin() end
 
 ---@param spawnOriginsPositions Vector4[]

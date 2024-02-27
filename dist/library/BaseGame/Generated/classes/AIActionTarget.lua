@@ -12,7 +12,7 @@ AIActionTarget = {}
 ---@param threat gameObject
 ---@param timeSinceTargetChange Float
 ---@param currentTime Float
----@return nil, Float threatValue
+---@return Float threatValue
 function AIActionTarget.BossThreatCalculation(owner, ownerPos, targetTrackerComponent, newTargetObject, threat, timeSinceTargetChange, currentTime) end
 
 ---@param context AIbehaviorScriptExecutionContext
@@ -158,7 +158,7 @@ function AIActionTarget.IsThreatCloseOrVisibleByPlayer(ownerPos, threat) end
 ---@param threat gameObject
 ---@param timeSinceTargetChange Float
 ---@param currentTime Float
----@return nil, Float threatValue
+---@return Float threatValue
 function AIActionTarget.MadnessThreatCalculation(owner, ownerPos, targetTrackerComponent, newTargetObject, threat, timeSinceTargetChange, currentTime) end
 
 ---@param owner ScriptedPuppet
@@ -168,7 +168,7 @@ function AIActionTarget.MadnessThreatCalculation(owner, ownerPos, targetTrackerC
 ---@param threat gameObject
 ---@param timeSinceTargetChange Float
 ---@param currentTime Float
----@return nil, Float threatValue
+---@return Float threatValue
 function AIActionTarget.RegularThreatCalculation(owner, ownerPos, targetTrackerComponent, newTargetObject, threat, timeSinceTargetChange, currentTime) end
 
 ---@param context AIbehaviorScriptExecutionContext

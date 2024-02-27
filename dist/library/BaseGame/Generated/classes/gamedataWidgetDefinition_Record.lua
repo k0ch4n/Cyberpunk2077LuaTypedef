@@ -37,14 +37,14 @@ function gamedataWidgetDefinition_Record:LibraryID() end
 ---@return redResourceReferenceScriptToken
 function gamedataWidgetDefinition_Record:LibraryPath() end
 
----@return nil, gamedataWidgetRatio_Record[] outList
+---@return gamedataWidgetRatio_Record[] outList
 function gamedataWidgetDefinition_Record:Ratios() end
 
 ---@param item gamedataWidgetRatio_Record
 ---@return Bool
 function gamedataWidgetDefinition_Record:RatiosContains(item) end
 
----@return nil, gamedataWidgetStyle_Record[] outList
+---@return gamedataWidgetStyle_Record[] outList
 function gamedataWidgetDefinition_Record:Styles() end
 
 ---@param item gamedataWidgetStyle_Record

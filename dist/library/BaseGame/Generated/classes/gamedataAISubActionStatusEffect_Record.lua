@@ -35,7 +35,7 @@ function gamedataAISubActionStatusEffect_Record:GetStatusEffectsItemHandle(index
 ---@return Bool
 function gamedataAISubActionStatusEffect_Record:Remove() end
 
----@return nil, gamedataStatusEffect_Record[] outList
+---@return gamedataStatusEffect_Record[] outList
 function gamedataAISubActionStatusEffect_Record:StatusEffects() end
 
 ---@param item gamedataStatusEffect_Record

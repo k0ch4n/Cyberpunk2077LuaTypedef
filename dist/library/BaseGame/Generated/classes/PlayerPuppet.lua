@@ -1027,7 +1027,7 @@ function PlayerPuppet:GetExplosionRange() end
 ---@return gameFPPCameraComponent
 function PlayerPuppet:GetFPPCameraComponent() end
 
----@return nil, gameItemID[] items
+---@return gameItemID[] items
 function PlayerPuppet:GetGlitchedEquippedCyberware() end
 
 ---@param item gamedataGrenade_Record

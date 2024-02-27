@@ -31,14 +31,14 @@ function gamedataAISquadCond_Record:GetTicketsConditionCheckItem(index) end
 ---@return gamedataAITicketType_Record
 function gamedataAISquadCond_Record:GetTicketsConditionCheckItemHandle(index) end
 
----@return nil, gamedataAITicketType_Record[] outList
+---@return gamedataAITicketType_Record[] outList
 function gamedataAISquadCond_Record:HasTickets() end
 
 ---@param item gamedataAITicketType_Record
 ---@return Bool
 function gamedataAISquadCond_Record:HasTicketsContains(item) end
 
----@return nil, gamedataAITicketType_Record[] outList
+---@return gamedataAITicketType_Record[] outList
 function gamedataAISquadCond_Record:TicketsConditionCheck() end
 
 ---@param item gamedataAITicketType_Record

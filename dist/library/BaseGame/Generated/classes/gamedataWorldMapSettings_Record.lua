@@ -50,7 +50,7 @@ function gamedataWorldMapSettings_Record:TopDownCamera() end
 ---@return gamedataWorldMapFreeCameraSettings_Record
 function gamedataWorldMapSettings_Record:TopDownCameraHandle() end
 
----@return nil, gamedataWorldMapZoomLevel_Record[] outList
+---@return gamedataWorldMapZoomLevel_Record[] outList
 function gamedataWorldMapSettings_Record:ZoomLevels() end
 
 ---@param item gamedataWorldMapZoomLevel_Record

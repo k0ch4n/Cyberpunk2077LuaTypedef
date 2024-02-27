@@ -9,7 +9,7 @@ gamedataBuildCyberwareSet_Record = {}
 ---@return gamedataBuildCyberwareSet_Record
 function gamedataBuildCyberwareSet_Record.new(fields) end
 
----@return nil, gamedataBuildCyberware_Record[] outList
+---@return gamedataBuildCyberware_Record[] outList
 function gamedataBuildCyberwareSet_Record:Cyberware() end
 
 ---@param item gamedataBuildCyberware_Record
@@ -38,7 +38,7 @@ function gamedataBuildCyberwareSet_Record:GetProgramsItem(index) end
 ---@return gamedataBuildProgram_Record
 function gamedataBuildCyberwareSet_Record:GetProgramsItemHandle(index) end
 
----@return nil, gamedataBuildProgram_Record[] outList
+---@return gamedataBuildProgram_Record[] outList
 function gamedataBuildCyberwareSet_Record:Programs() end
 
 ---@param item gamedataBuildProgram_Record

@@ -30,7 +30,7 @@ function WeaponVendingMachineControllerPS:GetJunkItemID() end
 function WeaponVendingMachineControllerPS:GetProcessingSFX() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function WeaponVendingMachineControllerPS:GetQuickHackActions(context) end
 
 ---@return Float

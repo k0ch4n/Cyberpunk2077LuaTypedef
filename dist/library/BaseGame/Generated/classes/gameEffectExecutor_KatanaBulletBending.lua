@@ -33,7 +33,7 @@ function gameEffectExecutor_KatanaBulletBending:SpawnBeamSpark(katana, bladeTran
 
 ---@param katana Katana
 ---@param hitDirection Vector4
----@return nil, Vector4 hitPosition
+---@return Vector4 hitPosition
 function gameEffectExecutor_KatanaBulletBending:SpawnRicochet(katana, hitDirection) end
 
 ---@param katana Katana

@@ -9,7 +9,7 @@ gamedataUICharacterCreationAttributesPreset_Record = {}
 ---@return gamedataUICharacterCreationAttributesPreset_Record
 function gamedataUICharacterCreationAttributesPreset_Record.new(fields) end
 
----@return nil, gamedataUICharacterCreationAttribute_Record[] outList
+---@return gamedataUICharacterCreationAttribute_Record[] outList
 function gamedataUICharacterCreationAttributesPreset_Record:Attributes() end
 
 ---@param item gamedataUICharacterCreationAttribute_Record

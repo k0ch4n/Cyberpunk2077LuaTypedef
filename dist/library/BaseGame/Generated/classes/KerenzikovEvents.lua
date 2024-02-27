@@ -24,7 +24,7 @@ function KerenzikovEvents:EnableAllowMovementInputStatModifier(stateContext, scr
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param isSliding Bool
----@return nil, Float playerDilation
+---@return Float playerDilation
 function KerenzikovEvents:GetPlayerTimeDilation(stateContext, scriptInterface, isSliding) end
 
 ---@param stateContext gamestateMachineStateContextScript

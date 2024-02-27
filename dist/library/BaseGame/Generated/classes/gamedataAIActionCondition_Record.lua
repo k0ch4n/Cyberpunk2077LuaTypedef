@@ -9,21 +9,21 @@ gamedataAIActionCondition_Record = {}
 ---@return gamedataAIActionCondition_Record
 function gamedataAIActionCondition_Record.new(fields) end
 
----@return nil, gamedataAIAbilityCond_Record[] outList
+---@return gamedataAIAbilityCond_Record[] outList
 function gamedataAIActionCondition_Record:Ability() end
 
 ---@param item gamedataAIAbilityCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:AbilityContains(item) end
 
----@return nil, gamedataAIAmmoCountCond_Record[] outList
+---@return gamedataAIAmmoCountCond_Record[] outList
 function gamedataAIActionCondition_Record:AmmoCountAND() end
 
 ---@param item gamedataAIAmmoCountCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:AmmoCountANDContains(item) end
 
----@return nil, gamedataAIAmmoCountCond_Record[] outList
+---@return gamedataAIAmmoCountCond_Record[] outList
 function gamedataAIActionCondition_Record:AmmoCountOR() end
 
 ---@param item gamedataAIAmmoCountCond_Record
@@ -36,14 +36,14 @@ function gamedataAIActionCondition_Record:BlockCount() end
 ---@return gamedataAIBlockCountCond_Record
 function gamedataAIActionCondition_Record:BlockCountHandle() end
 
----@return nil, gamedataAICalculateLineOfSightVector_Record[] outList
+---@return gamedataAICalculateLineOfSightVector_Record[] outList
 function gamedataAIActionCondition_Record:CalculateLineOfSightVector() end
 
 ---@param item gamedataAICalculateLineOfSightVector_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:CalculateLineOfSightVectorContains(item) end
 
----@return nil, gamedataAICalculatePathCond_Record[] outList
+---@return gamedataAICalculatePathCond_Record[] outList
 function gamedataAIActionCondition_Record:CalculatePath() end
 
 ---@param item gamedataAICalculatePathCond_Record
@@ -56,14 +56,14 @@ function gamedataAIActionCondition_Record:CanThrow() end
 ---@return gamedataAIThrowCond_Record
 function gamedataAIActionCondition_Record:CanThrowHandle() end
 
----@return nil, gamedataAICommandCond_Record[] outList
+---@return gamedataAICommandCond_Record[] outList
 function gamedataAIActionCondition_Record:CommandAND() end
 
 ---@param item gamedataAICommandCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:CommandANDContains(item) end
 
----@return nil, gamedataAICommandCond_Record[] outList
+---@return gamedataAICommandCond_Record[] outList
 function gamedataAIActionCondition_Record:CommandOR() end
 
 ---@param item gamedataAICommandCond_Record
@@ -76,7 +76,7 @@ function gamedataAIActionCondition_Record:Condition() end
 ---@return gamedataAIActionSubCondition_Record
 function gamedataAIActionCondition_Record:ConditionHandle() end
 
----@return nil, gamedataAICooldownCond_Record[] outList
+---@return gamedataAICooldownCond_Record[] outList
 function gamedataAIActionCondition_Record:Cooldown() end
 
 ---@param item gamedataAICooldownCond_Record
@@ -487,42 +487,42 @@ function gamedataAIActionCondition_Record:Hit() end
 ---@return gamedataAIHitCond_Record
 function gamedataAIActionCondition_Record:HitHandle() end
 
----@return nil, gamedataAIInTacticPositionCond_Record[] outList
+---@return gamedataAIInTacticPositionCond_Record[] outList
 function gamedataAIActionCondition_Record:InTacticPosition() end
 
 ---@param item gamedataAIInTacticPositionCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:InTacticPositionContains(item) end
 
----@return nil, gamedataAIItemCond_Record[] outList
+---@return gamedataAIItemCond_Record[] outList
 function gamedataAIActionCondition_Record:InventoryAND() end
 
 ---@param item gamedataAIItemCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:InventoryANDContains(item) end
 
----@return nil, gamedataAIItemCond_Record[] outList
+---@return gamedataAIItemCond_Record[] outList
 function gamedataAIActionCondition_Record:InventoryOR() end
 
 ---@param item gamedataAIItemCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:InventoryORContains(item) end
 
----@return nil, gamedataAILookAtCond_Record[] outList
+---@return gamedataAILookAtCond_Record[] outList
 function gamedataAIActionCondition_Record:Lookat() end
 
 ---@param item gamedataAILookAtCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:LookatContains(item) end
 
----@return nil, gamedataAIMovementCond_Record[] outList
+---@return gamedataAIMovementCond_Record[] outList
 function gamedataAIActionCondition_Record:MovementAND() end
 
 ---@param item gamedataAIMovementCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:MovementANDContains(item) end
 
----@return nil, gamedataAIMovementCond_Record[] outList
+---@return gamedataAIMovementCond_Record[] outList
 function gamedataAIActionCondition_Record:MovementOR() end
 
 ---@param item gamedataAIMovementCond_Record
@@ -547,14 +547,14 @@ function gamedataAIActionCondition_Record:PreviousAttack() end
 ---@return gamedataAIPreviousAttackCond_Record
 function gamedataAIActionCondition_Record:PreviousAttackHandle() end
 
----@return nil, gamedataAIReactionCond_Record[] outList
+---@return gamedataAIReactionCond_Record[] outList
 function gamedataAIActionCondition_Record:Reaction() end
 
 ---@param item gamedataAIReactionCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:ReactionContains(item) end
 
----@return nil, gamedataAIRestrictedMovementAreaCond_Record[] outList
+---@return gamedataAIRestrictedMovementAreaCond_Record[] outList
 function gamedataAIActionCondition_Record:RestrictedMovementArea() end
 
 ---@param item gamedataAIRestrictedMovementAreaCond_Record
@@ -567,91 +567,91 @@ function gamedataAIActionCondition_Record:Security() end
 ---@return gamedataAISecurityCond_Record
 function gamedataAIActionCondition_Record:SecurityHandle() end
 
----@return nil, gamedataAISignalCond_Record[] outList
+---@return gamedataAISignalCond_Record[] outList
 function gamedataAIActionCondition_Record:SignalAND() end
 
 ---@param item gamedataAISignalCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:SignalANDContains(item) end
 
----@return nil, gamedataAISignalCond_Record[] outList
+---@return gamedataAISignalCond_Record[] outList
 function gamedataAIActionCondition_Record:SignalOR() end
 
 ---@param item gamedataAISignalCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:SignalORContains(item) end
 
----@return nil, gamedataAISlotCond_Record[] outList
+---@return gamedataAISlotCond_Record[] outList
 function gamedataAIActionCondition_Record:SlotAND() end
 
 ---@param item gamedataAISlotCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:SlotANDContains(item) end
 
----@return nil, gamedataAISlotCond_Record[] outList
+---@return gamedataAISlotCond_Record[] outList
 function gamedataAIActionCondition_Record:SlotOR() end
 
 ---@param item gamedataAISlotCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:SlotORContains(item) end
 
----@return nil, gamedataAISpatialCond_Record[] outList
+---@return gamedataAISpatialCond_Record[] outList
 function gamedataAIActionCondition_Record:SpatialAND() end
 
 ---@param item gamedataAISpatialCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:SpatialANDContains(item) end
 
----@return nil, gamedataAISpatialCond_Record[] outList
+---@return gamedataAISpatialCond_Record[] outList
 function gamedataAIActionCondition_Record:SpatialOR() end
 
 ---@param item gamedataAISpatialCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:SpatialORContains(item) end
 
----@return nil, gamedataAISquadCond_Record[] outList
+---@return gamedataAISquadCond_Record[] outList
 function gamedataAIActionCondition_Record:SquadAND() end
 
 ---@param item gamedataAISquadCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:SquadANDContains(item) end
 
----@return nil, gamedataAISquadCond_Record[] outList
+---@return gamedataAISquadCond_Record[] outList
 function gamedataAIActionCondition_Record:SquadOR() end
 
 ---@param item gamedataAISquadCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:SquadORContains(item) end
 
----@return nil, gamedataAIStatPoolCond_Record[] outList
+---@return gamedataAIStatPoolCond_Record[] outList
 function gamedataAIActionCondition_Record:StatPoolAND() end
 
 ---@param item gamedataAIStatPoolCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:StatPoolANDContains(item) end
 
----@return nil, gamedataAIStatPoolCond_Record[] outList
+---@return gamedataAIStatPoolCond_Record[] outList
 function gamedataAIActionCondition_Record:StatPoolOR() end
 
 ---@param item gamedataAIStatPoolCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:StatPoolORContains(item) end
 
----@return nil, gamedataAIStateCond_Record[] outList
+---@return gamedataAIStateCond_Record[] outList
 function gamedataAIActionCondition_Record:State() end
 
 ---@param item gamedataAIStateCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:StateContains(item) end
 
----@return nil, gamedataAIStatusEffectCond_Record[] outList
+---@return gamedataAIStatusEffectCond_Record[] outList
 function gamedataAIActionCondition_Record:StatusEffectAND() end
 
 ---@param item gamedataAIStatusEffectCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:StatusEffectANDContains(item) end
 
----@return nil, gamedataAIStatusEffectCond_Record[] outList
+---@return gamedataAIStatusEffectCond_Record[] outList
 function gamedataAIActionCondition_Record:StatusEffectOR() end
 
 ---@param item gamedataAIStatusEffectCond_Record
@@ -664,7 +664,7 @@ function gamedataAIActionCondition_Record:Target() end
 ---@return gamedataAITargetCond_Record
 function gamedataAIActionCondition_Record:TargetHandle() end
 
----@return nil, gamedataAITresspassingCond_Record[] outList
+---@return gamedataAITresspassingCond_Record[] outList
 function gamedataAIActionCondition_Record:Tresspassing() end
 
 ---@param item gamedataAITresspassingCond_Record
@@ -677,28 +677,28 @@ function gamedataAIActionCondition_Record:ValidCover() end
 ---@return gamedataAIValidCoversCond_Record
 function gamedataAIActionCondition_Record:ValidCoverHandle() end
 
----@return nil, gamedataAIVehicleCond_Record[] outList
+---@return gamedataAIVehicleCond_Record[] outList
 function gamedataAIActionCondition_Record:VehicleAND() end
 
 ---@param item gamedataAIVehicleCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:VehicleANDContains(item) end
 
----@return nil, gamedataAIVehicleCond_Record[] outList
+---@return gamedataAIVehicleCond_Record[] outList
 function gamedataAIActionCondition_Record:VehicleOR() end
 
 ---@param item gamedataAIVehicleCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:VehicleORContains(item) end
 
----@return nil, gamedataAIWeakSpotCond_Record[] outList
+---@return gamedataAIWeakSpotCond_Record[] outList
 function gamedataAIActionCondition_Record:WeakSpotAND() end
 
 ---@param item gamedataAIWeakSpotCond_Record
 ---@return Bool
 function gamedataAIActionCondition_Record:WeakSpotANDContains(item) end
 
----@return nil, gamedataAIWeakSpotCond_Record[] outList
+---@return gamedataAIWeakSpotCond_Record[] outList
 function gamedataAIActionCondition_Record:WeakSpotOR() end
 
 ---@param item gamedataAIWeakSpotCond_Record

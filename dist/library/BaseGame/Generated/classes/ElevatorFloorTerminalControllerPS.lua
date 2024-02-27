@@ -70,7 +70,7 @@ function ElevatorFloorTerminalControllerPS:GetElevatorFloorSetup() end
 function ElevatorFloorTerminalControllerPS:GetInkWidgetTweakDBID(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function ElevatorFloorTerminalControllerPS:GetQuickHackActions(context) end
 
 ---@param deviceID gamePersistentID

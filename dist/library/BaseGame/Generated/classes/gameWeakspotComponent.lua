@@ -10,5 +10,5 @@ gameWeakspotComponent = {}
 ---@return gameWeakspotComponent
 function gameWeakspotComponent.new(fields) end
 
----@return nil, gameWeakspotObject[] outWeakspots
+---@return gameWeakspotObject[] outWeakspots
 function gameWeakspotComponent:GetWeakspots() end

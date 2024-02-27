@@ -33,7 +33,7 @@ function gamedataVehicleEngineData_Record:GearChangeTime() end
 ---@return redResourceReferenceScriptToken
 function gamedataVehicleEngineData_Record:GearCurvesPath() end
 
----@return nil, gamedataVehicleGear_Record[] outList
+---@return gamedataVehicleGear_Record[] outList
 function gamedataVehicleEngineData_Record:Gears() end
 
 ---@param item gamedataVehicleGear_Record

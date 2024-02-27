@@ -12,7 +12,7 @@ DeviceActionQueue = {}
 ---@return DeviceActionQueue
 function DeviceActionQueue.new(fields) end
 
----@return nil, CName[] actionNames
+---@return CName[] actionNames
 function DeviceActionQueue.GetAllDisallowedActionNames() end
 
 ---@return Bool

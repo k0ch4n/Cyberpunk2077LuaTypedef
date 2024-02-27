@@ -20,7 +20,7 @@ function gamedataShooterBackground_Record:GetLayerListItem(index) end
 ---@return gamedataShooterLayerInfo_Record
 function gamedataShooterBackground_Record:GetLayerListItemHandle(index) end
 
----@return nil, gamedataShooterLayerInfo_Record[] outList
+---@return gamedataShooterLayerInfo_Record[] outList
 function gamedataShooterBackground_Record:LayerList() end
 
 ---@param item gamedataShooterLayerInfo_Record

@@ -9,7 +9,7 @@ gamedataTVBase_Record = {}
 ---@return gamedataTVBase_Record
 function gamedataTVBase_Record.new(fields) end
 
----@return nil, gamedataChannelData_Record[] outList
+---@return gamedataChannelData_Record[] outList
 function gamedataTVBase_Record:Channels() end
 
 ---@param item gamedataChannelData_Record

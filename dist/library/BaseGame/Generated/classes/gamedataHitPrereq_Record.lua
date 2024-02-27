@@ -12,7 +12,7 @@ function gamedataHitPrereq_Record.new(fields) end
 ---@return String
 function gamedataHitPrereq_Record:CallbackType() end
 
----@return nil, gamedataHitPrereqCondition_Record[] outList
+---@return gamedataHitPrereqCondition_Record[] outList
 function gamedataHitPrereq_Record:Conditions() end
 
 ---@param item gamedataHitPrereqCondition_Record

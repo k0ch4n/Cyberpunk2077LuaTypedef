@@ -9,7 +9,7 @@ gamedataBountyDrawTable_Record = {}
 ---@return gamedataBountyDrawTable_Record
 function gamedataBountyDrawTable_Record.new(fields) end
 
----@return nil, gamedataBounty_Record[] outList
+---@return gamedataBounty_Record[] outList
 function gamedataBountyDrawTable_Record:BountyChoices() end
 
 ---@param item gamedataBounty_Record

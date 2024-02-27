@@ -14,5 +14,5 @@ function gameuiGenderSelectionPuppetPreviewGameController.new(fields) end
 ---@return Bool
 function gameuiGenderSelectionPuppetPreviewGameController:OnInitialize() end
 
----@return nil, AnimFeature_Paperdoll animFeature
+---@return AnimFeature_Paperdoll animFeature
 function gameuiGenderSelectionPuppetPreviewGameController:GetAnimFeature() end

@@ -9,7 +9,7 @@ gamedataFastTravelBinksGroup_Record = {}
 ---@return gamedataFastTravelBinksGroup_Record
 function gamedataFastTravelBinksGroup_Record.new(fields) end
 
----@return nil, gamedataFastTravelBinkData_Record[] outList
+---@return gamedataFastTravelBinkData_Record[] outList
 function gamedataFastTravelBinksGroup_Record:BinksData() end
 
 ---@param item gamedataFastTravelBinkData_Record

@@ -30,7 +30,7 @@ function gamedataControlledLootSet_Record:DropsFromNPCs() end
 ---@return Bool
 function gamedataControlledLootSet_Record:DropsInContainers() end
 
----@return nil, gamedataContainerType_Record[] outList
+---@return gamedataContainerType_Record[] outList
 function gamedataControlledLootSet_Record:ExcludedContainerTypes() end
 
 ---@param item gamedataContainerType_Record
@@ -84,7 +84,7 @@ function gamedataControlledLootSet_Record:GetReplacementQueriesItemHandle(index)
 ---@return Bool
 function gamedataControlledLootSet_Record:ItemsInSetShareDropCount() end
 
----@return nil, gamedataLootItem_Record[] outList
+---@return gamedataLootItem_Record[] outList
 function gamedataControlledLootSet_Record:LootItems() end
 
 ---@param item gamedataLootItem_Record
@@ -118,14 +118,14 @@ function gamedataControlledLootSet_Record:ProgressionBasedChanceBonus() end
 ---@return Float
 function gamedataControlledLootSet_Record:ProgressionBasedThreshold() end
 
----@return nil, gamedataLootItem_Record[] outList
+---@return gamedataLootItem_Record[] outList
 function gamedataControlledLootSet_Record:ReplacementLootItems() end
 
 ---@param item gamedataLootItem_Record
 ---@return Bool
 function gamedataControlledLootSet_Record:ReplacementLootItemsContains(item) end
 
----@return nil, gamedataItemQueryElement_Record[] outList
+---@return gamedataItemQueryElement_Record[] outList
 function gamedataControlledLootSet_Record:ReplacementQueries() end
 
 ---@param item gamedataItemQueryElement_Record

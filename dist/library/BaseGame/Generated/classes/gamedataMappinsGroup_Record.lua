@@ -23,7 +23,7 @@ function gamedataMappinsGroup_Record:GetMappinsItemHandle(index) end
 ---@return CName
 function gamedataMappinsGroup_Record:GroupName() end
 
----@return nil, gamedataMappinVariant_Record[] outList
+---@return gamedataMappinVariant_Record[] outList
 function gamedataMappinsGroup_Record:Mappins() end
 
 ---@param item gamedataMappinVariant_Record

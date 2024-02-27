@@ -205,12 +205,12 @@ function Game.UTF8StrUpper(str) end
 UTF8StrUpper = Game.UTF8StrUpper
 
 ---@param path redResourceReferenceScriptToken
----@return nil, ResourceRef res
+---@return ResourceRef res
 function Game.OperatorAssignMultiply(path) end
 OperatorAssignMultiply = Game.OperatorAssignMultiply
 
 ---@param path redResourceReferenceScriptToken
----@return nil, ResourceAsyncRef res
+---@return ResourceAsyncRef res
 function Game.OperatorAssignMultiply(path) end
 OperatorAssignMultiply = Game.OperatorAssignMultiply
 

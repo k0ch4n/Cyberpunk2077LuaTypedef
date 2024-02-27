@@ -20,7 +20,7 @@ function gamedataAISquadItemTypePriorityFilter_Record:GetTypesItem(index) end
 ---@return gamedataItemType_Record
 function gamedataAISquadItemTypePriorityFilter_Record:GetTypesItemHandle(index) end
 
----@return nil, gamedataItemType_Record[] outList
+---@return gamedataItemType_Record[] outList
 function gamedataAISquadItemTypePriorityFilter_Record:Types() end
 
 ---@param item gamedataItemType_Record

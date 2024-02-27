@@ -19,7 +19,7 @@ function MeleeHitAnimEventExecutor.new(fields) end
 function MeleeHitAnimEventExecutor:CanAttackGuardBreak(instigator, target, instigatorWeapon, targetWeapon, strongAttack) end
 
 ---@param path String
----@return nil, senseStimuliEvent stimToProcess
+---@return senseStimuliEvent stimToProcess
 function MeleeHitAnimEventExecutor:GetStimuliData(path) end
 
 ---@param target ScriptedPuppet

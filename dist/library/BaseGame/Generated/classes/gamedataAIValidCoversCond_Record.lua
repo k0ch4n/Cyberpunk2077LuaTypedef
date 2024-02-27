@@ -26,7 +26,7 @@ function gamedataAIValidCoversCond_Record:GetLimitToRingsItem(index) end
 ---@return gamedataAIRingType_Record
 function gamedataAIValidCoversCond_Record:GetLimitToRingsItemHandle(index) end
 
----@return nil, gamedataAIRingType_Record[] outList
+---@return gamedataAIRingType_Record[] outList
 function gamedataAIValidCoversCond_Record:LimitToRings() end
 
 ---@param item gamedataAIRingType_Record

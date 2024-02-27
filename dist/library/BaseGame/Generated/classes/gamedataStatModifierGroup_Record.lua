@@ -37,7 +37,7 @@ function gamedataStatModifierGroup_Record:GetStatModifiersItemHandle(index) end
 ---@return Bool
 function gamedataStatModifierGroup_Record:OptimiseCombinedModifiers() end
 
----@return nil, gamedataStatModifierGroup_Record[] outList
+---@return gamedataStatModifierGroup_Record[] outList
 function gamedataStatModifierGroup_Record:RelatedModifierGroups() end
 
 ---@param item gamedataStatModifierGroup_Record
@@ -47,7 +47,7 @@ function gamedataStatModifierGroup_Record:RelatedModifierGroupsContains(item) en
 ---@return Bool
 function gamedataStatModifierGroup_Record:SaveBasedOnStatType() end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataStatModifierGroup_Record:StatModifiers() end
 
 ---@param item gamedataStatModifier_Record

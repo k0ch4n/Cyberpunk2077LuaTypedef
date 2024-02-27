@@ -408,7 +408,7 @@ function DefaultTransition:GetCurrentTier(stateContext) end
 function DefaultTransition:GetFFParamsForCrouch(scriptInterface) end
 
 ---@param tweakDBPath String
----@return nil, GameplayCameraData cameraParameters
+---@return GameplayCameraData cameraParameters
 function DefaultTransition:GetGameplayCameraParameters(tweakDBPath) end
 
 ---@param stateContext gamestateMachineStateContextScript

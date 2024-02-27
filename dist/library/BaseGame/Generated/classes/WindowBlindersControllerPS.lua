@@ -51,11 +51,11 @@ function WindowBlindersControllerPS:GetDeviceIconPath() end
 function WindowBlindersControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function WindowBlindersControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function WindowBlindersControllerPS:GetQuickHackActions(context) end
 
 ---@return BaseSkillCheckContainer

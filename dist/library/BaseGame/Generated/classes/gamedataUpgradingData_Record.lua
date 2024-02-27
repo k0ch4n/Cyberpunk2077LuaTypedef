@@ -20,7 +20,7 @@ function gamedataUpgradingData_Record:GetIngredientsItem(index) end
 ---@return gamedataRecipeElement_Record
 function gamedataUpgradingData_Record:GetIngredientsItemHandle(index) end
 
----@return nil, gamedataRecipeElement_Record[] outList
+---@return gamedataRecipeElement_Record[] outList
 function gamedataUpgradingData_Record:Ingredients() end
 
 ---@param item gamedataRecipeElement_Record

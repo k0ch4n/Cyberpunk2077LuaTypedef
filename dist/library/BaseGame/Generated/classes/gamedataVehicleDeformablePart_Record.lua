@@ -23,7 +23,7 @@ function gamedataVehicleDeformablePart_Record:GetZonesItem(index) end
 ---@return gamedataVehicleDeformableZone_Record
 function gamedataVehicleDeformablePart_Record:GetZonesItemHandle(index) end
 
----@return nil, gamedataVehicleDeformableZone_Record[] outList
+---@return gamedataVehicleDeformableZone_Record[] outList
 function gamedataVehicleDeformablePart_Record:Zones() end
 
 ---@param item gamedataVehicleDeformableZone_Record

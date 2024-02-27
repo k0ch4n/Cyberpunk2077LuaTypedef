@@ -26,7 +26,7 @@ function gamedataCurrencyReward_Record:GetQuantityModifiersItem(index) end
 ---@return gamedataStatModifier_Record
 function gamedataCurrencyReward_Record:GetQuantityModifiersItemHandle(index) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataCurrencyReward_Record:QuantityModifiers() end
 
 ---@param item gamedataStatModifier_Record

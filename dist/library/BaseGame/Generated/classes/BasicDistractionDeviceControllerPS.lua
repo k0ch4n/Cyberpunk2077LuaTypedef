@@ -46,7 +46,7 @@ function BasicDistractionDeviceControllerPS:GetEffectOnStartNames() end
 function BasicDistractionDeviceControllerPS:GetForceAnimationSystem() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function BasicDistractionDeviceControllerPS:GetQuickHackActions(context) end
 
 ---@return BaseSkillCheckContainer

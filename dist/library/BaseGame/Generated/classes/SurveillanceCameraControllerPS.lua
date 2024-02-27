@@ -118,14 +118,14 @@ function SurveillanceCameraControllerPS:GetOverrideTakeOverYaw() end
 function SurveillanceCameraControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function SurveillanceCameraControllerPS:GetQuestActions(context) end
 
 ---@return CName
 function SurveillanceCameraControllerPS:GetQuestFactOnDetection() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function SurveillanceCameraControllerPS:GetQuickHackActions(context) end
 
 ---@return BaseSkillCheckContainer

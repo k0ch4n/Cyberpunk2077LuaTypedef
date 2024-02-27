@@ -52,7 +52,7 @@ function gamedataTankArrangement_Record:GetSpawnableReplacementObjectIDListItem(
 ---@return gamedataArcadeSpawnableID_Record
 function gamedataTankArrangement_Record:GetSpawnableReplacementObjectIDListItemHandle(index) end
 
----@return nil, gamedataArcadeSpawnableID_Record[] outList
+---@return gamedataArcadeSpawnableID_Record[] outList
 function gamedataTankArrangement_Record:SpawnableObjectIDList() end
 
 ---@param item gamedataArcadeSpawnableID_Record
@@ -66,7 +66,7 @@ function gamedataTankArrangement_Record:SpawnableReplacementObjectCount() end
 ---@return Bool
 function gamedataTankArrangement_Record:SpawnableReplacementObjectCountContains(item) end
 
----@return nil, gamedataArcadeSpawnableID_Record[] outList
+---@return gamedataArcadeSpawnableID_Record[] outList
 function gamedataTankArrangement_Record:SpawnableReplacementObjectIDList() end
 
 ---@param item gamedataArcadeSpawnableID_Record

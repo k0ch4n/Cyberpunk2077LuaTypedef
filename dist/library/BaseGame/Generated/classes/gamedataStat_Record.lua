@@ -98,7 +98,7 @@ function gamedataStat_Record:RoundValue() end
 ---@return gamedataStatType
 function gamedataStat_Record:StatType() end
 
----@return nil, gamedataSubstat_Record[] outList
+---@return gamedataSubstat_Record[] outList
 function gamedataStat_Record:Substats() end
 
 ---@param item gamedataSubstat_Record

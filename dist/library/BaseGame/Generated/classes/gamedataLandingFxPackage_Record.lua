@@ -20,7 +20,7 @@ function gamedataLandingFxPackage_Record:GetMaterialsItem(index) end
 ---@return gamedataLandingFxMaterial_Record
 function gamedataLandingFxPackage_Record:GetMaterialsItemHandle(index) end
 
----@return nil, gamedataLandingFxMaterial_Record[] outList
+---@return gamedataLandingFxMaterial_Record[] outList
 function gamedataLandingFxPackage_Record:Materials() end
 
 ---@param item gamedataLandingFxMaterial_Record

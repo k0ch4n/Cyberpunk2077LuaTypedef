@@ -20,7 +20,7 @@ function gamedataCyberwareArea_Record:GetStatModifierGroupsItem(index) end
 ---@return gamedataStatModifierGroup_Record
 function gamedataCyberwareArea_Record:GetStatModifierGroupsItemHandle(index) end
 
----@return nil, gamedataStatModifierGroup_Record[] outList
+---@return gamedataStatModifierGroup_Record[] outList
 function gamedataCyberwareArea_Record:StatModifierGroups() end
 
 ---@param item gamedataStatModifierGroup_Record

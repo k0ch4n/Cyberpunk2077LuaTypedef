@@ -47,7 +47,7 @@ function gamedataLookAtPreset_Record:HardLimitDistance() end
 ---@return Bool
 function gamedataLookAtPreset_Record:HasOutTransition() end
 
----@return nil, gamedataLookAtPart_Record[] outList
+---@return gamedataLookAtPart_Record[] outList
 function gamedataLookAtPreset_Record:LookAtParts() end
 
 ---@param item gamedataLookAtPart_Record

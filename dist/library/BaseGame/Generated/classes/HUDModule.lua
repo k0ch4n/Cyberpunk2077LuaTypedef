@@ -49,11 +49,11 @@ function HUDModule:IsIndexOK(index) end
 function HUDModule:IsModuleOperational() end
 
 ---@param forcedMode? ActiveMode
----@return nil, HUDJob[] jobs
+---@return HUDJob[] jobs
 function HUDModule:Iterate(forcedMode) end
 
 ---@param forcedMode? ActiveMode
----@return nil, HUDJob job
+---@return HUDJob job
 function HUDModule:Iterate(forcedMode) end
 
 ---@param index Int32
@@ -62,11 +62,11 @@ function HUDModule:Iterate(forcedMode) end
 function HUDModule:OverrideInstance(index, instance) end
 
 ---@param mode ActiveMode
----@return nil, HUDJob[] jobs
+---@return HUDJob[] jobs
 function HUDModule:Process(mode) end
 
 ---@param mode ActiveMode
----@return nil, HUDJob task
+---@return HUDJob task
 function HUDModule:Process(mode) end
 
 ---@param jobs HUDJob[]

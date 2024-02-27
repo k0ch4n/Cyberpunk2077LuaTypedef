@@ -32,7 +32,7 @@ function gamedataNPCRarity_Record:NotAvailableDynamically() end
 ---@return Float
 function gamedataNPCRarity_Record:RarityValue() end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataNPCRarity_Record:StatModifiers() end
 
 ---@param item gamedataStatModifier_Record

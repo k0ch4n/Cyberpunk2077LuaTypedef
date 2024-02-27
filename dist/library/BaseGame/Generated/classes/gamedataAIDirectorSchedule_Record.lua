@@ -9,7 +9,7 @@ gamedataAIDirectorSchedule_Record = {}
 ---@return gamedataAIDirectorSchedule_Record
 function gamedataAIDirectorSchedule_Record.new(fields) end
 
----@return nil, gamedataAIDirectorScheduleEntry_Record[] outList
+---@return gamedataAIDirectorScheduleEntry_Record[] outList
 function gamedataAIDirectorSchedule_Record:Entries() end
 
 ---@param item gamedataAIDirectorScheduleEntry_Record

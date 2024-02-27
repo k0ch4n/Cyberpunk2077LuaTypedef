@@ -9,7 +9,7 @@ gamedataCharacterList_Record = {}
 ---@return gamedataCharacterList_Record
 function gamedataCharacterList_Record.new(fields) end
 
----@return nil, gamedataCharacterEntry_Record[] outList
+---@return gamedataCharacterEntry_Record[] outList
 function gamedataCharacterList_Record:Entries() end
 
 ---@param item gamedataCharacterEntry_Record

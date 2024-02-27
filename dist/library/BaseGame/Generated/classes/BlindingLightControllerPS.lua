@@ -29,7 +29,7 @@ function BlindingLightControllerPS:GetDeviceIconTweakDBID() end
 function BlindingLightControllerPS:GetDistractionSound() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function BlindingLightControllerPS:GetQuickHackActions(context) end
 
 ---@return CName

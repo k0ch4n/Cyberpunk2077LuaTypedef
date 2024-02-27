@@ -20,7 +20,7 @@ function gamedataEquipSlot_Record:GetOnInsertionItem(index) end
 ---@return gamedataGameplayLogicPackage_Record
 function gamedataEquipSlot_Record:GetOnInsertionItemHandle(index) end
 
----@return nil, gamedataGameplayLogicPackage_Record[] outList
+---@return gamedataGameplayLogicPackage_Record[] outList
 function gamedataEquipSlot_Record:OnInsertion() end
 
 ---@param item gamedataGameplayLogicPackage_Record

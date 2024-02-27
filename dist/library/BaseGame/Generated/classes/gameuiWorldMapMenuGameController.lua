@@ -332,7 +332,7 @@ function gameuiWorldMapMenuGameController:OnZoomTransitionFinished() end
 ---@param show Bool
 ---@param action CName|string
 ---@param locKey String
----@return nil, gameuiUpdateInputHintMultipleEvent evt, Int32 priority
+---@return gameuiUpdateInputHintMultipleEvent evt, Int32 priority
 function gameuiWorldMapMenuGameController:AddInputHintUpdate(show, action, locKey) end
 
 ---@param mappin gamemappinsIMappin

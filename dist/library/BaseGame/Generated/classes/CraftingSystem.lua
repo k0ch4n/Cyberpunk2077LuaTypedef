@@ -42,7 +42,7 @@ function CraftingSystem:AddDLCBaseRecipes() end
 
 ---@param ingredient IngredientData
 ---@param amountMultiplier Int32
----@return nil, IngredientData[] outputResult
+---@return IngredientData[] outputResult
 function CraftingSystem:AddIngredientToResult(ingredient, amountMultiplier) end
 
 ---@return Float
@@ -126,7 +126,7 @@ function CraftingSystem:CreateIngredientData(item, amount) end
 
 ---@param amount Int32
 ---@param matQuality gamedataQuality
----@return nil, IngredientData[] disassembleResult
+---@return IngredientData[] disassembleResult
 function CraftingSystem:CreateIngredientDataOfQuality(amount, matQuality) end
 
 ---@param player PlayerPuppet
@@ -306,7 +306,7 @@ function CraftingSystem:ProcessCraftedItemsPowerBoost() end
 ---@param itemData gameItemData
 ---@param restoredAttachments ItemAttachments[]
 ---@param calledFromUI? Bool
----@return nil, IngredientData[] disassembleResult
+---@return IngredientData[] disassembleResult
 function CraftingSystem:ProcessDisassemblingPerks(amount, itemData, restoredAttachments, calledFromUI) end
 
 ---@return nil

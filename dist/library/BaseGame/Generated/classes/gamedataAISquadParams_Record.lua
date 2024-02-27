@@ -9,7 +9,7 @@ gamedataAISquadParams_Record = {}
 ---@return gamedataAISquadParams_Record
 function gamedataAISquadParams_Record.new(fields) end
 
----@return nil, gamedataAITicket_Record[] outList
+---@return gamedataAITicket_Record[] outList
 function gamedataAISquadParams_Record:AllTickets() end
 
 ---@param item gamedataAITicket_Record
@@ -49,14 +49,14 @@ function gamedataAISquadParams_Record:GetProhibitedTicketsItem(index) end
 ---@return gamedataAITicketType_Record
 function gamedataAISquadParams_Record:GetProhibitedTicketsItemHandle(index) end
 
----@return nil, gamedataAITicket_Record[] outList
+---@return gamedataAITicket_Record[] outList
 function gamedataAISquadParams_Record:OverridenTickets() end
 
 ---@param item gamedataAITicket_Record
 ---@return Bool
 function gamedataAISquadParams_Record:OverridenTicketsContains(item) end
 
----@return nil, gamedataAITicketType_Record[] outList
+---@return gamedataAITicketType_Record[] outList
 function gamedataAISquadParams_Record:ProhibitedTickets() end
 
 ---@param item gamedataAITicketType_Record

@@ -27,7 +27,7 @@ function gamemappinsMappinSystem:GetMappinFromObjective(phaseEntry, objectiveEnt
 function gamemappinsMappinSystem:GetMappinFromQuest(questEntry) end
 
 ---@param targetType gamemappinsMappinTargetType
----@return nil, gamemappinsMappinEntry[] mappins
+---@return gamemappinsMappinEntry[] mappins
 function gamemappinsMappinSystem:GetMappins(targetType) end
 
 ---@param hash Uint32

@@ -203,11 +203,11 @@ function ComputerControllerPS:GetOpenedMailAdress() end
 function ComputerControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function ComputerControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function ComputerControllerPS:GetQuickHackActions(context) end
 
 ---@return BaseSkillCheckContainer

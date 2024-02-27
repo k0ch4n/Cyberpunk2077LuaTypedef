@@ -16,7 +16,7 @@ function GlitchedTurretControllerPS:OnInstantiated() end
 function GlitchedTurretControllerPS:ActionQuestForceGlitch() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function GlitchedTurretControllerPS:GetQuestActions(context) end
 
 ---@return nil

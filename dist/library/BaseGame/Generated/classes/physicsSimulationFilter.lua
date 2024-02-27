@@ -15,7 +15,7 @@ function physicsSimulationFilter.new(fields) end
 function physicsSimulationFilter.ALL() end
 
 ---@param preset CName|string
----@return nil, physicsSimulationFilter f
+---@return physicsSimulationFilter f
 function physicsSimulationFilter.SimulationFilter_BuildFromPreset(preset) end
 
 ---@return physicsSimulationFilter

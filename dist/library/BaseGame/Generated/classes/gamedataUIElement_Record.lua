@@ -9,7 +9,7 @@ gamedataUIElement_Record = {}
 ---@return gamedataUIElement_Record
 function gamedataUIElement_Record.new(fields) end
 
----@return nil, gamedataUICondition_Record[] outList
+---@return gamedataUICondition_Record[] outList
 function gamedataUIElement_Record:CustomConditions() end
 
 ---@param item gamedataUICondition_Record

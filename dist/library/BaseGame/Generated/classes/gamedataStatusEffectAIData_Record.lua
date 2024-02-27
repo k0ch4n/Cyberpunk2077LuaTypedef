@@ -9,7 +9,7 @@ gamedataStatusEffectAIData_Record = {}
 ---@return gamedataStatusEffectAIData_Record
 function gamedataStatusEffectAIData_Record.new(fields) end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataStatusEffectAIData_Record:ActivationPrereqs() end
 
 ---@param item gamedataIPrereq_Record
@@ -25,7 +25,7 @@ function gamedataStatusEffectAIData_Record:BehaviorEventFlag() end
 ---@return gamedataStatusEffectAIBehaviorFlag_Record
 function gamedataStatusEffectAIData_Record:BehaviorEventFlagHandle() end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataStatusEffectAIData_Record:BehaviorSignalResendDelay() end
 
 ---@param item gamedataStatModifier_Record
@@ -92,7 +92,7 @@ function gamedataStatusEffectAIData_Record:ShouldProcessAIDataOnReapplication() 
 ---@return Float
 function gamedataStatusEffectAIData_Record:StimRangeMultiplier() end
 
----@return nil, gamedataStim_Record[] outList
+---@return gamedataStim_Record[] outList
 function gamedataStatusEffectAIData_Record:Stimulis() end
 
 ---@param item gamedataStim_Record

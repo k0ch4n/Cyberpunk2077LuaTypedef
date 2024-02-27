@@ -30,7 +30,7 @@ BaseScriptableAction = {}
 function BaseScriptableAction.GetBaseCostStatic(executor, actionRecord) end
 
 ---@param costComponents gamedataObjectActionCost_Record[]
----@return nil, gamedataStatModifier_Record[] costMods
+---@return gamedataStatModifier_Record[] costMods
 function BaseScriptableAction.GetCostMods(costComponents) end
 
 ---@param target gameObject

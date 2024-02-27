@@ -7,7 +7,7 @@ AIActionLookat = {}
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAIActionLookAtData_Record
----@return nil, entLookAtAddEvent lookAtEvent
+---@return entLookAtAddEvent lookAtEvent
 function AIActionLookat.Activate(context, record) end
 
 ---@param owner gameObject

@@ -22,7 +22,7 @@ function StillageControllerPS:GetActions(context) end
 function StillageControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function StillageControllerPS:GetQuestActions(context) end
 
 ---@param evt QuestResetDeviceToInitialState

@@ -20,7 +20,7 @@ function gamedataCrowdSettingsPackageBase_Record:GetSpecsItem(index) end
 ---@return gamedataCrowdSlotMovementPatternBase_Record
 function gamedataCrowdSettingsPackageBase_Record:GetSpecsItemHandle(index) end
 
----@return nil, gamedataCrowdSlotMovementPatternBase_Record[] outList
+---@return gamedataCrowdSlotMovementPatternBase_Record[] outList
 function gamedataCrowdSettingsPackageBase_Record:Specs() end
 
 ---@param item gamedataCrowdSlotMovementPatternBase_Record

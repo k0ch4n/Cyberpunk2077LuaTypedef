@@ -20,7 +20,7 @@ function gamedataWorldMapFiltersList_Record:GetListItem(index) end
 ---@return gamedataMappinUIFilterGroup_Record
 function gamedataWorldMapFiltersList_Record:GetListItemHandle(index) end
 
----@return nil, gamedataMappinUIFilterGroup_Record[] outList
+---@return gamedataMappinUIFilterGroup_Record[] outList
 function gamedataWorldMapFiltersList_Record:List() end
 
 ---@param item gamedataMappinUIFilterGroup_Record

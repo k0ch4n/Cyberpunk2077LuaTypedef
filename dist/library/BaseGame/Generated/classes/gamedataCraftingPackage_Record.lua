@@ -12,7 +12,7 @@ function gamedataCraftingPackage_Record.new(fields) end
 ---@return Float
 function gamedataCraftingPackage_Record:CraftingExpModifier() end
 
----@return nil, gamedataRecipeElement_Record[] outList
+---@return gamedataRecipeElement_Record[] outList
 function gamedataCraftingPackage_Record:CraftingRecipe() end
 
 ---@param item gamedataRecipeElement_Record

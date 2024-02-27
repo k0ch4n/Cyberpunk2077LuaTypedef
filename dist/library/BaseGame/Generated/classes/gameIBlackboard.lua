@@ -334,53 +334,53 @@ function gameIBlackboard:SignalVector2(id) end
 function gameIBlackboard:SignalVector4(id) end
 
 ---@param id gamebbScriptID
----@return nil, redCallbackObject callbackHandle
+---@return redCallbackObject callbackHandle
 function gameIBlackboard:UnregisterDelayedListener(id) end
 
 ---@param id gamebbScriptID
----@return nil, redCallbackObject callbackHandle
+---@return redCallbackObject callbackHandle
 function gameIBlackboard:UnregisterEntity(id) end
 
 ---@param id gamebbScriptID_Bool
----@return nil, redCallbackObject callbackHandle
+---@return redCallbackObject callbackHandle
 function gameIBlackboard:UnregisterListenerBool(id) end
 
 ---@param id gamebbScriptID_EntityID
----@return nil, redCallbackObject callbackHandle
+---@return redCallbackObject callbackHandle
 function gameIBlackboard:UnregisterListenerEntityID(id) end
 
 ---@param id gamebbScriptID_Float
----@return nil, redCallbackObject callbackHandle
+---@return redCallbackObject callbackHandle
 function gameIBlackboard:UnregisterListenerFloat(id) end
 
 ---@param id gamebbScriptID_Int32
----@return nil, redCallbackObject callbackHandle
+---@return redCallbackObject callbackHandle
 function gameIBlackboard:UnregisterListenerInt(id) end
 
 ---@param id gamebbScriptID_CName
----@return nil, redCallbackObject callbackHandle
+---@return redCallbackObject callbackHandle
 function gameIBlackboard:UnregisterListenerName(id) end
 
 ---@param id gamebbScriptID_Quaternion
----@return nil, redCallbackObject callbackHandle
+---@return redCallbackObject callbackHandle
 function gameIBlackboard:UnregisterListenerQuat(id) end
 
 ---@param id gamebbScriptID_String
----@return nil, redCallbackObject callbackHandle
+---@return redCallbackObject callbackHandle
 function gameIBlackboard:UnregisterListenerString(id) end
 
 ---@param id gamebbScriptID_Uint32
----@return nil, redCallbackObject callbackHandle
+---@return redCallbackObject callbackHandle
 function gameIBlackboard:UnregisterListenerUint(id) end
 
 ---@param id gamebbScriptID_Variant
----@return nil, redCallbackObject callbackHandle
+---@return redCallbackObject callbackHandle
 function gameIBlackboard:UnregisterListenerVariant(id) end
 
 ---@param id gamebbScriptID_Vector2
----@return nil, redCallbackObject callbackHandle
+---@return redCallbackObject callbackHandle
 function gameIBlackboard:UnregisterListenerVector2(id) end
 
 ---@param id gamebbScriptID_Vector4
----@return nil, redCallbackObject callbackHandle
+---@return redCallbackObject callbackHandle
 function gameIBlackboard:UnregisterListenerVector4(id) end

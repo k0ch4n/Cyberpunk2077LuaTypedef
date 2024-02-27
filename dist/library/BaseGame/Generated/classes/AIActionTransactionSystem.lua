@@ -8,13 +8,13 @@ AIActionTransactionSystem = {}
 ---@param puppet ScriptedPuppet
 ---@param equipmentGroupName CName|string
 ---@param powerLevel? Int32
----@return nil, gamedataNPCEquipmentItem_Record[] items
+---@return gamedataNPCEquipmentItem_Record[] items
 function AIActionTransactionSystem.CalculateEquipmentItems(puppet, equipmentGroupName, powerLevel) end
 
 ---@param puppet ScriptedPuppet
 ---@param equipmentGroupRecord gamedataNPCEquipmentGroup_Record
 ---@param powerLevel Int32
----@return nil, gamedataNPCEquipmentItem_Record[] items
+---@return gamedataNPCEquipmentItem_Record[] items
 function AIActionTransactionSystem.CalculateEquipmentItems(puppet, equipmentGroupRecord, powerLevel) end
 
 ---@param context AIbehaviorScriptExecutionContext
@@ -30,7 +30,7 @@ function AIActionTransactionSystem.CheckSlotsForEquipment(context, equipmentGrou
 ---@param powerLevel Int32
 ---@param seed Uint32
 ---@param itemPool gamedataNPCEquipmentItemPool_Record
----@return nil, gamedataNPCEquipmentItem_Record[] outItems
+---@return gamedataNPCEquipmentItem_Record[] outItems
 function AIActionTransactionSystem.ChooseSingleItemsSetFromPool(powerLevel, seed, itemPool) end
 
 ---@param weaponItemID gameItemID

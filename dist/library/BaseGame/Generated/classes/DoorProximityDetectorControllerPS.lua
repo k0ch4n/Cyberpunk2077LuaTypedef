@@ -14,7 +14,7 @@ function DoorProximityDetectorControllerPS.new(fields) end
 function DoorProximityDetectorControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function DoorProximityDetectorControllerPS:GetQuestActions(context) end
 
 ---@param evt SecuritySystemOutput

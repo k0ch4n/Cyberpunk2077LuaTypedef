@@ -53,7 +53,7 @@ function gameuiBaseWorldMapMappinController:CanSelectMappin() end
 ---@return CName
 function gameuiBaseWorldMapMappinController:ComputeRootState() end
 
----@return nil, Float opacity, Bool interactive
+---@return Float opacity, Bool interactive
 function gameuiBaseWorldMapMappinController:GetDesiredOpacityAndInteractivity() end
 
 ---@return gamedataMappinVariant

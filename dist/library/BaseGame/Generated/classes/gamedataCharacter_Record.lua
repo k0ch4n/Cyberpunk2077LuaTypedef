@@ -9,7 +9,7 @@ gamedataCharacter_Record = {}
 ---@return gamedataCharacter_Record
 function gamedataCharacter_Record.new(fields) end
 
----@return nil, gamedataGameplayAbility_Record[] outList
+---@return gamedataGameplayAbility_Record[] outList
 function gamedataCharacter_Record:Abilities() end
 
 ---@param item gamedataGameplayAbility_Record
@@ -43,7 +43,7 @@ function gamedataCharacter_Record:ArchetypeDataHandle() end
 ---@return CName
 function gamedataCharacter_Record:ArchetypeName() end
 
----@return nil, gamedataAttachmentSlot_Record[] outList
+---@return gamedataAttachmentSlot_Record[] outList
 function gamedataCharacter_Record:AttachmentSlots() end
 
 ---@param item gamedataAttachmentSlot_Record
@@ -157,7 +157,7 @@ function gamedataCharacter_Record:DropsWeaponOnDeath() end
 ---@return Bool
 function gamedataCharacter_Record:EnableSensesOnStart() end
 
----@return nil, gamedataEquipmentArea_Record[] outList
+---@return gamedataEquipmentArea_Record[] outList
 function gamedataCharacter_Record:EquipmentAreas() end
 
 ---@param item gamedataEquipmentArea_Record
@@ -173,7 +173,7 @@ function gamedataCharacter_Record:ForcedTBHZOffset() end
 ---@return CName
 function gamedataCharacter_Record:FullDisplayName() end
 
----@return nil, gamedataGenderEntity_Record[] outList
+---@return gamedataGenderEntity_Record[] outList
 function gamedataCharacter_Record:Genders() end
 
 ---@param item gamedataGenderEntity_Record
@@ -307,14 +307,14 @@ function gamedataCharacter_Record:IsCrowd() end
 ---@return Bool
 function gamedataCharacter_Record:IsLightCrowd() end
 
----@return nil, gamedataInventoryItemGroup_Record[] outList
+---@return gamedataInventoryItemGroup_Record[] outList
 function gamedataCharacter_Record:ItemGroups() end
 
 ---@param item gamedataInventoryItemGroup_Record
 ---@return Bool
 function gamedataCharacter_Record:ItemGroupsContains(item) end
 
----@return nil, gamedataInventoryItem_Record[] outList
+---@return gamedataInventoryItem_Record[] outList
 function gamedataCharacter_Record:Items() end
 
 ---@param item gamedataInventoryItem_Record
@@ -342,7 +342,7 @@ function gamedataCharacter_Record:MinigameInstance() end
 ---@return gamedataMinigame_Def_Record
 function gamedataCharacter_Record:MinigameInstanceHandle() end
 
----@return nil, gamedataGameplayLogicPackage_Record[] outList
+---@return gamedataGameplayLogicPackage_Record[] outList
 function gamedataCharacter_Record:OnSpawnGLPs() end
 
 ---@param item gamedataGameplayLogicPackage_Record

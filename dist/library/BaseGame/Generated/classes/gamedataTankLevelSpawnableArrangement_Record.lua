@@ -9,7 +9,7 @@ gamedataTankLevelSpawnableArrangement_Record = {}
 ---@return gamedataTankLevelSpawnableArrangement_Record
 function gamedataTankLevelSpawnableArrangement_Record.new(fields) end
 
----@return nil, gamedataTankSpawnableArrangement_Record[] outList
+---@return gamedataTankSpawnableArrangement_Record[] outList
 function gamedataTankLevelSpawnableArrangement_Record:ArrangementList() end
 
 ---@param item gamedataTankSpawnableArrangement_Record

@@ -9,7 +9,7 @@ gamedataAddStatusEffectToAttackEffector_Record = {}
 ---@return gamedataAddStatusEffectToAttackEffector_Record
 function gamedataAddStatusEffectToAttackEffector_Record.new(fields) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataAddStatusEffectToAttackEffector_Record:ApplicationChance() end
 
 ---@param item gamedataStatModifier_Record

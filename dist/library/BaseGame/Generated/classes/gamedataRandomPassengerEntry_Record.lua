@@ -9,7 +9,7 @@ gamedataRandomPassengerEntry_Record = {}
 ---@return gamedataRandomPassengerEntry_Record
 function gamedataRandomPassengerEntry_Record.new(fields) end
 
----@return nil, gamedataWeightedCharacter_Record[] outList
+---@return gamedataWeightedCharacter_Record[] outList
 function gamedataRandomPassengerEntry_Record:CharacterRecords() end
 
 ---@param item gamedataWeightedCharacter_Record

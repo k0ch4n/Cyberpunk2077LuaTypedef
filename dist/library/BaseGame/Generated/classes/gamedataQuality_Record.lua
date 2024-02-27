@@ -23,7 +23,7 @@ function gamedataQuality_Record:GetStatModifiersItemHandle(index) end
 ---@return String
 function gamedataQuality_Record:Name() end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataQuality_Record:StatModifiers() end
 
 ---@param item gamedataStatModifier_Record

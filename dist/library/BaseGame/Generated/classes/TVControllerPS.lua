@@ -104,11 +104,11 @@ function TVControllerPS:GetInkWidgetTweakDBID(context) end
 function TVControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function TVControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function TVControllerPS:GetQuickHackActions(context) end
 
 ---@param id TweakDBID|string

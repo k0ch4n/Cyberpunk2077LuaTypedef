@@ -18,7 +18,7 @@ function gamedataAIVehicleCond_Record:CurrentSpeed() end
 ---@return Int32
 function gamedataAIVehicleCond_Record:DriverCheck() end
 
----@return nil, gamedataVehicleSeat_Record[] outList
+---@return gamedataVehicleSeat_Record[] outList
 function gamedataAIVehicleCond_Record:FreeSlots() end
 
 ---@param item gamedataVehicleSeat_Record

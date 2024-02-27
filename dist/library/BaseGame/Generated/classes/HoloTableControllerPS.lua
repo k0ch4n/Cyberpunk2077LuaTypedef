@@ -20,7 +20,7 @@ function HoloTableControllerPS:CanCreateAnyQuickHackActions() end
 function HoloTableControllerPS:GetActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function HoloTableControllerPS:GetQuickHackActions(context) end
 
 ---@return nil

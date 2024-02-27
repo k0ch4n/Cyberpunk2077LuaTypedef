@@ -18,7 +18,7 @@ function gamedataVehicle_Record:AffiliationHandle() end
 ---@return CName
 function gamedataVehicle_Record:ArchetypeName() end
 
----@return nil, gamedataAttachmentSlot_Record[] outList
+---@return gamedataAttachmentSlot_Record[] outList
 function gamedataVehicle_Record:AttachmentSlots() end
 
 ---@param item gamedataAttachmentSlot_Record
@@ -334,7 +334,7 @@ function gamedataVehicle_Record:ModelHandle() end
 ---@return String
 function gamedataVehicle_Record:Player_audio_resource() end
 
----@return nil, gamedataCharacter_Record[] outList
+---@return gamedataCharacter_Record[] outList
 function gamedataVehicle_Record:PreventionPassengers() end
 
 ---@param item gamedataCharacter_Record
@@ -348,7 +348,7 @@ function gamedataVehicle_Record:QueryOnlyExceptions() end
 ---@return Bool
 function gamedataVehicle_Record:QueryOnlyExceptionsContains(item) end
 
----@return nil, gamedataRandomPassengerEntry_Record[] outList
+---@return gamedataRandomPassengerEntry_Record[] outList
 function gamedataVehicle_Record:RandomPassengers() end
 
 ---@param item gamedataRandomPassengerEntry_Record
@@ -393,7 +393,7 @@ function gamedataVehicle_Record:TppCameraParams() end
 ---@return gamedataVehicleTPPCameraParams_Record
 function gamedataVehicle_Record:TppCameraParamsHandle() end
 
----@return nil, gamedataVehicleTPPCameraPresetParams_Record[] outList
+---@return gamedataVehicleTPPCameraPresetParams_Record[] outList
 function gamedataVehicle_Record:TppCameraPresets() end
 
 ---@param item gamedataVehicleTPPCameraPresetParams_Record
@@ -581,7 +581,7 @@ function gamedataVehicle_Record:WeaponSafeModeBounds() end
 ---@return gamedataWeaponSafeModeBounds_Record
 function gamedataVehicle_Record:WeaponSafeModeBoundsHandle() end
 
----@return nil, gamedataVehicleWeapon_Record[] outList
+---@return gamedataVehicleWeapon_Record[] outList
 function gamedataVehicle_Record:Weapons() end
 
 ---@param item gamedataVehicleWeapon_Record

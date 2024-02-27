@@ -9,7 +9,7 @@ gamedataAISubActionStartCooldown_Record = {}
 ---@return gamedataAISubActionStartCooldown_Record
 function gamedataAISubActionStartCooldown_Record.new(fields) end
 
----@return nil, gamedataAIActionCooldown_Record[] outList
+---@return gamedataAIActionCooldown_Record[] outList
 function gamedataAISubActionStartCooldown_Record:Cooldowns() end
 
 ---@param item gamedataAIActionCooldown_Record

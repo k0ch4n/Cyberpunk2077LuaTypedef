@@ -26,11 +26,11 @@ function ConfessionBoothControllerPS:GetActions(context) end
 function ConfessionBoothControllerPS:GetBlackboardDef() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function ConfessionBoothControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function ConfessionBoothControllerPS:GetQuickHackActions(context) end
 
 ---@return nil

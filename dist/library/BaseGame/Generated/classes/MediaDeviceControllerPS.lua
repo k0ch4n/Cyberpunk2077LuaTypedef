@@ -68,7 +68,7 @@ function MediaDeviceControllerPS:GetPreviousStationIndex() end
 function MediaDeviceControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function MediaDeviceControllerPS:GetQuestActions(context) end
 
 ---@return nil

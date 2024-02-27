@@ -50,7 +50,7 @@ function JukeboxControllerPS:GetGlitchSFX() end
 function JukeboxControllerPS:GetPaymentRecordID() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function JukeboxControllerPS:GetQuickHackActions(context) end
 
 ---@return CName

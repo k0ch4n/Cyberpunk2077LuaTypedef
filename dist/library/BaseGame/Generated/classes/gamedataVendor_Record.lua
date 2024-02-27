@@ -9,14 +9,14 @@ gamedataVendor_Record = {}
 ---@return gamedataVendor_Record
 function gamedataVendor_Record.new(fields) end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataVendor_Record:AccessPrereqs() end
 
 ---@param item gamedataIPrereq_Record
 ---@return Bool
 function gamedataVendor_Record:AccessPrereqsContains(item) end
 
----@return nil, gamedataVendorCraftable_Record[] outList
+---@return gamedataVendorCraftable_Record[] outList
 function gamedataVendor_Record:Craftbooks() end
 
 ---@param item gamedataVendorCraftable_Record
@@ -37,7 +37,7 @@ function gamedataVendor_Record:CustomerInverseFilterTags() end
 ---@return Bool
 function gamedataVendor_Record:CustomerInverseFilterTagsContains(item) end
 
----@return nil, gamedataVendorExperience_Record[] outList
+---@return gamedataVendorExperience_Record[] outList
 function gamedataVendor_Record:ExperienceStock() end
 
 ---@param item gamedataVendorExperience_Record
@@ -147,14 +147,14 @@ function gamedataVendor_Record:GetVendorInverseFilterTagsItem(index) end
 ---@return Float
 function gamedataVendor_Record:InGameTimeToRestock() end
 
----@return nil, gamedataVendorItemQuery_Record[] outList
+---@return gamedataVendorItemQuery_Record[] outList
 function gamedataVendor_Record:ItemQueries() end
 
 ---@param item gamedataVendorItemQuery_Record
 ---@return Bool
 function gamedataVendor_Record:ItemQueriesContains(item) end
 
----@return nil, gamedataVendorItem_Record[] outList
+---@return gamedataVendorItem_Record[] outList
 function gamedataVendor_Record:ItemStock() end
 
 ---@param item gamedataVendorItem_Record
@@ -167,7 +167,7 @@ function gamedataVendor_Record:LocalizedDescription() end
 ---@return String
 function gamedataVendor_Record:LocalizedName() end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataVendor_Record:MapVisibilityPrereqs() end
 
 ---@param item gamedataIPrereq_Record

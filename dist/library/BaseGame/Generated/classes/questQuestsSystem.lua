@@ -17,7 +17,7 @@ function questQuestsSystem:GetFact(factName) end
 ---@return Int32
 function questQuestsSystem:GetFactStr(factName) end
 
----@return nil, Float seconds, Float percent
+---@return Float seconds, Float percent
 function questQuestsSystem:GetGameplayTimerData() end
 
 ---@param factName CName|string

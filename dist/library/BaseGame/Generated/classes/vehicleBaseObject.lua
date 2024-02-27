@@ -119,7 +119,7 @@ function vehicleBaseObject:GetAIComponent() end
 ---@return vehicleController
 function vehicleBaseObject:GetAccessoryController() end
 
----@return nil, gameweaponObject[] weaponList
+---@return gameweaponObject[] weaponList
 function vehicleBaseObject:GetActiveWeapons() end
 
 ---@param slotName CName|string

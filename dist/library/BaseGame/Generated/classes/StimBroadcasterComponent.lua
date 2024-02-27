@@ -41,7 +41,7 @@ function StimBroadcasterComponent.BroadcastStim(sender, gdStimType, radius, inve
 function StimBroadcasterComponent.SendStimDirectly(sender, gdStimType, target, investigateData, delay) end
 
 ---@param stimName CName|string
----@return nil, gamedataStimType stimType
+---@return gamedataStimType stimType
 function StimBroadcasterComponent.nameToStimEnum(stimName) end
 
 ---@param evt BlockStimProcessingCooldownEvent

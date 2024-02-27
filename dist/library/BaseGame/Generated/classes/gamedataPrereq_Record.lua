@@ -12,7 +12,7 @@ function gamedataPrereq_Record.new(fields) end
 ---@return Bool
 function gamedataPrereq_Record:AndValues() end
 
----@return nil, gamedataPrereqCheck_Record[] outList
+---@return gamedataPrereqCheck_Record[] outList
 function gamedataPrereq_Record:Checks() end
 
 ---@param item gamedataPrereqCheck_Record

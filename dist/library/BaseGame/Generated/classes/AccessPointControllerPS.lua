@@ -126,7 +126,7 @@ function AccessPointControllerPS:GetPlayersUniqueHacks(TS, hacksPool, quality) e
 function AccessPointControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function AccessPointControllerPS:GetQuestActions(context) end
 
 ---@param playerLevel Float

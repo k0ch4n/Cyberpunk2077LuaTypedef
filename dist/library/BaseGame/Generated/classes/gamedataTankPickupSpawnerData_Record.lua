@@ -20,7 +20,7 @@ function gamedataTankPickupSpawnerData_Record:GetPickupListItem(index) end
 ---@return gamedataTankPickup_Record
 function gamedataTankPickupSpawnerData_Record:GetPickupListItemHandle(index) end
 
----@return nil, gamedataTankPickup_Record[] outList
+---@return gamedataTankPickup_Record[] outList
 function gamedataTankPickupSpawnerData_Record:PickupList() end
 
 ---@param item gamedataTankPickup_Record

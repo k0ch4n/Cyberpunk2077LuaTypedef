@@ -20,7 +20,7 @@ function gamedataMovementParams_Record:GetParamsItem(index) end
 ---@return gamedataMovementParam_Record
 function gamedataMovementParams_Record:GetParamsItemHandle(index) end
 
----@return nil, gamedataMovementParam_Record[] outList
+---@return gamedataMovementParam_Record[] outList
 function gamedataMovementParams_Record:Params() end
 
 ---@param item gamedataMovementParam_Record

@@ -258,7 +258,7 @@ function MeleeTransition:DisableNanoWireIK(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param text String
----@return nil, Uint32 textLayerId
+---@return Uint32 textLayerId
 function MeleeTransition:DrawDebugText(scriptInterface, text) end
 
 ---@param stateContext gamestateMachineStateContextScript
@@ -310,14 +310,14 @@ function MeleeTransition:GetPlayerAimingStatusEffectID() end
 ---@param target gameObject
 ---@param leapDuration Float
 ---@param isTargetKnockedOver Bool
----@return nil, Vector4 targetPos
+---@return Vector4 targetPos
 function MeleeTransition:GetSlotTransformToTarget(scriptInterface, target, leapDuration, isTargetKnockedOver) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param target gameObject
 ---@param leapDuration Float
 ---@param isTargetKnockedOver Bool
----@return nil, Vector4 targetPos, Float rotationDuration
+---@return Vector4 targetPos, Float rotationDuration
 function MeleeTransition:GetSlotTransformToTarget(scriptInterface, target, leapDuration, isTargetKnockedOver) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface

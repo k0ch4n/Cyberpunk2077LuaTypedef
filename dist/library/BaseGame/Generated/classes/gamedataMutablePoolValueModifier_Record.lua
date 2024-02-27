@@ -65,28 +65,28 @@ function gamedataMutablePoolValueModifier_Record:GetValuePerSecModsItem(index) e
 ---@return gamedataStatModifier_Record
 function gamedataMutablePoolValueModifier_Record:GetValuePerSecModsItemHandle(index) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataMutablePoolValueModifier_Record:RangeBeginMods() end
 
 ---@param item gamedataStatModifier_Record
 ---@return Bool
 function gamedataMutablePoolValueModifier_Record:RangeBeginModsContains(item) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataMutablePoolValueModifier_Record:RangeEndMods() end
 
 ---@param item gamedataStatModifier_Record
 ---@return Bool
 function gamedataMutablePoolValueModifier_Record:RangeEndModsContains(item) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataMutablePoolValueModifier_Record:StartDelayMods() end
 
 ---@param item gamedataStatModifier_Record
 ---@return Bool
 function gamedataMutablePoolValueModifier_Record:StartDelayModsContains(item) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataMutablePoolValueModifier_Record:ValuePerSecMods() end
 
 ---@param item gamedataStatModifier_Record

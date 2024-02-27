@@ -53,7 +53,7 @@ function gamedataPerkArea_Record:MaxLevel() end
 ---@return Int32
 function gamedataPerkArea_Record:MinLevel() end
 
----@return nil, gamedataPerk_Record[] outList
+---@return gamedataPerk_Record[] outList
 function gamedataPerkArea_Record:Perks() end
 
 ---@param item gamedataPerk_Record

@@ -20,7 +20,7 @@ function gamedataSlotItemPartPreset_Record:GetItemPartListItem(index) end
 ---@return gamedataItemPartListElement_Record
 function gamedataSlotItemPartPreset_Record:GetItemPartListItemHandle(index) end
 
----@return nil, gamedataItemPartListElement_Record[] outList
+---@return gamedataItemPartListElement_Record[] outList
 function gamedataSlotItemPartPreset_Record:ItemPartList() end
 
 ---@param item gamedataItemPartListElement_Record

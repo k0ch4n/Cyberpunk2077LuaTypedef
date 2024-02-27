@@ -26,7 +26,7 @@ function RetractableAdControllerPS:GetBackgroundTextureTweakDBID() end
 function RetractableAdControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function RetractableAdControllerPS:GetQuickHackActions(context) end
 
 ---@return RoadBlockTrapControllerPS

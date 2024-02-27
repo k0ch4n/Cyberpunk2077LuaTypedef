@@ -9,7 +9,7 @@ gamedataAISquadANDCondition_Record = {}
 ---@return gamedataAISquadANDCondition_Record
 function gamedataAISquadANDCondition_Record.new(fields) end
 
----@return nil, gamedataAITicketCheck_Record[] outList
+---@return gamedataAITicketCheck_Record[] outList
 function gamedataAISquadANDCondition_Record:AND() end
 
 ---@param item gamedataAITicketCheck_Record

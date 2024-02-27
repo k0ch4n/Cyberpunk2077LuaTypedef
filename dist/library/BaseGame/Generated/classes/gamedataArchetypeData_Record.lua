@@ -9,7 +9,7 @@ gamedataArchetypeData_Record = {}
 ---@return gamedataArchetypeData_Record
 function gamedataArchetypeData_Record.new(fields) end
 
----@return nil, gamedataGameplayAbilityGroup_Record[] outList
+---@return gamedataGameplayAbilityGroup_Record[] outList
 function gamedataArchetypeData_Record:AbilityGroups() end
 
 ---@param item gamedataGameplayAbilityGroup_Record
@@ -49,14 +49,14 @@ function gamedataArchetypeData_Record:GetStatModifierGroupsItem(index) end
 ---@return gamedataStatModifierGroup_Record
 function gamedataArchetypeData_Record:GetStatModifierGroupsItemHandle(index) end
 
----@return nil, gamedataAIPatternsPackage_Record[] outList
+---@return gamedataAIPatternsPackage_Record[] outList
 function gamedataArchetypeData_Record:ShootingPatternPackages() end
 
 ---@param item gamedataAIPatternsPackage_Record
 ---@return Bool
 function gamedataArchetypeData_Record:ShootingPatternPackagesContains(item) end
 
----@return nil, gamedataStatModifierGroup_Record[] outList
+---@return gamedataStatModifierGroup_Record[] outList
 function gamedataArchetypeData_Record:StatModifierGroups() end
 
 ---@param item gamedataStatModifierGroup_Record

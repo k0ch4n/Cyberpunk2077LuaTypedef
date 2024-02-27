@@ -23,7 +23,7 @@ function gamedataDevice_Record:GetRPGActionsItem(index) end
 ---@return gamedataRPGAction_Record
 function gamedataDevice_Record:GetRPGActionsItemHandle(index) end
 
----@return nil, gamedataRPGAction_Record[] outList
+---@return gamedataRPGAction_Record[] outList
 function gamedataDevice_Record:RPGActions() end
 
 ---@param item gamedataRPGAction_Record

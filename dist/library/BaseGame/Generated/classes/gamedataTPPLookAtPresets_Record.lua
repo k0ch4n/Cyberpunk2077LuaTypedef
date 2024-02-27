@@ -53,28 +53,28 @@ function gamedataTPPLookAtPresets_Record:GetWeaponSafePresetsItem(index) end
 ---@return gamedataLookAtPreset_Record
 function gamedataTPPLookAtPresets_Record:GetWeaponSafePresetsItemHandle(index) end
 
----@return nil, gamedataLookAtPreset_Record[] outList
+---@return gamedataLookAtPreset_Record[] outList
 function gamedataTPPLookAtPresets_Record:NoWeaponPresets() end
 
 ---@param item gamedataLookAtPreset_Record
 ---@return Bool
 function gamedataTPPLookAtPresets_Record:NoWeaponPresetsContains(item) end
 
----@return nil, gamedataLookAtPreset_Record[] outList
+---@return gamedataLookAtPreset_Record[] outList
 function gamedataTPPLookAtPresets_Record:ReloadPresets() end
 
 ---@param item gamedataLookAtPreset_Record
 ---@return Bool
 function gamedataTPPLookAtPresets_Record:ReloadPresetsContains(item) end
 
----@return nil, gamedataLookAtPreset_Record[] outList
+---@return gamedataLookAtPreset_Record[] outList
 function gamedataTPPLookAtPresets_Record:WeaponReadyPresets() end
 
 ---@param item gamedataLookAtPreset_Record
 ---@return Bool
 function gamedataTPPLookAtPresets_Record:WeaponReadyPresetsContains(item) end
 
----@return nil, gamedataLookAtPreset_Record[] outList
+---@return gamedataLookAtPreset_Record[] outList
 function gamedataTPPLookAtPresets_Record:WeaponSafePresets() end
 
 ---@param item gamedataLookAtPreset_Record

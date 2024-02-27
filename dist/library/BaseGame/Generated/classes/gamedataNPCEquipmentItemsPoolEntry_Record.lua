@@ -20,7 +20,7 @@ function gamedataNPCEquipmentItemsPoolEntry_Record:GetItemsItem(index) end
 ---@return gamedataNPCEquipmentItem_Record
 function gamedataNPCEquipmentItemsPoolEntry_Record:GetItemsItemHandle(index) end
 
----@return nil, gamedataNPCEquipmentItem_Record[] outList
+---@return gamedataNPCEquipmentItem_Record[] outList
 function gamedataNPCEquipmentItemsPoolEntry_Record:Items() end
 
 ---@param item gamedataNPCEquipmentItem_Record

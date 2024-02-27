@@ -9,7 +9,7 @@ gamedataModifyAttackCritChanceEffector_Record = {}
 ---@return gamedataModifyAttackCritChanceEffector_Record
 function gamedataModifyAttackCritChanceEffector_Record.new(fields) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataModifyAttackCritChanceEffector_Record:CritChance() end
 
 ---@param item gamedataStatModifier_Record

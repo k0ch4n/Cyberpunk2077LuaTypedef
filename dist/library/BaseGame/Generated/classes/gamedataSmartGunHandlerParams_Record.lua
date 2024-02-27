@@ -9,7 +9,7 @@ gamedataSmartGunHandlerParams_Record = {}
 ---@return gamedataSmartGunHandlerParams_Record
 function gamedataSmartGunHandlerParams_Record.new(fields) end
 
----@return nil, gamedataAimAssistTargetData_Record[] outList
+---@return gamedataAimAssistTargetData_Record[] outList
 function gamedataSmartGunHandlerParams_Record:Blacklist() end
 
 ---@param item gamedataAimAssistTargetData_Record

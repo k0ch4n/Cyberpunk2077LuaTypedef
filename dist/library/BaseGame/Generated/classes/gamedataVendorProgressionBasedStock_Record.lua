@@ -20,7 +20,7 @@ function gamedataVendorProgressionBasedStock_Record:GetItemsItem(index) end
 ---@return gamedataVendorItem_Record
 function gamedataVendorProgressionBasedStock_Record:GetItemsItemHandle(index) end
 
----@return nil, gamedataVendorItem_Record[] outList
+---@return gamedataVendorItem_Record[] outList
 function gamedataVendorProgressionBasedStock_Record:Items() end
 
 ---@param item gamedataVendorItem_Record

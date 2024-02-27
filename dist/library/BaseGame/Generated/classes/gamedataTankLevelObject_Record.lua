@@ -20,7 +20,7 @@ function gamedataTankLevelObject_Record:GetObjectListItem(index) end
 ---@return gamedataArcadeSpawnableObject_Record
 function gamedataTankLevelObject_Record:GetObjectListItemHandle(index) end
 
----@return nil, gamedataArcadeSpawnableObject_Record[] outList
+---@return gamedataArcadeSpawnableObject_Record[] outList
 function gamedataTankLevelObject_Record:ObjectList() end
 
 ---@param item gamedataArcadeSpawnableObject_Record

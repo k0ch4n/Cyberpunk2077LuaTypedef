@@ -86,11 +86,11 @@ function ActivatedDeviceControllerPS:GetNearestViableParent() end
 function ActivatedDeviceControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function ActivatedDeviceControllerPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function ActivatedDeviceControllerPS:GetQuickHackActions(context) end
 
 ---@return TweakDBID

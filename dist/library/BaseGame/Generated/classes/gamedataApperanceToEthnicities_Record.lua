@@ -12,7 +12,7 @@ function gamedataApperanceToEthnicities_Record.new(fields) end
 ---@return CName
 function gamedataApperanceToEthnicities_Record:AppearanceName() end
 
----@return nil, gamedataEthnicNames_Record[] outList
+---@return gamedataEthnicNames_Record[] outList
 function gamedataApperanceToEthnicities_Record:Ethnicities() end
 
 ---@param item gamedataEthnicNames_Record

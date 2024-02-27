@@ -612,7 +612,7 @@ function ScriptableDeviceComponentPS:ExtractPasswordsFromAuthorizationData(data)
 ---@return CName[]
 function ScriptableDeviceComponentPS:ExtractPasswordsFromAuthorizationData(data) end
 
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function ScriptableDeviceComponentPS:FinalizeGetActions() end
 
 ---@param outActions gamedeviceAction[]
@@ -876,7 +876,7 @@ function ScriptableDeviceComponentPS:GetNetworkBlackboardDef() end
 ---@return Int32
 function ScriptableDeviceComponentPS:GetNetworkSizeCount() end
 
----@return nil, gameDeviceComponentPS[] outDevices
+---@return gameDeviceComponentPS[] outDevices
 function ScriptableDeviceComponentPS:GetParents() end
 
 ---@return CName[]
@@ -905,19 +905,19 @@ function ScriptableDeviceComponentPS:GetPlaystyles() end
 function ScriptableDeviceComponentPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function ScriptableDeviceComponentPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function ScriptableDeviceComponentPS:GetQuickHackActions(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function ScriptableDeviceComponentPS:GetQuickHackActionsExternal(context) end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function ScriptableDeviceComponentPS:GetRemoteActions(context) end
 
 ---@return TweakDBID
@@ -1999,7 +1999,7 @@ function ScriptableDeviceComponentPS:SetHasPersonalLinkSlot(isPersonalLinkSlotPr
 ---@return nil
 function ScriptableDeviceComponentPS:SetHasUICameraZoom(hasUICameraZoom) end
 
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function ScriptableDeviceComponentPS:SetInactiveActionsWithExceptions() end
 
 ---@param value Bool

@@ -175,7 +175,7 @@ function Vector4.Vector3To4(v3) end
 ---@return Vector3
 function Vector4.Vector4To3(v4) end
 
----@return nil, Vector4 self
+---@return Vector4 self
 function Vector4.Zero() end
 
 ---@return Vector4

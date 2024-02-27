@@ -9,7 +9,7 @@ gamedataAdvertisement_Record = {}
 ---@return gamedataAdvertisement_Record
 function gamedataAdvertisement_Record.new(fields) end
 
----@return nil, gamedataAdvertisementFormatDef_Record[] outList
+---@return gamedataAdvertisementFormatDef_Record[] outList
 function gamedataAdvertisement_Record:Definitions() end
 
 ---@param item gamedataAdvertisementFormatDef_Record

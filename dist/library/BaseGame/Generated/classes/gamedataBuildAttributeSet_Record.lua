@@ -9,7 +9,7 @@ gamedataBuildAttributeSet_Record = {}
 ---@return gamedataBuildAttributeSet_Record
 function gamedataBuildAttributeSet_Record.new(fields) end
 
----@return nil, gamedataBuildAttribute_Record[] outList
+---@return gamedataBuildAttribute_Record[] outList
 function gamedataBuildAttributeSet_Record:Attributes() end
 
 ---@param item gamedataBuildAttribute_Record

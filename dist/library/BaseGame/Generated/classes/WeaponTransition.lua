@@ -195,7 +195,7 @@ function WeaponTransition:ShootingSequenceUpdateCycleTime(timeDelta, stateContex
 
 ---@param textToShow String
 ---@param scriptInterface gamestateMachineGameScriptInterface
----@return nil, Uint32 layerId
+---@return Uint32 layerId
 function WeaponTransition:ShowDebugText(textToShow, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript

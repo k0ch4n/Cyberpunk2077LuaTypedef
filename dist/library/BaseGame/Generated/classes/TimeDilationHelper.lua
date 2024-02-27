@@ -42,7 +42,7 @@ function TimeDilationHelper.GetSandevistanVersusSandevistanKey() end
 function TimeDilationHelper.GetTimeDilationKey() end
 
 ---@param profileName String
----@return nil, TimeDilationParameters timeDilationParameters
+---@return TimeDilationParameters timeDilationParameters
 function TimeDilationHelper.GetTimeDilationParameters(profileName) end
 
 ---@param requester gameObject

@@ -38,7 +38,7 @@ function gamedataStatPoolPrereq_Record:SkipOnApply() end
 ---@return CName
 function gamedataStatPoolPrereq_Record:StatPoolType() end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataStatPoolPrereq_Record:ValueToCheck() end
 
 ---@param item gamedataStatModifier_Record

@@ -32,7 +32,7 @@ function gamedataStatPrereq_Record:NotifyOnlyOnStateFulfilled() end
 ---@return CName
 function gamedataStatPrereq_Record:ObjectToCheck() end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataStatPrereq_Record:StatModifiers() end
 
 ---@param item gamedataStatModifier_Record

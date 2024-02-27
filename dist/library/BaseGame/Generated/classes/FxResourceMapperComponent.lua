@@ -17,7 +17,7 @@ FxResourceMapperComponent = {}
 function FxResourceMapperComponent.new(fields) end
 
 ---@param desiredRange Float
----@return nil, CName effectName, Float effectSize
+---@return CName effectName, Float effectSize
 function FxResourceMapperComponent:CalculateRangeSphere(desiredRange) end
 
 ---@param type DeviceStimType

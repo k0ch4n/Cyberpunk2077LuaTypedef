@@ -23,7 +23,7 @@ function gamedataOffMeshLinkTag_Record:GetPrerequisitesItemHandle(index) end
 ---@return Bool
 function gamedataOffMeshLinkTag_Record:IsAllowed() end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataOffMeshLinkTag_Record:Prerequisites() end
 
 ---@param item gamedataIPrereq_Record

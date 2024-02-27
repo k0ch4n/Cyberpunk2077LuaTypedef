@@ -63,7 +63,7 @@ function gamedataPreventionHeatData_Record:GetVehicleRecordPoolItem(index) end
 ---@return gamedataPreventionVehiclePoolData_Record
 function gamedataPreventionHeatData_Record:GetVehicleRecordPoolItemHandle(index) end
 
----@return nil, gamedataPreventionVehiclePoolData_Record[] outList
+---@return gamedataPreventionVehiclePoolData_Record[] outList
 function gamedataPreventionHeatData_Record:QuestVehicleRecordPool() end
 
 ---@param item gamedataPreventionVehiclePoolData_Record
@@ -79,7 +79,7 @@ function gamedataPreventionHeatData_Record:SpawnInterval() end
 ---@return Vector2
 function gamedataPreventionHeatData_Record:SpawnRange() end
 
----@return nil, gamedataPreventionUnitPoolData_Record[] outList
+---@return gamedataPreventionUnitPoolData_Record[] outList
 function gamedataPreventionHeatData_Record:UnitRecordsPool() end
 
 ---@param item gamedataPreventionUnitPoolData_Record
@@ -92,7 +92,7 @@ function gamedataPreventionHeatData_Record:UnitsCount() end
 ---@return Int32
 function gamedataPreventionHeatData_Record:VehicleCount() end
 
----@return nil, gamedataPreventionVehiclePoolData_Record[] outList
+---@return gamedataPreventionVehiclePoolData_Record[] outList
 function gamedataPreventionHeatData_Record:VehicleRecordPool() end
 
 ---@param item gamedataPreventionVehiclePoolData_Record

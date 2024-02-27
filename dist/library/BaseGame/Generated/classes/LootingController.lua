@@ -132,7 +132,7 @@ function LootingController:RefreshComparisonData() end
 ---@param data gameinteractionsvisLootData
 ---@param visibleItems Int32
 ---@param totalItems Int32
----@return nil, Int32 lastIndex
+---@return Int32 lastIndex
 function LootingController:RefreshItemsData(data, visibleItems, totalItems) end
 
 ---@param totalItems Int32

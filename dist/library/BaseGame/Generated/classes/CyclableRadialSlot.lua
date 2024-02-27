@@ -31,7 +31,7 @@ function CyclableRadialSlot:CycleStart(right) end
 ---@return nil
 function CyclableRadialSlot:CycleStop() end
 
----@return nil, String[] info
+---@return String[] info
 function CyclableRadialSlot:GetDebugInfo() end
 
 ---@return gameEHotkey

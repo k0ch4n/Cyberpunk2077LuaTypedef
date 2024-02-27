@@ -72,21 +72,21 @@ function gamedataProficiency_Record:MaxLevel() end
 ---@return Int32
 function gamedataProficiency_Record:MinLevel() end
 
----@return nil, gamedataGameplayLogicPackage_Record[] outList
+---@return gamedataGameplayLogicPackage_Record[] outList
 function gamedataProficiency_Record:Packages() end
 
 ---@param item gamedataGameplayLogicPackage_Record
 ---@return Bool
 function gamedataProficiency_Record:PackagesContains(item) end
 
----@return nil, gamedataPassiveProficiencyBonus_Record[] outList
+---@return gamedataPassiveProficiencyBonus_Record[] outList
 function gamedataProficiency_Record:PassiveBonuses() end
 
 ---@param item gamedataPassiveProficiencyBonus_Record
 ---@return Bool
 function gamedataProficiency_Record:PassiveBonusesContains(item) end
 
----@return nil, gamedataPerkArea_Record[] outList
+---@return gamedataPerkArea_Record[] outList
 function gamedataProficiency_Record:PerkAreas() end
 
 ---@param item gamedataPerkArea_Record

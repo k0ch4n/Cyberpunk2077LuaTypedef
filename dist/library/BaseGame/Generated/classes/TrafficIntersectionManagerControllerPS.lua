@@ -17,7 +17,7 @@ function TrafficIntersectionManagerControllerPS:ActionInitiateTrafficLightChange
 function TrafficIntersectionManagerControllerPS:GetDesiredTrafficLightState() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function TrafficIntersectionManagerControllerPS:GetQuestActions(context) end
 
 ---@return nil

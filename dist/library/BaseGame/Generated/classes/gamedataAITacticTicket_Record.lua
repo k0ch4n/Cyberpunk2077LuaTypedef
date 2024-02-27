@@ -23,7 +23,7 @@ function gamedataAITacticTicket_Record:GetSectorsItemHandle(index) end
 ---@return Bool
 function gamedataAITacticTicket_Record:OffensiveTactic() end
 
----@return nil, gamedataAISectorType_Record[] outList
+---@return gamedataAISectorType_Record[] outList
 function gamedataAITacticTicket_Record:Sectors() end
 
 ---@param item gamedataAISectorType_Record

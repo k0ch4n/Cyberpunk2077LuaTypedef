@@ -34,7 +34,7 @@ function gamedataWeaponsTooltipData_Record:MaxStatsValue() end
 ---@return Bool
 function gamedataWeaponsTooltipData_Record:MaxStatsValueContains(item) end
 
----@return nil, gamedataStat_Record[] outList
+---@return gamedataStat_Record[] outList
 function gamedataWeaponsTooltipData_Record:StatsToCompare() end
 
 ---@param item gamedataStat_Record

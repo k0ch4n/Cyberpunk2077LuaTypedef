@@ -9,7 +9,7 @@ gamedataObjectActionPrereq_Record = {}
 ---@return gamedataObjectActionPrereq_Record
 function gamedataObjectActionPrereq_Record.new(fields) end
 
----@return nil, gamedataIPrereq_Record[] outList
+---@return gamedataIPrereq_Record[] outList
 function gamedataObjectActionPrereq_Record:FailureConditionPrereq() end
 
 ---@param item gamedataIPrereq_Record

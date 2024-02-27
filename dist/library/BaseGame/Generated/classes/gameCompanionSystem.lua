@@ -17,7 +17,7 @@ function gameCompanionSystem:DespawnAll() end
 function gameCompanionSystem:DespawnSubcharacter(recordID) end
 
 ---@param recordID? TweakDBID|string
----@return nil, entEntity[] entities
+---@return entEntity[] entities
 function gameCompanionSystem:GetSpawnedEntities(recordID) end
 
 ---@param recordID TweakDBID|string

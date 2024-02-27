@@ -11,7 +11,7 @@ gametargetingSystemTargetFilterResult = {}
 ---@return gametargetingSystemTargetFilterResult
 function gametargetingSystemTargetFilterResult.new(fields) end
 
----@return nil, gametargetingSystemTargetFilterResult cloneDestination
+---@return gametargetingSystemTargetFilterResult cloneDestination
 function gametargetingSystemTargetFilterResult:OnClone() end
 
 ---@return nil

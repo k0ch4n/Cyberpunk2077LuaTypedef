@@ -9,7 +9,7 @@ gamedataObjectActionCost_Record = {}
 ---@return gamedataObjectActionCost_Record
 function gamedataObjectActionCost_Record.new(fields) end
 
----@return nil, gamedataStatModifier_Record[] outList
+---@return gamedataStatModifier_Record[] outList
 function gamedataObjectActionCost_Record:CostMods() end
 
 ---@param item gamedataStatModifier_Record

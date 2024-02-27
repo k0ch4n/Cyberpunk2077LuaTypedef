@@ -14,7 +14,7 @@ function WeaponRadialSlot.new(fields) end
 ---@return InventoryItemDisplayController
 function WeaponRadialSlot:GetController() end
 
----@return nil, String[] info
+---@return String[] info
 function WeaponRadialSlot:GetDebugInfo() end
 
 ---@return gamedataEquipmentArea

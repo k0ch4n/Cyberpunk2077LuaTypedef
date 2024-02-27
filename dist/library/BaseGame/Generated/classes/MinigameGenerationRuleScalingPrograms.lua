@@ -33,8 +33,8 @@ function MinigameGenerationRuleScalingPrograms:GenerateRarities(length, overlap,
 ---@return Bool, gameuiGridCell[][] grid
 function MinigameGenerationRuleScalingPrograms:OnProcessRule(size) end
 
----@return nil, Bool b
+---@return Bool b
 function MinigameGenerationRuleScalingPrograms:RandomMode() end
 
----@return nil, Bool b
+---@return Bool b
 function MinigameGenerationRuleScalingPrograms:SwapMode() end

@@ -9,7 +9,7 @@ gamedataCurves_Record = {}
 ---@return gamedataCurves_Record
 function gamedataCurves_Record.new(fields) end
 
----@return nil, gamedataCurve_Record[] outList
+---@return gamedataCurve_Record[] outList
 function gamedataCurves_Record:Curves() end
 
 ---@param item gamedataCurve_Record

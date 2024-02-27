@@ -26,7 +26,7 @@ function gamedataModifyStatPoolValueEffector_Record:GetStatPoolUpdatesItemHandle
 ---@return Bool
 function gamedataModifyStatPoolValueEffector_Record:SetValue() end
 
----@return nil, gamedataStatPoolUpdate_Record[] outList
+---@return gamedataStatPoolUpdate_Record[] outList
 function gamedataModifyStatPoolValueEffector_Record:StatPoolUpdates() end
 
 ---@param item gamedataStatPoolUpdate_Record

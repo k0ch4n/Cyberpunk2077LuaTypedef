@@ -9,7 +9,7 @@ gamedataWeaponVFXSet_Record = {}
 ---@return gamedataWeaponVFXSet_Record
 function gamedataWeaponVFXSet_Record.new(fields) end
 
----@return nil, gamedataWeaponVFXAction_Record[] outList
+---@return gamedataWeaponVFXAction_Record[] outList
 function gamedataWeaponVFXSet_Record:Actions() end
 
 ---@param item gamedataWeaponVFXAction_Record

@@ -20,7 +20,7 @@ function gamedataAddItemsEffector_Record:GetItemsToAddItem(index) end
 ---@return gamedataInventoryItem_Record
 function gamedataAddItemsEffector_Record:GetItemsToAddItemHandle(index) end
 
----@return nil, gamedataInventoryItem_Record[] outList
+---@return gamedataInventoryItem_Record[] outList
 function gamedataAddItemsEffector_Record:ItemsToAdd() end
 
 ---@param item gamedataInventoryItem_Record

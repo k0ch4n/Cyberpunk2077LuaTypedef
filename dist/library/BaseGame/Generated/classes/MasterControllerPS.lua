@@ -26,7 +26,7 @@ function MasterControllerPS:ExtractActionFromSlave(slave, actionName) end
 ---@return nil
 function MasterControllerPS:FillTakeOverChainBB() end
 
----@return nil, gameDeviceComponentPS[] outDevices
+---@return gameDeviceComponentPS[] outDevices
 function MasterControllerPS:GetAllDescendants() end
 
 ---@param context? MasterControllerPS
@@ -64,7 +64,7 @@ function MasterControllerPS:GetLazySlaves() end
 function MasterControllerPS:GetPuppets() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
+---@return gamedeviceAction[] outActions
 function MasterControllerPS:GetQuickHacksFromSlave(context) end
 
 ---@param deviceID gamePersistentID

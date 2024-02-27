@@ -128,25 +128,25 @@ function gameuiHackingMinigameGameController:ProcessMinigameTutorialFact(player)
 
 ---@param entity entEntity
 ---@param powerLevel Float
----@return nil, Int32 size, gamedataMiniGame_AllSymbols_Record symbolsToUse
+---@return Int32 size, gamedataMiniGame_AllSymbols_Record symbolsToUse
 function gameuiHackingMinigameGameController:ScaleBoard(entity, powerLevel) end
 
 ---@param entity entEntity
 ---@param powerLevel Float
 ---@param player PlayerPuppet
----@return nil, Float size
+---@return Float size
 function gameuiHackingMinigameGameController:ScaleBuffer(entity, powerLevel, player) end
 
 ---@param player PlayerPuppet
 ---@param entity entEntity
 ---@param powerLevel Float
----@return nil, Float time, Bool waitInteraction
+---@return Float time, Bool waitInteraction
 function gameuiHackingMinigameGameController:ScaleTimer(player, entity, powerLevel) end
 
 ---@param entity entEntity
 ---@param player PlayerPuppet
 ---@param powerLevel Float
----@return nil, Float prob
+---@return Float prob
 function gameuiHackingMinigameGameController:ScaleTraps(entity, player, powerLevel) end
 
 ---@param value Bool

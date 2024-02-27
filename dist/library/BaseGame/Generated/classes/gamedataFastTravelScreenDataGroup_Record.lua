@@ -20,7 +20,7 @@ function gamedataFastTravelScreenDataGroup_Record:GetScreensDataItem(index) end
 ---@return gamedataFastTravelScreenData_Record
 function gamedataFastTravelScreenDataGroup_Record:GetScreensDataItemHandle(index) end
 
----@return nil, gamedataFastTravelScreenData_Record[] outList
+---@return gamedataFastTravelScreenData_Record[] outList
 function gamedataFastTravelScreenDataGroup_Record:ScreensData() end
 
 ---@param item gamedataFastTravelScreenData_Record

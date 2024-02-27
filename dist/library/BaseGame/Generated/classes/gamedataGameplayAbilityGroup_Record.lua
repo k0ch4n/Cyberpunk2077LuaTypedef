@@ -9,7 +9,7 @@ gamedataGameplayAbilityGroup_Record = {}
 ---@return gamedataGameplayAbilityGroup_Record
 function gamedataGameplayAbilityGroup_Record.new(fields) end
 
----@return nil, gamedataGameplayAbility_Record[] outList
+---@return gamedataGameplayAbility_Record[] outList
 function gamedataGameplayAbilityGroup_Record:Abilities() end
 
 ---@param item gamedataGameplayAbility_Record

@@ -116,12 +116,12 @@ function gameTransactionSystem:GetActiveItemInSlot(obj, slotID) end
 
 ---@param obj gameObject
 ---@param itemID gameItemID
----@return nil, TweakDBID[] availableSlots
+---@return TweakDBID[] availableSlots
 function gameTransactionSystem:GetAvailableSlotsOnItem(obj, itemID) end
 
 ---@param obj gameObject
 ---@param itemID gameItemID
----@return nil, TweakDBID[] emptySlots
+---@return TweakDBID[] emptySlots
 function gameTransactionSystem:GetEmptySlotsOnItem(obj, itemID) end
 
 ---@param obj gameObject
@@ -197,7 +197,7 @@ function gameTransactionSystem:GetItemQuantityWithDuplicates(obj, itemID) end
 ---@param obj gameObject
 ---@param itemID gameItemID
 ---@param slotID TweakDBID|string
----@return nil, gameItemID[] installableItems
+---@return gameItemID[] installableItems
 function gameTransactionSystem:GetItemsInstallableInSlot(obj, itemID, slotID) end
 
 ---@param obj gameObject
@@ -216,7 +216,7 @@ function gameTransactionSystem:GetTotalItemQuantity(obj) end
 
 ---@param obj gameObject
 ---@param itemID gameItemID
----@return nil, TweakDBID[] used
+---@return TweakDBID[] used
 function gameTransactionSystem:GetUsedSlotsOnItem(obj, itemID) end
 
 ---@param entity entEntity
@@ -367,7 +367,7 @@ function gameTransactionSystem:PrefetchItemAppearance(obj, itemID, newAppearance
 
 ---@param obj gameObject
 ---@param keepWorldTransform? Bool
----@return nil, TweakDBID slotID
+---@return TweakDBID slotID
 function gameTransactionSystem:RefreshAttachment(obj, keepWorldTransform) end
 
 ---@param owner gameObject
@@ -444,7 +444,7 @@ function gameTransactionSystem:ResetItemAppearance(obj, itemID) end
 ---@param uniquesOnly? Bool
 ---@param context? gameObject
 ---@param seed? Uint64
----@return nil, gamedataItem_Record[] itemRecords
+---@return gamedataItem_Record[] itemRecords
 function gameTransactionSystem:RunItemArrayQuery(itemQueryTDBID, excludeItems, uniquesOnly, context, seed) end
 
 ---@param itemQueryTDBID TweakDBID|string

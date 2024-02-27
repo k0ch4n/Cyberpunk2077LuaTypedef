@@ -9,7 +9,7 @@ gamedataControlledLootTable_Record = {}
 ---@return gamedataControlledLootTable_Record
 function gamedataControlledLootTable_Record.new(fields) end
 
----@return nil, gamedataControlledLootSet_Record[] outList
+---@return gamedataControlledLootSet_Record[] outList
 function gamedataControlledLootTable_Record:ControlledLootSets() end
 
 ---@param item gamedataControlledLootSet_Record

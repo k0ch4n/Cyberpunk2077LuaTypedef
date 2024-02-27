@@ -9,7 +9,7 @@ gamedataUIIconCensorship_Record = {}
 ---@return gamedataUIIconCensorship_Record
 function gamedataUIIconCensorship_Record.new(fields) end
 
----@return nil, gamedataUIIconCensorFlag_Record[] outList
+---@return gamedataUIIconCensorFlag_Record[] outList
 function gamedataUIIconCensorship_Record:CensorFlags() end
 
 ---@param item gamedataUIIconCensorFlag_Record

@@ -36,7 +36,7 @@ function ForkliftControllerPS:GetActions(context) end
 function ForkliftControllerPS:GetLiftingAnimationTime() end
 
 ---@param context gameGetActionsContext
----@return nil, gamedeviceAction[] actions
+---@return gamedeviceAction[] actions
 function ForkliftControllerPS:GetQuickHackActions(context) end
 
 ---@return Bool

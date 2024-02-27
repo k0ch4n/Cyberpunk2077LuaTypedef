@@ -29,7 +29,7 @@ function gamedataMappinUIFilterGroup_Record:GetMappinsItem(index) end
 ---@return gamedataMappinVariant_Record
 function gamedataMappinUIFilterGroup_Record:GetMappinsItemHandle(index) end
 
----@return nil, gamedataMappinVariant_Record[] outList
+---@return gamedataMappinVariant_Record[] outList
 function gamedataMappinUIFilterGroup_Record:Mappins() end
 
 ---@param item gamedataMappinVariant_Record

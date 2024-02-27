@@ -20,7 +20,7 @@ function gamedataDisassemblingResult_Record:GetIngredientsItem(index) end
 ---@return gamedataRecipeElement_Record
 function gamedataDisassemblingResult_Record:GetIngredientsItemHandle(index) end
 
----@return nil, gamedataRecipeElement_Record[] outList
+---@return gamedataRecipeElement_Record[] outList
 function gamedataDisassemblingResult_Record:Ingredients() end
 
 ---@param item gamedataRecipeElement_Record

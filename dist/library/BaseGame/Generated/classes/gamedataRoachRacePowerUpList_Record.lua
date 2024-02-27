@@ -9,7 +9,7 @@ gamedataRoachRacePowerUpList_Record = {}
 ---@return gamedataRoachRacePowerUpList_Record
 function gamedataRoachRacePowerUpList_Record.new(fields) end
 
----@return nil, gamedataRoachRaceObject_Record[] outList
+---@return gamedataRoachRaceObject_Record[] outList
 function gamedataRoachRacePowerUpList_Record:Data() end
 
 ---@param item gamedataRoachRaceObject_Record

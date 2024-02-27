@@ -913,7 +913,7 @@ function ReactionManagerComponent:LogStim(category, stimType, stimPropagation, m
 function ReactionManagerComponent:LogSuccess(message) end
 
 ---@param lookAtData LookAtData
----@return nil, CName vo
+---@return CName vo
 function ReactionManagerComponent:MapLookAtVO(lookAtData) end
 
 ---@param mappingName String
@@ -943,7 +943,7 @@ function ReactionManagerComponent:OnReactionEnded() end
 function ReactionManagerComponent:OnReactionStarted(reactionData) end
 
 ---@param newStimEvent senseStimuliEvent
----@return nil, Bool updateByActive
+---@return Bool updateByActive
 function ReactionManagerComponent:PickCloserTarget(newStimEvent) end
 
 ---@param side gameinteractionsBumpSide
@@ -1011,7 +1011,7 @@ function ReactionManagerComponent:SafeToExitFear() end
 ---@return Bool
 function ReactionManagerComponent:SafeToExitPanicFear() end
 
----@return nil, LookAtData lookAtData
+---@return LookAtData lookAtData
 function ReactionManagerComponent:SelectFacialEmotion() end
 
 ---@param ignoreListEvent? IgnoreListEvent
