@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UiQuickHackPanelContextRemoteControlDecisions: UiQuickHackPanelContextDecisions
 UiQuickHackPanelContextRemoteControlDecisions = {}
+
 
 ---@param fields? UiQuickHackPanelContextRemoteControlDecisions
 ---@return UiQuickHackPanelContextRemoteControlDecisions

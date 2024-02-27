@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsStaticCollisionShapeCategory: Enum
 ---@field Interior Enum 0
 ---@field Exterior Enum 1

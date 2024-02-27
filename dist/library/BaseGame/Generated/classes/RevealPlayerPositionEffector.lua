@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RevealPlayerPositionEffector: gameEffector
 RevealPlayerPositionEffector = {}
+
 
 ---@param fields? RevealPlayerPositionEffector
 ---@return RevealPlayerPositionEffector

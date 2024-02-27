@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CraftingCommands: Enum
 ---@field CraftingFinished Enum 0
 ---@field DisassemblingFinished Enum 1

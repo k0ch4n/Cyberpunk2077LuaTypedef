@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VehicleTankDriverContextDecisions: InputContextTransitionDecisions
 ---@field callbackID redCallbackObject
 VehicleTankDriverContextDecisions = {}
+
 
 ---@param fields? VehicleTankDriverContextDecisions
 ---@return VehicleTankDriverContextDecisions

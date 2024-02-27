@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ClearCustomObjectDescriptionEvent: redEvent
 ClearCustomObjectDescriptionEvent = {}
+
 
 ---@param fields? ClearCustomObjectDescriptionEvent
 ---@return ClearCustomObjectDescriptionEvent

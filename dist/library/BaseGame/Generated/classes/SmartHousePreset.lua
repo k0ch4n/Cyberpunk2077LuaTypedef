@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SmartHousePreset: IScriptable
 ---@field timetable SPresetTimetableEntry
 SmartHousePreset = {}
+
 
 ---@param devices gameDeviceComponentPS[]
 ---@return nil

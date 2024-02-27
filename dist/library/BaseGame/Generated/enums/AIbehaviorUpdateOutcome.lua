@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorUpdateOutcome: Enum
 ---@field IN_PROGRESS Enum 0
 ---@field SUCCESS Enum 1

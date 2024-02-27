@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WeaponFirstReloadStatePrereq: gameIScriptablePrereq
 WeaponFirstReloadStatePrereq = {}
+
 
 ---@param fields? WeaponFirstReloadStatePrereq
 ---@return WeaponFirstReloadStatePrereq

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAITicketType: Enum
 ---@field AndroidMelee Enum 0
 ---@field BackUp Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkMenuLayer_SetCursorType: redEvent
 inkMenuLayer_SetCursorType = {}
+
 
 ---@param fields? inkMenuLayer_SetCursorType
 ---@return inkMenuLayer_SetCursorType

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataPerkWeaponGroupType: Enum
 ---@field AssaultRiflesPerkWeaponGroup Enum 0
 ---@field BladesPerkWeaponGroup Enum 1

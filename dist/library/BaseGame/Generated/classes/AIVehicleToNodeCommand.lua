@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIVehicleToNodeCommand: AIVehicleCommand
 ---@field nodeRef NodeRef
 ---@field stopAtPathEnd Bool
@@ -13,6 +14,7 @@
 ---@field trafficTryNeighborsForEnd Bool
 ---@field ignoreNoAIDrivingLanes Bool
 AIVehicleToNodeCommand = {}
+
 
 ---@param fields? AIVehicleToNodeCommand
 ---@return AIVehicleToNodeCommand

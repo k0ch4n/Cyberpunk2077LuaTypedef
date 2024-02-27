@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorPickSearchDestinationTaskDefinition: AIbehaviorTaskDefinition
 ---@field destinationPosition AIArgumentMapping
 ---@field desiredDistance AIArgumentMapping
@@ -9,6 +10,7 @@
 ---@field clearedAreaAngle AIArgumentMapping
 ---@field ignoreRestrictMovementArea AIArgumentMapping
 AIbehaviorPickSearchDestinationTaskDefinition = {}
+
 
 ---@param fields? AIbehaviorPickSearchDestinationTaskDefinition
 ---@return AIbehaviorPickSearchDestinationTaskDefinition

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WaitIfEnteringOrLeavingCover: AIbehaviortaskScript
 WaitIfEnteringOrLeavingCover = {}
+
 
 ---@param fields? WaitIfEnteringOrLeavingCover
 ---@return WaitIfEnteringOrLeavingCover

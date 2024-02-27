@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TimeDilationFocusModeEvents: TimeDilationEventsTransitions
 ---@field timeDilation Float
 ---@field playerDilation Float
@@ -8,6 +9,7 @@
 ---@field applyTimeDilationToPlayer Bool
 ---@field timeDilationReason CName
 TimeDilationFocusModeEvents = {}
+
 
 ---@param fields? TimeDilationFocusModeEvents
 ---@return TimeDilationFocusModeEvents

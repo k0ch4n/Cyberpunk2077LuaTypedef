@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class VehicleLightQuestToggleEvent: redEvent
 ---@field toggle Bool
 ---@field lightType vehicleELightType
 VehicleLightQuestToggleEvent = {}
+
 
 ---@param fields? VehicleLightQuestToggleEvent
 ---@return VehicleLightQuestToggleEvent

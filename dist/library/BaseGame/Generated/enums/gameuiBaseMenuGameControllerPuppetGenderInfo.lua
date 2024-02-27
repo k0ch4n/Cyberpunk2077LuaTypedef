@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiBaseMenuGameControllerPuppetGenderInfo: Enum
 ---@field Male Enum 0
 ---@field Female Enum 1

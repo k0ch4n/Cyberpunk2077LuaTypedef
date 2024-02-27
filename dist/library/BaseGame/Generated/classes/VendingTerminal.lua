@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class VendingTerminal: InteractiveDevice
 ---@field position Vector4
 ---@field canMeshComponent entMeshComponent
 ---@field vendingBlacklist EVendorMode[]
 VendingTerminal = {}
+
 
 ---@param fields? VendingTerminal
 ---@return VendingTerminal

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameLootContainerBasePS: gameObjectPS
 ---@field markAsQuest Bool
 ---@field isDisabled Bool
@@ -7,6 +8,7 @@
 ---@field shouldHideLockedUI Bool
 ---@field started Bool
 gameLootContainerBasePS = {}
+
 
 ---@param fields? gameLootContainerBasePS
 ---@return gameLootContainerBasePS

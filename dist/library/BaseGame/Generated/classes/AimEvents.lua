@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AimEvents: CarriedObjectEvents
 AimEvents = {}
+
 
 ---@param fields? AimEvents
 ---@return AimEvents

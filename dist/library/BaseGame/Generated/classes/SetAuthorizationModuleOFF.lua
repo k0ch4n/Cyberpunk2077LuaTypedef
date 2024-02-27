@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetAuthorizationModuleOFF: ActionBool
 SetAuthorizationModuleOFF = {}
+
 
 ---@param fields? SetAuthorizationModuleOFF
 ---@return SetAuthorizationModuleOFF

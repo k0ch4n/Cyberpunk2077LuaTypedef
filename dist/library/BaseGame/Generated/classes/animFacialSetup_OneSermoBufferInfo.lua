@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animFacialSetup_OneSermoBufferInfo
 ---@field numGlobalLimits Uint16
 ---@field numInfluencedPoses Uint16
@@ -18,6 +19,7 @@
 ---@field wrinkleStartingIndex Uint16
 ---@field numWrinkles Uint16
 animFacialSetup_OneSermoBufferInfo = {}
+
 
 ---@param fields? animFacialSetup_OneSermoBufferInfo
 ---@return animFacialSetup_OneSermoBufferInfo

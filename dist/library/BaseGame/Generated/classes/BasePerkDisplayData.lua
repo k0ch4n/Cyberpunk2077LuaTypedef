@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BasePerkDisplayData: IDisplayData
 ---@field attributeId TweakDBID
 ---@field name CName
@@ -12,6 +13,7 @@
 ---@field locked Bool
 ---@field proficiency gamedataProficiencyType
 BasePerkDisplayData = {}
+
 
 ---@param fields? BasePerkDisplayData
 ---@return BasePerkDisplayData

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NetworkMinigameProgramController: inkWidgetLogicController
 ---@field text inkTextWidgetReference
 ---@field commandElementSlotsContainer inkWidgetReference[]
@@ -10,6 +11,7 @@
 ---@field data ProgramData
 ---@field animProxy inkanimProxy
 NetworkMinigameProgramController = {}
+
 
 ---@param fields? NetworkMinigameProgramController
 ---@return NetworkMinigameProgramController

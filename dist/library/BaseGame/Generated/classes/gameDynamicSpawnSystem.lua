@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDynamicSpawnSystem: gameIDynamicSpawnSystem
 gameDynamicSpawnSystem = {}
+
 
 ---@param fields? gameDynamicSpawnSystem
 ---@return gameDynamicSpawnSystem

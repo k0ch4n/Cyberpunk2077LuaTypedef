@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entStaticOrientationProvider: entIOrientationProvider
 ---@field staticOrientation Quaternion
 entStaticOrientationProvider = {}
+
 
 ---@param fields? entStaticOrientationProvider
 ---@return entStaticOrientationProvider

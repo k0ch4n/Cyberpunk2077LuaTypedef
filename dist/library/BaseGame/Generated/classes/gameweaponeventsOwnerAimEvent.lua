@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameweaponeventsOwnerAimEvent: redEvent
 ---@field isAiming Bool
 gameweaponeventsOwnerAimEvent = {}
+
 
 ---@param fields? gameweaponeventsOwnerAimEvent
 ---@return gameweaponeventsOwnerAimEvent

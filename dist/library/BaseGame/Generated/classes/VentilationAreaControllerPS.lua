@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class VentilationAreaControllerPS: MasterControllerPS
 ---@field ventilationAreaSetup VentilationAreaSetup
 ---@field isActive Bool
 VentilationAreaControllerPS = {}
+
 
 ---@param fields? VentilationAreaControllerPS
 ---@return VentilationAreaControllerPS

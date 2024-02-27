@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TryDeactivatePreventionByMask: gameEffector
 TryDeactivatePreventionByMask = {}
+
 
 ---@param fields? TryDeactivatePreventionByMask
 ---@return TryDeactivatePreventionByMask

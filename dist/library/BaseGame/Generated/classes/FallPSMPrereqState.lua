@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FallPSMPrereqState: PlayerStateMachinePrereqState
 FallPSMPrereqState = {}
+
 
 ---@param fields? FallPSMPrereqState
 ---@return FallPSMPrereqState

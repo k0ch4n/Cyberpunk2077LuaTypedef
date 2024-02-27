@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PersonnelSystemControllerPS: DeviceSystemBaseControllerPS
 PersonnelSystemControllerPS = {}
+
 
 ---@param fields? PersonnelSystemControllerPS
 ---@return PersonnelSystemControllerPS

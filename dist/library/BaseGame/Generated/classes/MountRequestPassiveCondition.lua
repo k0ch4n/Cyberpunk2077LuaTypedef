@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MountRequestPassiveCondition: AIbehaviorexpressionScript
 ---@field unmountRequest Bool
 ---@field acceptInstant Bool
@@ -9,6 +10,7 @@
 ---@field callbackId Uint32
 ---@field highLevelStateCallbackId Uint32
 MountRequestPassiveCondition = {}
+
 
 ---@param fields? MountRequestPassiveCondition
 ---@return MountRequestPassiveCondition

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class IsPlayerOnGroundPrereqState: gamePrereqState
 ---@field bbValue Bool
 ---@field isOnGroundListener redCallbackObject
 ---@field owner gameObject
 IsPlayerOnGroundPrereqState = {}
+
 
 ---@param fields? IsPlayerOnGroundPrereqState
 ---@return IsPlayerOnGroundPrereqState

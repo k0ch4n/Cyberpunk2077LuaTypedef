@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ProgramTooltipEffectController: ItemTooltipModController
 ProgramTooltipEffectController = {}
+
 
 ---@param fields? ProgramTooltipEffectController
 ---@return ProgramTooltipEffectController

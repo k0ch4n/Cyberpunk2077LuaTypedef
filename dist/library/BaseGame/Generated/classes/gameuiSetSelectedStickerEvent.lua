@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiSetSelectedStickerEvent: redEvent
 gameuiSetSelectedStickerEvent = {}
+
 
 ---@param fields? gameuiSetSelectedStickerEvent
 ---@return gameuiSetSelectedStickerEvent

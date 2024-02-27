@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsBumpEvent: redEvent
 ---@field side gameinteractionsBumpSide
 ---@field sourceLocation gameinteractionsBumpLocation
@@ -11,6 +12,7 @@
 ---@field isMounted Bool
 ---@field vehicleEntityID entEntityID
 gameinteractionsBumpEvent = {}
+
 
 ---@param fields? gameinteractionsBumpEvent
 ---@return gameinteractionsBumpEvent

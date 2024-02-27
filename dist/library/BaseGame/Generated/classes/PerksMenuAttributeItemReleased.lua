@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PerksMenuAttributeItemReleased: redEvent
 PerksMenuAttributeItemReleased = {}
+
 
 ---@param fields? PerksMenuAttributeItemReleased
 ---@return PerksMenuAttributeItemReleased

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class garmentHiddenTrianglesRemovalParams
 ---@field garmentBorderThreshold Float
 ---@field removeHiddenTriangles Bool
@@ -7,6 +8,7 @@
 ---@field rayLengthInCM Float
 ---@field rayLengthMorphOffsetFactor Float
 garmentHiddenTrianglesRemovalParams = {}
+
 
 ---@param fields? garmentHiddenTrianglesRemovalParams
 ---@return garmentHiddenTrianglesRemovalParams

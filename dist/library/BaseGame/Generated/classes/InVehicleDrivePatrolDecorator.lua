@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InVehicleDrivePatrolDecorator: AIVehicleTaskAbstract
 ---@field vehCommand AIVehicleDrivePatrolCommand
 ---@field maxSpeed AIArgumentMapping
@@ -8,6 +9,7 @@
 ---@field emergencyPatrol AIArgumentMapping
 ---@field numPatrolLoops AIArgumentMapping
 InVehicleDrivePatrolDecorator = {}
+
 
 ---@param fields? InVehicleDrivePatrolDecorator
 ---@return InVehicleDrivePatrolDecorator

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class json
 ---@field _version "0.1.2"
 json = {}
+
 
 ---@param val nil|table|string|number|boolean
 ---@return string

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BarbedWire: ActivatedDeviceTrap
 BarbedWire = {}
+
 
 ---@param fields? BarbedWire
 ---@return BarbedWire

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_DeathMenu: MenuScenario_BaseMenu
 MenuScenario_DeathMenu = {}
+
 
 ---@param fields? MenuScenario_DeathMenu
 ---@return MenuScenario_DeathMenu

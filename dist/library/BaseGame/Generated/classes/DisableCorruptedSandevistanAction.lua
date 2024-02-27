@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisableCorruptedSandevistanAction: UseAction
 DisableCorruptedSandevistanAction = {}
+
 
 ---@param fields? DisableCorruptedSandevistanAction
 ---@return DisableCorruptedSandevistanAction

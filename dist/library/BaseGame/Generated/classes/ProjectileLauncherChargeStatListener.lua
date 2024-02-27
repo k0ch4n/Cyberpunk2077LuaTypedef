@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ProjectileLauncherChargeStatListener: BaseChargesStatListener
 ProjectileLauncherChargeStatListener = {}
+
 
 ---@param fields? ProjectileLauncherChargeStatListener
 ---@return ProjectileLauncherChargeStatListener

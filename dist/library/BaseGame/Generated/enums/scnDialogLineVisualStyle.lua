@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnDialogLineVisualStyle: Enum
 ---@field regular Enum 0
 ---@field overHead Enum 1

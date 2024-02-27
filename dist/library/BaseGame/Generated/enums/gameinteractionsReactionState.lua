@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsReactionState: Enum
 ---@field Idle Enum 0
 ---@field Starting Enum 1

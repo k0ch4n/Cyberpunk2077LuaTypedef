@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionSetInfluenceMap_Record_Implementation: IScriptable
 AISubActionSetInfluenceMap_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionSetInfluenceMap_Record

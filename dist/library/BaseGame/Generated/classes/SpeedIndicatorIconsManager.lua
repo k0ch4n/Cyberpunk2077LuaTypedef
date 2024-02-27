@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SpeedIndicatorIconsManager: inkWidgetLogicController
 ---@field speedIndicator inkImageWidgetReference
 ---@field mirroredSpeedIndicator inkImageWidgetReference
 SpeedIndicatorIconsManager = {}
+
 
 ---@param fields? SpeedIndicatorIconsManager
 ---@return SpeedIndicatorIconsManager

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIActionHelperTask: AIbehaviortaskScript
 ---@field actionTweakIDMapping AIArgumentMapping
 ---@field actionStringName String
@@ -7,6 +8,7 @@
 ---@field actionName CName
 ---@field actionID TweakDBID
 AIActionHelperTask = {}
+
 
 ---@return TweakDBID
 function AIActionHelperTask:GetActionID() end

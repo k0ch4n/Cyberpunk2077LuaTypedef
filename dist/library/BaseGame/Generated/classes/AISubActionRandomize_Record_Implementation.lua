@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionRandomize_Record_Implementation: IScriptable
 AISubActionRandomize_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionRandomize_Record

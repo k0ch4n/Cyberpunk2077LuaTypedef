@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiAuthorisationNotificationType: Enum
 ---@field Unknown Enum 0
 ---@field GotKeycard Enum 1

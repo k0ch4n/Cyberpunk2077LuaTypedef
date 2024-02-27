@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldTrafficLanePersistent
 ---@field outLanes worldTrafficConnectivityOutLane[]
 ---@field inLanes worldTrafficConnectivityInLane[]
@@ -22,6 +23,7 @@
 ---@field roadMaterials worldRoadMaterialInfo[]
 ---@field polygon Vector2[]
 worldTrafficLanePersistent = {}
+
 
 ---@param fields? worldTrafficLanePersistent
 ---@return worldTrafficLanePersistent

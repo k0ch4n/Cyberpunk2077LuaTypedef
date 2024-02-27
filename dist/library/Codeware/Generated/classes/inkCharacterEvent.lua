@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkCharacterEvent: inkInputEvent
 inkCharacterEvent = {}
+
 
 ---@param fields? inkCharacterEvent
 ---@return inkCharacterEvent

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CallActionWidgetController: DeviceActionWidgetControllerBase
 ---@field statusText inkTextWidgetReference
 ---@field callingAnimName CName
 ---@field talkingAnimName CName
 ---@field status IntercomStatus
 CallActionWidgetController = {}
+
 
 ---@param fields? CallActionWidgetController
 ---@return CallActionWidgetController

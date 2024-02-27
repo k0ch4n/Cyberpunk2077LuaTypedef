@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questInputAction_ConditionType: questISystemConditionType
 ---@field anyInputAction Bool
 ---@field inputAction CName
@@ -8,6 +9,7 @@
 ---@field valueLessThan Float
 ---@field valueMoreThan Float
 questInputAction_ConditionType = {}
+
 
 ---@param fields? questInputAction_ConditionType
 ---@return questInputAction_ConditionType

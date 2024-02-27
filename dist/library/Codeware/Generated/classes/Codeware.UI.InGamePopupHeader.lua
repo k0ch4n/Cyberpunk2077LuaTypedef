@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class Codeware_UI_InGamePopupHeader: Codeware_UI_inkCustomController
 ---@field title inkTextWidget
 ---@field fluffLeft inkTextWidget
 ---@field fluffRight inkTextWidget
 Codeware_UI_InGamePopupHeader = {}
+
 
 ---@param fields? Codeware_UI_InGamePopupHeader
 ---@return Codeware_UI_InGamePopupHeader

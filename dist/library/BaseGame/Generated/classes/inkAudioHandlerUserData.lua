@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkAudioHandlerUserData: inkUserData
 inkAudioHandlerUserData = {}
+
 
 ---@param fields? inkAudioHandlerUserData
 ---@return inkAudioHandlerUserData

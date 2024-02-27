@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldAISpotNodeInstance: worldSocketNodeInstance
 worldAISpotNodeInstance = {}
+
 
 ---@param fields? worldAISpotNodeInstance
 ---@return worldAISpotNodeInstance

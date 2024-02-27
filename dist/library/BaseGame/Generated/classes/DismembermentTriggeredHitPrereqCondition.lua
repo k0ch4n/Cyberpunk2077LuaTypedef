@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DismembermentTriggeredHitPrereqCondition: BaseHitPrereqCondition
 ---@field currValue Uint32
 DismembermentTriggeredHitPrereqCondition = {}
+
 
 ---@param fields? DismembermentTriggeredHitPrereqCondition
 ---@return DismembermentTriggeredHitPrereqCondition

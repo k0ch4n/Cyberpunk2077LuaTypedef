@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class workWeaponType: Enum
 ---@field Any Enum 0
 ---@field Ranged Enum 1

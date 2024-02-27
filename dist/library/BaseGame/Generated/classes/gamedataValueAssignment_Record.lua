@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataValueAssignment_Record: gamedataContentAssignment_Record
 gamedataValueAssignment_Record = {}
+
 
 ---@param fields? gamedataValueAssignment_Record
 ---@return gamedataValueAssignment_Record

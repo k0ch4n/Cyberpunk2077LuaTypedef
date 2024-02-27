@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class Codeware_UI_InGamePopupFooter: Codeware_UI_inkCustomController
 ---@field fluffIcon inkImageWidget
 ---@field fluffText inkTextWidget
 ---@field inputHolder inkCompoundWidget
 ---@field buttonHints Codeware_UI_ButtonHintsEx
 Codeware_UI_InGamePopupFooter = {}
+
 
 ---@param fields? Codeware_UI_InGamePopupFooter
 ---@return Codeware_UI_InGamePopupFooter

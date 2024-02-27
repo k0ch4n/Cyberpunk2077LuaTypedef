@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIEInterruptionOutcome: Enum
 ---@field INTERRUPTION_SUCCESS Enum 0
 ---@field INTERRUPTION_DELAYED Enum 1

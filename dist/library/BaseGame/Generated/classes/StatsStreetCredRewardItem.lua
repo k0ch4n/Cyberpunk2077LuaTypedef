@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class StatsStreetCredRewardItem: inkButtonController
 ---@field levelRef inkTextWidgetReference
 ---@field iconRef inkImageWidgetReference
 ---@field data LevelRewardDisplayData
 StatsStreetCredRewardItem = {}
+
 
 ---@param fields? StatsStreetCredRewardItem
 ---@return StatsStreetCredRewardItem

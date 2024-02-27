@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hudCorpoController: gameuiHUDGameController
 ---@field ScrollText inkTextWidgetReference
 ---@field ScrollTextWidget inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field fact4ListenerId Uint32
 ---@field fact5ListenerId Uint32
 hudCorpoController = {}
+
 
 ---@param fields? hudCorpoController
 ---@return hudCorpoController

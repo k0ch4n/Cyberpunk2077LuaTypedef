@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldTrafficSplineNode: worldTrafficSourceNode
 ---@field usage worldTrafficSplineNodeUsage
 ---@field maxSlotMaxSpeed Float
@@ -15,6 +16,7 @@
 ---@field laneSamplingAngle Float
 ---@field noAIDriving Bool
 worldTrafficSplineNode = {}
+
 
 ---@param fields? worldTrafficSplineNode
 ---@return worldTrafficSplineNode

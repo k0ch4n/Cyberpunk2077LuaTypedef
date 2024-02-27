@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CraftBook: IScriptable
 ---@field knownRecipes ItemRecipe[]
 ---@field newRecipes TweakDBID[]
 ---@field owner gameObject
 CraftBook = {}
+
 
 ---@param fields? CraftBook
 ---@return CraftBook

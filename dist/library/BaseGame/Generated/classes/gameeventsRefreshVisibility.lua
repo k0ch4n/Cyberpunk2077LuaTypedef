@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameeventsRefreshVisibility: redEvent
 gameeventsRefreshVisibility = {}
+
 
 ---@param fields? gameeventsRefreshVisibility
 ---@return gameeventsRefreshVisibility

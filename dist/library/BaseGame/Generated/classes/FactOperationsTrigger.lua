@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FactOperationsTrigger: DeviceOperationsTrigger
 ---@field triggerData FactOperationTriggerData
 FactOperationsTrigger = {}
+
 
 ---@param fields? FactOperationsTrigger
 ---@return FactOperationsTrigger

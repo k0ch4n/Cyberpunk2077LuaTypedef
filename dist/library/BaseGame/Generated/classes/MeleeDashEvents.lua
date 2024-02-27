@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeDashEvents: MeleeEventsTransition
 MeleeDashEvents = {}
+
 
 ---@param fields? MeleeDashEvents
 ---@return MeleeDashEvents

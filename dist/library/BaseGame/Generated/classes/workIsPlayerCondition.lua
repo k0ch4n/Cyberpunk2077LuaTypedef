@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workIsPlayerCondition: workIWorkspotCondition
 workIsPlayerCondition = {}
+
 
 ---@param fields? workIsPlayerCondition
 ---@return workIsPlayerCondition

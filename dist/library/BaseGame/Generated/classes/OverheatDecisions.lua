@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OverheatDecisions: WeaponTransition
 ---@field callbackID redCallbackObject
 OverheatDecisions = {}
+
 
 ---@param fields? OverheatDecisions
 ---@return OverheatDecisions

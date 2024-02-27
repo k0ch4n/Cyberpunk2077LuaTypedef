@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class muliplayerInteractionTest: gameObject
 ---@field counter Int32
 muliplayerInteractionTest = {}
+
 
 ---@param fields? muliplayerInteractionTest
 ---@return muliplayerInteractionTest

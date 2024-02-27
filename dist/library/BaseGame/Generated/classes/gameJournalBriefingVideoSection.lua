@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameJournalBriefingVideoSection: gameJournalBriefingBaseSection
 ---@field videoResource Bink
 gameJournalBriefingVideoSection = {}
+
 
 ---@param fields? gameJournalBriefingVideoSection
 ---@return gameJournalBriefingVideoSection

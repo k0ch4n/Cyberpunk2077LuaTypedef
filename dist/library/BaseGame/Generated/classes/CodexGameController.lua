@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CodexGameController: gameuiMenuGameController
 ---@field buttonHintsManagerRef inkWidgetReference
 ---@field entryViewRef inkCompoundWidgetReference
@@ -23,6 +24,7 @@
 ---@field filtersControllers CodexFilterButtonController[]
 ---@field onInputDeviceChangedCallbackID redCallbackObject
 CodexGameController = {}
+
 
 ---@param fields? CodexGameController
 ---@return CodexGameController

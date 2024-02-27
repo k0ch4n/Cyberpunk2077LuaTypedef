@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HubMenuLabelController: inkWidgetLogicController
 ---@field container inkCompoundWidgetReference
 ---@field wrapper inkWidget
@@ -13,6 +14,7 @@
 ---@field direction Int32
 ---@field isRadialVariant Bool
 HubMenuLabelController = {}
+
 
 ---@param fields? HubMenuLabelController
 ---@return HubMenuLabelController

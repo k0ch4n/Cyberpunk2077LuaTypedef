@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataGenericStreetNameSign_Record: gamedataBaseSign_Record
 gamedataGenericStreetNameSign_Record = {}
+
 
 ---@param fields? gamedataGenericStreetNameSign_Record
 ---@return gamedataGenericStreetNameSign_Record

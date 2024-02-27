@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BlockReactionFlag: AIbehaviortaskScript
 ---@field target gameObject
 BlockReactionFlag = {}
+
 
 ---@param fields? BlockReactionFlag
 ---@return BlockReactionFlag

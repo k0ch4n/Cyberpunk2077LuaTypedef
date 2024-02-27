@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entSkinnedMeshComponent: entISkinTargetComponent
 ---@field mesh CMesh
 ---@field meshAppearance CName
@@ -18,6 +19,7 @@
 ---@field navigationImpact NavGenNavigationSetting
 ---@field version Uint8
 entSkinnedMeshComponent = {}
+
 
 ---@param fields? entSkinnedMeshComponent
 ---@return entSkinnedMeshComponent

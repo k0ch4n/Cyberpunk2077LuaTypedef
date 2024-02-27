@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnSceneGraphNode: ISerializable
 ---@field nodeId scnNodeId
 ---@field ffStrategy scnFastForwardStrategy

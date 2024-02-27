@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CrowdMemberBaseComponent: gameCrowdMemberComponent
 CrowdMemberBaseComponent = {}
+
 
 ---@param fields? CrowdMemberBaseComponent
 ---@return CrowdMemberBaseComponent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetAttackBlockedBlackBoardValue: redEvent
 ResetAttackBlockedBlackBoardValue = {}
+
 
 ---@param fields? ResetAttackBlockedBlackBoardValue
 ---@return ResetAttackBlockedBlackBoardValue

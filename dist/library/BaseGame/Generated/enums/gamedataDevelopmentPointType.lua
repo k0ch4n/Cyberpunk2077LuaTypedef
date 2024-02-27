@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataDevelopmentPointType: Enum
 ---@field Attribute Enum 0
 ---@field Espionage Enum 1

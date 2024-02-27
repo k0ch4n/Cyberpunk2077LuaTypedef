@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class saveGameMetadata
 ---@field gameDefinition String
 ---@field activeQuests String
@@ -44,6 +45,7 @@
 ---@field difficulty gameDifficulty
 ---@field facts String[]
 saveGameMetadata = {}
+
 
 ---@param fields? saveGameMetadata
 ---@return saveGameMetadata

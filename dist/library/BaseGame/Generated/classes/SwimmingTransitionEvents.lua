@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SwimmingTransitionEvents: LocomotionSwimmingEvents
 ---@field maxDownwardSpeed Float
 ---@field minDownwardsSpeed Float
 ---@field upwardsImpulseStrength Float
 SwimmingTransitionEvents = {}
+
 
 ---@param fields? SwimmingTransitionEvents
 ---@return SwimmingTransitionEvents

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AISetAutocraftingState: AIbehaviortaskScript
 ---@field newState Bool
 AISetAutocraftingState = {}
+
 
 ---@param fields? AISetAutocraftingState
 ---@return AISetAutocraftingState

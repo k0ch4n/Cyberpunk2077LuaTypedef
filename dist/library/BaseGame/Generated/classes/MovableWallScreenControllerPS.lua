@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MovableWallScreenControllerPS: DoorControllerPS
 MovableWallScreenControllerPS = {}
+
 
 ---@param fields? MovableWallScreenControllerPS
 ---@return MovableWallScreenControllerPS

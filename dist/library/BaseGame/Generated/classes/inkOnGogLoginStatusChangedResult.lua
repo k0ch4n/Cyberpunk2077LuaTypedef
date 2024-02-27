@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkOnGogLoginStatusChangedResult: inkCallbackBase
 inkOnGogLoginStatusChangedResult = {}
+
 
 ---@param fields? inkOnGogLoginStatusChangedResult
 ---@return inkOnGogLoginStatusChangedResult

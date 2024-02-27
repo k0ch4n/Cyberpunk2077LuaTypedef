@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class rendFont: CResource
 ---@field fontBuffer DataBuffer
 rendFont = {}
+
 
 ---@param fields? rendFont
 ---@return rendFont

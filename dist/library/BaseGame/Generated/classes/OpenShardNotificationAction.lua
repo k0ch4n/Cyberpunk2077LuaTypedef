@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OpenShardNotificationAction: GenericNotificationBaseAction
 ---@field eventDispatcher gameuiGameSystemUI
 OpenShardNotificationAction = {}
+
 
 ---@param fields? OpenShardNotificationAction
 ---@return OpenShardNotificationAction

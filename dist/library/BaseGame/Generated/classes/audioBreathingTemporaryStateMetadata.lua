@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioBreathingTemporaryStateMetadata: audioAudioMetadata
 ---@field inhaleSound CName
 ---@field exhaleSound CName
@@ -12,6 +13,7 @@
 ---@field loopBehavior audiobreathingLoopBehavior
 ---@field startStateFromBreath Bool
 audioBreathingTemporaryStateMetadata = {}
+
 
 ---@param fields? audioBreathingTemporaryStateMetadata
 ---@return audioBreathingTemporaryStateMetadata

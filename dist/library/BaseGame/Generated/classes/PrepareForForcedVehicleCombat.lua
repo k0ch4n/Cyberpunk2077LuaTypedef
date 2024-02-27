@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PrepareForForcedVehicleCombat: redEvent
 PrepareForForcedVehicleCombat = {}
+
 
 ---@param fields? PrepareForForcedVehicleCombat
 ---@return PrepareForForcedVehicleCombat

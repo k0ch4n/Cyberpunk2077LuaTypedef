@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCharacterHitEventType: Enum
 ---@field Bullet Enum 0
 ---@field Explosion Enum 1

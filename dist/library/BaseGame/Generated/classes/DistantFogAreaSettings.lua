@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DistantFogAreaSettings: IAreaSettings
 ---@field range curveData
 ---@field albedoNear curveData
@@ -20,6 +21,7 @@
 ---@field skyAltitudeEnd curveData
 ---@field skyOpacity curveData
 DistantFogAreaSettings = {}
+
 
 ---@param fields? DistantFogAreaSettings
 ---@return DistantFogAreaSettings

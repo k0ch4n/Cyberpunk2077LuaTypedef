@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MessengerDialogViewController: inkWidgetLogicController
 ---@field messagesList inkCompoundWidgetReference
 ---@field choicesList inkCompoundWidgetReference
@@ -28,6 +29,7 @@
 ---@field minimumTypingDelay Float
 ---@field breakingTypingAnimProxy inkanimProxy
 MessengerDialogViewController = {}
+
 
 ---@param fields? MessengerDialogViewController
 ---@return MessengerDialogViewController

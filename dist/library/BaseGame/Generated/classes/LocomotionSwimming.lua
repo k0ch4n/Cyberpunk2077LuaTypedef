@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LocomotionSwimming: LocomotionTransition
 LocomotionSwimming = {}
+
 
 ---@param fields? LocomotionSwimming
 ---@return LocomotionSwimming

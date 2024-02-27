@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SettingsSelectorControllerLanguagesList: SettingsSelectorControllerListName
 ---@field downloadButton inkWidgetReference
 ---@field descriptionText inkTextWidgetReference
 ---@field isVoiceOverInstalled Bool
 ---@field currentSetIndex Int32
 SettingsSelectorControllerLanguagesList = {}
+
 
 ---@param fields? SettingsSelectorControllerLanguagesList
 ---@return SettingsSelectorControllerLanguagesList

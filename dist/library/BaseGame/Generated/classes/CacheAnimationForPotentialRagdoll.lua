@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CacheAnimationForPotentialRagdoll: RagdollTask
 ---@field currentBehavior CName
 CacheAnimationForPotentialRagdoll = {}
+
 
 ---@param fields? CacheAnimationForPotentialRagdoll
 ---@return CacheAnimationForPotentialRagdoll

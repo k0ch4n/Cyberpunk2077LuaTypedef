@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SecurityAreaCrossingPerimeter: SecurityAreaEvent
 ---@field entered Bool
 SecurityAreaCrossingPerimeter = {}
+
 
 ---@param fields? SecurityAreaCrossingPerimeter
 ---@return SecurityAreaCrossingPerimeter

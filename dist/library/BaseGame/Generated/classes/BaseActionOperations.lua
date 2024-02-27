@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BaseActionOperations: DeviceOperations
 ---@field baseActionsOperations SBaseActionOperationData[]
 BaseActionOperations = {}
+
 
 ---@param fields? BaseActionOperations
 ---@return BaseActionOperations

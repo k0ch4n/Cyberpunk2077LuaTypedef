@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UploadProgramProgressEvent: redEvent
 ---@field state EUploadProgramState
 ---@field progressBarType EProgressBarType
@@ -11,6 +12,7 @@
 ---@field slotName CName
 ---@field statPoolType gamedataStatPoolType
 UploadProgramProgressEvent = {}
+
 
 ---@param fields? UploadProgramProgressEvent
 ---@return UploadProgramProgressEvent

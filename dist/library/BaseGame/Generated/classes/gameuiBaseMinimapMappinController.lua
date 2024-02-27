@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiBaseMinimapMappinController: gameuiMappinBaseController
 ---@field iconOrientation gameuiEIconOrientation
 ---@field fixedOrientationWidget inkWidgetReference
@@ -9,6 +10,7 @@
 ---@field aboveWidget inkWidget
 ---@field belowWidget inkWidget
 gameuiBaseMinimapMappinController = {}
+
 
 ---@param fields? gameuiBaseMinimapMappinController
 ---@return gameuiBaseMinimapMappinController

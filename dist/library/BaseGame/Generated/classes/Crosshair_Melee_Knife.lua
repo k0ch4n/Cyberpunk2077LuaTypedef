@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Crosshair_Melee_Knife: gameuiCrosshairBaseGameController
 ---@field targetColorChange inkWidgetReference
 ---@field leftPart inkWidgetReference
@@ -21,6 +22,7 @@
 ---@field preloaderThickR inkImageWidget
 ---@field preloader inkCanvasWidget
 Crosshair_Melee_Knife = {}
+
 
 ---@param fields? Crosshair_Melee_Knife
 ---@return Crosshair_Melee_Knife

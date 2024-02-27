@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animFacialSetup_BufferInfo
 ---@field tracksMapping animFacialSetup_TracksMapping
 ---@field numLipsyncOverridesIndexMapping Uint16
@@ -8,6 +9,7 @@
 ---@field eyes animFacialSetup_OneSermoBufferInfo
 ---@field tongue animFacialSetup_OneSermoBufferInfo
 animFacialSetup_BufferInfo = {}
+
 
 ---@param fields? animFacialSetup_BufferInfo
 ---@return animFacialSetup_BufferInfo

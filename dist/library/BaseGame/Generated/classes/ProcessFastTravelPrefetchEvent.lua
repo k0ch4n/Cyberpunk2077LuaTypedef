@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ProcessFastTravelPrefetchEvent: redEvent
 ---@field destinationRef NodeRef
 ProcessFastTravelPrefetchEvent = {}
+
 
 ---@param fields? ProcessFastTravelPrefetchEvent
 ---@return ProcessFastTravelPrefetchEvent

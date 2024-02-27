@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VolumetricFogAreaSettings: IAreaSettings
 ---@field albedo curveData
 ---@field range curveData
@@ -23,6 +24,7 @@
 ---@field distantSkyIrradiance curveData
 ---@field distantShadowAmbientDarkening curveData
 VolumetricFogAreaSettings = {}
+
 
 ---@param fields? VolumetricFogAreaSettings
 ---@return VolumetricFogAreaSettings

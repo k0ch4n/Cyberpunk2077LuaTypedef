@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiarcadeRoachRaceObjectType: Enum
 ---@field BoostObject_Apple Enum 0
 ---@field BoostObject_Carrot Enum 1

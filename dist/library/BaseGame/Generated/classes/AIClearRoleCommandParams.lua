@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIClearRoleCommandParams: questScriptedAICommandParams
 AIClearRoleCommandParams = {}
+
 
 ---@param fields? AIClearRoleCommandParams
 ---@return AIClearRoleCommandParams

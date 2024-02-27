@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class GetOnWindowCombatDecorator: AIVehicleTaskAbstract
 ---@field windowOpenEvent VehicleExternalWindowRequestEvent
 ---@field mountInfo gamemountingMountingInfo
 ---@field vehicle gameObject
 ---@field slotName CName
 GetOnWindowCombatDecorator = {}
+
 
 ---@param fields? GetOnWindowCombatDecorator
 ---@return GetOnWindowCombatDecorator

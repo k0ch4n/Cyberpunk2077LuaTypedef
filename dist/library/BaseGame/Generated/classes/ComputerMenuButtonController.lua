@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ComputerMenuButtonController: DeviceButtonLogicControllerBase
 ---@field counterWidget inkTextWidgetReference
 ---@field notificationidget inkWidgetReference
 ---@field menuID String
 ComputerMenuButtonController = {}
+
 
 ---@param fields? ComputerMenuButtonController
 ---@return ComputerMenuButtonController

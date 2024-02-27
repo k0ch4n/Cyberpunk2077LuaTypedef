@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ProgramSetDeviceOff: ActionBool
 ProgramSetDeviceOff = {}
+
 
 ---@param fields? ProgramSetDeviceOff
 ---@return ProgramSetDeviceOff

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DestructibleMasterDevice: InteractiveMasterDevice
 DestructibleMasterDevice = {}
+
 
 ---@param fields? DestructibleMasterDevice
 ---@return DestructibleMasterDevice

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entRagdollPutToSleepEvent: redEvent
 entRagdollPutToSleepEvent = {}
+
 
 ---@param fields? entRagdollPutToSleepEvent
 ---@return entRagdollPutToSleepEvent

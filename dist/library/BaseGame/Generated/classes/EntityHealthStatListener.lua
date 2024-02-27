@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EntityHealthStatListener: gameScriptStatPoolsListener
 ---@field healthbar EntityHealthBarGameController
 EntityHealthStatListener = {}
+
 
 ---@param fields? EntityHealthStatListener
 ---@return EntityHealthStatListener

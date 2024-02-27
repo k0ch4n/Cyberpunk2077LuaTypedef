@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_Wardrobe: MenuScenario_BaseMenu
 MenuScenario_Wardrobe = {}
+
 
 ---@param fields? MenuScenario_Wardrobe
 ---@return MenuScenario_Wardrobe

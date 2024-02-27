@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CrossplayInfoPanelController: inkWidgetLogicController
 ---@field signOutEnabled Bool
 ---@field disconnectBtn inkWidgetReference
 CrossplayInfoPanelController = {}
+
 
 ---@param fields? CrossplayInfoPanelController
 ---@return CrossplayInfoPanelController

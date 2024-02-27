@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entdismembermentEffectResource: ISerializable
 ---@field Name CName
 ---@field AppearanceNames CName[]
@@ -11,6 +12,7 @@
 ---@field Effect worldEffect
 ---@field MatchToWoundByName Bool
 entdismembermentEffectResource = {}
+
 
 ---@param fields? entdismembermentEffectResource
 ---@return entdismembermentEffectResource

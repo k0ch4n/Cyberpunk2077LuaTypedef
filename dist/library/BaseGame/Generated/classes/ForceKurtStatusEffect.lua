@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceKurtStatusEffect: AIbehaviortaskScript
 ForceKurtStatusEffect = {}
+
 
 ---@param fields? ForceKurtStatusEffect
 ---@return ForceKurtStatusEffect

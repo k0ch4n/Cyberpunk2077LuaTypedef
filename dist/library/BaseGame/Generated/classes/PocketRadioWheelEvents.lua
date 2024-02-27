@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PocketRadioWheelEvents: QuickSlotsHoldEvents
 PocketRadioWheelEvents = {}
+
 
 ---@param fields? PocketRadioWheelEvents
 ---@return PocketRadioWheelEvents

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CurrencyNotification: GenericNotificationController
 ---@field CurrencyUpdateAnimation CName
 ---@field CurrencyDiff inkTextWidgetReference
@@ -12,6 +13,7 @@
 ---@field uiSystemBB UI_SystemDef
 ---@field uiSystemId redCallbackObject
 CurrencyNotification = {}
+
 
 ---@param fields? CurrencyNotification
 ---@return CurrencyNotification

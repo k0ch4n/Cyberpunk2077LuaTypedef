@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RarityOfEquippedConsumableItemPrereq: gameIScriptablePrereq
 ---@field consumableItemTag CName
 ---@field qualityLessThan gamedataQuality
 RarityOfEquippedConsumableItemPrereq = {}
+
 
 ---@param fields? RarityOfEquippedConsumableItemPrereq
 ---@return RarityOfEquippedConsumableItemPrereq

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewTurnMinigameData
 ---@field position Vector2
 ---@field doConsume Bool
@@ -18,6 +19,7 @@
 ---@field enemyprogramsAdded ProgramData[]
 ---@field enemyprogramsRemoved ProgramData[]
 NewTurnMinigameData = {}
+
 
 ---@param fields? NewTurnMinigameData
 ---@return NewTurnMinigameData

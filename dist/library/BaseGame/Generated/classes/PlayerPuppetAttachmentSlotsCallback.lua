@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayerPuppetAttachmentSlotsCallback: gameAttachmentSlotsScriptCallback
 ---@field player PlayerPuppet
 PlayerPuppetAttachmentSlotsCallback = {}
+
 
 ---@param fields? PlayerPuppetAttachmentSlotsCallback
 ---@return PlayerPuppetAttachmentSlotsCallback

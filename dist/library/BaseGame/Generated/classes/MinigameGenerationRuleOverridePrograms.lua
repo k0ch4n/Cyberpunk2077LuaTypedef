@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MinigameGenerationRuleOverridePrograms: gameuiMinigameGenerationRule
 MinigameGenerationRuleOverridePrograms = {}
+
 
 ---@param fields? MinigameGenerationRuleOverridePrograms
 ---@return MinigameGenerationRuleOverridePrograms

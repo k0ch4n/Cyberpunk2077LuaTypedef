@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MinigameEvents: HighLevelTransition
 MinigameEvents = {}
+
 
 ---@param fields? MinigameEvents
 ---@return MinigameEvents

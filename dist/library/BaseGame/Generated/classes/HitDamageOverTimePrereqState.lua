@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitDamageOverTimePrereqState: GenericHitPrereqState
 HitDamageOverTimePrereqState = {}
+
 
 ---@param fields? HitDamageOverTimePrereqState
 ---@return HitDamageOverTimePrereqState

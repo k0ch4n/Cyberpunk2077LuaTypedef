@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScanningActivatorComponent: entIComponent
 gameScanningActivatorComponent = {}
+
 
 ---@param fields? gameScanningActivatorComponent
 ---@return gameScanningActivatorComponent

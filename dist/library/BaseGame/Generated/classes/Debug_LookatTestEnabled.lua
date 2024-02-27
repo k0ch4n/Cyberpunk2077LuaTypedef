@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Debug_LookatTestEnabled: AIDebugConditions
 Debug_LookatTestEnabled = {}
+
 
 ---@param fields? Debug_LookatTestEnabled
 ---@return Debug_LookatTestEnabled

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkBorderWidgetReference: inkLeafWidgetReference
 inkBorderWidgetReference = {}
+
 
 ---@param fields? inkBorderWidgetReference
 ---@return inkBorderWidgetReference

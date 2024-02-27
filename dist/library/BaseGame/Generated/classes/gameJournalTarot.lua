@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameJournalTarot: gameJournalEntry
 ---@field index Int32
 ---@field name LocalizationString
 ---@field description LocalizationString
 ---@field imagePart CName
 gameJournalTarot = {}
+
 
 ---@param fields? gameJournalTarot
 ---@return gameJournalTarot

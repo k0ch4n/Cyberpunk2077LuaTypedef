@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UiPhoneContextDecisions: InputContextTransitionDecisions
 UiPhoneContextDecisions = {}
+
 
 ---@param fields? UiPhoneContextDecisions
 ---@return UiPhoneContextDecisions

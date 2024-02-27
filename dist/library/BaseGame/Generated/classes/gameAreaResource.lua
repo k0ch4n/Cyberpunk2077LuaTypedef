@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameAreaResource: CResource
 ---@field cookedData gameCookedAreaData[]
 gameAreaResource = {}
+
 
 ---@param fields? gameAreaResource
 ---@return gameAreaResource

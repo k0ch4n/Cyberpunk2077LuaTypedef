@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestListFilterButtonController: inkWidgetLogicController
 ---@field icon inkImageWidgetReference
 ---@field counter inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field hovered Bool
 ---@field active Bool
 QuestListFilterButtonController = {}
+
 
 ---@param fields? QuestListFilterButtonController
 ---@return QuestListFilterButtonController

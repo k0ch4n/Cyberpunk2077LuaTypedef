@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamemappinsRuntimeGenericMappinData: gamemappinsIRuntimeMappinData
 gamemappinsRuntimeGenericMappinData = {}
+
 
 ---@param fields? gamemappinsRuntimeGenericMappinData
 ---@return gamemappinsRuntimeGenericMappinData

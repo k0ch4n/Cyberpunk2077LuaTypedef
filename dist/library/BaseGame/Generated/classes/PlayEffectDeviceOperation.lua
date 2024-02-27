@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PlayEffectDeviceOperation: DeviceOperationBase
 ---@field VFXs SVFXOperationData[]
 ---@field fxInstances SVfxInstanceData[]
 PlayEffectDeviceOperation = {}
+
 
 ---@param fields? PlayEffectDeviceOperation
 ---@return PlayEffectDeviceOperation

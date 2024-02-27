@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GameTimeUtils
 GameTimeUtils = {}
+
 
 ---@param fields? GameTimeUtils
 ---@return GameTimeUtils

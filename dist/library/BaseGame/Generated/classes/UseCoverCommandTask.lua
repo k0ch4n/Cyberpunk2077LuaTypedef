@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class UseCoverCommandTask: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ---@field currentCommand AIUseCoverCommand
 UseCoverCommandTask = {}
+
 
 ---@param fields? UseCoverCommandTask
 ---@return UseCoverCommandTask

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayerCombatControllerDelayCallbacksIds
 ---@field crouch gameDelayID
 PlayerCombatControllerDelayCallbacksIds = {}
+
 
 ---@param fields? PlayerCombatControllerDelayCallbacksIds
 ---@return PlayerCombatControllerDelayCallbacksIds

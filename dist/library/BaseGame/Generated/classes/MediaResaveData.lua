@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MediaResaveData
 ---@field mediaDeviceData MediaDeviceData
 MediaResaveData = {}
+
 
 ---@param fields? MediaResaveData
 ---@return MediaResaveData

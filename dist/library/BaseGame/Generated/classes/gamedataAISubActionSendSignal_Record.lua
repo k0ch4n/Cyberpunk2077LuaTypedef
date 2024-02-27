@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionSendSignal_Record: gamedataAISubAction_Record
 gamedataAISubActionSendSignal_Record = {}
+
 
 ---@param fields? gamedataAISubActionSendSignal_Record
 ---@return gamedataAISubActionSendSignal_Record

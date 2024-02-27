@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CombatGadgetHelper: IScriptable
 CombatGadgetHelper = {}
+
 
 ---@param fields? CombatGadgetHelper
 ---@return CombatGadgetHelper

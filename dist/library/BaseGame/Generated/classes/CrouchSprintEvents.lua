@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CrouchSprintEvents: CrouchEvents
 CrouchSprintEvents = {}
+
 
 ---@param fields? CrouchSprintEvents
 ---@return CrouchSprintEvents

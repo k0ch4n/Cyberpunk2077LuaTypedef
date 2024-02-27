@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendCaptureParameters
 ---@field enable Bool
 ---@field mode rendScreenshotMode
@@ -18,6 +19,7 @@
 ---@field captureContextType rendCaptureContextType
 ---@field saveFormat ESaveFormat
 rendCaptureParameters = {}
+
 
 ---@param fields? rendCaptureParameters
 ---@return rendCaptureParameters

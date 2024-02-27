@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PerkDisplayController: inkButtonController
 ---@field levelText inkTextWidgetReference
 ---@field icon inkImageWidgetReference
@@ -17,6 +18,7 @@
 ---@field cool_in_proxy inkanimProxy
 ---@field cool_out_proxy inkanimProxy
 PerkDisplayController = {}
+
 
 ---@param fields? PerkDisplayController
 ---@return PerkDisplayController

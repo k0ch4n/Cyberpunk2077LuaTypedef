@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCooldownSystemEvent: redEvent
 gameCooldownSystemEvent = {}
+
 
 ---@param fields? gameCooldownSystemEvent
 ---@return gameCooldownSystemEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineStateActionDefinition: gamestateMachineIStateActionDefinition
 gamestateMachineStateActionDefinition = {}
+
 
 ---@param fields? gamestateMachineStateActionDefinition
 ---@return gamestateMachineStateActionDefinition

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameBinkVideoEvent: redEvent
 ---@field videoPath String
 ---@field action gameBinkVideoAction
 gameBinkVideoEvent = {}
+
 
 ---@param fields? gameBinkVideoEvent
 ---@return gameBinkVideoEvent

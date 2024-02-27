@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StatPoolEffector: gameEffector
 StatPoolEffector = {}
+
 
 ---@param fields? StatPoolEffector
 ---@return StatPoolEffector

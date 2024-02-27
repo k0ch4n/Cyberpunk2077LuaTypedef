@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleEQuestVehicleDoorState: Enum
 ---@field ForceOpen Enum 0
 ---@field ForceClose Enum 1

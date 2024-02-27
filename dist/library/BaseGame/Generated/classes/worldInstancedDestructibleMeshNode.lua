@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldInstancedDestructibleMeshNode: worldMeshNode
 ---@field staticMesh CMesh
 ---@field staticMeshAppearance CName
@@ -25,6 +26,7 @@
 ---@field useMeshNavmeshSettings Bool
 ---@field systemsToNotifyFlags Uint16
 worldInstancedDestructibleMeshNode = {}
+
 
 ---@param fields? worldInstancedDestructibleMeshNode
 ---@return worldInstancedDestructibleMeshNode

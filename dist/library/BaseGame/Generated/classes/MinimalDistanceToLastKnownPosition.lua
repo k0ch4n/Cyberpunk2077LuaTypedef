@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class MinimalDistanceToLastKnownPosition: PreventionConditionAbstract
 ---@field desiredDistanceArgument AIArgumentMapping
 ---@field desiredDistance Float
 ---@field preventionSystem PreventionSystem
 MinimalDistanceToLastKnownPosition = {}
+
 
 ---@param fields? MinimalDistanceToLastKnownPosition
 ---@return MinimalDistanceToLastKnownPosition

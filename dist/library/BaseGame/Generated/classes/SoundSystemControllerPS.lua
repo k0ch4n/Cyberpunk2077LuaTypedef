@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SoundSystemControllerPS: MasterControllerPS
 ---@field defaultAction Int32
 ---@field soundSystemSettings SoundSystemSettings[]
 ---@field currentEvent ChangeMusicAction
 ---@field cachedEvent ChangeMusicAction
 SoundSystemControllerPS = {}
+
 
 ---@param fields? SoundSystemControllerPS
 ---@return SoundSystemControllerPS

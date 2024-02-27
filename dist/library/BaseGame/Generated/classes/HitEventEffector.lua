@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitEventEffector: gameEffector
 HitEventEffector = {}
+
 
 ---@param fields? HitEventEffector
 ---@return HitEventEffector

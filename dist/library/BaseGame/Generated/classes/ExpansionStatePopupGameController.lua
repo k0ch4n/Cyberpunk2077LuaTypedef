@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ExpansionStatePopupGameController: gameuiWidgetGameController
 ---@field statusRef inkTextWidgetReference
 ---@field animationName CName
 ExpansionStatePopupGameController = {}
+
 
 ---@param fields? ExpansionStatePopupGameController
 ---@return ExpansionStatePopupGameController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionFailIfFriendlyFire_Record: gamedataAISubAction_Record
 gamedataAISubActionFailIfFriendlyFire_Record = {}
+
 
 ---@param fields? gamedataAISubActionFailIfFriendlyFire_Record
 ---@return gamedataAISubActionFailIfFriendlyFire_Record

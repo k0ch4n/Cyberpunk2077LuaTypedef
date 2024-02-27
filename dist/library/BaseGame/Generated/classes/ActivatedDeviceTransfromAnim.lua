@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ActivatedDeviceTransfromAnim: InteractiveDevice
 ---@field animationState Int32
 ActivatedDeviceTransfromAnim = {}
+
 
 ---@param fields? ActivatedDeviceTransfromAnim
 ---@return ActivatedDeviceTransfromAnim

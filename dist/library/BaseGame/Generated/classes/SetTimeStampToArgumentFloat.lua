@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetTimeStampToArgumentFloat: SetArguments
 SetTimeStampToArgumentFloat = {}
+
 
 ---@param fields? SetTimeStampToArgumentFloat
 ---@return SetTimeStampToArgumentFloat

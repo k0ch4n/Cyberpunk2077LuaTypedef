@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class physicsDestructionLevelData
 ---@field filterData physicsFilterData
 ---@field fracturingEffect worldEffect
 physicsDestructionLevelData = {}
+
 
 ---@param fields? physicsDestructionLevelData
 ---@return physicsDestructionLevelData

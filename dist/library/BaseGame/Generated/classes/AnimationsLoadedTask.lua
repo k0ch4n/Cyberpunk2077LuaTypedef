@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AnimationsLoadedTask: AIbehaviortaskScript
 ---@field coreAnims Bool
 ---@field setSignal Bool
 ---@field melee Bool
 AnimationsLoadedTask = {}
+
 
 ---@param fields? AnimationsLoadedTask
 ---@return AnimationsLoadedTask

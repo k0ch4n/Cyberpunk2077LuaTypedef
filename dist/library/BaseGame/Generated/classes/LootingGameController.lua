@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LootingGameController: gameuiWidgetGameController
 ---@field dataManager InventoryDataManagerV2
 ---@field uiInventorySystem UIInventoryScriptableSystem
@@ -23,6 +24,7 @@
 ---@field previousData gameinteractionsvisLootData
 ---@field lastActiveOwnerId entEntityID
 LootingGameController = {}
+
 
 ---@param fields? LootingGameController
 ---@return LootingGameController

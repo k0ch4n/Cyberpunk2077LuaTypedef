@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entComponentsStorage: ISerializable
 ---@field components entIComponent[]
 entComponentsStorage = {}
+
 
 ---@param fields? entComponentsStorage
 ---@return entComponentsStorage

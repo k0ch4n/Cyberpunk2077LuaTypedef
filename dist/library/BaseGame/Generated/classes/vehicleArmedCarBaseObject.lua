@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleArmedCarBaseObject: vehicleCarBaseObject
 vehicleArmedCarBaseObject = {}
+
 
 ---@param fields? vehicleArmedCarBaseObject
 ---@return vehicleArmedCarBaseObject

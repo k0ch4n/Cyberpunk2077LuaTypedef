@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnPropOwnershipTransferOptionsType: Enum
 ---@field TransferToWorkspotSystem_Automatic Enum 0
 ---@field TransferToWorkspotSystem_Custom Enum 1

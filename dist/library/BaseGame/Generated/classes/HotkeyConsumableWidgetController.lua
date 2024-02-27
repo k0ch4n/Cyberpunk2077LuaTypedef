@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HotkeyConsumableWidgetController: gameuiNewPhoneRelatedHUDGameController
 ---@field radioSlot inkCompoundWidgetReference
 ---@field vehicleCustomizationSlot inkCompoundWidgetReference
@@ -14,6 +15,7 @@
 ---@field statusListener HotkeyRadioStatusListener
 ---@field PlayerEnteredVehicleListener redCallbackObject
 HotkeyConsumableWidgetController = {}
+
 
 ---@param fields? HotkeyConsumableWidgetController
 ---@return HotkeyConsumableWidgetController

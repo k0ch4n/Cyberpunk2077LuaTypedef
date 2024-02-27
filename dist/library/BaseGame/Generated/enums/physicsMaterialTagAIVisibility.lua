@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsMaterialTagAIVisibility: Enum
 ---@field None Enum 0
 ---@field SemiTransparent Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class resDlcManifest: CResource
 ---@field tweakBlob CResource
 ---@field quest CResource
@@ -20,6 +21,7 @@
 ---@field defaultAppearances CResource
 ---@field colorVariantsMap CResource
 resDlcManifest = {}
+
 
 ---@param fields? resDlcManifest
 ---@return resDlcManifest

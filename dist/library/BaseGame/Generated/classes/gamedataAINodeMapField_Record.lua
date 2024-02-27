@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAINodeMapField_Record: gamedataTweakDBRecord
 gamedataAINodeMapField_Record = {}
+
 
 ---@param fields? gamedataAINodeMapField_Record
 ---@return gamedataAINodeMapField_Record

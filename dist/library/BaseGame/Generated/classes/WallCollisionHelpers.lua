@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WallCollisionHelpers: IScriptable
 WallCollisionHelpers = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param playerPosition Vector4

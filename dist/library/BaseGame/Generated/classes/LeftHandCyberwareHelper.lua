@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareHelper: IScriptable
 LeftHandCyberwareHelper = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool

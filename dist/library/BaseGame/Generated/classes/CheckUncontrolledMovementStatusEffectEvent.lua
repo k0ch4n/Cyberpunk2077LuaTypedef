@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CheckUncontrolledMovementStatusEffectEvent: redEvent
 CheckUncontrolledMovementStatusEffectEvent = {}
+
 
 ---@param fields? CheckUncontrolledMovementStatusEffectEvent
 ---@return CheckUncontrolledMovementStatusEffectEvent

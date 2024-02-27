@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class navgendebugHeightfield: ISerializable
 ---@field bounds Box
 ---@field cellSize Float
@@ -13,6 +14,7 @@
 ---@field distancefield Uint16[]
 ---@field maxDistancefieldValue Uint16
 navgendebugHeightfield = {}
+
 
 ---@param fields? navgendebugHeightfield
 ---@return navgendebugHeightfield

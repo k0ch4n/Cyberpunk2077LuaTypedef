@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioRadioStationMetadataMap: audioAudioMetadata
 ---@field radioStations CName[]
 ---@field switchStationEvent CName
@@ -7,6 +8,7 @@
 ---@field turnOffRadioEvent CName
 ---@field defaultBackgroundJingle audioRadioStationJingleMetadata
 audioRadioStationMetadataMap = {}
+
 
 ---@param fields? audioRadioStationMetadataMap
 ---@return audioRadioStationMetadataMap

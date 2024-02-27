@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StatPoolChangeOverTimePrereqState: gamePrereqState
 ---@field statPoolListener BaseStatPoolPrereqListener
 ---@field ownerID gameStatsObjectID
@@ -10,6 +11,7 @@
 ---@field history ChangeInfoWithTimeStamp[]
 ---@field GameInstance ScriptGameInstance
 StatPoolChangeOverTimePrereqState = {}
+
 
 ---@param fields? StatPoolChangeOverTimePrereqState
 ---@return StatPoolChangeOverTimePrereqState

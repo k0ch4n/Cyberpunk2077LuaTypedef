@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ItemInPaperdollSlotCallback: gameAttachmentSlotsScriptCallback
 ---@field paperdollPuppet gamePuppet
 ItemInPaperdollSlotCallback = {}
+
 
 ---@param fields? ItemInPaperdollSlotCallback
 ---@return ItemInPaperdollSlotCallback

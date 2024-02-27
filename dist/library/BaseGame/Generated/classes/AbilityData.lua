@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AbilityData
 ---@field Empty Bool
 ---@field ID gameItemID
@@ -12,6 +13,7 @@
 ---@field GameItemData gameItemData
 ---@field AssignedIndex Int32
 AbilityData = {}
+
 
 ---@param fields? AbilityData
 ---@return AbilityData

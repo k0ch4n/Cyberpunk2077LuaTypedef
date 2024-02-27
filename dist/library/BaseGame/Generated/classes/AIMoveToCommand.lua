@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIMoveToCommand: AIMoveCommand
 ---@field movementTarget AIPositionSpec
 ---@field rotateEntityTowardsFacingTarget Bool
@@ -11,6 +12,7 @@
 ---@field desiredDistanceFromTarget Float
 ---@field finishWhenDestinationReached Bool
 AIMoveToCommand = {}
+
 
 ---@param fields? AIMoveToCommand
 ---@return AIMoveToCommand

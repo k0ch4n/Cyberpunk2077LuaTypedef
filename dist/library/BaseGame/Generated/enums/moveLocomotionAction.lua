@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class moveLocomotionAction: Enum
 ---@field Undefined Enum 0
 ---@field Exploration Enum 1

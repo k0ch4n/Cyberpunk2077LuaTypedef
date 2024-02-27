@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CustomEventCondition: AISignalCondition
 ---@field eventName CName
 CustomEventCondition = {}
+
 
 ---@param fields? CustomEventCondition
 ---@return CustomEventCondition

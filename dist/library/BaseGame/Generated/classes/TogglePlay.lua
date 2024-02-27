@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TogglePlay: ActionBool
 TogglePlay = {}
+
 
 ---@param fields? TogglePlay
 ---@return TogglePlay

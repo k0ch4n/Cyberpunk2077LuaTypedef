@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProgressionNotification: GenericNotificationController
 ---@field progression_data gameuiProgressionViewData
 ---@field expBar inkWidgetReference
@@ -14,6 +15,7 @@
 ---@field animationProxy inkanimProxy
 ---@field barAnimationProxy inkanimProxy
 ProgressionNotification = {}
+
 
 ---@param fields? ProgressionNotification
 ---@return ProgressionNotification

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuItemDelayedUpdate: redEvent
 MenuItemDelayedUpdate = {}
+
 
 ---@param fields? MenuItemDelayedUpdate
 ---@return MenuItemDelayedUpdate

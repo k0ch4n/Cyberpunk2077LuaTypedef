@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OnUnstoppableStateSignal: gameTaggedSignalUserData
 OnUnstoppableStateSignal = {}
+
 
 ---@param fields? OnUnstoppableStateSignal
 ---@return OnUnstoppableStateSignal

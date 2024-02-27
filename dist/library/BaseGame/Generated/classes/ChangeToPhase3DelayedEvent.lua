@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ChangeToPhase3DelayedEvent: DelayEvent
 ChangeToPhase3DelayedEvent = {}
+
 
 ---@param fields? ChangeToPhase3DelayedEvent
 ---@return ChangeToPhase3DelayedEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SecuritySystemEnabled: redEvent
 SecuritySystemEnabled = {}
+
 
 ---@param fields? SecuritySystemEnabled
 ---@return SecuritySystemEnabled

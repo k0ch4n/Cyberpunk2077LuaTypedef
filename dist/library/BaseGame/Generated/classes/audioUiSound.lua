@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class audioUiSound
 ---@field events CName[]
 audioUiSound = {}
+
 
 ---@param fields? audioUiSound
 ---@return audioUiSound

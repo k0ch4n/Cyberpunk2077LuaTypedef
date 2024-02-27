@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UILocalizationMap: IScriptable
 ---@field map UILocRecord[]
 UILocalizationMap = {}
+
 
 ---@param fields? UILocalizationMap
 ---@return UILocalizationMap

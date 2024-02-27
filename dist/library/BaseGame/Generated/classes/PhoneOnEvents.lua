@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PhoneOnEvents: ComDeviceTransition
 PhoneOnEvents = {}
+
 
 ---@param fields? PhoneOnEvents
 ---@return PhoneOnEvents

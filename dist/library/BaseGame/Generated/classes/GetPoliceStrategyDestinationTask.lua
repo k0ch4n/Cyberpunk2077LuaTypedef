@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GetPoliceStrategyDestinationTask: AIbehaviortaskScript
 GetPoliceStrategyDestinationTask = {}
+
 
 ---@param fields? GetPoliceStrategyDestinationTask
 ---@return GetPoliceStrategyDestinationTask

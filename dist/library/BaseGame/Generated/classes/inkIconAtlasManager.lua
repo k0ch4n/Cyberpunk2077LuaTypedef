@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkIconAtlasManager: inkIIconAtlasManager
 inkIconAtlasManager = {}
+
 
 ---@param fields? inkIconAtlasManager
 ---@return inkIconAtlasManager

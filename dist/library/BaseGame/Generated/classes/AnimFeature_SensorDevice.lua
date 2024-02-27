@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_SensorDevice: animAnimFeature
 ---@field isCeiling Bool
 ---@field isInitialized Bool
@@ -15,6 +16,7 @@
 ---@field rotationSpeed Float
 ---@field currentRotation Vector4
 AnimFeature_SensorDevice = {}
+
 
 ---@param fields? AnimFeature_SensorDevice
 ---@return AnimFeature_SensorDevice

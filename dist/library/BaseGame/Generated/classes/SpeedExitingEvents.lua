@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SpeedExitingEvents: ExitingEvents
 ---@field exitForce Vector4
 SpeedExitingEvents = {}
+
 
 ---@param fields? SpeedExitingEvents
 ---@return SpeedExitingEvents

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PreventionDamage: gameScriptableSystemRequest
 ---@field target gameObject
 ---@field attackTime Float
@@ -7,6 +8,7 @@
 ---@field damageDealtPercent Float
 ---@field isTargetKilled Bool
 PreventionDamage = {}
+
 
 ---@param fields? PreventionDamage
 ---@return PreventionDamage

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class workSetSequenceCategoriesCommandData: workIWorkspotCommandData
 ---@field sequenceCategories gameCategorySelectionProbability
 workSetSequenceCategoriesCommandData = {}
+
 
 ---@param fields? workSetSequenceCategoriesCommandData
 ---@return workSetSequenceCategoriesCommandData

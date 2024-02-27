@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GrenadeLookAtDecisions: lookAtPresetItemBaseDecisions
 GrenadeLookAtDecisions = {}
+
 
 ---@param fields? GrenadeLookAtDecisions
 ---@return GrenadeLookAtDecisions

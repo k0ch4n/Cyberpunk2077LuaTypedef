@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GunnerDecisions: VehicleTransition
 GunnerDecisions = {}
+
 
 ---@param fields? GunnerDecisions
 ---@return GunnerDecisions

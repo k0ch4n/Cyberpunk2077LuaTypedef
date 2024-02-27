@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class DisplayGlassControllerPS: ScriptableDeviceComponentPS
 ---@field isTinted Bool
 ---@field useAppearances Bool
 ---@field clearAppearance CName
 ---@field tintedAppearance CName
 DisplayGlassControllerPS = {}
+
 
 ---@param fields? DisplayGlassControllerPS
 ---@return DisplayGlassControllerPS

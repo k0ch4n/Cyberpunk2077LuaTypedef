@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataBikeDriveModelData_Record: gamedataVehicleDriveModelData_Record
 gamedataBikeDriveModelData_Record = {}
+
 
 ---@param fields? gamedataBikeDriveModelData_Record
 ---@return gamedataBikeDriveModelData_Record

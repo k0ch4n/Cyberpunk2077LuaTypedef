@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetFinalComboHitsReceivedRequest: gameScriptableSystemRequest
 ResetFinalComboHitsReceivedRequest = {}
+
 
 ---@param fields? ResetFinalComboHitsReceivedRequest
 ---@return ResetFinalComboHitsReceivedRequest

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CheckDeadPuppetDisposedEvent: redEvent
 CheckDeadPuppetDisposedEvent = {}
+
 
 ---@param fields? CheckDeadPuppetDisposedEvent
 ---@return CheckDeadPuppetDisposedEvent

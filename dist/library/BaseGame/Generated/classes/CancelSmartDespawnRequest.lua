@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CancelSmartDespawnRequest: redEvent
 CancelSmartDespawnRequest = {}
+
 
 ---@param fields? CancelSmartDespawnRequest
 ---@return CancelSmartDespawnRequest

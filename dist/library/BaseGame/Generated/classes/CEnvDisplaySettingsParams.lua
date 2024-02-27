@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CEnvDisplaySettingsParams
 ---@field enableInstantAdaptation Bool
 ---@field enableGlobalLightingTrajectory Bool
@@ -15,6 +16,7 @@
 ---@field allowWaterShader Bool
 ---@field gamma Float
 CEnvDisplaySettingsParams = {}
+
 
 ---@param fields? CEnvDisplaySettingsParams
 ---@return CEnvDisplaySettingsParams

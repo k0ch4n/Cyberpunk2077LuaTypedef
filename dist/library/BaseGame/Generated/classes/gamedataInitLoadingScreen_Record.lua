@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataInitLoadingScreen_Record: gamedataTweakDBRecord
 gamedataInitLoadingScreen_Record = {}
+
 
 ---@param fields? gamedataInitLoadingScreen_Record
 ---@return gamedataInitLoadingScreen_Record

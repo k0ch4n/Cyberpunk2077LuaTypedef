@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class toolsEditorObjectIDPath
 ---@field elements EditorObjectID[]
 toolsEditorObjectIDPath = {}
+
 
 ---@param fields? toolsEditorObjectIDPath
 ---@return toolsEditorObjectIDPath

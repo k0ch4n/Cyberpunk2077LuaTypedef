@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EquipCycleDecisions: EquipmentBaseDecisions
 ---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
 EquipCycleDecisions = {}
+
 
 ---@param fields? EquipCycleDecisions
 ---@return EquipCycleDecisions

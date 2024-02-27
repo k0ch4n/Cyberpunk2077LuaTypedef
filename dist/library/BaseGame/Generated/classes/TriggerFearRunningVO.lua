@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TriggerFearRunningVO: AIbehaviortaskScript
 TriggerFearRunningVO = {}
+
 
 ---@param fields? TriggerFearRunningVO
 ---@return TriggerFearRunningVO

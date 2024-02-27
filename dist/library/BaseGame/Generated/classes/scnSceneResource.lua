@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnSceneResource: CResource
 ---@field entryPoints scnEntryPoint[]
 ---@field exitPoints scnExitPoint[]
@@ -27,6 +28,7 @@
 ---@field sceneCategoryTag scnSceneCategoryTag
 ---@field debugSymbols scnDebugSymbols
 scnSceneResource = {}
+
 
 ---@param fields? scnSceneResource
 ---@return scnSceneResource

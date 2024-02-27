@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RoadBlockTrapController: MasterController
 RoadBlockTrapController = {}
+
 
 ---@param fields? RoadBlockTrapController
 ---@return RoadBlockTrapController

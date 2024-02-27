@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class forklift: InteractiveDevice
 ---@field reversed Bool
 ---@field animFeature AnimFeature_ForkliftDevice
@@ -7,6 +8,7 @@
 ---@field isPlayerUnder Bool
 ---@field cargoBox entPhysicalMeshComponent
 forklift = {}
+
 
 ---@param fields? forklift
 ---@return forklift

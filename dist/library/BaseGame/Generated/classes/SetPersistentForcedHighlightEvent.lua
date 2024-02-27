@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SetPersistentForcedHighlightEvent: redEvent
 ---@field sourceName CName
 ---@field highlightData HighlightEditableData
 ---@field operation EToggleOperationType
 SetPersistentForcedHighlightEvent = {}
+
 
 ---@param fields? SetPersistentForcedHighlightEvent
 ---@return SetPersistentForcedHighlightEvent

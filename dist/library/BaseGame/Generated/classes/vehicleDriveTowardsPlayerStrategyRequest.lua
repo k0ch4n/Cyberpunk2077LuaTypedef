@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleDriveTowardsPlayerStrategyRequest: vehicleBaseStrategyRequest
 vehicleDriveTowardsPlayerStrategyRequest = {}
+
 
 ---@param fields? vehicleDriveTowardsPlayerStrategyRequest
 ---@return vehicleDriveTowardsPlayerStrategyRequest

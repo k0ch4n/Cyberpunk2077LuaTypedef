@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameBinkMeshTargetBinding: entISourceBinding
 gameBinkMeshTargetBinding = {}
+
 
 ---@param fields? gameBinkMeshTargetBinding
 ---@return gameBinkMeshTargetBinding

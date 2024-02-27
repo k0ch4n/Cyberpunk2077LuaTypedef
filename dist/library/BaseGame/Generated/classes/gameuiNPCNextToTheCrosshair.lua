@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiNPCNextToTheCrosshair
 ---@field npc gameObject
 ---@field name String
@@ -16,6 +17,7 @@
 ---@field playerDetectionAboveZero Bool
 ---@field playerDetectionAtMax Bool
 gameuiNPCNextToTheCrosshair = {}
+
 
 ---@param fields? gameuiNPCNextToTheCrosshair
 ---@return gameuiNPCNextToTheCrosshair

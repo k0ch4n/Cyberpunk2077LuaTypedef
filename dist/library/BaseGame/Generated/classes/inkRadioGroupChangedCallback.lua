@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkRadioGroupChangedCallback: inkCallbackBase
 inkRadioGroupChangedCallback = {}
+
 
 ---@param fields? inkRadioGroupChangedCallback
 ---@return inkRadioGroupChangedCallback

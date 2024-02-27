@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HUDActorType: Enum
 ---@field UNINITIALIZED Enum 0
 ---@field GAME_OBJECT Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NotifyShardRead: redEvent
 ---@field entry gameJournalOnscreen
 ---@field title String
@@ -8,6 +9,7 @@
 ---@field itemID gameItemID
 ---@field imageId TweakDBID
 NotifyShardRead = {}
+
 
 ---@param fields? NotifyShardRead
 ---@return NotifyShardRead

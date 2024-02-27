@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PreviousStation: ActionBool
 PreviousStation = {}
+
 
 ---@param fields? PreviousStation
 ---@return PreviousStation

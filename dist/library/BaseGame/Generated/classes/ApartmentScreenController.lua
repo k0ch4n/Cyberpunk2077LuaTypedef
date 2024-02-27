@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ApartmentScreenController: LcdScreenController
 ApartmentScreenController = {}
+
 
 ---@param fields? ApartmentScreenController
 ---@return ApartmentScreenController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIAutonomousConditions: AIbehaviorconditionScript
 AIAutonomousConditions = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool

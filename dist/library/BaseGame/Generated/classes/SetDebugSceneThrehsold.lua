@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetDebugSceneThrehsold: gameScriptableSystemRequest
 ---@field newThreshold Int32
 SetDebugSceneThrehsold = {}
+
 
 ---@param fields? SetDebugSceneThrehsold
 ---@return SetDebugSceneThrehsold

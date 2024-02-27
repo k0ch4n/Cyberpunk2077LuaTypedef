@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HitReactionComponent: AIMandatoryComponents
 ---@field ownerNPC NPCPuppet
 ---@field ownerPuppet ScriptedPuppet
@@ -131,6 +132,7 @@
 ---@field invalidForExecuteDismember Bool
 ---@field hitReactionData animAnimFeature_HitReactionsData
 HitReactionComponent = {}
+
 
 ---@param fields? HitReactionComponent
 ---@return HitReactionComponent

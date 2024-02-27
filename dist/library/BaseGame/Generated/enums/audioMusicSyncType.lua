@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioMusicSyncType: Enum
 ---@field Beat Enum 1
 ---@field Bar Enum 0

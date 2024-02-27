@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisableAllWorldInteractionsNotEnabledPrereq: gameIScriptablePrereq
 DisableAllWorldInteractionsNotEnabledPrereq = {}
+
 
 ---@param fields? DisableAllWorldInteractionsNotEnabledPrereq
 ---@return DisableAllWorldInteractionsNotEnabledPrereq

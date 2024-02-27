@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DLCSettingsVarListener: userSettingsVarListener
 ---@field ctrl DlcDescriptionController
 DLCSettingsVarListener = {}
+
 
 ---@param fields? DLCSettingsVarListener
 ---@return DLCSettingsVarListener

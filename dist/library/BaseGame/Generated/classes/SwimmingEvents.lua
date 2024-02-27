@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SwimmingEvents: HighLevelTransition
 SwimmingEvents = {}
+
 
 ---@param fields? SwimmingEvents
 ---@return SwimmingEvents

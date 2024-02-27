@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJoinTrafficNPCContext
 ---@field startPosition Vector3
 ---@field threatPosition Vector3
@@ -7,6 +8,7 @@
 ---@field checkRoadIntersection Bool
 ---@field usePreviousPosition Bool
 gameJoinTrafficNPCContext = {}
+
 
 ---@param fields? gameJoinTrafficNPCContext
 ---@return gameJoinTrafficNPCContext

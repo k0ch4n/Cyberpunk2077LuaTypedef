@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InventoryItemDataComparator: IScriptable
 InventoryItemDataComparator = {}
+
 
 ---@param fields? InventoryItemDataComparator
 ---@return InventoryItemDataComparator

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIForcedBehaviourPriority: Enum
 ---@field AboveIdle Enum 0
 ---@field AboveCombat Enum 1

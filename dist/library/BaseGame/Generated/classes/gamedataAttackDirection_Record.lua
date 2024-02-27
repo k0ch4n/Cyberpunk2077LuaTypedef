@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAttackDirection_Record: gamedataTweakDBRecord
 gamedataAttackDirection_Record = {}
+
 
 ---@param fields? gamedataAttackDirection_Record
 ---@return gamedataAttackDirection_Record

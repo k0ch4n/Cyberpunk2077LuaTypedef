@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameprojectileSpiralParams: IScriptable
 ---@field enabled Bool
 ---@field radius Float
@@ -13,6 +14,7 @@
 ---@field randomizePhase Bool
 ---@field randomizeDirection Bool
 gameprojectileSpiralParams = {}
+
 
 ---@param fields? gameprojectileSpiralParams
 ---@return gameprojectileSpiralParams

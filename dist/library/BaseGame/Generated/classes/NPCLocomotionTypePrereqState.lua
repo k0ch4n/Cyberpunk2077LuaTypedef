@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NPCLocomotionTypePrereqState: gamePrereqState
 ---@field owner gameObject
 ---@field listenerInt redCallbackObject
 NPCLocomotionTypePrereqState = {}
+
 
 ---@param fields? NPCLocomotionTypePrereqState
 ---@return NPCLocomotionTypePrereqState

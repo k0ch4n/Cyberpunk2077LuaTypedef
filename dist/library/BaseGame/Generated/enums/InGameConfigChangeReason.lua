@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InGameConfigChangeReason: Enum
 ---@field Invalid Enum -1
 ---@field Accepted Enum 0

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionThrowItem_Record_Implementation: IScriptable
 AISubActionThrowItem_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionThrowItem_Record

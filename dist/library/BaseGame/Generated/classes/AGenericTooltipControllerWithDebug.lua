@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AGenericTooltipControllerWithDebug: AGenericTooltipController
 ---@field DEBUG_showDebug Bool
 ---@field DEBUG_openInVSCode Bool
 ---@field DEBUG_openInVSCodeBlocked Bool
 AGenericTooltipControllerWithDebug = {}
+
 
 ---@param evt inkPointerEvent
 ---@return Bool

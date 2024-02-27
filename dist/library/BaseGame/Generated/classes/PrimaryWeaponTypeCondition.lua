@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PrimaryWeaponTypeCondition: workIScriptedCondition
 ---@field weaponType WorkspotWeaponConditionEnum
 PrimaryWeaponTypeCondition = {}
+
 
 ---@param fields? PrimaryWeaponTypeCondition
 ---@return PrimaryWeaponTypeCondition

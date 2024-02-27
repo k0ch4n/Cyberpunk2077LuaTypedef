@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animSBehaviorConstraintNodeFloorIKLeg
 animSBehaviorConstraintNodeFloorIKLeg = {}
+
 
 ---@param fields? animSBehaviorConstraintNodeFloorIKLeg
 ---@return animSBehaviorConstraintNodeFloorIKLeg

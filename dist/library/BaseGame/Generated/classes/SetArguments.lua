@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetArguments: AIbehaviortaskScript
 ---@field argumentVar CName
 SetArguments = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return String

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SetPreventionDifficulty: gameScriptableSystemRequest
 ---@field damageDealtToPlayerMultiplier Float
 ---@field chaseAggressivnessMultiplier Float
 ---@field difficuiltyReset Bool
 ---@field source CName
 SetPreventionDifficulty = {}
+
 
 ---@param fields? SetPreventionDifficulty
 ---@return SetPreventionDifficulty

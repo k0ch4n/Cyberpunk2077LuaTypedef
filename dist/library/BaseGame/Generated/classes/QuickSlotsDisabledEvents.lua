@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickSlotsDisabledEvents: QuickSlotsEvents
 QuickSlotsDisabledEvents = {}
+
 
 ---@param fields? QuickSlotsDisabledEvents
 ---@return QuickSlotsDisabledEvents

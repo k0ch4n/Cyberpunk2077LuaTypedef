@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BaseAnimatedDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field isActive Bool
 ---@field hasInteraction Bool
@@ -7,6 +8,7 @@
 ---@field nameForActivation TweakDBID
 ---@field nameForDeactivation TweakDBID
 BaseAnimatedDeviceControllerPS = {}
+
 
 ---@param fields? BaseAnimatedDeviceControllerPS
 ---@return BaseAnimatedDeviceControllerPS

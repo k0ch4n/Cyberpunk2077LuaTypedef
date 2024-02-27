@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class InteractiveAdControllerPS: ScriptableDeviceComponentPS
 ---@field showAd Bool
 ---@field showVendor Bool
 ---@field locationAdded Bool
 InteractiveAdControllerPS = {}
+
 
 ---@param fields? InteractiveAdControllerPS
 ---@return InteractiveAdControllerPS

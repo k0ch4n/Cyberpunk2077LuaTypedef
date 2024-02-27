@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetLastPlayerPositionByDefault: AIbehaviortaskScript
 SetLastPlayerPositionByDefault = {}
+
 
 ---@param fields? SetLastPlayerPositionByDefault
 ---@return SetLastPlayerPositionByDefault

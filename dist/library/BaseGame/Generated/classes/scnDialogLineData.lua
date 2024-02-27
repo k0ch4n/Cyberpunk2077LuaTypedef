@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnDialogLineData
 ---@field id CRUID
 ---@field text String
@@ -9,6 +10,7 @@
 ---@field isPersistent Bool
 ---@field duration Float
 scnDialogLineData = {}
+
 
 ---@param fields? scnDialogLineData
 ---@return scnDialogLineData

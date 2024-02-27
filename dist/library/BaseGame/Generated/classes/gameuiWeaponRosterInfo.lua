@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiWeaponRosterInfo
 ---@field ammoCurrent Int32
 ---@field ammoMagazine Int32
@@ -9,6 +10,7 @@
 ---@field damageTypeList gamedataDamageType[]
 ---@field weaponId Int32
 gameuiWeaponRosterInfo = {}
+
 
 ---@param fields? gameuiWeaponRosterInfo
 ---@return gameuiWeaponRosterInfo

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class enteventsPhysicalCollisionEvent: redEvent
 ---@field myComponent IScriptable
 ---@field otherEntity IScriptable
@@ -9,6 +10,7 @@
 ---@field deltaVelocity Vector4
 ---@field impulse Float
 enteventsPhysicalCollisionEvent = {}
+
 
 ---@param fields? enteventsPhysicalCollisionEvent
 ---@return enteventsPhysicalCollisionEvent

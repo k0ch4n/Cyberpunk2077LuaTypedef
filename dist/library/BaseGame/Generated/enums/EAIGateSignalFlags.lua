@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAIGateSignalFlags: Enum
 ---@field AIGSF_Undefined Enum 0
 ---@field AIGSF_OverridesSelf Enum 1

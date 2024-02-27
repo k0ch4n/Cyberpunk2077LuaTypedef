@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IntComparator: IScriptable
 IntComparator = {}
+
 
 ---@param fields? IntComparator
 ---@return IntComparator

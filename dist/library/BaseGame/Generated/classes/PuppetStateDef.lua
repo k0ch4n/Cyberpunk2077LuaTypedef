@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PuppetStateDef: gamebbScriptDefinition
 ---@field HighLevel gamebbScriptID_Int32
 ---@field UpperBody gamebbScriptID_Int32
@@ -21,6 +22,7 @@
 ---@field IsBodyDisposed gamebbScriptID_Bool
 ---@field DetectionPercentage gamebbScriptID_Float
 PuppetStateDef = {}
+
 
 ---@param fields? PuppetStateDef
 ---@return PuppetStateDef

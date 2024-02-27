@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worlduiWorldLayerWidget: inkIWidgetComponentWrapper
 worlduiWorldLayerWidget = {}
+
 
 ---@param fields? worlduiWorldLayerWidget
 ---@return worlduiWorldLayerWidget

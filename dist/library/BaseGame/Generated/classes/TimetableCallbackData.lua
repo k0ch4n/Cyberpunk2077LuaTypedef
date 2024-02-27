@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class TimetableCallbackData: IScriptable
 ---@field time SSimpleGameTime
 ---@field recipients RecipientData[]
 ---@field callbackID Uint32
 TimetableCallbackData = {}
+
 
 ---@param fields? TimetableCallbackData
 ---@return TimetableCallbackData

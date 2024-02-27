@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeatureDoor: animAnimFeature
 ---@field progress Float
 ---@field openingSpeed Float
@@ -7,6 +8,7 @@
 ---@field doorSide Int32
 ---@field malfunctioning Int32
 AnimFeatureDoor = {}
+
 
 ---@param fields? AnimFeatureDoor
 ---@return AnimFeatureDoor

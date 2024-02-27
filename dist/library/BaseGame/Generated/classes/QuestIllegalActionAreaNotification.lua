@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuestIllegalActionAreaNotification: redEvent
 ---@field revealPlayerSettings RevealPlayerSettings
 QuestIllegalActionAreaNotification = {}
+
 
 ---@param fields? QuestIllegalActionAreaNotification
 ---@return QuestIllegalActionAreaNotification

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DoorSetup
 ---@field doorType EDoorType
 ---@field doorTypeSideOne EDoorType
@@ -20,6 +21,7 @@
 ---@field paymentRecordID TweakDBID
 ---@field exposeQuickHacksIfNotConnectedToAP Bool
 DoorSetup = {}
+
 
 ---@param fields? DoorSetup
 ---@return DoorSetup

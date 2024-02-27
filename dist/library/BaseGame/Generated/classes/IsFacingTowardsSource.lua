@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class IsFacingTowardsSource: gameEffectObjectSingleFilter_Scripted
 ---@field applyForPlayer Bool
 ---@field applyForNPCs Bool
@@ -7,6 +8,7 @@
 ---@field maxAllowedAngleYaw Float
 ---@field maxAllowedAnglePitch Float
 IsFacingTowardsSource = {}
+
 
 ---@param fields? IsFacingTowardsSource
 ---@return IsFacingTowardsSource

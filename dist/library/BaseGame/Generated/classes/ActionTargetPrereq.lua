@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ActionTargetPrereq: gameIScriptablePrereq
 ---@field targetRecord gamedataAIActionTarget_Record
 ---@field invert Bool
 ActionTargetPrereq = {}
+
 
 ---@param fields? ActionTargetPrereq
 ---@return ActionTargetPrereq

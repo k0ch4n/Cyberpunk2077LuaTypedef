@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class enteventsTriggerDestructionEvent: redEvent
 ---@field velocity Float
 enteventsTriggerDestructionEvent = {}
+
 
 ---@param fields? enteventsTriggerDestructionEvent
 ---@return enteventsTriggerDestructionEvent

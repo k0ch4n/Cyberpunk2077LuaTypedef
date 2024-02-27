@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PreCrouchLowGravityDecisions: LocomotionGroundDecisions
 PreCrouchLowGravityDecisions = {}
+
 
 ---@param fields? PreCrouchLowGravityDecisions
 ---@return PreCrouchLowGravityDecisions

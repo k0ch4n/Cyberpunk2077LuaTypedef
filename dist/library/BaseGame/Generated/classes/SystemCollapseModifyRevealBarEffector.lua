@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SystemCollapseModifyRevealBarEffector: gameEffector
 ---@field value Float
 SystemCollapseModifyRevealBarEffector = {}
+
 
 ---@param fields? SystemCollapseModifyRevealBarEffector
 ---@return SystemCollapseModifyRevealBarEffector

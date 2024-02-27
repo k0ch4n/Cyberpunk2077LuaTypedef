@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetPoliceVehicleAsLastKnownPosition: AIbehaviortaskScript
 SetPoliceVehicleAsLastKnownPosition = {}
+
 
 ---@param fields? SetPoliceVehicleAsLastKnownPosition
 ---@return SetPoliceVehicleAsLastKnownPosition

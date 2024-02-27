@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NPCStoppingDetectionEvent: redEvent
 NPCStoppingDetectionEvent = {}
+
 
 ---@param fields? NPCStoppingDetectionEvent
 ---@return NPCStoppingDetectionEvent

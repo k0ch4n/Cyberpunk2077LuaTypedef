@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRegular_Record: gamedataProjectileLaunch_Record
 gamedataRegular_Record = {}
+
 
 ---@param fields? gamedataRegular_Record
 ---@return gamedataRegular_Record

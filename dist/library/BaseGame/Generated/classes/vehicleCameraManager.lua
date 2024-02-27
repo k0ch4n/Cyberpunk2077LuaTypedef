@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleCameraManager: IScriptable
 vehicleCameraManager = {}
+
 
 ---@param fields? vehicleCameraManager
 ---@return vehicleCameraManager

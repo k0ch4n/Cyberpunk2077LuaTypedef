@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animFacialEmotionTransitionBaked
 ---@field toIdleMale CName
 ---@field facialKey_Male CName
@@ -13,6 +14,7 @@
 ---@field facialKeyWeight Float
 ---@field customTransitionAnim CName
 animFacialEmotionTransitionBaked = {}
+
 
 ---@param fields? animFacialEmotionTransitionBaked
 ---@return animFacialEmotionTransitionBaked

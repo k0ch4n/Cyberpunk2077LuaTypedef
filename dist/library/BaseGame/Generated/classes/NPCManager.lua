@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NPCManager: IScriptable
 ---@field owner NPCPuppet
 NPCManager = {}
+
 
 ---@param fields? NPCManager
 ---@return NPCManager

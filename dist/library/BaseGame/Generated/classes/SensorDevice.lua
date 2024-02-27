@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SensorDevice: ExplosiveDevice
 ---@field attitudeAgent gameAttitudeAgent
 ---@field senseComponent senseComponent
@@ -76,6 +77,7 @@
 ---@field minYaw Float
 ---@field maxYaw Float
 SensorDevice = {}
+
 
 ---@param fields? SensorDevice
 ---@return SensorDevice

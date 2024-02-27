@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_FindServers: MenuScenario_PreGameSubMenu
 MenuScenario_FindServers = {}
+
 
 ---@param fields? MenuScenario_FindServers
 ---@return MenuScenario_FindServers

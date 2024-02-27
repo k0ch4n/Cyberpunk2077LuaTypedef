@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workAnimObjectDebuggerCommandData: workDebuggerCommandData
 workAnimObjectDebuggerCommandData = {}
+
 
 ---@param fields? workAnimObjectDebuggerCommandData
 ---@return workAnimObjectDebuggerCommandData

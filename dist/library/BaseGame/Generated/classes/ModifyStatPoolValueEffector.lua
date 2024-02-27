@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ModifyStatPoolValueEffector: HitEventEffector
 ---@field statPoolUpdates gamedataStatPoolUpdate_Record[]
 ---@field usePercent Bool
 ---@field applicationTarget CName
 ---@field setValue Bool
 ModifyStatPoolValueEffector = {}
+
 
 ---@param fields? ModifyStatPoolValueEffector
 ---@return ModifyStatPoolValueEffector

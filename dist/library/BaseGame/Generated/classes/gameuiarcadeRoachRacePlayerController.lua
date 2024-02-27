@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiarcadeRoachRacePlayerController: inkWidgetLogicController
 ---@field collider gameuiarcadeBoundingRect
 ---@field singleJumpBoost Vector2
@@ -23,6 +24,7 @@
 ---@field carrotPowerupStartSFX CName
 ---@field carrotPowerupStopSFX CName
 gameuiarcadeRoachRacePlayerController = {}
+
 
 ---@param fields? gameuiarcadeRoachRacePlayerController
 ---@return gameuiarcadeRoachRacePlayerController

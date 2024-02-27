@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FuseControllerPS: MasterControllerPS
 ---@field timeTableSetup DeviceTimeTableManager
 ---@field maxLightsSwitchedAtOnce Int32
@@ -11,6 +12,7 @@
 ---@field alternativeNameForUnpower TweakDBID
 ---@field isCLSInitialized Bool
 FuseControllerPS = {}
+
 
 ---@param fields? FuseControllerPS
 ---@return FuseControllerPS

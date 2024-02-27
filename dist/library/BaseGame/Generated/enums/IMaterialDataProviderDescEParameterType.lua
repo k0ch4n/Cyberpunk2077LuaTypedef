@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class IMaterialDataProviderDescEParameterType: Enum
 ---@field PT_None Enum 0
 ---@field PT_Texture Enum 1

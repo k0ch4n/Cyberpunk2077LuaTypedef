@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnChangeIdleAnimEvent: scnPlayAnimEvent
 ---@field idleAnimName CName
 ---@field addIdleAnimName CName
@@ -8,6 +9,7 @@
 ---@field bakedFacialTransition animFacialEmotionTransitionBaked
 ---@field facialInstantTransition Bool
 scnChangeIdleAnimEvent = {}
+
 
 ---@param fields? scnChangeIdleAnimEvent
 ---@return scnChangeIdleAnimEvent

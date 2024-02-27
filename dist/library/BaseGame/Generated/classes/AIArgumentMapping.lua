@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIArgumentMapping: IScriptable
 ---@field type AIArgumentType
 ---@field parameterizationType AIParameterizationType
@@ -7,6 +8,7 @@
 ---@field prefixValue AIArgumentMapping
 ---@field customTypeName CName
 AIArgumentMapping = {}
+
 
 ---@param fields? AIArgumentMapping
 ---@return AIArgumentMapping

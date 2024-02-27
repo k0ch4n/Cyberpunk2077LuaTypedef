@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleBrandFilterLogicController: BaseButtonView
 ---@field brandLogo inkImageWidgetReference
 ---@field brandText inkTextWidgetReference
@@ -10,6 +11,7 @@
 ---@field styleWidget inkWidget
 ---@field newOffers CName[]
 VehicleBrandFilterLogicController = {}
+
 
 ---@param fields? VehicleBrandFilterLogicController
 ---@return VehicleBrandFilterLogicController

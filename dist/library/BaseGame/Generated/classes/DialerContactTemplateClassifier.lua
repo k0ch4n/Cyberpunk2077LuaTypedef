@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DialerContactTemplateClassifier: inkVirtualItemTemplateClassifierWrapper
 DialerContactTemplateClassifier = {}
+
 
 ---@param fields? DialerContactTemplateClassifier
 ---@return DialerContactTemplateClassifier

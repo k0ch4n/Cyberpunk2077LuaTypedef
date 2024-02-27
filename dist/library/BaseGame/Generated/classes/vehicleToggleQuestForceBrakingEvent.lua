@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleToggleQuestForceBrakingEvent: redEvent
 vehicleToggleQuestForceBrakingEvent = {}
+
 
 ---@param fields? vehicleToggleQuestForceBrakingEvent
 ---@return vehicleToggleQuestForceBrakingEvent

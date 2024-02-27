@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsVFXDurationEvent: scnSceneEvent
 ---@field effectEntry scnEffectEntry
 ---@field startAction scneventsVFXActionType
@@ -9,6 +10,7 @@
 ---@field nodeRef NodeRef
 ---@field muteSound Bool
 scneventsVFXDurationEvent = {}
+
 
 ---@param fields? scneventsVFXDurationEvent
 ---@return scneventsVFXDurationEvent

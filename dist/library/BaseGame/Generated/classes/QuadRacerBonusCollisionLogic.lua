@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuadRacerBonusCollisionLogic: gameuiSideScrollerMiniGameCollisionLogic
 ---@field hasTriggered Bool
 QuadRacerBonusCollisionLogic = {}
+
 
 ---@param fields? QuadRacerBonusCollisionLogic
 ---@return QuadRacerBonusCollisionLogic

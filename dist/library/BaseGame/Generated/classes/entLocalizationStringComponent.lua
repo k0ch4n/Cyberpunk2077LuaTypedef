@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entLocalizationStringComponent: entIComponent
 ---@field Strings entLocalizationStringMapEntry[]
 entLocalizationStringComponent = {}
+
 
 ---@param fields? entLocalizationStringComponent
 ---@return entLocalizationStringComponent

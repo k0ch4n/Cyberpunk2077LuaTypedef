@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkOffscreenLayerDefinition: inkLayerDefinition
 inkOffscreenLayerDefinition = {}
+
 
 ---@param fields? inkOffscreenLayerDefinition
 ---@return inkOffscreenLayerDefinition

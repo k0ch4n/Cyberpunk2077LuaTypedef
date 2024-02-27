@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CombatPSMPrereqState: PlayerStateMachinePrereqState
 CombatPSMPrereqState = {}
+
 
 ---@param fields? CombatPSMPrereqState
 ---@return CombatPSMPrereqState

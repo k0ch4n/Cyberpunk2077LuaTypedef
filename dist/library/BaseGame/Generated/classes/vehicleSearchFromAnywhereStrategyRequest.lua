@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class vehicleSearchFromAnywhereStrategyRequest: vehicleBaseStrategyRequest
 ---@field angleRange Vector2
 vehicleSearchFromAnywhereStrategyRequest = {}
+
 
 ---@param fields? vehicleSearchFromAnywhereStrategyRequest
 ---@return vehicleSearchFromAnywhereStrategyRequest

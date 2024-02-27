@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameOccupantSlotData
 ---@field slotName CName
 ---@field syncAnimationTag CName
@@ -7,6 +8,7 @@
 ---@field exitOffsetFromSlot Vector4
 ---@field role gameMountingSlotRole
 gameOccupantSlotData = {}
+
 
 ---@param fields? gameOccupantSlotData
 ---@return gameOccupantSlotData

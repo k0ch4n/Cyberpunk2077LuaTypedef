@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FuseBox: InteractiveMasterDevice
 ---@field isShortGlitchActive Bool
 ---@field shortGlitchDelayID gameDelayID
@@ -10,6 +11,7 @@
 ---@field componentsON entIPlacedComponent[]
 ---@field componentsOFF entIPlacedComponent[]
 FuseBox = {}
+
 
 ---@param fields? FuseBox
 ---@return FuseBox

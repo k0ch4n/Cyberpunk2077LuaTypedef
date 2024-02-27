@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataNewPerkType: Enum
 ---@field Body_Central_Milestone_1 Enum 0
 ---@field Body_Central_Milestone_3 Enum 1

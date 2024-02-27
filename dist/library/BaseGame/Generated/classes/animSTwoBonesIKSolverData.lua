@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animSTwoBonesIKSolverData
 ---@field upperBone animTransformIndex
 ---@field jointBone animTransformIndex
@@ -23,6 +24,7 @@
 ---@field ["Joint bend dir in joint's BS"] Vector4
 ---@field ["Joint bend dir in lower's BS"] Vector4
 animSTwoBonesIKSolverData = {}
+
 
 ---@param fields? animSTwoBonesIKSolverData
 ---@return animSTwoBonesIKSolverData

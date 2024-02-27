@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioBreathingTransitionType: Enum
 ---@field PlayerSpeed Enum 0
 ---@field Event Enum 1

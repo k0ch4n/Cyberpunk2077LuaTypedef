@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DemolitionContainer: BaseSkillCheckContainer
 ---@field demolitionCheck DemolitionSkillCheck
 DemolitionContainer = {}
+
 
 ---@param fields? DemolitionContainer
 ---@return DemolitionContainer

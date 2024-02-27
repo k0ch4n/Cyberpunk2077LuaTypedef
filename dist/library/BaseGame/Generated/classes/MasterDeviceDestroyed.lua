@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MasterDeviceDestroyed: ActionBool
 MasterDeviceDestroyed = {}
+
 
 ---@param fields? MasterDeviceDestroyed
 ---@return MasterDeviceDestroyed

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class moveComponent: entIMoverComponent
 moveComponent = {}
+
 
 ---@param fields? moveComponent
 ---@return moveComponent

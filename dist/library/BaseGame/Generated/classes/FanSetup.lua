@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FanSetup
 ---@field animationType EAnimationType
 ---@field rotateClockwise Bool
@@ -7,6 +8,7 @@
 ---@field maxRotationSpeed Float
 ---@field timeToMaxRotation Float
 FanSetup = {}
+
 
 ---@param fields? FanSetup
 ---@return FanSetup

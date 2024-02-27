@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataReactionLimit_Record: gamedataTweakDBRecord
 gamedataReactionLimit_Record = {}
+
 
 ---@param fields? gamedataReactionLimit_Record
 ---@return gamedataReactionLimit_Record

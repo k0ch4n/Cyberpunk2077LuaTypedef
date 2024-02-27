@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BaseStatPoolPrereqListener: gameCustomValueStatPoolsListener
 BaseStatPoolPrereqListener = {}
+
 
 ---@param fields? BaseStatPoolPrereqListener
 ---@return BaseStatPoolPrereqListener

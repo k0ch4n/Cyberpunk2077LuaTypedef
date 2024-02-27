@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SimpleCoverBehaviorCondition: AIbehaviorconditionScript
 ---@field initialized Bool
 ---@field isShotgunner Bool
 ---@field isHeavyRanged Bool
 SimpleCoverBehaviorCondition = {}
+
 
 ---@param fields? SimpleCoverBehaviorCondition
 ---@return SimpleCoverBehaviorCondition

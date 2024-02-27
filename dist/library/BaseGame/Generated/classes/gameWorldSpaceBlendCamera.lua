@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameWorldSpaceBlendCamera: entBaseCameraComponent
 gameWorldSpaceBlendCamera = {}
+
 
 ---@param fields? gameWorldSpaceBlendCamera
 ---@return gameWorldSpaceBlendCamera

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RegisterPerkDeviceMappinRequest: gameScriptableSystemRequest
 ---@field ownerID entEntityID
 ---@field position Vector4
 RegisterPerkDeviceMappinRequest = {}
+
 
 ---@param fields? RegisterPerkDeviceMappinRequest
 ---@return RegisterPerkDeviceMappinRequest

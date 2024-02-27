@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameinteractionsvisDeviceVisualizerLogic: gameinteractionsvisIGroupedVisualizerLogic
 gameinteractionsvisDeviceVisualizerLogic = {}
+
 
 ---@param fields? gameinteractionsvisDeviceVisualizerLogic
 ---@return gameinteractionsvisDeviceVisualizerLogic

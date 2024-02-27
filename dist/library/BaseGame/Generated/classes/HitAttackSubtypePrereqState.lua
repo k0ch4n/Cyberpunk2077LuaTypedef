@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitAttackSubtypePrereqState: GenericHitPrereqState
 HitAttackSubtypePrereqState = {}
+
 
 ---@param fields? HitAttackSubtypePrereqState
 ---@return HitAttackSubtypePrereqState

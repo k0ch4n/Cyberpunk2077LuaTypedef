@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsSystemBodyParams
 ---@field simulationType physicsSimulationType
 ---@field linearDamping Float
@@ -13,6 +14,7 @@
 ---@field inertia Vector3
 ---@field comOffset Transform
 physicsSystemBodyParams = {}
+
 
 ---@param fields? physicsSystemBodyParams
 ---@return physicsSystemBodyParams

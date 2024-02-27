@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameuiPlayerListGameController: gameuiHUDGameController
 ---@field playerEntries PlayerListEntryData[]
 ---@field container inkCompoundWidgetReference
 gameuiPlayerListGameController = {}
+
 
 ---@param fields? gameuiPlayerListGameController
 ---@return gameuiPlayerListGameController

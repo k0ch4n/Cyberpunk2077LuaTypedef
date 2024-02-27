@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CheckArgumentInt: CheckArguments
 ---@field customVar Int32
 ---@field comparator ECompareOp
 CheckArgumentInt = {}
+
 
 ---@param fields? CheckArgumentInt
 ---@return CheckArgumentInt

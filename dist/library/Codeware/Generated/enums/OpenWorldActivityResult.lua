@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OpenWorldActivityResult: Enum
 ---@field OK Enum 0
 ---@field Invalid Enum 1

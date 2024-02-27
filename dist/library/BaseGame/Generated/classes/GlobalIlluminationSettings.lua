@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GlobalIlluminationSettings: IAreaSettings
 ---@field multiBouceScale curveData
 ---@field multiBouceSaturation curveData
@@ -11,6 +12,7 @@
 ---@field ambientBase curveData
 ---@field rayTracedSkyRadianceScale curveData
 GlobalIlluminationSettings = {}
+
 
 ---@param fields? GlobalIlluminationSettings
 ---@return GlobalIlluminationSettings

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIUtilityLossCoverSelection: AICoverSelectionParameters
 AIUtilityLossCoverSelection = {}
+
 
 ---@param fields? AIUtilityLossCoverSelection
 ---@return AIUtilityLossCoverSelection

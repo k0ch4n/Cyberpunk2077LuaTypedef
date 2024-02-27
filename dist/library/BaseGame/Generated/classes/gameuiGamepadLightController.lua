@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiGamepadLightController: gameuiIGamepadLightController
 gameuiGamepadLightController = {}
+
 
 ---@param fields? gameuiGamepadLightController
 ---@return gameuiGamepadLightController

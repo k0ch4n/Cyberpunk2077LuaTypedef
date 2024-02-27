@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiPanzerCloud: gameuiSideScrollerMiniGameDynObjectLogicAdvanced
 gameuiPanzerCloud = {}
+
 
 ---@param fields? gameuiPanzerCloud
 ---@return gameuiPanzerCloud

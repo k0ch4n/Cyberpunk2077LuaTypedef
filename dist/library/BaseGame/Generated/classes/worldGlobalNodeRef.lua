@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class worldGlobalNodeRef
 ---@field hash Uint64
 worldGlobalNodeRef = {}
+
 
 ---@param fields? worldGlobalNodeRef
 ---@return worldGlobalNodeRef

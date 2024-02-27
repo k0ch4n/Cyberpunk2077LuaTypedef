@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entAnimFastForwardEvent: redEvent
 entAnimFastForwardEvent = {}
+
 
 ---@param fields? entAnimFastForwardEvent
 ---@return entAnimFastForwardEvent

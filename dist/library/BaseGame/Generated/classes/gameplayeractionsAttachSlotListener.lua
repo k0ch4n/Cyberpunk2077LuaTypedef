@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameplayeractionsAttachSlotListener: gameIAttachmentSlotsListener
 gameplayeractionsAttachSlotListener = {}
+
 
 ---@param fields? gameplayeractionsAttachSlotListener
 ---@return gameplayeractionsAttachSlotListener

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NewPerkPoinsActionRequest: gamePlayerScriptableSystemRequest
 ---@field pointDiff Int32
 NewPerkPoinsActionRequest = {}
+
 
 ---@param fields? NewPerkPoinsActionRequest
 ---@return NewPerkPoinsActionRequest

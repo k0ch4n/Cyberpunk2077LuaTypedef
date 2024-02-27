@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PocketRadioUIEvent: redEvent
 PocketRadioUIEvent = {}
+
 
 ---@param fields? PocketRadioUIEvent
 ---@return PocketRadioUIEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnPlayFPPControlAnimEvent: scnPlayAnimEvent
 ---@field gameplayAnimName scnAnimName
 ---@field FPPControlActive Bool
@@ -20,6 +21,7 @@
 ---@field pitchLimitBottom Float
 ---@field genderSpecificParams scnfppGenderSpecificParams[]
 scnPlayFPPControlAnimEvent = {}
+
 
 ---@param fields? scnPlayFPPControlAnimEvent
 ---@return scnPlayFPPControlAnimEvent

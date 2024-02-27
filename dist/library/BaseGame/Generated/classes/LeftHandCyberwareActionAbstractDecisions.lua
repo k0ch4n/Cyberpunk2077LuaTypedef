@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareActionAbstractDecisions: LeftHandCyberwareTransition
 LeftHandCyberwareActionAbstractDecisions = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

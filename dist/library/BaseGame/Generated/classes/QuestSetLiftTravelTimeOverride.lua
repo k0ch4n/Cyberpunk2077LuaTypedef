@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestSetLiftTravelTimeOverride: ActionFloat
 QuestSetLiftTravelTimeOverride = {}
+
 
 ---@param fields? QuestSetLiftTravelTimeOverride
 ---@return QuestSetLiftTravelTimeOverride

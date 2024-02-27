@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GenericNotificationType: Enum
 ---@field Generic Enum 0
 ---@field JournalNotification Enum 1

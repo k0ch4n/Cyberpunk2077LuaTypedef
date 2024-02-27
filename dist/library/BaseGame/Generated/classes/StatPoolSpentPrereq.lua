@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class StatPoolSpentPrereq: gameIScriptablePrereq
 ---@field statPoolType gamedataStatPoolType
 ---@field valueToCheck Float
 StatPoolSpentPrereq = {}
+
 
 ---@param fields? StatPoolSpentPrereq
 ---@return StatPoolSpentPrereq

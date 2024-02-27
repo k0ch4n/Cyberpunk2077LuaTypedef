@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeviceUpdateEvent: gameTickableEvent
 DeviceUpdateEvent = {}
+
 
 ---@param fields? DeviceUpdateEvent
 ---@return DeviceUpdateEvent

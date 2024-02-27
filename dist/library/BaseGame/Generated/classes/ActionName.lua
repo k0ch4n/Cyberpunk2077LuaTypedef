@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActionName: ScriptableDeviceAction
 ActionName = {}
+
 
 ---@return String
 function ActionName:GetCurrentDisplayString() end

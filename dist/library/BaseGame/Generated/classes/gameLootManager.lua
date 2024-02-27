@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameLootManager: gameILootManager
 gameLootManager = {}
+
 
 ---@param fields? gameLootManager
 ---@return gameLootManager

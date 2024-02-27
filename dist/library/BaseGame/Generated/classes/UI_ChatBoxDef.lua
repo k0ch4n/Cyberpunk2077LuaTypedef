@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UI_ChatBoxDef: gamebbScriptDefinition
 ---@field TextList gamebbScriptID_Variant
 UI_ChatBoxDef = {}
+
 
 ---@param fields? UI_ChatBoxDef
 ---@return UI_ChatBoxDef

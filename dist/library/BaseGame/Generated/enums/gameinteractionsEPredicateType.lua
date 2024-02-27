@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsEPredicateType: Enum
 ---@field EPredicateFunction_true Enum 0
 ---@field EPredicateFunction_distanceFromScreenCentre Enum 1

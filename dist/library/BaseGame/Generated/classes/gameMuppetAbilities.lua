@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMuppetAbilities
 ---@field canLook gameMuppetAbility
 ---@field canMove gameMuppetAbility
@@ -10,6 +11,7 @@
 ---@field canShoot gameMuppetAbility
 ---@field canAimDownSight gameMuppetAbility
 gameMuppetAbilities = {}
+
 
 ---@param fields? gameMuppetAbilities
 ---@return gameMuppetAbilities

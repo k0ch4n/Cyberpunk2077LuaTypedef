@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FullSystemRestart: ActionBool
 ---@field restartDuration Int32
 FullSystemRestart = {}
+
 
 ---@param fields? FullSystemRestart
 ---@return FullSystemRestart

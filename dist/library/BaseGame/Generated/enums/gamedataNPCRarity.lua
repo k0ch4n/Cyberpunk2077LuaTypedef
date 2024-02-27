@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataNPCRarity: Enum
 ---@field Boss Enum 0
 ---@field Elite Enum 1

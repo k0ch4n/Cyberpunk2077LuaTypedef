@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameHitDetectionDebugFrameDataShapeEntry
 ---@field ansformWS WorldTransform
 gameHitDetectionDebugFrameDataShapeEntry = {}
+
 
 ---@param fields? gameHitDetectionDebugFrameDataShapeEntry
 ---@return gameHitDetectionDebugFrameDataShapeEntry

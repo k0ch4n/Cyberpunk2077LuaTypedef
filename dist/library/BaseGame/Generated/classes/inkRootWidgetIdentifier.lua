@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkRootWidgetIdentifier: inkUserData
 inkRootWidgetIdentifier = {}
+
 
 ---@param fields? inkRootWidgetIdentifier
 ---@return inkRootWidgetIdentifier

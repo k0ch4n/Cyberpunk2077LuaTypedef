@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AimDecisions: CanTransitionToThrowDecisions
 AimDecisions = {}
+
 
 ---@param fields? AimDecisions
 ---@return AimDecisions

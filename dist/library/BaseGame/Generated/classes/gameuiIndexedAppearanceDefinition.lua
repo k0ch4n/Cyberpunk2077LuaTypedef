@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiIndexedAppearanceDefinition
 ---@field index Int32
 ---@field color Color
@@ -9,6 +10,7 @@
 ---@field actions gameuiCharacterCustomizationAction[]
 ---@field tags redTagList
 gameuiIndexedAppearanceDefinition = {}
+
 
 ---@param fields? gameuiIndexedAppearanceDefinition
 ---@return gameuiIndexedAppearanceDefinition

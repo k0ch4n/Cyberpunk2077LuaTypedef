@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HoloTableControllerPS: MediaDeviceControllerPS
 HoloTableControllerPS = {}
+
 
 ---@param fields? HoloTableControllerPS
 ---@return HoloTableControllerPS

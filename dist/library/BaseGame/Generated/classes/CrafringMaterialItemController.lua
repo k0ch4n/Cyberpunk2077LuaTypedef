@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrafringMaterialItemController: BaseButtonView
 ---@field nameText inkTextWidgetReference
 ---@field quantityText inkTextWidgetReference
@@ -16,6 +17,7 @@
 ---@field hideIfZero Bool
 ---@field isCollapsed Bool
 CrafringMaterialItemController = {}
+
 
 ---@param fields? CrafringMaterialItemController
 ---@return CrafringMaterialItemController

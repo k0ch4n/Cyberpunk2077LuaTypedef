@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SwimmingDeathEvents: DeathEvents
 SwimmingDeathEvents = {}
+
 
 ---@param fields? SwimmingDeathEvents
 ---@return SwimmingDeathEvents

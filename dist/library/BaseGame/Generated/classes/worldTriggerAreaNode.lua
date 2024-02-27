@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class worldTriggerAreaNode: worldAreaShapeNode
 ---@field notifiers worldITriggerAreaNotifer[]
 worldTriggerAreaNode = {}
+
 
 ---@param fields? worldTriggerAreaNode
 ---@return worldTriggerAreaNode

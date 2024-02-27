@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorWaitSplineBackwardToFollowConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorWaitSplineBackwardToFollowConditionDefinition = {}
+
 
 ---@param fields? AIbehaviorWaitSplineBackwardToFollowConditionDefinition
 ---@return AIbehaviorWaitSplineBackwardToFollowConditionDefinition

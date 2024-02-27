@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class meshChunkFlags
 ---@field renderInScene Bool
 ---@field renderInShadows Bool
@@ -8,6 +9,7 @@
 ---@field isConsoleLOD0 Bool
 ---@field skipDynamicDecalGeneration Bool
 meshChunkFlags = {}
+
 
 ---@param fields? meshChunkFlags
 ---@return meshChunkFlags

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class netDefaultComponentReplicatedState: netIComponentState
 netDefaultComponentReplicatedState = {}
+
 
 ---@param fields? netDefaultComponentReplicatedState
 ---@return netDefaultComponentReplicatedState

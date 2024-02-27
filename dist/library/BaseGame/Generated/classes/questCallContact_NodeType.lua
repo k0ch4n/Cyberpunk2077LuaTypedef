@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCallContact_NodeType: questIPhoneManagerNodeType
 ---@field caller gameJournalPath
 ---@field addressee gameJournalPath
@@ -11,6 +12,7 @@
 ---@field showAvatar Bool
 ---@field visuals questPhoneCallVisuals
 questCallContact_NodeType = {}
+
 
 ---@param fields? questCallContact_NodeType
 ---@return questCallContact_NodeType

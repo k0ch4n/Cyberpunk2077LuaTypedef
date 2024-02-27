@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameaudioeventsPickUpBodyBreathingEvent: redEvent
 gameaudioeventsPickUpBodyBreathingEvent = {}
+
 
 ---@param fields? gameaudioeventsPickUpBodyBreathingEvent
 ---@return gameaudioeventsPickUpBodyBreathingEvent

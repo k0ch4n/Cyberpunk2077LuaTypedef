@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SetApartmentScreenMessageEvent: redEvent
 ---@field messageRecordID TweakDBID
 ---@field targetRentStatus ERentStatus
 SetApartmentScreenMessageEvent = {}
+
 
 ---@param fields? SetApartmentScreenMessageEvent
 ---@return SetApartmentScreenMessageEvent

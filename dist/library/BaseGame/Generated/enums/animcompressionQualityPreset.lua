@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animcompressionQualityPreset: Enum
 ---@field CINEMATIC_HIGH Enum 3
 ---@field HIGH Enum 0

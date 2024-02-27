@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NPCRevealedPrereq: gameIScriptablePrereq
 NPCRevealedPrereq = {}
+
 
 ---@param fields? NPCRevealedPrereq
 ---@return NPCRevealedPrereq

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnChoiceNode: scnSceneGraphNode
 ---@field displayNameOverride String
 ---@field localizedDisplayNameOverride LocalizationString
@@ -30,6 +31,7 @@
 ---@field timedSectionCondition scnTimedCondition
 ---@field reminderCondition scnReminderCondition
 scnChoiceNode = {}
+
 
 ---@param fields? scnChoiceNode
 ---@return scnChoiceNode

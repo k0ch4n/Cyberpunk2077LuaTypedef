@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ZoomBlockedEvents: ZoomEventsTransition
 ---@field previousCameraPerspective vehicleCameraPerspective
 ---@field previousCameraPerspectiveValid Bool
 ZoomBlockedEvents = {}
+
 
 ---@param fields? ZoomBlockedEvents
 ---@return ZoomBlockedEvents

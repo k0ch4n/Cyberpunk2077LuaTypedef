@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AvHoverIdleSFXBehaviour: AIbehaviortaskScript
 AvHoverIdleSFXBehaviour = {}
+
 
 ---@param fields? AvHoverIdleSFXBehaviour
 ---@return AvHoverIdleSFXBehaviour

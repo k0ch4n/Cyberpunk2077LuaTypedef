@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIbehaviorTweakConditionDefinition: AIbehaviorConditionDefinition
 ---@field recordId TweakDBID
 AIbehaviorTweakConditionDefinition = {}
+
 
 ---@param fields? AIbehaviorTweakConditionDefinition
 ---@return AIbehaviorTweakConditionDefinition

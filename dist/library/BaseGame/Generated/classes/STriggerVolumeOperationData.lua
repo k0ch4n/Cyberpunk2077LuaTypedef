@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class STriggerVolumeOperationData
 ---@field isActivatorPlayer Bool
 ---@field isActivatorNPC Bool
@@ -7,6 +8,7 @@
 ---@field operationType ETriggerOperationType
 ---@field operation SBaseDeviceOperationData
 STriggerVolumeOperationData = {}
+
 
 ---@param fields? STriggerVolumeOperationData
 ---@return STriggerVolumeOperationData

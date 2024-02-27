@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioBreathingUnderwaterMetadata: audioAudioMetadata
 ---@field inhaleSound CName
 ---@field exhaleSound CName
@@ -9,6 +10,7 @@
 ---@field BPM Float
 ---@field lowOxygen Float
 audioBreathingUnderwaterMetadata = {}
+
 
 ---@param fields? audioBreathingUnderwaterMetadata
 ---@return audioBreathingUnderwaterMetadata

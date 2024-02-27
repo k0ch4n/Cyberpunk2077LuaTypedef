@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OutputValidationDataStruct
 ---@field targetID entEntityID
 ---@field agentID gamePersistentID
@@ -8,6 +9,7 @@
 ---@field eventType ESecurityNotificationType
 ---@field breachedAreas gamePersistentID[]
 OutputValidationDataStruct = {}
+
 
 ---@param fields? OutputValidationDataStruct
 ---@return OutputValidationDataStruct

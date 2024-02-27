@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class UseWorkspotCommandDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field inCommand AIArgumentMapping
 ---@field movementType moveMovementType
 UseWorkspotCommandDelegate = {}
+
 
 ---@param fields? UseWorkspotCommandDelegate
 ---@return UseWorkspotCommandDelegate

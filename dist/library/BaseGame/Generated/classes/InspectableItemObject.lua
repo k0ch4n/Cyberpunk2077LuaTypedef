@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class InspectableItemObject: gameItemObject
 ---@field inspectableClues SInspectableClue[]
 InspectableItemObject = {}
+
 
 ---@param fields? InspectableItemObject
 ---@return InspectableItemObject

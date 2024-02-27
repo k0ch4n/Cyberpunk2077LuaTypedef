@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnregisterAllNetworkLinksRequest: gameScriptableSystemRequest
 UnregisterAllNetworkLinksRequest = {}
+
 
 ---@param fields? UnregisterAllNetworkLinksRequest
 ---@return UnregisterAllNetworkLinksRequest

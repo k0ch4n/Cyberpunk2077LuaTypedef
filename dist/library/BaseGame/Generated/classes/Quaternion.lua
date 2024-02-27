@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class Quaternion
 ---@field i Float
 ---@field j Float
 ---@field k Float
 ---@field r Float
 Quaternion = {}
+
 
 ---@param fields? Quaternion
 ---@return Quaternion

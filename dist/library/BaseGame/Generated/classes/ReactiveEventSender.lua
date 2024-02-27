@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ReactiveEventSender: AISignalSenderTask
 ---@field behaviorArgumentNameTag CName
 ---@field behaviorArgumentFloatPriority CName
 ---@field behaviorArgumentNameFlag CName
 ---@field reactiveType CName
 ReactiveEventSender = {}
+
 
 ---@param fields? ReactiveEventSender
 ---@return ReactiveEventSender

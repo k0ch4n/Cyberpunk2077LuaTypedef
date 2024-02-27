@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HammerLookAtDecisions: LookAtPresetMeleeBaseDecisions
 HammerLookAtDecisions = {}
+
 
 ---@param fields? HammerLookAtDecisions
 ---@return HammerLookAtDecisions

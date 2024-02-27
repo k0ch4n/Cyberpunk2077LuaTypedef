@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CustomUIAnimationEvent: redEvent
 ---@field libraryItemName CName
 ---@field libraryItemAnchor inkEAnchor
@@ -9,6 +10,7 @@
 ---@field animOptionsOverride PlaybackOptionsUpdateData
 ---@field ownerID entEntityID
 CustomUIAnimationEvent = {}
+
 
 ---@param fields? CustomUIAnimationEvent
 ---@return CustomUIAnimationEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimFeature_Climb: animAnimFeature
 ---@field verticalPosition Vector4
 ---@field horizontalPosition Vector4
@@ -12,6 +13,7 @@
 ---@field climbType Int32
 ---@field state Int32
 animAnimFeature_Climb = {}
+
 
 ---@param fields? animAnimFeature_Climb
 ---@return animAnimFeature_Climb

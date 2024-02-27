@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIPercentageChanceCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIPercentageChanceCond_Record = {}
+
 
 ---@param fields? gamedataAIPercentageChanceCond_Record
 ---@return gamedataAIPercentageChanceCond_Record

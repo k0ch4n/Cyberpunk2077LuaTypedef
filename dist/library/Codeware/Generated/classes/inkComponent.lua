@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkComponent: inkWidgetLogicController
 inkComponent = {}
+
 
 ---@return nil
 function inkComponent:OnConstruct() end

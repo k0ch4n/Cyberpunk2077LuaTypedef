@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameWorkspotGameSystem: gameIWorkspotGameSystem
 gameWorkspotGameSystem = {}
+
 
 ---@param fields? gameWorkspotGameSystem
 ---@return gameWorkspotGameSystem

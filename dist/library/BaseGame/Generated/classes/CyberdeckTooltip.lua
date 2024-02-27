@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CyberdeckTooltip: AGenericTooltipController
 ---@field itemNameText inkTextWidgetReference
 ---@field nameTextContainer inkWidgetReference
@@ -71,6 +72,7 @@
 ---@field comparisonData UIInventoryItemComparisonManager
 ---@field tooltipDisplayContext InventoryTooltipDisplayContext
 CyberdeckTooltip = {}
+
 
 ---@param fields? CyberdeckTooltip
 ---@return CyberdeckTooltip

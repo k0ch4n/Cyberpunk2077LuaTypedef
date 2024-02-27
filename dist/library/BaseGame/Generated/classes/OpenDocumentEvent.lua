@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OpenDocumentEvent: redEvent
 ---@field documentType EDocumentType
 ---@field documentName CName
@@ -7,6 +8,7 @@
 ---@field wakeUp Bool
 ---@field ownerID entEntityID
 OpenDocumentEvent = {}
+
 
 ---@param fields? OpenDocumentEvent
 ---@return OpenDocumentEvent

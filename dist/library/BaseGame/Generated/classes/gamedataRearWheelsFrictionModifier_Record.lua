@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRearWheelsFrictionModifier_Record: gamedataDriveHelper_Record
 gamedataRearWheelsFrictionModifier_Record = {}
+
 
 ---@param fields? gamedataRearWheelsFrictionModifier_Record
 ---@return gamedataRearWheelsFrictionModifier_Record

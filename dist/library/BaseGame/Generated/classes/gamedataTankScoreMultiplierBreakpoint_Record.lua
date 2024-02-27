@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTankScoreMultiplierBreakpoint_Record: gamedataTweakDBRecord
 gamedataTankScoreMultiplierBreakpoint_Record = {}
+
 
 ---@param fields? gamedataTankScoreMultiplierBreakpoint_Record
 ---@return gamedataTankScoreMultiplierBreakpoint_Record

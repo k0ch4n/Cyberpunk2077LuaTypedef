@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RadioHotkeyController: GenericHotkeyController
 ---@field vehicleBB gameIBlackboard
 ---@field vehicleEnterListener redCallbackObject
@@ -9,6 +10,7 @@
 ---@field pocketRadioToken inkGameNotificationToken
 ---@field isInDefaultState Bool
 RadioHotkeyController = {}
+
 
 ---@param fields? RadioHotkeyController
 ---@return RadioHotkeyController

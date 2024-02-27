@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleQuestRestrictedContextEvents: VehicleNoDriveContextEvents
 VehicleQuestRestrictedContextEvents = {}
+
 
 ---@param fields? VehicleQuestRestrictedContextEvents
 ---@return VehicleQuestRestrictedContextEvents

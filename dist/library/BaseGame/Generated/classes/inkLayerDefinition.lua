@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkLayerDefinition
 ---@field enabled Bool
 ---@field rootLibrary inkWidgetLibraryResource
@@ -10,6 +11,7 @@
 ---@field useGameInput Bool
 ---@field inputContext CName
 inkLayerDefinition = {}
+
 
 ---@param fields? inkLayerDefinition
 ---@return inkLayerDefinition

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ReplaceEquipmentRequest: gamePlayerScriptableSystemRequest
 ---@field itemID gameItemID
 ---@field slotIndex Int32
@@ -9,6 +10,7 @@
 ---@field customPartToGenerateID gameItemID
 ---@field transferInstalledParts Bool
 ReplaceEquipmentRequest = {}
+
 
 ---@param fields? ReplaceEquipmentRequest
 ---@return ReplaceEquipmentRequest

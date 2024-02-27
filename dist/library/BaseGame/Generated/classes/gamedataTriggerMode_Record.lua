@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTriggerMode_Record: gamedataTweakDBRecord
 gamedataTriggerMode_Record = {}
+
 
 ---@param fields? gamedataTriggerMode_Record
 ---@return gamedataTriggerMode_Record

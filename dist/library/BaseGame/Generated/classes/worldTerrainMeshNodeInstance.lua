@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldTerrainMeshNodeInstance: worldINodeInstance
 worldTerrainMeshNodeInstance = {}
+
 
 ---@param fields? worldTerrainMeshNodeInstance
 ---@return worldTerrainMeshNodeInstance

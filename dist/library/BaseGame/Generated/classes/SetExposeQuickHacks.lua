@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetExposeQuickHacks: ActionBool
 ---@field isRemote Bool
 SetExposeQuickHacks = {}
+
 
 ---@param fields? SetExposeQuickHacks
 ---@return SetExposeQuickHacks

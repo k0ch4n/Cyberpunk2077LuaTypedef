@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameStatsSystem: gameIStatsSystem
 gameStatsSystem = {}
+
 
 ---@param fields? gameStatsSystem
 ---@return gameStatsSystem

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIEntityStubHandlerProviderSystem: AIIEntityStubHandlerProviderSystem
 AIEntityStubHandlerProviderSystem = {}
+
 
 ---@param fields? AIEntityStubHandlerProviderSystem
 ---@return AIEntityStubHandlerProviderSystem

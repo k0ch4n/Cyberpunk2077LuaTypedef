@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerkTabsController: inkWidgetLogicController
 ---@field tabText inkTextWidgetReference
 ---@field currentAttributePoints inkTextWidgetReference
@@ -17,6 +18,7 @@
 ---@field initData NewPerksScreenInitData
 ---@field isEspionageUnlocked Bool
 NewPerkTabsController = {}
+
 
 ---@param fields? NewPerkTabsController
 ---@return NewPerkTabsController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SimpleBinkGameController: DeviceInkGameControllerBase
 ---@field playCommonAd Bool
 ---@field Video1Path CName
@@ -7,6 +8,7 @@
 ---@field Video1 inkVideoWidgetReference
 ---@field Video2 inkVideoWidgetReference
 SimpleBinkGameController = {}
+
 
 ---@param fields? SimpleBinkGameController
 ---@return SimpleBinkGameController

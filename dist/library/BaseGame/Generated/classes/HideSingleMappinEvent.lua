@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HideSingleMappinEvent: redEvent
 ---@field index Int32
 HideSingleMappinEvent = {}
+
 
 ---@param fields? HideSingleMappinEvent
 ---@return HideSingleMappinEvent

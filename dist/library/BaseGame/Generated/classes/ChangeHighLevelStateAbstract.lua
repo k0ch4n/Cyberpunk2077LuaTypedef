@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ChangeHighLevelStateAbstract: AIbehaviortaskScript
 ChangeHighLevelStateAbstract = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

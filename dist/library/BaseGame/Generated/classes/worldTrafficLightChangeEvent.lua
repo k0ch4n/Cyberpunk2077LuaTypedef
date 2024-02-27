@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class worldTrafficLightChangeEvent: redEvent
 ---@field lightColor worldTrafficLightColor
 worldTrafficLightChangeEvent = {}
+
 
 ---@param fields? worldTrafficLightChangeEvent
 ---@return worldTrafficLightChangeEvent

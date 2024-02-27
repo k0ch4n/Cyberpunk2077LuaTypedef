@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionGeneratePointOfInterestTarget_Record: gamedataAISubAction_Record
 gamedataAISubActionGeneratePointOfInterestTarget_Record = {}
+
 
 ---@param fields? gamedataAISubActionGeneratePointOfInterestTarget_Record
 ---@return gamedataAISubActionGeneratePointOfInterestTarget_Record

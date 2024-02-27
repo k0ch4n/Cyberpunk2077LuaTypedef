@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LootContainerAccessPointControllerPS: AccessPointControllerPS
 ---@field objRef NodeRef
 LootContainerAccessPointControllerPS = {}
+
 
 ---@param fields? LootContainerAccessPointControllerPS
 ---@return LootContainerAccessPointControllerPS

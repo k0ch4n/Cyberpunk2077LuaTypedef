@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GrenadeChangedCallback: gameAttachmentSlotsScriptCallback
 ---@field grenadeChangeEntity gameObject
 ---@field grenadeChangeListener gameAttachmentSlotsScriptListener
 GrenadeChangedCallback = {}
+
 
 ---@param fields? GrenadeChangedCallback
 ---@return GrenadeChangedCallback

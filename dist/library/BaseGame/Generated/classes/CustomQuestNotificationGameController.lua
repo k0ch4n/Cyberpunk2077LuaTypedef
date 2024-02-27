@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CustomQuestNotificationGameController: gameuiHUDGameController
 ---@field label inkTextWidgetReference
 ---@field desc inkTextWidgetReference
@@ -9,6 +10,7 @@
 ---@field data CustomQuestNotificationUserData
 ---@field animationProxy inkanimProxy
 CustomQuestNotificationGameController = {}
+
 
 ---@param fields? CustomQuestNotificationGameController
 ---@return CustomQuestNotificationGameController

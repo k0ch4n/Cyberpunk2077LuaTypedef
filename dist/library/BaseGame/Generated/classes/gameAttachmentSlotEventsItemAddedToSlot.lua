@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAttachmentSlotEventsItemAddedToSlot: gameAttachmentSlotEventsItemAddedToSlotBase
 gameAttachmentSlotEventsItemAddedToSlot = {}
+
 
 ---@param fields? gameAttachmentSlotEventsItemAddedToSlot
 ---@return gameAttachmentSlotEventsItemAddedToSlot

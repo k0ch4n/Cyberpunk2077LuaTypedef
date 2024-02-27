@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetPlayerAsKiller: AIbehaviortaskScript
 SetPlayerAsKiller = {}
+
 
 ---@param fields? SetPlayerAsKiller
 ---@return SetPlayerAsKiller

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InCombatHighLevelState: AINPCHighLevelStateCheck
 InCombatHighLevelState = {}
+
 
 ---@param fields? InCombatHighLevelState
 ---@return InCombatHighLevelState

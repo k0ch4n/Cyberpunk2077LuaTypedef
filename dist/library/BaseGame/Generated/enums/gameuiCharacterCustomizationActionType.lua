@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiCharacterCustomizationActionType: Enum
 ---@field Activate Enum 0
 ---@field Deactivate Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class cpPlayerSystem: gamePlayerSystem
 cpPlayerSystem = {}
+
 
 ---@param fields? cpPlayerSystem
 ---@return cpPlayerSystem

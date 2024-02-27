@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiInputHintData
 ---@field action CName
 ---@field source CName
@@ -13,6 +14,7 @@
 ---@field inputHintKeyCombinationType inkInputHintKeyCombinationType
 ---@field enableHoldAnimation Bool
 gameuiInputHintData = {}
+
 
 ---@param fields? gameuiInputHintData
 ---@return gameuiInputHintData

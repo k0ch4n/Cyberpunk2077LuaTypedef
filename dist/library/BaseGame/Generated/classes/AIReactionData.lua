@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIReactionData: IScriptable
 ---@field reactionPriority Int32
 ---@field reactionBehaviorName gamedataOutput
@@ -19,6 +20,7 @@
 ---@field recentReactionTimeStamp Float
 ---@field escalateProvoke Bool
 AIReactionData = {}
+
 
 ---@param fields? AIReactionData
 ---@return AIReactionData

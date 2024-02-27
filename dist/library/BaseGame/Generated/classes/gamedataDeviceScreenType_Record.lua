@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataDeviceScreenType_Record: gamedataTweakDBRecord
 gamedataDeviceScreenType_Record = {}
+
 
 ---@param fields? gamedataDeviceScreenType_Record
 ---@return gamedataDeviceScreenType_Record

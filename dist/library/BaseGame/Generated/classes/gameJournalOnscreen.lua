@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameJournalOnscreen: gameJournalEntry
 ---@field tag CName
 ---@field title LocalizationString
 ---@field description LocalizationString
 ---@field iconID TweakDBID
 gameJournalOnscreen = {}
+
 
 ---@param fields? gameJournalOnscreen
 ---@return gameJournalOnscreen

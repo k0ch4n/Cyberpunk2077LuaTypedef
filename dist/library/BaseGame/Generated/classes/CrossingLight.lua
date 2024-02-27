@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CrossingLight: TrafficLight
 ---@field audioLightIsGreen Bool
 CrossingLight = {}
+
 
 ---@param fields? CrossingLight
 ---@return CrossingLight

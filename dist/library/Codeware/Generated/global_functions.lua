@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Game: ScriptGameInstance
 Game = {}
+
 
 ---@param value Uint16
 ---@param n Int32

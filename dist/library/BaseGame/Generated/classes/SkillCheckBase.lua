@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SkillCheckBase: IScriptable
 ---@field alternativeName TweakDBID
 ---@field difficulty EGameplayChallengeLevel
@@ -12,6 +13,7 @@
 ---@field baseSkill GameplaySkillCondition
 ---@field isDynamic Bool
 SkillCheckBase = {}
+
 
 ---@return nil
 function SkillCheckBase:CheckPerformed() end

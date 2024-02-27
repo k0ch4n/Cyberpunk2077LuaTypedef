@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BasePerksMenuTooltipData: ATooltipData
 ---@field manager PlayerDevelopmentDataManager
 BasePerksMenuTooltipData = {}
+
 
 ---@param fields? BasePerksMenuTooltipData
 ---@return BasePerksMenuTooltipData

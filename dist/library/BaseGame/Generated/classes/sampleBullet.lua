@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class sampleBullet: BaseProjectile
 ---@field meshComponent entIComponent
 ---@field countTime Float
@@ -8,6 +9,7 @@
 ---@field BulletCollisionEvaluator BulletCollisionEvaluator
 ---@field alive Bool
 sampleBullet = {}
+
 
 ---@param fields? sampleBullet
 ---@return sampleBullet

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ChargedHotkeyItemBaseController: HotkeyItemController
 ---@field chargebarSizeWidget inkWidgetReference
 ---@field chargebarOpacityWidget inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field showChargesAnimProxy inkanimProxy
 ---@field chargeThreshold Float
 ChargedHotkeyItemBaseController = {}
+
 
 ---@param fields? ChargedHotkeyItemBaseController
 ---@return ChargedHotkeyItemBaseController

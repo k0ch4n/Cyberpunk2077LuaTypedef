@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DefaultTransitionStatListener: gameScriptStatsListener
 ---@field transitionOwner DefaultTransition
 DefaultTransitionStatListener = {}
+
 
 ---@param fields? DefaultTransitionStatListener
 ---@return DefaultTransitionStatListener

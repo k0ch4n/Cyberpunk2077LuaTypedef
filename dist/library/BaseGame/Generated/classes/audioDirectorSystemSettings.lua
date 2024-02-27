@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioDirectorSystemSettings: audioAudioMetadata
 ---@field combatVoManagerSettingsName CName
 ---@field singleConversationMinRepeatTime Float
@@ -29,6 +30,7 @@
 ---@field mediumGearAccelerationThreshold Float
 ---@field highGearAccelerationThreshold Float
 audioDirectorSystemSettings = {}
+
 
 ---@param fields? audioDirectorSystemSettings
 ---@return audioDirectorSystemSettings

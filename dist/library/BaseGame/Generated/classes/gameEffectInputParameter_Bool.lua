@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameEffectInputParameter_Bool
 ---@field evaluator gameIEffectParameter_BoolEvaluator
 gameEffectInputParameter_Bool = {}
+
 
 ---@param fields? gameEffectInputParameter_Bool
 ---@return gameEffectInputParameter_Bool

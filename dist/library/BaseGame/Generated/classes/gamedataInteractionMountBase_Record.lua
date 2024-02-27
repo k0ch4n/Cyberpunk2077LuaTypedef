@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataInteractionMountBase_Record: gamedataInteractionBase_Record
 gamedataInteractionMountBase_Record = {}
+
 
 ---@param fields? gamedataInteractionMountBase_Record
 ---@return gamedataInteractionMountBase_Record

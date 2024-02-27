@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReflectionMemberFunc: ReflectionFunc
 ReflectionMemberFunc = {}
+
 
 ---@param fields? ReflectionMemberFunc
 ---@return ReflectionMemberFunc

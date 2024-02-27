@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldInspectorNodeInstanceProperties: ISerializable
 ---@field setupInfo worldCompiledNodeInstanceSetupInfo
 ---@field meshNode worldMeshNode
@@ -8,6 +9,7 @@
 ---@field lastObserverDistanceToSecondaryReferencePoint Float
 ---@field renderProxyAddressForDebug Uint64
 worldInspectorNodeInstanceProperties = {}
+
 
 ---@param fields? worldInspectorNodeInstanceProperties
 ---@return worldInspectorNodeInstanceProperties

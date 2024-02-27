@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SubtitleLineLogicController: BaseSubtitleLineLogicController
 ---@field speakerNameWidget inkTextWidgetReference
 ---@field subtitleWidget inkTextWidgetReference
@@ -13,6 +14,7 @@
 ---@field lineData scnDialogLineData
 ---@field spekerNameParams textTextParameterSet
 SubtitleLineLogicController = {}
+
 
 ---@param fields? SubtitleLineLogicController
 ---@return SubtitleLineLogicController

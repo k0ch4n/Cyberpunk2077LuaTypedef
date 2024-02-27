@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ApplyLightPresetEffector: gameEffector
 ---@field lightPreset gamedataLightPreset_Record
 ApplyLightPresetEffector = {}
+
 
 ---@param fields? ApplyLightPresetEffector
 ---@return ApplyLightPresetEffector

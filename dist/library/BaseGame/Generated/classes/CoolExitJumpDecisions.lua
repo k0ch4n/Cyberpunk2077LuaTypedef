@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CoolExitJumpDecisions: LocomotionAirDecisions
 CoolExitJumpDecisions = {}
+
 
 ---@param fields? CoolExitJumpDecisions
 ---@return CoolExitJumpDecisions

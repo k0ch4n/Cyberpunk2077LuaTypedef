@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AssignRestrictMovementAreaTask: AIbehaviortaskScript
 ---@field restrictMovementAreaRef AIArgumentMapping
 AssignRestrictMovementAreaTask = {}
+
 
 ---@param fields? AssignRestrictMovementAreaTask
 ---@return AssignRestrictMovementAreaTask

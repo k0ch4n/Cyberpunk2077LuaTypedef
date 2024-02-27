@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnVehicleMoveOnSpline_Overrides: questIVehicleMoveOnSpline_Overrides
 ---@field useEntry Bool
 ---@field useExit Bool
@@ -10,6 +11,7 @@
 ---@field entryMarker scnMarker
 ---@field exitMarker scnMarker
 scnVehicleMoveOnSpline_Overrides = {}
+
 
 ---@param fields? scnVehicleMoveOnSpline_Overrides
 ---@return scnVehicleMoveOnSpline_Overrides

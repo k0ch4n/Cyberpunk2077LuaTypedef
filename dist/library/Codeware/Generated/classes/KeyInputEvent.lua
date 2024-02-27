@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class KeyInputEvent: NamedEvent
 KeyInputEvent = {}
+
 
 ---@param fields? KeyInputEvent
 ---@return KeyInputEvent

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GrappleStandEvents: LocomotionTakedownEvents
 ---@field isWalking Bool
 GrappleStandEvents = {}
+
 
 ---@param fields? GrappleStandEvents
 ---@return GrappleStandEvents

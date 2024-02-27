@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animImportFacialSetupDesc
 ---@field initialPose animImportFacialInitialPoseEntryDesc[]
 ---@field initialControls animImportFacialInitialControlsDesc
@@ -14,6 +15,7 @@
 ---@field wrinkleStartingIndex Uint16
 ---@field wrinkleMapping Uint16[]
 animImportFacialSetupDesc = {}
+
 
 ---@param fields? animImportFacialSetupDesc
 ---@return animImportFacialSetupDesc

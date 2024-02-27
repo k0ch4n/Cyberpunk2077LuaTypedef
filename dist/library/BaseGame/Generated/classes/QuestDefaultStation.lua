@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestDefaultStation: ActionBool
 QuestDefaultStation = {}
+
 
 ---@param fields? QuestDefaultStation
 ---@return QuestDefaultStation

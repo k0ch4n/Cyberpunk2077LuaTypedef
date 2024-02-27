@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataBuildCyberware_Record: gamedataTweakDBRecord
 gamedataBuildCyberware_Record = {}
+
 
 ---@param fields? gamedataBuildCyberware_Record
 ---@return gamedataBuildCyberware_Record

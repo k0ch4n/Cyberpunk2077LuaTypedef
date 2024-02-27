@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AddTargetToHighlightEvent: redEvent
 ---@field target CombatTarget
 AddTargetToHighlightEvent = {}
+
 
 ---@param fields? AddTargetToHighlightEvent
 ---@return AddTargetToHighlightEvent

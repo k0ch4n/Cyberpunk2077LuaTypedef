@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SParticleEmitterLODLevel
 ---@field emitterDurationSettings EmitterDurationSettings
 ---@field emitterDelaySettings EmitterDelaySettings
@@ -9,6 +10,7 @@
 ---@field lodSwitchDistance Float
 ---@field isEnabled Bool
 SParticleEmitterLODLevel = {}
+
 
 ---@param fields? SParticleEmitterLODLevel
 ---@return SParticleEmitterLODLevel

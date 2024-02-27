@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DriverCombatMountedWeaponsEvents: DriverCombatEvents
 ---@field activeWeapons gameweaponObject[]
 DriverCombatMountedWeaponsEvents = {}
+
 
 ---@param fields? DriverCombatMountedWeaponsEvents
 ---@return DriverCombatMountedWeaponsEvents

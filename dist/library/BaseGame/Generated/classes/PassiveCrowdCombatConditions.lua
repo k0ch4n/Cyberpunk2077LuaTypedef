@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class PassiveCrowdCombatConditions: PassiveAutonomousCondition
 ---@field threatCbId Uint32
 ---@field delayEvaluationCbId Uint32
 ---@field onItemAddedToSlotCbId Uint32
 ---@field crowdCombatConditionCbId Uint32
 PassiveCrowdCombatConditions = {}
+
 
 ---@param fields? PassiveCrowdCombatConditions
 ---@return PassiveCrowdCombatConditions

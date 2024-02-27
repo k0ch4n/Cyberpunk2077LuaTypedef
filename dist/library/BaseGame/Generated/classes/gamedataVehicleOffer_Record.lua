@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleOffer_Record: gamedataPurchaseOffer_Record
 gamedataVehicleOffer_Record = {}
+
 
 ---@param fields? gamedataVehicleOffer_Record
 ---@return gamedataVehicleOffer_Record

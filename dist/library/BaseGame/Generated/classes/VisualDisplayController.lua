@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VisualDisplayController: InventoryItemDisplayController
 ---@field equipped Bool
 VisualDisplayController = {}
+
 
 ---@param fields? VisualDisplayController
 ---@return VisualDisplayController

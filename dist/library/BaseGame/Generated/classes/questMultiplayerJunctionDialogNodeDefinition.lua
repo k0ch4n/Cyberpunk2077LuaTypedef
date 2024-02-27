@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questMultiplayerJunctionDialogNodeDefinition: questDisableableNodeDefinition
 questMultiplayerJunctionDialogNodeDefinition = {}
+
 
 ---@param fields? questMultiplayerJunctionDialogNodeDefinition
 ---@return questMultiplayerJunctionDialogNodeDefinition

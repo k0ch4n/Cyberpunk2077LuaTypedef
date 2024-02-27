@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamemountingMountingFacilitySharedState: ISerializable
 ---@field children entEntity[]
 ---@field parents entEntity[]
@@ -7,6 +8,7 @@
 ---@field parentTypes gameMountingObjectType[]
 ---@field childTypes gameMountingObjectType[]
 gamemountingMountingFacilitySharedState = {}
+
 
 ---@param fields? gamemountingMountingFacilitySharedState
 ---@return gamemountingMountingFacilitySharedState

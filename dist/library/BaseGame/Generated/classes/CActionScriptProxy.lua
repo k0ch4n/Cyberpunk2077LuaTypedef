@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CActionScriptProxy: IScriptable
 CActionScriptProxy = {}
+
 
 ---@param go gameObject
 ---@return nil

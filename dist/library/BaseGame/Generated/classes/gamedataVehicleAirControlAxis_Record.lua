@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleAirControlAxis_Record: gamedataTweakDBRecord
 gamedataVehicleAirControlAxis_Record = {}
+
 
 ---@param fields? gamedataVehicleAirControlAxis_Record
 ---@return gamedataVehicleAirControlAxis_Record

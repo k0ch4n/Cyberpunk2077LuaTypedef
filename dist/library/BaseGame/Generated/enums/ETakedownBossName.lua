@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETakedownBossName: Enum
 ---@field Smasher Enum 0
 ---@field Oda Enum 1

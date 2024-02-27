@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PassiveGlobalDeathCondition: AIbehaviorexpressionScript
 ---@field onDeathCbId Uint32
 PassiveGlobalDeathCondition = {}
+
 
 ---@param fields? PassiveGlobalDeathCondition
 ---@return PassiveGlobalDeathCondition

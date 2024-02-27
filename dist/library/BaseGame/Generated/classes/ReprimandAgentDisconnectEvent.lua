@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ReprimandAgentDisconnectEvent: redEvent
 ---@field agentID entEntityID
 ReprimandAgentDisconnectEvent = {}
+
 
 ---@param fields? ReprimandAgentDisconnectEvent
 ---@return ReprimandAgentDisconnectEvent

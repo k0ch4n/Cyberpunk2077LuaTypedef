@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class cursorDeviceGameController: gameuiWidgetGameController
 ---@field bbUIData gameIBlackboard
 ---@field bbWeaponInfo gameIBlackboard
@@ -16,6 +17,7 @@
 ---@field wasLastInteractionWithDevice Bool
 ---@field interactionDeviceState Bool
 cursorDeviceGameController = {}
+
 
 ---@param fields? cursorDeviceGameController
 ---@return cursorDeviceGameController

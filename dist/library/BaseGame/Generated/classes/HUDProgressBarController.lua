@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HUDProgressBarController: gameuiHUDGameController
 ---@field bar inkWidgetReference
 ---@field barExtra inkWidgetReference
@@ -42,6 +43,7 @@
 ---@field valueSaved Float
 ---@field bumpValue Float
 HUDProgressBarController = {}
+
 
 ---@param fields? HUDProgressBarController
 ---@return HUDProgressBarController

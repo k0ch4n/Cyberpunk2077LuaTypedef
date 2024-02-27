@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AlertedAnimWrapper: AIbehaviortaskScript
 AlertedAnimWrapper = {}
+
 
 ---@param fields? AlertedAnimWrapper
 ---@return AlertedAnimWrapper

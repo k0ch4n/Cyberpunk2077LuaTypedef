@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class KnifeLookAtEvents: LookAtPresetMeleeBaseEvents
 KnifeLookAtEvents = {}
+
 
 ---@param fields? KnifeLookAtEvents
 ---@return KnifeLookAtEvents

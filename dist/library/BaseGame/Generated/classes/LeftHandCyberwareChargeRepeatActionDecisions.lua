@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareChargeRepeatActionDecisions: LeftHandCyberwareActionAbstractDecisions
 LeftHandCyberwareChargeRepeatActionDecisions = {}
+
 
 ---@param fields? LeftHandCyberwareChargeRepeatActionDecisions
 ---@return LeftHandCyberwareChargeRepeatActionDecisions

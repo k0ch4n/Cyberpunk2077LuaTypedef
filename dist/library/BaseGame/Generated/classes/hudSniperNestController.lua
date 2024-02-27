@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hudSniperNestController: gameuiHUDGameController
 ---@field psmBlackboard gameIBlackboard
 ---@field tcsBlackboard gameIBlackboard
@@ -14,6 +15,7 @@
 ---@field ownerObject gameObject
 ---@field maxZoomLevel Int32
 hudSniperNestController = {}
+
 
 ---@param fields? hudSniperNestController
 ---@return hudSniperNestController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questMultiplayerAIDirectorFunction: Enum
 ---@field SetStatus Enum 0
 ---@field SetCurrentPath Enum 1

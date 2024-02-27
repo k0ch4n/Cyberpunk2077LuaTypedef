@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CombatGadgetUnequipEvents: CombatGadgetTransitions
 CombatGadgetUnequipEvents = {}
+
 
 ---@param fields? CombatGadgetUnequipEvents
 ---@return CombatGadgetUnequipEvents

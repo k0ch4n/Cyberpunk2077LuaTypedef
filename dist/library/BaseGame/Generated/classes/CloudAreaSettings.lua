@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CloudAreaSettings: IAreaSettings
 ---@field cloudSunShadowFaloff curveData
 ---@field cloudSunScattering curveData
@@ -35,6 +36,7 @@
 ---@field volDistantFogOpacity Float
 ---@field volCoverageOffset Vector2
 CloudAreaSettings = {}
+
 
 ---@param fields? CloudAreaSettings
 ---@return CloudAreaSettings

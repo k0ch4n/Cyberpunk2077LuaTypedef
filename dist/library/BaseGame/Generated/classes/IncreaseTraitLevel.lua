@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IncreaseTraitLevel: gamePlayerScriptableSystemRequest
 ---@field trait gamedataTraitType
 IncreaseTraitLevel = {}
+
 
 ---@param fields? IncreaseTraitLevel
 ---@return IncreaseTraitLevel

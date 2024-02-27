@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIActionTransactionSystem: IScriptable
 AIActionTransactionSystem = {}
+
 
 ---@param puppet ScriptedPuppet
 ---@param equipmentGroupName CName|string

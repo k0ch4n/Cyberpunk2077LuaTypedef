@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkLanguageFontMapping
 ---@field languageCode CName
 ---@field font inkFontFamilyResource
@@ -9,6 +10,7 @@
 ---@field fontSizeModifierFloat Float
 ---@field styleModifer CName
 inkLanguageFontMapping = {}
+
 
 ---@param fields? inkLanguageFontMapping
 ---@return inkLanguageFontMapping

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class worldCompiledSmartObjectsNode: worldNode
 ---@field resource gameSmartObjectsCompiledResource
 worldCompiledSmartObjectsNode = {}
+
 
 ---@param fields? worldCompiledSmartObjectsNode
 ---@return worldCompiledSmartObjectsNode

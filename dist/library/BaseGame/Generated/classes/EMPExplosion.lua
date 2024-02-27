@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EMPExplosion: gameEffectExecutor_Scripted
 EMPExplosion = {}
+
 
 ---@param fields? EMPExplosion
 ---@return EMPExplosion

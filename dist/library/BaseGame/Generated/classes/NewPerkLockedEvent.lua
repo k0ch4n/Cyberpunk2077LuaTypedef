@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NewPerkLockedEvent: redEvent
 ---@field perkType gamedataNewPerkType
 NewPerkLockedEvent = {}
+
 
 ---@param fields? NewPerkLockedEvent
 ---@return NewPerkLockedEvent

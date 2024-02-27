@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDebugVisualizerSystem: gameIDebugVisualizerSystem
 gameDebugVisualizerSystem = {}
+
 
 ---@param fields? gameDebugVisualizerSystem
 ---@return gameDebugVisualizerSystem

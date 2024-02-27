@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class FilterNPCDodgeOpportunity: gameEffectObjectGroupFilter_Scripted
 ---@field applyToTechWeapons Bool
 ---@field doDodgingTargetsGetFilteredOut Bool
 FilterNPCDodgeOpportunity = {}
+
 
 ---@param fields? FilterNPCDodgeOpportunity
 ---@return FilterNPCDodgeOpportunity

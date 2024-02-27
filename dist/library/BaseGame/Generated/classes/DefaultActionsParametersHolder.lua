@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DefaultActionsParametersHolder: IScriptable
 DefaultActionsParametersHolder = {}
+
 
 ---@param fields? DefaultActionsParametersHolder
 ---@return DefaultActionsParametersHolder

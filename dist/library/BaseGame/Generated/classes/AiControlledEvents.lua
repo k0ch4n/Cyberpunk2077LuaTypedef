@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AiControlledEvents: HighLevelTransition
 AiControlledEvents = {}
+
 
 ---@param fields? AiControlledEvents
 ---@return AiControlledEvents

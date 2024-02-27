@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkVirtualCompoundControllerCallback: inkCallbackBase
 inkVirtualCompoundControllerCallback = {}
+
 
 ---@param fields? inkVirtualCompoundControllerCallback
 ---@return inkVirtualCompoundControllerCallback

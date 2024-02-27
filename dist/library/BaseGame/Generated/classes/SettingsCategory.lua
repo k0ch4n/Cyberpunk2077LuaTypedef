@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SettingsCategory
 ---@field label CName
 ---@field subcategories SettingsCategory[]
@@ -7,6 +8,7 @@
 ---@field isEmpty Bool
 ---@field groupPath CName
 SettingsCategory = {}
+
 
 ---@param fields? SettingsCategory
 ---@return SettingsCategory

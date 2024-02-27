@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiHackingMinigameState: Enum
 ---@field Unknown Enum 0
 ---@field InProgress Enum 1

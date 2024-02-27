@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FirstEquipSystem: gameScriptableSystem
 ---@field equipDataArray EFirstEquipData[]
 FirstEquipSystem = {}
+
 
 ---@param fields? FirstEquipSystem
 ---@return FirstEquipSystem

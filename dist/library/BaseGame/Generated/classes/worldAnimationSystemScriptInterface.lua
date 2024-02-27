@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldAnimationSystemScriptInterface: IScriptable
 worldAnimationSystemScriptInterface = {}
+
 
 ---@param fields? worldAnimationSystemScriptInterface
 ---@return worldAnimationSystemScriptInterface

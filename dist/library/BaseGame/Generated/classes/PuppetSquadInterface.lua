@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class PuppetSquadInterface: AICombatSquadScriptInterface
 ---@field baseSquadRecord gamedataAISquadParams_Record
 ---@field ticketHistory SquadTicketReceipt[]
 ---@field enumValueToNdx gameEnumNameToIndexCache
 ---@field sectorsInitialized Bool
 PuppetSquadInterface = {}
+
 
 ---@param fields? PuppetSquadInterface
 ---@return PuppetSquadInterface

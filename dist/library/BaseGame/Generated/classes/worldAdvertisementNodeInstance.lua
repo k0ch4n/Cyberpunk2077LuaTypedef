@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldAdvertisementNodeInstance: worldStaticMeshNodeInstance
 worldAdvertisementNodeInstance = {}
+
 
 ---@param fields? worldAdvertisementNodeInstance
 ---@return worldAdvertisementNodeInstance

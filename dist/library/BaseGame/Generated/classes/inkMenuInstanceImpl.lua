@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkMenuInstanceImpl: inkMenuInstance
 inkMenuInstanceImpl = {}
+
 
 ---@param fields? inkMenuInstanceImpl
 ---@return inkMenuInstanceImpl

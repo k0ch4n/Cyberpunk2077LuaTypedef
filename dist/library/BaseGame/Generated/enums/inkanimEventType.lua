@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkanimEventType: Enum
 ---@field OnLoaded Enum 0
 ---@field OnStart Enum 1

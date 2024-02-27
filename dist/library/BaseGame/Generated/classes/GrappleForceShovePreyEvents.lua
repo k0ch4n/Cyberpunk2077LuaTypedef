@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GrappleForceShovePreyEvents: LocomotionTakedownEvents
 ---@field unmountCalled Bool
 GrappleForceShovePreyEvents = {}
+
 
 ---@param fields? GrappleForceShovePreyEvents
 ---@return GrappleForceShovePreyEvents

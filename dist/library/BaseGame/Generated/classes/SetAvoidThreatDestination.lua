@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetAvoidThreatDestination: AIbehaviortaskScript
 SetAvoidThreatDestination = {}
+
 
 ---@param fields? SetAvoidThreatDestination
 ---@return SetAvoidThreatDestination

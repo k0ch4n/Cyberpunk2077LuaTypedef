@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AttributeData: IDisplayData
 ---@field label String
 ---@field icon String
@@ -10,6 +11,7 @@
 ---@field availableToUpgrade Bool
 ---@field type gamedataStatType
 AttributeData = {}
+
 
 ---@param fields? AttributeData
 ---@return AttributeData

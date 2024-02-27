@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CEvaluatorVectorRandomUniform: IEvaluatorVector
 ---@field min Vector4
 ---@field max Vector4
@@ -8,6 +9,7 @@
 ---@field lockZ Bool
 ---@field lockW Bool
 CEvaluatorVectorRandomUniform = {}
+
 
 ---@param fields? CEvaluatorVectorRandomUniform
 ---@return CEvaluatorVectorRandomUniform

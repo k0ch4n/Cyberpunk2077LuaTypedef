@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_NetworkBreach: MenuScenario_BaseMenu
 MenuScenario_NetworkBreach = {}
+
 
 ---@param fields? MenuScenario_NetworkBreach
 ---@return MenuScenario_NetworkBreach

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIAssignedVehicleInRace_Record: gamedataAIActionSubCondition_Record
 gamedataAIAssignedVehicleInRace_Record = {}
+
 
 ---@param fields? gamedataAIAssignedVehicleInRace_Record
 ---@return gamedataAIAssignedVehicleInRace_Record

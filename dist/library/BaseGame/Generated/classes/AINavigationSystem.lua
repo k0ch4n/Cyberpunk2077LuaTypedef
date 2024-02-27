@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AINavigationSystem: AIINavigationSystem
 AINavigationSystem = {}
+
 
 ---@param fields? AINavigationSystem
 ---@return AINavigationSystem

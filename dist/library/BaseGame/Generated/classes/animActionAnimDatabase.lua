@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class animActionAnimDatabase: CResource
 ---@field rows animActionAnimDatabase_DatabaseRow[]
 animActionAnimDatabase = {}
+
 
 ---@param fields? animActionAnimDatabase
 ---@return animActionAnimDatabase

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ExplosiveTriggerDeviceControllerPS: ExplosiveDeviceControllerPS
 ---@field playerSafePass Bool
 ---@field triggerExploded Bool
 ExplosiveTriggerDeviceControllerPS = {}
+
 
 ---@param fields? ExplosiveTriggerDeviceControllerPS
 ---@return ExplosiveTriggerDeviceControllerPS

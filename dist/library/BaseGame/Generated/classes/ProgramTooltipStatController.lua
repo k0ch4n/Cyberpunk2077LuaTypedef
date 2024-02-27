@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ProgramTooltipStatController: inkWidgetLogicController
 ---@field arrow inkImageWidgetReference
 ---@field value inkTextWidgetReference
 ---@field name inkTextWidgetReference
 ---@field diffValue inkTextWidgetReference
 ProgramTooltipStatController = {}
+
 
 ---@param fields? ProgramTooltipStatController
 ---@return ProgramTooltipStatController

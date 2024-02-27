@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAimAssistType: Enum
 ---@field BreachTarget Enum 0
 ---@field ChestTarget Enum 1

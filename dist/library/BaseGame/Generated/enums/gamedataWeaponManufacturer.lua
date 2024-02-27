@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataWeaponManufacturer: Enum
 ---@field Corporation Enum 0
 ---@field Street Enum 1

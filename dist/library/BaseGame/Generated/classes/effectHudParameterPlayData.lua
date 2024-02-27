@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class effectHudParameterPlayData: effectVisualComponentTrackItemPlayData
 effectHudParameterPlayData = {}
+
 
 ---@param fields? effectHudParameterPlayData
 ---@return effectHudParameterPlayData

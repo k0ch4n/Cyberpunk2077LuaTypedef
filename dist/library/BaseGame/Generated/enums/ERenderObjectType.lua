@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ERenderObjectType: Enum
 ---@field ROT_Static Enum 0
 ---@field ROT_Terrain Enum 1

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MenuCursorUserData: inkUserData
 ---@field animationOverride CName
 ---@field actions CName[]
 MenuCursorUserData = {}
+
 
 ---@param fields? MenuCursorUserData
 ---@return MenuCursorUserData

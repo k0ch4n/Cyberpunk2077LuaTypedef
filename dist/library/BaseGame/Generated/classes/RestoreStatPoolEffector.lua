@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class RestoreStatPoolEffector: gameEffector
 ---@field statPoolType gamedataStatPoolType
 ---@field valueToRestore Float
 ---@field percentage Bool
 RestoreStatPoolEffector = {}
+
 
 ---@param fields? RestoreStatPoolEffector
 ---@return RestoreStatPoolEffector

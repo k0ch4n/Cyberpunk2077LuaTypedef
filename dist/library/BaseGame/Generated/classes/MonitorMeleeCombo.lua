@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MonitorMeleeCombo: AIActionHelperTask
 ---@field ExitComboBoolArgumentRef CName
 ---@field PreviousReactionIntArgumentRef CName
@@ -7,6 +8,7 @@
 ---@field ComboCountIntArgumentRef CName
 ---@field ComboToIdleBoolArgumentRef CName
 MonitorMeleeCombo = {}
+
 
 ---@param fields? MonitorMeleeCombo
 ---@return MonitorMeleeCombo

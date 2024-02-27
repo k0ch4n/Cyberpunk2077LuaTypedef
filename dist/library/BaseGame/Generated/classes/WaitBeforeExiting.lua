@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WaitBeforeExiting: AIVehicleTaskAbstract
 WaitBeforeExiting = {}
+
 
 ---@param fields? WaitBeforeExiting
 ---@return WaitBeforeExiting

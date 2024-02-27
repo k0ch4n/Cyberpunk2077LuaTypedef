@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CCubeTexture: ITexture
 ---@field setup STextureGroupSetup
 ---@field size Uint32
 ---@field renderResourceBlob IRenderResourceBlob
 ---@field renderTextureResource rendRenderTextureResource
 CCubeTexture = {}
+
 
 ---@param fields? CCubeTexture
 ---@return CCubeTexture

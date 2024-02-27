@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class LeaveCoverImmediately: AIbehaviortaskScript
 ---@field delay Float
 ---@field completeOnLeave Bool
 ---@field timeStamp Float
 ---@field triggered Bool
 LeaveCoverImmediately = {}
+
 
 ---@param fields? LeaveCoverImmediately
 ---@return LeaveCoverImmediately

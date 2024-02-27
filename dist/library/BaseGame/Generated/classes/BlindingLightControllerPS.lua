@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BlindingLightControllerPS: BasicDistractionDeviceControllerPS
 ---@field reflectorSFX ReflectorSFX
 BlindingLightControllerPS = {}
+
 
 ---@param fields? BlindingLightControllerPS
 ---@return BlindingLightControllerPS

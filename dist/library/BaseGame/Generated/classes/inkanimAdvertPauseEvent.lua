@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkanimAdvertPauseEvent: inkanimEvent
 inkanimAdvertPauseEvent = {}
+
 
 ---@param fields? inkanimAdvertPauseEvent
 ---@return inkanimAdvertPauseEvent

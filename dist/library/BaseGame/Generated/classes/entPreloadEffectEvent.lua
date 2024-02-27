@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entPreloadEffectEvent: redEvent
 ---@field effectName CName
 entPreloadEffectEvent = {}
+
 
 ---@param fields? entPreloadEffectEvent
 ---@return entPreloadEffectEvent

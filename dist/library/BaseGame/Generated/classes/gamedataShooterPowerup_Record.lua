@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataShooterPowerup_Record: gamedataShooterObject_Record
 gamedataShooterPowerup_Record = {}
+
 
 ---@param fields? gamedataShooterPowerup_Record
 ---@return gamedataShooterPowerup_Record

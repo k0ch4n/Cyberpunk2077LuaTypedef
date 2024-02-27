@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIMoveOnSplineCommandHandler: AICommandHandlerBase
 ---@field outSpline AIArgumentMapping
 ---@field outMovementType AIArgumentMapping
@@ -8,6 +9,7 @@
 ---@field outSnapToTerrain AIArgumentMapping
 ---@field allowCrowdOnPath AIArgumentMapping
 AIMoveOnSplineCommandHandler = {}
+
 
 ---@param fields? AIMoveOnSplineCommandHandler
 ---@return AIMoveOnSplineCommandHandler

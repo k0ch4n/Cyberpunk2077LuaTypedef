@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ApplyDamageDeviceOperation: DeviceOperationBase
 ---@field damages SDamageOperationData[]
 ApplyDamageDeviceOperation = {}
+
 
 ---@param fields? ApplyDamageDeviceOperation
 ---@return ApplyDamageDeviceOperation

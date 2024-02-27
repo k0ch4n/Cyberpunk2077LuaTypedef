@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehiclePreventionHackState: IScriptable
 ---@field vehicle vehicleBaseObject
 ---@field vehicleID entEntityID
@@ -11,6 +12,7 @@
 ---@field progressBar UploadFromNPCToPlayerListener
 ---@field appliedHackSpeed EAppliedTriangulationHackSpeed
 VehiclePreventionHackState = {}
+
 
 ---@param fields? VehiclePreventionHackState
 ---@return VehiclePreventionHackState

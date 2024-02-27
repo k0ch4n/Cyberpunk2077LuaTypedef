@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CameraSetup
 ---@field canStreamVideo Bool
 CameraSetup = {}
+
 
 ---@param fields? CameraSetup
 ---@return CameraSetup

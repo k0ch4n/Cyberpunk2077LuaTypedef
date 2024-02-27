@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class audioMeleeRigTypeMeleeWeaponConfigurationMap
 ---@field mapItems audioMeleeRigTypeMeleeWeaponConfigurationMapItem[]
 audioMeleeRigTypeMeleeWeaponConfigurationMap = {}
+
 
 ---@param fields? audioMeleeRigTypeMeleeWeaponConfigurationMap
 ---@return audioMeleeRigTypeMeleeWeaponConfigurationMap

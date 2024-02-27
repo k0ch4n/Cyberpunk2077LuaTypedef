@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiDamageIndicatorGameController: gameuiHUDGameController
 ---@field maxVisibleParts Uint8
 gameuiDamageIndicatorGameController = {}
+
 
 ---@param fields? gameuiDamageIndicatorGameController
 ---@return gameuiDamageIndicatorGameController

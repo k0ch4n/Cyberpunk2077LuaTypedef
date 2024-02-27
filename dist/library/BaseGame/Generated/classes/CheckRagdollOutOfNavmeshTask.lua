@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CheckRagdollOutOfNavmeshTask: StatusEffectTasks
 ---@field outStatusArgument AIArgumentMapping
 ---@field outPositionStatusArgument AIArgumentMapping
 ---@field outPositionArgument AIArgumentMapping
 CheckRagdollOutOfNavmeshTask = {}
+
 
 ---@param fields? CheckRagdollOutOfNavmeshTask
 ---@return CheckRagdollOutOfNavmeshTask

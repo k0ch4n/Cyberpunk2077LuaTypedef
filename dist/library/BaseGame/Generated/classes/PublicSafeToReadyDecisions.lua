@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PublicSafeToReadyDecisions: WeaponTransition
 PublicSafeToReadyDecisions = {}
+
 
 ---@param fields? PublicSafeToReadyDecisions
 ---@return PublicSafeToReadyDecisions

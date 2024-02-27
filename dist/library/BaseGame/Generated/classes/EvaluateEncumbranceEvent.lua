@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EvaluateEncumbranceEvent: redEvent
 EvaluateEncumbranceEvent = {}
+
 
 ---@param fields? EvaluateEncumbranceEvent
 ---@return EvaluateEncumbranceEvent

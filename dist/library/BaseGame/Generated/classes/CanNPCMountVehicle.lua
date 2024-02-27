@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CanNPCMountVehicle: PreventionConditionAbstract
 CanNPCMountVehicle = {}
+
 
 ---@param fields? CanNPCMountVehicle
 ---@return CanNPCMountVehicle

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMountingObjectSubType: Enum
 ---@field Invalid Enum -1
 ---@field Car Enum 0

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RequestEquipHeavyWeapon: redEvent
 ---@field itemID gameItemID
 RequestEquipHeavyWeapon = {}
+
 
 ---@param fields? RequestEquipHeavyWeapon
 ---@return RequestEquipHeavyWeapon

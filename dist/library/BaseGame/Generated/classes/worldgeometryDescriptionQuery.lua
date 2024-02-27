@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldgeometryDescriptionQuery: IScriptable
 ---@field refPosition Vector4
 ---@field refDirection Vector4
@@ -17,6 +18,7 @@
 ---@field filter physicsQueryFilter
 ---@field flags Uint32
 worldgeometryDescriptionQuery = {}
+
 
 ---@param fields? worldgeometryDescriptionQuery
 ---@return worldgeometryDescriptionQuery

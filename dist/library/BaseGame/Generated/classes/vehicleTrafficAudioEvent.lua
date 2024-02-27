@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class vehicleTrafficAudioEvent: redEvent
 ---@field audioAction audioTrafficVehicleAudioAction
 vehicleTrafficAudioEvent = {}
+
 
 ---@param fields? vehicleTrafficAudioEvent
 ---@return vehicleTrafficAudioEvent

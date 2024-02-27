@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DeviceDebugDef: gamebbScriptDefinition
 ---@field CurrentlyDebuggedDevice gamebbScriptID_CName
 ---@field DebuggedEntityIDAsString gamebbScriptID_String
 DeviceDebugDef = {}
+
 
 ---@param fields? DeviceDebugDef
 ---@return DeviceDebugDef

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BlindManagerTask: StatusEffectTasks
 BlindManagerTask = {}
+
 
 ---@param fields? BlindManagerTask
 ---@return BlindManagerTask

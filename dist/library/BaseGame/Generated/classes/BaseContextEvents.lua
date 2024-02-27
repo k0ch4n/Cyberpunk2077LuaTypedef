@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BaseContextEvents: InputContextTransitionEvents
 BaseContextEvents = {}
+
 
 ---@param fields? BaseContextEvents
 ---@return BaseContextEvents

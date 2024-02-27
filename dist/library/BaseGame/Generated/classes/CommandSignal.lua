@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CommandSignal: gameTaggedSignalUserData
 ---@field track Bool
 ---@field commandClassNames CName[]
 CommandSignal = {}
+
 
 ---@param fields? CommandSignal
 ---@return CommandSignal

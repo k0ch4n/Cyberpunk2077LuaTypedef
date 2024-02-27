@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class interactionWidgetGameController: gameuiHUDGameController
 ---@field root inkWidget
 ---@field titleLabel inkTextWidget
@@ -28,6 +29,7 @@
 ---@field spawnTokens inkAsyncSpawnRequest[]
 ---@field currentOptions gameinteractionsvisInteractionChoiceData[]
 interactionWidgetGameController = {}
+
 
 ---@param fields? interactionWidgetGameController
 ---@return interactionWidgetGameController

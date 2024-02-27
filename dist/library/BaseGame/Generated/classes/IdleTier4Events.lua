@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IdleTier4Events: LocomotionGroundEvents
 IdleTier4Events = {}
+
 
 ---@param fields? IdleTier4Events
 ---@return IdleTier4Events

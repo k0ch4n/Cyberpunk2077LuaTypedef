@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalEntryUserState: Enum
 ---@field Undefined Enum 0
 ---@field Inactive Enum 1

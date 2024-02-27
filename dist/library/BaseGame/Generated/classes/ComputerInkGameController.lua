@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ComputerInkGameController: DeviceInkGameControllerBase
 ---@field layoutID TweakDBID
 ---@field currentLayoutLibraryID CName
@@ -20,6 +21,7 @@
 ---@field onBannerWidgetsUpdateListener redCallbackObject
 ---@field onGlitchingStateChangedListener redCallbackObject
 ComputerInkGameController = {}
+
 
 ---@param fields? ComputerInkGameController
 ---@return ComputerInkGameController

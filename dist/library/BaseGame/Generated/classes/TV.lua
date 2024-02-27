@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class TV: InteractiveDevice
 ---@field isShortGlitchActive Bool
 ---@field shortGlitchDelayID gameDelayID
 ---@field isTVMoving Bool
 TV = {}
+
 
 ---@param fields? TV
 ---@return TV

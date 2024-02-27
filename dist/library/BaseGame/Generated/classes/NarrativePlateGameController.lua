@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NarrativePlateGameController: gameuiProjectedHUDGameController
 ---@field plateHolder inkWidgetReference
 ---@field projection inkScreenProjection
@@ -7,6 +8,7 @@
 ---@field narrativePlateBlackboardText redCallbackObject
 ---@field logicController NarrativePlateLogicController
 NarrativePlateGameController = {}
+
 
 ---@param fields? NarrativePlateGameController
 ---@return NarrativePlateGameController

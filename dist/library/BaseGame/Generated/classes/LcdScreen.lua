@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class LcdScreen: InteractiveDevice
 ---@field isShortGlitchActive Bool
 ---@field shortGlitchDelayID gameDelayID
 LcdScreen = {}
+
 
 ---@param fields? LcdScreen
 ---@return LcdScreen

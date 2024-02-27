@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiRequestResetContextEvent: redEvent
 gameuiRequestResetContextEvent = {}
+
 
 ---@param fields? gameuiRequestResetContextEvent
 ---@return gameuiRequestResetContextEvent

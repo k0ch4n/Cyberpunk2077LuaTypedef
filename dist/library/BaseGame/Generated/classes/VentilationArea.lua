@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VentilationArea: InteractiveMasterDevice
 ---@field areaComponent gameStaticTriggerAreaComponent
 ---@field RestartGameEffectOnAttach Bool
@@ -8,6 +9,7 @@
 ---@field gameEffect gameEffectInstance
 ---@field highLightActive Bool
 VentilationArea = {}
+
 
 ---@param fields? VentilationArea
 ---@return VentilationArea

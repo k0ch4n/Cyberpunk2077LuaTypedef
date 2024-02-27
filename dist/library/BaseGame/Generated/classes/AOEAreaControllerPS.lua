@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AOEAreaControllerPS: MasterControllerPS
 ---@field AOEAreaSetup AOEAreaSetup
 AOEAreaControllerPS = {}
+
 
 ---@param fields? AOEAreaControllerPS
 ---@return AOEAreaControllerPS

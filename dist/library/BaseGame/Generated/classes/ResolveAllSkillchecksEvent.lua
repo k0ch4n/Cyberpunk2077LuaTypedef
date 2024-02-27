@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResolveAllSkillchecksEvent: redEvent
 ResolveAllSkillchecksEvent = {}
+
 
 ---@param fields? ResolveAllSkillchecksEvent
 ---@return ResolveAllSkillchecksEvent

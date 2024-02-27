@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ClaymoreMine: gameweaponObject
 ---@field visualComponent entMeshComponent
 ---@field triggerAreaIndicator entMeshComponent
@@ -8,6 +9,7 @@
 ---@field alive Bool
 ---@field armed Bool
 ClaymoreMine = {}
+
 
 ---@param fields? ClaymoreMine
 ---@return ClaymoreMine

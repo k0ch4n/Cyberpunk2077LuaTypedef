@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WorldWidgetComponent: IWorldWidgetComponent
 ---@field cursorResource inkWidgetLibraryResource
 ---@field widgetResource inkWidgetLibraryResource
@@ -10,6 +11,7 @@
 ---@field limitedSpawnDistanceFromVehicle Bool
 ---@field screenDefinition SUIScreenDefinition
 WorldWidgetComponent = {}
+
 
 ---@param fields? WorldWidgetComponent
 ---@return WorldWidgetComponent

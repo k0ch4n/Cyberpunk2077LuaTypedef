@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ModifyStatusEffectDurationOnAttackEffector: ModifyAttackEffector
 ---@field tags CName[]
 ---@field change Float
@@ -7,6 +8,7 @@
 ---@field listenConstantly Bool
 ---@field gameInstance ScriptGameInstance
 ModifyStatusEffectDurationOnAttackEffector = {}
+
 
 ---@param fields? ModifyStatusEffectDurationOnAttackEffector
 ---@return ModifyStatusEffectDurationOnAttackEffector

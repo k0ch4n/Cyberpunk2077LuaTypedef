@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiarcadeShooterAIType: Enum
 ---@field MELEE Enum 0
 ---@field RANGESHOOTER Enum 1

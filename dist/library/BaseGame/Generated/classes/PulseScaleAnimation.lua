@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PulseScaleAnimation: PulseAnimation
 PulseScaleAnimation = {}
+
 
 ---@param fields? PulseScaleAnimation
 ---@return PulseScaleAnimation

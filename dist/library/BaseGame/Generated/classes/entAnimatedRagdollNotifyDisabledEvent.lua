@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entAnimatedRagdollNotifyDisabledEvent: redEvent
 entAnimatedRagdollNotifyDisabledEvent = {}
+
 
 ---@param fields? entAnimatedRagdollNotifyDisabledEvent
 ---@return entAnimatedRagdollNotifyDisabledEvent

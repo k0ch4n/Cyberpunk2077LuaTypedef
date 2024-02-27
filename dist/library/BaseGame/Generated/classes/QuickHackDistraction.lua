@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickHackDistraction: ActionBool
 QuickHackDistraction = {}
+
 
 ---@param fields? QuickHackDistraction
 ---@return QuickHackDistraction

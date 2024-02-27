@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAISquadRing: Enum
 ---@field Invalid Enum 0
 ---@field Melee Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleSurfaceBinding_Record: gamedataTweakDBRecord
 gamedataVehicleSurfaceBinding_Record = {}
+
 
 ---@param fields? gamedataVehicleSurfaceBinding_Record
 ---@return gamedataVehicleSurfaceBinding_Record

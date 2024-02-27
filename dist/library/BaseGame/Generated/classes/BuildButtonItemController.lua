@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BuildButtonItemController: inkButtonDpadSupportedController
 ---@field associatedBuild gamedataBuildType
 BuildButtonItemController = {}
+
 
 ---@param fields? BuildButtonItemController
 ---@return BuildButtonItemController

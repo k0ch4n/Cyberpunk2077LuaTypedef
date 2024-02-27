@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiAdvertTranslationController: gameuiWidgetGameController
 ---@field advertText inkTextWidgetReference
 gameuiAdvertTranslationController = {}
+
 
 ---@param fields? gameuiAdvertTranslationController
 ---@return gameuiAdvertTranslationController

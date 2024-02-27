@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animNPCVehicleDeathType: Enum
 ---@field Default Enum 0
 ---@field Relaxed Enum 1

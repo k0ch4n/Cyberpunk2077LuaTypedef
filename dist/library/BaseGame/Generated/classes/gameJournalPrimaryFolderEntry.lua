@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameJournalPrimaryFolderEntry: gameJournalFolderEntry
 gameJournalPrimaryFolderEntry = {}
+
 
 ---@param fields? gameJournalPrimaryFolderEntry
 ---@return gameJournalPrimaryFolderEntry

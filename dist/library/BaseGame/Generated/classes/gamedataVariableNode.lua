@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataVariableNode: gamedataDataNode
 ---@field hashedName CName
 ---@field type String
@@ -11,6 +12,7 @@
 ---@field typeEnum gamedataTweakDBType
 ---@field values gamedataVariableNodeVariableValue[]
 gamedataVariableNode = {}
+
 
 ---@param fields? gamedataVariableNode
 ---@return gamedataVariableNode

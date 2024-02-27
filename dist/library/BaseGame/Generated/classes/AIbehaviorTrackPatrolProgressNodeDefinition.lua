@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorTrackPatrolProgressNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field pathParameters AIArgumentMapping
 ---@field patrolProgress AIArgumentMapping
@@ -10,6 +11,7 @@
 ---@field handleTeleportRequest AIArgumentMapping
 ---@field fastForwardAfterTeleport AIArgumentMapping
 AIbehaviorTrackPatrolProgressNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorTrackPatrolProgressNodeDefinition
 ---@return AIbehaviorTrackPatrolProgressNodeDefinition

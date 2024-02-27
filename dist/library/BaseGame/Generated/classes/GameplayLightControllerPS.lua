@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GameplayLightControllerPS: ElectricLightControllerPS
 GameplayLightControllerPS = {}
+
 
 ---@param fields? GameplayLightControllerPS
 ---@return GameplayLightControllerPS

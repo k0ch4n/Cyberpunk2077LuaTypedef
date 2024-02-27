@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleUIGameController: gameuiHUDGameController
 ---@field vehicleBlackboard gameIBlackboard
 ---@field vehicle vehicleBaseObject
@@ -23,6 +24,7 @@
 ---@field analogSpeedWidget inkWidgetReference
 ---@field isVehicleReady Bool
 vehicleUIGameController = {}
+
 
 ---@param fields? vehicleUIGameController
 ---@return vehicleUIGameController

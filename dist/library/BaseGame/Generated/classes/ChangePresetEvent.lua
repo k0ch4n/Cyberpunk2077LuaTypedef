@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ChangePresetEvent: redEvent
 ---@field presetID ESmartHousePreset
 ChangePresetEvent = {}
+
 
 ---@param fields? ChangePresetEvent
 ---@return ChangePresetEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BarbedWireController: ActivatedDeviceController
 BarbedWireController = {}
+
 
 ---@param fields? BarbedWireController
 ---@return BarbedWireController

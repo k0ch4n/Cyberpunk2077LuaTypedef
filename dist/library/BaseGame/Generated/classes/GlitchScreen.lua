@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GlitchScreen: ActionBool
 GlitchScreen = {}
+
 
 ---@param fields? GlitchScreen
 ---@return GlitchScreen

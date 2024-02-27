@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameFlattenedLootData
 ---@field lootID TweakDBID
 gameFlattenedLootData = {}
+
 
 ---@param fields? gameFlattenedLootData
 ---@return gameFlattenedLootData

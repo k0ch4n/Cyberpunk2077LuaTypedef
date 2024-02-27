@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiNewPhoneRelatedGameController: gameuiWidgetGameController
 ---@field isNewPhoneEnabled Bool
 gameuiNewPhoneRelatedGameController = {}
+
 
 ---@param fields? gameuiNewPhoneRelatedGameController
 ---@return gameuiNewPhoneRelatedGameController

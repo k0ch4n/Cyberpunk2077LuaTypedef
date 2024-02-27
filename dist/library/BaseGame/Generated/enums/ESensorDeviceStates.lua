@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ESensorDeviceStates: Enum
 ---@field NONE Enum 0
 ---@field IDLE Enum 1

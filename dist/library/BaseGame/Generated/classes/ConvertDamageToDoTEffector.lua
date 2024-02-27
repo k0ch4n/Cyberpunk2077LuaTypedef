@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ConvertDamageToDoTEffector: ModifyAttackEffector
 ---@field DamageToDoTConversion Float
 ---@field DotDistributionTime Float
 ---@field statMod gameConstantStatModifierData_Deprecated
 ---@field ownerID entEntityID
 ConvertDamageToDoTEffector = {}
+
 
 ---@param fields? ConvertDamageToDoTEffector
 ---@return ConvertDamageToDoTEffector

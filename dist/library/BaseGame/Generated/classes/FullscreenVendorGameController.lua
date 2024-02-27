@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FullscreenVendorGameController: gameuiMenuGameController
 ---@field TooltipsManagerRef inkWidgetReference
 ---@field buttonHintsManagerRef inkWidgetReference
@@ -87,6 +88,7 @@
 ---@field cursorData MenuCursorUserData
 ---@field pressedItemDisplay InventoryItemDisplayController
 FullscreenVendorGameController = {}
+
 
 ---@param fields? FullscreenVendorGameController
 ---@return FullscreenVendorGameController

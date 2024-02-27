@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entTriggerVOEvent: redEvent
 ---@field triggerBaseName CName
 ---@field triggerVariationIndex Uint32
@@ -13,6 +14,7 @@
 ---@field overridingVisualStyleValue Uint8
 ---@field overrideVisualStyle Bool
 entTriggerVOEvent = {}
+
 
 ---@param fields? entTriggerVOEvent
 ---@return entTriggerVOEvent

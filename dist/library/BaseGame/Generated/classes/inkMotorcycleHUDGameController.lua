@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkMotorcycleHUDGameController: gameuiBaseVehicleHUDGameController
 ---@field vehicleBlackboard gameIBlackboard
 ---@field activeVehicleUIBlackboard gameIBlackboard
@@ -42,6 +43,7 @@
 ---@field HudRedLineAnimation inkanimProxy
 ---@field fluffBlinking inkanimController
 inkMotorcycleHUDGameController = {}
+
 
 ---@param fields? inkMotorcycleHUDGameController
 ---@return inkMotorcycleHUDGameController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Flush: ActionBool
 Flush = {}
+
 
 ---@param fields? Flush
 ---@return Flush

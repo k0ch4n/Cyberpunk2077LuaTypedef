@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIPhaseStateEventHandlerComponent: AIRelatedComponents
 ---@field phaseStateValue ENPCPhaseState
 AIPhaseStateEventHandlerComponent = {}
+
 
 ---@param fields? AIPhaseStateEventHandlerComponent
 ---@return AIPhaseStateEventHandlerComponent

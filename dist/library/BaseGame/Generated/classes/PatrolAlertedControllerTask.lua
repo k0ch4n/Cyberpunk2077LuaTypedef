@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PatrolAlertedControllerTask: AIbehaviortaskScript
 PatrolAlertedControllerTask = {}
+
 
 ---@param fields? PatrolAlertedControllerTask
 ---@return PatrolAlertedControllerTask

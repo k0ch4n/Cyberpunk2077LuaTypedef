@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DatatermLoginGameController: BaseBunkerComputerGameController
 ---@field loopAnimName CName
 ---@field alphaSys inkWidgetReference
@@ -7,6 +8,7 @@
 ---@field sierraSys inkWidgetReference
 ---@field victorSys inkWidgetReference
 DatatermLoginGameController = {}
+
 
 ---@param fields? DatatermLoginGameController
 ---@return DatatermLoginGameController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimFeature_Crowd: animAnimFeature
 ---@field stopType Int32
 ---@field speedType Int32
@@ -22,6 +23,7 @@
 ---@field distanceToPlayer2D Float
 ---@field angleToPlayer Float
 animAnimFeature_Crowd = {}
+
 
 ---@param fields? animAnimFeature_Crowd
 ---@return animAnimFeature_Crowd

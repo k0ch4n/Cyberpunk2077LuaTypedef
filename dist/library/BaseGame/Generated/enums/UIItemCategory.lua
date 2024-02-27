@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIItemCategory: Enum
 ---@field Default Enum 0
 ---@field Weapon Enum 1

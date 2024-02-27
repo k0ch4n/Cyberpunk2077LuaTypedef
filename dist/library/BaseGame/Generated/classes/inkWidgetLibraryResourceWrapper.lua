@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkWidgetLibraryResourceWrapper
 ---@field library inkWidgetLibraryResource
 inkWidgetLibraryResourceWrapper = {}
+
 
 ---@param fields? inkWidgetLibraryResourceWrapper
 ---@return inkWidgetLibraryResourceWrapper

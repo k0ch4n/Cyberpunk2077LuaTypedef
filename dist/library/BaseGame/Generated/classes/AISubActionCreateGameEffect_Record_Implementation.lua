@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionCreateGameEffect_Record_Implementation: IScriptable
 AISubActionCreateGameEffect_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionCreateGameEffect_Record

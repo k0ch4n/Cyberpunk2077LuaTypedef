@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OverheatEvents: WeaponEventsTransition
 OverheatEvents = {}
+
 
 ---@param fields? OverheatEvents
 ---@return OverheatEvents

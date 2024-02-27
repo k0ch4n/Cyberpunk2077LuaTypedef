@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAIDirectorSpawner
 gameAIDirectorSpawner = {}
+
 
 ---@param fields? gameAIDirectorSpawner
 ---@return gameAIDirectorSpawner

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UploadFromNPCToPlayerListener: QuickHackUploadListener
 ---@field playerPuppet ScriptedPuppet
 ---@field npcPuppet ScriptedPuppet
@@ -13,6 +14,7 @@
 ---@field squadScriptInterface AISquadScriptInterface
 ---@field useInterruptionPrereqs Bool
 UploadFromNPCToPlayerListener = {}
+
 
 ---@param fields? UploadFromNPCToPlayerListener
 ---@return UploadFromNPCToPlayerListener

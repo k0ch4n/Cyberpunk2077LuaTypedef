@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class RipperdocInventoryItem: inkVirtualCompoundItemController
 ---@field root inkWidgetReference
 ---@field data RipperdocWrappedUIInventoryItem
 ---@field widget InventoryItemDisplayController
 RipperdocInventoryItem = {}
+
 
 ---@param fields? RipperdocInventoryItem
 ---@return RipperdocInventoryItem

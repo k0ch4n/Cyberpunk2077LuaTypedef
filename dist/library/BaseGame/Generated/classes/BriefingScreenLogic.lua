@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BriefingScreenLogic: inkWidgetLogicController
 ---@field lastSizeSet Vector2
 ---@field isBriefingVisible Bool
@@ -14,6 +15,7 @@
 ---@field minimizedSize Vector2
 ---@field maximizedSize Vector2
 BriefingScreenLogic = {}
+
 
 ---@param fields? BriefingScreenLogic
 ---@return BriefingScreenLogic

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameaimAssistAimRequest
 ---@field duration Float
 ---@field adjustPitch Bool
@@ -23,6 +24,7 @@
 ---@field bptMinInputMag Float
 ---@field bptMinResetInputMag Float
 gameaimAssistAimRequest = {}
+
 
 ---@param fields? gameaimAssistAimRequest
 ---@return gameaimAssistAimRequest

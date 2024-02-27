@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkVideoInstanceDoneCallback: inkCallbackBase
 inkVideoInstanceDoneCallback = {}
+
 
 ---@param fields? inkVideoInstanceDoneCallback
 ---@return inkVideoInstanceDoneCallback

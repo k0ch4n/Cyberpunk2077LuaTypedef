@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FastForwardAvailableDecisions: ScenesFastForwardTransition
 FastForwardAvailableDecisions = {}
+
 
 ---@param fields? FastForwardAvailableDecisions
 ---@return FastForwardAvailableDecisions

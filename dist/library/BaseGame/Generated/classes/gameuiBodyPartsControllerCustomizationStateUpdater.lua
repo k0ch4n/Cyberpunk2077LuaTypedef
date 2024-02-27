@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiBodyPartsControllerCustomizationStateUpdater: gameuiICustomizationStateUpdater
 gameuiBodyPartsControllerCustomizationStateUpdater = {}
+
 
 ---@param fields? gameuiBodyPartsControllerCustomizationStateUpdater
 ---@return gameuiBodyPartsControllerCustomizationStateUpdater

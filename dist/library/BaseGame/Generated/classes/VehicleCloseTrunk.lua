@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleCloseTrunk: ActionBool
 VehicleCloseTrunk = {}
+
 
 ---@param fields? VehicleCloseTrunk
 ---@return VehicleCloseTrunk

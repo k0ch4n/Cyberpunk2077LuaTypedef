@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AutocraftActivateRequest: gameScriptableSystemRequest
 AutocraftActivateRequest = {}
+
 
 ---@param fields? AutocraftActivateRequest
 ---@return AutocraftActivateRequest

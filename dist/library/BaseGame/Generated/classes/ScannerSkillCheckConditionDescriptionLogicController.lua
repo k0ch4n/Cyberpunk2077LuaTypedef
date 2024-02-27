@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ScannerSkillCheckConditionDescriptionLogicController: inkWidgetLogicController
 ---@field NameRef inkTextWidgetReference
 ---@field PassedStateName CName
 ---@field FailedStateName CName
 ScannerSkillCheckConditionDescriptionLogicController = {}
+
 
 ---@param fields? ScannerSkillCheckConditionDescriptionLogicController
 ---@return ScannerSkillCheckConditionDescriptionLogicController

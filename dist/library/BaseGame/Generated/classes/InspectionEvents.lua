@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InspectionEvents: HighLevelTransition
 InspectionEvents = {}
+
 
 ---@param fields? InspectionEvents
 ---@return InspectionEvents

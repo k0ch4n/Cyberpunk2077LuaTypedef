@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OpticalCamoListener: gameScriptStatusEffectListener
 ---@field controller gameuiCrosshairBaseGameController
 OpticalCamoListener = {}
+
 
 ---@param fields? OpticalCamoListener
 ---@return OpticalCamoListener

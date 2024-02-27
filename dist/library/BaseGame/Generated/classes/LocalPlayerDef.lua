@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LocalPlayerDef: gamebbScriptDefinition
 ---@field InsideVehicleForbiddenAreasCount gamebbScriptID_Int32
 LocalPlayerDef = {}
+
 
 ---@param fields? LocalPlayerDef
 ---@return LocalPlayerDef

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerBountySystem: ScannerChunk
 ---@field bounty BountyUI
 ScannerBountySystem = {}
+
 
 ---@param fields? ScannerBountySystem
 ---@return ScannerBountySystem

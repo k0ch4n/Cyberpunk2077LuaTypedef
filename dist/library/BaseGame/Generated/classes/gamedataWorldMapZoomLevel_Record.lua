@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataWorldMapZoomLevel_Record: gamedataTweakDBRecord
 gamedataWorldMapZoomLevel_Record = {}
+
 
 ---@param fields? gamedataWorldMapZoomLevel_Record
 ---@return gamedataWorldMapZoomLevel_Record

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class navgendebugCompactPolygon: ISerializable
 ---@field index Uint16
 ---@field indices Uint16[]
@@ -8,6 +9,7 @@
 ---@field region Uint16
 ---@field flags Uint16
 navgendebugCompactPolygon = {}
+
 
 ---@param fields? navgendebugCompactPolygon
 ---@return navgendebugCompactPolygon

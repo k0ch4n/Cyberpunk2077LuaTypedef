@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameRPGManager: IScriptable
 gameRPGManager = {}
+
 
 ---@param fields? gameRPGManager
 ---@return gameRPGManager

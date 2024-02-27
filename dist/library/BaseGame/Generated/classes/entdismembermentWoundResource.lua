@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entdismembermentWoundResource: ISerializable
 ---@field Name CName
 ---@field WoundType entdismembermentWoundTypeE
@@ -15,6 +16,7 @@
 ---@field CensoredCookedPaths CResource[]
 ---@field CensorshipValid Bool
 entdismembermentWoundResource = {}
+
 
 ---@param fields? entdismembermentWoundResource
 ---@return entdismembermentWoundResource

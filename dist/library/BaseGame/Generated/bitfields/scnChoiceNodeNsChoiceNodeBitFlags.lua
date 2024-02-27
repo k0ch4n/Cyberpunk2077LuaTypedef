@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@enum scnChoiceNodeNsChoiceNodeBitFlags
 scnChoiceNodeNsChoiceNodeBitFlags = {
     IsFocusClue = 0x1,

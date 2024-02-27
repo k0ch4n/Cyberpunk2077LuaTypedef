@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldInteriorAreaNode: worldTriggerAreaNode
 worldInteriorAreaNode = {}
+
 
 ---@param fields? worldInteriorAreaNode
 ---@return worldInteriorAreaNode

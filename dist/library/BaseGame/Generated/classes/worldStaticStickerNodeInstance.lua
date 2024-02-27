@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldStaticStickerNodeInstance: worldINodeInstance
 worldStaticStickerNodeInstance = {}
+
 
 ---@param fields? worldStaticStickerNodeInstance
 ---@return worldStaticStickerNodeInstance

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeSafeEvents: MeleePublicSafeEvents
 MeleeSafeEvents = {}
+
 
 ---@param fields? MeleeSafeEvents
 ---@return MeleeSafeEvents

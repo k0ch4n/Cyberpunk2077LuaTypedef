@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MediaDeviceStatus: BaseDeviceStatus
 MediaDeviceStatus = {}
+
 
 ---@param fields? MediaDeviceStatus
 ---@return MediaDeviceStatus

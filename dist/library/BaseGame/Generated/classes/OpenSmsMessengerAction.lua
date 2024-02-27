@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class OpenSmsMessengerAction: GenericNotificationBaseAction
 ---@field eventDispatcher worlduiIWidgetGameController
 ---@field journalEntry gameJournalEntry
 OpenSmsMessengerAction = {}
+
 
 ---@param fields? OpenSmsMessengerAction
 ---@return OpenSmsMessengerAction

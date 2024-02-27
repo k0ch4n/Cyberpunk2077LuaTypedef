@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class InventoryStatsListener: gameScriptStatsListener
 ---@field owner gameObject
 ---@field controller InventoryStatsController
 InventoryStatsListener = {}
+
 
 ---@param fields? InventoryStatsListener
 ---@return InventoryStatsListener

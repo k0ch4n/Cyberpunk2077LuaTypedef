@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIHumanComponent: AICAgent
 ---@field movementParamsRecord TweakDBID
 ---@field shootingBlackboard gameIBlackboard
@@ -28,6 +29,7 @@
 ---@field assignedVehicleStuck Bool
 ---@field activeCommands AIbehaviorUniqueActiveCommandList
 AIHumanComponent = {}
+
 
 ---@param fields? AIHumanComponent
 ---@return AIHumanComponent

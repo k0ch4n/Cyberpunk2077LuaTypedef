@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class scnscreenplayLineUsage
 ---@field playerGenderMask scnGenderMask
 scnscreenplayLineUsage = {}
+
 
 ---@param fields? scnscreenplayLineUsage
 ---@return scnscreenplayLineUsage

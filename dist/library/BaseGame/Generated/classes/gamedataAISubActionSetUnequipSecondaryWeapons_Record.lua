@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionSetUnequipSecondaryWeapons_Record: gamedataAISubActionCharacterRecordUnequip_Record
 gamedataAISubActionSetUnequipSecondaryWeapons_Record = {}
+
 
 ---@param fields? gamedataAISubActionSetUnequipSecondaryWeapons_Record
 ---@return gamedataAISubActionSetUnequipSecondaryWeapons_Record

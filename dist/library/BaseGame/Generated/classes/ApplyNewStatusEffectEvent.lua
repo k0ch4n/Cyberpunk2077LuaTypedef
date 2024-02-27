@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ApplyNewStatusEffectEvent: redEvent
 ---@field effectID TweakDBID
 ---@field instigatorID TweakDBID
 ApplyNewStatusEffectEvent = {}
+
 
 ---@param fields? ApplyNewStatusEffectEvent
 ---@return ApplyNewStatusEffectEvent

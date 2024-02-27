@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrouchDecisions: LocomotionGroundDecisions
 ---@field gameplaySettings GameplaySettingsSystem
 ---@field executionOwner gameObject
@@ -10,6 +11,7 @@
 ---@field forcedCrouch Bool
 ---@field controllingDevice Bool
 CrouchDecisions = {}
+
 
 ---@param fields? CrouchDecisions
 ---@return CrouchDecisions

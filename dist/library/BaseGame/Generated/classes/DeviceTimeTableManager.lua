@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DeviceTimeTableManager: IScriptable
 ---@field timeTable SDeviceTimetableEntry[]
 DeviceTimeTableManager = {}
+
 
 ---@param fields? DeviceTimeTableManager
 ---@return DeviceTimeTableManager

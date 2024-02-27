@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameHudActor: IScriptable
 ---@field entityID entEntityID
 ---@field type HUDActorType
@@ -15,6 +16,7 @@
 ---@field isIconForcedVisibleThroughWalls Bool
 ---@field shouldRefreshQHack Bool
 gameHudActor = {}
+
 
 ---@param fields? gameHudActor
 ---@return gameHudActor

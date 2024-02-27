@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsAttachPropToPerformerFallbackData
 ---@field owner scnPerformerId
 ---@field fallbackCachedBones scneventsAttachPropToPerformerCachedFallbackBone
@@ -7,6 +8,7 @@
 ---@field fallbackAnimationName CName
 ---@field fallbackAnimTime Float
 scneventsAttachPropToPerformerFallbackData = {}
+
 
 ---@param fields? scneventsAttachPropToPerformerFallbackData
 ---@return scneventsAttachPropToPerformerFallbackData

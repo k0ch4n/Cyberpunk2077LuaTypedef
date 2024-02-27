@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameKillTriggerNode: worldAreaShapeNode
 gameKillTriggerNode = {}
+
 
 ---@param fields? gameKillTriggerNode
 ---@return gameKillTriggerNode

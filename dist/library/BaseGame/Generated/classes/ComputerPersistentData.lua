@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ComputerPersistentData
 ---@field mails gamedeviceGenericDataContent[]
 ---@field files gamedeviceGenericDataContent[]
@@ -9,6 +10,7 @@
 ---@field openedFileIDX Int32
 ---@field openedFolderIDX Int32
 ComputerPersistentData = {}
+
 
 ---@param fields? ComputerPersistentData
 ---@return ComputerPersistentData

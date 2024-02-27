@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIbehaviorSlotOccupiedConditionDefinition: AIbehaviorConditionDefinition
 ---@field slot AIArgumentMapping
 AIbehaviorSlotOccupiedConditionDefinition = {}
+
 
 ---@param fields? AIbehaviorSlotOccupiedConditionDefinition
 ---@return AIbehaviorSlotOccupiedConditionDefinition

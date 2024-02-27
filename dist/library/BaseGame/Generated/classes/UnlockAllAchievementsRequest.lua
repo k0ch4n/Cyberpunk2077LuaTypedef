@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnlockAllAchievementsRequest: gameScriptableSystemRequest
 UnlockAllAchievementsRequest = {}
+
 
 ---@param fields? UnlockAllAchievementsRequest
 ---@return UnlockAllAchievementsRequest

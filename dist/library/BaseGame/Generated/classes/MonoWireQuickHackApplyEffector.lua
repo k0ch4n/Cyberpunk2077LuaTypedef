@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MonoWireQuickHackApplyEffector: AbstractApplyQuickhackEffector
 ---@field hasSpreadWindowBeenOpened Bool
 ---@field targetsToSpreadQuickhack MonowireSpreadableNPC[]
@@ -7,6 +8,7 @@
 ---@field spreadWindowTime Float
 ---@field spreadCallbackID gameDelayID
 MonoWireQuickHackApplyEffector = {}
+
 
 ---@param fields? MonoWireQuickHackApplyEffector
 ---@return MonoWireQuickHackApplyEffector

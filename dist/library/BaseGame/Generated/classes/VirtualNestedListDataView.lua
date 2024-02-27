@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class VirtualNestedListDataView: inkScriptableDataViewWrapper
 ---@field compareBuilder CompareBuilder
 ---@field defaultCollapsed Bool
 ---@field toggledLevels Int32[]
 VirtualNestedListDataView = {}
+
 
 ---@param fields? VirtualNestedListDataView
 ---@return VirtualNestedListDataView

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataFastTravelScreenDataGroup_Record: gamedataTweakDBRecord
 gamedataFastTravelScreenDataGroup_Record = {}
+
 
 ---@param fields? gamedataFastTravelScreenDataGroup_Record
 ---@return gamedataFastTravelScreenDataGroup_Record

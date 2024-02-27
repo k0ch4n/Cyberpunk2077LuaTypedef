@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RevealNetworkGridEvent: redEvent
 ---@field shouldDraw Bool
 ---@field ownerEntityPosition Vector4
@@ -8,6 +9,7 @@
 ---@field revealSlave Bool
 ---@field revealMaster Bool
 RevealNetworkGridEvent = {}
+
 
 ---@param fields? RevealNetworkGridEvent
 ---@return RevealNetworkGridEvent

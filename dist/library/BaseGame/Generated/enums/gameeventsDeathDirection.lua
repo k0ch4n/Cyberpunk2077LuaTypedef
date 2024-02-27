@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameeventsDeathDirection: Enum
 ---@field Undefined Enum 0
 ---@field Left Enum 1

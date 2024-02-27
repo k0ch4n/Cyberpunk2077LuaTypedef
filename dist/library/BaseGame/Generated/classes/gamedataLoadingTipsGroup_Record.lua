@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataLoadingTipsGroup_Record: gamedataTweakDBRecord
 gamedataLoadingTipsGroup_Record = {}
+
 
 ---@param fields? gamedataLoadingTipsGroup_Record
 ---@return gamedataLoadingTipsGroup_Record

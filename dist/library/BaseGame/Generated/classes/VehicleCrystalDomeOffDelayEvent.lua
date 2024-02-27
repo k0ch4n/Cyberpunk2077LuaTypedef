@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleCrystalDomeOffDelayEvent: redEvent
 VehicleCrystalDomeOffDelayEvent = {}
+
 
 ---@param fields? VehicleCrystalDomeOffDelayEvent
 ---@return VehicleCrystalDomeOffDelayEvent

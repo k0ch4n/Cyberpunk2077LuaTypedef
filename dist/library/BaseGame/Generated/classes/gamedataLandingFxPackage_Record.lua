@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataLandingFxPackage_Record: gamedataTweakDBRecord
 gamedataLandingFxPackage_Record = {}
+
 
 ---@param fields? gamedataLandingFxPackage_Record
 ---@return gamedataLandingFxPackage_Record

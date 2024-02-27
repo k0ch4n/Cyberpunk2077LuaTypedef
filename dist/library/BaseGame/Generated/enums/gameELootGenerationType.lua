@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameELootGenerationType: Enum
 ---@field DropChance Enum 0
 ---@field NumberBased Enum 1

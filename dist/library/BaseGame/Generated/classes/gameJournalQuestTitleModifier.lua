@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameJournalQuestTitleModifier: gameJournalEntry
 ---@field title LocalizationString
 gameJournalQuestTitleModifier = {}
+
 
 ---@param fields? gameJournalQuestTitleModifier
 ---@return gameJournalQuestTitleModifier

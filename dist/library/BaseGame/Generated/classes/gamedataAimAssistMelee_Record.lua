@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAimAssistMelee_Record: gamedataTweakDBRecord
 gamedataAimAssistMelee_Record = {}
+
 
 ---@param fields? gamedataAimAssistMelee_Record
 ---@return gamedataAimAssistMelee_Record

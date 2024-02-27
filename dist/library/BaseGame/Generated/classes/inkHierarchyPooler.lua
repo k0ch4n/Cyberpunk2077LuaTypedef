@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkHierarchyPooler
 inkHierarchyPooler = {}
+
 
 ---@param fields? inkHierarchyPooler
 ---@return inkHierarchyPooler

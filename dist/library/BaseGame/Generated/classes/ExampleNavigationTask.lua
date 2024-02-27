@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ExampleNavigationTask: AIbehaviortaskScript
 ---@field queryId Uint32
 ---@field queryStarted Bool
 ExampleNavigationTask = {}
+
 
 ---@param fields? ExampleNavigationTask
 ---@return ExampleNavigationTask

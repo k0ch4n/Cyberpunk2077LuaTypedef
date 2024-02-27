@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NewItemTooltipDescriptionModule: NewItemTooltipModuleController
 ---@field descriptionText inkTextWidgetReference
 ---@field defaultMargin inkMargin
 NewItemTooltipDescriptionModule = {}
+
 
 ---@param fields? NewItemTooltipDescriptionModule
 ---@return NewItemTooltipDescriptionModule

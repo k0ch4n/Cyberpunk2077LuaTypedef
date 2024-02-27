@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LowFPSSelectCoverMode: AIbehaviortaskScript
 LowFPSSelectCoverMode = {}
+
 
 ---@param fields? LowFPSSelectCoverMode
 ---@return LowFPSSelectCoverMode

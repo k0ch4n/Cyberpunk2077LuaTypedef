@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CEvaluatorFloatStartEnd: IEvaluatorFloat
 ---@field start Float
 ---@field end Float
 CEvaluatorFloatStartEnd = {}
+
 
 ---@param fields? CEvaluatorFloatStartEnd
 ---@return CEvaluatorFloatStartEnd

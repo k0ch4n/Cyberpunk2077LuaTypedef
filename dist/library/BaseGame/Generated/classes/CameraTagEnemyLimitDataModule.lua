@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CameraTagEnemyLimitDataModule: GameSessionDataModule
 ---@field cameraLimit Int32
 ---@field cameraList SurveillanceCamera[]
 CameraTagEnemyLimitDataModule = {}
+
 
 ---@param fields? CameraTagEnemyLimitDataModule
 ---@return CameraTagEnemyLimitDataModule

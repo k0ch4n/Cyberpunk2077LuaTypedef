@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LocomotionTakedownDecisions: LocomotionTransition
 LocomotionTakedownDecisions = {}
+
 
 ---@param fields? LocomotionTakedownDecisions
 ---@return LocomotionTakedownDecisions

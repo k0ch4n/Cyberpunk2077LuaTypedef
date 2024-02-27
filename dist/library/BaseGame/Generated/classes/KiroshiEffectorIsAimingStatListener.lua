@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class KiroshiEffectorIsAimingStatListener: gameScriptStatsListener
 ---@field effector KiroshiHighlightEffector
 KiroshiEffectorIsAimingStatListener = {}
+
 
 ---@param fields? KiroshiEffectorIsAimingStatListener
 ---@return KiroshiEffectorIsAimingStatListener

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ZoomLevel3Events: ZoomEventsTransition
 ZoomLevel3Events = {}
+
 
 ---@param fields? ZoomLevel3Events
 ---@return ZoomLevel3Events

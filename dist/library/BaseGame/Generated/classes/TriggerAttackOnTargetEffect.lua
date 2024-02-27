@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TriggerAttackOnTargetEffect: HitEventEffector
 ---@field owner gameObject
 ---@field attack gameAttack_GameEffect
@@ -11,6 +12,7 @@
 ---@field isRandom Bool
 ---@field applicationChance Float
 TriggerAttackOnTargetEffect = {}
+
 
 ---@param fields? TriggerAttackOnTargetEffect
 ---@return TriggerAttackOnTargetEffect

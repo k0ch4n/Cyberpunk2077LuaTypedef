@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsMountedByPreventionNPCPrereqState: gamePrereqState
 ---@field mountingListener gameScriptedPrereqMountingListenerWrapper
 IsMountedByPreventionNPCPrereqState = {}
+
 
 ---@param fields? IsMountedByPreventionNPCPrereqState
 ---@return IsMountedByPreventionNPCPrereqState

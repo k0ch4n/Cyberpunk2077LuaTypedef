@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UILocalizationHelper: IScriptable
 UILocalizationHelper = {}
+
 
 ---@param statRecord gamedataStat_Record
 ---@return String

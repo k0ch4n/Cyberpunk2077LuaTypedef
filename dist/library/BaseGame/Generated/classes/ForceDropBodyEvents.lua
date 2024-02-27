@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceDropBodyEvents: CarriedObjectEvents
 ForceDropBodyEvents = {}
+
 
 ---@param fields? ForceDropBodyEvents
 ---@return ForceDropBodyEvents

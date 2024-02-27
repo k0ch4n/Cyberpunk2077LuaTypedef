@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GrappleBreakFreeDecisions: GrappleStandEvents
 GrappleBreakFreeDecisions = {}
+
 
 ---@param fields? GrappleBreakFreeDecisions
 ---@return GrappleBreakFreeDecisions

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataSetAttackHitTypeEffector_Record: gamedataEffector_Record
 gamedataSetAttackHitTypeEffector_Record = {}
+
 
 ---@param fields? gamedataSetAttackHitTypeEffector_Record
 ---@return gamedataSetAttackHitTypeEffector_Record

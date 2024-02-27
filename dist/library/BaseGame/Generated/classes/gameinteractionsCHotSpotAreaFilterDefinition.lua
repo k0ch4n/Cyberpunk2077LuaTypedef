@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsCHotSpotAreaFilterDefinition: gameinteractionsNodeDefinition
 ---@field slotName CName
 ---@field transform Transform
@@ -7,6 +8,7 @@
 ---@field shapes gameinteractionsIShapeDefinition[]
 ---@field negativeShapes gameinteractionsIShapeDefinition[]
 gameinteractionsCHotSpotAreaFilterDefinition = {}
+
 
 ---@param fields? gameinteractionsCHotSpotAreaFilterDefinition
 ---@return gameinteractionsCHotSpotAreaFilterDefinition

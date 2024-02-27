@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WeakFenceController: ScriptableDeviceComponent
 WeakFenceController = {}
+
 
 ---@param fields? WeakFenceController
 ---@return WeakFenceController

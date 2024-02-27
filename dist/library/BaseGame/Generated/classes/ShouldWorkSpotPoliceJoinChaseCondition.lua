@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ShouldWorkSpotPoliceJoinChaseCondition: PreventionConditionAbstract
 ShouldWorkSpotPoliceJoinChaseCondition = {}
+
 
 ---@param fields? ShouldWorkSpotPoliceJoinChaseCondition
 ---@return ShouldWorkSpotPoliceJoinChaseCondition

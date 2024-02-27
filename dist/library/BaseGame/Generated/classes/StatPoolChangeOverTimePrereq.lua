@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StatPoolChangeOverTimePrereq: gameIScriptablePrereq
 ---@field statPoolType gamedataStatPoolType
 ---@field timeFrame Float
@@ -7,6 +8,7 @@
 ---@field comparePercentage Bool
 ---@field checkGain Bool
 StatPoolChangeOverTimePrereq = {}
+
 
 ---@param fields? StatPoolChangeOverTimePrereq
 ---@return StatPoolChangeOverTimePrereq

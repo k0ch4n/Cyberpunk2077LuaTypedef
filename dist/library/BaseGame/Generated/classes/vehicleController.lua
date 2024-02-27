@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class vehicleController: gameComponent
 ---@field alarmCurve CName
 ---@field alarmTime Float
 ---@field overrideHeadlightsSettingsForPlayer Bool
 vehicleController = {}
+
 
 ---@param fields? vehicleController
 ---@return vehicleController

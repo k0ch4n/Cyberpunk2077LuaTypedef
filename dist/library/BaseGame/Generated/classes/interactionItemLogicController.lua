@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class interactionItemLogicController: inkWidgetLogicController
 ---@field inputButtonContainer inkCompoundWidgetReference
 ---@field inputDisplayControllerRef inkWidgetReference
@@ -24,6 +25,7 @@
 ---@field animProxy inkanimProxy
 ---@field isSelected Bool
 interactionItemLogicController = {}
+
 
 ---@param fields? interactionItemLogicController
 ---@return interactionItemLogicController

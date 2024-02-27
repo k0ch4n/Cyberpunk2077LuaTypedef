@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewHudPhoneGameController: gameuiNewHudPhoneGameController
 ---@field player PlayerPuppet
 ---@field journalMgr gameJournalManager
@@ -55,6 +56,7 @@
 ---@field psmIsControllingDeviceCallback redCallbackObject
 ---@field vehicleEnterCallback redCallbackObject
 NewHudPhoneGameController = {}
+
 
 ---@param fields? NewHudPhoneGameController
 ---@return NewHudPhoneGameController

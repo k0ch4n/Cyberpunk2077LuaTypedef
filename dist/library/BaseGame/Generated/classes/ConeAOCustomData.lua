@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ConeAOCustomData: ICameraStorageCustomData
 ConeAOCustomData = {}
+
 
 ---@param fields? ConeAOCustomData
 ---@return ConeAOCustomData

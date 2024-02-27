@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PerkScreenController: inkWidgetLogicController
 ---@field hubSelector inkWidgetReference
 ---@field connectionLinesContainer inkCompoundWidgetReference
@@ -25,6 +26,7 @@
 ---@field rewardsController StatsStreetCredReward
 ---@field tooltipsManager gameuiTooltipsManager
 PerkScreenController = {}
+
 
 ---@param fields? PerkScreenController
 ---@return PerkScreenController

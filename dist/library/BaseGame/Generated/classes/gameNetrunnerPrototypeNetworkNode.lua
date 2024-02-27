@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameNetrunnerPrototypeNetworkNode: gameObject
 ---@field colorIndex Int8
 gameNetrunnerPrototypeNetworkNode = {}
+
 
 ---@param fields? gameNetrunnerPrototypeNetworkNode
 ---@return gameNetrunnerPrototypeNetworkNode

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetSearchInfluenceTask: AIbehaviortaskScript
 SetSearchInfluenceTask = {}
+
 
 ---@param fields? SetSearchInfluenceTask
 ---@return SetSearchInfluenceTask

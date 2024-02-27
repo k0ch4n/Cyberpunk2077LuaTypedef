@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestDetailsPanelController: inkWidgetLogicController
 ---@field questTitle inkTextWidgetReference
 ---@field questDescription inkTextWidgetReference
@@ -31,6 +32,7 @@
 ---@field objectiveActionOffset Float
 ---@field objectiveActionsCount Int32
 QuestDetailsPanelController = {}
+
 
 ---@param fields? QuestDetailsPanelController
 ---@return QuestDetailsPanelController

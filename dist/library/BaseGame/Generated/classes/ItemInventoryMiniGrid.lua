@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ItemInventoryMiniGrid: inkWidgetLogicController
 ---@field gridList inkCompoundWidgetReference
 ---@field label inkTextWidgetReference
 ---@field gridWidth Int32
 ---@field gridData InventoryItemDisplay[]
 ItemInventoryMiniGrid = {}
+
 
 ---@param fields? ItemInventoryMiniGrid
 ---@return ItemInventoryMiniGrid

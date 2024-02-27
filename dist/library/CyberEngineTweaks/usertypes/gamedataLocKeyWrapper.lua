@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gamedataLocKeyWrapper
 ---@field hash integer
 LocKey = {}
+
 
 ---@param aHash integer
 ---@return gamedataLocKeyWrapper

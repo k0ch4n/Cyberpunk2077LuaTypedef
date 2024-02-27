@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkanimStopVideoEvent: inkanimEvent
 inkanimStopVideoEvent = {}
+
 
 ---@param fields? inkanimStopVideoEvent
 ---@return inkanimStopVideoEvent

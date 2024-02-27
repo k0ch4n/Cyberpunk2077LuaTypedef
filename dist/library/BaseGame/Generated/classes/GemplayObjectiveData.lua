@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GemplayObjectiveData: IScriptable
 ---@field questUniqueId String
 ---@field questTitle String
@@ -10,6 +11,7 @@
 ---@field uniqueIdPrefix String
 ---@field objectiveState gameJournalEntryState
 GemplayObjectiveData = {}
+
 
 ---@param fields? GemplayObjectiveData
 ---@return GemplayObjectiveData

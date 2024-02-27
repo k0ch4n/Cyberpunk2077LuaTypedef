@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleSummonLogic
 vehicleSummonLogic = {}
+
 
 ---@param fields? vehicleSummonLogic
 ---@return vehicleSummonLogic

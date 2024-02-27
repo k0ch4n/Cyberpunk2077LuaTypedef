@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuestMoveToPrevFloor: ActionBool
 ---@field floor NodeRef
 QuestMoveToPrevFloor = {}
+
 
 ---@param fields? QuestMoveToPrevFloor
 ---@return QuestMoveToPrevFloor

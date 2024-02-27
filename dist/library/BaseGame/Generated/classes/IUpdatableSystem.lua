@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IUpdatableSystem: IScriptable
 IUpdatableSystem = {}
+
 
 ---@param fields? IUpdatableSystem
 ---@return IUpdatableSystem

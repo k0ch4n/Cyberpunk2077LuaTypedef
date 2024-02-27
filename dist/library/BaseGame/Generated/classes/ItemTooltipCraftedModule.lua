@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ItemTooltipCraftedModule: ItemTooltipModuleController
 ItemTooltipCraftedModule = {}
+
 
 ---@param fields? ItemTooltipCraftedModule
 ---@return ItemTooltipCraftedModule

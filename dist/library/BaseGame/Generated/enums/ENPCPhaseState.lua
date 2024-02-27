@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ENPCPhaseState: Enum
 ---@field Phase1 Enum 0
 ---@field Phase2 Enum 1

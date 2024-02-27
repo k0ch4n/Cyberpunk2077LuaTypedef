@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class WoundedTriggeredPrereqState: gamePrereqState
 ---@field owner gameObject
 ---@field listenerInt redCallbackObject
 WoundedTriggeredPrereqState = {}
+
 
 ---@param fields? WoundedTriggeredPrereqState
 ---@return WoundedTriggeredPrereqState

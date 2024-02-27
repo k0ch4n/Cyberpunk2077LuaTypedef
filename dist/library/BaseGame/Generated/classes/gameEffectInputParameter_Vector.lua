@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameEffectInputParameter_Vector
 ---@field evaluator gameIEffectParameter_VectorEvaluator
 gameEffectInputParameter_Vector = {}
+
 
 ---@param fields? gameEffectInputParameter_Vector
 ---@return gameEffectInputParameter_Vector

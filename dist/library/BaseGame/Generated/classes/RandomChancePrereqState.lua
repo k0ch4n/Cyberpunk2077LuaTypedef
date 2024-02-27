@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RandomChancePrereqState: gamePrereqState
 RandomChancePrereqState = {}
+
 
 ---@param fields? RandomChancePrereqState
 ---@return RandomChancePrereqState

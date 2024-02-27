@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimFeature_Cover: animAnimFeature
 ---@field coverPosition Vector4
 ---@field coverDirection Vector4
@@ -12,6 +13,7 @@
 ---@field behaviorTime_Action Float
 ---@field behaviorTime_PostAction Float
 animAnimFeature_Cover = {}
+
 
 ---@param fields? animAnimFeature_Cover
 ---@return animAnimFeature_Cover

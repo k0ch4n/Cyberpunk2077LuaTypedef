@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NetrunnerControlPanelController: BasicDistractionDeviceController
 NetrunnerControlPanelController = {}
+
 
 ---@param fields? NetrunnerControlPanelController
 ---@return NetrunnerControlPanelController

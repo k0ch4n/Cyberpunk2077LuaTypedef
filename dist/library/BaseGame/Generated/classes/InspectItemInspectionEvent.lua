@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class InspectItemInspectionEvent: redEvent
 ---@field owner gameObject
 InspectItemInspectionEvent = {}
+
 
 ---@param fields? InspectItemInspectionEvent
 ---@return InspectItemInspectionEvent

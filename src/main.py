@@ -205,7 +205,7 @@ class Annotation:
         self.lua_code += custom
 
     def add_meta(self, name: str = ""):
-        self.add_custom(f"---@meta{' ' + name if name else ''}\n")
+        self.add_custom(f"---@meta{' ' + name if name else ''}\n\n")
 
     def add_alias(self, name: str, type: str):
         self.add_custom(f"---@alias {name} {type}")
@@ -218,7 +218,7 @@ class Annotation:
         for field in fields:
             self.add_field(field["name"], field["type"], field["flags"])
 
-        self.add_custom(f"{name} = {{}}\n")
+        self.add_custom(f"{name} = {{}}\n\n")
 
         if ~flags & Flags.Class.isAbstract:
             self.add_constructor()

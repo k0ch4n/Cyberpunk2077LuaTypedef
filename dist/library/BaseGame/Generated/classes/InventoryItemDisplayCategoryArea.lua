@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryItemDisplayCategoryArea: inkWidgetLogicController
 ---@field areasToHide inkWidgetReference[]
 ---@field equipmentAreas inkCompoundWidgetReference[]
@@ -7,6 +8,7 @@
 ---@field newItemsCounter inkTextWidgetReference
 ---@field categoryAreas InventoryItemDisplayEquipmentArea[]
 InventoryItemDisplayCategoryArea = {}
+
 
 ---@param fields? InventoryItemDisplayCategoryArea
 ---@return InventoryItemDisplayCategoryArea

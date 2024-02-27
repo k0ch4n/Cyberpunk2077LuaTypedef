@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkMenuCallback: inkCallbackBase
 inkMenuCallback = {}
+
 
 ---@param fields? inkMenuCallback
 ---@return inkMenuCallback

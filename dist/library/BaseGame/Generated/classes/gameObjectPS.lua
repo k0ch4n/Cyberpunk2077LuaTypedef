@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameObjectPS: gamePersistentState
 gameObjectPS = {}
+
 
 ---@param fields? gameObjectPS
 ---@return gameObjectPS

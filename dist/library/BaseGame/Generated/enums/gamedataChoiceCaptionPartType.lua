@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataChoiceCaptionPartType: Enum
 ---@field Blueline Enum 0
 ---@field Icon Enum 1

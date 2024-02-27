@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisableRagdoll: RagdollTask
 DisableRagdoll = {}
+
 
 ---@param fields? DisableRagdoll
 ---@return DisableRagdoll

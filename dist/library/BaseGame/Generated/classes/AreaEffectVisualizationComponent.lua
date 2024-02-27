@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AreaEffectVisualizationComponent: gameScriptableComponent
 ---@field fxResourceMapper FxResourceMapperComponent
 ---@field forceHighlightTargetBuckets GameEffectTargetVisualizationData[]
@@ -8,6 +9,7 @@
 ---@field activeAction BaseScriptableAction
 ---@field activeEffectIndex Int32
 AreaEffectVisualizationComponent = {}
+
 
 ---@param fields? AreaEffectVisualizationComponent
 ---@return AreaEffectVisualizationComponent

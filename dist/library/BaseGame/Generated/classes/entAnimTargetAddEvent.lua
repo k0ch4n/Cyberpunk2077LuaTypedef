@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class entAnimTargetAddEvent: redEvent
 ---@field targetPositionProvider entIPositionProvider
 ---@field bodyPart CName
 entAnimTargetAddEvent = {}
+
 
 ---@param targetEntity entEntity
 ---@param slotTargetName CName|string

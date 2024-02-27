@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameMinimapSystem: gameIMinimapSystem
 gameMinimapSystem = {}
+
 
 ---@param fields? gameMinimapSystem
 ---@return gameMinimapSystem

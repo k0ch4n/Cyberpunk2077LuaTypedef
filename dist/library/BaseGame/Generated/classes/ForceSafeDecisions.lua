@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceSafeDecisions: UpperBodyTransition
 ForceSafeDecisions = {}
+
 
 ---@param fields? ForceSafeDecisions
 ---@return ForceSafeDecisions

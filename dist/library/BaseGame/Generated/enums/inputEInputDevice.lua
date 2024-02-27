@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inputEInputDevice: Enum
 ---@field INVALID Enum 0
 ---@field KBD_MOUSE Enum 1

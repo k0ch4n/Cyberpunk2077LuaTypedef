@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameaimAssistAimAssist
 gameaimAssistAimAssist = {}
+
 
 ---@param fields? gameaimAssistAimAssist
 ---@return gameaimAssistAimAssist

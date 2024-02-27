@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HubMenuLabelContentContainer: inkWidgetLogicController
 ---@field label inkTextWidgetReference
 ---@field icon inkImageWidgetReference
@@ -11,6 +12,7 @@
 ---@field data MenuData
 ---@field isRadialVariant Bool
 HubMenuLabelContentContainer = {}
+
 
 ---@param fields? HubMenuLabelContentContainer
 ---@return HubMenuLabelContentContainer

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuickSlotItemType: Enum
 ---@field Undefined Enum 0
 ---@field Vehicle Enum 1

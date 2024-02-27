@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questMultiplayerAIDirectorParams: ISerializable
 ---@field function questMultiplayerAIDirectorFunction
 ---@field status questMultiplayerAIDirectorStatus
@@ -7,6 +8,7 @@
 ---@field scheduleEntryName String
 ---@field scheduleName String
 questMultiplayerAIDirectorParams = {}
+
 
 ---@param fields? questMultiplayerAIDirectorParams
 ---@return questMultiplayerAIDirectorParams

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HasDeescalatedFromCombatWithPlayer: PreventionConditionAbstract
 HasDeescalatedFromCombatWithPlayer = {}
+
 
 ---@param fields? HasDeescalatedFromCombatWithPlayer
 ---@return HasDeescalatedFromCombatWithPlayer

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OnOffPrereq: gameIScriptablePrereq
 OnOffPrereq = {}
+
 
 ---@param fields? OnOffPrereq
 ---@return OnOffPrereq

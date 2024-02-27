@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SmasherFindTeleportPositionAroundTarget: AIbehaviortaskScript
 ---@field target AIArgumentMapping
 ---@field minDistance Float
@@ -20,6 +21,7 @@
 ---@field fallbackPositionQuality Int32
 ---@field blackboard gameIBlackboard
 SmasherFindTeleportPositionAroundTarget = {}
+
 
 ---@param fields? SmasherFindTeleportPositionAroundTarget
 ---@return SmasherFindTeleportPositionAroundTarget

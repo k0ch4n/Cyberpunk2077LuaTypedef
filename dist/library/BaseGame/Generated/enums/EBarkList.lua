@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EBarkList: Enum
 ---@field vo_enemy_reaction_surprised_combat_start Enum 0
 ---@field vo_enemy_reaction_generic_cursing Enum 1

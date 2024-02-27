@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorActionEquipItemNodeDefinition: AIbehaviorActionItemHandlingNodeDefinition
 ---@field slotId AIArgumentMapping
 ---@field itemId AIArgumentMapping
@@ -7,6 +8,7 @@
 ---@field failIfItemNotFound AIArgumentMapping
 ---@field spawnDelay AIArgumentMapping
 AIbehaviorActionEquipItemNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorActionEquipItemNodeDefinition
 ---@return AIbehaviorActionEquipItemNodeDefinition

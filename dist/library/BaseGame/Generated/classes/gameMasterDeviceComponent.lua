@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameMasterDeviceComponent: gameComponent
 ---@field clearance gamedeviceClearance
 gameMasterDeviceComponent = {}
+
 
 ---@param fields? gameMasterDeviceComponent
 ---@return gameMasterDeviceComponent

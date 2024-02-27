@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Codeware_UI_TextInput_Caret: Codeware_UI_inkCustomController
 ---@field caret inkRectangleWidget
 ---@field position Int32
@@ -10,6 +11,7 @@
 ---@field blinkAnimDef inkanimDefinition
 ---@field blinkAnimProxy inkanimProxy
 Codeware_UI_TextInput_Caret = {}
+
 
 ---@param fields? Codeware_UI_TextInput_Caret
 ---@return Codeware_UI_TextInput_Caret

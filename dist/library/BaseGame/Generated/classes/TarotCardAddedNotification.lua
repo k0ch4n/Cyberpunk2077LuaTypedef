@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class TarotCardAddedNotification: GenericNotificationController
 ---@field cardImage inkImageWidgetReference
 ---@field cardNameLabel inkTextWidgetReference
 TarotCardAddedNotification = {}
+
 
 ---@param fields? TarotCardAddedNotification
 ---@return TarotCardAddedNotification

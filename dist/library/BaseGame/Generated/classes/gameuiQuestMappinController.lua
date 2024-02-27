@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameuiQuestMappinController: gameuiInteractionMappinController
 ---@field nameplateVisible Bool
 ---@field distanceText inkTextWidgetReference
 ---@field displayName inkTextWidgetReference
 gameuiQuestMappinController = {}
+
 
 ---@param fields? gameuiQuestMappinController
 ---@return gameuiQuestMappinController

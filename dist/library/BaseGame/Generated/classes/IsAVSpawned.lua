@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class IsAVSpawned: PreventionConditionAbstract
 ---@field agentRegistry PoliceAgentRegistry
 ---@field prevSys PreventionSystem
 IsAVSpawned = {}
+
 
 ---@param fields? IsAVSpawned
 ---@return IsAVSpawned

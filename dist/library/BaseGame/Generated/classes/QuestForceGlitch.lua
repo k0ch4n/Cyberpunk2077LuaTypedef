@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceGlitch: ActionBool
 QuestForceGlitch = {}
+
 
 ---@param fields? QuestForceGlitch
 ---@return QuestForceGlitch

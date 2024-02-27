@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class textTextParameterSet: IScriptable
 textTextParameterSet = {}
+
 
 ---@param fields? textTextParameterSet
 ---@return textTextParameterSet

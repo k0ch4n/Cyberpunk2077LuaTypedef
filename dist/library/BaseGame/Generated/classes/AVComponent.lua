@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AVComponent: VehicleComponent
 AVComponent = {}
+
 
 ---@param fields? AVComponent
 ---@return AVComponent

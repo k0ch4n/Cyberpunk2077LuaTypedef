@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAimAssistMagnetism_Record: gamedataTweakDBRecord
 gamedataAimAssistMagnetism_Record = {}
+
 
 ---@param fields? gamedataAimAssistMagnetism_Record
 ---@return gamedataAimAssistMagnetism_Record

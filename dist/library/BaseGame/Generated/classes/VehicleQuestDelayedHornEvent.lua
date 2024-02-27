@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class VehicleQuestDelayedHornEvent: redEvent
 ---@field honkTime Float
 ---@field delayTime Float
 VehicleQuestDelayedHornEvent = {}
+
 
 ---@param fields? VehicleQuestDelayedHornEvent
 ---@return VehicleQuestDelayedHornEvent

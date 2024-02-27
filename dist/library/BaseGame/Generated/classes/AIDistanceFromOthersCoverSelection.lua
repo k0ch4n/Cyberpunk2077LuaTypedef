@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIDistanceFromOthersCoverSelection: AICoverSelectionParameters
 AIDistanceFromOthersCoverSelection = {}
+
 
 ---@param fields? AIDistanceFromOthersCoverSelection
 ---@return AIDistanceFromOthersCoverSelection

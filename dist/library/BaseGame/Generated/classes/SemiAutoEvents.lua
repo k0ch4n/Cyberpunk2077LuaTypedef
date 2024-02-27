@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SemiAutoEvents: WeaponEventsTransition
 SemiAutoEvents = {}
+
 
 ---@param fields? SemiAutoEvents
 ---@return SemiAutoEvents

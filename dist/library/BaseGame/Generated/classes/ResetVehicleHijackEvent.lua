@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetVehicleHijackEvent: redEvent
 ResetVehicleHijackEvent = {}
+
 
 ---@param fields? ResetVehicleHijackEvent
 ---@return ResetVehicleHijackEvent

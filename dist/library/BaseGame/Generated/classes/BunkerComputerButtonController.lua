@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BunkerComputerButtonController: LinkController
 ---@field usePopupDefault Bool
 BunkerComputerButtonController = {}
+
 
 ---@param fields? BunkerComputerButtonController
 ---@return BunkerComputerButtonController

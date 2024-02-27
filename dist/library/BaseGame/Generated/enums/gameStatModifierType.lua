@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStatModifierType: Enum
 ---@field Additive Enum 0
 ---@field AdditiveMultiplier Enum 1

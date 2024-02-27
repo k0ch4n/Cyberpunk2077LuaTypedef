@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class StopVFXEffector: gameEffector
 ---@field vfxName CName
 ---@field owner gameObject
 StopVFXEffector = {}
+
 
 ---@param fields? StopVFXEffector
 ---@return StopVFXEffector

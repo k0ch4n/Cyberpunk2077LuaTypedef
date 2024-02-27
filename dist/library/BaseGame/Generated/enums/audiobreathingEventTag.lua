@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audiobreathingEventTag: Enum
 ---@field Walk Enum 0
 ---@field Jog Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnequipWardrobeSetRequest: gamePlayerScriptableSystemRequest
 UnequipWardrobeSetRequest = {}
+
 
 ---@param fields? UnequipWardrobeSetRequest
 ---@return UnequipWardrobeSetRequest

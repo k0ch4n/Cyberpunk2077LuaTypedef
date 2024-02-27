@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkHoverResizeController: inkWidgetLogicController
 ---@field root inkWidget
 ---@field animToNew inkanimDefinition
@@ -8,6 +9,7 @@
 ---@field vectorOldSize Vector2
 ---@field animationDuration Float
 inkHoverResizeController = {}
+
 
 ---@param fields? inkHoverResizeController
 ---@return inkHoverResizeController

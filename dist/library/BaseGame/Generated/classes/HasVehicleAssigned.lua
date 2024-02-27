@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HasVehicleAssigned: AIVehicleConditionAbstract
 HasVehicleAssigned = {}
+
 
 ---@param fields? HasVehicleAssigned
 ---@return HasVehicleAssigned

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamecheatsystemFlag: Enum
 ---@field God_Immortal Enum 1
 ---@field God_Invulnerable Enum 2

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class effectTrackItemChromaticAberration: effectTrackItem
 ---@field override Bool
 ---@field chromaticAberrationOffset effectEffectParameterEvaluatorFloat
 ---@field chromaticAberrationExp effectEffectParameterEvaluatorFloat
 effectTrackItemChromaticAberration = {}
+
 
 ---@param fields? effectTrackItemChromaticAberration
 ---@return effectTrackItemChromaticAberration

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AirThrustersDecisions: LocomotionAirDecisions
 AirThrustersDecisions = {}
+
 
 ---@param fields? AirThrustersDecisions
 ---@return AirThrustersDecisions

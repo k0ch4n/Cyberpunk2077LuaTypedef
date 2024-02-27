@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GogRewardsGroupController: inkWidgetLogicController
 ---@field label inkTextWidgetReference
 ---@field containerWidget inkWidgetReference
 GogRewardsGroupController = {}
+
 
 ---@param fields? GogRewardsGroupController
 ---@return GogRewardsGroupController

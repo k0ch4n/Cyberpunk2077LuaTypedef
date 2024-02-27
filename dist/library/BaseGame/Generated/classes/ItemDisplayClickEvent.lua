@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemDisplayClickEvent: redEvent
 ---@field itemData gameInventoryItemData
 ---@field displayContext gameItemDisplayContext
@@ -14,6 +15,7 @@
 ---@field evt inkPointerEvent
 ---@field actionName inkActionName
 ItemDisplayClickEvent = {}
+
 
 ---@param fields? ItemDisplayClickEvent
 ---@return ItemDisplayClickEvent

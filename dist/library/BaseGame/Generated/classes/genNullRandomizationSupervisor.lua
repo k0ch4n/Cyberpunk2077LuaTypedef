@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class genNullRandomizationSupervisor: genIRandomizationSupervisor
 genNullRandomizationSupervisor = {}
+
 
 ---@param fields? genNullRandomizationSupervisor
 ---@return genNullRandomizationSupervisor

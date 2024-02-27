@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkLanguageOverrideProvider: inkUserData
 ---@field languageId inkLanguageId
 inkLanguageOverrideProvider = {}
+
 
 ---@param fields? inkLanguageOverrideProvider
 ---@return inkLanguageOverrideProvider

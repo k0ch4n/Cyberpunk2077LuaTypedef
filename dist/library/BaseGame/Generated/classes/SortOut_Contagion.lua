@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SortOut_Contagion: gameEffectObjectGroupFilter_Scripted
 SortOut_Contagion = {}
+
 
 ---@param fields? SortOut_Contagion
 ---@return SortOut_Contagion

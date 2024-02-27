@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareUnequippedEvent: redEvent
 LeftHandCyberwareUnequippedEvent = {}
+
 
 ---@param fields? LeftHandCyberwareUnequippedEvent
 ---@return LeftHandCyberwareUnequippedEvent

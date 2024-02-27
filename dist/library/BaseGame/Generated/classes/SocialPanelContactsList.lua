@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SocialPanelContactsList: inkWidgetLogicController
 ---@field ListItemName CName
 ---@field ItemsRoot inkBasePanelWidgetReference
@@ -7,6 +8,7 @@
 ---@field CurrentContactHash Int32
 ---@field LastClickedContact gameJournalContact
 SocialPanelContactsList = {}
+
 
 ---@param fields? SocialPanelContactsList
 ---@return SocialPanelContactsList

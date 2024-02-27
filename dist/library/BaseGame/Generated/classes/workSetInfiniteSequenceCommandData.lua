@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workSetInfiniteSequenceCommandData: workIWorkspotCommandData
 workSetInfiniteSequenceCommandData = {}
+
 
 ---@param fields? workSetInfiniteSequenceCommandData
 ---@return workSetInfiniteSequenceCommandData

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FactValuePrereqState: gamePrereqState
 ---@field listenerID Uint32
 FactValuePrereqState = {}
+
 
 ---@param fields? FactValuePrereqState
 ---@return FactValuePrereqState

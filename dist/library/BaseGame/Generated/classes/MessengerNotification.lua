@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MessengerNotification: GenericNotificationController
 ---@field messageText inkTextWidgetReference
 ---@field avatar inkImageWidgetReference
@@ -15,6 +16,7 @@
 ---@field journalMgr gameJournalManager
 ---@field mappinSystem gamemappinsMappinSystem
 MessengerNotification = {}
+
 
 ---@param fields? MessengerNotification
 ---@return MessengerNotification

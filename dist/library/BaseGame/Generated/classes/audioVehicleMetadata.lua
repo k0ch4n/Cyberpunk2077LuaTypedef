@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioVehicleMetadata: audioCustomEmitterMetadata
 ---@field generalData audioVehicleGeneralData
 ---@field mechanicalData audioVehicleMechanicalData
@@ -25,6 +26,7 @@
 ---@field matchingStartupRadioStations CName[]
 ---@field radioPlaysWhenEngineStartsProbability Float
 audioVehicleMetadata = {}
+
 
 ---@param fields? audioVehicleMetadata
 ---@return audioVehicleMetadata

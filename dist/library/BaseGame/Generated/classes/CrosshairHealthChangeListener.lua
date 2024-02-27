@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CrosshairHealthChangeListener: gameCustomValueStatPoolsListener
 ---@field parentCrosshair gameuiCrosshairBaseGameController
 CrosshairHealthChangeListener = {}
+
 
 ---@param fields? CrosshairHealthChangeListener
 ---@return CrosshairHealthChangeListener

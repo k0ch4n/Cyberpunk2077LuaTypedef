@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class DropPoint: BasicDistractionDevice
 ---@field isShortGlitchActive Bool
 ---@field shortGlitchDelayID gameDelayID
 ---@field mappinID gameNewMappinID
 ---@field mappinInSystem Bool
 DropPoint = {}
+
 
 ---@param fields? DropPoint
 ---@return DropPoint

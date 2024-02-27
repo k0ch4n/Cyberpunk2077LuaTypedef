@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStatusEffect: gameStatusEffectBase
 ---@field durationID Uint32
 ---@field duration Float
@@ -16,6 +17,7 @@
 ---@field removeAllStacksWhenDurationEnds Bool
 ---@field applicationSource CName
 gameStatusEffect = {}
+
 
 ---@param fields? gameStatusEffect
 ---@return gameStatusEffect

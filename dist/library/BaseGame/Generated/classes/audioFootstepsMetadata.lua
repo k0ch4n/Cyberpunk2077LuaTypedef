@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioFootstepsMetadata: audioAudioMetadata
 ---@field defaultFootwearMetadata CName
 ---@field footwearMetadataArray CName[]
@@ -9,6 +10,7 @@
 ---@field defaultFootwearVfxMetadata CName
 ---@field footwearVfxMetadataArray CName[]
 audioFootstepsMetadata = {}
+
 
 ---@param fields? audioFootstepsMetadata
 ---@return audioFootstepsMetadata

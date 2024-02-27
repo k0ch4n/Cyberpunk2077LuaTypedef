@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SceneCustomData_ReflectionAtlas: ISceneStorageCustomData
 SceneCustomData_ReflectionAtlas = {}
+
 
 ---@param fields? SceneCustomData_ReflectionAtlas
 ---@return SceneCustomData_ReflectionAtlas

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameFreeCameraLightSettings
 ---@field s Vector3
 ---@field dius Float
@@ -7,6 +8,7 @@
 ---@field mperature Float
 ---@field lor Vector4
 gameFreeCameraLightSettings = {}
+
 
 ---@param fields? gameFreeCameraLightSettings
 ---@return gameFreeCameraLightSettings

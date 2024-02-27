@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PopupStateUtils: IScriptable
 PopupStateUtils = {}
+
 
 ---@param fields? PopupStateUtils
 ---@return PopupStateUtils

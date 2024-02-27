@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SettingsCategoryController: inkWidgetLogicController
 ---@field label inkTextWidgetReference
 SettingsCategoryController = {}
+
 
 ---@param fields? SettingsCategoryController
 ---@return SettingsCategoryController

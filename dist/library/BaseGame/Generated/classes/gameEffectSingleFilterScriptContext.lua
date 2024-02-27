@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectSingleFilterScriptContext
 gameEffectSingleFilterScriptContext = {}
+
 
 ---@param fields? gameEffectSingleFilterScriptContext
 ---@return gameEffectSingleFilterScriptContext

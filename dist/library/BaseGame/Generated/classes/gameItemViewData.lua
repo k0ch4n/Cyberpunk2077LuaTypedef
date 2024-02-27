@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameItemViewData
 ---@field id gameItemID
 ---@field itemName String
@@ -12,6 +13,7 @@
 ---@field secondaryStats gameStatViewData[]
 ---@field comparedQuality gamedataQuality
 gameItemViewData = {}
+
 
 ---@param fields? gameItemViewData
 ---@return gameItemViewData

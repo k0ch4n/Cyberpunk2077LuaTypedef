@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class LocomotionEventsTransition: LocomotionTransition
 ---@field causeContactDestruction Bool
 ---@field activatedDestructionComponent Bool
 ---@field ignoreBarbedWire Bool
 LocomotionEventsTransition = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil

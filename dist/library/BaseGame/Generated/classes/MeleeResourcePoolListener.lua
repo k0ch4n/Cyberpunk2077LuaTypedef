@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MeleeResourcePoolListener: gameScriptStatPoolsListener
 ---@field meleeCrosshair CrosshairGameController_Melee
 MeleeResourcePoolListener = {}
+
 
 ---@param fields? MeleeResourcePoolListener
 ---@return MeleeResourcePoolListener

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorDrivePanicTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field allowSimplifiedMovement AIArgumentMapping
 ---@field ignoreTickets AIArgumentMapping
@@ -8,6 +9,7 @@
 ---@field tryDriveAwayFromPlayer AIArgumentMapping
 ---@field needDriver AIArgumentMapping
 AIbehaviorDrivePanicTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorDrivePanicTreeNodeDefinition
 ---@return AIbehaviorDrivePanicTreeNodeDefinition

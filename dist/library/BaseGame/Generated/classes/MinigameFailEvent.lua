@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MinigameFailEvent: redEvent
 MinigameFailEvent = {}
+
 
 ---@param fields? MinigameFailEvent
 ---@return MinigameFailEvent

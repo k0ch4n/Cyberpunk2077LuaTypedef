@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIPatrolContinuationPolicy: Enum
 ---@field FromNextControlPoint Enum 0
 ---@field FromClosestPoint Enum 1

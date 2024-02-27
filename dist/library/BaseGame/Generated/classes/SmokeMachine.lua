@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SmokeMachine: BasicDistractionDevice
 ---@field areaComponent gameStaticTriggerAreaComponent
 ---@field highLightActive Bool
 ---@field entities entEntity[]
 SmokeMachine = {}
+
 
 ---@param fields? SmokeMachine
 ---@return SmokeMachine

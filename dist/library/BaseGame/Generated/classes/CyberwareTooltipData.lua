@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CyberwareTooltipData: ATooltipData
 ---@field label String
 ---@field slotData CyberwareSlotTooltipData[]
 CyberwareTooltipData = {}
+
 
 ---@param fields? CyberwareTooltipData
 ---@return CyberwareTooltipData

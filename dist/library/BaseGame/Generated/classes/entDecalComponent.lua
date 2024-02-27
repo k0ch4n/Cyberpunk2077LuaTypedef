@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entDecalComponent: entIVisualComponent
 ---@field material IMaterial
 ---@field verticalFlip Bool
@@ -18,6 +19,7 @@
 ---@field shouldCollectWithRayTracing Bool
 ---@field isEnabled Bool
 entDecalComponent = {}
+
 
 ---@param fields? entDecalComponent
 ---@return entDecalComponent

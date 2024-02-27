@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OverclockChargeListener: BaseChargesStatListener
 OverclockChargeListener = {}
+
 
 ---@param fields? OverclockChargeListener
 ---@return OverclockChargeListener

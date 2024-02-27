@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorActionMoveTreeNodeDefinition: AIbehaviorActionTreeNodeDefinition
 ---@field movementTarget AIArgumentMapping
 ---@field lookAtTarget AIArgumentMapping
@@ -16,6 +17,7 @@
 ---@field ignoreCollisionsWhenCloseToTarget AIArgumentMapping
 ---@field failWhenStoppedByCollision AIArgumentMapping
 AIbehaviorActionMoveTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorActionMoveTreeNodeDefinition
 ---@return AIbehaviorActionMoveTreeNodeDefinition

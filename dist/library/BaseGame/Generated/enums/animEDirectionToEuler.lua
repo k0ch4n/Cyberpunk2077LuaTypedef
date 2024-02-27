@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animEDirectionToEuler: Enum
 ---@field Pitch Enum 0
 ---@field Yaw Enum 1

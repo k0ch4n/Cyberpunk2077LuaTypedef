@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Codeware_Localization_LocalizationEntry: IScriptable
 ---@field key String
 Codeware_Localization_LocalizationEntry = {}
+
 
 ---@param str String
 ---@return Uint64

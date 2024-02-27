@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SensesOperations: DeviceOperations
 ---@field sensesOperations SSensesOperationData[]
 SensesOperations = {}
+
 
 ---@param fields? SensesOperations
 ---@return SensesOperations

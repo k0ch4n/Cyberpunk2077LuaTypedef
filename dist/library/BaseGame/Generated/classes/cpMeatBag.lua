@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class cpMeatBag: gameObject
 ---@field rotationLerpFactor Float
 ---@field kinematicBodyBoneName CName
@@ -10,6 +11,7 @@
 ---@field destructionEffectName CName
 ---@field jiggleEffectName CName
 cpMeatBag = {}
+
 
 ---@param fields? cpMeatBag
 ---@return cpMeatBag

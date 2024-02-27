@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCrowdEntityReuseEvent: redEvent
 gameCrowdEntityReuseEvent = {}
+
 
 ---@param fields? gameCrowdEntityReuseEvent
 ---@return gameCrowdEntityReuseEvent

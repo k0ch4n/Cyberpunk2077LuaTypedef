@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class RemoveStatusEffectOnAttackEffector: ModifyAttackEffector
 ---@field effectTypes String[]
 ---@field effectString String[]
 ---@field effectTags CName[]
 ---@field owner gameObject
 RemoveStatusEffectOnAttackEffector = {}
+
 
 ---@param fields? RemoveStatusEffectOnAttackEffector
 ---@return RemoveStatusEffectOnAttackEffector

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAimAssistLevel: Enum
 ---@field Off Enum 0
 ---@field Light Enum 1

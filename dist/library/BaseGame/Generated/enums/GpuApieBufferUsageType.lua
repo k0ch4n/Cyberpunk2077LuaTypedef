@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GpuApieBufferUsageType: Enum
 ---@field BUT_Default Enum 0
 ---@field BUT_Immutable Enum 1

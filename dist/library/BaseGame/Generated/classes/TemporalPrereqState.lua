@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class TemporalPrereqState: gamePrereqState
 ---@field delaySystem gameDelaySystem
 ---@field callback TemporalPrereqDelayCallback
 ---@field lapsedTime Float
 ---@field delayID gameDelayID
 TemporalPrereqState = {}
+
 
 ---@param fields? TemporalPrereqState
 ---@return TemporalPrereqState

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EEnvColorGroup: Enum
 ---@field ECG_Default Enum 0
 ---@field ECG_Sky Enum 1

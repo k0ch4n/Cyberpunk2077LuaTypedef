@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePuppetVehicleState: Enum
 ---@field IdleMounted Enum 0
 ---@field IdleStand Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PointerSlot: RadialSlot
 PointerSlot = {}
+
 
 ---@param fields? PointerSlot
 ---@return PointerSlot

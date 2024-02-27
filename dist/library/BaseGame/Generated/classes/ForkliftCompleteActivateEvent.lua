@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForkliftCompleteActivateEvent: redEvent
 ForkliftCompleteActivateEvent = {}
+
 
 ---@param fields? ForkliftCompleteActivateEvent
 ---@return ForkliftCompleteActivateEvent

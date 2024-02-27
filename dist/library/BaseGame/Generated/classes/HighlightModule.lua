@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HighlightModule: HUDModule
 HighlightModule = {}
+
 
 ---@param fields? HighlightModule
 ---@return HighlightModule

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePSMCrosshairStates: Enum
 ---@field Default Enum 0
 ---@field Safe Enum 1

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class Codeware_UI_PopupButton: Codeware_UI_CustomButton
 ---@field isFlipped Bool
 ---@field bg inkImageWidget
 ---@field frame inkImageWidget
 ---@field input inkInputDisplayController
 Codeware_UI_PopupButton = {}
+
 
 ---@param fields? Codeware_UI_PopupButton
 ---@return Codeware_UI_PopupButton

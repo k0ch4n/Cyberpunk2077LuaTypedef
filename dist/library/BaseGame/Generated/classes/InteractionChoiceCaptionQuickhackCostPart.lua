@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class InteractionChoiceCaptionQuickhackCostPart: gameinteractionsChoiceCaptionScriptPart
 ---@field cost Int32
 InteractionChoiceCaptionQuickhackCostPart = {}
+
 
 ---@param fields? InteractionChoiceCaptionQuickhackCostPart
 ---@return InteractionChoiceCaptionQuickhackCostPart

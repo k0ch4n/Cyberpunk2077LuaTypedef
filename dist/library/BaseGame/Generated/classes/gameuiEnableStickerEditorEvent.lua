@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiEnableStickerEditorEvent: redEvent
 gameuiEnableStickerEditorEvent = {}
+
 
 ---@param fields? gameuiEnableStickerEditorEvent
 ---@return gameuiEnableStickerEditorEvent

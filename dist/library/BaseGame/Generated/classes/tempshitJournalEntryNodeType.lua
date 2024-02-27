@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class tempshitJournalEntryNodeType: tempshitIJournalNodeType
 tempshitJournalEntryNodeType = {}
+
 
 ---@param fields? tempshitJournalEntryNodeType
 ---@return tempshitJournalEntryNodeType

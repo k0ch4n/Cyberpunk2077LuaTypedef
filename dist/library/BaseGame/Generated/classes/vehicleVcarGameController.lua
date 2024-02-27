@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleVcarGameController: gameuiWidgetGameController
 ---@field activeVehicleBlackboard gameIBlackboard
 ---@field vehicleBlackboard gameIBlackboard
@@ -71,6 +72,7 @@
 ---@field interiorFluff2Anim1WidgetPath CName
 ---@field interiorFluff2Anim2WidgetPath CName
 vehicleVcarGameController = {}
+
 
 ---@param fields? vehicleVcarGameController
 ---@return vehicleVcarGameController

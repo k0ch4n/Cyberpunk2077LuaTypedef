@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TimeSkipCursorInitFinishedEvent: redEvent
 TimeSkipCursorInitFinishedEvent = {}
+
 
 ---@param fields? TimeSkipCursorInitFinishedEvent
 ---@return TimeSkipCursorInitFinishedEvent

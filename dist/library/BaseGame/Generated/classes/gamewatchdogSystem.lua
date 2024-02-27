@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamewatchdogSystem: gameIWatchdogSystem
 gamewatchdogSystem = {}
+
 
 ---@param fields? gamewatchdogSystem
 ---@return gamewatchdogSystem

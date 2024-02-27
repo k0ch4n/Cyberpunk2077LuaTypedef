@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleWheelDimensionsSetup_Record: gamedataTweakDBRecord
 gamedataVehicleWheelDimensionsSetup_Record = {}
+
 
 ---@param fields? gamedataVehicleWheelDimensionsSetup_Record
 ---@return gamedataVehicleWheelDimensionsSetup_Record

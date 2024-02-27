@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldOnAreaShapeCompiledEvent
 worldOnAreaShapeCompiledEvent = {}
+
 
 ---@param fields? worldOnAreaShapeCompiledEvent
 ---@return worldOnAreaShapeCompiledEvent

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class OnlyVehicleDecisions: QuickSlotsReadyDecisions
 ---@field executionOwner gameObject
 ---@field statusEffectListener DefaultTransitionStatusEffectListener
 ---@field hasStatusEffect Bool
 OnlyVehicleDecisions = {}
+
 
 ---@param fields? OnlyVehicleDecisions
 ---@return OnlyVehicleDecisions

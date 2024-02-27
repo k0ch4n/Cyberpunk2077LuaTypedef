@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LadderSprintDecisions: LadderDecisions
 LadderSprintDecisions = {}
+
 
 ---@param fields? LadderSprintDecisions
 ---@return LadderSprintDecisions

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EColorPrimary: Enum
 ---@field PRIM_REC709 Enum 0
 ---@field PRIM_DCIP3 Enum 1

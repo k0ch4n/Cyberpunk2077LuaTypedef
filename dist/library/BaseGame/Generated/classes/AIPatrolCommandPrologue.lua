@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIPatrolCommandPrologue: AICommandHandlerBase
 ---@field outPatrolPath AIArgumentMapping
 AIPatrolCommandPrologue = {}
+
 
 ---@param fields? AIPatrolCommandPrologue
 ---@return AIPatrolCommandPrologue

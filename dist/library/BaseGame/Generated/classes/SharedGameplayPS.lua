@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SharedGameplayPS: gameDeviceComponentPS
 ---@field deviceState EDeviceStatus
 ---@field authorizationProperties AuthorizationData
@@ -11,6 +12,7 @@
 ---@field wasRevealedInNetworkPing Bool
 ---@field hasNetworkBackdoor Bool
 SharedGameplayPS = {}
+
 
 ---@param fields? SharedGameplayPS
 ---@return SharedGameplayPS

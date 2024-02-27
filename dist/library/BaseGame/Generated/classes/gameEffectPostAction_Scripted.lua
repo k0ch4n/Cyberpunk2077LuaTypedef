@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectPostAction_Scripted: gameEffectPostAction
 gameEffectPostAction_Scripted = {}
+
 
 ---@param fields? gameEffectPostAction_Scripted
 ---@return gameEffectPostAction_Scripted

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RetractableAdController: BaseAnimatedDeviceController
 RetractableAdController = {}
+
 
 ---@param fields? RetractableAdController
 ---@return RetractableAdController

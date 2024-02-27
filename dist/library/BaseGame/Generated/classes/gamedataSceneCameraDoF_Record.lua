@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataSceneCameraDoF_Record: gamedataTweakDBRecord
 gamedataSceneCameraDoF_Record = {}
+
 
 ---@param fields? gamedataSceneCameraDoF_Record
 ---@return gamedataSceneCameraDoF_Record

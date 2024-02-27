@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class worldSharedDataBuffer: ISerializable
 ---@field buffer DataBuffer
 worldSharedDataBuffer = {}
+
 
 ---@param fields? worldSharedDataBuffer
 ---@return worldSharedDataBuffer

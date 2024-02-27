@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class scnCheckPlayerCombatReturnCondition: scnIReturnCondition
 ---@field params scnCheckPlayerCombatReturnConditionParams
 scnCheckPlayerCombatReturnCondition = {}
+
 
 ---@param fields? scnCheckPlayerCombatReturnCondition
 ---@return scnCheckPlayerCombatReturnCondition

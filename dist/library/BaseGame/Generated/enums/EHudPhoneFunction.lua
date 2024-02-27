@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EHudPhoneFunction: Enum
 ---@field Inactive Enum 0
 ---@field DisplayingMessage Enum 1

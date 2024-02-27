@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TargetTypeHitPrereqCondition: BaseHitPrereqCondition
 ---@field targetType CName
 TargetTypeHitPrereqCondition = {}
+
 
 ---@param fields? TargetTypeHitPrereqCondition
 ---@return TargetTypeHitPrereqCondition

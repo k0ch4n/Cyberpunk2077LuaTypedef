@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class scnHubNode: scnSceneGraphNode
 scnHubNode = {}
+
 
 ---@param fields? scnHubNode
 ---@return scnHubNode

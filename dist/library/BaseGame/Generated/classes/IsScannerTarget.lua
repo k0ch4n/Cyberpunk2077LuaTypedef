@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsScannerTarget: gameIScriptablePrereq
 IsScannerTarget = {}
+
 
 ---@param fields? IsScannerTarget
 ---@return IsScannerTarget

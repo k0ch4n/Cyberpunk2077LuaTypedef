@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ToggleVisibleObjectComponent: StatusEffectTasks
 ---@field componentTargetState Bool
 ---@field visibleObjectDescription CName
 ToggleVisibleObjectComponent = {}
+
 
 ---@param fields? ToggleVisibleObjectComponent
 ---@return ToggleVisibleObjectComponent

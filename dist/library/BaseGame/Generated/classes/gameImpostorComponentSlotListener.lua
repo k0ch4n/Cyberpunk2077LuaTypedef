@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameImpostorComponentSlotListener: gameIAttachmentSlotsListener
 gameImpostorComponentSlotListener = {}
+
 
 ---@param fields? gameImpostorComponentSlotListener
 ---@return gameImpostorComponentSlotListener

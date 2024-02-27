@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OpenSkillsMenuData: IScriptable
 ---@field openSkills Bool
 OpenSkillsMenuData = {}
+
 
 ---@param fields? OpenSkillsMenuData
 ---@return OpenSkillsMenuData

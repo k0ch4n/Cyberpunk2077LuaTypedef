@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsRidCameraPlacement: Enum
 ---@field SceneOrigin Enum 0
 ---@field Actual Enum 1

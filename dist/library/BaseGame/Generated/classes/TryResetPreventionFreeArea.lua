@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TryResetPreventionFreeArea: gameScriptableSystemRequest
 TryResetPreventionFreeArea = {}
+
 
 ---@param fields? TryResetPreventionFreeArea
 ---@return TryResetPreventionFreeArea

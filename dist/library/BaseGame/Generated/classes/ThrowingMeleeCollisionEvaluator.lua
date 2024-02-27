@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ThrowingMeleeCollisionEvaluator: gameprojectileScriptCollisionEvaluator
 ---@field projectileStopAndStick Bool
 ThrowingMeleeCollisionEvaluator = {}
+
 
 ---@param fields? ThrowingMeleeCollisionEvaluator
 ---@return ThrowingMeleeCollisionEvaluator

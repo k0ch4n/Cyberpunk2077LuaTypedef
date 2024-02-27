@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleExitDirection: Enum
 ---@field NoDirection Enum -1
 ---@field Left Enum 0

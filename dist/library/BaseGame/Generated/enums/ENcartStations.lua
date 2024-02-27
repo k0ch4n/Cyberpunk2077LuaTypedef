@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ENcartStations: Enum
 ---@field NONE Enum 0
 ---@field ARASAKA_WATERFRONT Enum 1

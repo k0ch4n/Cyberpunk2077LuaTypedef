@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_LifePathSelection: MenuScenario_PreGameSubMenu
 MenuScenario_LifePathSelection = {}
+
 
 ---@param fields? MenuScenario_LifePathSelection
 ---@return MenuScenario_LifePathSelection

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CCTVCamera: gameObject
 ---@field mesh entMeshComponent
 ---@field camera gameCameraComponent
 ---@field isControlled Bool
 ---@field cachedPuppetID entEntityID
 CCTVCamera = {}
+
 
 ---@param fields? CCTVCamera
 ---@return CCTVCamera

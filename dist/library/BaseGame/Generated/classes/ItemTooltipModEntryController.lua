@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemTooltipModEntryController: inkWidgetLogicController
 ---@field modName inkTextWidgetReference
 ---@field attunementContainer inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field bigFontEnabled Bool
 ---@field isCrafting Bool
 ItemTooltipModEntryController = {}
+
 
 ---@param fields? ItemTooltipModEntryController
 ---@return ItemTooltipModEntryController

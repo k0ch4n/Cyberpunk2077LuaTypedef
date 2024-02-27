@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SceneTierAbstractEvents: SceneTierAbstract
 SceneTierAbstractEvents = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

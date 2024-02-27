@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameTagObjectRequest: gameScriptableSystemRequest
 ---@field object gameObject
 gameTagObjectRequest = {}
+
 
 ---@param fields? gameTagObjectRequest
 ---@return gameTagObjectRequest

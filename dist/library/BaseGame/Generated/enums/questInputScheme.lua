@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questInputScheme: Enum
 ---@field Legacy Enum 0
 ---@field Agile Enum 1

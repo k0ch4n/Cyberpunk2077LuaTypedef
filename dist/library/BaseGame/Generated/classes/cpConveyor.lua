@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class cpConveyor: gameObject
 ---@field lines cpConveyorLine[]
 ---@field movementCurve curveData
@@ -9,6 +10,7 @@
 ---@field audioParameterLineCycle CName
 ---@field audioParameterLineSpeed CName
 cpConveyor = {}
+
 
 ---@param fields? cpConveyor
 ---@return cpConveyor

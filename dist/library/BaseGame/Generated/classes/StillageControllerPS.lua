@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StillageControllerPS: ScriptableDeviceComponentPS
 ---@field isCleared Bool
 StillageControllerPS = {}
+
 
 ---@param fields? StillageControllerPS
 ---@return StillageControllerPS

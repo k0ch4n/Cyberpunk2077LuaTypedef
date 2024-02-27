@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckStatusEffect: AIStatusEffectCondition
 ---@field statusEffectID TweakDBID
 CheckStatusEffect = {}
+
 
 ---@param fields? CheckStatusEffect
 ---@return CheckStatusEffect

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MaintenancePanelController: MasterController
 MaintenancePanelController = {}
+
 
 ---@param fields? MaintenancePanelController
 ---@return MaintenancePanelController

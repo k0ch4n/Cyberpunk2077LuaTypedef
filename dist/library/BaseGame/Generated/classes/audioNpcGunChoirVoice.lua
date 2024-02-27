@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioNpcGunChoirVoice: audioAudioMetadata
 ---@field fireSound CName
 ---@field burstFireSound CName
@@ -9,6 +10,7 @@
 ---@field shutdown CName
 ---@field init CName
 audioNpcGunChoirVoice = {}
+
 
 ---@param fields? audioNpcGunChoirVoice
 ---@return audioNpcGunChoirVoice

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorFreeReservedWorkspotNodeDefinition: AIbehaviorDecoratorNodeDefinition
 AIbehaviorFreeReservedWorkspotNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorFreeReservedWorkspotNodeDefinition
 ---@return AIbehaviorFreeReservedWorkspotNodeDefinition

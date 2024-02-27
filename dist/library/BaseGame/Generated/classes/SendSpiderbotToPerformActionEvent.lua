@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SendSpiderbotToPerformActionEvent: redEvent
 ---@field executor gameObject
 SendSpiderbotToPerformActionEvent = {}
+
 
 ---@param fields? SendSpiderbotToPerformActionEvent
 ---@return SendSpiderbotToPerformActionEvent

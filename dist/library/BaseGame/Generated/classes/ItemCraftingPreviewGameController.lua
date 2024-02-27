@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ItemCraftingPreviewGameController: gameuiItemPreviewGameController
 ItemCraftingPreviewGameController = {}
+
 
 ---@param fields? ItemCraftingPreviewGameController
 ---@return ItemCraftingPreviewGameController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkVirtualGridController: inkVirtualListController
 inkVirtualGridController = {}
+
 
 ---@param fields? inkVirtualGridController
 ---@return inkVirtualGridController

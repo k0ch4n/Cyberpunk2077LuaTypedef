@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleOpenComputer: ActionBool
 ToggleOpenComputer = {}
+
 
 ---@param fields? ToggleOpenComputer
 ---@return ToggleOpenComputer

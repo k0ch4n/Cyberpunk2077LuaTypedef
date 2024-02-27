@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuickSlotsHoldEvents: QuickSlotsEvents
 ---@field holdDirection EDPadSlot
 QuickSlotsHoldEvents = {}
+
 
 ---@param stateFloat gamestateMachineResultFloat
 ---@param scriptInterface gamestateMachineGameScriptInterface

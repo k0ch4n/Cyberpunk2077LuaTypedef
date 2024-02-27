@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CharacterCreationBackstorySelectionMenu: gameuiBaseCharacterCreationController
 ---@field nomad inkWidgetReference
 ---@field streetRat inkWidgetReference
@@ -10,6 +11,7 @@
 ---@field streetTarget String
 ---@field corpoTarget String
 CharacterCreationBackstorySelectionMenu = {}
+
 
 ---@param fields? CharacterCreationBackstorySelectionMenu
 ---@return CharacterCreationBackstorySelectionMenu

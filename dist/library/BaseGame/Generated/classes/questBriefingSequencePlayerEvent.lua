@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questBriefingSequencePlayerEvent: redEvent
 questBriefingSequencePlayerEvent = {}
+
 
 ---@param fields? questBriefingSequencePlayerEvent
 ---@return questBriefingSequencePlayerEvent

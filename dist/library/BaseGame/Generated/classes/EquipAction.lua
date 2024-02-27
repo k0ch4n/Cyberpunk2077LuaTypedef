@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EquipAction: BaseItemAction
 EquipAction = {}
+
 
 ---@param fields? EquipAction
 ---@return EquipAction

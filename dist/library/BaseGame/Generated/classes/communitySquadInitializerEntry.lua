@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class communitySquadInitializerEntry
 ---@field type communityESquadType
 ---@field value CName
 communitySquadInitializerEntry = {}
+
 
 ---@param fields? communitySquadInitializerEntry
 ---@return communitySquadInitializerEntry

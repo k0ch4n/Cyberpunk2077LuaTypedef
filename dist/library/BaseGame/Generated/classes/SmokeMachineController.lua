@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SmokeMachineController: BasicDistractionDeviceController
 SmokeMachineController = {}
+
 
 ---@param fields? SmokeMachineController
 ---@return SmokeMachineController

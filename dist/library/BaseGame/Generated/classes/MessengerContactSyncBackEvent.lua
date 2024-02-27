@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MessengerContactSyncBackEvent: redEvent
 MessengerContactSyncBackEvent = {}
+
 
 ---@param fields? MessengerContactSyncBackEvent
 ---@return MessengerContactSyncBackEvent

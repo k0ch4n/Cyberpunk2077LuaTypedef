@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WindowBlindersController: ScriptableDeviceComponent
 WindowBlindersController = {}
+
 
 ---@param fields? WindowBlindersController
 ---@return WindowBlindersController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ConfigTextureQualityLevel: Enum
 ---@field Console Enum 0
 ---@field ConsoleSafe Enum 1

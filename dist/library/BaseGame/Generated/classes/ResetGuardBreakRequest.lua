@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetGuardBreakRequest: gameScriptableSystemRequest
 ResetGuardBreakRequest = {}
+
 
 ---@param fields? ResetGuardBreakRequest
 ---@return ResetGuardBreakRequest

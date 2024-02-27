@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestSetRadioStation: ActionInt
 QuestSetRadioStation = {}
+
 
 ---@param fields? QuestSetRadioStation
 ---@return QuestSetRadioStation

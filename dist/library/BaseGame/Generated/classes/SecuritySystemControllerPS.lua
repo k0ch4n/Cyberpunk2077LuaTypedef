@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SecuritySystemControllerPS: DeviceSystemBaseControllerPS
 ---@field level_0 SecurityAccessLevelEntry[]
 ---@field level_1 SecurityAccessLevelEntry[]
@@ -31,6 +32,7 @@
 ---@field outputsSend Int32
 ---@field inputsReceived Int32
 SecuritySystemControllerPS = {}
+
 
 ---@param fields? SecuritySystemControllerPS
 ---@return SecuritySystemControllerPS

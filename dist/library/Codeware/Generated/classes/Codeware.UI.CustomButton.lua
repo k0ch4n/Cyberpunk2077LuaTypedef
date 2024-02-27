@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Codeware_UI_CustomButton: Codeware_UI_inkCustomController
 ---@field root inkCompoundWidget
 ---@field label inkTextWidget
@@ -9,6 +10,7 @@
 ---@field isHovered Bool
 ---@field isPressed Bool
 Codeware_UI_CustomButton = {}
+
 
 ---@return nil
 function Codeware_UI_CustomButton:OnCreate() end

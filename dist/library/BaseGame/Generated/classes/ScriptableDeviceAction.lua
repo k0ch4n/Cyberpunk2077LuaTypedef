@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScriptableDeviceAction: BaseScriptableAction
 ---@field prop gamedeviceActionProperty
 ---@field actionWidgetPackage SActionWidgetPackage
@@ -18,6 +19,7 @@
 ---@field inactiveReason String
 ---@field widgetStyle gamedataComputerUIStyle
 ScriptableDeviceAction = {}
+
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool

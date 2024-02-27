@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIActionChecks: IScriptable
 AIActionChecks = {}
+
 
 ---@param fields? AIActionChecks
 ---@return AIActionChecks

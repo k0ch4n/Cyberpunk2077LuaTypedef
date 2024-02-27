@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldFoliageBakedDestructionMapping: worldFoliageDestructionMapping
 ---@field numFrames Float
 ---@field frameRate Float
@@ -8,6 +9,7 @@
 ---@field filterDataSource physicsFilterDataSource
 ---@field filterData physicsFilterData
 worldFoliageBakedDestructionMapping = {}
+
 
 ---@param fields? worldFoliageBakedDestructionMapping
 ---@return worldFoliageBakedDestructionMapping

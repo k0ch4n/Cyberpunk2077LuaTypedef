@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class interopMaterialListDescriptor
 ---@field chunksInfo String
 ---@field chunksLODInfo String
@@ -13,6 +14,7 @@
 ---@field appearanceName String
 ---@field availableMaterials String[]
 interopMaterialListDescriptor = {}
+
 
 ---@param fields? interopMaterialListDescriptor
 ---@return interopMaterialListDescriptor

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SetFactEffector: gameEffector
 ---@field fact CName
 ---@field value Int32
 SetFactEffector = {}
+
 
 ---@param fields? SetFactEffector
 ---@return SetFactEffector

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SkillTooltipData: BasePerksMenuTooltipData
 ---@field proficiencyType gamedataProficiencyType
 ---@field attributeRecord gamedataAttribute_Record
 ---@field skillData ProficiencyDisplayData
 SkillTooltipData = {}
+
 
 ---@param fields? SkillTooltipData
 ---@return SkillTooltipData

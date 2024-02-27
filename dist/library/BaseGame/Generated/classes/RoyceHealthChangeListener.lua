@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class RoyceHealthChangeListener: gameCustomValueStatPoolsListener
 ---@field owner NPCPuppet
 ---@field royceComponent RoyceComponent
 ---@field weakspots gameWeakspotObject[]
 RoyceHealthChangeListener = {}
+
 
 ---@param fields? RoyceHealthChangeListener
 ---@return RoyceHealthChangeListener

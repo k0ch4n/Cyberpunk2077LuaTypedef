@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkStreetSignsLayer: inkWorldFluffLayer
 inkStreetSignsLayer = {}
+
 
 ---@param fields? inkStreetSignsLayer
 ---@return inkStreetSignsLayer

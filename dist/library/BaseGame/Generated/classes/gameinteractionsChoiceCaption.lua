@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameinteractionsChoiceCaption
 ---@field parts gameinteractionsChoiceCaptionPart[]
 gameinteractionsChoiceCaption = {}
+
 
 ---@param fields? gameinteractionsChoiceCaption
 ---@return gameinteractionsChoiceCaption

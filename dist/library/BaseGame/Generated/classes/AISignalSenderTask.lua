@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class AISignalSenderTask: AIbehaviortaskScript
 ---@field tags CName[]
 ---@field flags EAIGateSignalFlags[]
 ---@field priority Float
 ---@field signalId Uint32
 AISignalSenderTask = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PocketRadioQuestContentLockListener: questScriptQuestContentLockListener
 ---@field pocketRadio PocketRadio
 PocketRadioQuestContentLockListener = {}
+
 
 ---@param fields? PocketRadioQuestContentLockListener
 ---@return PocketRadioQuestContentLockListener

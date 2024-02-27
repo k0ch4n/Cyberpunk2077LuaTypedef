@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SideScrollerMiniGameScoreSystemAdvanced: gameScriptableSystem
 ---@field scoreData Int32[]
 ---@field gameNames String[]
 SideScrollerMiniGameScoreSystemAdvanced = {}
+
 
 ---@param fields? SideScrollerMiniGameScoreSystemAdvanced
 ---@return SideScrollerMiniGameScoreSystemAdvanced

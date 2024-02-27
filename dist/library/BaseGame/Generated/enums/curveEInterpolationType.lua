@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class curveEInterpolationType: Enum
 ---@field EIT_Constant Enum 0
 ---@field EIT_Linear Enum 1

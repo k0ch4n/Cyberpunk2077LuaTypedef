@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RefreshDeescalationTimers: gameScriptableSystemRequest
 RefreshDeescalationTimers = {}
+
 
 ---@param fields? RefreshDeescalationTimers
 ---@return RefreshDeescalationTimers

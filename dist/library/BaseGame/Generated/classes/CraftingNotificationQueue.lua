@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CraftingNotificationQueue: gameuiGenericNotificationGameController
 ---@field duration Float
 CraftingNotificationQueue = {}
+
 
 ---@param fields? CraftingNotificationQueue
 ---@return CraftingNotificationQueue

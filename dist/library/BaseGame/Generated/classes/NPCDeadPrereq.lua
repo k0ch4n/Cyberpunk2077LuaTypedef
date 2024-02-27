@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NPCDeadPrereq: gameIScriptablePrereq
 NPCDeadPrereq = {}
+
 
 ---@param fields? NPCDeadPrereq
 ---@return NPCDeadPrereq

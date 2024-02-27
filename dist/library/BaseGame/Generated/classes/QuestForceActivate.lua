@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceActivate: ActionBool
 QuestForceActivate = {}
+
 
 ---@param fields? QuestForceActivate
 ---@return QuestForceActivate

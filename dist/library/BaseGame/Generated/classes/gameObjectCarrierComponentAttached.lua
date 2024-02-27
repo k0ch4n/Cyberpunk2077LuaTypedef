@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameObjectCarrierComponentAttached: redEvent
 gameObjectCarrierComponentAttached = {}
+
 
 ---@param fields? gameObjectCarrierComponentAttached
 ---@return gameObjectCarrierComponentAttached

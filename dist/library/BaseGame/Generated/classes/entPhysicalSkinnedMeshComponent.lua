@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entPhysicalSkinnedMeshComponent: entSkinnedMeshComponent
 ---@field simulationType physicsSimulationType
 ---@field useResourceSimulationType Bool
@@ -7,6 +8,7 @@
 ---@field filterDataSource physicsFilterDataSource
 ---@field filterData physicsFilterData
 entPhysicalSkinnedMeshComponent = {}
+
 
 ---@param fields? entPhysicalSkinnedMeshComponent
 ---@return entPhysicalSkinnedMeshComponent

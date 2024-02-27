@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsNPCDriver: AIVehicleConditionAbstract
 IsNPCDriver = {}
+
 
 ---@param fields? IsNPCDriver
 ---@return IsNPCDriver

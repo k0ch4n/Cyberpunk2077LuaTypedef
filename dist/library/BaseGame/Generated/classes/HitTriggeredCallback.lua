@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitTriggeredCallback: HitCallback
 HitTriggeredCallback = {}
+
 
 ---@param fields? HitTriggeredCallback
 ---@return HitTriggeredCallback

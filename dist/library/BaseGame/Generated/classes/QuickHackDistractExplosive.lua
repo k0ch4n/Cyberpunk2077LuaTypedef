@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickHackDistractExplosive: ActionBool
 QuickHackDistractExplosive = {}
+
 
 ---@param fields? QuickHackDistractExplosive
 ---@return QuickHackDistractExplosive

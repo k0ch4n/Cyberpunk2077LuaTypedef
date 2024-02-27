@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ScannerRarity: ScannerChunk
 ---@field rarity gamedataNPCRarity
 ---@field isCivilian Bool
 ScannerRarity = {}
+
 
 ---@param fields? ScannerRarity
 ---@return ScannerRarity

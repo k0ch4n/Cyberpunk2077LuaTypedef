@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameinfluenceSystem: gameinfluenceISystem
 gameinfluenceSystem = {}
+
 
 ---@param fields? gameinfluenceSystem
 ---@return gameinfluenceSystem

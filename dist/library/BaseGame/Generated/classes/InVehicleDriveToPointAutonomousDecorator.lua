@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InVehicleDriveToPointAutonomousDecorator: AIVehicleTaskAbstract
 ---@field vehCommand AIVehicleDriveToPointAutonomousCommand
 ---@field targetPosition AIArgumentMapping
@@ -9,6 +10,7 @@
 ---@field clearTrafficOnPath AIArgumentMapping
 ---@field driveDownTheRoadIndefinitely AIArgumentMapping
 InVehicleDriveToPointAutonomousDecorator = {}
+
 
 ---@param fields? InVehicleDriveToPointAutonomousDecorator
 ---@return InVehicleDriveToPointAutonomousDecorator

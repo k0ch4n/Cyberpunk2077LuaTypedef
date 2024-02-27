@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameaudioeventsVehicleCollision: redEvent
 gameaudioeventsVehicleCollision = {}
+
 
 ---@param fields? gameaudioeventsVehicleCollision
 ---@return gameaudioeventsVehicleCollision

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CerberusRangedKillTask: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ---@field currentCommand AIShootCommand
@@ -11,6 +12,7 @@
 ---@field playerPuppet PlayerPuppet
 ---@field fadeOutStarted Bool
 CerberusRangedKillTask = {}
+
 
 ---@param fields? CerberusRangedKillTask
 ---@return CerberusRangedKillTask

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SystemCollapseLifetimeEffector: gameEffector
 SystemCollapseLifetimeEffector = {}
+
 
 ---@param fields? SystemCollapseLifetimeEffector
 ---@return SystemCollapseLifetimeEffector

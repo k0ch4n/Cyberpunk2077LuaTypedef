@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class MoveToCoverCommandTask: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ---@field currentCommand AIMoveToCoverCommand
 ---@field coverID Uint64
 MoveToCoverCommandTask = {}
+
 
 ---@param fields? MoveToCoverCommandTask
 ---@return MoveToCoverCommandTask

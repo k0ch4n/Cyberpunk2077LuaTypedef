@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemAdditionalInfoType: Enum
 ---@field NONE Enum 0
 ---@field PRICE Enum 1

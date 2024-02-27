@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehiclePoliceStrategy: Enum
 ---@field None Enum 0
 ---@field DriveTowardsPlayer Enum 1

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UsePhoneRequest: gameScriptableSystemRequest
 ---@field MessageToOpen gameJournalEntry
 UsePhoneRequest = {}
+
 
 ---@param fields? UsePhoneRequest
 ---@return UsePhoneRequest

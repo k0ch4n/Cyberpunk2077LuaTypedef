@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animSimpleBounce_JsonProperties: ISerializable
 ---@field multiplier Float
 ---@field negativeMultiplier Float
@@ -12,6 +13,7 @@
 ---@field trackOutputs animSimpleBounceTrackOutput[]
 ---@field outputDriverTrack animNamedTrackIndex
 animSimpleBounce_JsonProperties = {}
+
 
 ---@param fields? animSimpleBounce_JsonProperties
 ---@return animSimpleBounce_JsonProperties

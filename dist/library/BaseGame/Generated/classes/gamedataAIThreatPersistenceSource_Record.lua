@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIThreatPersistenceSource_Record: gamedataTweakDBRecord
 gamedataAIThreatPersistenceSource_Record = {}
+
 
 ---@param fields? gamedataAIThreatPersistenceSource_Record
 ---@return gamedataAIThreatPersistenceSource_Record

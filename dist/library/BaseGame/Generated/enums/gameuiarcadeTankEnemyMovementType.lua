@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiarcadeTankEnemyMovementType: Enum
 ---@field x_axis Enum 0
 ---@field x_axisL Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LookAtPresetBaseDecisions: DefaultTransition
 LookAtPresetBaseDecisions = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

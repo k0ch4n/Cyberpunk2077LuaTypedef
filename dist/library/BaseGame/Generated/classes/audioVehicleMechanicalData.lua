@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioVehicleMechanicalData
 ---@field engineStartEvent CName
 ---@field engineStopEvent CName
@@ -21,6 +22,7 @@
 ---@field thrust CName
 ---@field temperature CName
 audioVehicleMechanicalData = {}
+
 
 ---@param fields? audioVehicleMechanicalData
 ---@return audioVehicleMechanicalData

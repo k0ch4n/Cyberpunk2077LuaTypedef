@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gamestateMachineResultCName
 ---@field value CName
 ---@field valid Bool
 gamestateMachineResultCName = {}
+
 
 ---@param fields? gamestateMachineResultCName
 ---@return gamestateMachineResultCName

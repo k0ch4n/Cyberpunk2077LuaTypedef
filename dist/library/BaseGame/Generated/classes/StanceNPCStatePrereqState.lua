@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StanceNPCStatePrereqState: NPCStatePrereqState
 StanceNPCStatePrereqState = {}
+
 
 ---@param fields? StanceNPCStatePrereqState
 ---@return StanceNPCStatePrereqState

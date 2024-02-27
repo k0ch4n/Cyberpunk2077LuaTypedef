@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entFacialCustomizationComponent: entIComponent
 ---@field debugIgnoreComponent Bool
 ---@field customizationSet animFacialCustomizationSet
@@ -9,6 +10,7 @@
 ---@field jaw Uint32
 ---@field ears Uint32
 entFacialCustomizationComponent = {}
+
 
 ---@param fields? entFacialCustomizationComponent
 ---@return entFacialCustomizationComponent

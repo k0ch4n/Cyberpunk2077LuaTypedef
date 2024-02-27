@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCharacterState_PuppetSubType: questICharacterConditionSubType
 ---@field puppetRef gameEntityReference
 ---@field upperBodyComparisonType questEComparisonTypeEquality
@@ -9,6 +10,7 @@
 ---@field stanceComparisonType questEComparisonTypeEquality
 ---@field stanceState Int32
 questCharacterState_PuppetSubType = {}
+
 
 ---@param fields? questCharacterState_PuppetSubType
 ---@return questCharacterState_PuppetSubType

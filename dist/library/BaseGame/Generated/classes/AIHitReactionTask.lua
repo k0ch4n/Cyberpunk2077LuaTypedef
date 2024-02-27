@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class AIHitReactionTask: AIbehaviortaskScript
 ---@field activationTimeStamp Float
 ---@field reactionDuration Float
 ---@field hitReactionAction ActionHitReactionScriptProxy
 ---@field hitReactionType animHitReactionType
 AIHitReactionTask = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldDistantGINodeInstance: worldINodeInstance
 worldDistantGINodeInstance = {}
+
 
 ---@param fields? worldDistantGINodeInstance
 ---@return worldDistantGINodeInstance

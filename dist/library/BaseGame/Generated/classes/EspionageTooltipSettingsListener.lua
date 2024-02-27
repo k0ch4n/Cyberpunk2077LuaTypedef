@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EspionageTooltipSettingsListener: userSettingsVarListener
 ---@field ctrl NewPerksCyberwareTooltipController
 EspionageTooltipSettingsListener = {}
+
 
 ---@param fields? EspionageTooltipSettingsListener
 ---@return EspionageTooltipSettingsListener

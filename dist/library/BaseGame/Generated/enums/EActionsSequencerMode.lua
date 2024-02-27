@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EActionsSequencerMode: Enum
 ---@field REGULAR_INTERVALS Enum 0
 ---@field ACCELERATING_INTERVALS_TODO Enum 1

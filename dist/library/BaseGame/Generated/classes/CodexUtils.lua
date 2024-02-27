@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CodexUtils: IScriptable
 CodexUtils = {}
+
 
 ---@param fields? CodexUtils
 ---@return CodexUtils

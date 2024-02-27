@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GrappleForceShovePreyDecisions: GrappleStandDecisions
 GrappleForceShovePreyDecisions = {}
+
 
 ---@param fields? GrappleForceShovePreyDecisions
 ---@return GrappleForceShovePreyDecisions

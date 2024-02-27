@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetHitStimSourceTask: StatusEffectTasks
 SetHitStimSourceTask = {}
+
 
 ---@param fields? SetHitStimSourceTask
 ---@return SetHitStimSourceTask

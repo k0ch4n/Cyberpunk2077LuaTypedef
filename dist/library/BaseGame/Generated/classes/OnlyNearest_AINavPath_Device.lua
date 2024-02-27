@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OnlyNearest_AINavPath_Device: gameEffectObjectGroupFilter_Scripted
 OnlyNearest_AINavPath_Device = {}
+
 
 ---@param fields? OnlyNearest_AINavPath_Device
 ---@return OnlyNearest_AINavPath_Device

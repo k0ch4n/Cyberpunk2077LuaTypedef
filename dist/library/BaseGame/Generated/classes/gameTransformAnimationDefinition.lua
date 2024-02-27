@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTransformAnimationDefinition
 ---@field name CName
 ---@field autoStart Bool
@@ -10,6 +11,7 @@
 ---@field reverse Bool
 ---@field timeline gameTransformAnimationTimeline
 gameTransformAnimationDefinition = {}
+
 
 ---@param fields? gameTransformAnimationDefinition
 ---@return gameTransformAnimationDefinition

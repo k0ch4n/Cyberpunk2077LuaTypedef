@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gamePoliceRadioSystem: gameIPoliceRadioSystem
 ---@field lastDistrictEntry CName
 ---@field isHeat1LineRequestOngoing Bool
 gamePoliceRadioSystem = {}
+
 
 ---@param fields? gamePoliceRadioSystem
 ---@return gamePoliceRadioSystem

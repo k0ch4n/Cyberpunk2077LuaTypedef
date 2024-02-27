@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ExplosiveDeviceResourceDefinition
 ---@field damageType TweakDBID
 ---@field vfxResource gameFxResource
@@ -9,6 +10,7 @@
 ---@field additionalGameEffectType EExplosiveAdditionalGameEffectType
 ---@field dontHighlightOnLookat Bool
 ExplosiveDeviceResourceDefinition = {}
+
 
 ---@param fields? ExplosiveDeviceResourceDefinition
 ---@return ExplosiveDeviceResourceDefinition

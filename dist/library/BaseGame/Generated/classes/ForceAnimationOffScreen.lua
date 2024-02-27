@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceAnimationOffScreen: AIbehaviortaskScript
 ForceAnimationOffScreen = {}
+
 
 ---@param fields? ForceAnimationOffScreen
 ---@return ForceAnimationOffScreen

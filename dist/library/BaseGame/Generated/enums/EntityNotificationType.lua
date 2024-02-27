@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EntityNotificationType: Enum
 ---@field DoNotNotifyEntity Enum 0
 ---@field SendThisEventToEntity Enum 1

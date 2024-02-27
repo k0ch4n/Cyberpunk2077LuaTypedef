@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StatPoolPrereq: gameIScriptablePrereq
 ---@field statPoolType gamedataStatPoolType
 ---@field valueToCheck gamedataStatModifier_Record[]
@@ -8,6 +9,7 @@
 ---@field comparePercentage Bool
 ---@field objToCheck ObjectToCheck
 StatPoolPrereq = {}
+
 
 ---@param fields? StatPoolPrereq
 ---@return StatPoolPrereq

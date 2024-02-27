@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ModifyStatPoolModifierEffector: gameEffector
 ---@field owner gameObject
 ---@field ownerEntityID entEntityID
@@ -8,6 +9,7 @@
 ---@field recordId TweakDBID
 ---@field cachedModifier gameStatPoolModifier
 ModifyStatPoolModifierEffector = {}
+
 
 ---@param fields? ModifyStatPoolModifierEffector
 ---@return ModifyStatPoolModifierEffector

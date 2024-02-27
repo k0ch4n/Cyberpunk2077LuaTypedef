@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class sampleGranade: BaseProjectile
 ---@field countTime Float
 ---@field energyLossFactor Float
@@ -9,6 +10,7 @@
 ---@field trailEffectName CName
 ---@field alive Bool
 sampleGranade = {}
+
 
 ---@param fields? sampleGranade
 ---@return sampleGranade

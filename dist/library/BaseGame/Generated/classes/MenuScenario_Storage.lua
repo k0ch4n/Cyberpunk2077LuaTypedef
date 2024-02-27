@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_Storage: MenuScenario_BaseMenu
 MenuScenario_Storage = {}
+
 
 ---@param fields? MenuScenario_Storage
 ---@return MenuScenario_Storage

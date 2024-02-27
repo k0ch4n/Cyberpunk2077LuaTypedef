@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CurrencyNotificationAnimState: Enum
 ---@field Inactive Enum 0
 ---@field Intro Enum 1

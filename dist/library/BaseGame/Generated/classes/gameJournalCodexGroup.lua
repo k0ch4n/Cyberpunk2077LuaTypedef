@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameJournalCodexGroup: gameJournalContainerEntry
 ---@field groupName LocalizationString
 ---@field isSorted Bool
 gameJournalCodexGroup = {}
+
 
 ---@param fields? gameJournalCodexGroup
 ---@return gameJournalCodexGroup

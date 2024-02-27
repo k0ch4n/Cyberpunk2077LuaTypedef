@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EMappinVisualState: Enum
 ---@field Default Enum 0
 ---@field Available Enum 1

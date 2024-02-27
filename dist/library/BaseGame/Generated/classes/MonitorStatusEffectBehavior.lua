@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MonitorStatusEffectBehavior: StatusEffectTasks
 ---@field statusEffectID TweakDBID
 MonitorStatusEffectBehavior = {}
+
 
 ---@param fields? MonitorStatusEffectBehavior
 ---@return MonitorStatusEffectBehavior

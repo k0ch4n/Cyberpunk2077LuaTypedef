@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animImportFacialCorrectivePoseDesc
 ---@field influencedBy CName[]
 ---@field influenceMainWeightIndices Uint16[]
@@ -16,6 +17,7 @@
 ---@field linearCorrection Bool
 ---@field useGlobalWeight Bool
 animImportFacialCorrectivePoseDesc = {}
+
 
 ---@param fields? animImportFacialCorrectivePoseDesc
 ---@return animImportFacialCorrectivePoseDesc

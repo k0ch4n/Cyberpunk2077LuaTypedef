@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MinigameDecisions: HighLevelTransition
 MinigameDecisions = {}
+
 
 ---@param fields? MinigameDecisions
 ---@return MinigameDecisions

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ExhaustedEvents: StaminaEventsTransition
 ---@field staminaVfxBlackboard worldEffectBlackboard
 ---@field disableStaminaRegenModifier gameConstantStatModifierData_Deprecated
 ---@field player PlayerPuppet
 ExhaustedEvents = {}
+
 
 ---@param fields? ExhaustedEvents
 ---@return ExhaustedEvents

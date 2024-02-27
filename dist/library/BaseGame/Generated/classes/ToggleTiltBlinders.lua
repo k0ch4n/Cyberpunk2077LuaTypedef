@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleTiltBlinders: ActionBool
 ToggleTiltBlinders = {}
+
 
 ---@param fields? ToggleTiltBlinders
 ---@return ToggleTiltBlinders

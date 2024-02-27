@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class StrikeFilterSingle_NPC: gameEffectObjectSingleFilter_Scripted
 ---@field onlyAlive Bool
 ---@field onlyEnemies Bool
 StrikeFilterSingle_NPC = {}
+
 
 ---@param fields? StrikeFilterSingle_NPC
 ---@return StrikeFilterSingle_NPC

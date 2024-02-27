@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class scnAnimName: ISerializable
 ---@field type scnAnimNameType
 scnAnimName = {}
+
 
 ---@param fields? scnAnimName
 ---@return scnAnimName

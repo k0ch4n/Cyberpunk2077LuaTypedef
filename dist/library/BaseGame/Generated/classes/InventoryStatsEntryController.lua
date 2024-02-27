@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class InventoryStatsEntryController: inkWidgetLogicController
 ---@field iconWidget inkImageWidgetReference
 ---@field labelWidget inkTextWidgetReference
 ---@field valueWidget inkTextWidgetReference
 InventoryStatsEntryController = {}
+
 
 ---@param fields? InventoryStatsEntryController
 ---@return InventoryStatsEntryController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleVisualModdingDefinition
 ---@field primaryColorDefined Bool
 ---@field primaryColorH Float
@@ -12,6 +13,7 @@
 ---@field decoPreset Int32
 ---@field defaultAppearance CName
 vehicleVisualModdingDefinition = {}
+
 
 ---@param fields? vehicleVisualModdingDefinition
 ---@return vehicleVisualModdingDefinition

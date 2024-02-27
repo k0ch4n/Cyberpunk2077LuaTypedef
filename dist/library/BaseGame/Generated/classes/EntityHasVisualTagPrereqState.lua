@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EntityHasVisualTagPrereqState: gamePrereqState
 EntityHasVisualTagPrereqState = {}
+
 
 ---@param fields? EntityHasVisualTagPrereqState
 ---@return EntityHasVisualTagPrereqState

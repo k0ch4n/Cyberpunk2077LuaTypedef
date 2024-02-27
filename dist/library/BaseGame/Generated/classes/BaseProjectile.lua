@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BaseProjectile: gameItemObject
 ---@field projectileComponent gameprojectileComponent
 ---@field user gameObject
@@ -10,6 +11,7 @@
 ---@field lifeTime Float
 ---@field tweakDBPath String
 BaseProjectile = {}
+
 
 ---@param fields? BaseProjectile
 ---@return BaseProjectile

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIbehaviorParallelNodeDefinition: AIbehaviorCompositeTreeNodeDefinition
 ---@field waitFor AIbehaviorParallelNodeWaitFor
 AIbehaviorParallelNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorParallelNodeDefinition
 ---@return AIbehaviorParallelNodeDefinition

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Fuse: InteractiveMasterDevice
 Fuse = {}
+
 
 ---@param fields? Fuse
 ---@return Fuse

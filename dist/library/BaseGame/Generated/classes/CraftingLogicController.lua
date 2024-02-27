@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CraftingLogicController: CraftingMainLogicController
 ---@field ingredientsWeaponContainer inkCompoundWidgetReference
 ---@field itemPreviewContainer inkWidgetReference
@@ -18,6 +19,7 @@
 ---@field hasSpawnedQuickHackTooltip Bool
 ---@field timeUntilReset Float
 CraftingLogicController = {}
+
 
 ---@param fields? CraftingLogicController
 ---@return CraftingLogicController

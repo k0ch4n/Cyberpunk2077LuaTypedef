@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Codeware_UI_TextInput_TextFlow: Codeware_UI_inkCustomController
 ---@field text inkTextWidget
 ---@field value String
@@ -9,6 +10,7 @@
 ---@field charOffsets Float[]
 ---@field tickProxy inkanimProxy
 Codeware_UI_TextInput_TextFlow = {}
+
 
 ---@param fields? Codeware_UI_TextInput_TextFlow
 ---@return Codeware_UI_TextInput_TextFlow

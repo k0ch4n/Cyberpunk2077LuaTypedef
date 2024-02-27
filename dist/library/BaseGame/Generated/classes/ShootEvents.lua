@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ShootEvents: WeaponEventsTransition
 ShootEvents = {}
+
 
 ---@param fields? ShootEvents
 ---@return ShootEvents

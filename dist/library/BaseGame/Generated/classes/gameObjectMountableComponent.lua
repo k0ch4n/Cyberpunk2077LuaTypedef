@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameObjectMountableComponent: gamemountingMountableComponent
 gameObjectMountableComponent = {}
+
 
 ---@param fields? gameObjectMountableComponent
 ---@return gameObjectMountableComponent

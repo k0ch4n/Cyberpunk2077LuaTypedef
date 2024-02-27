@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DisarmComponent: gameScriptableComponent
 ---@field isDisarmingOngoing Bool
 ---@field owner gameObject
 ---@field requester gameObject
 DisarmComponent = {}
+
 
 ---@param fields? DisarmComponent
 ---@return DisarmComponent

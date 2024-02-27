@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FactTextGameController: gameuiWidgetGameController
 ---@field factTextArray FactTextStruct[]
 FactTextGameController = {}
+
 
 ---@param fields? FactTextGameController
 ---@return FactTextGameController

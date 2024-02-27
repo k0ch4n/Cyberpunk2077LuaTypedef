@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GpuWrapApiVertexPackingePackingType: Enum
 ---@field PT_Invalid Enum -1
 ---@field PT_Float1 Enum 0

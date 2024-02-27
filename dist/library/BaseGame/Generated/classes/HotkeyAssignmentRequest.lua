@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class HotkeyAssignmentRequest: gamePlayerScriptableSystemRequest
 ---@field itemID gameItemID
 ---@field hotkey gameEHotkey
 ---@field requestType EHotkeyRequestType
 HotkeyAssignmentRequest = {}
+
 
 ---@param fields? HotkeyAssignmentRequest
 ---@return HotkeyAssignmentRequest

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePrereqState: IScriptable
 gamePrereqState = {}
+
 
 ---@param fields? gamePrereqState
 ---@return gamePrereqState

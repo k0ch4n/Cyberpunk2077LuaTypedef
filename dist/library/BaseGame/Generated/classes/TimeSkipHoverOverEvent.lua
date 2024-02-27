@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TimeSkipHoverOverEvent: redEvent
 TimeSkipHoverOverEvent = {}
+
 
 ---@param fields? TimeSkipHoverOverEvent
 ---@return TimeSkipHoverOverEvent

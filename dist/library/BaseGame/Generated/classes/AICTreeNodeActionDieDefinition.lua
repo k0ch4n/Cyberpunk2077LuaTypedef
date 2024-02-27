@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICTreeNodeActionDieDefinition: AICTreeNodeActionDefinition
 AICTreeNodeActionDieDefinition = {}
+
 
 ---@param fields? AICTreeNodeActionDieDefinition
 ---@return AICTreeNodeActionDieDefinition

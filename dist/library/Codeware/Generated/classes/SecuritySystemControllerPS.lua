@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SecuritySystemControllerPS: DeviceSystemBaseControllerPS
 SecuritySystemControllerPS = {}
+
 
 ---@param fields? SecuritySystemControllerPS
 ---@return SecuritySystemControllerPS

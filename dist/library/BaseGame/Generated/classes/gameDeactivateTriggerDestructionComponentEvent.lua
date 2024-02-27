@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDeactivateTriggerDestructionComponentEvent: redEvent
 gameDeactivateTriggerDestructionComponentEvent = {}
+
 
 ---@param fields? gameDeactivateTriggerDestructionComponentEvent
 ---@return gameDeactivateTriggerDestructionComponentEvent

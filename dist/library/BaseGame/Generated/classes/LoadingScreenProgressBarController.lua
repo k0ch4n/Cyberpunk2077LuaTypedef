@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LoadingScreenProgressBarController: inkWidgetLogicController
 ---@field progressBarRoot inkWidgetReference
 ---@field progressBarFill inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field rotationAnimation inkanimDefinition
 ---@field rotationInterpolator inkanimRotationInterpolator
 LoadingScreenProgressBarController = {}
+
 
 ---@param fields? LoadingScreenProgressBarController
 ---@return LoadingScreenProgressBarController

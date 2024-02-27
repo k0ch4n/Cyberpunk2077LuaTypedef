@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionStartCooldown_Record_Implementation: IScriptable
 AISubActionStartCooldown_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionStartCooldown_Record

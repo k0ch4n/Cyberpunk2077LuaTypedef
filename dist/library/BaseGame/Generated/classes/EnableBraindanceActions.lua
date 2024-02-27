@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EnableBraindanceActions: redEvent
 ---@field actionMask SBraindanceInputMask
 EnableBraindanceActions = {}
+
 
 ---@param fields? EnableBraindanceActions
 ---@return EnableBraindanceActions

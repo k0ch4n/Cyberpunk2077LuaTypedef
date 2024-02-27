@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IgnoreMoveCommandInCombatCondition: AIbehaviorconditionScript
 IgnoreMoveCommandInCombatCondition = {}
+
 
 ---@param fields? IgnoreMoveCommandInCombatCondition
 ---@return IgnoreMoveCommandInCombatCondition

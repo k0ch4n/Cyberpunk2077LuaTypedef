@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ActivateCoverEvents: CoverActionEventsTransition
 ---@field usingCover Bool
 ActivateCoverEvents = {}
+
 
 ---@param fields? ActivateCoverEvents
 ---@return ActivateCoverEvents

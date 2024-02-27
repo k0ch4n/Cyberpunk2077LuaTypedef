@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldPrefabNode: worldNode
 ---@field prefab worldPrefab
 ---@field instanceData worldPrefabInstanceData
@@ -19,6 +20,7 @@
 ---@field proxyScale Vector3
 ---@field applyMaxStreamingDistance Bool
 worldPrefabNode = {}
+
 
 ---@param fields? worldPrefabNode
 ---@return worldPrefabNode

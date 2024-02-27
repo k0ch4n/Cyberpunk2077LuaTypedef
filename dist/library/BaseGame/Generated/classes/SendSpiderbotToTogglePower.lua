@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SendSpiderbotToTogglePower: ActionBool
 SendSpiderbotToTogglePower = {}
+
 
 ---@param fields? SendSpiderbotToTogglePower
 ---@return SendSpiderbotToTogglePower

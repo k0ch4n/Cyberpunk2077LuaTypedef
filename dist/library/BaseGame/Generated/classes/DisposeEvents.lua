@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisposeEvents: CarriedObjectEvents
 DisposeEvents = {}
+
 
 ---@param fields? DisposeEvents
 ---@return DisposeEvents

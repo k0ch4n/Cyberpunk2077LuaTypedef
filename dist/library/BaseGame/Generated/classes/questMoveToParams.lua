@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questMoveToParams: questAICommandParams
 ---@field movementTargetRef questUniversalRef
 ---@field facingTargetRef questUniversalRef
@@ -16,6 +17,7 @@
 ---@field ignoreInCombat Bool
 ---@field alwaysUseStealth Bool
 questMoveToParams = {}
+
 
 ---@param fields? questMoveToParams
 ---@return questMoveToParams

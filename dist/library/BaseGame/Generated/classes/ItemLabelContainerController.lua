@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ItemLabelContainerController: inkWidgetLogicController
 ---@field items ItemLabelController[]
 ItemLabelContainerController = {}
+
 
 ---@param fields? ItemLabelContainerController
 ---@return ItemLabelContainerController

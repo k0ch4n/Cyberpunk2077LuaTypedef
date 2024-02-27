@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ConfigGraphicsQualityLevel: Enum
 ---@field Low Enum 0
 ---@field Medium Enum 1

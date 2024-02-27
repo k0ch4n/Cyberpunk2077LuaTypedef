@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SStatPoolValue
 ---@field type gamedataStatPoolType
 ---@field value Float
 SStatPoolValue = {}
+
 
 ---@param fields? SStatPoolValue
 ---@return SStatPoolValue

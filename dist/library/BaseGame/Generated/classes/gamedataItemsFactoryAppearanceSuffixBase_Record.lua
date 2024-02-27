@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataItemsFactoryAppearanceSuffixBase_Record: gamedataTweakDBRecord
 gamedataItemsFactoryAppearanceSuffixBase_Record = {}
+
 
 ---@param fields? gamedataItemsFactoryAppearanceSuffixBase_Record
 ---@return gamedataItemsFactoryAppearanceSuffixBase_Record

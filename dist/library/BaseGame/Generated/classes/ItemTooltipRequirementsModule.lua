@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemTooltipRequirementsModule: ItemTooltipModuleController
 ---@field levelRequirementsWrapper inkWidgetReference
 ---@field strenghtOrReflexWrapper inkWidgetReference
@@ -11,6 +12,7 @@
 ---@field perkText inkTextWidgetReference
 ---@field perkDot inkImageWidgetReference
 ItemTooltipRequirementsModule = {}
+
 
 ---@param fields? ItemTooltipRequirementsModule
 ---@return ItemTooltipRequirementsModule

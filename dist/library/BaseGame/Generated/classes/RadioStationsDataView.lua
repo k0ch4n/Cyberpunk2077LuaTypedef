@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RadioStationsDataView: inkScriptableDataViewWrapper
 RadioStationsDataView = {}
+
 
 ---@param fields? RadioStationsDataView
 ---@return RadioStationsDataView

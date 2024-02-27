@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiCharacterCustomizationSystem: gameuiICharacterCustomizationSystem
 gameuiCharacterCustomizationSystem = {}
+
 
 ---@param fields? gameuiCharacterCustomizationSystem
 ---@return gameuiCharacterCustomizationSystem

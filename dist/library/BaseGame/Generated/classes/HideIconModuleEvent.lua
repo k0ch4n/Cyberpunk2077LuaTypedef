@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HideIconModuleEvent: redEvent
 HideIconModuleEvent = {}
+
 
 ---@param fields? HideIconModuleEvent
 ---@return HideIconModuleEvent

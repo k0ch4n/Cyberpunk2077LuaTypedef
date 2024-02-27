@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class InspectDummy: gameObject
 ---@field mesh entPhysicalMeshComponent
 ---@field choice gameinteractionsComponent
 ---@field inspectComp InspectableObjectComponent
 InspectDummy = {}
+
 
 ---@param fields? InspectDummy
 ---@return InspectDummy

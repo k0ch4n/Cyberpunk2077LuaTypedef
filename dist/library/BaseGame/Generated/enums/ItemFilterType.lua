@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemFilterType: Enum
 ---@field All Enum 0
 ---@field Weapons Enum 1

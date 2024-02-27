@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class exEntitySpawner: gameIGameSystem
 exEntitySpawner = {}
+
 
 ---@param fields? exEntitySpawner
 ---@return exEntitySpawner

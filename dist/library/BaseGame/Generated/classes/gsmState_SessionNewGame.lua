@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gsmState_SessionNewGame: gsmState
 gsmState_SessionNewGame = {}
+
 
 ---@param fields? gsmState_SessionNewGame
 ---@return gsmState_SessionNewGame

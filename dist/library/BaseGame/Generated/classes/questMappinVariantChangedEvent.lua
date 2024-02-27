@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class questMappinVariantChangedEvent: redEvent
 ---@field entry gameJournalEntry
 ---@field phase gamedataMappinPhase
 ---@field variant gamedataMappinVariant
 questMappinVariantChangedEvent = {}
+
 
 ---@param fields? questMappinVariantChangedEvent
 ---@return questMappinVariantChangedEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForwardPingToSquadEvent: redEvent
 ForwardPingToSquadEvent = {}
+
 
 ---@param fields? ForwardPingToSquadEvent
 ---@return ForwardPingToSquadEvent

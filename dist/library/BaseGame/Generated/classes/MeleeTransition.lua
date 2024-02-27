@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MeleeTransition: DefaultTransition
 ---@field stateNameString String
 ---@field driverCombatListener DriverCombatListener
 MeleeTransition = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool

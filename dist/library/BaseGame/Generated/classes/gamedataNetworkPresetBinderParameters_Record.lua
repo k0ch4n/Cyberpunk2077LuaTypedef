@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataNetworkPresetBinderParameters_Record: gamedataTweakDBRecord
 gamedataNetworkPresetBinderParameters_Record = {}
+
 
 ---@param fields? gamedataNetworkPresetBinderParameters_Record
 ---@return gamedataNetworkPresetBinderParameters_Record

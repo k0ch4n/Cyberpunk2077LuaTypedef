@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questShowPopup_NodeSubType: questITutorial_NodeSubType
 ---@field path gameJournalPath
 ---@field open Bool
@@ -15,6 +16,7 @@
 ---@field video Bink
 ---@field ignoreDisabledTutorials Bool
 questShowPopup_NodeSubType = {}
+
 
 ---@param fields? questShowPopup_NodeSubType
 ---@return questShowPopup_NodeSubType

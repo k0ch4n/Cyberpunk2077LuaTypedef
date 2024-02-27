@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionCallSquadSearchBackUp_Record_Implementation: IScriptable
 AISubActionCallSquadSearchBackUp_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionCallSquadSearchBackUp_Record

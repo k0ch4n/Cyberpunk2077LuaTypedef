@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkPhotoModeState: inkIStateMachineState
 inkPhotoModeState = {}
+
 
 ---@param fields? inkPhotoModeState
 ---@return inkPhotoModeState

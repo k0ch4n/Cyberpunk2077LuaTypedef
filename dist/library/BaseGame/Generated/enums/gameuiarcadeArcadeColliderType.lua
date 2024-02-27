@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiarcadeArcadeColliderType: Enum
 ---@field Body Enum 0
 ---@field Up Enum 1

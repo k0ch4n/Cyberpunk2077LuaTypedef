@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiProjectedHUDGameController: gameuiHUDGameController
 gameuiProjectedHUDGameController = {}
+
 
 ---@param fields? gameuiProjectedHUDGameController
 ---@return gameuiProjectedHUDGameController

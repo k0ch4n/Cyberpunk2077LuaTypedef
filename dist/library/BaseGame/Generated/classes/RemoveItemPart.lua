@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class RemoveItemPart: gameScriptableSystemRequest
 ---@field obj gameObject
 ---@field baseItem gameItemID
 ---@field slotToEmpty TweakDBID
 RemoveItemPart = {}
+
 
 ---@param fields? RemoveItemPart
 ---@return RemoveItemPart

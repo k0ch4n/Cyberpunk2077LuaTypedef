@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamehelperGameObjectEffectHelper: IScriptable
 gamehelperGameObjectEffectHelper = {}
+
 
 ---@param fields? gamehelperGameObjectEffectHelper
 ---@return gamehelperGameObjectEffectHelper

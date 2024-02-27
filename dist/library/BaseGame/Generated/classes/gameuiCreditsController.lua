@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiCreditsController: gameuiWidgetGameController
 ---@field creditsResourcePS4 inkCreditsResource
 ---@field creditsResourceXBOXPC inkCreditsResource
@@ -28,6 +29,7 @@
 ---@field isEp1CreditsImplementation Bool
 ---@field exitNotificationDisplayTime Float
 gameuiCreditsController = {}
+
 
 ---@param fields? gameuiCreditsController
 ---@return gameuiCreditsController

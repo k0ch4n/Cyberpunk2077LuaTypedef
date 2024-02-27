@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CanAIReactToStimTypeFilter: gameEffectObjectSingleFilter_Scripted
 CanAIReactToStimTypeFilter = {}
+
 
 ---@param fields? CanAIReactToStimTypeFilter
 ---@return CanAIReactToStimTypeFilter

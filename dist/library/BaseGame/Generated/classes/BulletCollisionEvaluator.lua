@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BulletCollisionEvaluator: gameprojectileScriptCollisionEvaluator
 ---@field user gameObject
 ---@field hasStopped Bool
@@ -8,6 +9,7 @@
 ---@field isExplodingBullet Bool
 ---@field isSmartBullet Bool
 BulletCollisionEvaluator = {}
+
 
 ---@param fields? BulletCollisionEvaluator
 ---@return BulletCollisionEvaluator

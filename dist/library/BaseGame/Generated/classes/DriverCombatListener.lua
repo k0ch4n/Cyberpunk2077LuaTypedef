@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class DriverCombatListener: IScriptable
 ---@field mountedCallback redCallbackObject
 ---@field tppCallback redCallbackObject
 ---@field isMounted Bool
 ---@field isInTPP Bool
 DriverCombatListener = {}
+
 
 ---@param fields? DriverCombatListener
 ---@return DriverCombatListener

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OdaEmergencyListener: gameCustomValueStatPoolsListener
 ---@field owner NPCPuppet
 ---@field healNumber Int32
@@ -9,6 +10,7 @@
 ---@field heal4HealthPercentage Float
 ---@field heal5HealthPercentage Float
 OdaEmergencyListener = {}
+
 
 ---@param fields? OdaEmergencyListener
 ---@return OdaEmergencyListener

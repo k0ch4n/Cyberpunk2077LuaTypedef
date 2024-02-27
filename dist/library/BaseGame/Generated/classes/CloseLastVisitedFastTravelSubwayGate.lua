@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CloseLastVisitedFastTravelSubwayGate: gameScriptableSystemRequest
 CloseLastVisitedFastTravelSubwayGate = {}
+
 
 ---@param fields? CloseLastVisitedFastTravelSubwayGate
 ---@return CloseLastVisitedFastTravelSubwayGate

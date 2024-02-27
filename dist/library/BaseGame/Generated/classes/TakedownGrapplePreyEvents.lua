@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TakedownGrapplePreyEvents: LocomotionTakedownEvents
 ---@field isGrappleReactionVOPlayed Bool
 TakedownGrapplePreyEvents = {}
+
 
 ---@param fields? TakedownGrapplePreyEvents
 ---@return TakedownGrapplePreyEvents

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameDynamicCookedDeviceData: gameCookedDeviceData
 ---@field componentName CName
 gameDynamicCookedDeviceData = {}
+
 
 ---@param fields? gameDynamicCookedDeviceData
 ---@return gameDynamicCookedDeviceData

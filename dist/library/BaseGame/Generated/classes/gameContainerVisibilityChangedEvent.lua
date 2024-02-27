@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameContainerVisibilityChangedEvent: redEvent
 gameContainerVisibilityChangedEvent = {}
+
 
 ---@param fields? gameContainerVisibilityChangedEvent
 ---@return gameContainerVisibilityChangedEvent

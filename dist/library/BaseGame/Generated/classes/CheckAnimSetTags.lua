@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckAnimSetTags: AIbehaviorconditionScript
 ---@field animsetTagToCompare CName[]
 CheckAnimSetTags = {}
+
 
 ---@param fields? CheckAnimSetTags
 ---@return CheckAnimSetTags

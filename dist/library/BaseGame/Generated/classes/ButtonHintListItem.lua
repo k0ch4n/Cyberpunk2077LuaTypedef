@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ButtonHintListItem: inkWidgetLogicController
 ---@field inputDisplay inkWidgetReference
 ---@field label inkTextWidgetReference
 ---@field buttonHint inkInputDisplayController
 ---@field actionName CName
 ButtonHintListItem = {}
+
 
 ---@param fields? ButtonHintListItem
 ---@return ButtonHintListItem

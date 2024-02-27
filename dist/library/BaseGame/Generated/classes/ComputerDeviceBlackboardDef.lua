@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ComputerDeviceBlackboardDef: MasterDeviceBaseBlackboardDef
 ---@field MailThumbnailWidgetsData gamebbScriptID_Variant
 ---@field FileThumbnailWidgetsData gamebbScriptID_Variant
@@ -9,6 +10,7 @@
 ---@field MainMenuButtonWidgetsData gamebbScriptID_Variant
 ---@field BannerWidgetsData gamebbScriptID_Variant
 ComputerDeviceBlackboardDef = {}
+
 
 ---@param fields? ComputerDeviceBlackboardDef
 ---@return ComputerDeviceBlackboardDef

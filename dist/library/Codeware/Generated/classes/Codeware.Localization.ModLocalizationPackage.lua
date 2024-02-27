@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class Codeware_Localization_ModLocalizationPackage: IScriptable
 ---@field interfaceEntries inkScriptHashMap
 ---@field subtitleEntries inkScriptHashMap
 Codeware_Localization_ModLocalizationPackage = {}
+
 
 ---@return nil
 function Codeware_Localization_ModLocalizationPackage:DefineSubtitles() end

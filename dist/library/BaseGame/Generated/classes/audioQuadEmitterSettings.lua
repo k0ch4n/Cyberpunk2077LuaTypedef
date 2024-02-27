@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioQuadEmitterSettings
 ---@field Enabled Bool
 ---@field Interleaved Bool
@@ -8,6 +9,7 @@
 ---@field Angle Float
 ---@field Events audioAudEventStruct[]
 audioQuadEmitterSettings = {}
+
 
 ---@param fields? audioQuadEmitterSettings
 ---@return audioQuadEmitterSettings

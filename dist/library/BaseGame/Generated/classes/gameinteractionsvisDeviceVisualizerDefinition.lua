@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsvisDeviceVisualizerDefinition: gameinteractionsvisIVisualizerDefinition
 ---@field interactionType gameinteractionsvisInteractionType
 ---@field displayNameOverride String
@@ -8,6 +9,7 @@
 ---@field isDynamic Bool
 ---@field timeProvider gameinteractionsvisIVisualizerTimeProvider
 gameinteractionsvisDeviceVisualizerDefinition = {}
+
 
 ---@param fields? gameinteractionsvisDeviceVisualizerDefinition
 ---@return gameinteractionsvisDeviceVisualizerDefinition

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workWorkspotInstance: ISerializable
 workWorkspotInstance = {}
+
 
 ---@param fields? workWorkspotInstance
 ---@return workWorkspotInstance

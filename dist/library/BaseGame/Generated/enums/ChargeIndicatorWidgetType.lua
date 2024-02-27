@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ChargeIndicatorWidgetType: Enum
 ---@field INVALID Enum 0
 ---@field JENKINS Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class locVoResource: CResource
 locVoResource = {}
+
 
 ---@param fields? locVoResource
 ---@return locVoResource

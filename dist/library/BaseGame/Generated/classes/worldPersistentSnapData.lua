@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldPersistentSnapData
 ---@field targetObjectPath worldRelativeNodePath
 ---@field targetSocketName CName
@@ -7,6 +8,7 @@
 ---@field reverseTangent Bool
 ---@field preserveLength Bool
 worldPersistentSnapData = {}
+
 
 ---@param fields? worldPersistentSnapData
 ---@return worldPersistentSnapData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiarcadeShooterAIProp: gameuiarcadeShooterAIController
 gameuiarcadeShooterAIProp = {}
+
 
 ---@param fields? gameuiarcadeShooterAIProp
 ---@return gameuiarcadeShooterAIProp

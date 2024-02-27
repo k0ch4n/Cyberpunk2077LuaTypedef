@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class HitIsQuickhackPresentInQueuePrereqCondition: BaseHitPrereqCondition
 ---@field hackCategory gamedataHackCategory_Record
 ---@field isTheNextQhInQueue Bool
 HitIsQuickhackPresentInQueuePrereqCondition = {}
+
 
 ---@param fields? HitIsQuickhackPresentInQueuePrereqCondition
 ---@return HitIsQuickhackPresentInQueuePrereqCondition

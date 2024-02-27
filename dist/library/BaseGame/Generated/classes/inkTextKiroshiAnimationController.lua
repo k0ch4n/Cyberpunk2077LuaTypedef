@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkTextKiroshiAnimationController: inkTextAnimationController
 ---@field timeToSkip Float
 ---@field nativeText String
@@ -8,6 +9,7 @@
 ---@field nativeTextWidget inkRichTextBoxWidgetReference
 ---@field translatedTextWidget inkTextWidgetReference
 inkTextKiroshiAnimationController = {}
+
 
 ---@param fields? inkTextKiroshiAnimationController
 ---@return inkTextKiroshiAnimationController

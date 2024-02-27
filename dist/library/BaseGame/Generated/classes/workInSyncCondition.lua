@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workInSyncCondition: workIWorkspotCondition
 workInSyncCondition = {}
+
 
 ---@param fields? workInSyncCondition
 ---@return workInSyncCondition

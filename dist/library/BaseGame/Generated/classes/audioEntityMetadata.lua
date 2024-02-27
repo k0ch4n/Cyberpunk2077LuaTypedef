@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioEntityMetadata: audioAudioMetadata
 ---@field fallbackDecorators CName[]
 ---@field defaultPositionName CName
@@ -11,6 +12,7 @@
 ---@field emitterDescriptions audioEntityEmitterSettings[]
 ---@field alwaysCreateDefaultEmitter Bool
 audioEntityMetadata = {}
+
 
 ---@param fields? audioEntityMetadata
 ---@return audioEntityMetadata

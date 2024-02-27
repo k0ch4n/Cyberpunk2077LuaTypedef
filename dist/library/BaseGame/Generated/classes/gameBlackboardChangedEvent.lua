@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameBlackboardChangedEvent: redEvent
 ---@field definition gamebbScriptDefinition
 ---@field id gamebbScriptID
 gameBlackboardChangedEvent = {}
+
 
 ---@param fields? gameBlackboardChangedEvent
 ---@return gameBlackboardChangedEvent

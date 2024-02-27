@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class hubSelectorSingleSmallCarouselController: hubSelectorSingleCarouselController
 hubSelectorSingleSmallCarouselController = {}
+
 
 ---@param fields? hubSelectorSingleSmallCarouselController
 ---@return hubSelectorSingleSmallCarouselController

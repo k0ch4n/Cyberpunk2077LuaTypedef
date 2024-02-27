@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workDebuggerCommandData: workIWorkspotCommandData
 workDebuggerCommandData = {}
+
 
 ---@param fields? workDebuggerCommandData
 ---@return workDebuggerCommandData

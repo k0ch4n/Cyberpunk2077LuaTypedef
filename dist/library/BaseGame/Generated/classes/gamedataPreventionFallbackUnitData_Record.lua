@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPreventionFallbackUnitData_Record: gamedataTweakDBRecord
 gamedataPreventionFallbackUnitData_Record = {}
+
 
 ---@param fields? gamedataPreventionFallbackUnitData_Record
 ---@return gamedataPreventionFallbackUnitData_Record

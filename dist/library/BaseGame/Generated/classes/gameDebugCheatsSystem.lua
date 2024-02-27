@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDebugCheatsSystem: gameIDebugCheatsSystem
 gameDebugCheatsSystem = {}
+
 
 ---@param fields? gameDebugCheatsSystem
 ---@return gameDebugCheatsSystem

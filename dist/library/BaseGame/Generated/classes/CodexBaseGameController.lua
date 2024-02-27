@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CodexBaseGameController: gameuiMenuGameController
 CodexBaseGameController = {}
+
 
 ---@param fields? CodexBaseGameController
 ---@return CodexBaseGameController

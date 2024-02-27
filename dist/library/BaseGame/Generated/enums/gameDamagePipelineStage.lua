@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameDamagePipelineStage: Enum
 ---@field PreProcess Enum 0
 ---@field Process Enum 1

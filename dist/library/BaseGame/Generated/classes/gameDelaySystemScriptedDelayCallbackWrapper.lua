@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDelaySystemScriptedDelayCallbackWrapper: IScriptable
 gameDelaySystemScriptedDelayCallbackWrapper = {}
+
 
 ---@param fields? gameDelaySystemScriptedDelayCallbackWrapper
 ---@return gameDelaySystemScriptedDelayCallbackWrapper

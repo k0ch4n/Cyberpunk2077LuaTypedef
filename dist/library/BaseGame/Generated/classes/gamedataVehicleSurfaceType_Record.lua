@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleSurfaceType_Record: gamedataTweakDBRecord
 gamedataVehicleSurfaceType_Record = {}
+
 
 ---@param fields? gamedataVehicleSurfaceType_Record
 ---@return gamedataVehicleSurfaceType_Record

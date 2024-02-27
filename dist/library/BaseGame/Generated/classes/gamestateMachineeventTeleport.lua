@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineeventTeleport: redEvent
 gamestateMachineeventTeleport = {}
+
 
 ---@param fields? gamestateMachineeventTeleport
 ---@return gamestateMachineeventTeleport

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InParryUpperBodyState: AINPCUpperBodyStateCheck
 InParryUpperBodyState = {}
+
 
 ---@param fields? InParryUpperBodyState
 ---@return InParryUpperBodyState

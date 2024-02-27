@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TweakAISubAction: IScriptable
 TweakAISubAction = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param subActionRecord gamedataAISubAction_Record

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkState: Enum
 ---@field InitEngine Enum 0
 ---@field PreGameMenu Enum 3

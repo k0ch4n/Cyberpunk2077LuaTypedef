@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StatCheckPrereq: DevelopmentCheckPrereq
 ---@field statToCheck gamedataStatType
 StatCheckPrereq = {}
+
 
 ---@param fields? StatCheckPrereq
 ---@return StatCheckPrereq

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GenericDeviceOperation: DeviceOperationBase
 ---@field fxInstances SVfxInstanceData[]
 ---@field transformAnimations STransformAnimationData[]
@@ -15,6 +16,7 @@
 ---@field meshesAppearence CName
 ---@field playerWorkspot SWorkspotData
 GenericDeviceOperation = {}
+
 
 ---@param fields? GenericDeviceOperation
 ---@return GenericDeviceOperation

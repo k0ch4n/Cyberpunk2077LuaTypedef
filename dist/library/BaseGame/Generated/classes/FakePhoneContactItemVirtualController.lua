@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FakePhoneContactItemVirtualController: PhoneContactItemVirtualController
 ---@field dots inkWidgetReference
 FakePhoneContactItemVirtualController = {}
+
 
 ---@param fields? FakePhoneContactItemVirtualController
 ---@return FakePhoneContactItemVirtualController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StaticPlatformController: ScriptableDeviceComponent
 StaticPlatformController = {}
+
 
 ---@param fields? StaticPlatformController
 ---@return StaticPlatformController

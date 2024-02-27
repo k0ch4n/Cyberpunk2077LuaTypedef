@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WeirdTankyPlatingEffector: ModifyAttackEffector
 ---@field armorMultiplier Float
 WeirdTankyPlatingEffector = {}
+
 
 ---@param fields? WeirdTankyPlatingEffector
 ---@return WeirdTankyPlatingEffector

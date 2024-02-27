@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class characterCreationBodyMorphOptionColorPicker: inkWidgetLogicController
 ---@field grid inkUniformGridWidgetReference
 ---@field title inkTextWidgetReference
 ---@field option gameuiCharacterCustomizationOption
 ---@field selectedIndex Int32
 characterCreationBodyMorphOptionColorPicker = {}
+
 
 ---@param fields? characterCreationBodyMorphOptionColorPicker
 ---@return characterCreationBodyMorphOptionColorPicker

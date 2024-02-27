@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ChargeEvents: ChargeEventsAbstract
 ChargeEvents = {}
+
 
 ---@param fields? ChargeEvents
 ---@return ChargeEvents

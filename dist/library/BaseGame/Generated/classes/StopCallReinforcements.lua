@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class StopCallReinforcements: AIbehaviortaskScript
 ---@field puppet ScriptedPuppet
 ---@field pauseResumePhoneCallEvent PauseResumePhoneCallEvent
 ---@field statPoolType gamedataStatPoolType
 StopCallReinforcements = {}
+
 
 ---@param fields? StopCallReinforcements
 ---@return StopCallReinforcements

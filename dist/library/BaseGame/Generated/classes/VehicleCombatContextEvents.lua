@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleCombatContextEvents: InputContextTransitionEvents
 VehicleCombatContextEvents = {}
+
 
 ---@param fields? VehicleCombatContextEvents
 ---@return VehicleCombatContextEvents

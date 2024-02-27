@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataEnvLight_Record: gamedataTweakDBRecord
 gamedataEnvLight_Record = {}
+
 
 ---@param fields? gamedataEnvLight_Record
 ---@return gamedataEnvLight_Record

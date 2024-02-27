@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CustomEventSender: AISignalSenderTask
 CustomEventSender = {}
+
 
 ---@param fields? CustomEventSender
 ---@return CustomEventSender

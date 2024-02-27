@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiQuadRacerGameState: gameuiMinigameState
 ---@field timeLeft Float
 ---@field boostTime Float
@@ -10,6 +11,7 @@
 ---@field shouldPushBackPlayer Bool
 ---@field lapsPassed Int32
 gameuiQuadRacerGameState = {}
+
 
 ---@param fields? gameuiQuadRacerGameState
 ---@return gameuiQuadRacerGameState

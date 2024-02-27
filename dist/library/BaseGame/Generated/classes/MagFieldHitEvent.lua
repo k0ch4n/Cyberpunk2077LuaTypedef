@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MagFieldHitEvent: redEvent
 MagFieldHitEvent = {}
+
 
 ---@param fields? MagFieldHitEvent
 ---@return MagFieldHitEvent

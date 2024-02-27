@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NetworkMinigameProgramListController: inkWidgetLogicController
 ---@field programPlayerContainer inkWidgetReference
 ---@field programNetworkContainer inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field animProxy_02 inkanimProxy
 ---@field headerBG inkWidgetReference
 NetworkMinigameProgramListController = {}
+
 
 ---@param fields? NetworkMinigameProgramListController
 ---@return NetworkMinigameProgramListController

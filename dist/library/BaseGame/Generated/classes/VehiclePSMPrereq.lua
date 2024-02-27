@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehiclePSMPrereq: PlayerStateMachinePrereq
 VehiclePSMPrereq = {}
+
 
 ---@param fields? VehiclePSMPrereq
 ---@return VehiclePSMPrereq

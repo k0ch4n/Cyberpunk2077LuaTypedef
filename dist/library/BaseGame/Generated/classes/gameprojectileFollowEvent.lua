@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameprojectileFollowEvent: redEvent
 ---@field followObject gameObject
 gameprojectileFollowEvent = {}
+
 
 ---@param fields? gameprojectileFollowEvent
 ---@return gameprojectileFollowEvent

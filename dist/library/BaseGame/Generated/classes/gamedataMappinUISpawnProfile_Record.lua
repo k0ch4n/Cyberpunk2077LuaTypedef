@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataMappinUISpawnProfile_Record: gamedataTweakDBRecord
 gamedataMappinUISpawnProfile_Record = {}
+
 
 ---@param fields? gamedataMappinUISpawnProfile_Record
 ---@return gamedataMappinUISpawnProfile_Record

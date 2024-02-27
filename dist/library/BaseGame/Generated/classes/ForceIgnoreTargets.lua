@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ForceIgnoreTargets: ActionBool
 ---@field Repeat Bool
 ---@field Attitude EAIAttitude
 ForceIgnoreTargets = {}
+
 
 ---@param fields? ForceIgnoreTargets
 ---@return ForceIgnoreTargets

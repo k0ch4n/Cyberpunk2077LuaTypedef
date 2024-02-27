@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuestAddTransition: redEvent
 ---@field transition AreaTypeTransition
 QuestAddTransition = {}
+
 
 ---@param fields? QuestAddTransition
 ---@return QuestAddTransition

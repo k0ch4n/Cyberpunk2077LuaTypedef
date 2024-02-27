@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SmsMessangerInitalizedEvent: redEvent
 SmsMessangerInitalizedEvent = {}
+
 
 ---@param fields? SmsMessangerInitalizedEvent
 ---@return SmsMessangerInitalizedEvent

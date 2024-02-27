@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SafeEvents: WeaponEventsTransition
 SafeEvents = {}
+
 
 ---@param fields? SafeEvents
 ---@return SafeEvents

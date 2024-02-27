@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ChargedHotkeyItemCyberwareController: ChargedHotkeyItemBaseController
 ---@field currentStatPoolType gamedataStatPoolType
 ---@field psmBlackboardListener redCallbackObject
@@ -10,6 +11,7 @@
 ---@field c_sandevistanKey CName
 ---@field c_capacityBoosterKey CName
 ChargedHotkeyItemCyberwareController = {}
+
 
 ---@param fields? ChargedHotkeyItemCyberwareController
 ---@return ChargedHotkeyItemCyberwareController

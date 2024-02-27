@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceOverheat: ActionBool
 QuestForceOverheat = {}
+
 
 ---@param fields? QuestForceOverheat
 ---@return QuestForceOverheat

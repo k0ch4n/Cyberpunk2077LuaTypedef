@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class movePoliciesContractMoveToSmartObject: movePoliciesContract
 movePoliciesContractMoveToSmartObject = {}
+
 
 ---@param fields? movePoliciesContractMoveToSmartObject
 ---@return movePoliciesContractMoveToSmartObject

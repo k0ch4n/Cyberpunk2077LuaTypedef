@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PhotoModeSticker: inkWidgetLogicController
 ---@field image inkImageWidgetReference
 ---@field stickersController gameuiPhotoModeStickersController
 PhotoModeSticker = {}
+
 
 ---@param fields? PhotoModeSticker
 ---@return PhotoModeSticker

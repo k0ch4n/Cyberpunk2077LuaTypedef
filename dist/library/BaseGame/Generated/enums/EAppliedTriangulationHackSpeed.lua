@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAppliedTriangulationHackSpeed: Enum
 ---@field NotAssigned Enum 0
 ---@field Slow Enum 1

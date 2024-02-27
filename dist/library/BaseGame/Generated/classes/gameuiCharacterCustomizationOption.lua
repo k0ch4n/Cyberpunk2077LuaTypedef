@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiCharacterCustomizationOption: IScriptable
 ---@field info gameuiCharacterCustomizationInfo
 ---@field bodyPart gameuiCharacterCustomizationPart

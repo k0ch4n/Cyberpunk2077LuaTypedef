@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataMappinPhaseDefinition_Record: gamedataTweakDBRecord
 gamedataMappinPhaseDefinition_Record = {}
+
 
 ---@param fields? gamedataMappinPhaseDefinition_Record
 ---@return gamedataMappinPhaseDefinition_Record

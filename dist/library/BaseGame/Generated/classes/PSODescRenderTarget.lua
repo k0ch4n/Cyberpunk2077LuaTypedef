@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PSODescRenderTarget
 ---@field blendEnable Bool
 ---@field writeMask PSODescBlendModeWriteMask
@@ -10,6 +11,7 @@
 ---@field srcFactor PSODescBlendModeFactor
 ---@field srcAlphaFactor PSODescBlendModeFactor
 PSODescRenderTarget = {}
+
 
 ---@param fields? PSODescRenderTarget
 ---@return PSODescRenderTarget

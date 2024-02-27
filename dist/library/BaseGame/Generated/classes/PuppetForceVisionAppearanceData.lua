@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PuppetForceVisionAppearanceData: IScriptable
 ---@field highlightType EFocusForcedHighlightType
 ---@field outlineType EFocusOutlineType
@@ -12,6 +13,7 @@
 ---@field sourceHighlighted Bool
 ---@field effectName String
 PuppetForceVisionAppearanceData = {}
+
 
 ---@param fields? PuppetForceVisionAppearanceData
 ---@return PuppetForceVisionAppearanceData

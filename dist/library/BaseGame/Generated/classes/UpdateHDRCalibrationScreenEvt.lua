@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UpdateHDRCalibrationScreenEvt: redEvent
 UpdateHDRCalibrationScreenEvt = {}
+
 
 ---@param fields? UpdateHDRCalibrationScreenEvt
 ---@return UpdateHDRCalibrationScreenEvt

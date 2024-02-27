@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gametargetingSystemTargetFilterTicket
 gametargetingSystemTargetFilterTicket = {}
+
 
 ---@param fields? gametargetingSystemTargetFilterTicket
 ---@return gametargetingSystemTargetFilterTicket

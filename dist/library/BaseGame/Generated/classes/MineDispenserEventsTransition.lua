@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MineDispenserEventsTransition: MineDispenserTransition
 MineDispenserEventsTransition = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

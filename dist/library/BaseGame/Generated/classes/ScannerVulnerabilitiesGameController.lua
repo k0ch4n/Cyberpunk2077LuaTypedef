@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ScannerVulnerabilitiesGameController: BaseChunkGameController
 ---@field ScannerVulnerabilitiesRightPanel inkCompoundWidgetReference
 ---@field vulnerabilitiesCallbackID redCallbackObject
 ---@field isValidVulnerabilities Bool
 ---@field asyncSpawnRequests inkAsyncSpawnRequest[]
 ScannerVulnerabilitiesGameController = {}
+
 
 ---@param fields? ScannerVulnerabilitiesGameController
 ---@return ScannerVulnerabilitiesGameController

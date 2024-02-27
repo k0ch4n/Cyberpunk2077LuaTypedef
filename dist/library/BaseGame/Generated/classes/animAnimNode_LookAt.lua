@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_LookAt: animAnimNode_OnePoseInput
 ---@field transform animTransformIndex
 ---@field forwardAxis animAxis
@@ -9,6 +10,7 @@
 ---@field targetNode animVectorLink
 ---@field weightNode animFloatLink
 animAnimNode_LookAt = {}
+
 
 ---@param fields? animAnimNode_LookAt
 ---@return animAnimNode_LookAt

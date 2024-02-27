@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RipperdocInventoryTemplateClassifier: inkVirtualItemTemplateClassifierWrapper
 RipperdocInventoryTemplateClassifier = {}
+
 
 ---@param fields? RipperdocInventoryTemplateClassifier
 ---@return RipperdocInventoryTemplateClassifier

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetNPCDownedDelayedRequest: gameScriptableSystemRequest
 ResetNPCDownedDelayedRequest = {}
+
 
 ---@param fields? ResetNPCDownedDelayedRequest
 ---@return ResetNPCDownedDelayedRequest

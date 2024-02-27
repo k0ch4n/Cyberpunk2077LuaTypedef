@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiCharacterCustomizationBodyController: gameuiICharacterCustomizationBodyController
 gameuiCharacterCustomizationBodyController = {}
+
 
 ---@param fields? gameuiCharacterCustomizationBodyController
 ---@return gameuiCharacterCustomizationBodyController

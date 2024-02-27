@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gamedeviceUIScreenDefinition
 ---@field screenType TweakDBID
 gamedeviceUIScreenDefinition = {}
+
 
 ---@param fields? gamedeviceUIScreenDefinition
 ---@return gamedeviceUIScreenDefinition

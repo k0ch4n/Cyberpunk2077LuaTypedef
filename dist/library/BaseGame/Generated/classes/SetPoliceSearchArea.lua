@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SetPoliceSearchArea: gameScriptableSystemRequest
 ---@field SearchAreaRadius Float
 ---@field ChaseDistance Float
 ---@field resetToDefault Bool
 ---@field source CName
 SetPoliceSearchArea = {}
+
 
 ---@param fields? SetPoliceSearchArea
 ---@return SetPoliceSearchArea

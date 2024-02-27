@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questForcedBehaviorReference: AIResourceReference
 questForcedBehaviorReference = {}
+
 
 ---@param fields? questForcedBehaviorReference
 ---@return questForcedBehaviorReference

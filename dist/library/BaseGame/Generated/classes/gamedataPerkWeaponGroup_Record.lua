@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPerkWeaponGroup_Record: gamedataTweakDBRecord
 gamedataPerkWeaponGroup_Record = {}
+
 
 ---@param fields? gamedataPerkWeaponGroup_Record
 ---@return gamedataPerkWeaponGroup_Record

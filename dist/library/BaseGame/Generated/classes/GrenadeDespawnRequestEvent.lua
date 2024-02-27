@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GrenadeDespawnRequestEvent: redEvent
 GrenadeDespawnRequestEvent = {}
+
 
 ---@param fields? GrenadeDespawnRequestEvent
 ---@return GrenadeDespawnRequestEvent

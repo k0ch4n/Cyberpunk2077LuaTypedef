@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMinimapSettings: IScriptable
 ---@field globalVisionRadiusBounds gameRange
 ---@field visionRadiusVehicle gameRange
@@ -18,6 +19,7 @@
 ---@field dynamicVisionRadiusEnabled Bool
 ---@field smoothingEnabled Bool
 gameMinimapSettings = {}
+
 
 ---@param fields? gameMinimapSettings
 ---@return gameMinimapSettings

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RoadBlockTrap: InteractiveMasterDevice
 ---@field areaComponent gameStaticTriggerAreaComponent
 RoadBlockTrap = {}
+
 
 ---@param fields? RoadBlockTrap
 ---@return RoadBlockTrap

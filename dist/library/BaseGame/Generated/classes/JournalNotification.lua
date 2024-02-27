@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class JournalNotification: GenericNotificationController
 ---@field interactionsBlackboard gameIBlackboard
 ---@field bbListenerId redCallbackObject
 ---@field animProxy inkanimProxy
 ---@field questNotificationData gameuiQuestUpdateNotificationViewData
 JournalNotification = {}
+
 
 ---@param fields? JournalNotification
 ---@return JournalNotification

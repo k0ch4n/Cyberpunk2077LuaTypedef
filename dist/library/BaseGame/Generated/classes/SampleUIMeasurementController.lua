@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SampleUIMeasurementController: inkWidgetLogicController
 ---@field value Float
 ---@field unit EMeasurementUnit
@@ -8,6 +9,7 @@
 ---@field valueIncreaseButton inkWidgetReference
 ---@field valueDecreaseButton inkWidgetReference
 SampleUIMeasurementController = {}
+
 
 ---@param fields? SampleUIMeasurementController
 ---@return SampleUIMeasurementController

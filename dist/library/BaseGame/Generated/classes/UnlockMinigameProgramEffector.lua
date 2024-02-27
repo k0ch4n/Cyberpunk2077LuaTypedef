@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UnlockMinigameProgramEffector: gameEffector
 ---@field minigameProgram gameuiMinigameProgramData
 UnlockMinigameProgramEffector = {}
+
 
 ---@param fields? UnlockMinigameProgramEffector
 ---@return UnlockMinigameProgramEffector

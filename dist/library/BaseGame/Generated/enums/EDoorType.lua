@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EDoorType: Enum
 ---@field NONE Enum 0
 ---@field INTERACTIVE Enum 1

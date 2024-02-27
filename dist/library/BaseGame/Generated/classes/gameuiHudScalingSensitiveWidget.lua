@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiHudScalingSensitiveWidget
 ---@field widget inkWidgetReference
 ---@field adjustScale Bool
@@ -8,6 +9,7 @@
 ---@field targetMarginAtDoubleScale inkMargin
 ---@field marginToScalecorrectOverride inkMargin
 gameuiHudScalingSensitiveWidget = {}
+
 
 ---@param fields? gameuiHudScalingSensitiveWidget
 ---@return gameuiHudScalingSensitiveWidget

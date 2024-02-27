@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CraftingDataView: inkScriptableDataViewWrapper
 ---@field itemFilterType ItemFilterCategory
 ---@field itemSortMode ItemSortMode
 ---@field attachmentsList gamedataItemType[]
 ---@field uiScriptableSystem UIScriptableSystem
 CraftingDataView = {}
+
 
 ---@param fields? CraftingDataView
 ---@return CraftingDataView

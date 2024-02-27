@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GenericMessageNotification: gameuiWidgetGameController
 ---@field title inkTextWidgetReference
 ---@field message inkTextWidgetReference
@@ -18,6 +19,7 @@
 ---@field libraryPath inkWidgetLibraryReference
 ---@field closeData GenericMessageNotificationCloseData
 GenericMessageNotification = {}
+
 
 ---@param fields? GenericMessageNotification
 ---@return GenericMessageNotification

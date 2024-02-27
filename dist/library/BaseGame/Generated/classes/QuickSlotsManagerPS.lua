@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuickSlotsManagerPS: gameComponentPS
 ---@field activeVehicleType gamedataVehicleType
 QuickSlotsManagerPS = {}
+
 
 ---@param fields? QuickSlotsManagerPS
 ---@return QuickSlotsManagerPS

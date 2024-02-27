@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsNPCMarkedForDespawn: AIbehaviorconditionScript
 IsNPCMarkedForDespawn = {}
+
 
 ---@param fields? IsNPCMarkedForDespawn
 ---@return IsNPCMarkedForDespawn

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAudioMaterialMetadataMapItem: audioAudioMetadata
 ---@field footstepsMetadata CName
 ---@field npcFootstepsMetadata CName
@@ -13,6 +14,7 @@
 ---@field foliagePaletteTag CName
 ---@field meleeMaterialType audioMeleeMaterialType
 audioAudioMaterialMetadataMapItem = {}
+
 
 ---@param fields? audioAudioMaterialMetadataMapItem
 ---@return audioAudioMaterialMetadataMapItem

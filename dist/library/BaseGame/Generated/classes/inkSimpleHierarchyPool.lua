@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkSimpleHierarchyPool
 inkSimpleHierarchyPool = {}
+
 
 ---@param fields? inkSimpleHierarchyPool
 ---@return inkSimpleHierarchyPool

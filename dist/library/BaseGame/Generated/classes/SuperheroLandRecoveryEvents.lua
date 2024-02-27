@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SuperheroLandRecoveryEvents: AbstractLandEvents
 SuperheroLandRecoveryEvents = {}
+
 
 ---@param fields? SuperheroLandRecoveryEvents
 ---@return SuperheroLandRecoveryEvents

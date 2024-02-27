@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTickableEventState: Enum
 ---@field Idle Enum 0
 ---@field FirstTick Enum 1

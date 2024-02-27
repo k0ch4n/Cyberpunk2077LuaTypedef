@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActionDodgeScriptProxy: CActionScriptProxy
 ActionDodgeScriptProxy = {}
+
 
 ---@param fields? ActionDodgeScriptProxy
 ---@return ActionDodgeScriptProxy

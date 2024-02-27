@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickSlotsTapEvents: QuickSlotsEvents
 QuickSlotsTapEvents = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param actionType QuickSlotActionType

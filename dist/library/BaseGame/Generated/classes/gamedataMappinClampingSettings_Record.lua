@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataMappinClampingSettings_Record: gamedataTweakDBRecord
 gamedataMappinClampingSettings_Record = {}
+
 
 ---@param fields? gamedataMappinClampingSettings_Record
 ---@return gamedataMappinClampingSettings_Record

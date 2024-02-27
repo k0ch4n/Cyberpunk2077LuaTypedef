@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiHolocallStartEvent: redEvent
 gameuiHolocallStartEvent = {}
+
 
 ---@param fields? gameuiHolocallStartEvent
 ---@return gameuiHolocallStartEvent

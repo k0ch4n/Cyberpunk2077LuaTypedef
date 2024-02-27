@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CMaterialParameterStructBuffer: CMaterialParameter
 CMaterialParameterStructBuffer = {}
+
 
 ---@param fields? CMaterialParameterStructBuffer
 ---@return CMaterialParameterStructBuffer

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VideoCarouselController: inkWidgetLogicController
 ---@field videoTitleRef inkTextWidgetReference
 ---@field videoDescriptionRef inkTextWidgetReference
@@ -14,6 +15,7 @@
 ---@field currentVideo Int32
 ---@field isPaused Bool
 VideoCarouselController = {}
+
 
 ---@param fields? VideoCarouselController
 ---@return VideoCarouselController

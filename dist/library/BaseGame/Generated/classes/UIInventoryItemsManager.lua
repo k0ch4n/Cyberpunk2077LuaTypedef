@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInventoryItemsManager: IScriptable
 ---@field iconsNameResolver gameuiIconsNameResolver
 ---@field useMaleIcons Bool
@@ -20,6 +21,7 @@
 ---@field TEMP_cuverBarsEnabled Bool
 ---@field TEMP_separatorBarsEnabled Bool
 UIInventoryItemsManager = {}
+
 
 ---@param fields? UIInventoryItemsManager
 ---@return UIInventoryItemsManager

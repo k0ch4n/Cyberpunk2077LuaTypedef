@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiNewPhoneRelatedHUDGameController: gameuiHUDGameController
 ---@field isNewPhoneEnabled Bool
 ---@field player PlayerPuppet
@@ -8,6 +9,7 @@
 ---@field visibilityFact2ListenerId Uint32
 ---@field remoteControlledVehicleDataCallback redCallbackObject
 gameuiNewPhoneRelatedHUDGameController = {}
+
 
 ---@param fields? gameuiNewPhoneRelatedHUDGameController
 ---@return gameuiNewPhoneRelatedHUDGameController

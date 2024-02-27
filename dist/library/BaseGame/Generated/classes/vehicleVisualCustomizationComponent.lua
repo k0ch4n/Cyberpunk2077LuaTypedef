@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleVisualCustomizationComponent: gameComponent
 vehicleVisualCustomizationComponent = {}
+
 
 ---@param fields? vehicleVisualCustomizationComponent
 ---@return vehicleVisualCustomizationComponent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkSystemNotificationToken: IScriptable
 inkSystemNotificationToken = {}
+
 
 ---@param fields? inkSystemNotificationToken
 ---@return inkSystemNotificationToken

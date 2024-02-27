@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class worldNodesGroupPath
 ---@field elements CName[]
 worldNodesGroupPath = {}
+
 
 ---@param fields? worldNodesGroupPath
 ---@return worldNodesGroupPath

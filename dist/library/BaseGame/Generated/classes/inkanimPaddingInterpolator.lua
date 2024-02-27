@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class inkanimPaddingInterpolator: inkanimInterpolator
 ---@field startValue inkMargin
 ---@field endValue inkMargin
 inkanimPaddingInterpolator = {}
+
 
 ---@param fields? inkanimPaddingInterpolator
 ---@return inkanimPaddingInterpolator

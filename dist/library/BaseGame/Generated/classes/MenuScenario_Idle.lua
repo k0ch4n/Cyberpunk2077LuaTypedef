@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_Idle: inkMenuScenario
 MenuScenario_Idle = {}
+
 
 ---@param fields? MenuScenario_Idle
 ---@return MenuScenario_Idle

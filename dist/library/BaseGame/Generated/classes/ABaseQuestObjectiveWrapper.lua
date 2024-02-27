@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ABaseQuestObjectiveWrapper: AJournalEntryWrapper
 ---@field questObjective gameJournalQuestObjectiveBase
 ---@field objectiveStatus gameJournalEntryState
@@ -7,6 +8,7 @@
 ---@field currentCounter Int32
 ---@field totalCounter Int32
 ABaseQuestObjectiveWrapper = {}
+
 
 ---@return String
 function ABaseQuestObjectiveWrapper:GetCounterText() end

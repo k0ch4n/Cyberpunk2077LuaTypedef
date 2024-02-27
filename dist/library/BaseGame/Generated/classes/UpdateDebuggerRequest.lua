@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UpdateDebuggerRequest: gameScriptableSystemRequest
 ---@field system SecuritySystemControllerPS
 ---@field time Float
@@ -9,6 +10,7 @@
 ---@field instruction EReprimandInstructions
 ---@field recentInput SecuritySystemInput
 UpdateDebuggerRequest = {}
+
 
 ---@param fields? UpdateDebuggerRequest
 ---@return UpdateDebuggerRequest

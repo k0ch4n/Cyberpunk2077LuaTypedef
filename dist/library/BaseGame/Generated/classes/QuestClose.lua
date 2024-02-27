@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestClose: ActionBool
 QuestClose = {}
+
 
 ---@param fields? QuestClose
 ---@return QuestClose

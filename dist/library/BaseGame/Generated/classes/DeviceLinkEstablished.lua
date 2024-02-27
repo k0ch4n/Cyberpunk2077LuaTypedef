@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DeviceLinkEstablished: redEvent
 ---@field deviceLinkPS DeviceLinkComponentPS
 DeviceLinkEstablished = {}
+
 
 ---@param fields? DeviceLinkEstablished
 ---@return DeviceLinkEstablished

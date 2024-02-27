@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ElectricLightController: ScriptableDeviceComponent
 ElectricLightController = {}
+
 
 ---@param fields? ElectricLightController
 ---@return ElectricLightController

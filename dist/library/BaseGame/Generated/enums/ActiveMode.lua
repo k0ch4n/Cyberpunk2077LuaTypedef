@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ActiveMode: Enum
 ---@field UNINITIALIZED Enum 0
 ---@field CLEAR Enum 1

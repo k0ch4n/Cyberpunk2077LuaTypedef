@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEntitiesWithStatusEffectPrereq: gameIPrereq
 gameEntitiesWithStatusEffectPrereq = {}
+
 
 ---@param fields? gameEntitiesWithStatusEffectPrereq
 ---@return gameEntitiesWithStatusEffectPrereq

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DoorProximityDetectorAppearanceStateType: Enum
 ---@field On Enum 0
 ---@field Off Enum 1

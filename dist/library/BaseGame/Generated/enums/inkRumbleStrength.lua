@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkRumbleStrength: Enum
 ---@field SuperLight Enum 0
 ---@field Light Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameOnScannableBraindanceClueEnabledEvent: redEvent
 gameOnScannableBraindanceClueEnabledEvent = {}
+
 
 ---@param fields? gameOnScannableBraindanceClueEnabledEvent
 ---@return gameOnScannableBraindanceClueEnabledEvent

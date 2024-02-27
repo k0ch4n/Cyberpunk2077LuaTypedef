@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleComponentPS: ScriptableDeviceComponentPS
 ---@field defaultStateSet Bool
 ---@field stateModifiedByQuest Bool
@@ -34,6 +35,7 @@
 ---@field submergedTimestamp Float
 ---@field vehicleControllerPS vehicleControllerPS
 VehicleComponentPS = {}
+
 
 ---@param fields? VehicleComponentPS
 ---@return VehicleComponentPS

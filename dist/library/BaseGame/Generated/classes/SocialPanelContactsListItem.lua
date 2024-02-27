@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SocialPanelContactsListItem: inkToggleController
 ---@field Label inkTextWidgetReference
 ---@field ContactInfo SocialPanelContactInfo
 SocialPanelContactsListItem = {}
+
 
 ---@param fields? SocialPanelContactsListItem
 ---@return SocialPanelContactsListItem

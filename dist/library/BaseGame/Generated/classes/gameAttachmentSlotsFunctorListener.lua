@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAttachmentSlotsFunctorListener: gameIAttachmentSlotsListener
 gameAttachmentSlotsFunctorListener = {}
+
 
 ---@param fields? gameAttachmentSlotsFunctorListener
 ---@return gameAttachmentSlotsFunctorListener

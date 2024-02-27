@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UpdatePlayerDevelopment: gamePlayerScriptableSystemRequest
 ---@field ForceRefresh Bool
 UpdatePlayerDevelopment = {}
+
 
 ---@param fields? UpdatePlayerDevelopment
 ---@return UpdatePlayerDevelopment

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AuthorizePlayerInSecuritySystem: redEvent
 ---@field authorize Bool
 ---@field forceRemoveFromBlacklist Bool
 ---@field ESL ESecurityAccessLevel
 AuthorizePlayerInSecuritySystem = {}
+
 
 ---@param fields? AuthorizePlayerInSecuritySystem
 ---@return AuthorizePlayerInSecuritySystem

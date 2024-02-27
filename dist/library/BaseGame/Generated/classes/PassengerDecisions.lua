@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PassengerDecisions: VehicleTransition
 PassengerDecisions = {}
+
 
 ---@param fields? PassengerDecisions
 ---@return PassengerDecisions

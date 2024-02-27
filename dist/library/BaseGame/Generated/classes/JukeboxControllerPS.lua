@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class JukeboxControllerPS: ScriptableDeviceComponentPS
 ---@field jukeboxSetup JukeboxSetup
 ---@field activeStation Int32
 ---@field isPlaying Bool
 JukeboxControllerPS = {}
+
 
 ---@param fields? JukeboxControllerPS
 ---@return JukeboxControllerPS

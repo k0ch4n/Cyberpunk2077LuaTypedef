@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InStandStanceState: AINPCStanceStateCheck
 InStandStanceState = {}
+
 
 ---@param fields? InStandStanceState
 ---@return InStandStanceState

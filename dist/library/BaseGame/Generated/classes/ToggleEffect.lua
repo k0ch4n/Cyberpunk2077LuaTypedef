@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleEffect: ActionBool
 ToggleEffect = {}
+
 
 ---@param fields? ToggleEffect
 ---@return ToggleEffect

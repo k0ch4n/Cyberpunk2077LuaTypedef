@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class scnCheckMountedVehicleImpactInterruptCondition: scnIInterruptCondition
 scnCheckMountedVehicleImpactInterruptCondition = {}
+
 
 ---@param fields? scnCheckMountedVehicleImpactInterruptCondition
 ---@return scnCheckMountedVehicleImpactInterruptCondition

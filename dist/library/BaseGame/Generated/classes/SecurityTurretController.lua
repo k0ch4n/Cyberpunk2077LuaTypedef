@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SecurityTurretController: SensorDeviceController
 SecurityTurretController = {}
+
 
 ---@param fields? SecurityTurretController
 ---@return SecurityTurretController

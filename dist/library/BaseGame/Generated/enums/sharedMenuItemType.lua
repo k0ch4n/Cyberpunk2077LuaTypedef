@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class sharedMenuItemType: Enum
 ---@field Action Enum 0
 ---@field Checked Enum 1

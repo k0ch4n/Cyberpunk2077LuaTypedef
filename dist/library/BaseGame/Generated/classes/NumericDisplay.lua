@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NumericDisplay: InteractiveDevice
 NumericDisplay = {}
+
 
 ---@param fields? NumericDisplay
 ---@return NumericDisplay

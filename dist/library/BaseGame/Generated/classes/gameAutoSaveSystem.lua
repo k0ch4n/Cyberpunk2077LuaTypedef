@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAutoSaveSystem: gameIAutoSaveSystem
 gameAutoSaveSystem = {}
+
 
 ---@param fields? gameAutoSaveSystem
 ---@return gameAutoSaveSystem

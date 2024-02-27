@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamemappinsPointOfInterestMappinData: gamemappinsIMappinData
 ---@field typedVariant gamemappinsIPointOfInterestVariant
 ---@field active Bool
@@ -9,6 +10,7 @@
 ---@field staticMappinDef TweakDBID
 ---@field dynamicMappinDef TweakDBID
 gamemappinsPointOfInterestMappinData = {}
+
 
 ---@param fields? gamemappinsPointOfInterestMappinData
 ---@return gamemappinsPointOfInterestMappinData

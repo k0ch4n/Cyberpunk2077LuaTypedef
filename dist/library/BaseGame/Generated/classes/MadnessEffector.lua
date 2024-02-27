@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MadnessEffector: gameEffector
 ---@field squadMembers entEntityID[]
 ---@field owner ScriptedPuppet
 MadnessEffector = {}
+
 
 ---@param fields? MadnessEffector
 ---@return MadnessEffector

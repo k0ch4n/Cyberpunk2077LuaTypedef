@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkScrollAreaWidgetReference: inkCompoundWidgetReference
 inkScrollAreaWidgetReference = {}
+
 
 ---@param fields? inkScrollAreaWidgetReference
 ---@return inkScrollAreaWidgetReference

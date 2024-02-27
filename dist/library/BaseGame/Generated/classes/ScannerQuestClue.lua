@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ScannerQuestClue: inkWidgetLogicController
 ---@field CategoryTextRef inkTextWidgetReference
 ---@field DescriptionTextRef inkTextWidgetReference
 ---@field IconRef inkImageWidgetReference
 ScannerQuestClue = {}
+
 
 ---@param fields? ScannerQuestClue
 ---@return ScannerQuestClue

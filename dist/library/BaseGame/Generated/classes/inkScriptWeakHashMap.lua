@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkScriptWeakHashMap: IScriptable
 inkScriptWeakHashMap = {}
+
 
 ---@param fields? inkScriptWeakHashMap
 ---@return inkScriptWeakHashMap

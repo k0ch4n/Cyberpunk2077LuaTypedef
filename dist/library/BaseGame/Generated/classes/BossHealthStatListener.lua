@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BossHealthStatListener: gameScriptStatPoolsListener
 ---@field healthbar BossHealthBarGameController
 BossHealthStatListener = {}
+
 
 ---@param fields? BossHealthStatListener
 ---@return BossHealthStatListener

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeviceDirectInteractionCondition: gameinteractionsInteractionScriptedCondition
 DeviceDirectInteractionCondition = {}
+
 
 ---@param fields? DeviceDirectInteractionCondition
 ---@return DeviceDirectInteractionCondition

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePhotoModeAttachmentSlotsListener: gameIAttachmentSlotsListener
 gamePhotoModeAttachmentSlotsListener = {}
+
 
 ---@param fields? gamePhotoModeAttachmentSlotsListener
 ---@return gamePhotoModeAttachmentSlotsListener

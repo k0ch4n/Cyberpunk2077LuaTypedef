@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UpperBodyNPCStatePrereqState: NPCStatePrereqState
 UpperBodyNPCStatePrereqState = {}
+
 
 ---@param fields? UpperBodyNPCStatePrereqState
 ---@return UpperBodyNPCStatePrereqState

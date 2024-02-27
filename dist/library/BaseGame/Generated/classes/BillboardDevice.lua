@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class BillboardDevice: InteractiveDevice
 ---@field advUiComponent entIComponent
 ---@field isShortGlitchActive Bool
 ---@field shortGlitchDelayID gameDelayID
 BillboardDevice = {}
+
 
 ---@param fields? BillboardDevice
 ---@return BillboardDevice

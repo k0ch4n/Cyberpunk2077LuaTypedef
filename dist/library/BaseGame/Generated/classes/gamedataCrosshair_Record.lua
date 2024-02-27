@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCrosshair_Record: gamedataTweakDBRecord
 gamedataCrosshair_Record = {}
+
 
 ---@param fields? gamedataCrosshair_Record
 ---@return gamedataCrosshair_Record

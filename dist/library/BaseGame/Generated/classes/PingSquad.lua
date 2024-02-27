@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PingSquad: PuppetAction
 ---@field shouldForward Bool
 PingSquad = {}
+
 
 ---@param fields? PingSquad
 ---@return PingSquad

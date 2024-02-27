@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ExpressionTreeCConstFloatNodeDefinition: ExpressionTreeCGeneralNodeDefinition
 ---@field value Float
 ExpressionTreeCConstFloatNodeDefinition = {}
+
 
 ---@param fields? ExpressionTreeCConstFloatNodeDefinition
 ---@return ExpressionTreeCConstFloatNodeDefinition

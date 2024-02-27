@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questPhoneTalkingState: Enum
 ---@field Ended Enum 0
 ---@field Initializing Enum 1

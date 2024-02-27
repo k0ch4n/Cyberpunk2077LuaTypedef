@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questVehicleWeaponQuestID: Enum
 ---@field Primary Enum 0
 ---@field Secondary Enum 1

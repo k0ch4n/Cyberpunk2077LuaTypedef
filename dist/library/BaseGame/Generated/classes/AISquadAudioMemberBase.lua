@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISquadAudioMemberBase: AISquadMemberBase
 AISquadAudioMemberBase = {}
+
 
 ---@param fields? AISquadAudioMemberBase
 ---@return AISquadAudioMemberBase

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ItemTooltipModSettingsListener: userSettingsVarListener
 ---@field ctrl ItemTooltipModEntryController
 ItemTooltipModSettingsListener = {}
+
 
 ---@param fields? ItemTooltipModSettingsListener
 ---@return ItemTooltipModSettingsListener

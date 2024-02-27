@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animSermoTestController
 ---@field faceEnvelope Float
 ---@field upperFace Float
@@ -415,6 +416,7 @@
 ---@field neck_r_stretchWrnkl Float
 ---@field head_neck_dn_turnWrnkl Float
 animSermoTestController = {}
+
 
 ---@param fields? animSermoTestController
 ---@return animSermoTestController

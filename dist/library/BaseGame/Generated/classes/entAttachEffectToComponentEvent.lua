@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entAttachEffectToComponentEvent: entAttachEffectEvent
 entAttachEffectToComponentEvent = {}
+
 
 ---@param fields? entAttachEffectToComponentEvent
 ---@return entAttachEffectToComponentEvent

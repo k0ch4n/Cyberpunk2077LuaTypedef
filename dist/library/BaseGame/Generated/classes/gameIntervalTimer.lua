@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameIntervalTimer: gameBaseTimer
 gameIntervalTimer = {}
+
 
 ---@param fields? gameIntervalTimer
 ---@return gameIntervalTimer

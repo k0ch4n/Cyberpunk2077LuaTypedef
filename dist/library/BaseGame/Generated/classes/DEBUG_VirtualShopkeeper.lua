@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DEBUG_VirtualShopkeeper: gameObject
 ---@field vendorID String
 DEBUG_VirtualShopkeeper = {}
+
 
 ---@param fields? DEBUG_VirtualShopkeeper
 ---@return DEBUG_VirtualShopkeeper

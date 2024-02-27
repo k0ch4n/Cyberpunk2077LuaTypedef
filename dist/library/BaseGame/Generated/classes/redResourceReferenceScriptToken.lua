@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class redResourceReferenceScriptToken
 ---@field resource CResource
 redResourceReferenceScriptToken = {}
+
 
 ---@param fields? redResourceReferenceScriptToken
 ---@return redResourceReferenceScriptToken

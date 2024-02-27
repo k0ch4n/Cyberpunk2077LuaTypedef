@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GpuWrapApiBufferGroup: Enum
 ---@field System Enum 0
 ---@field MeshResource Enum 1

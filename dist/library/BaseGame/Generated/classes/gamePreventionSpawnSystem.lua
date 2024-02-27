@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePreventionSpawnSystem: gameIPreventionSpawnSystem
 gamePreventionSpawnSystem = {}
+
 
 ---@param fields? gamePreventionSpawnSystem
 ---@return gamePreventionSpawnSystem

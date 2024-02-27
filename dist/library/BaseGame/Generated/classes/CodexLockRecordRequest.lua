@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CodexLockRecordRequest: gameScriptableSystemRequest
 ---@field codexRecordID TweakDBID
 CodexLockRecordRequest = {}
+
 
 ---@param fields? CodexLockRecordRequest
 ---@return CodexLockRecordRequest

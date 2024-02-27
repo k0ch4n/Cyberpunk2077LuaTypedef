@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CLSWeatherListener: worldWeatherScriptListener
 ---@field owner CityLightSystem
 CLSWeatherListener = {}
+
 
 ---@param fields? CLSWeatherListener
 ---@return CLSWeatherListener

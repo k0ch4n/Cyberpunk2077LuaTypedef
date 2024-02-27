@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questMoveOnSpline_NodeType: questIVehicleManagerNodeType
 ---@field vehicleRef gameEntityReference
 ---@field splineRef NodeRef
@@ -14,6 +15,7 @@
 ---@field overrides questIVehicleMoveOnSpline_Overrides
 ---@field audioCurves vehicleAudioVehicleCurveSet
 questMoveOnSpline_NodeType = {}
+
 
 ---@param fields? questMoveOnSpline_NodeType
 ---@return questMoveOnSpline_NodeType

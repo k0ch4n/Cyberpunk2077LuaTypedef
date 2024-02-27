@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhotoModeToggle: inkToggleController
 ---@field SelectedWidget inkWidgetReference
 ---@field FrameWidget inkWidgetReference
@@ -9,6 +10,7 @@
 ---@field fadeAnim inkanimProxy
 ---@field fade2Anim inkanimProxy
 PhotoModeToggle = {}
+
 
 ---@param fields? PhotoModeToggle
 ---@return PhotoModeToggle

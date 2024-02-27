@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionLeaveCover_Record_Implementation: IScriptable
 AISubActionLeaveCover_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionLeaveCover_Record

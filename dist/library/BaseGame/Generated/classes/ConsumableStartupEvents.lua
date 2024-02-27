@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ConsumableStartupEvents: ConsumableTransitions
 ConsumableStartupEvents = {}
+
 
 ---@param fields? ConsumableStartupEvents
 ---@return ConsumableStartupEvents

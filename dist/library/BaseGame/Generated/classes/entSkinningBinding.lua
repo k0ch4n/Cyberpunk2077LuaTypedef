@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entSkinningBinding: entISourceBinding
 entSkinningBinding = {}
+
 
 ---@param fields? entSkinningBinding
 ---@return entSkinningBinding

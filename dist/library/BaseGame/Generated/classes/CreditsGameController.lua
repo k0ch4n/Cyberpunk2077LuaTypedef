@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CreditsGameController: gameuiCreditsController
 ---@field videoContainer inkCompoundWidgetReference
 ---@field sceneTexture inkImageWidgetReference
@@ -16,6 +17,7 @@
 ---@field accumulatedTime Float
 ---@field isCounting Bool
 CreditsGameController = {}
+
 
 ---@param fields? CreditsGameController
 ---@return CreditsGameController

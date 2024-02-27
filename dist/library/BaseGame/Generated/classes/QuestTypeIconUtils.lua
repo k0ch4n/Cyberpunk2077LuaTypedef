@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestTypeIconUtils: IScriptable
 QuestTypeIconUtils = {}
+
 
 ---@param filterType QuestListItemType
 ---@return CName

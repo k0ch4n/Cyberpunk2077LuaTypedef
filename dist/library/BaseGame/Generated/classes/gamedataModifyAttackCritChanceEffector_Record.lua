@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataModifyAttackCritChanceEffector_Record: gamedataEffector_Record
 gamedataModifyAttackCritChanceEffector_Record = {}
+
 
 ---@param fields? gamedataModifyAttackCritChanceEffector_Record
 ---@return gamedataModifyAttackCritChanceEffector_Record

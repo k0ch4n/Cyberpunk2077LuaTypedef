@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BurstDecisions: WeaponTransition
 BurstDecisions = {}
+
 
 ---@param fields? BurstDecisions
 ---@return BurstDecisions

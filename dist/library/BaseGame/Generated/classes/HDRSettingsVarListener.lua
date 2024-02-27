@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HDRSettingsVarListener: userSettingsVarListener
 ---@field ctrl gameuiHDRSettingsGameController
 HDRSettingsVarListener = {}
+
 
 ---@param fields? HDRSettingsVarListener
 ---@return HDRSettingsVarListener

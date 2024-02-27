@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CParticleDrawerFacingTrail: CParticleDrawerTrail
 CParticleDrawerFacingTrail = {}
+
 
 ---@param fields? CParticleDrawerFacingTrail
 ---@return CParticleDrawerFacingTrail

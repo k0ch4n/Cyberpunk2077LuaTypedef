@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ThrowGrenadeCommandCleanup: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ThrowGrenadeCommandCleanup = {}
+
 
 ---@param fields? ThrowGrenadeCommandCleanup
 ---@return ThrowGrenadeCommandCleanup

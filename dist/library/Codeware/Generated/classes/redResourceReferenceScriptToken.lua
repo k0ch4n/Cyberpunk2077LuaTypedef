@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class redResourceReferenceScriptToken
 redResourceReferenceScriptToken = {}
+
 
 ---@param fields? redResourceReferenceScriptToken
 ---@return redResourceReferenceScriptToken

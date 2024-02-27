@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ExplosiveDeviceControllerPS: BasicDistractionDeviceControllerPS
 ---@field explosiveSkillChecks EngDemoContainer
 ---@field explosionDefinition ExplosiveDeviceResourceDefinition[]
@@ -13,6 +14,7 @@
 ---@field provideExplodeAction Bool
 ---@field doExplosiveEngineerLogic Bool
 ExplosiveDeviceControllerPS = {}
+
 
 ---@param fields? ExplosiveDeviceControllerPS
 ---@return ExplosiveDeviceControllerPS

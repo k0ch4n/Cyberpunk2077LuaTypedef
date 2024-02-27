@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VehicleQuestAVThrusterEvent: redEvent
 ---@field enable Bool
 VehicleQuestAVThrusterEvent = {}
+
 
 ---@param fields? VehicleQuestAVThrusterEvent
 ---@return VehicleQuestAVThrusterEvent

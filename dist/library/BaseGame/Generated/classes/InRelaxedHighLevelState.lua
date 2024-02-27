@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InRelaxedHighLevelState: AINPCHighLevelStateCheck
 InRelaxedHighLevelState = {}
+
 
 ---@param fields? InRelaxedHighLevelState
 ---@return InRelaxedHighLevelState

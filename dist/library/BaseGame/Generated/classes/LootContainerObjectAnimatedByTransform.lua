@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LootContainerObjectAnimatedByTransform: gameContainerObjectBase
 ---@field wasOpened Bool
 LootContainerObjectAnimatedByTransform = {}
+
 
 ---@param fields? LootContainerObjectAnimatedByTransform
 ---@return LootContainerObjectAnimatedByTransform

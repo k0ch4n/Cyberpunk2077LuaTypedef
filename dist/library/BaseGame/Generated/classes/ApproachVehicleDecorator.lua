@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ApproachVehicleDecorator: AIVehicleTaskAbstract
 ---@field mountData AIArgumentMapping
 ---@field mountRequest AIArgumentMapping
@@ -13,6 +14,7 @@
 ---@field runCompanionCheck Bool
 ---@field slotOccupiedTimestamp Float
 ApproachVehicleDecorator = {}
+
 
 ---@param fields? ApproachVehicleDecorator
 ---@return ApproachVehicleDecorator

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickHackDurationListener: ActionUploadListener
 QuickHackDurationListener = {}
+
 
 ---@param fields? QuickHackDurationListener
 ---@return QuickHackDurationListener

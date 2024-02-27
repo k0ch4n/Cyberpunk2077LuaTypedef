@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameObjectActionsCallbackController: IScriptable
 gameObjectActionsCallbackController = {}
+
 
 ---@param fields? gameObjectActionsCallbackController
 ---@return gameObjectActionsCallbackController

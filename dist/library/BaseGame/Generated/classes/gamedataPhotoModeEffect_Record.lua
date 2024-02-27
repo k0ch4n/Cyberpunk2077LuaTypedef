@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPhotoModeEffect_Record: gamedataPhotoModeItem_Record
 gamedataPhotoModeEffect_Record = {}
+
 
 ---@param fields? gamedataPhotoModeEffect_Record
 ---@return gamedataPhotoModeEffect_Record

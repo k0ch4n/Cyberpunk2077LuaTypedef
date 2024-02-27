@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ExpansionErrorPopupController: gameuiWidgetGameController
 ---@field title inkTextWidgetReference
 ---@field description inkTextWidgetReference
@@ -10,6 +11,7 @@
 ---@field data ExpansionErrorPopuppData
 ---@field animProxy inkanimProxy
 ExpansionErrorPopupController = {}
+
 
 ---@param fields? ExpansionErrorPopupController
 ---@return ExpansionErrorPopupController

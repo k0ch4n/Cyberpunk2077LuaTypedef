@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SetWantedLevel: gameScriptableSystemRequest
 ---@field wantedLevel EPreventionHeatStage
 ---@field forceGreyStars Bool
@@ -7,6 +8,7 @@
 ---@field forcePlayerPositionAsLastCrimePoint Bool
 ---@field forceIgnoreSecurityAreas Bool
 SetWantedLevel = {}
+
 
 ---@param fields? SetWantedLevel
 ---@return SetWantedLevel

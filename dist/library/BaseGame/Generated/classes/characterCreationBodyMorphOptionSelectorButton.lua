@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class characterCreationBodyMorphOptionSelectorButton: inkWidgetLogicController
 ---@field overArrow inkWidgetReference
 characterCreationBodyMorphOptionSelectorButton = {}
+
 
 ---@param fields? characterCreationBodyMorphOptionSelectorButton
 ---@return characterCreationBodyMorphOptionSelectorButton

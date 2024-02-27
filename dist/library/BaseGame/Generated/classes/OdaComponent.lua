@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OdaComponent: gameScriptableComponent
 ---@field owner NPCPuppet
 ---@field owner_id entEntityID
@@ -12,6 +13,7 @@
 ---@field targetTrackerComponent AITargetTrackerComponent
 ---@field weakspotDestroyed Bool
 OdaComponent = {}
+
 
 ---@param fields? OdaComponent
 ---@return OdaComponent

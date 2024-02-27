@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ConfessionCompletedEvent: redEvent
 ConfessionCompletedEvent = {}
+
 
 ---@param fields? ConfessionCompletedEvent
 ---@return ConfessionCompletedEvent

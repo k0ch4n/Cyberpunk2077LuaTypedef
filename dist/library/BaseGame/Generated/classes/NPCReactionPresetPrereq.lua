@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NPCReactionPresetPrereq: gameIScriptablePrereq
 ---@field reactionPreset gamedataReactionPresetType
 ---@field invert Bool
 NPCReactionPresetPrereq = {}
+
 
 ---@param fields? NPCReactionPresetPrereq
 ---@return NPCReactionPresetPrereq

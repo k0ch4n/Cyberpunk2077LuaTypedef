@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameuiBaseCharacterCreationController: gameuiMenuGameController
 ---@field eventDispatcher inkMenuEventDispatcher
 ---@field characterCustomizationState gameuiICharacterCustomizationState
 ---@field nextPageHitArea inkWidgetReference
 gameuiBaseCharacterCreationController = {}
+
 
 ---@param fields? gameuiBaseCharacterCreationController
 ---@return gameuiBaseCharacterCreationController

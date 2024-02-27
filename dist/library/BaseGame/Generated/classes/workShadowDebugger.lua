@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workShadowDebugger: workDebuggingTool
 workShadowDebugger = {}
+
 
 ---@param fields? workShadowDebugger
 ---@return workShadowDebugger

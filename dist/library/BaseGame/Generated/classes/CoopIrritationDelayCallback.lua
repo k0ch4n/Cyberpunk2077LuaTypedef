@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CoopIrritationDelayCallback: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field companion gameObject
 CoopIrritationDelayCallback = {}
+
 
 ---@param fields? CoopIrritationDelayCallback
 ---@return CoopIrritationDelayCallback

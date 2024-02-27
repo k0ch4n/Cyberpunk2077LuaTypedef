@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entIBinding: ISerializable
 ---@field enabled Bool
 ---@field enableMask entTagMask

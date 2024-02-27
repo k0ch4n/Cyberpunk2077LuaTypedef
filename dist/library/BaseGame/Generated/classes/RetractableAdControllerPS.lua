@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RetractableAdControllerPS: BaseAnimatedDeviceControllerPS
 ---@field isControlled Bool
 RetractableAdControllerPS = {}
+
 
 ---@param fields? RetractableAdControllerPS
 ---@return RetractableAdControllerPS

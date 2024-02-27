@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class tickScriptTimeDilationListener: tickITimeDilationListener
 tickScriptTimeDilationListener = {}
+
 
 ---@param fields? tickScriptTimeDilationListener
 ---@return tickScriptTimeDilationListener

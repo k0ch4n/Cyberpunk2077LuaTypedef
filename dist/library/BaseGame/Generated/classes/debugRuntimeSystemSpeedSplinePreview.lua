@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class debugRuntimeSystemSpeedSplinePreview: worldIRuntimeSystem
 debugRuntimeSystemSpeedSplinePreview = {}
+
 
 ---@param fields? debugRuntimeSystemSpeedSplinePreview
 ---@return debugRuntimeSystemSpeedSplinePreview

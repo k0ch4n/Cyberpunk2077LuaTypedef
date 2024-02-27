@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MenuData
 ---@field identifier Int32
 ---@field label String
@@ -17,6 +18,7 @@
 ---@field overrideDefaultUserData Bool
 ---@field overrideSubMenuUserData Bool
 MenuData = {}
+
 
 ---@param fields? MenuData
 ---@return MenuData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animAnimDebuggerCommand_NormalizedProgressOutputApplied: animIAnimDebuggerCommand
 animAnimDebuggerCommand_NormalizedProgressOutputApplied = {}
+
 
 ---@param fields? animAnimDebuggerCommand_NormalizedProgressOutputApplied
 ---@return animAnimDebuggerCommand_NormalizedProgressOutputApplied

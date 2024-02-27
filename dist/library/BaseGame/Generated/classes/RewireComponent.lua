@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RewireComponent: gameScriptableComponent
 ---@field miniGameVideoPath redResourceReferenceScriptToken
 ---@field miniGameAudioEvent CName
@@ -8,6 +9,7 @@
 ---@field rewireCurrentLenght Float
 ---@field isActive Bool
 RewireComponent = {}
+
 
 ---@param fields? RewireComponent
 ---@return RewireComponent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkanimInterpolationType: Enum
 ---@field Linear Enum 0
 ---@field Quadratic Enum 1

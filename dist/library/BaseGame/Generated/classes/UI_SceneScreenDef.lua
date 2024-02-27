@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UI_SceneScreenDef: gamebbScriptDefinition
 ---@field AnimName gamebbScriptID_CName
 UI_SceneScreenDef = {}
+
 
 ---@param fields? UI_SceneScreenDef
 ---@return UI_SceneScreenDef

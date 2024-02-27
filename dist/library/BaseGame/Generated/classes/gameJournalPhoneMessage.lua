@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalPhoneMessage: gameJournalEntry
 ---@field sender gameMessageSender
 ---@field text LocalizationString
@@ -8,6 +9,7 @@
 ---@field attachment gameJournalPath
 ---@field isQuestImportant Bool
 gameJournalPhoneMessage = {}
+
 
 ---@param fields? gameJournalPhoneMessage
 ---@return gameJournalPhoneMessage

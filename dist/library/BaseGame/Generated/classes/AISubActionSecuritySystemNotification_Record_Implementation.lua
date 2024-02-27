@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionSecuritySystemNotification_Record_Implementation: IScriptable
 AISubActionSecuritySystemNotification_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionSecuritySystemNotification_Record

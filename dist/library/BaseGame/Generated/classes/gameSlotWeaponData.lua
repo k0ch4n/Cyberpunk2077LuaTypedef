@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSlotWeaponData
 ---@field weaponID gameItemID
 ---@field ammoCurrent Int32
@@ -11,6 +12,7 @@
 ---@field isActive Bool
 ---@field isFirstEquip Bool
 gameSlotWeaponData = {}
+
 
 ---@param fields? gameSlotWeaponData
 ---@return gameSlotWeaponData

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_FootStepScaling: animAnimNode_OnePoseInput
 ---@field hipsIndex animTransformIndex
 ---@field leftFootIKIndex animTransformIndex
@@ -8,6 +9,7 @@
 ---@field weight animFloatLink
 ---@field Params animfssBodyOfflineParams
 animAnimNode_FootStepScaling = {}
+
 
 ---@param fields? animAnimNode_FootStepScaling
 ---@return animAnimNode_FootStepScaling

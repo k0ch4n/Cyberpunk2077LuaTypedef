@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerksCyberwareDetailsMenu: Enum
 ---@field MantisBlades Enum 0
 ---@field GorillaArms Enum 1

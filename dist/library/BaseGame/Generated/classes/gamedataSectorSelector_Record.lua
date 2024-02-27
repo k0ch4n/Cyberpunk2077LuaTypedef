@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataSectorSelector_Record: gamedataTweakDBRecord
 gamedataSectorSelector_Record = {}
+
 
 ---@param fields? gamedataSectorSelector_Record
 ---@return gamedataSectorSelector_Record

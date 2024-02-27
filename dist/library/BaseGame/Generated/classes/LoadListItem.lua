@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LoadListItem: AnimatedListItemController
 ---@field imageReplacement inkImageWidgetReference
 ---@field label inkTextWidgetReference
@@ -24,6 +25,7 @@
 ---@field defaultAtlasPath redResourceReferenceScriptToken
 ---@field tranistionAnimProxy inkanimProxy
 LoadListItem = {}
+
 
 ---@param fields? LoadListItem
 ---@return LoadListItem

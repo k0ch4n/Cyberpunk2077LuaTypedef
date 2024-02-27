@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTriggerHackingMinigameEffector_Record: gamedataEffector_Record
 gamedataTriggerHackingMinigameEffector_Record = {}
+
 
 ---@param fields? gamedataTriggerHackingMinigameEffector_Record
 ---@return gamedataTriggerHackingMinigameEffector_Record

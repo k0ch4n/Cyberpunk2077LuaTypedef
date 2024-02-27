@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInventoryWeaponInternalData: IScriptable
 ---@field fetchedFlags Int32
 ---@field WeaponType WeaponType
@@ -18,6 +19,7 @@
 ---@field NumberOfPellets Int32
 ---@field Ammo Int32
 UIInventoryWeaponInternalData = {}
+
 
 ---@param fields? UIInventoryWeaponInternalData
 ---@return UIInventoryWeaponInternalData

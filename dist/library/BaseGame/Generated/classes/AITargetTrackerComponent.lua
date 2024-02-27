@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AITargetTrackerComponent: gameComponent
 ---@field TriggersCombat Bool
 AITargetTrackerComponent = {}
+
 
 ---@param fields? AITargetTrackerComponent
 ---@return AITargetTrackerComponent

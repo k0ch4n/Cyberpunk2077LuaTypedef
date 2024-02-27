@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SSAOAreaSettings: IAreaSettings
 ---@field noiseFilterTolerance curveData
 ---@field blurTolerance curveData
@@ -20,6 +21,7 @@
 ---@field foliageDimDiffuse curveData
 ---@field foliageDimSpecular curveData
 SSAOAreaSettings = {}
+
 
 ---@param fields? SSAOAreaSettings
 ---@return SSAOAreaSettings

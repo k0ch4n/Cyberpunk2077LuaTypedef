@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckArgumentName: CheckArguments
 ---@field customVar CName
 CheckArgumentName = {}
+
 
 ---@param fields? CheckArgumentName
 ---@return CheckArgumentName

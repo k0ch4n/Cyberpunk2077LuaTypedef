@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PerkResetEvent: redEvent
 PerkResetEvent = {}
+
 
 ---@param fields? PerkResetEvent
 ---@return PerkResetEvent

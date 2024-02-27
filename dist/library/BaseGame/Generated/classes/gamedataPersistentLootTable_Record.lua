@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPersistentLootTable_Record: gamedataLootTable_Record
 gamedataPersistentLootTable_Record = {}
+
 
 ---@param fields? gamedataPersistentLootTable_Record
 ---@return gamedataPersistentLootTable_Record

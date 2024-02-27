@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameMultiEcsManagerComponent: entIComponent
 gameMultiEcsManagerComponent = {}
+
 
 ---@param fields? gameMultiEcsManagerComponent
 ---@return gameMultiEcsManagerComponent

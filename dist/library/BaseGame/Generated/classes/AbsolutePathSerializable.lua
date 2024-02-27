@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AbsolutePathSerializable
 ---@field Path String
 AbsolutePathSerializable = {}
+
 
 ---@param fields? AbsolutePathSerializable
 ---@return AbsolutePathSerializable

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DataTerm: InteractiveDevice
 ---@field linkedFastTravelPoint gameFastTravelPointData
 ---@field exitNode NodeRef
@@ -13,6 +14,7 @@
 ---@field hologramMeshGreen entIPlacedComponent
 ---@field hologramMeshRed entIPlacedComponent
 DataTerm = {}
+
 
 ---@param fields? DataTerm
 ---@return DataTerm

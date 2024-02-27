@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorexpressionScript: AIbehaviorScriptBase
 AIbehaviorexpressionScript = {}
+
 
 ---@param fields? AIbehaviorexpressionScript
 ---@return AIbehaviorexpressionScript

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DroneComponent: gameScriptableComponent
 ---@field senseComponent senseComponent
 ---@field npcCollisionComponent entSimpleColliderComponent
@@ -12,6 +13,7 @@
 ---@field trackedTarget gameObject
 ---@field currentLocomotionWrapper CName
 DroneComponent = {}
+
 
 ---@param fields? DroneComponent
 ---@return DroneComponent

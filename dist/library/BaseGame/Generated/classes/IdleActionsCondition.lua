@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IdleActionsCondition: AIbehaviorconditionScript
 IdleActionsCondition = {}
+
 
 ---@param fields? IdleActionsCondition
 ---@return IdleActionsCondition

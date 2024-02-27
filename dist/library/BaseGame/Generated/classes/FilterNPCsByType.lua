@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class FilterNPCsByType: gameEffectObjectSingleFilter_Scripted
 ---@field allowedTypes gamedataNPCType[]
 ---@field invert Bool
 FilterNPCsByType = {}
+
 
 ---@param fields? FilterNPCsByType
 ---@return FilterNPCsByType

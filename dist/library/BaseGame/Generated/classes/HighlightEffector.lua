@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HighlightEffector: gameContinuousEffector
 ---@field owner gameObject
 ---@field maxDistance Float
@@ -8,6 +9,7 @@
 ---@field searchFilter CName
 ---@field targetingSet CName
 HighlightEffector = {}
+
 
 ---@param fields? HighlightEffector
 ---@return HighlightEffector

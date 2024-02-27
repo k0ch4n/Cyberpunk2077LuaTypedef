@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameeventsRemoveStatusEffect: gameeventsStatusEffectEvent
 ---@field isFinalRemoval Bool
 gameeventsRemoveStatusEffect = {}
+
 
 ---@param fields? gameeventsRemoveStatusEffect
 ---@return gameeventsRemoveStatusEffect

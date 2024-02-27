@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldNavigationRequestStatus: Enum
 ---@field OK Enum 0
 ---@field InvalidStartingPosition Enum 1

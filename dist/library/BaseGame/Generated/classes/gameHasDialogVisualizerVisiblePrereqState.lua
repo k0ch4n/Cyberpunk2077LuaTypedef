@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameHasDialogVisualizerVisiblePrereqState: gamePrereqState
 gameHasDialogVisualizerVisiblePrereqState = {}
+
 
 ---@param fields? gameHasDialogVisualizerVisiblePrereqState
 ---@return gameHasDialogVisualizerVisiblePrereqState

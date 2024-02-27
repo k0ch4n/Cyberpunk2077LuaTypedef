@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorUniqueActiveCommandList
 AIbehaviorUniqueActiveCommandList = {}
+
 
 ---@param fields? AIbehaviorUniqueActiveCommandList
 ---@return AIbehaviorUniqueActiveCommandList

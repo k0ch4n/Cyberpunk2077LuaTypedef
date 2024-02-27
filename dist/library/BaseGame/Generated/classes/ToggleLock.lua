@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ToggleLock: ActionBool
 ---@field shouldOpen Bool
 ToggleLock = {}
+
 
 ---@param fields? ToggleLock
 ---@return ToggleLock

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPeksActiveScreen: Enum
 ---@field Categories Enum 0
 ---@field Perks Enum 1

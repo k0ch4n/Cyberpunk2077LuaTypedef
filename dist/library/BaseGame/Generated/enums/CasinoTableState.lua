@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CasinoTableState: Enum
 ---@field Idle Enum 0
 ---@field Game Enum 1

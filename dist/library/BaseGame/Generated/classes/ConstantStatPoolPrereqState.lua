@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ConstantStatPoolPrereqState: StatPoolPrereqState
 ---@field listenConstantly Bool
 ConstantStatPoolPrereqState = {}
+
 
 ---@param fields? ConstantStatPoolPrereqState
 ---@return ConstantStatPoolPrereqState

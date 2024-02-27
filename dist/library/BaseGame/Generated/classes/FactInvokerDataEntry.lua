@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class FactInvokerDataEntry: IScriptable
 ---@field fact CName
 ---@field password CName
 FactInvokerDataEntry = {}
+
 
 ---@param fields? FactInvokerDataEntry
 ---@return FactInvokerDataEntry

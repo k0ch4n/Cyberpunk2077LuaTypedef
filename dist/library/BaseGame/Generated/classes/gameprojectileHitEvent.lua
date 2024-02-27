@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameprojectileHitEvent: redEvent
 ---@field hitInstances gameprojectileHitInstance[]
 gameprojectileHitEvent = {}
+
 
 ---@param fields? gameprojectileHitEvent
 ---@return gameprojectileHitEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RadioViabilityInterpreter: IScriptable
 RadioViabilityInterpreter = {}
+
 
 ---@param fields? RadioViabilityInterpreter
 ---@return RadioViabilityInterpreter

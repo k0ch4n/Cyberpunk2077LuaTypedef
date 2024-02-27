@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamemountingMountingPublisher: gamemountingIMountingPublisher
 gamemountingMountingPublisher = {}
+
 
 ---@param fields? gamemountingMountingPublisher
 ---@return gamemountingMountingPublisher

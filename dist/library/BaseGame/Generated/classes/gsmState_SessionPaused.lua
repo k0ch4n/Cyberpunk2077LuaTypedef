@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gsmState_SessionPaused: gsmState_SessionStreamingAware
 gsmState_SessionPaused = {}
+
 
 ---@param fields? gsmState_SessionPaused
 ---@return gsmState_SessionPaused

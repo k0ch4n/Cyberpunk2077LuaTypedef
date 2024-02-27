@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleCameraManagerComponent: gameComponent
 vehicleCameraManagerComponent = {}
+
 
 ---@param fields? vehicleCameraManagerComponent
 ---@return vehicleCameraManagerComponent

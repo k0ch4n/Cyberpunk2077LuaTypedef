@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RemoveAllPerks: gamePlayerScriptableSystemRequest
 ---@field unequipPerkItems Bool
 ---@field removeCost Bool
 RemoveAllPerks = {}
+
 
 ---@param fields? RemoveAllPerks
 ---@return RemoveAllPerks

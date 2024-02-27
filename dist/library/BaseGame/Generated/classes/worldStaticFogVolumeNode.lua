@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldStaticFogVolumeNode: worldNode
 ---@field priority Uint8
 ---@field absolute Bool
@@ -14,6 +15,7 @@
 ---@field color Color
 ---@field lightChannels rendLightChannel
 worldStaticFogVolumeNode = {}
+
 
 ---@param fields? worldStaticFogVolumeNode
 ---@return worldStaticFogVolumeNode

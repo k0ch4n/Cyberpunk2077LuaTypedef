@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NetworkAreaControllerPS: MasterControllerPS
 ---@field isActive Bool
 ---@field visualizerID Uint32
@@ -7,6 +8,7 @@
 ---@field currentlyAvailableCharges Int32
 ---@field maxAvailableCharges Int32
 NetworkAreaControllerPS = {}
+
 
 ---@param fields? NetworkAreaControllerPS
 ---@return NetworkAreaControllerPS

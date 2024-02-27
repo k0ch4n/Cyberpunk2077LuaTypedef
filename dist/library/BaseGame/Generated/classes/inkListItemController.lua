@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkListItemController: inkButtonController
 ---@field ToggledOff inkListItemControllerCallback
 ---@field ToggledOn inkListItemControllerCallback
@@ -8,6 +9,7 @@
 ---@field AddedToList inkListItemControllerCallback
 ---@field labelPathRef inkTextWidgetReference
 inkListItemController = {}
+
 
 ---@param fields? inkListItemController
 ---@return inkListItemController

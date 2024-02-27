@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AmmoStateHitTriggeredPrereqState: GenericHitPrereqState
 AmmoStateHitTriggeredPrereqState = {}
+
 
 ---@param fields? AmmoStateHitTriggeredPrereqState
 ---@return AmmoStateHitTriggeredPrereqState

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TestBehaviorDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field integer Int32
 ---@field floatValue Float
@@ -11,6 +12,7 @@
 ---@field newProperty4 Bool
 ---@field nodeRef NodeRef
 TestBehaviorDelegate = {}
+
 
 ---@param fields? TestBehaviorDelegate
 ---@return TestBehaviorDelegate

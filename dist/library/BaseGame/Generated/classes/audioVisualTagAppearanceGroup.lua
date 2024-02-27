@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class audioVisualTagAppearanceGroup
 ---@field appearances CName[]
 ---@field visualTags CName[]
 audioVisualTagAppearanceGroup = {}
+
 
 ---@param fields? audioVisualTagAppearanceGroup
 ---@return audioVisualTagAppearanceGroup

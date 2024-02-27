@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TogglePlayerFlashlightEffector: gameEffector
 TogglePlayerFlashlightEffector = {}
+
 
 ---@param fields? TogglePlayerFlashlightEffector
 ---@return TogglePlayerFlashlightEffector

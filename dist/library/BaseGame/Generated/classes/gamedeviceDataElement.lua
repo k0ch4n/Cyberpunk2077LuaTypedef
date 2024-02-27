@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedeviceDataElement
 ---@field owner String
 ---@field date String
@@ -13,6 +14,7 @@
 ---@field wasRead Bool
 ---@field isEnabled Bool
 gamedeviceDataElement = {}
+
 
 ---@param fields? gamedeviceDataElement
 ---@return gamedeviceDataElement

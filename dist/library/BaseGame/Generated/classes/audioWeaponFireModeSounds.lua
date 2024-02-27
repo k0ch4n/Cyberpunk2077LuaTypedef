@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioWeaponFireModeSounds
 ---@field burst CName
 ---@field charge CName
@@ -7,6 +8,7 @@
 ---@field semiAuto CName
 ---@field windup CName
 audioWeaponFireModeSounds = {}
+
 
 ---@param fields? audioWeaponFireModeSounds
 ---@return audioWeaponFireModeSounds

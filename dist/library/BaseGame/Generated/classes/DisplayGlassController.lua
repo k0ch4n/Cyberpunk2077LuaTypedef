@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisplayGlassController: ScriptableDeviceComponent
 DisplayGlassController = {}
+
 
 ---@param fields? DisplayGlassController
 ---@return DisplayGlassController

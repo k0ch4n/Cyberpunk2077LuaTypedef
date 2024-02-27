@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiHDRSettingsGameController: gameuiMenuGameController
 ---@field callibrationScreen CBitmapTexture
 ---@field callibrationScreenTarget inkWidgetReference
@@ -24,6 +25,7 @@
 ---@field calibrationImagesCycleAnimDef inkanimDefinition
 ---@field calibrationImagesCycleProxy inkanimProxy
 gameuiHDRSettingsGameController = {}
+
 
 ---@param fields? gameuiHDRSettingsGameController
 ---@return gameuiHDRSettingsGameController

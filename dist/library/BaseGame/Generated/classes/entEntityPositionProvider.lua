@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entEntityPositionProvider: entIPositionProvider
 entEntityPositionProvider = {}
+
 
 ---@param fields? entEntityPositionProvider
 ---@return entEntityPositionProvider

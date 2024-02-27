@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleBaseObject: gameObject
 ---@field archetype AIArchetype
 ---@field isVehicleOnStateLocked Bool
@@ -30,6 +31,7 @@
 ---@field driverUnconscious Bool
 ---@field abandoned Bool
 vehicleBaseObject = {}
+
 
 ---@param fields? vehicleBaseObject
 ---@return vehicleBaseObject

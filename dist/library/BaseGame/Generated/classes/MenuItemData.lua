@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MenuItemData: IScriptable
 ---@field menuData MenuData
 MenuItemData = {}
+
 
 ---@param fields? MenuItemData
 ---@return MenuItemData

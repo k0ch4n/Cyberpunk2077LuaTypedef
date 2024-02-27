@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ChangeMusicAction: ActionBool
 ---@field interactionRecordName String
 ---@field settings MusicSettings
 ChangeMusicAction = {}
+
 
 ---@param fields? ChangeMusicAction
 ---@return ChangeMusicAction

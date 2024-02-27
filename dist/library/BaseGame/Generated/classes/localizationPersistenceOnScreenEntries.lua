@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class localizationPersistenceOnScreenEntries: ISerializable
 ---@field entries localizationPersistenceOnScreenEntry[]
 localizationPersistenceOnScreenEntries = {}
+
 
 ---@param fields? localizationPersistenceOnScreenEntries
 ---@return localizationPersistenceOnScreenEntries

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questSimpleMoveOnSplineParams
 ---@field movementType moveMovementType
 ---@field facingTargetRef questUniversalRef
@@ -8,6 +9,7 @@
 ---@field useOffMeshLinkReservation Bool
 ---@field allowCrowdOnPath Bool
 questSimpleMoveOnSplineParams = {}
+
 
 ---@param fields? questSimpleMoveOnSplineParams
 ---@return questSimpleMoveOnSplineParams

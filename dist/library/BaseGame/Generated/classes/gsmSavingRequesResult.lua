@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gsmSavingRequesResult: inkCallbackBase
 gsmSavingRequesResult = {}
+
 
 ---@param fields? gsmSavingRequesResult
 ---@return gsmSavingRequesResult

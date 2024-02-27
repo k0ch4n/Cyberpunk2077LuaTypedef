@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerVisionModeControllerBBListeners
 ---@field kerenzikov redCallbackObject
 ---@field restrictedScene redCallbackObject
@@ -11,6 +12,7 @@
 ---@field veryHardLanding redCallbackObject
 ---@field isBriefingActive redCallbackObject
 PlayerVisionModeControllerBBListeners = {}
+
 
 ---@param fields? PlayerVisionModeControllerBBListeners
 ---@return PlayerVisionModeControllerBBListeners

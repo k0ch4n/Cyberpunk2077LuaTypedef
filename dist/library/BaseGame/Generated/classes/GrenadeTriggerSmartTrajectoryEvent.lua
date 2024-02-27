@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GrenadeTriggerSmartTrajectoryEvent: redEvent
 GrenadeTriggerSmartTrajectoryEvent = {}
+
 
 ---@param fields? GrenadeTriggerSmartTrajectoryEvent
 ---@return GrenadeTriggerSmartTrajectoryEvent

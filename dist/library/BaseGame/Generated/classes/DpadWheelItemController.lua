@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DpadWheelItemController: inkWidgetLogicController
 ---@field selectorWrapper inkWidgetReference
 ---@field icon inkImageWidgetReference
@@ -27,6 +28,7 @@
 ---@field abilityData AbilityData
 ---@field quickHackWheelDefIcon CName
 DpadWheelItemController = {}
+
 
 ---@param fields? DpadWheelItemController
 ---@return DpadWheelItemController

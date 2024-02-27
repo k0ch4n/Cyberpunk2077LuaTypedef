@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class navLocomotionPathSegmentTypes: Enum
 ---@field Invalid Enum 0
 ---@field Spline Enum 1

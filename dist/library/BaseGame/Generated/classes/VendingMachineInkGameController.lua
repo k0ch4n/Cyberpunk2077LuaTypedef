@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VendingMachineInkGameController: DeviceInkGameControllerBase
 ---@field ActionsPanel inkHorizontalPanelWidgetReference
 ---@field ActionsPanel2 inkHorizontalPanelWidgetReference
@@ -12,6 +13,7 @@
 ---@field onGlitchingStateChangedListener redCallbackObject
 ---@field onSoldOutListener redCallbackObject
 VendingMachineInkGameController = {}
+
 
 ---@param fields? VendingMachineInkGameController
 ---@return VendingMachineInkGameController

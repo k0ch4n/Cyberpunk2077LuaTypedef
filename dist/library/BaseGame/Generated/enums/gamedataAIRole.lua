@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAIRole: Enum
 ---@field Follower Enum 0
 ---@field Patrol Enum 1

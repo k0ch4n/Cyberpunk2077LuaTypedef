@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCActionsFactory: gameIActionsFactory
 gameCActionsFactory = {}
+
 
 ---@param fields? gameCActionsFactory
 ---@return gameCActionsFactory

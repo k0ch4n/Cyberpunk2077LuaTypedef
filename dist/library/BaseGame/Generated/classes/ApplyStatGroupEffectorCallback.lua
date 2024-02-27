@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ApplyStatGroupEffectorCallback: gameAttachmentSlotsScriptCallback
 ---@field effector ApplyStatGroupEffector
 ApplyStatGroupEffectorCallback = {}
+
 
 ---@param fields? ApplyStatGroupEffectorCallback
 ---@return ApplyStatGroupEffectorCallback

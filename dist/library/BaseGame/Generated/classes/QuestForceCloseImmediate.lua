@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceCloseImmediate: ActionBool
 QuestForceCloseImmediate = {}
+
 
 ---@param fields? QuestForceCloseImmediate
 ---@return QuestForceCloseImmediate

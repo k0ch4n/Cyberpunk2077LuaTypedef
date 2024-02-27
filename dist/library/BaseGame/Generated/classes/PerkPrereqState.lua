@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PerkPrereqState: gamePrereqState
 PerkPrereqState = {}
+
 
 ---@param fields? PerkPrereqState
 ---@return PerkPrereqState

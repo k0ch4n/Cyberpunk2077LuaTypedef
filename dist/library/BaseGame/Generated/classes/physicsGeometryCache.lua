@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsGeometryCache: CResource
 ---@field bufferTableSectors serializationDeferredDataBuffer[]
 ---@field sectorEntries physicsSectorEntry[]
@@ -8,6 +9,7 @@
 ---@field alwaysLoadedSector physicsSectorEntry
 ---@field alwaysLoadedSectorDDB serializationDeferredDataBuffer
 physicsGeometryCache = {}
+
 
 ---@param fields? physicsGeometryCache
 ---@return physicsGeometryCache

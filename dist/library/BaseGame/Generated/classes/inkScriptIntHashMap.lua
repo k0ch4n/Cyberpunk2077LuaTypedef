@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkScriptIntHashMap: IScriptable
 inkScriptIntHashMap = {}
+
 
 ---@param fields? inkScriptIntHashMap
 ---@return inkScriptIntHashMap

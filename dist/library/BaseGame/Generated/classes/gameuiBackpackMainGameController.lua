@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiBackpackMainGameController: gameuiMenuGameController
 ---@field commonCraftingMaterialsGrid inkCompoundWidgetReference
 ---@field hackingCraftingMaterialsGrid inkCompoundWidgetReference
@@ -69,6 +70,7 @@
 ---@field itemPreviewPopupToken inkGameNotificationToken
 ---@field afterCloseRequest Bool
 gameuiBackpackMainGameController = {}
+
 
 ---@param fields? gameuiBackpackMainGameController
 ---@return gameuiBackpackMainGameController

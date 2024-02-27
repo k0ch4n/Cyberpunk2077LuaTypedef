@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionSecuritySystemNotification_Record: gamedataAISubAction_Record
 gamedataAISubActionSecuritySystemNotification_Record = {}
+
 
 ---@param fields? gamedataAISubActionSecuritySystemNotification_Record
 ---@return gamedataAISubActionSecuritySystemNotification_Record

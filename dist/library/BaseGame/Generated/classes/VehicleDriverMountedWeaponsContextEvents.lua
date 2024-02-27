@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleDriverMountedWeaponsContextEvents: VehicleDriverContextEvents
 VehicleDriverMountedWeaponsContextEvents = {}
+
 
 ---@param fields? VehicleDriverMountedWeaponsContextEvents
 ---@return VehicleDriverMountedWeaponsContextEvents

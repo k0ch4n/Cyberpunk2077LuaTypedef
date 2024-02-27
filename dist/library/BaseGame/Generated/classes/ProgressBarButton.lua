@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProgressBarButton: inkWidgetLogicController
 ---@field craftingFill inkWidgetReference
 ---@field craftingLabel inkTextWidgetReference
@@ -12,6 +13,7 @@
 ---@field justFinished Bool
 ---@field animProxy inkanimProxy
 ProgressBarButton = {}
+
 
 ---@param fields? ProgressBarButton
 ---@return ProgressBarButton

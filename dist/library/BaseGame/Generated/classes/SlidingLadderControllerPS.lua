@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SlidingLadderControllerPS: BaseAnimatedDeviceControllerPS
 ---@field isShootable Bool
 ---@field animationTime Float
 SlidingLadderControllerPS = {}
+
 
 ---@param fields? SlidingLadderControllerPS
 ---@return SlidingLadderControllerPS

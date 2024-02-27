@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CParticleDrawerTrail: IParticleDrawer
 ---@field texturesPerUnit Float
 ---@field dynamicTexCoords Bool
@@ -7,6 +8,7 @@
 ---@field ribbonize Bool
 ---@field ribbonTesselationDelta Float
 CParticleDrawerTrail = {}
+
 
 ---@param fields? CParticleDrawerTrail
 ---@return CParticleDrawerTrail

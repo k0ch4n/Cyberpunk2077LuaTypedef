@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ToggleOffMeshConnectionsDeviceOperation: DeviceOperationBase
 ---@field enable Bool
 ---@field affectsPlayer Bool
 ---@field affectsNPCs Bool
 ToggleOffMeshConnectionsDeviceOperation = {}
+
 
 ---@param fields? ToggleOffMeshConnectionsDeviceOperation
 ---@return ToggleOffMeshConnectionsDeviceOperation

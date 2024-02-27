@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Codeware_UI_HubLinkButton: Codeware_UI_CustomButton
 ---@field icon inkImageWidget
 ---@field fluff inkImageWidget
@@ -9,6 +10,7 @@
 ---@field hoverFillAnimDef inkanimDefinition
 ---@field hoverFillAnimProxy inkanimProxy
 Codeware_UI_HubLinkButton = {}
+
 
 ---@param fields? Codeware_UI_HubLinkButton
 ---@return Codeware_UI_HubLinkButton

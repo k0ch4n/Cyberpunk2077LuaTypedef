@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HUDActorUpdateData: IScriptable
 ---@field updateVisibility Bool
 ---@field visibilityValue ActorVisibilityStatus
@@ -18,6 +19,7 @@
 ---@field updateIsIconForcedVisibleThroughWalls Bool
 ---@field isIconForcedVisibleThroughWallsValue Bool
 HUDActorUpdateData = {}
+
 
 ---@param fields? HUDActorUpdateData
 ---@return HUDActorUpdateData

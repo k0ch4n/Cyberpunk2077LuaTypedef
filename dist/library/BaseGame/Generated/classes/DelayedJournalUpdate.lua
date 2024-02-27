@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DelayedJournalUpdate: redEvent
 ---@field newMessageSpawned Bool
 ---@field typing Bool
@@ -8,6 +9,7 @@
 ---@field conversationHash Int32
 ---@field contactHash Int32
 DelayedJournalUpdate = {}
+
 
 ---@param fields? DelayedJournalUpdate
 ---@return DelayedJournalUpdate

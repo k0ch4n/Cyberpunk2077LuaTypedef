@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SocialPanelContactsDetails: inkWidgetLogicController
 ---@field ContactAvatarRef inkImageWidgetReference
 ---@field ContactNameRef inkTextWidgetReference
 ---@field ContactDescriptionRef inkTextWidgetReference
 SocialPanelContactsDetails = {}
+
 
 ---@param fields? SocialPanelContactsDetails
 ---@return SocialPanelContactsDetails

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FixDevice: ActionBool
 FixDevice = {}
+
 
 ---@param fields? FixDevice
 ---@return FixDevice

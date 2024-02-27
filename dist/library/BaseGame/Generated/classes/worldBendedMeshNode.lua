@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldBendedMeshNode: worldNode
 ---@field mesh CMesh
 ---@field meshAppearance CName
@@ -12,6 +13,7 @@
 ---@field navigationSetting NavGenNavigationSetting
 ---@field version Uint8
 worldBendedMeshNode = {}
+
 
 ---@param fields? worldBendedMeshNode
 ---@return worldBendedMeshNode

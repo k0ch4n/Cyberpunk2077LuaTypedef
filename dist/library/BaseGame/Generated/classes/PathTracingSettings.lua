@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PathTracingSettings: IAreaSettings
 ---@field albedoModulation Float
 ---@field diffuseGlobalScale Float
@@ -19,6 +20,7 @@
 ---@field rayNumberScreenshot Uint32
 ---@field bounceNumberScreenshot Uint32
 PathTracingSettings = {}
+
 
 ---@param fields? PathTracingSettings
 ---@return PathTracingSettings

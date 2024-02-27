@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnReminderConditionProcessStep: Enum
 ---@field ReminderA Enum 0
 ---@field ReminderB Enum 1

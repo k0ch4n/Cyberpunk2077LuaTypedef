@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameGodModeSharedState: gameIGameSystemReplicatedState
 ---@field datas gameGodModeSharedStateData[]
 gameGodModeSharedState = {}
+
 
 ---@param fields? gameGodModeSharedState
 ---@return gameGodModeSharedState

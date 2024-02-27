@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Debug_CheckIfShouldReturnToSpawn: AIDebugConditions
 Debug_CheckIfShouldReturnToSpawn = {}
+
 
 ---@param fields? Debug_CheckIfShouldReturnToSpawn
 ---@return Debug_CheckIfShouldReturnToSpawn

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SurveillanceCameraResaveData
 ---@field shouldRotate Bool
 ---@field maxRotationAngle Float
@@ -11,6 +12,7 @@
 ---@field factOnFeedReceived CName
 ---@field questFactOnDetection CName
 SurveillanceCameraResaveData = {}
+
 
 ---@param fields? SurveillanceCameraResaveData
 ---@return SurveillanceCameraResaveData

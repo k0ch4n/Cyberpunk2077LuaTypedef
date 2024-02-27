@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SampleCounterDisplayComponent: gameScriptableComponent
 ---@field targetPersistentID gamePersistentID
 SampleCounterDisplayComponent = {}
+
 
 ---@param fields? SampleCounterDisplayComponent
 ---@return SampleCounterDisplayComponent

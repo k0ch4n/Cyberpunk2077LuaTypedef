@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerVehicleMass: ScannerChunk
 ---@field mass Int32
 ScannerVehicleMass = {}
+
 
 ---@param fields? ScannerVehicleMass
 ---@return ScannerVehicleMass

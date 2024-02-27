@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SuperheroFallDecisions: LocomotionAirDecisions
 SuperheroFallDecisions = {}
+
 
 ---@param fields? SuperheroFallDecisions
 ---@return SuperheroFallDecisions

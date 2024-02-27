@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class AddStatusEffectToAttackEffector: ModifyAttackEffector
 ---@field isRandom Bool
 ---@field applicationChanceMods gamedataStatModifier_Record[]
 ---@field statusEffect SHitStatusEffect
 ---@field stacks Float
 AddStatusEffectToAttackEffector = {}
+
 
 ---@param fields? AddStatusEffectToAttackEffector
 ---@return AddStatusEffectToAttackEffector

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FactInvoker: InteractiveMasterDevice
 FactInvoker = {}
+
 
 ---@param fields? FactInvoker
 ---@return FactInvoker

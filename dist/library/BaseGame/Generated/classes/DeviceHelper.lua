@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeviceHelper
 DeviceHelper = {}
+
 
 ---@param fields? DeviceHelper
 ---@return DeviceHelper

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LevelRewardDisplayData: IDisplayData
 ---@field level Int32
 ---@field rewardName String
@@ -9,6 +10,7 @@
 ---@field descPackage gameUILocalizationDataPackage
 ---@field isLock Bool
 LevelRewardDisplayData = {}
+
 
 ---@param fields? LevelRewardDisplayData
 ---@return LevelRewardDisplayData

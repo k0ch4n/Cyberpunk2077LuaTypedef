@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemLogPopupLogicController: inkWidgetLogicController
 ---@field quantity inkTextWidgetReference
 ---@field icon inkImageWidgetReference
@@ -9,6 +10,7 @@
 ---@field alpha_fadein inkanimDefinition
 ---@field AnimOptions inkanimPlaybackOptions
 ItemLogPopupLogicController = {}
+
 
 ---@param fields? ItemLogPopupLogicController
 ---@return ItemLogPopupLogicController

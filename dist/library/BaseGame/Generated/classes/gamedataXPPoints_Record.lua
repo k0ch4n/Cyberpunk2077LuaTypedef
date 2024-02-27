@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataXPPoints_Record: gamedataTweakDBRecord
 gamedataXPPoints_Record = {}
+
 
 ---@param fields? gamedataXPPoints_Record
 ---@return gamedataXPPoints_Record

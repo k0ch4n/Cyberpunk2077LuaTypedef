@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PerkPrereq: gameIScriptablePrereq
 ---@field invert Bool
 ---@field perk gamedataPerkType
 PerkPrereq = {}
+
 
 ---@param fields? PerkPrereq
 ---@return PerkPrereq

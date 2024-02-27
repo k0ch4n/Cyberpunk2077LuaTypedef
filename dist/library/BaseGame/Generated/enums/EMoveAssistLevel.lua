@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EMoveAssistLevel: Enum
 ---@field Off Enum 0
 ---@field SpecialAttacks Enum 1

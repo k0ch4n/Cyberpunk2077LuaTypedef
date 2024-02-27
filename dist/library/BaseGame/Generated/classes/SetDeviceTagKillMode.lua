@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetDeviceTagKillMode: ActionBool
 SetDeviceTagKillMode = {}
+
 
 ---@param fields? SetDeviceTagKillMode
 ---@return SetDeviceTagKillMode

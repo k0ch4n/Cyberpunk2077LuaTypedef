@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class scnlocLocstringId
 ---@field ruid CRUID
 scnlocLocstringId = {}
+
 
 ---@param fields? scnlocLocstringId
 ---@return scnlocLocstringId

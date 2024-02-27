@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameIFriendlyFireSystem: gameIGameSystem
 gameIFriendlyFireSystem = {}
+
 
 ---@param id Uint32
 ---@return Bool

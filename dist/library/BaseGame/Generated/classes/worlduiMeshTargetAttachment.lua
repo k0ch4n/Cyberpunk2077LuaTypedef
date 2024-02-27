@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worlduiMeshTargetAttachment: entIAttachment
 worlduiMeshTargetAttachment = {}
+
 
 ---@param fields? worlduiMeshTargetAttachment
 ---@return worlduiMeshTargetAttachment

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameBlackboardUpdateProxy: gameIBlackboardUpdateProxy
 gameBlackboardUpdateProxy = {}
+
 
 ---@param fields? gameBlackboardUpdateProxy
 ---@return gameBlackboardUpdateProxy

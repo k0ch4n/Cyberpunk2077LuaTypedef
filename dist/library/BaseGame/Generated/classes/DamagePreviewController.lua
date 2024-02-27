@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DamagePreviewController: inkWidgetLogicController
 ---@field fullBar inkWidgetReference
 ---@field stippedBar inkWidgetReference
@@ -10,6 +11,7 @@
 ---@field heightRoot Float
 ---@field animProxy inkanimProxy
 DamagePreviewController = {}
+
 
 ---@param fields? DamagePreviewController
 ---@return DamagePreviewController

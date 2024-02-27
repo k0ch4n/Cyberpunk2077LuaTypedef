@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldAdvertisementNode: worldStaticMeshNode
 ---@field meshInitialScale Vector3
 ---@field format AdvertisementFormat
@@ -10,6 +11,7 @@
 ---@field glitchValue Float
 ---@field lightsData worldAdvertisementLightData[]
 worldAdvertisementNode = {}
+
 
 ---@param fields? worldAdvertisementNode
 ---@return worldAdvertisementNode

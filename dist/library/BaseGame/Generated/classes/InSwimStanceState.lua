@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InSwimStanceState: AINPCStanceStateCheck
 InSwimStanceState = {}
+
 
 ---@param fields? InSwimStanceState
 ---@return InSwimStanceState

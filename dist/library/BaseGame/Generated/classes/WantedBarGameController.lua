@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WantedBarGameController: gameuiHUDGameController
 ---@field starsWidget inkWidgetReference[]
 ---@field wantedBlackboard gameIBlackboard
@@ -19,6 +20,7 @@
 ---@field WANTED_TIER_1 Float
 ---@field WANTED_MIN Float
 WantedBarGameController = {}
+
 
 ---@param fields? WantedBarGameController
 ---@return WantedBarGameController

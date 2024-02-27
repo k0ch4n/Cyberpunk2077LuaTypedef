@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameuiGenderSelectionPuppetPreviewGameController: gameuiPuppetPreviewGameController
 ---@field sceneName CName
 ---@field cameraRef NodeRef
 gameuiGenderSelectionPuppetPreviewGameController = {}
+
 
 ---@param fields? gameuiGenderSelectionPuppetPreviewGameController
 ---@return gameuiGenderSelectionPuppetPreviewGameController

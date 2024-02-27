@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsPlayerNotInteractingWithDevice: gameinteractionsInteractionScriptedCondition
 IsPlayerNotInteractingWithDevice = {}
+
 
 ---@param fields? IsPlayerNotInteractingWithDevice
 ---@return IsPlayerNotInteractingWithDevice

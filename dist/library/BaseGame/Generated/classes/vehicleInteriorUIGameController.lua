@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleInteriorUIGameController: gameuiHUDGameController
 ---@field vehicleBlackboard gameIBlackboard
 ---@field vehicleBBStateConectionId redCallbackObject
@@ -27,6 +28,7 @@
 ---@field isVehicleReady Bool
 ---@field HudRedLineAnimation inkanimProxy
 vehicleInteriorUIGameController = {}
+
 
 ---@param fields? vehicleInteriorUIGameController
 ---@return vehicleInteriorUIGameController

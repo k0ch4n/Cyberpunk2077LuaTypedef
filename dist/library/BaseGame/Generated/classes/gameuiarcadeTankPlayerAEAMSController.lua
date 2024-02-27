@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiarcadeTankPlayerAEAMSController: inkWidgetLogicController
 gameuiarcadeTankPlayerAEAMSController = {}
+
 
 ---@param fields? gameuiarcadeTankPlayerAEAMSController
 ---@return gameuiarcadeTankPlayerAEAMSController

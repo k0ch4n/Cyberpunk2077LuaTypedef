@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_Drag: animAnimNode_OnePoseInput
 ---@field sourceBone animTransformIndex
 ---@field outTargetBone animTransformIndex
@@ -14,6 +15,7 @@
 ---@field timeBetweenSteps Float
 ---@field timeInStep Float
 animAnimNode_Drag = {}
+
 
 ---@param fields? animAnimNode_Drag
 ---@return animAnimNode_Drag

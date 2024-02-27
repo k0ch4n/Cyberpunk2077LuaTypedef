@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuickSlotCommand
 ---@field ActionType QuickSlotActionType
 ---@field IsSlotUnlocked Bool
@@ -21,6 +22,7 @@
 ---@field interactiveAction gamedeviceAction
 ---@field interactiveActionOwner entEntityID
 QuickSlotCommand = {}
+
 
 ---@param fields? QuickSlotCommand
 ---@return QuickSlotCommand

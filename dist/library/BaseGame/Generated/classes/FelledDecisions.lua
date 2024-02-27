@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class FelledDecisions: LocomotionGroundDecisions
 ---@field felled Bool
 ---@field callbackIDs redCallbackObject[]
 FelledDecisions = {}
+
 
 ---@param fields? FelledDecisions
 ---@return FelledDecisions

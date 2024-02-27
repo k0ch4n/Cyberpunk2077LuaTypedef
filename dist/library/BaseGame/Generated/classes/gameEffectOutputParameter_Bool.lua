@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameEffectOutputParameter_Bool
 ---@field blackboardProperty gameBlackboardPropertyBindingDefinition
 gameEffectOutputParameter_Bool = {}
+
 
 ---@param fields? gameEffectOutputParameter_Bool
 ---@return gameEffectOutputParameter_Bool

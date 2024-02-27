@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionShootToPoint_Record_Implementation: IScriptable
 AISubActionShootToPoint_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionShootToPoint_Record

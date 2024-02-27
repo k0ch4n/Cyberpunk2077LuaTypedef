@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewsFeedMenuWidgetController: inkWidgetLogicController
 ---@field bannersListWidgetPath CName
 ---@field bannersListWidget inkWidgetReference
@@ -7,6 +8,7 @@
 ---@field bannerWidgetsData SBannerWidgetPackage[]
 ---@field fullBannerWidgetData SBannerWidgetPackage
 NewsFeedMenuWidgetController = {}
+
 
 ---@param fields? NewsFeedMenuWidgetController
 ---@return NewsFeedMenuWidgetController

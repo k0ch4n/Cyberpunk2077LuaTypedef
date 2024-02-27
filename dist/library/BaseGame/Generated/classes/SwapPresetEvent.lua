@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SwapPresetEvent: redEvent
 ---@field mappingName String
 SwapPresetEvent = {}
+
 
 ---@param fields? SwapPresetEvent
 ---@return SwapPresetEvent

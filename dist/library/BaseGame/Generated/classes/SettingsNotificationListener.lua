@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SettingsNotificationListener: userSettingsNotificationListener
 ---@field ctrl SettingsMainGameController
 SettingsNotificationListener = {}
+
 
 ---@param fields? SettingsNotificationListener
 ---@return SettingsNotificationListener

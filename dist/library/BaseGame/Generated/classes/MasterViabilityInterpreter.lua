@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MasterViabilityInterpreter: IScriptable
 MasterViabilityInterpreter = {}
+
 
 ---@param fields? MasterViabilityInterpreter
 ---@return MasterViabilityInterpreter

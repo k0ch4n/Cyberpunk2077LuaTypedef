@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ButtonPlaySoundView: BaseButtonView
 ---@field SoundPrefix CName
 ---@field PressSoundName CName
 ---@field HoverSoundName CName
 ButtonPlaySoundView = {}
+
 
 ---@param fields? ButtonPlaySoundView
 ---@return ButtonPlaySoundView

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entAreaExitedEvent: entTriggerEvent
 entAreaExitedEvent = {}
+
 
 ---@param fields? entAreaExitedEvent
 ---@return entAreaExitedEvent

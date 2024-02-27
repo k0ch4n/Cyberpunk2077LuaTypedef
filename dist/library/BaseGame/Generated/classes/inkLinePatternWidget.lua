@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkLinePatternWidget: inkImageWidget
 ---@field vertexList inkLineVertex[]
 ---@field spacing Float
@@ -10,6 +11,7 @@
 ---@field rotateWithSegment Bool
 ---@field patternDirection inkEChildOrder
 inkLinePatternWidget = {}
+
 
 ---@param fields? inkLinePatternWidget
 ---@return inkLinePatternWidget

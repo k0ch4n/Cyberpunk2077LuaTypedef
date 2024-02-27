@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TurretBeginEvents: TurretTransition
 ---@field stateMachineInitData TurretInitData
 TurretBeginEvents = {}
+
 
 ---@param fields? TurretBeginEvents
 ---@return TurretBeginEvents

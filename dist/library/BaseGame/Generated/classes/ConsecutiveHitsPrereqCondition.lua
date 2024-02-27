@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ConsecutiveHitsPrereqCondition: BaseHitPrereqCondition
 ---@field timeOut Float
 ---@field consecutiveHitsRequired Int32
@@ -8,6 +9,7 @@
 ---@field lastTargetID entEntityID
 ---@field lastHitTime Float
 ConsecutiveHitsPrereqCondition = {}
+
 
 ---@param fields? ConsecutiveHitsPrereqCondition
 ---@return ConsecutiveHitsPrereqCondition

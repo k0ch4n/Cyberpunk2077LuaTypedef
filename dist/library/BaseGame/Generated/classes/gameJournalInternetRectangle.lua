@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameJournalInternetRectangle: gameJournalInternetBase
 gameJournalInternetRectangle = {}
+
 
 ---@param fields? gameJournalInternetRectangle
 ---@return gameJournalInternetRectangle

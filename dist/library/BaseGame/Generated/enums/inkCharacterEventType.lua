@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkCharacterEventType: Enum
 ---@field CharInput Enum 0
 ---@field MoveCaretForward Enum 1

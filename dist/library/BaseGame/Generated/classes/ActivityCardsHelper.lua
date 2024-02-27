@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActivityCardsHelper: IScriptable
 ActivityCardsHelper = {}
+
 
 ---@param fields? ActivityCardsHelper
 ---@return ActivityCardsHelper

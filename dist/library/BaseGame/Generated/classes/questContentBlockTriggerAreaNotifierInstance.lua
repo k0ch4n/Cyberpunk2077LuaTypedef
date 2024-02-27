@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questContentBlockTriggerAreaNotifierInstance: worldITriggerAreaNotiferInstance
 questContentBlockTriggerAreaNotifierInstance = {}
+
 
 ---@param fields? questContentBlockTriggerAreaNotifierInstance
 ---@return questContentBlockTriggerAreaNotifierInstance

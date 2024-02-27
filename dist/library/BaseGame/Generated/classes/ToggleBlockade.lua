@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ToggleBlockade: ActionBool
 ---@field TrueRecordName String
 ---@field FalseRecordName String
 ToggleBlockade = {}
+
 
 ---@param fields? ToggleBlockade
 ---@return ToggleBlockade

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class characterCreationSummaryMenu: gameuiBaseCharacterCreationController
 ---@field backstoryTitle inkTextWidgetReference
 ---@field backstoryIcon inkImageWidgetReference
@@ -20,6 +21,7 @@
 ---@field loadingFinished Bool
 ---@field glitchClicks Int32
 characterCreationSummaryMenu = {}
+
 
 ---@param fields? characterCreationSummaryMenu
 ---@return characterCreationSummaryMenu

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BackpackInventoryListenerCallback: gameInventoryScriptCallback
 ---@field backpackInstance gameuiBackpackMainGameController
 BackpackInventoryListenerCallback = {}
+
 
 ---@param fields? BackpackInventoryListenerCallback
 ---@return BackpackInventoryListenerCallback

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETimeOfYearSeason: Enum
 ---@field ETOYS_Spring Enum 0
 ---@field ETOYS_Summer Enum 1

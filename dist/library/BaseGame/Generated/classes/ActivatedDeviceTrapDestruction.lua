@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ActivatedDeviceTrapDestruction: ActivatedDeviceTrap
 ---@field physicalMeshNames CName[]
 ---@field physicalMeshes entPhysicalMeshComponent[]
@@ -18,6 +19,7 @@
 ---@field lastEntityHit IScriptable
 ---@field timeToActivatePhysics Float
 ActivatedDeviceTrapDestruction = {}
+
 
 ---@param fields? ActivatedDeviceTrapDestruction
 ---@return ActivatedDeviceTrapDestruction

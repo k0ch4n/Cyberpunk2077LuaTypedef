@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CallElevator: ActionBool
 ---@field destination Int32
 CallElevator = {}
+
 
 ---@param fields? CallElevator
 ---@return CallElevator

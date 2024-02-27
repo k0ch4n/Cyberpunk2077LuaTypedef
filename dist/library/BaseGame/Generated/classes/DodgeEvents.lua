@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DodgeEvents: LocomotionGroundEvents
 ---@field blockStatFlag gameStatModifierData_Deprecated
 ---@field dashDecelerationModifier gameStatModifierData_Deprecated
@@ -10,6 +11,7 @@
 ---@field enteredFromSlide Bool
 ---@field isAirDashSaveLockTriggered Bool
 DodgeEvents = {}
+
 
 ---@param fields? DodgeEvents
 ---@return DodgeEvents

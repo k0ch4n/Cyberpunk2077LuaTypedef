@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ToggleTakeOverControl: ActionBool
 ---@field isRequestedFormOtherDevice Bool
 ToggleTakeOverControl = {}
+
 
 ---@param fields? ToggleTakeOverControl
 ---@return ToggleTakeOverControl

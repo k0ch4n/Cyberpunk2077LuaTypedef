@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CDebugConsole: IDebugConsole
 CDebugConsole = {}
+
 
 ---@param fields? CDebugConsole
 ---@return CDebugConsole

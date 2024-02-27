@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ForceDismembermentEffector: gameEffector
 ---@field bodyPart gameDismBodyPart
 ---@field woundType gameDismWoundType
@@ -9,6 +10,7 @@
 ---@field dismembermentChance Float
 ---@field effectorRecord gamedataForceDismembermentEffector_Record
 ForceDismembermentEffector = {}
+
 
 ---@param fields? ForceDismembermentEffector
 ---@return ForceDismembermentEffector

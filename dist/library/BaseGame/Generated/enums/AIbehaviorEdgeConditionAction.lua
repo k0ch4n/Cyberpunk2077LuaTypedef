@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorEdgeConditionAction: Enum
 ---@field None Enum 0
 ---@field Toggle Enum 1

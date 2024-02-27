@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class Hotkey: IScriptable
 ---@field hotkey gameEHotkey
 ---@field itemID gameItemID
 ---@field scope gamedataItemType[]
 Hotkey = {}
+
 
 ---@param fields? Hotkey
 ---@return Hotkey

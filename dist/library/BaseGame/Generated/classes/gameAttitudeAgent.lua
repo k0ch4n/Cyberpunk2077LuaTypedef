@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameAttitudeAgent: gameComponent
 ---@field baseAttitudeGroup CName
 gameAttitudeAgent = {}
+
 
 ---@param fields? gameAttitudeAgent
 ---@return gameAttitudeAgent

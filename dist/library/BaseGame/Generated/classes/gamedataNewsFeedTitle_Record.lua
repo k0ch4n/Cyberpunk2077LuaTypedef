@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataNewsFeedTitle_Record: gamedataTweakDBRecord
 gamedataNewsFeedTitle_Record = {}
+
 
 ---@param fields? gamedataNewsFeedTitle_Record
 ---@return gamedataNewsFeedTitle_Record

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BackdoorDataStreamController: BackdoorInkGameController
 ---@field idleGroup inkWidgetReference
 ---@field idleVPanelC1 inkWidgetReference
@@ -16,6 +17,7 @@
 ---@field canvasC3 inkWidgetReference
 ---@field canvasC4 inkWidgetReference
 BackdoorDataStreamController = {}
+
 
 ---@param fields? BackdoorDataStreamController
 ---@return BackdoorDataStreamController

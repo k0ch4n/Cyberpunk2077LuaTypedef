@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class rendRenderMultilayerMaskBlobPC: rendRenderMultilayerMaskBlob
 rendRenderMultilayerMaskBlobPC = {}
+
 
 ---@param fields? rendRenderMultilayerMaskBlobPC
 ---@return rendRenderMultilayerMaskBlobPC

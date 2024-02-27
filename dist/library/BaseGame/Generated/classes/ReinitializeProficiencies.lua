@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReinitializeProficiencies: gamePlayerScriptableSystemRequest
 ReinitializeProficiencies = {}
+
 
 ---@param fields? ReinitializeProficiencies
 ---@return ReinitializeProficiencies

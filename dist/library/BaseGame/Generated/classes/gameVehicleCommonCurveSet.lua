@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameVehicleCommonCurveSet: CurveSet
 gameVehicleCommonCurveSet = {}
+
 
 ---@param fields? gameVehicleCommonCurveSet
 ---@return gameVehicleCommonCurveSet

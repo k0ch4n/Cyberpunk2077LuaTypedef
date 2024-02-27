@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FullAutoEvents: WeaponEventsTransition
 FullAutoEvents = {}
+
 
 ---@param fields? FullAutoEvents
 ---@return FullAutoEvents

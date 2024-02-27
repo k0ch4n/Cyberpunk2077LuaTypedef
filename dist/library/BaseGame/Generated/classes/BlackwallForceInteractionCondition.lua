@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BlackwallForceInteractionCondition: gameinteractionsInteractionScriptedCondition
 BlackwallForceInteractionCondition = {}
+
 
 ---@param fields? BlackwallForceInteractionCondition
 ---@return BlackwallForceInteractionCondition

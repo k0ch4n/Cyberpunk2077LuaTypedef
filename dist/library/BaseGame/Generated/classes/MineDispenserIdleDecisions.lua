@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MineDispenserIdleDecisions: MineDispenserTransition
 MineDispenserIdleDecisions = {}
+
 
 ---@param fields? MineDispenserIdleDecisions
 ---@return MineDispenserIdleDecisions

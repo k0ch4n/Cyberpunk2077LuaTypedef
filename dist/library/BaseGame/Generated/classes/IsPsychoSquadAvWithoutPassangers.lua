@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsPsychoSquadAvWithoutPassangers: PreventionConditionAbstract
 IsPsychoSquadAvWithoutPassangers = {}
+
 
 ---@param fields? IsPsychoSquadAvWithoutPassangers
 ---@return IsPsychoSquadAvWithoutPassangers

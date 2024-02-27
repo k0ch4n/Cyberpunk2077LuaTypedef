@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class InventoryItemModSlotDisplay: inkWidgetLogicController
 ---@field slotBorder inkWidgetReference
 ---@field slotBackground inkWidgetReference
 InventoryItemModSlotDisplay = {}
+
 
 ---@param fields? InventoryItemModSlotDisplay
 ---@return InventoryItemModSlotDisplay

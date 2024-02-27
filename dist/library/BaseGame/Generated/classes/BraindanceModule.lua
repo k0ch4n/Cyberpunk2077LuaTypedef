@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BraindanceModule: HUDModule
 BraindanceModule = {}
+
 
 ---@param fields? BraindanceModule
 ---@return BraindanceModule

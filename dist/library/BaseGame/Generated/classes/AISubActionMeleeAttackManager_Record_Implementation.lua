@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionMeleeAttackManager_Record_Implementation: IScriptable
 AISubActionMeleeAttackManager_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionMeleeAttackManager_Record

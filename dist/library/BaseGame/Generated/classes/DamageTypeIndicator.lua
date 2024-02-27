@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DamageTypeIndicator: inkWidgetLogicController
 ---@field DamageIconRef inkImageWidgetReference
 ---@field DamageTypeLabelRef inkTextWidgetReference
 DamageTypeIndicator = {}
+
 
 ---@param fields? DamageTypeIndicator
 ---@return DamageTypeIndicator

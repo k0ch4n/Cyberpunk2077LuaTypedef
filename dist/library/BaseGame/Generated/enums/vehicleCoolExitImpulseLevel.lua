@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleCoolExitImpulseLevel: Enum
 ---@field NoExit Enum 0
 ---@field NoImpulse Enum 1

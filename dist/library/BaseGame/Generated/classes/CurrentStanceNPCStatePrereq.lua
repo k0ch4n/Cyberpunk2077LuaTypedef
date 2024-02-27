@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CurrentStanceNPCStatePrereq: gameIScriptablePrereq
 ---@field valueToCheck gamedataNPCStanceState
 ---@field invert Bool
 CurrentStanceNPCStatePrereq = {}
+
 
 ---@param fields? CurrentStanceNPCStatePrereq
 ---@return CurrentStanceNPCStatePrereq

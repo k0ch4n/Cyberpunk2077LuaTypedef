@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class sampleSmartBullet: BaseProjectile
 ---@field meshComponent entIComponent
 ---@field effect gameEffectRef
@@ -46,6 +47,7 @@
 ---@field BulletCollisionEvaluator BulletCollisionEvaluator
 ---@field trackedTargetComponent gameTargetingComponent
 sampleSmartBullet = {}
+
 
 ---@param fields? sampleSmartBullet
 ---@return sampleSmartBullet

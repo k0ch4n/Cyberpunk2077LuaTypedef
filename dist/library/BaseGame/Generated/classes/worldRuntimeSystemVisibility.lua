@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemVisibility: worldIRuntimeSystem
 worldRuntimeSystemVisibility = {}
+
 
 ---@param fields? worldRuntimeSystemVisibility
 ---@return worldRuntimeSystemVisibility

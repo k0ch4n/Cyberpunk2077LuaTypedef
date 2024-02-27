@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CommonItemsGridView: inkScriptableDataViewWrapper
 ---@field itemFilterType ItemFilterCategory
 ---@field itemSortMode ItemSortMode
 ---@field uiScriptableSystem UIScriptableSystem
 CommonItemsGridView = {}
+
 
 ---@param fields? CommonItemsGridView
 ---@return CommonItemsGridView

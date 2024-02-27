@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CompareArgumentsFloats: CompareArguments
 ---@field comparator ECompareOp
 CompareArgumentsFloats = {}
+
 
 ---@param fields? CompareArgumentsFloats
 ---@return CompareArgumentsFloats

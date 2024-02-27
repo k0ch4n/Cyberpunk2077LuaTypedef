@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CasinoChipsInventoryCallback: gameInventoryScriptCallback
 ---@field casinoTableGameController CasinoTableGameController
 ---@field slot CasinoTableSlot
 CasinoChipsInventoryCallback = {}
+
 
 ---@param fields? CasinoChipsInventoryCallback
 ---@return CasinoChipsInventoryCallback

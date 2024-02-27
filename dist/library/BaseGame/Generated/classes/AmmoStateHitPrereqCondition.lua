@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AmmoStateHitPrereqCondition: BaseHitPrereqCondition
 ---@field valueToListen EMagazineAmmoState
 ---@field ratio Float
 ---@field comparisonType EComparisonType
 AmmoStateHitPrereqCondition = {}
+
 
 ---@param fields? AmmoStateHitPrereqCondition
 ---@return AmmoStateHitPrereqCondition

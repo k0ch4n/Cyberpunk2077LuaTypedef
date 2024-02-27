@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldPopulationSpawnerNode: worldNode
 ---@field objectRecordId TweakDBID
 ---@field appearanceName CName
@@ -9,6 +10,7 @@
 ---@field prefetchAppearance Bool
 ---@field isVehicle Bool
 worldPopulationSpawnerNode = {}
+
 
 ---@param fields? worldPopulationSpawnerNode
 ---@return worldPopulationSpawnerNode

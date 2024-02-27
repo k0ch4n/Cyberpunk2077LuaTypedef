@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ActivatedDeviceTrap: ActivatedDeviceTransfromAnim
 ---@field areaComponent gameStaticTriggerAreaComponent
 ActivatedDeviceTrap = {}
+
 
 ---@param fields? ActivatedDeviceTrap
 ---@return ActivatedDeviceTrap

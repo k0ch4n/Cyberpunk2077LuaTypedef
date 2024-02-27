@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiarcadeArcadeGameController: gameuiWidgetGameController
 ---@field minigame gameuiarcadeArcadeMinigame
 ---@field defaultScreenTransitionTotalTime Float
@@ -8,6 +9,7 @@
 ---@field gameplay inkWidgetReference
 ---@field scoreboard inkWidgetReference
 gameuiarcadeArcadeGameController = {}
+
 
 ---@param fields? gameuiarcadeArcadeGameController
 ---@return gameuiarcadeArcadeGameController

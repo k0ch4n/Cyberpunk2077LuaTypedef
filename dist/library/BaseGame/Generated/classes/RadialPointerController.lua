@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RadialPointerController: inkWidgetLogicController
 ---@field pointer inkImageWidgetReference
 ---@field feedback inkImageWidgetReference
 RadialPointerController = {}
+
 
 ---@param fields? RadialPointerController
 ---@return RadialPointerController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class grsDeathmatchStatus: Enum
 ---@field Waiting Enum 0
 ---@field AdditionalWaiting Enum 1

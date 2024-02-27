@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entMeshComponentLODMode: Enum
 ---@field AlwaysVisible Enum 0
 ---@field Appearance Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InteractiveMasterDevice: InteractiveDevice
 InteractiveMasterDevice = {}
+
 
 ---@param fields? InteractiveMasterDevice
 ---@return InteractiveMasterDevice

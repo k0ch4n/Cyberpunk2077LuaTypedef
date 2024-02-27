@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerNotInBraindancePrereq: gameIScriptablePrereq
 PlayerNotInBraindancePrereq = {}
+
 
 ---@param fields? PlayerNotInBraindancePrereq
 ---@return PlayerNotInBraindancePrereq

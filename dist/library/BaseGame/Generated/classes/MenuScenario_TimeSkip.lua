@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_TimeSkip: MenuScenario_BaseMenu
 MenuScenario_TimeSkip = {}
+
 
 ---@param fields? MenuScenario_TimeSkip
 ---@return MenuScenario_TimeSkip

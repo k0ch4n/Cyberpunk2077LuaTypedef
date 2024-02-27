@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkAsyncSpawnRequest: IScriptable
 inkAsyncSpawnRequest = {}
+
 
 ---@param fields? inkAsyncSpawnRequest
 ---@return inkAsyncSpawnRequest

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TeleportToLinkedPortalEvent: redEvent
 TeleportToLinkedPortalEvent = {}
+
 
 ---@param fields? TeleportToLinkedPortalEvent
 ---@return TeleportToLinkedPortalEvent

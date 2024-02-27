@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrosshairGameController_Mantis_Blade: gameuiCrosshairBaseGameController
 ---@field weaponBBID redCallbackObject
 ---@field meleeWeaponState gamePSMMeleeWeapon
@@ -9,6 +10,7 @@
 ---@field isInHoldState Bool
 ---@field meleeLeapAttackObjectTagger MeleeLeapAttackObjectTagger
 CrosshairGameController_Mantis_Blade = {}
+
 
 ---@param fields? CrosshairGameController_Mantis_Blade
 ---@return CrosshairGameController_Mantis_Blade

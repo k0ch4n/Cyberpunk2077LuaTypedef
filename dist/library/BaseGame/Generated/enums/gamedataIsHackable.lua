@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataIsHackable: Enum
 ---@field Always Enum 0
 ---@field Dynamic Enum 1

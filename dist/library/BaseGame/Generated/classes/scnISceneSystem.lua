@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class scnISceneSystem: gameISceneSystem
 scnISceneSystem = {}
+
 
 ---@return String
 function scnISceneSystem:GetPeerIdDialogChoiceFactName() end

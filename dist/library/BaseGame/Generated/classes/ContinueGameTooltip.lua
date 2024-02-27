@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ContinueGameTooltip: inkWidgetLogicController
 ---@field mainContainer inkWidgetReference
 ---@field imageReplacement inkImageWidgetReference
@@ -19,6 +20,7 @@
 ---@field isOffline Bool
 ---@field defaultAtlasPath redResourceReferenceScriptToken
 ContinueGameTooltip = {}
+
 
 ---@param fields? ContinueGameTooltip
 ---@return ContinueGameTooltip

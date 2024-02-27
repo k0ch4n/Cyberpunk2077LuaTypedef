@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TweakAIActionSmartComposite: TweakAIActionAbstract
 ---@field smartComposite TweakDBID
 ---@field smartCompositeRecord gamedataAIActionSmartComposite_Record
@@ -12,6 +13,7 @@
 ---@field currentNodeType ETweakAINodeType
 ---@field currentNode gamedataAINode_Record
 TweakAIActionSmartComposite = {}
+
 
 ---@param fields? TweakAIActionSmartComposite
 ---@return TweakAIActionSmartComposite

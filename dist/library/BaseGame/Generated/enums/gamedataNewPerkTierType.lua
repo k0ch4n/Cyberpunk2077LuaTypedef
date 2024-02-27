@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataNewPerkTierType: Enum
 ---@field AdeptNewPerkTier Enum 0
 ---@field EspionageNewPerkTier Enum 1

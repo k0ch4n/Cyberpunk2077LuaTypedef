@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ESecurityAreaType: Enum
 ---@field DISABLED Enum 0
 ---@field SAFE Enum 1

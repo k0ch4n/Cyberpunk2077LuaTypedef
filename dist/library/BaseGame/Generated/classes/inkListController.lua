@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkListController: inkWidgetLogicController
 ---@field itemLibraryID CName
 ---@field cycledNavigation Bool
@@ -7,6 +8,7 @@
 ---@field ItemSelected inkListControllerCallback
 ---@field ItemActivated inkListControllerCallback
 inkListController = {}
+
 
 ---@param fields? inkListController
 ---@return inkListController

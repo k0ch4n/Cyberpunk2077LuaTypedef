@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkPointerEvent: inkInputEvent
 inkPointerEvent = {}
+
 
 ---@param fields? inkPointerEvent
 ---@return inkPointerEvent

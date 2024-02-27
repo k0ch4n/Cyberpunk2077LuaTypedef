@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkMenusState: IScriptable
 inkMenusState = {}
+
 
 ---@param fields? inkMenusState
 ---@return inkMenusState

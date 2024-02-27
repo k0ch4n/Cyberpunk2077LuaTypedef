@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimatedListItemController: inkListItemController
 ---@field animOutName CName
 ---@field animPulseName CName
@@ -16,6 +17,7 @@
 ---@field animPulseProxy inkanimProxy
 ---@field animPulseOptions inkanimPlaybackOptions
 AnimatedListItemController = {}
+
 
 ---@param fields? AnimatedListItemController
 ---@return AnimatedListItemController

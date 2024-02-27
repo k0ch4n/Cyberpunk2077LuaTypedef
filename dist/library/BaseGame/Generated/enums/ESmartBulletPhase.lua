@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ESmartBulletPhase: Enum
 ---@field Init Enum 0
 ---@field Parabolic Enum 1

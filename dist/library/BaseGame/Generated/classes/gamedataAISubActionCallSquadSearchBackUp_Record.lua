@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionCallSquadSearchBackUp_Record: gamedataAISubAction_Record
 gamedataAISubActionCallSquadSearchBackUp_Record = {}
+
 
 ---@param fields? gamedataAISubActionCallSquadSearchBackUp_Record
 ---@return gamedataAISubActionCallSquadSearchBackUp_Record

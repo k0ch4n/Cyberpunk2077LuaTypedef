@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AICooldown: AITimeCondition
 ---@field cooldown Float
 ---@field timestamp Float
 AICooldown = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class Codeware_UI_CustomPopupAttachCallback: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field manager Codeware_UI_CustomPopupManager
 ---@field request Codeware_UI_CustomPopupAttachRequest
 Codeware_UI_CustomPopupAttachCallback = {}
+
 
 ---@param fields? Codeware_UI_CustomPopupAttachCallback
 ---@return Codeware_UI_CustomPopupAttachCallback

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIPrereqsDataDef: AIBlackboardDef
 ---@field npcHitTypeTimeout gamebbScriptID_Variant
 AIPrereqsDataDef = {}
+
 
 ---@param fields? AIPrereqsDataDef
 ---@return AIPrereqsDataDef

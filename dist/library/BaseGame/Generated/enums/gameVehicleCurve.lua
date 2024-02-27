@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameVehicleCurve: Enum
 ---@field SpeedToWheelMaxTurn Enum 0
 ---@field InputToWheelMaxTurn Enum 1

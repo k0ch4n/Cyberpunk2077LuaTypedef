@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ArrowButton: inkButtonController
 ---@field direction Direction
 ArrowButton = {}
+
 
 ---@param fields? ArrowButton
 ---@return ArrowButton

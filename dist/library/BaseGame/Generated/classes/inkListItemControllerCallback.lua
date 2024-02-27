@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkListItemControllerCallback: inkCallbackBase
 inkListItemControllerCallback = {}
+
 
 ---@param fields? inkListItemControllerCallback
 ---@return inkListItemControllerCallback

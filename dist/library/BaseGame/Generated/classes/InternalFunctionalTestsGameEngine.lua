@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InternalFunctionalTestsGameEngine: CGameEngine
 InternalFunctionalTestsGameEngine = {}
+
 
 ---@param fields? InternalFunctionalTestsGameEngine
 ---@return InternalFunctionalTestsGameEngine

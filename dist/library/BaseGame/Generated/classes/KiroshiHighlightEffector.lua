@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class KiroshiHighlightEffector: HighlightEffector
 ---@field onlyWhileAiming Bool
 ---@field onlyClosestToCrosshair Bool
@@ -13,6 +14,7 @@
 ---@field isMeleeWeaponEquipped Bool
 ---@field isTechPreviewEnabled Bool
 KiroshiHighlightEffector = {}
+
 
 ---@param fields? KiroshiHighlightEffector
 ---@return KiroshiHighlightEffector

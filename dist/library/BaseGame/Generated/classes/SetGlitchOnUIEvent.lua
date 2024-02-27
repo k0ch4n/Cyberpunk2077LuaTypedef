@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetGlitchOnUIEvent: redEvent
 ---@field intensity Float
 SetGlitchOnUIEvent = {}
+
 
 ---@param fields? SetGlitchOnUIEvent
 ---@return SetGlitchOnUIEvent

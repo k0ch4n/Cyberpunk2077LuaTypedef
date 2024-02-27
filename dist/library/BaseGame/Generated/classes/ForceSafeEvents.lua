@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ForceSafeEvents: UpperBodyEventsTransition
 ---@field safeAnimFeature AnimFeature_SafeAction
 ---@field weaponObjectID TweakDBID
 ForceSafeEvents = {}
+
 
 ---@param fields? ForceSafeEvents
 ---@return ForceSafeEvents

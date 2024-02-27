@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryTooltiData_GrenadeData: IScriptable
 ---@field type GrenadeDamageType
 ---@field range Float
@@ -12,6 +13,7 @@
 ---@field totalDamage Float
 ---@field grenadeType EGrenadeType
 InventoryTooltiData_GrenadeData = {}
+
 
 ---@param fields? InventoryTooltiData_GrenadeData
 ---@return InventoryTooltiData_GrenadeData

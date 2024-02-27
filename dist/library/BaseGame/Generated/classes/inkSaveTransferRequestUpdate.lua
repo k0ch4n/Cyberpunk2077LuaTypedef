@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkSaveTransferRequestUpdate: inkCallbackBase
 inkSaveTransferRequestUpdate = {}
+
 
 ---@param fields? inkSaveTransferRequestUpdate
 ---@return inkSaveTransferRequestUpdate

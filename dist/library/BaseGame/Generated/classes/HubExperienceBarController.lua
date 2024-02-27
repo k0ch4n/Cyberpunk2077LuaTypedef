@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HubExperienceBarController: inkWidgetLogicController
 ---@field foregroundContainer inkWidgetReference
 HubExperienceBarController = {}
+
 
 ---@param fields? HubExperienceBarController
 ---@return HubExperienceBarController

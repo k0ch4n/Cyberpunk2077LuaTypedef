@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiPanzerScoreBonus: gameuiPanzerBonus
 gameuiPanzerScoreBonus = {}
+
 
 ---@param fields? gameuiPanzerScoreBonus
 ---@return gameuiPanzerScoreBonus

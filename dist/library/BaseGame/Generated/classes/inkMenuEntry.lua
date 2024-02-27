@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkMenuEntry
 ---@field name CName
 ---@field menuWidget inkWidgetLibraryResource
@@ -8,6 +9,7 @@
 ---@field isAffectedByFadeout Bool
 ---@field inputContext CName
 inkMenuEntry = {}
+
 
 ---@param fields? inkMenuEntry
 ---@return inkMenuEntry

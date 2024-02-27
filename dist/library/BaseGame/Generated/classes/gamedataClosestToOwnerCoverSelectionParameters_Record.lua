@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataClosestToOwnerCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataClosestToOwnerCoverSelectionParameters_Record = {}
+
 
 ---@param fields? gamedataClosestToOwnerCoverSelectionParameters_Record
 ---@return gamedataClosestToOwnerCoverSelectionParameters_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class C4: ExplosiveDevice
 C4 = {}
+
 
 ---@param fields? C4
 ---@return C4

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldCorpseSystem: worldIRuntimeSystem
 worldCorpseSystem = {}
+
 
 ---@param fields? worldCorpseSystem
 ---@return worldCorpseSystem

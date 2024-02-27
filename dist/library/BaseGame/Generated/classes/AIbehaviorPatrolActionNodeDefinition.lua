@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorPatrolActionNodeDefinition: AIbehaviorActionTreeNodeDefinition
 ---@field path AIArgumentMapping
 ---@field patrolProgress AIArgumentMapping
@@ -13,6 +14,7 @@
 ---@field usePathContext AIArgumentMapping
 ---@field useOffMeshLinkReservation AIArgumentMapping
 AIbehaviorPatrolActionNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorPatrolActionNodeDefinition
 ---@return AIbehaviorPatrolActionNodeDefinition

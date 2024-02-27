@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class entLookAtAddEvent: entAnimTargetAddEvent
 ---@field outLookAtRef animLookAtRef
 ---@field request animLookAtRequest
 entLookAtAddEvent = {}
+
 
 ---@param fields? entLookAtAddEvent
 ---@return entLookAtAddEvent

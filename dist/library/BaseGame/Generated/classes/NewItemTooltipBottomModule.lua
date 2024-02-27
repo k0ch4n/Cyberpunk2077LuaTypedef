@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewItemTooltipBottomModule: NewItemTooltipModuleController
 ---@field weightWrapper inkWidgetReference
 ---@field priceWrapper inkWidgetReference
@@ -9,6 +10,7 @@
 ---@field ammoText inkTextWidgetReference
 ---@field ammoIcon inkImageWidgetReference
 NewItemTooltipBottomModule = {}
+
 
 ---@param fields? NewItemTooltipBottomModule
 ---@return NewItemTooltipBottomModule

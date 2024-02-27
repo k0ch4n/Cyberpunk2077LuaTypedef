@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalQuestMultiMapPin: gameJournalQuestMapPinBase
 ---@field references NodeRef[]
 ---@field slotName CName
@@ -7,6 +8,7 @@
 ---@field offset Vector3
 ---@field uiAnimation TweakDBID
 gameJournalQuestMultiMapPin = {}
+
 
 ---@param fields? gameJournalQuestMultiMapPin
 ---@return gameJournalQuestMultiMapPin

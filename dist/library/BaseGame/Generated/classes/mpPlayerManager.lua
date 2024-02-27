@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class mpPlayerManager: gameIPlayerManager
 mpPlayerManager = {}
+
 
 ---@param fields? mpPlayerManager
 ---@return mpPlayerManager

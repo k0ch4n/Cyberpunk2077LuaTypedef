@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SWidgetPackage: SWidgetPackageBase
 ---@field displayName String
 ---@field ownerID gamePersistentID
@@ -12,6 +13,7 @@
 ---@field iconTextureID TweakDBID
 ---@field textData textTextParameterSet
 SWidgetPackage = {}
+
 
 ---@param fields? SWidgetPackage
 ---@return SWidgetPackage

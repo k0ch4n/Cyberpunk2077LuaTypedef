@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questSocketType: Enum
 ---@field Undefined Enum 0
 ---@field Input Enum 1

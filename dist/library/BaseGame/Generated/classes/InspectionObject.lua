@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class InspectionObject: gameObject
 ---@field interaction gameinteractionsComponent
 InspectionObject = {}
+
 
 ---@param fields? InspectionObject
 ---@return InspectionObject

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Computer: Terminal
 ---@field bannerUpdateActive Bool
 ---@field bannerUpdateID gameDelayID
@@ -8,6 +9,7 @@
 ---@field playerControlData PlayerControlDeviceData
 ---@field currentAnimationState EComputerAnimationState
 Computer = {}
+
 
 ---@param fields? Computer
 ---@return Computer

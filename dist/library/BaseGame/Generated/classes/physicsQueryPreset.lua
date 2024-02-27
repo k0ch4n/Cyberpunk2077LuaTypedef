@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class physicsQueryPreset
 ---@field presetName CName
 physicsQueryPreset = {}
+
 
 ---@param fields? physicsQueryPreset
 ---@return physicsQueryPreset

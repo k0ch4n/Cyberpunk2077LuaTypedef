@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsNotInstigatorProjectileFilter: gameEffectObjectSingleFilter_Scripted
 IsNotInstigatorProjectileFilter = {}
+
 
 ---@param fields? IsNotInstigatorProjectileFilter
 ---@return IsNotInstigatorProjectileFilter

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiRootHudGameController: gameuiWidgetGameController
 ---@field resolutionSensitiveRoots inkCompoundWidgetReference[]
 gameuiRootHudGameController = {}
+
 
 ---@param fields? gameuiRootHudGameController
 ---@return gameuiRootHudGameController

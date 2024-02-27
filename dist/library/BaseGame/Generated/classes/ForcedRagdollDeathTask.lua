@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForcedRagdollDeathTask: AIDeathReactionsTask
 ForcedRagdollDeathTask = {}
+
 
 ---@param fields? ForcedRagdollDeathTask
 ---@return ForcedRagdollDeathTask

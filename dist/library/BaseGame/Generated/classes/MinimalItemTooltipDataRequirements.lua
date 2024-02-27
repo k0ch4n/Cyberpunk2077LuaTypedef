@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MinimalItemTooltipDataRequirements: IScriptable
 ---@field isLevelRequirementNotMet Bool
 ---@field isSmartlinkRequirementNotMet Bool
@@ -15,6 +16,7 @@
 ---@field requiredLevel Int32
 ---@field anyStatRequirements MinimalItemTooltipDataStatRequirement[]
 MinimalItemTooltipDataRequirements = {}
+
 
 ---@param fields? MinimalItemTooltipDataRequirements
 ---@return MinimalItemTooltipDataRequirements

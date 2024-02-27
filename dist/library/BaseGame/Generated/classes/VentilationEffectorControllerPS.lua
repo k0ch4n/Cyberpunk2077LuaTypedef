@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VentilationEffectorControllerPS: ActivatedDeviceControllerPS
 VentilationEffectorControllerPS = {}
+
 
 ---@param fields? VentilationEffectorControllerPS
 ---@return VentilationEffectorControllerPS

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ReactionPresetHitPrereqCondition: BaseHitPrereqCondition
 ---@field reactionPreset String
 ReactionPresetHitPrereqCondition = {}
+
 
 ---@param fields? ReactionPresetHitPrereqCondition
 ---@return ReactionPresetHitPrereqCondition

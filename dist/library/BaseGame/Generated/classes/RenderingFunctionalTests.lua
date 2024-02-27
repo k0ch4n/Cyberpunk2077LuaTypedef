@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RenderingFunctionalTests: IScriptable
 RenderingFunctionalTests = {}
+
 
 ---@param fields? RenderingFunctionalTests
 ---@return RenderingFunctionalTests

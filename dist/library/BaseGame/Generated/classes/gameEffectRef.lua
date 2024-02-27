@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameEffectRef
 ---@field set gameEffectSet
 ---@field tag CName
 gameEffectRef = {}
+
 
 ---@param fields? gameEffectRef
 ---@return gameEffectRef

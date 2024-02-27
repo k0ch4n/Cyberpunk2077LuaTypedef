@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HoloDevice: InteractiveDevice
 ---@field questFactName CName
 HoloDevice = {}
+
 
 ---@param fields? HoloDevice
 ---@return HoloDevice

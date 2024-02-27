@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameLootItemType: Enum
 ---@field Default Enum 0
 ---@field Quest Enum 1

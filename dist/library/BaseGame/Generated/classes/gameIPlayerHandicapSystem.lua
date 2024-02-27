@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameIPlayerHandicapSystem: gameScriptableSystem
 gameIPlayerHandicapSystem = {}
+
 
 ---@param fields? gameIPlayerHandicapSystem
 ---@return gameIPlayerHandicapSystem

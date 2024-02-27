@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Codeware_UI_VirtualResolutionResizeTarget: Codeware_UI_VirtualResolutionTarget
 ---@field size Vector2
 Codeware_UI_VirtualResolutionResizeTarget = {}
+
 
 ---@param fields? Codeware_UI_VirtualResolutionResizeTarget
 ---@return Codeware_UI_VirtualResolutionResizeTarget

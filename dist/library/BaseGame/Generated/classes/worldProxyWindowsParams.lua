@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldProxyWindowsParams
 ---@field windowsType worldProxWindowsType
 ---@field distance Float
@@ -11,6 +12,7 @@
 ---@field distantWindowsSaturation Float
 ---@field distantWindowsTurnedOf Float
 worldProxyWindowsParams = {}
+
 
 ---@param fields? worldProxyWindowsParams
 ---@return worldProxyWindowsParams

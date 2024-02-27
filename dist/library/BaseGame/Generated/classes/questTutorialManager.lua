@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questTutorialManager: questITutorialManager
 questTutorialManager = {}
+
 
 ---@param fields? questTutorialManager
 ---@return questTutorialManager

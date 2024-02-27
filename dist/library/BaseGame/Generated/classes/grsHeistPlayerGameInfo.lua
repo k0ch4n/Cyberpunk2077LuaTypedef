@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class grsHeistPlayerGameInfo
 ---@field peerID netPeerID
 ---@field isInGame Bool
@@ -11,6 +12,7 @@
 ---@field deathCount Uint32
 ---@field characterRecord String
 grsHeistPlayerGameInfo = {}
+
 
 ---@param fields? grsHeistPlayerGameInfo
 ---@return grsHeistPlayerGameInfo

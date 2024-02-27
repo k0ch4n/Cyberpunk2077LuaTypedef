@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MessageCounterController: gameuiWidgetGameController
 ---@field messageCounter inkTextWidgetReference
 ---@field rootWidget inkWidget
@@ -7,6 +8,7 @@
 ---@field journalManager gameJournalManager
 ---@field Owner gameObject
 MessageCounterController = {}
+
 
 ---@param fields? MessageCounterController
 ---@return MessageCounterController

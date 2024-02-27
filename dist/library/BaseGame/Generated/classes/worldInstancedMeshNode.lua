@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldInstancedMeshNode: worldNode
 ---@field mesh CMesh
 ---@field meshAppearance CName
@@ -11,6 +12,7 @@
 ---@field worldTransformsBuffer worldRenderProxyTransformBuffer
 ---@field version Uint8
 worldInstancedMeshNode = {}
+
 
 ---@param fields? worldInstancedMeshNode
 ---@return worldInstancedMeshNode

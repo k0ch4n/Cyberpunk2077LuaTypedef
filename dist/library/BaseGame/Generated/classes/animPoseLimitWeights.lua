@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animPoseLimitWeights
 ---@field min Float
 ---@field mid Float
@@ -8,6 +9,7 @@
 ---@field type Uint8
 ---@field isCachable Bool
 animPoseLimitWeights = {}
+
 
 ---@param fields? animPoseLimitWeights
 ---@return animPoseLimitWeights

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIDriveCommandsDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field useKinematic Bool
 ---@field needDriver Bool
@@ -61,6 +62,7 @@
 ---@field driveRacingCommand AIVehicleRacingCommand
 ---@field driveJoinTrafficCommand AIVehicleJoinTrafficCommand
 AIDriveCommandsDelegate = {}
+
 
 ---@param fields? AIDriveCommandsDelegate
 ---@return AIDriveCommandsDelegate

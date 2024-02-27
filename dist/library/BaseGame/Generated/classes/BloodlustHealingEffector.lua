@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BloodlustHealingEffector: ApplyEffectToDismemberedEffector
 ---@field poolSystem gameStatPoolsSystem
 ---@field maxDistanceSquared Float
@@ -7,6 +8,7 @@
 ---@field usePercent Bool
 ---@field lastActivationTime Float
 BloodlustHealingEffector = {}
+
 
 ---@param fields? BloodlustHealingEffector
 ---@return BloodlustHealingEffector

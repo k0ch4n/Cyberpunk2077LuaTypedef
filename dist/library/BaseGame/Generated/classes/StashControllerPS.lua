@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StashControllerPS: ScriptableDeviceComponentPS
 StashControllerPS = {}
+
 
 ---@param fields? StashControllerPS
 ---@return StashControllerPS

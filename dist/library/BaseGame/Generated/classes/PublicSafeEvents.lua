@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PublicSafeEvents: WeaponEventsTransition
 ---@field weaponUnequipRequestSent Bool
 PublicSafeEvents = {}
+
 
 ---@param fields? PublicSafeEvents
 ---@return PublicSafeEvents

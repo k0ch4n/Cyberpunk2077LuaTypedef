@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameJournalInternetText: gameJournalInternetBase
 ---@field text LocalizationString
 gameJournalInternetText = {}
+
 
 ---@param fields? gameJournalInternetText
 ---@return gameJournalInternetText

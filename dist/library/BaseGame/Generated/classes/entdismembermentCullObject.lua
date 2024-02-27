@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entdismembermentCullObject
 ---@field Plane Plane
 ---@field Plane1 Plane
@@ -10,6 +11,7 @@
 ---@field NearestAnimIndex Int16
 ---@field RagdollBodyIndex Uint16
 entdismembermentCullObject = {}
+
 
 ---@param fields? entdismembermentCullObject
 ---@return entdismembermentCullObject

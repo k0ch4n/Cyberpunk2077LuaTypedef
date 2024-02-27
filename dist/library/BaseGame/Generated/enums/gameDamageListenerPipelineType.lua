@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameDamageListenerPipelineType: Enum
 ---@field None Enum 0
 ---@field Damage Enum 1

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class Crosshair_Power_Overture: gameuiCrosshairBaseGameController
 ---@field leftPart inkWidgetReference
 ---@field rightPart inkWidgetReference
 ---@field topPart inkWidgetReference
 ---@field botPart inkWidgetReference
 Crosshair_Power_Overture = {}
+
 
 ---@param fields? Crosshair_Power_Overture
 ---@return Crosshair_Power_Overture

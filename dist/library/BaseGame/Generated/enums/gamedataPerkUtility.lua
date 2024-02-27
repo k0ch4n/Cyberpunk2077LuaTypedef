@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataPerkUtility: Enum
 ---@field ActiveUtility Enum 0
 ---@field PassiveUtility Enum 1

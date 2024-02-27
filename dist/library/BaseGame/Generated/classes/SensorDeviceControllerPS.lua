@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SensorDeviceControllerPS: ExplosiveDeviceControllerPS
 ---@field isRecognizableBySenses Bool
 ---@field targetingBehaviour TargetingBehaviour
@@ -28,6 +29,7 @@
 ---@field isPartOfPrevention Bool
 ---@field ignoreTargetTrackerComponent Bool
 SensorDeviceControllerPS = {}
+
 
 ---@param fields? SensorDeviceControllerPS
 ---@return SensorDeviceControllerPS

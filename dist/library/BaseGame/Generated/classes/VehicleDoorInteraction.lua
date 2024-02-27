@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class VehicleDoorInteraction: ActionBool
 ---@field slotID CName
 ---@field isInteractionSource Bool
 VehicleDoorInteraction = {}
+
 
 ---@param fields? VehicleDoorInteraction
 ---@return VehicleDoorInteraction

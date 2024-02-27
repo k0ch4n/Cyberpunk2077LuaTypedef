@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StatsStreetCredReward: inkWidgetLogicController
 ---@field prevRewardsList inkCompoundWidgetReference
 ---@field currentRewardsList inkCompoundWidgetReference
@@ -10,6 +11,7 @@
 ---@field tooltipIndex Int32
 ---@field tooltipsManager gameuiTooltipsManager
 StatsStreetCredReward = {}
+
 
 ---@param fields? StatsStreetCredReward
 ---@return StatsStreetCredReward

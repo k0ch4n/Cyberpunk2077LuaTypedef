@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MeleeAttackCommandTask: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ---@field currentCommand AIMeleeAttackCommand
@@ -7,6 +8,7 @@
 ---@field activationTimeStamp Float
 ---@field commandDuration Float
 MeleeAttackCommandTask = {}
+
 
 ---@param fields? MeleeAttackCommandTask
 ---@return MeleeAttackCommandTask

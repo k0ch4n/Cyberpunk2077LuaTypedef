@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DepositQuestItems: ActionBool
 DepositQuestItems = {}
+
 
 ---@param fields? DepositQuestItems
 ---@return DepositQuestItems

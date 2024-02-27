@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataMovementPolicyTagList_Record: gamedataTweakDBRecord
 gamedataMovementPolicyTagList_Record = {}
+
 
 ---@param fields? gamedataMovementPolicyTagList_Record
 ---@return gamedataMovementPolicyTagList_Record

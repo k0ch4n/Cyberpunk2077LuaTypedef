@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ECentaurShieldState: Enum
 ---@field Inactive Enum 0
 ---@field Activating Enum 1

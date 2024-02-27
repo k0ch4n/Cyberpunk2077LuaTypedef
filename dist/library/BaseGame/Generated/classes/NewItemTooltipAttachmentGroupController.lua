@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewItemTooltipAttachmentGroupController: inkWidgetLogicController
 ---@field indicatorContainer inkWidgetReference
 ---@field indicatorWidget inkWidgetReference
@@ -13,6 +14,7 @@
 ---@field colorState CName
 ---@field isCrafting Bool
 NewItemTooltipAttachmentGroupController = {}
+
 
 ---@param fields? NewItemTooltipAttachmentGroupController
 ---@return NewItemTooltipAttachmentGroupController

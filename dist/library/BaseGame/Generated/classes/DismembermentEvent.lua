@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DismembermentEvent: redEvent
 ---@field bodyPart gameDismBodyPart
 ---@field woundType gameDismWoundType
@@ -8,6 +9,7 @@
 ---@field debrisPath String
 ---@field debrisStrength Float
 DismembermentEvent = {}
+
 
 ---@param fields? DismembermentEvent
 ---@return DismembermentEvent

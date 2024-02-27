@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ImageTextureGenerator: IDynamicTextureGenerator
 ImageTextureGenerator = {}
+
 
 ---@param fields? ImageTextureGenerator
 ---@return ImageTextureGenerator

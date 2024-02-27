@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickhackDescriptionUpdate: redEvent
 QuickhackDescriptionUpdate = {}
+
 
 ---@param fields? QuickhackDescriptionUpdate
 ---@return QuickhackDescriptionUpdate

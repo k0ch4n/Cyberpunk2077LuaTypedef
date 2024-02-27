@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class physicsColliderSphere: physicsICollider
 ---@field radius Float
 physicsColliderSphere = {}
+
 
 ---@param fields? physicsColliderSphere
 ---@return physicsColliderSphere

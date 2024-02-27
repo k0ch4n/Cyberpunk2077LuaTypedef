@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldAdvertisementLightData
 ---@field transform Transform
 ---@field isEnabled Bool
@@ -58,6 +59,7 @@
 ---@field pathTracingOverrideScaleGI Bool
 ---@field rtxdiShadowStartingDistance Float
 worldAdvertisementLightData = {}
+
 
 ---@param fields? worldAdvertisementLightData
 ---@return worldAdvertisementLightData

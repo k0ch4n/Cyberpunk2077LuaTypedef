@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CursorGameController: gameuiWidgetGameController
 ---@field cursorRoot CursorRootController
 ---@field currentContext CName
@@ -11,6 +12,7 @@
 ---@field dpadAnimProxy inkanimProxy
 ---@field clickAnimProxy inkanimProxy
 CursorGameController = {}
+
 
 ---@param fields? CursorGameController
 ---@return CursorGameController

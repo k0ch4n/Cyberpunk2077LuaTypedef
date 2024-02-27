@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameJournalFactNameValue
 ---@field factName CName
 ---@field factValue Int32
 gameJournalFactNameValue = {}
+
 
 ---@param fields? gameJournalFactNameValue
 ---@return gameJournalFactNameValue

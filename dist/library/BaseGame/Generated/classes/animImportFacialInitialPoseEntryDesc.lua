@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animImportFacialInitialPoseEntryDesc
 ---@field poseName CName
 ---@field id Int16
@@ -11,6 +12,7 @@
 ---@field initAnimationPoseMin Float
 ---@field initAnimationPoseMax Float
 animImportFacialInitialPoseEntryDesc = {}
+
 
 ---@param fields? animImportFacialInitialPoseEntryDesc
 ---@return animImportFacialInitialPoseEntryDesc

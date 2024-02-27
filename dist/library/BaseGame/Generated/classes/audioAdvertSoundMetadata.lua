@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAdvertSoundMetadata: audioAudioMetadata
 ---@field audioEvent1 CName
 ---@field audioEvent2 CName
@@ -12,6 +13,7 @@
 ---@field soundDelay3 Float
 ---@field soundDelay4 Float
 audioAdvertSoundMetadata = {}
+
 
 ---@param fields? audioAdvertSoundMetadata
 ---@return audioAdvertSoundMetadata

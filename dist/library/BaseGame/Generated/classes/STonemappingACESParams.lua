@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class STonemappingACESParams
 ---@field minStops Float
 ---@field maxStops Float
@@ -12,6 +13,7 @@
 ---@field tonemapLuminance Bool
 ---@field applyAfterLUT Bool
 STonemappingACESParams = {}
+
 
 ---@param fields? STonemappingACESParams
 ---@return STonemappingACESParams

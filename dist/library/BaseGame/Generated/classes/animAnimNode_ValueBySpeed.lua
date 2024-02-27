@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_ValueBySpeed: animAnimNode_FloatValue
 ---@field defaultValue Float
 ---@field clampType animClampType
@@ -8,6 +9,7 @@
 ---@field resetOnActivation Bool
 ---@field speed animFloatLink
 animAnimNode_ValueBySpeed = {}
+
 
 ---@param fields? animAnimNode_ValueBySpeed
 ---@return animAnimNode_ValueBySpeed

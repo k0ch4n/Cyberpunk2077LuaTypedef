@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DebugTextDrawer: gameObject
 ---@field text String
 ---@field color Color
 DebugTextDrawer = {}
+
 
 ---@param fields? DebugTextDrawer
 ---@return DebugTextDrawer

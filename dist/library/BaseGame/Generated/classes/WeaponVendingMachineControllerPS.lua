@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class WeaponVendingMachineControllerPS: VendingMachineControllerPS
 ---@field weaponVendingMachineSetup WeaponVendingMachineSetup
 ---@field weaponVendingMachineSFX WeaponVendingMachineSFX
 WeaponVendingMachineControllerPS = {}
+
 
 ---@param fields? WeaponVendingMachineControllerPS
 ---@return WeaponVendingMachineControllerPS

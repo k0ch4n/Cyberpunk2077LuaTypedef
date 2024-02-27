@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MeleeThrowAttackEvents: MeleeAttackGenericEvents
 ---@field projectileThrown Bool
 ---@field targetObject gameObject
 MeleeThrowAttackEvents = {}
+
 
 ---@param fields? MeleeThrowAttackEvents
 ---@return MeleeThrowAttackEvents

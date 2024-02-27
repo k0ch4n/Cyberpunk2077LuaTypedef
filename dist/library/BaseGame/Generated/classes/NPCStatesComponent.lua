@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NPCStatesComponent: gameAINetStateComponent
 ---@field aimingLookatEvent entLookAtAddEvent
 ---@field highLevelAnimFeatureName CName
@@ -25,6 +26,7 @@
 ---@field keepRecentThreatAfterRelaxedDuration Float
 ---@field inCombat Bool
 NPCStatesComponent = {}
+
 
 ---@param fields? NPCStatesComponent
 ---@return NPCStatesComponent

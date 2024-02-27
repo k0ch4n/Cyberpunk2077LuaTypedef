@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AGenericTooltipController: inkWidgetLogicController
 ---@field Root inkCompoundWidget
 AGenericTooltipController = {}
+
 
 ---@return Bool
 function AGenericTooltipController:OnInitialize() end

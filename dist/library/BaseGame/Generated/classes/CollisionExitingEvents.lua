@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CollisionExitingEvents: ImmediateExitWithForceEvents
 ---@field animFeatureStatusEffect AnimFeature_StatusEffect
 CollisionExitingEvents = {}
+
 
 ---@param fields? CollisionExitingEvents
 ---@return CollisionExitingEvents

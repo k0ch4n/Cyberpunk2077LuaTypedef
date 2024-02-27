@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MenuItemController: inkWidgetLogicController
 ---@field menuData MenuData
 ---@field label inkTextWidgetReference
@@ -21,6 +22,7 @@
 ---@field isDimmed Bool
 ---@field isHyperlink Bool
 MenuItemController = {}
+
 
 ---@param fields? MenuItemController
 ---@return MenuItemController

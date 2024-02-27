@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkInitializeUserScreenState: inkIStateMachineState
 inkInitializeUserScreenState = {}
+
 
 ---@param fields? inkInitializeUserScreenState
 ---@return inkInitializeUserScreenState

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class GameEffectExecutor_StimOnHit: gameEffectExecutor_Scripted
 ---@field stimType gamedataStimType
 ---@field silentStimType gamedataStimType
 ---@field suppressedByStimTypes gamedataStimType[]
 GameEffectExecutor_StimOnHit = {}
+
 
 ---@param fields? GameEffectExecutor_StimOnHit
 ---@return GameEffectExecutor_StimOnHit

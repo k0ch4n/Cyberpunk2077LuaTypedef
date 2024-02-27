@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionMissileRainCircular_Record: gamedataAISubActionShootWithWeapon_Record
 gamedataAISubActionMissileRainCircular_Record = {}
+
 
 ---@param fields? gamedataAISubActionMissileRainCircular_Record
 ---@return gamedataAISubActionMissileRainCircular_Record

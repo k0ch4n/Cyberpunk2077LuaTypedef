@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RelaxedState: ChangeHighLevelStateAbstract
 RelaxedState = {}
+
 
 ---@param fields? RelaxedState
 ---@return RelaxedState

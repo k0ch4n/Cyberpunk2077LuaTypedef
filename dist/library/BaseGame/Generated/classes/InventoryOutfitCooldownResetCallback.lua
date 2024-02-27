@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class InventoryOutfitCooldownResetCallback: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field controller InventoryItemModeLogicController
 InventoryOutfitCooldownResetCallback = {}
+
 
 ---@param fields? InventoryOutfitCooldownResetCallback
 ---@return InventoryOutfitCooldownResetCallback

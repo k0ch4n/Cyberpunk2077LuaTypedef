@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForkliftController: ScriptableDeviceComponent
 ForkliftController = {}
+
 
 ---@param fields? ForkliftController
 ---@return ForkliftController

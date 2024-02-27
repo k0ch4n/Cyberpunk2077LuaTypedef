@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SniperNest: SensorDevice
 ---@field animFeature AnimFeature_SecurityTurretData
 ---@field animFeatureName CName
@@ -17,6 +18,7 @@
 ---@field zoomLerpTimeStamp Float
 ---@field zoomLerpDuration Float
 SniperNest = {}
+
 
 ---@param fields? SniperNest
 ---@return SniperNest

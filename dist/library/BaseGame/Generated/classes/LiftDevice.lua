@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LiftDevice: InteractiveMasterDevice
 ---@field advertismentNames CName[]
 ---@field advertisments entIPlacedComponent[]
@@ -15,6 +16,7 @@
 ---@field isLoadPerformed Bool
 ---@field usedFallbackOnce Bool
 LiftDevice = {}
+
 
 ---@param fields? LiftDevice
 ---@return LiftDevice

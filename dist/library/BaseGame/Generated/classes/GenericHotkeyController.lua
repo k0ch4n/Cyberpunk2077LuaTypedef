@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GenericHotkeyController: gameuiNewPhoneRelatedHUDGameController
 ---@field hotkeyBackground inkImageWidgetReference
 ---@field buttonHint inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field debugCommands Uint32[]
 ---@field factListenerId Uint32
 GenericHotkeyController = {}
+
 
 ---@param evt DPADActionPerformed
 ---@return Bool

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ToggleBlockSceneInteractions: gameScriptableSystemRequest
 ---@field block Bool
 ToggleBlockSceneInteractions = {}
+
 
 ---@param fields? ToggleBlockSceneInteractions
 ---@return ToggleBlockSceneInteractions

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class HUDManagerDef: gamebbScriptDefinition
 ---@field ShowHudHintMessege gamebbScriptID_Bool
 ---@field HudHintMessegeContent gamebbScriptID_String
 HUDManagerDef = {}
+
 
 ---@param fields? HUDManagerDef
 ---@return HUDManagerDef

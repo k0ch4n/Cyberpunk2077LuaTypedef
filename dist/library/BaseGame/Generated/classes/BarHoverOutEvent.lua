@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BarHoverOutEvent: redEvent
 BarHoverOutEvent = {}
+
 
 ---@param fields? BarHoverOutEvent
 ---@return BarHoverOutEvent

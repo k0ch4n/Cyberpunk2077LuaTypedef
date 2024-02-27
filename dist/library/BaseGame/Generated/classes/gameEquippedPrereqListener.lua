@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEquippedPrereqListener: gameIAttachmentSlotsListener
 gameEquippedPrereqListener = {}
+
 
 ---@param fields? gameEquippedPrereqListener
 ---@return gameEquippedPrereqListener

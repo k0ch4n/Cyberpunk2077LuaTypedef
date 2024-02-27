@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AutoRevealStatListener: gameScriptStatsListener
 ---@field owner gameObject
 AutoRevealStatListener = {}
+
 
 ---@param fields? AutoRevealStatListener
 ---@return AutoRevealStatListener

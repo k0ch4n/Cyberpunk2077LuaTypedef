@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entMorphTargetManagerComponent: entExternalComponent
 entMorphTargetManagerComponent = {}
+
 
 ---@param fields? entMorphTargetManagerComponent
 ---@return entMorphTargetManagerComponent

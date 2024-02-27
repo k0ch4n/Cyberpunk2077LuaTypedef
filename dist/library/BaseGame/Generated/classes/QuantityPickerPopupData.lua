@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuantityPickerPopupData: inkGameNotificationData
 ---@field maxValue Int32
 ---@field gameItemData gameInventoryItemData
@@ -9,6 +10,7 @@
 ---@field isBuyback Bool
 ---@field sendQuantityChangedEvent Bool
 QuantityPickerPopupData = {}
+
 
 ---@param fields? QuantityPickerPopupData
 ---@return QuantityPickerPopupData

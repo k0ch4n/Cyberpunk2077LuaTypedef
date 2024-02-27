@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameeventsStealthMappinCheckLootEvent: redEvent
 gameeventsStealthMappinCheckLootEvent = {}
+
 
 ---@param fields? gameeventsStealthMappinCheckLootEvent
 ---@return gameeventsStealthMappinCheckLootEvent

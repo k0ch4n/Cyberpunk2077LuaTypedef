@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UndelectAllItemsDelayedEvent: redEvent
 UndelectAllItemsDelayedEvent = {}
+
 
 ---@param fields? UndelectAllItemsDelayedEvent
 ---@return UndelectAllItemsDelayedEvent

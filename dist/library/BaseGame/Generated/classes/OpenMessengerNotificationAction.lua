@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class OpenMessengerNotificationAction: GenericNotificationBaseAction
 ---@field eventDispatcher worlduiIWidgetGameController
 ---@field journalEntry gameJournalEntry
 OpenMessengerNotificationAction = {}
+
 
 ---@param fields? OpenMessengerNotificationAction
 ---@return OpenMessengerNotificationAction

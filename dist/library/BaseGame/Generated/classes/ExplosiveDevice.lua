@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ExplosiveDevice: BasicDistractionDevice
 ---@field numberOfComponentsToON Int32
 ---@field numberOfComponentsToOFF Int32
@@ -22,6 +23,7 @@
 ---@field componentsON entIPlacedComponent[]
 ---@field componentsOFF entIPlacedComponent[]
 ExplosiveDevice = {}
+
 
 ---@param fields? ExplosiveDevice
 ---@return ExplosiveDevice

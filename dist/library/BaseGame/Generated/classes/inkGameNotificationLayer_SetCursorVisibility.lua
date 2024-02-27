@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkGameNotificationLayer_SetCursorVisibility: redEvent
 inkGameNotificationLayer_SetCursorVisibility = {}
+
 
 ---@param fields? inkGameNotificationLayer_SetCursorVisibility
 ---@return inkGameNotificationLayer_SetCursorVisibility

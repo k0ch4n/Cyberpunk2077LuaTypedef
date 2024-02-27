@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAudioSceneData: audioAudioMetadata
 ---@field anyStateArray audioAudioStateData[]
 ---@field states audioAudioStateData[]
@@ -10,6 +11,7 @@
 ---@field templateSceneStateOverrides audioAudioSceneStateOverride[]
 ---@field templateSceneSignalOverrides audioAudioSceneSignalOverride[]
 audioAudioSceneData = {}
+
 
 ---@param fields? audioAudioSceneData
 ---@return audioAudioSceneData

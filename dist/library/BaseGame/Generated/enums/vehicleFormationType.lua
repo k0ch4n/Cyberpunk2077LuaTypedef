@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleFormationType: Enum
 ---@field FORMATION_TRIANGLE Enum 0
 ---@field FORMATION_TURTLE Enum 1

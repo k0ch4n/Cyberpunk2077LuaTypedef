@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StandEvents: LocomotionGroundEvents
 ---@field enteredAfterSprintWithNoInput Bool
 StandEvents = {}
+
 
 ---@param fields? StandEvents
 ---@return StandEvents

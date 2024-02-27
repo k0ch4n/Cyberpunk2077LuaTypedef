@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorForcedBehaviorNodeDefinition: AIbehaviorTreeNodeDefinition
 AIbehaviorForcedBehaviorNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorForcedBehaviorNodeDefinition
 ---@return AIbehaviorForcedBehaviorNodeDefinition

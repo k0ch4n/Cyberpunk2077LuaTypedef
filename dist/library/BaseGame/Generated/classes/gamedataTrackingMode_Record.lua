@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTrackingMode_Record: gamedataTweakDBRecord
 gamedataTrackingMode_Record = {}
+
 
 ---@param fields? gamedataTrackingMode_Record
 ---@return gamedataTrackingMode_Record

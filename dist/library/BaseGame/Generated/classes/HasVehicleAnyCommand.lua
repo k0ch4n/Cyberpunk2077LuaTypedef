@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HasVehicleAnyCommand: PreventionConditionAbstract
 HasVehicleAnyCommand = {}
+
 
 ---@param fields? HasVehicleAnyCommand
 ---@return HasVehicleAnyCommand

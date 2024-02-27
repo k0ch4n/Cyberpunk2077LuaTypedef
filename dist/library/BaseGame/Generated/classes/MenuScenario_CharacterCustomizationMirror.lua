@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MenuScenario_CharacterCustomizationMirror: MenuScenario_BaseMenu
 ---@field morphMenuUserData MorphMenuUserData
 MenuScenario_CharacterCustomizationMirror = {}
+
 
 ---@param fields? MenuScenario_CharacterCustomizationMirror
 ---@return MenuScenario_CharacterCustomizationMirror

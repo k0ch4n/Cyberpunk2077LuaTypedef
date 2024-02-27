@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audiobreathingLoopBehavior: Enum
 ---@field TimedBreathing Enum 0
 ---@field BreathEvery2ndStep Enum 1

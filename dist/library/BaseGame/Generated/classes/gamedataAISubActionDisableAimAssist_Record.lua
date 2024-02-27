@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionDisableAimAssist_Record: gamedataAISubAction_Record
 gamedataAISubActionDisableAimAssist_Record = {}
+
 
 ---@param fields? gamedataAISubActionDisableAimAssist_Record
 ---@return gamedataAISubActionDisableAimAssist_Record

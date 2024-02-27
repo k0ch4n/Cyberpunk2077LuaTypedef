@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class StopAndPlaySFXEffector: gameEffector
 ---@field sfxToStop CName
 ---@field sfxToStart CName
 ---@field owner gameObject
 StopAndPlaySFXEffector = {}
+
 
 ---@param fields? StopAndPlaySFXEffector
 ---@return StopAndPlaySFXEffector

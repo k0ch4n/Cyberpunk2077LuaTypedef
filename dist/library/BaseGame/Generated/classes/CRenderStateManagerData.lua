@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CRenderStateManagerData: ICameraStorageCustomData
 CRenderStateManagerData = {}
+
 
 ---@param fields? CRenderStateManagerData
 ---@return CRenderStateManagerData

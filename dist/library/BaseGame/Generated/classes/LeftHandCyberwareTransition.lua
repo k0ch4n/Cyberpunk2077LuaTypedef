@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareTransition: DefaultTransition
 ---@field leftCWFeature AnimFeature_LeftHandCyberware
 ---@field overchargeStatFlag gameStatModifierData_Deprecated
 LeftHandCyberwareTransition = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil

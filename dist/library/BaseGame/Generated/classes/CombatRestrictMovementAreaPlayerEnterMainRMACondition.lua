@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CombatRestrictMovementAreaPlayerEnterMainRMACondition: AICombatGuardAreaScriptCondition
 CombatRestrictMovementAreaPlayerEnterMainRMACondition = {}
+
 
 ---@param fields? CombatRestrictMovementAreaPlayerEnterMainRMACondition
 ---@return CombatRestrictMovementAreaPlayerEnterMainRMACondition

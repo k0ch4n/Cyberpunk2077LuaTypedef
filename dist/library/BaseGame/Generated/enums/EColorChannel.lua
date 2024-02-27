@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EColorChannel: Enum
 ---@field COLCHANNEL_Red Enum 0
 ---@field COLCHANNEL_Green Enum 1

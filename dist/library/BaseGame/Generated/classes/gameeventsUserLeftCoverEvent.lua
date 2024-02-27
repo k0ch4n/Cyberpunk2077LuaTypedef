@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameeventsUserLeftCoverEvent: redEvent
 gameeventsUserLeftCoverEvent = {}
+
 
 ---@param fields? gameeventsUserLeftCoverEvent
 ---@return gameeventsUserLeftCoverEvent

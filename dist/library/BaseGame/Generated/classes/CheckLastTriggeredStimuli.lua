@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CheckLastTriggeredStimuli: AIbehaviorconditionScript
 CheckLastTriggeredStimuli = {}
+
 
 ---@param fields? CheckLastTriggeredStimuli
 ---@return CheckLastTriggeredStimuli

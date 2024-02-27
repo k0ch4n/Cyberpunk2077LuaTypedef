@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class QuickhackInstance: ModuleInstance
 ---@field open Bool
 ---@field process Bool
 QuickhackInstance = {}
+
 
 ---@param fields? QuickhackInstance
 ---@return QuickhackInstance

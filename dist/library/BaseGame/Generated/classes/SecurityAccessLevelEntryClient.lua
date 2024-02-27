@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SecurityAccessLevelEntryClient: SecurityAccessLevelEntry
 ---@field level ESecurityAccessLevel
 SecurityAccessLevelEntryClient = {}
+
 
 ---@param fields? SecurityAccessLevelEntryClient
 ---@return SecurityAccessLevelEntryClient

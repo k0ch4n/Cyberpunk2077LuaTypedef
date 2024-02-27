@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameGetActionsContext
 ---@field clearance gamedeviceClearance
 ---@field requestorID entEntityID
@@ -11,6 +12,7 @@
 ---@field allowsRemoteAuthorization Bool
 ---@field ignoresRPG Bool
 gameGetActionsContext = {}
+
 
 ---@param fields? gameGetActionsContext
 ---@return gameGetActionsContext

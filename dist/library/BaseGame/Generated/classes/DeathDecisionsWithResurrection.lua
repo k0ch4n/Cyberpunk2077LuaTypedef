@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeathDecisionsWithResurrection: HighLevelTransition
 DeathDecisionsWithResurrection = {}
+
 
 ---@param fields? DeathDecisionsWithResurrection
 ---@return DeathDecisionsWithResurrection

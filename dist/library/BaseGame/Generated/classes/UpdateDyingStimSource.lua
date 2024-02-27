@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UpdateDyingStimSource: AIbehaviortaskScript
 UpdateDyingStimSource = {}
+
 
 ---@param fields? UpdateDyingStimSource
 ---@return UpdateDyingStimSource

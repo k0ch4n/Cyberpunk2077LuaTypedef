@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class DropPointSystem: gameScriptableSystem
 ---@field packages DropPointPackage[]
 ---@field mappins DropPointMappinRegistrationData[]
 ---@field isEnabled Bool
 ---@field dropPointSystemLocks DropPointSystemLock[]
 DropPointSystem = {}
+
 
 ---@param fields? DropPointSystem
 ---@return DropPointSystem

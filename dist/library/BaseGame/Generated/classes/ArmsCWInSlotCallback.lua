@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ArmsCWInSlotCallback: gameAttachmentSlotsScriptCallback
 ---@field state ArmsCWInSlotPrereqState
 ArmsCWInSlotCallback = {}
+
 
 ---@param fields? ArmsCWInSlotCallback
 ---@return ArmsCWInSlotCallback

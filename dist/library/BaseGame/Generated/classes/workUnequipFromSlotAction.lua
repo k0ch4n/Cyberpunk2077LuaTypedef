@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class workUnequipFromSlotAction: workIWorkspotItemAction
 ---@field itemSlot TweakDBID
 workUnequipFromSlotAction = {}
+
 
 ---@param fields? workUnequipFromSlotAction
 ---@return workUnequipFromSlotAction

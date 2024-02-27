@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ActionWeightManagerDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field actionsConditions String[]
 ---@field actionsWeights Int32[]
 ---@field lowestWeight Int32
 ---@field selectedActionIndex Int32
 ActionWeightManagerDelegate = {}
+
 
 ---@param fields? ActionWeightManagerDelegate
 ---@return ActionWeightManagerDelegate

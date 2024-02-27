@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questvehiclePanicParams: questVehicleSpecificCommandParams
 ---@field allowSimplifiedMovement Bool
 ---@field ignoreTickets Bool
@@ -7,6 +8,7 @@
 ---@field useSpeedBasedLookupRange Bool
 ---@field tryDriveAwayFromPlayer Bool
 questvehiclePanicParams = {}
+
 
 ---@param fields? questvehiclePanicParams
 ---@return questvehiclePanicParams

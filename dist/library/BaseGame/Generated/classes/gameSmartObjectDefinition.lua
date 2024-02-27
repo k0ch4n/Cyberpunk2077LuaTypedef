@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSmartObjectDefinition: ISerializable
 ---@field resource gameSmartObjectResource
 ---@field actions CName[]
@@ -7,6 +8,7 @@
 ---@field enabled Bool
 ---@field overrideGeneratedParameters Bool
 gameSmartObjectDefinition = {}
+
 
 ---@param fields? gameSmartObjectDefinition
 ---@return gameSmartObjectDefinition

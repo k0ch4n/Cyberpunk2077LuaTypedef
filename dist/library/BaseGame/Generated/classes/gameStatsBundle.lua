@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameStatsBundle
 gameStatsBundle = {}
+
 
 ---@param fields? gameStatsBundle
 ---@return gameStatsBundle

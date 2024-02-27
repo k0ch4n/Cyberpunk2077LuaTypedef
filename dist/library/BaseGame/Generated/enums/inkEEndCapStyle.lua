@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkEEndCapStyle: Enum
 ---@field BUTT Enum 0
 ---@field SQUARE Enum 1

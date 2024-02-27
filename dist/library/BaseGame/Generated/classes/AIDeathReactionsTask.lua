@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIDeathReactionsTask: AIbehaviortaskScript
 ---@field fastForwardAnimation AIArgumentMapping
 ---@field hitData animAnimFeature_HitReactionsData
@@ -8,6 +9,7 @@
 ---@field deathHasBeenPlayed Bool
 ---@field updateFrame Int32
 AIDeathReactionsTask = {}
+
 
 ---@param owner ScriptedPuppet
 ---@return Bool

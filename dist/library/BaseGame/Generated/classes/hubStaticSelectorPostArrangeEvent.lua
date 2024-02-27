@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class hubStaticSelectorPostArrangeEvent: redEvent
 hubStaticSelectorPostArrangeEvent = {}
+
 
 ---@param fields? hubStaticSelectorPostArrangeEvent
 ---@return hubStaticSelectorPostArrangeEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioRadioStationJingleMetadata
 ---@field introJingleEvent CName
 ---@field introDuration Float
@@ -7,6 +8,7 @@
 ---@field endJingleEvent CName
 ---@field outroDuration Float
 audioRadioStationJingleMetadata = {}
+
 
 ---@param fields? audioRadioStationJingleMetadata
 ---@return audioRadioStationJingleMetadata

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animSetBoneTransformEntry_SetMethod: Enum
 ---@field NoSnapping Enum 0
 ---@field WholeTransform Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAIDirectorSystem: gameIAIDirectorSystem
 gameAIDirectorSystem = {}
+
 
 ---@param fields? gameAIDirectorSystem
 ---@return gameAIDirectorSystem

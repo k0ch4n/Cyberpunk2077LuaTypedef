@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTransgression_Record: gamedataTweakDBRecord
 gamedataTransgression_Record = {}
+
 
 ---@param fields? gamedataTransgression_Record
 ---@return gamedataTransgression_Record

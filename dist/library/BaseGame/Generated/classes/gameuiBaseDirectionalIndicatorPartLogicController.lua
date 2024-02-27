@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameuiBaseDirectionalIndicatorPartLogicController: inkWidgetLogicController
 ---@field defaultForwardFovRange Float
 ---@field adjustedForwardFovRange Float
 gameuiBaseDirectionalIndicatorPartLogicController = {}
+
 
 ---@param fields? gameuiBaseDirectionalIndicatorPartLogicController
 ---@return gameuiBaseDirectionalIndicatorPartLogicController

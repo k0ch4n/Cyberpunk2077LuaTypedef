@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SDeviceActionData
 ---@field hasInteraction Bool
 ---@field hasUI Bool
@@ -12,6 +13,7 @@
 ---@field currentDisplayName CName
 ---@field interactionRecord String
 SDeviceActionData = {}
+
 
 ---@param fields? SDeviceActionData
 ---@return SDeviceActionData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RemoveStatusEffectsOnStoryTier: StatusEffectTasks
 RemoveStatusEffectsOnStoryTier = {}
+
 
 ---@param fields? RemoveStatusEffectsOnStoryTier
 ---@return RemoveStatusEffectsOnStoryTier

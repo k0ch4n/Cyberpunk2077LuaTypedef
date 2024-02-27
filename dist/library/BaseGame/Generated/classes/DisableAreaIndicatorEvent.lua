@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisableAreaIndicatorEvent: redEvent
 DisableAreaIndicatorEvent = {}
+
 
 ---@param fields? DisableAreaIndicatorEvent
 ---@return DisableAreaIndicatorEvent

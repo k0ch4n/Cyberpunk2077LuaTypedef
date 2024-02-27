@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiPanzerEnemy: gameuiSideScrollerMiniGameDynObjectLogicAdvanced
 ---@field noBonusChanceCoeff Uint32
 ---@field health Int32
@@ -17,6 +18,7 @@
 ---@field score100ChanceCoeff Uint32
 ---@field score200ChanceCoeff Uint32
 gameuiPanzerEnemy = {}
+
 
 ---@param fields? gameuiPanzerEnemy
 ---@return gameuiPanzerEnemy

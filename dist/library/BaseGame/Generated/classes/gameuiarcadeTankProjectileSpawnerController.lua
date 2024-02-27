@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiarcadeTankProjectileSpawnerController: gameuiarcadeArcadeSpawnerController
 gameuiarcadeTankProjectileSpawnerController = {}
+
 
 ---@param fields? gameuiarcadeTankProjectileSpawnerController
 ---@return gameuiarcadeTankProjectileSpawnerController

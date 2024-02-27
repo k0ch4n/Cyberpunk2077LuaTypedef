@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataImprovementRelation: Enum
 ---@field Direct Enum 0
 ---@field Inverse Enum 1

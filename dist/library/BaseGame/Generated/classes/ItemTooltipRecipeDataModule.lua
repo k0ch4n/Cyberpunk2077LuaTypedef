@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemTooltipRecipeDataModule: ItemTooltipModuleController
 ---@field randomQualityLabel inkTextWidgetReference
 ---@field randomQualityWrapper inkWidgetReference
@@ -10,6 +11,7 @@
 ---@field damageTypesWrapper inkWidgetReference
 ---@field damageTypesContainer inkCompoundWidgetReference
 ItemTooltipRecipeDataModule = {}
+
 
 ---@param fields? ItemTooltipRecipeDataModule
 ---@return ItemTooltipRecipeDataModule

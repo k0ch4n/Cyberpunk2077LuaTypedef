@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HitIsHumanPrereq: GenericHitPrereq
 ---@field invert Bool
 HitIsHumanPrereq = {}
+
 
 ---@param fields? HitIsHumanPrereq
 ---@return HitIsHumanPrereq

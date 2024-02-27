@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkAdvertisementsLayerDefinition: inkLayerDefinition
 inkAdvertisementsLayerDefinition = {}
+
 
 ---@param fields? inkAdvertisementsLayerDefinition
 ---@return inkAdvertisementsLayerDefinition

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StatBonusFromFactEffector: gameEffector
 ---@field applicationTarget CName
 ---@field stat gamedataStat_Record
@@ -7,6 +8,7 @@
 ---@field fact CName
 ---@field modifier gameConstantStatModifierData_Deprecated
 StatBonusFromFactEffector = {}
+
 
 ---@param fields? StatBonusFromFactEffector
 ---@return StatBonusFromFactEffector

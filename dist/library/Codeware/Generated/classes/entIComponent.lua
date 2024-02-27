@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entIComponent: IScriptable
 entIComponent = {}
+
 
 ---@param name CName|string
 ---@return Bool

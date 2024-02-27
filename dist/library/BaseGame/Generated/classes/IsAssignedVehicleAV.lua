@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsAssignedVehicleAV: PreventionConditionAbstract
 IsAssignedVehicleAV = {}
+
 
 ---@param fields? IsAssignedVehicleAV
 ---@return IsAssignedVehicleAV

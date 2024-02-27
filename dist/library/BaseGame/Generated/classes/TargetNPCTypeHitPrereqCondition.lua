@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TargetNPCTypeHitPrereqCondition: BaseHitPrereqCondition
 ---@field type gamedataNPCType
 TargetNPCTypeHitPrereqCondition = {}
+
 
 ---@param fields? TargetNPCTypeHitPrereqCondition
 ---@return TargetNPCTypeHitPrereqCondition

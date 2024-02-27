@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRandomRatioCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataRandomRatioCoverSelectionParameters_Record = {}
+
 
 ---@param fields? gamedataRandomRatioCoverSelectionParameters_Record
 ---@return gamedataRandomRatioCoverSelectionParameters_Record

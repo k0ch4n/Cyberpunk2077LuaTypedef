@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questGlitchLoadingScreen_NodeType: questIUIManagerNodeType
 questGlitchLoadingScreen_NodeType = {}
+
 
 ---@param fields? questGlitchLoadingScreen_NodeType
 ---@return questGlitchLoadingScreen_NodeType

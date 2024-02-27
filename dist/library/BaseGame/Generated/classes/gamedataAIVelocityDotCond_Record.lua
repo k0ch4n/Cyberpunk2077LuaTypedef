@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIVelocityDotCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIVelocityDotCond_Record = {}
+
 
 ---@param fields? gamedataAIVelocityDotCond_Record
 ---@return gamedataAIVelocityDotCond_Record

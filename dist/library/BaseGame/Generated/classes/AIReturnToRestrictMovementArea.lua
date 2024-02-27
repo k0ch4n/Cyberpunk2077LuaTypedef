@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIReturnToRestrictMovementArea: AIbehaviortaskScript
 AIReturnToRestrictMovementArea = {}
+
 
 ---@param fields? AIReturnToRestrictMovementArea
 ---@return AIReturnToRestrictMovementArea

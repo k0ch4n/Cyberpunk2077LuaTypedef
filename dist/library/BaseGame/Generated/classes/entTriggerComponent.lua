@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entTriggerComponent: entPhysicalTriggerComponent
 entTriggerComponent = {}
+
 
 ---@param fields? entTriggerComponent
 ---@return entTriggerComponent

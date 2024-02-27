@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class sampleUIAnimationController: inkWidgetLogicController
 ---@field rotation_anim inkanimDefinition
 ---@field size_anim inkanimDefinition
@@ -18,6 +19,7 @@
 ---@field is_stoped Bool
 ---@field playReversed Bool
 sampleUIAnimationController = {}
+
 
 ---@param fields? sampleUIAnimationController
 ---@return sampleUIAnimationController

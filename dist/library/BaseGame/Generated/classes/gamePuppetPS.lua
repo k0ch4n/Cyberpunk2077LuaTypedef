@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePuppetPS: gameObjectPS
 ---@field gender CName
 ---@field wasQuickHacked Bool
@@ -8,6 +9,7 @@
 ---@field isCrouch Bool
 ---@field allowVehicleCollisionRagdoll Bool
 gamePuppetPS = {}
+
 
 ---@param fields? gamePuppetPS
 ---@return gamePuppetPS

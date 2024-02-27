@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAIComparison: Enum
 ---@field Equal Enum 0
 ---@field Greater Enum 1

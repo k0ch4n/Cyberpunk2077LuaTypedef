@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SystemConsoleLogicController: inkWidgetLogicController
 ---@field alphaSys inkWidgetReference
 ---@field bravoSys inkWidgetReference
 ---@field sierraSys inkWidgetReference
 ---@field victorSys inkWidgetReference
 SystemConsoleLogicController = {}
+
 
 ---@param fields? SystemConsoleLogicController
 ---@return SystemConsoleLogicController

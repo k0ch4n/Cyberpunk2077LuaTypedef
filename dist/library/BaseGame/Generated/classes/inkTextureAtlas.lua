@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkTextureAtlas: CResource
 ---@field activeTexture inkTextureType
 ---@field textureResolution inkETextureResolution
@@ -11,6 +12,7 @@
 ---@field dynamicTextureSlot inkDynamicTextureSlot
 ---@field isSingleTextureMode Bool
 inkTextureAtlas = {}
+
 
 ---@param fields? inkTextureAtlas
 ---@return inkTextureAtlas

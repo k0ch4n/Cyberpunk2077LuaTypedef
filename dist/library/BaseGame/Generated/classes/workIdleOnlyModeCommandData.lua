@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workIdleOnlyModeCommandData: workIWorkspotCommandData
 workIdleOnlyModeCommandData = {}
+
 
 ---@param fields? workIdleOnlyModeCommandData
 ---@return workIdleOnlyModeCommandData

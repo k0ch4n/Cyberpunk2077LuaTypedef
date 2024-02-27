@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAICanShootInCarChaseCond_Record: gamedataAIActionSubCondition_Record
 gamedataAICanShootInCarChaseCond_Record = {}
+
 
 ---@param fields? gamedataAICanShootInCarChaseCond_Record
 ---@return gamedataAICanShootInCarChaseCond_Record

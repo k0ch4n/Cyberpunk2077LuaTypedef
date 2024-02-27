@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class IdentifiedWrappedTooltipData: ATooltipData
 ---@field identifier CName
 ---@field tooltipOwner entEntityID
 ---@field data ATooltipData
 IdentifiedWrappedTooltipData = {}
+
 
 ---@param fields? IdentifiedWrappedTooltipData
 ---@return IdentifiedWrappedTooltipData

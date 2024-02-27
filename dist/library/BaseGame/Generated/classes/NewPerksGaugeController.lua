@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerksGaugeController: inkWidgetLogicController
 ---@field bar inkWidgetReference
 ---@field possibleBar inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field levelText inkTextWidgetReference
 ---@field levels NewPerksGaugePointDetails[]
 NewPerksGaugeController = {}
+
 
 ---@param fields? NewPerksGaugeController
 ---@return NewPerksGaugeController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiGameSystemUI: gameuiIGameSystemUI
 gameuiGameSystemUI = {}
+
 
 ---@param fields? gameuiGameSystemUI
 ---@return gameuiGameSystemUI

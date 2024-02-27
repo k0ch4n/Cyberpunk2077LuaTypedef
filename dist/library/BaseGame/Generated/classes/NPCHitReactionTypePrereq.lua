@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class NPCHitReactionTypePrereq: gameIScriptablePrereq
 ---@field hitReactionType animHitReactionType
 ---@field timeout Float
 ---@field invert Bool
 NPCHitReactionTypePrereq = {}
+
 
 ---@param fields? NPCHitReactionTypePrereq
 ---@return NPCHitReactionTypePrereq

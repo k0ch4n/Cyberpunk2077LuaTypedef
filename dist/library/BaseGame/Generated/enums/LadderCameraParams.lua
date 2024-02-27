@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LadderCameraParams: Enum
 ---@field None Enum 0
 ---@field Enter Enum 1

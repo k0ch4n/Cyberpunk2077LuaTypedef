@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayerStatsListener: gameScriptStatsListener
 ---@field owner gameObject
 PlayerStatsListener = {}
+
 
 ---@param fields? PlayerStatsListener
 ---@return PlayerStatsListener

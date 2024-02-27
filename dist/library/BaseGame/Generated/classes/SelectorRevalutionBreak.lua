@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SelectorRevalutionBreak: AIbehaviortaskScript
 ---@field reevaluationDuration Float
 ---@field activationTimeStamp Float
 SelectorRevalutionBreak = {}
+
 
 ---@param fields? SelectorRevalutionBreak
 ---@return SelectorRevalutionBreak

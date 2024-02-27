@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class LoopAnimationLogicController: inkWidgetLogicController
 ---@field defaultAnimation CName
 ---@field selectionRule inkSelectionRule
 LoopAnimationLogicController = {}
+
 
 ---@param fields? LoopAnimationLogicController
 ---@return LoopAnimationLogicController

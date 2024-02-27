@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisassembleMasterControllerPS: MasterControllerPS
 DisassembleMasterControllerPS = {}
+
 
 ---@param fields? DisassembleMasterControllerPS
 ---@return DisassembleMasterControllerPS

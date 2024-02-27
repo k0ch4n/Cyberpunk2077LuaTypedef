@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CRenderLightVolumeCollector: ICameraStorageCustomData
 CRenderLightVolumeCollector = {}
+
 
 ---@param fields? CRenderLightVolumeCollector
 ---@return CRenderLightVolumeCollector

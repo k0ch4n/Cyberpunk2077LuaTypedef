@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionCustomEffectors_Record: gamedataAISubAction_Record
 gamedataAISubActionCustomEffectors_Record = {}
+
 
 ---@param fields? gamedataAISubActionCustomEffectors_Record
 ---@return gamedataAISubActionCustomEffectors_Record

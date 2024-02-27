@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkHudWidgetSpawnEntry
 ---@field hudEntryName CName
 ---@field enabled Bool
@@ -21,6 +22,7 @@
 ---@field hudScalingInterpolationValue Float
 ---@field hudScalingMarginCorrection inkMargin
 inkHudWidgetSpawnEntry = {}
+
 
 ---@param fields? inkHudWidgetSpawnEntry
 ---@return inkHudWidgetSpawnEntry

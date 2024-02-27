@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AssignRestrictMovementAreaHandler: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ---@field resultOnNoChange AIbehaviorCompletionStatus
 AssignRestrictMovementAreaHandler = {}
+
 
 ---@param fields? AssignRestrictMovementAreaHandler
 ---@return AssignRestrictMovementAreaHandler

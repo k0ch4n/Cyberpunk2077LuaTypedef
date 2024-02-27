@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestToggleCustomAction: ActionName
 QuestToggleCustomAction = {}
+
 
 ---@param fields? QuestToggleCustomAction
 ---@return QuestToggleCustomAction

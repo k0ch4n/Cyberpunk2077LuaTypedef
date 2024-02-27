@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CodexUserData: IScriptable
 ---@field DataSource CodexDataSource
 CodexUserData = {}
+
 
 ---@param fields? CodexUserData
 ---@return CodexUserData

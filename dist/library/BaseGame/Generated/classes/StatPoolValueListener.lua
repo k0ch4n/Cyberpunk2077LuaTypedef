@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StatPoolValueListener: gameScriptStatPoolsListener
 ---@field effector StatPoolBasedTimeBankEffector
 StatPoolValueListener = {}
+
 
 ---@param fields? StatPoolValueListener
 ---@return StatPoolValueListener

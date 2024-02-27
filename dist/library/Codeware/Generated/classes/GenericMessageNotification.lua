@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GenericMessageNotification: gameuiWidgetGameController
 ---@field textInput Codeware_UI_TextInput
 GenericMessageNotification = {}
+
 
 ---@param fields? GenericMessageNotification
 ---@return GenericMessageNotification

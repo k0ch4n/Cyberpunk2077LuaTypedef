@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemPreviewGameController: gameuiItemPreviewGameController
 ---@field colliderWidgetRef inkWidgetReference
 ---@field colliderWidget inkWidget
@@ -17,6 +18,7 @@
 ---@field isMouseDown Bool
 ---@field c_ITEM_ROTATION_SPEED Float
 ItemPreviewGameController = {}
+
 
 ---@param fields? ItemPreviewGameController
 ---@return ItemPreviewGameController

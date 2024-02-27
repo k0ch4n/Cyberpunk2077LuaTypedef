@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ReloadFromEmptyPrereq: gameIScriptablePrereq
 ---@field minAmountOfAmmoReloaded Int32
 ReloadFromEmptyPrereq = {}
+
 
 ---@param fields? ReloadFromEmptyPrereq
 ---@return ReloadFromEmptyPrereq

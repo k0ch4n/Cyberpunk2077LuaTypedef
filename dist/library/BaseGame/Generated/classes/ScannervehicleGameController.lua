@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannervehicleGameController: BaseChunkGameController
 ---@field vehicleNameCallbackID redCallbackObject
 ---@field vehicleManufacturerCallbackID redCallbackObject
@@ -33,6 +34,7 @@
 ---@field vehicleStateHolder inkWidgetReference
 ---@field vehicleInfoHolder inkWidgetReference
 ScannervehicleGameController = {}
+
 
 ---@param fields? ScannervehicleGameController
 ---@return ScannervehicleGameController

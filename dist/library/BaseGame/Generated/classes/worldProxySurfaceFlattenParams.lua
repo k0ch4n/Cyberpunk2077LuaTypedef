@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldProxySurfaceFlattenParams
 ---@field flatten Bool
 ---@field groupingStepAngle worldProxyNormalAngleStepSize
@@ -7,6 +8,7 @@
 ---@field coreAxisRotationOffset Float
 ---@field postFlattenReduce Bool
 worldProxySurfaceFlattenParams = {}
+
 
 ---@param fields? worldProxySurfaceFlattenParams
 ---@return worldProxySurfaceFlattenParams

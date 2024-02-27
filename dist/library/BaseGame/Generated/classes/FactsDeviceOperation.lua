@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FactsDeviceOperation: DeviceOperationBase
 ---@field facts SFactOperationData[]
 FactsDeviceOperation = {}
+
 
 ---@param fields? FactsDeviceOperation
 ---@return FactsDeviceOperation

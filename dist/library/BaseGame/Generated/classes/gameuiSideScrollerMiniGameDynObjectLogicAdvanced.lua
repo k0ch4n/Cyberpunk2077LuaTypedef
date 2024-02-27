@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiSideScrollerMiniGameDynObjectLogicAdvanced: inkWidgetLogicController
 gameuiSideScrollerMiniGameDynObjectLogicAdvanced = {}
+
 
 ---@param fields? gameuiSideScrollerMiniGameDynObjectLogicAdvanced
 ---@return gameuiSideScrollerMiniGameDynObjectLogicAdvanced

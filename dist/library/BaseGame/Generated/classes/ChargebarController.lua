@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ChargebarController: inkWidgetLogicController
 ---@field foreground inkWidgetReference
 ---@field midground inkWidgetReference
@@ -23,6 +24,7 @@
 ---@field animationStaticChargePlayed Bool
 ---@field isCharged Bool
 ChargebarController = {}
+
 
 ---@param fields? ChargebarController
 ---@return ChargebarController

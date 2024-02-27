@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuestFollowTarget: ActionEntityReference
 ---@field ForcedTarget entEntityID
 QuestFollowTarget = {}
+
 
 ---@param fields? QuestFollowTarget
 ---@return QuestFollowTarget

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIDriveOnSplineCommandHandler: AICommandHandlerBase
 ---@field outUseKinematic AIArgumentMapping
 ---@field outNeedDriver AIArgumentMapping
@@ -23,6 +24,7 @@
 ---@field outRubberBandingStayInFront AIArgumentMapping
 ---@field outAudioCurvesParam AIArgumentMapping
 AIDriveOnSplineCommandHandler = {}
+
 
 ---@param fields? AIDriveOnSplineCommandHandler
 ---@return AIDriveOnSplineCommandHandler

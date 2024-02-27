@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ClearPreventionSystemLocks: gameScriptableSystemRequest
 ClearPreventionSystemLocks = {}
+
 
 ---@param fields? ClearPreventionSystemLocks
 ---@return ClearPreventionSystemLocks

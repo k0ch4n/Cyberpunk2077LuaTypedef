@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataActionTargetInDistancePrereq_Record: gamedataIPrereq_Record
 gamedataActionTargetInDistancePrereq_Record = {}
+
 
 ---@param fields? gamedataActionTargetInDistancePrereq_Record
 ---@return gamedataActionTargetInDistancePrereq_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CerberusDetectionOpticalCamo: AIbehaviorconditionScript
 CerberusDetectionOpticalCamo = {}
+
 
 ---@param fields? CerberusDetectionOpticalCamo
 ---@return CerberusDetectionOpticalCamo

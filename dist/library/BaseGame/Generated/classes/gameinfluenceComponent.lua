@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameinfluenceComponent: entIPlacedComponent
 ---@field isEnabled Bool
 gameinfluenceComponent = {}
+
 
 ---@param fields? gameinfluenceComponent
 ---@return gameinfluenceComponent

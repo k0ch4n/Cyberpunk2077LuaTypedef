@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questLootTokenState: Enum
 ---@field Enabled Enum 0
 ---@field Disabled Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TriggerNotifier_BarbedWireInstance: entTriggerNotifier_ScriptInstance
 TriggerNotifier_BarbedWireInstance = {}
+
 
 ---@param fields? TriggerNotifier_BarbedWireInstance
 ---@return TriggerNotifier_BarbedWireInstance

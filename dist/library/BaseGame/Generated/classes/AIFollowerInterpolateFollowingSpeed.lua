@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIFollowerInterpolateFollowingSpeed: AIbehaviortaskScript
 ---@field enterCondition TweakDBID
 ---@field exitCondition TweakDBID
@@ -11,6 +12,7 @@
 ---@field isActive Bool
 ---@field reason CName
 AIFollowerInterpolateFollowingSpeed = {}
+
 
 ---@param fields? AIFollowerInterpolateFollowingSpeed
 ---@return AIFollowerInterpolateFollowingSpeed

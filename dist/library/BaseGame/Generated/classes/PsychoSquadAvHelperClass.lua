@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PsychoSquadAvHelperClass: gameScriptableSystem
 PsychoSquadAvHelperClass = {}
+
 
 ---@param fields? PsychoSquadAvHelperClass
 ---@return PsychoSquadAvHelperClass

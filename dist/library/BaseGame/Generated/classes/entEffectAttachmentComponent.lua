@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entEffectAttachmentComponent: entIComponent
 entEffectAttachmentComponent = {}
+
 
 ---@param fields? entEffectAttachmentComponent
 ---@return entEffectAttachmentComponent

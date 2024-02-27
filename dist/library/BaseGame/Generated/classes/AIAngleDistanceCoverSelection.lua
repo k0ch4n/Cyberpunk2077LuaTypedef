@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIAngleDistanceCoverSelection: AICoverSelectionParameters
 AIAngleDistanceCoverSelection = {}
+
 
 ---@param fields? AIAngleDistanceCoverSelection
 ---@return AIAngleDistanceCoverSelection

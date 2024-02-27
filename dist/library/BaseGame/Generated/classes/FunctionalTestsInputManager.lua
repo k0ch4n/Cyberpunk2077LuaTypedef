@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FunctionalTestsInputManager
 FunctionalTestsInputManager = {}
+
 
 ---@param fields? FunctionalTestsInputManager
 ---@return FunctionalTestsInputManager

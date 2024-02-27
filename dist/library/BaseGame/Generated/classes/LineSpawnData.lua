@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LineSpawnData: IScriptable
 ---@field lineData scnDialogLineData
 LineSpawnData = {}
+
 
 ---@param fields? LineSpawnData
 ---@return LineSpawnData

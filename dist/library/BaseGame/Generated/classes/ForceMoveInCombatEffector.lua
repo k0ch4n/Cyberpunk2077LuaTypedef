@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ForceMoveInCombatEffector: gameEffector
 ---@field aiComponent AIHumanComponent
 ---@field commandStarted Bool
 ForceMoveInCombatEffector = {}
+
 
 ---@param fields? ForceMoveInCombatEffector
 ---@return ForceMoveInCombatEffector

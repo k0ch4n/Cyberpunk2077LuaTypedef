@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamemappinsVerticalPositioning: Enum
 ---@field Above Enum 0
 ---@field Same Enum 1

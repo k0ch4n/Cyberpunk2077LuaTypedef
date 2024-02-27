@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ExpressionTreeCGeneralOrNodeDefinition: ExpressionTreeCGeneralCompositeNodeDefinition
 ExpressionTreeCGeneralOrNodeDefinition = {}
+
 
 ---@param fields? ExpressionTreeCGeneralOrNodeDefinition
 ---@return ExpressionTreeCGeneralOrNodeDefinition

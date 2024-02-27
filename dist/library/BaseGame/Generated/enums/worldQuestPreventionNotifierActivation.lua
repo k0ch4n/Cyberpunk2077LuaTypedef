@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldQuestPreventionNotifierActivation: Enum
 ---@field OnFootOnly Enum 0
 ---@field InVehicleOnly Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiarcadeShooterTraumaTeamController: inkWidgetLogicController
 gameuiarcadeShooterTraumaTeamController = {}
+
 
 ---@param fields? gameuiarcadeShooterTraumaTeamController
 ---@return gameuiarcadeShooterTraumaTeamController

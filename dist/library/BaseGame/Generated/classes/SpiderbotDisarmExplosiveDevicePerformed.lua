@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SpiderbotDisarmExplosiveDevicePerformed: ActionBool
 SpiderbotDisarmExplosiveDevicePerformed = {}
+
 
 ---@param fields? SpiderbotDisarmExplosiveDevicePerformed
 ---@return SpiderbotDisarmExplosiveDevicePerformed

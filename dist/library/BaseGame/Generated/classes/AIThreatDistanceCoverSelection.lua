@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIThreatDistanceCoverSelection: AICoverSelectionParameters
 AIThreatDistanceCoverSelection = {}
+
 
 ---@param fields? AIThreatDistanceCoverSelection
 ---@return AIThreatDistanceCoverSelection

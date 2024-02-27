@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviortweakAmmoCountConditionData
 AIbehaviortweakAmmoCountConditionData = {}
+
 
 ---@param fields? AIbehaviortweakAmmoCountConditionData
 ---@return AIbehaviortweakAmmoCountConditionData

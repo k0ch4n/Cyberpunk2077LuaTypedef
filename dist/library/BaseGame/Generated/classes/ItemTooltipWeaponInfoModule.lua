@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemTooltipWeaponInfoModule: ItemTooltipModuleController
 ---@field wrapper inkWidgetReference
 ---@field arrow inkImageWidgetReference
@@ -12,6 +13,7 @@
 ---@field ammoText inkTextWidgetReference
 ---@field ammoWrapper inkWidgetReference
 ItemTooltipWeaponInfoModule = {}
+
 
 ---@param fields? ItemTooltipWeaponInfoModule
 ---@return ItemTooltipWeaponInfoModule

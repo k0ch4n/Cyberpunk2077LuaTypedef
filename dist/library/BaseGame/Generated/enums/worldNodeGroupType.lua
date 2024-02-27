@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldNodeGroupType: Enum
 ---@field RegularGroup Enum 0
 ---@field PrefabVariant Enum 1

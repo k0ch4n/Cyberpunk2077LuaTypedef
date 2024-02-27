@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SettingsSelectorControllerBool: inkSettingsSelectorController
 ---@field onState inkWidgetReference
 ---@field offState inkWidgetReference
 ---@field onStateBody inkWidgetReference
 ---@field offStateBody inkWidgetReference
 SettingsSelectorControllerBool = {}
+
 
 ---@param fields? SettingsSelectorControllerBool
 ---@return SettingsSelectorControllerBool

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class entLookAtRemoveEvent: redEvent
 ---@field lookAtRef animLookAtRef
 ---@field hasOutTransition Bool
 ---@field outTransitionSpeed Float
 entLookAtRemoveEvent = {}
+
 
 ---@param fields? entLookAtRemoveEvent
 ---@return entLookAtRemoveEvent

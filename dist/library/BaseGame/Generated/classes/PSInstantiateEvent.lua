@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PSInstantiateEvent: redEvent
 PSInstantiateEvent = {}
+
 
 ---@param fields? PSInstantiateEvent
 ---@return PSInstantiateEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TVSetup
 ---@field channels STvChannel[]
 ---@field initialChannel Int32
@@ -8,6 +9,7 @@
 ---@field isInteractive Bool
 ---@field isGlobalTvOnly Bool
 TVSetup = {}
+
 
 ---@param fields? TVSetup
 ---@return TVSetup

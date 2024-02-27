@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class curveESegmentsLinkType: Enum
 ---@field ESLT_Normal Enum 0
 ---@field ESLT_Smooth Enum 1

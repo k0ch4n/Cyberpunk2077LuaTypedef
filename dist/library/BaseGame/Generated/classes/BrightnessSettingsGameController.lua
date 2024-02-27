@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BrightnessSettingsGameController: gameuiMenuGameController
 ---@field s_brightnessGroup CName
 ---@field settingsOptionsList inkCompoundWidgetReference
@@ -9,6 +10,7 @@
 ---@field SettingsElements inkSettingsSelectorController[]
 ---@field isPreGame Bool
 BrightnessSettingsGameController = {}
+
 
 ---@param fields? BrightnessSettingsGameController
 ---@return BrightnessSettingsGameController

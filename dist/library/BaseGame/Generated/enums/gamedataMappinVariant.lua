@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataMappinVariant: Enum
 ---@field ActionDealDamageVariant Enum 0
 ---@field ActionFastSoloVariant Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PuppetIncapacitatedPrereq: gameIScriptablePrereq
 PuppetIncapacitatedPrereq = {}
+
 
 ---@param fields? PuppetIncapacitatedPrereq
 ---@return PuppetIncapacitatedPrereq

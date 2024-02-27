@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAIActionSecurityAreaType: Enum
 ---@field DANGEROUS Enum 0
 ---@field DISABLED Enum 1

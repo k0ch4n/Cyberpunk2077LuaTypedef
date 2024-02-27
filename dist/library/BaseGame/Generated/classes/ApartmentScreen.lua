@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ApartmentScreen: LcdScreen
 ---@field timeSystemCallbackID Uint32
 ApartmentScreen = {}
+
 
 ---@param fields? ApartmentScreen
 ---@return ApartmentScreen

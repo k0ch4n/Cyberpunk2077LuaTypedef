@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TimeDilationParameters: IScriptable
 ---@field reason CName
 ---@field timeDilation Float
@@ -8,6 +9,7 @@
 ---@field easeInCurve CName
 ---@field easeOutCurve CName
 TimeDilationParameters = {}
+
 
 ---@param fields? TimeDilationParameters
 ---@return TimeDilationParameters

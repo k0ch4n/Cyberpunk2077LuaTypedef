@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entPostInitializeEvent: redEvent
 entPostInitializeEvent = {}
+
 
 ---@param fields? entPostInitializeEvent
 ---@return entPostInitializeEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questSetTier3Params_NodeType: questISceneManagerNodeType
 ---@field yawLeftLimit Float
 ---@field yawRightLimit Float
@@ -16,6 +17,7 @@
 ---@field useEnterAnim Bool
 ---@field useExitAnim Bool
 questSetTier3Params_NodeType = {}
+
 
 ---@param fields? questSetTier3Params_NodeType
 ---@return questSetTier3Params_NodeType

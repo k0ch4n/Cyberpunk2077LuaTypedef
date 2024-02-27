@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SetCustomShootPosition: AIbehaviortaskScript
 ---@field offset Vector3
 ---@field fxOffset Vector3
@@ -24,6 +25,7 @@
 ---@field shootPointPosition Vector4
 ---@field targetsPosition Vector4[]
 SetCustomShootPosition = {}
+
 
 ---@param fields? SetCustomShootPosition
 ---@return SetCustomShootPosition

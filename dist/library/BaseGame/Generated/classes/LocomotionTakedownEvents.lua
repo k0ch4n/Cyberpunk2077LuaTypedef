@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LocomotionTakedownEvents: LocomotionEventsTransition
 ---@field stateMachineInitData LocomotionTakedownInitData
 LocomotionTakedownEvents = {}
+
 
 ---@param fields? LocomotionTakedownEvents
 ---@return LocomotionTakedownEvents

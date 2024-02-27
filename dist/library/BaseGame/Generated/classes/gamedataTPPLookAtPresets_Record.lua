@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTPPLookAtPresets_Record: gamedataTweakDBRecord
 gamedataTPPLookAtPresets_Record = {}
+
 
 ---@param fields? gamedataTPPLookAtPresets_Record
 ---@return gamedataTPPLookAtPresets_Record

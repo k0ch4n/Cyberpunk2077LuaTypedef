@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ExpressionTreeCParametrizationNodeReadIntDefinition: ExpressionTreeCParametrizationNodeDefinition
 ExpressionTreeCParametrizationNodeReadIntDefinition = {}
+
 
 ---@param fields? ExpressionTreeCParametrizationNodeReadIntDefinition
 ---@return ExpressionTreeCParametrizationNodeReadIntDefinition

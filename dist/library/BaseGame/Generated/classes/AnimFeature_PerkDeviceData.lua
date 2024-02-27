@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AnimFeature_PerkDeviceData: animAnimFeature
 ---@field isUsed Bool
 AnimFeature_PerkDeviceData = {}
+
 
 ---@param fields? AnimFeature_PerkDeviceData
 ---@return AnimFeature_PerkDeviceData

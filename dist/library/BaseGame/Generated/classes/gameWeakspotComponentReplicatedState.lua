@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameWeakspotComponentReplicatedState: netIComponentState
 ---@field WeakspotRepInfos gameWeakSpotReplicatedInfo[]
 gameWeakspotComponentReplicatedState = {}
+
 
 ---@param fields? gameWeakspotComponentReplicatedState
 ---@return gameWeakspotComponentReplicatedState

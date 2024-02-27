@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BaseAnimatedDeviceController: ScriptableDeviceComponent
 BaseAnimatedDeviceController = {}
+
 
 ---@param fields? BaseAnimatedDeviceController
 ---@return BaseAnimatedDeviceController

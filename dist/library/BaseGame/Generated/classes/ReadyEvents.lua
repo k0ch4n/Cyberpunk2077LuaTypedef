@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ReadyEvents: WeaponEventsTransition
 ---@field timeStamp Float
 ReadyEvents = {}
+
 
 ---@param fields? ReadyEvents
 ---@return ReadyEvents

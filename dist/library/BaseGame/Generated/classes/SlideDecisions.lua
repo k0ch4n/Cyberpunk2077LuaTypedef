@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SlideDecisions: CrouchDecisions
 SlideDecisions = {}
+
 
 ---@param fields? SlideDecisions
 ---@return SlideDecisions

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LiftStatus: BaseDeviceStatus
 ---@field libraryName CName
 LiftStatus = {}
+
 
 ---@param fields? LiftStatus
 ---@return LiftStatus

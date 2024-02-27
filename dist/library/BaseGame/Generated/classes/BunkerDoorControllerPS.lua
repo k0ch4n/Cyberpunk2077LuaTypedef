@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BunkerDoorControllerPS: DoorControllerPS
 ---@field NpcOpenSpeed Float
 ---@field NpcOpenTime Float
@@ -8,6 +9,7 @@
 ---@field malfunctioningStimRange Float
 ---@field malfanctioningBehaviourActive Bool
 BunkerDoorControllerPS = {}
+
 
 ---@param fields? BunkerDoorControllerPS
 ---@return BunkerDoorControllerPS

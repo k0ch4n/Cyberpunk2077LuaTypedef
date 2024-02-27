@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DrillerScanEvent: redEvent
 ---@field newIsScanning Bool
 DrillerScanEvent = {}
+
 
 ---@param fields? DrillerScanEvent
 ---@return DrillerScanEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataWeaponEvolution: Enum
 ---@field Blade Enum 0
 ---@field Blunt Enum 1

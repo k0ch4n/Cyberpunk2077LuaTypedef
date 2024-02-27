@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class inkVirtualCompoundController: inkDiscreteNavigationController
 ---@field ItemSelected inkVirtualCompoundControllerCallback
 ---@field ItemActivated inkVirtualCompoundControllerCallback
 ---@field AllElementsSpawned inkEmptyCallback
 inkVirtualCompoundController = {}
+
 
 ---@return Uint32
 function inkVirtualCompoundController:GetSelectedIndex() end

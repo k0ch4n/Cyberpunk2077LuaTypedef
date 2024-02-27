@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class cpTestComponentPS: gameComponentPS
 ---@field something Int32
 ---@field somethingNotInstanceEdiable Bool
@@ -9,6 +10,7 @@
 ---@field namePersistentEdiable CName
 ---@field namePersistentInstanceEditable CName
 cpTestComponentPS = {}
+
 
 ---@param fields? cpTestComponentPS
 ---@return cpTestComponentPS

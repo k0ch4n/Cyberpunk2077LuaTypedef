@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ResetNPCSensesMainPreset: AIbehaviortaskScript
 ---@field newSensesPresetName String
 ResetNPCSensesMainPreset = {}
+
 
 ---@param fields? ResetNPCSensesMainPreset
 ---@return ResetNPCSensesMainPreset

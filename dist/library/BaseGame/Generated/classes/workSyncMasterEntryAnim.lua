@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workSyncMasterEntryAnim: workEntryAnim
 workSyncMasterEntryAnim = {}
+
 
 ---@param fields? workSyncMasterEntryAnim
 ---@return workSyncMasterEntryAnim

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerArchetype: ScannerChunk
 ---@field archetype gamedataArchetypeType
 ScannerArchetype = {}
+
 
 ---@param fields? ScannerArchetype
 ---@return ScannerArchetype

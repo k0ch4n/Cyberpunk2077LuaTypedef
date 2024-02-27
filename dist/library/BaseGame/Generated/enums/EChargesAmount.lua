@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EChargesAmount: Enum
 ---@field Empty Enum 0
 ---@field Last Enum 1

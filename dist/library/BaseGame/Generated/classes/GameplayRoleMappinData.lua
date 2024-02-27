@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GameplayRoleMappinData: gamemappinsMappinScriptData
 ---@field mappinVisualState EMappinVisualState
 ---@field isTagged Bool
@@ -23,6 +24,7 @@
 ---@field showOnMiniMap Bool
 ---@field action ScriptableDeviceAction
 GameplayRoleMappinData = {}
+
 
 ---@param fields? GameplayRoleMappinData
 ---@return GameplayRoleMappinData

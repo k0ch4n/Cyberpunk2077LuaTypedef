@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ScannerCrosshairLogicController: inkWidgetLogicController
 ---@field rootWidget inkWidget
 ---@field projection inkScreenProjection
 ScannerCrosshairLogicController = {}
+
 
 ---@param fields? ScannerCrosshairLogicController
 ---@return ScannerCrosshairLogicController

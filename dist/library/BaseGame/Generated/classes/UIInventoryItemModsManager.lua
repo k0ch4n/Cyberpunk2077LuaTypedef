@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInventoryItemModsManager: IScriptable
 ---@field emptySlots TweakDBID[]
 ---@field usedSlots TweakDBID[]
@@ -8,6 +9,7 @@
 ---@field dedicatedMod UIInventoryItemModAttachment
 ---@field transactionSystem gameTransactionSystem
 UIInventoryItemModsManager = {}
+
 
 ---@param fields? UIInventoryItemModsManager
 ---@return UIInventoryItemModsManager

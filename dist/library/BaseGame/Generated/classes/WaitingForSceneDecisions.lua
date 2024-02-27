@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WaitingForSceneDecisions: VehicleTransition
 WaitingForSceneDecisions = {}
+
 
 ---@param fields? WaitingForSceneDecisions
 ---@return WaitingForSceneDecisions

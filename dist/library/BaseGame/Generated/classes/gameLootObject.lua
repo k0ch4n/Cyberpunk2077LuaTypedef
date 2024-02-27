@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameLootObject: gameObject
 ---@field lootID TweakDBID
 ---@field isInIconForcedVisibilityRange Bool
 ---@field activeQualityRangeInteraction CName
 ---@field lootQuality gamedataQuality
 gameLootObject = {}
+
 
 ---@param fields? gameLootObject
 ---@return gameLootObject

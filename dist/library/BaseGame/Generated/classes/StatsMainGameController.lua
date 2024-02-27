@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StatsMainGameController: gameuiMenuGameController
 ---@field MainViewRoot inkWidgetReference
 ---@field statsList inkCompoundWidgetReference
@@ -36,6 +37,7 @@
 ---@field buttonHintsController ButtonHints
 ---@field animProxy inkanimProxy
 StatsMainGameController = {}
+
 
 ---@param fields? StatsMainGameController
 ---@return StatsMainGameController

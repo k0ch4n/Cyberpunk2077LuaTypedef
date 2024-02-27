@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameJournalContactModifierEntry: gameJournalEntry
 gameJournalContactModifierEntry = {}
+
 
 ---@param fields? gameJournalContactModifierEntry
 ---@return gameJournalContactModifierEntry

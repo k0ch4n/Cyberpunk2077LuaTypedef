@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RipOff: ActionBool
 RipOff = {}
+
 
 ---@param fields? RipOff
 ---@return RipOff

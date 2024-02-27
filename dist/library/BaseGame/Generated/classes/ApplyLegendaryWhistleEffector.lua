@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ApplyLegendaryWhistleEffector: gameEffector
 ApplyLegendaryWhistleEffector = {}
+
 
 ---@param fields? ApplyLegendaryWhistleEffector
 ---@return ApplyLegendaryWhistleEffector

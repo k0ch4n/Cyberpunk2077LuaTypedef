@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SecurityGateLockControllerPS: ScriptableDeviceComponentPS
 ---@field tresspasserList TrespasserEntry[]
 ---@field entranceToken entEntityID
 ---@field isLeaving Bool
 ---@field isLocked Bool
 SecurityGateLockControllerPS = {}
+
 
 ---@param fields? SecurityGateLockControllerPS
 ---@return SecurityGateLockControllerPS

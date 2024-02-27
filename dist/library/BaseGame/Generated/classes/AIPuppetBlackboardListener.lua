@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIPuppetBlackboardListener: ISerializable
 AIPuppetBlackboardListener = {}
+
 
 ---@param fields? AIPuppetBlackboardListener
 ---@return AIPuppetBlackboardListener

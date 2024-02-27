@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BloodswellCallback: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field bloodswellEffector BloodswellEffector
 BloodswellCallback = {}
+
 
 ---@param fields? BloodswellCallback
 ---@return BloodswellCallback

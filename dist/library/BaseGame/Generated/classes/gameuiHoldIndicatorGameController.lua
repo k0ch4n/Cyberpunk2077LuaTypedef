@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameuiHoldIndicatorGameController: gameuiWidgetGameController
 ---@field HoldProgress gameuiHoldIndicatorProgressCallback
 ---@field HoldStart inkEmptyCallback
 ---@field HoldFinish inkEmptyCallback
 ---@field HoldStop inkEmptyCallback
 gameuiHoldIndicatorGameController = {}
+
 
 ---@param fields? gameuiHoldIndicatorGameController
 ---@return gameuiHoldIndicatorGameController

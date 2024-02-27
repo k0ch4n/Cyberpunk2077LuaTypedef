@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameTargetingComponentData
 gameTargetingComponentData = {}
+
 
 ---@param fields? gameTargetingComponentData
 ---@return gameTargetingComponentData

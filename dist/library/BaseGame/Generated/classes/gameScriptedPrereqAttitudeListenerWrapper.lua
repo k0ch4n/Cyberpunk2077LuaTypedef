@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScriptedPrereqAttitudeListenerWrapper: IScriptable
 gameScriptedPrereqAttitudeListenerWrapper = {}
+
 
 ---@param fields? gameScriptedPrereqAttitudeListenerWrapper
 ---@return gameScriptedPrereqAttitudeListenerWrapper

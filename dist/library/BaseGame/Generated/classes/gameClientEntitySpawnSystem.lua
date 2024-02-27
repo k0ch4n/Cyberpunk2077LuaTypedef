@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameClientEntitySpawnSystem: gameIClientEntitySpawnSystem
 gameClientEntitySpawnSystem = {}
+
 
 ---@param fields? gameClientEntitySpawnSystem
 ---@return gameClientEntitySpawnSystem

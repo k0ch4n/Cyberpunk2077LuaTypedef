@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlaySoundDeviceOperation: DeviceOperationBase
 ---@field SFXs SSFXOperationData[]
 PlaySoundDeviceOperation = {}
+
 
 ---@param fields? PlaySoundDeviceOperation
 ---@return PlaySoundDeviceOperation

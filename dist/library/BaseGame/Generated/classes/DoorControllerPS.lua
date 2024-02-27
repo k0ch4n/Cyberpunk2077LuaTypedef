@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DoorControllerPS: ScriptableDeviceComponentPS
 ---@field doorProperties DoorSetup
 ---@field doorSkillChecks EngDemoContainer
@@ -12,6 +13,7 @@
 ---@field isPlayerAuthorised Bool
 ---@field openingTokens entEntityID[]
 DoorControllerPS = {}
+
 
 ---@param fields? DoorControllerPS
 ---@return DoorControllerPS

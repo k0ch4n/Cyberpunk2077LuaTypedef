@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class TemporaryUnequipEvents: UpperBodyEventsTransition
 ---@field forceOpen Bool
 ---@field hadStrongArmsEquipped Bool
 TemporaryUnequipEvents = {}
+
 
 ---@param fields? TemporaryUnequipEvents
 ---@return TemporaryUnequipEvents

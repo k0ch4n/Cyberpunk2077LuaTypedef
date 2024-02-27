@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StartedUsingHealingItemOrCyberwarePrereq: gameIScriptablePrereq
 ---@field curValue Uint32
 StartedUsingHealingItemOrCyberwarePrereq = {}
+
 
 ---@param fields? StartedUsingHealingItemOrCyberwarePrereq
 ---@return StartedUsingHealingItemOrCyberwarePrereq

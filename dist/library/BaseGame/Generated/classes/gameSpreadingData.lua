@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSpreadingData
 ---@field count Uint32
 ---@field targets Uint32
@@ -7,6 +8,7 @@
 ---@field range Float
 ---@field coneAngle Float
 gameSpreadingData = {}
+
 
 ---@param fields? gameSpreadingData
 ---@return gameSpreadingData

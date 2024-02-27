@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FallLowGravityEvents: LocomotionAirLowGravityEvents
 FallLowGravityEvents = {}
+
 
 ---@param fields? FallLowGravityEvents
 ---@return FallLowGravityEvents

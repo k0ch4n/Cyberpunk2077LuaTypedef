@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameprojectileAccelerateTowardsTrajectoryParams: gameprojectileTrajectoryParams
 ---@field accelerationSpeed Float
 ---@field maxSpeed Float
@@ -13,6 +14,7 @@
 ---@field targetOffset Vector4
 ---@field accuracy Float
 gameprojectileAccelerateTowardsTrajectoryParams = {}
+
 
 ---@param fields? gameprojectileAccelerateTowardsTrajectoryParams
 ---@return gameprojectileAccelerateTowardsTrajectoryParams

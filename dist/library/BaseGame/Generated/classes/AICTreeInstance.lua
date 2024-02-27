@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICTreeInstance
 AICTreeInstance = {}
+
 
 ---@param fields? AICTreeInstance
 ---@return AICTreeInstance

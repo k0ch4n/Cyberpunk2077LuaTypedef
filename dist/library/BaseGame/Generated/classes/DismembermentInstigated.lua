@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DismembermentInstigated: redEvent
 ---@field target gameObject
 ---@field targetPosition Vector4
@@ -14,6 +15,7 @@
 ---@field targetIsDefeated Bool
 ---@field attackIsExplosion Bool
 DismembermentInstigated = {}
+
 
 ---@param fields? DismembermentInstigated
 ---@return DismembermentInstigated

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TransferSaveState: Enum
 ---@field ExportConfirmation Enum 0
 ---@field ExportSpinner Enum 1

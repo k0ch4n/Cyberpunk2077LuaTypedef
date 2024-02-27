@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class BodyPartHitPrereqCondition: BaseHitPrereqCondition
 ---@field bodyPart CName
 ---@field attackSubtype gamedataAttackSubtype
 BodyPartHitPrereqCondition = {}
+
 
 ---@param fields? BodyPartHitPrereqCondition
 ---@return BodyPartHitPrereqCondition

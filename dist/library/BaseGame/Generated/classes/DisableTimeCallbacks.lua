@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisableTimeCallbacks: redEvent
 DisableTimeCallbacks = {}
+
 
 ---@param fields? DisableTimeCallbacks
 ---@return DisableTimeCallbacks

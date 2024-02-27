@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameQueryResult
 ---@field hitShapes gameShapeData[]
 gameQueryResult = {}
+
 
 ---@param fields? gameQueryResult
 ---@return gameQueryResult

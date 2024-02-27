@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceDisconnectPersonalLink: ActionBool
 QuestForceDisconnectPersonalLink = {}
+
 
 ---@param fields? QuestForceDisconnectPersonalLink
 ---@return QuestForceDisconnectPersonalLink

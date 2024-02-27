@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ElevatorFloorTerminalController: TerminalController
 ElevatorFloorTerminalController = {}
+
 
 ---@param fields? ElevatorFloorTerminalController
 ---@return ElevatorFloorTerminalController

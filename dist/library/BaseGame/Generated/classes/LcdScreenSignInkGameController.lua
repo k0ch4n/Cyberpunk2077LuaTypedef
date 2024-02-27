@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LcdScreenSignInkGameController: DeviceInkGameControllerBase
 ---@field messegeRecord gamedataScreenMessageData_Record
 ---@field replaceTextWithCustomNumber Bool
@@ -7,6 +8,7 @@
 ---@field onGlitchingStateChangedListener redCallbackObject
 ---@field onMessegeChangedListener redCallbackObject
 LcdScreenSignInkGameController = {}
+
 
 ---@param fields? LcdScreenSignInkGameController
 ---@return LcdScreenSignInkGameController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerStaminaHelpers: IScriptable
 PlayerStaminaHelpers = {}
+
 
 ---@return Float
 function PlayerStaminaHelpers.GetAirDodgeStaminaCost() end

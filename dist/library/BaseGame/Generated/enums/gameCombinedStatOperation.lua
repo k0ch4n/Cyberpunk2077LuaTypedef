@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameCombinedStatOperation: Enum
 ---@field Addition Enum 0
 ---@field Subtraction Enum 1

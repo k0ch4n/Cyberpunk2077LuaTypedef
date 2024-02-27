@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UI_HUDProgressBarDef: gamebbScriptDefinition
 ---@field TimerID gamebbScriptID_Variant
 ---@field Header gamebbScriptID_String
@@ -11,6 +12,7 @@
 ---@field ProgressBump gamebbScriptID_Float
 ---@field MessageType gamebbScriptID_Variant
 UI_HUDProgressBarDef = {}
+
 
 ---@param fields? UI_HUDProgressBarDef
 ---@return UI_HUDProgressBarDef

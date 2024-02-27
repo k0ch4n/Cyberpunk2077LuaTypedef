@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataWeaponFxPackage_Record: gamedataTweakDBRecord
 gamedataWeaponFxPackage_Record = {}
+
 
 ---@param fields? gamedataWeaponFxPackage_Record
 ---@return gamedataWeaponFxPackage_Record

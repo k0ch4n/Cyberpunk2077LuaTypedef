@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionQuickHack_Record: gamedataAISubAction_Record
 gamedataAISubActionQuickHack_Record = {}
+
 
 ---@param fields? gamedataAISubActionQuickHack_Record
 ---@return gamedataAISubActionQuickHack_Record

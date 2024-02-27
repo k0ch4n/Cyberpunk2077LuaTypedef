@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehiclePassengerRemoteControlDriverContextEvents: VehiclePassengerContextEvents
 VehiclePassengerRemoteControlDriverContextEvents = {}
+
 
 ---@param fields? VehiclePassengerRemoteControlDriverContextEvents
 ---@return VehiclePassengerRemoteControlDriverContextEvents

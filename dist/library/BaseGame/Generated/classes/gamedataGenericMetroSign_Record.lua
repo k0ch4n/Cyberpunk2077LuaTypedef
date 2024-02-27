@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataGenericMetroSign_Record: gamedataBaseSign_Record
 gamedataGenericMetroSign_Record = {}
+
 
 ---@param fields? gamedataGenericMetroSign_Record
 ---@return gamedataGenericMetroSign_Record

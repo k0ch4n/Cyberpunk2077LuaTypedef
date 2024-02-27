@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleSeal: ActionBool
 ToggleSeal = {}
+
 
 ---@param fields? ToggleSeal
 ---@return ToggleSeal

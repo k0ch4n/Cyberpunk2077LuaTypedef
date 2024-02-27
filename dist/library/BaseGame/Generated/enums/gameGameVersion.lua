@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameGameVersion: Enum
 ---@field CP77_Initial Enum 0
 ---@field CP77_Development Enum 1

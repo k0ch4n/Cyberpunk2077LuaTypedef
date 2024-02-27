@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataWeaponSafeModeBounds_Record: gamedataTweakDBRecord
 gamedataWeaponSafeModeBounds_Record = {}
+
 
 ---@param fields? gamedataWeaponSafeModeBounds_Record
 ---@return gamedataWeaponSafeModeBounds_Record

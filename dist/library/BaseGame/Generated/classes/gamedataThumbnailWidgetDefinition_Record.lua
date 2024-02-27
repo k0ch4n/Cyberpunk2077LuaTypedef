@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataThumbnailWidgetDefinition_Record: gamedataWidgetDefinition_Record
 gamedataThumbnailWidgetDefinition_Record = {}
+
 
 ---@param fields? gamedataThumbnailWidgetDefinition_Record
 ---@return gamedataThumbnailWidgetDefinition_Record

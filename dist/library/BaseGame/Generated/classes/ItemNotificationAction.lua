@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ItemNotificationAction: GenericNotificationBaseAction
 ---@field eventDispatcher worlduiIWidgetGameController
 ItemNotificationAction = {}
+
 
 ---@param fields? ItemNotificationAction
 ---@return ItemNotificationAction

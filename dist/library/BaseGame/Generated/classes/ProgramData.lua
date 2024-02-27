@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProgramData
 ---@field id String
 ---@field commandLists ElementData[][]
@@ -9,6 +10,7 @@
 ---@field startAsUnknown Bool
 ---@field wasCompleted Bool
 ProgramData = {}
+
 
 ---@param fields? ProgramData
 ---@return ProgramData

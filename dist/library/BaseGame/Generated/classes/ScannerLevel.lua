@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ScannerLevel: ScannerChunk
 ---@field level Int32
 ---@field isHard Bool
 ScannerLevel = {}
+
 
 ---@param fields? ScannerLevel
 ---@return ScannerLevel

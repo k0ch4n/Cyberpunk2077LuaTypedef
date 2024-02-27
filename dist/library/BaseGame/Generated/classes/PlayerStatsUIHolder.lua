@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerStatsUIHolder: inkWidgetLogicController
 PlayerStatsUIHolder = {}
+
 
 ---@param fields? PlayerStatsUIHolder
 ---@return PlayerStatsUIHolder

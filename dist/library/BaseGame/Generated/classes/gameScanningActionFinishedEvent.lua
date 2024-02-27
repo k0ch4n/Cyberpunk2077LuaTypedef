@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScanningActionFinishedEvent: redEvent
 gameScanningActionFinishedEvent = {}
+
 
 ---@param fields? gameScanningActionFinishedEvent
 ---@return gameScanningActionFinishedEvent

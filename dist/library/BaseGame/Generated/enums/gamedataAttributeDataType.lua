@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAttributeDataType: Enum
 ---@field BodyAttributeData Enum 0
 ---@field CoolAttributeData Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiRoachRaceGameLogicController: gameuiSideScrollerMiniGameLogicController
 ---@field jumpAcceleration Float
 ---@field jumpCancelAcceleration Float
@@ -21,6 +22,7 @@
 ---@field scoreMultiplierText inkTextWidgetReference
 ---@field previousHealth Int32
 gameuiRoachRaceGameLogicController = {}
+
 
 ---@param fields? gameuiRoachRaceGameLogicController
 ---@return gameuiRoachRaceGameLogicController

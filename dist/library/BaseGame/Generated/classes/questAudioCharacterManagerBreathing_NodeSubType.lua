@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questAudioCharacterManagerBreathing_NodeSubType: questIAudioCharacterManager_NodeSubType
 questAudioCharacterManagerBreathing_NodeSubType = {}
+
 
 ---@param fields? questAudioCharacterManagerBreathing_NodeSubType
 ---@return questAudioCharacterManagerBreathing_NodeSubType

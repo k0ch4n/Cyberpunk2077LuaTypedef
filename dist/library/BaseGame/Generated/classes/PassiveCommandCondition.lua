@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class PassiveCommandCondition: AIbehaviorexpressionScript
 ---@field commandName CName
 ---@field useInheritance Bool
 ---@field cmdCbId Uint32
 PassiveCommandCondition = {}
+
 
 ---@param fields? PassiveCommandCondition
 ---@return PassiveCommandCondition

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsSpawnEntityEventParams
 ---@field performer scnPerformerId
 ---@field referencePerformer scnPerformerId
@@ -7,6 +8,7 @@
 ---@field referencePerformerItemId TweakDBID
 ---@field fallbackData scneventsSpawnEntityEventFallbackData[]
 scneventsSpawnEntityEventParams = {}
+
 
 ---@param fields? scneventsSpawnEntityEventParams
 ---@return scneventsSpawnEntityEventParams

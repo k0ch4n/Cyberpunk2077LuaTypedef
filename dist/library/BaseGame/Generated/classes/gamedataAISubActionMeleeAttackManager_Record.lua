@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionMeleeAttackManager_Record: gamedataAISubAction_Record
 gamedataAISubActionMeleeAttackManager_Record = {}
+
 
 ---@param fields? gamedataAISubActionMeleeAttackManager_Record
 ---@return gamedataAISubActionMeleeAttackManager_Record

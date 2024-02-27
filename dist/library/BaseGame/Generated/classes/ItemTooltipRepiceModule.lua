@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ItemTooltipRepiceModule: ItemTooltipModuleController
 ---@field itemNameText inkTextWidgetReference
 ItemTooltipRepiceModule = {}
+
 
 ---@param fields? ItemTooltipRepiceModule
 ---@return ItemTooltipRepiceModule

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICTreeNodeSequenceDefinition: AICTreeNodeChildrenListDefinition
 AICTreeNodeSequenceDefinition = {}
+
 
 ---@param fields? AICTreeNodeSequenceDefinition
 ---@return AICTreeNodeSequenceDefinition

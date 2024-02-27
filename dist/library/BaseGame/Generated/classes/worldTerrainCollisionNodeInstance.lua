@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldTerrainCollisionNodeInstance: worldINodeInstance
 worldTerrainCollisionNodeInstance = {}
+
 
 ---@param fields? worldTerrainCollisionNodeInstance
 ---@return worldTerrainCollisionNodeInstance

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldEditablePrefabType: Enum
 ---@field Regular Enum 0
 ---@field Decoration Enum 1

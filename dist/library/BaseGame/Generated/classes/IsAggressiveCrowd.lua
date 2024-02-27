@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class IsAggressiveCrowd: AIbehaviorconditionScript
 ---@field reactionSystem AIReactionSystem
 ---@field entityID entEntityID
 ---@field npc NPCPuppet
 IsAggressiveCrowd = {}
+
 
 ---@param fields? IsAggressiveCrowd
 ---@return IsAggressiveCrowd

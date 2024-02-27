@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class scnCheckSpeakersDistanceInterruptCondition: scnIInterruptCondition
 ---@field params scnCheckSpeakersDistanceInterruptConditionParams
 scnCheckSpeakersDistanceInterruptCondition = {}
+
 
 ---@param fields? scnCheckSpeakersDistanceInterruptCondition
 ---@return scnCheckSpeakersDistanceInterruptCondition

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldNavigationTileData
 ---@field tileX Int32
 ---@field tileY Int32
@@ -11,6 +12,7 @@
 ---@field activeVariantIDs Uint32[]
 ---@field allVariantIDs Uint32[]
 worldNavigationTileData = {}
+
 
 ---@param fields? worldNavigationTileData
 ---@return worldNavigationTileData

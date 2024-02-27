@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CombatHUDManager: gameScriptableComponent
 ---@field isRunning Bool
 ---@field targets CombatTarget[]
 ---@field interval Float
 ---@field timeSinceLastUpdate Float
 CombatHUDManager = {}
+
 
 ---@param fields? CombatHUDManager
 ---@return CombatHUDManager

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MainframeController: BaseAnimatedDeviceController
 MainframeController = {}
+
 
 ---@param fields? MainframeController
 ---@return MainframeController

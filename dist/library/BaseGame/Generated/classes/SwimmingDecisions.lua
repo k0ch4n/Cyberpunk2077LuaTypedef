@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SwimmingDecisions: HighLevelTransition
 SwimmingDecisions = {}
+
 
 ---@param fields? SwimmingDecisions
 ---@return SwimmingDecisions

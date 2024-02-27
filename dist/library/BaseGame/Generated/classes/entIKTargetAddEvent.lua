@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class entIKTargetAddEvent: entAnimTargetAddEvent
 ---@field outIKTargetRef animIKTargetRef
 ---@field orientationProvider entIOrientationProvider
 ---@field request animIKTargetRequest
 entIKTargetAddEvent = {}
+
 
 ---@param fields? entIKTargetAddEvent
 ---@return entIKTargetAddEvent

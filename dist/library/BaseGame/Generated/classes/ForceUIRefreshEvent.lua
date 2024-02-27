@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ForceUIRefreshEvent: redEvent
 ---@field ownerID entEntityID
 ForceUIRefreshEvent = {}
+
 
 ---@param fields? ForceUIRefreshEvent
 ---@return ForceUIRefreshEvent

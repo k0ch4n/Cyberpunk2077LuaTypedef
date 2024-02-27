@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameVisionRevealExpiredEvent: redEvent
 ---@field revealId gameVisionModeSystemRevealIdentifier
 gameVisionRevealExpiredEvent = {}
+
 
 ---@param fields? gameVisionRevealExpiredEvent
 ---@return gameVisionRevealExpiredEvent

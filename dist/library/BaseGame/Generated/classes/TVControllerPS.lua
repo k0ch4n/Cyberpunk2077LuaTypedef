@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TVControllerPS: MediaDeviceControllerPS
 ---@field tvSetup TVSetup
 ---@field defaultGlitchVideoPath redResourceReferenceScriptToken
@@ -7,6 +8,7 @@
 ---@field globalTVInitialized Bool
 ---@field backupCustomChannels STvChannel[]
 TVControllerPS = {}
+
 
 ---@param fields? TVControllerPS
 ---@return TVControllerPS

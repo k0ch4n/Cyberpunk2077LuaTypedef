@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DoorTerminalMasterInkGameControllerBase: MasterDeviceInkGameControllerBase
 ---@field currentlyActiveDevices gamePersistentID[]
 DoorTerminalMasterInkGameControllerBase = {}
+
 
 ---@param fields? DoorTerminalMasterInkGameControllerBase
 ---@return DoorTerminalMasterInkGameControllerBase

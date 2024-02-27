@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HasNPCVehicleAssigned: PreventionConditionAbstract
 HasNPCVehicleAssigned = {}
+
 
 ---@param fields? HasNPCVehicleAssigned
 ---@return HasNPCVehicleAssigned

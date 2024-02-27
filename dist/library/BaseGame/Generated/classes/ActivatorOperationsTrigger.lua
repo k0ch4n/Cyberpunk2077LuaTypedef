@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ActivatorOperationsTrigger: DeviceOperationsTrigger
 ---@field triggerData ActivatorOperationTriggerData
 ActivatorOperationsTrigger = {}
+
 
 ---@param fields? ActivatorOperationsTrigger
 ---@return ActivatorOperationsTrigger

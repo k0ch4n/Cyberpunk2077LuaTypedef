@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DamageSystemHelper: IScriptable
 DamageSystemHelper = {}
+
 
 ---@param data gameShapeData
 ---@return Bool

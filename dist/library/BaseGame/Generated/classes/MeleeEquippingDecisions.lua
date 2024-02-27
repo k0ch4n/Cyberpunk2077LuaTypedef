@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MeleeEquippingDecisions: MeleeIdleDecisions
 ---@field hasEquipAttack Bool
 MeleeEquippingDecisions = {}
+
 
 ---@param fields? MeleeEquippingDecisions
 ---@return MeleeEquippingDecisions

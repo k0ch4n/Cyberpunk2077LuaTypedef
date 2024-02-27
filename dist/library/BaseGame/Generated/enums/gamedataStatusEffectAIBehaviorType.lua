@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataStatusEffectAIBehaviorType: Enum
 ---@field Basic Enum 0
 ---@field None Enum 1

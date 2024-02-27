@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class blunderbussWeaponController: gameuiWidgetGameController
 ---@field chargeWidgetInitialY Float
 ---@field chargeWidgetSize Vector2
@@ -14,6 +15,7 @@
 ---@field onMagazineAmmoCount redCallbackObject
 ---@field blackboard gameIBlackboard
 blunderbussWeaponController = {}
+
 
 ---@param fields? blunderbussWeaponController
 ---@return blunderbussWeaponController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InkAnimHelper: IScriptable
 InkAnimHelper = {}
+
 
 ---@param fields? InkAnimHelper
 ---@return InkAnimHelper

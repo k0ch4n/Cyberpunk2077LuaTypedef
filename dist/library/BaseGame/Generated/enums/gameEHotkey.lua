@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEHotkey: Enum
 ---@field INVALID Enum -1
 ---@field DPAD_UP Enum 0

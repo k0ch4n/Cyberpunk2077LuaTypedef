@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animLookAtStateMachineSettings
 ---@field partName CName
 ---@field partAlias CName
@@ -14,6 +15,7 @@
 ---@field coneLimitReached CName
 ---@field allowToBlendBehindBack Bool
 animLookAtStateMachineSettings = {}
+
 
 ---@param fields? animLookAtStateMachineSettings
 ---@return animLookAtStateMachineSettings

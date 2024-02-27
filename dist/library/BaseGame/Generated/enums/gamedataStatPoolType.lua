@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataStatPoolType: Enum
 ---@field AccumulatedDoT Enum 0
 ---@field Adrenaline Enum 1

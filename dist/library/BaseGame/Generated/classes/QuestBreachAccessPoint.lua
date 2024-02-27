@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestBreachAccessPoint: ActionBool
 QuestBreachAccessPoint = {}
+
 
 ---@param fields? QuestBreachAccessPoint
 ---@return QuestBreachAccessPoint

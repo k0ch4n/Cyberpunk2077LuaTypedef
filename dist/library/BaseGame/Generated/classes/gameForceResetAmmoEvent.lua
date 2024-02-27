@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameForceResetAmmoEvent: redEvent
 gameForceResetAmmoEvent = {}
+
 
 ---@param fields? gameForceResetAmmoEvent
 ---@return gameForceResetAmmoEvent

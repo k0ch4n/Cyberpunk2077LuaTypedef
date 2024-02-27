@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkFocusEvent: inkEvent
 inkFocusEvent = {}
+
 
 ---@param fields? inkFocusEvent
 ---@return inkFocusEvent

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class effectEffectParameterEvaluatorVector
 ---@field evaluator IEvaluatorVector
 ---@field inputParameterOverride CName
 effectEffectParameterEvaluatorVector = {}
+
 
 ---@param fields? effectEffectParameterEvaluatorVector
 ---@return effectEffectParameterEvaluatorVector

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataSearchFilterMaskType: Enum
 ---@field Att_Friendly Enum 0
 ---@field Att_Hostile Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineStateSocketDefinition: graphGraphSocketDefinition
 gamestateMachineStateSocketDefinition = {}
+
 
 ---@param fields? gamestateMachineStateSocketDefinition
 ---@return gamestateMachineStateSocketDefinition

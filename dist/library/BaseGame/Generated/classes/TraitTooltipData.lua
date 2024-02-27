@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TraitTooltipData: BasePerksMenuTooltipData
 ---@field traitType gamedataTraitType
 ---@field attributeId TweakDBID
@@ -7,6 +8,7 @@
 ---@field traitData TraitDisplayData
 ---@field attributeData AttributeData
 TraitTooltipData = {}
+
 
 ---@param fields? TraitTooltipData
 ---@return TraitTooltipData

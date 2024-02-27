@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SkillCheckPrereq: DevelopmentCheckPrereq
 ---@field skillToCheck gamedataProficiencyType
 SkillCheckPrereq = {}
+
 
 ---@param fields? SkillCheckPrereq
 ---@return SkillCheckPrereq

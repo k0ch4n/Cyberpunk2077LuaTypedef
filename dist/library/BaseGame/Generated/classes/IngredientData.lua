@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class IngredientData
 ---@field label String
 ---@field quantity Int32
@@ -13,6 +14,7 @@
 ---@field buyableIngredient Bool
 ---@field hasEnoughQuantity Bool
 IngredientData = {}
+
 
 ---@param fields? IngredientData
 ---@return IngredientData

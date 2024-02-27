@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkScriptStringMap: IScriptable
 inkScriptStringMap = {}
+
 
 ---@param fields? inkScriptStringMap
 ---@return inkScriptStringMap

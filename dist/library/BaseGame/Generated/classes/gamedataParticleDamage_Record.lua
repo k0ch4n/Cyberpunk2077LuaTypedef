@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataParticleDamage_Record: gamedataTweakDBRecord
 gamedataParticleDamage_Record = {}
+
 
 ---@param fields? gamedataParticleDamage_Record
 ---@return gamedataParticleDamage_Record

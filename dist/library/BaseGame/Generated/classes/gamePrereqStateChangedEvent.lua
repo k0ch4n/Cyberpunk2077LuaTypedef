@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePrereqStateChangedEvent: redEvent
 gamePrereqStateChangedEvent = {}
+
 
 ---@param fields? gamePrereqStateChangedEvent
 ---@return gamePrereqStateChangedEvent

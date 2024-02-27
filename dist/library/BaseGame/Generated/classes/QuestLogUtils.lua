@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestLogUtils: IScriptable
 QuestLogUtils = {}
+
 
 ---@return gameJournalRequestStateFilter
 function QuestLogUtils.GetDefaultFilter() end

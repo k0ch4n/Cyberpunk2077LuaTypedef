@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SBaseDeviceOperationData
 ---@field delay Float
 ---@field resetDelay Bool
@@ -23,6 +24,7 @@
 ---@field delayID gameDelayID
 ---@field isDelayActive Bool
 SBaseDeviceOperationData = {}
+
 
 ---@param fields? SBaseDeviceOperationData
 ---@return SBaseDeviceOperationData

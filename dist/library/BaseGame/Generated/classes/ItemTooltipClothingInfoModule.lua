@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ItemTooltipClothingInfoModule: ItemTooltipModuleController
 ---@field allocationCostsWrapper inkCompoundWidgetReference
 ---@field armorContainer inkWidgetReference
 ---@field value inkTextWidgetReference
 ---@field arrow inkImageWidgetReference
 ItemTooltipClothingInfoModule = {}
+
 
 ---@param fields? ItemTooltipClothingInfoModule
 ---@return ItemTooltipClothingInfoModule

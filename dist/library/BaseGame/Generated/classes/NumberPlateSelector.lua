@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NumberPlateSelector: LCDScreenSelector
 ---@field recordID TweakDBID
 NumberPlateSelector = {}
+
 
 ---@param fields? NumberPlateSelector
 ---@return NumberPlateSelector

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsPuppetBreachedPrereqState: gamePrereqState
 ---@field psListener gameScriptedPrereqPSChangeListenerWrapper
 IsPuppetBreachedPrereqState = {}
+
 
 ---@param fields? IsPuppetBreachedPrereqState
 ---@return IsPuppetBreachedPrereqState

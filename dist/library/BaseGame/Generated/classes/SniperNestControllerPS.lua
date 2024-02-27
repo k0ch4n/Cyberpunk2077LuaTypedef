@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SniperNestControllerPS: SensorDeviceControllerPS
 ---@field vfxNameOnShoot CName
 ---@field isRippedOff Bool
 SniperNestControllerPS = {}
+
 
 ---@param fields? SniperNestControllerPS
 ---@return SniperNestControllerPS

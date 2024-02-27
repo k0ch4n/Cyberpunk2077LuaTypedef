@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCPOLoadoutBase_Record: gamedataTweakDBRecord
 gamedataCPOLoadoutBase_Record = {}
+
 
 ---@param fields? gamedataCPOLoadoutBase_Record
 ---@return gamedataCPOLoadoutBase_Record

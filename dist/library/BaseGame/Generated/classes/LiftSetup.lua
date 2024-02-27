@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LiftSetup
 ---@field startingFloorTerminal Int32
 ---@field liftSpeed Float
@@ -16,6 +17,7 @@
 ---@field useExtraVerification Bool
 ---@field errorMargin Float
 LiftSetup = {}
+
 
 ---@param fields? LiftSetup
 ---@return LiftSetup

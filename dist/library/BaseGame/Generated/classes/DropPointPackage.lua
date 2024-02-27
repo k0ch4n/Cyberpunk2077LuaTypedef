@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class DropPointPackage: IScriptable
 ---@field itemID TweakDBID
 ---@field status DropPointPackageStatus
 ---@field predefinedDrop gamePersistentID
 ---@field statusHistory DropPointPackageStatus[]
 DropPointPackage = {}
+
 
 ---@param fields? DropPointPackage
 ---@return DropPointPackage

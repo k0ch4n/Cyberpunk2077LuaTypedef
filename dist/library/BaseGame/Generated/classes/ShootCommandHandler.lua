@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ShootCommandHandler: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ---@field currentCommand AIShootCommand
 ShootCommandHandler = {}
+
 
 ---@param fields? ShootCommandHandler
 ---@return ShootCommandHandler

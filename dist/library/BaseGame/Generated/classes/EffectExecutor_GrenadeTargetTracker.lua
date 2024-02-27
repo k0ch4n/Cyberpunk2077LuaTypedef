@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EffectExecutor_GrenadeTargetTracker: gameEffectExecutor_Scripted
 ---@field potentialTargetSlots CName[]
 EffectExecutor_GrenadeTargetTracker = {}
+
 
 ---@param fields? EffectExecutor_GrenadeTargetTracker
 ---@return EffectExecutor_GrenadeTargetTracker

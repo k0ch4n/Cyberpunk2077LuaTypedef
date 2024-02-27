@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameMovingPlatformSystem: gameIMovingPlatformSystem
 gameMovingPlatformSystem = {}
+
 
 ---@param fields? gameMovingPlatformSystem
 ---@return gameMovingPlatformSystem

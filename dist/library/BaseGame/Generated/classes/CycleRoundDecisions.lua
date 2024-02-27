@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CycleRoundDecisions: WeaponTransition
 CycleRoundDecisions = {}
+
 
 ---@param fields? CycleRoundDecisions
 ---@return CycleRoundDecisions

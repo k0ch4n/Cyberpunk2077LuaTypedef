@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICAgent: gameComponent
 AICAgent = {}
+
 
 ---@param fields? AICAgent
 ---@return AICAgent

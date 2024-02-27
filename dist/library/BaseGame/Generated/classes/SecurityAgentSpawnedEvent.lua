@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SecurityAgentSpawnedEvent: redEvent
 ---@field spawnedAgent DeviceLink
 ---@field eventType gameEntitySpawnerEventType
 ---@field securityAreas SecurityAreaControllerPS[]
 SecurityAgentSpawnedEvent = {}
+
 
 ---@param fields? SecurityAgentSpawnedEvent
 ---@return SecurityAgentSpawnedEvent

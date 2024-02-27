@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeathExitingEvents: ImmediateExitWithForceEvents
 DeathExitingEvents = {}
+
 
 ---@param fields? DeathExitingEvents
 ---@return DeathExitingEvents

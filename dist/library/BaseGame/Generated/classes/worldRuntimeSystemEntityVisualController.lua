@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemEntityVisualController: worldIRuntimeSystem
 worldRuntimeSystemEntityVisualController = {}
+
 
 ---@param fields? worldRuntimeSystemEntityVisualController
 ---@return worldRuntimeSystemEntityVisualController

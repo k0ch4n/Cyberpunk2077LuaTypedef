@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HitFlagPrereq: GenericHitPrereq
 ---@field flag hitFlag
 HitFlagPrereq = {}
+
 
 ---@param fields? HitFlagPrereq
 ---@return HitFlagPrereq

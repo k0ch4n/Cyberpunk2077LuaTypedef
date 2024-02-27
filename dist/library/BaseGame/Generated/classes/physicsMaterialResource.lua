@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsMaterialResource: CResource
 ---@field staticFriction Float
 ---@field dynamicFriction Float
@@ -10,6 +11,7 @@
 ---@field color Color
 ---@field id Uint64
 physicsMaterialResource = {}
+
 
 ---@param fields? physicsMaterialResource
 ---@return physicsMaterialResource

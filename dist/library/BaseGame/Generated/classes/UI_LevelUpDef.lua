@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UI_LevelUpDef: gamebbScriptDefinition
 ---@field level gamebbScriptID_Variant
 UI_LevelUpDef = {}
+
 
 ---@param fields? UI_LevelUpDef
 ---@return UI_LevelUpDef

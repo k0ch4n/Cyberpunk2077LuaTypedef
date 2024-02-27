@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animAnimNode_RagdollPose: animAnimNode_Base
 animAnimNode_RagdollPose = {}
+
 
 ---@param fields? animAnimNode_RagdollPose
 ---@return animAnimNode_RagdollPose

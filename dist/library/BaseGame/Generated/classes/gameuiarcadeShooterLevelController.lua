@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiarcadeShooterLevelController: inkWidgetLogicController
 ---@field playerSpawnPoint inkWidgetReference
 ---@field background inkWidgetReference
@@ -11,6 +12,7 @@
 ---@field vfxSpawner inkWidgetReference
 ---@field mapEndBorder Vector2
 gameuiarcadeShooterLevelController = {}
+
 
 ---@param fields? gameuiarcadeShooterLevelController
 ---@return gameuiarcadeShooterLevelController

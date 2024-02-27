@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiWorldMapPlayerMappinController: gameuiBaseWorldMapMappinController
 ---@field coneIconWidget inkImageWidgetReference
 gameuiWorldMapPlayerMappinController = {}
+
 
 ---@param fields? gameuiWorldMapPlayerMappinController
 ---@return gameuiWorldMapPlayerMappinController

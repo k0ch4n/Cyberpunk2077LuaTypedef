@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animEMotionExtractionCompressionType: Enum
 ---@field EMECT_LINEAR Enum 6
 ---@field EMECT_SPLINE_LOW Enum 4

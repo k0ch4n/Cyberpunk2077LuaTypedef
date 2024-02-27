@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HeartAttackManagerTask: StatusEffectTasks
 HeartAttackManagerTask = {}
+
 
 ---@param fields? HeartAttackManagerTask
 ---@return HeartAttackManagerTask

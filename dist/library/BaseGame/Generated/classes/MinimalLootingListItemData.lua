@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MinimalLootingListItemData: IScriptable
 ---@field gameItemData gameItemData
 ---@field itemId gameItemID
@@ -18,6 +19,7 @@
 ---@field qualityF Float
 ---@field comparedQualityF Float
 MinimalLootingListItemData = {}
+
 
 ---@param fields? MinimalLootingListItemData
 ---@return MinimalLootingListItemData

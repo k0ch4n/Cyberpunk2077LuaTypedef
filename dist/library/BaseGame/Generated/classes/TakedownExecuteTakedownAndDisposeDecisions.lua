@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TakedownExecuteTakedownAndDisposeDecisions: LocomotionTakedownDecisions
 TakedownExecuteTakedownAndDisposeDecisions = {}
+
 
 ---@param fields? TakedownExecuteTakedownAndDisposeDecisions
 ---@return TakedownExecuteTakedownAndDisposeDecisions

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ServerNodeController: ScriptableDeviceComponent
 ServerNodeController = {}
+
 
 ---@param fields? ServerNodeController
 ---@return ServerNodeController

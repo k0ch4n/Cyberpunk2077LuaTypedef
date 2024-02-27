@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemEntityTransforms: worldIRuntimeSystem
 worldRuntimeSystemEntityTransforms = {}
+
 
 ---@param fields? worldRuntimeSystemEntityTransforms
 ---@return worldRuntimeSystemEntityTransforms

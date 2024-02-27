@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InterpolatorsShowcaseController: inkWidgetLogicController
 ---@field interpolationType inkanimInterpolationType
 ---@field interpolationMode inkanimInterpolationMode
@@ -22,6 +23,7 @@
 ---@field animLength Float
 ---@field animConstructor AnimationsConstructor
 InterpolatorsShowcaseController = {}
+
 
 ---@param fields? InterpolatorsShowcaseController
 ---@return InterpolatorsShowcaseController

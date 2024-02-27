@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FriendlyTargetWeaponChangeCallback: gameAttachmentSlotsScriptCallback
 ---@field followerRole AIFollowerRole
 FriendlyTargetWeaponChangeCallback = {}
+
 
 ---@param fields? FriendlyTargetWeaponChangeCallback
 ---@return FriendlyTargetWeaponChangeCallback

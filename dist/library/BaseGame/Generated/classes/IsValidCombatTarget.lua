@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsValidCombatTarget: AIbehaviorconditionScript
 ---@field considerSourceAVehicleDriver Bool
 IsValidCombatTarget = {}
+
 
 ---@param fields? IsValidCombatTarget
 ---@return IsValidCombatTarget

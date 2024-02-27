@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_CharacterCustomization: MenuScenario_PreGameSubMenu
 MenuScenario_CharacterCustomization = {}
+
 
 ---@param fields? MenuScenario_CharacterCustomization
 ---@return MenuScenario_CharacterCustomization

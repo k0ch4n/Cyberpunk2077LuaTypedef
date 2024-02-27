@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SimpleCanUseCover: AIbehaviorconditionScript
 ---@field ability gamedataGameplayAbility_Record
 ---@field prereqs gameIPrereq[]
 ---@field prereqCount Int32
 ---@field game ScriptGameInstance
 SimpleCanUseCover = {}
+
 
 ---@param fields? SimpleCanUseCover
 ---@return SimpleCanUseCover

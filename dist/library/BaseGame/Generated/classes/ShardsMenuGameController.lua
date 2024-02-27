@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ShardsMenuGameController: gameuiMenuGameController
 ---@field buttonHintsManagerRef inkWidgetReference
 ---@field entryViewRef inkCompoundWidgetReference
@@ -24,6 +25,7 @@
 ---@field doubleInputPreventionFlag Bool
 ---@field animationProxy inkanimProxy
 ShardsMenuGameController = {}
+
 
 ---@param fields? ShardsMenuGameController
 ---@return ShardsMenuGameController

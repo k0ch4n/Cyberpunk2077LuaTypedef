@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CheckCurrentStatusEffect: AIStatusEffectCondition
 ---@field statusEffectTypeToCompare gamedataStatusEffectType
 ---@field statusEffectTagToCompare CName
 CheckCurrentStatusEffect = {}
+
 
 ---@param fields? CheckCurrentStatusEffect
 ---@return CheckCurrentStatusEffect

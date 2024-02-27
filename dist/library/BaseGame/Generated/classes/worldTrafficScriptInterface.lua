@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldTrafficScriptInterface: IScriptable
 worldTrafficScriptInterface = {}
+
 
 ---@param fields? worldTrafficScriptInterface
 ---@return worldTrafficScriptInterface

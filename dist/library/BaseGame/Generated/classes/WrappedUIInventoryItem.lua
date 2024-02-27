@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class WrappedUIInventoryItem: IScriptable
 ---@field Item UIInventoryItem
 ---@field AdditionalData IScriptable
 WrappedUIInventoryItem = {}
+
 
 ---@param fields? WrappedUIInventoryItem
 ---@return WrappedUIInventoryItem

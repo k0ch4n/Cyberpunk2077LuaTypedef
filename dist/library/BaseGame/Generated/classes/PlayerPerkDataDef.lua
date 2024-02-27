@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerPerkDataDef: gamebbScriptDefinition
 ---@field WoundedInstigated gamebbScriptID_Uint32
 ---@field DismembermentInstigated gamebbScriptID_Variant
@@ -11,6 +12,7 @@
 ---@field UsedHealingItemOrCyberware gamebbScriptID_Uint32
 ---@field StartedUsingHealingItemOrCyberware gamebbScriptID_Uint32
 PlayerPerkDataDef = {}
+
 
 ---@param fields? PlayerPerkDataDef
 ---@return PlayerPerkDataDef

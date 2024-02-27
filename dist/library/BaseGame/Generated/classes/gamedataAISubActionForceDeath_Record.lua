@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionForceDeath_Record: gamedataAISubAction_Record
 gamedataAISubActionForceDeath_Record = {}
+
 
 ---@param fields? gamedataAISubActionForceDeath_Record
 ---@return gamedataAISubActionForceDeath_Record

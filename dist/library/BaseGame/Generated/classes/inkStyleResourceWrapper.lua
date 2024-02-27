@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkStyleResourceWrapper: ISerializable
 ---@field styleResource inkStyleResource
 inkStyleResourceWrapper = {}
+
 
 ---@param fields? inkStyleResourceWrapper
 ---@return inkStyleResourceWrapper

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ReflexesMasterPerk1EffectorListener: gameScriptedDamageSystemListener
 ---@field owner ReflexesMasterPerk1Effector
 ReflexesMasterPerk1EffectorListener = {}
+
 
 ---@param fields? ReflexesMasterPerk1EffectorListener
 ---@return ReflexesMasterPerk1EffectorListener

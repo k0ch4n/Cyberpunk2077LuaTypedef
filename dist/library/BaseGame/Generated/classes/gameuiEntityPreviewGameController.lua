@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiEntityPreviewGameController: gameuiMenuGameController
 ---@field entityToPreview entEntityTemplate
 gameuiEntityPreviewGameController = {}
+
 
 ---@param fields? gameuiEntityPreviewGameController
 ---@return gameuiEntityPreviewGameController

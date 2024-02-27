@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ApplyRelicMeleewareDamageOnNPCEvent: redEvent
 ---@field newHitEvent gameeventsHitEvent
 ---@field hitPosition Vector4
@@ -7,6 +8,7 @@
 ---@field weapon gameweaponObject
 ---@field weaponType gamedataItemType
 ApplyRelicMeleewareDamageOnNPCEvent = {}
+
 
 ---@param fields? ApplyRelicMeleewareDamageOnNPCEvent
 ---@return ApplyRelicMeleewareDamageOnNPCEvent

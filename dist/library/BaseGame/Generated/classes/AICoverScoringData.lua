@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICoverScoringData
 AICoverScoringData = {}
+
 
 ---@param fields? AICoverScoringData
 ---@return AICoverScoringData

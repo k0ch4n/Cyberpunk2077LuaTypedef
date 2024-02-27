@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameIMovingPlatformMovementPointToPoint: gameIMovingPlatformMovement
 gameIMovingPlatformMovementPointToPoint = {}
+
 
 ---@param endPointLocal Vector4
 ---@return nil

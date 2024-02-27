@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SlideFallEvents: LocomotionAirEvents
 SlideFallEvents = {}
+
 
 ---@param fields? SlideFallEvents
 ---@return SlideFallEvents

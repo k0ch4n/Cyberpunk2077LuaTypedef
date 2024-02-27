@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ConsumableTransitions: DefaultTransition
 ConsumableTransitions = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entRepellingType: Enum
 ---@field Debris Enum 0
 ---@field BigObjects Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAttack_Continuous: gameAttack_GameEffect
 gameAttack_Continuous = {}
+
 
 ---@param fields? gameAttack_Continuous
 ---@return gameAttack_Continuous

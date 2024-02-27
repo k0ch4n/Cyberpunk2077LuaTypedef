@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleDef: gamebbScriptDefinition
 ---@field BikeTilt gamebbScriptID_Float
 ---@field SpeedValue gamebbScriptID_Float
@@ -39,6 +40,7 @@
 ---@field VehicleCustomizationWidgetDelay gamebbScriptID_Float
 ---@field VehicleCustomizationPhotoMode gamebbScriptID_Bool
 VehicleDef = {}
+
 
 ---@param fields? VehicleDef
 ---@return VehicleDef

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiSetupScrollBarForAttributeEvent: redEvent
 ---@field attribute Uint32
 ---@field startValue Float
@@ -7,6 +8,7 @@
 ---@field maxValue Float
 ---@field step Float
 gameuiSetupScrollBarForAttributeEvent = {}
+
 
 ---@param fields? gameuiSetupScrollBarForAttributeEvent
 ---@return gameuiSetupScrollBarForAttributeEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamemappinsIMappin: gamemappinsIVisualObject
 gamemappinsIMappin = {}
+
 
 ---@return String
 function gamemappinsIMappin:GetDisplayName() end

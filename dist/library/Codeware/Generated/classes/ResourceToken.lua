@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResourceToken: IScriptable
 ResourceToken = {}
+
 
 ---@param fields? ResourceToken
 ---@return ResourceToken

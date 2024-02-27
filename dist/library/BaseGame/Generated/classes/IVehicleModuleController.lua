@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IVehicleModuleController: inkWidgetLogicController
 IVehicleModuleController = {}
+
 
 ---@param fields? IVehicleModuleController
 ---@return IVehicleModuleController

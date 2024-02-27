@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ArmorEquipInventoryItemController: inkButtonDpadSupportedController
 ---@field itemID gameItemID
 ---@field itemData gameItemData
 ---@field empty Bool
 ArmorEquipInventoryItemController = {}
+
 
 ---@param fields? ArmorEquipInventoryItemController
 ---@return ArmorEquipInventoryItemController

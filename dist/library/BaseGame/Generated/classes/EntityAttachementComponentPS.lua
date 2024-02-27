@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EntityAttachementComponentPS: gameComponentPS
 ---@field pendingChildAttachements EntityAttachementData[]
 EntityAttachementComponentPS = {}
+
 
 ---@param fields? EntityAttachementComponentPS
 ---@return EntityAttachementComponentPS

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScriptedDamageSystemListener: gameIDamageSystemListener
 gameScriptedDamageSystemListener = {}
+
 
 ---@param fields? gameScriptedDamageSystemListener
 ---@return gameScriptedDamageSystemListener

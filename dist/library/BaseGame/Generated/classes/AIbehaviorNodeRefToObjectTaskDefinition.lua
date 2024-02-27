@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorNodeRefToObjectTaskDefinition: AIbehaviorNodeRefConverterTaskDefinition
 AIbehaviorNodeRefToObjectTaskDefinition = {}
+
 
 ---@param fields? AIbehaviorNodeRefToObjectTaskDefinition
 ---@return AIbehaviorNodeRefToObjectTaskDefinition

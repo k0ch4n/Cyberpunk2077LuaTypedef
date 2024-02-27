@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TooltipProgessBarController: inkWidgetLogicController
 ---@field progressFill inkWidgetReference
 ---@field hintHolder inkWidgetReference
@@ -11,6 +12,7 @@
 ---@field isCraftable Bool
 ---@field isCrafted Bool
 TooltipProgessBarController = {}
+
 
 ---@param fields? TooltipProgessBarController
 ---@return TooltipProgessBarController

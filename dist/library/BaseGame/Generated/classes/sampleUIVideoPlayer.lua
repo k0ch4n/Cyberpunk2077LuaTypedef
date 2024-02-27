@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class sampleUIVideoPlayer: inkWidgetLogicController
 ---@field videoWidgetPath CName
 ---@field counterWidgetPath CName
@@ -11,6 +12,7 @@
 ---@field currentFrameWidget inkTextWidget
 ---@field numberOfFrames Uint32
 sampleUIVideoPlayer = {}
+
 
 ---@param fields? sampleUIVideoPlayer
 ---@return sampleUIVideoPlayer

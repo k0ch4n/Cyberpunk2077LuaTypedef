@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class sampleImageChanger: inkWidgetLogicController
 ---@field imagePath CName
 ---@field imageName_1 CName
 ---@field imageName_2 CName
 ---@field imageWidget inkImageWidget
 sampleImageChanger = {}
+
 
 ---@param fields? sampleImageChanger
 ---@return sampleImageChanger

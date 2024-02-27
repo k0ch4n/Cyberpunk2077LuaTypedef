@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiarcadeRoachRaceGameplayController: gameuiarcadeArcadeGameplayController
 ---@field defaultWorldVelocity Float
 ---@field cycleWorldVelocityMultiplier Float
@@ -16,6 +17,7 @@
 ---@field dummy inkWidgetReference
 ---@field invincibilityCooldownIndicator inkWidgetReference
 gameuiarcadeRoachRaceGameplayController = {}
+
 
 ---@param fields? gameuiarcadeRoachRaceGameplayController
 ---@return gameuiarcadeRoachRaceGameplayController

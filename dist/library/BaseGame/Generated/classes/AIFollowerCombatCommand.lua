@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIFollowerCombatCommand: AIFollowerCommand
 AIFollowerCombatCommand = {}
+
 
 ---@param fields? AIFollowerCombatCommand
 ---@return AIFollowerCombatCommand

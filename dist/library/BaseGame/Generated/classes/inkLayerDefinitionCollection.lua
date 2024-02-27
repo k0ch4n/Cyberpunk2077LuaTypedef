@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkLayerDefinitionCollection
 ---@field menuLayer inkMenuLayerDefinition
 ---@field menuLayerMP inkMenuLayerDefinition
@@ -10,6 +11,7 @@
 ---@field photoModeLayer inkPhotoModeLayerDefinition
 ---@field debugLayer inkDebugLayerDefinition
 inkLayerDefinitionCollection = {}
+
 
 ---@param fields? inkLayerDefinitionCollection
 ---@return inkLayerDefinitionCollection

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EnteringEvents: VehicleEventsTransition
 EnteringEvents = {}
+
 
 ---@param fields? EnteringEvents
 ---@return EnteringEvents

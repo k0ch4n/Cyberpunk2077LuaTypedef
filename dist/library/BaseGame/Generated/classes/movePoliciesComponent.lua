@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class movePoliciesComponent: entIComponent
 movePoliciesComponent = {}
+
 
 ---@param fields? movePoliciesComponent
 ---@return movePoliciesComponent

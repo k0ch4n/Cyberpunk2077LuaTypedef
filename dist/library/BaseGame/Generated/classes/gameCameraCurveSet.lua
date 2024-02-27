@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCameraCurveSet: CurveSet
 gameCameraCurveSet = {}
+
 
 ---@param fields? gameCameraCurveSet
 ---@return gameCameraCurveSet

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerNPCBodyGameController: BaseChunkGameController
 ---@field factionText inkTextWidgetReference
 ---@field dataBaseWidgetHolder inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field isValidFaction Bool
 ---@field asyncSpawnRequest inkAsyncSpawnRequest
 ScannerNPCBodyGameController = {}
+
 
 ---@param fields? ScannerNPCBodyGameController
 ---@return ScannerNPCBodyGameController

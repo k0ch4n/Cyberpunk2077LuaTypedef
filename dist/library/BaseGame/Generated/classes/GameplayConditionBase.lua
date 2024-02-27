@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GameplayConditionBase: IScriptable
 ---@field entityID entEntityID
 GameplayConditionBase = {}
+
 
 ---@param requester gameObject
 ---@return Bool

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AssignHotkeyIfEmptySlot: gamePlayerScriptableSystemRequest
 ---@field itemID gameItemID
 AssignHotkeyIfEmptySlot = {}
+
 
 ---@param fields? AssignHotkeyIfEmptySlot
 ---@return AssignHotkeyIfEmptySlot

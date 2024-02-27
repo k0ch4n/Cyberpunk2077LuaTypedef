@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehiclePreventionAVObject: vehicleAVBaseObject
 vehiclePreventionAVObject = {}
+
 
 ---@param fields? vehiclePreventionAVObject
 ---@return vehiclePreventionAVObject

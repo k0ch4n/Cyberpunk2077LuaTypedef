@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimStateInterpolationType: Enum
 ---@field Linear Enum 0
 ---@field EaseIn Enum 1

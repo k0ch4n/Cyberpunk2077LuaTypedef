@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OuterBunkerComputerEntranceGameController: gameuiBaseBunkerComputerGameController
 ---@field harvestIntroAnimName CName
 ---@field harvestLoop1AnimName CName
@@ -7,6 +8,7 @@
 ---@field harvestLoop3AnimName CName
 ---@field harvestOutroAnimName CName
 OuterBunkerComputerEntranceGameController = {}
+
 
 ---@param fields? OuterBunkerComputerEntranceGameController
 ---@return OuterBunkerComputerEntranceGameController

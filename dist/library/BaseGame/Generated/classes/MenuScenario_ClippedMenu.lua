@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_ClippedMenu: inkMenuScenario
 MenuScenario_ClippedMenu = {}
+
 
 ---@param fields? MenuScenario_ClippedMenu
 ---@return MenuScenario_ClippedMenu

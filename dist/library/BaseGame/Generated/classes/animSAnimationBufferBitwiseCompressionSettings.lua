@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animSAnimationBufferBitwiseCompressionSettings
 ---@field translationTolerance Float
 ---@field translationSkipFrameTolerance Float
@@ -11,6 +12,7 @@
 ---@field trackTolerance Float
 ---@field trackSkipFrameTolerance Float
 animSAnimationBufferBitwiseCompressionSettings = {}
+
 
 ---@param fields? animSAnimationBufferBitwiseCompressionSettings
 ---@return animSAnimationBufferBitwiseCompressionSettings

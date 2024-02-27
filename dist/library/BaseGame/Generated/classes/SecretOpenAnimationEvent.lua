@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SecretOpenAnimationEvent: redEvent
 SecretOpenAnimationEvent = {}
+
 
 ---@param fields? SecretOpenAnimationEvent
 ---@return SecretOpenAnimationEvent

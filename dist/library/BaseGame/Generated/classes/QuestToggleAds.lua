@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestToggleAds: ActionBool
 QuestToggleAds = {}
+
 
 ---@param fields? QuestToggleAds
 ---@return QuestToggleAds

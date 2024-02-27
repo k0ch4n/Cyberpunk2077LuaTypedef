@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsvisEVisualizerRuntimeFlags: Enum
 ---@field None Enum 0
 ---@field Locked Enum 1

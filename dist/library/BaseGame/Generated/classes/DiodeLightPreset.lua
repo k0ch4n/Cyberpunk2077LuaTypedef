@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DiodeLightPreset
 ---@field state Bool
 ---@field colorMax Int32[]
@@ -12,6 +13,7 @@
 ---@field duration Float
 ---@field force Bool
 DiodeLightPreset = {}
+
 
 ---@param fields? DiodeLightPreset
 ---@return DiodeLightPreset

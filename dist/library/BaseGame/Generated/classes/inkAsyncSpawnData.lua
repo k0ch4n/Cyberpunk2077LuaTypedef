@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkAsyncSpawnData: IScriptable
 ---@field libraryID CName
 ---@field parentWidget inkCompoundWidget
@@ -7,6 +8,7 @@
 ---@field userData IScriptable
 ---@field introAnimation CName
 inkAsyncSpawnData = {}
+
 
 ---@param fields? inkAsyncSpawnData
 ---@return inkAsyncSpawnData

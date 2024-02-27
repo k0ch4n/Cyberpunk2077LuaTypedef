@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HUDProgressBarData
 ---@field header String
 ---@field bottomText String
@@ -9,6 +10,7 @@
 ---@field progress Float
 ---@field type gameSimpleMessageType
 HUDProgressBarData = {}
+
 
 ---@param fields? HUDProgressBarData
 ---@return HUDProgressBarData

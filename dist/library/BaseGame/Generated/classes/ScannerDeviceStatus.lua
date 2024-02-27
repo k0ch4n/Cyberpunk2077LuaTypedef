@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ScannerDeviceStatus: ScannerChunk
 ---@field deviceStatus String
 ---@field deviceStatusFriendlyName String
 ScannerDeviceStatus = {}
+
 
 ---@param fields? ScannerDeviceStatus
 ---@return ScannerDeviceStatus

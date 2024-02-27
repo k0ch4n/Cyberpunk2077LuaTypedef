@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ERenderMaterialType: Enum
 ---@field RMT_Standard Enum 0
 ---@field RMT_Subsurface Enum 1

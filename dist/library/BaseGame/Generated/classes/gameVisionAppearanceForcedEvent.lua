@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameVisionAppearanceForcedEvent: redEvent
 ---@field state Bool
 gameVisionAppearanceForcedEvent = {}
+
 
 ---@param fields? gameVisionAppearanceForcedEvent
 ---@return gameVisionAppearanceForcedEvent

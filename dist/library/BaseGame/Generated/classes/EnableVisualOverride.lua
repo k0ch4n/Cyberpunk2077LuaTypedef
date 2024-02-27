@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EnableVisualOverride: redEvent
 EnableVisualOverride = {}
+
 
 ---@param fields? EnableVisualOverride
 ---@return EnableVisualOverride

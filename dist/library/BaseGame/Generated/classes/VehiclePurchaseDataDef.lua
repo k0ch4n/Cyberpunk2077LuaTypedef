@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VehiclePurchaseDataDef: gamebbScriptDefinition
 ---@field PurchasedVehicleRecordID gamebbScriptID_Variant
 VehiclePurchaseDataDef = {}
+
 
 ---@param fields? VehiclePurchaseDataDef
 ---@return VehiclePurchaseDataDef

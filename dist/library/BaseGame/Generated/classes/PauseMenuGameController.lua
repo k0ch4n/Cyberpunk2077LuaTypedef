@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PauseMenuGameController: gameuiMenuItemListGameController
 ---@field baseLogoContainer inkCompoundWidgetReference
 ---@field ep1LogoContainer inkCompoundWidgetReference
@@ -13,6 +14,7 @@
 ---@field axisInputReceived Bool
 ---@field dpadInputReceived Bool
 PauseMenuGameController = {}
+
 
 ---@param fields? PauseMenuGameController
 ---@return PauseMenuGameController

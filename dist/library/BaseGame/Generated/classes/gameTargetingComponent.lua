@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTargetingComponent: entIPlacedComponent
 ---@field isPrimary Bool
 ---@field isDirectional Bool
@@ -7,6 +8,7 @@
 ---@field isEnabled Bool
 ---@field alwaysInTestRange Bool
 gameTargetingComponent = {}
+
 
 ---@param fields? gameTargetingComponent
 ---@return gameTargetingComponent

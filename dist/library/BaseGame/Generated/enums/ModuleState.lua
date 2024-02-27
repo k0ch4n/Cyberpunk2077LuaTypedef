@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ModuleState: Enum
 ---@field DISABLED Enum 0
 ---@field HIDDEN Enum 1

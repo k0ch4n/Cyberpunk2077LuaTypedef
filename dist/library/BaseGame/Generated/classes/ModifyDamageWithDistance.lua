@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ModifyDamageWithDistance: ModifyDamageEffector
 ---@field percentMult Float
 ---@field minDistance Float
 ---@field maxDistance Float
 ---@field improveWithDistance Bool
 ModifyDamageWithDistance = {}
+
 
 ---@param fields? ModifyDamageWithDistance
 ---@return ModifyDamageWithDistance

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FinisherEffector: ApplyStatusEffectEffector
 FinisherEffector = {}
+
 
 ---@param fields? FinisherEffector
 ---@return FinisherEffector

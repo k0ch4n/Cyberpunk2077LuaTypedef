@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldPrefabInteriorMapContribution: Enum
 ---@field Auto Enum 0
 ---@field Include Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FakeFeature: gameObject
 ---@field choices SFakeFeatureChoice[]
 ---@field interaction gameinteractionsComponent
@@ -7,6 +8,7 @@
 ---@field scaningComponent gameScanningComponent
 ---@field was_used Bool
 FakeFeature = {}
+
 
 ---@param fields? FakeFeature
 ---@return FakeFeature

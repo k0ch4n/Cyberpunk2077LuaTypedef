@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EffectExecutor_PuppetForceVisionAppearance: gameEffectExecutor_Scripted
 EffectExecutor_PuppetForceVisionAppearance = {}
+
 
 ---@param fields? EffectExecutor_PuppetForceVisionAppearance
 ---@return EffectExecutor_PuppetForceVisionAppearance

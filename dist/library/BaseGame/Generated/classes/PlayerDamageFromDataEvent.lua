@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerDamageFromDataEvent: gameTickableEvent
 PlayerDamageFromDataEvent = {}
+
 
 ---@param fields? PlayerDamageFromDataEvent
 ---@return PlayerDamageFromDataEvent

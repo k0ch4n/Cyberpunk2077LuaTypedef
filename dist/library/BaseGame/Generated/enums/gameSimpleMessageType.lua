@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSimpleMessageType: Enum
 ---@field Undefined Enum 0
 ---@field Negative Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class redCVersionCommandlet: redICommandlet
 redCVersionCommandlet = {}
+
 
 ---@param fields? redCVersionCommandlet
 ---@return redCVersionCommandlet

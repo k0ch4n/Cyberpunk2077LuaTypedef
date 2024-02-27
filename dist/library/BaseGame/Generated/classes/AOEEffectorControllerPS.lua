@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AOEEffectorControllerPS: ActivatedDeviceControllerPS
 ---@field effectsToPlay CName[]
 AOEEffectorControllerPS = {}
+
 
 ---@param fields? AOEEffectorControllerPS
 ---@return AOEEffectorControllerPS

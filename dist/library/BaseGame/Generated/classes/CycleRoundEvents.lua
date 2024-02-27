@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CycleRoundEvents: WeaponEventsTransition
 ---@field hasBlockedAiming Bool
 ---@field blockAimStart Float
 ---@field blockAimDuration Float
 CycleRoundEvents = {}
+
 
 ---@param fields? CycleRoundEvents
 ---@return CycleRoundEvents

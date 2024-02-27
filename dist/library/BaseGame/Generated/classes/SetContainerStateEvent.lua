@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetContainerStateEvent: redEvent
 ---@field isDisabled Bool
 SetContainerStateEvent = {}
+
 
 ---@param fields? SetContainerStateEvent
 ---@return SetContainerStateEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorActionRotateToObjectHeadingTreeNodeDefinition: AIbehaviorActionRotateBaseTreeNodeDefinition
 AIbehaviorActionRotateToObjectHeadingTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorActionRotateToObjectHeadingTreeNodeDefinition
 ---@return AIbehaviorActionRotateToObjectHeadingTreeNodeDefinition

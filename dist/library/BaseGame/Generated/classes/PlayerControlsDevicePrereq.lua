@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayerControlsDevicePrereq: gameIScriptablePrereq
 ---@field inverse Bool
 PlayerControlsDevicePrereq = {}
+
 
 ---@param fields? PlayerControlsDevicePrereq
 ---@return PlayerControlsDevicePrereq

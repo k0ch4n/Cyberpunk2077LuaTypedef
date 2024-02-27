@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animSBehaviorConstraintNodeFloorIKDebugTrace
 animSBehaviorConstraintNodeFloorIKDebugTrace = {}
+
 
 ---@param fields? animSBehaviorConstraintNodeFloorIKDebugTrace
 ---@return animSBehaviorConstraintNodeFloorIKDebugTrace

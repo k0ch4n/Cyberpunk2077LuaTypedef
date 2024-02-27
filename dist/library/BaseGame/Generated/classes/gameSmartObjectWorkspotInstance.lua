@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameSmartObjectWorkspotInstance
 gameSmartObjectWorkspotInstance = {}
+
 
 ---@param fields? gameSmartObjectWorkspotInstance
 ---@return gameSmartObjectWorkspotInstance

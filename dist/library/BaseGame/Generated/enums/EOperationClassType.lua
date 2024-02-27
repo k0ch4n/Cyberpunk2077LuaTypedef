@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EOperationClassType: Enum
 ---@field Local Enum 0
 ---@field BaseState Enum 1

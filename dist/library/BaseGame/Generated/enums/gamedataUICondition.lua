@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataUICondition: Enum
 ---@field InEyesSubMenu Enum 0
 ---@field InHandsSubMenu Enum 1

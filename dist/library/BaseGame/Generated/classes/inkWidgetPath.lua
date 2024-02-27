@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkWidgetPath
 ---@field names CName[]
 inkWidgetPath = {}
+
 
 ---@param fields? inkWidgetPath
 ---@return inkWidgetPath

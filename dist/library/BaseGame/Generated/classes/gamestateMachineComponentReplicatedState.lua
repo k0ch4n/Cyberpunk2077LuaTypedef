@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gamestateMachineComponentReplicatedState: netIComponentState
 ---@field stateContext gamestateMachineStateContext
 ---@field enterLadderParameter gamestateMachineparameterTypeLadderDescription
 ---@field exitLadderParameter Bool
 gamestateMachineComponentReplicatedState = {}
+
 
 ---@param fields? gamestateMachineComponentReplicatedState
 ---@return gamestateMachineComponentReplicatedState

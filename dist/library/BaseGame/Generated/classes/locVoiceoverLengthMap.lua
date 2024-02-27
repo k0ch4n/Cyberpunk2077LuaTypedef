@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class locVoiceoverLengthMap: ISerializable
 ---@field entries locVoLengthEntry[]
 locVoiceoverLengthMap = {}
+
 
 ---@param fields? locVoiceoverLengthMap
 ---@return locVoiceoverLengthMap

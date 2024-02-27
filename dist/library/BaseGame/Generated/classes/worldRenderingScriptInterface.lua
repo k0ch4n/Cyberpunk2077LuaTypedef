@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRenderingScriptInterface: IScriptable
 worldRenderingScriptInterface = {}
+
 
 ---@param fields? worldRenderingScriptInterface
 ---@return worldRenderingScriptInterface

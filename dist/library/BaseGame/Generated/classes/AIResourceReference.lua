@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIResourceReference: LibTreeCTreeReference
 AIResourceReference = {}
+
 
 ---@param fields? AIResourceReference
 ---@return AIResourceReference

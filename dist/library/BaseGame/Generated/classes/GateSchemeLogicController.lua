@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GateSchemeLogicController: inkWidgetLogicController
 ---@field sfxFactsSet SoundFxFactsSet
 ---@field tube1 inkWidgetReference
@@ -15,6 +16,7 @@
 ---@field currentSystemIndex Int32
 ---@field gameInstance ScriptGameInstance
 GateSchemeLogicController = {}
+
 
 ---@param fields? GateSchemeLogicController
 ---@return GateSchemeLogicController

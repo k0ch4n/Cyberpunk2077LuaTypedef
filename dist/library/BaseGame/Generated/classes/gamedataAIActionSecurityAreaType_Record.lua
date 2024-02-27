@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIActionSecurityAreaType_Record: gamedataTweakDBRecord
 gamedataAIActionSecurityAreaType_Record = {}
+
 
 ---@param fields? gamedataAIActionSecurityAreaType_Record
 ---@return gamedataAIActionSecurityAreaType_Record

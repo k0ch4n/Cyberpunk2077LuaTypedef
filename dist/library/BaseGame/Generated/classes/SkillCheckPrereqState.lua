@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SkillCheckPrereqState: gamePrereqState
 SkillCheckPrereqState = {}
+
 
 ---@param fields? SkillCheckPrereqState
 ---@return SkillCheckPrereqState

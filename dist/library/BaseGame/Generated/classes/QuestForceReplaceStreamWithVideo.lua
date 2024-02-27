@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceReplaceStreamWithVideo: ActionName
 QuestForceReplaceStreamWithVideo = {}
+
 
 ---@param fields? QuestForceReplaceStreamWithVideo
 ---@return QuestForceReplaceStreamWithVideo

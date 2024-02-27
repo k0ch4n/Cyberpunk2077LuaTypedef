@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataFxActionType: Enum
 ---@field BreakLoop Enum 0
 ---@field Kill Enum 1

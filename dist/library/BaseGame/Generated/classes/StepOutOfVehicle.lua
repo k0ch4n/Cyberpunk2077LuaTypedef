@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StepOutOfVehicle: AIbehaviortaskScript
 StepOutOfVehicle = {}
+
 
 ---@param fields? StepOutOfVehicle
 ---@return StepOutOfVehicle

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_Blend2: animAnimNode_Base
 ---@field minInputValue Float
 ---@field maxInputValue Float
@@ -9,6 +10,7 @@
 ---@field secondInputNode animPoseLink
 ---@field weightNode animFloatLink
 animAnimNode_Blend2 = {}
+
 
 ---@param fields? animAnimNode_Blend2
 ---@return animAnimNode_Blend2

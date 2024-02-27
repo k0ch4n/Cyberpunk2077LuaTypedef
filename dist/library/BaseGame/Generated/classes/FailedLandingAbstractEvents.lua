@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FailedLandingAbstractEvents: AbstractLandEvents
 FailedLandingAbstractEvents = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

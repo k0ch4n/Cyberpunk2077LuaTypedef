@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataDriveWheelsAccelerateNoise_Record: gamedataDriveHelper_Record
 gamedataDriveWheelsAccelerateNoise_Record = {}
+
 
 ---@param fields? gamedataDriveWheelsAccelerateNoise_Record
 ---@return gamedataDriveWheelsAccelerateNoise_Record

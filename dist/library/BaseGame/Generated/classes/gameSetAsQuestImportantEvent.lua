@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameSetAsQuestImportantEvent: redEvent
 ---@field isImportant Bool
 ---@field propagateToSlaves Bool
 gameSetAsQuestImportantEvent = {}
+
 
 ---@param fields? gameSetAsQuestImportantEvent
 ---@return gameSetAsQuestImportantEvent

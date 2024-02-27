@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDebugDrawHistorySystem: gameIDebugDrawHistorySystem
 gameDebugDrawHistorySystem = {}
+
 
 ---@param fields? gameDebugDrawHistorySystem
 ---@return gameDebugDrawHistorySystem

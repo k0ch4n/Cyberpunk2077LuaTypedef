@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OpenWorldActivityState
 ---@field name CName
 ---@field kind CName
@@ -8,6 +9,7 @@
 ---@field completed Bool
 ---@field discovered Bool
 OpenWorldActivityState = {}
+
 
 ---@param fields? OpenWorldActivityState
 ---@return OpenWorldActivityState

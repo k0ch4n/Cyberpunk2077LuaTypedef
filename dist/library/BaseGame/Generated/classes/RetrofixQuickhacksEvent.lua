@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RetrofixQuickhacksEvent: redEvent
 RetrofixQuickhacksEvent = {}
+
 
 ---@param fields? RetrofixQuickhacksEvent
 ---@return RetrofixQuickhacksEvent

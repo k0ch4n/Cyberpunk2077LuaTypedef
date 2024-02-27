@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeRecoveryEvents: MeleeNotReadyEvents
 MeleeRecoveryEvents = {}
+
 
 ---@param fields? MeleeRecoveryEvents
 ---@return MeleeRecoveryEvents

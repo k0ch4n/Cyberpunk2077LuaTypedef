@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioGroupingShapeClassifierMetadata: audioAudioMetadata
 ---@field useAngle Bool
 ---@field minGroupSize Float
@@ -11,6 +12,7 @@
 ---@field minDistanceLimit CName
 ---@field maxDistanceLimit CName
 audioGroupingShapeClassifierMetadata = {}
+
 
 ---@param fields? audioGroupingShapeClassifierMetadata
 ---@return audioGroupingShapeClassifierMetadata

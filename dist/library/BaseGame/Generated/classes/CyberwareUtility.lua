@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CyberwareUtility: IScriptable
 CyberwareUtility = {}
+
 
 ---@param fields? CyberwareUtility
 ---@return CyberwareUtility

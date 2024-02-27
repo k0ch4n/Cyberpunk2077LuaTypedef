@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hudButtonReminderGameController: gameuiHUDGameController
 ---@field Button1 inkCompoundWidgetReference
 ---@field Button2 inkCompoundWidgetReference
@@ -13,6 +14,7 @@
 ---@field OnRedrawText_3Callback redCallbackObject
 ---@field OnRedrawIcon_3Callback redCallbackObject
 hudButtonReminderGameController = {}
+
 
 ---@param fields? hudButtonReminderGameController
 ---@return hudButtonReminderGameController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionEquipOnSlot_Record: gamedataAISubActionCharacterRecordEquip_Record
 gamedataAISubActionEquipOnSlot_Record = {}
+
 
 ---@param fields? gamedataAISubActionEquipOnSlot_Record
 ---@return gamedataAISubActionEquipOnSlot_Record

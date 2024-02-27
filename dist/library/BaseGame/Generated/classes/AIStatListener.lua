@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AIStatListener: gameScriptStatsListener
 ---@field owner ScriptedPuppet
 ---@field behaviorCallbackName CName
 AIStatListener = {}
+
 
 ---@param fields? AIStatListener
 ---@return AIStatListener

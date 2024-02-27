@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataHandicapLootList_Record: gamedataTweakDBRecord
 gamedataHandicapLootList_Record = {}
+
 
 ---@param fields? gamedataHandicapLootList_Record
 ---@return gamedataHandicapLootList_Record

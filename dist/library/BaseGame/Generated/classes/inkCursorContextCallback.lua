@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkCursorContextCallback: inkCallbackBase
 inkCursorContextCallback = {}
+
 
 ---@param fields? inkCursorContextCallback
 ---@return inkCursorContextCallback

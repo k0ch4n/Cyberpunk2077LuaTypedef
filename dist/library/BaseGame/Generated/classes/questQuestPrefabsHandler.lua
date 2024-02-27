@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questQuestPrefabsHandler: worldIQuestPrefabStateListener
 questQuestPrefabsHandler = {}
+
 
 ---@param fields? questQuestPrefabsHandler
 ---@return questQuestPrefabsHandler

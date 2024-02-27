@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SecurityTurret: SensorDevice
 ---@field animFeature AnimFeature_SecurityTurretData
 ---@field animFeatureName CName
@@ -22,6 +23,7 @@
 ---@field weaponTDBID TweakDBID
 ---@field netClientCurrentlyAppliedState SecurityTurretReplicatedState
 SecurityTurret = {}
+
 
 ---@param fields? SecurityTurret
 ---@return SecurityTurret

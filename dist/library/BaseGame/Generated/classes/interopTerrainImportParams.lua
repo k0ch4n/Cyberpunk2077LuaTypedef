@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class interopTerrainImportParams
 ---@field cellRes Uint32
 ---@field cellSize Uint32
@@ -18,6 +19,7 @@
 ---@field prefabsDestinationPath String
 ---@field dstPrefabNodePath toolsEditorObjectIDPath
 interopTerrainImportParams = {}
+
 
 ---@param fields? interopTerrainImportParams
 ---@return interopTerrainImportParams

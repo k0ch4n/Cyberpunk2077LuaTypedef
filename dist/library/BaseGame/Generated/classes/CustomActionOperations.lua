@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CustomActionOperations: DeviceOperations
 ---@field customActions SCustomDeviceActionsData
 ---@field customActionsOperations SCustomActionOperationData[]
 CustomActionOperations = {}
+
 
 ---@param fields? CustomActionOperations
 ---@return CustomActionOperations

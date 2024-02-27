@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RainAreaSettings: IAreaSettings
 ---@field numParticles Uint32
 ---@field radius Float
@@ -23,6 +24,7 @@
 ---@field raindropsMask CBitmapTexture
 ---@field rainRipplesMask CBitmapTexture
 RainAreaSettings = {}
+
 
 ---@param fields? RainAreaSettings
 ---@return RainAreaSettings

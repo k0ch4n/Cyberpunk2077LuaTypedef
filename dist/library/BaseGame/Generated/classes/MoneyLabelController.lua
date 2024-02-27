@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class MoneyLabelController: inkTextValueProgressAnimationController
 ---@field animation inkanimProxy
 ---@field currentMoney Float
 ---@field pulse PulseAnimation
 MoneyLabelController = {}
+
 
 ---@param fields? MoneyLabelController
 ---@return MoneyLabelController

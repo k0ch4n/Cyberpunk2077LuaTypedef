@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCrowdSlotMovementSettingsBase_Record: gamedataTweakDBRecord
 gamedataCrowdSlotMovementSettingsBase_Record = {}
+
 
 ---@param fields? gamedataCrowdSlotMovementSettingsBase_Record
 ---@return gamedataCrowdSlotMovementSettingsBase_Record

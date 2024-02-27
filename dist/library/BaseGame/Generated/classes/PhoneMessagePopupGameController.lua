@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhoneMessagePopupGameController: gameuiNewPhoneRelatedGameController
 ---@field content inkWidgetReference
 ---@field title inkTextWidgetReference
@@ -34,6 +35,7 @@
 ---@field isFocused Bool
 ---@field isHubVisiale Bool
 PhoneMessagePopupGameController = {}
+
 
 ---@param fields? PhoneMessagePopupGameController
 ---@return PhoneMessagePopupGameController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BodyDisposalPSMPrereq: PlayerStateMachinePrereq
 BodyDisposalPSMPrereq = {}
+
 
 ---@param fields? BodyDisposalPSMPrereq
 ---@return BodyDisposalPSMPrereq

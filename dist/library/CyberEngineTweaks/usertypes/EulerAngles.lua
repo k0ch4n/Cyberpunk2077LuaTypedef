@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class EulerAngles
 ---@field roll number
 ---@field pitch number
 ---@field yaw number
 EulerAngles = {}
+
 
 ---@param roll number
 ---@param pitch number

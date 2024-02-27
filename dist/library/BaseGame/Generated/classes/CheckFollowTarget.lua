@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CheckFollowTarget: AIbehaviorconditionScript
 CheckFollowTarget = {}
+
 
 ---@param fields? CheckFollowTarget
 ---@return CheckFollowTarget

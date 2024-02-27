@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EEntityHighlightType: Enum
 ---@field EHE_None Enum 0
 ---@field EHE_FillAndOutline Enum 1

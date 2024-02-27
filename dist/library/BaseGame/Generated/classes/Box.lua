@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class Box
 ---@field Min Vector4
 ---@field Max Vector4
 Box = {}
+
 
 ---@param fields? Box
 ---@return Box

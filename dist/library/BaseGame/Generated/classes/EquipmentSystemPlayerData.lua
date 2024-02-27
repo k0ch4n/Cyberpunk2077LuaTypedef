@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EquipmentSystemPlayerData: IScriptable
 ---@field owner ScriptedPuppet
 ---@field ownerID entEntityID
@@ -19,6 +20,7 @@
 ---@field equipPending Bool
 ---@field equipAreaIndexCache Int32[]
 EquipmentSystemPlayerData = {}
+
 
 ---@param fields? EquipmentSystemPlayerData
 ---@return EquipmentSystemPlayerData

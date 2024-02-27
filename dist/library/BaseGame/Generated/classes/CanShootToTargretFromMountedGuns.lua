@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CanShootToTargretFromMountedGuns: PreventionConditionAbstract
 CanShootToTargretFromMountedGuns = {}
+
 
 ---@param fields? CanShootToTargretFromMountedGuns
 ---@return CanShootToTargretFromMountedGuns

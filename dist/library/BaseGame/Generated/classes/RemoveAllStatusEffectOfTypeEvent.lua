@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RemoveAllStatusEffectOfTypeEvent: redEvent
 ---@field statusEffectType gamedataStatusEffectType
 RemoveAllStatusEffectOfTypeEvent = {}
+
 
 ---@param fields? RemoveAllStatusEffectOfTypeEvent
 ---@return RemoveAllStatusEffectOfTypeEvent

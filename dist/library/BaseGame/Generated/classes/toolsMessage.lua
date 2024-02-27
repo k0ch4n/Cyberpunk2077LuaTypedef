@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class toolsMessage
 ---@field severity toolsMessageSeverity
 ---@field created Int64
@@ -7,6 +8,7 @@
 ---@field tokens toolsIMessageToken[]
 ---@field verbosity toolsMessageVerbosity
 toolsMessage = {}
+
 
 ---@param fields? toolsMessage
 ---@return toolsMessage

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalEmail: gameJournalEntry
 ---@field sender LocalizationString
 ---@field addressee LocalizationString
@@ -8,6 +9,7 @@
 ---@field videoResource Bink
 ---@field pictureTweak TweakDBID
 gameJournalEmail = {}
+
 
 ---@param fields? gameJournalEmail
 ---@return gameJournalEmail

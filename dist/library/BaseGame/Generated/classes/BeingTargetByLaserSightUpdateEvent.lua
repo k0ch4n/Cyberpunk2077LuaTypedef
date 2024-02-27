@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class BeingTargetByLaserSightUpdateEvent: redEvent
 ---@field weapon gameweaponObject
 ---@field state LaserTargettingState
 BeingTargetByLaserSightUpdateEvent = {}
+
 
 ---@param fields? BeingTargetByLaserSightUpdateEvent
 ---@return BeingTargetByLaserSightUpdateEvent

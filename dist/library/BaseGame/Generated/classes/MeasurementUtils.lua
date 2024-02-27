@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeasurementUtils
 MeasurementUtils = {}
+
 
 ---@param fields? MeasurementUtils
 ---@return MeasurementUtils

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class entTransformHistoryComponent: entIComponent
 ---@field historyLength Float
 ---@field samplesAmount Uint32
 entTransformHistoryComponent = {}
+
 
 ---@param fields? entTransformHistoryComponent
 ---@return entTransformHistoryComponent

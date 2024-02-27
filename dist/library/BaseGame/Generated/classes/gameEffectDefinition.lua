@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEffectDefinition
 ---@field tag CName
 ---@field objectProviders gameEffectObjectProvider[]
@@ -12,6 +13,7 @@
 ---@field settings gameEffectSettings
 ---@field debugSettings gameEffectDebugSettings
 gameEffectDefinition = {}
+
 
 ---@param fields? gameEffectDefinition
 ---@return gameEffectDefinition

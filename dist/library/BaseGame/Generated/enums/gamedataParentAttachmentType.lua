@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataParentAttachmentType: Enum
 ---@field Animated Enum 0
 ---@field Skinned Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIDodgeCountCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIDodgeCountCond_Record = {}
+
 
 ---@param fields? gamedataAIDodgeCountCond_Record
 ---@return gamedataAIDodgeCountCond_Record

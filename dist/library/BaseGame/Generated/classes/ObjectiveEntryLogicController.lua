@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ObjectiveEntryLogicController: inkWidgetLogicController
 ---@field blinkInterval Float
 ---@field blinkTotalTime Float
@@ -27,6 +28,7 @@
 ---@field isTracked Bool
 ---@field isOptional Bool
 ObjectiveEntryLogicController = {}
+
 
 ---@param fields? ObjectiveEntryLogicController
 ---@return ObjectiveEntryLogicController

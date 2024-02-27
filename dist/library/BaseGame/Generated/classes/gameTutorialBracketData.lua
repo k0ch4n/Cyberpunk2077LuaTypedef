@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTutorialBracketData
 ---@field bracketID CName
 ---@field bracketType gameTutorialBracketType
@@ -7,6 +8,7 @@
 ---@field offset Vector2
 ---@field size Vector2
 gameTutorialBracketData = {}
+
 
 ---@param fields? gameTutorialBracketData
 ---@return gameTutorialBracketData

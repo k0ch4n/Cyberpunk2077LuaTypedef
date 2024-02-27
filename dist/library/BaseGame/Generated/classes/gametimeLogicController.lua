@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gametimeLogicController: IVehicleModuleController
 ---@field gametimeTextWidget inkTextWidgetReference
 ---@field gametimeBBConnectionId redCallbackObject
@@ -7,6 +8,7 @@
 ---@field vehicle vehicleBaseObject
 ---@field parent vehicleUIGameController
 gametimeLogicController = {}
+
 
 ---@param fields? gametimeLogicController
 ---@return gametimeLogicController

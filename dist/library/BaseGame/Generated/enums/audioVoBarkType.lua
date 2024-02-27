@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioVoBarkType: Enum
 ---@field None Enum 0
 ---@field Curse Enum 1

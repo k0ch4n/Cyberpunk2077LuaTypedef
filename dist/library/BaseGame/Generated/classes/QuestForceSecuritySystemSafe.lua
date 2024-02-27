@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceSecuritySystemSafe: ActionBool
 QuestForceSecuritySystemSafe = {}
+
 
 ---@param fields? QuestForceSecuritySystemSafe
 ---@return QuestForceSecuritySystemSafe

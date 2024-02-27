@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ProgressBarsController: inkWidgetLogicController
 ---@field mask inkWidgetReference
 ProgressBarsController = {}
+
 
 ---@param fields? ProgressBarsController
 ---@return ProgressBarsController

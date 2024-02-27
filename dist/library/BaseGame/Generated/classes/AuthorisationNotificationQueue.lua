@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AuthorisationNotificationQueue: gameuiGenericNotificationGameController
 ---@field duration Float
 AuthorisationNotificationQueue = {}
+
 
 ---@param fields? AuthorisationNotificationQueue
 ---@return AuthorisationNotificationQueue

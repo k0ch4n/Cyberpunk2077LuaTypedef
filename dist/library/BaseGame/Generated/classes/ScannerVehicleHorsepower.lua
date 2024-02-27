@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerVehicleHorsepower: ScannerChunk
 ---@field horsepower Int32
 ScannerVehicleHorsepower = {}
+
 
 ---@param fields? ScannerVehicleHorsepower
 ---@return ScannerVehicleHorsepower

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class OptionalAreaEffectData: IScriptable
 ---@field includeInAoeData Bool
 ---@field aoeData AreaEffectData
 OptionalAreaEffectData = {}
+
 
 ---@param fields? OptionalAreaEffectData
 ---@return OptionalAreaEffectData

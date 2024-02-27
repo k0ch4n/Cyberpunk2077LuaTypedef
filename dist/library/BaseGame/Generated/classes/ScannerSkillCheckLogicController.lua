@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ScannerSkillCheckLogicController: inkWidgetLogicController
 ---@field ScannerSkillCheckItemName CName
 ---@field SkillCheckObjects inkWidget[]
 ---@field Root inkCompoundWidget
 ScannerSkillCheckLogicController = {}
+
 
 ---@param fields? ScannerSkillCheckLogicController
 ---@return ScannerSkillCheckLogicController

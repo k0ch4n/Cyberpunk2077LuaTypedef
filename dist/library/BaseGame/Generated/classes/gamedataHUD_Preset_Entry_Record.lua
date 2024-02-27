@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataHUD_Preset_Entry_Record: gamedataTweakDBRecord
 gamedataHUD_Preset_Entry_Record = {}
+
 
 ---@param fields? gamedataHUD_Preset_Entry_Record
 ---@return gamedataHUD_Preset_Entry_Record

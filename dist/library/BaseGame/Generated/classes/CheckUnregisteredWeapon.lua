@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CheckUnregisteredWeapon: AIItemHandlingCondition
 ---@field primaryItemArrayRecordTweakDBID TweakDBID[]
 ---@field secondaryItemArrayRecordTweakDBID TweakDBID[]
@@ -7,6 +8,7 @@
 ---@field puppet ScriptedPuppet
 ---@field initialized Bool
 CheckUnregisteredWeapon = {}
+
 
 ---@param fields? CheckUnregisteredWeapon
 ---@return CheckUnregisteredWeapon

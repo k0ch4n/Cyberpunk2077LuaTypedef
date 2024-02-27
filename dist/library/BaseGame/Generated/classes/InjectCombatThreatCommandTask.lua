@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InjectCombatThreatCommandTask: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ---@field currentCommand AIInjectCombatThreatCommand
@@ -9,6 +10,7 @@
 ---@field target gameObject
 ---@field targetID entEntityID
 InjectCombatThreatCommandTask = {}
+
 
 ---@param fields? InjectCombatThreatCommandTask
 ---@return InjectCombatThreatCommandTask

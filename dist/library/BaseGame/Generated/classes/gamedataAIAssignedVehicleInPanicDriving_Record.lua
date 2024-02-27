@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIAssignedVehicleInPanicDriving_Record: gamedataAIActionSubCondition_Record
 gamedataAIAssignedVehicleInPanicDriving_Record = {}
+
 
 ---@param fields? gamedataAIAssignedVehicleInPanicDriving_Record
 ---@return gamedataAIAssignedVehicleInPanicDriving_Record

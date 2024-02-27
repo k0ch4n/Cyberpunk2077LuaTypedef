@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIDriveToNodeCommandHandler: AICommandHandlerBase
 ---@field outUseKinematic AIArgumentMapping
 ---@field outNeedDriver AIArgumentMapping
@@ -13,6 +14,7 @@
 ---@field outTrafficTryNeighborsForEnd AIArgumentMapping
 ---@field outIgnoreNoAIDrivingLanes AIArgumentMapping
 AIDriveToNodeCommandHandler = {}
+
 
 ---@param fields? AIDriveToNodeCommandHandler
 ---@return AIDriveToNodeCommandHandler

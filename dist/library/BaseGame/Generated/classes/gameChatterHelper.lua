@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameChatterHelper: IScriptable
 gameChatterHelper = {}
+
 
 ---@param fields? gameChatterHelper
 ---@return gameChatterHelper

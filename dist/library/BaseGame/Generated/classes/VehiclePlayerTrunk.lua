@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehiclePlayerTrunk: ActionBool
 VehiclePlayerTrunk = {}
+
 
 ---@param fields? VehiclePlayerTrunk
 ---@return VehiclePlayerTrunk

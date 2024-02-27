@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NotJohnnyReplacerPrereq: gameIScriptablePrereq
 NotJohnnyReplacerPrereq = {}
+
 
 ---@param fields? NotJohnnyReplacerPrereq
 ---@return NotJohnnyReplacerPrereq

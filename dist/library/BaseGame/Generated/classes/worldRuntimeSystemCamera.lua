@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemCamera: worldIRuntimeSystem
 worldRuntimeSystemCamera = {}
+
 
 ---@param fields? worldRuntimeSystemCamera
 ---@return worldRuntimeSystemCamera

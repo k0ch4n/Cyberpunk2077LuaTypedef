@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataConvertDamageToStatPoolEffector_Record: gamedataEffector_Record
 gamedataConvertDamageToStatPoolEffector_Record = {}
+
 
 ---@param fields? gamedataConvertDamageToStatPoolEffector_Record
 ---@return gamedataConvertDamageToStatPoolEffector_Record

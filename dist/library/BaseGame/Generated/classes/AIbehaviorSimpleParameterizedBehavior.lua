@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorSimpleParameterizedBehavior: AIbehaviorParameterizedBehavior
 AIbehaviorSimpleParameterizedBehavior = {}
+
 
 ---@param fields? AIbehaviorSimpleParameterizedBehavior
 ---@return AIbehaviorSimpleParameterizedBehavior

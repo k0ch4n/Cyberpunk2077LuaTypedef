@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AINPCUpperBodyStateCheck: AINPCStateCheck
 ---@field blackboard gameIBlackboard
 AINPCUpperBodyStateCheck = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AICommandState: Enum
 ---@field NotExecuting Enum 0
 ---@field Enqueued Enum 1

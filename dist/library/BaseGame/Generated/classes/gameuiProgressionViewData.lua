@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiProgressionViewData: gameuiGenericNotificationViewData
 ---@field expValue Int32
 ---@field expProgress Float
@@ -10,6 +11,7 @@
 ---@field isLevelMaxed Bool
 ---@field type gamedataProficiencyType
 gameuiProgressionViewData = {}
+
 
 ---@param fields? gameuiProgressionViewData
 ---@return gameuiProgressionViewData

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class BaseDestructibleDevice: Device
 ---@field minTime Float
 ---@field maxTime Float
 ---@field destroyedMesh entPhysicalMeshComponent
 BaseDestructibleDevice = {}
+
 
 ---@param fields? BaseDestructibleDevice
 ---@return BaseDestructibleDevice

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CName
 ---@field hash_lo integer
 ---@field hash_hi integer
 ---@field value string
 CName = {}
+
 
 ---@param aName string
 ---@return CName

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRowTraps_Record: gamedataTweakDBRecord
 gamedataRowTraps_Record = {}
+
 
 ---@param fields? gamedataRowTraps_Record
 ---@return gamedataRowTraps_Record

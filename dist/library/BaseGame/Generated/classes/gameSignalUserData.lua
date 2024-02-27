@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameSignalUserData: IScriptable
 gameSignalUserData = {}
+
 
 ---@param fields? gameSignalUserData
 ---@return gameSignalUserData

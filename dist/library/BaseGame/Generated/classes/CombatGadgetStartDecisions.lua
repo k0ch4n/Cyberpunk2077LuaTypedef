@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CombatGadgetStartDecisions: DefaultTransition
 CombatGadgetStartDecisions = {}
+
 
 ---@param fields? CombatGadgetStartDecisions
 ---@return CombatGadgetStartDecisions

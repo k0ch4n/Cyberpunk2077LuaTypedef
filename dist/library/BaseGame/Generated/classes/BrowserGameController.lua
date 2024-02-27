@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class BrowserGameController: gameuiWidgetGameController
 ---@field logicControllerRef inkWidgetReference
 ---@field journalManager gameJournalManager
 ---@field locationTags CName[]
 BrowserGameController = {}
+
 
 ---@param fields? BrowserGameController
 ---@return BrowserGameController

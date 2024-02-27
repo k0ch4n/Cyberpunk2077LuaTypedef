@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceMoveInCombatCommsCallEffector: ForceMoveInCombatEffector
 ForceMoveInCombatCommsCallEffector = {}
+
 
 ---@param fields? ForceMoveInCombatCommsCallEffector
 ---@return ForceMoveInCombatCommsCallEffector

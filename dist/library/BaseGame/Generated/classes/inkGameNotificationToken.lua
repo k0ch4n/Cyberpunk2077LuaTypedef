@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkGameNotificationToken: IScriptable
 inkGameNotificationToken = {}
+
 
 ---@param fields? inkGameNotificationToken
 ---@return inkGameNotificationToken

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GpuWrapApiVertexPackingPackingElement
 ---@field type GpuWrapApiVertexPackingePackingType
 ---@field usage GpuWrapApiVertexPackingePackingUsage
@@ -7,6 +8,7 @@
 ---@field streamIndex Uint8
 ---@field streamType GpuWrapApiVertexPackingEStreamType
 GpuWrapApiVertexPackingPackingElement = {}
+
 
 ---@param fields? GpuWrapApiVertexPackingPackingElement
 ---@return GpuWrapApiVertexPackingPackingElement

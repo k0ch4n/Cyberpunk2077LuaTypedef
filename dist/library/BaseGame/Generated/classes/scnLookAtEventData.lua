@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnLookAtEventData
 ---@field id Uint32
 ---@field enable Bool
@@ -25,6 +26,7 @@
 ---@field headLimits animLookAtLimits
 ---@field eyesLimits animLookAtLimits
 scnLookAtEventData = {}
+
 
 ---@param fields? scnLookAtEventData
 ---@return scnLookAtEventData

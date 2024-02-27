@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleRemoteControlDriverContextEvents: InputContextTransitionEvents
 VehicleRemoteControlDriverContextEvents = {}
+
 
 ---@param fields? VehicleRemoteControlDriverContextEvents
 ---@return VehicleRemoteControlDriverContextEvents

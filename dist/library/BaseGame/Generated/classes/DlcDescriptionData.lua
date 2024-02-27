@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DlcDescriptionData: inkUserData
 ---@field title CName
 ---@field description CName
@@ -8,6 +9,7 @@
 ---@field settingVar userSettingsVar
 ---@field isPreGame Bool
 DlcDescriptionData = {}
+
 
 ---@param fields? DlcDescriptionData
 ---@return DlcDescriptionData

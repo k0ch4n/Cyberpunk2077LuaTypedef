@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetDeviceControllerInvestigationData: AIbehaviortaskScript
 ---@field ownerPuppet ScriptedPuppet
 SetDeviceControllerInvestigationData = {}
+
 
 ---@param fields? SetDeviceControllerInvestigationData
 ---@return SetDeviceControllerInvestigationData

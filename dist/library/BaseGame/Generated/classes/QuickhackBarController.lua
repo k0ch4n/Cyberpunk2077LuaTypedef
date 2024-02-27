@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class QuickhackBarController: inkWidgetLogicController
 ---@field emptyMask inkWidgetReference
 ---@field empty inkWidgetReference
 ---@field full inkWidgetReference
 QuickhackBarController = {}
+
 
 ---@param fields? QuickhackBarController
 ---@return QuickhackBarController

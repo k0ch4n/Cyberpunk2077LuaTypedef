@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleAgent: AgentBase
 ---@field unit vehicleBaseObject
 ---@field passangers Int32
@@ -11,6 +12,7 @@
 ---@field lifetimeStatus LifetimeStatus
 ---@field nearTimeStamp Float
 VehicleAgent = {}
+
 
 ---@param fields? VehicleAgent
 ---@return VehicleAgent

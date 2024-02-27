@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkLifePath: Enum
 ---@field Corporate Enum 0
 ---@field StreetKid Enum 2

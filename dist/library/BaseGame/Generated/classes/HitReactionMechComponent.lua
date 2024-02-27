@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitReactionMechComponent: HitReactionComponent
 HitReactionMechComponent = {}
+
 
 ---@param fields? HitReactionMechComponent
 ---@return HitReactionMechComponent

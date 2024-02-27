@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePlayerStateMachine: Enum
 ---@field Locomotion Enum 0
 ---@field UpperBody Enum 1

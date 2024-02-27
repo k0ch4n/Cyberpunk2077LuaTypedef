@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerResistances: ScannerChunk
 ---@field resists ScannerStatDetails[]
 ScannerResistances = {}
+
 
 ---@param fields? ScannerResistances
 ---@return ScannerResistances

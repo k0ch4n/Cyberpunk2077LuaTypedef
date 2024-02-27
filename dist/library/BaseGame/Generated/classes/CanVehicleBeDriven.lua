@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CanVehicleBeDriven: PreventionConditionAbstract
 CanVehicleBeDriven = {}
+
 
 ---@param fields? CanVehicleBeDriven
 ---@return CanVehicleBeDriven

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DevelopmentCheckPrereq: gameIScriptablePrereq
 ---@field requiredLevel Float
 DevelopmentCheckPrereq = {}
+
 
 ---@param fields? DevelopmentCheckPrereq
 ---@return DevelopmentCheckPrereq

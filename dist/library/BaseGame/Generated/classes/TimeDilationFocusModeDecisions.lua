@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TimeDilationFocusModeDecisions: TimeDilationTransitions
 TimeDilationFocusModeDecisions = {}
+
 
 ---@param fields? TimeDilationFocusModeDecisions
 ---@return TimeDilationFocusModeDecisions

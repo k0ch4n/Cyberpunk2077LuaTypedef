@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PSD_Trigger: gameObject
 ---@field ref NodeRef
 ---@field className CName
 PSD_Trigger = {}
+
 
 ---@param fields? PSD_Trigger
 ---@return PSD_Trigger

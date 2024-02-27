@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FunctionalTestsDataMemoryStatsData: ISerializable
 ---@field totalPhysicalMemory Uint64
 ---@field availablePhysicalMemory Uint64
@@ -18,6 +19,7 @@
 ---@field poolsRuntimeInfo FunctionalTestsDataMemoryPoolRuntimeData[]
 ---@field poolsCurrentInfo FunctionalTestsDataMemoryPoolStaticData[]
 FunctionalTestsDataMemoryStatsData = {}
+
 
 ---@param fields? FunctionalTestsDataMemoryStatsData
 ---@return FunctionalTestsDataMemoryStatsData

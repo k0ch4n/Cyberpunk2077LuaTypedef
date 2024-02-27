@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkSettingsSelectorController: inkWidgetLogicController
 ---@field LabelText inkTextWidgetReference
 ---@field ModifiedFlag inkTextWidgetReference
@@ -17,6 +18,7 @@
 ---@field hoverInAnim inkanimProxy
 ---@field hoverOutAnim inkanimProxy
 inkSettingsSelectorController = {}
+
 
 ---@param fields? inkSettingsSelectorController
 ---@return inkSettingsSelectorController

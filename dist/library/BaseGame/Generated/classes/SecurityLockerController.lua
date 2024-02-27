@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SecurityLockerController: ScriptableDeviceComponent
 SecurityLockerController = {}
+
 
 ---@param fields? SecurityLockerController
 ---@return SecurityLockerController

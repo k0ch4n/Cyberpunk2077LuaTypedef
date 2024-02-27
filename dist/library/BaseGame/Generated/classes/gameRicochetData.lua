@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameRicochetData
 ---@field count Int32
 ---@field range Float
@@ -8,6 +9,7 @@
 ---@field maxAngle Float
 ---@field chance Float
 gameRicochetData = {}
+
 
 ---@param fields? gameRicochetData
 ---@return gameRicochetData

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SubtitlesGameController: BaseSubtitlesGameController
 ---@field sceneComment inkTextWidget
 ---@field subtitlesPanel inkVerticalPanelWidget
@@ -7,6 +8,7 @@
 ---@field bbCbHideSceneComment redCallbackObject
 ---@field uiSceneCommentsBlackboard gameIBlackboard
 SubtitlesGameController = {}
+
 
 ---@param fields? SubtitlesGameController
 ---@return SubtitlesGameController

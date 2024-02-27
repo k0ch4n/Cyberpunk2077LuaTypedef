@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UI_ComDeviceDef: gamebbScriptDefinition
 ---@field comDeviceSetStatusText gamebbScriptID_CName
 ---@field openMessageRequest gamebbScriptID_Uint32
@@ -18,6 +19,7 @@
 ---@field ActivatePhoneElements gamebbScriptID_Uint32
 ---@field MessageToOpenHash gamebbScriptID_Int32
 UI_ComDeviceDef = {}
+
 
 ---@param fields? UI_ComDeviceDef
 ---@return UI_ComDeviceDef

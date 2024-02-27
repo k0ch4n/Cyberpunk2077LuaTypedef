@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAcousticZoneMetadata: audioAudioMetadata
 ---@field priority Int32
 ---@field bleadingDistance Float
@@ -12,6 +13,7 @@
 ---@field voReverbSettings CName
 ---@field footstepMaterialOverride CName
 audioAcousticZoneMetadata = {}
+
 
 ---@param fields? audioAcousticZoneMetadata
 ---@return audioAcousticZoneMetadata

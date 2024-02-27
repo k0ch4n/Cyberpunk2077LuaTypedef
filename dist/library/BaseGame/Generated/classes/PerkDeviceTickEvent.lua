@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PerkDeviceTickEvent: gameTickableEvent
 PerkDeviceTickEvent = {}
+
 
 ---@param fields? PerkDeviceTickEvent
 ---@return PerkDeviceTickEvent

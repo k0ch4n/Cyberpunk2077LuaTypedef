@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameinteractionsOrbActivationPredicate: gameinteractionsIPredicateType
 gameinteractionsOrbActivationPredicate = {}
+
 
 ---@param fields? gameinteractionsOrbActivationPredicate
 ---@return gameinteractionsOrbActivationPredicate

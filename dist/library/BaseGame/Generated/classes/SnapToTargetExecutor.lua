@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SnapToTargetExecutor: gameEffectExecutor_Scripted
 SnapToTargetExecutor = {}
+
 
 ---@param fields? SnapToTargetExecutor
 ---@return SnapToTargetExecutor

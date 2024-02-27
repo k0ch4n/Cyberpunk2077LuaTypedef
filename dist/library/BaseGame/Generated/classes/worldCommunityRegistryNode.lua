@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldCommunityRegistryNode: worldNode
 ---@field spawnSetNameToCommunityID gameCommunitySpawnSetNameToID
 ---@field crowdCreationRegistry gameCrowdCreationDataRegistry
@@ -7,6 +8,7 @@
 ---@field workspotsPersistentData AISpotPersistentData[]
 ---@field representsCrowd Bool
 worldCommunityRegistryNode = {}
+
 
 ---@param fields? worldCommunityRegistryNode
 ---@return worldCommunityRegistryNode

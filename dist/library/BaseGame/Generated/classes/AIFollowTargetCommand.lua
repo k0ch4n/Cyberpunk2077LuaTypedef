@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIFollowTargetCommand: AIMoveCommand
 ---@field target gameObject
 ---@field desiredDistance Float
@@ -10,6 +11,7 @@
 ---@field matchSpeed Bool
 ---@field teleport Bool
 AIFollowTargetCommand = {}
+
 
 ---@param fields? AIFollowTargetCommand
 ---@return AIFollowTargetCommand

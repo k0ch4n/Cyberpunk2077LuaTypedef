@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OverloadDevice: ActionBool
 ---@field killDelay Float
 OverloadDevice = {}
+
 
 ---@param fields? OverloadDevice
 ---@return OverloadDevice

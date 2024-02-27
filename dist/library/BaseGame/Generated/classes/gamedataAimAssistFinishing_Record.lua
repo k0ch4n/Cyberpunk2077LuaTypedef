@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAimAssistFinishing_Record: gamedataTweakDBRecord
 gamedataAimAssistFinishing_Record = {}
+
 
 ---@param fields? gamedataAimAssistFinishing_Record
 ---@return gamedataAimAssistFinishing_Record

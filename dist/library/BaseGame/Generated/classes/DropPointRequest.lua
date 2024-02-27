@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DropPointRequest: gameScriptableSystemRequest
 ---@field record TweakDBID
 ---@field status DropPointPackageStatus
 ---@field holder gamePersistentID
 DropPointRequest = {}
+
 
 ---@param fields? DropPointRequest
 ---@return DropPointRequest

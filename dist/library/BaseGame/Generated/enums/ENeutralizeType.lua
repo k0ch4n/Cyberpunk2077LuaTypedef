@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ENeutralizeType: Enum
 ---@field None Enum 0
 ---@field Killed Enum 1

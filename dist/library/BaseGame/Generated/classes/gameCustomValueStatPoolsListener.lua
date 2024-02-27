@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCustomValueStatPoolsListener: gameScriptStatPoolsListener
 gameCustomValueStatPoolsListener = {}
+
 
 ---@param fields? gameCustomValueStatPoolsListener
 ---@return gameCustomValueStatPoolsListener

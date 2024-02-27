@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AddItemToVendorRequest: gameScriptableSystemRequest
 ---@field vendorID TweakDBID
 ---@field itemToAddID TweakDBID
 ---@field quantity Int32
 AddItemToVendorRequest = {}
+
 
 ---@param fields? AddItemToVendorRequest
 ---@return AddItemToVendorRequest

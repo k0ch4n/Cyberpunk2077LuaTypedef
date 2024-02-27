@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetIconSelectEvent: redEvent
 ---@field IconID TweakDBID
 SetIconSelectEvent = {}
+
 
 ---@param fields? SetIconSelectEvent
 ---@return SetIconSelectEvent

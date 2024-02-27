@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DoorPersistentData
 ---@field doorType EDoorType
 ---@field canPlayerToggleLockState Bool
@@ -8,6 +9,7 @@
 ---@field keycardName TweakDBID
 ---@field passcode CName
 DoorPersistentData = {}
+
 
 ---@param fields? DoorPersistentData
 ---@return DoorPersistentData

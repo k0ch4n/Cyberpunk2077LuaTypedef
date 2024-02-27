@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DynamicTexture: ITexture
 ---@field width Uint32
 ---@field height Uint32
@@ -9,6 +10,7 @@
 ---@field dataFormat DynamicTextureDataFormat
 ---@field generator IDynamicTextureGenerator
 DynamicTexture = {}
+
 
 ---@param fields? DynamicTexture
 ---@return DynamicTexture

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TrafficGenMeshImpact: Enum
 ---@field UseNavigation Enum 0
 ---@field ForceIgnored Enum 1

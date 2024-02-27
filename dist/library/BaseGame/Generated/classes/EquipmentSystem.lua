@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EquipmentSystem: gameIEquipmentSystem
 ---@field ownerData EquipmentSystemPlayerData[]
 EquipmentSystem = {}
+
 
 ---@param fields? EquipmentSystem
 ---@return EquipmentSystem

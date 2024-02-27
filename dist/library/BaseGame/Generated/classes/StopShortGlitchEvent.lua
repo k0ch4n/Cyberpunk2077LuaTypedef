@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StopShortGlitchEvent: redEvent
 StopShortGlitchEvent = {}
+
 
 ---@param fields? StopShortGlitchEvent
 ---@return StopShortGlitchEvent

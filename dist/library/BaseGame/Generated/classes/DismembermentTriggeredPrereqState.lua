@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DismembermentTriggeredPrereqState: gamePrereqState
 ---@field owner gameObject
 ---@field listenerInfo redCallbackObject
 ---@field dismembermentInfo DismembermentInstigatedInfo
 DismembermentTriggeredPrereqState = {}
+
 
 ---@param fields? DismembermentTriggeredPrereqState
 ---@return DismembermentTriggeredPrereqState

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetStressOnTrafficLane: AIbehaviortaskScript
 SetStressOnTrafficLane = {}
+
 
 ---@param fields? SetStressOnTrafficLane
 ---@return SetStressOnTrafficLane

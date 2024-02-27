@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleInitialSearchStrategyRequest: vehicleBaseStrategyRequest
 vehicleInitialSearchStrategyRequest = {}
+
 
 ---@param fields? vehicleInitialSearchStrategyRequest
 ---@return vehicleInitialSearchStrategyRequest

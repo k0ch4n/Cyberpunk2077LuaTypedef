@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class DischargeEvents: WeaponEventsTransition
 ---@field layerId Uint32
 ---@field statPoolsSystem gameStatPoolsSystem
 ---@field statsSystem gameStatsSystem
 ---@field weaponID entEntityID
 DischargeEvents = {}
+
 
 ---@param fields? DischargeEvents
 ---@return DischargeEvents

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BlindingLightController: BasicDistractionDeviceController
 BlindingLightController = {}
+
 
 ---@param fields? BlindingLightController
 ---@return BlindingLightController

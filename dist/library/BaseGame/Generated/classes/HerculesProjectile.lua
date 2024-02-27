@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HerculesProjectile: ExplodingBullet
 HerculesProjectile = {}
+
 
 ---@param fields? HerculesProjectile
 ---@return HerculesProjectile

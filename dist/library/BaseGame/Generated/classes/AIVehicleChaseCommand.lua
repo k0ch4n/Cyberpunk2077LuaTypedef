@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIVehicleChaseCommand: AIVehicleCommand
 ---@field target gameObject
 ---@field distanceMin Float
@@ -9,6 +10,7 @@
 ---@field ignoreChaseVehiclesLimit Bool
 ---@field boostDrivingStats Bool
 AIVehicleChaseCommand = {}
+
 
 ---@param fields? AIVehicleChaseCommand
 ---@return AIVehicleChaseCommand

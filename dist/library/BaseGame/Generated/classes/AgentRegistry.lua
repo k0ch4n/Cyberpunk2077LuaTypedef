@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AgentRegistry: IScriptable
 ---@field isInitialized Bool
 ---@field agents Agent[]
@@ -7,6 +8,7 @@
 ---@field maxReprimandsPerNPC Int32
 ---@field maxReprimandsPerDEVICE Int32
 AgentRegistry = {}
+
 
 ---@param fields? AgentRegistry
 ---@return AgentRegistry

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TooltipSpecialAbilityList: inkWidgetLogicController
 ---@field libraryItemName CName
 ---@field container inkCompoundWidgetReference
@@ -7,6 +8,7 @@
 ---@field data gameInventoryItemAbility[]
 ---@field qualityName CName
 TooltipSpecialAbilityList = {}
+
 
 ---@param fields? TooltipSpecialAbilityList
 ---@return TooltipSpecialAbilityList

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsCollisionFilterResource: ISerializable
 ---@field collisionPresetJson JsonResource
 ---@field overridesJson JsonResource
@@ -7,6 +8,7 @@
 ---@field collisionGroups CName
 ---@field queryGroups CName
 physicsCollisionFilterResource = {}
+
 
 ---@param fields? physicsCollisionFilterResource
 ---@return physicsCollisionFilterResource

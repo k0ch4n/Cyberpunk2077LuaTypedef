@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResourceDepot: IScriptable
 ResourceDepot = {}
+
 
 ---@param fields? ResourceDepot
 ---@return ResourceDepot

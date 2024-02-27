@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class WorldTransform
 ---@field Position WorldPosition
 ---@field Orientation Quaternion
 WorldTransform = {}
+
 
 ---@param fields? WorldTransform
 ---@return WorldTransform

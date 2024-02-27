@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerDoesntHaveRecipePrereqState: gamePrereqState
 PlayerDoesntHaveRecipePrereqState = {}
+
 
 ---@param fields? PlayerDoesntHaveRecipePrereqState
 ---@return PlayerDoesntHaveRecipePrereqState

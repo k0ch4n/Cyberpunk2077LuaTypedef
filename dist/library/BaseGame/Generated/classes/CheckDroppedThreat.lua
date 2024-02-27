@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CheckDroppedThreat: CheckThreat
 CheckDroppedThreat = {}
+
 
 ---@param fields? CheckDroppedThreat
 ---@return CheckDroppedThreat

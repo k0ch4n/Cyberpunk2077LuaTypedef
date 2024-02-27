@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MusicSettings: IScriptable
 ---@field statusEffect ESoundStatusEffects
 MusicSettings = {}
+
 
 ---@return CName
 function MusicSettings:GetSoundName() end

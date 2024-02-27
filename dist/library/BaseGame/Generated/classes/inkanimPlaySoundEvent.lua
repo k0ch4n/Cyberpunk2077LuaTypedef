@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkanimPlaySoundEvent: inkanimEvent
 ---@field soundEventName CName
 inkanimPlaySoundEvent = {}
+
 
 ---@param fields? inkanimPlaySoundEvent
 ---@return inkanimPlaySoundEvent

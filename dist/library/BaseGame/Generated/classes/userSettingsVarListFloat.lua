@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class userSettingsVarListFloat: userSettingsVar
 userSettingsVarListFloat = {}
+
 
 ---@param fields? userSettingsVarListFloat
 ---@return userSettingsVarListFloat

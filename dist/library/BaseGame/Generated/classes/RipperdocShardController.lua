@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocShardController: inkWidgetLogicController
 ---@field icon inkImageWidgetReference
 ---@field text inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field pulse PulseAnimation
 ---@field RootWidget inkWidget
 RipperdocShardController = {}
+
 
 ---@param fields? RipperdocShardController
 ---@return RipperdocShardController

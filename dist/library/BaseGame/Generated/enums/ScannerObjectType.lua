@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerObjectType: Enum
 ---@field INVALID Enum 0
 ---@field PUPPET Enum 1

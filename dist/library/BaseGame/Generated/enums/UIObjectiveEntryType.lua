@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIObjectiveEntryType: Enum
 ---@field Invalid Enum 0
 ---@field Quest Enum 1

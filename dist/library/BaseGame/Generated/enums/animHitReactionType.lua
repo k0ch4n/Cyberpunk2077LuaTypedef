@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animHitReactionType: Enum
 ---@field None Enum 0
 ---@field Twitch Enum 1

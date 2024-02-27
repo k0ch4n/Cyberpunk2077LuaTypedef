@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeviceRemoteInteractionCondition: gameinteractionsInteractionScriptedCondition
 DeviceRemoteInteractionCondition = {}
+
 
 ---@param fields? DeviceRemoteInteractionCondition
 ---@return DeviceRemoteInteractionCondition

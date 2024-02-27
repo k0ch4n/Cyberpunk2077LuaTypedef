@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiMinimapPreventionVehicleMappinController: gameuiBaseMinimapMappinController
 ---@field pulseWidget inkWidgetReference
 ---@field visionWidget inkWidgetReference
@@ -22,6 +23,7 @@
 ---@field vehicle vehicleBaseObject
 ---@field isMaxTacAV Bool
 gameuiMinimapPreventionVehicleMappinController = {}
+
 
 ---@param fields? gameuiMinimapPreventionVehicleMappinController
 ---@return gameuiMinimapPreventionVehicleMappinController

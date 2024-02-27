@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CanTransitionToThrowDecisions: CarriedObjectDecisions
 ---@field throwNPCActionReleasedName CName
 ---@field throwNPCActionReleasedTime Float
 ---@field canThrow Bool
 ---@field canThrowInitialized Bool
 CanTransitionToThrowDecisions = {}
+
 
 ---@param fields? CanTransitionToThrowDecisions
 ---@return CanTransitionToThrowDecisions

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameECharacterStance: Enum
 ---@field Stance_Stand Enum 0
 ---@field Stance_Crouch Enum 1

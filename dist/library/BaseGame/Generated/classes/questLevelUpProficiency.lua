@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questLevelUpProficiency: gamePlayerScriptableSystemRequest
 ---@field proficiencyType gamedataProficiencyType
 questLevelUpProficiency = {}
+
 
 ---@param fields? questLevelUpProficiency
 ---@return questLevelUpProficiency

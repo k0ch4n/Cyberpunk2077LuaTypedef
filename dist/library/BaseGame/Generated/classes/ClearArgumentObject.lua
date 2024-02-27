@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ClearArgumentObject: SetArguments
 ClearArgumentObject = {}
+
 
 ---@param fields? ClearArgumentObject
 ---@return ClearArgumentObject

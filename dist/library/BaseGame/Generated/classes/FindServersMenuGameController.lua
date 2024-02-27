@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FindServersMenuGameController: PreGameSubMenuGameController
 ---@field serversListCtrl inkListController
 ---@field NONE_CHOOSEN Int32
@@ -10,6 +11,7 @@
 ---@field c_offlineColor Color
 ---@field token inkTextWidget
 FindServersMenuGameController = {}
+
 
 ---@param fields? FindServersMenuGameController
 ---@return FindServersMenuGameController

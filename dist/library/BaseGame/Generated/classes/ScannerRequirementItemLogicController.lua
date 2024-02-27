@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerRequirementItemLogicController: inkWidgetLogicController
 ---@field requirementNameText inkTextWidgetReference
 ---@field requirementLevelText inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field skillCheck EDeviceChallengeSkill
 ---@field requirementUserData RequirementUserData
 ScannerRequirementItemLogicController = {}
+
 
 ---@param fields? ScannerRequirementItemLogicController
 ---@return ScannerRequirementItemLogicController

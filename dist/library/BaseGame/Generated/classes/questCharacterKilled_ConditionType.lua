@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCharacterKilled_ConditionType: questICharacterConditionType
 ---@field objectRef gameEntityReference
 ---@field source questUniversalRef
@@ -8,6 +9,7 @@
 ---@field unconscious Bool
 ---@field defeated Bool
 questCharacterKilled_ConditionType = {}
+
 
 ---@param fields? questCharacterKilled_ConditionType
 ---@return questCharacterKilled_ConditionType

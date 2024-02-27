@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NetworkMinigameGridController: inkWidgetLogicController
 ---@field gridContainer inkWidgetReference
 ---@field horizontalHoverHighlight inkWidgetReference
@@ -18,6 +19,7 @@
 ---@field firstBoot Bool
 ---@field isHorizontal Bool
 NetworkMinigameGridController = {}
+
 
 ---@param fields? NetworkMinigameGridController
 ---@return NetworkMinigameGridController

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class Fridge: InteractiveDevice
 ---@field animFeature AnimFeature_SimpleDevice
 ---@field factOnDoorOpened CName
 Fridge = {}
+
 
 ---@param fields? Fridge
 ---@return Fridge

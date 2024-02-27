@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameIGameRulesSystem: gameIGameSystem
 gameIGameRulesSystem = {}
+
 
 ---@return grsHeistStatus
 function gameIGameRulesSystem:GetHeistStatus() end

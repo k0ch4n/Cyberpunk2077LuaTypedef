@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldInterestingConversationsAreaNode: worldTriggerAreaNode
 ---@field conversationGroups scnInterestingConversationsResource[]
 ---@field conversationResources worldConversationGroupData[]
@@ -7,6 +8,7 @@
 ---@field workspots NodeRef[]
 ---@field savingStrategy audioConversationSavingStrategy
 worldInterestingConversationsAreaNode = {}
+
 
 ---@param fields? worldInterestingConversationsAreaNode
 ---@return worldInterestingConversationsAreaNode

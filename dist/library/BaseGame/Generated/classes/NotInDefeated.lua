@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NotInDefeated: gameEffectObjectSingleFilter_Scripted
 NotInDefeated = {}
+
 
 ---@param fields? NotInDefeated
 ---@return NotInDefeated

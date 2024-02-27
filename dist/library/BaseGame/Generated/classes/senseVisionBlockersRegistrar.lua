@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class senseVisionBlockersRegistrar: IScriptable
 senseVisionBlockersRegistrar = {}
+
 
 ---@param fields? senseVisionBlockersRegistrar
 ---@return senseVisionBlockersRegistrar

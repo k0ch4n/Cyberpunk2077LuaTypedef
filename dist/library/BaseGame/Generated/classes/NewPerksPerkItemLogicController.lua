@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerksPerkItemLogicController: inkWidgetLogicController
 ---@field icon inkImageWidgetReference
 ---@field iconGhost inkImageWidgetReference
@@ -16,6 +17,7 @@
 ---@field animProxies inkanimProxy[]
 ---@field isRelic Bool
 NewPerksPerkItemLogicController = {}
+
 
 ---@param fields? NewPerksPerkItemLogicController
 ---@return NewPerksPerkItemLogicController

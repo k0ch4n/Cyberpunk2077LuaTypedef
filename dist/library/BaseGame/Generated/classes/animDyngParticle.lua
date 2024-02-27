@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animDyngParticle
 ---@field mass Float
 ---@field damping Float
@@ -11,6 +12,7 @@
 ---@field collisionCapsuleAxisLS Vector3
 ---@field projectionType animDyngParticleProjectionType
 animDyngParticle = {}
+
 
 ---@param fields? animDyngParticle
 ---@return animDyngParticle

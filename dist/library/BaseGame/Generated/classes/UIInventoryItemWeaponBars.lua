@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class UIInventoryItemWeaponBars: IScriptable
 ---@field Values UIInventoryItemWeaponBar[]
 ---@field type UIInventoryItemWeaponBarsType
 ---@field itemType gamedataItemType
 ---@field comparedBars UIInventoryItemWeaponBars
 UIInventoryItemWeaponBars = {}
+
 
 ---@param fields? UIInventoryItemWeaponBars
 ---@return UIInventoryItemWeaponBars

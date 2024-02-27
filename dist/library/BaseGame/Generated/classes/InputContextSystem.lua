@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class InputContextSystem: gameScriptableSystem
 ---@field activeContext inputContextType
 InputContextSystem = {}
+
 
 ---@param fields? InputContextSystem
 ---@return InputContextSystem

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameLightSettings
 ---@field strength Float
 ---@field intensity Float
@@ -8,6 +9,7 @@
 ---@field innerAngle Float
 ---@field outerAngle Float
 gameLightSettings = {}
+
 
 ---@param fields? gameLightSettings
 ---@return gameLightSettings

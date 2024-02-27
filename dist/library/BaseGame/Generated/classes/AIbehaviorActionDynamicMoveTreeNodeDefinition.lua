@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorActionDynamicMoveTreeNodeDefinition: AIbehaviorActionTreeNodeDefinition
 ---@field moveType AIArgumentMapping
 ---@field target AIArgumentMapping
@@ -11,6 +12,7 @@
 ---@field rotateEntity AIArgumentMapping
 ---@field ignoreNavigation AIArgumentMapping
 AIbehaviorActionDynamicMoveTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorActionDynamicMoveTreeNodeDefinition
 ---@return AIbehaviorActionDynamicMoveTreeNodeDefinition

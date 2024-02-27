@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsvisInteractionChoiceData
 ---@field inputAction CName
 ---@field rawInputKey EInputKey
@@ -9,6 +10,7 @@
 ---@field data Variant[]
 ---@field captionParts gameinteractionsChoiceCaption
 gameinteractionsvisInteractionChoiceData = {}
+
 
 ---@param fields? gameinteractionsvisInteractionChoiceData
 ---@return gameinteractionsvisInteractionChoiceData

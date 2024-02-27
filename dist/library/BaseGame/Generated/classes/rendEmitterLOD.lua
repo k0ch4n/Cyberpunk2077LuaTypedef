@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendEmitterLOD
 ---@field lodSwitchDistance Float
 ---@field burstList rendParticleBurst[]
@@ -9,6 +10,7 @@
 ---@field sortingMode rendEParticleSortingMode
 ---@field isEnabled Bool
 rendEmitterLOD = {}
+
 
 ---@param fields? rendEmitterLOD
 ---@return rendEmitterLOD

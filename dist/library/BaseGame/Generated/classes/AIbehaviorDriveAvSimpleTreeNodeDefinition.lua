@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorDriveAvSimpleTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field timeToTravel AIArgumentMapping
 ---@field distanceToTravel AIArgumentMapping
@@ -15,6 +16,7 @@
 ---@field interruptTaskOnLandingFound AIArgumentMapping
 ---@field attemptToSendEarlyDismountCommand AIArgumentMapping
 AIbehaviorDriveAvSimpleTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorDriveAvSimpleTreeNodeDefinition
 ---@return AIbehaviorDriveAvSimpleTreeNodeDefinition

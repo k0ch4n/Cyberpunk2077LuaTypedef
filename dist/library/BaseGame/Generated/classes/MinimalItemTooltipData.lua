@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MinimalItemTooltipData: ATooltipData
 ---@field itemID gameItemID
 ---@field itemTweakID TweakDBID
@@ -57,6 +58,7 @@
 ---@field statsManagerFetched Bool
 ---@field managerRef UIInventoryItemsManager
 MinimalItemTooltipData = {}
+
 
 ---@param fields? MinimalItemTooltipData
 ---@return MinimalItemTooltipData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DelayEvent: ActionBool
 DelayEvent = {}
+
 
 ---@param fields? DelayEvent
 ---@return DelayEvent

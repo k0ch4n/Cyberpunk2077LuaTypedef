@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WidgetMenuComponent: WidgetMenuComponentInterface
 WidgetMenuComponent = {}
+
 
 ---@param fields? WidgetMenuComponent
 ---@return WidgetMenuComponent

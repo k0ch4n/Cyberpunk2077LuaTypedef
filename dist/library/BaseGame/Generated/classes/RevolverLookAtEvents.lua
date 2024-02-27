@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RevolverLookAtEvents: lookAtPresetGunBaseEvents
 RevolverLookAtEvents = {}
+
 
 ---@param fields? RevolverLookAtEvents
 ---@return RevolverLookAtEvents

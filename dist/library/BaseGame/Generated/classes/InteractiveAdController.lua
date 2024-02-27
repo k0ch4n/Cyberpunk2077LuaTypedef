@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InteractiveAdController: ScriptableDeviceComponent
 InteractiveAdController = {}
+
 
 ---@param fields? InteractiveAdController
 ---@return InteractiveAdController

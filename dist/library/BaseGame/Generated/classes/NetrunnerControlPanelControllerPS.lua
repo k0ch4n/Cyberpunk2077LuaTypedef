@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NetrunnerControlPanelControllerPS: BasicDistractionDeviceControllerPS
 ---@field factQuickHackSetup ComputerQuickHackData
 ---@field quickhackPerformed Bool
 NetrunnerControlPanelControllerPS = {}
+
 
 ---@param fields? NetrunnerControlPanelControllerPS
 ---@return NetrunnerControlPanelControllerPS

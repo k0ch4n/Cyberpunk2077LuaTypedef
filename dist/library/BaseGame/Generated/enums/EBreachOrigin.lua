@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EBreachOrigin: Enum
 ---@field LOCAL Enum 0
 ---@field EXTERNAL Enum 1

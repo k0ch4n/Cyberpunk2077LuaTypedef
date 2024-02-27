@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetBusyEvent: redEvent
 SetBusyEvent = {}
+
 
 ---@param fields? SetBusyEvent
 ---@return SetBusyEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIPrepareTakedownData: AIbehaviortaskScript
 AIPrepareTakedownData = {}
+
 
 ---@param fields? AIPrepareTakedownData
 ---@return AIPrepareTakedownData

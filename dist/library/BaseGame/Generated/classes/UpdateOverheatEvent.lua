@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UpdateOverheatEvent: redEvent
 ---@field value Float
 UpdateOverheatEvent = {}
+
 
 ---@param fields? UpdateOverheatEvent
 ---@return UpdateOverheatEvent

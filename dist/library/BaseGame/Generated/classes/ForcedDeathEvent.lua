@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ForcedDeathEvent: redEvent
 ---@field hitIntensity Int32
 ---@field hitSource Int32
@@ -10,6 +11,7 @@
 ---@field hitNpcMovementDirection Int32
 ---@field forceRagdoll Bool
 ForcedDeathEvent = {}
+
 
 ---@param fields? ForcedDeathEvent
 ---@return ForcedDeathEvent

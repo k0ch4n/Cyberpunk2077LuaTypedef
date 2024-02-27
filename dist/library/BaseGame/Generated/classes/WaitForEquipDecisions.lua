@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WaitForEquipDecisions: UpperBodyTransition
 WaitForEquipDecisions = {}
+
 
 ---@param fields? WaitForEquipDecisions
 ---@return WaitForEquipDecisions

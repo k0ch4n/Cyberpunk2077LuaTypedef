@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FinisherEndEvents: FinisherTransition
 FinisherEndEvents = {}
+
 
 ---@param fields? FinisherEndEvents
 ---@return FinisherEndEvents

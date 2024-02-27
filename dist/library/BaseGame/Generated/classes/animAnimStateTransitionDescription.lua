@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimStateTransitionDescription: ISerializable
 ---@field targetStateIndex Uint32
 ---@field condition animIAnimStateTransitionCondition
@@ -15,6 +16,7 @@
 ---@field actionAnimDatabaseRef animActionAnimDatabase
 ---@field isOutTransitionFromAction Bool
 animAnimStateTransitionDescription = {}
+
 
 ---@param fields? animAnimStateTransitionDescription
 ---@return animAnimStateTransitionDescription

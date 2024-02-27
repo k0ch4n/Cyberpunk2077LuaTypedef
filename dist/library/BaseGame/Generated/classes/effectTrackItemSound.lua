@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class effectTrackItemSound: effectTrackItem
 ---@field eventName CName
 ---@field switches audioAudSwitch[]
@@ -9,6 +10,7 @@
 ---@field rtpcName CName
 ---@field rtpcValue IEvaluatorFloat
 effectTrackItemSound = {}
+
 
 ---@param fields? effectTrackItemSound
 ---@return effectTrackItemSound

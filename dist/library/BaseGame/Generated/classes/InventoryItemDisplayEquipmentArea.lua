@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class InventoryItemDisplayEquipmentArea: inkWidgetLogicController
 ---@field equipmentAreas gamedataEquipmentArea[]
 ---@field numberOfSlots Int32
 InventoryItemDisplayEquipmentArea = {}
+
 
 ---@param fields? InventoryItemDisplayEquipmentArea
 ---@return InventoryItemDisplayEquipmentArea

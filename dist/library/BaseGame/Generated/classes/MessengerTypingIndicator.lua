@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class MessengerTypingIndicator: inkWidgetLogicController
 ---@field container inkWidgetReference
 ---@field nameText inkTextWidgetReference
 ---@field textParams textTextParameterSet
 MessengerTypingIndicator = {}
+
 
 ---@param fields? MessengerTypingIndicator
 ---@return MessengerTypingIndicator

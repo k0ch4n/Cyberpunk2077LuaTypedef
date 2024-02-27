@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameStatsUnit: ISerializable
 ---@field recordID TweakDBID
 gameStatsUnit = {}
+
 
 ---@param fields? gameStatsUnit
 ---@return gameStatsUnit

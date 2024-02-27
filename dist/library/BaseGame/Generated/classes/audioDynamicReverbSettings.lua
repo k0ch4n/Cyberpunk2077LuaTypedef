@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioDynamicReverbSettings: audioAudioMetadata
 ---@field reverbType audioDynamicReverbType
 ---@field crossover1 audioReverbCrossoverParams
@@ -17,6 +18,7 @@
 ---@field echoPositionType audioEchoPositionType
 ---@field reportPositionType audioEchoPositionType
 audioDynamicReverbSettings = {}
+
 
 ---@param fields? audioDynamicReverbSettings
 ---@return audioDynamicReverbSettings

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questTimeDilation_Operation: ISerializable
 questTimeDilation_Operation = {}
+
 
 ---@param fields? questTimeDilation_Operation
 ---@return questTimeDilation_Operation

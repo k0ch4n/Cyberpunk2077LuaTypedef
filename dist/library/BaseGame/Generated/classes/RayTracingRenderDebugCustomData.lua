@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RayTracingRenderDebugCustomData: ICameraStorageCustomData
 RayTracingRenderDebugCustomData = {}
+
 
 ---@param fields? RayTracingRenderDebugCustomData
 ---@return RayTracingRenderDebugCustomData

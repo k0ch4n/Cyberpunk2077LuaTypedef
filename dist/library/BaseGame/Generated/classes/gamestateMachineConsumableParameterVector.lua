@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gamestateMachineConsumableParameterVector: gamestateMachineActionParameterVector
 ---@field consumed Bool
 gamestateMachineConsumableParameterVector = {}
+
 
 ---@param fields? gamestateMachineConsumableParameterVector
 ---@return gamestateMachineConsumableParameterVector

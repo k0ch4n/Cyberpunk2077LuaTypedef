@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EffectFilter_DamageOverTime: gameEffectObjectSingleFilter_Scripted
 EffectFilter_DamageOverTime = {}
+
 
 ---@param fields? EffectFilter_DamageOverTime
 ---@return EffectFilter_DamageOverTime

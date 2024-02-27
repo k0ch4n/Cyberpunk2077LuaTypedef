@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiInventoryGameController: gameuiMenuGameController
 ---@field TooltipsManagerRef inkWidgetReference
 ---@field buttonHintsManagerRef inkWidgetReference
@@ -75,6 +76,7 @@
 ---@field CyberwareScreenUserData CyberwareDisplayWrapper
 ---@field openItemMode Bool
 gameuiInventoryGameController = {}
+
 
 ---@param fields? gameuiInventoryGameController
 ---@return gameuiInventoryGameController

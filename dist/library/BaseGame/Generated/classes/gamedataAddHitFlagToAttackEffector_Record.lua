@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAddHitFlagToAttackEffector_Record: gamedataEffector_Record
 gamedataAddHitFlagToAttackEffector_Record = {}
+
 
 ---@param fields? gamedataAddHitFlagToAttackEffector_Record
 ---@return gamedataAddHitFlagToAttackEffector_Record

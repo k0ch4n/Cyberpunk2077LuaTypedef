@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPlayerIsNewPerkBoughtPrereq_Record: gamedataIPrereq_Record
 gamedataPlayerIsNewPerkBoughtPrereq_Record = {}
+
 
 ---@param fields? gamedataPlayerIsNewPerkBoughtPrereq_Record
 ---@return gamedataPlayerIsNewPerkBoughtPrereq_Record

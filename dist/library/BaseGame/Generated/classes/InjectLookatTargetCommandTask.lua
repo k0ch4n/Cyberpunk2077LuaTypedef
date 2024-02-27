@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class InjectLookatTargetCommandTask: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ---@field currentCommand AIInjectLookatTargetCommand
 ---@field activationTimeStamp Float
 ---@field commandDuration Float
 InjectLookatTargetCommandTask = {}
+
 
 ---@param fields? InjectLookatTargetCommandTask
 ---@return InjectLookatTargetCommandTask

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class vehicleVisualCustomizationComponentPS: gameComponentPS
 ---@field storedVisualCustomizationData vehicleVisualCustomizationPersistentData[]
 vehicleVisualCustomizationComponentPS = {}
+
 
 ---@param fields? vehicleVisualCustomizationComponentPS
 ---@return vehicleVisualCustomizationComponentPS

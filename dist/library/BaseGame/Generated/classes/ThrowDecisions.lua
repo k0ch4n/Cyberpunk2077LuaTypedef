@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ThrowDecisions: CarriedObjectDecisions
 ThrowDecisions = {}
+
 
 ---@param fields? ThrowDecisions
 ---@return ThrowDecisions

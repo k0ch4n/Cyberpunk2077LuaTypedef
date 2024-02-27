@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InstallCyberwareRequest: gameEquipRequest
 InstallCyberwareRequest = {}
+
 
 ---@param fields? InstallCyberwareRequest
 ---@return InstallCyberwareRequest

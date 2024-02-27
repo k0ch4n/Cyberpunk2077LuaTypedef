@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WeaponWheelEvents: QuickSlotsHoldEvents
 WeaponWheelEvents = {}
+
 
 ---@param fields? WeaponWheelEvents
 ---@return WeaponWheelEvents

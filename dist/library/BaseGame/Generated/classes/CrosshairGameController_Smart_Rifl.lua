@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrosshairGameController_Smart_Rifl: gameuiCrosshairBaseGameController
 ---@field txtAccuracy inkTextWidgetReference
 ---@field txtTargetsCount inkTextWidgetReference
@@ -45,6 +46,7 @@
 ---@field numLockedTargets Int32
 ---@field playerDevelopmentData PlayerDevelopmentData
 CrosshairGameController_Smart_Rifl = {}
+
 
 ---@param fields? CrosshairGameController_Smart_Rifl
 ---@return CrosshairGameController_Smart_Rifl

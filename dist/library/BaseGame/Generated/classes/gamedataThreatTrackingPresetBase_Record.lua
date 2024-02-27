@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataThreatTrackingPresetBase_Record: gamedataTweakDBRecord
 gamedataThreatTrackingPresetBase_Record = {}
+
 
 ---@param fields? gamedataThreatTrackingPresetBase_Record
 ---@return gamedataThreatTrackingPresetBase_Record

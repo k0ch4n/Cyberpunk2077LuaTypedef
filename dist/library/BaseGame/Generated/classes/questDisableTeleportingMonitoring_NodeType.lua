@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questDisableTeleportingMonitoring_NodeType: questIWorldDataManagerNodeType
 questDisableTeleportingMonitoring_NodeType = {}
+
 
 ---@param fields? questDisableTeleportingMonitoring_NodeType
 ---@return questDisableTeleportingMonitoring_NodeType

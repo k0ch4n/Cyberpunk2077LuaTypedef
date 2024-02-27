@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CrowdCallingPoliceEvent: redEvent
 CrowdCallingPoliceEvent = {}
+
 
 ---@param fields? CrowdCallingPoliceEvent
 ---@return CrowdCallingPoliceEvent

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NewBackdoorDeviceRequest: gameScriptableSystemRequest
 ---@field device ScriptableDeviceComponentPS
 NewBackdoorDeviceRequest = {}
+
 
 ---@param fields? NewBackdoorDeviceRequest
 ---@return NewBackdoorDeviceRequest

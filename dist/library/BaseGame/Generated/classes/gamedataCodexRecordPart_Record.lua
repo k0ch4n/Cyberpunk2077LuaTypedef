@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCodexRecordPart_Record: gamedataTweakDBRecord
 gamedataCodexRecordPart_Record = {}
+
 
 ---@param fields? gamedataCodexRecordPart_Record
 ---@return gamedataCodexRecordPart_Record

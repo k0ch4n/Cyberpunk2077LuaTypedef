@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class DismemberEffector: gameEffector
 ---@field bodyPart CName
 ---@field woundType CName
 ---@field hitPosition Vector3
 ---@field isCritical Bool
 DismemberEffector = {}
+
 
 ---@param fields? DismemberEffector
 ---@return DismemberEffector

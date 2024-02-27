@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetDoorMalfunctioningType: redEvent
 ---@field malfunctioningType EMalfunctioningType
 SetDoorMalfunctioningType = {}
+
 
 ---@param fields? SetDoorMalfunctioningType
 ---@return SetDoorMalfunctioningType

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ClearBeingNoticedBB: redEvent
 ClearBeingNoticedBB = {}
+
 
 ---@param fields? ClearBeingNoticedBB
 ---@return ClearBeingNoticedBB

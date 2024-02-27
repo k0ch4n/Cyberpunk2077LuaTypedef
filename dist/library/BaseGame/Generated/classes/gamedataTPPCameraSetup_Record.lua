@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTPPCameraSetup_Record: gamedataTweakDBRecord
 gamedataTPPCameraSetup_Record = {}
+
 
 ---@param fields? gamedataTPPCameraSetup_Record
 ---@return gamedataTPPCameraSetup_Record

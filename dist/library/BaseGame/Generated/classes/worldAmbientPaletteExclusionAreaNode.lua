@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class worldAmbientPaletteExclusionAreaNode: worldAreaShapeNode
 ---@field exclusionPaletteEntries audioAmbientPaletteEntry[]
 worldAmbientPaletteExclusionAreaNode = {}
+
 
 ---@param fields? worldAmbientPaletteExclusionAreaNode
 ---@return worldAmbientPaletteExclusionAreaNode

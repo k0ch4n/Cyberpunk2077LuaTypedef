@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAnimationType: Enum
 ---@field REGULAR Enum 0
 ---@field TRANSFORM Enum 1

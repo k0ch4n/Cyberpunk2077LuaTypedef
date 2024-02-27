@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ExpansionNewGame: gameuiBaseCharacterCreationController
 ---@field newGameDescription inkTextWidgetReference
 ---@field textureTop inkImageWidgetReference
@@ -21,6 +22,7 @@
 ---@field standaloneButton inkWidgetReference
 ---@field isInputLocked Bool
 ExpansionNewGame = {}
+
 
 ---@param fields? ExpansionNewGame
 ---@return ExpansionNewGame

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OpenTarotCollectionNotificationAction: GenericNotificationBaseAction
 ---@field eventDispatcher worlduiIWidgetGameController
 OpenTarotCollectionNotificationAction = {}
+
 
 ---@param fields? OpenTarotCollectionNotificationAction
 ---@return OpenTarotCollectionNotificationAction

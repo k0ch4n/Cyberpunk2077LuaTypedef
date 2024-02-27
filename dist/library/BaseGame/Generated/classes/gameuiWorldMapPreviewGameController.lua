@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameuiWorldMapPreviewGameController: gameuiMenuGameController
 ---@field viewTemplate entEntityTemplate
 ---@field viewEnvironmentDefinition worldEnvironmentAreaParameters
 ---@field cursorTemplate entEntityTemplate
 ---@field canvas inkImageWidgetReference
 gameuiWorldMapPreviewGameController = {}
+
 
 ---@param fields? gameuiWorldMapPreviewGameController
 ---@return gameuiWorldMapPreviewGameController

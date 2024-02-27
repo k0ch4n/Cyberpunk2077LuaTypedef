@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class IsDead: AIbehaviorconditionScript
 ---@field statPoolsSystem gameStatPoolsSystem
 ---@field entityID entEntityID
 IsDead = {}
+
 
 ---@param fields? IsDead
 ---@return IsDead

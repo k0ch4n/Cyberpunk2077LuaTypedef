@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemDisplayHoverOverEvent: redEvent
 ---@field itemData gameInventoryItemData
 ---@field display InventoryItemDisplayController
@@ -12,6 +13,7 @@
 ---@field uiInventoryItem UIInventoryItem
 ---@field displayContextData ItemDisplayContextData
 ItemDisplayHoverOverEvent = {}
+
 
 ---@param fields? ItemDisplayHoverOverEvent
 ---@return ItemDisplayHoverOverEvent

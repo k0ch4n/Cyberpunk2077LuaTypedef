@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnfppBlendOverride: Enum
 ---@field Centering Enum 0
 ---@field CopyPitch_CenteringYaw Enum 1

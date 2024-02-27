@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animAnimFeatureEvent
 animAnimFeatureEvent = {}
+
 
 ---@param fields? animAnimFeatureEvent
 ---@return animAnimFeatureEvent

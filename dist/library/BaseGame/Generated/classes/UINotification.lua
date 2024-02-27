@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UINotification: GenericNotificationController
 UINotification = {}
+
 
 ---@param fields? UINotification
 ---@return UINotification

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TargetLostEvent: redEvent
 ---@field target ScriptedPuppet
 TargetLostEvent = {}
+
 
 ---@param fields? TargetLostEvent
 ---@return TargetLostEvent

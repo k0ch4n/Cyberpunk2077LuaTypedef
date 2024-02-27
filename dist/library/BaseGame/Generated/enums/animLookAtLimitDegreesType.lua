@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animLookAtLimitDegreesType: Enum
 ---@field Narrow Enum 0
 ---@field Normal Enum 1

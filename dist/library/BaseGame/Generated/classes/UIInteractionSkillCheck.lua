@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInteractionSkillCheck
 ---@field isValid Bool
 ---@field skillCheck EDeviceChallengeSkill
@@ -13,6 +14,7 @@
 ---@field isPassed Bool
 ---@field ownerID entEntityID
 UIInteractionSkillCheck = {}
+
 
 ---@param fields? UIInteractionSkillCheck
 ---@return UIInteractionSkillCheck

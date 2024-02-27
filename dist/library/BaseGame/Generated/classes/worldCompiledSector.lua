@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldCompiledSector
 worldCompiledSector = {}
+
 
 ---@param fields? worldCompiledSector
 ---@return worldCompiledSector

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActionsSequencer: InteractiveMasterDevice
 ActionsSequencer = {}
+
 
 ---@param fields? ActionsSequencer
 ---@return ActionsSequencer

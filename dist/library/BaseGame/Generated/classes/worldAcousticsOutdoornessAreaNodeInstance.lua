@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldAcousticsOutdoornessAreaNodeInstance: worldAreaShapeNodeInstance
 worldAcousticsOutdoornessAreaNodeInstance = {}
+
 
 ---@param fields? worldAcousticsOutdoornessAreaNodeInstance
 ---@return worldAcousticsOutdoornessAreaNodeInstance

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnBraindanceLayer: Enum
 ---@field Visual Enum 0
 ---@field Audio Enum 1

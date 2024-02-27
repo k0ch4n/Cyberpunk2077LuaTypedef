@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WeaponBarTypeGroup: Enum
 ---@field AttackSpeed Enum 0
 ---@field DamagePerHit Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiHUDGameController: gameuiWidgetGameController
 ---@field showAnimDef inkanimDefinition
 ---@field hideAnimDef inkanimDefinition
@@ -9,6 +10,7 @@
 ---@field showAnimProxy inkanimProxy
 ---@field hideAnimProxy inkanimProxy
 gameuiHUDGameController = {}
+
 
 ---@param fields? gameuiHUDGameController
 ---@return gameuiHUDGameController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIBehaviorScript: IScriptable
 AIBehaviorScript = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return ScriptGameInstance

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuickMeleeAttackData
 ---@field attackGameEffectDelay Float
 ---@field attackGameEffectDuration Float
@@ -13,6 +14,7 @@
 ---@field cooldown Float
 ---@field duration Float
 QuickMeleeAttackData = {}
+
 
 ---@param fields? QuickMeleeAttackData
 ---@return QuickMeleeAttackData

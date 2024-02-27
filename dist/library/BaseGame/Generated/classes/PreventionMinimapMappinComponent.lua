@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PreventionMinimapMappinComponent: IScriptable
 ---@field minimapStealthMappinController gameuiMinimapStealthMappinController
 ---@field uiWantedBarBB gameIBlackboard
@@ -9,6 +10,7 @@
 ---@field playerEscapingPursuit Bool
 ---@field maxVisibilityDistance Float
 PreventionMinimapMappinComponent = {}
+
 
 ---@param fields? PreventionMinimapMappinComponent
 ---@return PreventionMinimapMappinComponent

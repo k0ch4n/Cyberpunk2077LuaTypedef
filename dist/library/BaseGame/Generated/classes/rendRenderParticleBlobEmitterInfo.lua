@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendRenderParticleBlobEmitterInfo
 ---@field emitterHash Uint64
 ---@field diffuseWrapFactor Float
@@ -42,6 +43,7 @@
 ---@field volumetricParticleNoiseThreshold Float
 ---@field volumetricParticleNoiseVelocity Vector3
 rendRenderParticleBlobEmitterInfo = {}
+
 
 ---@param fields? rendRenderParticleBlobEmitterInfo
 ---@return rendRenderParticleBlobEmitterInfo

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BriefingScreen: gameuiHUDGameController
 ---@field logicControllerRef inkWidgetReference
 ---@field journalManager gameJournalManager
@@ -7,6 +8,7 @@
 ---@field bbSizeEventID redCallbackObject
 ---@field bbAlignmentEventID redCallbackObject
 BriefingScreen = {}
+
 
 ---@param fields? BriefingScreen
 ---@return BriefingScreen

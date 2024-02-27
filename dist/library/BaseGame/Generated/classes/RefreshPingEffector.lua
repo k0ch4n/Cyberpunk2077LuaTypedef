@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RefreshPingEffector: gameEffector
 ---@field squadMembers entEntityID[]
 ---@field owner gameObject
 RefreshPingEffector = {}
+
 
 ---@param fields? RefreshPingEffector
 ---@return RefreshPingEffector

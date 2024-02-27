@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameRenderGameplayEffectsManagerSystem: gameIRenderGameplayEffectsManagerSystem
 gameRenderGameplayEffectsManagerSystem = {}
+
 
 ---@param fields? gameRenderGameplayEffectsManagerSystem
 ---@return gameRenderGameplayEffectsManagerSystem

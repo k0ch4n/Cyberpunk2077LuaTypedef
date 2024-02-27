@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class interopSelectByDefinitionOptions
 ---@field searchInSelection Bool
 ---@field minBBoxDiagonalLength Float
@@ -9,6 +10,7 @@
 ---@field includeDecalNodes Bool
 ---@field includeMeshNodes Bool
 interopSelectByDefinitionOptions = {}
+
 
 ---@param fields? interopSelectByDefinitionOptions
 ---@return interopSelectByDefinitionOptions

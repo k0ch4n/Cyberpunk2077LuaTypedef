@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryWeaponSlot: InventoryEquipmentSlot
 ---@field DamageIndicatorRef inkWidgetReference
 ---@field DPSRef inkWidgetReference
@@ -7,6 +8,7 @@
 ---@field DamageTypeIndicator DamageTypeIndicator
 ---@field IntroPlayed Bool
 InventoryWeaponSlot = {}
+
 
 ---@param fields? InventoryWeaponSlot
 ---@return InventoryWeaponSlot

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class BuyAttribute: gamePlayerScriptableSystemRequest
 ---@field attributeType gamedataStatType
 ---@field grantAttributePoint Bool
 BuyAttribute = {}
+
 
 ---@param fields? BuyAttribute
 ---@return BuyAttribute

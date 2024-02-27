@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameScriptableComponent: gameComponent
 ---@field priority Uint32
 gameScriptableComponent = {}
+
 
 ---@param fields? gameScriptableComponent
 ---@return gameScriptableComponent

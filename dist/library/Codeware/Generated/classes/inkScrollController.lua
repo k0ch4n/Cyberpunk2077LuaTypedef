@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkScrollController: inkWidgetLogicController
 inkScrollController = {}
+
 
 ---@param fields? inkScrollController
 ---@return inkScrollController

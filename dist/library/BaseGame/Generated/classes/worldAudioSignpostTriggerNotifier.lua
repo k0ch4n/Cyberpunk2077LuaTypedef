@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldAudioSignpostTriggerNotifier: worldITriggerAreaNotifer
 worldAudioSignpostTriggerNotifier = {}
+
 
 ---@param fields? worldAudioSignpostTriggerNotifier
 ---@return worldAudioSignpostTriggerNotifier

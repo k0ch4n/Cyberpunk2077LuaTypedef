@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataApplyEffectorEffector_Record: gamedataEffector_Record
 gamedataApplyEffectorEffector_Record = {}
+
 
 ---@param fields? gamedataApplyEffectorEffector_Record
 ---@return gamedataApplyEffectorEffector_Record

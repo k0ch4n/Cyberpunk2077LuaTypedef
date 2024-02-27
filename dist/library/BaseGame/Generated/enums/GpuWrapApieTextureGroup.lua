@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GpuWrapApieTextureGroup: Enum
 ---@field TEXG_Generic_Color Enum 1
 ---@field TEXG_Generic_Grayscale Enum 2

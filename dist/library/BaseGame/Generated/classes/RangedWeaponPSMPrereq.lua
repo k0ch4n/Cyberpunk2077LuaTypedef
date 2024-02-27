@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RangedWeaponPSMPrereq: PlayerStateMachinePrereq
 RangedWeaponPSMPrereq = {}
+
 
 ---@param fields? RangedWeaponPSMPrereq
 ---@return RangedWeaponPSMPrereq

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EInitReactionAnim: Enum
 ---@field Shock Enum 0
 ---@field Fear Enum 1

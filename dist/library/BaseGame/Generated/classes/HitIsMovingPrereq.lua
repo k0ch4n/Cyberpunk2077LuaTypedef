@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class HitIsMovingPrereq: GenericHitPrereq
 ---@field isMoving Bool
 ---@field object String
 HitIsMovingPrereq = {}
+
 
 ---@param fields? HitIsMovingPrereq
 ---@return HitIsMovingPrereq

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionSetInfluenceMap_Record: gamedataAISubAction_Record
 gamedataAISubActionSetInfluenceMap_Record = {}
+
 
 ---@param fields? gamedataAISubActionSetInfluenceMap_Record
 ---@return gamedataAISubActionSetInfluenceMap_Record

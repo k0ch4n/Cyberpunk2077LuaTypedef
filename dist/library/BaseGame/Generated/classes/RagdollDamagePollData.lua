@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RagdollDamagePollData
 ---@field worldPosition WorldPosition
 ---@field worldNormal Vector4
@@ -8,6 +9,7 @@
 ---@field maxVelocityChange Float
 ---@field maxZDiff Float
 RagdollDamagePollData = {}
+
 
 ---@param fields? RagdollDamagePollData
 ---@return RagdollDamagePollData

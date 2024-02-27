@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MaterialTooltip: AGenericTooltipController
 ---@field titleWrapper inkWidgetReference
 ---@field descriptionWrapper inkWidgetReference
@@ -9,6 +10,7 @@
 ---@field Price inkTextWidgetReference
 ---@field animProxy inkanimProxy
 MaterialTooltip = {}
+
 
 ---@param fields? MaterialTooltip
 ---@return MaterialTooltip

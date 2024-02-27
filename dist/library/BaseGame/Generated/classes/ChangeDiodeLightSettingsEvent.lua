@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ChangeDiodeLightSettingsEvent: redEvent
 ---@field colorValues Int32[]
 ---@field strength Float
@@ -7,6 +8,7 @@
 ---@field curve CName
 ---@field loop Bool
 ChangeDiodeLightSettingsEvent = {}
+
 
 ---@param fields? ChangeDiodeLightSettingsEvent
 ---@return ChangeDiodeLightSettingsEvent

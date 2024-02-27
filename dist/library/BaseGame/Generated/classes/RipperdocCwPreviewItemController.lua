@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class RipperdocCwPreviewItemController: inkWidgetLogicController
 ---@field itemIcon inkWidgetReference
 ---@field addIcon inkWidgetReference
 ---@field root inkWidget
 RipperdocCwPreviewItemController = {}
+
 
 ---@param fields? RipperdocCwPreviewItemController
 ---@return RipperdocCwPreviewItemController

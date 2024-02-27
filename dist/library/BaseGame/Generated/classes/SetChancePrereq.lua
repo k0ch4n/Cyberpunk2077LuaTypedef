@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetChancePrereq: gameIScriptablePrereq
 ---@field setChance Float
 SetChancePrereq = {}
+
 
 ---@param fields? SetChancePrereq
 ---@return SetChancePrereq

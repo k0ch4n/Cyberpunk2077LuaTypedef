@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsBlockedInTraffic: AIbehaviorconditionScript
 IsBlockedInTraffic = {}
+
 
 ---@param fields? IsBlockedInTraffic
 ---@return IsBlockedInTraffic

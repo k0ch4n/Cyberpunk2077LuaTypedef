@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkBrushMirrorType: Enum
 ---@field NoMirror Enum 0
 ---@field Horizontal Enum 1

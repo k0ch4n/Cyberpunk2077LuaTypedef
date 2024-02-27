@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerCombatControllerActiveFlags
 ---@field crouchActive Bool
 ---@field crouchTimerPassed Bool
@@ -7,6 +8,7 @@
 ---@field usingJhonnyReplacer Bool
 ---@field usingQuickHack Bool
 PlayerCombatControllerActiveFlags = {}
+
 
 ---@param fields? PlayerCombatControllerActiveFlags
 ---@return PlayerCombatControllerActiveFlags

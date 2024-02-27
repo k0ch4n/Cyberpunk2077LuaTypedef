@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIGameContext: Enum
 ---@field Default Enum 0
 ---@field QuickHack Enum 1

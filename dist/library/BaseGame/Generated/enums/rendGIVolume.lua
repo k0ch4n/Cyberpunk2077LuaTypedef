@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendGIVolume: Enum
 ---@field GI_Exterior Enum 0
 ---@field GI_Interior1 Enum 1

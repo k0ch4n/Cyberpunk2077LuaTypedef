@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamebbAllScriptDefinitions: IScriptable
 ---@field PlayerStateMachine PlayerStateMachineDef
 ---@field PlayerPerkData PlayerPerkDataDef
@@ -126,6 +127,7 @@
 ---@field InputSchemes InputSchemesDef
 ---@field PoliceChaseParams PoliceChaseParamsDef
 gamebbAllScriptDefinitions = {}
+
 
 ---@param fields? gamebbAllScriptDefinitions
 ---@return gamebbAllScriptDefinitions

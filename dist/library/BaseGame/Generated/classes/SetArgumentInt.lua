@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetArgumentInt: SetArguments
 ---@field customVar Int32
 SetArgumentInt = {}
+
 
 ---@param fields? SetArgumentInt
 ---@return SetArgumentInt

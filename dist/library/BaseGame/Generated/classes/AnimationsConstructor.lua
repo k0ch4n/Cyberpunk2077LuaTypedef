@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class AnimationsConstructor: IScriptable
 ---@field duration Float
 ---@field type inkanimInterpolationType
 ---@field mode inkanimInterpolationMode
 ---@field isAdditive Bool
 AnimationsConstructor = {}
+
 
 ---@param fields? AnimationsConstructor
 ---@return AnimationsConstructor

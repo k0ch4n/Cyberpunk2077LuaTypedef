@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BunkerComputerController: ComputerController
 BunkerComputerController = {}
+
 
 ---@param fields? BunkerComputerController
 ---@return BunkerComputerController

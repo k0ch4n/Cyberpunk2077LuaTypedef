@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnPlaySpeed: Enum
 ---@field Pause Enum 0
 ---@field Slow Enum 1

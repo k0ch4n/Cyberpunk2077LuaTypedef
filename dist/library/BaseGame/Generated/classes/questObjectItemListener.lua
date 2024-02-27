@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questObjectItemListener: gameIInventoryListener
 questObjectItemListener = {}
+
 
 ---@param fields? questObjectItemListener
 ---@return questObjectItemListener

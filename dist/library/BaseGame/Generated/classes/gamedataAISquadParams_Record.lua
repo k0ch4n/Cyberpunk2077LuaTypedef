@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISquadParams_Record: gamedataTweakDBRecord
 gamedataAISquadParams_Record = {}
+
 
 ---@param fields? gamedataAISquadParams_Record
 ---@return gamedataAISquadParams_Record

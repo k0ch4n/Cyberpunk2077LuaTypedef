@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DeviceOperationBase: IScriptable
 ---@field operationName CName
 ---@field executeOnce Bool
@@ -7,6 +8,7 @@
 ---@field toggleOperations SToggleDeviceOperationData[]
 ---@field disableDevice Bool
 DeviceOperationBase = {}
+
 
 ---@param owner gameObject
 ---@return nil

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DistrurbComfortZoneAggressiveEvent: redEvent
 DistrurbComfortZoneAggressiveEvent = {}
+
 
 ---@param fields? DistrurbComfortZoneAggressiveEvent
 ---@return DistrurbComfortZoneAggressiveEvent

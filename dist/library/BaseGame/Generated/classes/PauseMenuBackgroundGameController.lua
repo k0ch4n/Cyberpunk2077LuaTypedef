@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PauseMenuBackgroundGameController: gameuiWidgetGameController
 PauseMenuBackgroundGameController = {}
+
 
 ---@param fields? PauseMenuBackgroundGameController
 ---@return PauseMenuBackgroundGameController

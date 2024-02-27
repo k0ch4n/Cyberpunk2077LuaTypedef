@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SortComparatorTemplate: IScriptable
 SortComparatorTemplate = {}
+
 
 ---@param left Variant
 ---@param right Variant

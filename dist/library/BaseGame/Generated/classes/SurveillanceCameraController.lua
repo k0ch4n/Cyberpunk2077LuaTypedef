@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SurveillanceCameraController: SensorDeviceController
 SurveillanceCameraController = {}
+
 
 ---@param fields? SurveillanceCameraController
 ---@return SurveillanceCameraController

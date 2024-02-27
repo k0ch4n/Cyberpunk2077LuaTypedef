@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BaseCodexLinkController: inkWidgetLogicController
 ---@field linkImage inkImageWidgetReference
 ---@field linkLabel inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field animProxy inkanimProxy
 ---@field isInteractive Bool
 BaseCodexLinkController = {}
+
 
 ---@param fields? BaseCodexLinkController
 ---@return BaseCodexLinkController

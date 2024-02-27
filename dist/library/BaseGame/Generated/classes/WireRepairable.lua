@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WireRepairable: gameObject
 ---@field isBroken Bool
 ---@field dependableEntities NodeRef[]
@@ -7,6 +8,7 @@
 ---@field brokenmesh entIVisualComponent
 ---@field fixedmesh entIVisualComponent
 WireRepairable = {}
+
 
 ---@param fields? WireRepairable
 ---@return WireRepairable

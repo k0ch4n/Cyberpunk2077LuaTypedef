@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ElevatorFloorTerminalControllerPS: TerminalControllerPS
 ---@field elevatorFloorSetup ElevatorFloorSetup
 ---@field hasDirectInteration Bool
 ---@field isElevatorAtThisFloor Bool
 ElevatorFloorTerminalControllerPS = {}
+
 
 ---@param fields? ElevatorFloorTerminalControllerPS
 ---@return ElevatorFloorTerminalControllerPS

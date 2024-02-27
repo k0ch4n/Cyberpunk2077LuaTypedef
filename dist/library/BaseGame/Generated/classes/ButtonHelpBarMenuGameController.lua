@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ButtonHelpBarMenuGameController: inkWidgetLogicController
 ButtonHelpBarMenuGameController = {}
+
 
 ---@param fields? ButtonHelpBarMenuGameController
 ---@return ButtonHelpBarMenuGameController

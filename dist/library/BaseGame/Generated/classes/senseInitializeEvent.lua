@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class senseInitializeEvent: redEvent
 senseInitializeEvent = {}
+
 
 ---@param fields? senseInitializeEvent
 ---@return senseInitializeEvent

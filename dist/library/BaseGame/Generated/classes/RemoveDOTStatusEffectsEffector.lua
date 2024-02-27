@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RemoveDOTStatusEffectsEffector: gameEffector
 ---@field ownerEntityID entEntityID
 ---@field delay Float
 RemoveDOTStatusEffectsEffector = {}
+
 
 ---@param fields? RemoveDOTStatusEffectsEffector
 ---@return RemoveDOTStatusEffectsEffector

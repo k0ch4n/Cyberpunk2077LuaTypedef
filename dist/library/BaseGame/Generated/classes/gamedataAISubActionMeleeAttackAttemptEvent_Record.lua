@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionMeleeAttackAttemptEvent_Record: gamedataAISubAction_Record
 gamedataAISubActionMeleeAttackAttemptEvent_Record = {}
+
 
 ---@param fields? gamedataAISubActionMeleeAttackAttemptEvent_Record
 ---@return gamedataAISubActionMeleeAttackAttemptEvent_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkILoadingScreenData
 inkILoadingScreenData = {}
+
 
 ---@param fields? inkILoadingScreenData
 ---@return inkILoadingScreenData

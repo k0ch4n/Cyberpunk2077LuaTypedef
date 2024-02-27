@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiPopupsManager: gameuiWidgetGameController
 gameuiPopupsManager = {}
+
 
 ---@param fields? gameuiPopupsManager
 ---@return gameuiPopupsManager

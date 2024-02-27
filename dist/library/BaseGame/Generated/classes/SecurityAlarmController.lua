@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SecurityAlarmController: MasterController
 SecurityAlarmController = {}
+
 
 ---@param fields? SecurityAlarmController
 ---@return SecurityAlarmController

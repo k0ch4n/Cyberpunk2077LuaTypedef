@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NewPerkActionRequest: gamePlayerScriptableSystemRequest
 ---@field perkType gamedataNewPerkType
 NewPerkActionRequest = {}
+
 
 ---@param fields? NewPerkActionRequest
 ---@return NewPerkActionRequest

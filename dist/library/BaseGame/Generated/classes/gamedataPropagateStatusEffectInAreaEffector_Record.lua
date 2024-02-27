@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPropagateStatusEffectInAreaEffector_Record: gamedataEffector_Record
 gamedataPropagateStatusEffectInAreaEffector_Record = {}
+
 
 ---@param fields? gamedataPropagateStatusEffectInAreaEffector_Record
 ---@return gamedataPropagateStatusEffectInAreaEffector_Record

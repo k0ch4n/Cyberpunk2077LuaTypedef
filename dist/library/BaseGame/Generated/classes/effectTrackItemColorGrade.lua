@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class effectTrackItemColorGrade: effectTrackItem
 ---@field contrast effectEffectParameterEvaluatorFloat
 ---@field saturate effectEffectParameterEvaluatorFloat
@@ -10,6 +11,7 @@
 ---@field blendWithBaseLut Bool
 ---@field mask ERenderObjectType[]
 effectTrackItemColorGrade = {}
+
 
 ---@param fields? effectTrackItemColorGrade
 ---@return effectTrackItemColorGrade

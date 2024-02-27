@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ShootCommandTask: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ---@field currentCommand AIShootCommand
@@ -9,6 +10,7 @@
 ---@field target gameObject
 ---@field targetID entEntityID
 ShootCommandTask = {}
+
 
 ---@param fields? ShootCommandTask
 ---@return ShootCommandTask

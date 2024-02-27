@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiTutorialBracketLogicController: inkWidgetLogicController
 ---@field loopAnim inkanimProxy
 gameuiTutorialBracketLogicController = {}
+
 
 ---@param fields? gameuiTutorialBracketLogicController
 ---@return gameuiTutorialBracketLogicController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SlideExitingDecisions: ExitingDecisions
 SlideExitingDecisions = {}
+
 
 ---@param fields? SlideExitingDecisions
 ---@return SlideExitingDecisions

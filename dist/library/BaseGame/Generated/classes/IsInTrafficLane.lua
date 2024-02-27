@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsInTrafficLane: AIbehaviorconditionScript
 IsInTrafficLane = {}
+
 
 ---@param fields? IsInTrafficLane
 ---@return IsInTrafficLane

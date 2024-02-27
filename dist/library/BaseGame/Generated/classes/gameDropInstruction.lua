@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameDropInstruction
 ---@field itemID gameItemID
 ---@field quantity Int32
 gameDropInstruction = {}
+
 
 ---@param fields? gameDropInstruction
 ---@return gameDropInstruction

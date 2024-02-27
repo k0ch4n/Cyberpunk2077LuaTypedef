@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeviceOperationsTrigger: IScriptable
 DeviceOperationsTrigger = {}
+
 
 ---@param namedOperation OperationExecutionData
 ---@return nil

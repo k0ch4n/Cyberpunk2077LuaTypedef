@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DoorStateOperationTriggerData: DeviceOperationTriggerData
 ---@field state EDoorStatus
 DoorStateOperationTriggerData = {}
+
 
 ---@param fields? DoorStateOperationTriggerData
 ---@return DoorStateOperationTriggerData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EffectExecutor_NanowireGrenadePull: gameEffectExecutor_Scripted
 EffectExecutor_NanowireGrenadePull = {}
+
 
 ---@param fields? EffectExecutor_NanowireGrenadePull
 ---@return EffectExecutor_NanowireGrenadePull

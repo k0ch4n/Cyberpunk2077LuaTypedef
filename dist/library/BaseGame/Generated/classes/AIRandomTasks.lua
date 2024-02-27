@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIRandomTasks: AIbehaviortaskScript
 AIRandomTasks = {}
+
 
 ---@param fields? AIRandomTasks
 ---@return AIRandomTasks

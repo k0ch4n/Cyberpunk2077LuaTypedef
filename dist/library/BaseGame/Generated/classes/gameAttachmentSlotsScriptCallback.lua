@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameAttachmentSlotsScriptCallback: IScriptable
 ---@field slotID TweakDBID
 ---@field itemID gameItemID
 gameAttachmentSlotsScriptCallback = {}
+
 
 ---@param fields? gameAttachmentSlotsScriptCallback
 ---@return gameAttachmentSlotsScriptCallback

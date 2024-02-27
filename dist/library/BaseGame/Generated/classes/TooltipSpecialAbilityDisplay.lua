@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class TooltipSpecialAbilityDisplay: inkWidgetLogicController
 ---@field AbilityIcon inkImageWidgetReference
 ---@field AbilityDescription inkTextWidgetReference
 ---@field QualityRoot inkWidgetReference
 TooltipSpecialAbilityDisplay = {}
+
 
 ---@param fields? TooltipSpecialAbilityDisplay
 ---@return TooltipSpecialAbilityDisplay

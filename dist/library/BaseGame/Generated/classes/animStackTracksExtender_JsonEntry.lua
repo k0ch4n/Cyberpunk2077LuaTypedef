@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class animStackTracksExtender_JsonEntry
 ---@field name CName
 ---@field referenceValue Float
 animStackTracksExtender_JsonEntry = {}
+
 
 ---@param fields? animStackTracksExtender_JsonEntry
 ---@return animStackTracksExtender_JsonEntry

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AISetHealthRegenerationState: AIbehaviortaskScript
 ---@field healthRegeneration Bool
 AISetHealthRegenerationState = {}
+
 
 ---@param fields? AISetHealthRegenerationState
 ---@return AISetHealthRegenerationState

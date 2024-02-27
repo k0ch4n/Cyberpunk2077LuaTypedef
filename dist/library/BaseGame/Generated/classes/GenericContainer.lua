@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class GenericContainer: BaseSkillCheckContainer
 ---@field hackingCheck HackingSkillCheck
 ---@field engineeringCheck EngineeringSkillCheck
 ---@field demolitionCheck DemolitionSkillCheck
 GenericContainer = {}
+
 
 ---@param fields? GenericContainer
 ---@return GenericContainer

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DeviceDebuggerComponent: gameScriptableComponent
 ---@field isActive Bool
 ---@field exclusiveModeTriggered Bool
@@ -10,6 +11,7 @@
 ---@field cachedContext String
 ---@field layerIDs Uint32[]
 DeviceDebuggerComponent = {}
+
 
 ---@param fields? DeviceDebuggerComponent
 ---@return DeviceDebuggerComponent

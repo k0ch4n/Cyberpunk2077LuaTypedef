@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MetroPitchAdjustmentEvent: redEvent
 MetroPitchAdjustmentEvent = {}
+
 
 ---@param fields? MetroPitchAdjustmentEvent
 ---@return MetroPitchAdjustmentEvent

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class megatronChargeController: ChargeLogicController
 ---@field chargeBar inkImageWidget
 megatronChargeController = {}
+
 
 ---@param fields? megatronChargeController
 ---@return megatronChargeController

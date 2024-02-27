@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsEBinaryOperator: Enum
 ---@field EBinaryOperator_and Enum 0
 ---@field EBinaryOperator_or Enum 1

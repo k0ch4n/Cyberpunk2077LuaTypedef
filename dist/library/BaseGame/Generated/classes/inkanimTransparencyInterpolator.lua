@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class inkanimTransparencyInterpolator: inkanimInterpolator
 ---@field startValue Float
 ---@field endValue Float
 inkanimTransparencyInterpolator = {}
+
 
 ---@param fields? inkanimTransparencyInterpolator
 ---@return inkanimTransparencyInterpolator

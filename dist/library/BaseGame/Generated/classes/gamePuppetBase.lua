@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePuppetBase: gameTimeDilatable
 gamePuppetBase = {}
+
 
 ---@return TweakDBID
 function gamePuppetBase:GetRecordID() end

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AlertedRoleHandler: AIbehaviortaskScript
 ---@field pathParamsModified Bool
 AlertedRoleHandler = {}
+
 
 ---@param fields? AlertedRoleHandler
 ---@return AlertedRoleHandler

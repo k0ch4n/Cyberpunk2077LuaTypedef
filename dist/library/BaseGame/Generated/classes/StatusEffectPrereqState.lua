@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class StatusEffectPrereqState: gamePrereqState
 ---@field prereq StatusEffectPrereq
 ---@field listener StatusEffectPrereqListener
 StatusEffectPrereqState = {}
+
 
 ---@param fields? StatusEffectPrereqState
 ---@return StatusEffectPrereqState

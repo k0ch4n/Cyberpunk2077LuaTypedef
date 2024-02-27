@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIHasWeapon_Record: gamedataAIActionSubCondition_Record
 gamedataAIHasWeapon_Record = {}
+
 
 ---@param fields? gamedataAIHasWeapon_Record
 ---@return gamedataAIHasWeapon_Record

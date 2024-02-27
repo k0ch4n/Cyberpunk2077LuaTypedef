@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OperationExecutionData: IScriptable
 ---@field operationName CName
 ---@field delay Float
@@ -7,6 +8,7 @@
 ---@field delayID gameDelayID
 ---@field isDelayActive Bool
 OperationExecutionData = {}
+
 
 ---@param fields? OperationExecutionData
 ---@return OperationExecutionData

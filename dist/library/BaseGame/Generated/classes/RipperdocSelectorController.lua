@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocSelectorController: inkWidgetLogicController
 ---@field label inkTextWidgetReference
 ---@field leftArrowAnchor inkWidgetReference
@@ -13,6 +14,7 @@
 ---@field isInTutorial Bool
 ---@field names String[]
 RipperdocSelectorController = {}
+
 
 ---@param fields? RipperdocSelectorController
 ---@return RipperdocSelectorController

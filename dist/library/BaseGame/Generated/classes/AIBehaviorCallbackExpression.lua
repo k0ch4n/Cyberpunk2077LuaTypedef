@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIBehaviorCallbackExpression: AIbehaviorexpressionScript
 ---@field callbackName CName
 ---@field initialValue Bool
@@ -7,6 +8,7 @@
 ---@field callbackId Uint32
 ---@field value Bool
 AIBehaviorCallbackExpression = {}
+
 
 ---@param fields? AIBehaviorCallbackExpression
 ---@return AIBehaviorCallbackExpression

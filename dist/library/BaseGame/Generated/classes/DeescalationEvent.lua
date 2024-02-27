@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DeescalationEvent: redEvent
 ---@field originalNotification SecuritySystemInput
 DeescalationEvent = {}
+
 
 ---@param fields? DeescalationEvent
 ---@return DeescalationEvent

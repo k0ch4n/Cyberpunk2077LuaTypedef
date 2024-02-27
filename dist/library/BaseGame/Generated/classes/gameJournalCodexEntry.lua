@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameJournalCodexEntry: gameJournalContainerEntry
 ---@field title LocalizationString
 ---@field imageId TweakDBID
 ---@field linkImageId TweakDBID
 gameJournalCodexEntry = {}
+
 
 ---@param fields? gameJournalCodexEntry
 ---@return gameJournalCodexEntry

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ComputerMainMenuWidgetController: inkWidgetLogicController
 ---@field menuButtonsListWidget inkWidgetReference
 ---@field isInitialized Bool
 ---@field computerMenuButtonWidgetsData SComputerMenuButtonWidgetPackage[]
 ComputerMainMenuWidgetController = {}
+
 
 ---@param fields? ComputerMainMenuWidgetController
 ---@return ComputerMainMenuWidgetController

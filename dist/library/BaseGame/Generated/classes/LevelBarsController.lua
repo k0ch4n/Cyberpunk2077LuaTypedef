@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LevelBarsController: inkWidgetLogicController
 ---@field bar0 inkWidgetReference
 ---@field bar1 inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field bar4 inkWidgetReference
 ---@field bars inkWidgetReference[]
 LevelBarsController = {}
+
 
 ---@param fields? LevelBarsController
 ---@return LevelBarsController

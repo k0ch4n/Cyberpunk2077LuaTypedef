@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DeadContextDecisions: InputContextTransitionDecisions
 ---@field callbackID redCallbackObject
 DeadContextDecisions = {}
+
 
 ---@param fields? DeadContextDecisions
 ---@return DeadContextDecisions

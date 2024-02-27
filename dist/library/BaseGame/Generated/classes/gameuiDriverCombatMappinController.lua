@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiDriverCombatMappinController: gameuiInteractionMappinController
 gameuiDriverCombatMappinController = {}
+
 
 ---@param fields? gameuiDriverCombatMappinController
 ---@return gameuiDriverCombatMappinController

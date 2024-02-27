@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WorldMapTooltipContainer: inkWidgetLogicController
 ---@field defaultTooltip inkWidgetReference
 ---@field policeTooltip inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field tooltips whandle[]
 ---@field currentVisibleIndex Int32
 WorldMapTooltipContainer = {}
+
 
 ---@param fields? WorldMapTooltipContainer
 ---@return WorldMapTooltipContainer

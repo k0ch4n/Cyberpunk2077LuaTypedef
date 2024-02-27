@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameHitRepresentationComponent: entSlotComponent
 ---@field representations gameHitShapeContainer[]
 ---@field physicsMaterial CName
@@ -8,6 +9,7 @@
 ---@field resource gameHitRepresentationResource
 ---@field appearanceOverrides gameHitRepresentationOverride[]
 gameHitRepresentationComponent = {}
+
 
 ---@param fields? gameHitRepresentationComponent
 ---@return gameHitRepresentationComponent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataQuestRestrictionMode_Record: gamedataTweakDBRecord
 gamedataQuestRestrictionMode_Record = {}
+
 
 ---@param fields? gamedataQuestRestrictionMode_Record
 ---@return gamedataQuestRestrictionMode_Record

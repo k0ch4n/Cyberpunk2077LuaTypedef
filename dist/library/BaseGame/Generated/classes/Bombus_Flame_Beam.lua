@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Bombus_Flame_Beam: gameAttack_Continuous
 Bombus_Flame_Beam = {}
+
 
 ---@param fields? Bombus_Flame_Beam
 ---@return Bombus_Flame_Beam

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TakedownBeginDecisions: LocomotionTakedownDecisions
 TakedownBeginDecisions = {}
+
 
 ---@param fields? TakedownBeginDecisions
 ---@return TakedownBeginDecisions

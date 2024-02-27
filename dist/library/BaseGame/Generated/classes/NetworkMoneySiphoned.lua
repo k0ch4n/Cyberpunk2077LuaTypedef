@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NetworkMoneySiphoned: redEvent
 NetworkMoneySiphoned = {}
+
 
 ---@param fields? NetworkMoneySiphoned
 ---@return NetworkMoneySiphoned

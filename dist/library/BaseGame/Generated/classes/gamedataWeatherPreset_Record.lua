@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataWeatherPreset_Record: gamedataSpawnableObject_Record
 gamedataWeatherPreset_Record = {}
+
 
 ---@param fields? gamedataWeatherPreset_Record
 ---@return gamedataWeatherPreset_Record

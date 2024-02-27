@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkTextWrappingPolicy: Enum
 ---@field SingleLine Enum 0
 ---@field MultiLine Enum 1

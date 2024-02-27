@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkPreGameMenuState: inkIStateMachineState
 inkPreGameMenuState = {}
+
 
 ---@param fields? inkPreGameMenuState
 ---@return inkPreGameMenuState

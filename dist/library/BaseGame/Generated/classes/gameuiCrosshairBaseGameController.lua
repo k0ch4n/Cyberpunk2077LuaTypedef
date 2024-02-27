@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiCrosshairBaseGameController: gameuiWidgetGameController
 ---@field details inkWidgetReference
 ---@field isActive Bool
@@ -29,6 +30,7 @@
 ---@field staminaListener CrosshairStaminaListener
 ---@field opticalCamoListener OpticalCamoListener
 gameuiCrosshairBaseGameController = {}
+
 
 ---@param fields? gameuiCrosshairBaseGameController
 ---@return gameuiCrosshairBaseGameController

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class animAnimFeature_BasicAim: animAnimFeature
 ---@field aimState Int32
 ---@field zoomState Int32
 animAnimFeature_BasicAim = {}
+
 
 ---@param fields? animAnimFeature_BasicAim
 ---@return animAnimFeature_BasicAim

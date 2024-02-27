@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CarriedObjectTransition: DefaultTransition
 CarriedObjectTransition = {}
+
 
 ---@param owner gameObject
 ---@return Bool

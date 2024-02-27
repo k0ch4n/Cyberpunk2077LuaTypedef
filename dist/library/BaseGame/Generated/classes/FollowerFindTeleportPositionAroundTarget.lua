@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class FollowerFindTeleportPositionAroundTarget: AIbehaviortaskScript
 ---@field target AIArgumentMapping
 ---@field outPositionArgument AIArgumentMapping
 ---@field lastResultTimestamp Float
 FollowerFindTeleportPositionAroundTarget = {}
+
 
 ---@param fields? FollowerFindTeleportPositionAroundTarget
 ---@return FollowerFindTeleportPositionAroundTarget

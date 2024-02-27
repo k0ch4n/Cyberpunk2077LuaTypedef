@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NPCGodModeListener: gameScriptStatsListener
 ---@field owner NPCPuppet
 NPCGodModeListener = {}
+
 
 ---@param fields? NPCGodModeListener
 ---@return NPCGodModeListener

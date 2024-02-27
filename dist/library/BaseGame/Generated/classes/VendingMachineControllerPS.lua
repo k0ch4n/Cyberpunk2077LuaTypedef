@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VendingMachineControllerPS: ScriptableDeviceComponentPS
 ---@field vendingMachineSetup VendingMachineSetup
 ---@field vendingMachineSFX VendingMachineSFX
@@ -10,6 +11,7 @@
 ---@field shopStock gameSItemStack[]
 ---@field shopStockInit Bool
 VendingMachineControllerPS = {}
+
 
 ---@param fields? VendingMachineControllerPS
 ---@return VendingMachineControllerPS

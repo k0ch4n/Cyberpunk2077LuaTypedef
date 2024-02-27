@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StreetSignWidgetComponent: IWorldWidgetComponent
 ---@field streetSignTDBID TweakDBID
 ---@field isAStreetName Bool
@@ -7,6 +8,7 @@
 ---@field signSelector inkTweakDBIDSelector
 ---@field signVersion Uint32
 StreetSignWidgetComponent = {}
+
 
 ---@param fields? StreetSignWidgetComponent
 ---@return StreetSignWidgetComponent

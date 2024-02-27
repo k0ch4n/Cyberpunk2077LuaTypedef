@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ChangeLoopCurveEvent: redEvent
 ---@field loopTime Float
 ---@field loopCurve CName
 ChangeLoopCurveEvent = {}
+
 
 ---@param fields? ChangeLoopCurveEvent
 ---@return ChangeLoopCurveEvent

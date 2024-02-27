@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameCrowdEntryType: Enum
 ---@field Pedestrian Enum 0
 ---@field Vehicle Enum 1

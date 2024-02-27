@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameRegisterNewCooldownRequest
 ---@field owner entEntity
 ---@field ownerItemId gameItemID
@@ -10,6 +11,7 @@
 ---@field modifiable Bool
 ---@field affectedByTimeDilation Bool
 gameRegisterNewCooldownRequest = {}
+
 
 ---@param fields? gameRegisterNewCooldownRequest
 ---@return gameRegisterNewCooldownRequest

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISafeAreaManager: AIISafeAreaManager
 AISafeAreaManager = {}
+
 
 ---@param fields? AISafeAreaManager
 ---@return AISafeAreaManager

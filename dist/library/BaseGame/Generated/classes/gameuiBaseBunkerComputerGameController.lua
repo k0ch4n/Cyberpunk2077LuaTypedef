@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiBaseBunkerComputerGameController: gameuiWidgetGameController
 gameuiBaseBunkerComputerGameController = {}
+
 
 ---@param fields? gameuiBaseBunkerComputerGameController
 ---@return gameuiBaseBunkerComputerGameController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataMappinUISettings_Record: gamedataMappinUIRuntimeProfile_Record
 gamedataMappinUISettings_Record = {}
+
 
 ---@param fields? gamedataMappinUISettings_Record
 ---@return gamedataMappinUISettings_Record

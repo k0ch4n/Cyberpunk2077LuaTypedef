@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class sampleUIEventTestLogicController: inkWidgetLogicController
 ---@field eventTextWidgetPath CName
 ---@field eventVerticalPanelPath CName
@@ -10,6 +11,7 @@
 ---@field verticalPanelWidget inkVerticalPanelWidget
 ---@field isEnabled Bool
 sampleUIEventTestLogicController = {}
+
 
 ---@param fields? sampleUIEventTestLogicController
 ---@return sampleUIEventTestLogicController

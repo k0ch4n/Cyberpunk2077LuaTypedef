@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Enum
 ---@field value string
 Enum = {}
+
 
 ---@generic T
 ---@param acTypeName `T`

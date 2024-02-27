@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TemporalPrereq: gameIScriptablePrereq
 ---@field totalDuration Float
 TemporalPrereq = {}
+
 
 ---@param fields? TemporalPrereq
 ---@return TemporalPrereq

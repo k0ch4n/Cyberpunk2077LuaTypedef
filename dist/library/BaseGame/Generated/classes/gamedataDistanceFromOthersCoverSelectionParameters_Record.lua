@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataDistanceFromOthersCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataDistanceFromOthersCoverSelectionParameters_Record = {}
+
 
 ---@param fields? gamedataDistanceFromOthersCoverSelectionParameters_Record
 ---@return gamedataDistanceFromOthersCoverSelectionParameters_Record

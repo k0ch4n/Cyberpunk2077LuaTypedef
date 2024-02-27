@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class InputSettingsVarListener: userSettingsVarListener
 ---@field ctrl gameuiControllerSettingsGameController
 InputSettingsVarListener = {}
+
 
 ---@param fields? InputSettingsVarListener
 ---@return InputSettingsVarListener

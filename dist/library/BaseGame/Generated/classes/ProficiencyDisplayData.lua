@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProficiencyDisplayData: IDisplayData
 ---@field attributeId TweakDBID
 ---@field proficiency gamedataProficiencyType
@@ -15,6 +16,7 @@
 ---@field maxExpPoints Int32
 ---@field unlockedLevel Int32
 ProficiencyDisplayData = {}
+
 
 ---@param fields? ProficiencyDisplayData
 ---@return ProficiencyDisplayData

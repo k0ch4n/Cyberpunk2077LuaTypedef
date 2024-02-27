@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AttachOpticalCamoVisionBlockerEffector: AttachCapsuleVisionBlockerEffector
 AttachOpticalCamoVisionBlockerEffector = {}
+
 
 ---@param fields? AttachOpticalCamoVisionBlockerEffector
 ---@return AttachOpticalCamoVisionBlockerEffector

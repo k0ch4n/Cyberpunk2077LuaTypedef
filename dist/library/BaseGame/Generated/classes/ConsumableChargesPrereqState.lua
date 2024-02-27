@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ConsumableChargesPrereqState: gamePrereqState
 ---@field owner PlayerPuppet
 ---@field statPoolListener ConsumableChargesPrereqListener
 ---@field object gameObject
 ---@field statsObjID gameStatsObjectID
 ConsumableChargesPrereqState = {}
+
 
 ---@param fields? ConsumableChargesPrereqState
 ---@return ConsumableChargesPrereqState

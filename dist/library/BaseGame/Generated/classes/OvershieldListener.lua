@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OvershieldListener: gameScriptStatPoolsListener
 ---@field healthBar gameuiHudHealthbarGameController
 OvershieldListener = {}
+
 
 ---@param fields? OvershieldListener
 ---@return OvershieldListener

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataCompanionDistancePreset: Enum
 ---@field Close Enum 0
 ---@field Far Enum 1

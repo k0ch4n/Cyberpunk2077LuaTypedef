@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questOverrideLoadingScreen_NodeType: questIUIManagerNodeType
 ---@field video Bink
 ---@field videos Bink[]
@@ -10,6 +11,7 @@
 ---@field glitchEffectTime Float
 ---@field keepLoadingScreenWhileVideoIsPlaying Bool
 questOverrideLoadingScreen_NodeType = {}
+
 
 ---@param fields? questOverrideLoadingScreen_NodeType
 ---@return questOverrideLoadingScreen_NodeType

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VendorConfirmationPopupType: Enum
 ---@field Default Enum 0
 ---@field ExpensiveItem Enum 1

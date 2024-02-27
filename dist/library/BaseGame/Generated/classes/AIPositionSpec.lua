@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AIPositionSpec
 ---@field entity entEntity
 ---@field worldPosition WorldPosition
 AIPositionSpec = {}
+
 
 ---@param fields? AIPositionSpec
 ---@return AIPositionSpec

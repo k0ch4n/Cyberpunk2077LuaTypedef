@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PaperDollSlotController: inkButtonDpadSupportedController
 ---@field equipArea gamedataEquipmentArea
 ---@field slotIndex Int32
@@ -9,6 +10,7 @@
 ---@field itemData gameItemData
 ---@field locked Bool
 PaperDollSlotController = {}
+
 
 ---@param fields? PaperDollSlotController
 ---@return PaperDollSlotController

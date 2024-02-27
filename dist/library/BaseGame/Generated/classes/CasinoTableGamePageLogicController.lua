@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CasinoTableGamePageLogicController: inkWidgetLogicController
 ---@field cash inkTextWidgetReference
 ---@field bet inkTextWidgetReference
 ---@field marks BetOnMark[]
 CasinoTableGamePageLogicController = {}
+
 
 ---@param fields? CasinoTableGamePageLogicController
 ---@return CasinoTableGamePageLogicController

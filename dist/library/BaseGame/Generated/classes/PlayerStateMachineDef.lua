@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerStateMachineDef: gamebbScriptDefinition
 ---@field Locomotion gamebbScriptID_Int32
 ---@field LocomotionDetailed gamebbScriptID_Int32
@@ -107,6 +108,7 @@
 ---@field IsWeaponFirstEquip gamebbScriptID_Bool
 ---@field IsVisualCustomizationPhotomodeVehicleSlotTaken gamebbScriptID_Bool
 PlayerStateMachineDef = {}
+
 
 ---@param fields? PlayerStateMachineDef
 ---@return PlayerStateMachineDef

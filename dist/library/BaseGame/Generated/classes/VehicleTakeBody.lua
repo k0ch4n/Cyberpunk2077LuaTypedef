@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleTakeBody: ActionBool
 VehicleTakeBody = {}
+
 
 ---@param fields? VehicleTakeBody
 ---@return VehicleTakeBody

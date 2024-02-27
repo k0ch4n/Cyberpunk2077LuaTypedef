@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ScreenMessageSelector: inkTweakDBIDSelector
 ---@field replaceTextWithCustomNumber Bool
 ---@field customNumber Int32
 ScreenMessageSelector = {}
+
 
 ---@return Int32
 function ScreenMessageSelector:GetCustomNumber() end

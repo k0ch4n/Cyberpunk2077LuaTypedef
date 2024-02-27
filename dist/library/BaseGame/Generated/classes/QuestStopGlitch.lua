@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestStopGlitch: ActionBool
 QuestStopGlitch = {}
+
 
 ---@param fields? QuestStopGlitch
 ---@return QuestStopGlitch

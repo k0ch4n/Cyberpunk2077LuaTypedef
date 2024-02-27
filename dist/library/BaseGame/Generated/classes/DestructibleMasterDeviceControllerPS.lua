@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DestructibleMasterDeviceControllerPS: MasterControllerPS
 ---@field isDestroyed Bool
 DestructibleMasterDeviceControllerPS = {}
+
 
 ---@param fields? DestructibleMasterDeviceControllerPS
 ---@return DestructibleMasterDeviceControllerPS

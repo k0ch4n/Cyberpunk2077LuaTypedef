@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiEWorldMapCameraMode: Enum
 ---@field TopDown Enum 0
 ---@field ZoomLevels Enum 1

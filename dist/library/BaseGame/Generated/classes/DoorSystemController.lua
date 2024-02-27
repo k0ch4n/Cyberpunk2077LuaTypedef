@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DoorSystemController: BaseNetworkSystemController
 DoorSystemController = {}
+
 
 ---@param fields? DoorSystemController
 ---@return DoorSystemController

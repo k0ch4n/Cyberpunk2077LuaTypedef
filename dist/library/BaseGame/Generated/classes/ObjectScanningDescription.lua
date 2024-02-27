@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ObjectScanningDescription: IScriptable
 ObjectScanningDescription = {}
+
 
 ---@return TweakDBID[]
 function ObjectScanningDescription:GetCustomDesriptions() end

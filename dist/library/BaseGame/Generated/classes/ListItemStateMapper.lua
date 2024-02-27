@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ListItemStateMapper: inkWidgetLogicController
 ---@field toggled Bool
 ---@field selected Bool
 ---@field new Bool
 ---@field widget inkWidget
 ListItemStateMapper = {}
+
 
 ---@param fields? ListItemStateMapper
 ---@return ListItemStateMapper

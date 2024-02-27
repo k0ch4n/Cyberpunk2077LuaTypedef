@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldEffectBlackboard: IScriptable
 worldEffectBlackboard = {}
+
 
 ---@param fields? worldEffectBlackboard
 ---@return worldEffectBlackboard

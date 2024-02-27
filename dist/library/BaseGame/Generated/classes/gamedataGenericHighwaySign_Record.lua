@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataGenericHighwaySign_Record: gamedataBaseSign_Record
 gamedataGenericHighwaySign_Record = {}
+
 
 ---@param fields? gamedataGenericHighwaySign_Record
 ---@return gamedataGenericHighwaySign_Record

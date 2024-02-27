@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class VirtualSystemPS: MasterControllerPS
 ---@field owner MasterControllerPS
 ---@field slaves gameDeviceComponentPS[]
 ---@field slavesCached Bool
 VirtualSystemPS = {}
+
 
 ---@param fields? VirtualSystemPS
 ---@return VirtualSystemPS

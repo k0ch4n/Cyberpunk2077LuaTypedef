@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Ground: DefaultTransition
 Ground = {}
+
 
 ---@param fields? Ground
 ---@return Ground

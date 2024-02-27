@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HitIndicatorWeaponZoomListener: gameScriptStatsListener
 ---@field gameController TargetHitIndicatorGameController
 HitIndicatorWeaponZoomListener = {}
+
 
 ---@param fields? HitIndicatorWeaponZoomListener
 ---@return HitIndicatorWeaponZoomListener

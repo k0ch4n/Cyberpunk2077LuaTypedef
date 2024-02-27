@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class VehicleAlertNotification: GenericNotificationController
 ---@field animation inkanimProxy
 ---@field zone_data VehicleAlertNotificationViewData
 ---@field ZoneLabelText inkTextWidgetReference
 VehicleAlertNotification = {}
+
 
 ---@param fields? VehicleAlertNotification
 ---@return VehicleAlertNotification

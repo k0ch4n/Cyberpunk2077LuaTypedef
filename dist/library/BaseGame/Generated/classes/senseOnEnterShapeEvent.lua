@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class senseOnEnterShapeEvent: senseVisibilityEvent
 senseOnEnterShapeEvent = {}
+
 
 ---@param fields? senseOnEnterShapeEvent
 ---@return senseOnEnterShapeEvent

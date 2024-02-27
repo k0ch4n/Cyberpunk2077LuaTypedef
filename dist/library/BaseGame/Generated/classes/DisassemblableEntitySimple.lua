@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DisassemblableEntitySimple: InteractiveDevice
 ---@field mesh entMeshComponent
 ---@field collider entIComponent
 DisassemblableEntitySimple = {}
+
 
 ---@param fields? DisassemblableEntitySimple
 ---@return DisassemblableEntitySimple

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTweakDBInterface: IScriptable
 gamedataTweakDBInterface = {}
+
 
 ---@param fields? gamedataTweakDBInterface
 ---@return gamedataTweakDBInterface

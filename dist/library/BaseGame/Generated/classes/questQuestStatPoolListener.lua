@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questQuestStatPoolListener: gameIStatPoolsListener
 questQuestStatPoolListener = {}
+
 
 ---@param fields? questQuestStatPoolListener
 ---@return questQuestStatPoolListener

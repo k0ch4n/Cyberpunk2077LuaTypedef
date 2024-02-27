@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class audioBaseAudioSquadHandler
 audioBaseAudioSquadHandler = {}
+
 
 ---@param fields? audioBaseAudioSquadHandler
 ---@return audioBaseAudioSquadHandler

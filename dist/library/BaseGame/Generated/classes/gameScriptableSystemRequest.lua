@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScriptableSystemRequest: IScriptable
 gameScriptableSystemRequest = {}
+
 
 ---@param fields? gameScriptableSystemRequest
 ---@return gameScriptableSystemRequest

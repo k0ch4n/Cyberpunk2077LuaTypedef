@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameMuppetInputActionActivateScanning: gameIMuppetInputAction
 gameMuppetInputActionActivateScanning = {}
+
 
 ---@param fields? gameMuppetInputActionActivateScanning
 ---@return gameMuppetInputActionActivateScanning

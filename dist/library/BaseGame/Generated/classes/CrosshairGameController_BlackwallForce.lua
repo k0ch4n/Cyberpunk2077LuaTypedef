@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrosshairGameController_BlackwallForce: CrosshairGameController_Smart_Rifl
 ---@field lastSmartParams gamesmartGunUIParameters
 ---@field smartGunData gamesmartGunUIParameters
@@ -8,6 +9,7 @@
 ---@field numOfTargets Int32
 ---@field owner gameObject
 CrosshairGameController_BlackwallForce = {}
+
 
 ---@param fields? CrosshairGameController_BlackwallForce
 ---@return CrosshairGameController_BlackwallForce

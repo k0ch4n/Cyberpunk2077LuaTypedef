@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldTerrainProxyMeshNode: worldPrefabProxyMeshNode
 worldTerrainProxyMeshNode = {}
+
 
 ---@param fields? worldTerrainProxyMeshNode
 ---@return worldTerrainProxyMeshNode

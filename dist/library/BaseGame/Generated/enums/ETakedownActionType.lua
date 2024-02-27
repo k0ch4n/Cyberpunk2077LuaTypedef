@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETakedownActionType: Enum
 ---@field GrappleFailed Enum 0
 ---@field Grapple Enum 1

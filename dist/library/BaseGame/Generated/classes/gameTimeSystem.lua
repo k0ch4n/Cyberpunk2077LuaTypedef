@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameTimeSystem: gameITimeSystem
 gameTimeSystem = {}
+
 
 ---@param fields? gameTimeSystem
 ---@return gameTimeSystem

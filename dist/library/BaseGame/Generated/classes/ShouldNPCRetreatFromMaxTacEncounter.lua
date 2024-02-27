@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ShouldNPCRetreatFromMaxTacEncounter: PreventionConditionAbstract
 ---@field agentRegistry PoliceAgentRegistry
 ---@field threatLocation AITrackedLocation
 ShouldNPCRetreatFromMaxTacEncounter = {}
+
 
 ---@param fields? ShouldNPCRetreatFromMaxTacEncounter
 ---@return ShouldNPCRetreatFromMaxTacEncounter

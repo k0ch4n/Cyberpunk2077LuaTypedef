@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePlayerObstacleSystem: IScriptable
 gamePlayerObstacleSystem = {}
+
 
 ---@param fields? gamePlayerObstacleSystem
 ---@return gamePlayerObstacleSystem

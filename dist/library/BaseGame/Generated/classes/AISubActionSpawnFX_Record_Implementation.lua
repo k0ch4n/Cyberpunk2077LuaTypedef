@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionSpawnFX_Record_Implementation: IScriptable
 AISubActionSpawnFX_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionSpawnFX_Record

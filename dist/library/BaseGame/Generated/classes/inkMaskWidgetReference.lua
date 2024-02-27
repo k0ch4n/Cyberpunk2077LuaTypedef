@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkMaskWidgetReference: inkLeafWidgetReference
 inkMaskWidgetReference = {}
+
 
 ---@param fields? inkMaskWidgetReference
 ---@return inkMaskWidgetReference

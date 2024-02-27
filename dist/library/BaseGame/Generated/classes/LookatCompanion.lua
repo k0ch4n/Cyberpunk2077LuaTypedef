@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LookatCompanion: AIGenericAdvancedLookatTask
 LookatCompanion = {}
+
 
 ---@param fields? LookatCompanion
 ---@return LookatCompanion

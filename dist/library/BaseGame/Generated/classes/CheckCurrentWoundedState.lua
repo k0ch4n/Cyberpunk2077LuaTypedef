@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckCurrentWoundedState: AIStatusEffectCondition
 ---@field woundedTypeToCompare EWoundedBodyPart
 CheckCurrentWoundedState = {}
+
 
 ---@param fields? CheckCurrentWoundedState
 ---@return CheckCurrentWoundedState

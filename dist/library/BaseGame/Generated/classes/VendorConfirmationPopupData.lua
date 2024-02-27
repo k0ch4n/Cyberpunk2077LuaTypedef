@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VendorConfirmationPopupData: inkGameNotificationData
 ---@field itemData gameInventoryItemData
 ---@field inventoryItem UIInventoryItem
@@ -7,6 +8,7 @@
 ---@field type VendorConfirmationPopupType
 ---@field price Int32
 VendorConfirmationPopupData = {}
+
 
 ---@param fields? VendorConfirmationPopupData
 ---@return VendorConfirmationPopupData

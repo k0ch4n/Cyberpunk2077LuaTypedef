@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BasicViabilityInterpreter: IScriptable
 BasicViabilityInterpreter = {}
+
 
 ---@param fields? BasicViabilityInterpreter
 ---@return BasicViabilityInterpreter

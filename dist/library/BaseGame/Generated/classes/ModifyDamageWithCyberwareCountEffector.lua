@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ModifyDamageWithCyberwareCountEffector: ModifyDamageEffector
 ---@field minPlayerHealthPercentage Float
 ---@field playerIncomingDamageMultiplier Float
@@ -9,6 +10,7 @@
 ---@field playVFXOnHitTargets CName
 ---@field statusEffectRecord gamedataStatusEffect_Record
 ModifyDamageWithCyberwareCountEffector = {}
+
 
 ---@param fields? ModifyDamageWithCyberwareCountEffector
 ---@return ModifyDamageWithCyberwareCountEffector

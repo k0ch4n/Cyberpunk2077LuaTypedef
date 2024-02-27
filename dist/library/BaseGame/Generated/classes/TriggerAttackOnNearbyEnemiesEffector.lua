@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TriggerAttackOnNearbyEnemiesEffector: gameEffector
 ---@field owner gameObject
 ---@field attackRecord gamedataAttack_Record
@@ -12,6 +13,7 @@
 ---@field statusEffectRecord gamedataStatusEffect_Record
 ---@field enemySlotTransform CName
 TriggerAttackOnNearbyEnemiesEffector = {}
+
 
 ---@param fields? TriggerAttackOnNearbyEnemiesEffector
 ---@return TriggerAttackOnNearbyEnemiesEffector

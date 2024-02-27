@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DialogChoiceTimerController: inkWidgetLogicController
 ---@field bar inkWidgetReference
 ---@field timerValue inkTextWidgetReference
@@ -12,6 +13,7 @@
 ---@field AnimOptions inkanimPlaybackOptions
 ---@field time Float
 DialogChoiceTimerController = {}
+
 
 ---@param fields? DialogChoiceTimerController
 ---@return DialogChoiceTimerController

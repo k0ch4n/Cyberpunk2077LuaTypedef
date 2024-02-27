@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PreventionSystem: gameScriptableSystem
 ---@field districtManager DistrictManager
 ---@field agentRegistry PoliceAgentRegistry
@@ -110,6 +111,7 @@
 ---@field firstStarTimeStamp Float
 ---@field setCallRejectionIncrement Bool
 PreventionSystem = {}
+
 
 ---@param fields? PreventionSystem
 ---@return PreventionSystem

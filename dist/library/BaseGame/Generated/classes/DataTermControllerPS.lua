@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DataTermControllerPS: ScriptableDeviceComponentPS
 ---@field linkedFastTravelPoint gameFastTravelPointData
 ---@field triggerType EFastTravelTriggerType
 ---@field fastTravelDeviceType EFastTravelDeviceType
 DataTermControllerPS = {}
+
 
 ---@param fields? DataTermControllerPS
 ---@return DataTermControllerPS

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldSpeedSplineNode: worldSplineNode
 ---@field speedChangeSections worldSpeedSplineNodeSpeedChangeSection[]
 ---@field useDeprecated Bool
@@ -10,6 +11,7 @@
 ---@field roadAdjustmentFactorChangeSections worldSpeedSplineNodeRoadAdjustmentFactorChangeSection[]
 ---@field ignoreTerrain Bool
 worldSpeedSplineNode = {}
+
 
 ---@param fields? worldSpeedSplineNode
 ---@return worldSpeedSplineNode

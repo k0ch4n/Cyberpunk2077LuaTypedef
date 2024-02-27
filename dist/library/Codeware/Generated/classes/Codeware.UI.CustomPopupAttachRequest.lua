@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class Codeware_UI_CustomPopupAttachRequest: IScriptable
 ---@field controller Codeware_UI_CustomPopup
 ---@field notificationData inkGameNotificationData
 ---@field notificationToken inkGameNotificationToken
 ---@field queueIndex Int32
 Codeware_UI_CustomPopupAttachRequest = {}
+
 
 ---@param fields? Codeware_UI_CustomPopupAttachRequest
 ---@return Codeware_UI_CustomPopupAttachRequest

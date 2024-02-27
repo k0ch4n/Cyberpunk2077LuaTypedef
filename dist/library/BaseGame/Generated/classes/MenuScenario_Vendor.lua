@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_Vendor: MenuScenario_BaseMenu
 MenuScenario_Vendor = {}
+
 
 ---@param fields? MenuScenario_Vendor
 ---@return MenuScenario_Vendor

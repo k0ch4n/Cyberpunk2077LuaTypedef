@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PuppetMortalPrereqState: gamePrereqState
 ---@field owner gameObject
 ---@field listener PuppetMortalityListener
 PuppetMortalPrereqState = {}
+
 
 ---@param fields? PuppetMortalPrereqState
 ---@return PuppetMortalPrereqState

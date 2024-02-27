@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldStaticQuestMarkerNodeInstance: worldINodeInstance
 worldStaticQuestMarkerNodeInstance = {}
+
 
 ---@param fields? worldStaticQuestMarkerNodeInstance
 ---@return worldStaticQuestMarkerNodeInstance

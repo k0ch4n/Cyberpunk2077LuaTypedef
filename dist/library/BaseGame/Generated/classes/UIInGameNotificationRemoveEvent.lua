@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UIInGameNotificationRemoveEvent: redEvent
 UIInGameNotificationRemoveEvent = {}
+
 
 ---@param fields? UIInGameNotificationRemoveEvent
 ---@return UIInGameNotificationRemoveEvent

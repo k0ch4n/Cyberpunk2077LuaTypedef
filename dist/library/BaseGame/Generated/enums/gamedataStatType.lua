@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataStatType: Enum
 ---@field ADSSpeedPercentBonus Enum 0
 ---@field ADSSpeedPercentBonusModifierHelper Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CraftingSkillWidget: gameuiWidgetGameController
 ---@field amountText inkTextWidgetReference
 ---@field expFill inkWidgetReference
@@ -14,6 +15,7 @@
 ---@field isLevelUp Bool
 ---@field currentExp Int32
 CraftingSkillWidget = {}
+
 
 ---@param fields? CraftingSkillWidget
 ---@return CraftingSkillWidget

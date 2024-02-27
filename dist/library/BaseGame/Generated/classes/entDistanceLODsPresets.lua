@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entDistanceLODsPresets: ISerializable
 ---@field definitions entLODDefinition
 entDistanceLODsPresets = {}
+
 
 ---@param fields? entDistanceLODsPresets
 ---@return entDistanceLODsPresets

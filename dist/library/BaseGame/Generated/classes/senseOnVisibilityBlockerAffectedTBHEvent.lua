@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class senseOnVisibilityBlockerAffectedTBHEvent: redEvent
 ---@field newTBHModifier Float
 senseOnVisibilityBlockerAffectedTBHEvent = {}
+
 
 ---@param fields? senseOnVisibilityBlockerAffectedTBHEvent
 ---@return senseOnVisibilityBlockerAffectedTBHEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entTemplateComponentResolveMode: Enum
 ---@field AutoSelect Enum 0
 ---@field Select Enum 1

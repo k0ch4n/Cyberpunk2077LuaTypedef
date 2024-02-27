@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DEBUG_DamageInputReceiver: IScriptable
 ---@field player PlayerPuppet
 DEBUG_DamageInputReceiver = {}
+
 
 ---@param fields? DEBUG_DamageInputReceiver
 ---@return DEBUG_DamageInputReceiver

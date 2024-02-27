@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class IceMachineControllerPS: VendingMachineControllerPS
 ---@field vendorTweakID TweakDBID
 ---@field iceMachineSFX IceMachineSFX
 IceMachineControllerPS = {}
+
 
 ---@param fields? IceMachineControllerPS
 ---@return IceMachineControllerPS

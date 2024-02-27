@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SniperRifleLookAtDecisions: lookAtPresetGunBaseDecisions
 SniperRifleLookAtDecisions = {}
+
 
 ---@param fields? SniperRifleLookAtDecisions
 ---@return SniperRifleLookAtDecisions

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class STextureGroupSetup
 ---@field group GpuWrapApieTextureGroup
 ---@field rawFormat ETextureRawFormat
@@ -11,6 +12,7 @@
 ---@field platformMipBiasConsole Uint8
 ---@field allowTextureDowngrade Bool
 STextureGroupSetup = {}
+
 
 ---@param fields? STextureGroupSetup
 ---@return STextureGroupSetup

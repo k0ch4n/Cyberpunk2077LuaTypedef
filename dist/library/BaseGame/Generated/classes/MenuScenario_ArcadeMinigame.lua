@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_ArcadeMinigame: MenuScenario_BaseMenu
 MenuScenario_ArcadeMinigame = {}
+
 
 ---@param fields? MenuScenario_ArcadeMinigame
 ---@return MenuScenario_ArcadeMinigame

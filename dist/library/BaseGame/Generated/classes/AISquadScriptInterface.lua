@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISquadScriptInterface: IScriptable
 AISquadScriptInterface = {}
+
 
 ---@param fields? AISquadScriptInterface
 ---@return AISquadScriptInterface

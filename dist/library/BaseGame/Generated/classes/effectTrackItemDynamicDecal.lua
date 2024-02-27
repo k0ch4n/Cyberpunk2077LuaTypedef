@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class effectTrackItemDynamicDecal: effectTrackItem
 ---@field material IMaterial
 ---@field width Float
@@ -9,6 +10,7 @@
 ---@field additionalRotation Float
 ---@field randomRotation Bool
 effectTrackItemDynamicDecal = {}
+
 
 ---@param fields? effectTrackItemDynamicDecal
 ---@return effectTrackItemDynamicDecal

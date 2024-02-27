@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class scnScriptInterface: IScriptable
 scnScriptInterface = {}
+
 
 ---@param fields? scnScriptInterface
 ---@return scnScriptInterface

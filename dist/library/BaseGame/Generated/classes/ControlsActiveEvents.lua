@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ControlsActiveEvents: BraindanceControlsTransition
 ---@field BraindanceBB gameIBlackboard
 ---@field BlockPerspectiveSwitchTimer Float
@@ -18,6 +19,7 @@
 ---@field pauseLock Bool
 ---@field endRecordingMessageSet Bool
 ControlsActiveEvents = {}
+
 
 ---@param fields? ControlsActiveEvents
 ---@return ControlsActiveEvents

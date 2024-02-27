@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviortweakConditionStatusEffectListener: gameIStatusEffectListener
 AIbehaviortweakConditionStatusEffectListener = {}
+
 
 ---@param fields? AIbehaviortweakConditionStatusEffectListener
 ---@return AIbehaviortweakConditionStatusEffectListener

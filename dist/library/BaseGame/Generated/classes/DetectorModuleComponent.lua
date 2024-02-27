@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DetectorModuleComponent: gameScriptableComponent
 DetectorModuleComponent = {}
+
 
 ---@param fields? DetectorModuleComponent
 ---@return DetectorModuleComponent

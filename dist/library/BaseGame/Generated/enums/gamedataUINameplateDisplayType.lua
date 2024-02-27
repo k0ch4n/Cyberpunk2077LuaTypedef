@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataUINameplateDisplayType: Enum
 ---@field AfterScan Enum 0
 ---@field Always Enum 1

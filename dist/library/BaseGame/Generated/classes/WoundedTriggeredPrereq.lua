@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WoundedTriggeredPrereq: gameIScriptablePrereq
 ---@field currValue Uint32
 WoundedTriggeredPrereq = {}
+
 
 ---@param fields? WoundedTriggeredPrereq
 ---@return WoundedTriggeredPrereq

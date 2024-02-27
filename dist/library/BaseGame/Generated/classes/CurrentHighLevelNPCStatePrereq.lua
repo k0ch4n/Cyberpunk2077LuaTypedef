@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CurrentHighLevelNPCStatePrereq: gameIScriptablePrereq
 ---@field valueToCheck gamedataNPCHighLevelState
 ---@field invert Bool
 CurrentHighLevelNPCStatePrereq = {}
+
 
 ---@param fields? CurrentHighLevelNPCStatePrereq
 ---@return CurrentHighLevelNPCStatePrereq

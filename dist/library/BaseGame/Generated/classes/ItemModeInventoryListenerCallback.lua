@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ItemModeInventoryListenerCallback: gameInventoryScriptCallback
 ---@field itemModeInstance InventoryItemModeLogicController
 ItemModeInventoryListenerCallback = {}
+
 
 ---@param fields? ItemModeInventoryListenerCallback
 ---@return ItemModeInventoryListenerCallback

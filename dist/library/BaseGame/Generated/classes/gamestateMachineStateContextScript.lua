@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineStateContextScript: IScriptable
 gamestateMachineStateContextScript = {}
+
 
 ---@param fields? gamestateMachineStateContextScript
 ---@return gamestateMachineStateContextScript

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PreventionSystemUpdateHackLoopStateEvent: gameScriptableSystemRequest
 PreventionSystemUpdateHackLoopStateEvent = {}
+
 
 ---@param fields? PreventionSystemUpdateHackLoopStateEvent
 ---@return PreventionSystemUpdateHackLoopStateEvent

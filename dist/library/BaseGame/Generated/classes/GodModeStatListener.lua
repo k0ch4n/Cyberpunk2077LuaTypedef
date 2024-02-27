@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GodModeStatListener: gameScriptStatsListener
 ---@field healthbar gameuiHudHealthbarGameController
 GodModeStatListener = {}
+
 
 ---@param fields? GodModeStatListener
 ---@return GodModeStatListener

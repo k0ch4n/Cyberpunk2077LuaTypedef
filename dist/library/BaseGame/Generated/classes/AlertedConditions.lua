@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AlertedConditions: AIAutonomousConditions
 AlertedConditions = {}
+
 
 ---@param fields? AlertedConditions
 ---@return AlertedConditions

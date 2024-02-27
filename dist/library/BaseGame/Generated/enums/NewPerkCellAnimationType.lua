@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerkCellAnimationType: Enum
 ---@field Bought Enum 0
 ---@field Maxed Enum 1

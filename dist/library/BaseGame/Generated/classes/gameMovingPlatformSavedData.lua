@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMovingPlatformSavedData
 ---@field currentLocalPosition Vector4
 ---@field movement gameIMovingPlatformMovement
@@ -10,6 +11,7 @@
 ---@field mountedPlayerEntityID Uint32
 ---@field isPaused Bool
 gameMovingPlatformSavedData = {}
+
 
 ---@param fields? gameMovingPlatformSavedData
 ---@return gameMovingPlatformSavedData

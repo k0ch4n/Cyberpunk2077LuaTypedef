@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EInputAction: Enum
 ---@field IACT_None Enum 0
 ---@field IACT_Press Enum 1

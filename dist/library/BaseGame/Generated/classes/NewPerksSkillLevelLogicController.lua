@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class NewPerksSkillLevelLogicController: inkWidgetLogicController
 ---@field levelText inkTextWidgetReference
 ---@field levelData LevelRewardDisplayData
 ---@field active Bool
 ---@field hovered Bool
 NewPerksSkillLevelLogicController = {}
+
 
 ---@param fields? NewPerksSkillLevelLogicController
 ---@return NewPerksSkillLevelLogicController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkMenuMode: Enum
 ---@field Unknown Enum 0
 ---@field PauseMenu Enum 1

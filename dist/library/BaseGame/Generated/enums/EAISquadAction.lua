@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAISquadAction: Enum
 ---@field Invalid Enum 0
 ---@field Shoot Enum 1

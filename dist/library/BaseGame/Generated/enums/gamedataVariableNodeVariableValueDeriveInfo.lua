@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataVariableNodeVariableValueDeriveInfo: Enum
 ---@field NotDerived Enum 0
 ---@field ArrayAddition Enum 1

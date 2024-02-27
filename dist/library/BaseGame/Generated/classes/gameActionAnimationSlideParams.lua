@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameActionAnimationSlideParams
 ---@field distance Float
 ---@field directionAngle Float
@@ -18,6 +19,7 @@
 ---@field maxTargetVelocity Float
 ---@field zAlignmentThreshold Float
 gameActionAnimationSlideParams = {}
+
 
 ---@param fields? gameActionAnimationSlideParams
 ---@return gameActionAnimationSlideParams

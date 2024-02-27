@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiMappinControllerCustomData: IScriptable
 gameuiMappinControllerCustomData = {}
+
 
 ---@param fields? gameuiMappinControllerCustomData
 ---@return gameuiMappinControllerCustomData

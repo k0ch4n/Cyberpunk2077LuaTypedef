@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class resResourceMetricsReportGenerator: IScriptable
 resResourceMetricsReportGenerator = {}
+
 
 ---@param fields? resResourceMetricsReportGenerator
 ---@return resResourceMetricsReportGenerator

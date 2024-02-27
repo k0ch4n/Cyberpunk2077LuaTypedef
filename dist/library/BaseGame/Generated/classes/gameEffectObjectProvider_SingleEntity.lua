@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectObjectProvider_SingleEntity: gameEffectObjectProvider
 gameEffectObjectProvider_SingleEntity = {}
+
 
 ---@param fields? gameEffectObjectProvider_SingleEntity
 ---@return gameEffectObjectProvider_SingleEntity

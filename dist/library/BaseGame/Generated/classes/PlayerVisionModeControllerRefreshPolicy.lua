@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerVisionModeControllerRefreshPolicy
 ---@field kerenzikov PlayerVisionModeControllerRefreshPolicyEnum
 ---@field restrictedScene PlayerVisionModeControllerRefreshPolicyEnum
@@ -14,6 +15,7 @@
 ---@field isPhotoMode PlayerVisionModeControllerRefreshPolicyEnum
 ---@field isBriefingActive PlayerVisionModeControllerRefreshPolicyEnum
 PlayerVisionModeControllerRefreshPolicy = {}
+
 
 ---@param fields? PlayerVisionModeControllerRefreshPolicy
 ---@return PlayerVisionModeControllerRefreshPolicy

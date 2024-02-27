@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_FinalBoards: MenuScenario_BaseMenu
 MenuScenario_FinalBoards = {}
+
 
 ---@param fields? MenuScenario_FinalBoards
 ---@return MenuScenario_FinalBoards

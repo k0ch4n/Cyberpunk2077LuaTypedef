@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIVelocitiesDotCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIVelocitiesDotCond_Record = {}
+
 
 ---@param fields? gamedataAIVelocitiesDotCond_Record
 ---@return gamedataAIVelocitiesDotCond_Record

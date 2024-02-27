@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameTransformAnimationTimeline
 ---@field items gameTransformAnimationTrackItem[]
 gameTransformAnimationTimeline = {}
+
 
 ---@param fields? gameTransformAnimationTimeline
 ---@return gameTransformAnimationTimeline

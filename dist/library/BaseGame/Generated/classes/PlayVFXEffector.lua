@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class PlayVFXEffector: gameEffector
 ---@field vfxName CName
 ---@field startOnUninitialize Bool
 ---@field fireAndForget Bool
 ---@field owner gameObject
 PlayVFXEffector = {}
+
 
 ---@param fields? PlayVFXEffector
 ---@return PlayVFXEffector

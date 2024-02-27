@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DoorSystem: DeviceSystemBase
 DoorSystem = {}
+
 
 ---@param fields? DoorSystem
 ---@return DoorSystem

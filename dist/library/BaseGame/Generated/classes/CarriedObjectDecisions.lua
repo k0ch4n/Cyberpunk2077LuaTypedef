@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CarriedObjectDecisions: CarriedObjectTransition
 CarriedObjectDecisions = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

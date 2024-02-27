@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questPhoneStatus: Enum
 ---@field Available Enum 0
 ---@field NotAvailable Enum 1

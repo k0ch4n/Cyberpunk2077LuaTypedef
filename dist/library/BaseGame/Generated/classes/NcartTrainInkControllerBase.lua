@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NcartTrainInkControllerBase: DeviceInkGameControllerBase
 NcartTrainInkControllerBase = {}
+
 
 ---@param fields? NcartTrainInkControllerBase
 ---@return NcartTrainInkControllerBase

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TweakAIAction: TweakAIActionAbstract
 ---@field record TweakDBID
 TweakAIAction = {}
+
 
 ---@param fields? TweakAIAction
 ---@return TweakAIAction

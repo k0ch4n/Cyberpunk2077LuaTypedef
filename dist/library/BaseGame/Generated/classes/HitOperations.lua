@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HitOperations: DeviceOperations
 ---@field hitOperations SHitOperationData[]
 HitOperations = {}
+
 
 ---@param fields? HitOperations
 ---@return HitOperations

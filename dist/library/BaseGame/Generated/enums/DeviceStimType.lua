@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DeviceStimType: Enum
 ---@field Distract Enum 0
 ---@field VisualDistract Enum 1

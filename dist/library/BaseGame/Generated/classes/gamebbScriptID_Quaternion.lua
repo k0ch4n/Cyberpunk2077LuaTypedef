@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamebbScriptID_Quaternion: gamebbScriptID
 gamebbScriptID_Quaternion = {}
+
 
 ---@param fields? gamebbScriptID_Quaternion
 ---@return gamebbScriptID_Quaternion

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class senseVisionBlockerShape_BasicSphere: senseIVisionBlockerShape
 senseVisionBlockerShape_BasicSphere = {}
+
 
 ---@param fields? senseVisionBlockerShape_BasicSphere
 ---@return senseVisionBlockerShape_BasicSphere

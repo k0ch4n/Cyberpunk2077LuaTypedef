@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ConfessionBooth: BasicDistractionDevice
 ---@field isShortGlitchActive Bool
 ---@field shortGlitchDelayID gameDelayID
 ConfessionBooth = {}
+
 
 ---@param fields? ConfessionBooth
 ---@return ConfessionBooth

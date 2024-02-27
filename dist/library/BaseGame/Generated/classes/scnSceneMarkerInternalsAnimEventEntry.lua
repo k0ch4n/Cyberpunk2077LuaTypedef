@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnSceneMarkerInternalsAnimEventEntry
 ---@field startName CName
 ---@field endName CName
@@ -9,6 +10,7 @@
 ---@field endDir Vector3
 ---@field flags Uint8
 scnSceneMarkerInternalsAnimEventEntry = {}
+
 
 ---@param fields? scnSceneMarkerInternalsAnimEventEntry
 ---@return scnSceneMarkerInternalsAnimEventEntry

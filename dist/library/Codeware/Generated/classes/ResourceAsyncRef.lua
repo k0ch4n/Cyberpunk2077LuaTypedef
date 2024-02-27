@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResourceAsyncRef
 ResourceAsyncRef = {}
+
 
 ---@param fields? ResourceAsyncRef
 ---@return ResourceAsyncRef

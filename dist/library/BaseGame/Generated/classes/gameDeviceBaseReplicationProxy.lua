@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameDeviceBaseReplicationProxy: netIEntityState
 ---@field scriptState gameDeviceReplicatedState
 ---@field versionId Uint32
@@ -7,6 +8,7 @@
 ---@field initialOrientation EulerAngles
 ---@field initialLocation Vector3
 gameDeviceBaseReplicationProxy = {}
+
 
 ---@param fields? gameDeviceBaseReplicationProxy
 ---@return gameDeviceBaseReplicationProxy

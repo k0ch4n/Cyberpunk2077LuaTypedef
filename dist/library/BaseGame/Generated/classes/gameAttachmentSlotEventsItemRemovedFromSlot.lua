@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAttachmentSlotEventsItemRemovedFromSlot: redEvent
 gameAttachmentSlotEventsItemRemovedFromSlot = {}
+
 
 ---@param fields? gameAttachmentSlotEventsItemRemovedFromSlot
 ---@return gameAttachmentSlotEventsItemRemovedFromSlot

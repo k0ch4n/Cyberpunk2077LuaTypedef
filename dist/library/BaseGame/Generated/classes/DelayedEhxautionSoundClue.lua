@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DelayedEhxautionSoundClue: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field puppet gameObject
 ---@field audioEventName CName
 DelayedEhxautionSoundClue = {}
+
 
 ---@param fields? DelayedEhxautionSoundClue
 ---@return DelayedEhxautionSoundClue

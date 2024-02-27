@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIFindForwardPositionAround: AIbehaviortaskScript
 AIFindForwardPositionAround = {}
+
 
 ---@param fields? AIFindForwardPositionAround
 ---@return AIFindForwardPositionAround

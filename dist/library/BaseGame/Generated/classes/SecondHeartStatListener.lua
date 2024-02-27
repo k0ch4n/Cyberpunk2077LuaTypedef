@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SecondHeartStatListener: gameScriptStatsListener
 ---@field player PlayerPuppet
 SecondHeartStatListener = {}
+
 
 ---@param fields? SecondHeartStatListener
 ---@return SecondHeartStatListener

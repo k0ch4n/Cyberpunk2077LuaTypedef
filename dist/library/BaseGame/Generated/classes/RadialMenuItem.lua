@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RadialMenuItem: gameuiHUDGameController
 RadialMenuItem = {}
+
 
 ---@param fields? RadialMenuItem
 ---@return RadialMenuItem

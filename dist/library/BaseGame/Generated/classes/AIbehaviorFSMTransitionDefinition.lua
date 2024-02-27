@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorFSMTransitionDefinition: AIbehaviorBehaviorComponentDefinition
 ---@field inState Uint16
 ---@field outState Uint16
@@ -9,6 +10,7 @@
 ---@field eventConditions AIbehaviorEventConditionDefinition[]
 ---@field passiveConditions AIbehaviorExpressionSocket[]
 AIbehaviorFSMTransitionDefinition = {}
+
 
 ---@param fields? AIbehaviorFSMTransitionDefinition
 ---@return AIbehaviorFSMTransitionDefinition

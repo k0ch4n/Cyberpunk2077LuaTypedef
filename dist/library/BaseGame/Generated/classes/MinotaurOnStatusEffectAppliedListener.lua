@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MinotaurOnStatusEffectAppliedListener: gameScriptStatusEffectListener
 ---@field owner NPCPuppet
 ---@field minotaurMechComponent MinotaurMechComponent
 MinotaurOnStatusEffectAppliedListener = {}
+
 
 ---@param fields? MinotaurOnStatusEffectAppliedListener
 ---@return MinotaurOnStatusEffectAppliedListener

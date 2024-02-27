@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class GamepadHoldIndicatorGameController: gameuiHoldIndicatorGameController
 ---@field image inkImageWidgetReference
 ---@field partName String
 ---@field progress Int32
 ---@field animProxy inkanimProxy
 GamepadHoldIndicatorGameController = {}
+
 
 ---@param fields? GamepadHoldIndicatorGameController
 ---@return GamepadHoldIndicatorGameController

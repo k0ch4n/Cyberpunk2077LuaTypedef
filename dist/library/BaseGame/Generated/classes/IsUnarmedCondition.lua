@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsUnarmedCondition: workIScriptedCondition
 IsUnarmedCondition = {}
+
 
 ---@param fields? IsUnarmedCondition
 ---@return IsUnarmedCondition

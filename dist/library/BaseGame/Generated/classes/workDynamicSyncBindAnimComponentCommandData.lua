@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class workDynamicSyncBindAnimComponentCommandData: workSyncBindBaseCommandData
 ---@field slave entAnimationControllerComponent
 workDynamicSyncBindAnimComponentCommandData = {}
+
 
 ---@param fields? workDynamicSyncBindAnimComponentCommandData
 ---@return workDynamicSyncBindAnimComponentCommandData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestFluffShardLinkController: BaseCodexLinkController
 QuestFluffShardLinkController = {}
+
 
 ---@param fields? QuestFluffShardLinkController
 ---@return QuestFluffShardLinkController

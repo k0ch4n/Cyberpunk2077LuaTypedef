@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HardToKillDamageModificationEffector: ModifyAttackEffector
 ---@field criticalHealthThreshold Float
 HardToKillDamageModificationEffector = {}
+
 
 ---@param fields? HardToKillDamageModificationEffector
 ---@return HardToKillDamageModificationEffector

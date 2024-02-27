@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameJournalOnscreensStructuredGroup: IScriptable
 gameJournalOnscreensStructuredGroup = {}
+
 
 ---@param fields? gameJournalOnscreensStructuredGroup
 ---@return gameJournalOnscreensStructuredGroup

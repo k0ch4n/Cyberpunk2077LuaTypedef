@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemInSlotPrereq: gameIScriptablePrereq
 ---@field slotID TweakDBID
 ---@field slotCheckType gamedataCheckType
@@ -11,6 +12,7 @@
 ---@field skipOnApply Bool
 ---@field waitForVisuals Bool
 ItemInSlotPrereq = {}
+
 
 ---@param fields? ItemInSlotPrereq
 ---@return ItemInSlotPrereq

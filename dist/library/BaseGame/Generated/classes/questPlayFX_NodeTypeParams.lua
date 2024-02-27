@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questPlayFX_NodeTypeParams
 ---@field play Bool
 ---@field objectRef gameEntityReference
@@ -9,6 +10,7 @@
 ---@field sequenceShift Uint32
 ---@field save Bool
 questPlayFX_NodeTypeParams = {}
+
 
 ---@param fields? questPlayFX_NodeTypeParams
 ---@return questPlayFX_NodeTypeParams

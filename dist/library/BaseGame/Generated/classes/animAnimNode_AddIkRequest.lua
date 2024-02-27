@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_AddIkRequest: animAnimNode_OnePoseInput
 ---@field ikChain CName
 ---@field targetBone animTransformIndex
@@ -12,6 +13,7 @@
 ---@field blendTimeOut Float
 ---@field priority Int32
 animAnimNode_AddIkRequest = {}
+
 
 ---@param fields? animAnimNode_AddIkRequest
 ---@return animAnimNode_AddIkRequest

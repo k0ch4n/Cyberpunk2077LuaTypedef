@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NewItemTooltipDetailsStatsModule: NewItemTooltipModuleController
 ---@field statsContainer inkCompoundWidgetReference
 ---@field isCrafting Bool
 NewItemTooltipDetailsStatsModule = {}
+
 
 ---@param fields? NewItemTooltipDetailsStatsModule
 ---@return NewItemTooltipDetailsStatsModule

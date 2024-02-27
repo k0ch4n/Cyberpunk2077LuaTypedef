@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PerkTrainingControllerPS: ScriptableDeviceComponentPS
 ---@field interactionTweakDBID TweakDBID
 ---@field loopTime Float
@@ -8,6 +9,7 @@
 ---@field perkGranted Bool
 ---@field wasDetected Bool
 PerkTrainingControllerPS = {}
+
 
 ---@param fields? PerkTrainingControllerPS
 ---@return PerkTrainingControllerPS

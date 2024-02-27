@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LadderEnterContextDecisions: InputContextTransitionDecisions
 LadderEnterContextDecisions = {}
+
 
 ---@param fields? LadderEnterContextDecisions
 ---@return LadderEnterContextDecisions

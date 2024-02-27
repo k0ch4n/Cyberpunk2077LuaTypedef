@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ToggleDropPointSystemRequest: gameScriptableSystemRequest
 ---@field isEnabled Bool
 ---@field reason CName
 ToggleDropPointSystemRequest = {}
+
 
 ---@param fields? ToggleDropPointSystemRequest
 ---@return ToggleDropPointSystemRequest

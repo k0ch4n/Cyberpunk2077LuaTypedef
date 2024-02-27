@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerNetworkState: Enum
 ---@field NOT_CONNECTED Enum 0
 ---@field NOT_BREACHED Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class textVerticalAlignment: Enum
 ---@field Top Enum 0
 ---@field Center Enum 1

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ForceEmptyHandsDecisions: UpperBodyTransition
 ---@field stateBodyDone Bool
 ForceEmptyHandsDecisions = {}
+
 
 ---@param fields? ForceEmptyHandsDecisions
 ---@return ForceEmptyHandsDecisions

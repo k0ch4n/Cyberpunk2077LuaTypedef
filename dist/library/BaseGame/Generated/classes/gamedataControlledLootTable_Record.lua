@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataControlledLootTable_Record: gamedataTweakDBRecord
 gamedataControlledLootTable_Record = {}
+
 
 ---@param fields? gamedataControlledLootTable_Record
 ---@return gamedataControlledLootTable_Record

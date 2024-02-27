@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleZoomInteraction: ActionBool
 ToggleZoomInteraction = {}
+
 
 ---@param fields? ToggleZoomInteraction
 ---@return ToggleZoomInteraction

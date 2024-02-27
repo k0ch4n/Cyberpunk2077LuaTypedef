@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestPrefabStateListener: worldIQuestPrefabStateListener
 QuestPrefabStateListener = {}
+
 
 ---@param fields? QuestPrefabStateListener
 ---@return QuestPrefabStateListener

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameBoolSignalAction: Enum
 ---@field None Enum 0
 ---@field TurnOn Enum 1

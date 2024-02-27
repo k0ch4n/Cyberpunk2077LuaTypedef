@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsChoiceType: Enum
 ---@field QuestImportant Enum 1
 ---@field AlreadyRead Enum 2

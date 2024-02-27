@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animAnimEvent_TrajectoryAdjustment: animAnimEvent
 animAnimEvent_TrajectoryAdjustment = {}
+
 
 ---@param fields? animAnimEvent_TrajectoryAdjustment
 ---@return animAnimEvent_TrajectoryAdjustment

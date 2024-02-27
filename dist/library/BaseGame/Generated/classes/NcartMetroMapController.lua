@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NcartMetroMapController: CustomAnimationsHudGameController
 ---@field playerMarkerPane inkWidgetReference
 ---@field playerCurrentPositionReferences metroMapPlayerPositionReferences[]
@@ -14,6 +15,7 @@
 ---@field LineOffOpacity Float
 ---@field LineOnOpacity Float
 NcartMetroMapController = {}
+
 
 ---@param fields? NcartMetroMapController
 ---@return NcartMetroMapController

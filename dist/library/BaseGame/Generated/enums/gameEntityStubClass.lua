@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEntityStubClass: Enum
 ---@field Other Enum 0
 ---@field Puppet Enum 1

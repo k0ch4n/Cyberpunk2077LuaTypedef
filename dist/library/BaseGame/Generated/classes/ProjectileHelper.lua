@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ProjectileHelper: IScriptable
 ProjectileHelper = {}
+
 
 ---@param fields? ProjectileHelper
 ---@return ProjectileHelper

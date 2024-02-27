@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETrap: Enum
 ---@field Invalid Enum 0
 ---@field GridRegen Enum 1

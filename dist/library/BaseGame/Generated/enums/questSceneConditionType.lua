@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questSceneConditionType: Enum
 ---@field Undefined Enum 0
 ---@field IsInside Enum 1

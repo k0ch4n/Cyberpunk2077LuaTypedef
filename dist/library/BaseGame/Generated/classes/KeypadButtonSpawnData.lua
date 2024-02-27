@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class KeypadButtonSpawnData: IScriptable
 ---@field widgetName CName
 ---@field locKey String
 ---@field isActionButton Bool
 ---@field widgetData SDeviceWidgetPackage
 KeypadButtonSpawnData = {}
+
 
 ---@param fields? KeypadButtonSpawnData
 ---@return KeypadButtonSpawnData

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class inkanimRotationInterpolator: inkanimInterpolator
 ---@field startValue Float
 ---@field endValue Float
 ---@field goShortPath Bool
 inkanimRotationInterpolator = {}
+
 
 ---@param fields? inkanimRotationInterpolator
 ---@return inkanimRotationInterpolator

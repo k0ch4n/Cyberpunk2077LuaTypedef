@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataComputerScreenType_Record: gamedataDeviceScreenType_Record
 gamedataComputerScreenType_Record = {}
+
 
 ---@param fields? gamedataComputerScreenType_Record
 ---@return gamedataComputerScreenType_Record

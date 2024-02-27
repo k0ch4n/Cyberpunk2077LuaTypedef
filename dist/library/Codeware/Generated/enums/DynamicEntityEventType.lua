@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DynamicEntityEventType: Enum
 ---@field Created Enum 0
 ---@field Deleted Enum 1

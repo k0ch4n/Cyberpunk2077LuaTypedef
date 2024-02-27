@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class IsNpcPlayingMountingAnimationPrereq: gameIScriptablePrereq
 ---@field slotName CName
 ---@field isCheckInverted Bool
 IsNpcPlayingMountingAnimationPrereq = {}
+
 
 ---@param fields? IsNpcPlayingMountingAnimationPrereq
 ---@return IsNpcPlayingMountingAnimationPrereq

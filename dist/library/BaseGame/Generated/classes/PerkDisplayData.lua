@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PerkDisplayData: BasePerkDisplayData
 ---@field area gamedataPerkArea
 ---@field type gamedataPerkType
 PerkDisplayData = {}
+
 
 ---@param fields? PerkDisplayData
 ---@return PerkDisplayData

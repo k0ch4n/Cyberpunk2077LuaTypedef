@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ShotgunLookAtEvents: lookAtPresetGunBaseEvents
 ShotgunLookAtEvents = {}
+
 
 ---@param fields? ShotgunLookAtEvents
 ---@return ShotgunLookAtEvents

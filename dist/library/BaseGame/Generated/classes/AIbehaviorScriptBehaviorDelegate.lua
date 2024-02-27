@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorScriptBehaviorDelegate: AIbehaviorBehaviorDelegate
 AIbehaviorScriptBehaviorDelegate = {}
+
 
 ---@param fields? AIbehaviorScriptBehaviorDelegate
 ---@return AIbehaviorScriptBehaviorDelegate

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameBlackboardSystem: gameIBlackboardSystem
 gameBlackboardSystem = {}
+
 
 ---@param fields? gameBlackboardSystem
 ---@return gameBlackboardSystem

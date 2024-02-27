@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NPCIsFollowerPrereq: gameIScriptablePrereq
 ---@field invert Bool
 NPCIsFollowerPrereq = {}
+
 
 ---@param fields? NPCIsFollowerPrereq
 ---@return NPCIsFollowerPrereq

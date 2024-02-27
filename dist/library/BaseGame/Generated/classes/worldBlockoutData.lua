@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldBlockoutData: ISerializable
 ---@field points worldBlockoutPoint[]
 ---@field edges worldBlockoutEdge[]
@@ -9,6 +10,7 @@
 ---@field freeEdges Uint32[]
 ---@field freeAreas Uint32[]
 worldBlockoutData = {}
+
 
 ---@param fields? worldBlockoutData
 ---@return worldBlockoutData

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RarityOfEquippedCyberdeckPrereq: gameIScriptablePrereq
 ---@field minimumQuality Int32
 RarityOfEquippedCyberdeckPrereq = {}
+
 
 ---@param fields? RarityOfEquippedCyberdeckPrereq
 ---@return RarityOfEquippedCyberdeckPrereq

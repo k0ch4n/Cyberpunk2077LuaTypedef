@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehiclePersistentDataPS: gameComponentPS
 ---@field flags Uint32
 ---@field autopilotPos Float
@@ -10,6 +11,7 @@
 ---@field destruction vehicleDestructionPSData
 ---@field audio vehicleAudioPSData
 vehiclePersistentDataPS = {}
+
 
 ---@param fields? vehiclePersistentDataPS
 ---@return vehiclePersistentDataPS

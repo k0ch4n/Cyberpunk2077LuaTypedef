@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MonoDisc: BaseProjectile
 ---@field throwtype ThrowType
 ---@field targetAcquired Bool
@@ -20,6 +21,7 @@
 ---@field wasNPCHit Bool
 ---@field animationController entAnimationControllerComponent
 MonoDisc = {}
+
 
 ---@param fields? MonoDisc
 ---@return MonoDisc

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestListVirtualController: inkVirtualListController
 ---@field dataView QuestListVirtualDataView
 ---@field dataSource inkScriptableDataSourceWrapper
@@ -8,6 +9,7 @@
 ---@field uiScriptableSystem UIScriptableSystem
 ---@field questSortType QuestListSortType
 QuestListVirtualController = {}
+
 
 ---@param fields? QuestListVirtualController
 ---@return QuestListVirtualController

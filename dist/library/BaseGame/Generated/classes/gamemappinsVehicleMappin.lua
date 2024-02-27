@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamemappinsVehicleMappin: gamemappinsRuntimeMappin
 gamemappinsVehicleMappin = {}
+
 
 ---@param fields? gamemappinsVehicleMappin
 ---@return gamemappinsVehicleMappin

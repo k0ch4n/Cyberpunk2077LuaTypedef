@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameaudioeventsEmerge: redEvent
 ---@field oxygen Float
 gameaudioeventsEmerge = {}
+
 
 ---@param fields? gameaudioeventsEmerge
 ---@return gameaudioeventsEmerge

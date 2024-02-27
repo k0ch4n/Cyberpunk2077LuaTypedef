@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewItemTooltipAttachmentEntryController: inkWidgetLogicController
 ---@field text inkTextWidgetReference
 ---@field attunementContainer inkWidgetReference
@@ -11,6 +12,7 @@
 ---@field bigFontEnabled Bool
 ---@field isCrafting Bool
 NewItemTooltipAttachmentEntryController = {}
+
 
 ---@param fields? NewItemTooltipAttachmentEntryController
 ---@return NewItemTooltipAttachmentEntryController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkVectorGraphicWidget: inkLeafWidget
 inkVectorGraphicWidget = {}
+
 
 ---@param fields? inkVectorGraphicWidget
 ---@return inkVectorGraphicWidget

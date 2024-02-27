@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsPoliceInCombatWithPlayer: PreventionConditionAbstract
 IsPoliceInCombatWithPlayer = {}
+
 
 ---@param fields? IsPoliceInCombatWithPlayer
 ---@return IsPoliceInCombatWithPlayer

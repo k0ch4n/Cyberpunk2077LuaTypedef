@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CerberusCustomEventSender: AISignalSenderTask
 CerberusCustomEventSender = {}
+
 
 ---@param fields? CerberusCustomEventSender
 ---@return CerberusCustomEventSender

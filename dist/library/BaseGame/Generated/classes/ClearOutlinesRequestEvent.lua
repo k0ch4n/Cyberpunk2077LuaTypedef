@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ClearOutlinesRequestEvent: redEvent
 ClearOutlinesRequestEvent = {}
+
 
 ---@param fields? ClearOutlinesRequestEvent
 ---@return ClearOutlinesRequestEvent

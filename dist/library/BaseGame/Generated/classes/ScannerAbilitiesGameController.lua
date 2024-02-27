@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ScannerAbilitiesGameController: BaseChunkGameController
 ---@field ScannerAbilitiesRightPanel inkCompoundWidgetReference
 ---@field abilitiesCallbackID redCallbackObject
 ---@field isValidAbilities Bool
 ---@field asyncSpawnRequests inkAsyncSpawnRequest[]
 ScannerAbilitiesGameController = {}
+
 
 ---@param fields? ScannerAbilitiesGameController
 ---@return ScannerAbilitiesGameController

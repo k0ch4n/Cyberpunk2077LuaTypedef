@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleColorSelectorMenuCloseReason: Enum
 ---@field Apply Enum 0
 ---@field Reset Enum 1

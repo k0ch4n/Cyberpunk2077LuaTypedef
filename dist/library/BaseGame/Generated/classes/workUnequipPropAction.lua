@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class workUnequipPropAction: workIWorkspotItemAction
 ---@field itemId CName
 workUnequipPropAction = {}
+
 
 ---@param fields? workUnequipPropAction
 ---@return workUnequipPropAction

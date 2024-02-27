@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class audioAudSimpleParameter
 ---@field name CName
 ---@field value Float
 audioAudSimpleParameter = {}
+
 
 ---@param fields? audioAudSimpleParameter
 ---@return audioAudSimpleParameter

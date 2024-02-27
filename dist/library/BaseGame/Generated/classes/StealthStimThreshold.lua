@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StealthStimThreshold: AIbehaviorconditionScript
 ---@field stealthThresholdNumber Int32
 StealthStimThreshold = {}
+
 
 ---@param fields? StealthStimThreshold
 ---@return StealthStimThreshold

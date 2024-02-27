@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ReactionBehaviorStatus: redEvent
 ---@field status AIbehaviorUpdateOutcome
 ---@field reactionData AIReactionData
 ReactionBehaviorStatus = {}
+
 
 ---@param fields? ReactionBehaviorStatus
 ---@return ReactionBehaviorStatus

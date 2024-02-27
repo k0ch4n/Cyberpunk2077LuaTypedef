@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RoboticArmsController: ScriptableDeviceComponent
 RoboticArmsController = {}
+
 
 ---@param fields? RoboticArmsController
 ---@return RoboticArmsController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IdleActions: TweakAIActionSmartComposite
 IdleActions = {}
+
 
 ---@param fields? IdleActions
 ---@return IdleActions

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIActionDataDef: AIBlackboardDef
 ---@field ownerMeleeAttackBlockedCount gamebbScriptID_Int32
 ---@field ownerMeleeAttackParriedCount gamebbScriptID_Int32
@@ -34,6 +35,7 @@
 ---@field attackParried gamebbScriptID_Bool
 ---@field lastGrenadeThrowTimestamp gamebbScriptID_Float
 AIActionDataDef = {}
+
 
 ---@param fields? AIActionDataDef
 ---@return AIActionDataDef

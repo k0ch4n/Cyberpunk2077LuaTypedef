@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PhoneContactHiddenEvent: redEvent
 ---@field HiddenItem inkVirtualCompoundItemController
 PhoneContactHiddenEvent = {}
+
 
 ---@param fields? PhoneContactHiddenEvent
 ---@return PhoneContactHiddenEvent

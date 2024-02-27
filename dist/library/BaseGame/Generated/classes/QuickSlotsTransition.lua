@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickSlotsTransition: DefaultTransition
 QuickSlotsTransition = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param areaType gamedataEquipmentArea

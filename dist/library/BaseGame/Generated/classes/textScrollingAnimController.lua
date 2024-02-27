@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class textScrollingAnimController: inkWidgetLogicController
 ---@field scannerDetailsHackLog inkTextWidgetReference
 ---@field defaultScrollSpeed Float
@@ -21,6 +22,7 @@
 ---@field AnimOptions inkanimPlaybackOptions
 ---@field lineCount Int32
 textScrollingAnimController = {}
+
 
 ---@param fields? textScrollingAnimController
 ---@return textScrollingAnimController

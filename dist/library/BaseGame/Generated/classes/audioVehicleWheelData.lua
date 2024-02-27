@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioVehicleWheelData
 ---@field wheelStartEvents CName[]
 ---@field wheelStopEvents CName[]
@@ -12,6 +13,7 @@
 ---@field suspensionImpactCooldown Float
 ---@field minWheelTimeInAirBeforeLanding Float
 audioVehicleWheelData = {}
+
 
 ---@param fields? audioVehicleWheelData
 ---@return audioVehicleWheelData

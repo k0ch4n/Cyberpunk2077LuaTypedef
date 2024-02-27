@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameweaponeventsReloadStartEvent: redEvent
 gameweaponeventsReloadStartEvent = {}
+
 
 ---@param fields? gameweaponeventsReloadStartEvent
 ---@return gameweaponeventsReloadStartEvent

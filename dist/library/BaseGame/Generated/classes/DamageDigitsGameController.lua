@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DamageDigitsGameController: gameuiProjectedHUDGameController
 ---@field maxVisible Int32
 ---@field maxAccumulatedVisible Int32
@@ -15,6 +16,7 @@
 ---@field damageDigitsModeBlackboardId redCallbackObject
 ---@field damageDigitsStickingModeBlackboardId redCallbackObject
 DamageDigitsGameController = {}
+
 
 ---@param fields? DamageDigitsGameController
 ---@return DamageDigitsGameController

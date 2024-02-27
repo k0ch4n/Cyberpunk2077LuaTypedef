@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class textTextBlockStyle
 ---@field tintColor HDRColor
 ---@field shadowOffset Vector2
@@ -7,6 +8,7 @@
 ---@field fontStyle textTextBlockFontStyle
 ---@field fontSize Uint16
 textTextBlockStyle = {}
+
 
 ---@param fields? textTextBlockStyle
 ---@return textTextBlockStyle

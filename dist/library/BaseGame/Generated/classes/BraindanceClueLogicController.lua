@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BraindanceClueLogicController: inkWidgetLogicController
 ---@field bg inkWidgetReference
 ---@field timelineActiveAnimationName CName
@@ -11,6 +12,7 @@
 ---@field isInLayer Bool
 ---@field isInTimeWindow Bool
 BraindanceClueLogicController = {}
+
 
 ---@param fields? BraindanceClueLogicController
 ---@return BraindanceClueLogicController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DetailedLocomotionPSMPrereq: PlayerStateMachinePrereq
 DetailedLocomotionPSMPrereq = {}
+
 
 ---@param fields? DetailedLocomotionPSMPrereq
 ---@return DetailedLocomotionPSMPrereq

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class IngredientListItemLogicController: inkButtonController
 ---@field itemName inkTextWidgetReference
 ---@field inventoryQuantity inkTextWidgetReference
@@ -17,6 +18,7 @@
 ---@field TooltipsManager gameuiTooltipsManager
 ---@field itemAmount Int32
 IngredientListItemLogicController = {}
+
 
 ---@param fields? IngredientListItemLogicController
 ---@return IngredientListItemLogicController

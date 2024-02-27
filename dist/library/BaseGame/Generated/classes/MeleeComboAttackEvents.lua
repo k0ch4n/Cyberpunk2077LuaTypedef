@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeComboAttackEvents: MeleeAttackGenericEvents
 MeleeComboAttackEvents = {}
+
 
 ---@param fields? MeleeComboAttackEvents
 ---@return MeleeComboAttackEvents

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ExplosiveDeviceHideDeviceEvent: redEvent
 ExplosiveDeviceHideDeviceEvent = {}
+
 
 ---@param fields? ExplosiveDeviceHideDeviceEvent
 ---@return ExplosiveDeviceHideDeviceEvent

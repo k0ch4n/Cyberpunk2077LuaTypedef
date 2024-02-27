@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entRagdollActivationRequestEvent: redEvent
 ---@field data entragdollActivationRequestData
 entRagdollActivationRequestEvent = {}
+
 
 ---@param fields? entRagdollActivationRequestEvent
 ---@return entRagdollActivationRequestEvent

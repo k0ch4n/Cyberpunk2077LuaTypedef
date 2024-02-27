@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetDeflectedHitsRequest: gameScriptableSystemRequest
 ResetDeflectedHitsRequest = {}
+
 
 ---@param fields? ResetDeflectedHitsRequest
 ---@return ResetDeflectedHitsRequest

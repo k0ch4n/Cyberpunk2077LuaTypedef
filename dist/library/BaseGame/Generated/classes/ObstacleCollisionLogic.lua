@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ObstacleCollisionLogic: gameuiSideScrollerMiniGameCollisionLogic
 ---@field hasTriggered Bool
 ---@field invincibityBonusTime Float
 ObstacleCollisionLogic = {}
+
 
 ---@param fields? ObstacleCollisionLogic
 ---@return ObstacleCollisionLogic

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class AuthorizeUser: ActionBool
 ---@field enteredPassword CName
 ---@field validPasswords CName[]
 ---@field libraryName CName
 ---@field isforced Bool
 AuthorizeUser = {}
+
 
 ---@param fields? AuthorizeUser
 ---@return AuthorizeUser

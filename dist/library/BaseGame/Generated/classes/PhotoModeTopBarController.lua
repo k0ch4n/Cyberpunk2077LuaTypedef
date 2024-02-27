@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PhotoModeTopBarController: inkRadioGroupController
 ---@field photoModeTogglesArray inkWidgetReference[]
 PhotoModeTopBarController = {}
+
 
 ---@param fields? PhotoModeTopBarController
 ---@return PhotoModeTopBarController

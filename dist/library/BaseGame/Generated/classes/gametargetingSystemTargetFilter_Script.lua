@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gametargetingSystemTargetFilter_Script: gametargetingSystemTargetFilter
 gametargetingSystemTargetFilter_Script = {}
+
 
 ---@param fields? gametargetingSystemTargetFilter_Script
 ---@return gametargetingSystemTargetFilter_Script

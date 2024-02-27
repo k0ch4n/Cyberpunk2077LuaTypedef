@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuickhacksListGameController: gameuiHUDGameController
 ---@field timeBetweenIntroAndIntroDescription Float
 ---@field timeBetweenIntroAndDescritpionDelayID gameDelayID
@@ -80,6 +81,7 @@
 ---@field axisInputConsumed Bool
 ---@field playerObject gameObject
 QuickhacksListGameController = {}
+
 
 ---@param fields? QuickhacksListGameController
 ---@return QuickhacksListGameController

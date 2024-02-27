@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SetDeviceInvestigationData: AIbehaviortaskScript
 ---@field ownerPuppet ScriptedPuppet
 ---@field listener gameObject
 SetDeviceInvestigationData = {}
+
 
 ---@param fields? SetDeviceInvestigationData
 ---@return SetDeviceInvestigationData

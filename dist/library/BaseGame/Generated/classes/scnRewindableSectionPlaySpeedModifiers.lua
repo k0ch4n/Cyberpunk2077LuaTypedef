@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnRewindableSectionPlaySpeedModifiers
 ---@field forwardVeryFast Float
 ---@field forwardFast Float
@@ -8,6 +9,7 @@
 ---@field backwardFast Float
 ---@field backwardSlow Float
 scnRewindableSectionPlaySpeedModifiers = {}
+
 
 ---@param fields? scnRewindableSectionPlaySpeedModifiers
 ---@return scnRewindableSectionPlaySpeedModifiers

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorWaitJoinTrafficConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorWaitJoinTrafficConditionDefinition = {}
+
 
 ---@param fields? AIbehaviorWaitJoinTrafficConditionDefinition
 ---@return AIbehaviorWaitJoinTrafficConditionDefinition

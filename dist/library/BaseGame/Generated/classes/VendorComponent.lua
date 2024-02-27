@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class VendorComponent: gameScriptableComponent
 ---@field vendorTweakID TweakDBID
 ---@field junkItemArray JunkItemRecord[]
 ---@field brandProcessingSFX CName
 ---@field itemFallSFX CName
 VendorComponent = {}
+
 
 ---@param fields? VendorComponent
 ---@return VendorComponent

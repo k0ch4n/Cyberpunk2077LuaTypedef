@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animTransformChannel: Enum
 ---@field PosX Enum 0
 ---@field PosY Enum 1

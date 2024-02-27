@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkSliderControllerInputCallback: inkCallbackBase
 inkSliderControllerInputCallback = {}
+
 
 ---@param fields? inkSliderControllerInputCallback
 ---@return inkSliderControllerInputCallback

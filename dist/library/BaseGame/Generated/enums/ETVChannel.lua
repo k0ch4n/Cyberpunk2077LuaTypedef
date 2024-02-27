@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETVChannel: Enum
 ---@field CH1 Enum 0
 ---@field CH2 Enum 1

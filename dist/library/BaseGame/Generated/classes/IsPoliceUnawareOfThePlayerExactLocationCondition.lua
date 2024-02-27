@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsPoliceUnawareOfThePlayerExactLocationCondition: PreventionConditionAbstract
 IsPoliceUnawareOfThePlayerExactLocationCondition = {}
+
 
 ---@param fields? IsPoliceUnawareOfThePlayerExactLocationCondition
 ---@return IsPoliceUnawareOfThePlayerExactLocationCondition

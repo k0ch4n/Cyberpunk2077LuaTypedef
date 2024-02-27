@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameEffectOutputParameter_Variant
 ---@field blackboardProperty gameBlackboardPropertyBindingDefinition
 gameEffectOutputParameter_Variant = {}
+
 
 ---@param fields? gameEffectOutputParameter_Variant
 ---@return gameEffectOutputParameter_Variant

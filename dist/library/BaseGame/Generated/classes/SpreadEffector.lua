@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SpreadEffector: gameEffector
 ---@field objectActionRecord gamedataObjectAction_Record
 ---@field player PlayerPuppet
@@ -7,6 +8,7 @@
 ---@field spreadToAllTargetsInTheArea Bool
 ---@field applyOverclock Bool
 SpreadEffector = {}
+
 
 ---@param fields? SpreadEffector
 ---@return SpreadEffector

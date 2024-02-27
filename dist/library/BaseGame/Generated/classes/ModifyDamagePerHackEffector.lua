@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ModifyDamagePerHackEffector: ModifyDamageEffector
 ---@field countOnlyUnique Bool
 ModifyDamagePerHackEffector = {}
+
 
 ---@param fields? ModifyDamagePerHackEffector
 ---@return ModifyDamagePerHackEffector

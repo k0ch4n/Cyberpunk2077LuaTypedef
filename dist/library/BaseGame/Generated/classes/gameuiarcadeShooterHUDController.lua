@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiarcadeShooterHUDController: inkWidgetLogicController
 ---@field selectedWeaponSlot inkImageWidgetReference
 ---@field secondWeaponSlot inkImageWidgetReference
@@ -12,6 +13,7 @@
 ---@field levelNumber2 inkImageWidgetReference
 ---@field levelFinishCard inkWidgetReference
 gameuiarcadeShooterHUDController = {}
+
 
 ---@param fields? gameuiarcadeShooterHUDController
 ---@return gameuiarcadeShooterHUDController

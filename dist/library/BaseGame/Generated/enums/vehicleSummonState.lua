@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleSummonState: Enum
 ---@field Idle Enum 0
 ---@field EnRoute Enum 1

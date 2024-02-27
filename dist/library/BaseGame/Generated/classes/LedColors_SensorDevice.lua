@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LedColors_SensorDevice
 ---@field off ScriptLightSettings
 ---@field red ScriptLightSettings
@@ -8,6 +9,7 @@
 ---@field yellow ScriptLightSettings
 ---@field white ScriptLightSettings
 LedColors_SensorDevice = {}
+
 
 ---@param fields? LedColors_SensorDevice
 ---@return LedColors_SensorDevice

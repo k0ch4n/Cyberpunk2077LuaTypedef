@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CodexPopupGameController: gameuiWidgetGameController
 ---@field entryViewRef inkCompoundWidgetReference
 ---@field characterEntryViewRef inkCompoundWidgetReference
@@ -10,6 +11,7 @@
 ---@field journalMgr gameJournalManager
 ---@field data CodexPopupData
 CodexPopupGameController = {}
+
 
 ---@param fields? CodexPopupGameController
 ---@return CodexPopupGameController

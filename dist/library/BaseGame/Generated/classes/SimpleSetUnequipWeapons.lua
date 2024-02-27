@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SimpleSetUnequipWeapons: AIbehaviortaskScript
 ---@field puppet ScriptedPuppet
 ---@field game ScriptGameInstance
@@ -9,6 +10,7 @@
 ---@field secondaryEquipmentDuplicatesPrimary Bool
 ---@field initialized Bool
 SimpleSetUnequipWeapons = {}
+
 
 ---@param fields? SimpleSetUnequipWeapons
 ---@return SimpleSetUnequipWeapons

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DisableVisualOverride: redEvent
 ---@field blockReequipping Bool
 DisableVisualOverride = {}
+
 
 ---@param fields? DisableVisualOverride
 ---@return DisableVisualOverride

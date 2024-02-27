@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WorldMapFiltersList: inkWidgetLogicController
 WorldMapFiltersList = {}
+
 
 ---@param fields? WorldMapFiltersList
 ---@return WorldMapFiltersList

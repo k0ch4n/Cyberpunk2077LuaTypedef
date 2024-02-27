@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class worldTrafficStaticCollisionSphere
 ---@field worldPos Vector3
 worldTrafficStaticCollisionSphere = {}
+
 
 ---@param fields? worldTrafficStaticCollisionSphere
 ---@return worldTrafficStaticCollisionSphere

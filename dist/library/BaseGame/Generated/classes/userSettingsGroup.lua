@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class userSettingsGroup: IScriptable
 userSettingsGroup = {}
+
 
 ---@param fields? userSettingsGroup
 ---@return userSettingsGroup

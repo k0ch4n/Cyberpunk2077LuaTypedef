@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CloseQHmenu: redEvent
 CloseQHmenu = {}
+
 
 ---@param fields? CloseQHmenu
 ---@return CloseQHmenu

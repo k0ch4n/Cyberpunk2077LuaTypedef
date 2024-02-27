@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TriggerModeHitPrereqCondition: BaseHitPrereqCondition
 ---@field triggerMode gamedataTriggerMode
 TriggerModeHitPrereqCondition = {}
+
 
 ---@param fields? TriggerModeHitPrereqCondition
 ---@return TriggerModeHitPrereqCondition

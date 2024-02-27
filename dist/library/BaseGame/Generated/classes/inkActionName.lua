@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkActionName: IScriptable
 inkActionName = {}
+
 
 ---@param fields? inkActionName
 ---@return inkActionName

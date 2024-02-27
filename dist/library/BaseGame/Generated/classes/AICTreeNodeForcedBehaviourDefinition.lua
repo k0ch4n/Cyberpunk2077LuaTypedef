@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICTreeNodeForcedBehaviourDefinition: AICTreeNodeDynamicDefinition
 AICTreeNodeForcedBehaviourDefinition = {}
+
 
 ---@param fields? AICTreeNodeForcedBehaviourDefinition
 ---@return AICTreeNodeForcedBehaviourDefinition

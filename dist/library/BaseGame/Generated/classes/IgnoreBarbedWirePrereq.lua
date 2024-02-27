@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class IgnoreBarbedWirePrereq: gameIScriptablePrereq
 ---@field minStateTime Float
 ---@field invert Bool
 IgnoreBarbedWirePrereq = {}
+
 
 ---@param fields? IgnoreBarbedWirePrereq
 ---@return IgnoreBarbedWirePrereq

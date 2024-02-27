@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AddActiveStimuli: AIbehaviortaskScript
 ---@field stimType gamedataStimType
 ---@field lifetime Float
 AddActiveStimuli = {}
+
 
 ---@param fields? AddActiveStimuli
 ---@return AddActiveStimuli

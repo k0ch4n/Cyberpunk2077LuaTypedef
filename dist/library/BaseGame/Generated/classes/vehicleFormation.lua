@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleFormation
 vehicleFormation = {}
+
 
 ---@param fields? vehicleFormation
 ---@return vehicleFormation

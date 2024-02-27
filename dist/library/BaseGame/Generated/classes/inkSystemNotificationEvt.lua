@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkSystemNotificationEvt: redEvent
 inkSystemNotificationEvt = {}
+
 
 ---@param fields? inkSystemNotificationEvt
 ---@return inkSystemNotificationEvt

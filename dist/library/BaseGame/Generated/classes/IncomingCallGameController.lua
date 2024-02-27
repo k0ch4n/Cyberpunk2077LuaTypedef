@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class IncomingCallGameController: gameuiNewPhoneRelatedHUDGameController
 ---@field contactNameWidget inkTextWidgetReference
 ---@field buttonHint inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field phoneCallInfoBBID redCallbackObject
 ---@field animProxy inkanimProxy
 IncomingCallGameController = {}
+
 
 ---@param fields? IncomingCallGameController
 ---@return IncomingCallGameController

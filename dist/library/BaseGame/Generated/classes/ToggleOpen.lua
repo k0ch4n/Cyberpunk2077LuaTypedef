@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleOpen: ActionBool
 ToggleOpen = {}
+
 
 ---@param fields? ToggleOpen
 ---@return ToggleOpen

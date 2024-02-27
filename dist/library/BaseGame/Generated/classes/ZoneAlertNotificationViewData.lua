@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ZoneAlertNotificationViewData: gameuiGenericNotificationViewData
 ---@field canBeMerged Bool
 ---@field securityZoneData ESecurityAreaType
 ZoneAlertNotificationViewData = {}
+
 
 ---@param fields? ZoneAlertNotificationViewData
 ---@return ZoneAlertNotificationViewData

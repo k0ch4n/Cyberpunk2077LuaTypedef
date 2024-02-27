@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ShortBladeLookAtDecisions: LookAtPresetMeleeBaseDecisions
 ShortBladeLookAtDecisions = {}
+
 
 ---@param fields? ShortBladeLookAtDecisions
 ---@return ShortBladeLookAtDecisions

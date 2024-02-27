@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIbehaviorActionDroneMoveSplineTreeNodeDefinition: AIbehaviorActionTreeNodeDefinition
 ---@field spline AIArgumentMapping
 AIbehaviorActionDroneMoveSplineTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorActionDroneMoveSplineTreeNodeDefinition
 ---@return AIbehaviorActionDroneMoveSplineTreeNodeDefinition

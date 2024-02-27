@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameInnerItemData
 gameInnerItemData = {}
+
 
 ---@param fields? gameInnerItemData
 ---@return gameInnerItemData

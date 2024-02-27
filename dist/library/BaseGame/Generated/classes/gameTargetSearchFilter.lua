@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameTargetSearchFilter
 gameTargetSearchFilter = {}
+
 
 ---@param fields? gameTargetSearchFilter
 ---@return gameTargetSearchFilter

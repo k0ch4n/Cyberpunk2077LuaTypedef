@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameFearStage: Enum
 ---@field Relaxed Enum 0
 ---@field Stressed Enum 1

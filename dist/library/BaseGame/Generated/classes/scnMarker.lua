@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnMarker
 ---@field type scnMarkerType
 ---@field localMarkerId CName
@@ -8,6 +9,7 @@
 ---@field slotName CName
 ---@field isMounted Bool
 scnMarker = {}
+
 
 ---@param fields? scnMarker
 ---@return scnMarker

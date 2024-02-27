@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class TechQA_ImageSwappingButtonController: inkWidgetLogicController
 ---@field textWidgetPath CName
 ---@field textWidget inkTextWidget
 TechQA_ImageSwappingButtonController = {}
+
 
 ---@param fields? TechQA_ImageSwappingButtonController
 ---@return TechQA_ImageSwappingButtonController

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class MountCommandHandlerTask: AIbehaviortaskScript
 ---@field command AIArgumentMapping
 ---@field mountEventData AIArgumentMapping
 ---@field callbackName CName
 MountCommandHandlerTask = {}
+
 
 ---@param fields? MountCommandHandlerTask
 ---@return MountCommandHandlerTask

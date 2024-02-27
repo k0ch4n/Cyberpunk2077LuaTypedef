@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SprintWindupLowGravityEvents: SprintLowGravityEvents
 SprintWindupLowGravityEvents = {}
+
 
 ---@param fields? SprintWindupLowGravityEvents
 ---@return SprintWindupLowGravityEvents

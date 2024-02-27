@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WeaponPositionComponent: gameScriptableComponent
 ---@field playerPuppet PlayerPuppet
 ---@field tweakPoseState TweakWeaponPose
@@ -35,6 +36,7 @@
 ---@field UILayerID2 Uint32
 ---@field UILayerID3 Uint32
 WeaponPositionComponent = {}
+
 
 ---@param fields? WeaponPositionComponent
 ---@return WeaponPositionComponent

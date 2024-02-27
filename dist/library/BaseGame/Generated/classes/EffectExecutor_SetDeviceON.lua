@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EffectExecutor_SetDeviceON: EffectExecutor_Device
 EffectExecutor_SetDeviceON = {}
+
 
 ---@param fields? EffectExecutor_SetDeviceON
 ---@return EffectExecutor_SetDeviceON

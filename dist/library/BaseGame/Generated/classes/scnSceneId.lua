@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class scnSceneId
 ---@field resPathHash Uint64
 scnSceneId = {}
+
 
 ---@param fields? scnSceneId
 ---@return scnSceneId

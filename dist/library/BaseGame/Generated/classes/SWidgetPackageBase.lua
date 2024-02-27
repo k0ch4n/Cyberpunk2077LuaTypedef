@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SWidgetPackageBase
 ---@field libraryPath redResourceReferenceScriptToken
 ---@field libraryID CName
@@ -10,6 +11,7 @@
 ---@field orientation inkEOrientation
 ---@field isValid Bool
 SWidgetPackageBase = {}
+
 
 ---@param fields? SWidgetPackageBase
 ---@return SWidgetPackageBase

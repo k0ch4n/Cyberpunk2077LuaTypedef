@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class sampleTextScrolling: inkWidgetLogicController
 ---@field scrollingText inkTextWidgetReference
 ---@field infiniteloop inkanimPlaybackOptions
 sampleTextScrolling = {}
+
 
 ---@param fields? sampleTextScrolling
 ---@return sampleTextScrolling

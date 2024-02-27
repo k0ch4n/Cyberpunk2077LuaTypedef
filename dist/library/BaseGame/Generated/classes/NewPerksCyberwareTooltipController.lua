@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerksCyberwareTooltipController: AGenericTooltipController
 ---@field title inkTextWidgetReference
 ---@field subTitle inkTextWidgetReference
@@ -26,6 +27,7 @@
 ---@field c_swipeRightOut CName
 ---@field c_swipeRightIn CName
 NewPerksCyberwareTooltipController = {}
+
 
 ---@param fields? NewPerksCyberwareTooltipController
 ---@return NewPerksCyberwareTooltipController

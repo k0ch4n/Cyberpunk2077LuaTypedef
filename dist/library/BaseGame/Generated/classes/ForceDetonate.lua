@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceDetonate: ActionBool
 ForceDetonate = {}
+
 
 ---@param fields? ForceDetonate
 ---@return ForceDetonate

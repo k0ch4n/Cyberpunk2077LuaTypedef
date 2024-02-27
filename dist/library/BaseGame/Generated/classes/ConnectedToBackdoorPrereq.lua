@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ConnectedToBackdoorPrereq: gameIScriptablePrereq
 ---@field invert Bool
 ConnectedToBackdoorPrereq = {}
+
 
 ---@param fields? ConnectedToBackdoorPrereq
 ---@return ConnectedToBackdoorPrereq

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DeviceActionWidgetControllerBase: DeviceButtonLogicControllerBase
 ---@field actions gamedeviceAction[]
 ---@field actionData ResolveActionData
 ---@field isInactive Bool
 DeviceActionWidgetControllerBase = {}
+
 
 ---@param fields? DeviceActionWidgetControllerBase
 ---@return DeviceActionWidgetControllerBase

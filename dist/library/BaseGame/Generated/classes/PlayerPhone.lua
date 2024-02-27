@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerPhone: gameScriptableComponent
 PlayerPhone = {}
+
 
 ---@param fields? PlayerPhone
 ---@return PlayerPhone

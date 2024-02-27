@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class scnLookAtAdvancedEvent: scnSceneEvent
 ---@field advancedData scnLookAtAdvancedEventData
 scnLookAtAdvancedEvent = {}
+
 
 ---@param fields? scnLookAtAdvancedEvent
 ---@return scnLookAtAdvancedEvent

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkanimSetVisibilityEvent: inkanimEvent
 ---@field isVisible Bool
 inkanimSetVisibilityEvent = {}
+
 
 ---@param fields? inkanimSetVisibilityEvent
 ---@return inkanimSetVisibilityEvent

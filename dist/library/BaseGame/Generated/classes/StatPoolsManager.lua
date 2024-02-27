@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StatPoolsManager: IScriptable
 StatPoolsManager = {}
+
 
 ---@param fields? StatPoolsManager
 ---@return StatPoolsManager

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameuiItemAddedNotificationViewData: gameuiGenericNotificationViewData
 ---@field itemID gameItemID
 ---@field animation CName
 ---@field itemRarity CName
 gameuiItemAddedNotificationViewData = {}
+
 
 ---@param fields? gameuiItemAddedNotificationViewData
 ---@return gameuiItemAddedNotificationViewData

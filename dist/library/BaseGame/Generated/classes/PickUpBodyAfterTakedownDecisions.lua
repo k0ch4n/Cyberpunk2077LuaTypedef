@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PickUpBodyAfterTakedownDecisions: LocomotionTakedownDecisions
 PickUpBodyAfterTakedownDecisions = {}
+
 
 ---@param fields? PickUpBodyAfterTakedownDecisions
 ---@return PickUpBodyAfterTakedownDecisions

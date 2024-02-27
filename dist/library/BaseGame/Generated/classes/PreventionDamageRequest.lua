@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PreventionDamageRequest: gameScriptableSystemRequest
 ---@field isInternal Bool
 ---@field damageDealtPercentValue Float
@@ -12,6 +13,7 @@
 ---@field attackType gamedataAttackType
 ---@field telemetryInfo String
 PreventionDamageRequest = {}
+
 
 ---@param fields? PreventionDamageRequest
 ---@return PreventionDamageRequest

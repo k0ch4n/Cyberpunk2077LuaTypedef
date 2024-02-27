@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataMinigameCategory_Record: gamedataTweakDBRecord
 gamedataMinigameCategory_Record = {}
+
 
 ---@param fields? gamedataMinigameCategory_Record
 ---@return gamedataMinigameCategory_Record

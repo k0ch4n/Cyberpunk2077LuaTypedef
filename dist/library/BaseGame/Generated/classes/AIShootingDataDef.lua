@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIShootingDataDef: AIBlackboardDef
 ---@field shootingPatternPackage gamebbScriptID_Variant
 ---@field shootingPattern gamebbScriptID_Variant
@@ -19,6 +20,7 @@
 ---@field requestedTriggerMode gamebbScriptID_Int32
 ---@field shootingFromCar gamebbScriptID_Bool
 AIShootingDataDef = {}
+
 
 ---@param fields? AIShootingDataDef
 ---@return AIShootingDataDef

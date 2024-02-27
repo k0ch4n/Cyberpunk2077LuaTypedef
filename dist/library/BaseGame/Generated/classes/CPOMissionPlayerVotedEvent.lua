@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CPOMissionPlayerVotedEvent: redEvent
 ---@field compatibleDeviceName CName
 CPOMissionPlayerVotedEvent = {}
+
 
 ---@param fields? CPOMissionPlayerVotedEvent
 ---@return CPOMissionPlayerVotedEvent

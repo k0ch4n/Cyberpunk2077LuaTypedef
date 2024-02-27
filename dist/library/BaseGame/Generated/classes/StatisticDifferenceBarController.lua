@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class StatisticDifferenceBarController: inkWidgetLogicController
 ---@field filled inkWidgetReference
 ---@field difference inkWidgetReference
 ---@field empty inkWidgetReference
 StatisticDifferenceBarController = {}
+
 
 ---@param fields? StatisticDifferenceBarController
 ---@return StatisticDifferenceBarController

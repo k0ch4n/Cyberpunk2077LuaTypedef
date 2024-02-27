@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InputContextTransitionEvents: InputContextTransition
 ---@field gameplaySettings GameplaySettingsSystem
 ---@field onInputSchemeUpdatedCallback redCallbackObject
@@ -10,6 +11,7 @@
 ---@field isGameplayInputHintManagerInitialized Bool
 ---@field isGameplayInputHintRefreshRequired Bool
 InputContextTransitionEvents = {}
+
 
 ---@param value Uint32
 ---@return Bool

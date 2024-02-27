@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryTooltipDisplayContext: Enum
 ---@field Default Enum 0
 ---@field Attachment Enum 1

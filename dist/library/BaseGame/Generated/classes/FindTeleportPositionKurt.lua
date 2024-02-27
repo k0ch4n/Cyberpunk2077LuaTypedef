@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FindTeleportPositionKurt: AIbehaviortaskScript
 ---@field target AIArgumentMapping
 ---@field extents AIArgumentMapping
@@ -10,6 +11,7 @@
 ---@field outRotationArgument AIArgumentMapping
 ---@field outMaybeStairs AIArgumentMapping
 FindTeleportPositionKurt = {}
+
 
 ---@param fields? FindTeleportPositionKurt
 ---@return FindTeleportPositionKurt

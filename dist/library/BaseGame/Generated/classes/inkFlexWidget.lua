@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkFlexWidget: inkCompoundWidget
 inkFlexWidget = {}
+
 
 ---@param fields? inkFlexWidget
 ---@return inkFlexWidget

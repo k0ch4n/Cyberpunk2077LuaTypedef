@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AimingStateDecisions: UpperBodyTransition
 ---@field callbackIDs redCallbackObject[]
 ---@field executionOwner gameObject
@@ -27,6 +28,7 @@
 ---@field beingCreated Bool
 ---@field mouseZoomLevel Float
 AimingStateDecisions = {}
+
 
 ---@param fields? AimingStateDecisions
 ---@return AimingStateDecisions

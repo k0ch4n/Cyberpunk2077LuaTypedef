@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsCHotSpotLayerDefinition: gameinteractionsNodeDefinition
 ---@field enabled Bool
 ---@field tag CName
@@ -8,6 +9,7 @@
 ---@field areaFilterDefinition gameinteractionsCHotSpotAreaFilterDefinition
 ---@field gameLogicFilterDefinition gameinteractionsCHotSpotGameLogicFilterDefinition
 gameinteractionsCHotSpotLayerDefinition = {}
+
 
 ---@param fields? gameinteractionsCHotSpotLayerDefinition
 ---@return gameinteractionsCHotSpotLayerDefinition

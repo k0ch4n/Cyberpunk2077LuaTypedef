@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VisionContextDecisions: InputContextTransitionDecisions
 ---@field vehicleCallbackID redCallbackObject
 ---@field focusCallbackID redCallbackObject
@@ -7,6 +8,7 @@
 ---@field isFocusing Bool
 ---@field visionHoldPressed Bool
 VisionContextDecisions = {}
+
 
 ---@param fields? VisionContextDecisions
 ---@return VisionContextDecisions

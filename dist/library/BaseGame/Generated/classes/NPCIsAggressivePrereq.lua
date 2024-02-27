@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NPCIsAggressivePrereq: gameIScriptablePrereq
 ---@field invert Bool
 NPCIsAggressivePrereq = {}
+
 
 ---@param fields? NPCIsAggressivePrereq
 ---@return NPCIsAggressivePrereq

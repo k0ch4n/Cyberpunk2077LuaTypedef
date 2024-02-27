@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questTestNodeDefinition: questDisableableNodeDefinition
 questTestNodeDefinition = {}
+
 
 ---@param fields? questTestNodeDefinition
 ---@return questTestNodeDefinition

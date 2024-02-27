@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DoorViabilityInterpreter: IScriptable
 DoorViabilityInterpreter = {}
+
 
 ---@param fields? DoorViabilityInterpreter
 ---@return DoorViabilityInterpreter

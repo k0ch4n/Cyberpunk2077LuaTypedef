@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NotifyNearbyAboutCombatEvent: redEvent
 NotifyNearbyAboutCombatEvent = {}
+
 
 ---@param fields? NotifyNearbyAboutCombatEvent
 ---@return NotifyNearbyAboutCombatEvent

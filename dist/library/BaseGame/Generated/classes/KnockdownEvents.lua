@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class KnockdownEvents: StatusEffectEvents
 ---@field cachedPlayerVelocity Vector4
 ---@field secondaryKnockdownDir Vector4
@@ -10,6 +11,7 @@
 ---@field delayDamageFrame Bool
 ---@field bikeKnockdown Bool
 KnockdownEvents = {}
+
 
 ---@param fields? KnockdownEvents
 ---@return KnockdownEvents

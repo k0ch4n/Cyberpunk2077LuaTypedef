@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ClearEquipmentRequest: gamePlayerScriptableSystemRequest
 ClearEquipmentRequest = {}
+
 
 ---@param fields? ClearEquipmentRequest
 ---@return ClearEquipmentRequest

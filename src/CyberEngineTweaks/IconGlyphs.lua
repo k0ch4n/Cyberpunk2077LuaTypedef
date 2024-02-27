@@ -1,5 +1,6 @@
 ---@meta
 
+
 IconGlyphs = {
     AbTesting = "\u{f01c9}",                              -- U+F01C9 ab-testing, tags: Developer / Languages
     Abacus = "\u{f16e0}",                                 -- U+F16E0 abacus, tags: Math

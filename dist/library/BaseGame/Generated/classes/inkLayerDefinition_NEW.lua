@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkLayerDefinition_NEW
 ---@field name CName
 ---@field layerType inkELayerType
@@ -12,6 +13,7 @@
 ---@field useGameInput Bool
 ---@field inputContext CName
 inkLayerDefinition_NEW = {}
+
 
 ---@param fields? inkLayerDefinition_NEW
 ---@return inkLayerDefinition_NEW

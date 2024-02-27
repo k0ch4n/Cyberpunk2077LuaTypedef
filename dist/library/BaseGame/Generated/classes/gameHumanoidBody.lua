@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameHumanoidBody: entIComponent
 ---@field basePersonalSpace Float
 ---@field baseHeight Float
@@ -7,6 +8,7 @@
 ---@field stanceAnimFeatureName CName
 ---@field aimAnimFeatureName CName
 gameHumanoidBody = {}
+
 
 ---@param fields? gameHumanoidBody
 ---@return gameHumanoidBody

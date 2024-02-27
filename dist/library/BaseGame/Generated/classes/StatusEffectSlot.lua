@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StatusEffectSlot: RadialSlot
 StatusEffectSlot = {}
+
 
 ---@param fields? StatusEffectSlot
 ---@return StatusEffectSlot

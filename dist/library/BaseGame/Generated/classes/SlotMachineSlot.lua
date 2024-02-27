@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SlotMachineSlot: inkWidgetLogicController
 ---@field winningRowIndex Int32
 ---@field imagesUpper inkImageWidgetReference[]
 ---@field imagesLower inkImageWidgetReference[]
 ---@field imagePresets CName[]
 SlotMachineSlot = {}
+
 
 ---@param fields? SlotMachineSlot
 ---@return SlotMachineSlot

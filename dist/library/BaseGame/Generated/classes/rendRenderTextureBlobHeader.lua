@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendRenderTextureBlobHeader
 ---@field version Uint32
 ---@field sizeInfo rendRenderTextureBlobSizeInfo
@@ -8,6 +9,7 @@
 ---@field histogramData rendHistogramBias[]
 ---@field flags Uint32
 rendRenderTextureBlobHeader = {}
+
 
 ---@param fields? rendRenderTextureBlobHeader
 ---@return rendRenderTextureBlobHeader

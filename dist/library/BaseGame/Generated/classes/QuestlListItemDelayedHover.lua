@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestlListItemDelayedHover: redEvent
 QuestlListItemDelayedHover = {}
+
 
 ---@param fields? QuestlListItemDelayedHover
 ---@return QuestlListItemDelayedHover

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SurveillanceSystemController: DeviceSystemBaseController
 SurveillanceSystemController = {}
+
 
 ---@param fields? SurveillanceSystemController
 ---@return SurveillanceSystemController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameJournalBriefingPaperDollSection: gameJournalBriefingBaseSection
 gameJournalBriefingPaperDollSection = {}
+
 
 ---@param fields? gameJournalBriefingPaperDollSection
 ---@return gameJournalBriefingPaperDollSection

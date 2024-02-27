@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataShooterLevel_Record: gamedataTweakDBRecord
 gamedataShooterLevel_Record = {}
+
 
 ---@param fields? gamedataShooterLevel_Record
 ---@return gamedataShooterLevel_Record

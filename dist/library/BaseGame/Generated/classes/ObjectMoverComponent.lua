@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ObjectMoverComponent: gameScriptableComponent
 ObjectMoverComponent = {}
+
 
 ---@param fields? ObjectMoverComponent
 ---@return ObjectMoverComponent

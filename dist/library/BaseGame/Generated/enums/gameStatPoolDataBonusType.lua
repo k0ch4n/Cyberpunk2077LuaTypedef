@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStatPoolDataBonusType: Enum
 ---@field None Enum 0
 ---@field Persistent Enum 1

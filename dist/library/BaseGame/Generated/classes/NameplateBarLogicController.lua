@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NameplateBarLogicController: ProgressBarSimpleWidgetLogicController
 ---@field damagePreview DamagePreviewController
 NameplateBarLogicController = {}
+
 
 ---@param fields? NameplateBarLogicController
 ---@return NameplateBarLogicController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePlayerSpawnParams
 ---@field isSpectator Bool
 ---@field spawnPoint Transform
@@ -9,6 +10,7 @@
 ---@field spawnTags redTagList
 ---@field nickname String
 gamePlayerSpawnParams = {}
+
 
 ---@param fields? gamePlayerSpawnParams
 ---@return gamePlayerSpawnParams

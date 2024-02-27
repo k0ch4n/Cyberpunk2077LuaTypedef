@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameActionAnimationState: gameActionReplicatedState
 ---@field animFeatureName CName
 ---@field animFeature animAnimFeature_AIAction
@@ -10,6 +11,7 @@
 ---@field targetObject gameObject
 ---@field sendLoopEvent Bool
 gameActionAnimationState = {}
+
 
 ---@param fields? gameActionAnimationState
 ---@return gameActionAnimationState

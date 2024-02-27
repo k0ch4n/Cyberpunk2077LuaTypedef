@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrafringMaterialItemHighlight: Enum
 ---@field None Enum 0
 ---@field Hover Enum 1

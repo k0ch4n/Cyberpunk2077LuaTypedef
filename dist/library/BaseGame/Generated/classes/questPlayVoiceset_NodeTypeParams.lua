@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questPlayVoiceset_NodeTypeParams
 ---@field puppetRef gameEntityReference
 ---@field isPlayer Bool
@@ -12,6 +13,7 @@
 ---@field overrideVisualStyle Bool
 ---@field overridingVisualStyle scnDialogLineVisualStyle
 questPlayVoiceset_NodeTypeParams = {}
+
 
 ---@param fields? questPlayVoiceset_NodeTypeParams
 ---@return questPlayVoiceset_NodeTypeParams

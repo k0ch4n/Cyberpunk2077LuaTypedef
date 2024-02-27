@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ItemsDeviceOperation: DeviceOperationBase
 ---@field items SInventoryOperationData[]
 ItemsDeviceOperation = {}
+
 
 ---@param fields? ItemsDeviceOperation
 ---@return ItemsDeviceOperation

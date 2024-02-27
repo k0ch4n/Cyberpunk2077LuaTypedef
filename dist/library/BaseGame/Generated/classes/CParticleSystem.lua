@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CParticleSystem: resStreamedResource
 ---@field visibleThroughWalls Bool
 ---@field prewarmingTime Float
@@ -11,6 +12,7 @@
 ---@field renderingPlane ERenderingPlane
 ---@field particleDamage ParticleDamage
 CParticleSystem = {}
+
 
 ---@param fields? CParticleSystem
 ---@return CParticleSystem

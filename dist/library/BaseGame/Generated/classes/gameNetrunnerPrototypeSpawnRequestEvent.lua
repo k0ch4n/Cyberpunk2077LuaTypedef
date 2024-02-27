@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameNetrunnerPrototypeSpawnRequestEvent: redEvent
 ---@field whatToSpawn CName
 ---@field whereToSpawn Vector3
 ---@field scale Vector3
 ---@field colorIndex Uint8
 gameNetrunnerPrototypeSpawnRequestEvent = {}
+
 
 ---@param fields? gameNetrunnerPrototypeSpawnRequestEvent
 ---@return gameNetrunnerPrototypeSpawnRequestEvent

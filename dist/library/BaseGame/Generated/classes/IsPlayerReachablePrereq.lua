@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class IsPlayerReachablePrereq: gameIScriptablePrereq
 ---@field invert Bool
 ---@field checkRMA Bool
@@ -9,6 +10,7 @@
 ---@field horTolerance Float
 ---@field verTolerance Float
 IsPlayerReachablePrereq = {}
+
 
 ---@param fields? IsPlayerReachablePrereq
 ---@return IsPlayerReachablePrereq

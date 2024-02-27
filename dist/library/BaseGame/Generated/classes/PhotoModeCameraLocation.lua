@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PhotoModeCameraLocation: inkWidgetLogicController
 ---@field textWidget inkWidgetReference
 PhotoModeCameraLocation = {}
+
 
 ---@param fields? PhotoModeCameraLocation
 ---@return PhotoModeCameraLocation

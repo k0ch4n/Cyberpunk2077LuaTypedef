@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SimpleSprintHarassCondition: AIbehaviorconditionScript
 ---@field initialized Bool
 ---@field result Bool
 SimpleSprintHarassCondition = {}
+
 
 ---@param fields? SimpleSprintHarassCondition
 ---@return SimpleSprintHarassCondition

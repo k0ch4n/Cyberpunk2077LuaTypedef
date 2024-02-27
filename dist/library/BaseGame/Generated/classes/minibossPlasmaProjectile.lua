@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class minibossPlasmaProjectile: BaseProjectile
 ---@field countTime Float
 ---@field startVelocity Float
@@ -18,6 +19,7 @@
 ---@field owner ScriptedPuppet
 ---@field target gameObject
 minibossPlasmaProjectile = {}
+
 
 ---@param fields? minibossPlasmaProjectile
 ---@return minibossPlasmaProjectile

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class KatanaLookAtEvents: LookAtPresetMeleeBaseEvents
 KatanaLookAtEvents = {}
+
 
 ---@param fields? KatanaLookAtEvents
 ---@return KatanaLookAtEvents

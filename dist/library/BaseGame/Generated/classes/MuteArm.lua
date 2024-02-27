@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MuteArm: gameweaponObject
 ---@field gameEffectRef gameEffectRef
 ---@field gameEffectInstance gameEffectInstance
 MuteArm = {}
+
 
 ---@param fields? MuteArm
 ---@return MuteArm

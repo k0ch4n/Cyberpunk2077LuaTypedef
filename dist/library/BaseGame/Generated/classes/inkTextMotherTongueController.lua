@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class inkTextMotherTongueController: inkWidgetLogicController
 ---@field preTranslatedTextWidget inkTextWidgetReference
 ---@field postTranslatedTextWidget inkTextWidgetReference
 ---@field nativeTextWidget inkRichTextBoxWidgetReference
 ---@field translatedTextWidget inkTextWidgetReference
 inkTextMotherTongueController = {}
+
 
 ---@param fields? inkTextMotherTongueController
 ---@return inkTextMotherTongueController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BroadcastEvent: redEvent
 ---@field broadcastType EBroadcasteingType
 ---@field shouldOverride Bool
@@ -12,6 +13,7 @@
 ---@field delay Float
 ---@field purelyDirect Bool
 BroadcastEvent = {}
+
 
 ---@param fields? BroadcastEvent
 ---@return BroadcastEvent

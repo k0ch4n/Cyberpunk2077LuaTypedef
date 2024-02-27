@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CombatRestrictMovementAreaAllDeadCondition: AICombatGuardAreaScriptCondition
 CombatRestrictMovementAreaAllDeadCondition = {}
+
 
 ---@param fields? CombatRestrictMovementAreaAllDeadCondition
 ---@return CombatRestrictMovementAreaAllDeadCondition

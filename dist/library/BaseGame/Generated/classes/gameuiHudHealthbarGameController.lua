@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiHudHealthbarGameController: gameuiHUDGameController
 ---@field bbPlayerStats gameIBlackboard
 ---@field bbPlayerEventId redCallbackObject
@@ -90,6 +91,7 @@
 ---@field healthMemoryJumpAnim inkanimProxy
 ---@field healthMemoryFlashAnim inkanimProxy
 gameuiHudHealthbarGameController = {}
+
 
 ---@param fields? gameuiHudHealthbarGameController
 ---@return gameuiHudHealthbarGameController

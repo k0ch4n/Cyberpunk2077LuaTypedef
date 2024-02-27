@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePuppetReplicatedState: netIEntityState
 ---@field initialOrientation EulerAngles
 ---@field initialLocation Vector3

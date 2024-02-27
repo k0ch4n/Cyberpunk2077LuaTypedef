@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitIsHumanPrereqState: GenericHitPrereqState
 HitIsHumanPrereqState = {}
+
 
 ---@param fields? HitIsHumanPrereqState
 ---@return HitIsHumanPrereqState

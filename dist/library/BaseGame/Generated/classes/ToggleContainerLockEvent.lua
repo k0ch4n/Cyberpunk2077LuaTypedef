@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ToggleContainerLockEvent: redEvent
 ---@field isLocked Bool
 ToggleContainerLockEvent = {}
+
 
 ---@param fields? ToggleContainerLockEvent
 ---@return ToggleContainerLockEvent

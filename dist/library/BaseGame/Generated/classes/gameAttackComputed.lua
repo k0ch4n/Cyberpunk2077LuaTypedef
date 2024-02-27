@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAttackComputed: IScriptable
 gameAttackComputed = {}
+
 
 ---@param fields? gameAttackComputed
 ---@return gameAttackComputed

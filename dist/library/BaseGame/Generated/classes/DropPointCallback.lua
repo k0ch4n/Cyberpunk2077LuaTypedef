@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DropPointCallback: gameInventoryScriptCallback
 ---@field dps DropPointSystem
 DropPointCallback = {}
+
 
 ---@param fields? DropPointCallback
 ---@return DropPointCallback

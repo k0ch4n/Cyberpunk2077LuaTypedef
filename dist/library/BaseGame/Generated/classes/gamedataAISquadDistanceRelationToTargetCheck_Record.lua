@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISquadDistanceRelationToTargetCheck_Record: gamedataAITicketCheck_Record
 gamedataAISquadDistanceRelationToTargetCheck_Record = {}
+
 
 ---@param fields? gamedataAISquadDistanceRelationToTargetCheck_Record
 ---@return gamedataAISquadDistanceRelationToTargetCheck_Record

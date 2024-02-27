@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalInternetSite: gameJournalFileEntry
 ---@field shortName LocalizationString
 ---@field mainPagePath gameJournalPath
@@ -7,6 +8,7 @@
 ---@field textureAtlas inkTextureAtlas
 ---@field texturePart CName
 gameJournalInternetSite = {}
+
 
 ---@param fields? gameJournalInternetSite
 ---@return gameJournalInternetSite

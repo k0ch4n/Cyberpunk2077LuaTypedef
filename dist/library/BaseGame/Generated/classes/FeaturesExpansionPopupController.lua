@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FeaturesExpansionPopupController: inkWidgetLogicController
 ---@field hoverAnimationName CName
 ---@field hoverArrow inkImageWidgetReference
@@ -21,6 +22,7 @@
 ---@field hoverAnimationOptions inkanimPlaybackOptions
 ---@field isEp1Released Bool
 FeaturesExpansionPopupController = {}
+
 
 ---@param fields? FeaturesExpansionPopupController
 ---@return FeaturesExpansionPopupController

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class VendorItemVirtualController: inkVirtualCompoundItemController
 ---@field data VendorInventoryItemData
 ---@field newData VendorUIInventoryItemData
 ---@field itemViewController InventoryItemDisplayController
 ---@field isSpawnInProgress Bool
 VendorItemVirtualController = {}
+
 
 ---@param fields? VendorItemVirtualController
 ---@return VendorItemVirtualController

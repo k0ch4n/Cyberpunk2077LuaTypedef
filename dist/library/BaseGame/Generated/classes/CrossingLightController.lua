@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CrossingLightController: TrafficLightController
 CrossingLightController = {}
+
 
 ---@param fields? CrossingLightController
 ---@return CrossingLightController

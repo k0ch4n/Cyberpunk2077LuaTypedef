@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioPhysicalMaterialSettings: audioAudioMetadata
 ---@field softImpact CName
 ---@field solidImpact CName
@@ -20,6 +21,7 @@
 ---@field bulletImpactNpcShotgun CName
 ---@field bulletImpactNpcRail CName
 audioPhysicalMaterialSettings = {}
+
 
 ---@param fields? audioPhysicalMaterialSettings
 ---@return audioPhysicalMaterialSettings

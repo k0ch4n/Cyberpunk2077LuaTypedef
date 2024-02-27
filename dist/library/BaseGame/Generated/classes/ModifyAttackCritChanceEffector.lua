@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ModifyAttackCritChanceEffector: ModifyAttackEffector
 ---@field applicationChanceMods gamedataStatModifier_Record[]
 ModifyAttackCritChanceEffector = {}
+
 
 ---@param fields? ModifyAttackCritChanceEffector
 ---@return ModifyAttackCritChanceEffector

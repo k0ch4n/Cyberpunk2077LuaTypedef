@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuestSpotTargetReference: ActionEntityReference
 ---@field ForcedTarget entEntityID
 QuestSpotTargetReference = {}
+
 
 ---@param fields? QuestSpotTargetReference
 ---@return QuestSpotTargetReference

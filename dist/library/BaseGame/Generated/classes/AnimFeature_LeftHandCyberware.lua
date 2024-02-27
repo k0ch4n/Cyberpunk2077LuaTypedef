@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_LeftHandCyberware: animAnimFeature
 ---@field actionDuration Float
 ---@field state Int32
@@ -11,6 +12,7 @@
 ---@field chargeNormalized Float
 ---@field hasCWPerk Bool
 AnimFeature_LeftHandCyberware = {}
+
 
 ---@param fields? AnimFeature_LeftHandCyberware
 ---@return AnimFeature_LeftHandCyberware

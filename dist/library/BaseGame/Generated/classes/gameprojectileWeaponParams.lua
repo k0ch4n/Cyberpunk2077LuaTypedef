@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameprojectileWeaponParams
 ---@field targetPosition Vector4
 ---@field smartGunSpreadOnHitPlane Vector3
@@ -14,6 +15,7 @@
 ---@field ricochetData gameRicochetData
 ---@field range Float
 gameprojectileWeaponParams = {}
+
 
 ---@param fields? gameprojectileWeaponParams
 ---@return gameprojectileWeaponParams

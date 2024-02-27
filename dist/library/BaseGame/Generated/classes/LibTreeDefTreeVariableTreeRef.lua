@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class LibTreeDefTreeVariableTreeRef: LibTreeDefTreeVariable
 ---@field exportAsProperty Bool
 ---@field defaultValue LibTreeCTreeReference
 LibTreeDefTreeVariableTreeRef = {}
+
 
 ---@param fields? LibTreeDefTreeVariableTreeRef
 ---@return LibTreeDefTreeVariableTreeRef

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameRegisterNewAbilityCooldownRequest
 ---@field owner entEntity
 ---@field ownerItemId gameItemID
@@ -10,6 +11,7 @@
 ---@field modifiable Bool
 ---@field abilityType gamedataStatType
 gameRegisterNewAbilityCooldownRequest = {}
+
 
 ---@param fields? gameRegisterNewAbilityCooldownRequest
 ---@return gameRegisterNewAbilityCooldownRequest

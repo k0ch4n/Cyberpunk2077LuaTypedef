@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SlideLowGravityEvents: CrouchLowGravityEvents
 SlideLowGravityEvents = {}
+
 
 ---@param fields? SlideLowGravityEvents
 ---@return SlideLowGravityEvents

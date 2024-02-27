@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinfluenceTestLineResult: Enum
 ---@field Fail Enum 0
 ---@field Success Enum 1

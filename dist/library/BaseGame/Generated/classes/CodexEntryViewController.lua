@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CodexEntryViewController: inkWidgetLogicController
 ---@field titleText inkTextWidgetReference
 ---@field descriptionText inkTextWidgetReference
@@ -13,6 +14,7 @@
 ---@field data GenericCodexEntryData
 ---@field scroll inkScrollController
 CodexEntryViewController = {}
+
 
 ---@param fields? CodexEntryViewController
 ---@return CodexEntryViewController

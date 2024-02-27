@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class BunkerMapGameController: StatusScreenGameController
 ---@field mapPosition01 inkWidgetReference
 ---@field mapPosition02 inkWidgetReference
 ---@field mapPosition03 inkWidgetReference
 BunkerMapGameController = {}
+
 
 ---@param fields? BunkerMapGameController
 ---@return BunkerMapGameController

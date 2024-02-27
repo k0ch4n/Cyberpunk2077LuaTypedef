@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStatPoolModifierProperty: Enum
 ---@field RangeBegin Enum 0
 ---@field RangeEnd Enum 1

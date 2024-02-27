@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class KerenzikovDecisions: TimeDilationTransitions
 ---@field statListener DefaultTransitionStatListener
 ---@field activationGracePeriod Float
 KerenzikovDecisions = {}
+
 
 ---@param fields? KerenzikovDecisions
 ---@return KerenzikovDecisions

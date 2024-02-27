@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerSkillCheckItemLogicController: inkWidgetLogicController
 ---@field NameRef inkTextWidgetReference
 ---@field ConditionDataListRef inkCompoundWidgetReference
@@ -8,6 +9,7 @@
 ---@field PassedStateName CName
 ---@field FailedStateName CName
 ScannerSkillCheckItemLogicController = {}
+
 
 ---@param fields? ScannerSkillCheckItemLogicController
 ---@return ScannerSkillCheckItemLogicController

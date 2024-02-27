@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class workWorkspotDebugMode: Enum
 ---@field VisualLogToogle Enum 2
 ---@field VisualLogOn Enum 4

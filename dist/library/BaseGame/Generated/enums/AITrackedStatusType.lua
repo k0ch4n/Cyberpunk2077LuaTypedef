@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AITrackedStatusType: Enum
 ---@field Unknown Enum 0
 ---@field Friendly Enum 1

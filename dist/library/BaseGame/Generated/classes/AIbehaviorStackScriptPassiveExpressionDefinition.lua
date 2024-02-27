@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorStackScriptPassiveExpressionDefinition: AIbehaviorPassiveExpressionDefinition
 AIbehaviorStackScriptPassiveExpressionDefinition = {}
+
 
 ---@param fields? AIbehaviorStackScriptPassiveExpressionDefinition
 ---@return AIbehaviorStackScriptPassiveExpressionDefinition

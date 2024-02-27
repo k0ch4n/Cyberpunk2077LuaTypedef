@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrosshairGameControllerPersistentDot: gameuiHUDGameController
 ---@field settings userSettingsUserSettings
 ---@field settingsListener PersistentDotSettingsListener
@@ -7,6 +8,7 @@
 ---@field isAiming Bool
 ---@field psmUpperBodyStateCallback redCallbackObject
 CrosshairGameControllerPersistentDot = {}
+
 
 ---@param fields? CrosshairGameControllerPersistentDot
 ---@return CrosshairGameControllerPersistentDot

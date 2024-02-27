@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DriveEvents: VehicleEventsTransition
 ---@field inCombatBlockingForbiddenZone Bool
 DriveEvents = {}
+
 
 ---@param fields? DriveEvents
 ---@return DriveEvents

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OpenInteriorManager: ActionBool
 OpenInteriorManager = {}
+
 
 ---@param fields? OpenInteriorManager
 ---@return OpenInteriorManager

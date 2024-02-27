@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiHudSafezonesEditorGameController: gameuiMenuGameController
 ---@field rootWidget inkCompoundWidgetReference
 ---@field flexWidget inkCompoundWidgetReference
@@ -7,6 +8,7 @@
 ---@field c_adjustment_speed Float
 ---@field c_stick_dead_zone Float
 gameuiHudSafezonesEditorGameController = {}
+
 
 ---@param fields? gameuiHudSafezonesEditorGameController
 ---@return gameuiHudSafezonesEditorGameController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StimDeviceOperation: DeviceOperationBase
 ---@field stims SStimOperationData[]
 StimDeviceOperation = {}
+
 
 ---@param fields? StimDeviceOperation
 ---@return StimDeviceOperation

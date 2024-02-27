@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkScrollAreaWidget: inkCompoundWidget
 ---@field horizontalScrolling Float
 ---@field verticalScrolling Float
@@ -7,6 +8,7 @@
 ---@field fitToContentDirection inkFitToContentDirection
 ---@field useInternalMask Bool
 inkScrollAreaWidget = {}
+
 
 ---@param fields? inkScrollAreaWidget
 ---@return inkScrollAreaWidget

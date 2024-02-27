@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleePublicSafeDecisions: MeleeTransition
 MeleePublicSafeDecisions = {}
+
 
 ---@param fields? MeleePublicSafeDecisions
 ---@return MeleePublicSafeDecisions

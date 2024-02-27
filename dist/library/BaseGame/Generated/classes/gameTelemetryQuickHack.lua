@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTelemetryQuickHack
 ---@field actionName CName
 ---@field titleLocKey String
@@ -7,6 +8,7 @@
 ---@field quickHackRecordID TweakDBID
 ---@field quality gamedataQuality
 gameTelemetryQuickHack = {}
+
 
 ---@param fields? gameTelemetryQuickHack
 ---@return gameTelemetryQuickHack

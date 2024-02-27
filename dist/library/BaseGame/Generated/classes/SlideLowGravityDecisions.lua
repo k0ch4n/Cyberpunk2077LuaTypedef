@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SlideLowGravityDecisions: CrouchLowGravityDecisions
 SlideLowGravityDecisions = {}
+
 
 ---@param fields? SlideLowGravityDecisions
 ---@return SlideLowGravityDecisions

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameIBlackboard: IScriptable
 gameIBlackboard = {}
+
 
 ---@param definition gamebbScriptDefinition
 ---@return gameIBlackboard

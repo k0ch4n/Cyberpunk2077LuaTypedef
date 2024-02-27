@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animSyncMethodByProgress: animISyncMethod
 animSyncMethodByProgress = {}
+
 
 ---@param fields? animSyncMethodByProgress
 ---@return animSyncMethodByProgress

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HitShapeUserDataBase: gameHitShapeUserData
 ---@field hitShapeTag CName
 ---@field hitShapeType EHitShapeType
@@ -10,6 +11,7 @@
 ---@field isInternalWeakspot Bool
 ---@field hitShapeDamageMod Float
 HitShapeUserDataBase = {}
+
 
 ---@param fields? HitShapeUserDataBase
 ---@return HitShapeUserDataBase

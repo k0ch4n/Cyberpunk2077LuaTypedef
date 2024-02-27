@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAttackType: Enum
 ---@field ChargedWhipAttack Enum 0
 ---@field Direct Enum 1

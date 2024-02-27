@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectSpawnerSaveSystem: gameIEffectSpawnerSaveSystem
 gameEffectSpawnerSaveSystem = {}
+
 
 ---@param fields? gameEffectSpawnerSaveSystem
 ---@return gameEffectSpawnerSaveSystem

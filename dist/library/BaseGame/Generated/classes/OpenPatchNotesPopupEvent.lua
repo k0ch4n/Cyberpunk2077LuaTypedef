@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OpenPatchNotesPopupEvent: redEvent
 OpenPatchNotesPopupEvent = {}
+
 
 ---@param fields? OpenPatchNotesPopupEvent
 ---@return OpenPatchNotesPopupEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HotkeysWidgetController: gameuiNewPhoneRelatedHUDGameController
 ---@field phoneSlot inkCompoundWidgetReference
 ---@field carSlot inkCompoundWidgetReference
@@ -15,6 +16,7 @@
 ---@field timeBank inkWidget
 ---@field berserkEnabledBBId redCallbackObject
 HotkeysWidgetController = {}
+
 
 ---@param fields? HotkeysWidgetController
 ---@return HotkeysWidgetController

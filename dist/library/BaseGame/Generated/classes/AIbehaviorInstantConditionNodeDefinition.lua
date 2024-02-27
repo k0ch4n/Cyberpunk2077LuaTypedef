@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorInstantConditionNodeDefinition: AIbehaviorConditionNodeDefinition
 AIbehaviorInstantConditionNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorInstantConditionNodeDefinition
 ---@return AIbehaviorInstantConditionNodeDefinition

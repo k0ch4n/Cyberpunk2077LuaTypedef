@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DriverCombatFirearmsDecisions: DriverCombatDecisions
 DriverCombatFirearmsDecisions = {}
+
 
 ---@param fields? DriverCombatFirearmsDecisions
 ---@return DriverCombatFirearmsDecisions

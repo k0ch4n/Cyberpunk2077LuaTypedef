@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EMeleeAttacks: Enum
 ---@field Invalid Enum 0
 ---@field LightAtk_Left Enum 1

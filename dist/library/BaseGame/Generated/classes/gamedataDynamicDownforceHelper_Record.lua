@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataDynamicDownforceHelper_Record: gamedataDriveHelper_Record
 gamedataDynamicDownforceHelper_Record = {}
+
 
 ---@param fields? gamedataDynamicDownforceHelper_Record
 ---@return gamedataDynamicDownforceHelper_Record

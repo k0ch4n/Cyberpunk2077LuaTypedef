@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioMeleeWeaponSettings: audioAudioMetadata
 ---@field quickAttackSettings audioMeleeAttackSettings
 ---@field strongAttackSettings audioMeleeAttackSettings

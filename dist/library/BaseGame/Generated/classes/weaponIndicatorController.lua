@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class weaponIndicatorController: gameuiHUDGameController
 ---@field triggerModeControllers CName[]
 ---@field ammoLogicControllers CName[]
@@ -17,6 +18,7 @@
 ---@field ActiveWeapon gameSlotWeaponData
 ---@field InventoryManager InventoryDataManagerV2
 weaponIndicatorController = {}
+
 
 ---@param fields? weaponIndicatorController
 ---@return weaponIndicatorController

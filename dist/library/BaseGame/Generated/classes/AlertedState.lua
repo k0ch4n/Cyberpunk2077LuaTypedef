@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AlertedState: ChangeHighLevelStateAbstract
 AlertedState = {}
+
 
 ---@param fields? AlertedState
 ---@return AlertedState

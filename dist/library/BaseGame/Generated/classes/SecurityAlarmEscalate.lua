@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SecurityAlarmEscalate: ActionBool
 SecurityAlarmEscalate = {}
+
 
 ---@param fields? SecurityAlarmEscalate
 ---@return SecurityAlarmEscalate

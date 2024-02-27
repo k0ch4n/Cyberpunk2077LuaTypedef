@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPassiveProficiencyBonusUIData_Record: gamedataTweakDBRecord
 gamedataPassiveProficiencyBonusUIData_Record = {}
+
 
 ---@param fields? gamedataPassiveProficiencyBonusUIData_Record
 ---@return gamedataPassiveProficiencyBonusUIData_Record

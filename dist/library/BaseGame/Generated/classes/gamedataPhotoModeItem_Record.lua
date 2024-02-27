@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPhotoModeItem_Record: gamedataTweakDBRecord
 gamedataPhotoModeItem_Record = {}
+
 
 ---@param fields? gamedataPhotoModeItem_Record
 ---@return gamedataPhotoModeItem_Record

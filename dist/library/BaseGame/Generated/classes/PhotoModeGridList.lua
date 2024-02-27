@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhotoModeGridList: inkRadioGroupController
 ---@field ScrollArea inkScrollAreaWidgetReference
 ---@field ContentRoot inkWidgetReference
@@ -21,6 +22,7 @@
 ---@field scrollRow Int32
 ---@field isVisibleOnscreen Bool
 PhotoModeGridList = {}
+
 
 ---@param fields? PhotoModeGridList
 ---@return PhotoModeGridList

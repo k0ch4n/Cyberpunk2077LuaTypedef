@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class KnockdownReactionTask: AIHitReactionTask
 ---@field tweakDBPackage TweakDBID
 KnockdownReactionTask = {}
+
 
 ---@param fields? KnockdownReactionTask
 ---@return KnockdownReactionTask

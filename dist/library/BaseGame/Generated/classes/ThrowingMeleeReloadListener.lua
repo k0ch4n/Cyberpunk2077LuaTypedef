@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ThrowingMeleeReloadListener: gameScriptStatPoolsListener
 ---@field melee MeleeProjectile
 ThrowingMeleeReloadListener = {}
+
 
 ---@param fields? ThrowingMeleeReloadListener
 ---@return ThrowingMeleeReloadListener

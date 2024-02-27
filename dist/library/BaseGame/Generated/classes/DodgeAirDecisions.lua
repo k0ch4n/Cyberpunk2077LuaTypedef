@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DodgeAirDecisions: LocomotionAirDecisions
 DodgeAirDecisions = {}
+
 
 ---@param fields? DodgeAirDecisions
 ---@return DodgeAirDecisions

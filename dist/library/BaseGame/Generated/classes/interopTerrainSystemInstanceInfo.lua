@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class interopTerrainSystemInstanceInfo
 ---@field cellSize Uint32
 ---@field cellRes Uint32
@@ -14,6 +15,7 @@
 ---@field gridHeight Uint32
 ---@field numUsedLODCells Uint32[]
 interopTerrainSystemInstanceInfo = {}
+
 
 ---@param fields? interopTerrainSystemInstanceInfo
 ---@return interopTerrainSystemInstanceInfo

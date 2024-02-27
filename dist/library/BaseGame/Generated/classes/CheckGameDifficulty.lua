@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CheckGameDifficulty: AIbehaviorconditionScript
 ---@field comparedDifficulty gameDifficulty
 ---@field comparisonOperator EComparisonOperator
@@ -7,6 +8,7 @@
 ---@field currentDifficultyValue Int32
 ---@field comparedDifficultyValue Int32
 CheckGameDifficulty = {}
+
 
 ---@param fields? CheckGameDifficulty
 ---@return CheckGameDifficulty

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DebugMenuScenario_HubMenu: MenuScenario_BaseMenu
 ---@field defaultMenu CName
 ---@field cpoDefaultMenu CName
 DebugMenuScenario_HubMenu = {}
+
 
 ---@param fields? DebugMenuScenario_HubMenu
 ---@return DebugMenuScenario_HubMenu

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiUnlockableProgram
 ---@field name CName
 ---@field note CName
@@ -8,6 +9,7 @@
 ---@field iconTweakID TweakDBID
 ---@field hidden Bool
 gameuiUnlockableProgram = {}
+
 
 ---@param fields? gameuiUnlockableProgram
 ---@return gameuiUnlockableProgram

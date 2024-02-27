@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class BlacklistPlayer: redEvent
 ---@field blacklist Bool
 ---@field reason BlacklistReason
 ---@field forceRemoveAuthorization Bool
 BlacklistPlayer = {}
+
 
 ---@param fields? BlacklistPlayer
 ---@return BlacklistPlayer

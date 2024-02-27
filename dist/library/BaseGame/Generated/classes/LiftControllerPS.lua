@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LiftControllerPS: MasterControllerPS
 ---@field liftSetup LiftSetup
 ---@field activeFloor Int32
@@ -18,6 +19,7 @@
 ---@field isAllDoorsClosed Bool
 ---@field isAdsDisabled Bool
 LiftControllerPS = {}
+
 
 ---@param fields? LiftControllerPS
 ---@return LiftControllerPS

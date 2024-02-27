@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AimingContextEvents: InputContextTransitionEvents
 AimingContextEvents = {}
+
 
 ---@param fields? AimingContextEvents
 ---@return AimingContextEvents

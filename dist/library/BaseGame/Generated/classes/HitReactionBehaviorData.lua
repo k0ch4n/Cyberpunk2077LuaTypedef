@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class HitReactionBehaviorData: IScriptable
 ---@field hitReactionType animHitReactionType
 ---@field hitReactionActivationTimeStamp Float
 ---@field hitReactionDuration Float
 HitReactionBehaviorData = {}
+
 
 ---@param fields? HitReactionBehaviorData
 ---@return HitReactionBehaviorData

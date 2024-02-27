@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class InventoryRipperdocDisplayController: InventoryItemDisplayController
 ---@field ownedBackground inkWidgetReference
 ---@field ownedSign inkWidgetReference
 InventoryRipperdocDisplayController = {}
+
 
 ---@param fields? InventoryRipperdocDisplayController
 ---@return InventoryRipperdocDisplayController

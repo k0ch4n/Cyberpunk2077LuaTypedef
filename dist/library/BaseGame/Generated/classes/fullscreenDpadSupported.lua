@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class fullscreenDpadSupported: inkWidgetLogicController
 ---@field targetPath_DpadUp inkWidget
 ---@field targetPath_DpadDown inkWidget
 ---@field targetPath_DpadLeft inkWidget
 ---@field targetPath_DpadRight inkWidget
 fullscreenDpadSupported = {}
+
 
 ---@param fields? fullscreenDpadSupported
 ---@return fullscreenDpadSupported

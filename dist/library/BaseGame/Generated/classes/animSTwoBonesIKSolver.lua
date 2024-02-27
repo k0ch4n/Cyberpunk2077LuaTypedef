@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animSTwoBonesIKSolver
 animSTwoBonesIKSolver = {}
+
 
 ---@param fields? animSTwoBonesIKSolver
 ---@return animSTwoBonesIKSolver

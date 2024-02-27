@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class effectPointLightPlayData: effectPlacedTrackItemPlayData
 effectPointLightPlayData = {}
+
 
 ---@param fields? effectPointLightPlayData
 ---@return effectPointLightPlayData

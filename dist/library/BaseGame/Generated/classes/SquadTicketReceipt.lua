@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SquadTicketReceipt
 ---@field acknowledgedTimeStamp Float
 ---@field conditionDeactivationCheckTimeStamp Float
@@ -10,6 +11,7 @@
 ---@field numberOfOrders Int32
 ---@field cooldownID Int32
 SquadTicketReceipt = {}
+
 
 ---@param fields? SquadTicketReceipt
 ---@return SquadTicketReceipt

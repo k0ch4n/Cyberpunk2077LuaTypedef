@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsInFocusModePSMPrereq: PlayerStateMachinePrereq
 IsInFocusModePSMPrereq = {}
+
 
 ---@param fields? IsInFocusModePSMPrereq
 ---@return IsInFocusModePSMPrereq

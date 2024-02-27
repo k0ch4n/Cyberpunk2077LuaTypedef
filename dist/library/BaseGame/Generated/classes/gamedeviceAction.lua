@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gamedeviceAction: redEvent
 ---@field actionName CName
 ---@field clearanceLevel Int32
 ---@field localizedObjectName String
 ---@field paymentQuantity Int32
 gamedeviceAction = {}
+
 
 ---@param fields? gamedeviceAction
 ---@return gamedeviceAction

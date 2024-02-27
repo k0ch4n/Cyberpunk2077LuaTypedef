@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiICharacterCustomizationSystem: gameIGameSystem
 ---@field puppetPreviewGameController gameuiCharacterCreationPuppetPreviewGameController
 gameuiICharacterCustomizationSystem = {}
+
 
 ---@param option gameuiCharacterCustomizationOption
 ---@param newValue Uint32

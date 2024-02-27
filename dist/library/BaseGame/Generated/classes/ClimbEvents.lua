@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ClimbEvents: LocomotionGroundEvents
 ---@field ikHandEvents entIKTargetAddEvent[]
 ---@field shouldIkHands Bool
@@ -7,6 +8,7 @@
 ---@field climbedEntity entEntity
 ---@field playerCapsuleDimensions Vector4
 ClimbEvents = {}
+
 
 ---@param fields? ClimbEvents
 ---@return ClimbEvents

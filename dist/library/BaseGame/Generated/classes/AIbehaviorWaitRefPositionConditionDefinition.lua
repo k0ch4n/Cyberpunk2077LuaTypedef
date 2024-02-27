@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorWaitRefPositionConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorWaitRefPositionConditionDefinition = {}
+
 
 ---@param fields? AIbehaviorWaitRefPositionConditionDefinition
 ---@return AIbehaviorWaitRefPositionConditionDefinition

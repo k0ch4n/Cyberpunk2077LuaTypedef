@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionSetWaypointByTag_Record_Implementation: IScriptable
 AISubActionSetWaypointByTag_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionSetWaypointByTag_Record

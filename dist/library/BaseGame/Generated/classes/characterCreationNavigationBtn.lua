@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class characterCreationNavigationBtn: inkButtonController
 ---@field icon1 inkWidgetReference
 ---@field shouldPlaySoundOnHover Bool
 ---@field root inkWidget
 characterCreationNavigationBtn = {}
+
 
 ---@param fields? characterCreationNavigationBtn
 ---@return characterCreationNavigationBtn

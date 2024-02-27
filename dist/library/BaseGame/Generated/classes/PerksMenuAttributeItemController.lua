@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PerksMenuAttributeItemController: inkWidgetLogicController
 ---@field attributeDisplay inkWidgetReference
 ---@field connectionLine inkImageWidgetReference
@@ -15,6 +16,7 @@
 ---@field cool_in_proxy inkanimProxy
 ---@field cool_out_proxy inkanimProxy
 PerksMenuAttributeItemController = {}
+
 
 ---@param fields? PerksMenuAttributeItemController
 ---@return PerksMenuAttributeItemController

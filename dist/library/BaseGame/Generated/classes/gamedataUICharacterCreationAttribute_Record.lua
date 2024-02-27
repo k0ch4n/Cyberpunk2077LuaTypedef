@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataUICharacterCreationAttribute_Record: gamedataTweakDBRecord
 gamedataUICharacterCreationAttribute_Record = {}
+
 
 ---@param fields? gamedataUICharacterCreationAttribute_Record
 ---@return gamedataUICharacterCreationAttribute_Record

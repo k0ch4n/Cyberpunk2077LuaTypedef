@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryWeaponItemChooser: InventoryGenericItemChooser
 ---@field scopeRootContainer inkCompoundWidgetReference
 ---@field magazineRootContainer inkCompoundWidgetReference
@@ -13,6 +14,7 @@
 ---@field softwareModsPush inkWidgetReference
 ---@field softwareModsContainer inkWidgetReference
 InventoryWeaponItemChooser = {}
+
 
 ---@param fields? InventoryWeaponItemChooser
 ---@return InventoryWeaponItemChooser

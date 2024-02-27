@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ItemTooltipModuleController: inkWidgetLogicController
 ---@field lineWidget inkWidgetReference
 ---@field displayContext ItemDisplayContextData
 ---@field tooltipDisplayContext InventoryTooltipDisplayContext
 ---@field itemDisplayContext gameItemDisplayContext
 ItemTooltipModuleController = {}
+
 
 ---@param fields? ItemTooltipModuleController
 ---@return ItemTooltipModuleController

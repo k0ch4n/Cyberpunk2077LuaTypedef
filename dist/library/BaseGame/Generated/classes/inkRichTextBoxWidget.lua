@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkRichTextBoxWidget: inkTextWidget
 inkRichTextBoxWidget = {}
+
 
 ---@param fields? inkRichTextBoxWidget
 ---@return inkRichTextBoxWidget

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReloadDecisions: WeaponTransition
 ReloadDecisions = {}
+
 
 ---@param fields? ReloadDecisions
 ---@return ReloadDecisions

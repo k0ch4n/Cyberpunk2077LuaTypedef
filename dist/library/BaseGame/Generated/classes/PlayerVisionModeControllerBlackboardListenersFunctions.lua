@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerVisionModeControllerBlackboardListenersFunctions
 ---@field kerenzikov CName
 ---@field restrictedScene CName
@@ -11,6 +12,7 @@
 ---@field veryHardLanding CName
 ---@field isBriefingActive CName
 PlayerVisionModeControllerBlackboardListenersFunctions = {}
+
 
 ---@param fields? PlayerVisionModeControllerBlackboardListenersFunctions
 ---@return PlayerVisionModeControllerBlackboardListenersFunctions

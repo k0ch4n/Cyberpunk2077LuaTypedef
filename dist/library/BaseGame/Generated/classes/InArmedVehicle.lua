@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InArmedVehicle: AIbehaviorconditionScript
 InArmedVehicle = {}
+
 
 ---@param fields? InArmedVehicle
 ---@return InArmedVehicle

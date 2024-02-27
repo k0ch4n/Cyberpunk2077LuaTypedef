@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AISquadType: Enum
 ---@field Community Enum 0
 ---@field Combat Enum 4

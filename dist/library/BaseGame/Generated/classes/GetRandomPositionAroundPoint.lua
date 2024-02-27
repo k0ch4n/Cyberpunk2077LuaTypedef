@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GetRandomPositionAroundPoint: AIRandomTasks
 ---@field originPoint AIArgumentMapping
 ---@field distanceMin AIArgumentMapping
@@ -9,6 +10,7 @@
 ---@field outPositionArgument AIArgumentMapping
 ---@field finalPosition Vector4
 GetRandomPositionAroundPoint = {}
+
 
 ---@param fields? GetRandomPositionAroundPoint
 ---@return GetRandomPositionAroundPoint

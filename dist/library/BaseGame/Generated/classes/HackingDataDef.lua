@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HackingDataDef: gamebbScriptDefinition
 ---@field SpreadMap gamebbScriptID_Variant
 HackingDataDef = {}
+
 
 ---@param fields? HackingDataDef
 ---@return HackingDataDef

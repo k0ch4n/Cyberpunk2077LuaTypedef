@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CooldownStorage: IScriptable
 ---@field owner PSOwnerData
 ---@field initialized EBOOL
@@ -8,6 +9,7 @@
 ---@field currentID Uint32
 ---@field map CooldownPackageDelayIDs[]
 CooldownStorage = {}
+
 
 ---@param fields? CooldownStorage
 ---@return CooldownStorage

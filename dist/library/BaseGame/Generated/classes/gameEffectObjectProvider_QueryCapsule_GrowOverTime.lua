@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectObjectProvider_QueryCapsule_GrowOverTime: gameEffectObjectProvider_QueryCapsule
 gameEffectObjectProvider_QueryCapsule_GrowOverTime = {}
+
 
 ---@param fields? gameEffectObjectProvider_QueryCapsule_GrowOverTime
 ---@return gameEffectObjectProvider_QueryCapsule_GrowOverTime

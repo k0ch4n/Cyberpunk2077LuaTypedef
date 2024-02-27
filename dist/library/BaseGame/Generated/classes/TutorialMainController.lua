@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TutorialMainController: gameuiWidgetGameController
 ---@field instructionPanel inkWidgetReference
 ---@field instructionDesc inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field tutorialActive Bool
 ---@field currentTutorialStep TutorialStep
 TutorialMainController = {}
+
 
 ---@param fields? TutorialMainController
 ---@return TutorialMainController

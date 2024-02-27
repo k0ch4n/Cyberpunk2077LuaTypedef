@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class WorldMapGangItemController: inkWidgetLogicController
 ---@field factionNameText inkTextWidgetReference
 ---@field factionIconImage inkImageWidgetReference
 WorldMapGangItemController = {}
+
 
 ---@param fields? WorldMapGangItemController
 ---@return WorldMapGangItemController

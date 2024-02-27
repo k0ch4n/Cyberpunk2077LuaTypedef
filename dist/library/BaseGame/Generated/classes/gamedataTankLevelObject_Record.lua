@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTankLevelObject_Record: gamedataTweakDBRecord
 gamedataTankLevelObject_Record = {}
+
 
 ---@param fields? gamedataTankLevelObject_Record
 ---@return gamedataTankLevelObject_Record

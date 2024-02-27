@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IDisplayData: IScriptable
 IDisplayData = {}
+
 
 ---@param fields? IDisplayData
 ---@return IDisplayData

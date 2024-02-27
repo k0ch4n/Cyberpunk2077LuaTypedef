@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SearchInFrontPatternLookat: AISearchingLookat
 SearchInFrontPatternLookat = {}
+
 
 ---@param fields? SearchInFrontPatternLookat
 ---@return SearchInFrontPatternLookat

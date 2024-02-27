@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NavGenSamplingDensity: Enum
 ---@field None Enum 0
 ---@field Sparse Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemTooltipIconModule: ItemTooltipModuleController
 ---@field container inkImageWidgetReference
 ---@field icon inkImageWidgetReference
@@ -7,6 +8,7 @@
 ---@field transmogged inkImageWidgetReference
 ---@field iconsNameResolver gameuiIconsNameResolver
 ItemTooltipIconModule = {}
+
 
 ---@param fields? ItemTooltipIconModule
 ---@return ItemTooltipIconModule

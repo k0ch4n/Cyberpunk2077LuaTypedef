@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameOnInventoryEmptyEvent: redEvent
 gameOnInventoryEmptyEvent = {}
+
 
 ---@param fields? gameOnInventoryEmptyEvent
 ---@return gameOnInventoryEmptyEvent

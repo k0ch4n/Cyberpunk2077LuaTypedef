@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameReplAnimTransformSyncMatrixRequest: gameReplAnimTransformRequestBase
 ---@field transform Transform
 gameReplAnimTransformSyncMatrixRequest = {}
+
 
 ---@param fields? gameReplAnimTransformSyncMatrixRequest
 ---@return gameReplAnimTransformSyncMatrixRequest

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiItemDataSourceListener: gameIInventoryListener
 gameuiItemDataSourceListener = {}
+
 
 ---@param fields? gameuiItemDataSourceListener
 ---@return gameuiItemDataSourceListener

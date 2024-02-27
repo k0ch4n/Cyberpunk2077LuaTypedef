@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsvisInteractionDisplayData
 ---@field putAction CName
 ---@field wInputKey EInputKey
@@ -8,6 +9,7 @@
 ---@field pe gameinteractionsChoiceTypeWrapper
 ---@field oice gameinteractionsChoice
 gameinteractionsvisInteractionDisplayData = {}
+
 
 ---@param fields? gameinteractionsvisInteractionDisplayData
 ---@return gameinteractionsvisInteractionDisplayData

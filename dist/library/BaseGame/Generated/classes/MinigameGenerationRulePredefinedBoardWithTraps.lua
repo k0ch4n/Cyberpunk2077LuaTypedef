@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MinigameGenerationRulePredefinedBoardWithTraps: gameuiMinigameGenerationRule
 MinigameGenerationRulePredefinedBoardWithTraps = {}
+
 
 ---@param fields? MinigameGenerationRulePredefinedBoardWithTraps
 ---@return MinigameGenerationRulePredefinedBoardWithTraps

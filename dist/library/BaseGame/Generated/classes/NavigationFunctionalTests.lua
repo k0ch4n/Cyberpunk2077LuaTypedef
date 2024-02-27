@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NavigationFunctionalTests: IScriptable
 NavigationFunctionalTests = {}
+
 
 ---@param fields? NavigationFunctionalTests
 ---@return NavigationFunctionalTests

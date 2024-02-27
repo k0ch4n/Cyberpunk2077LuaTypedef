@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataSpawnableObjectPriority: Enum
 ---@field Crowd Enum 0
 ---@field Quest Enum 1

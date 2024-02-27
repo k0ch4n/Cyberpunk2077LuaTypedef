@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OnscreenDisplayManager: inkWidgetLogicController
 ---@field contentText inkTextWidgetReference
 OnscreenDisplayManager = {}
+
 
 ---@param fields? OnscreenDisplayManager
 ---@return OnscreenDisplayManager

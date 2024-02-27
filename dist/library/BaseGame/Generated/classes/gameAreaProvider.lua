@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAreaProvider
 gameAreaProvider = {}
+
 
 ---@param fields? gameAreaProvider
 ---@return gameAreaProvider

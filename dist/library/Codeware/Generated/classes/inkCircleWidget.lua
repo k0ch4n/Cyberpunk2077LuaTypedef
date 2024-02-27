@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkCircleWidget: inkBaseShapeWidget
 inkCircleWidget = {}
+
 
 ---@param fields? inkCircleWidget
 ---@return inkCircleWidget

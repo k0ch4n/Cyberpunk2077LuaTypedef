@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CompleteCommand: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 CompleteCommand = {}
+
 
 ---@param fields? CompleteCommand
 ---@return CompleteCommand

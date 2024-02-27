@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ThrowGrenadeCommandTask: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ---@field currentCommand AIThrowGrenadeCommand
@@ -10,6 +11,7 @@
 ---@field target gameObject
 ---@field targetID entEntityID
 ThrowGrenadeCommandTask = {}
+
 
 ---@param fields? ThrowGrenadeCommandTask
 ---@return ThrowGrenadeCommandTask

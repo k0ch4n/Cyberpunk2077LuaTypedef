@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionDroneModifyAltitude_Record: gamedataAISubAction_Record
 gamedataAISubActionDroneModifyAltitude_Record = {}
+
 
 ---@param fields? gamedataAISubActionDroneModifyAltitude_Record
 ---@return gamedataAISubActionDroneModifyAltitude_Record

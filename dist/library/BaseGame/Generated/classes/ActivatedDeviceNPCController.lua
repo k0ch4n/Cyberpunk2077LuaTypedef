@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActivatedDeviceNPCController: ScriptableDeviceComponent
 ActivatedDeviceNPCController = {}
+
 
 ---@param fields? ActivatedDeviceNPCController
 ---@return ActivatedDeviceNPCController

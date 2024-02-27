@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class StrikeDuration_Debug_VDB: StrikeDuration_Debug
 ---@field UPDATE_DELAY Float
 ---@field DISPLAY_DURATION Float
 ---@field timeToNextUpdate Float
 StrikeDuration_Debug_VDB = {}
+
 
 ---@param fields? StrikeDuration_Debug_VDB
 ---@return StrikeDuration_Debug_VDB

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GlitchedTurretController: ScriptableDeviceComponent
 GlitchedTurretController = {}
+
 
 ---@param fields? GlitchedTurretController
 ---@return GlitchedTurretController

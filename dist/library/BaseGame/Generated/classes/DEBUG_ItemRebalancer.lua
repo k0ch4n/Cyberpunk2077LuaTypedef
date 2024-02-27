@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DEBUG_ItemRebalancer: gameObject
 ---@field nodeRef NodeRef
 DEBUG_ItemRebalancer = {}
+
 
 ---@param fields? DEBUG_ItemRebalancer
 ---@return DEBUG_ItemRebalancer

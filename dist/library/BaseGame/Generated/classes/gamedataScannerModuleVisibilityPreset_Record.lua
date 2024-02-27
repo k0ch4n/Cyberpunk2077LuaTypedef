@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataScannerModuleVisibilityPreset_Record: gamedataTweakDBRecord
 gamedataScannerModuleVisibilityPreset_Record = {}
+
 
 ---@param fields? gamedataScannerModuleVisibilityPreset_Record
 ---@return gamedataScannerModuleVisibilityPreset_Record

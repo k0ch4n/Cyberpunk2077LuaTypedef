@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAttack_Landing_Record: gamedataAttack_GameEffect_Record
 gamedataAttack_Landing_Record = {}
+
 
 ---@param fields? gamedataAttack_Landing_Record
 ---@return gamedataAttack_Landing_Record

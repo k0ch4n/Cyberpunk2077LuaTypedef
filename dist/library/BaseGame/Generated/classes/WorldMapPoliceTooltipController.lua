@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WorldMapPoliceTooltipController: WorldMapTooltipController
 WorldMapPoliceTooltipController = {}
+
 
 ---@param fields? WorldMapPoliceTooltipController
 ---@return WorldMapPoliceTooltipController

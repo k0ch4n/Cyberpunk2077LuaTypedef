@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioCombatVoSettings: audioAudioMetadata
 ---@field answerGroupName CName
 ---@field isPlayerAlly Bool
@@ -13,6 +14,7 @@
 ---@field minDamageToInterruptVoWithPainShort Float
 ---@field minDamageToInterruptVoWithPainLong Float
 audioCombatVoSettings = {}
+
 
 ---@param fields? audioCombatVoSettings
 ---@return audioCombatVoSettings

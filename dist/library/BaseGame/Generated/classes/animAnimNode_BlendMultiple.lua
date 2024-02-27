@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_BlendMultiple: animAnimNode_Base
 ---@field inputValues Float[]
 ---@field sortedInputValues Float[]
@@ -12,6 +13,7 @@
 ---@field weightNode animFloatLink
 ---@field inputNodes animPoseLink[]
 animAnimNode_BlendMultiple = {}
+
 
 ---@param fields? animAnimNode_BlendMultiple
 ---@return animAnimNode_BlendMultiple

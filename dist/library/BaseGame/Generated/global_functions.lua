@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Game: ScriptGameInstance
 Game = {}
+
 
 ---@return nil
 function Game.AIInstantiateObject() end

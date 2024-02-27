@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleVisualCustomizationDecisions: QuickSlotsHoldDecisions
 VehicleVisualCustomizationDecisions = {}
+
 
 ---@param fields? VehicleVisualCustomizationDecisions
 ---@return VehicleVisualCustomizationDecisions

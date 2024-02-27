@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DisassembleManager: gameuiMenuGameController
 ---@field listRef inkCompoundWidgetReference
 ---@field initialPopupDelay Float
@@ -17,6 +18,7 @@
 ---@field DisassembleBBID redCallbackObject
 ---@field CraftingBBID redCallbackObject
 DisassembleManager = {}
+
 
 ---@param fields? DisassembleManager
 ---@return DisassembleManager

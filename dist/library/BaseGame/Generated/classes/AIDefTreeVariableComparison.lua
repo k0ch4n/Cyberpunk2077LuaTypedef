@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIDefTreeVariableComparison: LibTreeDefTreeVariableBoolBase
 ---@field exportAsProperty Bool
 ---@field referenceVariableId Uint16
@@ -9,6 +10,7 @@
 ---@field operator EComparisonType
 ---@field referenceValue Variant
 AIDefTreeVariableComparison = {}
+
 
 ---@param fields? AIDefTreeVariableComparison
 ---@return AIDefTreeVariableComparison

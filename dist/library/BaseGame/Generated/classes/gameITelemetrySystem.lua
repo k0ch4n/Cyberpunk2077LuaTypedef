@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameITelemetrySystem: gameIGameSystem
 gameITelemetrySystem = {}
+
 
 ---@return nil
 function gameITelemetrySystem:ClearPlaythroughEp1() end

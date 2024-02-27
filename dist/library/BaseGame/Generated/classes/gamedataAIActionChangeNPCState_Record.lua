@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIActionChangeNPCState_Record: gamedataTweakDBRecord
 gamedataAIActionChangeNPCState_Record = {}
+
 
 ---@param fields? gamedataAIActionChangeNPCState_Record
 ---@return gamedataAIActionChangeNPCState_Record

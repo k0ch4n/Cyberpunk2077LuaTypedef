@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class scnRidAnimationContainerSRRef
 ---@field animations scnRidAnimationContainerSRRefAnimContainer[]
 scnRidAnimationContainerSRRef = {}
+
 
 ---@param fields? scnRidAnimationContainerSRRef
 ---@return scnRidAnimationContainerSRRef

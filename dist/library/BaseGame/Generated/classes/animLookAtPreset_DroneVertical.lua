@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animLookAtPreset_DroneVertical: animLookAtPreset
 ---@field softLimitDegrees Float
 ---@field hardLimitDegrees Float
@@ -8,6 +9,7 @@
 ---@field suppress Float
 ---@field mode Int32
 animLookAtPreset_DroneVertical = {}
+
 
 ---@param fields? animLookAtPreset_DroneVertical
 ---@return animLookAtPreset_DroneVertical

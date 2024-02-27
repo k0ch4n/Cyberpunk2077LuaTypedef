@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataBuildType: Enum
 ---@field Avg_10_Int_Netrunner Enum 0
 ---@field Body40 Enum 1

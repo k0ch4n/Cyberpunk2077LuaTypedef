@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIBoolArgumentInstancePS: AIArgumentInstancePS
 ---@field value Bool
 AIBoolArgumentInstancePS = {}
+
 
 ---@param fields? AIBoolArgumentInstancePS
 ---@return AIBoolArgumentInstancePS

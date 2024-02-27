@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioCombatVoManagerSettings: audioAudioMetadata
 ---@field thresholdDbForCombatDialog Float
 ---@field maxVoHearableHorizontalDistance Float
@@ -18,6 +19,7 @@
 ---@field genericCombatLosingVOContexts CName[]
 ---@field genericCombatSingleEnemyVOContexts CName[]
 audioCombatVoManagerSettings = {}
+
 
 ---@param fields? audioCombatVoManagerSettings
 ---@return audioCombatVoManagerSettings

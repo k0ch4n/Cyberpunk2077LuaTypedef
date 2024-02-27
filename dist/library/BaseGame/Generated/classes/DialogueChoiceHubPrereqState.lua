@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DialogueChoiceHubPrereqState: gamePrereqState
 DialogueChoiceHubPrereqState = {}
+
 
 ---@param fields? DialogueChoiceHubPrereqState
 ---@return DialogueChoiceHubPrereqState

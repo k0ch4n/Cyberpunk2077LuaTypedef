@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ExitWorkspotSequenceEvent: redEvent
 ExitWorkspotSequenceEvent = {}
+
 
 ---@param fields? ExitWorkspotSequenceEvent
 ---@return ExitWorkspotSequenceEvent

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HackingContainer: BaseSkillCheckContainer
 ---@field hackingCheck HackingSkillCheck
 HackingContainer = {}
+
 
 ---@param fields? HackingContainer
 ---@return HackingContainer

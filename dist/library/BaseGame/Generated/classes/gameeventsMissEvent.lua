@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameeventsMissEvent: redEvent
 ---@field attackData gamedamageAttackData
 ---@field hitPosition Vector4
@@ -8,6 +9,7 @@
 ---@field hasPiercedTechSurface Bool
 ---@field attackComputed gameAttackComputed
 gameeventsMissEvent = {}
+
 
 ---@param fields? gameeventsMissEvent
 ---@return gameeventsMissEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AccessPointControllerPS: MasterControllerPS
 ---@field rewardNotificationIcons String[]
 ---@field rewardNotificationString String
@@ -9,6 +10,7 @@
 ---@field isVirtual Bool
 ---@field pingedSquads CName[]
 AccessPointControllerPS = {}
+
 
 ---@param fields? AccessPointControllerPS
 ---@return AccessPointControllerPS

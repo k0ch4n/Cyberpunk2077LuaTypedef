@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIPatrolDef: AIBlackboardDef
 ---@field patrolPathOverride gamebbScriptID_Variant
 ---@field patrolWithWeapon gamebbScriptID_Bool
@@ -13,6 +14,7 @@
 ---@field patrolAction gamebbScriptID_Variant
 ---@field patrolInProgress gamebbScriptID_Bool
 AIPatrolDef = {}
+
 
 ---@param fields? AIPatrolDef
 ---@return AIPatrolDef

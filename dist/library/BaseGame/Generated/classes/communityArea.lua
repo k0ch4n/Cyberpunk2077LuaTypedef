@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class communityArea: ISerializable
 ---@field entriesData communityCommunityEntrySpotsData[]
 communityArea = {}
+
 
 ---@param fields? communityArea
 ---@return communityArea

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entPhysicalBodyInterface: IScriptable
 entPhysicalBodyInterface = {}
+
 
 ---@param fields? entPhysicalBodyInterface
 ---@return entPhysicalBodyInterface

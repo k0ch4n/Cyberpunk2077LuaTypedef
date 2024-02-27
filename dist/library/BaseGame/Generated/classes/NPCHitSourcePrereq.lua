@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NPCHitSourcePrereq: gameIScriptablePrereq
 ---@field hitSource EAIHitSource
 ---@field invert Bool
 NPCHitSourcePrereq = {}
+
 
 ---@param fields? NPCHitSourcePrereq
 ---@return NPCHitSourcePrereq

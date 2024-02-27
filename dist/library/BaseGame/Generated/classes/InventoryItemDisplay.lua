@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryItemDisplay: BaseButtonView
 ---@field RarityRoot inkWidgetReference
 ---@field ModsRoot inkCompoundWidgetReference
@@ -21,6 +22,7 @@
 ---@field bigSize Vector2
 ---@field owner gameObject
 InventoryItemDisplay = {}
+
 
 ---@param fields? InventoryItemDisplay
 ---@return InventoryItemDisplay

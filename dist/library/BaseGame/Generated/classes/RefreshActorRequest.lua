@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RefreshActorRequest: HUDManagerRequest
 ---@field actorUpdateData HUDActorUpdateData
 ---@field requestedModules HUDModule[]
 RefreshActorRequest = {}
+
 
 ---@param fields? RefreshActorRequest
 ---@return RefreshActorRequest

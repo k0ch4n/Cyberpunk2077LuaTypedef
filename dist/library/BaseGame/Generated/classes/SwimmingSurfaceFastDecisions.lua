@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SwimmingSurfaceFastDecisions: LocomotionSwimming
 SwimmingSurfaceFastDecisions = {}
+
 
 ---@param fields? SwimmingSurfaceFastDecisions
 ---@return SwimmingSurfaceFastDecisions

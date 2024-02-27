@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RefreshQuickhackMenuEvent: redEvent
 RefreshQuickhackMenuEvent = {}
+
 
 ---@param fields? RefreshQuickhackMenuEvent
 ---@return RefreshQuickhackMenuEvent

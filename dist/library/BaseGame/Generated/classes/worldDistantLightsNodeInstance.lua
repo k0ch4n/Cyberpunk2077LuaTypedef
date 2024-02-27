@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldDistantLightsNodeInstance: worldINodeInstance
 worldDistantLightsNodeInstance = {}
+
 
 ---@param fields? worldDistantLightsNodeInstance
 ---@return worldDistantLightsNodeInstance

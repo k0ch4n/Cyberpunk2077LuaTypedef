@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePhotoModeEnableEvent: redEvent
 gamePhotoModeEnableEvent = {}
+
 
 ---@param fields? gamePhotoModeEnableEvent
 ---@return gamePhotoModeEnableEvent

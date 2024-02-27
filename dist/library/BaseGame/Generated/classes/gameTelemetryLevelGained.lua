@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTelemetryLevelGained
 ---@field playerPuppet gameObject
 ---@field proficiencyType gamedataProficiencyType
@@ -8,6 +9,7 @@
 ---@field attributePointsAwarded Int32
 ---@field isDebugEvt Bool
 gameTelemetryLevelGained = {}
+
 
 ---@param fields? gameTelemetryLevelGained
 ---@return gameTelemetryLevelGained

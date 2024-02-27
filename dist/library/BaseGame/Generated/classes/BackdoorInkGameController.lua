@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BackdoorInkGameController: MasterDeviceInkGameControllerBase
 ---@field IdleGroup inkWidgetReference
 ---@field ConnectedGroup inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field onShutdownModuleListener redCallbackObject
 ---@field onBootModuleListener redCallbackObject
 BackdoorInkGameController = {}
+
 
 ---@param fields? BackdoorInkGameController
 ---@return BackdoorInkGameController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CrouchDelayEvent: redEvent
 CrouchDelayEvent = {}
+
 
 ---@param fields? CrouchDelayEvent
 ---@return CrouchDelayEvent

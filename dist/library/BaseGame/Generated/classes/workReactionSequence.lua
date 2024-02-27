@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class workReactionSequence: workIContainerEntry
 ---@field forcedBlendIn Float
 ---@field reactionTypes TweakDBID[]
@@ -11,6 +12,7 @@
 ---@field facialIdleFemaleAnimation CName
 ---@field facialIdleKey_FemaleAnimation CName
 workReactionSequence = {}
+
 
 ---@param fields? workReactionSequence
 ---@return workReactionSequence

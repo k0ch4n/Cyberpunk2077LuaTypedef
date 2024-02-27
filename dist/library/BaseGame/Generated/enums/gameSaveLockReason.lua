@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSaveLockReason: Enum
 ---@field Nothing Enum 0
 ---@field Combat Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FUNC_TEST_inkGameController: gameuiWidgetGameController
 ---@field Canvas inkCanvasWidgetReference
 ---@field HorizontalPanel inkHorizontalPanelWidgetReference
@@ -17,6 +18,7 @@
 ---@field BasicInputFields FUNC_TEST_Container_2
 ---@field AdditionalFields FUNC_TEST_Container
 FUNC_TEST_inkGameController = {}
+
 
 ---@param fields? FUNC_TEST_inkGameController
 ---@return FUNC_TEST_inkGameController

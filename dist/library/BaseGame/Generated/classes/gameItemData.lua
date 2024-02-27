@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameItemData: IScriptable
 gameItemData = {}
+
 
 ---@param objectAttachedTo gameObject
 ---@return nil

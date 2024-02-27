@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkMenuLayer_SetMenuModeEvent: redEvent
 inkMenuLayer_SetMenuModeEvent = {}
+
 
 ---@param fields? inkMenuLayer_SetMenuModeEvent
 ---@return inkMenuLayer_SetMenuModeEvent

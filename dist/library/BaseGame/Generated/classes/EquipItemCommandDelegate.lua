@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class EquipItemCommandDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field equipCommand AIEquipCommand
 ---@field unequipCommand AIUnequipCommand
 ---@field slotIdName TweakDBID
 ---@field itemIdName TweakDBID
 EquipItemCommandDelegate = {}
+
 
 ---@param fields? EquipItemCommandDelegate
 ---@return EquipItemCommandDelegate

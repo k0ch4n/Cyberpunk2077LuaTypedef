@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workExcludedGesturesData: workIWorkspotCommandData
 workExcludedGesturesData = {}
+
 
 ---@param fields? workExcludedGesturesData
 ---@return workExcludedGesturesData

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ExplodingBullet: BaseBullet
 ---@field explosionTime Float
 ---@field effectReference gameEffectRef
@@ -16,6 +17,7 @@
 ---@field attack gameIAttack
 ---@field BulletCollisionEvaluator BulletCollisionEvaluator
 ExplodingBullet = {}
+
 
 ---@param fields? ExplodingBullet
 ---@return ExplodingBullet

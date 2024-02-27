@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorActionMoveToWorkspotNodeDefinition: AIbehaviorActionTreeNodeDefinition
 ---@field workspotSetup AIArgumentMapping
 ---@field lookAtTarget AIArgumentMapping
@@ -14,6 +15,7 @@
 ---@field ignoreExploration AIArgumentMapping
 ---@field failWhenStoppedByCollision AIArgumentMapping
 AIbehaviorActionMoveToWorkspotNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorActionMoveToWorkspotNodeDefinition
 ---@return AIbehaviorActionMoveToWorkspotNodeDefinition

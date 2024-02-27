@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRandomNewsFeedBatch_Record: gamedataTweakDBRecord
 gamedataRandomNewsFeedBatch_Record = {}
+
 
 ---@param fields? gamedataRandomNewsFeedBatch_Record
 ---@return gamedataRandomNewsFeedBatch_Record

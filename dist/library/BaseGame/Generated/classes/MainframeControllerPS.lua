@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MainframeControllerPS: BaseAnimatedDeviceControllerPS
 ---@field factName ComputerQuickHackData
 MainframeControllerPS = {}
+
 
 ---@param fields? MainframeControllerPS
 ---@return MainframeControllerPS

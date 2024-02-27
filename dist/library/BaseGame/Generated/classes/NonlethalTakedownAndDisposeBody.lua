@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NonlethalTakedownAndDisposeBody: ActionDisposal
 NonlethalTakedownAndDisposeBody = {}
+
 
 ---@param fields? NonlethalTakedownAndDisposeBody
 ---@return NonlethalTakedownAndDisposeBody

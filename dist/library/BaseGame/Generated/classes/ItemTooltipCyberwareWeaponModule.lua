@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemTooltipCyberwareWeaponModule: ItemTooltipModuleController
 ---@field wrapper inkWidgetReference
 ---@field bars inkWidgetReference[]
@@ -9,6 +10,7 @@
 ---@field statsToDisplay WeaponBarType[]
 ---@field disableSeparators Bool
 ItemTooltipCyberwareWeaponModule = {}
+
 
 ---@param fields? ItemTooltipCyberwareWeaponModule
 ---@return ItemTooltipCyberwareWeaponModule

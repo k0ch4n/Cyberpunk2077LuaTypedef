@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataUINameplateDisplayType_Record: gamedataTweakDBRecord
 gamedataUINameplateDisplayType_Record = {}
+
 
 ---@param fields? gamedataUINameplateDisplayType_Record
 ---@return gamedataUINameplateDisplayType_Record

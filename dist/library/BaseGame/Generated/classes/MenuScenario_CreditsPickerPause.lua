@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_CreditsPickerPause: MenuScenario_BaseMenu
 MenuScenario_CreditsPickerPause = {}
+
 
 ---@param fields? MenuScenario_CreditsPickerPause
 ---@return MenuScenario_CreditsPickerPause

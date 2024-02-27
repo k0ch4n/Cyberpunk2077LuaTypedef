@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class PlayerIsNewPerkBoughtPrereq: gameIScriptablePrereq
 ---@field invert Bool
 ---@field perkType gamedataNewPerkType
 ---@field level Int32
 PlayerIsNewPerkBoughtPrereq = {}
+
 
 ---@param fields? PlayerIsNewPerkBoughtPrereq
 ---@return PlayerIsNewPerkBoughtPrereq

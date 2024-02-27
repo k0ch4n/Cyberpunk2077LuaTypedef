@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class attrLongOperation: attrAttribute
 attrLongOperation = {}
+
 
 ---@param fields? attrLongOperation
 ---@return attrLongOperation

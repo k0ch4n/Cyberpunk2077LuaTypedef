@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entLODDefinition: ISerializable
 ---@field backgroundDistanceLODs Float
 ---@field regularDistanceLODs Float
@@ -10,6 +11,7 @@
 ---@field vehicleDecorationDistanceLODs Float
 ---@field consoleDistanceLODs Float
 entLODDefinition = {}
+
 
 ---@param fields? entLODDefinition
 ---@return entLODDefinition

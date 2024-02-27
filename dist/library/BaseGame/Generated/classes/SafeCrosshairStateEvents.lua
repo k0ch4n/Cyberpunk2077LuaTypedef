@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SafeCrosshairStateEvents: BaseCrosshairStateEvents
 SafeCrosshairStateEvents = {}
+
 
 ---@param fields? SafeCrosshairStateEvents
 ---@return SafeCrosshairStateEvents

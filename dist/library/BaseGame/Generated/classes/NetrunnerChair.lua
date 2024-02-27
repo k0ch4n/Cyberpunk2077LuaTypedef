@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NetrunnerChair: InteractiveDevice
 NetrunnerChair = {}
+
 
 ---@param fields? NetrunnerChair
 ---@return NetrunnerChair

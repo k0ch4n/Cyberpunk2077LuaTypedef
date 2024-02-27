@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ApplyStatusEffectBasedOnDifficultyEffector: ApplyStatusEffectEffector
 ---@field statusEffectOnStoryDifficulty TweakDBID
 ---@field statusEffectOnEasyDifficulty TweakDBID
 ---@field statusEffectOnHardDifficulty TweakDBID
 ---@field statusEffectOnVeryHardDifficulty TweakDBID
 ApplyStatusEffectBasedOnDifficultyEffector = {}
+
 
 ---@param fields? ApplyStatusEffectBasedOnDifficultyEffector
 ---@return ApplyStatusEffectBasedOnDifficultyEffector

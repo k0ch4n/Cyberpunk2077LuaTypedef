@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class StatProvider: IScriptable
 ---@field GameItemData gameItemData
 ---@field PartData gameInnerItemData
 ---@field InventoryItemData gameInventoryItemData
 ---@field dataSource gameEStatProviderDataSource
 StatProvider = {}
+
 
 ---@param fields? StatProvider
 ---@return StatProvider

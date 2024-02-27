@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ERTTIType: Enum
 ---@field Name Enum 0
 ---@field Fundamental Enum 1

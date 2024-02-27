@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleColorInkController: gameuiHUDGameController
 ---@field vehicle vehicleBaseObject
 ---@field vehicleBlackboard gameIBlackboard
@@ -29,6 +30,7 @@
 ---@field fakeUpdateProxy inkanimProxy
 ---@field damageAnimLoopProxy inkanimProxy
 vehicleColorInkController = {}
+
 
 ---@param fields? vehicleColorInkController
 ---@return vehicleColorInkController

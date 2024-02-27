@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questInventory_ConditionType: questIObjectConditionType
 ---@field objectRef gameEntityReference
 ---@field isPlayer Bool
@@ -8,6 +9,7 @@
 ---@field quantity Uint32
 ---@field comparisonType EComparisonType
 questInventory_ConditionType = {}
+
 
 ---@param fields? questInventory_ConditionType
 ---@return questInventory_ConditionType

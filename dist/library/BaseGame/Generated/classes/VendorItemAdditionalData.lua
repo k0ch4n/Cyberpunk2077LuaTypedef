@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class VendorItemAdditionalData: IScriptable
 ---@field Requirement gameSItemStackRequirementData
 ---@field IsAvailable Bool
 VendorItemAdditionalData = {}
+
 
 ---@param fields? VendorItemAdditionalData
 ---@return VendorItemAdditionalData

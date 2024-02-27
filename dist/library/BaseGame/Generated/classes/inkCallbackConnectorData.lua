@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkCallbackConnectorData: IScriptable
 ---@field userData IScriptable
 inkCallbackConnectorData = {}
+
 
 ---@param fields? inkCallbackConnectorData
 ---@return inkCallbackConnectorData

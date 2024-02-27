@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animDangleConstraint_SimulationPendulum: animDangleConstraint_SimulationSingleBone
 ---@field constraintType animPendulumConstraintType
 ---@field halfOfMaxApertureAngle Float
@@ -26,6 +27,7 @@
 ---@field sinOfHalfYAngle Float
 ---@field sinOfHalfZAngle Float
 animDangleConstraint_SimulationPendulum = {}
+
 
 ---@param fields? animDangleConstraint_SimulationPendulum
 ---@return animDangleConstraint_SimulationPendulum

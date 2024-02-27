@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCraftingPackage_Record: gamedataTweakDBRecord
 gamedataCraftingPackage_Record = {}
+
 
 ---@param fields? gamedataCraftingPackage_Record
 ---@return gamedataCraftingPackage_Record

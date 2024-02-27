@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayerDoesntHaveQuickhackPrereq: gameIScriptablePrereq
 ---@field quickhackID TweakDBID
 PlayerDoesntHaveQuickhackPrereq = {}
+
 
 ---@param fields? PlayerDoesntHaveQuickhackPrereq
 ---@return PlayerDoesntHaveQuickhackPrereq

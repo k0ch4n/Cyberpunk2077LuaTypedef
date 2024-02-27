@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NumericDisplayController: ScriptableDeviceComponent
 NumericDisplayController = {}
+
 
 ---@param fields? NumericDisplayController
 ---@return NumericDisplayController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAttachmentSlotEventsAttachmentSlotEvent: redEvent
 gameAttachmentSlotEventsAttachmentSlotEvent = {}
+
 
 ---@return TweakDBID
 function gameAttachmentSlotEventsAttachmentSlotEvent:GetSlotID() end

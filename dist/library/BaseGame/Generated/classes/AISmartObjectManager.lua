@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISmartObjectManager: AIISmartObjectManager
 AISmartObjectManager = {}
+
 
 ---@param fields? AISmartObjectManager
 ---@return AISmartObjectManager

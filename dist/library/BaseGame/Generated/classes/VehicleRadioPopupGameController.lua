@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleRadioPopupGameController: BaseModalListPopupGameController
 ---@field icon inkImageWidgetReference
 ---@field trackName inkTextWidgetReference
@@ -21,6 +22,7 @@
 ---@field canVolumeUp Bool
 ---@field radioVolumeSettingsController RadioVolumeSettingsController
 VehicleRadioPopupGameController = {}
+
 
 ---@param fields? VehicleRadioPopupGameController
 ---@return VehicleRadioPopupGameController

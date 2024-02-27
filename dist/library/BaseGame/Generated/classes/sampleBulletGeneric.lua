@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class sampleBulletGeneric: BaseProjectile
 ---@field meshComponent entIComponent
 ---@field damage gameEffectInstance
@@ -8,6 +9,7 @@
 ---@field lifetime Float
 ---@field alive Bool
 sampleBulletGeneric = {}
+
 
 ---@param fields? sampleBulletGeneric
 ---@return sampleBulletGeneric

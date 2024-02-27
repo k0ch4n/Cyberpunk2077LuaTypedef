@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class mpLocalPlayer: mpPlayer
 mpLocalPlayer = {}
+
 
 ---@param fields? mpLocalPlayer
 ---@return mpLocalPlayer

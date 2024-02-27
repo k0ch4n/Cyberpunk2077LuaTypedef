@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ScaleAndLockLeftHandWeaponsCompensateInStashEvent: redEvent
 ScaleAndLockLeftHandWeaponsCompensateInStashEvent = {}
+
 
 ---@param fields? ScaleAndLockLeftHandWeaponsCompensateInStashEvent
 ---@return ScaleAndLockLeftHandWeaponsCompensateInStashEvent

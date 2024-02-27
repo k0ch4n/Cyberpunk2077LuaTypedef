@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkanimProxy: IScriptable
 inkanimProxy = {}
+
 
 ---@param fields? inkanimProxy
 ---@return inkanimProxy

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ChargeIndicatorGameController: ChargedHotkeyItemBaseController
 ---@field itemIcon inkImageWidgetReference
 ---@field type ChargeIndicatorWidgetType
@@ -10,6 +11,7 @@
 ---@field OnEquipmentChangedIDBBID redCallbackObject
 ---@field c_fullChargeOpacity Float
 ChargeIndicatorGameController = {}
+
 
 ---@param fields? ChargeIndicatorGameController
 ---@return ChargeIndicatorGameController

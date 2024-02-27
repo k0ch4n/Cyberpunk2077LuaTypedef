@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AtmosphereAreaSettings: IAreaSettings
 ---@field skydomeColor curveData
 ---@field skylightColor curveData
@@ -34,6 +35,7 @@
 ---@field probeColorOverrideZenith curveData
 ---@field probeAlphaOverrideZenith curveData
 AtmosphereAreaSettings = {}
+
 
 ---@param fields? AtmosphereAreaSettings
 ---@return AtmosphereAreaSettings

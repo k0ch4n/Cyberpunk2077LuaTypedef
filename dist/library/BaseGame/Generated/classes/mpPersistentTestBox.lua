@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class mpPersistentTestBox: gameObject
 mpPersistentTestBox = {}
+
 
 ---@param fields? mpPersistentTestBox
 ---@return mpPersistentTestBox

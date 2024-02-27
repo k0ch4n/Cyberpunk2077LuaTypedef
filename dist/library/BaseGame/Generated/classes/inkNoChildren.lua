@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkNoChildren: inkChildren
 inkNoChildren = {}
+
 
 ---@param fields? inkNoChildren
 ---@return inkNoChildren

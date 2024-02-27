@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PlayerCombatStateTimePrereq: gameIScriptablePrereq
 ---@field minTime Float
 ---@field maxTime Float
 PlayerCombatStateTimePrereq = {}
+
 
 ---@param fields? PlayerCombatStateTimePrereq
 ---@return PlayerCombatStateTimePrereq

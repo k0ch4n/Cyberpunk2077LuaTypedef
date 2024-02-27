@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ApplyAnimWrappersOnWeapon: AIbehaviortaskScript
 ---@field wrapperName CName
 ---@field refOwner gamedataAIActionTarget_Record
@@ -7,6 +8,7 @@
 ---@field ownerPosition Vector4
 ---@field animationController entAnimationControllerComponent
 ApplyAnimWrappersOnWeapon = {}
+
 
 ---@param fields? ApplyAnimWrappersOnWeapon
 ---@return ApplyAnimWrappersOnWeapon

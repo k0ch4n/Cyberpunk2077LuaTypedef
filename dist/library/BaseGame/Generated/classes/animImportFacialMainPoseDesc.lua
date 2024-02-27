@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animImportFacialMainPoseDesc
 ---@field influencedBy CName[]
 ---@field influenceMainWeightIndices Uint16[]
@@ -13,6 +14,7 @@
 ---@field side Uint8
 ---@field facePart Uint8
 animImportFacialMainPoseDesc = {}
+
 
 ---@param fields? animImportFacialMainPoseDesc
 ---@return animImportFacialMainPoseDesc

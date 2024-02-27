@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StaticPlatformControllerPS: ScriptableDeviceComponentPS
 ---@field isTriggered Bool
 StaticPlatformControllerPS = {}
+
 
 ---@param fields? StaticPlatformControllerPS
 ---@return StaticPlatformControllerPS

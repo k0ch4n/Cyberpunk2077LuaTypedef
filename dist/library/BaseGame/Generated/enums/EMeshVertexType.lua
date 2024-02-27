@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EMeshVertexType: Enum
 ---@field MVT_StaticMesh Enum 0
 ---@field MVT_ProceduralMesh Enum 1

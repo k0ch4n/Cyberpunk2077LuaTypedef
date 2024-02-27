@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataUIStatsMap_Record: gamedataTweakDBRecord
 gamedataUIStatsMap_Record = {}
+
 
 ---@param fields? gamedataUIStatsMap_Record
 ---@return gamedataUIStatsMap_Record

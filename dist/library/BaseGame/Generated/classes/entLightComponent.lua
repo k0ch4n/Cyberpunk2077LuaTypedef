@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entLightComponent: entIVisualComponent
 ---@field type ELightType
 ---@field color Color
@@ -54,6 +55,7 @@
 ---@field rtxdiShadowStartingDistance Float
 ---@field isEnabled Bool
 entLightComponent = {}
+
 
 ---@param fields? entLightComponent
 ---@return entLightComponent

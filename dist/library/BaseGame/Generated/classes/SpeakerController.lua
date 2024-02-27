@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SpeakerController: ScriptableDeviceComponent
 SpeakerController = {}
+
 
 ---@param fields? SpeakerController
 ---@return SpeakerController

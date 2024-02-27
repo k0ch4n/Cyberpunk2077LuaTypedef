@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animLookAtStyle: Enum
 ---@field VerySlow Enum 0
 ---@field Slow Enum 1

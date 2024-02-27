@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gsmMenuState_GatheringSaves: gsmPopupState
 gsmMenuState_GatheringSaves = {}
+
 
 ---@param fields? gsmMenuState_GatheringSaves
 ---@return gsmMenuState_GatheringSaves

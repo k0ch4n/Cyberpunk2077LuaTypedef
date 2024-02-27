@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionChimeraMetalstorm_Record: gamedataAISubActionShootWithWeapon_Record
 gamedataAISubActionChimeraMetalstorm_Record = {}
+
 
 ---@param fields? gamedataAISubActionChimeraMetalstorm_Record
 ---@return gamedataAISubActionChimeraMetalstorm_Record

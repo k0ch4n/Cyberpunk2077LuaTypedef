@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RegisterFastTravelPointsEvent: redEvent
 ---@field fastTravelNodes gameFastTravelPointData[]
 RegisterFastTravelPointsEvent = {}
+
 
 ---@param fields? RegisterFastTravelPointsEvent
 ---@return RegisterFastTravelPointsEvent

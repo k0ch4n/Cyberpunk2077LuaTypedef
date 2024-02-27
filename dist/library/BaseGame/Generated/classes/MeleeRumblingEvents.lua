@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeRumblingEvents: MeleeEventsTransition
 MeleeRumblingEvents = {}
+
 
 ---@return String
 function MeleeRumblingEvents:GetIntensity() end

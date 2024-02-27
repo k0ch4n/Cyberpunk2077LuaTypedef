@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ItemTooltipTransmogModule: ItemTooltipModuleController
 ---@field buttonHintWidgetRef inkWidgetReference
 ---@field labelRef inkTextWidgetReference
 ---@field buttonHint LabelInputDisplayController
 ItemTooltipTransmogModule = {}
+
 
 ---@param fields? ItemTooltipTransmogModule
 ---@return ItemTooltipTransmogModule

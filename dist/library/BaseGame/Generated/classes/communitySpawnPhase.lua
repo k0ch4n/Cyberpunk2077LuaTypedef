@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class communitySpawnPhase: ISerializable
 ---@field phaseName CName
 ---@field appearances CName[]
@@ -7,6 +8,7 @@
 ---@field alwaysSpawned gameAlwaysSpawnedState
 ---@field prefetchAppearance Bool
 communitySpawnPhase = {}
+
 
 ---@param fields? communitySpawnPhase
 ---@return communitySpawnPhase

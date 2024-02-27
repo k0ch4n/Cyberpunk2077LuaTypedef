@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class scnCheckFactReturnCondition: scnIReturnCondition
 ---@field params scnCheckFactReturnConditionParams
 scnCheckFactReturnCondition = {}
+
 
 ---@param fields? scnCheckFactReturnCondition
 ---@return scnCheckFactReturnCondition

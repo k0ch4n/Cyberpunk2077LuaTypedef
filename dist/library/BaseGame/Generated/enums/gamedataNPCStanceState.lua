@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataNPCStanceState: Enum
 ---@field Any Enum 0
 ---@field Cover Enum 1

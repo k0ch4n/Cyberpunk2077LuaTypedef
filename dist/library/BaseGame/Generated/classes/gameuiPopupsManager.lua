@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiPopupsManager: gameuiWidgetGameController
 ---@field bracketsContainer inkCompoundWidgetReference
 ---@field tutorialOverlayContainer inkCompoundWidgetReference
@@ -33,6 +34,7 @@
 ---@field expansionStateToken inkGameNotificationToken
 ---@field vehicleVisualCustomizationSelectorToken inkGameNotificationToken
 gameuiPopupsManager = {}
+
 
 ---@param fields? gameuiPopupsManager
 ---@return gameuiPopupsManager

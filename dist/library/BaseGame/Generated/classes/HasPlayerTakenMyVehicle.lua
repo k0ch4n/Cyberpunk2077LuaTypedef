@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HasPlayerTakenMyVehicle: PreventionConditionAbstract
 HasPlayerTakenMyVehicle = {}
+
 
 ---@param fields? HasPlayerTakenMyVehicle
 ---@return HasPlayerTakenMyVehicle

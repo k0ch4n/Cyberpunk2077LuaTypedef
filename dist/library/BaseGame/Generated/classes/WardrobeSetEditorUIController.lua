@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WardrobeSetEditorUIController: inkWidgetLogicController
 ---@field itemsGridWidget inkWidgetReference
 ---@field itemGridText inkTextWidgetReference
@@ -37,6 +38,7 @@
 ---@field timeoutPeroid Float
 ---@field displayContextData ItemDisplayContextData
 WardrobeSetEditorUIController = {}
+
 
 ---@param fields? WardrobeSetEditorUIController
 ---@return WardrobeSetEditorUIController

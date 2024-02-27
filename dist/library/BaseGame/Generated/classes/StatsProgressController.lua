@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StatsProgressController: inkWidgetLogicController
 ---@field labelRef inkTextWidgetReference
 ---@field currentXpRef inkTextWidgetReference
@@ -13,6 +14,7 @@
 ---@field progressMarkerBar inkWidgetReference
 ---@field barLenght Float
 StatsProgressController = {}
+
 
 ---@param fields? StatsProgressController
 ---@return StatsProgressController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PSODescDepthStencilModeStencilOpMode: Enum
 ---@field STENCILOP_Keep Enum 0
 ---@field STENCILOP_Zero Enum 1

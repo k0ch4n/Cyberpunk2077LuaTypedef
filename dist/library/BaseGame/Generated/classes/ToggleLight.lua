@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleLight: ActionBool
 ToggleLight = {}
+
 
 ---@param fields? ToggleLight
 ---@return ToggleLight

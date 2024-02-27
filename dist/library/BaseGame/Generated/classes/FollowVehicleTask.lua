@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FollowVehicleTask: AIbehaviortaskScript
 FollowVehicleTask = {}
+
 
 ---@param fields? FollowVehicleTask
 ---@return FollowVehicleTask

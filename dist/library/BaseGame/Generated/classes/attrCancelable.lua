@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class attrCancelable: attrAttribute
 attrCancelable = {}
+
 
 ---@param fields? attrCancelable
 ---@return attrCancelable

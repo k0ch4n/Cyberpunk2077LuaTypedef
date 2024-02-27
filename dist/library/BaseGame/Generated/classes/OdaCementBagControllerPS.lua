@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OdaCementBagControllerPS: ScriptableDeviceComponentPS
 ---@field cementEffectCooldown Float
 OdaCementBagControllerPS = {}
+
 
 ---@param fields? OdaCementBagControllerPS
 ---@return OdaCementBagControllerPS

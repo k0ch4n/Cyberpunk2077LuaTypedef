@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PreventionAgents: IScriptable
 ---@field groupName CName
 ---@field requsteredAgents SPreventionAgentData[]
 PreventionAgents = {}
+
 
 ---@param fields? PreventionAgents
 ---@return PreventionAgents

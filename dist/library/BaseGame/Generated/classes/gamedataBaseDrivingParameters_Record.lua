@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataBaseDrivingParameters_Record: gamedataTweakDBRecord
 gamedataBaseDrivingParameters_Record = {}
+
 
 ---@param fields? gamedataBaseDrivingParameters_Record
 ---@return gamedataBaseDrivingParameters_Record

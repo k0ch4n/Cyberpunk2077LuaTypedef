@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entParticlesComponent: entIVisualComponent
 ---@field emissionRate Float
 ---@field particleSystem CParticleSystem
@@ -7,6 +8,7 @@
 ---@field renderLayerMask RenderSceneLayerMask
 ---@field isEnabled Bool
 entParticlesComponent = {}
+
 
 ---@param fields? entParticlesComponent
 ---@return entParticlesComponent

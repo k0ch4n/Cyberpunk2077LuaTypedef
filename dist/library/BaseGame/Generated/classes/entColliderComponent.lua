@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entColliderComponent: entIPlacedComponent
 ---@field colliders physicsICollider[]
 ---@field simulationType physicsSimulationType
@@ -14,6 +15,7 @@
 ---@field isEnabled Bool
 ---@field dynamicTrafficSetting TrafficGenDynamicTrafficSetting
 entColliderComponent = {}
+
 
 ---@param fields? entColliderComponent
 ---@return entColliderComponent

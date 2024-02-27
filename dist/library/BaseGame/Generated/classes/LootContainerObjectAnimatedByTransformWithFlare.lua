@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class LootContainerObjectAnimatedByTransformWithFlare: LootContainerObjectAnimatedByTransform
 ---@field colliderWithInteraction entIComponent
 ---@field colliderWithoutInteraction entIComponent
 ---@field lightComponent1 entIComponent
 ---@field lightComponent2 entIComponent
 LootContainerObjectAnimatedByTransformWithFlare = {}
+
 
 ---@param fields? LootContainerObjectAnimatedByTransformWithFlare
 ---@return LootContainerObjectAnimatedByTransformWithFlare

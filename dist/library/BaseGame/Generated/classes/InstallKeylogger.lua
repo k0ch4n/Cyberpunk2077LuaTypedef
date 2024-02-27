@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InstallKeylogger: ActionBool
 InstallKeylogger = {}
+
 
 ---@param fields? InstallKeylogger
 ---@return InstallKeylogger

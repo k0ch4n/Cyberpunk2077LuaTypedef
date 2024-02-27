@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldEffectNodeInstance: worldINodeInstance
 worldEffectNodeInstance = {}
+
 
 ---@param fields? worldEffectNodeInstance
 ---@return worldEffectNodeInstance

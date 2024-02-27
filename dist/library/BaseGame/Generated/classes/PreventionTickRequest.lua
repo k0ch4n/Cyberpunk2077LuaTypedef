@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PreventionTickRequest: gameScriptableSystemRequest
 PreventionTickRequest = {}
+
 
 ---@param fields? PreventionTickRequest
 ---@return PreventionTickRequest

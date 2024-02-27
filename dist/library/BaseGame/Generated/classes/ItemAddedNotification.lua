@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ItemAddedNotification: GenericNotificationController
 ---@field itemImage inkImageWidgetReference
 ---@field rarityBar inkWidgetReference
 ---@field itemIconGender gameItemIconGender
 ---@field animationName CName
 ItemAddedNotification = {}
+
 
 ---@param fields? ItemAddedNotification
 ---@return ItemAddedNotification

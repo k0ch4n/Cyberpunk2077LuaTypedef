@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ThrowingKnifeReloadFinishedCrosshairEvent: redEvent
 ThrowingKnifeReloadFinishedCrosshairEvent = {}
+
 
 ---@param fields? ThrowingKnifeReloadFinishedCrosshairEvent
 ---@return ThrowingKnifeReloadFinishedCrosshairEvent

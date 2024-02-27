@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hudSightseeingBinocularsController: CustomAnimationsHudGameController
 ---@field pitch_min Float
 ---@field pitch_max Float
@@ -23,6 +24,7 @@
 ---@field ownerObject gameObject
 ---@field maxZoomLevel Int32
 hudSightseeingBinocularsController = {}
+
 
 ---@param fields? hudSightseeingBinocularsController
 ---@return hudSightseeingBinocularsController

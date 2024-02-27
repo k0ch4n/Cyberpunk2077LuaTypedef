@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class EntityHasVisualTag: gameIScriptablePrereq
 ---@field visualTag CName
 ---@field hasTag Bool
 EntityHasVisualTag = {}
+
 
 ---@param fields? EntityHasVisualTag
 ---@return EntityHasVisualTag

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ApplyStatusEffectByChanceEffector: gameEffector
 ---@field targetEntityID entEntityID
 ---@field applicationTarget CName
@@ -7,6 +8,7 @@
 ---@field removeWithEffector Bool
 ---@field effectorChanceMods gamedataStatModifier_Record[]
 ApplyStatusEffectByChanceEffector = {}
+
 
 ---@param fields? ApplyStatusEffectByChanceEffector
 ---@return ApplyStatusEffectByChanceEffector

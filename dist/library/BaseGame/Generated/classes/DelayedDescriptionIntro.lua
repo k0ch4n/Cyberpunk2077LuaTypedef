@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DelayedDescriptionIntro: redEvent
 DelayedDescriptionIntro = {}
+
 
 ---@param fields? DelayedDescriptionIntro
 ---@return DelayedDescriptionIntro

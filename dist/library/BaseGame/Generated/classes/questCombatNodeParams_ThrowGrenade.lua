@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCombatNodeParams_ThrowGrenade: questCombatNodeParams
 ---@field targetOverrideNode NodeRef
 ---@field targetOverridePuppet gameEntityReference
@@ -8,6 +9,7 @@
 ---@field force Bool
 ---@field immediately Bool
 questCombatNodeParams_ThrowGrenade = {}
+
 
 ---@param fields? questCombatNodeParams_ThrowGrenade
 ---@return questCombatNodeParams_ThrowGrenade

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTDBIDHelper
 gamedataTDBIDHelper = {}
+
 
 ---@param fields? gamedataTDBIDHelper
 ---@return gamedataTDBIDHelper

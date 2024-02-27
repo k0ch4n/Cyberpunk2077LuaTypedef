@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkMenuVisibilityChangedCallback: inkCallbackBase
 inkMenuVisibilityChangedCallback = {}
+
 
 ---@param fields? inkMenuVisibilityChangedCallback
 ---@return inkMenuVisibilityChangedCallback

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineparameterTypeAdjustTransformWithDurations: gamestateMachineparameterTypeAdjustTransform
 gamestateMachineparameterTypeAdjustTransformWithDurations = {}
+
 
 ---@param fields? gamestateMachineparameterTypeAdjustTransformWithDurations
 ---@return gamestateMachineparameterTypeAdjustTransformWithDurations

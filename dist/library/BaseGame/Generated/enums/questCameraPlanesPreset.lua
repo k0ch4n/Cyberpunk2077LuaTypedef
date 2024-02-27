@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCameraPlanesPreset: Enum
 ---@field Undefined Enum 0
 ---@field VeryNear Enum 1

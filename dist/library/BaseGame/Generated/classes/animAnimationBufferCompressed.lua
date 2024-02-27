@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimationBufferCompressed: animIAnimationBuffer
 ---@field duration Float
 ---@field numFrames Uint32
@@ -20,6 +21,7 @@
 ---@field extraDataNames CName[]
 ---@field inplaceCompressedBuffer DataBuffer
 animAnimationBufferCompressed = {}
+
 
 ---@param fields? animAnimationBufferCompressed
 ---@return animAnimationBufferCompressed

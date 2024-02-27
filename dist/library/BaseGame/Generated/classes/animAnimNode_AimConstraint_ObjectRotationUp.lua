@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_AimConstraint_ObjectRotationUp: animAnimNode_OnePoseInput
 ---@field targetTransform animTransformIndex
 ---@field upTransform animTransformIndex
@@ -11,6 +12,7 @@
 ---@field weight Float
 ---@field weightFloatTrack animNamedTrackIndex
 animAnimNode_AimConstraint_ObjectRotationUp = {}
+
 
 ---@param fields? animAnimNode_AimConstraint_ObjectRotationUp
 ---@return animAnimNode_AimConstraint_ObjectRotationUp

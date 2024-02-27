@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewItemTooltipHeaderController: NewItemTooltipModuleController
 ---@field itemNameText inkTextWidgetReference
 ---@field itemRarityText inkTextWidgetReference
@@ -11,6 +12,7 @@
 ---@field separatorTop inkWidgetReference
 ---@field localizedIconicText String
 NewItemTooltipHeaderController = {}
+
 
 ---@param fields? NewItemTooltipHeaderController
 ---@return NewItemTooltipHeaderController

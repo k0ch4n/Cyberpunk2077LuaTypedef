@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIActionParams: IScriptable
 AIActionParams = {}
+
 
 ---@param fields? AIActionParams
 ---@return AIActionParams

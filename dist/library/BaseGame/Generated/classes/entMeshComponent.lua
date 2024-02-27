@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entMeshComponent: entIVisualComponent
 ---@field mesh CMesh
 ---@field meshAppearance CName
@@ -21,6 +22,7 @@
 ---@field navigationImpact NavGenNavigationSetting
 ---@field version Uint8
 entMeshComponent = {}
+
 
 ---@param fields? entMeshComponent
 ---@return entMeshComponent

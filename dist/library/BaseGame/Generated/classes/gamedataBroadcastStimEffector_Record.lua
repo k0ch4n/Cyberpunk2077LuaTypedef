@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataBroadcastStimEffector_Record: gamedataContinuousEffector_Record
 gamedataBroadcastStimEffector_Record = {}
+
 
 ---@param fields? gamedataBroadcastStimEffector_Record
 ---@return gamedataBroadcastStimEffector_Record

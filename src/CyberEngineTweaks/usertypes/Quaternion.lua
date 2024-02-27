@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class Quaternion
 ---@field i number
 ---@field j number
 ---@field k number
 ---@field r number
 Quaternion = {}
+
 
 ---@param i number
 ---@param j number

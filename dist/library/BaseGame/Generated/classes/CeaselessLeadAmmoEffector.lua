@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CeaselessLeadAmmoEffector: gameEffector
 ---@field percentToRefund Float
 CeaselessLeadAmmoEffector = {}
+
 
 ---@param fields? CeaselessLeadAmmoEffector
 ---@return CeaselessLeadAmmoEffector

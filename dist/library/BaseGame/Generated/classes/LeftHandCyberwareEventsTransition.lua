@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareEventsTransition: LeftHandCyberwareTransition
 LeftHandCyberwareEventsTransition = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SpawnSubCharacterEffector: gameEffector
 ---@field owner gameObject
 ---@field subCharacterTDBID TweakDBID
 SpawnSubCharacterEffector = {}
+
 
 ---@param fields? SpawnSubCharacterEffector
 ---@return SpawnSubCharacterEffector

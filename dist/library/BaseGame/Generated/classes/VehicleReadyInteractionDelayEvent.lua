@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleReadyInteractionDelayEvent: redEvent
 VehicleReadyInteractionDelayEvent = {}
+
 
 ---@param fields? VehicleReadyInteractionDelayEvent
 ---@return VehicleReadyInteractionDelayEvent

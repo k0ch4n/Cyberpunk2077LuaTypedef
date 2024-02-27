@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalQuestType: Enum
 ---@field MainQuest Enum 0
 ---@field SideQuest Enum 1

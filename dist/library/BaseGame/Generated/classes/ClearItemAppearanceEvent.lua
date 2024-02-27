@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ClearItemAppearanceEvent: redEvent
 ---@field itemID gameItemID
 ClearItemAppearanceEvent = {}
+
 
 ---@param fields? ClearItemAppearanceEvent
 ---@return ClearItemAppearanceEvent

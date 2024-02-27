@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameInventoryItemData
 ---@field ID gameItemID
 ---@field SlotID TweakDBID
@@ -60,6 +61,7 @@
 ---@field IsCrafted Bool
 ---@field IsIconic Bool
 gameInventoryItemData = {}
+
 
 ---@param fields? gameInventoryItemData
 ---@return gameInventoryItemData

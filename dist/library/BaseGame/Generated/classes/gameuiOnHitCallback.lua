@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiOnHitCallback: inkCallbackBase
 gameuiOnHitCallback = {}
+
 
 ---@param fields? gameuiOnHitCallback
 ---@return gameuiOnHitCallback

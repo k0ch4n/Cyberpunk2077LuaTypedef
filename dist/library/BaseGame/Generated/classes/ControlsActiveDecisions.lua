@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ControlsActiveDecisions: BraindanceControlsTransition
 ControlsActiveDecisions = {}
+
 
 ---@param fields? ControlsActiveDecisions
 ---@return ControlsActiveDecisions

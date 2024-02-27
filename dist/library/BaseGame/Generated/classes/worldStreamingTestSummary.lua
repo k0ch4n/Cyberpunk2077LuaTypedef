@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldStreamingTestSummary: ISerializable
 ---@field gameDefinition String
 ---@field noCrowds Bool
@@ -13,6 +14,7 @@
 ---@field maxFps Float
 ---@field averageFps Float
 worldStreamingTestSummary = {}
+
 
 ---@param fields? worldStreamingTestSummary
 ---@return worldStreamingTestSummary

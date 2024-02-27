@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameDeviceResource: CResource
 ---@field data gameDeviceResourceData
 gameDeviceResource = {}
+
 
 ---@param fields? gameDeviceResource
 ---@return gameDeviceResource

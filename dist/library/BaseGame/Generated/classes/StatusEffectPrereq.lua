@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StatusEffectPrereq: gameIScriptablePrereq
 ---@field statusEffectRecordID TweakDBID
 ---@field tag CName
@@ -9,6 +10,7 @@
 ---@field objectToCheck CName
 ---@field evaluateOnRegister Bool
 StatusEffectPrereq = {}
+
 
 ---@param fields? StatusEffectPrereq
 ---@return StatusEffectPrereq

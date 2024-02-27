@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestPause: ActionBool
 QuestPause = {}
+
 
 ---@param fields? QuestPause
 ---@return QuestPause

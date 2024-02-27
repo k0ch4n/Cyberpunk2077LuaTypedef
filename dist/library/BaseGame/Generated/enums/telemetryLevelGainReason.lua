@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class telemetryLevelGainReason: Enum
 ---@field Ignore Enum 0
 ---@field Gameplay Enum 1

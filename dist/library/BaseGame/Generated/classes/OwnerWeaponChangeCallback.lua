@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OwnerWeaponChangeCallback: gameAttachmentSlotsScriptCallback
 ---@field followerRole AIFollowerRole
 OwnerWeaponChangeCallback = {}
+
 
 ---@param fields? OwnerWeaponChangeCallback
 ---@return OwnerWeaponChangeCallback

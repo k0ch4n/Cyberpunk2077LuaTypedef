@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameGeometryDescriptionSystem: IScriptable
 gameGeometryDescriptionSystem = {}
+
 
 ---@param fields? gameGeometryDescriptionSystem
 ---@return gameGeometryDescriptionSystem

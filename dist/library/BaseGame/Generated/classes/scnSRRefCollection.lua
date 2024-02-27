@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnSRRefCollection
 ---@field ridAnimations scnRidAnimationSRRef[]
 ---@field ridAnimSets scnRidAnimSetSRRef[]
@@ -16,6 +17,7 @@
 ---@field dynamicAnimNames scnAnimSetDynAnimNames[]
 ---@field ridAnimationContainers scnRidAnimationContainerSRRef[]
 scnSRRefCollection = {}
+
 
 ---@param fields? scnSRRefCollection
 ---@return scnSRRefCollection

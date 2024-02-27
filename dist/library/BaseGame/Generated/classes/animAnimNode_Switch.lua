@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_Switch: animAnimNode_MotionTableSwitch
 ---@field numInputs Uint32
 ---@field blendTime Float
@@ -11,6 +12,7 @@
 ---@field pushDataByTag CName
 ---@field canRequestInertialization Bool
 animAnimNode_Switch = {}
+
 
 ---@param fields? animAnimNode_Switch
 ---@return animAnimNode_Switch

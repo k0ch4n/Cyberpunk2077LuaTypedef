@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScenePlayerAnimationParams
 gameScenePlayerAnimationParams = {}
+
 
 ---@param fields? gameScenePlayerAnimationParams
 ---@return gameScenePlayerAnimationParams

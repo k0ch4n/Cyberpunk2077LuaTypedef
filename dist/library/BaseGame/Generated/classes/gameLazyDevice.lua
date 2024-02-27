@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameLazyDevice: IScriptable
 gameLazyDevice = {}
+
 
 ---@param fields? gameLazyDevice
 ---@return gameLazyDevice

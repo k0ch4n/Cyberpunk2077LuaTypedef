@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VisualState: Enum
 ---@field OFF Enum 0
 ---@field RUNNING Enum 1

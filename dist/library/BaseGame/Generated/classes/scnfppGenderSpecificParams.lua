@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnfppGenderSpecificParams
 ---@field genderMask scnGenderMask
 ---@field transitionBlendInTrajectorySpaceAngles EulerAngles[]
@@ -8,6 +9,7 @@
 ---@field idleCameraLs EulerAngles
 ---@field idleControlCameraMs EulerAngles
 scnfppGenderSpecificParams = {}
+
 
 ---@param fields? scnfppGenderSpecificParams
 ---@return scnfppGenderSpecificParams

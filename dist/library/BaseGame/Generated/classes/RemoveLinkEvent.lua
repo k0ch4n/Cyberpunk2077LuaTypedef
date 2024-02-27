@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RemoveLinkEvent: redEvent
 RemoveLinkEvent = {}
+
 
 ---@param fields? RemoveLinkEvent
 ---@return RemoveLinkEvent

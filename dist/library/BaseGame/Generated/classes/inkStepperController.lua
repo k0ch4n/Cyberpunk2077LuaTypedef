@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkStepperController: inkWidgetLogicController
 ---@field cycledNavigation Bool
 ---@field indicatorUnitLibraryID CName
@@ -9,6 +10,7 @@
 ---@field rightButton inkWidgetReference
 ---@field Change inkStepperChangedCallback
 inkStepperController = {}
+
 
 ---@param fields? inkStepperController
 ---@return inkStepperController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameFxSystem: gameIFxSystem
 gameFxSystem = {}
+
 
 ---@param fields? gameFxSystem
 ---@return gameFxSystem

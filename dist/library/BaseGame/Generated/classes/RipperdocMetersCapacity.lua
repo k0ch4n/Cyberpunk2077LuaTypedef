@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocMetersCapacity: RipperdocMetersBase
 ---@field defaultRightBarScale Float
 ---@field overchargeGapSize Float
@@ -39,6 +40,7 @@
 ---@field C_costLabelAnchorPoint_EQUIPPED Vector2
 ---@field C_costLabelAnchorPoint_EQUIPPED_EDGRUNNER Vector2
 RipperdocMetersCapacity = {}
+
 
 ---@param fields? RipperdocMetersCapacity
 ---@return RipperdocMetersCapacity

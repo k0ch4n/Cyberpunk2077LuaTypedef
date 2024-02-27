@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class Codeware_UI_InGamePopup: Codeware_UI_CustomPopup
 ---@field vignette inkImageWidget
 ---@field container inkCompoundWidget
 Codeware_UI_InGamePopup = {}
+
 
 ---@return nil
 function Codeware_UI_InGamePopup:OnCreate() end

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StimFilters: IScriptable
 StimFilters = {}
+
 
 ---@param fields? StimFilters
 ---@return StimFilters

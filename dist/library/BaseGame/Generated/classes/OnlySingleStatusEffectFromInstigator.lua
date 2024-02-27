@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OnlySingleStatusEffectFromInstigator: gameEffectObjectSingleFilter_Scripted
 OnlySingleStatusEffectFromInstigator = {}
+
 
 ---@param fields? OnlySingleStatusEffectFromInstigator
 ---@return OnlySingleStatusEffectFromInstigator

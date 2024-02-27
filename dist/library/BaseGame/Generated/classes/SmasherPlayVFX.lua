@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SmasherPlayVFX: AIbehaviortaskScript
 ---@field vfxOffset Vector3
 ---@field vfxResource gameFxResource
@@ -12,6 +13,7 @@
 ---@field vfxInstance gameFxInstance
 ---@field startTime Float
 SmasherPlayVFX = {}
+
 
 ---@param fields? SmasherPlayVFX
 ---@return SmasherPlayVFX

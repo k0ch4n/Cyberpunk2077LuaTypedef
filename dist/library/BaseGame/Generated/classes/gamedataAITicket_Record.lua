@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAITicket_Record: gamedataTweakDBRecord
 gamedataAITicket_Record = {}
+
 
 ---@param fields? gamedataAITicket_Record
 ---@return gamedataAITicket_Record

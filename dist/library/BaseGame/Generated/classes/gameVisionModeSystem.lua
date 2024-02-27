@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameVisionModeSystem: gameIVisionModeSystem
 gameVisionModeSystem = {}
+
 
 ---@param fields? gameVisionModeSystem
 ---@return gameVisionModeSystem

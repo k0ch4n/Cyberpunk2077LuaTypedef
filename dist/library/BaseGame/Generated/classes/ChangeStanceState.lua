@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ChangeStanceState: ChangeStanceStateAbstract
 ---@field newState gamedataNPCStanceState
 ChangeStanceState = {}
+
 
 ---@param fields? ChangeStanceState
 ---@return ChangeStanceState

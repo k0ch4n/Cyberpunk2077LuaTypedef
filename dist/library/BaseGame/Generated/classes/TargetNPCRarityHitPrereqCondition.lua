@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TargetNPCRarityHitPrereqCondition: BaseHitPrereqCondition
 ---@field rarity gamedataNPCRarity
 TargetNPCRarityHitPrereqCondition = {}
+
 
 ---@param fields? TargetNPCRarityHitPrereqCondition
 ---@return TargetNPCRarityHitPrereqCondition

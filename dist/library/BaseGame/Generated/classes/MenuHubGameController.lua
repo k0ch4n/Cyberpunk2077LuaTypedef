@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MenuHubGameController: gameuiMenuGameController
 ---@field menusData MenuDataBuilder
 ---@field menuEventDispatcher inkMenuEventDispatcher
@@ -37,6 +38,7 @@
 ---@field previousRequest OpenMenuRequest
 ---@field currentRequest OpenMenuRequest
 MenuHubGameController = {}
+
 
 ---@param fields? MenuHubGameController
 ---@return MenuHubGameController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entPreUninitializeEvent: redEvent
 entPreUninitializeEvent = {}
+
 
 ---@param fields? entPreUninitializeEvent
 ---@return entPreUninitializeEvent

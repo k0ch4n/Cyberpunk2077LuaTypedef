@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ApplyStatusEffectEffector: gameEffector
 ---@field targetEntityID entEntityID
 ---@field applicationTarget CName
@@ -10,6 +11,7 @@
 ---@field count Float
 ---@field instigator String
 ApplyStatusEffectEffector = {}
+
 
 ---@param fields? ApplyStatusEffectEffector
 ---@return ApplyStatusEffectEffector

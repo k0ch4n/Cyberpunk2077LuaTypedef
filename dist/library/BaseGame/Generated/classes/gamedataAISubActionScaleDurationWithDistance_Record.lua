@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionScaleDurationWithDistance_Record: gamedataAISubAction_Record
 gamedataAISubActionScaleDurationWithDistance_Record = {}
+
 
 ---@param fields? gamedataAISubActionScaleDurationWithDistance_Record
 ---@return gamedataAISubActionScaleDurationWithDistance_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animAnimFeature: IScriptable
 animAnimFeature = {}
+
 
 ---@param fields? animAnimFeature
 ---@return animAnimFeature

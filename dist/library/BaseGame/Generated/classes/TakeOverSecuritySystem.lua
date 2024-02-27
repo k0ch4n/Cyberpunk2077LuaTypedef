@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TakeOverSecuritySystem: ActionBool
 TakeOverSecuritySystem = {}
+
 
 ---@param fields? TakeOverSecuritySystem
 ---@return TakeOverSecuritySystem

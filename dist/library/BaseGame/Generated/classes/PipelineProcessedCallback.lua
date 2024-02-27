@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PipelineProcessedCallback: HitCallback
 PipelineProcessedCallback = {}
+
 
 ---@param fields? PipelineProcessedCallback
 ---@return PipelineProcessedCallback

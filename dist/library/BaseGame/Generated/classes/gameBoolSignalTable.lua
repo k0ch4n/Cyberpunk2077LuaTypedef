@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameBoolSignalTable: IScriptable
 gameBoolSignalTable = {}
+
 
 ---@param fields? gameBoolSignalTable
 ---@return gameBoolSignalTable

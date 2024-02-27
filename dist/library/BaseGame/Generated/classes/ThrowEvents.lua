@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ThrowEvents: CarriedObjectEvents
 ThrowEvents = {}
+
 
 ---@param fields? ThrowEvents
 ---@return ThrowEvents

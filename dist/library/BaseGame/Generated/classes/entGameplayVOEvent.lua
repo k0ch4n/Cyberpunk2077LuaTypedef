@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entGameplayVOEvent: redEvent
 ---@field voContext CName
 ---@field isQuest Bool
@@ -14,6 +15,7 @@
 ---@field overridingVisualStyleValue Uint8
 ---@field overrideVisualStyle Bool
 entGameplayVOEvent = {}
+
 
 ---@param fields? entGameplayVOEvent
 ---@return entGameplayVOEvent

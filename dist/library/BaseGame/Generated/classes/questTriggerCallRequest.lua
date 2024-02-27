@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questTriggerCallRequest: gameScriptableSystemRequest
 ---@field caller CName
 ---@field addressee CName
@@ -10,6 +11,7 @@
 ---@field showAvatar Bool
 ---@field visuals questPhoneCallVisuals
 questTriggerCallRequest = {}
+
 
 ---@param fields? questTriggerCallRequest
 ---@return questTriggerCallRequest

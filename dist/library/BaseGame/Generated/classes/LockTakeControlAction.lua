@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LockTakeControlAction: gameScriptableSystemRequest
 ---@field isLocked Bool
 LockTakeControlAction = {}
+
 
 ---@param fields? LockTakeControlAction
 ---@return LockTakeControlAction

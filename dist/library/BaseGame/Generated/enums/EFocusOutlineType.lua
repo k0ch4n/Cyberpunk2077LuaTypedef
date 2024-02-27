@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EFocusOutlineType: Enum
 ---@field HOSTILE Enum 0
 ---@field FRIENDLY Enum 1

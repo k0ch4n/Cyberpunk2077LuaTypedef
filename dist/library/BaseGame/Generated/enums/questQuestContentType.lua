@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questQuestContentType: Enum
 ---@field EP1_MainQuest Enum 0
 ---@field EP1_SideQuest Enum 1

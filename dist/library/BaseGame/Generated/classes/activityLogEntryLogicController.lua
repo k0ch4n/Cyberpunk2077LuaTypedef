@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class activityLogEntryLogicController: inkWidgetLogicController
 ---@field available Bool
 ---@field originalSize Uint16
@@ -14,6 +15,7 @@
 ---@field disappearingAnimDef inkanimDefinition
 ---@field disappearingAnimProxy inkanimProxy
 activityLogEntryLogicController = {}
+
 
 ---@param fields? activityLogEntryLogicController
 ---@return activityLogEntryLogicController

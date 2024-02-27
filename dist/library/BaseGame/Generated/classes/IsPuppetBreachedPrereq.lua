@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsPuppetBreachedPrereq: gameIScriptablePrereq
 ---@field isBreached Bool
 IsPuppetBreachedPrereq = {}
+
 
 ---@param fields? IsPuppetBreachedPrereq
 ---@return IsPuppetBreachedPrereq

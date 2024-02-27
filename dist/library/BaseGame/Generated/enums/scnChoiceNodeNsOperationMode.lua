@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnChoiceNodeNsOperationMode: Enum
 ---@field attachToActor Enum 0
 ---@field attachToProp Enum 1

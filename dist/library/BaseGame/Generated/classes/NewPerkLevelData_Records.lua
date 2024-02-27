@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NewPerkLevelData_Records: BasePerkLevelData_Records
 ---@field perkRecord gamedataNewPerk_Record
 ---@field arr gamedataNewPerkLevelData_Record[]
 NewPerkLevelData_Records = {}
+
 
 ---@param fields? NewPerkLevelData_Records
 ---@return NewPerkLevelData_Records

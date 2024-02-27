@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestPickUpCall: ActionBool
 QuestPickUpCall = {}
+
 
 ---@param fields? QuestPickUpCall
 ---@return QuestPickUpCall

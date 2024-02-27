@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EvaluateMinigame: redEvent
 ---@field minigameBB gameIBlackboard
 ---@field reward TweakDBID
@@ -10,6 +11,7 @@
 ---@field showPopup Bool
 ---@field returnToJournal Bool
 EvaluateMinigame = {}
+
 
 ---@param fields? EvaluateMinigame
 ---@return EvaluateMinigame

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class servicesTrialHelper
 servicesTrialHelper = {}
+
 
 ---@param fields? servicesTrialHelper
 ---@return servicesTrialHelper

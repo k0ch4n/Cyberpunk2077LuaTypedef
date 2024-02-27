@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTweakDBRecord: IScriptable
 gamedataTweakDBRecord = {}
+
 
 ---@param fields? gamedataTweakDBRecord
 ---@return gamedataTweakDBRecord

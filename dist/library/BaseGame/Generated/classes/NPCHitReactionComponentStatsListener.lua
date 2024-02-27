@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NPCHitReactionComponentStatsListener: gameScriptStatsListener
 ---@field npc NPCPuppet
 NPCHitReactionComponentStatsListener = {}
+
 
 ---@param fields? NPCHitReactionComponentStatsListener
 ---@return NPCHitReactionComponentStatsListener

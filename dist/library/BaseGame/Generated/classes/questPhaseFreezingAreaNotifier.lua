@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questPhaseFreezingAreaNotifier: worldITriggerAreaNotifer
 questPhaseFreezingAreaNotifier = {}
+
 
 ---@param fields? questPhaseFreezingAreaNotifier
 ---@return questPhaseFreezingAreaNotifier

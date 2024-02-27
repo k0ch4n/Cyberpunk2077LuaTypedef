@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleFxWheelsDecalsMaterialSmear_Record: gamedataVehicleFxWheelsDecalsMaterial_Record
 gamedataVehicleFxWheelsDecalsMaterialSmear_Record = {}
+
 
 ---@param fields? gamedataVehicleFxWheelsDecalsMaterialSmear_Record
 ---@return gamedataVehicleFxWheelsDecalsMaterialSmear_Record

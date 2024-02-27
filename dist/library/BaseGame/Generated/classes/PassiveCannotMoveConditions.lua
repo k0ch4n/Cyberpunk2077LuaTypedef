@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PassiveCannotMoveConditions: PassiveAutonomousCondition
 ---@field statusEffectRemovedId Uint32
 PassiveCannotMoveConditions = {}
+
 
 ---@param fields? PassiveCannotMoveConditions
 ---@return PassiveCannotMoveConditions

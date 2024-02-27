@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gamedataVariableNodeVariableValue
 ---@field node gamedataValueNode
 ---@field deriveInfo gamedataVariableNodeVariableValueDeriveInfo
 gamedataVariableNodeVariableValue = {}
+
 
 ---@param fields? gamedataVariableNodeVariableValue
 ---@return gamedataVariableNodeVariableValue

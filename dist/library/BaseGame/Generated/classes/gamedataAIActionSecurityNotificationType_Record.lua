@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIActionSecurityNotificationType_Record: gamedataTweakDBRecord
 gamedataAIActionSecurityNotificationType_Record = {}
+
 
 ---@param fields? gamedataAIActionSecurityNotificationType_Record
 ---@return gamedataAIActionSecurityNotificationType_Record

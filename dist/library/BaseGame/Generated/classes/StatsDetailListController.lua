@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class StatsDetailListController: inkWidgetLogicController
 ---@field StatLabelRef inkTextWidgetReference
 ---@field statsList inkCompoundWidgetReference
 StatsDetailListController = {}
+
 
 ---@param fields? StatsDetailListController
 ---@return StatsDetailListController

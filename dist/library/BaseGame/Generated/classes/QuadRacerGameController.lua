@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class QuadRacerGameController: gameuiSideScrollerMiniGameController
 ---@field gameMenu inkWidgetReference
 ---@field scoreboardMenu inkWidgetReference
 QuadRacerGameController = {}
+
 
 ---@param fields? QuadRacerGameController
 ---@return QuadRacerGameController

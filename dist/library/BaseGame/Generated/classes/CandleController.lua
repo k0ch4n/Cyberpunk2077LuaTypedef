@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CandleController: ScriptableDeviceComponent
 CandleController = {}
+
 
 ---@param fields? CandleController
 ---@return CandleController

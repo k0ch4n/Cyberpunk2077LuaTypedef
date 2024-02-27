@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEffectNearlyHitAgentData
 ---@field hitPosition Vector4
 ---@field hitDirection Vector4
@@ -7,6 +8,7 @@
 ---@field isPlayer Bool
 ---@field wasHit Bool
 gameEffectNearlyHitAgentData = {}
+
 
 ---@param fields? gameEffectNearlyHitAgentData
 ---@return gameEffectNearlyHitAgentData

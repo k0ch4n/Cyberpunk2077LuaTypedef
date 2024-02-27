@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BoothModeGameController: gameuiWidgetGameController
 ---@field buttonRef inkWidgetReference
 BoothModeGameController = {}
+
 
 ---@param fields? BoothModeGameController
 ---@return BoothModeGameController

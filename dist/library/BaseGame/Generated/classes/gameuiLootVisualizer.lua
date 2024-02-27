@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiLootVisualizer: gameuiIChoiceVisualizer
 gameuiLootVisualizer = {}
+
 
 ---@param fields? gameuiLootVisualizer
 ---@return gameuiLootVisualizer

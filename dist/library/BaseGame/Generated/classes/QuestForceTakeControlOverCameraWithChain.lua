@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceTakeControlOverCameraWithChain: ActionBool
 QuestForceTakeControlOverCameraWithChain = {}
+
 
 ---@param fields? QuestForceTakeControlOverCameraWithChain
 ---@return QuestForceTakeControlOverCameraWithChain

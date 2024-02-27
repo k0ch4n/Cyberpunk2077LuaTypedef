@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ModifyStatPoolValueQuickhackCostEffector: HitEventEffector
 ---@field statPoolValue Float
 ---@field statPoolType gamedataStatPoolType
 ---@field recoverMemoryAmount Float
 ---@field skipLastCombatHack Bool
 ModifyStatPoolValueQuickhackCostEffector = {}
+
 
 ---@param fields? ModifyStatPoolValueQuickhackCostEffector
 ---@return ModifyStatPoolValueQuickhackCostEffector

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MenuScenario_SingleplayerMenu: MenuScenario_PreGameSubMenu
 ---@field expansionHintShown Bool
 MenuScenario_SingleplayerMenu = {}
+
 
 ---@param fields? MenuScenario_SingleplayerMenu
 ---@return MenuScenario_SingleplayerMenu

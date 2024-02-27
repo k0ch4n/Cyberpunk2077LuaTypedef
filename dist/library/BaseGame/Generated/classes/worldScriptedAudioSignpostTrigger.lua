@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldScriptedAudioSignpostTrigger: IScriptable
 worldScriptedAudioSignpostTrigger = {}
+
 
 ---@param fields? worldScriptedAudioSignpostTrigger
 ---@return worldScriptedAudioSignpostTrigger

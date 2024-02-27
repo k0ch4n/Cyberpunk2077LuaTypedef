@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SampleEntityWithCounterPS: gameObjectPS
 ---@field counter Int32
 SampleEntityWithCounterPS = {}
+
 
 ---@param fields? SampleEntityWithCounterPS
 ---@return SampleEntityWithCounterPS

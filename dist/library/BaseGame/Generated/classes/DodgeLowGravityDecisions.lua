@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DodgeLowGravityDecisions: LocomotionGroundDecisions
 DodgeLowGravityDecisions = {}
+
 
 ---@param fields? DodgeLowGravityDecisions
 ---@return DodgeLowGravityDecisions

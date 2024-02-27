@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AddNewPerkPoints: NewPerkPoinsActionRequest
 AddNewPerkPoints = {}
+
 
 ---@param fields? AddNewPerkPoints
 ---@return AddNewPerkPoints

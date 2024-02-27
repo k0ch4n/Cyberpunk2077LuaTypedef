@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameAppearanceNameVisualTagsPreset_Entity: ISerializable
 ---@field entityPathHash Uint64
 ---@field debugEntityPath CName
@@ -8,6 +9,7 @@
 ---@field commonVisualTags redTagList
 ---@field appearancesToTags gameAppearanceNameVisualTagsPreset_AppearanceTags[]
 gameAppearanceNameVisualTagsPreset_Entity = {}
+
 
 ---@param fields? gameAppearanceNameVisualTagsPreset_Entity
 ---@return gameAppearanceNameVisualTagsPreset_Entity

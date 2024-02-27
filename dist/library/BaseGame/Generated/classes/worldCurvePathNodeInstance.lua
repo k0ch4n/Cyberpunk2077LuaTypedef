@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldCurvePathNodeInstance: worldSplineNodeInstance
 worldCurvePathNodeInstance = {}
+
 
 ---@param fields? worldCurvePathNodeInstance
 ---@return worldCurvePathNodeInstance

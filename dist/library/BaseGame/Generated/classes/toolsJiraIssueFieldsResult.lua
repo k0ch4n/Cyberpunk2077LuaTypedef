@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class toolsJiraIssueFieldsResult
 ---@field project String
 ---@field summary String
@@ -37,6 +38,7 @@
 ---@field customfield_10606 String
 ---@field customfield_10002 String
 toolsJiraIssueFieldsResult = {}
+
 
 ---@param fields? toolsJiraIssueFieldsResult
 ---@return toolsJiraIssueFieldsResult

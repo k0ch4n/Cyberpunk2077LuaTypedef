@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ItemsLocalizationHelper: IScriptable
 ItemsLocalizationHelper = {}
+
 
 ---@param fields? ItemsLocalizationHelper
 ---@return ItemsLocalizationHelper

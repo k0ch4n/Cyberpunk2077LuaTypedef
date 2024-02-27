@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleInsideWheelDecisions: QuickSlotsHoldDecisions
 VehicleInsideWheelDecisions = {}
+
 
 ---@param fields? VehicleInsideWheelDecisions
 ---@return VehicleInsideWheelDecisions

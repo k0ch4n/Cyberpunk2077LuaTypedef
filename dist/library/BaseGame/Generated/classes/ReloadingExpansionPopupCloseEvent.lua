@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReloadingExpansionPopupCloseEvent: redEvent
 ReloadingExpansionPopupCloseEvent = {}
+
 
 ---@param fields? ReloadingExpansionPopupCloseEvent
 ---@return ReloadingExpansionPopupCloseEvent

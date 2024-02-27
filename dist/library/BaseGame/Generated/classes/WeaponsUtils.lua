@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WeaponsUtils: IScriptable
 WeaponsUtils = {}
+
 
 ---@param fields? WeaponsUtils
 ---@return WeaponsUtils

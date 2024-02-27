@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CheckIfCombatAllowed: AIDebugConditions
 CheckIfCombatAllowed = {}
+
 
 ---@param fields? CheckIfCombatAllowed
 ---@return CheckIfCombatAllowed

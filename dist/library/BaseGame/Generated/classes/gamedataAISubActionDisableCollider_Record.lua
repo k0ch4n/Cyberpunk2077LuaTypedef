@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionDisableCollider_Record: gamedataAISubAction_Record
 gamedataAISubActionDisableCollider_Record = {}
+
 
 ---@param fields? gamedataAISubActionDisableCollider_Record
 ---@return gamedataAISubActionDisableCollider_Record

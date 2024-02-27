@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VehicleHealthStatPoolListener: gameCustomValueStatPoolsListener
 ---@field owner vehicleBaseObject
 VehicleHealthStatPoolListener = {}
+
 
 ---@param fields? VehicleHealthStatPoolListener
 ---@return VehicleHealthStatPoolListener

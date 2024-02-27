@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TestScriptableComponent: gameScriptableComponent
 TestScriptableComponent = {}
+
 
 ---@param fields? TestScriptableComponent
 ---@return TestScriptableComponent

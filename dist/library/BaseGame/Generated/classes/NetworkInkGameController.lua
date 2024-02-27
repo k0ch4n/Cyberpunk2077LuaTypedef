@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NetworkInkGameController: gameuiWidgetGameController
 ---@field turn String
 ---@field dimension Int32
@@ -31,6 +32,7 @@
 ---@field onBreachingNetworkListener redCallbackObject
 ---@field onDevicesCountChangedListener redCallbackObject
 NetworkInkGameController = {}
+
 
 ---@param fields? NetworkInkGameController
 ---@return NetworkInkGameController

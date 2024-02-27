@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gsmMenuState_LoadSession: gsmMenuState
 gsmMenuState_LoadSession = {}
+
 
 ---@param fields? gsmMenuState_LoadSession
 ---@return gsmMenuState_LoadSession

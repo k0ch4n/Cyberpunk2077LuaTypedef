@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AutoplayVideoController: inkWidgetLogicController
 AutoplayVideoController = {}
+
 
 ---@param fields? AutoplayVideoController
 ---@return AutoplayVideoController

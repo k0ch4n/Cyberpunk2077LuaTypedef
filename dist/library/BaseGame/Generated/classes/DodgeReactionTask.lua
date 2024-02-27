@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DodgeReactionTask: AIbehaviortaskScript
 DodgeReactionTask = {}
+
 
 ---@param fields? DodgeReactionTask
 ---@return DodgeReactionTask

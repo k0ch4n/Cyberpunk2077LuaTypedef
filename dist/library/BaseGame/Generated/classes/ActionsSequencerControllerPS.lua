@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ActionsSequencerControllerPS: MasterControllerPS
 ---@field sequenceDuration Float
 ---@field sequencerMode EActionsSequencerMode
 ---@field actionTypeToForward SActionTypeForward
 ---@field ongoingSequence ActionsSequence
 ActionsSequencerControllerPS = {}
+
 
 ---@param fields? ActionsSequencerControllerPS
 ---@return ActionsSequencerControllerPS

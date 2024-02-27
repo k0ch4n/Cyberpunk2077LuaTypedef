@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameCityAreaType: Enum
 ---@field Undefined Enum 0
 ---@field PublicZone Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataSimpleValueNodeValueType: Enum
 ---@field String Enum 0
 ---@field Number Enum 1

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class StatsViewController: inkWidgetLogicController
 ---@field StatLabelRef inkTextWidgetReference
 ---@field StatValueRef inkTextWidgetReference
 ---@field icon inkImageWidgetReference
 ---@field stat gameStatViewData
 StatsViewController = {}
+
 
 ---@param fields? StatsViewController
 ---@return StatsViewController

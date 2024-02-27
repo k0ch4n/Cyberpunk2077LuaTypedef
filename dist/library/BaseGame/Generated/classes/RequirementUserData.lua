@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RequirementUserData: IScriptable
 ---@field skillName String
 ---@field requiredSkill Int32
@@ -7,6 +8,7 @@
 ---@field isPassed Bool
 ---@field asyncSpawnRequest inkAsyncSpawnRequest
 RequirementUserData = {}
+
 
 ---@param fields? RequirementUserData
 ---@return RequirementUserData

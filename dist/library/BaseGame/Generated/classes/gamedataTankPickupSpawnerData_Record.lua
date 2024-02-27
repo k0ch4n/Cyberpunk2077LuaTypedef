@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTankPickupSpawnerData_Record: gamedataTweakDBRecord
 gamedataTankPickupSpawnerData_Record = {}
+
 
 ---@param fields? gamedataTankPickupSpawnerData_Record
 ---@return gamedataTankPickupSpawnerData_Record

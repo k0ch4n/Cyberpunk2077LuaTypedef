@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkInputKeyData
 inkInputKeyData = {}
+
 
 ---@param fields? inkInputKeyData
 ---@return inkInputKeyData

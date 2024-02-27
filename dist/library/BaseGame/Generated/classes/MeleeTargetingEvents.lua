@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MeleeTargetingEvents: MeleeEventsTransition
 ---@field aimInTimeRemaining Float
 MeleeTargetingEvents = {}
+
 
 ---@param fields? MeleeTargetingEvents
 ---@return MeleeTargetingEvents

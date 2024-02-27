@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAmbientAreaNotifier: worldITriggerAreaNotifer
 ---@field Settings audioAmbientAreaSettings
 ---@field usePhysicsObstruction Bool
@@ -10,6 +11,7 @@
 ---@field rolloffOverride Float
 ---@field useAutoOutdoorness Bool
 audioAmbientAreaNotifier = {}
+
 
 ---@param fields? audioAmbientAreaNotifier
 ---@return audioAmbientAreaNotifier

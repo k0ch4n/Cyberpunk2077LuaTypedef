@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TeleportFailsafeHelper: AIbehaviortaskScript
 TeleportFailsafeHelper = {}
+
 
 ---@param fields? TeleportFailsafeHelper
 ---@return TeleportFailsafeHelper

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questCleanupUiNotificationsEvent: redEvent
 questCleanupUiNotificationsEvent = {}
+
 
 ---@param fields? questCleanupUiNotificationsEvent
 ---@return questCleanupUiNotificationsEvent

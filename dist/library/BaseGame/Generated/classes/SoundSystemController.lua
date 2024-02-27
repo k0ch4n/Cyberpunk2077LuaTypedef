@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SoundSystemController: MasterController
 SoundSystemController = {}
+
 
 ---@param fields? SoundSystemController
 ---@return SoundSystemController

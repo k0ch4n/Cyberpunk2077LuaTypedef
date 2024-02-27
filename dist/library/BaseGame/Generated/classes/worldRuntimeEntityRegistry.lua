@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeEntityRegistry: worldIRuntimeSystem
 worldRuntimeEntityRegistry = {}
+
 
 ---@param fields? worldRuntimeEntityRegistry
 ---@return worldRuntimeEntityRegistry

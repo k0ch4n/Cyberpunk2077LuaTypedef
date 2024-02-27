@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestRestoreQuickHacks: ActionBool
 QuestRestoreQuickHacks = {}
+
 
 ---@param fields? QuestRestoreQuickHacks
 ---@return QuestRestoreQuickHacks

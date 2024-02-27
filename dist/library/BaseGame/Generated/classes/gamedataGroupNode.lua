@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataGroupNode: gamedataDataNode
 ---@field name String
 ---@field base String
@@ -14,6 +15,7 @@
 ---@field serializedVariables gamedataGroupNodeGroupVariable[]
 ---@field tags CName[]
 gamedataGroupNode = {}
+
 
 ---@param fields? gamedataGroupNode
 ---@return gamedataGroupNode

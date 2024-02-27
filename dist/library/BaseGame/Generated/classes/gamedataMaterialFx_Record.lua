@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataMaterialFx_Record: gamedataTweakDBRecord
 gamedataMaterialFx_Record = {}
+
 
 ---@param fields? gamedataMaterialFx_Record
 ---@return gamedataMaterialFx_Record

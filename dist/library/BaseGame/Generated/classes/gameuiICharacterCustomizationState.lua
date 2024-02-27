@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiICharacterCustomizationState: IScriptable
 gameuiICharacterCustomizationState = {}
+
 
 ---@param type gamedataStatType
 ---@return Uint32

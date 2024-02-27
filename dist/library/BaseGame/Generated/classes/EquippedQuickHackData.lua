@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EquippedQuickHackData: IScriptable
 ---@field programEntries ProgramEntry[]
 EquippedQuickHackData = {}
+
 
 ---@param fields? EquippedQuickHackData
 ---@return EquippedQuickHackData

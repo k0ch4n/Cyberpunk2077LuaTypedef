@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldPhysicalImpulseAreaNodeInstance: worldPhysicalTriggerAreaNodeInstance
 worldPhysicalImpulseAreaNodeInstance = {}
+
 
 ---@param fields? worldPhysicalImpulseAreaNodeInstance
 ---@return worldPhysicalImpulseAreaNodeInstance

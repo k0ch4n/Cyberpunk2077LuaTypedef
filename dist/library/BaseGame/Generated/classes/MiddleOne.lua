@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MiddleOne: DefaultTest
 MiddleOne = {}
+
 
 ---@param fields? MiddleOne
 ---@return MiddleOne

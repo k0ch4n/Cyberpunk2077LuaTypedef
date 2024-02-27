@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class characterCreationBodyMorphMenu: gameuiBaseCharacterCreationController
 ---@field defaultPreviewSlot CName
 ---@field optionsList inkCompoundWidgetReference
@@ -55,6 +56,7 @@
 ---@field inputDisabled Bool
 ---@field isPresetHoveredOver Bool
 characterCreationBodyMorphMenu = {}
+
 
 ---@param fields? characterCreationBodyMorphMenu
 ---@return characterCreationBodyMorphMenu

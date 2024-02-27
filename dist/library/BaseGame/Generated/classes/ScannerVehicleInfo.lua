@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerVehicleInfo: ScannerChunk
 ---@field vehicleInfo String
 ScannerVehicleInfo = {}
+
 
 ---@param fields? ScannerVehicleInfo
 ---@return ScannerVehicleInfo

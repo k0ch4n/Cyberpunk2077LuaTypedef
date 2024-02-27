@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIScanTargetTask: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 AIScanTargetTask = {}
+
 
 ---@param fields? AIScanTargetTask
 ---@return AIScanTargetTask

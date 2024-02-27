@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MemoryListener: gameCustomValueStatPoolsListener
 ---@field player PlayerPuppet
 MemoryListener = {}
+
 
 ---@param fields? MemoryListener
 ---@return MemoryListener

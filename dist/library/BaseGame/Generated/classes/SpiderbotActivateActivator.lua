@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SpiderbotActivateActivator: ActionBool
 SpiderbotActivateActivator = {}
+
 
 ---@param fields? SpiderbotActivateActivator
 ---@return SpiderbotActivateActivator

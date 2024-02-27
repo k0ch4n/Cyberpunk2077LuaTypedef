@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareSafeEvents: LeftHandCyberwareEventsTransition
 LeftHandCyberwareSafeEvents = {}
+
 
 ---@param fields? LeftHandCyberwareSafeEvents
 ---@return LeftHandCyberwareSafeEvents

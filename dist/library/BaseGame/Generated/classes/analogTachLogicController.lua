@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class analogTachLogicController: IVehicleModuleController
 ---@field analogTachNeedleWidget inkWidgetReference
 ---@field analogTachNeedleMinRotation Float
@@ -9,6 +10,7 @@
 ---@field rpmMaxValue Float
 ---@field rpmMinValue Float
 analogTachLogicController = {}
+
 
 ---@param fields? analogTachLogicController
 ---@return analogTachLogicController

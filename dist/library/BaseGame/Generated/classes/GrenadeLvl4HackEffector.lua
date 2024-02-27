@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GrenadeLvl4HackEffector: gameEffector
 ---@field grenadeChangeEntity gameObject
 ---@field grenadeChangedListener gameAttachmentSlotsScriptListener
 GrenadeLvl4HackEffector = {}
+
 
 ---@param fields? GrenadeLvl4HackEffector
 ---@return GrenadeLvl4HackEffector

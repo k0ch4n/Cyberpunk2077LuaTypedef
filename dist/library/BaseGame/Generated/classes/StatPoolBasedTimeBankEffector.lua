@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StatPoolBasedTimeBankEffector: gameContinuousEffector
 ---@field TimeBankValue Float
 ---@field maxStatPoolValue Float
@@ -12,6 +13,7 @@
 ---@field gameInstance ScriptGameInstance
 ---@field regenMod gameStatPoolModifier
 StatPoolBasedTimeBankEffector = {}
+
 
 ---@param fields? StatPoolBasedTimeBankEffector
 ---@return StatPoolBasedTimeBankEffector

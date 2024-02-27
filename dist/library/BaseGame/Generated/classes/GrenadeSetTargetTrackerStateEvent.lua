@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GrenadeSetTargetTrackerStateEvent: redEvent
 ---@field state Bool
 GrenadeSetTargetTrackerStateEvent = {}
+
 
 ---@param fields? GrenadeSetTargetTrackerStateEvent
 ---@return GrenadeSetTargetTrackerStateEvent

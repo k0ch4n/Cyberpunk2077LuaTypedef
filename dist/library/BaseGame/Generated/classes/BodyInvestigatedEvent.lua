@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BodyInvestigatedEvent: redEvent
 BodyInvestigatedEvent = {}
+
 
 ---@param fields? BodyInvestigatedEvent
 ---@return BodyInvestigatedEvent

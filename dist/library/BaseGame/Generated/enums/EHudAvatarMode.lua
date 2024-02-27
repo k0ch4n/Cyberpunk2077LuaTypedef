@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EHudAvatarMode: Enum
 ---@field Connecting Enum 0
 ---@field Disconnecting Enum 1

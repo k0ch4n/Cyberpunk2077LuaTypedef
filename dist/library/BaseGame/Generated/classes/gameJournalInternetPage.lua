@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalInternetPage: gameJournalEntry
 ---@field address String
 ---@field factsToSet gameJournalFactNameValue[]
@@ -13,6 +14,7 @@
 ---@field videos gameJournalInternetVideo[]
 ---@field canvases gameJournalInternetCanvas[]
 gameJournalInternetPage = {}
+
 
 ---@param fields? gameJournalInternetPage
 ---@return gameJournalInternetPage

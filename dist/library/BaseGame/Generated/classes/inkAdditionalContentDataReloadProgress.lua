@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkAdditionalContentDataReloadProgress: inkCallbackBase
 inkAdditionalContentDataReloadProgress = {}
+
 
 ---@param fields? inkAdditionalContentDataReloadProgress
 ---@return inkAdditionalContentDataReloadProgress

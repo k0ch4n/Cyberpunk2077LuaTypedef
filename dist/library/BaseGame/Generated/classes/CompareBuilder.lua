@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CompareBuilder: IScriptable
 ---@field FLOAT_EQUAL_EPSILON Float
 ---@field value Int32
 CompareBuilder = {}
+
 
 ---@param fields? CompareBuilder
 ---@return CompareBuilder

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioDoorsSettings: audioDeviceSettings
 ---@field openEvent CName
 ---@field openFailedEvent CName
@@ -9,6 +10,7 @@
 ---@field sealEvent CName
 ---@field soundBank CName
 audioDoorsSettings = {}
+
 
 ---@param fields? audioDoorsSettings
 ---@return audioDoorsSettings

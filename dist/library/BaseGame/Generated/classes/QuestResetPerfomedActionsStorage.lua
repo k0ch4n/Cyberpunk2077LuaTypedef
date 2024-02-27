@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestResetPerfomedActionsStorage: ActionBool
 QuestResetPerfomedActionsStorage = {}
+
 
 ---@param fields? QuestResetPerfomedActionsStorage
 ---@return QuestResetPerfomedActionsStorage

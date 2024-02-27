@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTransformAnimation_MoveOnSplineRotationMode: Enum
 ---@field Disabled Enum 0
 ---@field Yaw Enum 1

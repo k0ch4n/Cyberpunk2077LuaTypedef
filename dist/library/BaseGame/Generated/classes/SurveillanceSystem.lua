@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SurveillanceSystem: DeviceSystemBase
 SurveillanceSystem = {}
+
 
 ---@param fields? SurveillanceSystem
 ---@return SurveillanceSystem

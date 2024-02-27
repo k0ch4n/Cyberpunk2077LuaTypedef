@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DropPointControllerPS: BasicDistractionDeviceControllerPS
 ---@field vendorRecord String
 ---@field rewardsLootTable TweakDBID[]
 ---@field hasPlayerCollectedReward Bool
 DropPointControllerPS = {}
+
 
 ---@param fields? DropPointControllerPS
 ---@return DropPointControllerPS

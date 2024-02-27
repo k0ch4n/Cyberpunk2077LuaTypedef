@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerVehicleDriveLayout: ScannerChunk
 ---@field vehicleDriveLayout String
 ScannerVehicleDriveLayout = {}
+
 
 ---@param fields? ScannerVehicleDriveLayout
 ---@return ScannerVehicleDriveLayout

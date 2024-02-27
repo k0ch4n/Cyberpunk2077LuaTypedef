@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questAddRemoveItem_NodeTypeParams: ISerializable
 ---@field sendNotification Bool
 ---@field isPlayer Bool
@@ -14,6 +15,7 @@
 ---@field itemIDsToIgnoreOnRemove TweakDBID[]
 ---@field tagsToIgnoreOnRemove CName[]
 questAddRemoveItem_NodeTypeParams = {}
+
 
 ---@param fields? questAddRemoveItem_NodeTypeParams
 ---@return questAddRemoveItem_NodeTypeParams

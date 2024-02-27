@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnActorDef
 ---@field actorId scnActorId
 ---@field voicetagId scnVoicetagId
@@ -24,6 +25,7 @@
 ---@field specCharacterRecordId TweakDBID
 ---@field specAppearance CName
 scnActorDef = {}
+
 
 ---@param fields? scnActorDef
 ---@return scnActorDef

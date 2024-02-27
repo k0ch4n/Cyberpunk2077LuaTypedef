@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSceneAnimationMotionActionParamsEasingType: Enum
 ---@field Linear Enum 0
 ---@field SinusoidalEaseInOut Enum 1

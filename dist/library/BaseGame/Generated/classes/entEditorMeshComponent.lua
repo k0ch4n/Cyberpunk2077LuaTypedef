@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entEditorMeshComponent: entMeshComponent
 entEditorMeshComponent = {}
+
 
 ---@param fields? entEditorMeshComponent
 ---@return entEditorMeshComponent

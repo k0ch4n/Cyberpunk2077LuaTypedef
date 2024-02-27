@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleBikeBaseObject: vehicleWheeledBaseObject
 vehicleBikeBaseObject = {}
+
 
 ---@param fields? vehicleBikeBaseObject
 ---@return vehicleBikeBaseObject

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiMinimapSecurityAreaInitData: gameuiMappinControllerCustomData
 gameuiMinimapSecurityAreaInitData = {}
+
 
 ---@param fields? gameuiMinimapSecurityAreaInitData
 ---@return gameuiMinimapSecurityAreaInitData

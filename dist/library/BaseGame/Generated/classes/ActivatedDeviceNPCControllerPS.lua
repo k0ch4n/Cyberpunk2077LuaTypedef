@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ActivatedDeviceNPCControllerPS: ActivatedDeviceControllerPS
 ---@field activatedDeviceNPCSetup ActivatedDeviceNPCSetup
 ActivatedDeviceNPCControllerPS = {}
+
 
 ---@param fields? ActivatedDeviceNPCControllerPS
 ---@return ActivatedDeviceNPCControllerPS

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DeviceLinkComponentPS: SharedGameplayPS
 ---@field parentDevice DeviceLink
 ---@field isConnected Bool
 ---@field ownerEntityID entEntityID
 DeviceLinkComponentPS = {}
+
 
 ---@param fields? DeviceLinkComponentPS
 ---@return DeviceLinkComponentPS

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestHangUpCall: ActionBool
 QuestHangUpCall = {}
+
 
 ---@param fields? QuestHangUpCall
 ---@return QuestHangUpCall

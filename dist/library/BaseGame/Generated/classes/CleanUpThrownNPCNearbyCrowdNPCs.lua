@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CleanUpThrownNPCNearbyCrowdNPCs: redEvent
 CleanUpThrownNPCNearbyCrowdNPCs = {}
+
 
 ---@param fields? CleanUpThrownNPCNearbyCrowdNPCs
 ---@return CleanUpThrownNPCNearbyCrowdNPCs

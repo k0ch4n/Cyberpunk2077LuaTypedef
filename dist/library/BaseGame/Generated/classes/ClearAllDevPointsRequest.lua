@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ClearAllDevPointsRequest: gamePlayerScriptableSystemRequest
 ClearAllDevPointsRequest = {}
+
 
 ---@param fields? ClearAllDevPointsRequest
 ---@return ClearAllDevPointsRequest

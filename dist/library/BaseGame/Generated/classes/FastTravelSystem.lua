@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FastTravelSystem: gameScriptableSystem
 ---@field fastTravelNodes gameFastTravelPointData[]
 ---@field isFastTravelEnabledOnMap Bool
@@ -13,6 +14,7 @@
 ---@field unlockLisenerID CName
 ---@field removeAllLocksLisenerID CName
 FastTravelSystem = {}
+
 
 ---@param fields? FastTravelSystem
 ---@return FastTravelSystem

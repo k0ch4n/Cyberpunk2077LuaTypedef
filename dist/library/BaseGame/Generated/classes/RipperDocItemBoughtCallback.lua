@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RipperDocItemBoughtCallback: gameInventoryScriptCallback
 ---@field eventTarget RipperDocGameController
 RipperDocItemBoughtCallback = {}
+
 
 ---@param fields? RipperDocItemBoughtCallback
 ---@return RipperDocItemBoughtCallback

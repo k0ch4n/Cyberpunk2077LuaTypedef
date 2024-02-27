@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldTerrainCollisionNode: worldNode
 ---@field materials CName[]
 ---@field materialIndices Uint8[]
@@ -12,6 +13,7 @@
 ---@field heightScale Float
 ---@field increaseStreamingDistance Bool
 worldTerrainCollisionNode = {}
+
 
 ---@param fields? worldTerrainCollisionNode
 ---@return worldTerrainCollisionNode

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@enum workWorkspotItemPolicy
 workWorkspotItemPolicy = {
     ItemPolicy_SpawnItemOnIdleChange = 0x1,

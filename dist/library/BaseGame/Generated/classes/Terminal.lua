@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class Terminal: InteractiveMasterDevice
 ---@field cameraFeed ScriptableVirtualCameraViewComponent
 ---@field isShortGlitchActive Bool
 ---@field shortGlitchDelayID gameDelayID
 Terminal = {}
+
 
 ---@param fields? Terminal
 ---@return Terminal

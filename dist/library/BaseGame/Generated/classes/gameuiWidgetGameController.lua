@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiWidgetGameController: worlduiIWidgetGameController
 gameuiWidgetGameController = {}
+
 
 ---@param fields? gameuiWidgetGameController
 ---@return gameuiWidgetGameController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldOffMeshConnectionType: Enum
 ---@field Door Enum 0
 ---@field Ladder Enum 1

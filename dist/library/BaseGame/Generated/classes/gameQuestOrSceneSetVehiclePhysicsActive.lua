@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameQuestOrSceneSetVehiclePhysicsActive: redEvent
 gameQuestOrSceneSetVehiclePhysicsActive = {}
+
 
 ---@param fields? gameQuestOrSceneSetVehiclePhysicsActive
 ---@return gameQuestOrSceneSetVehiclePhysicsActive

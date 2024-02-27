@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RadioInkGameController: DeviceInkGameControllerBase
 ---@field stationNameWidget inkTextWidgetReference
 ---@field stationLogoWidget inkImageWidgetReference
 RadioInkGameController = {}
+
 
 ---@param fields? RadioInkGameController
 ---@return RadioInkGameController

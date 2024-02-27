@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class VendorDataView: BackpackDataView
 ---@field isVendorGrid Bool
 ---@field openTime GameTime
 VendorDataView = {}
+
 
 ---@param fields? VendorDataView
 ---@return VendorDataView

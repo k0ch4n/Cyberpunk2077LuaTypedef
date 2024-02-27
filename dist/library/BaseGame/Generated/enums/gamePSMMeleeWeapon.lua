@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePSMMeleeWeapon: Enum
 ---@field NotReady Enum 0
 ---@field Equipping Enum 1

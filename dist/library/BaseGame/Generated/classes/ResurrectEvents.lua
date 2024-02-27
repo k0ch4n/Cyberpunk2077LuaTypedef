@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResurrectEvents: HighLevelTransition
 ResurrectEvents = {}
+
 
 ---@param fields? ResurrectEvents
 ---@return ResurrectEvents

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class moveLineOfSight: Enum
 ---@field None Enum 0
 ---@field Keep Enum 1

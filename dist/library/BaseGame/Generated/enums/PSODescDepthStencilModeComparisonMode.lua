@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PSODescDepthStencilModeComparisonMode: Enum
 ---@field COMPARISON_Never Enum 0
 ---@field COMPARISON_Less Enum 1

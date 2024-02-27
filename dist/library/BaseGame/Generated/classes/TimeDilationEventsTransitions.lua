@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TimeDilationEventsTransitions: TimeDilationTransitions
 TimeDilationEventsTransitions = {}
+
 
 ---@param fields? TimeDilationEventsTransitions
 ---@return TimeDilationEventsTransitions

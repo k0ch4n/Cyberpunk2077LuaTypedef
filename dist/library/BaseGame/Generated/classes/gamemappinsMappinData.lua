@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamemappinsMappinData: gamemappinsIMappinData
 ---@field mappinType TweakDBID
 ---@field variant gamedataMappinVariant
@@ -9,6 +10,7 @@
 ---@field visibleThroughWalls Bool
 ---@field scriptData gamemappinsMappinScriptData
 gamemappinsMappinData = {}
+
 
 ---@param fields? gamemappinsMappinData
 ---@return gamemappinsMappinData

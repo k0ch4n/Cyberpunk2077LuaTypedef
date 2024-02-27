@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questDynamicSpawnSystemNodeDefinition: questDisableableNodeDefinition
 ---@field type questIDynamicSpawnSystemType
 questDynamicSpawnSystemNodeDefinition = {}
+
 
 ---@param fields? questDynamicSpawnSystemNodeDefinition
 ---@return questDynamicSpawnSystemNodeDefinition

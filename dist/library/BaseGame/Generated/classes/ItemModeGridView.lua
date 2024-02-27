@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ItemModeGridView: CommonItemsGridView
 ItemModeGridView = {}
+
 
 ---@param fields? ItemModeGridView
 ---@return ItemModeGridView

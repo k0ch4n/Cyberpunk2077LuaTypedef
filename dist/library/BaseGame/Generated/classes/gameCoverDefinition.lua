@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameCoverDefinition: gameSmartObjectWorkspotDefinition
 ---@field overridenCoveringFOVDegrees Float
 ---@field overridenCoveringVerticalFOVDegrees Float
@@ -7,6 +8,7 @@
 ---@field overridenHeight gameCoverHeight
 ---@field overrideGeneratedCoverAngles Bool
 gameCoverDefinition = {}
+
 
 ---@param fields? gameCoverDefinition
 ---@return gameCoverDefinition

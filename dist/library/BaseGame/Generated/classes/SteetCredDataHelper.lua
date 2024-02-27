@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SteetCredDataHelper: IScriptable
 SteetCredDataHelper = {}
+
 
 ---@param fields? SteetCredDataHelper
 ---@return SteetCredDataHelper

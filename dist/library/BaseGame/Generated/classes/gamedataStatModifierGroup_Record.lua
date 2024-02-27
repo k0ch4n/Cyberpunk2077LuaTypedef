@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataStatModifierGroup_Record: gamedataTweakDBRecord
 gamedataStatModifierGroup_Record = {}
+
 
 ---@param fields? gamedataStatModifierGroup_Record
 ---@return gamedataStatModifierGroup_Record

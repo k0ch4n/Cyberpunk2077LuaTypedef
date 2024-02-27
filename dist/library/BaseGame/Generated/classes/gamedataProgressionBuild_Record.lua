@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataProgressionBuild_Record: gamedataTweakDBRecord
 gamedataProgressionBuild_Record = {}
+
 
 ---@param fields? gamedataProgressionBuild_Record
 ---@return gamedataProgressionBuild_Record

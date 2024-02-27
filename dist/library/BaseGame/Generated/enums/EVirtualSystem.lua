@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EVirtualSystem: Enum
 ---@field None Enum 0
 ---@field SurveillanceSystem Enum 1

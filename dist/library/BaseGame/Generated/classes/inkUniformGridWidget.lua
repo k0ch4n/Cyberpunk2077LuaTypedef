@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class inkUniformGridWidget: inkCompoundWidget
 ---@field wrappingWidgetCount Uint32
 ---@field orientation inkEOrientation
 inkUniformGridWidget = {}
+
 
 ---@param fields? inkUniformGridWidget
 ---@return inkUniformGridWidget

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIUtilsCachedBoolValue
 AIUtilsCachedBoolValue = {}
+
 
 ---@param fields? AIUtilsCachedBoolValue
 ---@return AIUtilsCachedBoolValue

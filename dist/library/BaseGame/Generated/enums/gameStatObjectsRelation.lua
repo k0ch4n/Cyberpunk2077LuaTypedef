@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStatObjectsRelation: Enum
 ---@field Self Enum 0
 ---@field Owner Enum 1

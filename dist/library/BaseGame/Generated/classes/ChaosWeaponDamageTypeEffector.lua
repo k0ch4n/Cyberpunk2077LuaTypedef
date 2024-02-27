@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ChaosWeaponDamageTypeEffector: ChaosWeaponCustomEffector
 ---@field damageTypeModGroups TweakDBID[]
 ChaosWeaponDamageTypeEffector = {}
+
 
 ---@param fields? ChaosWeaponDamageTypeEffector
 ---@return ChaosWeaponDamageTypeEffector

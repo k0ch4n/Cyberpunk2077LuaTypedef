@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ForwardVehicleQuestEnableUIEvent: redEvent
 ---@field mode vehicleQuestUIEnable
 ForwardVehicleQuestEnableUIEvent = {}
+
 
 ---@param fields? ForwardVehicleQuestEnableUIEvent
 ---@return ForwardVehicleQuestEnableUIEvent

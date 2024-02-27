@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ThrowingKnifeResourcePoolListener: gameScriptStatPoolsListener
 ---@field Crosshair Crosshair_Melee_Knife
 ---@field shouldDisplayBar Bool
 ---@field evt ThrowingKnifeReloadFinishedCrosshairEvent
 ThrowingKnifeResourcePoolListener = {}
+
 
 ---@param fields? ThrowingKnifeResourcePoolListener
 ---@return ThrowingKnifeResourcePoolListener

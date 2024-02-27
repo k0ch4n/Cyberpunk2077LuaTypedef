@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DropEvents: CarriedObjectEvents
 ---@field ragdollReenabled Bool
 DropEvents = {}
+
 
 ---@param fields? DropEvents
 ---@return DropEvents

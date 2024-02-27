@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class HitIsRarityPrereq: GenericHitPrereq
 ---@field invert Bool
 ---@field rarity gamedataNPCRarity
 HitIsRarityPrereq = {}
+
 
 ---@param fields? HitIsRarityPrereq
 ---@return HitIsRarityPrereq

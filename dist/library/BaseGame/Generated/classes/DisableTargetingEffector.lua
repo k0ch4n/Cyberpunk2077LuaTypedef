@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DisableTargetingEffector: gameEffector
 ---@field owner gameObject
 DisableTargetingEffector = {}
+
 
 ---@param fields? DisableTargetingEffector
 ---@return DisableTargetingEffector

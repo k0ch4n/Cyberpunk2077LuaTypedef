@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameNPCHealthStatPoolsListener: gamePuppetStatPoolsListener
 gameNPCHealthStatPoolsListener = {}
+
 
 ---@param fields? gameNPCHealthStatPoolsListener
 ---@return gameNPCHealthStatPoolsListener

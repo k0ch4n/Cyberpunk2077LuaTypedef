@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questInputDevice: Enum
 ---@field Undefined Enum 0
 ---@field KeyboardMouse Enum 1

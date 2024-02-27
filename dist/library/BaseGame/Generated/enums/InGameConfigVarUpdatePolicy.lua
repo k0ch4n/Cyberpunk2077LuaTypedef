@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InGameConfigVarUpdatePolicy: Enum
 ---@field Disabled Enum 0
 ---@field Immediately Enum 1

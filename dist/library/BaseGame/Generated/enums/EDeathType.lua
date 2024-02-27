@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EDeathType: Enum
 ---@field Ground Enum 0
 ---@field Air Enum 1

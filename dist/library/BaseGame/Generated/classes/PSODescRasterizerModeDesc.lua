@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PSODescRasterizerModeDesc
 ---@field wireframe Bool
 ---@field frontWinding PSODescRasterizerModeFrontFaceWinding
@@ -10,6 +11,7 @@
 ---@field scissors Bool
 ---@field valid Bool
 PSODescRasterizerModeDesc = {}
+
 
 ---@param fields? PSODescRasterizerModeDesc
 ---@return PSODescRasterizerModeDesc

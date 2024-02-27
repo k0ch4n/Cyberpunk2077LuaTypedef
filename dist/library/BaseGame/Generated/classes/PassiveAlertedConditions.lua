@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PassiveAlertedConditions: PassiveAutonomousCondition
 ---@field highLevelCbId Uint32
 ---@field delayEvaluationCbId Uint32
 PassiveAlertedConditions = {}
+
 
 ---@param fields? PassiveAlertedConditions
 ---@return PassiveAlertedConditions

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CyberwareTooltipSlotListItem: AGenericTooltipController
 ---@field icon inkImageWidgetReference
 ---@field label inkTextWidgetReference
 ---@field desc inkTextWidgetReference
 ---@field data CyberwareSlotTooltipData
 CyberwareTooltipSlotListItem = {}
+
 
 ---@param fields? CyberwareTooltipSlotListItem
 ---@return CyberwareTooltipSlotListItem

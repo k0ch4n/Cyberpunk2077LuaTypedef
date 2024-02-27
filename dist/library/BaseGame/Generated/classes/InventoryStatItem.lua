@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class InventoryStatItem: inkWidgetLogicController
 ---@field label inkTextWidget
 ---@field value inkTextWidget
 InventoryStatItem = {}
+
 
 ---@param fields? InventoryStatItem
 ---@return InventoryStatItem

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCooldownFinishedEvent: gameCooldownSystemEvent
 gameCooldownFinishedEvent = {}
+
 
 ---@param fields? gameCooldownFinishedEvent
 ---@return gameCooldownFinishedEvent

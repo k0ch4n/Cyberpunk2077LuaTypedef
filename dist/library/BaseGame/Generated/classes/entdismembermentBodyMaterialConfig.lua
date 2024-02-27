@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class entdismembermentBodyMaterialConfig
 ---@field FleshBodyMask physicsRagdollBodyPartE
 ---@field CyberBodyMask physicsRagdollBodyPartE
 entdismembermentBodyMaterialConfig = {}
+
 
 ---@param fields? entdismembermentBodyMaterialConfig
 ---@return entdismembermentBodyMaterialConfig

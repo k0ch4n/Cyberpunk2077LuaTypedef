@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class WallScreen: TV
 ---@field movementPattern SMovementPattern
 ---@field factOnFullyOpened CName
 ---@field objectMover ObjectMoverComponent
 WallScreen = {}
+
 
 ---@param fields? WallScreen
 ---@return WallScreen

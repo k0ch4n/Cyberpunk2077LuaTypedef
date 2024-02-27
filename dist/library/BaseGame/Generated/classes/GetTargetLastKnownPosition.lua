@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class GetTargetLastKnownPosition: AIbehaviortaskScript
 ---@field inTargetObject AIArgumentMapping
 ---@field outPosition AIArgumentMapping
 ---@field predictionTime Float
 GetTargetLastKnownPosition = {}
+
 
 ---@param fields? GetTargetLastKnownPosition
 ---@return GetTargetLastKnownPosition

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NcartTimetableController: ScriptableDeviceComponent
 NcartTimetableController = {}
+
 
 ---@param fields? NcartTimetableController
 ---@return NcartTimetableController

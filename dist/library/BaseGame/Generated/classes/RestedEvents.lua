@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RestedEvents: StaminaEventsTransition
 RestedEvents = {}
+
 
 ---@param fields? RestedEvents
 ---@return RestedEvents

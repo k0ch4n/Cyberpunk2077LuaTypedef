@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RenderProxyCustomData_Garment: IRenderProxyCustomData
 RenderProxyCustomData_Garment = {}
+
 
 ---@param fields? RenderProxyCustomData_Garment
 ---@return RenderProxyCustomData_Garment

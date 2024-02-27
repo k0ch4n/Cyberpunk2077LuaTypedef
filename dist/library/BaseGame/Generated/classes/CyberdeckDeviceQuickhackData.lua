@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CyberdeckDeviceQuickhackData
 ---@field UIIcon gamedataUIIcon_Record
 ---@field ObjectActionRecord gamedataObjectAction_Record
@@ -10,6 +11,7 @@
 ---@field ObjectActionType gamedataObjectActionType
 ---@field Priority Float
 CyberdeckDeviceQuickhackData = {}
+
 
 ---@param fields? CyberdeckDeviceQuickhackData
 ---@return CyberdeckDeviceQuickhackData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ConsumeAction: BaseItemAction
 ConsumeAction = {}
+
 
 ---@param fields? ConsumeAction
 ---@return ConsumeAction

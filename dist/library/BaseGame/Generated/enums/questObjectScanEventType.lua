@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questObjectScanEventType: Enum
 ---@field Undefined Enum 0
 ---@field Started Enum 1

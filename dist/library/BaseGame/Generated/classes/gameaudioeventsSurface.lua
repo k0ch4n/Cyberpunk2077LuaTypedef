@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameaudioeventsSurface: redEvent
 gameaudioeventsSurface = {}
+
 
 ---@param fields? gameaudioeventsSurface
 ---@return gameaudioeventsSurface

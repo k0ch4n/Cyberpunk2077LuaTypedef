@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleVehicleDoorState: Enum
 ---@field Closed Enum 0
 ---@field Open Enum 1

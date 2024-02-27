@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestRemoveWeapon: ActionBool
 QuestRemoveWeapon = {}
+
 
 ---@param fields? QuestRemoveWeapon
 ---@return QuestRemoveWeapon

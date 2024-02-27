@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BaseButtonView: inkDiscreteNavigationController
 ---@field ButtonController inkButtonController
 BaseButtonView = {}
+
 
 ---@param controller inkButtonController
 ---@param progress Float

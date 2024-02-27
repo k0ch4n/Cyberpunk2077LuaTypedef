@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CrossingLightControllerPS: TrafficLightControllerPS
 ---@field crossingLightSFXSetup CrossingLightSetup
 CrossingLightControllerPS = {}
+
 
 ---@param fields? CrossingLightControllerPS
 ---@return CrossingLightControllerPS

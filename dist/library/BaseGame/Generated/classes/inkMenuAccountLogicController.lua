@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class inkMenuAccountLogicController: inkWidgetLogicController
 ---@field playerId inkTextWidgetReference
 ---@field changeAccountLabelTextRef inkTextWidgetReference
 ---@field inputDisplayControllerRef inkWidgetReference
 ---@field changeAccountEnabled Bool
 inkMenuAccountLogicController = {}
+
 
 ---@param fields? inkMenuAccountLogicController
 ---@return inkMenuAccountLogicController

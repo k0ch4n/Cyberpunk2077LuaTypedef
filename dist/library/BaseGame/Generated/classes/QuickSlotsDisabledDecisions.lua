@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class QuickSlotsDisabledDecisions: QuickSlotsDecisions
 ---@field executionOwner gameObject
 ---@field hasStatusEffect Bool
 QuickSlotsDisabledDecisions = {}
+
 
 ---@param fields? QuickSlotsDisabledDecisions
 ---@return QuickSlotsDisabledDecisions

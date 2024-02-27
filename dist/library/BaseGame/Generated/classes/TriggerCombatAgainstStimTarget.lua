@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TriggerCombatAgainstStimTarget: AIbehaviortaskScript
 TriggerCombatAgainstStimTarget = {}
+
 
 ---@param fields? TriggerCombatAgainstStimTarget
 ---@return TriggerCombatAgainstStimTarget

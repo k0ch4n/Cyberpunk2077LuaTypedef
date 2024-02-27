@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StackAlertedState: StackChangeHighLevelStateAbstract
 StackAlertedState = {}
+
 
 ---@param fields? StackAlertedState
 ---@return StackAlertedState

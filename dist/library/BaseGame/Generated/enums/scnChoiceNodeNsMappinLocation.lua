@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnChoiceNodeNsMappinLocation: Enum
 ---@field None Enum 0
 ---@field Interaction Enum 1

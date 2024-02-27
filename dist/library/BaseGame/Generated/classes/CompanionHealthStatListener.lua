@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CompanionHealthStatListener: gameScriptStatPoolsListener
 ---@field healthbar CompanionHealthBarGameController
 CompanionHealthStatListener = {}
+
 
 ---@param fields? CompanionHealthStatListener
 ---@return CompanionHealthStatListener

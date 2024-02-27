@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AISignalCondition: AIbehaviorconditionScript
 ---@field requiredFlags AISignalFlags[]
 ---@field consumesSignal Bool
@@ -7,6 +8,7 @@
 ---@field executingSignal AIGateSignal
 ---@field executingSignalId Uint32
 AISignalCondition = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

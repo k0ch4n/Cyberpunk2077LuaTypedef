@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataOutput: Enum
 ---@field AskToFollowOrder Enum 0
 ---@field AskToHolster Enum 1

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WeaponChangedListener: gameAttachmentSlotsScriptCallback
 ---@field gameController TargetHitIndicatorGameController
 WeaponChangedListener = {}
+
 
 ---@param fields? WeaponChangedListener
 ---@return WeaponChangedListener

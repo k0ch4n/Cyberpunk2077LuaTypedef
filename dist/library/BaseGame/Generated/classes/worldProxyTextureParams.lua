@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldProxyTextureParams
 ---@field exportVertexColor Bool
 ---@field albedoTextureResolution worldProxyMeshTexRes
@@ -13,6 +14,7 @@
 ---@field disableTextureFilter Bool
 ---@field diffuseAlphaAsEmissive Bool
 worldProxyTextureParams = {}
+
 
 ---@param fields? worldProxyTextureParams
 ---@return worldProxyTextureParams

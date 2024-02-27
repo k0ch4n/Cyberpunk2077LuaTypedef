@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayRadioArgs: IScriptable
 ---@field instance ScriptGameInstance
 ---@field delay Float
@@ -10,6 +11,7 @@
 ---@field handleVehicleLostOrSpottedEdgeCase Bool
 ---@field stateUsedOnRequest EStarState
 PlayRadioArgs = {}
+
 
 ---@param fields? PlayRadioArgs
 ---@return PlayRadioArgs

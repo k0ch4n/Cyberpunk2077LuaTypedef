@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerDeviceHeaderGameController: BaseChunkGameController
 ---@field nameText inkTextWidgetReference
 ---@field fluffText inkTextWidgetReference
@@ -19,6 +20,7 @@
 ---@field isValidnetworkStatus Bool
 ---@field isValidDeviceStatus Bool
 ScannerDeviceHeaderGameController = {}
+
 
 ---@param fields? ScannerDeviceHeaderGameController
 ---@return ScannerDeviceHeaderGameController

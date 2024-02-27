@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UiContextDecisions: InputContextTransitionDecisions
 UiContextDecisions = {}
+
 
 ---@param fields? UiContextDecisions
 ---@return UiContextDecisions

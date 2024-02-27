@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuickHackToggleON: ActionBool
 ---@field Repeat Bool
 QuickHackToggleON = {}
+
 
 ---@param fields? QuickHackToggleON
 ---@return QuickHackToggleON

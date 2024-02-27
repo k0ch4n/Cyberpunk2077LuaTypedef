@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameLootBag: gameObject
 ---@field lootQuality gamedataQuality
 ---@field hasQuestItems Bool
@@ -8,6 +9,7 @@
 ---@field isEmpty Bool
 ---@field activeQualityRangeInteraction CName
 gameLootBag = {}
+
 
 ---@param fields? gameLootBag
 ---@return gameLootBag

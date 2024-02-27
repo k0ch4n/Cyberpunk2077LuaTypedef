@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ELightShadowSoftnessMode: Enum
 ---@field LSSM_ExtraSoft Enum 0
 ---@field LSSM_Soft Enum 1

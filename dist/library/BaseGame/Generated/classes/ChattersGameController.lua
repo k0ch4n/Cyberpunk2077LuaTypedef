@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ChattersGameController: BaseSubtitlesGameController
 ---@field c_DisplayRange Float
 ---@field c_CloseDisplayRange Float
@@ -19,6 +20,7 @@
 ---@field OnScannerModeChangedCallback redCallbackObject
 ---@field OnOnDialogsDataCallback redCallbackObject
 ChattersGameController = {}
+
 
 ---@param fields? ChattersGameController
 ---@return ChattersGameController

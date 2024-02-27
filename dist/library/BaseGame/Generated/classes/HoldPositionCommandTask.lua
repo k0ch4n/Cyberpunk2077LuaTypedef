@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class HoldPositionCommandTask: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ---@field currentCommand AIHoldPositionCommand
 ---@field activationTimeStamp Float
 ---@field commandDuration Float
 HoldPositionCommandTask = {}
+
 
 ---@param fields? HoldPositionCommandTask
 ---@return HoldPositionCommandTask

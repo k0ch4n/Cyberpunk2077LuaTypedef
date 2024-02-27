@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CandleControllerPS: ScriptableDeviceComponentPS
 ---@field candleSkillChecks EngDemoContainer
 CandleControllerPS = {}
+
 
 ---@param fields? CandleControllerPS
 ---@return CandleControllerPS

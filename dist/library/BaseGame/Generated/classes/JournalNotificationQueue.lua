@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class JournalNotificationQueue: gameuiGenericNotificationGameController
 ---@field showDuration Float
 ---@field currencyNotification CName
@@ -31,6 +32,7 @@
 ---@field uiSystem gameuiGameSystemUI
 ---@field shardTransactionListener gameInventoryScriptListener
 JournalNotificationQueue = {}
+
 
 ---@param fields? JournalNotificationQueue
 ---@return JournalNotificationQueue

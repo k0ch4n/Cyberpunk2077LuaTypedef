@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OnMonowireQuickhackContagiousTargetStatusAppliedCallback: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field ContagiousTarget ScriptedPuppet
 OnMonowireQuickhackContagiousTargetStatusAppliedCallback = {}
+
 
 ---@param fields? OnMonowireQuickhackContagiousTargetStatusAppliedCallback
 ---@return OnMonowireQuickhackContagiousTargetStatusAppliedCallback

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerPuppet: ScriptedPuppet
 ---@field quickSlotsManager QuickSlotsManager
 ---@field inspectionComponent InspectionComponent
@@ -138,6 +139,7 @@
 ---@field choiceTokenTextLayerId Uint32
 ---@field choiceTokenTextDrawn Bool
 PlayerPuppet = {}
+
 
 ---@param fields? PlayerPuppet
 ---@return PlayerPuppet

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameFactChangedEvent: redEvent
 ---@field factName CName
 gameFactChangedEvent = {}
+
 
 ---@param fields? gameFactChangedEvent
 ---@return gameFactChangedEvent

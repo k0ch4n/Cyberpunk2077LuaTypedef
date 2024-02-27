@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RadialMenuGameController: gameuiHUDGameController
 ---@field containerRef inkCompoundWidgetReference
 ---@field highlightRef inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field quickSlotsDef UI_QuickSlotsDataDef
 ---@field inputAxisCallbackId redCallbackObject
 RadialMenuGameController = {}
+
 
 ---@param fields? RadialMenuGameController
 ---@return RadialMenuGameController

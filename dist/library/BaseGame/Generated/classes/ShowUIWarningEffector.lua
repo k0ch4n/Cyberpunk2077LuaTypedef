@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ShowUIWarningEffector: gameEffector
 ---@field duration Float
 ---@field primaryText String
 ---@field secondaryText String
 ---@field owner gameObject
 ShowUIWarningEffector = {}
+
 
 ---@param fields? ShowUIWarningEffector
 ---@return ShowUIWarningEffector

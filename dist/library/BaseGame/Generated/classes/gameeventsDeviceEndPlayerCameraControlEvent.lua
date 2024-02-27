@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameeventsDeviceEndPlayerCameraControlEvent: redEvent
 gameeventsDeviceEndPlayerCameraControlEvent = {}
+
 
 ---@param fields? gameeventsDeviceEndPlayerCameraControlEvent
 ---@return gameeventsDeviceEndPlayerCameraControlEvent

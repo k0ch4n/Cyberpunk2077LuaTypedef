@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ChimeraHealthChangeListener: gameCustomValueStatPoolsListener
 ---@field owner NPCPuppet
 ChimeraHealthChangeListener = {}
+
 
 ---@param fields? ChimeraHealthChangeListener
 ---@return ChimeraHealthChangeListener

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class navPathQueryDebugStatus: Enum
 ---@field InvalidQuery Enum 0
 ---@field Active Enum 1

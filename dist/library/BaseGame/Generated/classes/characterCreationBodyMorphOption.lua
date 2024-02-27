@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class characterCreationBodyMorphOption: CharacterCreationBodyMorphBaseOption
 ---@field optionLabel inkTextWidgetReference
 ---@field selectedLabel inkTextWidgetReference
@@ -17,6 +18,7 @@
 ---@field inputDisabled Bool
 ---@field animationProxy inkanimProxy
 characterCreationBodyMorphOption = {}
+
 
 ---@param fields? characterCreationBodyMorphOption
 ---@return characterCreationBodyMorphOption

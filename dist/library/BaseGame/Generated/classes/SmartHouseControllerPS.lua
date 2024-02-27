@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SmartHouseControllerPS: MasterControllerPS
 ---@field timetable SPresetTimetableEntry[]
 ---@field activePreset SmartHousePreset
@@ -7,6 +8,7 @@
 ---@field smartHouseCustomization SmartHouseConfiguration
 ---@field callbackID Uint32
 SmartHouseControllerPS = {}
+
 
 ---@param fields? SmartHouseControllerPS
 ---@return SmartHouseControllerPS

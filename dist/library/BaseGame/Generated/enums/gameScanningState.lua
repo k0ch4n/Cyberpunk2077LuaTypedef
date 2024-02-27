@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameScanningState: Enum
 ---@field Default Enum 0
 ---@field Started Enum 1

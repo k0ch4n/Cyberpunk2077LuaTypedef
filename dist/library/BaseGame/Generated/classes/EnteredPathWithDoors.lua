@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EnteredPathWithDoors: redEvent
 EnteredPathWithDoors = {}
+
 
 ---@param fields? EnteredPathWithDoors
 ---@return EnteredPathWithDoors

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class effectTrackItemDataMosh: effectTrackItem
 ---@field override Bool
 ---@field intensity effectEffectParameterEvaluatorFloat
@@ -11,6 +12,7 @@
 ---@field pixelsortStencil Bool
 ---@field pixelsortVfx Bool
 effectTrackItemDataMosh = {}
+
 
 ---@param fields? effectTrackItemDataMosh
 ---@return effectTrackItemDataMosh

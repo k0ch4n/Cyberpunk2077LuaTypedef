@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionUseSensePreset_Record: gamedataAISubAction_Record
 gamedataAISubActionUseSensePreset_Record = {}
+
 
 ---@param fields? gamedataAISubActionUseSensePreset_Record
 ---@return gamedataAISubActionUseSensePreset_Record

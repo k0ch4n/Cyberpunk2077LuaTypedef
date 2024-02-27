@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTier3CameraSettings
 ---@field yawLeftLimit Float
 ---@field yawRightLimit Float
@@ -8,6 +9,7 @@
 ---@field pitchSpeedMultiplier Float
 ---@field yawSpeedMultiplier Float
 gameTier3CameraSettings = {}
+
 
 ---@param fields? gameTier3CameraSettings
 ---@return gameTier3CameraSettings

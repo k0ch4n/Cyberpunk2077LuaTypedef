@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AndroidTurnOnEffector: gameEffector
 AndroidTurnOnEffector = {}
+
 
 ---@param fields? AndroidTurnOnEffector
 ---@return AndroidTurnOnEffector

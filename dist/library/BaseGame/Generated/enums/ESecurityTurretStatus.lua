@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ESecurityTurretStatus: Enum
 ---@field THREAT Enum -1
 ---@field SHOOTING Enum 0

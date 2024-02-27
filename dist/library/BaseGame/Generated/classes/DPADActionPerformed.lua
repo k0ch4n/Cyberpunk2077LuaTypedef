@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DPADActionPerformed: redEvent
 ---@field ownerID entEntityID
 ---@field state EUIActionState
@@ -7,6 +8,7 @@
 ---@field action gameEHotkey
 ---@field successful Bool
 DPADActionPerformed = {}
+
 
 ---@param fields? DPADActionPerformed
 ---@return DPADActionPerformed

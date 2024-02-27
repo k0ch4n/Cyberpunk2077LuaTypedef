@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entDestructionAudioEvent: redEvent
 entDestructionAudioEvent = {}
+
 
 ---@param fields? entDestructionAudioEvent
 ---@return entDestructionAudioEvent

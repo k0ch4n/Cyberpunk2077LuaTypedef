@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CraftingUserData: IScriptable
 ---@field Mode CraftingMode
 CraftingUserData = {}
+
 
 ---@param fields? CraftingUserData
 ---@return CraftingUserData

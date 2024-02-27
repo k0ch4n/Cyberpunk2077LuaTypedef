@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SmartWindowControllerPS: ComputerControllerPS
 SmartWindowControllerPS = {}
+
 
 ---@param fields? SmartWindowControllerPS
 ---@return SmartWindowControllerPS

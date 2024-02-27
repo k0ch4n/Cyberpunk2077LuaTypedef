@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ModifyStatCheckPrereq: gamePlayerScriptableSystemRequest
 ---@field register Bool
 ---@field statCheckState StatCheckPrereqState
 ModifyStatCheckPrereq = {}
+
 
 ---@param fields? ModifyStatCheckPrereq
 ---@return ModifyStatCheckPrereq

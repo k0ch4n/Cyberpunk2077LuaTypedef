@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleTPPCameraDistance: Enum
 ---@field Close Enum 0
 ---@field Medium Enum 1

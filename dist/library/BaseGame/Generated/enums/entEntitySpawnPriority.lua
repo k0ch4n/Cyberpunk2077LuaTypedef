@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entEntitySpawnPriority: Enum
 ---@field Background Enum 0
 ---@field Normal Enum 1

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MenuScenario_PreGameSubMenu: inkMenuScenario
 ---@field prevScenario CName
 ---@field currSubMenuName CName
 MenuScenario_PreGameSubMenu = {}
+
 
 ---@param fields? MenuScenario_PreGameSubMenu
 ---@return MenuScenario_PreGameSubMenu

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameJournalMetaQuestObjective: gameJournalEntry
 ---@field description LocalizationString
 ---@field progressPercent Uint32
 ---@field iconID TweakDBID
 gameJournalMetaQuestObjective = {}
+
 
 ---@param fields? gameJournalMetaQuestObjective
 ---@return gameJournalMetaQuestObjective

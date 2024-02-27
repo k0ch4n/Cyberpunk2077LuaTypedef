@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PerkAttributeHelper
 PerkAttributeHelper = {}
+
 
 ---@param fields? PerkAttributeHelper
 ---@return PerkAttributeHelper

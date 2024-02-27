@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StreetNameSelector: StreetSignSelector
 ---@field recordID TweakDBID
 StreetNameSelector = {}
+
 
 ---@param fields? StreetNameSelector
 ---@return StreetNameSelector

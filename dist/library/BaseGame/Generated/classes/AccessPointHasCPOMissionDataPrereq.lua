@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AccessPointHasCPOMissionDataPrereq: gameIScriptablePrereq
 AccessPointHasCPOMissionDataPrereq = {}
+
 
 ---@param fields? AccessPointHasCPOMissionDataPrereq
 ---@return AccessPointHasCPOMissionDataPrereq

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataChannelData_Record: gamedataTweakDBRecord
 gamedataChannelData_Record = {}
+
 
 ---@param fields? gamedataChannelData_Record
 ---@return gamedataChannelData_Record

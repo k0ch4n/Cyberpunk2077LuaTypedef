@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OnscreenMessageGameController: gameuiHUDGameController
 ---@field root inkWidget
 ---@field blackboard gameIBlackboard
@@ -14,6 +15,7 @@
 ---@field animProxyHide inkanimProxy
 ---@field animProxyTimeout inkanimProxy
 OnscreenMessageGameController = {}
+
 
 ---@param fields? OnscreenMessageGameController
 ---@return OnscreenMessageGameController

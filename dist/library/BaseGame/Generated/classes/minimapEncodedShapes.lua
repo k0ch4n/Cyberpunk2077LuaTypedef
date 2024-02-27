@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class minimapEncodedShapes: CResource
 ---@field Buffer DataBuffer
 ---@field QuantizationScale Vector2
@@ -15,6 +16,7 @@
 ---@field NumOwners Uint32
 ---@field Version Uint32
 minimapEncodedShapes = {}
+
 
 ---@param fields? minimapEncodedShapes
 ---@return minimapEncodedShapes

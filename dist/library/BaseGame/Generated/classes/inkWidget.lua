@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkWidget: IScriptable
 ---@field logicController inkWidgetLogicController
 ---@field secondaryControllers inkWidgetLogicController[]
@@ -22,6 +23,7 @@
 ---@field renderTransform inkUITransform
 ---@field effects inkIEffect[]
 inkWidget = {}
+
 
 ---@param fields? inkWidget
 ---@return inkWidget

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@enum rendLightChannel
 rendLightChannel = {
     LC_Channel1 = 0x1,

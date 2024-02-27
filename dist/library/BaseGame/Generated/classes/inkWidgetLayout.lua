@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkWidgetLayout
 ---@field padding inkMargin
 ---@field margin inkMargin
@@ -10,6 +11,7 @@
 ---@field sizeRule inkESizeRule
 ---@field sizeCoefficient Float
 inkWidgetLayout = {}
+
 
 ---@param fields? inkWidgetLayout
 ---@return inkWidgetLayout

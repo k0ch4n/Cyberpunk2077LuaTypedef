@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsStimSourceInRestrictMovementArea: RestrictedMovementAreaCondition
 IsStimSourceInRestrictMovementArea = {}
+
 
 ---@param fields? IsStimSourceInRestrictMovementArea
 ---@return IsStimSourceInRestrictMovementArea

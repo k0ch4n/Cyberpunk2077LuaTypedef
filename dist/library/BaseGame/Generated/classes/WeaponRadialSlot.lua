@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class WeaponRadialSlot: RadialSlot
 ---@field equipmentArea gamedataEquipmentArea
 ---@field index Int32
 WeaponRadialSlot = {}
+
 
 ---@param fields? WeaponRadialSlot
 ---@return WeaponRadialSlot

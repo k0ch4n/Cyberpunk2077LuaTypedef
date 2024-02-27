@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ZoomBlockedDecisions: ZoomDecisionsTransition
 ZoomBlockedDecisions = {}
+
 
 ---@param fields? ZoomBlockedDecisions
 ---@return ZoomBlockedDecisions

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkSystem: gameIGameSystem
 ---@field clipboard String
 inkSystem = {}
+
 
 ---@param fields? inkSystem
 ---@return inkSystem

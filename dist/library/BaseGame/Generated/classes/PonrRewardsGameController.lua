@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PonrRewardsGameController: BaseModalListPopupGameController
 ---@field gameInstance ScriptGameInstance
 ---@field inventoryManager InventoryDataManagerV2
@@ -15,6 +16,7 @@
 ---@field pointOfNoReturnBB gameIBlackboard
 ---@field pointOfNoReturnRewardScreenDef UI_PointOfNoReturnRewardScreenDef
 PonrRewardsGameController = {}
+
 
 ---@param fields? PonrRewardsGameController
 ---@return PonrRewardsGameController

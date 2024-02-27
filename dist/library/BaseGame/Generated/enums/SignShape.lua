@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SignShape: Enum
 ---@field RECTANGLE Enum 0
 ---@field ARROWLEFT Enum 1

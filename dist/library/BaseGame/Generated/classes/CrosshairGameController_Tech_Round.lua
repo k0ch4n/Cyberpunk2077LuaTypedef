@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrosshairGameController_Tech_Round: BaseTechCrosshairController
 ---@field root inkWidget
 ---@field leftPart inkImageWidgetReference
@@ -43,6 +44,7 @@
 ---@field gameplaySpreadMultiplier Float
 ---@field stateADS Bool
 CrosshairGameController_Tech_Round = {}
+
 
 ---@param fields? CrosshairGameController_Tech_Round
 ---@return CrosshairGameController_Tech_Round

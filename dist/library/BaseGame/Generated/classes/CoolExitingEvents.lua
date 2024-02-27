@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CoolExitingEvents: ExitingEvents
 ---@field exitMomentum Vector4
 ---@field coolExitMagnitude vehicleCoolExitImpulseLevel
@@ -9,6 +10,7 @@
 ---@field vehicleInTPP Bool
 ---@field vehicleInTPPCallback redCallbackObject
 CoolExitingEvents = {}
+
 
 ---@param fields? CoolExitingEvents
 ---@return CoolExitingEvents

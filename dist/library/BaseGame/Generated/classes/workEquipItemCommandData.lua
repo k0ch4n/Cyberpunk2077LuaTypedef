@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workEquipItemCommandData: workIWorkspotCommandData
 workEquipItemCommandData = {}
+
 
 ---@param fields? workEquipItemCommandData
 ---@return workEquipItemCommandData

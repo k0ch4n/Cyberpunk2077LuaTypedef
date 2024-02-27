@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class IWorldWidgetComponent: WidgetBaseComponent
 ---@field glitchValue Float
 ---@field tintColor Color
@@ -9,6 +10,7 @@
 ---@field meshTargetBinding worlduiMeshTargetBinding
 ---@field isEnabled Bool
 IWorldWidgetComponent = {}
+
 
 ---@return worlduiIWidgetGameController
 function IWorldWidgetComponent:GetGameControllerInterface() end

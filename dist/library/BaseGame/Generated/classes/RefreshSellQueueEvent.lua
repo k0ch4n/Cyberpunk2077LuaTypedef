@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RefreshSellQueueEvent: redEvent
 RefreshSellQueueEvent = {}
+
 
 ---@param fields? RefreshSellQueueEvent
 ---@return RefreshSellQueueEvent

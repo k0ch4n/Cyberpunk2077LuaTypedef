@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataGender: Enum
 ---@field Default Enum 0
 ---@field Female Enum 1

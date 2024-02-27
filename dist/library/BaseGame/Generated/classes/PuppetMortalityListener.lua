@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PuppetMortalityListener: gameScriptStatsListener
 ---@field state PuppetMortalPrereqState
 PuppetMortalityListener = {}
+
 
 ---@param fields? PuppetMortalityListener
 ---@return PuppetMortalityListener

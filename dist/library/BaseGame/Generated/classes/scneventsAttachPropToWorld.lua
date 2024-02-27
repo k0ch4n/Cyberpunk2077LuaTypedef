@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsAttachPropToWorld: scnSceneEvent
 ---@field propId scnPropId
 ---@field offsetMode scnOffsetMode
@@ -10,6 +11,7 @@
 ---@field referencePerformerItemId TweakDBID
 ---@field fallbackData scneventsAttachPropToWorldFallbackData[]
 scneventsAttachPropToWorld = {}
+
 
 ---@param fields? scneventsAttachPropToWorld
 ---@return scneventsAttachPropToWorld

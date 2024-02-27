@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkSystemServerRequesResult: inkCallbackBase
 inkSystemServerRequesResult = {}
+
 
 ---@param fields? inkSystemServerRequesResult
 ---@return inkSystemServerRequesResult

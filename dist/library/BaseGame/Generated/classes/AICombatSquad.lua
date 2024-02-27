@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICombatSquad: AISquadBase
 AICombatSquad = {}
+
 
 ---@param fields? AICombatSquad
 ---@return AICombatSquad

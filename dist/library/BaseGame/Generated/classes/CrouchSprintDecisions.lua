@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CrouchSprintDecisions: CrouchDecisions
 CrouchSprintDecisions = {}
+
 
 ---@param fields? CrouchSprintDecisions
 ---@return CrouchSprintDecisions

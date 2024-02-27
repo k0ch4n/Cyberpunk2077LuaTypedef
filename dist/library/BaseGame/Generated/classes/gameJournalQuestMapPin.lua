@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalQuestMapPin: gameJournalQuestMapPinBase
 ---@field reference gameEntityReference
 ---@field slotName CName
@@ -7,6 +8,7 @@
 ---@field offset Vector3
 ---@field uiAnimation TweakDBID
 gameJournalQuestMapPin = {}
+
 
 ---@param fields? gameJournalQuestMapPin
 ---@return gameJournalQuestMapPin

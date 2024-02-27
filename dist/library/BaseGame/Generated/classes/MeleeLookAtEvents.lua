@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeLookAtEvents: LookAtPresetMeleeBaseEvents
 MeleeLookAtEvents = {}
+
 
 ---@param fields? MeleeLookAtEvents
 ---@return MeleeLookAtEvents

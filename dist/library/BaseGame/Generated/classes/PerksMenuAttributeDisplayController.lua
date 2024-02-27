@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PerksMenuAttributeDisplayController: BaseButtonView
 ---@field widgetWrapper inkWidgetReference
 ---@field foregroundWrapper inkWidgetReference
@@ -18,6 +19,7 @@
 ---@field attribute PerkMenuAttribute
 ---@field attributeData AttributeData
 PerksMenuAttributeDisplayController = {}
+
 
 ---@param fields? PerksMenuAttributeDisplayController
 ---@return PerksMenuAttributeDisplayController

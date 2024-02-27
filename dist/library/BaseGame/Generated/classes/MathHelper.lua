@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MathHelper: IScriptable
 MathHelper = {}
+
 
 ---@return Float
 function MathHelper.EulerNumber() end

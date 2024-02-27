@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkanimController: IScriptable
 inkanimController = {}
+
 
 ---@param fields? inkanimController
 ---@return inkanimController

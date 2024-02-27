@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InitialDecisions: LocomotionGroundDecisions
 InitialDecisions = {}
+
 
 ---@param fields? InitialDecisions
 ---@return InitialDecisions

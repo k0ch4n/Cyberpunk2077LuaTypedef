@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIEntityReuseEvent: AIAIEvent
 ---@field destination worldGlobalNodeID
 AIEntityReuseEvent = {}
+
 
 ---@param fields? AIEntityReuseEvent
 ---@return AIEntityReuseEvent

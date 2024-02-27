@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ArcadeMinigame: Enum
 ---@field Quadracer Enum 0
 ---@field RoachRace Enum 1

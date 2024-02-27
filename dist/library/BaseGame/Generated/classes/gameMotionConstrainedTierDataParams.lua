@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMotionConstrainedTierDataParams
 ---@field splineRef NodeRef
 ---@field adjustingSpeed Float
@@ -8,6 +9,7 @@
 ---@field travellingDuration Float
 ---@field notificationBackwardIndex Int32
 gameMotionConstrainedTierDataParams = {}
+
 
 ---@param fields? gameMotionConstrainedTierDataParams
 ---@return gameMotionConstrainedTierDataParams

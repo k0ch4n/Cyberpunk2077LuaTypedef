@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class RetractableAd: BaseAnimatedDevice
 ---@field offMeshConnection AIOffMeshConnectionComponent
 ---@field areaComponent gameStaticTriggerAreaComponent
 ---@field advUiComponent entIComponent
 ---@field isPartOfTheTrap Bool
 RetractableAd = {}
+
 
 ---@param fields? RetractableAd
 ---@return RetractableAd

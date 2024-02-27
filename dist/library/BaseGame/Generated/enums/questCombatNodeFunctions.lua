@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCombatNodeFunctions: Enum
 ---@field CombatTarget Enum 0
 ---@field ShootAt Enum 1

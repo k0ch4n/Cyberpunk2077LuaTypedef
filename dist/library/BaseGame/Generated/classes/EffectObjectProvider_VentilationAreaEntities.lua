@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EffectObjectProvider_VentilationAreaEntities: gameEffectObjectProvider_Scripted
 EffectObjectProvider_VentilationAreaEntities = {}
+
 
 ---@param fields? EffectObjectProvider_VentilationAreaEntities
 ---@return EffectObjectProvider_VentilationAreaEntities

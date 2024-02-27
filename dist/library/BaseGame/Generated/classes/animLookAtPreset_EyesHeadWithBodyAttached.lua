@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animLookAtPreset_EyesHeadWithBodyAttached: animLookAtPreset
 ---@field suppressHeadAnimation Float
 ---@field headMobility Float
@@ -7,6 +8,7 @@
 ---@field chestMobility Float
 ---@field softLimitAngle Float
 animLookAtPreset_EyesHeadWithBodyAttached = {}
+
 
 ---@param fields? animLookAtPreset_EyesHeadWithBodyAttached
 ---@return animLookAtPreset_EyesHeadWithBodyAttached

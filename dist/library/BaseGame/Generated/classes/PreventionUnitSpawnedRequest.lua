@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PreventionUnitSpawnedRequest: gameScriptableSystemRequest
 ---@field requestResult gameSpawnRequestResult
 PreventionUnitSpawnedRequest = {}
+
 
 ---@param fields? PreventionUnitSpawnedRequest
 ---@return PreventionUnitSpawnedRequest

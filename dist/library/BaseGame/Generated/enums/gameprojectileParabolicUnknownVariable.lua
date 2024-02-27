@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameprojectileParabolicUnknownVariable: Enum
 ---@field TargetPoint Enum 0
 ---@field VelocityValue Enum 1

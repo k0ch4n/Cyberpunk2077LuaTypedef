@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EArgumentType: Enum
 ---@field Object Enum 0
 ---@field CoverID Enum 1

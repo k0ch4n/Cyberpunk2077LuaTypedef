@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ForwardAction: redEvent
 ---@field requester gamePersistentID
 ---@field actionToForward ScriptableDeviceAction
 ForwardAction = {}
+
 
 ---@param fields? ForwardAction
 ---@return ForwardAction

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAINetStateComponent: gameScriptableComponent
 gameAINetStateComponent = {}
+
 
 ---@param fields? gameAINetStateComponent
 ---@return gameAINetStateComponent

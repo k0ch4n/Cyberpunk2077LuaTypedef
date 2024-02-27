@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AccessPointController: MasterController
 AccessPointController = {}
+
 
 ---@param fields? AccessPointController
 ---@return AccessPointController

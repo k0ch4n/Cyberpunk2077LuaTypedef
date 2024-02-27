@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SpreadInitEffector: gameEffector
 ---@field objectActionRecord gamedataObjectAction_Record
 ---@field effectorRecord gamedataSpreadInitEffector_Record
 ---@field player PlayerPuppet
 ---@field applyOverclock Bool
 SpreadInitEffector = {}
+
 
 ---@param fields? SpreadInitEffector
 ---@return SpreadInitEffector

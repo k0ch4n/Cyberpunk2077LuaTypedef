@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DelayedComDeviceClose: redEvent
 DelayedComDeviceClose = {}
+
 
 ---@param fields? DelayedComDeviceClose
 ---@return DelayedComDeviceClose

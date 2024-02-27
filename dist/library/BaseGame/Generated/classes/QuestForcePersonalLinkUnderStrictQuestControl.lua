@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForcePersonalLinkUnderStrictQuestControl: ActionBool
 QuestForcePersonalLinkUnderStrictQuestControl = {}
+
 
 ---@param fields? QuestForcePersonalLinkUnderStrictQuestControl
 ---@return QuestForcePersonalLinkUnderStrictQuestControl

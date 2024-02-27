@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class InventorySlotWrapperTooltip: AGenericTooltipController
 ---@field itemDisplayController InventoryItemDisplayController
 InventorySlotWrapperTooltip = {}
+
 
 ---@param fields? InventorySlotWrapperTooltip
 ---@return InventorySlotWrapperTooltip

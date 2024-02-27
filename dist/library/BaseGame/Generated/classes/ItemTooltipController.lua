@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemTooltipController: AGenericTooltipControllerWithDebug
 ---@field itemNameText inkTextWidgetReference
 ---@field itemRarityText inkTextWidgetReference
@@ -87,6 +88,7 @@
 ---@field animProxy inkanimProxy
 ---@field playAnimation Bool
 ItemTooltipController = {}
+
 
 ---@param fields? ItemTooltipController
 ---@return ItemTooltipController

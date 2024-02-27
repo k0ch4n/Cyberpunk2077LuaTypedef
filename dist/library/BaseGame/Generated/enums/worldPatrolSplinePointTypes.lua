@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldPatrolSplinePointTypes: Enum
 ---@field Workspot Enum 0
 ---@field LookAt Enum 1

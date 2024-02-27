@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class moveLineOfSightPointPreference: Enum
 ---@field None Enum 0
 ---@field ClosestToOwner Enum 1

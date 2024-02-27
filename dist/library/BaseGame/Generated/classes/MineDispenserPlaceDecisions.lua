@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MineDispenserPlaceDecisions: MineDispenserTransition
 ---@field spawnPosition Vector4
 ---@field spawnNormal Vector4
 MineDispenserPlaceDecisions = {}
+
 
 ---@param fields? MineDispenserPlaceDecisions
 ---@return MineDispenserPlaceDecisions

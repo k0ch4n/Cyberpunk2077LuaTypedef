@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleWheelsFrictionMap_Record: gamedataTweakDBRecord
 gamedataVehicleWheelsFrictionMap_Record = {}
+
 
 ---@param fields? gamedataVehicleWheelsFrictionMap_Record
 ---@return gamedataVehicleWheelsFrictionMap_Record

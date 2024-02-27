@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CameraRotationData
 ---@field pitch Float
 ---@field maxPitch Float
@@ -8,6 +9,7 @@
 ---@field maxYaw Float
 ---@field minYaw Float
 CameraRotationData = {}
+
 
 ---@param fields? CameraRotationData
 ---@return CameraRotationData

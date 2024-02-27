@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SwimmingForceFreezeDecisions: LocomotionSwimming
 SwimmingForceFreezeDecisions = {}
+
 
 ---@param fields? SwimmingForceFreezeDecisions
 ---@return SwimmingForceFreezeDecisions

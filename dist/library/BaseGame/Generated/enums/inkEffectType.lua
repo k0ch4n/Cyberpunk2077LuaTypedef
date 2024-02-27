@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkEffectType: Enum
 ---@field ScanlineWipe Enum 0
 ---@field LinearWipe Enum 1

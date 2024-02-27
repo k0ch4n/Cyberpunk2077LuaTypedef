@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AimWalkEvents: LocomotionGroundEvents
 AimWalkEvents = {}
+
 
 ---@param fields? AimWalkEvents
 ---@return AimWalkEvents

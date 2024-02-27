@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkSelectItemIndexEvent: redEvent
 inkSelectItemIndexEvent = {}
+
 
 ---@param fields? inkSelectItemIndexEvent
 ---@return inkSelectItemIndexEvent

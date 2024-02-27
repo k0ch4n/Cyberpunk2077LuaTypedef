@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SensesOperationsTrigger: DeviceOperationsTrigger
 ---@field triggerData SensesOperationTriggerData
 SensesOperationsTrigger = {}
+
 
 ---@param fields? SensesOperationsTrigger
 ---@return SensesOperationsTrigger

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemLabelType: Enum
 ---@field New Enum 0
 ---@field Quest Enum 1

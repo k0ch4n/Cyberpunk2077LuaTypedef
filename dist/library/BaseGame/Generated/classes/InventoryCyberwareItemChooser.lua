@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class InventoryCyberwareItemChooser: InventoryGenericItemChooser
 ---@field leftSlotsContainer inkCompoundWidgetReference
 ---@field rightSlotsContainer inkCompoundWidgetReference
 ---@field itemData gameInventoryItemData
 InventoryCyberwareItemChooser = {}
+
 
 ---@param fields? InventoryCyberwareItemChooser
 ---@return InventoryCyberwareItemChooser

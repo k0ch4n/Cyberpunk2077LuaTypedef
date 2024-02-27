@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class saveMetadata: saveGameMetadata
 ---@field saveVersion Uint32
 ---@field gameVersion Uint32
@@ -20,6 +21,7 @@
 ---@field isModded Bool
 ---@field additionalContentIds CName[]
 saveMetadata = {}
+
 
 ---@param fields? saveMetadata
 ---@return saveMetadata

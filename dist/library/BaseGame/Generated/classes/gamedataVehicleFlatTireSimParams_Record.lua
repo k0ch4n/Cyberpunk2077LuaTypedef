@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleFlatTireSimParams_Record: gamedataTweakDBRecord
 gamedataVehicleFlatTireSimParams_Record = {}
+
 
 ---@param fields? gamedataVehicleFlatTireSimParams_Record
 ---@return gamedataVehicleFlatTireSimParams_Record

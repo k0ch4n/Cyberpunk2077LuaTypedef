@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ElevatorInkGameController: DeviceInkGameControllerBase
 ---@field verticalPanel inkVerticalPanelWidgetReference
 ---@field currentFloorTextWidget inkTextWidgetReference
@@ -18,6 +19,7 @@
 ---@field onPlayerScannedListener redCallbackObject
 ---@field onPausedChangeListener redCallbackObject
 ElevatorInkGameController = {}
+
 
 ---@param fields? ElevatorInkGameController
 ---@return ElevatorInkGameController

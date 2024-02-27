@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WindowController: DoorController
 WindowController = {}
+
 
 ---@param fields? WindowController
 ---@return WindowController

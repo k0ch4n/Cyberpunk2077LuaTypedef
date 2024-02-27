@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class InteractionAreaOperationsTrigger: DeviceOperationsTrigger
 ---@field triggerData InteractionAreaOperationTriggerData
 InteractionAreaOperationsTrigger = {}
+
 
 ---@param fields? InteractionAreaOperationsTrigger
 ---@return InteractionAreaOperationsTrigger

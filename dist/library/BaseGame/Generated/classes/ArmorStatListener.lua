@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ArmorStatListener: gameScriptStatPoolsListener
 ---@field ownerPuppet PlayerPuppet
 ArmorStatListener = {}
+
 
 ---@param fields? ArmorStatListener
 ---@return ArmorStatListener

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryItemsList: inkWidgetLogicController
 ---@field InventoryItemName CName
 ---@field ItemsLayoutRef inkCompoundWidgetReference
@@ -10,6 +11,7 @@
 ---@field IsDevice Bool
 ---@field InventoryManager InventoryDataManagerV2
 InventoryItemsList = {}
+
 
 ---@param fields? InventoryItemsList
 ---@return InventoryItemsList

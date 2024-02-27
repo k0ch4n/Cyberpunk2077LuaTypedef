@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataSenseObjectType: Enum
 ---@field Camera Enum 0
 ---@field Deadbody Enum 1

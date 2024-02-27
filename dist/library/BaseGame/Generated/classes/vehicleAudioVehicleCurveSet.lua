@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleAudioVehicleCurveSet: CurveSet
 vehicleAudioVehicleCurveSet = {}
+
 
 ---@param fields? vehicleAudioVehicleCurveSet
 ---@return vehicleAudioVehicleCurveSet

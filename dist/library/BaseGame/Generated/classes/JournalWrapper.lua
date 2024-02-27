@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class JournalWrapper: ABaseWrapper
 ---@field journalManager gameJournalManager
 ---@field journalContext gameJournalRequestContext
@@ -7,6 +8,7 @@
 ---@field listOfJournalEntries gameJournalEntry[]
 ---@field gameInstance ScriptGameInstance
 JournalWrapper = {}
+
 
 ---@param fields? JournalWrapper
 ---@return JournalWrapper

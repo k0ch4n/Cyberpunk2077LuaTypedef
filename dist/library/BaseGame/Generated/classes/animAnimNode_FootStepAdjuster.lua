@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_FootStepAdjuster: animAnimNode_OnePoseInput
 ---@field leftToeName animTransformIndex
 ---@field rightToeName animTransformIndex
@@ -18,6 +19,7 @@
 ---@field controlValueNode animFloatLink
 ---@field controlVectorNode animVectorLink
 animAnimNode_FootStepAdjuster = {}
+
 
 ---@param fields? animAnimNode_FootStepAdjuster
 ---@return animAnimNode_FootStepAdjuster

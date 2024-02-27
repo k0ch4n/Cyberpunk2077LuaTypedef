@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameMuppetHighLevelState
 ---@field isDead Bool
 ---@field deathFrameId Uint32
 gameMuppetHighLevelState = {}
+
 
 ---@param fields? gameMuppetHighLevelState
 ---@return gameMuppetHighLevelState

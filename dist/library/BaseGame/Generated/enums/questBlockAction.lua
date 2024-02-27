@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questBlockAction: Enum
 ---@field Block Enum 0
 ---@field Unblock Enum 1

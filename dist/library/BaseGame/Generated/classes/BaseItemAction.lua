@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class BaseItemAction: BaseScriptableAction
 ---@field itemData gameItemData
 ---@field removeAfterUse Bool
 ---@field quantity Int32
 BaseItemAction = {}
+
 
 ---@return gameItemData
 function BaseItemAction:GetItemData() end

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class senseVisibleObjectComponent: entIPlacedComponent
 ---@field visibleObject senseVisibleObject
 senseVisibleObjectComponent = {}
+
 
 ---@param fields? senseVisibleObjectComponent
 ---@return senseVisibleObjectComponent

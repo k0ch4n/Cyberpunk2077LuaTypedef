@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePlayerCoverInfo: IScriptable
 gamePlayerCoverInfo = {}
+
 
 ---@param fields? gamePlayerCoverInfo
 ---@return gamePlayerCoverInfo

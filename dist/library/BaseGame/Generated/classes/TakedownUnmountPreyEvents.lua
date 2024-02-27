@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TakedownUnmountPreyEvents: LocomotionTakedownEvents
 TakedownUnmountPreyEvents = {}
+
 
 ---@param fields? TakedownUnmountPreyEvents
 ---@return TakedownUnmountPreyEvents

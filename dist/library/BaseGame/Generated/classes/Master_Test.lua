@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Master_Test: gameObject
 ---@field deviceComponent gameMasterDeviceComponent
 Master_Test = {}
+
 
 ---@param fields? Master_Test
 ---@return Master_Test

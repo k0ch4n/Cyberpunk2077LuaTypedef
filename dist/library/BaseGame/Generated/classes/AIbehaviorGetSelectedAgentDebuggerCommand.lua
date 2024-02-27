@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorGetSelectedAgentDebuggerCommand: AIbehaviorIDebuggerCommand
 AIbehaviorGetSelectedAgentDebuggerCommand = {}
+
 
 ---@param fields? AIbehaviorGetSelectedAgentDebuggerCommand
 ---@return AIbehaviorGetSelectedAgentDebuggerCommand

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AISignalFlags: Enum
 ---@field Undefined Enum 0
 ---@field OverridesSelf Enum 1

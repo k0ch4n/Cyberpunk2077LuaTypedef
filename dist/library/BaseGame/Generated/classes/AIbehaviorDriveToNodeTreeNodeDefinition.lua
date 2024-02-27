@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorDriveToNodeTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field useKinematic AIArgumentMapping
 ---@field needDriver AIArgumentMapping
@@ -15,6 +16,7 @@
 ---@field trafficTryNeighborsForEnd AIArgumentMapping
 ---@field ignoreNoAIDrivingLanes AIArgumentMapping
 AIbehaviorDriveToNodeTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorDriveToNodeTreeNodeDefinition
 ---@return AIbehaviorDriveToNodeTreeNodeDefinition

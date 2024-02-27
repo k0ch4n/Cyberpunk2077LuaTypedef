@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ActionCooldownEvent: redEvent
 ---@field storageID CooldownStorageID
 ActionCooldownEvent = {}
+
 
 ---@param fields? ActionCooldownEvent
 ---@return ActionCooldownEvent

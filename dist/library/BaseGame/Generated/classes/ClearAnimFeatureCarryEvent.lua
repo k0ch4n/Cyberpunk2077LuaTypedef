@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ClearAnimFeatureCarryEvent: redEvent
 ClearAnimFeatureCarryEvent = {}
+
 
 ---@param fields? ClearAnimFeatureCarryEvent
 ---@return ClearAnimFeatureCarryEvent

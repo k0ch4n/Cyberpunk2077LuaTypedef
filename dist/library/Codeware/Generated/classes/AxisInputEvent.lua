@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AxisInputEvent: KeyInputEvent
 AxisInputEvent = {}
+
 
 ---@param fields? AxisInputEvent
 ---@return AxisInputEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamestateMachineScriptInterface: IScriptable
 ---@field owner gameObject
 ---@field executionOwner gameObject
@@ -8,6 +9,7 @@
 ---@field executionOwnerEntityID entEntityID
 ---@field stateMachineBBDef gamebbScriptDefinition
 gamestateMachineScriptInterface = {}
+
 
 ---@param fields? gamestateMachineScriptInterface
 ---@return gamestateMachineScriptInterface

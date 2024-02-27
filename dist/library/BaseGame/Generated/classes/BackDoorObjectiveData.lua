@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BackDoorObjectiveData: GemplayObjectiveData
 BackDoorObjectiveData = {}
+
 
 ---@param fields? BackDoorObjectiveData
 ---@return BackDoorObjectiveData

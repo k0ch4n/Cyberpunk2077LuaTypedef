@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DataTermInkGameController: DeviceInkGameControllerBase
 ---@field fcPointsPanel inkHorizontalPanelWidget
 ---@field districtText inkTextWidget
@@ -8,6 +9,7 @@
 ---@field onFastTravelPointUpdateListener redCallbackObject
 ---@field onToggleHologramListener redCallbackObject
 DataTermInkGameController = {}
+
 
 ---@param fields? DataTermInkGameController
 ---@return DataTermInkGameController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PerkScreenTierInfo
 ---@field wrapper inkWidgetReference
 ---@field requirementText inkTextWidgetReference
@@ -8,6 +9,7 @@
 ---@field unlocked Bool
 ---@field hovered Bool
 PerkScreenTierInfo = {}
+
 
 ---@param fields? PerkScreenTierInfo
 ---@return PerkScreenTierInfo

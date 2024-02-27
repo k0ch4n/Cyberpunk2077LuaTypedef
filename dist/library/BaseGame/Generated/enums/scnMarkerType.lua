@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnMarkerType: Enum
 ---@field Local Enum 0
 ---@field Global Enum 1

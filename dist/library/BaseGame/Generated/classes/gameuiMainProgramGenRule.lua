@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiMainProgramGenRule: gameuiMinigameGenerationRule
 gameuiMainProgramGenRule = {}
+
 
 ---@param fields? gameuiMainProgramGenRule
 ---@return gameuiMainProgramGenRule

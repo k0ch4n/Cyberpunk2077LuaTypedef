@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceTakeControlOverCamera: ActionBool
 QuestForceTakeControlOverCamera = {}
+
 
 ---@param fields? QuestForceTakeControlOverCamera
 ---@return QuestForceTakeControlOverCamera

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameItemDropObject: gameLootObject
 ---@field isEmpty Bool
 ---@field isIconic Bool
 ---@field hasQuestItems Bool
 ---@field spawnedItemID gameItemID
 gameItemDropObject = {}
+
 
 ---@param fields? gameItemDropObject
 ---@return gameItemDropObject

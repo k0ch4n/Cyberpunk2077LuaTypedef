@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioVehicleDestructionGridLayer
 ---@field backLeft audioVehicleDestructionGridCell
 ---@field backRight audioVehicleDestructionGridCell
@@ -10,6 +11,7 @@
 ---@field frontLeft audioVehicleDestructionGridCell
 ---@field frontRight audioVehicleDestructionGridCell
 audioVehicleDestructionGridLayer = {}
+
 
 ---@param fields? audioVehicleDestructionGridLayer
 ---@return audioVehicleDestructionGridLayer

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameuiMinimapSecurityAreaMappinController: gameuiBaseMinimapMappinController
 ---@field playerInArea Bool
 ---@field area gamemappinsIArea
 ---@field areaShapeWidget inkShapeWidgetReference
 gameuiMinimapSecurityAreaMappinController = {}
+
 
 ---@param fields? gameuiMinimapSecurityAreaMappinController
 ---@return gameuiMinimapSecurityAreaMappinController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ChargeEventsAbstract: WeaponEventsTransition
 ---@field layerId Uint32
 ChargeEventsAbstract = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

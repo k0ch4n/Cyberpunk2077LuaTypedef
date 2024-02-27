@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TerminalMainLayoutWidgetController: inkWidgetLogicController
 ---@field thumbnailsListSlot inkWidgetReference
 ---@field deviceSlot inkWidgetReference
@@ -10,6 +11,7 @@
 ---@field isInitialized Bool
 ---@field main_canvas inkWidget
 TerminalMainLayoutWidgetController = {}
+
 
 ---@param fields? TerminalMainLayoutWidgetController
 ---@return TerminalMainLayoutWidgetController

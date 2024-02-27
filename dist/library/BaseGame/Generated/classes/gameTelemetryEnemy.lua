@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTelemetryEnemy
 ---@field characterRecord TweakDBID
 ---@field enemyAffiliation String
@@ -8,6 +9,7 @@
 ---@field archetype gamedataArchetypeType
 ---@field level Int32
 gameTelemetryEnemy = {}
+
 
 ---@param fields? gameTelemetryEnemy
 ---@return gameTelemetryEnemy

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HudPhoneGameController: gameuiSongbirdAudioCallGameController
 ---@field isAudioCall Bool
 ---@field AvatarControllerRef inkWidgetReference
@@ -24,6 +25,7 @@
 ---@field TimeoutPeroid Float
 ---@field buttonPressed Bool
 HudPhoneGameController = {}
+
 
 ---@param fields? HudPhoneGameController
 ---@return HudPhoneGameController

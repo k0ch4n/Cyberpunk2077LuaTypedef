@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TakedownGameEffectHelper: IScriptable
 TakedownGameEffectHelper = {}
+
 
 ---@param fields? TakedownGameEffectHelper
 ---@return TakedownGameEffectHelper

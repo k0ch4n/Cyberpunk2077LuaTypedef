@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkInputDeviceIdCallback: inkCallbackBase
 inkInputDeviceIdCallback = {}
+
 
 ---@param fields? inkInputDeviceIdCallback
 ---@return inkInputDeviceIdCallback

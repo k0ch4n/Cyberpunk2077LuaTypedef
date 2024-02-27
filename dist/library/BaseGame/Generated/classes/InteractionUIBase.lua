@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InteractionUIBase: gameuiHUDGameController
 ---@field InteractionsBlackboard gameIBlackboard
 ---@field InteractionsBBDefinition UIInteractionsDef
@@ -16,6 +17,7 @@
 ---@field dialogIsScrollable Bool
 ---@field lootingIsScrollable Bool
 InteractionUIBase = {}
+
 
 ---@param activeHubId Int32
 ---@return Bool

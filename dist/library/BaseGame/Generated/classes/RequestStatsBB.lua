@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RequestStatsBB: gamePlayerScriptableSystemRequest
 RequestStatsBB = {}
+
 
 ---@param fields? RequestStatsBB
 ---@return RequestStatsBB

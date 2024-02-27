@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animImportFacialCorrectivePoseDataDesc
 ---@field transforms animImportFacialTransform[]
 ---@field transformsNoScale animImportFacialTransformNoScale[]
@@ -7,6 +8,7 @@
 ---@field transformNames CName[]
 ---@field parentsWeights Float[]
 animImportFacialCorrectivePoseDataDesc = {}
+
 
 ---@param fields? animImportFacialCorrectivePoseDataDesc
 ---@return animImportFacialCorrectivePoseDataDesc

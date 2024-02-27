@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RegularLandLowGravityDecisions: AbstractLandDecisions
 RegularLandLowGravityDecisions = {}
+
 
 ---@param fields? RegularLandLowGravityDecisions
 ---@return RegularLandLowGravityDecisions

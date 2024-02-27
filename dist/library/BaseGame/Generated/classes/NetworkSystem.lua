@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NetworkSystem: gameScriptableSystem
 ---@field networkLinks SNetworkLinkData[]
 ---@field networkRevealTargets entEntityID[]
@@ -29,6 +30,7 @@
 ---@field activateLinksDelayID gameDelayID
 ---@field deactivateLinksDelayID gameDelayID
 NetworkSystem = {}
+
 
 ---@param fields? NetworkSystem
 ---@return NetworkSystem

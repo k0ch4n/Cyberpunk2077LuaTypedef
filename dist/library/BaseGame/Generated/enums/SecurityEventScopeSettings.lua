@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SecurityEventScopeSettings: Enum
 ---@field GLOBAL Enum 0
 ---@field AREA_WHERE_PLAYER_IS Enum 1

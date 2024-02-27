@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AICTreeNodeActionAnimationCurvePathDefinition: AICTreeNodeActionDefinition
 ---@field nodeReference LibTreeDefNodeRef
 ---@field controllersSetupName LibTreeDefCName
@@ -18,6 +19,7 @@
 ---@field startSnapToTerrainBlendTime LibTreeDefFloat
 ---@field stopSnapToTerrainBlendTime LibTreeDefFloat
 AICTreeNodeActionAnimationCurvePathDefinition = {}
+
 
 ---@param fields? AICTreeNodeActionAnimationCurvePathDefinition
 ---@return AICTreeNodeActionAnimationCurvePathDefinition

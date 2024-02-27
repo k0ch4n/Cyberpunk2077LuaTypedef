@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestCombatActionNotification: QuestSecuritySystemInput
 QuestCombatActionNotification = {}
+
 
 ---@param fields? QuestCombatActionNotification
 ---@return QuestCombatActionNotification

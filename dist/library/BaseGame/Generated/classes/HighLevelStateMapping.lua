@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HighLevelStateMapping: ChangeHighLevelStateAbstract
 ---@field stateNameMapping AIArgumentMapping
 HighLevelStateMapping = {}
+
 
 ---@param fields? HighLevelStateMapping
 ---@return HighLevelStateMapping

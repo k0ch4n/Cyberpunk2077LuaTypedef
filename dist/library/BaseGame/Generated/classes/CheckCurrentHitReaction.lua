@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CheckCurrentHitReaction: HitConditions
 ---@field HitReactionTypeToCompare animHitReactionType
 ---@field CustomStimNameToCompare CName
 ---@field shouldCheckDeathStimName Bool
 CheckCurrentHitReaction = {}
+
 
 ---@param fields? CheckCurrentHitReaction
 ---@return CheckCurrentHitReaction

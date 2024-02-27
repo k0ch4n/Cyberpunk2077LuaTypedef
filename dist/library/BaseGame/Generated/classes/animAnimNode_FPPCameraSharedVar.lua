@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animAnimNode_FPPCameraSharedVar: animAnimNode_FloatValue
 animAnimNode_FPPCameraSharedVar = {}
+
 
 ---@param fields? animAnimNode_FPPCameraSharedVar
 ---@return animAnimNode_FPPCameraSharedVar

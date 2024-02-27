@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiMinimapDynamicEventMappinController: gameuiBaseMinimapMappinController
 ---@field pulseEnabled Bool
 ---@field pulseWidget inkWidgetReference
@@ -7,6 +8,7 @@
 ---@field hideInCombat Bool
 ---@field pulseAnim inkanimProxy
 gameuiMinimapDynamicEventMappinController = {}
+
 
 ---@param fields? gameuiMinimapDynamicEventMappinController
 ---@return gameuiMinimapDynamicEventMappinController

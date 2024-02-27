@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InnerSubsystemScreenGameController: BaseInnerBunkerComputerGameController
 ---@field loopAnimName CName[]
 ---@field adminAccessPopupAnimName CName
@@ -21,6 +22,7 @@
 ---@field successPopupAnimProxy inkanimProxy
 ---@field errorPopupAnimProxy inkanimProxy
 InnerSubsystemScreenGameController = {}
+
 
 ---@param fields? InnerSubsystemScreenGameController
 ---@return InnerSubsystemScreenGameController

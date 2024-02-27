@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleAlarm: ActionBool
 ToggleAlarm = {}
+
 
 ---@param fields? ToggleAlarm
 ---@return ToggleAlarm

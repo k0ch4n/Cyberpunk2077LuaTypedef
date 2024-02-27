@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_OrientConstraint: animAnimNode_OnePoseInput
 ---@field areSourceChannelsResaved Bool
 ---@field inputTransforms animAnimNodeSourceChannel_WeightedQuat[]
@@ -10,6 +11,7 @@
 ---@field weight Float
 ---@field weightFloatTrack animNamedTrackIndex
 animAnimNode_OrientConstraint = {}
+
 
 ---@param fields? animAnimNode_OrientConstraint
 ---@return animAnimNode_OrientConstraint

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HoverJumpEvents: LocomotionAirEvents
 HoverJumpEvents = {}
+
 
 ---@param fields? HoverJumpEvents
 ---@return HoverJumpEvents

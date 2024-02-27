@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AnimFeature_Stamina: animAnimFeature
 ---@field staminaValue Float
 ---@field tiredness Float
 AnimFeature_Stamina = {}
+
 
 ---@param fields? AnimFeature_Stamina
 ---@return AnimFeature_Stamina

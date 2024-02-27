@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataTweakDBType: Enum
 ---@field Invalid Enum 0
 ---@field ForeignKey Enum 1

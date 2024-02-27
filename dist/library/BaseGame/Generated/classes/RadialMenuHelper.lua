@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RadialMenuHelper: IScriptable
 RadialMenuHelper = {}
+
 
 ---@param fields? RadialMenuHelper
 ---@return RadialMenuHelper

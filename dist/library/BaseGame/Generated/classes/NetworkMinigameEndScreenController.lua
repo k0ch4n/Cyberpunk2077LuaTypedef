@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NetworkMinigameEndScreenController: inkWidgetLogicController
 ---@field outcomeText inkTextWidgetReference
 ---@field finishBarContainer NetworkMinigameProgramController
@@ -12,6 +13,7 @@
 ---@field completionColor Color
 ---@field failureColor Color
 NetworkMinigameEndScreenController = {}
+
 
 ---@param fields? NetworkMinigameEndScreenController
 ---@return NetworkMinigameEndScreenController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FunctionalTestsGameSystem: FunctionalTestsIGameSystem
 FunctionalTestsGameSystem = {}
+
 
 ---@param fields? FunctionalTestsGameSystem
 ---@return FunctionalTestsGameSystem

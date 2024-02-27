@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questvehicleOnSplineParams: questVehicleSpecificCommandParams
 ---@field splineRef NodeRef
 ---@field reverseSpline Bool
@@ -13,6 +14,7 @@
 ---@field rubberBandingParam questParamRubberbanding
 ---@field audioCurvesParam vehicleAudioCurvesParam
 questvehicleOnSplineParams = {}
+
 
 ---@param fields? questvehicleOnSplineParams
 ---@return questvehicleOnSplineParams

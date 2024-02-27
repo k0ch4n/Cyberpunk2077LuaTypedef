@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AINPCStanceStateCheck: AINPCStateCheck
 ---@field blackboard gameIBlackboard
 AINPCStanceStateCheck = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

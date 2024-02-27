@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EEquipmentState: Enum
 ---@field Unequipped Enum 0
 ---@field Equipped Enum 1

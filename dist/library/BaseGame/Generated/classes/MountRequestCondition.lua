@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class MountRequestCondition: AIbehaviorconditionScript
 ---@field testMountRequest Bool
 ---@field testUnmountRequest Bool
 ---@field acceptInstant Bool
 ---@field acceptNotInstant Bool
 MountRequestCondition = {}
+
 
 ---@param fields? MountRequestCondition
 ---@return MountRequestCondition

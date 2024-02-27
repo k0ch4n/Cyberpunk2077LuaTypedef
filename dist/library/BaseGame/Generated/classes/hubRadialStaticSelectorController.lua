@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hubRadialStaticSelectorController: inkSelectorController
 ---@field leftArrowWidget inkWidgetReference
 ---@field rightArrowWidget inkWidgetReference
@@ -18,6 +19,7 @@
 ---@field animationsRetryDiv Float
 ---@field debugText inkTextWidgetReference
 hubRadialStaticSelectorController = {}
+
 
 ---@param fields? hubRadialStaticSelectorController
 ---@return hubRadialStaticSelectorController

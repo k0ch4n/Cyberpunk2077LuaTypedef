@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UIInventoryScriptableStatsListener: gameScriptStatsListener
 ---@field uiInventoryScriptableSystem UIInventoryScriptableSystem
 UIInventoryScriptableStatsListener = {}
+
 
 ---@param fields? UIInventoryScriptableStatsListener
 ---@return UIInventoryScriptableStatsListener

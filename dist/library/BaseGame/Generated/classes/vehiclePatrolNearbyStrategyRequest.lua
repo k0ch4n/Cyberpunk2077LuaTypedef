@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class vehiclePatrolNearbyStrategyRequest: vehicleBaseStrategyRequest
 ---@field angleRange Vector2
 vehiclePatrolNearbyStrategyRequest = {}
+
 
 ---@param fields? vehiclePatrolNearbyStrategyRequest
 ---@return vehiclePatrolNearbyStrategyRequest

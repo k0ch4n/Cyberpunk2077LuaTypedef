@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameCyberspacePixelsortEffectParams
 ---@field fullscreen Bool
 ---@field vfx Bool
@@ -9,6 +10,7 @@
 ---@field targetIntensity Float
 ---@field timeBlend Float
 gameCyberspacePixelsortEffectParams = {}
+
 
 ---@param fields? gameCyberspacePixelsortEffectParams
 ---@return gameCyberspacePixelsortEffectParams

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameFastTravelPointData: IScriptable
 ---@field pointRecord TweakDBID
 ---@field markerRef NodeRef
@@ -7,6 +8,7 @@
 ---@field isEP1 Bool
 ---@field mappinID gameNewMappinID
 gameFastTravelPointData = {}
+
 
 ---@param fields? gameFastTravelPointData
 ---@return gameFastTravelPointData

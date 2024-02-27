@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BlacklistReason: Enum
 ---@field UNINITIALIZED Enum 0
 ---@field TRESPASSING Enum 1

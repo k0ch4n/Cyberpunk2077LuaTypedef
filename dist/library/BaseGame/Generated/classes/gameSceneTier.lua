@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameSceneTier: senseStimuliData
 gameSceneTier = {}
+
 
 ---@param fields? gameSceneTier
 ---@return gameSceneTier

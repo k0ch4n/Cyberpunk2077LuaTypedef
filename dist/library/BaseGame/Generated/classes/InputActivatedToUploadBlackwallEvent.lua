@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InputActivatedToUploadBlackwallEvent: redEvent
 InputActivatedToUploadBlackwallEvent = {}
+
 
 ---@param fields? InputActivatedToUploadBlackwallEvent
 ---@return InputActivatedToUploadBlackwallEvent

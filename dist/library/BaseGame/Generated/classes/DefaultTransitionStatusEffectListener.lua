@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DefaultTransitionStatusEffectListener: gameScriptStatusEffectListener
 ---@field transitionOwner DefaultTransition
 DefaultTransitionStatusEffectListener = {}
+
 
 ---@param fields? DefaultTransitionStatusEffectListener
 ---@return DefaultTransitionStatusEffectListener

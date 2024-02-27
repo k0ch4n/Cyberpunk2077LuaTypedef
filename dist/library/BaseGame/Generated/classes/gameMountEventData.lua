@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMountEventData: IScriptable
 ---@field slotName CName
 ---@field mountParentEntityId entEntityID
@@ -16,6 +17,7 @@
 ---@field allowFailsafeTeleport Bool
 ---@field mountEventOptions gameMountEventOptions
 gameMountEventData = {}
+
 
 ---@param fields? gameMountEventData
 ---@return gameMountEventData

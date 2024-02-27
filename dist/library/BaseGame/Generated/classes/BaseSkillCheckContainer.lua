@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class BaseSkillCheckContainer: IScriptable
 ---@field hackingCheckSlot HackingSkillCheck
 ---@field engineeringCheckSlot EngineeringSkillCheck
 ---@field demolitionCheckSlot DemolitionSkillCheck
 ---@field isInitialized Bool
 BaseSkillCheckContainer = {}
+
 
 ---@return DemolitionSkillCheck
 function BaseSkillCheckContainer:GetDemolitionSlot() end

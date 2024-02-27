@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeBodySlamAttackDecisions: MeleeAttackGenericDecisions
 MeleeBodySlamAttackDecisions = {}
+
 
 ---@param fields? MeleeBodySlamAttackDecisions
 ---@return MeleeBodySlamAttackDecisions

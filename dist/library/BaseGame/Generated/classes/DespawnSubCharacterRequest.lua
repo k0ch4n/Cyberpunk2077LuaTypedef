@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DespawnSubCharacterRequest: DespawnUniqueSubCharacterRequest
 DespawnSubCharacterRequest = {}
+
 
 ---@param fields? DespawnSubCharacterRequest
 ---@return DespawnSubCharacterRequest

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsPlayerLookAtEventParams
 ---@field slotName CName
 ---@field offsetPos Vector3
@@ -15,6 +16,7 @@
 ---@field easeIn Bool
 ---@field easeOut Bool
 scneventsPlayerLookAtEventParams = {}
+
 
 ---@param fields? scneventsPlayerLookAtEventParams
 ---@return scneventsPlayerLookAtEventParams

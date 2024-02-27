@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviortaskStackScript: AIbehaviorScriptBase
 AIbehaviortaskStackScript = {}
+
 
 ---@param fields? AIbehaviortaskStackScript
 ---@return AIbehaviortaskStackScript

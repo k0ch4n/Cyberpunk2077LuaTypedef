@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIClearLineOfSightCoverSelection: AICoverSelectionParameters
 AIClearLineOfSightCoverSelection = {}
+
 
 ---@param fields? AIClearLineOfSightCoverSelection
 ---@return AIClearLineOfSightCoverSelection

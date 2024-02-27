@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrosshairGameController_Simple: gameuiCrosshairBaseGameController
 ---@field topPart inkWidgetReference
 ---@field bottomPart inkWidgetReference
@@ -11,6 +12,7 @@
 ---@field offsetLeftRight Float
 ---@field latchVertical Float
 CrosshairGameController_Simple = {}
+
 
 ---@param fields? CrosshairGameController_Simple
 ---@return CrosshairGameController_Simple

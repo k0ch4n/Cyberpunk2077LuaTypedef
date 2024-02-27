@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetPendingReactionBB: StatusEffectTasks
 SetPendingReactionBB = {}
+
 
 ---@param fields? SetPendingReactionBB
 ---@return SetPendingReactionBB

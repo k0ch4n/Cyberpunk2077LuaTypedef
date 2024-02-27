@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CameraCustomData_RenderProxyData: ICameraStorageCustomData
 CameraCustomData_RenderProxyData = {}
+
 
 ---@param fields? CameraCustomData_RenderProxyData
 ---@return CameraCustomData_RenderProxyData

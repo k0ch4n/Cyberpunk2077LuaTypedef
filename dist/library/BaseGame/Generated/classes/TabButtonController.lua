@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TabButtonController: inkToggleController
 ---@field label inkTextWidgetReference
 ---@field icon inkImageWidgetReference
@@ -7,6 +8,7 @@
 ---@field labelSet String
 ---@field iconSet String
 TabButtonController = {}
+
 
 ---@param fields? TabButtonController
 ---@return TabButtonController

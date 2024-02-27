@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IronsightTargetHealthChangeListener: gameScriptStatPoolsListener
 ---@field parentIronsight IronsightGameController
 IronsightTargetHealthChangeListener = {}
+
 
 ---@param fields? IronsightTargetHealthChangeListener
 ---@return IronsightTargetHealthChangeListener

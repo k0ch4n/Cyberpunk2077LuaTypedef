@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HitOperationsTrigger: DeviceOperationsTrigger
 ---@field triggerData HitOperationTriggerData
 HitOperationsTrigger = {}
+
 
 ---@param fields? HitOperationsTrigger
 ---@return HitOperationsTrigger

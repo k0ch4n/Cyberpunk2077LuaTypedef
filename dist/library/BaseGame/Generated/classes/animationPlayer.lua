@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animationPlayer: inkWidgetLogicController
 ---@field animName CName
 ---@field loopType inkanimLoopType
@@ -12,6 +13,7 @@
 ---@field dependsOnTimeDilation Bool
 ---@field anim inkanimProxy
 animationPlayer = {}
+
 
 ---@param fields? animationPlayer
 ---@return animationPlayer

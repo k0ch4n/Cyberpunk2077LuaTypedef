@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameCrowdTemplateEntryPhase
 ---@field phaseName CName
 ---@field timePeriods gameCrowdPhaseTimePeriod[]
@@ -9,6 +10,7 @@
 ---@field legacyDensityInTimePeriods Bool
 ---@field legacyCharactersData Bool
 gameCrowdTemplateEntryPhase = {}
+
 
 ---@param fields? gameCrowdTemplateEntryPhase
 ---@return gameCrowdTemplateEntryPhase

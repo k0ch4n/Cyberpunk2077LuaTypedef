@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectDurationModifierScriptContext
 gameEffectDurationModifierScriptContext = {}
+
 
 ---@param fields? gameEffectDurationModifierScriptContext
 ---@return gameEffectDurationModifierScriptContext

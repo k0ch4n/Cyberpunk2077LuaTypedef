@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class EquipmentAreaCategory: IScriptable
 ---@field parentCategory InventoryItemDisplayCategoryArea
 ---@field areaDisplays EquipmentAreaDisplays[]
 EquipmentAreaCategory = {}
+
 
 ---@param fields? EquipmentAreaCategory
 ---@return EquipmentAreaCategory

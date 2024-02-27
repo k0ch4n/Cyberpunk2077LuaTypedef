@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CodexFilterButtonController: inkWidgetLogicController
 ---@field root inkWidgetReference
 ---@field image inkImageWidgetReference
@@ -7,6 +8,7 @@
 ---@field toggled Bool
 ---@field hovered Bool
 CodexFilterButtonController = {}
+
 
 ---@param fields? CodexFilterButtonController
 ---@return CodexFilterButtonController

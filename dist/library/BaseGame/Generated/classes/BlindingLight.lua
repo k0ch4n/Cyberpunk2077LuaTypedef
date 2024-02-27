@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class BlindingLight: BasicDistractionDevice
 ---@field areaComponent gameStaticTriggerAreaComponent
 ---@field highLightActive Bool
 BlindingLight = {}
+
 
 ---@param fields? BlindingLight
 ---@return BlindingLight

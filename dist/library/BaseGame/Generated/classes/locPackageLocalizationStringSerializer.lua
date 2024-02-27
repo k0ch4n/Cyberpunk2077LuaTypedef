@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class locPackageLocalizationStringSerializer: redPackageCustomTypeSerializer
 locPackageLocalizationStringSerializer = {}
+
 
 ---@param fields? locPackageLocalizationStringSerializer
 ---@return locPackageLocalizationStringSerializer

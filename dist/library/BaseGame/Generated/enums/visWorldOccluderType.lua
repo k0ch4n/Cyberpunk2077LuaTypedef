@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class visWorldOccluderType: Enum
 ---@field Default Enum 0
 ---@field None Enum 1

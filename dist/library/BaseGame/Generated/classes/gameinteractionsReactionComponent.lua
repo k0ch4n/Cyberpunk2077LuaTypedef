@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameinteractionsReactionComponent: entIComponent
 ---@field reactions gameinteractionsReactionData[]
 ---@field triggerAutomatically Bool
 gameinteractionsReactionComponent = {}
+
 
 ---@param fields? gameinteractionsReactionComponent
 ---@return gameinteractionsReactionComponent

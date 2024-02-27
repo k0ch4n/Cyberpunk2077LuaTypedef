@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CraftingGarmentItemPreviewGameController: gameuiWardrobeSetPreviewGameController
 ---@field initialItems gameItemID[]
 ---@field previewedItem gameItemID
 CraftingGarmentItemPreviewGameController = {}
+
 
 ---@param fields? CraftingGarmentItemPreviewGameController
 ---@return CraftingGarmentItemPreviewGameController

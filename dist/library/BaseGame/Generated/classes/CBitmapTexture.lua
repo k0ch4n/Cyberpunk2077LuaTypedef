@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CBitmapTexture: ITexture
 ---@field width Uint32
 ---@field height Uint32
@@ -10,6 +11,7 @@
 ---@field renderResourceBlob IRenderResourceBlob
 ---@field renderTextureResource rendRenderTextureResource
 CBitmapTexture = {}
+
 
 ---@param fields? CBitmapTexture
 ---@return CBitmapTexture

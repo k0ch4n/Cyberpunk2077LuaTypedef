@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_SpringDamp: animAnimNode_FloatValue
 ---@field massFactor Float
 ---@field springFactor Float
@@ -12,6 +13,7 @@
 ---@field timeStep Float
 ---@field inputNode animFloatLink
 animAnimNode_SpringDamp = {}
+
 
 ---@param fields? animAnimNode_SpringDamp
 ---@return animAnimNode_SpringDamp

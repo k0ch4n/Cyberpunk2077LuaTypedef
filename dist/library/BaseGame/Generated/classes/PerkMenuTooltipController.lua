@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PerkMenuTooltipController: AGenericTooltipController
 ---@field titleContainer inkWidgetReference
 ---@field titleText inkTextWidgetReference
@@ -18,6 +19,7 @@
 ---@field data BasePerksMenuTooltipData
 ---@field maxProficiencyLevel Int32
 PerkMenuTooltipController = {}
+
 
 ---@param fields? PerkMenuTooltipController
 ---@return PerkMenuTooltipController

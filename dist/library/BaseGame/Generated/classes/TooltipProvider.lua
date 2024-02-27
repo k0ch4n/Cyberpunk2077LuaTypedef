@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class TooltipProvider: inkWidgetLogicController
 ---@field TooltipsData ATooltipData[]
 ---@field visible Bool
 TooltipProvider = {}
+
 
 ---@param fields? TooltipProvider
 ---@return TooltipProvider

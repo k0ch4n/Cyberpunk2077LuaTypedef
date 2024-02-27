@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SVFXOperationData
 ---@field vfxName CName
 ---@field vfxResource gameFxResource
@@ -8,6 +9,7 @@
 ---@field nodeRef NodeRef
 ---@field operationType EEffectOperationType
 SVFXOperationData = {}
+
 
 ---@param fields? SVFXOperationData
 ---@return SVFXOperationData

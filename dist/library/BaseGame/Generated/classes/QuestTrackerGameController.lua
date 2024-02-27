@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestTrackerGameController: gameuiHUDGameController
 ---@field questTrackerContainer inkWidgetReference
 ---@field QuestTitle inkTextWidgetReference
@@ -21,6 +22,7 @@
 ---@field trackedMappinSpawnRequest inkAsyncSpawnRequest
 ---@field currentMappin gamemappinsIMappin
 QuestTrackerGameController = {}
+
 
 ---@param fields? QuestTrackerGameController
 ---@return QuestTrackerGameController

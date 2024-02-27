@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ScannerHealth: ScannerChunk
 ---@field currentHealth Int32
 ---@field totalHealth Int32
 ScannerHealth = {}
+
 
 ---@param fields? ScannerHealth
 ---@return ScannerHealth

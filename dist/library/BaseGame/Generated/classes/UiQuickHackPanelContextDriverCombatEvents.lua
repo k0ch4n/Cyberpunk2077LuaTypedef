@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UiQuickHackPanelContextDriverCombatEvents: UiQuickHackPanelContextEvents
 UiQuickHackPanelContextDriverCombatEvents = {}
+
 
 ---@param fields? UiQuickHackPanelContextDriverCombatEvents
 ---@return UiQuickHackPanelContextDriverCombatEvents

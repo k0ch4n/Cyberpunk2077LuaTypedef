@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FinisherAttackDecisions: FinisherTransition
 FinisherAttackDecisions = {}
+
 
 ---@param fields? FinisherAttackDecisions
 ---@return FinisherAttackDecisions

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleDriverMountedWeaponsContextDecisions: VehicleDriverContextDecisions
 VehicleDriverMountedWeaponsContextDecisions = {}
+
 
 ---@param fields? VehicleDriverMountedWeaponsContextDecisions
 ---@return VehicleDriverMountedWeaponsContextDecisions

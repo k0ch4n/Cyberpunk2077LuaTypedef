@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class PlayerSpotted: redEvent
 ---@field comesFromNPC Bool
 ---@field ownerID gamePersistentID
 ---@field doesSee Bool
 ---@field agentAreas SecurityAreaControllerPS[]
 PlayerSpotted = {}
+
 
 ---@param fields? PlayerSpotted
 ---@return PlayerSpotted

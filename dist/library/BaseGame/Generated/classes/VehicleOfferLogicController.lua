@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleOfferLogicController: BaseButtonView
 ---@field vehicleImage inkImageWidgetReference
 ---@field border inkWidgetReference
@@ -22,6 +23,7 @@
 ---@field discount Float
 ---@field discountApplicable Bool
 VehicleOfferLogicController = {}
+
 
 ---@param fields? VehicleOfferLogicController
 ---@return VehicleOfferLogicController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Debug_RotationTestEnabled: AIDebugConditions
 Debug_RotationTestEnabled = {}
+
 
 ---@param fields? Debug_RotationTestEnabled
 ---@return Debug_RotationTestEnabled

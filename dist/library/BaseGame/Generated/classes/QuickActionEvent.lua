@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickActionEvent: redEvent
 QuickActionEvent = {}
+
 
 ---@param fields? QuickActionEvent
 ---@return QuickActionEvent

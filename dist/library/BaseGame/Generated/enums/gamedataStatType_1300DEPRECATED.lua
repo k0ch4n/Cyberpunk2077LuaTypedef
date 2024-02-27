@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataStatType_1300DEPRECATED: Enum
 ---@field Acceleration Enum 0
 ---@field Accuracy Enum 1

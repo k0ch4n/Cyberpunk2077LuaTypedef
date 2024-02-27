@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataArcadeBackgroundLayer_Record: gamedataTweakDBRecord
 gamedataArcadeBackgroundLayer_Record = {}
+
 
 ---@param fields? gamedataArcadeBackgroundLayer_Record
 ---@return gamedataArcadeBackgroundLayer_Record

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EntityHealthBarGameController: gameuiWidgetGameController
 ---@field healthControllerRef inkWidgetReference
 ---@field healthPercentageRef inkTextWidgetReference
@@ -9,6 +10,7 @@
 ---@field gameInstance ScriptGameInstance
 ---@field targetEntityID entEntityID
 EntityHealthBarGameController = {}
+
 
 ---@param fields? EntityHealthBarGameController
 ---@return EntityHealthBarGameController

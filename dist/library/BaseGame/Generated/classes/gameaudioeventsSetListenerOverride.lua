@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameaudioeventsSetListenerOverride: redEvent
 ---@field enable Bool
 gameaudioeventsSetListenerOverride = {}
+
 
 ---@param fields? gameaudioeventsSetListenerOverride
 ---@return gameaudioeventsSetListenerOverride

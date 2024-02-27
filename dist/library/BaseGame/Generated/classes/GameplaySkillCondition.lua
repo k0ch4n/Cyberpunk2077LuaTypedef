@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class GameplaySkillCondition: GameplayConditionBase
 ---@field skillToCheck TweakDBID
 ---@field difficulty EGameplayChallengeLevel
 ---@field skillBonus TweakDBID
 ---@field requiredLevel Int32
 GameplaySkillCondition = {}
+
 
 ---@param fields? GameplaySkillCondition
 ---@return GameplaySkillCondition

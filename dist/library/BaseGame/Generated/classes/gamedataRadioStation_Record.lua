@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRadioStation_Record: gamedataTweakDBRecord
 gamedataRadioStation_Record = {}
+
 
 ---@param fields? gamedataRadioStation_Record
 ---@return gamedataRadioStation_Record

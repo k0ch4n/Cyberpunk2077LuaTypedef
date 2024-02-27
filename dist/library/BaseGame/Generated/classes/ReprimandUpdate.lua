@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ReprimandUpdate: redEvent
 ---@field reprimandInstructions EReprimandInstructions
 ---@field target entEntityID
 ---@field targetPos Vector4
 ---@field currentPerformer gameObject
 ReprimandUpdate = {}
+
 
 ---@param fields? ReprimandUpdate
 ---@return ReprimandUpdate

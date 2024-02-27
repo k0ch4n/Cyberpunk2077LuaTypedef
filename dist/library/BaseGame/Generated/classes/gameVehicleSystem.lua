@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameVehicleSystem: gameIVehicleSystem
 ---@field restrictionTags CName[]
 gameVehicleSystem = {}
+
 
 ---@param fields? gameVehicleSystem
 ---@return gameVehicleSystem

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DamageEffectUIEntry: IScriptable
 ---@field damageType gamedataDamageType
 ---@field valueStat gamedataStatType
@@ -10,6 +11,7 @@
 ---@field effectorDelay Float
 ---@field isContinuous Bool
 DamageEffectUIEntry = {}
+
 
 ---@param fields? DamageEffectUIEntry
 ---@return DamageEffectUIEntry

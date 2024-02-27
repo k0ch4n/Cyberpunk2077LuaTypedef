@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestSetFloorInactive: ActionInt
 QuestSetFloorInactive = {}
+
 
 ---@param fields? QuestSetFloorInactive
 ---@return QuestSetFloorInactive

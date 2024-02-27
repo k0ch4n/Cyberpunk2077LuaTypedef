@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DpadWheelGameController: gameuiHUDGameController
 DpadWheelGameController = {}
+
 
 ---@param fields? DpadWheelGameController
 ---@return DpadWheelGameController

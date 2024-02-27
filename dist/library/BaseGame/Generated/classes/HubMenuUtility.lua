@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HubMenuUtility: IScriptable
 HubMenuUtility = {}
+
 
 ---@param fields? HubMenuUtility
 ---@return HubMenuUtility

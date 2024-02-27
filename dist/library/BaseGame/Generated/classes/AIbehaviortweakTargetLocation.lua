@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviortweakTargetLocation
 ---@field object gameObject
 ---@field position Vector3
@@ -8,6 +9,7 @@
 ---@field hasPosition Bool
 ---@field hasSpeed Bool
 AIbehaviortweakTargetLocation = {}
+
 
 ---@param fields? AIbehaviortweakTargetLocation
 ---@return AIbehaviortweakTargetLocation

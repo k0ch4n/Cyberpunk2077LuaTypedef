@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PauseMenuAction: Enum
 ---@field OpenSubMenu Enum 0
 ---@field QuickSave Enum 1

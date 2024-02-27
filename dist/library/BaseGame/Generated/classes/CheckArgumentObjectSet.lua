@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CheckArgumentObjectSet: CheckArguments
 CheckArgumentObjectSet = {}
+
 
 ---@param fields? CheckArgumentObjectSet
 ---@return CheckArgumentObjectSet

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NumericDispalyUIController: DeviceInkGameControllerBase
 ---@field currentNumberTextWidget inkTextWidgetReference
 ---@field upArrowWidget inkWidgetReference
@@ -13,6 +14,7 @@
 ---@field onNumberChangedListener redCallbackObject
 ---@field onDirectionChangedListener redCallbackObject
 NumericDispalyUIController = {}
+
 
 ---@param fields? NumericDispalyUIController
 ---@return NumericDispalyUIController

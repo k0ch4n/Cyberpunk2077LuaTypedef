@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ScannerSkillchecks: ScannerChunk
 ---@field skillchecks UIInteractionSkillCheck[]
 ---@field authorizationRequired Bool
 ---@field isPlayerAuthorized Bool
 ScannerSkillchecks = {}
+
 
 ---@param fields? ScannerSkillchecks
 ---@return ScannerSkillchecks

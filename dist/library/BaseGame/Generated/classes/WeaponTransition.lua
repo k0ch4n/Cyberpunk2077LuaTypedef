@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class WeaponTransition: DefaultTransition
 ---@field magazineID TweakDBID
 ---@field magazineAttack TweakDBID
 ---@field rangedAttackPackage gamedataRangedAttackPackage_Record
 WeaponTransition = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float

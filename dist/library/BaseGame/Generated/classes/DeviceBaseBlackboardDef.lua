@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DeviceBaseBlackboardDef: gamebbScriptDefinition
 ---@field ActionWidgetsData gamebbScriptID_Variant
 ---@field DeviceWidgetsData gamebbScriptID_Variant
@@ -9,6 +10,7 @@
 ---@field UI_InteractivityBlocked gamebbScriptID_Bool
 ---@field IsInvestigated gamebbScriptID_Bool
 DeviceBaseBlackboardDef = {}
+
 
 ---@param fields? DeviceBaseBlackboardDef
 ---@return DeviceBaseBlackboardDef

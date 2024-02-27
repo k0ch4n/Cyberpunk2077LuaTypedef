@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UI_WantedBarDef: gamebbScriptDefinition
 ---@field CurrentWantedLevel gamebbScriptID_Int32
 ---@field DeescalationStages gamebbScriptID_Int32
@@ -7,6 +8,7 @@
 ---@field BlinkingStarsDurationTime gamebbScriptID_Float
 ---@field IsDogtown gamebbScriptID_Bool
 UI_WantedBarDef = {}
+
 
 ---@param fields? UI_WantedBarDef
 ---@return UI_WantedBarDef

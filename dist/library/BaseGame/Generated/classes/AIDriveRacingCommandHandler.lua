@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIDriveRacingCommandHandler: AICommandHandlerBase
 ---@field outUseKinematic AIArgumentMapping
 ---@field outNeedDriver AIArgumentMapping
@@ -17,6 +18,7 @@
 ---@field outRubberBandingTeleportToCatchUp AIArgumentMapping
 ---@field outRubberBandingStayInFront AIArgumentMapping
 AIDriveRacingCommandHandler = {}
+
 
 ---@param fields? AIDriveRacingCommandHandler
 ---@return AIDriveRacingCommandHandler

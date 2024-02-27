@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameLightComponent: entLightComponent
 ---@field emissiveOnly Bool
 ---@field materialZone gameEMaterialZone
@@ -19,6 +20,7 @@
 ---@field destructionEffect worldEffect
 ---@field genericCurveSetOverride CurveSet
 gameLightComponent = {}
+
 
 ---@param fields? gameLightComponent
 ---@return gameLightComponent

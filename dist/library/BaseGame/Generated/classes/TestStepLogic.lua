@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class TestStepLogic: IScriptable
 ---@field maxExecutionTimeSec Float
 ---@field executionTimeSec Float
 ---@field paramsData ParamData[]
 TestStepLogic = {}
+
 
 ---@param fields? TestStepLogic
 ---@return TestStepLogic

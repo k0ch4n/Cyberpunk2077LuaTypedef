@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameSimpleStatPoolDataModifierStatListener: gameStatPoolDataModifierStatListener
 gameSimpleStatPoolDataModifierStatListener = {}
+
 
 ---@param fields? gameSimpleStatPoolDataModifierStatListener
 ---@return gameSimpleStatPoolDataModifierStatListener

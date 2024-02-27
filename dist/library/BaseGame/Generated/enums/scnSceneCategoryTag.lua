@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnSceneCategoryTag: Enum
 ---@field voiceset Enum 0
 ---@field mainQuests Enum 1

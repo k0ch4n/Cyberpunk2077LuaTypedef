@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldAIDirectorSpawnAreaNodeInstance: worldAreaShapeNodeInstance
 worldAIDirectorSpawnAreaNodeInstance = {}
+
 
 ---@param fields? worldAIDirectorSpawnAreaNodeInstance
 ---@return worldAIDirectorSpawnAreaNodeInstance

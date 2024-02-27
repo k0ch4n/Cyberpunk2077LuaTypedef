@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleRacingSystem: vehicleIRacingSystem
 vehicleRacingSystem = {}
+
 
 ---@param fields? vehicleRacingSystem
 ---@return vehicleRacingSystem

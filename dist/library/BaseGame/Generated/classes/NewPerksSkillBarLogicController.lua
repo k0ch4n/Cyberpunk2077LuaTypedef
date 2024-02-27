@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerksSkillBarLogicController: inkVirtualCompoundItemController
 ---@field statsProgressWidget inkWidgetReference
 ---@field levelsContainer inkCompoundWidgetReference
@@ -8,6 +9,7 @@
 ---@field statsProgressController StatsProgressController
 ---@field levelsControllers NewPerksSkillLevelLogicController[]
 NewPerksSkillBarLogicController = {}
+
 
 ---@param fields? NewPerksSkillBarLogicController
 ---@return NewPerksSkillBarLogicController

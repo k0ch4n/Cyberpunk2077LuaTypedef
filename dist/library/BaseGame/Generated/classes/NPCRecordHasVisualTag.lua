@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NPCRecordHasVisualTag: gameIScriptablePrereq
 ---@field visualTag CName
 ---@field hasTag Bool
 NPCRecordHasVisualTag = {}
+
 
 ---@param fields? NPCRecordHasVisualTag
 ---@return NPCRecordHasVisualTag

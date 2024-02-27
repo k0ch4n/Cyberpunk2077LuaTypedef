@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamecameraSettingManager: gamecameraISettingManager
 gamecameraSettingManager = {}
+
 
 ---@param fields? gamecameraSettingManager
 ---@return gamecameraSettingManager

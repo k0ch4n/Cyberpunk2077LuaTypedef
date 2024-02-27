@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePopupData
 ---@field title String
 ---@field message String
@@ -9,6 +10,7 @@
 ---@field videoType gameVideoType
 ---@field video Bink
 gamePopupData = {}
+
 
 ---@param fields? gamePopupData
 ---@return gamePopupData

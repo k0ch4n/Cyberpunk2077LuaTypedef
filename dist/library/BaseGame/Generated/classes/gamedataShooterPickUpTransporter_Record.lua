@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataShooterPickUpTransporter_Record: gamedataShooterAI_Record
 gamedataShooterPickUpTransporter_Record = {}
+
 
 ---@param fields? gamedataShooterPickUpTransporter_Record
 ---@return gamedataShooterPickUpTransporter_Record

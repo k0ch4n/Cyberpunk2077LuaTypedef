@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActionTeleportScriptProxy: CActionScriptProxy
 ActionTeleportScriptProxy = {}
+
 
 ---@param fields? ActionTeleportScriptProxy
 ---@return ActionTeleportScriptProxy

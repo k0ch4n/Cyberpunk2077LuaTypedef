@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TweakAIActionRecord: IScriptable
 TweakAIActionRecord = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param actionID TweakDBID|string

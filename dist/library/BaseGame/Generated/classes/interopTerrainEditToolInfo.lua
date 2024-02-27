@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class interopTerrainEditToolInfo
 ---@field defaultHeightmapMode Int32
 ---@field defaultEmptyHeightmapWidth Int32
@@ -13,6 +14,7 @@
 ---@field defaultColormap2 String
 ---@field creationSlots interopTerrainEditToolCreationSlotInfo[]
 interopTerrainEditToolInfo = {}
+
 
 ---@param fields? interopTerrainEditToolInfo
 ---@return interopTerrainEditToolInfo

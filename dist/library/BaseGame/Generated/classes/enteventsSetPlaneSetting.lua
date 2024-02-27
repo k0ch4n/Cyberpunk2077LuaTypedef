@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class enteventsSetPlaneSetting: redEvent
 enteventsSetPlaneSetting = {}
+
 
 ---@param fields? enteventsSetPlaneSetting
 ---@return enteventsSetPlaneSetting

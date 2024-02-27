@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questSceneTalking_ConditionType: questISceneConditionType
 ---@field GlobalEntityRef gameEntityReference
 ---@field sceneFile scnSceneResource
@@ -8,6 +9,7 @@
 ---@field ActorName String
 ---@field isInverted Bool
 questSceneTalking_ConditionType = {}
+
 
 ---@param fields? questSceneTalking_ConditionType
 ---@return questSceneTalking_ConditionType

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameBlackboardPrereqState: gamePrereqState
 gameBlackboardPrereqState = {}
+
 
 ---@param fields? gameBlackboardPrereqState
 ---@return gameBlackboardPrereqState

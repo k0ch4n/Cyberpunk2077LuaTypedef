@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class VehicleWindowOpen: ActionBool
 ---@field slotID CName
 ---@field speed CName
 VehicleWindowOpen = {}
+
 
 ---@param fields? VehicleWindowOpen
 ---@return VehicleWindowOpen

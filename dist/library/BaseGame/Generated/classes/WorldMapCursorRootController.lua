@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WorldMapCursorRootController: CursorRootController
 WorldMapCursorRootController = {}
+
 
 ---@param fields? WorldMapCursorRootController
 ---@return WorldMapCursorRootController

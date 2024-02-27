@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class braindanceVisionMode: Enum
 ---@field Default Enum 0
 ---@field Audio Enum 1

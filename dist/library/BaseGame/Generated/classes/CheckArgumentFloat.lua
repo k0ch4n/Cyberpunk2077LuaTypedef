@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CheckArgumentFloat: CheckArguments
 ---@field customVar Float
 ---@field comparator ECompareOp
 CheckArgumentFloat = {}
+
 
 ---@param fields? CheckArgumentFloat
 ---@return CheckArgumentFloat

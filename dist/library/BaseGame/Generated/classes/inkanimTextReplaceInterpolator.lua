@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkanimTextReplaceInterpolator: inkanimTextInterpolator
 inkanimTextReplaceInterpolator = {}
+
 
 ---@param fields? inkanimTextReplaceInterpolator
 ---@return inkanimTextReplaceInterpolator

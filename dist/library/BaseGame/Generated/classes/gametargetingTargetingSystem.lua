@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gametargetingTargetingSystem: gameITargetingSystem
 gametargetingTargetingSystem = {}
+
 
 ---@param fields? gametargetingTargetingSystem
 ---@return gametargetingTargetingSystem

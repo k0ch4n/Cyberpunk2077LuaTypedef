@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animLinearCompressedMotionExtraction: animIMotionExtraction
 ---@field duration Float
 ---@field rotFrames Quaternion[]
@@ -7,6 +8,7 @@
 ---@field rotTime Float[]
 ---@field posTime Float[]
 animLinearCompressedMotionExtraction = {}
+
 
 ---@param fields? animLinearCompressedMotionExtraction
 ---@return animLinearCompressedMotionExtraction

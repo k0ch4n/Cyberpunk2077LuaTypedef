@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_MultipleParentConstraint: animAnimNode_OnePoseInput
 ---@field parentsTransform animIAnimNodeSourceChannel_QsTransform[]
 ---@field parentsWeight animIAnimNodeSourceChannel_Float[]
@@ -11,6 +12,7 @@
 ---@field weight Float
 ---@field weightFloatTrack animNamedTrackIndex
 animAnimNode_MultipleParentConstraint = {}
+
 
 ---@param fields? animAnimNode_MultipleParentConstraint
 ---@return animAnimNode_MultipleParentConstraint

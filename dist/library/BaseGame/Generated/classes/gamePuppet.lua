@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePuppet: gamePuppetBase
 gamePuppet = {}
+
 
 ---@param fields? gamePuppet
 ---@return gamePuppet

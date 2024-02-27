@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisableAllVehicleInteractionsNotEnabledPrereq: gameIScriptablePrereq
 DisableAllVehicleInteractionsNotEnabledPrereq = {}
+
 
 ---@param fields? DisableAllVehicleInteractionsNotEnabledPrereq
 ---@return DisableAllVehicleInteractionsNotEnabledPrereq

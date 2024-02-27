@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsCrowdNPC: AIbehaviorconditionScript
 IsCrowdNPC = {}
+
 
 ---@param fields? IsCrowdNPC
 ---@return IsCrowdNPC

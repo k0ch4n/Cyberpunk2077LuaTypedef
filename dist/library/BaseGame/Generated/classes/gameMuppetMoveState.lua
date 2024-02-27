@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMuppetMoveState
 ---@field desiredSpeed Float
 ---@field isJumping Bool
@@ -9,6 +10,7 @@
 ---@field jumpStartFrameId Uint32
 ---@field landFrameId Uint32
 gameMuppetMoveState = {}
+
 
 ---@param fields? gameMuppetMoveState
 ---@return gameMuppetMoveState

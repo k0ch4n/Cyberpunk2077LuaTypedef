@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ESaveFormat: Enum
 ---@field SF_PNG Enum 2
 ---@field SF_EXR Enum 32

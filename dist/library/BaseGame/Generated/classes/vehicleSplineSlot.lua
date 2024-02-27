@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleSplineSlot
 vehicleSplineSlot = {}
+
 
 ---@param fields? vehicleSplineSlot
 ---@return vehicleSplineSlot

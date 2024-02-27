@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class MenuScenario_BaseMenu: inkMenuScenario
 ---@field currMenuName CName
 ---@field currUserData IScriptable
 ---@field currSubMenuName CName
 ---@field prevMenuName CName
 MenuScenario_BaseMenu = {}
+
 
 ---@param fields? MenuScenario_BaseMenu
 ---@return MenuScenario_BaseMenu

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MeleeStrongAttackEvents: MeleeAttackGenericEvents
 ---@field slowMoSet Bool
 ---@field crouchedAfterLeapAttack Bool
 MeleeStrongAttackEvents = {}
+
 
 ---@param fields? MeleeStrongAttackEvents
 ---@return MeleeStrongAttackEvents

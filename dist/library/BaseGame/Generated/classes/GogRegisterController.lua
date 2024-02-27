@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class GogRegisterController: gameuiBaseGOGRegisterController
 ---@field linkWidget inkWidgetReference
 ---@field qrImageWidget inkWidgetReference
 ---@field textDescription inkTextWidgetReference
 GogRegisterController = {}
+
 
 ---@param fields? GogRegisterController
 ---@return GogRegisterController

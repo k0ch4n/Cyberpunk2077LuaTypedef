@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TextAnimOnTextChange: inkWidgetLogicController
 ---@field textField inkTextWidgetReference
 ---@field animationName CName
@@ -7,6 +8,7 @@
 ---@field ScaleAnim inkanimDefinition
 ---@field bufferedValue String
 TextAnimOnTextChange = {}
+
 
 ---@param fields? TextAnimOnTextChange
 ---@return TextAnimOnTextChange

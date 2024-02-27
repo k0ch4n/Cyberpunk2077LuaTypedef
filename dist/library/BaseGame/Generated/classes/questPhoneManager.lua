@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questPhoneManager: questIPhoneManager
 questPhoneManager = {}
+
 
 ---@param fields? questPhoneManager
 ---@return questPhoneManager

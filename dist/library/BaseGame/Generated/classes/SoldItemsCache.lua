@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SoldItemsCache: IScriptable
 ---@field cache SoldItem[]
 SoldItemsCache = {}
+
 
 ---@param fields? SoldItemsCache
 ---@return SoldItemsCache

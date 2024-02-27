@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISquadClosestToSectorCheck_Record: gamedataAISquadDistanceRelationToSectorCheck_Record
 gamedataAISquadClosestToSectorCheck_Record = {}
+
 
 ---@param fields? gamedataAISquadClosestToSectorCheck_Record
 ---@return gamedataAISquadClosestToSectorCheck_Record

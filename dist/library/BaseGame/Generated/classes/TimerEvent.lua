@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TimerEvent: redEvent
 TimerEvent = {}
+
 
 ---@param fields? TimerEvent
 ---@return TimerEvent

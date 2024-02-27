@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WeaponTrainingController: ScriptableDeviceComponent
 WeaponTrainingController = {}
+
 
 ---@param fields? WeaponTrainingController
 ---@return WeaponTrainingController

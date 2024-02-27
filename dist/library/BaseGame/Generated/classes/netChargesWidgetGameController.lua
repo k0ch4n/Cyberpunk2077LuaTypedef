@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class netChargesWidgetGameController: gameuiHUDGameController
 ---@field bbPlayerStats gameIBlackboard
 ---@field bbPlayerEventId1 redCallbackObject
@@ -15,6 +16,7 @@
 ---@field rootWidget inkWidget
 ---@field chargeList inkHorizontalPanelWidget
 netChargesWidgetGameController = {}
+
 
 ---@param fields? netChargesWidgetGameController
 ---@return netChargesWidgetGameController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ECooldownIndicatorState: Enum
 ---@field Pooled Enum 0
 ---@field Intro Enum 1

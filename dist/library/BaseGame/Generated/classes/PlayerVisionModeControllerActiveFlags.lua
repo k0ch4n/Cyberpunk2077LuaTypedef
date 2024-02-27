@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerVisionModeControllerActiveFlags
 ---@field kerenzikov Bool
 ---@field restrictedScene Bool
@@ -14,6 +15,7 @@
 ---@field isPhotoMode Bool
 ---@field isBriefingActive Bool
 PlayerVisionModeControllerActiveFlags = {}
+
 
 ---@param fields? PlayerVisionModeControllerActiveFlags
 ---@return PlayerVisionModeControllerActiveFlags

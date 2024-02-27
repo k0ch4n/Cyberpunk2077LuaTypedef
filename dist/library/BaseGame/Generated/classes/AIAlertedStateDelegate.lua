@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIAlertedStateDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field attackInstigatorPosition Vector4
 AIAlertedStateDelegate = {}
+
 
 ---@param fields? AIAlertedStateDelegate
 ---@return AIAlertedStateDelegate

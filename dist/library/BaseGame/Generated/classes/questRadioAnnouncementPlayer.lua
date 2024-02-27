@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questRadioAnnouncementPlayer: audioBaseRadioAnnouncementPlayer
 questRadioAnnouncementPlayer = {}
+
 
 ---@param fields? questRadioAnnouncementPlayer
 ---@return questRadioAnnouncementPlayer

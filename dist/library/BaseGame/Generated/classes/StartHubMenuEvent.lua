@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StartHubMenuEvent: redEvent
 ---@field initData HubMenuInitData
 StartHubMenuEvent = {}
+
 
 ---@param fields? StartHubMenuEvent
 ---@return StartHubMenuEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPathSecurityCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataPathSecurityCoverSelectionParameters_Record = {}
+
 
 ---@param fields? gamedataPathSecurityCoverSelectionParameters_Record
 ---@return gamedataPathSecurityCoverSelectionParameters_Record

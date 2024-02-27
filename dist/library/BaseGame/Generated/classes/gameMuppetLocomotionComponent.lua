@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameMuppetLocomotionComponent: gameMuppetComponent
 gameMuppetLocomotionComponent = {}
+
 
 ---@param fields? gameMuppetLocomotionComponent
 ---@return gameMuppetLocomotionComponent

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class sampleStyleManagerGameController: gameuiWidgetGameController
 ---@field stylePath1 redResourceReferenceScriptToken
 ---@field stylePath2 redResourceReferenceScriptToken
 ---@field content inkWidgetReference
 sampleStyleManagerGameController = {}
+
 
 ---@param fields? sampleStyleManagerGameController
 ---@return sampleStyleManagerGameController

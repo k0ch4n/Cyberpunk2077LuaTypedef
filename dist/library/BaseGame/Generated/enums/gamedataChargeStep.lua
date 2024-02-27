@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataChargeStep: Enum
 ---@field Idle Enum 0
 ---@field Charging Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAttachmentSlotsListenerData
 gameAttachmentSlotsListenerData = {}
+
 
 ---@param fields? gameAttachmentSlotsListenerData
 ---@return gameAttachmentSlotsListenerData

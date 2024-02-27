@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HighLevelPSMPrereqState: PlayerStateMachinePrereqState
 HighLevelPSMPrereqState = {}
+
 
 ---@param fields? HighLevelPSMPrereqState
 ---@return HighLevelPSMPrereqState

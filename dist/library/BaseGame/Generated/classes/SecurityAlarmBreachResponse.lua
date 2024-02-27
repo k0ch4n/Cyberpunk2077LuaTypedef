@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SecurityAlarmBreachResponse: ActionBool
 ---@field currentSecurityState ESecuritySystemState
 SecurityAlarmBreachResponse = {}
+
 
 ---@param fields? SecurityAlarmBreachResponse
 ---@return SecurityAlarmBreachResponse

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEffectTriggerPositioningType: Enum
 ---@field PlayerRoot Enum 0
 ---@field CameraRoot Enum 1

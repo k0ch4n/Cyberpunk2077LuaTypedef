@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DurabilityLimitReach: redEvent
 DurabilityLimitReach = {}
+
 
 ---@param fields? DurabilityLimitReach
 ---@return DurabilityLimitReach

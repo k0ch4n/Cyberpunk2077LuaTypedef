@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEAreaType: Enum
 ---@field NONE Enum 0
 ---@field LOCATION Enum 1

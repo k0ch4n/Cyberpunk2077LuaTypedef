@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RegisterPsychoSquadPassengers: AIbehaviortaskScript
 RegisterPsychoSquadPassengers = {}
+
 
 ---@param fields? RegisterPsychoSquadPassengers
 ---@return RegisterPsychoSquadPassengers

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SceneTierIIIEvents: SceneTierAbstractEvents
 SceneTierIIIEvents = {}
+
 
 ---@param fields? SceneTierIIIEvents
 ---@return SceneTierIIIEvents

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestDisableRadio: ActionBool
 QuestDisableRadio = {}
+
 
 ---@param fields? QuestDisableRadio
 ---@return QuestDisableRadio

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataScannableData_Record: gamedataTweakDBRecord
 gamedataScannableData_Record = {}
+
 
 ---@param fields? gamedataScannableData_Record
 ---@return gamedataScannableData_Record

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameActionMoveToSmartObjectState: gameActionMoveToState
 ---@field targetHash Uint64
 ---@field usePathfinding Bool
@@ -14,6 +15,7 @@
 ---@field animationName CName
 ---@field isInSmartObject Bool
 gameActionMoveToSmartObjectState = {}
+
 
 ---@param fields? gameActionMoveToSmartObjectState
 ---@return gameActionMoveToSmartObjectState

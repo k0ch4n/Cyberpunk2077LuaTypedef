@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class shadowsShadowCastingMode: Enum
 ---@field Default Enum 0
 ---@field Always Enum 1

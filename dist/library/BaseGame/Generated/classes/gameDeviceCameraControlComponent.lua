@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDeviceCameraControlComponent: gameComponent
 gameDeviceCameraControlComponent = {}
+
 
 ---@param fields? gameDeviceCameraControlComponent
 ---@return gameDeviceCameraControlComponent

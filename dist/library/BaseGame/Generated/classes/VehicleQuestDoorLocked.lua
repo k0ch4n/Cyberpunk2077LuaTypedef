@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleQuestDoorLocked: ActionBool
 VehicleQuestDoorLocked = {}
+
 
 ---@param fields? VehicleQuestDoorLocked
 ---@return VehicleQuestDoorLocked

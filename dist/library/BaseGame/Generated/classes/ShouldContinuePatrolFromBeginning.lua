@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ShouldContinuePatrolFromBeginning: AIbehaviorconditionScript
 ---@field patrolContinuationPolicy AIArgumentMapping
 ShouldContinuePatrolFromBeginning = {}
+
 
 ---@param fields? ShouldContinuePatrolFromBeginning
 ---@return ShouldContinuePatrolFromBeginning

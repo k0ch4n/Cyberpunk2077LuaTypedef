@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class Vector3
 ---@field x number
 ---@field y number
 ---@field z number
 Vector3 = {}
+
 
 ---@param x number
 ---@param y number

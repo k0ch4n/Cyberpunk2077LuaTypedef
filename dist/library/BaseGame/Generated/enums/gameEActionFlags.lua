@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEActionFlags: Enum
 ---@field NONE Enum 0
 ---@field USE_ANIMATION Enum 1

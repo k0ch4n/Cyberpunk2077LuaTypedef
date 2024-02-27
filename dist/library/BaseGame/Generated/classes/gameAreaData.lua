@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameAreaData
 ---@field position Vector4
 ---@field size Float
@@ -9,6 +10,7 @@
 ---@field priority Uint32
 ---@field lootID TweakDBID
 gameAreaData = {}
+
 
 ---@param fields? gameAreaData
 ---@return gameAreaData

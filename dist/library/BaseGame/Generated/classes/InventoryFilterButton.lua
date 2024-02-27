@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class InventoryFilterButton: BaseButtonView
 ---@field Label inkTextWidgetReference
 ---@field InputIcon inkImageWidgetReference
 ---@field IntroPlayed Bool
 InventoryFilterButton = {}
+
 
 ---@param fields? InventoryFilterButton
 ---@return InventoryFilterButton

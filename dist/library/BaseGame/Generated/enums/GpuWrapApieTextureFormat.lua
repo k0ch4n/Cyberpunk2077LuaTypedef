@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GpuWrapApieTextureFormat: Enum
 ---@field TEXFMT_A8_Unorm Enum 0
 ---@field TEXFMT_R8_Unorm Enum 1

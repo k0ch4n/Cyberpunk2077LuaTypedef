@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioVehicleGeneralData
 ---@field revSoundbankName CName
 ---@field revElectricSoundbankName CName
@@ -43,6 +44,7 @@
 ---@field vehicleInteriorParameterData audioVehicleInteriorParameterData
 ---@field vehicleTemperatureSettings audioVehicleTemperatureSettings
 audioVehicleGeneralData = {}
+
 
 ---@param fields? audioVehicleGeneralData
 ---@return audioVehicleGeneralData

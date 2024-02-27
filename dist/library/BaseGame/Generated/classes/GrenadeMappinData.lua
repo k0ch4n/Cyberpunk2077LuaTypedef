@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GrenadeMappinData: gamemappinsMappinScriptData
 ---@field grenadeType EGrenadeType
 ---@field iconID TweakDBID
 GrenadeMappinData = {}
+
 
 ---@param fields? GrenadeMappinData
 ---@return GrenadeMappinData

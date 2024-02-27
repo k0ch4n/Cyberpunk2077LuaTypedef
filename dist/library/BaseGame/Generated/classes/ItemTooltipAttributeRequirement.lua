@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ItemTooltipAttributeRequirement: inkWidgetLogicController
 ---@field labelRef inkTextWidgetReference
 ItemTooltipAttributeRequirement = {}
+
 
 ---@param fields? ItemTooltipAttributeRequirement
 ---@return ItemTooltipAttributeRequirement

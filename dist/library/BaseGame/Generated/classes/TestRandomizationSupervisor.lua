@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TestRandomizationSupervisor: genScriptedRandomizationSupervisor
 ---@field firstWasGenerated Bool
 TestRandomizationSupervisor = {}
+
 
 ---@param fields? TestRandomizationSupervisor
 ---@return TestRandomizationSupervisor

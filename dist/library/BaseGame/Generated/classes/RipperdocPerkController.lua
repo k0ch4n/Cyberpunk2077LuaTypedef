@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class RipperdocPerkController: inkWidgetLogicController
 ---@field icon inkImageWidgetReference
 ---@field perkData RipperdocPerkData
 ---@field hoverEvent RipperdocPerkHoverEvent
 RipperdocPerkController = {}
+
 
 ---@param fields? RipperdocPerkController
 ---@return RipperdocPerkController

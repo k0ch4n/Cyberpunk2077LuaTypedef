@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiBaseMenuGameController: gameuiWidgetGameController
 ---@field puppetSceneInfos gameuiBaseMenuGameControllerPuppetSceneInfo[]
 gameuiBaseMenuGameController = {}
+
 
 ---@param fields? gameuiBaseMenuGameController
 ---@return gameuiBaseMenuGameController

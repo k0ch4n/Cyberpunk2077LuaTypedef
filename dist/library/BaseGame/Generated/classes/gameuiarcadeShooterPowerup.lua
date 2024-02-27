@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiarcadeShooterPowerup: gameuiarcadeShooterObjectController
 gameuiarcadeShooterPowerup = {}
+
 
 ---@param fields? gameuiarcadeShooterPowerup
 ---@return gameuiarcadeShooterPowerup

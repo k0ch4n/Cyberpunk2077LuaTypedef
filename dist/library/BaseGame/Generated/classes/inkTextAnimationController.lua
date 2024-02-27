@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkTextAnimationController: inkWidgetLogicController
 ---@field playOnInitialize Bool
 ---@field animationName CName
@@ -9,6 +10,7 @@
 ---@field startValue Float
 ---@field endValue Float
 inkTextAnimationController = {}
+
 
 ---@return Float
 function inkTextAnimationController:GetDelay() end

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_LookAtController: animAnimNode_OnePoseInput
 ---@field E3_HACK_offset animVectorLink
 ---@field orderedBodyParts animLookAtPartInfo[]
@@ -8,6 +9,7 @@
 ---@field substepTime Float
 ---@field isFacial Bool
 animAnimNode_LookAtController = {}
+
 
 ---@param fields? animAnimNode_LookAtController
 ---@return animAnimNode_LookAtController

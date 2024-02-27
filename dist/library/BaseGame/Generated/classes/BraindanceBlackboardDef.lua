@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BraindanceBlackboardDef: gamebbScriptDefinition
 ---@field activeBraindanceVisionMode gamebbScriptID_Int32
 ---@field lastBraindanceVisionMode gamebbScriptID_Int32
@@ -12,6 +13,7 @@
 ---@field PlaybackSpeed gamebbScriptID_Variant
 ---@field PlaybackDirection gamebbScriptID_Variant
 BraindanceBlackboardDef = {}
+
 
 ---@param fields? BraindanceBlackboardDef
 ---@return BraindanceBlackboardDef

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NotReadyEvents: WeaponEventsTransition
 NotReadyEvents = {}
+
 
 ---@param fields? NotReadyEvents
 ---@return NotReadyEvents

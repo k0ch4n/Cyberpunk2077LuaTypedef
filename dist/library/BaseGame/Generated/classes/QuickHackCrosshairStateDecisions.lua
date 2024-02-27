@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickHackCrosshairStateDecisions: BaseCrosshairState
 QuickHackCrosshairStateDecisions = {}
+
 
 ---@param fields? QuickHackCrosshairStateDecisions
 ---@return QuickHackCrosshairStateDecisions

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class tempshitMapPinOperation: Enum
 ---@field Undefined Enum 0
 ---@field Add Enum 1

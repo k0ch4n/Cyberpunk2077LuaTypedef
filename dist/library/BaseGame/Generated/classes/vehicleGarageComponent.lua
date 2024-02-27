@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleGarageComponent: gameComponent
 vehicleGarageComponent = {}
+
 
 ---@param fields? vehicleGarageComponent
 ---@return vehicleGarageComponent

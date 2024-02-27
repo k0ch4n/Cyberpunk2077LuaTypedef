@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkanimInterpolationMode: Enum
 ---@field EasyIn Enum 0
 ---@field EasyOut Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkVirtualCompoundWidget: inkCompoundWidget
 inkVirtualCompoundWidget = {}
+
 
 ---@param fields? inkVirtualCompoundWidget
 ---@return inkVirtualCompoundWidget

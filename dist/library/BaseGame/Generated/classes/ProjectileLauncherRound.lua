@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProjectileLauncherRound: gameItemObject
 ---@field projectileComponent gameprojectileComponent
 ---@field resourceLibraryComponent ResourceLibraryComponent
@@ -26,6 +27,7 @@
 ---@field waterDetonationImpulseRadius Float
 ---@field waterDetonationImpulseStrength Float
 ProjectileLauncherRound = {}
+
 
 ---@param fields? ProjectileLauncherRound
 ---@return ProjectileLauncherRound

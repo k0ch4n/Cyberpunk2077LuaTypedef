@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SprintEvents: LocomotionGroundEvents
 ---@field previousStimTimeStamp Float
 ---@field reloadModifier gameStatModifierData_Deprecated
@@ -7,6 +8,7 @@
 ---@field sprintModifier gameStatModifierData_Deprecated
 ---@field sprintAnimBlocked Bool
 SprintEvents = {}
+
 
 ---@param fields? SprintEvents
 ---@return SprintEvents

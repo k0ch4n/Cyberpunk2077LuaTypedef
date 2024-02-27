@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIAssignRoleCommandParams: questScriptedAICommandParams
 ---@field role AIRole
 AIAssignRoleCommandParams = {}
+
 
 ---@param fields? AIAssignRoleCommandParams
 ---@return AIAssignRoleCommandParams

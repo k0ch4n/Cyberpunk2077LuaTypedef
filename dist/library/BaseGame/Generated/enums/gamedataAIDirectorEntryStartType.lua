@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAIDirectorEntryStartType: Enum
 ---@field Default Enum 0
 ---@field DespawnAllEnemies Enum 1

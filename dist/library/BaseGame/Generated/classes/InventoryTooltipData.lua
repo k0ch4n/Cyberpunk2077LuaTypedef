@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryTooltipData: ATooltipData
 ---@field itemID gameItemID
 ---@field isEquipped Bool
@@ -59,6 +60,7 @@
 ---@field statsManagerFetched Bool
 ---@field DEBUG_iconErrorInfo DEBUG_IconErrorInfo
 InventoryTooltipData = {}
+
 
 ---@param fields? InventoryTooltipData
 ---@return InventoryTooltipData

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalQuestObjectiveBase: gameJournalContainerEntry
 ---@field description LocalizationString
 ---@field counter Uint32
@@ -8,6 +9,7 @@
 ---@field itemID TweakDBID
 ---@field districtID String
 gameJournalQuestObjectiveBase = {}
+
 
 ---@return String
 function gameJournalQuestObjectiveBase:GetDescription() end

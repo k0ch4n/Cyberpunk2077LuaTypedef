@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class scnDummyAlwaysTrueReturnCondition: scnIReturnCondition
 scnDummyAlwaysTrueReturnCondition = {}
+
 
 ---@param fields? scnDummyAlwaysTrueReturnCondition
 ---@return scnDummyAlwaysTrueReturnCondition

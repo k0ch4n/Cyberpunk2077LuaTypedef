@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePhantomEntityParameters
 ---@field teleportStartEffect CName
 ---@field teleportEndEffect CName
@@ -8,6 +9,7 @@
 ---@field phantomVisibleStates gamePhantomEntityState[]
 ---@field blendableAppearanceMatches gamePhantomEntityParametersBlendableAppearanceMatch[]
 gamePhantomEntityParameters = {}
+
 
 ---@param fields? gamePhantomEntityParameters
 ---@return gamePhantomEntityParameters

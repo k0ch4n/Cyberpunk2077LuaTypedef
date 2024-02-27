@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SimpleTriggerAttackEffect: gameEffector
 ---@field owner gameObject
 ---@field attackTDBID TweakDBID
 ---@field shouldDelay Bool
 SimpleTriggerAttackEffect = {}
+
 
 ---@param fields? SimpleTriggerAttackEffect
 ---@return SimpleTriggerAttackEffect

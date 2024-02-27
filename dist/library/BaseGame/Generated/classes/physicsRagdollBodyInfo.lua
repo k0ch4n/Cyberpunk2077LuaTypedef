@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsRagdollBodyInfo
 ---@field ParentAnimIndex Int32
 ---@field ChildAnimIndex Int32
@@ -18,6 +19,7 @@
 ---@field ExcludeFromEarlyCollision Bool
 ---@field FilterDataOverride CName
 physicsRagdollBodyInfo = {}
+
 
 ---@param fields? physicsRagdollBodyInfo
 ---@return physicsRagdollBodyInfo

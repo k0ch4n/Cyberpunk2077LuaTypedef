@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameCpoPickableItem: gameObject
 ---@field itemIDToEquip TweakDBID
 ---@field quickSlotID Int32
 gameCpoPickableItem = {}
+
 
 ---@param fields? gameCpoPickableItem
 ---@return gameCpoPickableItem

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MapPinUtility: IScriptable
 MapPinUtility = {}
+
 
 ---@param fields? MapPinUtility
 ---@return MapPinUtility

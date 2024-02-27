@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class IntervalCaller: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field preventionSystem PreventionSystem
 ---@field request gameScriptableSystemRequest
 ---@field intervalSeconds Float
 ---@field selfDelayID gameDelayID
 IntervalCaller = {}
+
 
 ---@param fields? IntervalCaller
 ---@return IntervalCaller

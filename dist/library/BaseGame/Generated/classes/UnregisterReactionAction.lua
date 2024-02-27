@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class UnregisterReactionAction: AIbehaviortaskScript
 ---@field reactionName CName
 ---@field onDeactivation Bool
 UnregisterReactionAction = {}
+
 
 ---@param fields? UnregisterReactionAction
 ---@return UnregisterReactionAction

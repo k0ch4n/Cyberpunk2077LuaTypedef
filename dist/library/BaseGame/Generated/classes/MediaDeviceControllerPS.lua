@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MediaDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field previousStation Int32
 ---@field activeChannelName String
@@ -7,6 +8,7 @@
 ---@field amountOfStations Int32
 ---@field activeStation Int32
 MediaDeviceControllerPS = {}
+
 
 ---@param fields? MediaDeviceControllerPS
 ---@return MediaDeviceControllerPS

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DisposalDeviceSetup
 ---@field numberOfUses Int32
 ---@field isBodyRequired Bool
@@ -7,6 +8,7 @@
 ---@field takedownActionName TweakDBID
 ---@field nonlethalTakedownActionName TweakDBID
 DisposalDeviceSetup = {}
+
 
 ---@param fields? DisposalDeviceSetup
 ---@return DisposalDeviceSetup

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ConsumableStartupDecisions: ConsumableTransitions
 ConsumableStartupDecisions = {}
+
 
 ---@param fields? ConsumableStartupDecisions
 ---@return ConsumableStartupDecisions

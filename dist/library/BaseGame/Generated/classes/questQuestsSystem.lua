@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questQuestsSystem: questIQuestsSystem
 questQuestsSystem = {}
+
 
 ---@param fields? questQuestsSystem
 ---@return questQuestsSystem

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AttributeDisplayData: IDisplayData
 ---@field attributeId TweakDBID
 ---@field proficiencies ProficiencyDisplayData[]
 AttributeDisplayData = {}
+
 
 ---@param fields? AttributeDisplayData
 ---@return AttributeDisplayData

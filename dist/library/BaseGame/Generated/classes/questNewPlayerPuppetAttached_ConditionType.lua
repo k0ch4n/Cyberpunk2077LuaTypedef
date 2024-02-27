@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questNewPlayerPuppetAttached_ConditionType: questISceneConditionType
 questNewPlayerPuppetAttached_ConditionType = {}
+
 
 ---@param fields? questNewPlayerPuppetAttached_ConditionType
 ---@return questNewPlayerPuppetAttached_ConditionType

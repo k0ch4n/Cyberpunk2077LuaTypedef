@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MeleeThrowReloadEvents: MeleeEventsTransition
 ---@field isSwitchingWeapon Bool
 MeleeThrowReloadEvents = {}
+
 
 ---@param fields? MeleeThrowReloadEvents
 ---@return MeleeThrowReloadEvents

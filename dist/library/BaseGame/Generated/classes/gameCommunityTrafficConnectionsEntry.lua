@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCommunityTrafficConnectionsEntry
 gameCommunityTrafficConnectionsEntry = {}
+
 
 ---@param fields? gameCommunityTrafficConnectionsEntry
 ---@return gameCommunityTrafficConnectionsEntry

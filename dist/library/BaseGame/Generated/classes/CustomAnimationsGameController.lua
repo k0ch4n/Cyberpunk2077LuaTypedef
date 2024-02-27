@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CustomAnimationsGameController: gameuiWidgetGameController
 ---@field customAnimations WidgetAnimationManager
 ---@field onSpawnAnimations CName[]
@@ -12,6 +13,7 @@
 ---@field isInitialized Bool
 ---@field ownerID entEntityID
 CustomAnimationsGameController = {}
+
 
 ---@param fields? CustomAnimationsGameController
 ---@return CustomAnimationsGameController

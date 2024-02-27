@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestListItemHoverOutEvent: redEvent
 QuestListItemHoverOutEvent = {}
+
 
 ---@param fields? QuestListItemHoverOutEvent
 ---@return QuestListItemHoverOutEvent

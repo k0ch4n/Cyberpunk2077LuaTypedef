@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VirtualItem_TEMP: gameObject
 ---@field item String
 ---@field interaction gameinteractionsComponent
@@ -9,6 +10,7 @@
 ---@field mesh3 entPhysicalMeshComponent
 ---@field mesh4 entPhysicalMeshComponent
 VirtualItem_TEMP = {}
+
 
 ---@param fields? VirtualItem_TEMP
 ---@return VirtualItem_TEMP

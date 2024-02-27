@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RequestComputerMenuWidgetsUpdateEvent: RequestWidgetUpdateEvent
 RequestComputerMenuWidgetsUpdateEvent = {}
+
 
 ---@param fields? RequestComputerMenuWidgetsUpdateEvent
 ---@return RequestComputerMenuWidgetsUpdateEvent

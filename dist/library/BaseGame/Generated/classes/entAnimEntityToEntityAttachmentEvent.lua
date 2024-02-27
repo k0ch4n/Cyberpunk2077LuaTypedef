@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entAnimEntityToEntityAttachmentEvent: redEvent
 entAnimEntityToEntityAttachmentEvent = {}
+
 
 ---@param fields? entAnimEntityToEntityAttachmentEvent
 ---@return entAnimEntityToEntityAttachmentEvent

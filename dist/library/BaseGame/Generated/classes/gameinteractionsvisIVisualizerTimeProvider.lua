@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameinteractionsvisIVisualizerTimeProvider: IScriptable
 gameinteractionsvisIVisualizerTimeProvider = {}
+
 
 ---@return Float
 function gameinteractionsvisIVisualizerTimeProvider:GetCurrentProgress() end

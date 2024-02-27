@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsMaterialTags
 ---@field aiVisibility physicsMaterialTagVisibility
 ---@field playerVisibility physicsMaterialTagVisibility
@@ -7,6 +8,7 @@
 ---@field projectileRicochet physicsMaterialTagProjectileRicochet
 ---@field vehicleTraction physicsMaterialTagVehicleTraction
 physicsMaterialTags = {}
+
 
 ---@param fields? physicsMaterialTags
 ---@return physicsMaterialTags

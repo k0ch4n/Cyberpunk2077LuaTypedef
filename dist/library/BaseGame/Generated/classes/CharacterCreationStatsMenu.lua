@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CharacterCreationStatsMenu: gameuiBaseCharacterCreationController
 ---@field attribute_01 inkWidgetReference
 ---@field attribute_02 inkWidgetReference
@@ -28,6 +29,7 @@
 ---@field hoverdWidget inkWidget
 ---@field menuVisited Bool
 CharacterCreationStatsMenu = {}
+
 
 ---@param fields? CharacterCreationStatsMenu
 ---@return CharacterCreationStatsMenu

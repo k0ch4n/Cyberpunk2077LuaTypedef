@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiTrackedMappinControllerCustomData: gameuiMappinControllerCustomData
 gameuiTrackedMappinControllerCustomData = {}
+
 
 ---@param fields? gameuiTrackedMappinControllerCustomData
 ---@return gameuiTrackedMappinControllerCustomData

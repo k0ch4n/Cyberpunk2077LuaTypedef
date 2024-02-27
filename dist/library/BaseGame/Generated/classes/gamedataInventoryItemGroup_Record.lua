@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataInventoryItemGroup_Record: gamedataTweakDBRecord
 gamedataInventoryItemGroup_Record = {}
+
 
 ---@param fields? gamedataInventoryItemGroup_Record
 ---@return gamedataInventoryItemGroup_Record

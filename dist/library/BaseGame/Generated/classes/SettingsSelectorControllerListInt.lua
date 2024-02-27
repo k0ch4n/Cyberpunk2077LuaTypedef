@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SettingsSelectorControllerListInt: SettingsSelectorControllerList
 SettingsSelectorControllerListInt = {}
+
 
 ---@param fields? SettingsSelectorControllerListInt
 ---@return SettingsSelectorControllerListInt

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entTriggerEvent: redEvent
 ---@field triggerID entEntityID
 ---@field activator entEntityGameInterface

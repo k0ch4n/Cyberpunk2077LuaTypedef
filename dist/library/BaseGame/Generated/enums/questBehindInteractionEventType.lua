@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questBehindInteractionEventType: Enum
 ---@field Undefined Enum 0
 ---@field StartedBeingBehind Enum 1

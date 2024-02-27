@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamegraphCGraphResource: CResource
 gamegraphCGraphResource = {}
+
 
 ---@param fields? gamegraphCGraphResource
 ---@return gamegraphCGraphResource

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameweaponIFxPackage: IScriptable
 gameweaponIFxPackage = {}
+
 
 ---@param fields? gameweaponIFxPackage
 ---@return gameweaponIFxPackage

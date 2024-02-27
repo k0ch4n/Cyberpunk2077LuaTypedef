@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameinteractionsChoiceMetaData
 ---@field tweakDBName String
 ---@field tweakDBID TweakDBID
 ---@field type gameinteractionsChoiceTypeWrapper
 gameinteractionsChoiceMetaData = {}
+
 
 ---@param fields? gameinteractionsChoiceMetaData
 ---@return gameinteractionsChoiceMetaData

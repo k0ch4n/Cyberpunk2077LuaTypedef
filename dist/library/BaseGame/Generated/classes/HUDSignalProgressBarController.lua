@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HUDSignalProgressBarController: gameuiHUDGameController
 ---@field bar inkWidgetReference
 ---@field signalBar inkWidgetReference
@@ -39,6 +40,7 @@
 ---@field barSize Vector2
 ---@field signalBarSize Vector2
 HUDSignalProgressBarController = {}
+
 
 ---@param fields? HUDSignalProgressBarController
 ---@return HUDSignalProgressBarController

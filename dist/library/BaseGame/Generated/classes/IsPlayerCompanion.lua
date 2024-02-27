@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsPlayerCompanion: AIAutonomousConditions
 IsPlayerCompanion = {}
+
 
 ---@param fields? IsPlayerCompanion
 ---@return IsPlayerCompanion

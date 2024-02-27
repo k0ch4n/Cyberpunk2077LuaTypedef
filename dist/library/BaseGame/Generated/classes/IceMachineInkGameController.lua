@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class IceMachineInkGameController: DeviceInkGameControllerBase
 ---@field buttonContainer inkWidgetReference
 ---@field soldOutText inkTextWidgetReference
 IceMachineInkGameController = {}
+
 
 ---@param fields? IceMachineInkGameController
 ---@return IceMachineInkGameController

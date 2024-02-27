@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CraftableItemLogicController: inkVirtualCompoundItemController
 ---@field normalAppearence inkCompoundWidgetReference
 ---@field controller InventoryItemDisplayController
@@ -8,6 +9,7 @@
 ---@field isSpawnInProgress Bool
 ---@field displayToCreate CName
 CraftableItemLogicController = {}
+
 
 ---@param fields? CraftableItemLogicController
 ---@return CraftableItemLogicController

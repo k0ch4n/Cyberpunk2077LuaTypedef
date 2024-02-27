@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameGameplayLogicPackageSystem: gameIGameplayLogicPackageSystem
 gameGameplayLogicPackageSystem = {}
+
 
 ---@param fields? gameGameplayLogicPackageSystem
 ---@return gameGameplayLogicPackageSystem

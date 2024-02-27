@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SurveillanceSystemControllerPS: DeviceSystemBaseControllerPS
 ---@field isRevealingEnemies Bool
 SurveillanceSystemControllerPS = {}
+
 
 ---@param fields? SurveillanceSystemControllerPS
 ---@return SurveillanceSystemControllerPS

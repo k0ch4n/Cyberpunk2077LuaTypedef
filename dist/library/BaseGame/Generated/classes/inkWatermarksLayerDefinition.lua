@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkWatermarksLayerDefinition: inkLayerDefinition
 inkWatermarksLayerDefinition = {}
+
 
 ---@param fields? inkWatermarksLayerDefinition
 ---@return inkWatermarksLayerDefinition

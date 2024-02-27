@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RipperdocTimeDilationCallback: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field controller VendorHubMenuGameController
 RipperdocTimeDilationCallback = {}
+
 
 ---@param fields? RipperdocTimeDilationCallback
 ---@return RipperdocTimeDilationCallback

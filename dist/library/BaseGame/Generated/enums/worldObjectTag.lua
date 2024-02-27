@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldObjectTag: Enum
 ---@field None Enum 1701736270
 ---@field WallInterior Enum 1231839575

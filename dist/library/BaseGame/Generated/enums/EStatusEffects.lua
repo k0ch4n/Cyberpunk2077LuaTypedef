@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EStatusEffects: Enum
 ---@field Invalid Enum 0
 ---@field WeaponJammed Enum 1

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class StatPoolSpentPrereqState: gamePrereqState
 ---@field neededValue Float
 ---@field listener BaseStatPoolPrereqListener
 StatPoolSpentPrereqState = {}
+
 
 ---@param fields? StatPoolSpentPrereqState
 ---@return StatPoolSpentPrereqState

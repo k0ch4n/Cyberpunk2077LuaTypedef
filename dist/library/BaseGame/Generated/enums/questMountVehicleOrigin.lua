@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questMountVehicleOrigin: Enum
 ---@field Any Enum 0
 ---@field NotStolen Enum 1

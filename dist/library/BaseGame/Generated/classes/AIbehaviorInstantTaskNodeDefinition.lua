@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorInstantTaskNodeDefinition: AIbehaviorTaskNodeDefinition
 AIbehaviorInstantTaskNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorInstantTaskNodeDefinition
 ---@return AIbehaviorInstantTaskNodeDefinition

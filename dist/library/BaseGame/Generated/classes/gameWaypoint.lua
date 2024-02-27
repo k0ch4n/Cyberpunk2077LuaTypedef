@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameWaypoint: worldIMarker
 gameWaypoint = {}
+
 
 ---@param fields? gameWaypoint
 ---@return gameWaypoint

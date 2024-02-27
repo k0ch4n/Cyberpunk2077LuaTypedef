@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCompiledShootingSpotData: gameCompiledCoverData
 gameCompiledShootingSpotData = {}
+
 
 ---@param fields? gameCompiledShootingSpotData
 ---@return gameCompiledShootingSpotData

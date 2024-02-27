@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocMetersArmor: RipperdocMetersBase
 ---@field barScale Float
 ---@field currentArmorLabelContainer inkWidgetReference
@@ -27,6 +28,7 @@
 ---@field C_costLabelAnchorPoint_SUBTRACT Vector2
 ---@field C_costLabelAnchorPoint_EQUIPPED Vector2
 RipperdocMetersArmor = {}
+
 
 ---@param fields? RipperdocMetersArmor
 ---@return RipperdocMetersArmor

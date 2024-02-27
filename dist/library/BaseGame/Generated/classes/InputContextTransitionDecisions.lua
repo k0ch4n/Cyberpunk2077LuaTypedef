@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InputContextTransitionDecisions: InputContextTransition
 InputContextTransitionDecisions = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRandomVariant_Record: gamedataTweakDBRecord
 gamedataRandomVariant_Record = {}
+
 
 ---@param fields? gamedataRandomVariant_Record
 ---@return gamedataRandomVariant_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIVehicleCoversSystem: AIIVehicleCoversSystem
 AIVehicleCoversSystem = {}
+
 
 ---@param fields? AIVehicleCoversSystem
 ---@return AIVehicleCoversSystem

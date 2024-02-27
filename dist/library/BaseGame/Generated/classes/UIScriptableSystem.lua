@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIScriptableSystem: gameScriptableSystem
 ---@field backpackActiveSorting Int32
 ---@field backpackActiveFilter Int32
@@ -20,6 +21,7 @@
 ---@field DEV_useNewTooltips Bool
 ---@field DEV_useLongScanTooltips Bool
 UIScriptableSystem = {}
+
 
 ---@param fields? UIScriptableSystem
 ---@return UIScriptableSystem

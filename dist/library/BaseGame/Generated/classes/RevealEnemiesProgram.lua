@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RevealEnemiesProgram: ProgramAction
 RevealEnemiesProgram = {}
+
 
 ---@param fields? RevealEnemiesProgram
 ---@return RevealEnemiesProgram

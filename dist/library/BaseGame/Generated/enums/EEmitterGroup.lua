@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EEmitterGroup: Enum
 ---@field EG_Default Enum 0
 ---@field EG_Group0 Enum 1

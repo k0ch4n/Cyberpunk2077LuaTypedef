@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ToggleNetrunnerDive: ActionBool
 ---@field skipMinigame Bool
 ---@field attempt Int32
 ---@field isRemote Bool
 ToggleNetrunnerDive = {}
+
 
 ---@param fields? ToggleNetrunnerDive
 ---@return ToggleNetrunnerDive

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UiVendorContextDecisions: InputContextTransitionDecisions
 UiVendorContextDecisions = {}
+
 
 ---@param fields? UiVendorContextDecisions
 ---@return UiVendorContextDecisions

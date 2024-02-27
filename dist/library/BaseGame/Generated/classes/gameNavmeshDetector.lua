@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameNavmeshDetector: entIPlacedComponent
 gameNavmeshDetector = {}
+
 
 ---@param fields? gameNavmeshDetector
 ---@return gameNavmeshDetector

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AITaggedAIEvent: AIAIEvent
 ---@field tags CName[]
 AITaggedAIEvent = {}
+
 
 ---@param fields? AITaggedAIEvent
 ---@return AITaggedAIEvent

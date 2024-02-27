@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class tachometerLogicController: IVehicleModuleController
 ---@field rpmValueWidget inkTextWidgetReference
 ---@field rpmGaugeForegroundWidget inkRectangleWidgetReference
@@ -11,6 +12,7 @@
 ---@field rpmMinValue Float
 ---@field currentRPM Int32
 tachometerLogicController = {}
+
 
 ---@param fields? tachometerLogicController
 ---@return tachometerLogicController

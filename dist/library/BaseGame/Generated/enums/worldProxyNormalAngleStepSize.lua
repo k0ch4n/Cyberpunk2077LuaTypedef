@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldProxyNormalAngleStepSize: Enum
 ---@field STEP_90 Enum 0
 ---@field STEP_45 Enum 1

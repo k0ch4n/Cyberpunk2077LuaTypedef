@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAIHitBodyPart: Enum
 ---@field None Enum -1
 ---@field Head Enum 1

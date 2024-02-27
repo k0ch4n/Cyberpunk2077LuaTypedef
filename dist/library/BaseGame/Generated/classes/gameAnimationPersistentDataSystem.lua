@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAnimationPersistentDataSystem: gameIGameSystem
 gameAnimationPersistentDataSystem = {}
+
 
 ---@param fields? gameAnimationPersistentDataSystem
 ---@return gameAnimationPersistentDataSystem

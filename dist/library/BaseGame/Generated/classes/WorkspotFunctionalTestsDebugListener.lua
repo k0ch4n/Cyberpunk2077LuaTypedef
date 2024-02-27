@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WorkspotFunctionalTestsDebugListener: IScriptable
 ---@field entityId entEntityID
 ---@field instancesCreated Int32
@@ -14,6 +15,7 @@
 ---@field teleportRequests Int32
 ---@field movementRequests Int32
 WorkspotFunctionalTestsDebugListener = {}
+
 
 ---@param fields? WorkspotFunctionalTestsDebugListener
 ---@return WorkspotFunctionalTestsDebugListener

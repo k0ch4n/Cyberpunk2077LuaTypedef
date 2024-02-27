@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class inkComboBoxController: inkWidgetLogicController
 ---@field comboBoxObjectRef inkWidgetReference
 ---@field ComboBoxVisibleChanged inkComboBoxVisibleChangedCallback
 inkComboBoxController = {}
+
 
 ---@param fields? inkComboBoxController
 ---@return inkComboBoxController

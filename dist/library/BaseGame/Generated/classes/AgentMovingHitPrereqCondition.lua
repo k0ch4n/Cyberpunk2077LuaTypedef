@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AgentMovingHitPrereqCondition: BaseHitPrereqCondition
 ---@field isMoving Bool
 ---@field object CName
 AgentMovingHitPrereqCondition = {}
+
 
 ---@param fields? AgentMovingHitPrereqCondition
 ---@return AgentMovingHitPrereqCondition

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PSD_DetectorPS: gameDeviceComponentPS
 ---@field counter Int32
 ---@field toggle Bool
@@ -7,6 +8,7 @@
 ---@field lastPersistentID gamePersistentID
 ---@field name CName
 PSD_DetectorPS = {}
+
 
 ---@param fields? PSD_DetectorPS
 ---@return PSD_DetectorPS

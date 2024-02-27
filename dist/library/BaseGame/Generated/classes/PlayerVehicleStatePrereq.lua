@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerVehicleStatePrereq: gameIScriptablePrereq
 PlayerVehicleStatePrereq = {}
+
 
 ---@param fields? PlayerVehicleStatePrereq
 ---@return PlayerVehicleStatePrereq

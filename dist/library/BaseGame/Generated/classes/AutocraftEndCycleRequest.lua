@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AutocraftEndCycleRequest: gameScriptableSystemRequest
 AutocraftEndCycleRequest = {}
+
 
 ---@param fields? AutocraftEndCycleRequest
 ---@return AutocraftEndCycleRequest

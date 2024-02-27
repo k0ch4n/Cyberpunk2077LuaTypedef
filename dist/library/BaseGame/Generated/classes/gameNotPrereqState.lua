@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameNotPrereqState: gamePrereqState
 gameNotPrereqState = {}
+
 
 ---@param fields? gameNotPrereqState
 ---@return gameNotPrereqState

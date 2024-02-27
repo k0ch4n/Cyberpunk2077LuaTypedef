@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DynamicEntitySystem: gameIGameSystem
 DynamicEntitySystem = {}
+
 
 ---@param fields? DynamicEntitySystem
 ---@return DynamicEntitySystem

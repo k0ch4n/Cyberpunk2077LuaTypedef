@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PreviousFearPhaseCheck: AIbehaviorconditionScript
 ---@field fearPhase Int32
 PreviousFearPhaseCheck = {}
+
 
 ---@param fields? PreviousFearPhaseCheck
 ---@return PreviousFearPhaseCheck

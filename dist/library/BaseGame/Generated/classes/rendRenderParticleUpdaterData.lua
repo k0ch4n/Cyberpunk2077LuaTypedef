@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendRenderParticleUpdaterData
 ---@field data DataBuffer
 ---@field modifOffset Uint32
@@ -23,6 +24,7 @@
 ---@field randomPerChannel Bool
 ---@field eventSpawnObject Uint8
 rendRenderParticleUpdaterData = {}
+
 
 ---@param fields? rendRenderParticleUpdaterData
 ---@return rendRenderParticleUpdaterData

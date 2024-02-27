@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BuyItemFromVendor: ActionBool
 ---@field itemID gameItemID
 BuyItemFromVendor = {}
+
 
 ---@param fields? BuyItemFromVendor
 ---@return BuyItemFromVendor

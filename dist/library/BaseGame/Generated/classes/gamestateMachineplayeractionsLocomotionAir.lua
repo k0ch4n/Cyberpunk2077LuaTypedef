@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineplayeractionsLocomotionAir: gamestateMachineplayeractionsLocomotionSimple
 gamestateMachineplayeractionsLocomotionAir = {}
+
 
 ---@param fields? gamestateMachineplayeractionsLocomotionAir
 ---@return gamestateMachineplayeractionsLocomotionAir

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionModifyStatPool_Record_Implementation: IScriptable
 AISubActionModifyStatPool_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionModifyStatPool_Record

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class vehicleInterceptAtNextIntersectionStrategyRequest: vehicleBaseStrategyRequest
 ---@field distancesToIntersectionRatio Float
 vehicleInterceptAtNextIntersectionStrategyRequest = {}
+
 
 ---@param fields? vehicleInterceptAtNextIntersectionStrategyRequest
 ---@return vehicleInterceptAtNextIntersectionStrategyRequest

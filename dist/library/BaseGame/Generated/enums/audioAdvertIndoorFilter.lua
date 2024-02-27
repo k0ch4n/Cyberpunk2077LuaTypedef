@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAdvertIndoorFilter: Enum
 ---@field Always Enum 0
 ---@field OnlyIndoor Enum 1

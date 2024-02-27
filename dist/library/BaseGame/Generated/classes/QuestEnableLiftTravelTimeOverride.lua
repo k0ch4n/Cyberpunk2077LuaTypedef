@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestEnableLiftTravelTimeOverride: ActionBool
 QuestEnableLiftTravelTimeOverride = {}
+
 
 ---@param fields? QuestEnableLiftTravelTimeOverride
 ---@return QuestEnableLiftTravelTimeOverride

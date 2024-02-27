@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ServerState: Enum
 ---@field Inactive Enum 0
 ---@field Active Enum 1

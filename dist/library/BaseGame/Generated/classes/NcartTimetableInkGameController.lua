@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NcartTimetableInkGameController: DeviceInkGameControllerBase
 ---@field defaultUI inkCanvasWidget
 ---@field mainDisplayWidget inkVideoWidget
@@ -16,6 +17,7 @@
 ---@field onCurrentLineNumberChangedListener redCallbackObject
 ---@field animProxy inkanimProxy
 NcartTimetableInkGameController = {}
+
 
 ---@param fields? NcartTimetableInkGameController
 ---@return NcartTimetableInkGameController

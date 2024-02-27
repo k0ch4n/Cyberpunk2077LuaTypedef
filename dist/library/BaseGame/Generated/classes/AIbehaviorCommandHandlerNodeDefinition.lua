@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorCommandHandlerNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field commandName CName
 ---@field useInheritance Bool
@@ -11,6 +12,7 @@
 ---@field resultIfNoCommand AIbehaviorCompletionStatus
 ---@field resultIfChildFailed AIbehaviorCompletionStatus
 AIbehaviorCommandHandlerNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorCommandHandlerNodeDefinition
 ---@return AIbehaviorCommandHandlerNodeDefinition

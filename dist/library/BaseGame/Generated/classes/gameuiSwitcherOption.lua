@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiSwitcherOption
 ---@field index Int32
 ---@field names CName[]
@@ -7,6 +8,7 @@
 ---@field actions gameuiCharacterCustomizationAction[]
 ---@field tags redTagList
 gameuiSwitcherOption = {}
+
 
 ---@param fields? gameuiSwitcherOption
 ---@return gameuiSwitcherOption

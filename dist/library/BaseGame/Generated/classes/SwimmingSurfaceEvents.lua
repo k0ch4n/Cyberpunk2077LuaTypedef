@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SwimmingSurfaceEvents: LocomotionSwimmingEvents
 ---@field lapsedTime Float
 ---@field isDead Bool
@@ -13,6 +14,7 @@
 ---@field movementImpulseStrength Float
 ---@field movementImpulseOffset Float
 SwimmingSurfaceEvents = {}
+
 
 ---@param fields? SwimmingSurfaceEvents
 ---@return SwimmingSurfaceEvents

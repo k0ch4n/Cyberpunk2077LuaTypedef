@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Ft_Result: Enum
 ---@field Success Enum 0
 ---@field GettingPlayerGameObjectFailed Enum 1

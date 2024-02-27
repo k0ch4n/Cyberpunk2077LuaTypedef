@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SmartWindow: Computer
 SmartWindow = {}
+
 
 ---@param fields? SmartWindow
 ---@return SmartWindow

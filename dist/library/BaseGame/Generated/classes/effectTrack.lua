@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class effectTrack: effectTrackBase
 ---@field items effectTrackItem[]
 effectTrack = {}
+
 
 ---@param fields? effectTrack
 ---@return effectTrack

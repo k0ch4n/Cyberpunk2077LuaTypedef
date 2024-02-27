@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldPatrolSplineNodeInstance: worldSplineNodeInstance
 worldPatrolSplineNodeInstance = {}
+
 
 ---@param fields? worldPatrolSplineNodeInstance
 ---@return worldPatrolSplineNodeInstance

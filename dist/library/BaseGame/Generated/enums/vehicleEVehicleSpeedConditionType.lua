@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleEVehicleSpeedConditionType: Enum
 ---@field CT_EQUAL Enum 0
 ---@field CT_NOT_EQUAL Enum 1

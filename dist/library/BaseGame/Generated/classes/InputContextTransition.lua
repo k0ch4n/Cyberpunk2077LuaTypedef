@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InputContextTransition: DefaultTransition
 InputContextTransition = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@return gamedataDriverCombatType

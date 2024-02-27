@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ExitLightControllerPS: ScriptableDeviceComponentPS
 ExitLightControllerPS = {}
+
 
 ---@param fields? ExitLightControllerPS
 ---@return ExitLightControllerPS

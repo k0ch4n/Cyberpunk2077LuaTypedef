@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataMappinUIGlobalProfile_Record: gamedataTweakDBRecord
 gamedataMappinUIGlobalProfile_Record = {}
+
 
 ---@param fields? gamedataMappinUIGlobalProfile_Record
 ---@return gamedataMappinUIGlobalProfile_Record

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckReaction: AIbehaviorconditionScript
 ---@field reactionToCompare gamedataOutput
 CheckReaction = {}
+
 
 ---@param fields? CheckReaction
 ---@return CheckReaction

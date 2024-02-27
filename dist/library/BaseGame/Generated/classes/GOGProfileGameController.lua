@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GOGProfileGameController: gameuiBaseGOGProfileController
 ---@field retryButton inkWidgetReference
 ---@field parentContainerWidget inkWidgetReference
@@ -11,6 +12,7 @@
 ---@field gogRewardsList GogRewardEntryData[]
 ---@field uiSystem gameuiGameSystemUI
 GOGProfileGameController = {}
+
 
 ---@param fields? GOGProfileGameController
 ---@return GOGProfileGameController

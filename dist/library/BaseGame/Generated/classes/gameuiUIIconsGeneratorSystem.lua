@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiUIIconsGeneratorSystem: gameuiIUIIconsGeneratorSystem
 gameuiUIIconsGeneratorSystem = {}
+
 
 ---@param fields? gameuiUIIconsGeneratorSystem
 ---@return gameuiUIIconsGeneratorSystem

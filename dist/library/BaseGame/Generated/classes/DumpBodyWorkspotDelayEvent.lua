@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DumpBodyWorkspotDelayEvent: redEvent
 DumpBodyWorkspotDelayEvent = {}
+
 
 ---@param fields? DumpBodyWorkspotDelayEvent
 ---@return DumpBodyWorkspotDelayEvent

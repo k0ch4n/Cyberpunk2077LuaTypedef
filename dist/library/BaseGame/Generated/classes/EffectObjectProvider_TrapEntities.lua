@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EffectObjectProvider_TrapEntities: gameEffectObjectProvider_Scripted
 EffectObjectProvider_TrapEntities = {}
+
 
 ---@param fields? EffectObjectProvider_TrapEntities
 ---@return EffectObjectProvider_TrapEntities

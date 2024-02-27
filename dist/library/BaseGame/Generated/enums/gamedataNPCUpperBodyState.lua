@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataNPCUpperBodyState: Enum
 ---@field Aim Enum 0
 ---@field Any Enum 1

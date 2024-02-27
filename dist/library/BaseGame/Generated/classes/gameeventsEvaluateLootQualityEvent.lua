@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameeventsEvaluateLootQualityEvent: redEvent
 gameeventsEvaluateLootQualityEvent = {}
+
 
 ---@param fields? gameeventsEvaluateLootQualityEvent
 ---@return gameeventsEvaluateLootQualityEvent

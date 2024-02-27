@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EncumbranceEvaluationEffector: gameEffector
 EncumbranceEvaluationEffector = {}
+
 
 ---@param fields? EncumbranceEvaluationEffector
 ---@return EncumbranceEvaluationEffector

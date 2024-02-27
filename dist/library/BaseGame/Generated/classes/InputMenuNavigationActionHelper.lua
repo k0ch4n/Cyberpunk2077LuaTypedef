@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InputMenuNavigationActionHelper: IScriptable
 InputMenuNavigationActionHelper = {}
+
 
 ---@param fields? InputMenuNavigationActionHelper
 ---@return InputMenuNavigationActionHelper

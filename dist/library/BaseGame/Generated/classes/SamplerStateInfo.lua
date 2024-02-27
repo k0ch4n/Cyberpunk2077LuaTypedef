@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SamplerStateInfo
 ---@field filteringMin ETextureFilteringMin
 ---@field filteringMag ETextureFilteringMag
@@ -10,6 +11,7 @@
 ---@field comparisonFunc ETextureComparisonFunction
 ---@field register Uint8
 SamplerStateInfo = {}
+
 
 ---@param fields? SamplerStateInfo
 ---@return SamplerStateInfo

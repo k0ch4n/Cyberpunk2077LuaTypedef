@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TurretBeginDecisions: TurretTransition
 TurretBeginDecisions = {}
+
 
 ---@param fields? TurretBeginDecisions
 ---@return TurretBeginDecisions

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ClearQuickhackQueueEffector: gameEffector
 ClearQuickhackQueueEffector = {}
+
 
 ---@param fields? ClearQuickhackQueueEffector
 ---@return ClearQuickhackQueueEffector

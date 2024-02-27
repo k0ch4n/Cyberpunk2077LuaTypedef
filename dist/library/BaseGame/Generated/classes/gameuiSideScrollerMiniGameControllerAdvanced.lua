@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiSideScrollerMiniGameControllerAdvanced: gameuiWidgetGameController
 ---@field gameplayCanvas inkWidgetReference
 gameuiSideScrollerMiniGameControllerAdvanced = {}
+
 
 ---@param fields? gameuiSideScrollerMiniGameControllerAdvanced
 ---@return gameuiSideScrollerMiniGameControllerAdvanced

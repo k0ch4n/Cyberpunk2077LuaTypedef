@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameStatModifierHandle
 gameStatModifierHandle = {}
+
 
 ---@param fields? gameStatModifierHandle
 ---@return gameStatModifierHandle

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIStackSignalCondition: AIbehaviorStackScriptPassiveExpressionDefinition
 ---@field signalName CName
 AIStackSignalCondition = {}
+
 
 ---@param fields? AIStackSignalCondition
 ---@return AIStackSignalCondition

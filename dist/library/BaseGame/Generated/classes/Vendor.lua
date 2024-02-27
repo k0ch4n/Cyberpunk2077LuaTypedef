@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Vendor: IScriptable
 ---@field gameInstance ScriptGameInstance
 ---@field vendorObject gameObject
@@ -18,6 +19,7 @@
 ---@field vendorRecord gamedataVendor_Record
 ---@field playerHacks gameItemID[]
 Vendor = {}
+
 
 ---@param fields? Vendor
 ---@return Vendor

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class servicesCloudSavesQueryStatus: Enum
 ---@field NotFetched Enum 0
 ---@field FetchedSuccessfully Enum 1

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questAudioEventPrefetchNode: questIAudioNodeType
 ---@field prefetchEvents questAudioEventPrefetchStruct[]
 questAudioEventPrefetchNode = {}
+
 
 ---@param fields? questAudioEventPrefetchNode
 ---@return questAudioEventPrefetchNode

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehiclePlayerToAIInterpolationType: Enum
 ---@field PTAIT_INSTANT Enum 0
 ---@field PTAIT_LINEAR Enum 1

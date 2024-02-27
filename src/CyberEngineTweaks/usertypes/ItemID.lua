@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ItemID
 ---@field id TweakDBID
 ---@field rng_seed integer
 ---@field unknown integer
 ---@field maybe_type integer
 ItemID = {}
+
 
 ---@param aId TweakDBID
 ---@param aRngSeed integer

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataQuality: Enum
 ---@field Common Enum 0
 ---@field CommonPlus Enum 1

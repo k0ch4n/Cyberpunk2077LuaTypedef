@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LoadGameMenuGameController: gameuiSaveHandlingController
 ---@field list inkCompoundWidgetReference
 ---@field noSavedGamesLabel inkWidgetReference
@@ -31,6 +32,7 @@
 ---@field animProxy inkanimProxy
 ---@field sourceIndex Int32
 LoadGameMenuGameController = {}
+
 
 ---@param fields? LoadGameMenuGameController
 ---@return LoadGameMenuGameController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimation: ISerializable
 ---@field tags redTagList
 ---@field name CName
@@ -13,6 +14,7 @@
 ---@field frameClampingStartFrame Int8
 ---@field frameClampingEndFrame Int8
 animAnimation = {}
+
 
 ---@param fields? animAnimation
 ---@return animAnimation

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCurveStatModifier_Record: gamedataStatModifier_Record
 gamedataCurveStatModifier_Record = {}
+
 
 ---@param fields? gamedataCurveStatModifier_Record
 ---@return gamedataCurveStatModifier_Record

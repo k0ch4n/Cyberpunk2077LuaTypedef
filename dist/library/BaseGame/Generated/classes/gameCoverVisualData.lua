@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCoverVisualData: gameSmartObjectVisualData
 gameCoverVisualData = {}
+
 
 ---@param fields? gameCoverVisualData
 ---@return gameCoverVisualData

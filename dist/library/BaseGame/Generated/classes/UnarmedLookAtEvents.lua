@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnarmedLookAtEvents: LookAtPresetBaseEvents
 UnarmedLookAtEvents = {}
+
 
 ---@param fields? UnarmedLookAtEvents
 ---@return UnarmedLookAtEvents

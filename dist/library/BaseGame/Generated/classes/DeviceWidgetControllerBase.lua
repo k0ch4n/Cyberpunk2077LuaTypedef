@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DeviceWidgetControllerBase: DeviceInkLogicControllerBase
 ---@field backgroundTextureRef inkImageWidgetReference
 ---@field statusNameWidget inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field actionWidgetsData SActionWidgetPackage[]
 ---@field actionData ResolveActionData
 DeviceWidgetControllerBase = {}
+
 
 ---@param fields? DeviceWidgetControllerBase
 ---@return DeviceWidgetControllerBase

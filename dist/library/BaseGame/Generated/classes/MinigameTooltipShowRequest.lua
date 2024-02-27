@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MinigameTooltipShowRequest: redEvent
 ---@field data MessageTooltipData
 MinigameTooltipShowRequest = {}
+
 
 ---@param fields? MinigameTooltipShowRequest
 ---@return MinigameTooltipShowRequest

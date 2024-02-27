@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class HealthConsumable: gameCpoPickableItem
 ---@field interactionComponent gameinteractionsComponent
 ---@field meshComponent entMeshComponent
 ---@field disappearAfterEquip Bool
 ---@field respawnTime Float
 HealthConsumable = {}
+
 
 ---@param fields? HealthConsumable
 ---@return HealthConsumable

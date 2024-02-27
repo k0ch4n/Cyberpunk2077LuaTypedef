@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendRenderMeshBlobHeader
 ---@field version Uint32
 ---@field dataProcessing Uint32
@@ -22,6 +23,7 @@
 ---@field indexBufferSize Uint32
 ---@field indexBufferOffset Uint32
 rendRenderMeshBlobHeader = {}
+
 
 ---@param fields? rendRenderMeshBlobHeader
 ---@return rendRenderMeshBlobHeader

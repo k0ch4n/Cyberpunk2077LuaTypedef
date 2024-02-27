@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class KatanaLookAtDecisions: LookAtPresetMeleeBaseDecisions
 KatanaLookAtDecisions = {}
+
 
 ---@param fields? KatanaLookAtDecisions
 ---@return KatanaLookAtDecisions

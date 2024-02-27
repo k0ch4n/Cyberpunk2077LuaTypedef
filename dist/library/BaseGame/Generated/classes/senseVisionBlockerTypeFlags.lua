@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class senseVisionBlockerTypeFlags
 senseVisionBlockerTypeFlags = {}
+
 
 ---@param fields? senseVisionBlockerTypeFlags
 ---@return senseVisionBlockerTypeFlags

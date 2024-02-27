@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestIncreaseNumber: ActionBool
 QuestIncreaseNumber = {}
+
 
 ---@param fields? QuestIncreaseNumber
 ---@return QuestIncreaseNumber

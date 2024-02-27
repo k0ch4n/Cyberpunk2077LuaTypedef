@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StatsManager: IScriptable
 ---@field playerGodModeModifierData gameStatModifierData_Deprecated
 StatsManager = {}
+
 
 ---@param fields? StatsManager
 ---@return StatsManager

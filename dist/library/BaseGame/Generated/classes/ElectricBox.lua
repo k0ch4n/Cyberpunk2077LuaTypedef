@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ElectricBox: InteractiveMasterDevice
 ElectricBox = {}
+
 
 ---@param fields? ElectricBox
 ---@return ElectricBox

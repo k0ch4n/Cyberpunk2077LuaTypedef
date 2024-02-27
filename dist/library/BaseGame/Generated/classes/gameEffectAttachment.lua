@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectAttachment: entIAttachment
 gameEffectAttachment = {}
+
 
 ---@param fields? gameEffectAttachment
 ---@return gameEffectAttachment

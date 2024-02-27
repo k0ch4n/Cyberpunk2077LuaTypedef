@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questPhoneCallInformation
 ---@field callMode questPhoneCallMode
 ---@field isAudioCall Bool
@@ -11,6 +12,7 @@
 ---@field showAvatar Bool
 ---@field visuals questPhoneCallVisuals
 questPhoneCallInformation = {}
+
 
 ---@param fields? questPhoneCallInformation
 ---@return questPhoneCallInformation

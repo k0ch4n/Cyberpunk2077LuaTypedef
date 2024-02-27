@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ModifyDamageEffectorStatListener: gameScriptStatsListener
 ---@field effector ModifyDamageEffector
 ModifyDamageEffectorStatListener = {}
+
 
 ---@param fields? ModifyDamageEffectorStatListener
 ---@return ModifyDamageEffectorStatListener

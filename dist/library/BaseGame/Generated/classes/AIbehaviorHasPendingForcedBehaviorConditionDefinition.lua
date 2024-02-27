@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorHasPendingForcedBehaviorConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorHasPendingForcedBehaviorConditionDefinition = {}
+
 
 ---@param fields? AIbehaviorHasPendingForcedBehaviorConditionDefinition
 ---@return AIbehaviorHasPendingForcedBehaviorConditionDefinition

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class TeleportNodetoSlotOperation: DeviceOperationBase
 ---@field slotName CName
 ---@field gameObjectRef NodeRef
 TeleportNodetoSlotOperation = {}
+
 
 ---@param fields? TeleportNodetoSlotOperation
 ---@return TeleportNodetoSlotOperation

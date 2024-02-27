@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkEButtonState: Enum
 ---@field Normal Enum 0
 ---@field Hover Enum 1

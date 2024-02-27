@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gamedeviceClearance: IScriptable
 ---@field min Int32
 ---@field max Int32
 gamedeviceClearance = {}
+
 
 ---@param fields? gamedeviceClearance
 ---@return gamedeviceClearance

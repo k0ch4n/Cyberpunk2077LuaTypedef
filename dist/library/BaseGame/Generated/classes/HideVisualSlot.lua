@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HideVisualSlot: redEvent
 ---@field slot TransmogSlots
 HideVisualSlot = {}
+
 
 ---@param fields? HideVisualSlot
 ---@return HideVisualSlot

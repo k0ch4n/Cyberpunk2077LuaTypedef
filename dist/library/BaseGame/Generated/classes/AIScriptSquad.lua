@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIScriptSquad: IScriptable
 AIScriptSquad = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param actionType gamedataAITicketType_Record

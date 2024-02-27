@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GrappleStruggleEvents: GrappleStandEvents
 GrappleStruggleEvents = {}
+
 
 ---@param fields? GrappleStruggleEvents
 ---@return GrappleStruggleEvents

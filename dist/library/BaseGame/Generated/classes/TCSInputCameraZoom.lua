@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TCSInputCameraZoom: redEvent
 TCSInputCameraZoom = {}
+
 
 ---@param fields? TCSInputCameraZoom
 ---@return TCSInputCameraZoom

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LadderEvents: LocomotionGroundEvents
 LadderEvents = {}
+
 
 ---@param fields? LadderEvents
 ---@return LadderEvents

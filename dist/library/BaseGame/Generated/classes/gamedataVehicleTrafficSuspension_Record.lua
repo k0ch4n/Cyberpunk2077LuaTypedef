@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleTrafficSuspension_Record: gamedataTweakDBRecord
 gamedataVehicleTrafficSuspension_Record = {}
+
 
 ---@param fields? gamedataVehicleTrafficSuspension_Record
 ---@return gamedataVehicleTrafficSuspension_Record

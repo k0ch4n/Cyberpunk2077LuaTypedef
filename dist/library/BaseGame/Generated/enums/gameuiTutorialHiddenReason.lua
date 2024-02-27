@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiTutorialHiddenReason: Enum
 ---@field None Enum 0
 ---@field DefaultHiddenReason Enum 1

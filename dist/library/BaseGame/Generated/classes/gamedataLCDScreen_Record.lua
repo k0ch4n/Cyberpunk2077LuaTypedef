@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataLCDScreen_Record: gamedataBaseSign_Record
 gamedataLCDScreen_Record = {}
+
 
 ---@param fields? gamedataLCDScreen_Record
 ---@return gamedataLCDScreen_Record

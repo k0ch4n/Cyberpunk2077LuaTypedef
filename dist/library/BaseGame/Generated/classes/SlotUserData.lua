@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SlotUserData: IScriptable
 ---@field item UIInventoryItem
 ---@field index Int32
@@ -12,6 +13,7 @@
 ---@field upgradeItem gamedataItem_Record
 ---@field upgradeItemQuality gamedataQuality
 SlotUserData = {}
+
 
 ---@param fields? SlotUserData
 ---@return SlotUserData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameinteractionsLootVisualiserControlWrapper
 gameinteractionsLootVisualiserControlWrapper = {}
+
 
 ---@param fields? gameinteractionsLootVisualiserControlWrapper
 ---@return gameinteractionsLootVisualiserControlWrapper

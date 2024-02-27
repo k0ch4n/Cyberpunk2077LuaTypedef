@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HealthbarMemoryStatListener: gameScriptStatsListener
 ---@field healthbar gameuiHudHealthbarGameController
 HealthbarMemoryStatListener = {}
+
 
 ---@param fields? HealthbarMemoryStatListener
 ---@return HealthbarMemoryStatListener

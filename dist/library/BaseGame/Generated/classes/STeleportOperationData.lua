@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class STeleportOperationData
 ---@field nodeRef NodeRef
 STeleportOperationData = {}
+
 
 ---@param fields? STeleportOperationData
 ---@return STeleportOperationData

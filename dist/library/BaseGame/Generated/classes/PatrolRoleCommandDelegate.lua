@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PatrolRoleCommandDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field patrolWithWeapon Bool
 ---@field forceAlerted Bool
 PatrolRoleCommandDelegate = {}
+
 
 ---@param fields? PatrolRoleCommandDelegate
 ---@return PatrolRoleCommandDelegate

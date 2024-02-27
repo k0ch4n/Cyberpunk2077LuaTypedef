@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workRegisterCleanupCommandData: workIWorkspotCommandData
 workRegisterCleanupCommandData = {}
+
 
 ---@param fields? workRegisterCleanupCommandData
 ---@return workRegisterCleanupCommandData

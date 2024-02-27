@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsPlayerAKiller: AIbehaviorconditionScript
 IsPlayerAKiller = {}
+
 
 ---@param fields? IsPlayerAKiller
 ---@return IsPlayerAKiller

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class DropPointMappinRegistrationData: IScriptable
 ---@field ownerID entEntityID
 ---@field position Vector4
 ---@field mapinID gameNewMappinID
 ---@field trackingAlternativeMappinID gameNewMappinID
 DropPointMappinRegistrationData = {}
+
 
 ---@param fields? DropPointMappinRegistrationData
 ---@return DropPointMappinRegistrationData

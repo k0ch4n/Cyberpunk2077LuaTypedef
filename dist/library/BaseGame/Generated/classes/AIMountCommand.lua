@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIMountCommand: AIBaseMountCommand
 AIMountCommand = {}
+
 
 ---@param fields? AIMountCommand
 ---@return AIMountCommand

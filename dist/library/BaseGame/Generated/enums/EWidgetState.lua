@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EWidgetState: Enum
 ---@field DEFAULT Enum 0
 ---@field ON Enum 1

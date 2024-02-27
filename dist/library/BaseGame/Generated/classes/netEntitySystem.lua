@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class netEntitySystem: worldIRuntimeSystem
 netEntitySystem = {}
+
 
 ---@param fields? netEntitySystem
 ---@return netEntitySystem

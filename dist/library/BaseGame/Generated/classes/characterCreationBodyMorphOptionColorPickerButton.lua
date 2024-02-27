@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class characterCreationBodyMorphOptionColorPickerButton: inkWidgetLogicController
 ---@field background inkWidgetReference
 ---@field icon inkImageWidgetReference
 ---@field isTriggered Bool
 characterCreationBodyMorphOptionColorPickerButton = {}
+
 
 ---@param fields? characterCreationBodyMorphOptionColorPickerButton
 ---@return characterCreationBodyMorphOptionColorPickerButton

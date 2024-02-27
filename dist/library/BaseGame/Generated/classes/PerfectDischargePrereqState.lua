@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class PerfectDischargePrereqState: StatPoolPrereqState
 ---@field owner gameObject
 ---@field perfectDischargeListener PerfectDischargePrereqListener
 ---@field wasPerfectlyCharged Bool
 PerfectDischargePrereqState = {}
+
 
 ---@param fields? PerfectDischargePrereqState
 ---@return PerfectDischargePrereqState

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VelocityInheritEvaluator: PhysicsParticleInitializer
 VelocityInheritEvaluator = {}
+
 
 ---@param fields? VelocityInheritEvaluator
 ---@return VelocityInheritEvaluator

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnifyIconicsUpgradeCountWithEffectiveTierInStashEvent: redEvent
 UnifyIconicsUpgradeCountWithEffectiveTierInStashEvent = {}
+
 
 ---@param fields? UnifyIconicsUpgradeCountWithEffectiveTierInStashEvent
 ---@return UnifyIconicsUpgradeCountWithEffectiveTierInStashEvent

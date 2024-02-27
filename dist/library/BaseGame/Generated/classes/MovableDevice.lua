@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MovableDevice: InteractiveDevice
 ---@field workspotSideName CName
 ---@field sideTriggerNames CName[]
@@ -10,6 +11,7 @@
 ---@field UseWorkspotComponentPosition Bool
 ---@field shouldMoveRight Bool
 MovableDevice = {}
+
 
 ---@param fields? MovableDevice
 ---@return MovableDevice

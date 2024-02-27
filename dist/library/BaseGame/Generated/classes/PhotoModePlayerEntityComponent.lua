@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhotoModePlayerEntityComponent: gameScriptableComponent
 ---@field usedWeaponItemId gameItemID
 ---@field currentWeaponInSlot gameItemID
@@ -25,6 +26,7 @@
 ---@field cyberwareArmsVisible Bool
 ---@field cyberwareArmsItem gameItemID
 PhotoModePlayerEntityComponent = {}
+
 
 ---@param fields? PhotoModePlayerEntityComponent
 ---@return PhotoModePlayerEntityComponent

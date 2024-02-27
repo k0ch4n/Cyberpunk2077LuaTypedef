@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PSD_Master: gameDeviceComponent
 PSD_Master = {}
+
 
 ---@param fields? PSD_Master
 ---@return PSD_Master

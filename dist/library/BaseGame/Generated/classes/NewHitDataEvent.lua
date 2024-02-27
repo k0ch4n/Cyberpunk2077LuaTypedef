@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewHitDataEvent: redEvent
 ---@field hitIntensity Int32
 ---@field hitSource Int32
@@ -11,6 +12,7 @@
 ---@field stance Int32
 ---@field animVariation Int32
 NewHitDataEvent = {}
+
 
 ---@param fields? NewHitDataEvent
 ---@return NewHitDataEvent

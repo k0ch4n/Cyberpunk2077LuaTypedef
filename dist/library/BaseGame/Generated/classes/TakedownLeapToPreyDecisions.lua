@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TakedownLeapToPreyDecisions: LocomotionTakedownDecisions
 ---@field stateMachineInitData LocomotionTakedownInitData
 TakedownLeapToPreyDecisions = {}
+
 
 ---@param fields? TakedownLeapToPreyDecisions
 ---@return TakedownLeapToPreyDecisions

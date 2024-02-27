@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISmartCompositeType_Record: gamedataTweakDBRecord
 gamedataAISmartCompositeType_Record = {}
+
 
 ---@param fields? gamedataAISmartCompositeType_Record
 ---@return gamedataAISmartCompositeType_Record

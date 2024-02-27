@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerAttitude: ScannerChunk
 ---@field attitude EAIAttitude
 ScannerAttitude = {}
+
 
 ---@param fields? ScannerAttitude
 ---@return ScannerAttitude

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CharacterDataPrereqState: gamePrereqState
 CharacterDataPrereqState = {}
+
 
 ---@param fields? CharacterDataPrereqState
 ---@return CharacterDataPrereqState

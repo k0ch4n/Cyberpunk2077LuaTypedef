@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAttack_GameEffect: gameIAttack
 gameAttack_GameEffect = {}
+
 
 ---@param fields? gameAttack_GameEffect
 ---@return gameAttack_GameEffect

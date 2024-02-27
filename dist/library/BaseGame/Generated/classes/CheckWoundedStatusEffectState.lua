@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckWoundedStatusEffectState: AIStatusEffectCondition
 ---@field stateToCheck EstatusEffectsState
 CheckWoundedStatusEffectState = {}
+
 
 ---@param fields? CheckWoundedStatusEffectState
 ---@return CheckWoundedStatusEffectState

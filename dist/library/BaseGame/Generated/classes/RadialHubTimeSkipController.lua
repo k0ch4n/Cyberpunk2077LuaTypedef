@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RadialHubTimeSkipController: inkWidgetLogicController
 ---@field gameTimeText inkTextWidgetReference
 ---@field cantSkipTimeContainer inkWidgetReference
@@ -11,6 +12,7 @@
 ---@field gameTimeTextParams textTextParameterSet
 ---@field canSkipTime Bool
 RadialHubTimeSkipController = {}
+
 
 ---@param fields? RadialHubTimeSkipController
 ---@return RadialHubTimeSkipController

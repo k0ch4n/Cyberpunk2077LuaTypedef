@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimationType: Enum
 ---@field Normal Enum 0
 ---@field AdditiveFromRefPose Enum 1

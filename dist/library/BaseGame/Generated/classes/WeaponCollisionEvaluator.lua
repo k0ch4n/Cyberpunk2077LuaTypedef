@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WeaponCollisionEvaluator: gameprojectileScriptCollisionEvaluator
 WeaponCollisionEvaluator = {}
+
 
 ---@param fields? WeaponCollisionEvaluator
 ---@return WeaponCollisionEvaluator

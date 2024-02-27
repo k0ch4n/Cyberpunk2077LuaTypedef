@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAmbientAreaGroupingSettings
 ---@field GroupCountTag CName
 ---@field GroupCountRtpc CName
@@ -9,6 +10,7 @@
 ---@field MaxDistance Float
 ---@field GroupingVerticallimit Float
 audioAmbientAreaGroupingSettings = {}
+
 
 ---@param fields? audioAmbientAreaGroupingSettings
 ---@return audioAmbientAreaGroupingSettings

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkWeakScriptableDataSourceWrapper: inkBaseWeakScriptableDataSource
 inkWeakScriptableDataSourceWrapper = {}
+
 
 ---@param fields? inkWeakScriptableDataSourceWrapper
 ---@return inkWeakScriptableDataSourceWrapper

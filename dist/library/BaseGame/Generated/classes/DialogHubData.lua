@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DialogHubData
 ---@field isSelected Bool
 ---@field selectedInd Int32
@@ -8,6 +9,7 @@
 ---@field currentNum Int32
 ---@field argTotalCountAcrossHubs Int32
 DialogHubData = {}
+
 
 ---@param fields? DialogHubData
 ---@return DialogHubData

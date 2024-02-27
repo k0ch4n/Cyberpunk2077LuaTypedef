@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TCSTakeOverControlDeactivate: redEvent
 TCSTakeOverControlDeactivate = {}
+
 
 ---@param fields? TCSTakeOverControlDeactivate
 ---@return TCSTakeOverControlDeactivate

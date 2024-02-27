@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameinteractionsvisDialogChoiceHubs
 ---@field choiceHubs gameinteractionsvisListChoiceHubData[]
 gameinteractionsvisDialogChoiceHubs = {}
+
 
 ---@param fields? gameinteractionsvisDialogChoiceHubs
 ---@return gameinteractionsvisDialogChoiceHubs

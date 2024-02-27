@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeviceSystemBase: InteractiveMasterDevice
 DeviceSystemBase = {}
+
 
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool

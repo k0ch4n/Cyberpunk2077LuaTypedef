@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BonusCollisionLogic: gameuiSideScrollerMiniGameCollisionLogic
 ---@field hasTriggered Bool
 BonusCollisionLogic = {}
+
 
 ---@param fields? BonusCollisionLogic
 ---@return BonusCollisionLogic

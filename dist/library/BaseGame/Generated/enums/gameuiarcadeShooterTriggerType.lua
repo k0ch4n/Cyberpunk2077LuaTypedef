@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiarcadeShooterTriggerType: Enum
 ---@field Delay Enum 0
 ---@field SpawnerFinish Enum 1

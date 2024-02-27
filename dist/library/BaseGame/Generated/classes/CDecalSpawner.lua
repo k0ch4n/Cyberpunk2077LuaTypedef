@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CDecalSpawner: ISerializable
 ---@field materialStatic IMaterial
 ---@field materialSkinned IMaterial
@@ -32,6 +33,7 @@
 ---@field spawnPriority EDynamicDecalSpawnPriority
 ---@field autoHideDistance Float
 CDecalSpawner = {}
+
 
 ---@param fields? CDecalSpawner
 ---@return CDecalSpawner

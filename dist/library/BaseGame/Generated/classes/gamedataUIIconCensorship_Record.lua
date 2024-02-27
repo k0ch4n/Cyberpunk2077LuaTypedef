@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataUIIconCensorship_Record: gamedataTweakDBRecord
 gamedataUIIconCensorship_Record = {}
+
 
 ---@param fields? gamedataUIIconCensorship_Record
 ---@return gamedataUIIconCensorship_Record

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SimpleMessengerContactsVirtualListController: inkVirtualListController
 ---@field dataView SimpleMessengerContactDataView
 ---@field dataSource inkScriptableDataSourceWrapper
 ---@field classifier QuestListVirtualTemplateClassifier
 SimpleMessengerContactsVirtualListController = {}
+
 
 ---@param fields? SimpleMessengerContactsVirtualListController
 ---@return SimpleMessengerContactsVirtualListController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RipperdocMeterCapacityBarHoverEvent: redEvent
 RipperdocMeterCapacityBarHoverEvent = {}
+
 
 ---@param fields? RipperdocMeterCapacityBarHoverEvent
 ---@return RipperdocMeterCapacityBarHoverEvent

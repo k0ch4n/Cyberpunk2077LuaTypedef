@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questAchievementManagerNodeDefinition: questDisableableNodeDefinition
 ---@field type questIAchievementManagerNodeType
 questAchievementManagerNodeDefinition = {}
+
 
 ---@param fields? questAchievementManagerNodeDefinition
 ---@return questAchievementManagerNodeDefinition

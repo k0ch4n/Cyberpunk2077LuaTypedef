@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TransparencyAnimationToggleView: BaseToggleView
 ---@field AnimationTime Float
 ---@field HoverTransparency Float
@@ -9,6 +10,7 @@
 ---@field AnimationProxies inkanimProxy[]
 ---@field Targets inkWidgetReference[]
 TransparencyAnimationToggleView = {}
+
 
 ---@param fields? TransparencyAnimationToggleView
 ---@return TransparencyAnimationToggleView

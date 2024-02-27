@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemSnapSovler: worldIRuntimeSystem
 worldRuntimeSystemSnapSovler = {}
+
 
 ---@param fields? worldRuntimeSystemSnapSovler
 ---@return worldRuntimeSystemSnapSovler

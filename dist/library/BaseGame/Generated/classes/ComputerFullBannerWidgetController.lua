@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ComputerFullBannerWidgetController: ComputerBannerWidgetController
 ---@field closeButtonWidget inkWidgetReference
 ComputerFullBannerWidgetController = {}
+
 
 ---@param fields? ComputerFullBannerWidgetController
 ---@return ComputerFullBannerWidgetController

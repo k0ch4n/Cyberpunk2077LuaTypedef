@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ToggleController: inkToggleController
 ---@field label inkTextWidgetReference
 ---@field icon inkImageWidgetReference
 ---@field data Int32
 ToggleController = {}
+
 
 ---@param fields? ToggleController
 ---@return ToggleController

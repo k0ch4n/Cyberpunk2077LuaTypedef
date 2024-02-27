@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePlayerStatsListener: gamePuppetStatsListener
 gamePlayerStatsListener = {}
+
 
 ---@param fields? gamePlayerStatsListener
 ---@return gamePlayerStatsListener

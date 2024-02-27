@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ApplyAccumulatedDoTEffector: TriggerContinuousAttackEffector
 ApplyAccumulatedDoTEffector = {}
+
 
 ---@param fields? ApplyAccumulatedDoTEffector
 ---@return ApplyAccumulatedDoTEffector

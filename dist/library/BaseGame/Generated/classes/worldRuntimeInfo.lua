@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeInfo: IScriptable
 worldRuntimeInfo = {}
+
 
 ---@param fields? worldRuntimeInfo
 ---@return worldRuntimeInfo

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EMaterialModifier: Enum
 ---@field EMATMOD_HitProxy Enum 0
 ---@field EMATMOD_WindData Enum 1

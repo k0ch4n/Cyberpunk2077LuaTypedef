@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NPCInScenePrereqState: gamePrereqState
 ---@field sceneListener gameScriptedPrereqSceneInspectionListenerWrapper
 NPCInScenePrereqState = {}
+
 
 ---@param fields? NPCInScenePrereqState
 ---@return NPCInScenePrereqState

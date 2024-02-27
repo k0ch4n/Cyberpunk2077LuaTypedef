@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RemotelyConnectToAccessPoint: gameEffectExecutor_Scripted
 RemotelyConnectToAccessPoint = {}
+
 
 ---@param fields? RemotelyConnectToAccessPoint
 ---@return RemotelyConnectToAccessPoint

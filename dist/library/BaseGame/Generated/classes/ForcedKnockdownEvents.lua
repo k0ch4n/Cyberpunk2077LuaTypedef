@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ForcedKnockdownEvents: KnockdownEvents
 ---@field firstUpdate Bool
 ForcedKnockdownEvents = {}
+
 
 ---@param fields? ForcedKnockdownEvents
 ---@return ForcedKnockdownEvents

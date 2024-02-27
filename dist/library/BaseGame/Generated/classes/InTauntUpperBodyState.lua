@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InTauntUpperBodyState: AINPCUpperBodyStateCheck
 InTauntUpperBodyState = {}
+
 
 ---@param fields? InTauntUpperBodyState
 ---@return InTauntUpperBodyState

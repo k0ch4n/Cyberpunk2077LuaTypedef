@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ChestPress: InteractiveDevice
 ---@field animFeatureData AnimFeature_ChestPress
 ---@field animFeatureDataName CName
 ChestPress = {}
+
 
 ---@param fields? ChestPress
 ---@return ChestPress

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataChoiceCaptionIconPart_Record: gamedataChoiceCaptionPart_Record
 gamedataChoiceCaptionIconPart_Record = {}
+
 
 ---@param fields? gamedataChoiceCaptionIconPart_Record
 ---@return gamedataChoiceCaptionIconPart_Record

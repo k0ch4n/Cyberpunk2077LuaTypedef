@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animLocomotion_AnimType: Enum
 ---@field None Enum 0
 ---@field idle_stand Enum 1

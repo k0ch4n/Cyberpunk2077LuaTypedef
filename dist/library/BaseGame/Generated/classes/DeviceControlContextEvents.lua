@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeviceControlContextEvents: InputContextTransitionEvents
 DeviceControlContextEvents = {}
+
 
 ---@param fields? DeviceControlContextEvents
 ---@return DeviceControlContextEvents

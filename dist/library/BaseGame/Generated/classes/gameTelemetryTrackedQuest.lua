@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTelemetryTrackedQuest
 ---@field name String
 ---@field objectiveName String
@@ -8,6 +9,7 @@
 ---@field questName String
 ---@field questType String
 gameTelemetryTrackedQuest = {}
+
 
 ---@param fields? gameTelemetryTrackedQuest
 ---@return gameTelemetryTrackedQuest

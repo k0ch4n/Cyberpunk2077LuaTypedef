@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataStimPropagation: Enum
 ---@field Audio Enum 0
 ---@field Visual Enum 1

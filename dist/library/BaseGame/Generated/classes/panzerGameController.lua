@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class panzerGameController: gameuiPanzerMiniGameController
 panzerGameController = {}
+
 
 ---@param fields? panzerGameController
 ---@return panzerGameController

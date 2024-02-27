@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsSpawnEntityEventFallbackData
 ---@field owner scnPerformerId
 ---@field fallbackCachedBones scneventsSpawnEntityEventCachedFallbackBone
@@ -7,6 +8,7 @@
 ---@field fallbackAnimationName CName
 ---@field fallbackAnimTime Float
 scneventsSpawnEntityEventFallbackData = {}
+
 
 ---@param fields? scneventsSpawnEntityEventFallbackData
 ---@return scneventsSpawnEntityEventFallbackData

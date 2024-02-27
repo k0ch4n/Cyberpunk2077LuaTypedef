@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MediaDeviceController: ScriptableDeviceComponent
 MediaDeviceController = {}
+
 
 ---@param fields? MediaDeviceController
 ---@return MediaDeviceController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldStaticSoundEmitterNodeInstance: worldINodeInstance
 worldStaticSoundEmitterNodeInstance = {}
+
 
 ---@param fields? worldStaticSoundEmitterNodeInstance
 ---@return worldStaticSoundEmitterNodeInstance

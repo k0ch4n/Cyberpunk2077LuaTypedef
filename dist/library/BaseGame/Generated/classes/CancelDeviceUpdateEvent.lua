@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CancelDeviceUpdateEvent: redEvent
 CancelDeviceUpdateEvent = {}
+
 
 ---@param fields? CancelDeviceUpdateEvent
 ---@return CancelDeviceUpdateEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CMaterialLayerLibrary: CResource
 ---@field uvTiling Float
 ---@field mbTiling Float
@@ -8,6 +9,7 @@
 ---@field layers MaterialLayerDef[]
 ---@field microblends MicroblendDef[]
 CMaterialLayerLibrary = {}
+
 
 ---@param fields? CMaterialLayerLibrary
 ---@return CMaterialLayerLibrary

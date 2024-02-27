@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiETooltipPlacement: Enum
 ---@field LeftCenter Enum 0
 ---@field RightCenter Enum 1

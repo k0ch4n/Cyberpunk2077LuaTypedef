@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BackgroundDisplayVirtualController: inkVirtualCompoundBackgroundController
 BackgroundDisplayVirtualController = {}
+
 
 ---@param fields? BackgroundDisplayVirtualController
 ---@return BackgroundDisplayVirtualController

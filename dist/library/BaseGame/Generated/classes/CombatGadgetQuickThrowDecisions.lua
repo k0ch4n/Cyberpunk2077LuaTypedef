@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CombatGadgetQuickThrowDecisions: CombatGadgetTransitions
 CombatGadgetQuickThrowDecisions = {}
+
 
 ---@param fields? CombatGadgetQuickThrowDecisions
 ---@return CombatGadgetQuickThrowDecisions

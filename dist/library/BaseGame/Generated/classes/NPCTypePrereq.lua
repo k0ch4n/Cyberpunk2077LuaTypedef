@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NPCTypePrereq: gameIScriptablePrereq
 ---@field allowedTypes gamedataNPCType[]
 ---@field invert Bool
 NPCTypePrereq = {}
+
 
 ---@param fields? NPCTypePrereq
 ---@return NPCTypePrereq

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MineDispenserCycleItemEvents: MineDispenserEventsTransition
 MineDispenserCycleItemEvents = {}
+
 
 ---@param fields? MineDispenserCycleItemEvents
 ---@return MineDispenserCycleItemEvents

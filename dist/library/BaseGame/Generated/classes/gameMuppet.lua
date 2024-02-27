@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMuppet: gamePuppetBase
 ---@field hitRepresantation entSlotComponent
 ---@field slotComponent entSlotComponent
@@ -8,6 +9,7 @@
 ---@field lowDamageThreshold Float
 ---@field effectTimeStamp Float
 gameMuppet = {}
+
 
 ---@param fields? gameMuppet
 ---@return gameMuppet

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ImpactReactionTask: AIHitReactionTask
 ---@field tweakDBPackage TweakDBID
 ImpactReactionTask = {}
+
 
 ---@param fields? ImpactReactionTask
 ---@return ImpactReactionTask

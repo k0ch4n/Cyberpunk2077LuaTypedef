@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TaggedObjectsListDef: gamebbScriptDefinition
 ---@field taggedObjectsList gamebbScriptID_Variant
 TaggedObjectsListDef = {}
+
 
 ---@param fields? TaggedObjectsListDef
 ---@return TaggedObjectsListDef

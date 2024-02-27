@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RasetsuToPlayerScalingEvent: redEvent
 RasetsuToPlayerScalingEvent = {}
+
 
 ---@param fields? RasetsuToPlayerScalingEvent
 ---@return RasetsuToPlayerScalingEvent

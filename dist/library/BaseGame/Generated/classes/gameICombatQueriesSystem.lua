@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameICombatQueriesSystem: gameIGameSystem
 gameICombatQueriesSystem = {}
+
 
 ---@param requester gameObject
 ---@param refQueryId Int32

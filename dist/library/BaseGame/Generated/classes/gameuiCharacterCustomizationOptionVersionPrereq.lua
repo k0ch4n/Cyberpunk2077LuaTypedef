@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameuiCharacterCustomizationOptionVersionPrereq
 ---@field optionName CName
 ---@field definitionName CName
 gameuiCharacterCustomizationOptionVersionPrereq = {}
+
 
 ---@param fields? gameuiCharacterCustomizationOptionVersionPrereq
 ---@return gameuiCharacterCustomizationOptionVersionPrereq

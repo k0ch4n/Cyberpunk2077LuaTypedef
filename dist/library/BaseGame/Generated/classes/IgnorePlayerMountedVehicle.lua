@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IgnorePlayerMountedVehicle: gameEffectObjectSingleFilter_Scripted
 IgnorePlayerMountedVehicle = {}
+
 
 ---@param fields? IgnorePlayerMountedVehicle
 ---@return IgnorePlayerMountedVehicle

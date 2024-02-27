@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimFeatureUpdateWorkspot: animAnimFeature
 ---@field animName CName
 ---@field recordID Int32
@@ -23,6 +24,7 @@
 ---@field globalBlendDuration Float
 ---@field globalBlendIn Bool
 animAnimFeatureUpdateWorkspot = {}
+
 
 ---@param fields? animAnimFeatureUpdateWorkspot
 ---@return animAnimFeatureUpdateWorkspot

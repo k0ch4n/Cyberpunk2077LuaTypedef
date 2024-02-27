@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIbehaviorDebugFailsafeConditionDefinition: AIbehaviorConditionDefinition
 ---@field logMessage AIArgumentMapping
 AIbehaviorDebugFailsafeConditionDefinition = {}
+
 
 ---@param fields? AIbehaviorDebugFailsafeConditionDefinition
 ---@return AIbehaviorDebugFailsafeConditionDefinition

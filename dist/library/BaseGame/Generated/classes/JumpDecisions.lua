@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class JumpDecisions: LocomotionAirDecisions
 ---@field jumpPressed Bool
 JumpDecisions = {}
+
 
 ---@param fields? JumpDecisions
 ---@return JumpDecisions

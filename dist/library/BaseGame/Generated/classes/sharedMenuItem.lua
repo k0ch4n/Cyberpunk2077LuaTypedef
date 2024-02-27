@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class sharedMenuItem
 ---@field id CName
 ---@field displayName String
@@ -10,6 +11,7 @@
 ---@field isChecked Bool
 ---@field checkGroup String
 sharedMenuItem = {}
+
 
 ---@param fields? sharedMenuItem
 ---@return sharedMenuItem

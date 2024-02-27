@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetAllFearWrappers: AIbehaviortaskScript
 ResetAllFearWrappers = {}
+
 
 ---@param fields? ResetAllFearWrappers
 ---@return ResetAllFearWrappers

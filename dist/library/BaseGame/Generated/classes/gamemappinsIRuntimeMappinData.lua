@@ -1,4 +1,5 @@
 ---@meta
 
+
 ---@class gamemappinsIRuntimeMappinData
 gamemappinsIRuntimeMappinData = {}

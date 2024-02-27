@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIFindPositionAroundSelf: AIbehaviortaskScript
 ---@field distanceMin AIArgumentMapping
 ---@field distanceMax AIArgumentMapping
@@ -8,6 +9,7 @@
 ---@field outPositionArgument AIArgumentMapping
 ---@field finalPosition Vector4
 AIFindPositionAroundSelf = {}
+
 
 ---@param fields? AIFindPositionAroundSelf
 ---@return AIFindPositionAroundSelf

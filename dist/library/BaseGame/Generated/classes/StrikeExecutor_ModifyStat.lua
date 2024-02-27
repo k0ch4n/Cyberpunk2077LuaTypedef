@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StrikeExecutor_ModifyStat: gameEffectExecutor_Scripted
 StrikeExecutor_ModifyStat = {}
+
 
 ---@param fields? StrikeExecutor_ModifyStat
 ---@return StrikeExecutor_ModifyStat

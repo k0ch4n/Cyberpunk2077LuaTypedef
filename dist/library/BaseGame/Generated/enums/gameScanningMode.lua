@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameScanningMode: Enum
 ---@field Inactive Enum 0
 ---@field Light Enum 1

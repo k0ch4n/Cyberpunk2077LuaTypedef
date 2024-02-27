@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceFreezeEvents: LocomotionGroundEvents
 ForceFreezeEvents = {}
+
 
 ---@param fields? ForceFreezeEvents
 ---@return ForceFreezeEvents

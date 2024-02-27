@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DelayedStopVehicle: gameScriptableSystemRequest
 ---@field state VehiclePreventionHackState
 DelayedStopVehicle = {}
+
 
 ---@param fields? DelayedStopVehicle
 ---@return DelayedStopVehicle

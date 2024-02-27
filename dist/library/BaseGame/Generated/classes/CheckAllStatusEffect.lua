@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CheckAllStatusEffect: AIStatusEffectCondition
 ---@field behaviorArgumentNameTag CName
 ---@field behaviorArgumentFloatPriority CName
 ---@field behaviorArgumentNameFlag CName
 CheckAllStatusEffect = {}
+
 
 ---@param fields? CheckAllStatusEffect
 ---@return CheckAllStatusEffect

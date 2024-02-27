@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldBakedDestructionNode: worldMeshNode
 ---@field meshFractured CMesh
 ---@field meshFracturedAppearance CName
@@ -21,6 +22,7 @@
 ---@field navigationSetting NavGenNavigationSetting
 ---@field useMeshNavmeshSettings Bool
 worldBakedDestructionNode = {}
+
 
 ---@param fields? worldBakedDestructionNode
 ---@return worldBakedDestructionNode

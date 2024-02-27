@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_FinalBoardsEp1: MenuScenario_BaseMenu
 MenuScenario_FinalBoardsEp1 = {}
+
 
 ---@param fields? MenuScenario_FinalBoardsEp1
 ---@return MenuScenario_FinalBoardsEp1

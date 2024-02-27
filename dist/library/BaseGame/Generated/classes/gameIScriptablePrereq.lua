@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameIScriptablePrereq: gameIPrereq
 gameIScriptablePrereq = {}
+
 
 ---@param fields? gameIScriptablePrereq
 ---@return gameIScriptablePrereq

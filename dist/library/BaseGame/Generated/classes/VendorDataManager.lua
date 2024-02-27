@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VendorDataManager: IScriptable
 ---@field VendorObject gameObject
 ---@field BuyingCart VendorShoppingCartItem[]
@@ -12,6 +13,7 @@
 ---@field EquipmentBBID redCallbackObject
 ---@field openTime GameTime
 VendorDataManager = {}
+
 
 ---@param fields? VendorDataManager
 ---@return VendorDataManager

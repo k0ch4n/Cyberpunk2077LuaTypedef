@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameinteractionsInteractionScriptedCondition: IScriptable
 gameinteractionsInteractionScriptedCondition = {}
+
 
 ---@param fields? gameinteractionsInteractionScriptedCondition
 ---@return gameinteractionsInteractionScriptedCondition

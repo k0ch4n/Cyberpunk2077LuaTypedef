@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionForceEquip_Record_Implementation: IScriptable
 AISubActionForceEquip_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionForceEquip_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WidgetHudComponent: WidgetHudComponentInterface
 WidgetHudComponent = {}
+
 
 ---@param fields? WidgetHudComponent
 ---@return WidgetHudComponent

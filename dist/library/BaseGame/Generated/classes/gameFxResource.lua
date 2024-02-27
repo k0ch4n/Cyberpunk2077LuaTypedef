@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameFxResource
 ---@field effect worldEffect
 gameFxResource = {}
+
 
 ---@param fields? gameFxResource
 ---@return gameFxResource

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UseCoverCommandCleanup: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 UseCoverCommandCleanup = {}
+
 
 ---@param fields? UseCoverCommandCleanup
 ---@return UseCoverCommandCleanup

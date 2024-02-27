@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GrappleFallEvents: FallEvents
 ---@field stateMachineInitData LocomotionTakedownInitData
 GrappleFallEvents = {}
+
 
 ---@param fields? GrappleFallEvents
 ---@return GrappleFallEvents

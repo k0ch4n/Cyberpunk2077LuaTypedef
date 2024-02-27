@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ItemDisplayHoverOutEvent: redEvent
 ItemDisplayHoverOutEvent = {}
+
 
 ---@param fields? ItemDisplayHoverOutEvent
 ---@return ItemDisplayHoverOutEvent

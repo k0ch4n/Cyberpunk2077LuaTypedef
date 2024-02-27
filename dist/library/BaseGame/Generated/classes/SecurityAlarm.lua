@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SecurityAlarm: InteractiveMasterDevice
 ---@field workingAlarm entMeshComponent
 ---@field destroyedAlarm entMeshComponent
 ---@field isGlitching Bool
 SecurityAlarm = {}
+
 
 ---@param fields? SecurityAlarm
 ---@return SecurityAlarm

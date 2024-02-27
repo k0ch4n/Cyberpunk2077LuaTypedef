@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EMagazineAmmoState: Enum
 ---@field None Enum 0
 ---@field FirstBullet Enum 1

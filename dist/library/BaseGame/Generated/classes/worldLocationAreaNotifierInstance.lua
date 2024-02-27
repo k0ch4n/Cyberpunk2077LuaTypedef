@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldLocationAreaNotifierInstance: worldITriggerAreaNotiferInstance
 worldLocationAreaNotifierInstance = {}
+
 
 ---@param fields? worldLocationAreaNotifierInstance
 ---@return worldLocationAreaNotifierInstance

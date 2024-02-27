@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EWoundedBodyPart: Enum
 ---@field Invalid Enum 0
 ---@field WoundedLeftArm Enum 1

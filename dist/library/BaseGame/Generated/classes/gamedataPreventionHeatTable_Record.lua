@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPreventionHeatTable_Record: gamedataTweakDBRecord
 gamedataPreventionHeatTable_Record = {}
+
 
 ---@param fields? gamedataPreventionHeatTable_Record
 ---@return gamedataPreventionHeatTable_Record

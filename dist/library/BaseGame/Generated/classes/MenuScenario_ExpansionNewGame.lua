@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_ExpansionNewGame: MenuScenario_PreGameSubMenu
 MenuScenario_ExpansionNewGame = {}
+
 
 ---@param fields? MenuScenario_ExpansionNewGame
 ---@return MenuScenario_ExpansionNewGame

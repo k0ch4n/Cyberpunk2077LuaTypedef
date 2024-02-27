@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DetectionParameters
 ---@field canDetectIntruders Bool
 ---@field timeToActionAfterSpot Float
@@ -8,6 +9,7 @@
 ---@field pitchAngle Float
 ---@field rotationSpeed Float
 DetectionParameters = {}
+
 
 ---@param fields? DetectionParameters
 ---@return DetectionParameters

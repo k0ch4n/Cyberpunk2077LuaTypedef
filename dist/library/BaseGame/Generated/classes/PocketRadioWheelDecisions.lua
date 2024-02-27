@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PocketRadioWheelDecisions: QuickSlotsHoldDecisions
 PocketRadioWheelDecisions = {}
+
 
 ---@param fields? PocketRadioWheelDecisions
 ---@return PocketRadioWheelDecisions

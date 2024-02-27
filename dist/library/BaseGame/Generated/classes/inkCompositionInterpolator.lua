@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkCompositionInterpolator
 ---@field parameter CName
 ---@field interpolationMode inkanimInterpolationMode
@@ -7,6 +8,7 @@
 ---@field duration Float
 ---@field startDelay Float
 inkCompositionInterpolator = {}
+
 
 ---@param fields? inkCompositionInterpolator
 ---@return inkCompositionInterpolator

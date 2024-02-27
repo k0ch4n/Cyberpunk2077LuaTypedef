@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStatViewData
 ---@field type gamedataStatType
 ---@field statName String
@@ -15,6 +16,7 @@
 ---@field statMinValue Int32
 ---@field statMaxValue Int32
 gameStatViewData = {}
+
 
 ---@param fields? gameStatViewData
 ---@return gameStatViewData

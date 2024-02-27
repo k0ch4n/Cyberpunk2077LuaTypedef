@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BossHealthBarGameController: gameuiHUDGameController
 ---@field healthControllerRef inkWidgetReference
 ---@field healthPercentage inkTextWidgetReference
@@ -15,6 +16,7 @@
 ---@field fastTravelCallbackID redCallbackObject
 ---@field bossPuppets NPCPuppet[]
 BossHealthBarGameController = {}
+
 
 ---@param fields? BossHealthBarGameController
 ---@return BossHealthBarGameController

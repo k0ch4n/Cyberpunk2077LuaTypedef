@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ArcadeMachine: InteractiveDevice
 ---@field arcadeMachineType ArcadeMachineType
 ---@field isShortGlitchActive Bool
@@ -13,6 +14,7 @@
 ---@field minigame ArcadeMinigame
 ---@field combatStateListener redCallbackObject
 ArcadeMachine = {}
+
 
 ---@param fields? ArcadeMachine
 ---@return ArcadeMachine

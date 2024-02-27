@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class PlayerDevelopmentSystem: gameScriptableSystem
 ---@field playerData PlayerDevelopmentData[]
 ---@field playerDevelopmentUpdated Bool
 ---@field progressionBuildUpdated Bool
 PlayerDevelopmentSystem = {}
+
 
 ---@param fields? PlayerDevelopmentSystem
 ---@return PlayerDevelopmentSystem

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_Carry: animAnimFeature
 ---@field state Int32
 ---@field pickupAnimation Int32
@@ -10,6 +11,7 @@
 ---@field isFriendlyCarry Bool
 ---@field wasThrown Bool
 AnimFeature_Carry = {}
+
 
 ---@param fields? AnimFeature_Carry
 ---@return AnimFeature_Carry

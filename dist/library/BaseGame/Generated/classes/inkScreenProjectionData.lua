@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkScreenProjectionData
 ---@field entity entEntity
 ---@field slotComponentName CName
@@ -11,6 +12,7 @@
 ---@field adjustWithDistance Bool
 ---@field extraOffsetAtMaxDistance Vector3
 inkScreenProjectionData = {}
+
 
 ---@param fields? inkScreenProjectionData
 ---@return inkScreenProjectionData

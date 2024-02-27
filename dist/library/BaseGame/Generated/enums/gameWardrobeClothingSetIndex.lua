@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameWardrobeClothingSetIndex: Enum
 ---@field Slot1 Enum 0
 ---@field Slot2 Enum 1

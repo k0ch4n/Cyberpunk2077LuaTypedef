@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataStimPriority_Record: gamedataTweakDBRecord
 gamedataStimPriority_Record = {}
+
 
 ---@param fields? gamedataStimPriority_Record
 ---@return gamedataStimPriority_Record

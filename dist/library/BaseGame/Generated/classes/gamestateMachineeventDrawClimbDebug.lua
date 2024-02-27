@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineeventDrawClimbDebug: redEvent
 gamestateMachineeventDrawClimbDebug = {}
+
 
 ---@param fields? gamestateMachineeventDrawClimbDebug
 ---@return gamestateMachineeventDrawClimbDebug

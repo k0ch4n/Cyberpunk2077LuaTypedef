@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class inkDefaultLoadingScreenLogicController: inkILoadingLogicController
 ---@field progressBarRoot inkWidgetReference
 ---@field progressBarController LoadingScreenProgressBarController
 inkDefaultLoadingScreenLogicController = {}
+
 
 ---@param fields? inkDefaultLoadingScreenLogicController
 ---@return inkDefaultLoadingScreenLogicController

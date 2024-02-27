@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionWorkspot_Record: gamedataAISubAction_Record
 gamedataAISubActionWorkspot_Record = {}
+
 
 ---@param fields? gamedataAISubActionWorkspot_Record
 ---@return gamedataAISubActionWorkspot_Record

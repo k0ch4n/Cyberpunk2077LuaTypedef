@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entAppearanceLODsDistanceOverrideEvent: redEvent
 entAppearanceLODsDistanceOverrideEvent = {}
+
 
 ---@param fields? entAppearanceLODsDistanceOverrideEvent
 ---@return entAppearanceLODsDistanceOverrideEvent

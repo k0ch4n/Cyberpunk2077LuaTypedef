@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class PlayerStateMachinePrereq: gameIScriptablePrereq
 ---@field previousState Bool
 ---@field isInState Bool
 ---@field skipWhenApplied Bool
 ---@field valueToListen Int32
 PlayerStateMachinePrereq = {}
+
 
 ---@param fields? PlayerStateMachinePrereq
 ---@return PlayerStateMachinePrereq

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckPhaseState: AIbehaviorconditionScript
 ---@field phaseStateValue ENPCPhaseState
 CheckPhaseState = {}
+
 
 ---@param fields? CheckPhaseState
 ---@return CheckPhaseState

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ZoomTransition: DefaultTransition
 ZoomTransition = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class NPCStatePrereqState: gamePrereqState
 ---@field owner gameObject
 ---@field listenerInt redCallbackObject
 ---@field prevValue Int32
 NPCStatePrereqState = {}
+
 
 ---@param fields? NPCStatePrereqState
 ---@return NPCStatePrereqState

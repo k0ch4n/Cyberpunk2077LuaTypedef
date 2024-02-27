@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Agent
 ---@field link DeviceLink
 ---@field reprimands ReprimandData[]
@@ -8,6 +9,7 @@
 ---@field incomingFilter EFilterType
 ---@field cachedDelayDuration Float
 Agent = {}
+
 
 ---@param fields? Agent
 ---@return Agent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioElevatorSettings: audioEntitySettings
 ---@field musicEvents audioMusicController
 ---@field movementEvents audioLoopingSoundController
@@ -7,6 +8,7 @@
 ---@field destinationReachedEvent CName
 ---@field panelSelectionEvent CName
 audioElevatorSettings = {}
+
 
 ---@param fields? audioElevatorSettings
 ---@return audioElevatorSettings

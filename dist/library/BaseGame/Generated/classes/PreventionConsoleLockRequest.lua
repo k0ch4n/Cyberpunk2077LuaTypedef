@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PreventionConsoleLockRequest: gameScriptableSystemRequest
 PreventionConsoleLockRequest = {}
+
 
 ---@param fields? PreventionConsoleLockRequest
 ---@return PreventionConsoleLockRequest

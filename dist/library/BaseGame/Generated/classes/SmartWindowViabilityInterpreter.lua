@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SmartWindowViabilityInterpreter: IScriptable
 SmartWindowViabilityInterpreter = {}
+
 
 ---@param fields? SmartWindowViabilityInterpreter
 ---@return SmartWindowViabilityInterpreter

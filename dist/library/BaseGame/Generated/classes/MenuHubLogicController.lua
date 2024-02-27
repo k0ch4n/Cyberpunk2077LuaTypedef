@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MenuHubLogicController: inkWidgetLogicController
 ---@field menuObject inkWidgetReference
 ---@field btnCrafting inkWidgetReference
@@ -21,6 +22,7 @@
 ---@field tooltipsManager gameuiTooltipsManager
 ---@field tooltipsManagerRef inkWidgetReference
 MenuHubLogicController = {}
+
 
 ---@param fields? MenuHubLogicController
 ---@return MenuHubLogicController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAugmentedRealitySign: gameObject
 gameAugmentedRealitySign = {}
+
 
 ---@param fields? gameAugmentedRealitySign
 ---@return gameAugmentedRealitySign

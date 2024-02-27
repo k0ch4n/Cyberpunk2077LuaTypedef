@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PauseBraindance: redEvent
 PauseBraindance = {}
+
 
 ---@param fields? PauseBraindance
 ---@return PauseBraindance

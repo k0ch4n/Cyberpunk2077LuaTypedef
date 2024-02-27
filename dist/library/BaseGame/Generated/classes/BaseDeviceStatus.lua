@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BaseDeviceStatus: ActionEnum
 ---@field isRestarting Bool
 BaseDeviceStatus = {}
+
 
 ---@param fields? BaseDeviceStatus
 ---@return BaseDeviceStatus

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ExtraEffect: Enum
 ---@field AccuracyVirus Enum 0
 ---@field PeernoidVirus Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIThrowGrenadeForcedCommand: AIThrowGrenadeCommand
 AIThrowGrenadeForcedCommand = {}
+
 
 ---@param fields? AIThrowGrenadeForcedCommand
 ---@return AIThrowGrenadeForcedCommand

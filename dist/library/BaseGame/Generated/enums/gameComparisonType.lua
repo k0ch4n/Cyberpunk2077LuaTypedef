@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameComparisonType: Enum
 ---@field EQUAL Enum 0
 ---@field NOT_EQUAL Enum 1

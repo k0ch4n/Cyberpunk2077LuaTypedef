@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestListController: inkWidgetLogicController
 ---@field CategoryName inkTextWidgetReference
 ---@field icon inkImageWidgetReference
@@ -8,6 +9,7 @@
 ---@field QuestItems QuestItemController[]
 ---@field LastQuestData QuestDataWrapper
 QuestListController = {}
+
 
 ---@param fields? QuestListController
 ---@return QuestListController

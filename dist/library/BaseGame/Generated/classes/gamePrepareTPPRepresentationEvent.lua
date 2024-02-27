@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePrepareTPPRepresentationEvent: redEvent
 gamePrepareTPPRepresentationEvent = {}
+
 
 ---@param fields? gamePrepareTPPRepresentationEvent
 ---@return gamePrepareTPPRepresentationEvent

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ItemRandomizedStatsController: inkWidgetLogicController
 ---@field statName inkTextWidgetReference
 ItemRandomizedStatsController = {}
+
 
 ---@param fields? ItemRandomizedStatsController
 ---@return ItemRandomizedStatsController

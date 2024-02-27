@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataSlotItemPartPreset_Record: gamedataTweakDBRecord
 gamedataSlotItemPartPreset_Record = {}
+
 
 ---@param fields? gamedataSlotItemPartPreset_Record
 ---@return gamedataSlotItemPartPreset_Record

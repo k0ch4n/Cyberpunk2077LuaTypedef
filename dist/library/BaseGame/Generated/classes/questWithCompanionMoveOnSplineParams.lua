@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questWithCompanionMoveOnSplineParams
 ---@field movementType AIMovementTypeSpec
 ---@field facingTargetRef questUniversalRef
@@ -21,6 +22,7 @@
 ---@field interruptCapability scnInterruptCapability
 ---@field maxCompanionDistanceOnSpline Float
 questWithCompanionMoveOnSplineParams = {}
+
 
 ---@param fields? questWithCompanionMoveOnSplineParams
 ---@return questWithCompanionMoveOnSplineParams

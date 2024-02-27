@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsNPCAloneInVehicle: AIVehicleConditionAbstract
 IsNPCAloneInVehicle = {}
+
 
 ---@param fields? IsNPCAloneInVehicle
 ---@return IsNPCAloneInVehicle

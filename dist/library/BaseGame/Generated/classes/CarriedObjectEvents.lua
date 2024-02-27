@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CarriedObjectEvents: CarriedObjectTransition
 ---@field animFeature AnimFeature_Mounting
 ---@field animCarryFeature AnimFeature_Carry
@@ -11,6 +12,7 @@
 ---@field isFriendlyCarry Bool
 ---@field forcedCarryStyle gamePSMBodyCarryingStyle
 CarriedObjectEvents = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

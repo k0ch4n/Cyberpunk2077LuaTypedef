@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProgramType: Enum
 ---@field BasicAccess Enum 0
 ---@field ExtraPlayerProgram Enum 1

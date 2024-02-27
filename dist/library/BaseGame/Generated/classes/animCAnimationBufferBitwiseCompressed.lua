@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animCAnimationBufferBitwiseCompressed: animIAnimationBuffer
 ---@field version Uint32
 ---@field bones animSAnimationBufferBitwiseCompressedBoneTrack[]
@@ -16,6 +17,7 @@
 ---@field extraDataNames CName[]
 ---@field numExtraBones Uint32
 animCAnimationBufferBitwiseCompressed = {}
+
 
 ---@param fields? animCAnimationBufferBitwiseCompressed
 ---@return animCAnimationBufferBitwiseCompressed

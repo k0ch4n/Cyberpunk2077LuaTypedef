@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ModuleInstance: IScriptable
 ---@field isLookedAt Bool
 ---@field isRevealed Bool
@@ -8,6 +9,7 @@
 ---@field state InstanceState
 ---@field previousInstance ModuleInstance
 ModuleInstance = {}
+
 
 ---@param fields? ModuleInstance
 ---@return ModuleInstance

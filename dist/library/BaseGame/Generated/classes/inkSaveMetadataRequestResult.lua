@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkSaveMetadataRequestResult: inkCallbackBase
 inkSaveMetadataRequestResult = {}
+
 
 ---@param fields? inkSaveMetadataRequestResult
 ---@return inkSaveMetadataRequestResult

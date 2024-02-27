@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BraindanceContextDecisions: InputContextTransitionDecisions
 BraindanceContextDecisions = {}
+
 
 ---@param fields? BraindanceContextDecisions
 ---@return BraindanceContextDecisions

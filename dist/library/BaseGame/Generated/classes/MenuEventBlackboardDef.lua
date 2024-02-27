@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MenuEventBlackboardDef: gamebbScriptDefinition
 ---@field MenuEventToTrigger gamebbScriptID_CName
 MenuEventBlackboardDef = {}
+
 
 ---@param fields? MenuEventBlackboardDef
 ---@return MenuEventBlackboardDef

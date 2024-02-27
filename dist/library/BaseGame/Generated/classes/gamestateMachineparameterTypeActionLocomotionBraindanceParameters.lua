@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineparameterTypeActionLocomotionBraindanceParameters: gamestateMachineparameterTypeActionLocomotionParameters
 gamestateMachineparameterTypeActionLocomotionBraindanceParameters = {}
+
 
 ---@param fields? gamestateMachineparameterTypeActionLocomotionBraindanceParameters
 ---@return gamestateMachineparameterTypeActionLocomotionBraindanceParameters

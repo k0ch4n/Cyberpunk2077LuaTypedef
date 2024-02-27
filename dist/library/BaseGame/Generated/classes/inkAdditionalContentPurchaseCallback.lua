@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkAdditionalContentPurchaseCallback: inkCallbackBase
 inkAdditionalContentPurchaseCallback = {}
+
 
 ---@param fields? inkAdditionalContentPurchaseCallback
 ---@return inkAdditionalContentPurchaseCallback

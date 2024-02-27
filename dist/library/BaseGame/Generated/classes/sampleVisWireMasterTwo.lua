@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class sampleVisWireMasterTwo: gameObject
 ---@field dependableEntities NodeRef[]
 sampleVisWireMasterTwo = {}
+
 
 ---@param fields? sampleVisWireMasterTwo
 ---@return sampleVisWireMasterTwo

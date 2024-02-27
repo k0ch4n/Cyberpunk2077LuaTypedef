@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InvalidateTooltipOwnerEvent: redEvent
 InvalidateTooltipOwnerEvent = {}
+
 
 ---@param fields? InvalidateTooltipOwnerEvent
 ---@return InvalidateTooltipOwnerEvent

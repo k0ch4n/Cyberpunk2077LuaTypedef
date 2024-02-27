@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldNavigationNodeInstance: worldINodeInstance
 worldNavigationNodeInstance = {}
+
 
 ---@param fields? worldNavigationNodeInstance
 ---@return worldNavigationNodeInstance

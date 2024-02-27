@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameIOnlineSystem: gameIGameSystem
 gameIOnlineSystem = {}
+
 
 ---@param token Uint64
 ---@return gamedataGOGReward_Record

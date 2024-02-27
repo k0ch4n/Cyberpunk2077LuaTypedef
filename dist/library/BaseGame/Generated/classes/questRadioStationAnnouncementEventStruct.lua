@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questRadioStationAnnouncementEventStruct
 ---@field announcementScene scnSceneResource
 ---@field sceneInput CName
@@ -8,6 +9,7 @@
 ---@field blockSignal Bool
 ---@field speaker audioRadioSpeakerType
 questRadioStationAnnouncementEventStruct = {}
+
 
 ---@param fields? questRadioStationAnnouncementEventStruct
 ---@return questRadioStationAnnouncementEventStruct

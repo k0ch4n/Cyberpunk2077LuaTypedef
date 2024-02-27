@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ActionNotifier: IScriptable
 ---@field external Bool
 ---@field internal Bool
 ---@field failed Bool
 ActionNotifier = {}
+
 
 ---@param fields? ActionNotifier
 ---@return ActionNotifier

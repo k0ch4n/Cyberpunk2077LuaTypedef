@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AISpiderbotCheckIfFriendlyMoved: AIAutonomousConditions
 ---@field maxAllowedDelta AIArgumentMapping
 AISpiderbotCheckIfFriendlyMoved = {}
+
 
 ---@param fields? AISpiderbotCheckIfFriendlyMoved
 ---@return AISpiderbotCheckIfFriendlyMoved

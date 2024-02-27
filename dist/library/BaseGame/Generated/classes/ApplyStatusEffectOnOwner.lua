@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ApplyStatusEffectOnOwner: StatusEffectTasks
 ---@field statusEffectID TweakDBID
 ApplyStatusEffectOnOwner = {}
+
 
 ---@param fields? ApplyStatusEffectOnOwner
 ---@return ApplyStatusEffectOnOwner

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GameplayQuestSystem: gameScriptableSystem
 ---@field quests GamplayQuestData[]
 GameplayQuestSystem = {}
+
 
 ---@param fields? GameplayQuestSystem
 ---@return GameplayQuestSystem

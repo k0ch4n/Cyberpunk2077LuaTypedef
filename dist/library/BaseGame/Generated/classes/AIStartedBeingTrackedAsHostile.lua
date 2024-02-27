@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIStartedBeingTrackedAsHostile: AIAIEvent
 AIStartedBeingTrackedAsHostile = {}
+
 
 ---@param fields? AIStartedBeingTrackedAsHostile
 ---@return AIStartedBeingTrackedAsHostile

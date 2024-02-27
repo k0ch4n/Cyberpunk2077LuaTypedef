@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CompanionHealthBarGameController: gameuiHUDGameController
 ---@field healthbar inkWidgetReference
 ---@field root inkWidget
@@ -11,6 +12,7 @@
 ---@field gameInstance ScriptGameInstance
 ---@field statPoolsSystem gameStatPoolsSystem
 CompanionHealthBarGameController = {}
+
 
 ---@param fields? CompanionHealthBarGameController
 ---@return CompanionHealthBarGameController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EStarState: Enum
 ---@field Default Enum 0
 ---@field Active Enum 1

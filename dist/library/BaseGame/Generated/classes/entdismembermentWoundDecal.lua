@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entdismembermentWoundDecal
 ---@field OffsetA Vector3
 ---@field OffsetB Vector3
@@ -9,6 +10,7 @@
 ---@field ResourceSets entdismembermentResourceSetMask
 ---@field Material IMaterial
 entdismembermentWoundDecal = {}
+
 
 ---@param fields? entdismembermentWoundDecal
 ---@return entdismembermentWoundDecal

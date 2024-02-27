@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HorizontalLineTrace: AIbehaviorconditionScript
 ---@field source AIArgumentMapping
 ---@field target AIArgumentMapping
@@ -7,6 +8,7 @@
 ---@field length AIArgumentMapping
 ---@field azimuth AIArgumentMapping
 HorizontalLineTrace = {}
+
 
 ---@param fields? HorizontalLineTrace
 ---@return HorizontalLineTrace

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkRuntimeStylePropertyReference
 inkRuntimeStylePropertyReference = {}
+
 
 ---@param fields? inkRuntimeStylePropertyReference
 ---@return inkRuntimeStylePropertyReference

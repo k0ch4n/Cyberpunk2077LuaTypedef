@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehiclePlayerVehicle
 ---@field name CName
 ---@field recordID TweakDBID
@@ -8,6 +9,7 @@
 ---@field uiFavoriteIndex Int32
 ---@field destructionTimeStamp EngineTime
 vehiclePlayerVehicle = {}
+
 
 ---@param fields? vehiclePlayerVehicle
 ---@return vehiclePlayerVehicle

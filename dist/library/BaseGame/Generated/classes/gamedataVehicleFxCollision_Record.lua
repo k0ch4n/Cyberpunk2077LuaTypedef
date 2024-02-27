@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleFxCollision_Record: gamedataTweakDBRecord
 gamedataVehicleFxCollision_Record = {}
+
 
 ---@param fields? gamedataVehicleFxCollision_Record
 ---@return gamedataVehicleFxCollision_Record

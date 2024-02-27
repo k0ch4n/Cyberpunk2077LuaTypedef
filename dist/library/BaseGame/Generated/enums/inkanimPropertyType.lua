@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkanimPropertyType: Enum
 ---@field Size Enum 0
 ---@field Color Enum 1

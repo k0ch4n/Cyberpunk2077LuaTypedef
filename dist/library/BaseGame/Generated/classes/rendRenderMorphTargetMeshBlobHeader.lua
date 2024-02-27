@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendRenderMorphTargetMeshBlobHeader
 ---@field version Uint32
 ---@field numDiffs Uint32
@@ -13,6 +14,7 @@
 ---@field numVertexDiffsMappingInEachChunk Uint32[][]
 ---@field targetTextureDiffsData rendRenderMorphTargetMeshBlobTextureData[]
 rendRenderMorphTargetMeshBlobHeader = {}
+
 
 ---@param fields? rendRenderMorphTargetMeshBlobHeader
 ---@return rendRenderMorphTargetMeshBlobHeader

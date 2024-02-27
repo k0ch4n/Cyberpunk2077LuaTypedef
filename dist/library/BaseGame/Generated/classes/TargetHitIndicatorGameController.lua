@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TargetHitIndicatorGameController: gameuiWidgetGameController
 ---@field currentAnim inkanimProxy
 ---@field bonusAnim inkanimProxy
@@ -31,6 +32,7 @@
 ---@field isAimingDownSights Bool
 ---@field uiSystem gameuiGameSystemUI
 TargetHitIndicatorGameController = {}
+
 
 ---@param fields? TargetHitIndicatorGameController
 ---@return TargetHitIndicatorGameController

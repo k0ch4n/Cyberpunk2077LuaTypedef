@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questGameplayRestrictionAction: Enum
 ---@field AddRestriction Enum 0
 ---@field RemoveRestriction Enum 1

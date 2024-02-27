@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CerberusSensePresetChange: AIbehaviortaskScript
 CerberusSensePresetChange = {}
+
 
 ---@param fields? CerberusSensePresetChange
 ---@return CerberusSensePresetChange

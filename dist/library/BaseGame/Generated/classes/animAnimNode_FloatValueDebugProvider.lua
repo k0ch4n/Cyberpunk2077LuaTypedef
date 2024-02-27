@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_FloatValueDebugProvider
 ---@field isEnabled Bool
 ---@field min Float
@@ -9,6 +10,7 @@
 ---@field speed Float
 ---@field wrap Bool
 animAnimNode_FloatValueDebugProvider = {}
+
 
 ---@param fields? animAnimNode_FloatValueDebugProvider
 ---@return animAnimNode_FloatValueDebugProvider

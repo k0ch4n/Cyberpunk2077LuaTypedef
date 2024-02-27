@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DummyTooltipData: ATooltipData
 DummyTooltipData = {}
+
 
 ---@param fields? DummyTooltipData
 ---@return DummyTooltipData

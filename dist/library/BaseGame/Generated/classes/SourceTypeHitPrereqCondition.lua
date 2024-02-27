@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SourceTypeHitPrereqCondition: BaseHitPrereqCondition
 ---@field source CName
 SourceTypeHitPrereqCondition = {}
+
 
 ---@param fields? SourceTypeHitPrereqCondition
 ---@return SourceTypeHitPrereqCondition

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class audioVoiceTriggerPerSquadOrderMapItem
 ---@field name CName
 ---@field triggerName CName
 audioVoiceTriggerPerSquadOrderMapItem = {}
+
 
 ---@param fields? audioVoiceTriggerPerSquadOrderMapItem
 ---@return audioVoiceTriggerPerSquadOrderMapItem

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ProgramEntry: IScriptable
 ---@field itemID gameItemID
 ---@field equippedItem gamedataItem_Record
 ---@field abilities gameInventoryItemAbility[]
 ProgramEntry = {}
+
 
 ---@param fields? ProgramEntry
 ---@return ProgramEntry

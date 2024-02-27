@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CerberusOpticalCamoVisibilityChange: AIbehaviortaskScript
 CerberusOpticalCamoVisibilityChange = {}
+
 
 ---@param fields? CerberusOpticalCamoVisibilityChange
 ---@return CerberusOpticalCamoVisibilityChange

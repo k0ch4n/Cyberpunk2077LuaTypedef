@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AISocketsForRig: Enum
 ---@field Undefined Enum 0
 ---@field ManAverage Enum 1

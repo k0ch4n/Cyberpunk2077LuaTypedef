@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocTokenPopup: gameuiWidgetGameController
 ---@field optionRef inkWidgetReference[]
 ---@field optionTooltipParent inkWidgetReference[]
@@ -57,6 +58,7 @@
 ---@field result Bool
 ---@field inputListenersRegistered Bool
 RipperdocTokenPopup = {}
+
 
 ---@param fields? RipperdocTokenPopup
 ---@return RipperdocTokenPopup

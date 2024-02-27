@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DamageDigitLogicController: inkWidgetLogicController
 ---@field critWidget inkTextWidgetReference
 ---@field headshotWidget inkTextWidgetReference
@@ -69,6 +70,7 @@
 ---@field animDynamicCritDuration Float
 ---@field animDynamicCritDelay Float
 DamageDigitLogicController = {}
+
 
 ---@param fields? DamageDigitLogicController
 ---@return DamageDigitLogicController

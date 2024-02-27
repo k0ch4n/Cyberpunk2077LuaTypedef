@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class lookAtPresetGunBaseEvents: LookAtPresetBaseEvents
 ---@field overrideLookAtEvents entLookAtAddEvent[]
 ---@field gunState Int32
 ---@field originalAttachLeft Bool
 ---@field originalAttachRight Bool
 lookAtPresetGunBaseEvents = {}
+
 
 ---@param fields? lookAtPresetGunBaseEvents
 ---@return lookAtPresetGunBaseEvents

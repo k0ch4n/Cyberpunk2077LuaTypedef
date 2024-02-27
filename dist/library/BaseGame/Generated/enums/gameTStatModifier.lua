@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTStatModifier: Enum
 ---@field Constant Enum 0
 ---@field Random Enum 1

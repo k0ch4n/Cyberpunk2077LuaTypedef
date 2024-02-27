@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiCooldownGameController: gameuiWidgetGameController
 ---@field maxCooldowns Int32
 ---@field cooldownTitle inkWidgetReference
@@ -14,6 +15,7 @@
 ---@field blackboardDef UI_PlayerBioMonitorDef
 ---@field blackboard gameIBlackboard
 gameuiCooldownGameController = {}
+
 
 ---@param fields? gameuiCooldownGameController
 ---@return gameuiCooldownGameController

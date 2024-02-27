@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldTrafficPersistentLaneConnectionsResource: resStreamedResource
 worldTrafficPersistentLaneConnectionsResource = {}
+
 
 ---@param fields? worldTrafficPersistentLaneConnectionsResource
 ---@return worldTrafficPersistentLaneConnectionsResource

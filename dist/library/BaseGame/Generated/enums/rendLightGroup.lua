@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendLightGroup: Enum
 ---@field LG_Group0 Enum 0
 ---@field LG_Group1 Enum 1

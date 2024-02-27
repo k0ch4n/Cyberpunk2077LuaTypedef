@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EComputerMenuType: Enum
 ---@field MAIN Enum 0
 ---@field SYSTEM Enum 1

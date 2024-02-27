@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questVehicleCameraType: Enum
 ---@field Undefined Enum 0
 ---@field PuppetFPP Enum 1

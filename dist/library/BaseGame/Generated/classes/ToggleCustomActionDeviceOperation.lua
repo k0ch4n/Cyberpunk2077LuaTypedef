@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ToggleCustomActionDeviceOperation: DeviceOperationBase
 ---@field customActionID CName
 ---@field enabled Bool
 ToggleCustomActionDeviceOperation = {}
+
 
 ---@param fields? ToggleCustomActionDeviceOperation
 ---@return ToggleCustomActionDeviceOperation

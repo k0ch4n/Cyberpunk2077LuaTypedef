@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entEntityResolveComponentsInterface
 entEntityResolveComponentsInterface = {}
+
 
 ---@param fields? entEntityResolveComponentsInterface
 ---@return entEntityResolveComponentsInterface

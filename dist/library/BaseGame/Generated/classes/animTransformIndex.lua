@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class animTransformIndex
 ---@field name CName
 animTransformIndex = {}
+
 
 ---@param fields? animTransformIndex
 ---@return animTransformIndex

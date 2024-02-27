@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DoorStateOperationsTrigger: DeviceOperationsTrigger
 ---@field triggerData DoorStateOperationTriggerData
 ---@field wasStateCached Bool
 ---@field cachedState EDoorStatus
 DoorStateOperationsTrigger = {}
+
 
 ---@param fields? DoorStateOperationsTrigger
 ---@return DoorStateOperationsTrigger

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldStaticSoundEmitterNode: worldNode
 ---@field radius Float
 ---@field audioName CName
@@ -16,6 +17,7 @@
 ---@field rolloffOverride Float
 ---@field ambientPaletteTag CName
 worldStaticSoundEmitterNode = {}
+
 
 ---@param fields? worldStaticSoundEmitterNode
 ---@return worldStaticSoundEmitterNode

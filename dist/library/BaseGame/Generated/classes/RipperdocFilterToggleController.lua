@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RipperdocFilterToggleController: ToggleController
 RipperdocFilterToggleController = {}
+
 
 ---@param fields? RipperdocFilterToggleController
 ---@return RipperdocFilterToggleController

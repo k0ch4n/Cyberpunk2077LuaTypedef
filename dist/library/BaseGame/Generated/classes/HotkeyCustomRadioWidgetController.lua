@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class HotkeyCustomRadioWidgetController: gameuiNewPhoneRelatedHUDGameController
 ---@field radioSlot inkCompoundWidgetReference
 ---@field DpadHintLibraryPath inkWidgetLibraryReference
 HotkeyCustomRadioWidgetController = {}
+
 
 ---@param fields? HotkeyCustomRadioWidgetController
 ---@return HotkeyCustomRadioWidgetController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ControlsInactiveEvents: BraindanceControlsTransition
 ControlsInactiveEvents = {}
+
 
 ---@param fields? ControlsInactiveEvents
 ---@return ControlsInactiveEvents

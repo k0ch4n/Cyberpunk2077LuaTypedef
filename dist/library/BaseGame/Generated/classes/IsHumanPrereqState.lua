@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsHumanPrereqState: gamePrereqState
 IsHumanPrereqState = {}
+
 
 ---@param fields? IsHumanPrereqState
 ---@return IsHumanPrereqState

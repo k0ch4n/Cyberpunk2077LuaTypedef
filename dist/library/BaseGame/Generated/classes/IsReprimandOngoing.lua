@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsReprimandOngoing: AIAutonomousConditions
 IsReprimandOngoing = {}
+
 
 ---@param fields? IsReprimandOngoing
 ---@return IsReprimandOngoing

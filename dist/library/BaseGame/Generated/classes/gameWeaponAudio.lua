@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameWeaponAudio: ISerializable
 gameWeaponAudio = {}
+
 
 ---@param fields? gameWeaponAudio
 ---@return gameWeaponAudio

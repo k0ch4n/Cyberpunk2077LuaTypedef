@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EFocusForcedHighlightType: Enum
 ---@field INTERACTION Enum 0
 ---@field IMPORTANT_INTERACTION Enum 1

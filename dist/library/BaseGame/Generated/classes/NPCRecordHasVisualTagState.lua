@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NPCRecordHasVisualTagState: gamePrereqState
 NPCRecordHasVisualTagState = {}
+
 
 ---@param fields? NPCRecordHasVisualTagState
 ---@return NPCRecordHasVisualTagState

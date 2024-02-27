@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataHackCategory: Enum
 ---@field BreachingHack Enum 0
 ---@field ControlHack Enum 1

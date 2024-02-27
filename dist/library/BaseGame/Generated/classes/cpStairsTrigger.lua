@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class cpStairsTrigger: gameObject
 cpStairsTrigger = {}
+
 
 ---@param fields? cpStairsTrigger
 ---@return cpStairsTrigger

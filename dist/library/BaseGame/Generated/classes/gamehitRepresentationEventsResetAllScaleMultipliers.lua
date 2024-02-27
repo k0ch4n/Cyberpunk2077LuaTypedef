@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamehitRepresentationEventsResetAllScaleMultipliers: redEvent
 gamehitRepresentationEventsResetAllScaleMultipliers = {}
+
 
 ---@param fields? gamehitRepresentationEventsResetAllScaleMultipliers
 ---@return gamehitRepresentationEventsResetAllScaleMultipliers

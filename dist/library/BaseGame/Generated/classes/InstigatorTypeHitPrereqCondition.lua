@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class InstigatorTypeHitPrereqCondition: BaseHitPrereqCondition
 ---@field instigatorType CName
 InstigatorTypeHitPrereqCondition = {}
+
 
 ---@param fields? InstigatorTypeHitPrereqCondition
 ---@return InstigatorTypeHitPrereqCondition

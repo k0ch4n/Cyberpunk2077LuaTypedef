@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class PlayerDevelopmentDataManager: IScriptable
 ---@field player PlayerPuppet
 ---@field playerDevSystem PlayerDevelopmentSystem
 ---@field parentGameCtrl gameuiWidgetGameController
 PlayerDevelopmentDataManager = {}
+
 
 ---@param fields? PlayerDevelopmentDataManager
 ---@return PlayerDevelopmentDataManager

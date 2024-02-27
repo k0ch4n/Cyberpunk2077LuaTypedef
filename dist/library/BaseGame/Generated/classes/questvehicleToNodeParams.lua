@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questvehicleToNodeParams: questVehicleSpecificCommandParams
 ---@field stopAtEnd Bool
 ---@field nodeRef NodeRef
@@ -12,6 +13,7 @@
 ---@field trafficTryNeighborsForEnd Bool
 ---@field ignoreNoAIDrivingLanes Bool
 questvehicleToNodeParams = {}
+
 
 ---@param fields? questvehicleToNodeParams
 ---@return questvehicleToNodeParams

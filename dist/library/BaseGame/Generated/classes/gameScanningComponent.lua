@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameScanningComponent: gameComponent
 ---@field scannableData gameScanningTooltipElementDef[]
 ---@field timeNeeded Float
@@ -26,6 +27,7 @@
 ---@field OnBraindanceVisionModeChangeCallback redCallbackObject
 ---@field OnBraindanceFppChangeCallback redCallbackObject
 gameScanningComponent = {}
+
 
 ---@param fields? gameScanningComponent
 ---@return gameScanningComponent

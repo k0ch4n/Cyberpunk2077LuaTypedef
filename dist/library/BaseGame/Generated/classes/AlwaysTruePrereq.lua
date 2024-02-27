@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AlwaysTruePrereq: gameIScriptablePrereq
 AlwaysTruePrereq = {}
+
 
 ---@param fields? AlwaysTruePrereq
 ---@return AlwaysTruePrereq

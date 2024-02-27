@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviortweakNPCCallbacks
 AIbehaviortweakNPCCallbacks = {}
+
 
 ---@param fields? AIbehaviortweakNPCCallbacks
 ---@return AIbehaviortweakNPCCallbacks

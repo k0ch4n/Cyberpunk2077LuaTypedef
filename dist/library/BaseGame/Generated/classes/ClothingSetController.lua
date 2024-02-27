@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ClothingSetController: BaseButtonView
 ---@field setName inkTextWidgetReference
 ---@field clothingSet gameClothingSet
@@ -11,6 +12,7 @@
 ---@field disabled Bool
 ---@field styleWidget inkWidget
 ClothingSetController = {}
+
 
 ---@param fields? ClothingSetController
 ---@return ClothingSetController

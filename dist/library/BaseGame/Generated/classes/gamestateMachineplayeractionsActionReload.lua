@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineplayeractionsActionReload: gamestateMachineplayeractionsWeaponActionBase
 gamestateMachineplayeractionsActionReload = {}
+
 
 ---@param fields? gamestateMachineplayeractionsActionReload
 ---@return gamestateMachineplayeractionsActionReload

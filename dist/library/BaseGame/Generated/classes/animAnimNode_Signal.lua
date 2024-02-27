@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_Signal: animAnimNode_FloatValue
 ---@field blendIn Float
 ---@field blendOut Float
@@ -8,6 +9,7 @@
 ---@field defaultState Bool
 ---@field cooldown Float
 animAnimNode_Signal = {}
+
 
 ---@param fields? animAnimNode_Signal
 ---@return animAnimNode_Signal

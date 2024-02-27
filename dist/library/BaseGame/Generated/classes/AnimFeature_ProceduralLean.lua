@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_ProceduralLean: animAnimFeature
 ---@field angle_threshold Float
 ---@field max_turn_angle Float
@@ -14,6 +15,7 @@
 ---@field damp_value_walk Float
 ---@field damp_value_sprint Float
 AnimFeature_ProceduralLean = {}
+
 
 ---@param fields? AnimFeature_ProceduralLean
 ---@return AnimFeature_ProceduralLean

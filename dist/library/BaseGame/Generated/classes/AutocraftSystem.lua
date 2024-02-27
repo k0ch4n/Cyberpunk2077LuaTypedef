@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class AutocraftSystem: gameScriptableSystem
 ---@field active Bool
 ---@field cycleDuration Float
 ---@field currentDelayID gameDelayID
 ---@field itemsUsed gameItemID[]
 AutocraftSystem = {}
+
 
 ---@param fields? AutocraftSystem
 ---@return AutocraftSystem

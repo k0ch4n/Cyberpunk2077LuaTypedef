@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameLoSMode: Enum
 ---@field Invalid Enum 0
 ---@field Keep Enum 1

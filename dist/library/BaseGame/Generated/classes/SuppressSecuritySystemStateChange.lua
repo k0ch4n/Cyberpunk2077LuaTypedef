@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SuppressSecuritySystemStateChange: redEvent
 ---@field forceSecuritySystemIntoStrictQuestControl Bool
 SuppressSecuritySystemStateChange = {}
+
 
 ---@param fields? SuppressSecuritySystemStateChange
 ---@return SuppressSecuritySystemStateChange

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IceMachineController: VendingMachineController
 IceMachineController = {}
+
 
 ---@param fields? IceMachineController
 ---@return IceMachineController

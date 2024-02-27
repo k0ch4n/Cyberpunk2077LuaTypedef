@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NPCReference
 ---@field communitySpawner NodeRef
 ---@field entryName CName
 NPCReference = {}
+
 
 ---@param fields? NPCReference
 ---@return NPCReference

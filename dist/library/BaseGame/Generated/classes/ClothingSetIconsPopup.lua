@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ClothingSetIconsPopup: gameuiWidgetGameController
 ---@field iconGrid inkWidgetReference
 ---@field buttonHintsRoot inkWidgetReference
 ---@field data ClothingSetIconsPopupData
 ---@field libraryPath inkWidgetLibraryReference
 ClothingSetIconsPopup = {}
+
 
 ---@param fields? ClothingSetIconsPopup
 ---@return ClothingSetIconsPopup

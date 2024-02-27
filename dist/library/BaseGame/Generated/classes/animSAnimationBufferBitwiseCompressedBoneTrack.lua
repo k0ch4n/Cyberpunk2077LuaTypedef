@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class animSAnimationBufferBitwiseCompressedBoneTrack
 ---@field position animSAnimationBufferBitwiseCompressedData
 ---@field orientation animSAnimationBufferBitwiseCompressedData
 ---@field scale animSAnimationBufferBitwiseCompressedData
 animSAnimationBufferBitwiseCompressedBoneTrack = {}
+
 
 ---@param fields? animSAnimationBufferBitwiseCompressedBoneTrack
 ---@return animSAnimationBufferBitwiseCompressedBoneTrack

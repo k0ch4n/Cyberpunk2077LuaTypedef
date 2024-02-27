@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SAnimationBufferOrientationCompressionMethod: Enum
 ---@field ABOCM_PackIn64bitsW Enum 0
 ---@field ABOCM_PackIn48bitsW Enum 1

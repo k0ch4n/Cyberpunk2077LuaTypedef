@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldWaterPatchNodeInstance: worldMeshNodeInstance
 worldWaterPatchNodeInstance = {}
+
 
 ---@param fields? worldWaterPatchNodeInstance
 ---@return worldWaterPatchNodeInstance

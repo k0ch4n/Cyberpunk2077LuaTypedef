@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEntityStubComponentPS: gameComponentPS
 ---@field entityLocalPosition Vector3
 ---@field entityLocalRotation Quaternion
@@ -8,6 +9,7 @@
 ---@field selectedAppearanceName CName
 ---@field selectedColorVariantName CName
 gameEntityStubComponentPS = {}
+
 
 ---@param fields? gameEntityStubComponentPS
 ---@return gameEntityStubComponentPS

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CGlobalIlluminationSceneData: ISceneStorageCustomData
 CGlobalIlluminationSceneData = {}
+
 
 ---@param fields? CGlobalIlluminationSceneData
 ---@return CGlobalIlluminationSceneData

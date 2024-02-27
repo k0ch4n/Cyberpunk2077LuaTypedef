@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkOffscreenLayer: inkLayer
 inkOffscreenLayer = {}
+
 
 ---@param fields? inkOffscreenLayer
 ---@return inkOffscreenLayer

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ElevatorFloorViabilityInterpreter: IScriptable
 ElevatorFloorViabilityInterpreter = {}
+
 
 ---@param fields? ElevatorFloorViabilityInterpreter
 ---@return ElevatorFloorViabilityInterpreter

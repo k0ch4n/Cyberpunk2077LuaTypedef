@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class BaseHubMenuController: gameuiWidgetGameController
 ---@field menuEventDispatcher inkMenuEventDispatcher
 ---@field menuData IScriptable
 BaseHubMenuController = {}
+
 
 ---@param fields? BaseHubMenuController
 ---@return BaseHubMenuController

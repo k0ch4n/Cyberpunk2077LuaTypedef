@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CheckVehicleVelocityForStimsEvent: redEvent
 CheckVehicleVelocityForStimsEvent = {}
+
 
 ---@param fields? CheckVehicleVelocityForStimsEvent
 ---@return CheckVehicleVelocityForStimsEvent

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class FactInvokerControllerPS: MasterControllerPS
 ---@field factDataEntries FactInvokerDataEntry[]
 ---@field passwords CName[]
 ---@field arePasswordsInitialized Bool
 FactInvokerControllerPS = {}
+
 
 ---@param fields? FactInvokerControllerPS
 ---@return FactInvokerControllerPS

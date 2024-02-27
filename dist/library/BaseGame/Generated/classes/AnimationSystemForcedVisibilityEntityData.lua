@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimationSystemForcedVisibilityEntityData: IScriptable
 ---@field owner AnimationSystemForcedVisibilityManager
 ---@field entityID entEntityID
@@ -8,6 +9,7 @@
 ---@field hasVisibilityForcedInAnimSystem Bool
 ---@field hasVisibilityForcedOnlyInFrustumInAnimSystem Bool
 AnimationSystemForcedVisibilityEntityData = {}
+
 
 ---@param fields? AnimationSystemForcedVisibilityEntityData
 ---@return AnimationSystemForcedVisibilityEntityData

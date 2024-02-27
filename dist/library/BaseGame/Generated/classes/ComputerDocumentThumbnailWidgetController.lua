@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ComputerDocumentThumbnailWidgetController: DeviceButtonLogicControllerBase
 ---@field documentIconWidget inkImageWidgetReference
 ---@field documentAdress SDocumentAdress
 ---@field documentType EDocumentType
 ---@field questInfo gamedeviceQuestInfo
 ComputerDocumentThumbnailWidgetController = {}
+
 
 ---@param fields? ComputerDocumentThumbnailWidgetController
 ---@return ComputerDocumentThumbnailWidgetController

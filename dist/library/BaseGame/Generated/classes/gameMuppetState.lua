@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMuppetState
 ---@field frameId Uint32
 ---@field highLevelState gameMuppetHighLevelState
@@ -15,6 +16,7 @@
 ---@field controllersSnapshot gameMuppetControllersSnapshot
 ---@field snapFrameId Uint32
 gameMuppetState = {}
+
 
 ---@param fields? gameMuppetState
 ---@return gameMuppetState

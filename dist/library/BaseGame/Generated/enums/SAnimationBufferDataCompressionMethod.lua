@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SAnimationBufferDataCompressionMethod: Enum
 ---@field ABDCM_Invalid Enum 0
 ---@field ABDCM_Plain Enum 1

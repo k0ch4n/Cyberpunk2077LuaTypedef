@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SmartWindowInkGameController: ComputerInkGameController
 SmartWindowInkGameController = {}
+
 
 ---@param fields? SmartWindowInkGameController
 ---@return SmartWindowInkGameController

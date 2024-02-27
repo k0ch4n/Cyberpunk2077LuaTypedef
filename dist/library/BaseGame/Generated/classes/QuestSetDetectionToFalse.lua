@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestSetDetectionToFalse: ActionBool
 QuestSetDetectionToFalse = {}
+
 
 ---@param fields? QuestSetDetectionToFalse
 ---@return QuestSetDetectionToFalse

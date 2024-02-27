@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleDeathTask: AIDeathReactionsTask
 ---@field vehNPCDeathData AnimFeature_VehicleNPCDeathData
 ---@field previousState gamedataNPCHighLevelState
@@ -8,6 +9,7 @@
 ---@field activationTimeStamp Float
 ---@field readyToUnmount Bool
 VehicleDeathTask = {}
+
 
 ---@param fields? VehicleDeathTask
 ---@return VehicleDeathTask

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BaseGrenade: gameweaponGrenade
 ---@field projectileComponent gameprojectileComponent
 ---@field user gameObject
@@ -64,6 +65,7 @@
 ---@field smokeVFXDeescalationOffset Float
 ---@field cpoTimeBeforeRelease Float
 BaseGrenade = {}
+
 
 ---@param fields? BaseGrenade
 ---@return BaseGrenade

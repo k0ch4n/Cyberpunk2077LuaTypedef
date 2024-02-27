@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EScreenRatio: Enum
 ---@field Screen_21x9 Enum 0
 ---@field Screen_9x21 Enum 1

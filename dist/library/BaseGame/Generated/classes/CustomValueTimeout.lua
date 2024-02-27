@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CustomValueTimeout: AITimeoutCondition
 ---@field timeoutValue Float
 CustomValueTimeout = {}
+
 
 ---@param fields? CustomValueTimeout
 ---@return CustomValueTimeout

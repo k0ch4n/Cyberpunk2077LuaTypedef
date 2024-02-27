@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SpiderbotDistractionPerformed: ActionBool
 SpiderbotDistractionPerformed = {}
+
 
 ---@param fields? SpiderbotDistractionPerformed
 ---@return SpiderbotDistractionPerformed

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TerminateReactionLookatEvent: redEvent
 TerminateReactionLookatEvent = {}
+
 
 ---@param fields? TerminateReactionLookatEvent
 ---@return TerminateReactionLookatEvent

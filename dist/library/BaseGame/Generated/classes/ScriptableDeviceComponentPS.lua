@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScriptableDeviceComponentPS: SharedGameplayPS
 ---@field isInitialized Bool
 ---@field forceResolveStateOnAttach Bool
@@ -86,6 +87,7 @@
 ---@field willingInvestigators entEntityID[]
 ---@field isInteractive Bool
 ScriptableDeviceComponentPS = {}
+
 
 ---@param fields? ScriptableDeviceComponentPS
 ---@return ScriptableDeviceComponentPS

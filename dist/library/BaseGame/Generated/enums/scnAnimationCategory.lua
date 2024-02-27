@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnAnimationCategory: Enum
 ---@field Body Enum 0
 ---@field Facial Enum 1

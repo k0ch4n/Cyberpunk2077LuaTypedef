@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScriptedPuppetPS: gamePuppetPS
 ---@field deviceLink PuppetDeviceLinkPS
 ---@field cooldownStorage CooldownStorage
@@ -31,6 +32,7 @@
 ---@field bountyID TweakDBID
 ---@field transgressions TweakDBID[]
 ScriptedPuppetPS = {}
+
 
 ---@param fields? ScriptedPuppetPS
 ---@return ScriptedPuppetPS

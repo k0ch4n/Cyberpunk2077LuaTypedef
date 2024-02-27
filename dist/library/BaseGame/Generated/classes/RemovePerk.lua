@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RemovePerk: gamePlayerScriptableSystemRequest
 ---@field perkType gamedataPerkType
 RemovePerk = {}
+
 
 ---@param fields? RemovePerk
 ---@return RemovePerk

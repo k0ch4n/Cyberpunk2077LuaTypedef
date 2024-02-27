@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionSetTargetByTag_Record_Implementation: IScriptable
 AISubActionSetTargetByTag_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionSetTargetByTag_Record

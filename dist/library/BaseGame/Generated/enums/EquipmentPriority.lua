@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EquipmentPriority: Enum
 ---@field Primary Enum 0
 ---@field Secondary Enum 1

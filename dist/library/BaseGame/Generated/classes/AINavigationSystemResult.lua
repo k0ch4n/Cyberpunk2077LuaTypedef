@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AINavigationSystemResult
 ---@field hasFailed Bool
 ---@field hasPath Bool
@@ -11,6 +12,7 @@
 ---@field closestPointOnNavmesh WorldPosition
 ---@field closestReachablePoint WorldPosition
 AINavigationSystemResult = {}
+
 
 ---@param fields? AINavigationSystemResult
 ---@return AINavigationSystemResult

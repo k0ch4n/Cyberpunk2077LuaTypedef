@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeLookAtDecisions: LookAtPresetMeleeBaseDecisions
 MeleeLookAtDecisions = {}
+
 
 ---@param fields? MeleeLookAtDecisions
 ---@return MeleeLookAtDecisions

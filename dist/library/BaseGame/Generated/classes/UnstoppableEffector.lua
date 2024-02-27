@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnstoppableEffector: OvershieldEffectorBase
 UnstoppableEffector = {}
+
 
 ---@param fields? UnstoppableEffector
 ---@return UnstoppableEffector

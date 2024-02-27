@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeathExitingDecisions: ExitingDecisions
 DeathExitingDecisions = {}
+
 
 ---@param fields? DeathExitingDecisions
 ---@return DeathExitingDecisions

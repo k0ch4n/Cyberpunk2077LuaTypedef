@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkVariantCallback: inkCallbackBase
 inkVariantCallback = {}
+
 
 ---@param fields? inkVariantCallback
 ---@return inkVariantCallback

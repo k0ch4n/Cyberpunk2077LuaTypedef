@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionConditionalFailure_Record_Implementation: IScriptable
 AISubActionConditionalFailure_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionConditionalFailure_Record

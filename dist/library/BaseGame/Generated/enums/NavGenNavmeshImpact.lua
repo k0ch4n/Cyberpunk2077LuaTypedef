@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NavGenNavmeshImpact: Enum
 ---@field Ignored Enum 1
 ---@field Walkable Enum 0

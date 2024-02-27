@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkRumblePosition: Enum
 ---@field Both Enum 0
 ---@field Left Enum 1

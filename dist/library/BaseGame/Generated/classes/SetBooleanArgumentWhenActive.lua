@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetBooleanArgumentWhenActive: AIbehaviortaskScript
 ---@field booleanArgument CName
 SetBooleanArgumentWhenActive = {}
+
 
 ---@param fields? SetBooleanArgumentWhenActive
 ---@return SetBooleanArgumentWhenActive

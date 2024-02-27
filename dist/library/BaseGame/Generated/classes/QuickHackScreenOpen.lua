@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuickHackScreenOpen: redEvent
 ---@field setToOpen Bool
 QuickHackScreenOpen = {}
+
 
 ---@param fields? QuickHackScreenOpen
 ---@return QuickHackScreenOpen

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ComputerMenuWidgetController: inkWidgetLogicController
 ---@field thumbnailsListWidget inkWidgetReference
 ---@field contentWidget inkWidgetReference
@@ -7,6 +8,7 @@
 ---@field fileWidgetsData SDocumentWidgetPackage[]
 ---@field fileThumbnailWidgetsData SDocumentThumbnailWidgetPackage[]
 ComputerMenuWidgetController = {}
+
 
 ---@param fields? ComputerMenuWidgetController
 ---@return ComputerMenuWidgetController

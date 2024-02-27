@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnAnimNameType: Enum
 ---@field direct Enum 0
 ---@field reference Enum 1

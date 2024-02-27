@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class KeepPhoneOpenWhenInHubMenuEvent: redEvent
 KeepPhoneOpenWhenInHubMenuEvent = {}
+
 
 ---@param fields? KeepPhoneOpenWhenInHubMenuEvent
 ---@return KeepPhoneOpenWhenInHubMenuEvent

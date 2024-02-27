@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TestStep: IScriptable
 ---@field stepName CName
 ---@field scriptId Uint16
@@ -8,6 +9,7 @@
 ---@field stepTimeout Float
 ---@field stopTestOnFailure Bool
 TestStep = {}
+
 
 ---@param fields? TestStep
 ---@return TestStep

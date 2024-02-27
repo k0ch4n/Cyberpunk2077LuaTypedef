@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CameraAreaSettings: IAreaSettings
 ---@field cameraNearPlane Float
 ---@field cameraFarPlane Float
@@ -8,6 +9,7 @@
 ---@field shutterTime Float
 ---@field fStop Float
 CameraAreaSettings = {}
+
 
 ---@param fields? CameraAreaSettings
 ---@return CameraAreaSettings

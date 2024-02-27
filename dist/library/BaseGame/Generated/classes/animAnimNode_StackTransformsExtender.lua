@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_StackTransformsExtender: animAnimNode_OnePoseInput
 ---@field tag CName
 ---@field transformInfos animTransformInfo[]
@@ -10,6 +11,7 @@
 ---@field offsetSpaceBones animTransformIndex[]
 ---@field offsets QsTransform[]
 animAnimNode_StackTransformsExtender = {}
+
 
 ---@param fields? animAnimNode_StackTransformsExtender
 ---@return animAnimNode_StackTransformsExtender

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FollowSlotsComponent: gameScriptableComponent
 ---@field followSlots FollowSlot[]
 FollowSlotsComponent = {}
+
 
 ---@param fields? FollowSlotsComponent
 ---@return FollowSlotsComponent

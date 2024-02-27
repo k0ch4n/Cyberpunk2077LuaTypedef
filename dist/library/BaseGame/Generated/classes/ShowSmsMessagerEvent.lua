@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ShowSmsMessagerEvent: redEvent
 ShowSmsMessagerEvent = {}
+
 
 ---@param fields? ShowSmsMessagerEvent
 ---@return ShowSmsMessagerEvent

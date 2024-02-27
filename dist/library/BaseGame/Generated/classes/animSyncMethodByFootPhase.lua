@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animSyncMethodByFootPhase: animISyncMethod
 animSyncMethodByFootPhase = {}
+
 
 ---@param fields? animSyncMethodByFootPhase
 ---@return animSyncMethodByFootPhase

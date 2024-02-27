@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIMusicSystemSquadAudioMember: AISquadAudioMemberBase
 AIMusicSystemSquadAudioMember = {}
+
 
 ---@param fields? AIMusicSystemSquadAudioMember
 ---@return AIMusicSystemSquadAudioMember

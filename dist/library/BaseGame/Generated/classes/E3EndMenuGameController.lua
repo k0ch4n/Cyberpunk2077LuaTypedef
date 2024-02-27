@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class E3EndMenuGameController: gameuiMenuItemListGameController
 E3EndMenuGameController = {}
+
 
 ---@param fields? E3EndMenuGameController
 ---@return E3EndMenuGameController

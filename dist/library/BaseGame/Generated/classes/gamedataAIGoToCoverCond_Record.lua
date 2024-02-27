@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIGoToCoverCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIGoToCoverCond_Record = {}
+
 
 ---@param fields? gamedataAIGoToCoverCond_Record
 ---@return gamedataAIGoToCoverCond_Record

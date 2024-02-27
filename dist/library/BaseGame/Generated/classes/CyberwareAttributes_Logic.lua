@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CyberwareAttributes_Logic: inkWidgetLogicController
 ---@field textValue inkTextWidgetReference
 ---@field buttonRef inkWidgetReference
 ---@field tooltipRef inkWidgetReference
 ---@field connectorRef inkWidgetReference
 CyberwareAttributes_Logic = {}
+
 
 ---@param fields? CyberwareAttributes_Logic
 ---@return CyberwareAttributes_Logic

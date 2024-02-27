@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemTooltipStatController: inkWidgetLogicController
 ---@field statName inkTextWidgetReference
 ---@field statValue inkTextWidgetReference
@@ -13,6 +14,7 @@
 ---@field bigFontEnabled Bool
 ---@field inCrafting Bool
 ItemTooltipStatController = {}
+
 
 ---@param fields? ItemTooltipStatController
 ---@return ItemTooltipStatController

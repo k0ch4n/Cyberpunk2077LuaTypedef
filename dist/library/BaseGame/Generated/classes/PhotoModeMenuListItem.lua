@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhotoModeMenuListItem: inkListItemController
 ---@field ScrollBarRef inkWidgetReference
 ---@field CounterLabelRef inkTextWidgetReference
@@ -44,6 +45,7 @@
 ---@field ScrollBarHandleInitOpacity Float
 ---@field ScrollBarLineInitOpacity Float
 PhotoModeMenuListItem = {}
+
 
 ---@param fields? PhotoModeMenuListItem
 ---@return PhotoModeMenuListItem

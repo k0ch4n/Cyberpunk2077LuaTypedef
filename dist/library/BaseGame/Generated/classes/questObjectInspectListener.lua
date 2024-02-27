@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questObjectInspectListener: questIInspectListener
 questObjectInspectListener = {}
+
 
 ---@param fields? questObjectInspectListener
 ---@return questObjectInspectListener

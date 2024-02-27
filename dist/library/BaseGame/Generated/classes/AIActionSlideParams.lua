@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIActionSlideParams
 ---@field distance Float
 ---@field directionAngle Float
@@ -8,6 +9,7 @@
 ---@field slideToTarget Bool
 ---@field debugDrawSlideLines Bool
 AIActionSlideParams = {}
+
 
 ---@param fields? AIActionSlideParams
 ---@return AIActionSlideParams

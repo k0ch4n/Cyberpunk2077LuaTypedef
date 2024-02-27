@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestToggleAutomaticAttack: ActionBool
 QuestToggleAutomaticAttack = {}
+
 
 ---@param fields? QuestToggleAutomaticAttack
 ---@return QuestToggleAutomaticAttack

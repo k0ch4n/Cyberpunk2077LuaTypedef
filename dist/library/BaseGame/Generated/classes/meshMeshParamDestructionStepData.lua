@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class meshMeshParamDestructionStepData: meshMeshParameter
 ---@field offsets physicsDestructionHierarchyOffset[]
 ---@field isInstantRemovable String
 meshMeshParamDestructionStepData = {}
+
 
 ---@param fields? meshMeshParamDestructionStepData
 ---@return meshMeshParamDestructionStepData

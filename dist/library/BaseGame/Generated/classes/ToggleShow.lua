@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleShow: ActionBool
 ToggleShow = {}
+
 
 ---@param fields? ToggleShow
 ---@return ToggleShow

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CodexListItemController: inkListItemController
 ---@field doMarkNew Bool
 ---@field stateMapperRef inkWidgetReference
 ---@field stateMapper ListItemStateMapper
 CodexListItemController = {}
+
 
 ---@param fields? CodexListItemController
 ---@return CodexListItemController

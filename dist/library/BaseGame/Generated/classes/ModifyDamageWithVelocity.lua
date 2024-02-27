@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ModifyDamageWithVelocity: ModifyDamageEffector
 ---@field percentMult Float
 ---@field unitThreshold Float
 ModifyDamageWithVelocity = {}
+
 
 ---@param fields? ModifyDamageWithVelocity
 ---@return ModifyDamageWithVelocity

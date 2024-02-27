@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIMoveToCommandHandler: AICommandHandlerBase
 ---@field outIsDynamicMove AIArgumentMapping
 ---@field outMovementTarget AIArgumentMapping
@@ -13,6 +14,7 @@
 ---@field outDesiredDistanceFromTarget AIArgumentMapping
 ---@field outFinishWhenDestinationReached AIArgumentMapping
 AIMoveToCommandHandler = {}
+
 
 ---@param fields? AIMoveToCommandHandler
 ---@return AIMoveToCommandHandler

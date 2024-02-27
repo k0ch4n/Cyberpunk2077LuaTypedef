@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GenericCodexEntryData: IScriptable
 ---@field hash Int32
 ---@field title String
@@ -14,6 +15,7 @@
 ---@field itemID gameItemID
 ---@field activeDataSync CodexListSyncData
 GenericCodexEntryData = {}
+
 
 ---@param fields? GenericCodexEntryData
 ---@return GenericCodexEntryData

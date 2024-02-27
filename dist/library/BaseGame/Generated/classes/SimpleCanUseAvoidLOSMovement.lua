@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SimpleCanUseAvoidLOSMovement: AIbehaviorconditionScript
 ---@field initialized Bool
 ---@field result Bool
 SimpleCanUseAvoidLOSMovement = {}
+
 
 ---@param fields? SimpleCanUseAvoidLOSMovement
 ---@return SimpleCanUseAvoidLOSMovement

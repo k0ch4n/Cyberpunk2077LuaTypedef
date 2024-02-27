@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameprojectileParabolicTrajectoryParams: gameprojectileTrajectoryParams
 gameprojectileParabolicTrajectoryParams = {}
+
 
 ---@param fields? gameprojectileParabolicTrajectoryParams
 ---@return gameprojectileParabolicTrajectoryParams

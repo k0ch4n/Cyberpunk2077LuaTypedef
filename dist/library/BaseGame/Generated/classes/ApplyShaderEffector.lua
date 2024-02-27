@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ApplyShaderEffector: gameEffector
 ---@field overrideMaterialName CName
 ---@field overrideMaterialTag CName
@@ -9,6 +10,7 @@
 ---@field ownerWeapons gameItemObject[]
 ---@field isEnabled Bool
 ApplyShaderEffector = {}
+
 
 ---@param fields? ApplyShaderEffector
 ---@return ApplyShaderEffector

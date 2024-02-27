@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnVoicesetComponentPS: gameComponentPS
 ---@field blockedInputs entVoicesetInputToBlock[]
 ---@field voiceTag CName
@@ -8,6 +9,7 @@
 ---@field areVoicesetLinesEnabled Bool
 ---@field areVoicesetGruntsEnabled Bool
 scnVoicesetComponentPS = {}
+
 
 ---@param fields? scnVoicesetComponentPS
 ---@return scnVoicesetComponentPS

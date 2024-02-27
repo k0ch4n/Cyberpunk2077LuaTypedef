@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleAssignConvoyEvent: redEvent
 vehicleAssignConvoyEvent = {}
+
 
 ---@param fields? vehicleAssignConvoyEvent
 ---@return vehicleAssignConvoyEvent

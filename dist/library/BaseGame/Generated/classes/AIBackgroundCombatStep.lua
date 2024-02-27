@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIBackgroundCombatStep
 ---@field timeMin Float
 ---@field timeMax Float
@@ -7,6 +8,7 @@
 ---@field argument gameEntityReference
 ---@field exposureMethod AICoverExposureMethod
 AIBackgroundCombatStep = {}
+
 
 ---@param fields? AIBackgroundCombatStep
 ---@return AIBackgroundCombatStep

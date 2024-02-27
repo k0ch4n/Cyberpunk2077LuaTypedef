@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DistrictPrereq: gameIScriptablePrereq
 ---@field district gamedataDistrict_Record
 DistrictPrereq = {}
+
 
 ---@param fields? DistrictPrereq
 ---@return DistrictPrereq

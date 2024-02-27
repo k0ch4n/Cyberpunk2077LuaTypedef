@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CraftingMainLogicController: inkWidgetLogicController
 ---@field TIME_UNTIL_SELECTION Float
 ---@field root inkWidgetReference
@@ -52,6 +53,7 @@
 ---@field progress Float
 ---@field isFirstOpen Bool
 CraftingMainLogicController = {}
+
 
 ---@param fields? CraftingMainLogicController
 ---@return CraftingMainLogicController

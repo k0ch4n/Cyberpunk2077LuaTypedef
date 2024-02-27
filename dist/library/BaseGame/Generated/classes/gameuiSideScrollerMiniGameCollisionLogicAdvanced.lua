@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiSideScrollerMiniGameCollisionLogicAdvanced: inkWidgetLogicController
 gameuiSideScrollerMiniGameCollisionLogicAdvanced = {}
+
 
 ---@param fields? gameuiSideScrollerMiniGameCollisionLogicAdvanced
 ---@return gameuiSideScrollerMiniGameCollisionLogicAdvanced

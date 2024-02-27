@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PSODescDepthStencilModeDesc
 ---@field depthTestEnable Bool
 ---@field depthWriteEnable Bool
@@ -9,6 +10,7 @@
 ---@field stencilWriteMask Bool
 ---@field frontFace PSODescStencilFuncDesc
 PSODescDepthStencilModeDesc = {}
+
 
 ---@param fields? PSODescDepthStencilModeDesc
 ---@return PSODescDepthStencilModeDesc

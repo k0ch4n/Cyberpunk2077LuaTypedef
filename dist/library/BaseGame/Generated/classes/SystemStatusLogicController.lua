@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SystemStatusLogicController: inkWidgetLogicController
 ---@field onlineRoot inkWidgetReference
 ---@field offlineRoot inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field widgetsToColor inkWidgetReference[]
 ---@field textStatuses inkTextWidgetReference[]
 SystemStatusLogicController = {}
+
 
 ---@param fields? SystemStatusLogicController
 ---@return SystemStatusLogicController

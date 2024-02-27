@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class BaseSubtitleLineLogicController: inkWidgetLogicController
 ---@field root inkWidget
 ---@field isKiroshiEnabled Bool
 ---@field c_tier1_duration Float
 ---@field c_tier2_duration Float
 BaseSubtitleLineLogicController = {}
+
 
 ---@param fields? BaseSubtitleLineLogicController
 ---@return BaseSubtitleLineLogicController

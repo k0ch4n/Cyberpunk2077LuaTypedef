@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CacheFXOnDefeated: StatusEffectTasks
 ---@field npcPuppet NPCPuppet
 CacheFXOnDefeated = {}
+
 
 ---@param fields? CacheFXOnDefeated
 ---@return CacheFXOnDefeated

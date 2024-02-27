@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AICTreeNodeReadWorkspotParamsDefinition: AICTreeNodeDecoratorDefinition
 ---@field workspotNodeVarName CName
 ---@field prevWorkspotNodeVarName CName
@@ -10,6 +11,7 @@
 ---@field splineStopAnimVarName CName
 ---@field moveTargetVarName CName
 AICTreeNodeReadWorkspotParamsDefinition = {}
+
 
 ---@param fields? AICTreeNodeReadWorkspotParamsDefinition
 ---@return AICTreeNodeReadWorkspotParamsDefinition

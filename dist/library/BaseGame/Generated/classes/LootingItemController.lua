@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LootingItemController: inkWidgetLogicController
 ---@field itemNameText inkTextWidget
 ---@field isCurrentlySelected Bool
@@ -11,6 +12,7 @@
 ---@field itemSelection inkWidgetReference
 ---@field itemIcon inkImageWidgetReference
 LootingItemController = {}
+
 
 ---@param fields? LootingItemController
 ---@return LootingItemController

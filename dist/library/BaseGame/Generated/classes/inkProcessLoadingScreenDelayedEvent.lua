@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkProcessLoadingScreenDelayedEvent: redEvent
 inkProcessLoadingScreenDelayedEvent = {}
+
 
 ---@param fields? inkProcessLoadingScreenDelayedEvent
 ---@return inkProcessLoadingScreenDelayedEvent

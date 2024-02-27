@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ExposureAreaSettings: IAreaSettings
 ---@field exposureAdaptationSpeedUp curveData
 ---@field exposureAdaptationSpeedDown curveData
@@ -12,6 +13,7 @@
 ---@field exposureCenterImportance curveData
 ---@field cameraVelocityFaloff Float
 ExposureAreaSettings = {}
+
 
 ---@param fields? ExposureAreaSettings
 ---@return ExposureAreaSettings

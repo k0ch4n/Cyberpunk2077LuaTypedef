@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TargetKilledHitPrereqCondition: BaseHitPrereqCondition
 ---@field lastTarget gameObject
 TargetKilledHitPrereqCondition = {}
+
 
 ---@param fields? TargetKilledHitPrereqCondition
 ---@return TargetKilledHitPrereqCondition

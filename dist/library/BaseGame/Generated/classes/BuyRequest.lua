@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BuyRequest: TransactionRequest
 BuyRequest = {}
+
 
 ---@param fields? BuyRequest
 ---@return BuyRequest

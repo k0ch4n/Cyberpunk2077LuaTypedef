@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioMeleeWeaponConfiguration: audioAudioMetadata
 ---@field fastWhoosh audioMeleeSound
 ---@field normalWhoosh audioMeleeSound
@@ -16,6 +17,7 @@
 ---@field meleeSoundsByHitPerMaterialType audioMeleeHitTypeMeleeSoundDictionary
 ---@field meleeWeaponConfigurationsByRigTypeMap audioMeleeRigTypeMeleeWeaponConfigurationMap
 audioMeleeWeaponConfiguration = {}
+
 
 ---@param fields? audioMeleeWeaponConfiguration
 ---@return audioMeleeWeaponConfiguration

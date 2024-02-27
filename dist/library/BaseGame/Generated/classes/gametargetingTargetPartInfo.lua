@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gametargetingTargetPartInfo
 gametargetingTargetPartInfo = {}
+
 
 ---@param fields? gametargetingTargetPartInfo
 ---@return gametargetingTargetPartInfo

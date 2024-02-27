@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameAlwaysSpawnedState: Enum
 ---@field ["default (false)"] Enum 0
 ---@field true Enum 1

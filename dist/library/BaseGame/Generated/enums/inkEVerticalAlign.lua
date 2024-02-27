@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkEVerticalAlign: Enum
 ---@field Fill Enum 0
 ---@field Top Enum 1

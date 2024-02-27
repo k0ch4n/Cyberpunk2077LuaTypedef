@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameuiTimeDisplayLogicController: inkWidgetLogicController
 ---@field timerText inkTextWidgetReference
 ---@field noConnectionText inkTextWidgetReference
 gameuiTimeDisplayLogicController = {}
+
 
 ---@param fields? gameuiTimeDisplayLogicController
 ---@return gameuiTimeDisplayLogicController

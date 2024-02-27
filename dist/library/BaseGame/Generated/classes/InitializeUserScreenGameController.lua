@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InitializeUserScreenGameController: gameuiMenuGameController
 ---@field backgroundVideo inkVideoWidgetReference
 ---@field breachingContainer inkCompoundWidgetReference
@@ -8,6 +9,7 @@
 ---@field requestHandler inkISystemRequestsHandler
 ---@field progressBarController LoadingScreenProgressBarController
 InitializeUserScreenGameController = {}
+
 
 ---@param fields? InitializeUserScreenGameController
 ---@return InitializeUserScreenGameController

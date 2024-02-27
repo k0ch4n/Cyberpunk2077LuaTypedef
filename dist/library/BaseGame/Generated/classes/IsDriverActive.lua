@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsDriverActive: AIVehicleConditionAbstract
 IsDriverActive = {}
+
 
 ---@param fields? IsDriverActive
 ---@return IsDriverActive

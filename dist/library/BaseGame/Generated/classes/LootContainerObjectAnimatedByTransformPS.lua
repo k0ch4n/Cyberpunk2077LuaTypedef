@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LootContainerObjectAnimatedByTransformPS: gameLootContainerBasePS
 LootContainerObjectAnimatedByTransformPS = {}
+
 
 ---@param fields? LootContainerObjectAnimatedByTransformPS
 ---@return LootContainerObjectAnimatedByTransformPS

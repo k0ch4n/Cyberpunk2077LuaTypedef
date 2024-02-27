@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class senseSensorObject: ISerializable
 ---@field presetID TweakDBID
 ---@field detectionFactor Float
@@ -9,6 +10,7 @@
 ---@field hearingEnabled Bool
 ---@field sensorObjectType gamedataSenseObjectType
 senseSensorObject = {}
+
 
 ---@param fields? senseSensorObject
 ---@return senseSensorObject

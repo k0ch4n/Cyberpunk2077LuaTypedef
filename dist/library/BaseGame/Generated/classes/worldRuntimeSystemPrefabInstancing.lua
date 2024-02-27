@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemPrefabInstancing: worldIRuntimeSystem
 worldRuntimeSystemPrefabInstancing = {}
+
 
 ---@param fields? worldRuntimeSystemPrefabInstancing
 ---@return worldRuntimeSystemPrefabInstancing

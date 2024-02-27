@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataNPCBehaviorState: Enum
 ---@field State1 Enum 0
 ---@field State2 Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldPrefabMetadata: IScriptable
 worldPrefabMetadata = {}
+
 
 ---@param fields? worldPrefabMetadata
 ---@return worldPrefabMetadata

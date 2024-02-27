@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestMissionLinkController: BaseCodexLinkController
 ---@field linkContainer inkWidgetReference
 ---@field title inkTextWidgetReference
@@ -10,6 +11,7 @@
 ---@field questState gameJournalEntryState
 ---@field questEntryHash Int32
 QuestMissionLinkController = {}
+
 
 ---@param fields? QuestMissionLinkController
 ---@return QuestMissionLinkController

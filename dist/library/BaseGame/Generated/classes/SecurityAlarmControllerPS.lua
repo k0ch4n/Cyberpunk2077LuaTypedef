@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SecurityAlarmControllerPS: MasterControllerPS
 ---@field securityAlarmSetup SecurityAlarmSetup
 ---@field securityAlarmState ESecuritySystemState
 SecurityAlarmControllerPS = {}
+
 
 ---@param fields? SecurityAlarmControllerPS
 ---@return SecurityAlarmControllerPS

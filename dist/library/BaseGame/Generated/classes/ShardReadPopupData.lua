@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ShardReadPopupData: inkGameNotificationData
 ---@field title String
 ---@field text String
@@ -7,6 +8,7 @@
 ---@field itemID gameItemID
 ---@field imageId TweakDBID
 ShardReadPopupData = {}
+
 
 ---@param fields? ShardReadPopupData
 ---@return ShardReadPopupData

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GetCurrentPatrolSpotActionPath: AIbehaviortaskScript
 ---@field outPathArgument AIArgumentMapping
 GetCurrentPatrolSpotActionPath = {}
+
 
 ---@param fields? GetCurrentPatrolSpotActionPath
 ---@return GetCurrentPatrolSpotActionPath

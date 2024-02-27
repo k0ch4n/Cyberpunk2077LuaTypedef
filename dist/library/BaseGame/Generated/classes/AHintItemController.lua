@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AHintItemController: inkWidgetLogicController
 ---@field Icon inkImageWidgetReference
 ---@field UnavaliableText inkTextWidgetReference
 ---@field Root inkWidget
 AHintItemController = {}
+
 
 ---@return Bool
 function AHintItemController:OnInitialize() end

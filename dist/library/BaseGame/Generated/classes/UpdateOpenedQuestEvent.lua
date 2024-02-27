@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UpdateOpenedQuestEvent: redEvent
 ---@field openedQuest gameJournalQuest
 UpdateOpenedQuestEvent = {}
+
 
 ---@param fields? UpdateOpenedQuestEvent
 ---@return UpdateOpenedQuestEvent

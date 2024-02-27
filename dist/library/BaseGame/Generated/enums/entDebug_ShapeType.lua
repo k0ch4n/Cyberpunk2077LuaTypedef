@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entDebug_ShapeType: Enum
 ---@field Sphere Enum 0
 ---@field Box Enum 1

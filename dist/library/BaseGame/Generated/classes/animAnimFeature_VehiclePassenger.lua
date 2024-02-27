@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimFeature_VehiclePassenger: animAnimFeature
 ---@field overallForceMS Vector4
 ---@field turnSpeed Float
@@ -21,6 +22,7 @@
 ---@field clutchInUse Bool
 ---@field headCollision Bool
 animAnimFeature_VehiclePassenger = {}
+
 
 ---@param fields? animAnimFeature_VehiclePassenger
 ---@return animAnimFeature_VehiclePassenger

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsAttachPropToPerformer: scnSceneEvent
 ---@field propId scnPropId
 ---@field performerId scnPerformerId
@@ -9,6 +10,7 @@
 ---@field customOffsetRot Quaternion
 ---@field fallbackData scneventsAttachPropToPerformerFallbackData[]
 scneventsAttachPropToPerformer = {}
+
 
 ---@param fields? scneventsAttachPropToPerformer
 ---@return scneventsAttachPropToPerformer

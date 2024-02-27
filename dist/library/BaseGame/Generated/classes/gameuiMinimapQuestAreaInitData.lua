@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiMinimapQuestAreaInitData: gameuiMappinControllerCustomData
 gameuiMinimapQuestAreaInitData = {}
+
 
 ---@param fields? gameuiMinimapQuestAreaInitData
 ---@return gameuiMinimapQuestAreaInitData

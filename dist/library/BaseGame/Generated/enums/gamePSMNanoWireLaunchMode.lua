@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePSMNanoWireLaunchMode: Enum
 ---@field Default Enum 0
 ---@field Primary Enum 1

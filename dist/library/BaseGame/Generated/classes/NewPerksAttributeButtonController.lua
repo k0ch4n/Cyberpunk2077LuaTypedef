@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerksAttributeButtonController: inkWidgetLogicController
 ---@field attributePointsButton inkWidgetReference
 ---@field attributeText inkTextWidgetReference
@@ -14,6 +15,7 @@
 ---@field isPressed Bool
 ---@field idleAnimProxy inkanimProxy
 NewPerksAttributeButtonController = {}
+
 
 ---@param fields? NewPerksAttributeButtonController
 ---@return NewPerksAttributeButtonController

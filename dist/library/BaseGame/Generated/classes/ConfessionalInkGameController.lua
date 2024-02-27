@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ConfessionalInkGameController: DeviceInkGameControllerBase
 ---@field defaultUI inkCanvasWidget
 ---@field mainDisplayWidget inkVideoWidget
@@ -11,6 +12,7 @@
 ---@field onGlitchingStateChangedListener redCallbackObject
 ---@field onConfessListener redCallbackObject
 ConfessionalInkGameController = {}
+
 
 ---@param fields? ConfessionalInkGameController
 ---@return ConfessionalInkGameController

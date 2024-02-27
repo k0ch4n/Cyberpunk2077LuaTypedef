@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EditableGameLightSettings
 ---@field componentName CName
 ---@field strength Float
@@ -15,6 +16,7 @@
 ---@field outerAngle Float
 ---@field modifyOuterAngle Bool
 EditableGameLightSettings = {}
+
 
 ---@param fields? EditableGameLightSettings
 ---@return EditableGameLightSettings

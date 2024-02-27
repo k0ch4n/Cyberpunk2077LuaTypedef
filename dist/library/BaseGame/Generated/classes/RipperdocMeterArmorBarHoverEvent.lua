@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RipperdocMeterArmorBarHoverEvent: redEvent
 RipperdocMeterArmorBarHoverEvent = {}
+
 
 ---@param fields? RipperdocMeterArmorBarHoverEvent
 ---@return RipperdocMeterArmorBarHoverEvent

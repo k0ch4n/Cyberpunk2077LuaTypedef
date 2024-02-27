@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AimingContextDecisions: InputContextTransitionDecisions
 ---@field leftHandChargeCallbackID redCallbackObject
 ---@field upperBodyCallbackID redCallbackObject
@@ -8,6 +9,7 @@
 ---@field isAiming Bool
 ---@field meleeBlockActive Bool
 AimingContextDecisions = {}
+
 
 ---@param fields? AimingContextDecisions
 ---@return AimingContextDecisions

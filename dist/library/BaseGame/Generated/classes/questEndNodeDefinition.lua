@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questEndNodeDefinition: questStartEndNodeDefinition
 questEndNodeDefinition = {}
+
 
 ---@param fields? questEndNodeDefinition
 ---@return questEndNodeDefinition

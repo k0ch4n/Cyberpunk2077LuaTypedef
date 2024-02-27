@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BrightnessSettingsVarListener: userSettingsVarListener
 ---@field ctrl BrightnessSettingsGameController
 BrightnessSettingsVarListener = {}
+
 
 ---@param fields? BrightnessSettingsVarListener
 ---@return BrightnessSettingsVarListener

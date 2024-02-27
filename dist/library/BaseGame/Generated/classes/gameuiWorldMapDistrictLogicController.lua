@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiWorldMapDistrictLogicController: inkWidgetLogicController
 ---@field record gamedataDistrict_Record
 ---@field type gamedataDistrict
@@ -9,6 +10,7 @@
 ---@field selectAnim inkanimProxy
 ---@field rootWidget inkWidget
 gameuiWorldMapDistrictLogicController = {}
+
 
 ---@param fields? gameuiWorldMapDistrictLogicController
 ---@return gameuiWorldMapDistrictLogicController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StanceNPCStatePrereq: NPCStatePrereq
 ---@field valueToListen gamedataNPCStanceState
 StanceNPCStatePrereq = {}
+
 
 ---@param fields? StanceNPCStatePrereq
 ---@return StanceNPCStatePrereq

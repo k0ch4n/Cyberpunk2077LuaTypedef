@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class StatsPlayTimeController: inkWidgetLogicController
 ---@field playTimeRef inkTextWidgetReference
 ---@field lifePathRef inkTextWidgetReference
 ---@field lifePathIconRef inkImageWidgetReference
 StatsPlayTimeController = {}
+
 
 ---@param fields? StatsPlayTimeController
 ---@return StatsPlayTimeController

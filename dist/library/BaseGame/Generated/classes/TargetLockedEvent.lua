@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TargetLockedEvent: redEvent
 TargetLockedEvent = {}
+
 
 ---@param fields? TargetLockedEvent
 ---@return TargetLockedEvent

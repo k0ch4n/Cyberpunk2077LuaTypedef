@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataWeather_Record: gamedataTweakDBRecord
 gamedataWeather_Record = {}
+
 
 ---@param fields? gamedataWeather_Record
 ---@return gamedataWeather_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitIsMovingPrereqState: GenericHitPrereqState
 HitIsMovingPrereqState = {}
+
 
 ---@param fields? HitIsMovingPrereqState
 ---@return HitIsMovingPrereqState

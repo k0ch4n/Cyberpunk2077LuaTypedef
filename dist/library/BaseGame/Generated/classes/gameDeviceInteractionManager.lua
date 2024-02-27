@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDeviceInteractionManager: gameIDeviceInteractionManager
 gameDeviceInteractionManager = {}
+
 
 ---@param fields? gameDeviceInteractionManager
 ---@return gameDeviceInteractionManager

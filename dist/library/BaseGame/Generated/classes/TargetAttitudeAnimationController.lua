@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class TargetAttitudeAnimationController: BasicAnimationController
 ---@field hostileShowAnimation CName
 ---@field hostileIdleAnimation CName
 ---@field hostileHideAnimation CName
 ---@field attitude EAIAttitude
 TargetAttitudeAnimationController = {}
+
 
 ---@param fields? TargetAttitudeAnimationController
 ---@return TargetAttitudeAnimationController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActionAnimationScriptProxy: CActionScriptProxy
 ActionAnimationScriptProxy = {}
+
 
 ---@param fields? ActionAnimationScriptProxy
 ---@return ActionAnimationScriptProxy

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MeleeDeflectAttackEvents: MeleeAttackGenericEvents
 ---@field slowMoSet Bool
 MeleeDeflectAttackEvents = {}
+
 
 ---@param fields? MeleeDeflectAttackEvents
 ---@return MeleeDeflectAttackEvents

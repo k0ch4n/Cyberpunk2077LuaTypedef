@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectPostAction_WaterImpulse: gameEffectPostAction
 gameEffectPostAction_WaterImpulse = {}
+
 
 ---@param fields? gameEffectPostAction_WaterImpulse
 ---@return gameEffectPostAction_WaterImpulse

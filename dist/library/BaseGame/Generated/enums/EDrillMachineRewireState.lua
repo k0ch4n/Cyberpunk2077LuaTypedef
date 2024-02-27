@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EDrillMachineRewireState: Enum
 ---@field InsideInteractionRange Enum 0
 ---@field OutsideInteractionRange Enum 1

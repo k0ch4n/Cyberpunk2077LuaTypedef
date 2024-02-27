@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AIDriveJoinTrafficCommandHandler: AICommandHandlerBase
 ---@field outUseKinematic AIArgumentMapping
 ---@field outNeedDriver AIArgumentMapping
 AIDriveJoinTrafficCommandHandler = {}
+
 
 ---@param fields? AIDriveJoinTrafficCommandHandler
 ---@return AIDriveJoinTrafficCommandHandler

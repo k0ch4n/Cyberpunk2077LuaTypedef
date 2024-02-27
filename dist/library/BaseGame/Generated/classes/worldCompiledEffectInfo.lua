@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldCompiledEffectInfo
 ---@field placementTags CName[]
 ---@field componentNames CName[]
@@ -8,6 +9,7 @@
 ---@field placementInfos worldCompiledEffectPlacementInfo[]
 ---@field eventsSortedByRUID worldCompiledEffectEventInfo[]
 worldCompiledEffectInfo = {}
+
 
 ---@param fields? worldCompiledEffectInfo
 ---@return worldCompiledEffectInfo

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetTimestampToBehaviorAgrument: AIbehaviortaskScript
 ---@field timestampArgument CName
 SetTimestampToBehaviorAgrument = {}
+
 
 ---@param fields? SetTimestampToBehaviorAgrument
 ---@return SetTimestampToBehaviorAgrument

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BleedingEffectDamageUpdate: redEvent
 BleedingEffectDamageUpdate = {}
+
 
 ---@param fields? BleedingEffectDamageUpdate
 ---@return BleedingEffectDamageUpdate

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActionSlideToScriptProxy: CActionScriptProxy
 ActionSlideToScriptProxy = {}
+
 
 ---@param fields? ActionSlideToScriptProxy
 ---@return ActionSlideToScriptProxy

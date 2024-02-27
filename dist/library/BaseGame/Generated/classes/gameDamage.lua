@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameDamage: IScriptable
 ---@field damageType gamedataDamageType
 ---@field value Float
 gameDamage = {}
+
 
 ---@param fields? gameDamage
 ---@return gameDamage

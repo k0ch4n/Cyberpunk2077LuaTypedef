@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IdleDecisions: VehicleTransition
 IdleDecisions = {}
+
 
 ---@param fields? IdleDecisions
 ---@return IdleDecisions

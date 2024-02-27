@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DestroyWeakspotEffector: gameEffector
 ---@field weakspotIndex Int32
 DestroyWeakspotEffector = {}
+
 
 ---@param fields? DestroyWeakspotEffector
 ---@return DestroyWeakspotEffector

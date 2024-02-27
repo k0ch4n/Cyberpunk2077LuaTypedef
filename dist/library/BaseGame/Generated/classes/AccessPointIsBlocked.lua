@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AccessPointIsBlocked: gameIScriptablePrereq
 AccessPointIsBlocked = {}
+
 
 ---@param fields? AccessPointIsBlocked
 ---@return AccessPointIsBlocked

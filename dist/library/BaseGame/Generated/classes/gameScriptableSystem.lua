@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScriptableSystem: gameIScriptableSystem
 gameScriptableSystem = {}
+
 
 ---@param fields? gameScriptableSystem
 ---@return gameScriptableSystem

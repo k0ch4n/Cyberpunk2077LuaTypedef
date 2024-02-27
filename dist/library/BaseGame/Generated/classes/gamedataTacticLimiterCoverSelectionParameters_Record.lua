@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTacticLimiterCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataTacticLimiterCoverSelectionParameters_Record = {}
+
 
 ---@param fields? gamedataTacticLimiterCoverSelectionParameters_Record
 ---@return gamedataTacticLimiterCoverSelectionParameters_Record

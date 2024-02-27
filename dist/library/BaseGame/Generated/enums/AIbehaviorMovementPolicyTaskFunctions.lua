@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorMovementPolicyTaskFunctions: Enum
 ---@field SetMovementType Enum 0
 ---@field SetTargetObject Enum 1

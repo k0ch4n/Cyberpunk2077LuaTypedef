@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class KillMarkerGameController: gameuiWidgetGameController
 ---@field targetNeutralized redCallbackObject
 ---@field blackboard gameIBlackboard
 ---@field animProxy inkanimProxy
 KillMarkerGameController = {}
+
 
 ---@param fields? KillMarkerGameController
 ---@return KillMarkerGameController

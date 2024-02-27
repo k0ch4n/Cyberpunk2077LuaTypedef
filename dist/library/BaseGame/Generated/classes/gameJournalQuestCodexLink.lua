@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameJournalQuestCodexLink: gameJournalEntry
 ---@field path gameJournalPath
 gameJournalQuestCodexLink = {}
+
 
 ---@param fields? gameJournalQuestCodexLink
 ---@return gameJournalQuestCodexLink

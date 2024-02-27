@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questMoveOnSplineControlRubberbanding_NodeType: questIVehicleManagerNodeType
 ---@field enable Bool
 ---@field vehicleRef gameEntityReference
@@ -8,6 +9,7 @@
 ---@field minSpeed Float
 ---@field reduceSpeedOnTurns Bool
 questMoveOnSplineControlRubberbanding_NodeType = {}
+
 
 ---@param fields? questMoveOnSplineControlRubberbanding_NodeType
 ---@return questMoveOnSplineControlRubberbanding_NodeType

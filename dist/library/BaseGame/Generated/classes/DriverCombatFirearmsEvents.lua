@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DriverCombatFirearmsEvents: DriverCombatEvents
 ---@field attachmentSlotListener gameAttachmentSlotsScriptListener
 ---@field posAnimFeature AnimFeature_ProceduralDriverCombatData
@@ -12,6 +13,7 @@
 ---@field minSwaySpeed Float
 ---@field prevSpeed Float
 DriverCombatFirearmsEvents = {}
+
 
 ---@param fields? DriverCombatFirearmsEvents
 ---@return DriverCombatFirearmsEvents

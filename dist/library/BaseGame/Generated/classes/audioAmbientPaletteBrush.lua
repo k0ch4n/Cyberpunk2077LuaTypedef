@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAmbientPaletteBrush
 ---@field distributionBucketSize Float
 ---@field virtualHearingRadius Float
@@ -7,6 +8,7 @@
 ---@field eventsPool CName[]
 ---@field radioStationMetadata CName
 audioAmbientPaletteBrush = {}
+
 
 ---@param fields? audioAmbientPaletteBrush
 ---@return audioAmbientPaletteBrush

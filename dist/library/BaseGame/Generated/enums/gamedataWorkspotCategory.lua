@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataWorkspotCategory: Enum
 ---@field Any Enum 0
 ---@field Eating Enum 1

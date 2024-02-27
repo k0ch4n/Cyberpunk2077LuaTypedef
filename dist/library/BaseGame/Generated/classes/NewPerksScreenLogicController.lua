@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerksScreenLogicController: inkWidgetLogicController
 ---@field perksWidgets inkWidgetReference[]
 ---@field gauge inkWidgetReference
@@ -52,6 +53,7 @@
 ---@field perkToSnapCursor gamedataNewPerkType
 ---@field unlockState Int32
 NewPerksScreenLogicController = {}
+
 
 ---@param fields? NewPerksScreenLogicController
 ---@return NewPerksScreenLogicController

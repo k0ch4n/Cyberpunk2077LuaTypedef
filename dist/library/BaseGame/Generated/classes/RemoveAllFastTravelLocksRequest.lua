@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RemoveAllFastTravelLocksRequest: gameScriptableSystemRequest
 RemoveAllFastTravelLocksRequest = {}
+
 
 ---@param fields? RemoveAllFastTravelLocksRequest
 ---@return RemoveAllFastTravelLocksRequest

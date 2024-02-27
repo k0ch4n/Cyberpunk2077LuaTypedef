@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimationBufferSimd: animIAnimationBuffer
 ---@field duration Float
 ---@field numFrames Uint32
@@ -18,6 +19,7 @@
 ---@field fallbackFrameIndices Uint16[]
 ---@field extraDataNames CName[]
 animAnimationBufferSimd = {}
+
 
 ---@param fields? animAnimationBufferSimd
 ---@return animAnimationBufferSimd

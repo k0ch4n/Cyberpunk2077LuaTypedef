@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ChimeraWeakspotDelayedEvent: redEvent
 ChimeraWeakspotDelayedEvent = {}
+
 
 ---@param fields? ChimeraWeakspotDelayedEvent
 ---@return ChimeraWeakspotDelayedEvent

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class TextSpawnerController: inkWidgetLogicController
 ---@field amountOfRows Int32
 ---@field lineTextWidgetID CName
 ---@field texts inkWidget[]
 TextSpawnerController = {}
+
 
 ---@param fields? TextSpawnerController
 ---@return TextSpawnerController

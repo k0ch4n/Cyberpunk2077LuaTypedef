@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LerpToDefaultControllerLightColorRequest: gameScriptableSystemRequest
 ---@field notQuest Bool
 LerpToDefaultControllerLightColorRequest = {}
+
 
 ---@param fields? LerpToDefaultControllerLightColorRequest
 ---@return LerpToDefaultControllerLightColorRequest

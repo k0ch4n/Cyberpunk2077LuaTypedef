@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldLocationAreaNodeInstance: worldTriggerAreaNodeInstance
 worldLocationAreaNodeInstance = {}
+
 
 ---@param fields? worldLocationAreaNodeInstance
 ---@return worldLocationAreaNodeInstance

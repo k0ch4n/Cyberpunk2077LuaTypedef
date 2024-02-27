@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioBreathingStateTransitionMetadata: audioAudioMetadata
 ---@field fromNames CName[]
 ---@field toName CName
@@ -10,6 +11,7 @@
 ---@field eventTags audiobreathingEventTag[]
 ---@field isImmediate Bool
 audioBreathingStateTransitionMetadata = {}
+
 
 ---@param fields? audioBreathingStateTransitionMetadata
 ---@return audioBreathingStateTransitionMetadata

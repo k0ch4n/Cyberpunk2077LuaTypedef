@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEntityReference
 ---@field type gameEntityReferenceType
 ---@field reference NodeRef
@@ -8,6 +9,7 @@
 ---@field sceneActorContextName CName
 ---@field dynamicEntityUniqueName CName
 gameEntityReference = {}
+
 
 ---@param fields? gameEntityReference
 ---@return gameEntityReference

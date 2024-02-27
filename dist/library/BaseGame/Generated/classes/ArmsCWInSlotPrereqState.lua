@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ArmsCWInSlotPrereqState: gamePrereqState
 ---@field listener ArmsCWInSlotCallback
 ---@field owner gameObject
 ArmsCWInSlotPrereqState = {}
+
 
 ---@param fields? ArmsCWInSlotPrereqState
 ---@return ArmsCWInSlotPrereqState

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TryStopMovingOnTrafficLane: AIbehaviortaskScript
 TryStopMovingOnTrafficLane = {}
+
 
 ---@param fields? TryStopMovingOnTrafficLane
 ---@return TryStopMovingOnTrafficLane

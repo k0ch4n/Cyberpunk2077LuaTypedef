@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIReturnToRestrictMovementAreaCondition: RestrictedMovementAreaCondition
 AIReturnToRestrictMovementAreaCondition = {}
+
 
 ---@param fields? AIReturnToRestrictMovementAreaCondition
 ---@return AIReturnToRestrictMovementAreaCondition

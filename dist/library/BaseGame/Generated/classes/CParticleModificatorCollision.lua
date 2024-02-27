@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CParticleModificatorCollision: IParticleModificator
 ---@field restitution Float
 ---@field dynamicFriction Float
@@ -12,6 +13,7 @@
 ---@field disableGravity Bool
 ---@field killOnCollision Bool
 CParticleModificatorCollision = {}
+
 
 ---@param fields? CParticleModificatorCollision
 ---@return CParticleModificatorCollision

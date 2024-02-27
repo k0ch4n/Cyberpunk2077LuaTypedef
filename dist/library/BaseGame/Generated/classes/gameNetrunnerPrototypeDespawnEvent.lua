@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameNetrunnerPrototypeDespawnEvent: redEvent
 gameNetrunnerPrototypeDespawnEvent = {}
+
 
 ---@param fields? gameNetrunnerPrototypeDespawnEvent
 ---@return gameNetrunnerPrototypeDespawnEvent

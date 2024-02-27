@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuickHackDescriptionGameController: BaseChunkGameController
 ---@field subHeader inkTextWidgetReference
 ---@field tier inkTextWidgetReference
@@ -26,6 +27,7 @@
 ---@field equippedQuickHackData EquippedQuickHackData
 ---@field uiScriptableSystem UIScriptableSystem
 QuickHackDescriptionGameController = {}
+
 
 ---@param fields? QuickHackDescriptionGameController
 ---@return QuickHackDescriptionGameController

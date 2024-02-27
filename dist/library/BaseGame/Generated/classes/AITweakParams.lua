@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AITweakParams: IScriptable
 AITweakParams = {}
+
 
 ---@param fields? AITweakParams
 ---@return AITweakParams

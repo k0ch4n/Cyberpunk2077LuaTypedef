@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiUIObjectsLoaderSystem: gameuiIUIObjectsLoaderSystem
 gameuiUIObjectsLoaderSystem = {}
+
 
 ---@param fields? gameuiUIObjectsLoaderSystem
 ---@return gameuiUIObjectsLoaderSystem

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETrapEffects: Enum
 ---@field Explosion Enum 0
 ---@field Poisoned Enum 1

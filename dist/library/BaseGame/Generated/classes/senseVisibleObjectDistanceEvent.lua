@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class senseVisibleObjectDistanceEvent: redEvent
 ---@field distance Float
 senseVisibleObjectDistanceEvent = {}
+
 
 ---@param fields? senseVisibleObjectDistanceEvent
 ---@return senseVisibleObjectDistanceEvent

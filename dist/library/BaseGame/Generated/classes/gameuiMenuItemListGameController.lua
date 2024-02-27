@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameuiMenuItemListGameController: gameuiSaveHandlingController
 ---@field menuList inkCompoundWidgetReference
 ---@field menuEventDispatcher inkMenuEventDispatcher
 ---@field menuListController inkListController
 gameuiMenuItemListGameController = {}
+
 
 ---@param fields? gameuiMenuItemListGameController
 ---@return gameuiMenuItemListGameController

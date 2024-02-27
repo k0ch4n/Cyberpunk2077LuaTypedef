@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DataTermController: ScriptableDeviceComponent
 DataTermController = {}
+
 
 ---@param fields? DataTermController
 ---@return DataTermController

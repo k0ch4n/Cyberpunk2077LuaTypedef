@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HudPhoneAvatarController: HUDPhoneElement
 ---@field ContactAvatar inkImageWidgetReference
 ---@field HolocallRenderTexture inkImageWidgetReference
@@ -30,6 +31,7 @@
 ---@field Minimized Bool
 ---@field showAvatar Bool
 HudPhoneAvatarController = {}
+
 
 ---@param fields? HudPhoneAvatarController
 ---@return HudPhoneAvatarController

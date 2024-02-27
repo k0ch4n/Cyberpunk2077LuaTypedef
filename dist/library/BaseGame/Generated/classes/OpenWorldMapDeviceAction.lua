@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OpenWorldMapDeviceAction: ActionBool
 ---@field fastTravelPointData gameFastTravelPointData
 OpenWorldMapDeviceAction = {}
+
 
 ---@param fields? OpenWorldMapDeviceAction
 ---@return OpenWorldMapDeviceAction

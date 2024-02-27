@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SecSystemDebugger: gameScriptableSystem
 ---@field lastInstruction EReprimandInstructions
 ---@field instructionSet Bool
@@ -30,6 +31,7 @@
 ---@field system SecuritySystemControllerPS
 ---@field refreshTime Float
 SecSystemDebugger = {}
+
 
 ---@param fields? SecSystemDebugger
 ---@return SecSystemDebugger

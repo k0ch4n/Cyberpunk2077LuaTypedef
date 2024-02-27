@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SurveillanceCamera: SensorDevice
 ---@field virtualCam entVirtualCameraComponent
 ---@field cameraHead entIComponent
@@ -19,6 +20,7 @@
 ---@field currentYawModifier Float
 ---@field currentPitchModifier Float
 SurveillanceCamera = {}
+
 
 ---@param fields? SurveillanceCamera
 ---@return SurveillanceCamera

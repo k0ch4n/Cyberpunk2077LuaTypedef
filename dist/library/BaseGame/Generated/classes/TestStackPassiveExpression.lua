@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TestStackPassiveExpression: AIbehaviorStackScriptPassiveExpressionDefinition
 ---@field SomeNameProperty CName
 TestStackPassiveExpression = {}
+
 
 ---@param fields? TestStackPassiveExpression
 ---@return TestStackPassiveExpression

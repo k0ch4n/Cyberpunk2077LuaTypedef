@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entEntityTemplate: resStreamedResource
 ---@field includes entTemplateInclude[]
 ---@field appearances entTemplateAppearance[]
@@ -15,6 +16,7 @@
 ---@field inplaceResources CResource[]
 ---@field compiledEntityLODFlags Uint16
 entEntityTemplate = {}
+
 
 ---@param fields? entEntityTemplate
 ---@return entEntityTemplate

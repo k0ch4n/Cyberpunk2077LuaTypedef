@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProficiencyButtonController: inkButtonController
 ---@field labelText inkTextWidgetReference
 ---@field levelText inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field transparencyAnimationProxy inkanimProxy
 ---@field index Int32
 ProficiencyButtonController = {}
+
 
 ---@param fields? ProficiencyButtonController
 ---@return ProficiencyButtonController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BrowserController: inkWidgetLogicController
 ---@field homeButton inkWidgetReference
 ---@field homeButtonCoontroller LinkController
@@ -15,6 +16,7 @@
 ---@field currentPage inkCompoundWidget
 ---@field webPageSpawnRequest inkAsyncSpawnRequest
 BrowserController = {}
+
 
 ---@param fields? BrowserController
 ---@return BrowserController

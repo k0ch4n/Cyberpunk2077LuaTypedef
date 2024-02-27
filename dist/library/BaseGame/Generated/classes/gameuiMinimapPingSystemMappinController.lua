@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiMinimapPingSystemMappinController: gameuiBaseMinimapMappinController
 ---@field rootWidget inkWidgetReference
 gameuiMinimapPingSystemMappinController = {}
+
 
 ---@param fields? gameuiMinimapPingSystemMappinController
 ---@return gameuiMinimapPingSystemMappinController

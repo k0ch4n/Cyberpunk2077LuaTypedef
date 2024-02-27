@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RequestActionWidgetsUpdateEvent: RequestWidgetUpdateEvent
 RequestActionWidgetsUpdateEvent = {}
+
 
 ---@param fields? RequestActionWidgetsUpdateEvent
 ---@return RequestActionWidgetsUpdateEvent

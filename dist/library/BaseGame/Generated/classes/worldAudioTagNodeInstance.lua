@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldAudioTagNodeInstance: worldINodeInstance
 worldAudioTagNodeInstance = {}
+
 
 ---@param fields? worldAudioTagNodeInstance
 ---@return worldAudioTagNodeInstance

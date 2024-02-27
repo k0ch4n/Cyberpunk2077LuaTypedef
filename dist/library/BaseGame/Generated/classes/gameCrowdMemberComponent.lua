@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCrowdMemberComponent: entIComponent
 gameCrowdMemberComponent = {}
+
 
 ---@param fields? gameCrowdMemberComponent
 ---@return gameCrowdMemberComponent

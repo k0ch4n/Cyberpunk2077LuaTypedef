@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScriptedPrereqPSChangeListenerWrapper: IScriptable
 gameScriptedPrereqPSChangeListenerWrapper = {}
+
 
 ---@param fields? gameScriptedPrereqPSChangeListenerWrapper
 ---@return gameScriptedPrereqPSChangeListenerWrapper

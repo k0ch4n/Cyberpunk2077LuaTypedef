@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioGroupingTagMetadata: audioAudioMetadata
 ---@field shape CName
 ---@field classificationMethod audioClassificationMethod
@@ -10,6 +11,7 @@
 ---@field minimalGroupCount Float
 ---@field fullGroupCount Float
 audioGroupingTagMetadata = {}
+
 
 ---@param fields? audioGroupingTagMetadata
 ---@return audioGroupingTagMetadata

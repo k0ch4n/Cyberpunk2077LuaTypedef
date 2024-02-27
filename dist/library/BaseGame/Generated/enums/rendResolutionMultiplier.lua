@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendResolutionMultiplier: Enum
 ---@field X1 Enum 1
 ---@field X2 Enum 2

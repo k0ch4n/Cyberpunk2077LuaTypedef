@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldSaveSanitizationForbiddenAreaNodeInstance: worldTriggerAreaNodeInstance
 worldSaveSanitizationForbiddenAreaNodeInstance = {}
+
 
 ---@param fields? worldSaveSanitizationForbiddenAreaNodeInstance
 ---@return worldSaveSanitizationForbiddenAreaNodeInstance

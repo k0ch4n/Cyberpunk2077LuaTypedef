@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScriptedWeakspotObject: gameWeakspotObject
 ---@field weakspotOnDestroyProperties WeakspotOnDestroyProperties
 ---@field mesh entMeshComponent
@@ -17,6 +18,7 @@
 ---@field blockHighlight Bool
 ---@field blockDamage Bool
 ScriptedWeakspotObject = {}
+
 
 ---@param fields? ScriptedWeakspotObject
 ---@return ScriptedWeakspotObject

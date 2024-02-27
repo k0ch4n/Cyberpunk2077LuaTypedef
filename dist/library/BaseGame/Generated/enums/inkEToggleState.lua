@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkEToggleState: Enum
 ---@field Normal Enum 0
 ---@field Press Enum 1

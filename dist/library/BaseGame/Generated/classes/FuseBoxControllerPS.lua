@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class FuseBoxControllerPS: MasterControllerPS
 ---@field fuseBoxSkillChecks EngineeringContainer
 ---@field isGenerator Bool
 ---@field isOverloaded Bool
 FuseBoxControllerPS = {}
+
 
 ---@param fields? FuseBoxControllerPS
 ---@return FuseBoxControllerPS

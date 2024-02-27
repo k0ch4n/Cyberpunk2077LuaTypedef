@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class OxygenStatListener: gameCustomValueStatPoolsListener
 ---@field ownerPuppet PlayerPuppet
 ---@field oxygenVfxBlackboard worldEffectBlackboard
 OxygenStatListener = {}
+
 
 ---@param fields? OxygenStatListener
 ---@return OxygenStatListener

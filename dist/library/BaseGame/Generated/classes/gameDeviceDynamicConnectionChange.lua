@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDeviceDynamicConnectionChange: redEvent
 gameDeviceDynamicConnectionChange = {}
+
 
 ---@param fields? gameDeviceDynamicConnectionChange
 ---@return gameDeviceDynamicConnectionChange

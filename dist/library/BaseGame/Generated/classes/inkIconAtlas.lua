@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkIconAtlas: inkIIconAtlas
 inkIconAtlas = {}
+
 
 ---@param fields? inkIconAtlas
 ---@return inkIconAtlas

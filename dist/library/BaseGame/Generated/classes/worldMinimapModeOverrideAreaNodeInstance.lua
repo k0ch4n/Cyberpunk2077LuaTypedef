@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldMinimapModeOverrideAreaNodeInstance: worldTriggerAreaNodeInstance
 worldMinimapModeOverrideAreaNodeInstance = {}
+
 
 ---@param fields? worldMinimapModeOverrideAreaNodeInstance
 ---@return worldMinimapModeOverrideAreaNodeInstance

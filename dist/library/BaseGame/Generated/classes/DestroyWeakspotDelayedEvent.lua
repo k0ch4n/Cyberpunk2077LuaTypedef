@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DestroyWeakspotDelayedEvent: redEvent
 DestroyWeakspotDelayedEvent = {}
+
 
 ---@param fields? DestroyWeakspotDelayedEvent
 ---@return DestroyWeakspotDelayedEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrosshairGameController_Rasetsu: gameuiCrosshairBaseGameController
 ---@field hipFire inkWidgetReference
 ---@field aimFire inkWidgetReference
@@ -22,6 +23,7 @@
 ---@field rootAnimProxy inkanimProxy
 ---@field isRootVisible Bool
 CrosshairGameController_Rasetsu = {}
+
 
 ---@param fields? CrosshairGameController_Rasetsu
 ---@return CrosshairGameController_Rasetsu

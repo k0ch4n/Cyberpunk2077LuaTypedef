@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NotifyPoliceEffector: gameEffector
 NotifyPoliceEffector = {}
+
 
 ---@param fields? NotifyPoliceEffector
 ---@return NotifyPoliceEffector

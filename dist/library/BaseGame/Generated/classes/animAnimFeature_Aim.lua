@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class animAnimFeature_Aim: animAnimFeature_BasicAim
 ---@field aimPoint Vector4
 animAnimFeature_Aim = {}
+
 
 ---@param fields? animAnimFeature_Aim
 ---@return animAnimFeature_Aim

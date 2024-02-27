@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GogErrorNotificationController: inkWidgetLogicController
 ---@field errorMessageWidget inkWidgetReference
 GogErrorNotificationController = {}
+
 
 ---@param fields? GogErrorNotificationController
 ---@return GogErrorNotificationController

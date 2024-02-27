@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkSplashScreenLoadingScreenLogicController: inkILoadingLogicController
 ---@field logoTrainWBBink Bink
 ---@field logoTrainNamcoBink Bink
@@ -17,6 +18,7 @@
 ---@field videoPlayer inkVideoWidgetReference
 ---@field skipButtonPanel inkCompoundWidgetReference
 inkSplashScreenLoadingScreenLogicController = {}
+
 
 ---@param fields? inkSplashScreenLoadingScreenLogicController
 ---@return inkSplashScreenLoadingScreenLogicController

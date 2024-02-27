@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldStreamingSectorCategory: Enum
 ---@field Exterior Enum 0
 ---@field Interior Enum 1

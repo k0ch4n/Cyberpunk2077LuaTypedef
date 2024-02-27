@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameTransformsHistorySystem: gameITransformsHistorySystem
 gameTransformsHistorySystem = {}
+
 
 ---@param fields? gameTransformsHistorySystem
 ---@return gameTransformsHistorySystem

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InvisibleSceneStash: Device
 InvisibleSceneStash = {}
+
 
 ---@param fields? InvisibleSceneStash
 ---@return InvisibleSceneStash

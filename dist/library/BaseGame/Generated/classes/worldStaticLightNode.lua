@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldStaticLightNode: worldNode
 ---@field type ELightType
 ---@field color Color
@@ -54,6 +55,7 @@
 ---@field rtxdiShadowStartingDistance Float
 ---@field autoHideDistance Float
 worldStaticLightNode = {}
+
 
 ---@param fields? worldStaticLightNode
 ---@return worldStaticLightNode

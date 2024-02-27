@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkETextureResolution: Enum
 ---@field UltraHD_3840_2160 Enum 0
 ---@field FullHD_1920_1080 Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hudTurretController: gameuiHUDGameController
 ---@field healthStatus inkTextWidgetReference
 ---@field MessageText inkTextWidgetReference
@@ -35,6 +36,7 @@
 ---@field overclockListener OverclockHudListener
 ---@field isOverclockActive Bool
 hudTurretController = {}
+
 
 ---@param fields? hudTurretController
 ---@return hudTurretController

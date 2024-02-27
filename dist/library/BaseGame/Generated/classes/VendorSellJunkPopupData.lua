@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VendorSellJunkPopupData: inkGameNotificationData
 ---@field items gameItemData[]
 ---@field limitedItems VendorJunkSellItem[]
@@ -9,6 +10,7 @@
 ---@field limitedTotalPrice Int32
 ---@field actionType VendorSellJunkActionType
 VendorSellJunkPopupData = {}
+
 
 ---@param fields? VendorSellJunkPopupData
 ---@return VendorSellJunkPopupData

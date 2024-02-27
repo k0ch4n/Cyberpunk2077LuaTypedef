@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectData_Pierce
 gameEffectData_Pierce = {}
+
 
 ---@param fields? gameEffectData_Pierce
 ---@return gameEffectData_Pierce

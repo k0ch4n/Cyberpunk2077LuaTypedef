@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameuiSideScrollerMiniGameController: gameuiWidgetGameController
 ---@field gameplayCanvas inkWidgetReference
 ---@field gameName CName
 gameuiSideScrollerMiniGameController = {}
+
 
 ---@param fields? gameuiSideScrollerMiniGameController
 ---@return gameuiSideScrollerMiniGameController

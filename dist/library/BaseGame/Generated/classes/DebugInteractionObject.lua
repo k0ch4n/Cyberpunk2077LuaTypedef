@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DebugInteractionObject: gameObject
 ---@field choices SDebugChoice[]
 ---@field interaction gameinteractionsComponent
 DebugInteractionObject = {}
+
 
 ---@param fields? DebugInteractionObject
 ---@return DebugInteractionObject

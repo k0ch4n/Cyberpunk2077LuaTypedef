@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ShouldNPCReEquipWeaponOnDismount: AIbehaviorconditionScript
 ShouldNPCReEquipWeaponOnDismount = {}
+
 
 ---@param fields? ShouldNPCReEquipWeaponOnDismount
 ---@return ShouldNPCReEquipWeaponOnDismount

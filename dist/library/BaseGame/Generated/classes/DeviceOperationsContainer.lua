@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DeviceOperationsContainer: IScriptable
 ---@field operations DeviceOperationBase[]
 ---@field triggers DeviceOperationsTrigger[]
 DeviceOperationsContainer = {}
+
 
 ---@param fields? DeviceOperationsContainer
 ---@return DeviceOperationsContainer

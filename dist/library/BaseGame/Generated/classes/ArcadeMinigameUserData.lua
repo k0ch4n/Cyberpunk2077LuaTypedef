@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ArcadeMinigameUserData: inkUserData
 ---@field minigame ArcadeMinigame
 ArcadeMinigameUserData = {}
+
 
 ---@param fields? ArcadeMinigameUserData
 ---@return ArcadeMinigameUserData

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class tarotCardLogicController: inkWidgetLogicController
 ---@field image inkImageWidgetReference
 ---@field highlight inkWidgetReference
 ---@field ep1Icon inkWidgetReference
 ---@field data TarotCardData
 tarotCardLogicController = {}
+
 
 ---@param fields? tarotCardLogicController
 ---@return tarotCardLogicController

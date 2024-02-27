@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RequestDeviceWidgetUpdateEvent: RequestWidgetUpdateEvent
 RequestDeviceWidgetUpdateEvent = {}
+
 
 ---@param fields? RequestDeviceWidgetUpdateEvent
 ---@return RequestDeviceWidgetUpdateEvent

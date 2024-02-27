@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class animCollisionShapesCollection: ISerializable
 ---@field collisionRoundedShapes animCollisionRoundedShape[]
 animCollisionShapesCollection = {}
+
 
 ---@param fields? animCollisionShapesCollection
 ---@return animCollisionShapesCollection

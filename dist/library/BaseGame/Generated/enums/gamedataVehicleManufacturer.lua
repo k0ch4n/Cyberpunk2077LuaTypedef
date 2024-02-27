@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataVehicleManufacturer: Enum
 ---@field Arch Enum 0
 ---@field Archer Enum 1

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DispenseFreeSpecificItem: redEvent
 ---@field item TweakDBID
 DispenseFreeSpecificItem = {}
+
 
 ---@param fields? DispenseFreeSpecificItem
 ---@return DispenseFreeSpecificItem

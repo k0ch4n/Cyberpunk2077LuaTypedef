@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiEWorldMapDistrictView: Enum
 ---@field None Enum 0
 ---@field Districts Enum 1

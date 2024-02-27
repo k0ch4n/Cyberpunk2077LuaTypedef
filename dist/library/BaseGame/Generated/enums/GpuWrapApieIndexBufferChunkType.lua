@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GpuWrapApieIndexBufferChunkType: Enum
 ---@field IBCT_IndexUInt Enum 0
 ---@field IBCT_IndexUShort Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Crosshair_ChargeBar: gameuiCrosshairBaseGameController
 ---@field bar inkWidgetReference
 ---@field ammo inkTextWidgetReference
@@ -10,6 +11,7 @@
 ---@field sizeOfChargeBar Vector2
 ---@field chargeBBID redCallbackObject
 Crosshair_ChargeBar = {}
+
 
 ---@param fields? Crosshair_ChargeBar
 ---@return Crosshair_ChargeBar

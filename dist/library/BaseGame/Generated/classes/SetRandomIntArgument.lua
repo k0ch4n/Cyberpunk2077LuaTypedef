@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SetRandomIntArgument: AIRandomTasks
 ---@field MaxValue Int32
 ---@field MinValue Int32
 ---@field ArgumentName CName
 SetRandomIntArgument = {}
+
 
 ---@param fields? SetRandomIntArgument
 ---@return SetRandomIntArgument

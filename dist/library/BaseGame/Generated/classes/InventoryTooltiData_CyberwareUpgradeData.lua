@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryTooltiData_CyberwareUpgradeData: IScriptable
 ---@field upgradeQuality gamedataQuality
 ---@field isUpgradable Bool
@@ -8,6 +9,7 @@
 ---@field playerComponents Int32
 ---@field upgradeCost CyberwareUpgradeCostData
 InventoryTooltiData_CyberwareUpgradeData = {}
+
 
 ---@param fields? InventoryTooltiData_CyberwareUpgradeData
 ---@return InventoryTooltiData_CyberwareUpgradeData

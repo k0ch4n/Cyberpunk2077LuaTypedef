@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCommunityProxyPSPresentEvent: redEvent
 gameCommunityProxyPSPresentEvent = {}
+
 
 ---@param fields? gameCommunityProxyPSPresentEvent
 ---@return gameCommunityProxyPSPresentEvent

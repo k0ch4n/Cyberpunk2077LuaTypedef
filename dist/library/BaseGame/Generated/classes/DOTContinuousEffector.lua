@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DOTContinuousEffector: gameContinuousEffector
 DOTContinuousEffector = {}
+
 
 ---@param fields? DOTContinuousEffector
 ---@return DOTContinuousEffector

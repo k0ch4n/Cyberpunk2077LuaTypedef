@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleVehicle: ActionBool
 ToggleVehicle = {}
+
 
 ---@param fields? ToggleVehicle
 ---@return ToggleVehicle

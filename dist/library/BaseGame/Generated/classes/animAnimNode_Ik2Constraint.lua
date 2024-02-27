@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_Ik2Constraint: animAnimNode_OnePoseInput
 ---@field inputTarget animIAnimNodeSourceChannel_Vector
 ---@field inputPoleVector animIAnimNodeSourceChannel_Vector
@@ -15,6 +16,7 @@
 ---@field twistNode animFloatLink
 ---@field maxHingeAngle Float
 animAnimNode_Ik2Constraint = {}
+
 
 ---@param fields? animAnimNode_Ik2Constraint
 ---@return animAnimNode_Ik2Constraint

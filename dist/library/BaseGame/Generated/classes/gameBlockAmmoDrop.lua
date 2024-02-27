@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameBlockAmmoDrop: gameScriptableSystemRequest
 gameBlockAmmoDrop = {}
+
 
 ---@param fields? gameBlockAmmoDrop
 ---@return gameBlockAmmoDrop

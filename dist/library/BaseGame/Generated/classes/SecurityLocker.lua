@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SecurityLocker: InteractiveDevice
 ---@field cachedEvent UseSecurityLocker
 SecurityLocker = {}
+
 
 ---@param fields? SecurityLocker
 ---@return SecurityLocker

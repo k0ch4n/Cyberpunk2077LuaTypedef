@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameFriendlyFireSystem: gameIFriendlyFireSystem
 gameFriendlyFireSystem = {}
+
 
 ---@param fields? gameFriendlyFireSystem
 ---@return gameFriendlyFireSystem

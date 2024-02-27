@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CRenderLightVolumeAllocator: ISceneStorageCustomData
 CRenderLightVolumeAllocator = {}
+
 
 ---@param fields? CRenderLightVolumeAllocator
 ---@return CRenderLightVolumeAllocator

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CameraTagLockEvent: redEvent
 ---@field isLocked Bool
 CameraTagLockEvent = {}
+
 
 ---@param fields? CameraTagLockEvent
 ---@return CameraTagLockEvent

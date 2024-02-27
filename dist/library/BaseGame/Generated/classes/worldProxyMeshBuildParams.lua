@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldProxyMeshBuildParams
 ---@field buildProxy Bool
 ---@field type worldProxyMeshBuildType
@@ -17,6 +18,7 @@
 ---@field customGeometry worldProxyCustomGeometryParams
 ---@field advancedParams worldProxyMeshAdvancedBuildParams
 worldProxyMeshBuildParams = {}
+
 
 ---@param fields? worldProxyMeshBuildParams
 ---@return worldProxyMeshBuildParams

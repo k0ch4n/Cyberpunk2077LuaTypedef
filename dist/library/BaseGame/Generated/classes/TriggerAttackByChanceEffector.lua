@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TriggerAttackByChanceEffector: gameEffector
 ---@field attackTDBID TweakDBID
 ---@field selfStatusEffectID TweakDBID
@@ -9,6 +10,7 @@
 ---@field statListener TriggerAttackByChanceStatListener
 ---@field statBasedChance Float
 TriggerAttackByChanceEffector = {}
+
 
 ---@param fields? TriggerAttackByChanceEffector
 ---@return TriggerAttackByChanceEffector

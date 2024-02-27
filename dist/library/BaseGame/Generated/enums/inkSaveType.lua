@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkSaveType: Enum
 ---@field ManualSave Enum 0
 ---@field QuickSave Enum 1

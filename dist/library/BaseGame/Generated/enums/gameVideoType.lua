@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameVideoType: Enum
 ---@field Tutorial_720x405 Enum 0
 ---@field Tutorial_1024x576 Enum 1

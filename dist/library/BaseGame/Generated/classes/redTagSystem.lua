@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class redTagSystem
 redTagSystem = {}
+
 
 ---@param fields? redTagSystem
 ---@return redTagSystem

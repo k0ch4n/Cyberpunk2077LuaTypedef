@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class appearanceAppearanceResource: resStreamedResource
 ---@field alternateAppearanceSettingName CName
 ---@field alternateAppearanceSuffixes CName[]
@@ -19,6 +20,7 @@
 ---@field forceCompileProxy Bool
 ---@field generatePlayerBlockingCollisionForProxy Bool
 appearanceAppearanceResource = {}
+
 
 ---@param fields? appearanceAppearanceResource
 ---@return appearanceAppearanceResource

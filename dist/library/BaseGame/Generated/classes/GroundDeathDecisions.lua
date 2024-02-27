@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GroundDeathDecisions: DeathDecisionsWithResurrection
 GroundDeathDecisions = {}
+
 
 ---@param fields? GroundDeathDecisions
 ---@return GroundDeathDecisions

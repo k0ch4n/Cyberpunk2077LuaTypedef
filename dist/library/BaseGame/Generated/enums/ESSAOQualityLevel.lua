@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ESSAOQualityLevel: Enum
 ---@field SSAOQUALITY_VeryLow Enum 0
 ---@field SSAOQUALITY_Low Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataNPCRarity_Record: gamedataTweakDBRecord
 gamedataNPCRarity_Record = {}
+
 
 ---@param fields? gamedataNPCRarity_Record
 ---@return gamedataNPCRarity_Record

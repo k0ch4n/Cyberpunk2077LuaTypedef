@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIAction_Record: gamedataAINode_Record
 gamedataAIAction_Record = {}
+
 
 ---@param fields? gamedataAIAction_Record
 ---@return gamedataAIAction_Record

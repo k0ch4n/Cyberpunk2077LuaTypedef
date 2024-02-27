@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GlitchedTurretControllerPS: ScriptableDeviceComponentPS
 GlitchedTurretControllerPS = {}
+
 
 ---@param fields? GlitchedTurretControllerPS
 ---@return GlitchedTurretControllerPS

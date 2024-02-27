@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StandLowGravityEvents: LocomotionGroundEvents
 StandLowGravityEvents = {}
+
 
 ---@param fields? StandLowGravityEvents
 ---@return StandLowGravityEvents

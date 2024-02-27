@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class EulerAngles
 ---@field Pitch Float
 ---@field Yaw Float
 ---@field Roll Float
 EulerAngles = {}
+
 
 ---@param fields? EulerAngles
 ---@return EulerAngles

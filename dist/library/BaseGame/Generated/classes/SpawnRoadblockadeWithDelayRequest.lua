@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SpawnRoadblockadeWithDelayRequest: gameScriptableSystemRequest
 SpawnRoadblockadeWithDelayRequest = {}
+
 
 ---@param fields? SpawnRoadblockadeWithDelayRequest
 ---@return SpawnRoadblockadeWithDelayRequest

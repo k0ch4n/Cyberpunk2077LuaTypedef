@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalBriefingContentType: Enum
 ---@field MapLocation Enum 0
 ---@field VideoContent Enum 1

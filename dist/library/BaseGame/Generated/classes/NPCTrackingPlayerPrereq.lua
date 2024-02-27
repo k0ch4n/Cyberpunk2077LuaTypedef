@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NPCTrackingPlayerPrereq: gameIScriptablePrereq
 ---@field invert Bool
 NPCTrackingPlayerPrereq = {}
+
 
 ---@param fields? NPCTrackingPlayerPrereq
 ---@return NPCTrackingPlayerPrereq

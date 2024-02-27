@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animLookAtPartsDependency
 ---@field masterPart CName
 ---@field slavePart CName
@@ -14,6 +15,7 @@
 ---@field pullScaleBySquareSizeCurve curveData
 ---@field innerSquareScale Float
 animLookAtPartsDependency = {}
+
 
 ---@param fields? animLookAtPartsDependency
 ---@return animLookAtPartsDependency

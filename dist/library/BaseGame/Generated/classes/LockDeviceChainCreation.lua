@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class LockDeviceChainCreation: gameScriptableSystemRequest
 ---@field isLocked Bool
 ---@field source CName
 LockDeviceChainCreation = {}
+
 
 ---@param fields? LockDeviceChainCreation
 ---@return LockDeviceChainCreation

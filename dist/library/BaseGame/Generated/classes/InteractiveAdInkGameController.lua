@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InteractiveAdInkGameController: DeviceInkGameControllerBase
 ---@field ProcessingVideo inkVideoWidgetReference
 ---@field PersonalAd inkVideoWidgetReference
@@ -11,6 +12,7 @@
 ---@field onShowAdListener redCallbackObject
 ---@field onShowVendorListener redCallbackObject
 InteractiveAdInkGameController = {}
+
 
 ---@param fields? InteractiveAdInkGameController
 ---@return InteractiveAdInkGameController

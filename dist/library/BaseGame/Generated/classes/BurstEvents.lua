@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BurstEvents: WeaponEventsTransition
 BurstEvents = {}
+
 
 ---@param fields? BurstEvents
 ---@return BurstEvents

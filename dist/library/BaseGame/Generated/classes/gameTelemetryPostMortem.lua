@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTelemetryPostMortem
 ---@field crashVisitId String
 ---@field playthroughId String
@@ -13,6 +14,7 @@
 ---@field sessionLength Float
 ---@field isOom Bool
 gameTelemetryPostMortem = {}
+
 
 ---@param fields? gameTelemetryPostMortem
 ---@return gameTelemetryPostMortem

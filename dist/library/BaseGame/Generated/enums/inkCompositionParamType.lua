@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkCompositionParamType: Enum
 ---@field FLOAT Enum 0
 ---@field VECTOR2 Enum 1

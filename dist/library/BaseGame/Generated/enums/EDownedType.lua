@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EDownedType: Enum
 ---@field Killed Enum 0
 ---@field Finished Enum 1

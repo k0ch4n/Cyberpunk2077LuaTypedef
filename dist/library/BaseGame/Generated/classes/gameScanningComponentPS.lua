@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameScanningComponentPS: gameComponentPS
 ---@field scanningState gameScanningState
 ---@field pctScanned Float
@@ -9,6 +10,7 @@
 ---@field isDecriptionEnabled Bool
 ---@field objectDescriptionOverride ObjectScanningDescription
 gameScanningComponentPS = {}
+
 
 ---@param fields? gameScanningComponentPS
 ---@return gameScanningComponentPS

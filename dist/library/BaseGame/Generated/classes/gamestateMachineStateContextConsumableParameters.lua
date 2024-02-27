@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamestateMachineStateContextConsumableParameters
 ---@field boolParameters gamestateMachineConsumableParameterBool
 ---@field intParameters gamestateMachineConsumableParameterInt
@@ -11,6 +12,7 @@
 ---@field weakIScriptableParameters gamestateMachineConsumableParameterWeakIScriptable
 ---@field tweakDBIDParameters gamestateMachineConsumableParameterTweakDBID
 gamestateMachineStateContextConsumableParameters = {}
+
 
 ---@param fields? gamestateMachineStateContextConsumableParameters
 ---@return gamestateMachineStateContextConsumableParameters

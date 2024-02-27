@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReflectionClass: ReflectionType
 ReflectionClass = {}
+
 
 ---@param fields? ReflectionClass
 ---@return ReflectionClass

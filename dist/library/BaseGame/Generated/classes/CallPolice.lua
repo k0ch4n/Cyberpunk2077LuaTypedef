@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CallPolice: AIbehaviortaskScript
 CallPolice = {}
+
 
 ---@param fields? CallPolice
 ---@return CallPolice

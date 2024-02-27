@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VolCloudsCustomData: ICameraStorageCustomData
 VolCloudsCustomData = {}
+
 
 ---@param fields? VolCloudsCustomData
 ---@return VolCloudsCustomData

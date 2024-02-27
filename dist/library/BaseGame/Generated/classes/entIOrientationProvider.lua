@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entIOrientationProvider: IScriptable
 entIOrientationProvider = {}
+
 
 ---@param slotComponent entSlotComponent
 ---@param slotName CName|string

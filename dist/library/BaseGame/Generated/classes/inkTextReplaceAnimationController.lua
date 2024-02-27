@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkTextReplaceAnimationController: inkTextAnimationController
 ---@field timeToSkip Float
 ---@field widgetTextUsage inkTextReplaceAnimationControllerWidgetTextUsage
@@ -7,6 +8,7 @@
 ---@field targetText String
 ---@field targetTextLocalized LocalizationString
 inkTextReplaceAnimationController = {}
+
 
 ---@param fields? inkTextReplaceAnimationController
 ---@return inkTextReplaceAnimationController

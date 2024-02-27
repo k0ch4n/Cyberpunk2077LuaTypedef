@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WorldMapTooltipController: WorldMapTooltipBaseController
 ---@field titleText inkTextWidgetReference
 ---@field fixerIcon inkImageWidgetReference
@@ -22,6 +23,7 @@
 ---@field gigBarCompletedText inkTextWidgetReference
 ---@field gigBarTotalText inkTextWidgetReference
 WorldMapTooltipController = {}
+
 
 ---@param fields? WorldMapTooltipController
 ---@return WorldMapTooltipController

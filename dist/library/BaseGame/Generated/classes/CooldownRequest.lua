@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CooldownRequest: IScriptable
 ---@field action BaseScriptableAction
 ---@field contactBook PSOwnerData[]
 ---@field requestTriggerType RequestType
 CooldownRequest = {}
+
 
 ---@param fields? CooldownRequest
 ---@return CooldownRequest

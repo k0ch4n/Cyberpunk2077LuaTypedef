@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkOffscreenWidgetSpawnEvt: redEvent
 inkOffscreenWidgetSpawnEvt = {}
+
 
 ---@param fields? inkOffscreenWidgetSpawnEvt
 ---@return inkOffscreenWidgetSpawnEvt

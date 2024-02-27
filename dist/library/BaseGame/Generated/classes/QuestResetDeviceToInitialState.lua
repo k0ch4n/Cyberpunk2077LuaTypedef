@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestResetDeviceToInitialState: ActionBool
 QuestResetDeviceToInitialState = {}
+
 
 ---@param fields? QuestResetDeviceToInitialState
 ---@return QuestResetDeviceToInitialState

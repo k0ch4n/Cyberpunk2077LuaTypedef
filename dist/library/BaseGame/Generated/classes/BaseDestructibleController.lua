@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BaseDestructibleController: ScriptableDeviceComponent
 BaseDestructibleController = {}
+
 
 ---@param fields? BaseDestructibleController
 ---@return BaseDestructibleController

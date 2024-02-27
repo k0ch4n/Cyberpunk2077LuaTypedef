@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIRagdollDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field ragdollInstigator gameObject
 ---@field closestNavmeshPoint Vector4
@@ -7,6 +8,7 @@
 ---@field isUnderwater Bool
 ---@field poseAllowsRecovery Bool
 AIRagdollDelegate = {}
+
 
 ---@param fields? AIRagdollDelegate
 ---@return AIRagdollDelegate

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BodySlamJumpDecisions: JumpDecisions
 BodySlamJumpDecisions = {}
+
 
 ---@param fields? BodySlamJumpDecisions
 ---@return BodySlamJumpDecisions

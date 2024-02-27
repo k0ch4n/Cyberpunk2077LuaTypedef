@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SendAIBheaviorReactionStim: AIbehaviortaskScript
 ---@field stimToSend gamedataStimType
 SendAIBheaviorReactionStim = {}
+
 
 ---@param fields? SendAIBheaviorReactionStim
 ---@return SendAIBheaviorReactionStim

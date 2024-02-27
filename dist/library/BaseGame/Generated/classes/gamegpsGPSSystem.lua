@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamegpsGPSSystem: gamegpsIGPSSystem
 gamegpsGPSSystem = {}
+
 
 ---@param fields? gamegpsGPSSystem
 ---@return gamegpsGPSSystem

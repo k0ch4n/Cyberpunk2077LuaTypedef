@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAISquadChoiceAlgorithm: Enum
 ---@field Invalid Enum 0
 ---@field TargetDistance Enum 1

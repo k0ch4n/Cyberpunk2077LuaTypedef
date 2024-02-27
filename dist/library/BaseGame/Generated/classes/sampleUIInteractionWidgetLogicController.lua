@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class sampleUIInteractionWidgetLogicController: inkWidgetLogicController
 ---@field enableStateColor Color
 ---@field disableStateColor Color
 ---@field textWidget inkTextWidget
 sampleUIInteractionWidgetLogicController = {}
+
 
 ---@param fields? sampleUIInteractionWidgetLogicController
 ---@return sampleUIInteractionWidgetLogicController

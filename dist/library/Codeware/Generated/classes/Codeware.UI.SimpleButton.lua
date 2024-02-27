@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Codeware_UI_SimpleButton: Codeware_UI_CustomButton
 ---@field isFlipped Bool
 ---@field bg inkImageWidget
@@ -14,6 +15,7 @@
 ---@field pressedFillAnimDef inkanimDefinition
 ---@field pressedFillAnimProxy inkanimProxy
 Codeware_UI_SimpleButton = {}
+
 
 ---@param fields? Codeware_UI_SimpleButton
 ---@return Codeware_UI_SimpleButton

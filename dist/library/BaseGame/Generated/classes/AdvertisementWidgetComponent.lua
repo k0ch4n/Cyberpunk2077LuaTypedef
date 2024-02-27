@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AdvertisementWidgetComponent: IWorldWidgetComponent
 ---@field format AdvertisementFormat
 ---@field adGroupTDBID TweakDBID
@@ -8,6 +9,7 @@
 ---@field adVersion Uint32
 ---@field useOnlyAttachedLights Bool
 AdvertisementWidgetComponent = {}
+
 
 ---@param fields? AdvertisementWidgetComponent
 ---@return AdvertisementWidgetComponent

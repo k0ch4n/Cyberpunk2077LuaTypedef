@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldWeatherState: ISerializable
 ---@field minDuration curveData
 ---@field maxDuration curveData
@@ -9,6 +10,7 @@
 ---@field probability curveData
 ---@field transitionDuration curveData
 worldWeatherState = {}
+
 
 ---@param fields? worldWeatherState
 ---@return worldWeatherState

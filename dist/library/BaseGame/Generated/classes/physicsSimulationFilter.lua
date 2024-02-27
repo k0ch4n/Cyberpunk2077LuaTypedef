@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class physicsSimulationFilter
 ---@field mask1 Uint64
 ---@field mask2 Uint64
 physicsSimulationFilter = {}
+
 
 ---@param fields? physicsSimulationFilter
 ---@return physicsSimulationFilter

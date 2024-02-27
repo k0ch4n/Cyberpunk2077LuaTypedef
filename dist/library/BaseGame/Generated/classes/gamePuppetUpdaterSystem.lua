@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePuppetUpdaterSystem: gameIPuppetUpdaterSystem
 gamePuppetUpdaterSystem = {}
+
 
 ---@param fields? gamePuppetUpdaterSystem
 ---@return gamePuppetUpdaterSystem

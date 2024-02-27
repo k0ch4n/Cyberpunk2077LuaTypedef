@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class TransmogMessageDescTooltip: MessageTooltip
 ---@field titleWrapper inkWidgetReference
 ---@field descriptionWrapper inkWidgetReference
 ---@field descriptionLine inkWidgetReference
 ---@field icon inkImageWidgetReference
 TransmogMessageDescTooltip = {}
+
 
 ---@param fields? TransmogMessageDescTooltip
 ---@return TransmogMessageDescTooltip

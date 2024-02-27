@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IconsModule: HUDModule
 IconsModule = {}
+
 
 ---@param fields? IconsModule
 ---@return IconsModule

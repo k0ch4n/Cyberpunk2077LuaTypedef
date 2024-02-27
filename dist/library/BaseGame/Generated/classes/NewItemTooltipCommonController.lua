@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewItemTooltipCommonController: AGenericTooltipControllerWithDebug
 ---@field backgroundContainer inkWidgetReference
 ---@field itemEquippedContainer inkWidgetReference
@@ -51,6 +52,7 @@
 ---@field bigFontEnabled Bool
 ---@field inCrafting Bool
 NewItemTooltipCommonController = {}
+
 
 ---@param fields? NewItemTooltipCommonController
 ---@return NewItemTooltipCommonController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ZoomLevelAimEvents: ZoomEventsTransition
 ---@field isAmingWithWeapon Bool
 ZoomLevelAimEvents = {}
+
 
 ---@param fields? ZoomLevelAimEvents
 ---@return ZoomLevelAimEvents

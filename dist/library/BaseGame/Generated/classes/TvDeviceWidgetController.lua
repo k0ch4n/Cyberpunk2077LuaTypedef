@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TvDeviceWidgetController: DeviceWidgetControllerBase
 ---@field videoWidget inkVideoWidgetReference
 ---@field globalTVChannelSlot inkBasePanelWidgetReference
@@ -8,6 +9,7 @@
 ---@field globalTVChannel inkWidget
 ---@field activeVideo redResourceReferenceScriptToken
 TvDeviceWidgetController = {}
+
 
 ---@param fields? TvDeviceWidgetController
 ---@return TvDeviceWidgetController

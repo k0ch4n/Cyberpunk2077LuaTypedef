@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GameSessionEvent: NamedEvent
 GameSessionEvent = {}
+
 
 ---@param fields? GameSessionEvent
 ---@return GameSessionEvent

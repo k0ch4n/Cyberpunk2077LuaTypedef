@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VirtualNestedListController: inkVirtualListController
 ---@field dataView VirtualNestedListDataView
 ---@field dataSource inkScriptableDataSourceWrapper
@@ -7,6 +8,7 @@
 ---@field defaultCollapsed Bool
 ---@field toggledLevels Int32[]
 VirtualNestedListController = {}
+
 
 ---@param fields? VirtualNestedListController
 ---@return VirtualNestedListController

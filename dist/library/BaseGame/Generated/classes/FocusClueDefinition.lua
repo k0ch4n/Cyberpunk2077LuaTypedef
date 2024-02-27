@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FocusClueDefinition
 ---@field extendedClueRecords ClueRecordData[]
 ---@field clueRecord TweakDBID
@@ -13,6 +14,7 @@
 ---@field qDbCallbackID Uint32
 ---@field conclusionQuestState EConclusionQuestState
 FocusClueDefinition = {}
+
 
 ---@param fields? FocusClueDefinition
 ---@return FocusClueDefinition

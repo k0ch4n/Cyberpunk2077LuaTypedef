@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataIsHackable_Record: gamedataTweakDBRecord
 gamedataIsHackable_Record = {}
+
 
 ---@param fields? gamedataIsHackable_Record
 ---@return gamedataIsHackable_Record

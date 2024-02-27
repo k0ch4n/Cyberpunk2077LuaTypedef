@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameVisionModeMappinEvent: redEvent
 ---@field show Bool
 gameVisionModeMappinEvent = {}
+
 
 ---@param fields? gameVisionModeMappinEvent
 ---@return gameVisionModeMappinEvent

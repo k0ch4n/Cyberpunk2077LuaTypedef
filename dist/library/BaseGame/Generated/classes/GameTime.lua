@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GameTime
 ---@field seconds Int32
 GameTime = {}
+
 
 ---@param fields? GameTime
 ---@return GameTime

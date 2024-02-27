@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActionsSequencerController: ScriptableDeviceComponent
 ActionsSequencerController = {}
+
 
 ---@param fields? ActionsSequencerController
 ---@return ActionsSequencerController

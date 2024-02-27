@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BuyPerk: gamePlayerScriptableSystemRequest
 ---@field perkType gamedataPerkType
 BuyPerk = {}
+
 
 ---@param fields? BuyPerk
 ---@return BuyPerk

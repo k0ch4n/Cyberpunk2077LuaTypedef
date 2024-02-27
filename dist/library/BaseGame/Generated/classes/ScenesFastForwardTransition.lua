@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ScenesFastForwardTransition: DefaultTransition
 ScenesFastForwardTransition = {}
+
 
 ---@param owner gameObject
 ---@return nil

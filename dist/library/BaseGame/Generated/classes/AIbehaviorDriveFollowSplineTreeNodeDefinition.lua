@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorDriveFollowSplineTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field useKinematic AIArgumentMapping
 ---@field needDriver AIArgumentMapping
@@ -21,6 +22,7 @@
 ---@field rubberBandingTeleportToCatchUp AIArgumentMapping
 ---@field audioCurvesParam AIArgumentMapping
 AIbehaviorDriveFollowSplineTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorDriveFollowSplineTreeNodeDefinition
 ---@return AIbehaviorDriveFollowSplineTreeNodeDefinition

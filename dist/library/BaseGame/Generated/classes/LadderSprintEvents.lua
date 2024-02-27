@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LadderSprintEvents: LadderEvents
 LadderSprintEvents = {}
+
 
 ---@param fields? LadderSprintEvents
 ---@return LadderSprintEvents

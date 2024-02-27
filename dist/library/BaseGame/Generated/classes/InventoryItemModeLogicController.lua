@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryItemModeLogicController: inkWidgetLogicController
 ---@field itemCategoryList inkCompoundWidgetReference
 ---@field itemCategoryHeader inkTextWidgetReference
@@ -81,6 +82,7 @@
 ---@field installModData InstallModConfirmationData
 ---@field HACK_lastItemDisplayEvent ItemDisplayClickEvent
 InventoryItemModeLogicController = {}
+
 
 ---@param fields? InventoryItemModeLogicController
 ---@return InventoryItemModeLogicController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PocketRadio: IScriptable
 ---@field player PlayerPuppet
 ---@field station Int32
@@ -15,6 +16,7 @@
 ---@field isInMetro Bool
 ---@field settings RadioportSettingsListener
 PocketRadio = {}
+
 
 ---@param fields? PocketRadio
 ---@return PocketRadio

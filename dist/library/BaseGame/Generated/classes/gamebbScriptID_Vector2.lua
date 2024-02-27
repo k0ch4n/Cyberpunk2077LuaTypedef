@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamebbScriptID_Vector2: gamebbScriptID
 gamebbScriptID_Vector2 = {}
+
 
 ---@param fields? gamebbScriptID_Vector2
 ---@return gamebbScriptID_Vector2

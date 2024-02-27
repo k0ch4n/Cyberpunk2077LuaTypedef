@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDestructibleSpotsSystem: worldIDestructibleSpotsSystem
 gameDestructibleSpotsSystem = {}
+
 
 ---@param fields? gameDestructibleSpotsSystem
 ---@return gameDestructibleSpotsSystem

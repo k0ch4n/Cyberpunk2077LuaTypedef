@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_BlendSpace_InternalsBlendSpace
 ---@field spaceDimension Uint32
 ---@field coordinatesDescriptions animAnimNode_BlendSpace_InternalsBlendSpaceCoordinateDescription[]
@@ -15,6 +16,7 @@
 ---@field cachedSamplesForGridPoints_simplexIndex Int32[]
 ---@field cachedSamplesForGridPoints_weightsForPoints Float[]
 animAnimNode_BlendSpace_InternalsBlendSpace = {}
+
 
 ---@param fields? animAnimNode_BlendSpace_InternalsBlendSpace
 ---@return animAnimNode_BlendSpace_InternalsBlendSpace

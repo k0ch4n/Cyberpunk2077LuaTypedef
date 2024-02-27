@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AISetCombatPresetTask: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 AISetCombatPresetTask = {}
+
 
 ---@param fields? AISetCombatPresetTask
 ---@return AISetCombatPresetTask

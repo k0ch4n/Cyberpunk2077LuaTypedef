@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CParticleEmitter: IParticleModule
 ---@field modules IParticleModule[]
 ---@field positionX Int32
@@ -39,6 +40,7 @@
 ---@field NoiseThreshold Float
 ---@field NoiseVelocity Vector3
 CParticleEmitter = {}
+
 
 ---@param fields? CParticleEmitter
 ---@return CParticleEmitter

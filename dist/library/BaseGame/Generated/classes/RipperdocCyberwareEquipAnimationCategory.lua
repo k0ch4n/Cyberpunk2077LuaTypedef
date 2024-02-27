@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class RipperdocCyberwareEquipAnimationCategory: IScriptable
 ---@field factName CName
 ---@field equipAreas gamedataEquipmentArea[]
 ---@field weight Float
 ---@field equipCount Int32
 RipperdocCyberwareEquipAnimationCategory = {}
+
 
 ---@param fields? RipperdocCyberwareEquipAnimationCategory
 ---@return RipperdocCyberwareEquipAnimationCategory

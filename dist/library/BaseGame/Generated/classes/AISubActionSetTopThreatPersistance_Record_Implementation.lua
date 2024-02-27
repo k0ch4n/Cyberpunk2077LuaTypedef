@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionSetTopThreatPersistance_Record_Implementation: IScriptable
 AISubActionSetTopThreatPersistance_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionSetTopThreatPersistance_Record

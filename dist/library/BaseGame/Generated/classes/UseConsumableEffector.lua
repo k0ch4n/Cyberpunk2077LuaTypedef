@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UseConsumableEffector: gameEffector
 UseConsumableEffector = {}
+
 
 ---@param fields? UseConsumableEffector
 ---@return UseConsumableEffector

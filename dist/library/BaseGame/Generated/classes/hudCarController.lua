@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hudCarController: gameuiHUDGameController
 ---@field SpeedValue inkTextWidgetReference
 ---@field SpeedUnits inkTextWidgetReference
@@ -26,6 +27,7 @@
 ---@field groupPath CName
 ---@field kmOn Bool
 hudCarController = {}
+
 
 ---@param fields? hudCarController
 ---@return hudCarController

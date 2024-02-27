@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worlduiAdvertisementWidgetComponentWrapper: inkIAdvertisementWidgetComponentWrapper
 worlduiAdvertisementWidgetComponentWrapper = {}
+
 
 ---@param fields? worlduiAdvertisementWidgetComponentWrapper
 ---@return worlduiAdvertisementWidgetComponentWrapper

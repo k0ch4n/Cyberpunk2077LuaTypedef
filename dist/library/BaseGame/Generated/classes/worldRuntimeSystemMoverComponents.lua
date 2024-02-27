@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemMoverComponents: worldIRuntimeSystem
 worldRuntimeSystemMoverComponents = {}
+
 
 ---@param fields? worldRuntimeSystemMoverComponents
 ---@return worldRuntimeSystemMoverComponents

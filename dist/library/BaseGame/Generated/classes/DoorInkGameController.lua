@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DoorInkGameController: DeviceInkGameControllerBase
 ---@field doorStaturTextWidget inkTextWidget
 DoorInkGameController = {}
+
 
 ---@param fields? DoorInkGameController
 ---@return DoorInkGameController

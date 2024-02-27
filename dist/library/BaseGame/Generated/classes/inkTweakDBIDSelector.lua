@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkTweakDBIDSelector: IScriptable
 ---@field baseTweakID TweakDBID
 inkTweakDBIDSelector = {}
+
 
 ---@param fields? inkTweakDBIDSelector
 ---@return inkTweakDBIDSelector

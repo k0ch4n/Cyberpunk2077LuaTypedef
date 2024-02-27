@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldEntityNode: worldNode
 ---@field entityTemplate entEntityTemplate
 ---@field instanceData entEntityInstanceData
@@ -7,6 +8,7 @@
 ---@field ioPriority entEntitySpawnPriority
 ---@field entityLod Uint16
 worldEntityNode = {}
+
 
 ---@param fields? worldEntityNode
 ---@return worldEntityNode

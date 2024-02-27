@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gamestateMachineComponent: gamePlayerControlledComponent
 ---@field packageName String
 gamestateMachineComponent = {}
+
 
 ---@param fields? gamestateMachineComponent
 ---@return gamestateMachineComponent

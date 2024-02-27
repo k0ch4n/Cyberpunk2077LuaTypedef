@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffector: IScriptable
 gameEffector = {}
+
 
 ---@param fields? gameEffector
 ---@return gameEffector

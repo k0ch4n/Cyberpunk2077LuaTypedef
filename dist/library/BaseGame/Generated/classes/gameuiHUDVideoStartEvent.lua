@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiHUDVideoStartEvent
 ---@field videoPathHash Uint64
 ---@field playOnHud Bool
@@ -12,6 +13,7 @@
 ---@field isLooped Bool
 ---@field forceVideoFrameRate Bool
 gameuiHUDVideoStartEvent = {}
+
 
 ---@param fields? gameuiHUDVideoStartEvent
 ---@return gameuiHUDVideoStartEvent

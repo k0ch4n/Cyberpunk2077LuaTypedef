@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FilterStimTargets: gameEffectObjectSingleFilter_Scripted
 FilterStimTargets = {}
+
 
 ---@param fields? FilterStimTargets
 ---@return FilterStimTargets

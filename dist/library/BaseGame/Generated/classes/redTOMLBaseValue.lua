@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class redTOMLBaseValue: ISerializable
 redTOMLBaseValue = {}
+
 
 ---@param fields? redTOMLBaseValue
 ---@return redTOMLBaseValue

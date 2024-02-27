@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CrosshairWeaponStatsListener: gameScriptStatsListener
 ---@field controller BaseTechCrosshairController
 CrosshairWeaponStatsListener = {}
+
 
 ---@param fields? CrosshairWeaponStatsListener
 ---@return CrosshairWeaponStatsListener

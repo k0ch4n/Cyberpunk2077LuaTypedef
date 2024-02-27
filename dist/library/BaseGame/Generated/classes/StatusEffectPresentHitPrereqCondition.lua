@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class StatusEffectPresentHitPrereqCondition: BaseHitPrereqCondition
 ---@field checkType gamedataCheckType
 ---@field statusEffectParam CName
 ---@field tag CName
 ---@field objectToCheck CName
 StatusEffectPresentHitPrereqCondition = {}
+
 
 ---@param fields? StatusEffectPresentHitPrereqCondition
 ---@return StatusEffectPresentHitPrereqCondition

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questMoveOnSplineAndKeepDistance_NodeType: questIVehicleManagerNodeType
 ---@field vehicleRef gameEntityReference
 ---@field keepDistanceFromRef gameEntityReference
@@ -9,6 +10,7 @@
 ---@field minSpeed Float
 ---@field reduceSpeedOnTurns Bool
 questMoveOnSplineAndKeepDistance_NodeType = {}
+
 
 ---@param fields? questMoveOnSplineAndKeepDistance_NodeType
 ---@return questMoveOnSplineAndKeepDistance_NodeType

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class LevelUpGameController: gameuiHUDGameController
 ---@field value inkTextWidgetReference
 ---@field proficencyLabel inkTextWidgetReference
 ---@field animationProxy inkanimProxy
 ---@field data LevelUpUserData
 LevelUpGameController = {}
+
 
 ---@param fields? LevelUpGameController
 ---@return LevelUpGameController

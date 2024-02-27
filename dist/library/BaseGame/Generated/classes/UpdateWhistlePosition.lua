@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UpdateWhistlePosition: AIbehaviortaskScript
 UpdateWhistlePosition = {}
+
 
 ---@param fields? UpdateWhistlePosition
 ---@return UpdateWhistlePosition

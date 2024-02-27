@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SetHeatCounterMultiplier: gameScriptableSystemRequest
 ---@field heatMultiplier Float
 ---@field reset Bool
 ---@field source CName
 SetHeatCounterMultiplier = {}
+
 
 ---@param fields? SetHeatCounterMultiplier
 ---@return SetHeatCounterMultiplier

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitDistanceCoveredPrereqState: GenericHitPrereqState
 HitDistanceCoveredPrereqState = {}
+
 
 ---@param fields? HitDistanceCoveredPrereqState
 ---@return HitDistanceCoveredPrereqState

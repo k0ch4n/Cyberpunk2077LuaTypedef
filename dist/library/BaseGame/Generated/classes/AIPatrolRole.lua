@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIPatrolRole: AIRole
 ---@field pathParams AIPatrolPathParameters
 ---@field alertedPathParams AIPatrolPathParameters
@@ -7,6 +8,7 @@
 ---@field alertedSpots AIbehaviorWorkspotList
 ---@field forceAlerted Bool
 AIPatrolRole = {}
+
 
 ---@param fields? AIPatrolRole
 ---@return AIPatrolRole

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AISwitchToPrimaryWeaponCommand: AICommand
 ---@field unEquip Bool
 AISwitchToPrimaryWeaponCommand = {}
+
 
 ---@param fields? AISwitchToPrimaryWeaponCommand
 ---@return AISwitchToPrimaryWeaponCommand

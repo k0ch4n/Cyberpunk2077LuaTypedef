@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BraindanceInputChangeEvent: redEvent
 ---@field bdSystem BraindanceSystem
 BraindanceInputChangeEvent = {}
+
 
 ---@param fields? BraindanceInputChangeEvent
 ---@return BraindanceInputChangeEvent

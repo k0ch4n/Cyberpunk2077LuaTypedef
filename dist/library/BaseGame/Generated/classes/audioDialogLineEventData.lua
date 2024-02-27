@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioDialogLineEventData
 ---@field stringId CRUID
 ---@field context locVoiceoverContext
@@ -11,6 +12,7 @@
 ---@field seekTime Float
 ---@field playbackSpeedParameter Float
 audioDialogLineEventData = {}
+
 
 ---@param fields? audioDialogLineEventData
 ---@return audioDialogLineEventData

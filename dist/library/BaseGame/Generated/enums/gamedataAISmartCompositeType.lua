@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAISmartCompositeType: Enum
 ---@field Selector Enum 0
 ---@field SelectorWithMemory Enum 1

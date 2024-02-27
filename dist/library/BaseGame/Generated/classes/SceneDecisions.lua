@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SceneDecisions: VehicleTransition
 ---@field sceneTierCallback redCallbackObject
 SceneDecisions = {}
+
 
 ---@param fields? SceneDecisions
 ---@return SceneDecisions

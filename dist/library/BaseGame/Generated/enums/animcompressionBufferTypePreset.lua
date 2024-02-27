@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animcompressionBufferTypePreset: Enum
 ---@field Spline Enum 0
 ---@field SIMD Enum 1

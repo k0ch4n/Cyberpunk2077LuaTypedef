@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PickUpDecisions: CanTransitionToThrowDecisions
 PickUpDecisions = {}
+
 
 ---@param fields? PickUpDecisions
 ---@return PickUpDecisions

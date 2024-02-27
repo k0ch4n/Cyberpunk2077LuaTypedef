@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehiclePersistentData: gameComponent
 vehiclePersistentData = {}
+
 
 ---@param fields? vehiclePersistentData
 ---@return vehiclePersistentData

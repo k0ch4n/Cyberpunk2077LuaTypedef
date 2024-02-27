@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkRumbleType: Enum
 ---@field Fast Enum 0
 ---@field Pulse Enum 1

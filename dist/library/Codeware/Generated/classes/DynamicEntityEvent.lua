@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DynamicEntityEvent: IScriptable
 DynamicEntityEvent = {}
+
 
 ---@param fields? DynamicEntityEvent
 ---@return DynamicEntityEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HoloDeviceController: ScriptableDeviceComponent
 HoloDeviceController = {}
+
 
 ---@param fields? HoloDeviceController
 ---@return HoloDeviceController

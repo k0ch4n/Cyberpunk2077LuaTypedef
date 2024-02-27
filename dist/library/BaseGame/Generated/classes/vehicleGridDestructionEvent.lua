@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleGridDestructionEvent: redEvent
 ---@field state Float[]
 ---@field rawChange Float[]
@@ -10,6 +11,7 @@
 ---@field rammedOtherVehicle Bool
 ---@field otherVehicleRammed Bool
 vehicleGridDestructionEvent = {}
+
 
 ---@param fields? vehicleGridDestructionEvent
 ---@return vehicleGridDestructionEvent

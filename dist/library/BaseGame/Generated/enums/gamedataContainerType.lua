@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataContainerType: Enum
 ---@field AmmoCase Enum 0
 ---@field Body Enum 1

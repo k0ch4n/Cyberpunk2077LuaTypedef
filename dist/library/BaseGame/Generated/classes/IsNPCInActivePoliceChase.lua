@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsNPCInActivePoliceChase: PreventionConditionAbstract
 IsNPCInActivePoliceChase = {}
+
 
 ---@param fields? IsNPCInActivePoliceChase
 ---@return IsNPCInActivePoliceChase

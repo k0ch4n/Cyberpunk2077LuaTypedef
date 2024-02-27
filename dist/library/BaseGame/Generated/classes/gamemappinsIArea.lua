@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamemappinsIArea: gamemappinsIVisualObject
 gamemappinsIArea = {}
+
 
 ---@return entEntityID
 function gamemappinsIArea:GetEntityID() end

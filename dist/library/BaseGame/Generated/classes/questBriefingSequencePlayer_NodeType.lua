@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questBriefingSequencePlayer_NodeType: questIUIManagerNodeType
 ---@field function questBriefingSequencePlayerFunction
 ---@field briefingResource inkWidgetLibraryResource
@@ -13,6 +14,7 @@
 ---@field briefingType questBriefingType
 ---@field enableScanner Bool
 questBriefingSequencePlayer_NodeType = {}
+
 
 ---@param fields? questBriefingSequencePlayer_NodeType
 ---@return questBriefingSequencePlayer_NodeType

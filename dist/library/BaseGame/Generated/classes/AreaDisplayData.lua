@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AreaDisplayData: IDisplayData
 ---@field attributeId TweakDBID
 ---@field perks PerkDisplayData[]
@@ -7,6 +8,7 @@
 ---@field proficency gamedataProficiencyType
 ---@field area gamedataPerkArea
 AreaDisplayData = {}
+
 
 ---@param fields? AreaDisplayData
 ---@return AreaDisplayData

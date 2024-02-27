@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedebugFailure: ISerializable
 ---@field id gamedebugFailureId
 ---@field time Float
@@ -8,6 +9,7 @@
 ---@field previous gamedebugFailure
 ---@field cause gamedebugFailure
 gamedebugFailure = {}
+
 
 ---@param fields? gamedebugFailure
 ---@return gamedebugFailure

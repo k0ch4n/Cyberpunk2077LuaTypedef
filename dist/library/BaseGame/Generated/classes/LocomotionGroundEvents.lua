@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LocomotionGroundEvents: LocomotionEventsTransition
 LocomotionGroundEvents = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

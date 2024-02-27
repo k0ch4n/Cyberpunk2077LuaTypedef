@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PersonnelSystem: DeviceSystemBase
 ---@field EnableE3QuickHacks Bool
 PersonnelSystem = {}
+
 
 ---@param fields? PersonnelSystem
 ---@return PersonnelSystem

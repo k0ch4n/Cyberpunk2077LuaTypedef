@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAudioFoliageMetadata: audioAudioMetadata
 ---@field loopStartEvent CName
 ---@field loopStopEvent CName
@@ -11,6 +12,7 @@
 ---@field playerInsideRequiredPercentage Float
 ---@field foliageMaterials audioAudioFoliageMaterialDictionary
 audioAudioFoliageMetadata = {}
+
 
 ---@param fields? audioAudioFoliageMetadata
 ---@return audioAudioFoliageMetadata

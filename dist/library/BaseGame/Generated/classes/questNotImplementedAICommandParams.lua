@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questNotImplementedAICommandParams: questAICommandParams
 questNotImplementedAICommandParams = {}
+
 
 ---@param fields? questNotImplementedAICommandParams
 ---@return questNotImplementedAICommandParams

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldCollisionNode: worldNode
 ---@field compiledData DataBuffer
 ---@field numActors Uint16
@@ -16,6 +17,7 @@
 ---@field lod Uint8
 ---@field resourceVersion Uint8
 worldCollisionNode = {}
+
 
 ---@param fields? worldCollisionNode
 ---@return worldCollisionNode

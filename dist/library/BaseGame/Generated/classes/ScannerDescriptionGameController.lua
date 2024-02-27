@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerDescriptionGameController: BaseChunkGameController
 ---@field descriptionText inkTextWidgetReference
 ---@field customDescriptionText inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field isValidDescription Bool
 ---@field isValidCustomDescription Bool
 ScannerDescriptionGameController = {}
+
 
 ---@param fields? ScannerDescriptionGameController
 ---@return ScannerDescriptionGameController

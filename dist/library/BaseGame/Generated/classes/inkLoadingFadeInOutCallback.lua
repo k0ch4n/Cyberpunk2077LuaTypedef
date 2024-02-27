@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkLoadingFadeInOutCallback: inkCallbackBase
 inkLoadingFadeInOutCallback = {}
+
 
 ---@param fields? inkLoadingFadeInOutCallback
 ---@return inkLoadingFadeInOutCallback

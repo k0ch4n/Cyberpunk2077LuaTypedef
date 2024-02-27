@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class sampleScreenProjectionLogicController: inkWidgetLogicController
 ---@field widgetPos inkTextWidget
 ---@field worldPos inkTextWidget
 ---@field projection inkScreenProjection
 sampleScreenProjectionLogicController = {}
+
 
 ---@param fields? sampleScreenProjectionLogicController
 ---@return sampleScreenProjectionLogicController

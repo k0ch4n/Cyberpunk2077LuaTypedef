@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_LocomotionMachine: animAnimNode_StateMachine
 ---@field usePlanner Bool
 ---@field group CName
@@ -12,6 +13,7 @@
 ---@field transitionTime Float
 ---@field numVariants Uint32
 animAnimNode_LocomotionMachine = {}
+
 
 ---@param fields? animAnimNode_LocomotionMachine
 ---@return animAnimNode_LocomotionMachine

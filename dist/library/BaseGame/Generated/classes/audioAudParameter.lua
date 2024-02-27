@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAudParameter
 ---@field name CName
 ---@field value Float
@@ -8,6 +9,7 @@
 ---@field exitCurveType audioESoundCurveType
 ---@field exitCurveTime Float
 audioAudParameter = {}
+
 
 ---@param fields? audioAudParameter
 ---@return audioAudParameter

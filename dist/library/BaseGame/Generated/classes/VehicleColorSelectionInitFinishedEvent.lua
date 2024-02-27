@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleColorSelectionInitFinishedEvent: redEvent
 VehicleColorSelectionInitFinishedEvent = {}
+
 
 ---@param fields? VehicleColorSelectionInitFinishedEvent
 ---@return VehicleColorSelectionInitFinishedEvent

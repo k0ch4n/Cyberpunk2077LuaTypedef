@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CyberdeckDeviceHackIcon: inkWidgetLogicController
 ---@field image inkImageWidgetReference
 CyberdeckDeviceHackIcon = {}
+
 
 ---@param fields? CyberdeckDeviceHackIcon
 ---@return CyberdeckDeviceHackIcon

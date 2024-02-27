@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameJournalImageEntry: gameJournalEntry
 ---@field imageId TweakDBID
 ---@field thumbnailImageId TweakDBID
 gameJournalImageEntry = {}
+
 
 ---@param fields? gameJournalImageEntry
 ---@return gameJournalImageEntry

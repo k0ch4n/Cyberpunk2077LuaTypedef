@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class workRandomList: workIContainerEntry
 ---@field minClips Int8
 ---@field maxClips Int8
@@ -9,6 +10,7 @@
 ---@field pauseBlendOutTime Float
 ---@field dontRepeatLastAnims Int8
 workRandomList = {}
+
 
 ---@param fields? workRandomList
 ---@return workRandomList

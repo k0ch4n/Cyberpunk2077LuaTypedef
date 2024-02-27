@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemLog: gameuiMenuGameController
 ---@field listRef inkCompoundWidgetReference
 ---@field initialPopupDelay Float
@@ -13,6 +14,7 @@
 ---@field alpha_fadein inkanimDefinition
 ---@field AnimOptions inkanimPlaybackOptions
 ItemLog = {}
+
 
 ---@param fields? ItemLog
 ---@return ItemLog

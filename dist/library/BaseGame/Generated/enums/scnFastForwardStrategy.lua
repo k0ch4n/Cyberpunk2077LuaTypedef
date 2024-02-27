@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnFastForwardStrategy: Enum
 ---@field automatic Enum 0
 ---@field allow_fully Enum 1

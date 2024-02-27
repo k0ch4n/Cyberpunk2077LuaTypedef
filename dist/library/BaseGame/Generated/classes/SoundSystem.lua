@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SoundSystem: InteractiveMasterDevice
 SoundSystem = {}
+
 
 ---@param fields? SoundSystem
 ---@return SoundSystem

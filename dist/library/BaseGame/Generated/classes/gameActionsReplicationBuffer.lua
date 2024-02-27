@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameActionsReplicationBuffer
 gameActionsReplicationBuffer = {}
+
 
 ---@param fields? gameActionsReplicationBuffer
 ---@return gameActionsReplicationBuffer

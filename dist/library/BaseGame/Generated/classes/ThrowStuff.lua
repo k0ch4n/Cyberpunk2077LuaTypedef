@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ThrowStuff: ActionBool
 ThrowStuff = {}
+
 
 ---@param fields? ThrowStuff
 ---@return ThrowStuff

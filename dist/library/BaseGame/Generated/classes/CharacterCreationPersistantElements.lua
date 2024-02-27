@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CharacterCreationPersistantElements: inkWidgetLogicController
 ---@field headerHolder inkCompoundWidgetReference
 ---@field LBBtn inkWidgetReference
@@ -17,6 +18,7 @@
 ---@field c_fluffMinY Float
 ---@field c_fluffMaxY Float
 CharacterCreationPersistantElements = {}
+
 
 ---@param fields? CharacterCreationPersistantElements
 ---@return CharacterCreationPersistantElements

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GenericStreetSignSelector: StreetSignSelector
 ---@field recordID TweakDBID
 GenericStreetSignSelector = {}
+
 
 ---@param fields? GenericStreetSignSelector
 ---@return GenericStreetSignSelector

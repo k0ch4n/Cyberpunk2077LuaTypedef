@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PauseMenuButtonItem: AnimatedListItemController
 ---@field Fluff inkTextWidgetReference
 ---@field animLoop inkanimProxy
 PauseMenuButtonItem = {}
+
 
 ---@param fields? PauseMenuButtonItem
 ---@return PauseMenuButtonItem

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ChimeraComponent: gameScriptableComponent
 ---@field owner NPCPuppet
 ---@field ownerId entEntityID
@@ -15,6 +16,7 @@
 ---@field weakspotsDelay gameDelayID
 ---@field targetTrackerComponent AITargetTrackerComponent
 ChimeraComponent = {}
+
 
 ---@param fields? ChimeraComponent
 ---@return ChimeraComponent

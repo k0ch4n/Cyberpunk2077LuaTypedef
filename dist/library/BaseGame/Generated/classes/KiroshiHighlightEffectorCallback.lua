@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class KiroshiHighlightEffectorCallback: gameAttachmentSlotsScriptCallback
 ---@field effector KiroshiHighlightEffector
 KiroshiHighlightEffectorCallback = {}
+
 
 ---@param fields? KiroshiHighlightEffectorCallback
 ---@return KiroshiHighlightEffectorCallback

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataNPCEquipmentItemsPoolEntry_Record: gamedataTweakDBRecord
 gamedataNPCEquipmentItemsPoolEntry_Record = {}
+
 
 ---@param fields? gamedataNPCEquipmentItemsPoolEntry_Record
 ---@return gamedataNPCEquipmentItemsPoolEntry_Record

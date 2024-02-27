@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class entVirtualCameraViewComponent: entIVisualComponent
 ---@field virtualCameraName CName
 ---@field targetPlaneSize Vector2
 entVirtualCameraViewComponent = {}
+
 
 ---@param fields? entVirtualCameraViewComponent
 ---@return entVirtualCameraViewComponent

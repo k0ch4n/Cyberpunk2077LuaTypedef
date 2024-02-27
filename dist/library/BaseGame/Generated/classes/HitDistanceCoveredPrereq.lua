@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class HitDistanceCoveredPrereq: GenericHitPrereq
 ---@field distanceRequired Float
 ---@field comparisonType EComparisonType
 HitDistanceCoveredPrereq = {}
+
 
 ---@param fields? HitDistanceCoveredPrereq
 ---@return HitDistanceCoveredPrereq

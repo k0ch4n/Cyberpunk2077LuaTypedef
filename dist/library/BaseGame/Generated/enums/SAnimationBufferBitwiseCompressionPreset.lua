@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SAnimationBufferBitwiseCompressionPreset: Enum
 ---@field ABBCP_Custom Enum 0
 ---@field ABBCP_VeryHighQuality Enum 1

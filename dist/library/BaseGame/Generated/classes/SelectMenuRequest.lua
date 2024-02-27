@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SelectMenuRequest: redEvent
 ---@field eventData MenuItemController
 SelectMenuRequest = {}
+
 
 ---@param fields? SelectMenuRequest
 ---@return SelectMenuRequest

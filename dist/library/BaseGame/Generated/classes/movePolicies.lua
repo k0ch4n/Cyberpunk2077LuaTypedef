@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class movePolicies: IScriptable
 ---@field destination Vector3
 ---@field destinationTangent Vector3
@@ -35,6 +36,7 @@
 ---@field useOffMeshAllowedTags Bool
 ---@field useOffMeshBlockedTags Bool
 movePolicies = {}
+
 
 ---@param fields? movePolicies
 ---@return movePolicies

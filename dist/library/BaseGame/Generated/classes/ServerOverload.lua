@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ServerOverload: ActionBool
 ServerOverload = {}
+
 
 ---@param fields? ServerOverload
 ---@return ServerOverload

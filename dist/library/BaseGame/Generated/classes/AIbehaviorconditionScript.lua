@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorconditionScript: AIbehaviorScriptBase
 AIbehaviorconditionScript = {}
+
 
 ---@param fields? AIbehaviorconditionScript
 ---@return AIbehaviorconditionScript

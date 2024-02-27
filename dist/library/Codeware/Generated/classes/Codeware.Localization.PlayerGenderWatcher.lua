@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class Codeware_Localization_PlayerGenderWatcher: IScriptable
 ---@field game ScriptGameInstance
 ---@field callbackID Uint32
 Codeware_Localization_PlayerGenderWatcher = {}
+
 
 ---@param fields? Codeware_Localization_PlayerGenderWatcher
 ---@return Codeware_Localization_PlayerGenderWatcher

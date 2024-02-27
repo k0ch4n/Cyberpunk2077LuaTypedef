@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameEffectGroupFilterScriptContext
 ---@field resultIndices Int32[]
 gameEffectGroupFilterScriptContext = {}
+
 
 ---@param fields? gameEffectGroupFilterScriptContext
 ---@return gameEffectGroupFilterScriptContext

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameStreamingMonitorSystem: gameIStreamingMonitorSystem
 gameStreamingMonitorSystem = {}
+
 
 ---@param fields? gameStreamingMonitorSystem
 ---@return gameStreamingMonitorSystem

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questPuppetsUnconscious: questPuppetsEffector
 ---@field setUnconscious Bool
 questPuppetsUnconscious = {}
+
 
 ---@param fields? questPuppetsUnconscious
 ---@return questPuppetsUnconscious

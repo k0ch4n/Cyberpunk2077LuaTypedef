@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetKeepStrategyOnSearch: AIVehicleTaskAbstract
 ---@field keep AIArgumentMapping
 SetKeepStrategyOnSearch = {}
+
 
 ---@param fields? SetKeepStrategyOnSearch
 ---@return SetKeepStrategyOnSearch

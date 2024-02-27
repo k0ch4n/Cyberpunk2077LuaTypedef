@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GameplayPerkCondition: GameplayConditionBase
 ---@field perkToCheck TweakDBID
 ---@field difficulty EGameplayChallengeLevel
 GameplayPerkCondition = {}
+
 
 ---@param fields? GameplayPerkCondition
 ---@return GameplayPerkCondition

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class HoloAudioCallLogicController: inkWidgetLogicController
 ---@field AvatarControllerRef inkWidgetReference
 ---@field Holder inkWidgetReference
 ---@field AvatarController HudPhoneAvatarController
 ---@field Owner gameObject
 HoloAudioCallLogicController = {}
+
 
 ---@param fields? HoloAudioCallLogicController
 ---@return HoloAudioCallLogicController

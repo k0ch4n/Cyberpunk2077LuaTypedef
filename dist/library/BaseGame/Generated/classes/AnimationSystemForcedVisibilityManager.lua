@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AnimationSystemForcedVisibilityManager: gameScriptableSystem
 ---@field entities AnimationSystemForcedVisibilityEntityData[]
 AnimationSystemForcedVisibilityManager = {}
+
 
 ---@param fields? AnimationSystemForcedVisibilityManager
 ---@return AnimationSystemForcedVisibilityManager

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnPlaySkAnimEventData
 ---@field animName CName
 ---@field blendIn Float
@@ -9,6 +10,7 @@
 ---@field weight Float
 ---@field bodyPartMask CName
 scnPlaySkAnimEventData = {}
+
 
 ---@param fields? scnPlaySkAnimEventData
 ---@return scnPlaySkAnimEventData

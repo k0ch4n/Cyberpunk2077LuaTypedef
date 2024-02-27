@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WorldFunctionalTests: IScriptable
 WorldFunctionalTests = {}
+
 
 ---@param fields? WorldFunctionalTests
 ---@return WorldFunctionalTests

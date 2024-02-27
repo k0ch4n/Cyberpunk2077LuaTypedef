@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetAppearance: AIActionHelperTask
 ---@field appearance CName
 SetAppearance = {}
+
 
 ---@param fields? SetAppearance
 ---@return SetAppearance

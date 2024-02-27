@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ScannerDescription: ScannerChunk
 ---@field defaultFluffDescription String
 ---@field customDescriptions String[]
 ScannerDescription = {}
+
 
 ---@param fields? ScannerDescription
 ---@return ScannerDescription

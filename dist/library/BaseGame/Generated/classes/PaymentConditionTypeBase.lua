@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PaymentConditionTypeBase: BluelineConditionTypeBase
 ---@field inverted Bool
 ---@field payWhenSucceded Bool
 PaymentConditionTypeBase = {}
+
 
 ---@param fields? PaymentConditionTypeBase
 ---@return PaymentConditionTypeBase

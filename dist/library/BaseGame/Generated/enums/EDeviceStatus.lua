@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EDeviceStatus: Enum
 ---@field DISABLED Enum -2
 ---@field UNPOWERED Enum -1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemModeGridContainer: inkWidgetLogicController
 ---@field scrollControllerWidget inkCompoundWidgetReference
 ---@field sliderWidget inkWidgetReference
@@ -16,6 +17,7 @@
 ---@field scrollArea inkWidgetReference
 ---@field outroAnimation inkanimProxy
 ItemModeGridContainer = {}
+
 
 ---@param fields? ItemModeGridContainer
 ---@return ItemModeGridContainer

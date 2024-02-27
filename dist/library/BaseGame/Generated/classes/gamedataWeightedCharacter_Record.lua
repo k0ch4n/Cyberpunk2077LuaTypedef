@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataWeightedCharacter_Record: gamedataTweakDBRecord
 gamedataWeightedCharacter_Record = {}
+
 
 ---@param fields? gamedataWeightedCharacter_Record
 ---@return gamedataWeightedCharacter_Record

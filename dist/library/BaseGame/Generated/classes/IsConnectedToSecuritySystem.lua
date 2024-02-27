@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsConnectedToSecuritySystem: AIAutonomousConditions
 IsConnectedToSecuritySystem = {}
+
 
 ---@param fields? IsConnectedToSecuritySystem
 ---@return IsConnectedToSecuritySystem

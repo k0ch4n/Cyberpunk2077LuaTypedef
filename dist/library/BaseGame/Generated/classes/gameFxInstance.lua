@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameFxInstance: IScriptable
 gameFxInstance = {}
+
 
 ---@param fields? gameFxInstance
 ---@return gameFxInstance

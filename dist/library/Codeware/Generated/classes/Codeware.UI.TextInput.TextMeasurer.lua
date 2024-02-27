@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Codeware_UI_TextInput_TextMeasurer: Codeware_UI_inkCustomController
 ---@field shadow inkTextWidget
 ---@field isMeasuring Bool
@@ -12,6 +13,7 @@
 ---@field useCharCache Bool
 ---@field charCache inkScriptStringMap
 Codeware_UI_TextInput_TextMeasurer = {}
+
 
 ---@param fields? Codeware_UI_TextInput_TextMeasurer
 ---@return Codeware_UI_TextInput_TextMeasurer

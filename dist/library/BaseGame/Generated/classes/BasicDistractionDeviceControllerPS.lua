@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BasicDistractionDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field distractorType EPlaystyleType
 ---@field basicDistractionDeviceSkillChecks EngDemoContainer
@@ -8,6 +9,7 @@
 ---@field forceAnimationSystem Bool
 ---@field overrideDistractionActionId TweakDBID
 BasicDistractionDeviceControllerPS = {}
+
 
 ---@param fields? BasicDistractionDeviceControllerPS
 ---@return BasicDistractionDeviceControllerPS

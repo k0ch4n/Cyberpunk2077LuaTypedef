@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAIDirectorTensionAnalyzeComponent: entIComponent
 gameAIDirectorTensionAnalyzeComponent = {}
+
 
 ---@param fields? gameAIDirectorTensionAnalyzeComponent
 ---@return gameAIDirectorTensionAnalyzeComponent

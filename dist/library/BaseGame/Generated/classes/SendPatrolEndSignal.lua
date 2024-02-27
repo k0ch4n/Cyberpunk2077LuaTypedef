@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SendPatrolEndSignal: AIbehaviortaskScript
 SendPatrolEndSignal = {}
+
 
 ---@param fields? SendPatrolEndSignal
 ---@return SendPatrolEndSignal

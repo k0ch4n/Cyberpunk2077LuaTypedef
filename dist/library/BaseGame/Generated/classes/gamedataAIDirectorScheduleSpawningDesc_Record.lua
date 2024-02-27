@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIDirectorScheduleSpawningDesc_Record: gamedataTweakDBRecord
 gamedataAIDirectorScheduleSpawningDesc_Record = {}
+
 
 ---@param fields? gamedataAIDirectorScheduleSpawningDesc_Record
 ---@return gamedataAIDirectorScheduleSpawningDesc_Record

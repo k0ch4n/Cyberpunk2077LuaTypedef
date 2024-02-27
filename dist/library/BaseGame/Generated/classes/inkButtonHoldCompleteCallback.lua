@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkButtonHoldCompleteCallback: inkCallbackBase
 inkButtonHoldCompleteCallback = {}
+
 
 ---@param fields? inkButtonHoldCompleteCallback
 ---@return inkButtonHoldCompleteCallback

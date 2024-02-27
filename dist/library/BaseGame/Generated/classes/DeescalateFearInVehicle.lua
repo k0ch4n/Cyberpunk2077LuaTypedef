@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeescalateFearInVehicle: redEvent
 DeescalateFearInVehicle = {}
+
 
 ---@param fields? DeescalateFearInVehicle
 ---@return DeescalateFearInVehicle

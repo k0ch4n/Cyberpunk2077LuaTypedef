@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIActionTarget: IScriptable
 AIActionTarget = {}
+
 
 ---@param owner ScriptedPuppet
 ---@param ownerPos Vector4

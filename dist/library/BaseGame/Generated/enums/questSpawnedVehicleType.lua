@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questSpawnedVehicleType: Enum
 ---@field EntityReferenced Enum 0
 ---@field AnyCar Enum 1

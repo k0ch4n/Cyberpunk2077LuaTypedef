@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DialogHubLogicController: inkWidgetLogicController
 ---@field progressBarHolder inkWidgetReference
 ---@field selectionSizeProviderRef inkWidgetReference
@@ -32,6 +33,7 @@
 ---@field pendingRequests Int32
 ---@field spawnTokens inkAsyncSpawnRequest[]
 DialogHubLogicController = {}
+
 
 ---@param fields? DialogHubLogicController
 ---@return DialogHubLogicController

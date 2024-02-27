@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animAnimDebuggerCommand_ActivationChanges: animIAnimDebuggerCommand
 animAnimDebuggerCommand_ActivationChanges = {}
+
 
 ---@param fields? animAnimDebuggerCommand_ActivationChanges
 ---@return animAnimDebuggerCommand_ActivationChanges

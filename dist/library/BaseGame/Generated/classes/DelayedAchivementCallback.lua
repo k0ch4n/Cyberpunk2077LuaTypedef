@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DelayedAchivementCallback: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field id Int32
 ---@field progress Float
 ---@field dataTrackingSystem DataTrackingSystem
 DelayedAchivementCallback = {}
+
 
 ---@param fields? DelayedAchivementCallback
 ---@return DelayedAchivementCallback

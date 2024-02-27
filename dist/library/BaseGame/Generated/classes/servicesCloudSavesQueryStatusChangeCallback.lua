@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class servicesCloudSavesQueryStatusChangeCallback: inkCallbackBase
 servicesCloudSavesQueryStatusChangeCallback = {}
+
 
 ---@param fields? servicesCloudSavesQueryStatusChangeCallback
 ---@return servicesCloudSavesQueryStatusChangeCallback

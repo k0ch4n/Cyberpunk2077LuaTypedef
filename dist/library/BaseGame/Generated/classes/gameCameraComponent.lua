@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameCameraComponent: entBaseCameraComponent
 ---@field animParamFovOverrideWeight CName
 ---@field animParamFovOverrideValue CName
@@ -27,6 +28,7 @@
 ---@field animParamWeaponBlurIntensity CName
 ---@field weaponPlane SWeaponPlaneParams
 gameCameraComponent = {}
+
 
 ---@param fields? gameCameraComponent
 ---@return gameCameraComponent

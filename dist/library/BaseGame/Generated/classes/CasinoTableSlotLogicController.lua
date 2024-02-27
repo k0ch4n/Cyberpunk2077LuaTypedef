@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CasinoTableSlotLogicController: inkWidgetLogicController
 ---@field state CasinoTableState
 ---@field betData BetData
 ---@field spawnRequest inkAsyncSpawnRequest
 ---@field page inkWidget
 CasinoTableSlotLogicController = {}
+
 
 ---@param fields? CasinoTableSlotLogicController
 ---@return CasinoTableSlotLogicController

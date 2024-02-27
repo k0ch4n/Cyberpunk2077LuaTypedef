@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StealthZonesGameController: gameuiHUDGameController
 StealthZonesGameController = {}
+
 
 ---@param fields? StealthZonesGameController
 ---@return StealthZonesGameController

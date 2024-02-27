@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questPlatform: Enum
 ---@field PC Enum 0
 ---@field Console Enum 1

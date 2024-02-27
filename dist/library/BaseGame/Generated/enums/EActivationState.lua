@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EActivationState: Enum
 ---@field NONE Enum 0
 ---@field ACTIVATED Enum 1

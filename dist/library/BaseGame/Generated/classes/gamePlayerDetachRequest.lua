@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gamePlayerDetachRequest: gamePlayerScriptableSystemRequest
 ---@field ownerID entEntityID
 gamePlayerDetachRequest = {}
+
 
 ---@param fields? gamePlayerDetachRequest
 ---@return gamePlayerDetachRequest

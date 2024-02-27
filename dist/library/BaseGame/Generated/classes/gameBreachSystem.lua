@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameBreachSystem: gameIBreachSystem
 gameBreachSystem = {}
+
 
 ---@param fields? gameBreachSystem
 ---@return gameBreachSystem

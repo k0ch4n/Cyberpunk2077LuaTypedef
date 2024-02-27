@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class InspectionEvent: redEvent
 ---@field enabled Bool
 InspectionEvent = {}
+
 
 ---@param fields? InspectionEvent
 ---@return InspectionEvent

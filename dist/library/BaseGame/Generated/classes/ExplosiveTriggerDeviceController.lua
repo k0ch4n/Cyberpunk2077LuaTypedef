@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ExplosiveTriggerDeviceController: ExplosiveDeviceController
 ExplosiveTriggerDeviceController = {}
+
 
 ---@param fields? ExplosiveTriggerDeviceController
 ---@return ExplosiveTriggerDeviceController

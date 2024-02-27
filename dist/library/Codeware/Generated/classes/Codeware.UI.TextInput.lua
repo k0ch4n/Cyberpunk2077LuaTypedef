@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Codeware_UI_TextInput: Codeware_UI_inkCustomController
 ---@field root inkCompoundWidget
 ---@field wrapper inkWidget
@@ -16,6 +17,7 @@
 ---@field holdTickCounter Int32
 ---@field holdTickProxy inkanimProxy
 Codeware_UI_TextInput = {}
+
 
 ---@param fields? Codeware_UI_TextInput
 ---@return Codeware_UI_TextInput

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataSenseShape_Record: gamedataTweakDBRecord
 gamedataSenseShape_Record = {}
+
 
 ---@param fields? gamedataSenseShape_Record
 ---@return gamedataSenseShape_Record

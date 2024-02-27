@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PingCachedData: IScriptable
 ---@field sourceID entEntityID
 ---@field pingType EPingType
@@ -16,6 +17,7 @@
 ---@field hasActiveVirtualNetwork Bool
 ---@field virtualNetworkShape gamedataVirtualNetwork_Record
 PingCachedData = {}
+
 
 ---@param fields? PingCachedData
 ---@return PingCachedData

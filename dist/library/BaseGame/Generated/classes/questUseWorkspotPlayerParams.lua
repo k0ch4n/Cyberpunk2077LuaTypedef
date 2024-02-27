@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questUseWorkspotPlayerParams
 ---@field tier questUseWorkspotTier
 ---@field cameraSettings gameTier3CameraSettings
@@ -10,6 +11,7 @@
 ---@field parallaxWeight Float
 ---@field parallaxSpace questCameraParallaxSpace
 questUseWorkspotPlayerParams = {}
+
 
 ---@param fields? questUseWorkspotPlayerParams
 ---@return questUseWorkspotPlayerParams

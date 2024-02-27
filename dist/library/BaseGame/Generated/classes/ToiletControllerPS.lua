@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ToiletControllerPS: ScriptableDeviceComponentPS
 ---@field flushDuration Float
 ---@field flushSFX CName
 ---@field flushVFXname CName
 ---@field isFlushing Bool
 ToiletControllerPS = {}
+
 
 ---@param fields? ToiletControllerPS
 ---@return ToiletControllerPS

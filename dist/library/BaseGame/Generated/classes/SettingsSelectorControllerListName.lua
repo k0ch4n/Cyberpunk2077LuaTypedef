@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SettingsSelectorControllerListName: SettingsSelectorControllerList
 ---@field realValue userSettingsVarListName
 ---@field currentIndex Int32
 SettingsSelectorControllerListName = {}
+
 
 ---@param fields? SettingsSelectorControllerListName
 ---@return SettingsSelectorControllerListName

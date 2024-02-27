@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GpuWrapApiVertexPackingEStreamType: Enum
 ---@field ST_Invalid Enum -1
 ---@field ST_PerVertex Enum 0

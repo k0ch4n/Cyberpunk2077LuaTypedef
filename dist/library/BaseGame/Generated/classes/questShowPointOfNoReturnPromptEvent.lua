@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questShowPointOfNoReturnPromptEvent: redEvent
 questShowPointOfNoReturnPromptEvent = {}
+
 
 ---@param fields? questShowPointOfNoReturnPromptEvent
 ---@return questShowPointOfNoReturnPromptEvent

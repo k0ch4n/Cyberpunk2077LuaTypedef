@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SafeCrosshairStateDecisions: BaseCrosshairState
 SafeCrosshairStateDecisions = {}
+
 
 ---@param fields? SafeCrosshairStateDecisions
 ---@return SafeCrosshairStateDecisions

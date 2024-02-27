@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemSmartObjects: worldIRuntimeSystem
 worldRuntimeSystemSmartObjects = {}
+
 
 ---@param fields? worldRuntimeSystemSmartObjects
 ---@return worldRuntimeSystemSmartObjects

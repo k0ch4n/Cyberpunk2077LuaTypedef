@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiControllerSettingsGameController: gameuiMenuGameController
 ---@field defaultWidgets inkWidgetReference[]
 ---@field southpawWidgets inkWidgetReference[]
@@ -25,6 +26,7 @@
 ---@field inputSettingGroup userSettingsGroup
 ---@field inputSettingVar userSettingsVar
 gameuiControllerSettingsGameController = {}
+
 
 ---@param fields? gameuiControllerSettingsGameController
 ---@return gameuiControllerSettingsGameController

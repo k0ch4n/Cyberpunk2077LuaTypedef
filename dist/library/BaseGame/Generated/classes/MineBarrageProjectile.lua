@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MineBarrageProjectile: BaseProjectile
 ---@field landIndicatorFX gameFxResource
 ---@field fxInstance gameFxInstance
@@ -13,6 +14,7 @@
 ---@field playerPuppet PlayerPuppet
 ---@field mappinID gameNewMappinID
 MineBarrageProjectile = {}
+
 
 ---@param fields? MineBarrageProjectile
 ---@return MineBarrageProjectile

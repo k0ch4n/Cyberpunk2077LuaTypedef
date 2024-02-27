@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInventoryItemInternalData: IScriptable
 ---@field Name String
 ---@field Quality gamedataQuality
@@ -25,6 +26,7 @@
 ---@field IsSellable Bool
 ---@field IsBroken Bool
 UIInventoryItemInternalData = {}
+
 
 ---@param fields? UIInventoryItemInternalData
 ---@return UIInventoryItemInternalData

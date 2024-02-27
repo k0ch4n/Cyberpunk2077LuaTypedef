@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataShooterVFX_Record: gamedataShooterObject_Record
 gamedataShooterVFX_Record = {}
+
 
 ---@param fields? gamedataShooterVFX_Record
 ---@return gamedataShooterVFX_Record

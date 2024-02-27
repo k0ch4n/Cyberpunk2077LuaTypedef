@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BunkerDoorController: DoorController
 BunkerDoorController = {}
+
 
 ---@param fields? BunkerDoorController
 ---@return BunkerDoorController

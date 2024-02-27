@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ApartmentScreenInkGameController: LcdScreenInkGameController
 ---@field backgroundFrameWidget inkImageWidget
 ApartmentScreenInkGameController = {}
+
 
 ---@param fields? ApartmentScreenInkGameController
 ---@return ApartmentScreenInkGameController

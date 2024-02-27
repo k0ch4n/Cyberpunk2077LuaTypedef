@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AttackTypeHitPrereqCondition: BaseHitPrereqCondition
 ---@field attackType gamedataAttackType
 AttackTypeHitPrereqCondition = {}
+
 
 ---@param fields? AttackTypeHitPrereqCondition
 ---@return AttackTypeHitPrereqCondition

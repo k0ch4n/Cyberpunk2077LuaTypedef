@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSavedStatsData
 ---@field statModifiers gameStatModifierData_Deprecated[]
 ---@field modifiersBuffer DataBuffer
@@ -9,6 +10,7 @@
 ---@field recordID TweakDBID
 ---@field seed Uint32
 gameSavedStatsData = {}
+
 
 ---@param fields? gameSavedStatsData
 ---@return gameSavedStatsData

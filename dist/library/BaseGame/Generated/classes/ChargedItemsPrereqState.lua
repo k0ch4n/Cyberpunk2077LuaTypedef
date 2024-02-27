@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ChargedItemsPrereqState: gamePrereqState
 ---@field chargesState EChargesAmount
 ---@field typeOfItem EChargesItem
 ---@field listener BaseStatPoolPrereqListener
 ---@field owner ScriptGameInstance
 ChargedItemsPrereqState = {}
+
 
 ---@param fields? ChargedItemsPrereqState
 ---@return ChargedItemsPrereqState

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameuiGenericNotificationGameController: gameuiWidgetGameController
 ---@field notificationsRoot inkCompoundWidgetReference
 ---@field exclusiveProcessing Bool
 gameuiGenericNotificationGameController = {}
+
 
 ---@param fields? gameuiGenericNotificationGameController
 ---@return gameuiGenericNotificationGameController

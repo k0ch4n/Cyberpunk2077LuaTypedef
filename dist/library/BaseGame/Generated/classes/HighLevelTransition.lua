@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HighLevelTransition: DefaultTransition
 HighLevelTransition = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

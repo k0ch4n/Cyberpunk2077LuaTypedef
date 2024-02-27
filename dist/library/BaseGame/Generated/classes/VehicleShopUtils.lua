@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleShopUtils: IScriptable
 VehicleShopUtils = {}
+
 
 ---@param fields? VehicleShopUtils
 ---@return VehicleShopUtils

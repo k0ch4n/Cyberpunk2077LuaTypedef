@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameObject: entGameEntity
 ---@field persistentState gamePersistentState
 ---@field playerSocket gamePlayerSocket
@@ -36,6 +37,7 @@
 ---@field hitInstigatorCooldownID gameDelayID
 ---@field isTargetedWithSmartWeapon Bool
 gameObject = {}
+
 
 ---@param fields? gameObject
 ---@return gameObject

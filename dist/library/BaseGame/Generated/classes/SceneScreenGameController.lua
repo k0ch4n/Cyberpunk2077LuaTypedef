@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SceneScreenGameController: gameuiWidgetGameController
 ---@field onQuestAnimChangeListener redCallbackObject
 SceneScreenGameController = {}
+
 
 ---@param fields? SceneScreenGameController
 ---@return SceneScreenGameController

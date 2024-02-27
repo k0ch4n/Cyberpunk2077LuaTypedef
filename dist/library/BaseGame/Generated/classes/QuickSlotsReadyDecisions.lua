@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickSlotsReadyDecisions: QuickSlotsDecisions
 QuickSlotsReadyDecisions = {}
+
 
 ---@param fields? QuickSlotsReadyDecisions
 ---@return QuickSlotsReadyDecisions

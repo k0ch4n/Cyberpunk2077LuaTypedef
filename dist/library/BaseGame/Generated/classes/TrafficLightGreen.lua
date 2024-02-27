@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TrafficLightGreen: ActionBool
 TrafficLightGreen = {}
+
 
 ---@param fields? TrafficLightGreen
 ---@return TrafficLightGreen

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FixerTooltipMapData
 ---@field fixerLocKey CName
 ---@field fixerIcon gamedataUIIcon_Record
@@ -10,6 +11,7 @@
 ---@field allQuestsInCurrentPackage Int32
 ---@field currentPackageProgress Int32
 FixerTooltipMapData = {}
+
 
 ---@param fields? FixerTooltipMapData
 ---@return FixerTooltipMapData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISignalHandlerComponent: entIComponent
 AISignalHandlerComponent = {}
+
 
 ---@param fields? AISignalHandlerComponent
 ---@return AISignalHandlerComponent

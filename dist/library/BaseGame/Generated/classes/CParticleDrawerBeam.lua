@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CParticleDrawerBeam: CParticleDrawerFacingBeam
 ---@field rotation Float
 CParticleDrawerBeam = {}
+
 
 ---@param fields? CParticleDrawerBeam
 ---@return CParticleDrawerBeam

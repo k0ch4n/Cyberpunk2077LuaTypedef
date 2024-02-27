@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SBraindanceInputMask
 ---@field pauseAction Bool
 ---@field playForwardAction Bool
@@ -8,6 +9,7 @@
 ---@field switchLayerAction Bool
 ---@field cameraToggleAction Bool
 SBraindanceInputMask = {}
+
 
 ---@param fields? SBraindanceInputMask
 ---@return SBraindanceInputMask

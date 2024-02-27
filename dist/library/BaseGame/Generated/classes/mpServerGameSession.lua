@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class mpServerGameSession: mpGameSession
 mpServerGameSession = {}
+
 
 ---@param fields? mpServerGameSession
 ---@return mpServerGameSession

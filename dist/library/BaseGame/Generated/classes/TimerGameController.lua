@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TimerGameController: gameuiHUDGameController
 ---@field value inkTextWidgetReference
 ---@field rootWidget inkWidget
@@ -8,6 +9,7 @@
 ---@field activeBBID redCallbackObject
 ---@field progressBBID redCallbackObject
 TimerGameController = {}
+
 
 ---@param fields? TimerGameController
 ---@return TimerGameController

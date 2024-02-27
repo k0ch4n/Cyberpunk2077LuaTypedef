@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeathIsRagdollCondition: AIbehaviorconditionScript
 DeathIsRagdollCondition = {}
+
 
 ---@param fields? DeathIsRagdollCondition
 ---@return DeathIsRagdollCondition

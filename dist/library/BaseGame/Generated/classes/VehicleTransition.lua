@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class VehicleTransition: DefaultTransition
 ---@field stateMachineInitData VehicleTransitionInitData
 ---@field exitSlot CName
 VehicleTransition = {}
+
 
 ---@return Bool
 function VehicleTransition.CanEnterDriverCombat() end

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class sampleTimeListener: tickScriptTimeDilationListener
 ---@field myOwner sampleTimeDilatable
 sampleTimeListener = {}
+
 
 ---@param fields? sampleTimeListener
 ---@return sampleTimeListener

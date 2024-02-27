@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameReprimandMappinAnimationState: Enum
 ---@field None Enum 0
 ---@field Normal Enum 1

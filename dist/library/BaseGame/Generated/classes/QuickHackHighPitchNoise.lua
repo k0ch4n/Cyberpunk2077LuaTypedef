@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickHackHighPitchNoise: ActionBool
 QuickHackHighPitchNoise = {}
+
 
 ---@param fields? QuickHackHighPitchNoise
 ---@return QuickHackHighPitchNoise

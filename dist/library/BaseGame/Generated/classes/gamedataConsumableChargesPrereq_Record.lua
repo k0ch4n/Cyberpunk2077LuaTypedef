@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataConsumableChargesPrereq_Record: gamedataStatPoolPrereq_Record
 gamedataConsumableChargesPrereq_Record = {}
+
 
 ---@param fields? gamedataConsumableChargesPrereq_Record
 ---@return gamedataConsumableChargesPrereq_Record

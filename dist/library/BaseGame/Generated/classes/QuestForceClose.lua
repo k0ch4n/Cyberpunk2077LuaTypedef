@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceClose: ActionFloat
 QuestForceClose = {}
+
 
 ---@param fields? QuestForceClose
 ---@return QuestForceClose

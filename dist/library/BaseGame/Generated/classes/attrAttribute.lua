@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class attrAttribute: ISerializable
 attrAttribute = {}
+
 
 ---@param fields? attrAttribute
 ---@return attrAttribute

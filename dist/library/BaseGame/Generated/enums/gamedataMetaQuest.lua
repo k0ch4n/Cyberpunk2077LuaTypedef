@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataMetaQuest: Enum
 ---@field MetaQuest1 Enum 0
 ---@field MetaQuest2 Enum 1

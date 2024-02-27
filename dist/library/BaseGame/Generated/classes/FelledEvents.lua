@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FelledEvents: LocomotionGroundEvents
 ---@field animFeatureFelled AnimFeature_Felled
 FelledEvents = {}
+
 
 ---@param fields? FelledEvents
 ---@return FelledEvents

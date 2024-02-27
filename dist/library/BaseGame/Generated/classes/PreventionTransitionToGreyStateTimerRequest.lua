@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PreventionTransitionToGreyStateTimerRequest: gameScriptableSystemRequest
 PreventionTransitionToGreyStateTimerRequest = {}
+
 
 ---@param fields? PreventionTransitionToGreyStateTimerRequest
 ---@return PreventionTransitionToGreyStateTimerRequest

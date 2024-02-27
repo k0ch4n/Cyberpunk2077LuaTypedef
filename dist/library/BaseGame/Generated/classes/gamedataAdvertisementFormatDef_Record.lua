@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAdvertisementFormatDef_Record: gamedataTweakDBRecord
 gamedataAdvertisementFormatDef_Record = {}
+
 
 ---@param fields? gamedataAdvertisementFormatDef_Record
 ---@return gamedataAdvertisementFormatDef_Record

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInGameNotificationType: Enum
 ---@field ActionRestriction Enum 0
 ---@field CombatRestriction Enum 1

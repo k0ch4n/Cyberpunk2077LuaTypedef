@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FinisherAttackEvents: FinisherTransition
 ---@field stateMachineInitData FinisherInitData
 FinisherAttackEvents = {}
+
 
 ---@param fields? FinisherAttackEvents
 ---@return FinisherAttackEvents

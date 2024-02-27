@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NetworkMinigameAnimationCallbacksTransmitter: inkWidgetLogicController
 NetworkMinigameAnimationCallbacksTransmitter = {}
+
 
 ---@param fields? NetworkMinigameAnimationCallbacksTransmitter
 ---@return NetworkMinigameAnimationCallbacksTransmitter

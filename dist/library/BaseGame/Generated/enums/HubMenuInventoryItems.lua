@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HubMenuInventoryItems: Enum
 ---@field Gear Enum 0
 ---@field Cyberware Enum 1

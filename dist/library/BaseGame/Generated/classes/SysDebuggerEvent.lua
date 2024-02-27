@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SysDebuggerEvent: gameTickableEvent
 SysDebuggerEvent = {}
+
 
 ---@param fields? SysDebuggerEvent
 ---@return SysDebuggerEvent

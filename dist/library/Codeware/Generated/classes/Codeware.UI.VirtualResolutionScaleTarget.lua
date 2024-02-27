@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Codeware_UI_VirtualResolutionScaleTarget: Codeware_UI_VirtualResolutionTarget
 Codeware_UI_VirtualResolutionScaleTarget = {}
+
 
 ---@param fields? Codeware_UI_VirtualResolutionScaleTarget
 ---@return Codeware_UI_VirtualResolutionScaleTarget

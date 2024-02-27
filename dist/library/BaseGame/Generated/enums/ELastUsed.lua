@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ELastUsed: Enum
 ---@field Weapon Enum 0
 ---@field Melee Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AccessBreach: PuppetAction
 ---@field attempt Int32
 ---@field networkName String
@@ -7,6 +8,7 @@
 ---@field isRemote Bool
 ---@field isSuicide Bool
 AccessBreach = {}
+
 
 ---@param fields? AccessBreach
 ---@return AccessBreach

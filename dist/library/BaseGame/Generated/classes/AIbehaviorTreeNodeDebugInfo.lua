@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorTreeNodeDebugInfo: AIbehaviorDebugInfoBase
 AIbehaviorTreeNodeDebugInfo = {}
+
 
 ---@param fields? AIbehaviorTreeNodeDebugInfo
 ---@return AIbehaviorTreeNodeDebugInfo

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameIDebugDrawHistorySystem: gameIGameSystem
 gameIDebugDrawHistorySystem = {}
+
 
 ---@param position Vector4
 ---@param direction Vector4

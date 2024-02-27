@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameItemCreationPrereqDataWrapper: IScriptable
 gameItemCreationPrereqDataWrapper = {}
+
 
 ---@param fields? gameItemCreationPrereqDataWrapper
 ---@return gameItemCreationPrereqDataWrapper

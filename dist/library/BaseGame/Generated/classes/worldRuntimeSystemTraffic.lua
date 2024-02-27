@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemTraffic: worldIRuntimeSystem
 worldRuntimeSystemTraffic = {}
+
 
 ---@param fields? worldRuntimeSystemTraffic
 ---@return worldRuntimeSystemTraffic

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PerkTraining: InteractiveDevice
 ---@field progressBarHeaderText String
 ---@field progressBarBottomText String
@@ -7,6 +8,7 @@
 ---@field animFeature AnimFeature_PerkDeviceData
 ---@field uiSlots entSlotComponent
 PerkTraining = {}
+
 
 ---@param fields? PerkTraining
 ---@return PerkTraining

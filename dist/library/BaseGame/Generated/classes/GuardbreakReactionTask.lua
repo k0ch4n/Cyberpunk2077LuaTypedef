@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GuardbreakReactionTask: AIHitReactionTask
 ---@field tweakDBPackage TweakDBID
 GuardbreakReactionTask = {}
+
 
 ---@param fields? GuardbreakReactionTask
 ---@return GuardbreakReactionTask

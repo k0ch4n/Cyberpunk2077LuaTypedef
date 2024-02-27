@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WeakspotOnDestroyEffector: gameEffector
 WeakspotOnDestroyEffector = {}
+
 
 ---@param fields? WeakspotOnDestroyEffector
 ---@return WeakspotOnDestroyEffector

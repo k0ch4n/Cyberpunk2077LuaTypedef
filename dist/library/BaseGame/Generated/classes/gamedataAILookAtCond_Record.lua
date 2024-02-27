@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAILookAtCond_Record: gamedataAIActionSubCondition_Record
 gamedataAILookAtCond_Record = {}
+
 
 ---@param fields? gamedataAILookAtCond_Record
 ---@return gamedataAILookAtCond_Record

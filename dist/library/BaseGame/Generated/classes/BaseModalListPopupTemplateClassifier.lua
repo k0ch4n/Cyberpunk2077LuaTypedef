@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BaseModalListPopupTemplateClassifier: inkVirtualItemTemplateClassifierWrapper
 BaseModalListPopupTemplateClassifier = {}
+
 
 ---@param fields? BaseModalListPopupTemplateClassifier
 ---@return BaseModalListPopupTemplateClassifier

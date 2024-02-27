@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnPropDef
 ---@field propId scnPropId
 ---@field propName String
@@ -16,6 +17,7 @@
 ---@field findEntityInNodeParams scnFindEntityInNodeParams
 ---@field findEntityInWorldParams scnFindEntityInWorldParams
 scnPropDef = {}
+
 
 ---@param fields? scnPropDef
 ---@return scnPropDef

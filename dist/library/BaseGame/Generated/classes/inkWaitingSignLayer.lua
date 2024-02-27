@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkWaitingSignLayer: inkFullScreenLayer
 inkWaitingSignLayer = {}
+
 
 ---@param fields? inkWaitingSignLayer
 ---@return inkWaitingSignLayer

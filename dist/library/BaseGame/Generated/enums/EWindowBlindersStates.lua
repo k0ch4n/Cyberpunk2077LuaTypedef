@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EWindowBlindersStates: Enum
 ---@field NonInteractive Enum 0
 ---@field Open Enum 1

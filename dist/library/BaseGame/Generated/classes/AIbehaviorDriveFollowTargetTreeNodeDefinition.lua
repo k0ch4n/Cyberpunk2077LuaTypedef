@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorDriveFollowTargetTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field useKinematic AIArgumentMapping
 ---@field needDriver AIArgumentMapping
@@ -12,6 +13,7 @@
 ---@field useTraffic AIArgumentMapping
 ---@field allowStubMovement AIArgumentMapping
 AIbehaviorDriveFollowTargetTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorDriveFollowTargetTreeNodeDefinition
 ---@return AIbehaviorDriveFollowTargetTreeNodeDefinition

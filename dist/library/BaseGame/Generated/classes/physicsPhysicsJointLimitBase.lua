@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsPhysicsJointLimitBase
 ---@field restitution Float
 ---@field bounceThreshold Float
@@ -7,6 +8,7 @@
 ---@field damping Float
 ---@field contactDistance Float
 physicsPhysicsJointLimitBase = {}
+
 
 ---@param fields? physicsPhysicsJointLimitBase
 ---@return physicsPhysicsJointLimitBase

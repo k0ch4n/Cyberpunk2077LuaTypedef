@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_LoadGame: MenuScenario_PreGameSubMenu
 MenuScenario_LoadGame = {}
+
 
 ---@param fields? MenuScenario_LoadGame
 ---@return MenuScenario_LoadGame

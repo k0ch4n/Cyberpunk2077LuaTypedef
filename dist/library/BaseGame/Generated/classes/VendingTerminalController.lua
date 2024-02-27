@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VendingTerminalController: ScriptableDeviceComponent
 VendingTerminalController = {}
+
 
 ---@param fields? VendingTerminalController
 ---@return VendingTerminalController

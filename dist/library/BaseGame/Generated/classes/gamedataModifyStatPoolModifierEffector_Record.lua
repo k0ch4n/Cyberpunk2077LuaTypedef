@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataModifyStatPoolModifierEffector_Record: gamedataEffector_Record
 gamedataModifyStatPoolModifierEffector_Record = {}
+
 
 ---@param fields? gamedataModifyStatPoolModifierEffector_Record
 ---@return gamedataModifyStatPoolModifierEffector_Record

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questContentCondition: questTypedCondition
 ---@field type questIContentConditionType
 questContentCondition = {}
+
 
 ---@param fields? questContentCondition
 ---@return questContentCondition

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hudCameraController: gameuiHUDGameController
 ---@field pitch_min Float
 ---@field pitch_max Float
@@ -41,6 +42,7 @@
 ---@field isOverclockActive Bool
 ---@field canActivateOverclock Bool
 hudCameraController = {}
+
 
 ---@param fields? hudCameraController
 ---@return hudCameraController

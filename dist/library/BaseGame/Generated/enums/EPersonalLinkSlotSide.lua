@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EPersonalLinkSlotSide: Enum
 ---@field FRONT Enum 0
 ---@field RIGHT Enum 1

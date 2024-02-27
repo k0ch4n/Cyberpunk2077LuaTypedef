@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickMeleeHitExecutor: gameEffectExecutor_Scripted
 QuickMeleeHitExecutor = {}
+
 
 ---@param fields? QuickMeleeHitExecutor
 ---@return QuickMeleeHitExecutor

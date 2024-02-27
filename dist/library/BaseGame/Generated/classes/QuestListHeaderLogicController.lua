@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuestListHeaderLogicController: inkWidgetLogicController
 ---@field label inkTextWidgetReference
 QuestListHeaderLogicController = {}
+
 
 ---@param fields? QuestListHeaderLogicController
 ---@return QuestListHeaderLogicController

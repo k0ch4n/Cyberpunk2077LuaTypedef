@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InactiveCoverDecisions: CoverActionTransition
 InactiveCoverDecisions = {}
+
 
 ---@param fields? InactiveCoverDecisions
 ---@return InactiveCoverDecisions

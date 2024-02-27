@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CrosshairStaminaListener: gameCustomValueStatPoolsListener
 ---@field controller gameuiCrosshairBaseGameController
 CrosshairStaminaListener = {}
+
 
 ---@param fields? CrosshairStaminaListener
 ---@return CrosshairStaminaListener

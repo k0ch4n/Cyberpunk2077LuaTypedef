@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ModifyDamageWithLeapedDistance: ModifyDamageEffector
 ---@field maxPercentMult Float
 ---@field minDistance Float
 ---@field maxDistance Float
 ModifyDamageWithLeapedDistance = {}
+
 
 ---@param fields? ModifyDamageWithLeapedDistance
 ---@return ModifyDamageWithLeapedDistance

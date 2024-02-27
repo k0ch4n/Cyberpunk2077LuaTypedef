@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WebPage: inkWidgetLogicController
 ---@field textList inkTextWidgetReference[]
 ---@field rectangleList inkRectangleWidgetReference[]
@@ -10,6 +11,7 @@
 ---@field HOME_IMAGE_NAME String
 ---@field HOME_TEXT_NAME String
 WebPage = {}
+
 
 ---@param fields? WebPage
 ---@return WebPage

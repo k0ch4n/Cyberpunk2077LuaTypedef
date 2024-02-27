@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entGarmentSkinnedMeshComponent: entSkinnedMeshComponent
 entGarmentSkinnedMeshComponent = {}
+
 
 ---@param fields? entGarmentSkinnedMeshComponent
 ---@return entGarmentSkinnedMeshComponent

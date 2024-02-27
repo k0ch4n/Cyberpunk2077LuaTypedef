@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIAnimationTask: AIbehaviortaskScript
 ---@field record TweakDBID
 ---@field animVariation AIArgumentMapping
@@ -11,6 +12,7 @@
 ---@field phaseActivationTime Float
 ---@field phaseDuration Float
 AIAnimationTask = {}
+
 
 ---@param fields? AIAnimationTask
 ---@return AIAnimationTask

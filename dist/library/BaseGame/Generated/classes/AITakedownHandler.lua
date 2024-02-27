@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AITakedownHandler: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 AITakedownHandler = {}
+
 
 ---@param fields? AITakedownHandler
 ---@return AITakedownHandler

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameJournalPath: IScriptable
 ---@field realPath String
 ---@field fileEntryIndex Int32
 ---@field className CName
 gameJournalPath = {}
+
 
 ---@param fields? gameJournalPath
 ---@return gameJournalPath

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ExplosiveTriggerDevice: ExplosiveDevice
 ---@field meshTrigger entMeshComponent
 ---@field trapTrigger gameStaticTriggerAreaComponent
@@ -11,6 +12,7 @@
 ---@field proximityExplosionEventID gameDelayID
 ---@field proximityExplosionEventSent Bool
 ExplosiveTriggerDevice = {}
+
 
 ---@param fields? ExplosiveTriggerDevice
 ---@return ExplosiveTriggerDevice

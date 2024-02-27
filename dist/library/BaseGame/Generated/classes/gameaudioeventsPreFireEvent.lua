@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameaudioeventsPreFireEvent: redEvent
 gameaudioeventsPreFireEvent = {}
+
 
 ---@param fields? gameaudioeventsPreFireEvent
 ---@return gameaudioeventsPreFireEvent

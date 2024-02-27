@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VehicleOverrideForceBrakes: ActionBool
 ---@field isRequestedFormOtherDevice Bool
 VehicleOverrideForceBrakes = {}
+
 
 ---@param fields? VehicleOverrideForceBrakes
 ---@return VehicleOverrideForceBrakes

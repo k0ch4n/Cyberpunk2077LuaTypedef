@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StarController: inkWidgetLogicController
 ---@field animIntroProxy inkanimProxy
 ---@field animIntroOptions inkanimPlaybackOptions
@@ -24,6 +25,7 @@
 ---@field dogtownIconName CName
 ---@field dogtownIconBgName CName
 StarController = {}
+
 
 ---@param fields? StarController
 ---@return StarController

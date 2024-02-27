@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorActionRotateToPositionTreeNodeDefinition: AIbehaviorActionRotateBaseTreeNodeDefinition
 AIbehaviorActionRotateToPositionTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorActionRotateToPositionTreeNodeDefinition
 ---@return AIbehaviorActionRotateToPositionTreeNodeDefinition

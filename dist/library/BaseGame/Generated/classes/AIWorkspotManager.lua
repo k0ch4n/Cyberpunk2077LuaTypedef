@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIWorkspotManager: AIIWorkspotManager
 AIWorkspotManager = {}
+
 
 ---@param fields? AIWorkspotManager
 ---@return AIWorkspotManager

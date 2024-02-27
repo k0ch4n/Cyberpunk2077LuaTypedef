@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnSpawnDespawnEntityParams
 ---@field dynamicEntityUniqueName CName
 ---@field spawnMarker CName
@@ -18,6 +19,7 @@
 ---@field forceMaxVisibility Bool
 ---@field prefetchAppearance Bool
 scnSpawnDespawnEntityParams = {}
+
 
 ---@param fields? scnSpawnDespawnEntityParams
 ---@return scnSpawnDespawnEntityParams

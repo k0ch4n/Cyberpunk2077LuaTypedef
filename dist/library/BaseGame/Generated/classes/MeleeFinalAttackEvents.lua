@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeFinalAttackEvents: MeleeAttackGenericEvents
 MeleeFinalAttackEvents = {}
+
 
 ---@param fields? MeleeFinalAttackEvents
 ---@return MeleeFinalAttackEvents

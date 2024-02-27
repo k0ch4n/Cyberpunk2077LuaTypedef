@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResurrectDecisions: HighLevelTransition
 ResurrectDecisions = {}
+
 
 ---@param fields? ResurrectDecisions
 ---@return ResurrectDecisions

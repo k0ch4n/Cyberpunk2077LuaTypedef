@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MinimalItemTooltipStatData: IScriptable
 ---@field value Float
 ---@field diff Float
@@ -15,6 +16,7 @@
 ---@field roundValue Bool
 ---@field flipNegative Bool
 MinimalItemTooltipStatData = {}
+
 
 ---@param fields? MinimalItemTooltipStatData
 ---@return MinimalItemTooltipStatData

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameweaponGrenade: gameItemObject
 ---@field lastHitNormal Vector4
 ---@field deliveryMethod gamedataGrenadeDeliveryMethodType
 gameweaponGrenade = {}
+
 
 ---@param fields? gameweaponGrenade
 ---@return gameweaponGrenade

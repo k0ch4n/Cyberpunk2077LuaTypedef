@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimationChainPlayer: IScriptable
 ---@field animationProxy inkanimProxy
 ---@field current AnimationChain
@@ -7,6 +8,7 @@
 ---@field next AnimationChain
 ---@field owner inkWidgetLogicController
 AnimationChainPlayer = {}
+
 
 ---@param fields? AnimationChainPlayer
 ---@return AnimationChainPlayer

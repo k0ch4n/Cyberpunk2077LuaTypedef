@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDebugContextUserData
 gameDebugContextUserData = {}
+
 
 ---@param fields? gameDebugContextUserData
 ---@return gameDebugContextUserData

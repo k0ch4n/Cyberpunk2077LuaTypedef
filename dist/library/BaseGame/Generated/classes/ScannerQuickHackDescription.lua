@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerQuickHackDescription: ScannerChunk
 ---@field QuickHackDescription QuickhackData
 ScannerQuickHackDescription = {}
+
 
 ---@param fields? ScannerQuickHackDescription
 ---@return ScannerQuickHackDescription

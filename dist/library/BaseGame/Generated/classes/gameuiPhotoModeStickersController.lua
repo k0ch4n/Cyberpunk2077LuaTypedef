@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiPhotoModeStickersController: gameuiWidgetGameController
 ---@field backgroundPrefabRef NodeRef
 ---@field ResetStickers inkEmptyCallback
@@ -32,6 +33,7 @@
 ---@field root inkCanvasWidget
 ---@field isInPhotoMode Bool
 gameuiPhotoModeStickersController = {}
+
 
 ---@param fields? gameuiPhotoModeStickersController
 ---@return gameuiPhotoModeStickersController

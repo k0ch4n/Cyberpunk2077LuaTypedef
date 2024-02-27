@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questAICommandNodeFunctionProvider: IScriptable
 questAICommandNodeFunctionProvider = {}
+
 
 ---@param fields? questAICommandNodeFunctionProvider
 ---@return questAICommandNodeFunctionProvider

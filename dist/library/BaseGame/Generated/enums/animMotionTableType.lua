@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animMotionTableType: Enum
 ---@field MTT_None Enum 0
 ---@field MTT_Walk Enum 1

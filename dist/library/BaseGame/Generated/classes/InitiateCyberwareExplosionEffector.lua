@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class InitiateCyberwareExplosionEffector: gameEffector
 ---@field maxRangeAddition Float
 ---@field attackRecord gamedataAttack_Record
 InitiateCyberwareExplosionEffector = {}
+
 
 ---@param fields? InitiateCyberwareExplosionEffector
 ---@return InitiateCyberwareExplosionEffector

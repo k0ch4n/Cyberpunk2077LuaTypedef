@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BodyCarryingPSMPrereq: PlayerStateMachinePrereq
 BodyCarryingPSMPrereq = {}
+
 
 ---@param fields? BodyCarryingPSMPrereq
 ---@return BodyCarryingPSMPrereq

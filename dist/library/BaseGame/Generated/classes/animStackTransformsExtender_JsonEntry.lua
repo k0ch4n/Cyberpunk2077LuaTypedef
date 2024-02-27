@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animStackTransformsExtender_JsonEntry
 ---@field name CName
 ---@field parentName CName
@@ -11,6 +12,7 @@
 ---@field offsetSpaceBone CName
 ---@field offset QsTransform
 animStackTransformsExtender_JsonEntry = {}
+
 
 ---@param fields? animStackTransformsExtender_JsonEntry
 ---@return animStackTransformsExtender_JsonEntry

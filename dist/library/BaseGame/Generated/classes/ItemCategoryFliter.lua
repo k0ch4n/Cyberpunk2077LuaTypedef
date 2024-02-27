@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ItemCategoryFliter: IScriptable
 ItemCategoryFliter = {}
+
 
 ---@param filter ItemFilterCategory
 ---@param wrappedData WrappedInventoryItemData

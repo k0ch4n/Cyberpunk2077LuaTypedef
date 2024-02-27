@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class EntityNoticedPlayerPrereqState: gamePrereqState
 ---@field owner gameObject
 ---@field listenerInt redCallbackObject
 EntityNoticedPlayerPrereqState = {}
+
 
 ---@param fields? EntityNoticedPlayerPrereqState
 ---@return EntityNoticedPlayerPrereqState

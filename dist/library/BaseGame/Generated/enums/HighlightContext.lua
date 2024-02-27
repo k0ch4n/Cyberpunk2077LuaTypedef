@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HighlightContext: Enum
 ---@field DEFAULT Enum 0
 ---@field OUTLINE Enum 1

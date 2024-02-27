@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMuppetUpperBodyState
 ---@field currentWeapon gameItemID
 ---@field wantedWeapon gameItemID
@@ -29,6 +30,7 @@
 ---@field remainingQuickMeleeTime Float
 ---@field remainingQuickMeleeCooldownTime Float
 gameMuppetUpperBodyState = {}
+
 
 ---@param fields? gameMuppetUpperBodyState
 ---@return gameMuppetUpperBodyState

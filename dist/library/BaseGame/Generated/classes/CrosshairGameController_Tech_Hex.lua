@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrosshairGameController_Tech_Hex: BaseTechCrosshairController
 ---@field leftBracket inkImageWidget
 ---@field rightBracket inkImageWidget
@@ -23,6 +24,7 @@
 ---@field charge Float
 ---@field spread Float
 CrosshairGameController_Tech_Hex = {}
+
 
 ---@param fields? CrosshairGameController_Tech_Hex
 ---@return CrosshairGameController_Tech_Hex

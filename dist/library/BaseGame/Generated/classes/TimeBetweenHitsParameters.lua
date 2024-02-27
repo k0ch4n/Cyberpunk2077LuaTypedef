@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TimeBetweenHitsParameters
 ---@field baseCoefficient Float
 ---@field baseSourceCoefficient Float
@@ -13,6 +14,7 @@
 ---@field coverCoefficient Float
 ---@field visionBlockerCoefficient Float
 TimeBetweenHitsParameters = {}
+
 
 ---@param fields? TimeBetweenHitsParameters
 ---@return TimeBetweenHitsParameters

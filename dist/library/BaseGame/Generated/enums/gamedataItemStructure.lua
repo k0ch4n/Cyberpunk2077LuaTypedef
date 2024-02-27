@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataItemStructure: Enum
 ---@field BlueprintStackable Enum 0
 ---@field Stackable Enum 1

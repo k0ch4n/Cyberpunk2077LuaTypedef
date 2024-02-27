@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleVehicleNetrunnerQuickhackType: Enum
 ---@field ForceBrakes Enum 0
 ---@field Explode Enum 1

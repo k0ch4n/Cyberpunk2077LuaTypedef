@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInventoryScriptableSystem: gameScriptableSystem
 ---@field attachedPlayer PlayerPuppet
 ---@field inventoryListenerCallback UIInventoryScriptableInventoryListenerCallback
@@ -29,6 +30,7 @@
 ---@field TEMP_separatorBarsListener Uint32
 ---@field itemsRestored Bool
 UIInventoryScriptableSystem = {}
+
 
 ---@param fields? UIInventoryScriptableSystem
 ---@return UIInventoryScriptableSystem

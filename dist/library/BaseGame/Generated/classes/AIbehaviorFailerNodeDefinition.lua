@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorFailerNodeDefinition: AIbehaviorLeafTreeNodeDefinition
 AIbehaviorFailerNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorFailerNodeDefinition
 ---@return AIbehaviorFailerNodeDefinition

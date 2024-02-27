@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameWeaponAudioComponent: gameaudioSoundComponentBase
 gameWeaponAudioComponent = {}
+
 
 ---@param fields? gameWeaponAudioComponent
 ---@return gameWeaponAudioComponent

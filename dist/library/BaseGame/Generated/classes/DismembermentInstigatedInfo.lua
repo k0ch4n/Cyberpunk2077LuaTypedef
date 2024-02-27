@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DismembermentInstigatedInfo
 ---@field target gameObject
 ---@field targetPosition Vector4
@@ -15,6 +16,7 @@
 ---@field wasTargetAlreadyDefeated Bool
 ---@field attackIsExplosion Bool
 DismembermentInstigatedInfo = {}
+
 
 ---@param fields? DismembermentInstigatedInfo
 ---@return DismembermentInstigatedInfo

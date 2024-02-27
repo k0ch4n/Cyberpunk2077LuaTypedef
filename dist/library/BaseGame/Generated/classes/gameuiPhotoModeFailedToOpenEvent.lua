@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiPhotoModeFailedToOpenEvent: redEvent
 gameuiPhotoModeFailedToOpenEvent = {}
+
 
 ---@param fields? gameuiPhotoModeFailedToOpenEvent
 ---@return gameuiPhotoModeFailedToOpenEvent

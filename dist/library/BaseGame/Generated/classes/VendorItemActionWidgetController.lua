@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class VendorItemActionWidgetController: DeviceActionWidgetControllerBase
 ---@field priceWidget inkTextWidgetReference
 ---@field priceContainer inkWidgetReference
 ---@field moneyStatusContainer inkWidgetReference
 ---@field processingStatusContainer inkWidgetReference
 VendorItemActionWidgetController = {}
+
 
 ---@param fields? VendorItemActionWidgetController
 ---@return VendorItemActionWidgetController

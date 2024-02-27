@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameJournalPhoneConversation: gameJournalContainerEntry
 ---@field title LocalizationString
 gameJournalPhoneConversation = {}
+
 
 ---@param fields? gameJournalPhoneConversation
 ---@return gameJournalPhoneConversation

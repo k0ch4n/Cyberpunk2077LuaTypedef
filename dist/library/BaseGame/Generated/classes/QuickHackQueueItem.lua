@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class QuickHackQueueItem: inkWidgetLogicController
 ---@field icon inkImageWidgetReference
 ---@field data GameplayRoleMappinData
 ---@field anim inkanimProxy
 QuickHackQueueItem = {}
+
 
 ---@param fields? QuickHackQueueItem
 ---@return QuickHackQueueItem

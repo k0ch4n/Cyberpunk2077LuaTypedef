@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiPatchIntroPackage
 ---@field patchIntrosNeeded gameuiPatchIntro[]
 gameuiPatchIntroPackage = {}
+
 
 ---@param fields? gameuiPatchIntroPackage
 ---@return gameuiPatchIntroPackage

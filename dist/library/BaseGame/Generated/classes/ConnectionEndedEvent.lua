@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ConnectionEndedEvent: redEvent
 ---@field togglePersonalLinkAction TogglePersonalLink
 ConnectionEndedEvent = {}
+
 
 ---@param fields? ConnectionEndedEvent
 ---@return ConnectionEndedEvent

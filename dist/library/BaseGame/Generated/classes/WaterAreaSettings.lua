@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WaterAreaSettings: IAreaSettings
 ---@field blurMin Float
 ---@field blurMax Float
@@ -15,6 +16,7 @@
 ---@field amplitude curveData
 ---@field lambda curveData
 WaterAreaSettings = {}
+
 
 ---@param fields? WaterAreaSettings
 ---@return WaterAreaSettings

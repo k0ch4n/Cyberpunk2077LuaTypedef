@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VendorConfirmationPopup: gameuiWidgetGameController
 ---@field itemNameText inkTextWidgetReference
 ---@field buttonHintsRoot inkWidgetReference
@@ -20,6 +21,7 @@
 ---@field displayContextData ItemDisplayContextData
 ---@field libraryPath inkWidgetLibraryReference
 VendorConfirmationPopup = {}
+
 
 ---@param fields? VendorConfirmationPopup
 ---@return VendorConfirmationPopup

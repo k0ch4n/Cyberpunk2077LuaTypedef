@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DistrictManager: IScriptable
 ---@field system PreventionSystem
 ---@field stack District[]
 ---@field visitedDistricts TweakDBID[]
 DistrictManager = {}
+
 
 ---@param fields? DistrictManager
 ---@return DistrictManager

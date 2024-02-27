@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiCharacterCustomizationPreset: CResource
 ---@field isMale Bool
 ---@field bodyGroups gameuiCustomizationGroup[]
@@ -9,6 +10,7 @@
 ---@field tags redTagList
 ---@field version Uint32
 gameuiCharacterCustomizationPreset = {}
+
 
 ---@param fields? gameuiCharacterCustomizationPreset
 ---@return gameuiCharacterCustomizationPreset

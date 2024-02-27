@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DoorColliderEnableEvent: redEvent
 DoorColliderEnableEvent = {}
+
 
 ---@param fields? DoorColliderEnableEvent
 ---@return DoorColliderEnableEvent

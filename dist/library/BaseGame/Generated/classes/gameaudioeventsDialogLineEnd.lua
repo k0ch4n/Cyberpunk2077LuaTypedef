@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameaudioeventsDialogLineEnd: redEvent
 gameaudioeventsDialogLineEnd = {}
+
 
 ---@param fields? gameaudioeventsDialogLineEnd
 ---@return gameaudioeventsDialogLineEnd

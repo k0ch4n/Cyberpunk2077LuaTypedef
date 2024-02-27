@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class TweakDBID
 ---@field hash integer
 ---@field length integer
 ---@field value string
 TweakDBID = {}
+
 
 ---@param aName string
 ---@return TweakDBID

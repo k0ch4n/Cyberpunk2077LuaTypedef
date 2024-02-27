@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataDisassemblingResult_Record: gamedataTweakDBRecord
 gamedataDisassemblingResult_Record = {}
+
 
 ---@param fields? gamedataDisassemblingResult_Record
 ---@return gamedataDisassemblingResult_Record

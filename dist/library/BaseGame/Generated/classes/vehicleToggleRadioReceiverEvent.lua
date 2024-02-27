@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleToggleRadioReceiverEvent: redEvent
 vehicleToggleRadioReceiverEvent = {}
+
 
 ---@param fields? vehicleToggleRadioReceiverEvent
 ---@return vehicleToggleRadioReceiverEvent

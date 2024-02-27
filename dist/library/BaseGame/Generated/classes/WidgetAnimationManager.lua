@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WidgetAnimationManager: IScriptable
 ---@field animations SWidgetAnimationData[]
 WidgetAnimationManager = {}
+
 
 ---@param fields? WidgetAnimationManager
 ---@return WidgetAnimationManager

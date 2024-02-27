@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CodexCategoryType: Enum
 ---@field All Enum 0
 ---@field Database Enum 1

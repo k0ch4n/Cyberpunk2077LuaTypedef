@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDeactivateTPPRepresentationEvent: redEvent
 gameDeactivateTPPRepresentationEvent = {}
+
 
 ---@param fields? gameDeactivateTPPRepresentationEvent
 ---@return gameDeactivateTPPRepresentationEvent

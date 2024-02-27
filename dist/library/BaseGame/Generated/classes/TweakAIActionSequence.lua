@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class TweakAIActionSequence: TweakAIActionAbstract
 ---@field sequence TweakDBID
 ---@field sequenceRecord gamedataAIActionSequence_Record
 ---@field sequenceIterator Int32
 TweakAIActionSequence = {}
+
 
 ---@param fields? TweakAIActionSequence
 ---@return TweakAIActionSequence

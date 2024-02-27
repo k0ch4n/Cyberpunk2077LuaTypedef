@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EHitReactionZone: Enum
 ---@field Head Enum 0
 ---@field ChestLeft Enum 1

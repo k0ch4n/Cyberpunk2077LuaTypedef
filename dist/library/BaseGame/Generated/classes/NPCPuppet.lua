@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NPCPuppet: ScriptedPuppet
 ---@field lastHitEvent gameeventsHitEvent
 ---@field totalFrameReactionDamageReceived Float
@@ -78,6 +79,7 @@
 ---@field smartDespawnDelayID gameDelayID
 ---@field despawnTicks Uint32
 NPCPuppet = {}
+
 
 ---@param fields? NPCPuppet
 ---@return NPCPuppet

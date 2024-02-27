@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class effectTrackItemMaterialParameter: effectTrackItem
 ---@field scale0 Float
 ---@field customParameter0 effectEffectParameterEvaluator
@@ -10,6 +11,7 @@
 ---@field scale3 Float
 ---@field customParameter3 effectEffectParameterEvaluator
 effectTrackItemMaterialParameter = {}
+
 
 ---@param fields? effectTrackItemMaterialParameter
 ---@return effectTrackItemMaterialParameter

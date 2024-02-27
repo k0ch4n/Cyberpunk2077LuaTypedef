@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AimAssistSettingsListener: userSettingsVarListener
 ---@field ctrl PlayerPuppet
 ---@field settings userSettingsUserSettings
@@ -12,6 +13,7 @@
 ---@field currentConfig AimAssistSettingConfig
 ---@field settingsRecords gamedataAimAssistSettings_Record[]
 AimAssistSettingsListener = {}
+
 
 ---@param fields? AimAssistSettingsListener
 ---@return AimAssistSettingsListener

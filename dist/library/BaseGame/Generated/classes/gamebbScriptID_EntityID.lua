@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamebbScriptID_EntityID: gamebbScriptID
 gamebbScriptID_EntityID = {}
+
 
 ---@param fields? gamebbScriptID_EntityID
 ---@return gamebbScriptID_EntityID

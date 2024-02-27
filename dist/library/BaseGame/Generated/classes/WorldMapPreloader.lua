@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WorldMapPreloader: inkWidgetLogicController
 ---@field splashAnim CName
 ---@field spinnerAnim CName
@@ -12,6 +13,7 @@
 ---@field splashProxy inkanimProxy
 ---@field spinnerFadeOutProxy inkanimProxy
 WorldMapPreloader = {}
+
 
 ---@param fields? WorldMapPreloader
 ---@return WorldMapPreloader

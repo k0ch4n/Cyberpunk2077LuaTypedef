@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ObjectMoverComponentPS: gameComponentPS
 ObjectMoverComponentPS = {}
+
 
 ---@param fields? ObjectMoverComponentPS
 ---@return ObjectMoverComponentPS

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MaterialPass
 ---@field stagePassNameRegular CName
 ---@field stagePassNameDiscarded CName
@@ -12,6 +13,7 @@
 ---@field orderIndex Uint8
 ---@field enablePixelShader Bool
 MaterialPass = {}
+
 
 ---@param fields? MaterialPass
 ---@return MaterialPass

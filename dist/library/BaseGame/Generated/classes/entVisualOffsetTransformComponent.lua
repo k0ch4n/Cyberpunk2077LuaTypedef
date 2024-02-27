@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entVisualOffsetTransformComponent: entTransformComponent
 entVisualOffsetTransformComponent = {}
+
 
 ---@param fields? entVisualOffsetTransformComponent
 ---@return entVisualOffsetTransformComponent

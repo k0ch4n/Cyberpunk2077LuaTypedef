@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_PlayRecordedSession: MenuScenario_PreGameSubMenu
 MenuScenario_PlayRecordedSession = {}
+
 
 ---@param fields? MenuScenario_PlayRecordedSession
 ---@return MenuScenario_PlayRecordedSession

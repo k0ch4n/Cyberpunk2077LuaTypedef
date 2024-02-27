@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GogPopupScreenType: Enum
 ---@field Default Enum 0
 ---@field Rewards Enum 1

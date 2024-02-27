@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CharacterCreationTopBarHeader: inkButtonController
 ---@field icon inkImageWidgetReference
 ---@field label inkTextWidgetReference
 ---@field root inkWidget
 ---@field animationProxy inkanimProxy
 CharacterCreationTopBarHeader = {}
+
 
 ---@param fields? CharacterCreationTopBarHeader
 ---@return CharacterCreationTopBarHeader

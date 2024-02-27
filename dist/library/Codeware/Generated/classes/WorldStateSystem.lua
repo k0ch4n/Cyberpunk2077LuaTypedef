@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WorldStateSystem: gameIGameSystem
 WorldStateSystem = {}
+
 
 ---@param fields? WorldStateSystem
 ---@return WorldStateSystem

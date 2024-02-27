@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CheckTargetInVehicle: AIbehaviorconditionScript
 CheckTargetInVehicle = {}
+
 
 ---@param fields? CheckTargetInVehicle
 ---@return CheckTargetInVehicle

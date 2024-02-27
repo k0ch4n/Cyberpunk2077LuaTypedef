@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class Codeware_UI_VirtualResolutionData: IScriptable
 ---@field resolution String
 ---@field size Vector2
 ---@field scale Vector2
 Codeware_UI_VirtualResolutionData = {}
+
 
 ---@param fields? Codeware_UI_VirtualResolutionData
 ---@return Codeware_UI_VirtualResolutionData

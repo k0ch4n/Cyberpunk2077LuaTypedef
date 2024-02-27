@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EInventoryComboBoxMode: Enum
 ---@field FromInventory Enum 0
 ---@field FromEquipment Enum 1

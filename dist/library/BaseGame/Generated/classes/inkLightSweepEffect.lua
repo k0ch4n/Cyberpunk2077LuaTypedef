@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkLightSweepEffect: inkIEffect
 ---@field positionX Float
 ---@field positionY Float
@@ -7,6 +8,7 @@
 ---@field width Float
 ---@field intensity Float
 inkLightSweepEffect = {}
+
 
 ---@param fields? inkLightSweepEffect
 ---@return inkLightSweepEffect

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CurrencyChangeInventoryCallback: gameInventoryScriptCallback
 ---@field notificationQueue ItemsNotificationQueue
 CurrencyChangeInventoryCallback = {}
+
 
 ---@param fields? CurrencyChangeInventoryCallback
 ---@return CurrencyChangeInventoryCallback

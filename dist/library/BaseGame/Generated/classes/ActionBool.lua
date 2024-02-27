@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActionBool: ScriptableDeviceAction
 ActionBool = {}
+
 
 ---@param actions? gamedeviceAction[]
 ---@return nil

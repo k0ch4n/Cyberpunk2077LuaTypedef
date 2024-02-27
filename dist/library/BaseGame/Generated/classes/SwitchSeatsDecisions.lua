@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SwitchSeatsDecisions: VehicleTransition
 SwitchSeatsDecisions = {}
+
 
 ---@param fields? SwitchSeatsDecisions
 ---@return SwitchSeatsDecisions

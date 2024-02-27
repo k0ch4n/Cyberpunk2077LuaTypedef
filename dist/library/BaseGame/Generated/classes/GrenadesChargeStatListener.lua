@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GrenadesChargeStatListener: BaseChargesStatListener
 GrenadesChargeStatListener = {}
+
 
 ---@param fields? GrenadesChargeStatListener
 ---@return GrenadesChargeStatListener

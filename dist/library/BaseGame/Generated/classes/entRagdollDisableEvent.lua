@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entRagdollDisableEvent: redEvent
 entRagdollDisableEvent = {}
+
 
 ---@param fields? entRagdollDisableEvent
 ---@return entRagdollDisableEvent

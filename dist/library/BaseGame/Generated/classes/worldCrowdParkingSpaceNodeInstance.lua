@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldCrowdParkingSpaceNodeInstance: worldINodeInstance
 worldCrowdParkingSpaceNodeInstance = {}
+
 
 ---@param fields? worldCrowdParkingSpaceNodeInstance
 ---@return worldCrowdParkingSpaceNodeInstance

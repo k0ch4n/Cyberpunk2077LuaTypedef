@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NPCIsHumanoidPrereq: gameIScriptablePrereq
 NPCIsHumanoidPrereq = {}
+
 
 ---@param fields? NPCIsHumanoidPrereq
 ---@return NPCIsHumanoidPrereq

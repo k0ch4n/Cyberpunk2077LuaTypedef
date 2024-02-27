@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitReceivedCallback: HitCallback
 HitReceivedCallback = {}
+
 
 ---@param fields? HitReceivedCallback
 ---@return HitReceivedCallback

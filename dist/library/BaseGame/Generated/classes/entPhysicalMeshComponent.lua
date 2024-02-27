@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entPhysicalMeshComponent: entMeshComponent
 ---@field visibilityAnimationParam CName
 ---@field simulationType physicsSimulationType
@@ -8,6 +9,7 @@
 ---@field filterDataSource physicsFilterDataSource
 ---@field filterData physicsFilterData
 entPhysicalMeshComponent = {}
+
 
 ---@param fields? entPhysicalMeshComponent
 ---@return entPhysicalMeshComponent

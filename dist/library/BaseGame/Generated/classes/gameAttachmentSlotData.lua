@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameAttachmentSlotData
 ---@field slotID TweakDBID
 ---@field itemObject gameItemObject
@@ -7,6 +8,7 @@
 ---@field prevItemID gameItemID
 ---@field appearanceItemID gameItemID
 gameAttachmentSlotData = {}
+
 
 ---@param fields? gameAttachmentSlotData
 ---@return gameAttachmentSlotData

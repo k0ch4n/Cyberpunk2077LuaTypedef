@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsLootContainer: gameEffectObjectSingleFilter_Scripted
 ---@field invert Bool
 IsLootContainer = {}
+
 
 ---@param fields? IsLootContainer
 ---@return IsLootContainer

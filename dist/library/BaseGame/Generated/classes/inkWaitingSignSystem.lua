@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkWaitingSignSystem: inkIWaitingSignSystem
 inkWaitingSignSystem = {}
+
 
 ---@param fields? inkWaitingSignSystem
 ---@return inkWaitingSignSystem

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiCharacterCustomizationInfoResource: CResource
 ---@field version Uint32
 ---@field headCustomizationOptions gameuiCharacterCustomizationInfo[]
@@ -13,6 +14,7 @@
 ---@field excludedFromRandomize CName[]
 ---@field versionUpdateInfo gameuiCharacterCustomizationVersionUpdateInfo[]
 gameuiCharacterCustomizationInfoResource = {}
+
 
 ---@param fields? gameuiCharacterCustomizationInfoResource
 ---@return gameuiCharacterCustomizationInfoResource

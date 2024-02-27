@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetClosed: ActionBool
 SetClosed = {}
+
 
 ---@param fields? SetClosed
 ---@return SetClosed

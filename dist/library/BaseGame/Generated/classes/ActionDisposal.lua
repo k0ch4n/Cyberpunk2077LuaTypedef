@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActionDisposal: ActionBool
 ActionDisposal = {}
+
 
 ---@param fields? ActionDisposal
 ---@return ActionDisposal

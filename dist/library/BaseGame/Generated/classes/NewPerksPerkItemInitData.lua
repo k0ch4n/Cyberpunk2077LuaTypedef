@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerksPerkItemInitData: IScriptable
 ---@field perkRecord gamedataNewPerk_Record
 ---@field perkType gamedataNewPerkType
@@ -11,6 +12,7 @@
 ---@field category gamedataNewPerkCategoryType
 ---@field stat gamedataStatType
 NewPerksPerkItemInitData = {}
+
 
 ---@param fields? NewPerksPerkItemInitData
 ---@return NewPerksPerkItemInitData

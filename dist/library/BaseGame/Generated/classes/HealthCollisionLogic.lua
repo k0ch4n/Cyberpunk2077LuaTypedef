@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HealthCollisionLogic: BonusCollisionLogic
 HealthCollisionLogic = {}
+
 
 ---@param fields? HealthCollisionLogic
 ---@return HealthCollisionLogic

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIactionParamsPackageTypes: Enum
 ---@field Default Enum 0
 ---@field Reaction Enum 1

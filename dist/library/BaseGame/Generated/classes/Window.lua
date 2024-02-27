@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class Window: Door
 ---@field soloCollider entIComponent
 ---@field strongSoloHandle entMeshComponent
 ---@field duplicateDestruction Bool
 Window = {}
+
 
 ---@param fields? Window
 ---@return Window

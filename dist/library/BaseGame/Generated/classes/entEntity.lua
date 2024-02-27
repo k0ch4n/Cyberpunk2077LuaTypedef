@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class entEntity: IScriptable
 ---@field customCameraTarget ECustomCameraTarget
 ---@field renderSceneLayerMask RenderSceneLayerMask
 entEntity = {}
+
 
 ---@param fields? entEntity
 ---@return entEntity

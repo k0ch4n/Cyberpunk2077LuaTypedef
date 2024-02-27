@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CycleObjectiveDecisions: QuickSlotsTapDecisions
 CycleObjectiveDecisions = {}
+
 
 ---@param fields? CycleObjectiveDecisions
 ---@return CycleObjectiveDecisions

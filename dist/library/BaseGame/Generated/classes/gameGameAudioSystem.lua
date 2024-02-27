@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameGameAudioSystem: gameIGameAudioSystem
 ---@field enemyPingStimCount Uint8
 ---@field mixHasDetectedCombat Bool
 gameGameAudioSystem = {}
+
 
 ---@param fields? gameGameAudioSystem
 ---@return gameGameAudioSystem

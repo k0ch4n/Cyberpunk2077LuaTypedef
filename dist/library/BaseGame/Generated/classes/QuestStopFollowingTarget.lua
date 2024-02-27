@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuestStopFollowingTarget: ActionBool
 ---@field targetEntityID entEntityID
 QuestStopFollowingTarget = {}
+
 
 ---@param fields? QuestStopFollowingTarget
 ---@return QuestStopFollowingTarget

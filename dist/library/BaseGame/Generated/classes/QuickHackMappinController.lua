@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuickHackMappinController: gameuiInteractionMappinController
 ---@field bar inkWidgetReference
 ---@field header inkTextWidgetReference
@@ -13,6 +14,7 @@
 ---@field animUpload inkanimProxy
 ---@field animQueue inkanimProxy
 QuickHackMappinController = {}
+
 
 ---@param fields? QuickHackMappinController
 ---@return QuickHackMappinController

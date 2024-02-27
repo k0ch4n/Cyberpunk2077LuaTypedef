@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EDeviceDurabilityState: Enum
 ---@field NOMINAL Enum 0
 ---@field MALFUNCTIONING Enum 1

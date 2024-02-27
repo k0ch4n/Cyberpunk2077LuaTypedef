@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsUIAnimActionType: Enum
 ---@field Play Enum 0
 ---@field Update Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSimpleScreenMessage
 ---@field isShown Bool
 ---@field duration Float
@@ -7,6 +8,7 @@
 ---@field isInstant Bool
 ---@field type gameSimpleMessageType
 gameSimpleScreenMessage = {}
+
 
 ---@param fields? gameSimpleScreenMessage
 ---@return gameSimpleScreenMessage

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class E3Hack_QuestPlayAnimationWeightLift: ActionBool
 E3Hack_QuestPlayAnimationWeightLift = {}
+
 
 ---@param fields? E3Hack_QuestPlayAnimationWeightLift
 ---@return E3Hack_QuestPlayAnimationWeightLift

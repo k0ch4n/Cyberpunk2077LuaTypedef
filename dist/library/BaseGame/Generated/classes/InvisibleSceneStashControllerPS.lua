@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class InvisibleSceneStashControllerPS: ScriptableDeviceComponentPS
 ---@field storedItems gameItemID[]
 InvisibleSceneStashControllerPS = {}
+
 
 ---@param fields? InvisibleSceneStashControllerPS
 ---@return InvisibleSceneStashControllerPS

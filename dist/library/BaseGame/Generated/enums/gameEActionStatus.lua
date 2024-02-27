@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEActionStatus: Enum
 ---@field STATUS_INVALID Enum 0
 ---@field STATUS_BOUND Enum 1

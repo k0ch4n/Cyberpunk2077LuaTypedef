@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioMeleeHitPerMaterialType: Enum
 ---@field Light Enum 0
 ---@field Light_Hard Enum 1

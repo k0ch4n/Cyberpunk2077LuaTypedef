@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCameraParallaxSpace: Enum
 ---@field Trajectory Enum 0
 ---@field Camera Enum 1

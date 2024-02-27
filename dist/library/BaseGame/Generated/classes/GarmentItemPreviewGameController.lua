@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class GarmentItemPreviewGameController: gameuiBaseGarmentItemPreviewGameController
 ---@field data InventoryItemPreviewData
 ---@field isMouseDown Bool
 ---@field c_GARMENT_ROTATION_SPEED Float
 GarmentItemPreviewGameController = {}
+
 
 ---@param fields? GarmentItemPreviewGameController
 ---@return GarmentItemPreviewGameController

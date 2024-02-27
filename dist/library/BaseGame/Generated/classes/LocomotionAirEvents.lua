@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class LocomotionAirEvents: LocomotionEventsTransition
 ---@field maxSuperheroFallHeight Bool
 ---@field updateInputToggles Bool
 ---@field resetFallingParametersOnExit Bool
 LocomotionAirEvents = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

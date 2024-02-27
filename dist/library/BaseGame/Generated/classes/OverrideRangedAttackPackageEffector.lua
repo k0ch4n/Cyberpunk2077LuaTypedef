@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OverrideRangedAttackPackageEffector: gameEffector
 ---@field attackPackage gamedataRangedAttackPackage_Record
 OverrideRangedAttackPackageEffector = {}
+
 
 ---@param fields? OverrideRangedAttackPackageEffector
 ---@return OverrideRangedAttackPackageEffector

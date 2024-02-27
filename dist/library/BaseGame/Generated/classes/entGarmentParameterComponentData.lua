@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entGarmentParameterComponentData
 ---@field compiledTriangleIndsData DataBuffer
 ---@field compiledVertexTbnData DataBuffer
@@ -23,6 +24,7 @@
 ---@field numIndices Uint32
 ---@field numOffsets Uint32
 entGarmentParameterComponentData = {}
+
 
 ---@param fields? entGarmentParameterComponentData
 ---@return entGarmentParameterComponentData

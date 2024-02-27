@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestResumeElevator: ActionBool
 QuestResumeElevator = {}
+
 
 ---@param fields? QuestResumeElevator
 ---@return QuestResumeElevator

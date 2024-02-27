@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ForkliftControllerPS: ScriptableDeviceComponentPS
 ---@field forkliftSetup ForkliftSetup
 ---@field isUp Bool
 ForkliftControllerPS = {}
+
 
 ---@param fields? ForkliftControllerPS
 ---@return ForkliftControllerPS

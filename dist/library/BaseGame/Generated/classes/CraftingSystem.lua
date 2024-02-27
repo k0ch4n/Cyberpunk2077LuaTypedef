@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CraftingSystem: gameScriptableSystem
 ---@field lastActionStatus Bool
 ---@field playerCraftBook CraftBook
@@ -7,6 +8,7 @@
 ---@field inventoryListener gameInventoryScriptListener
 ---@field itemIconGender gameItemIconGender
 CraftingSystem = {}
+
 
 ---@param fields? CraftingSystem
 ---@return CraftingSystem

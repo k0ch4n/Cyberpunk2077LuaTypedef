@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAdvertisementGroup_Record: gamedataTweakDBRecord
 gamedataAdvertisementGroup_Record = {}
+
 
 ---@param fields? gamedataAdvertisementGroup_Record
 ---@return gamedataAdvertisementGroup_Record

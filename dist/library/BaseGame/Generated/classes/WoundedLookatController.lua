@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WoundedLookatController: AIGenericEntityLookatTask
 WoundedLookatController = {}
+
 
 ---@param fields? WoundedLookatController
 ---@return WoundedLookatController

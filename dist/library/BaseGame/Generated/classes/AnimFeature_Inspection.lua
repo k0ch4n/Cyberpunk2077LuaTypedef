@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_Inspection: animAnimFeature
 ---@field activeInspectionStage Int32
 ---@field rotationX Float
@@ -7,6 +8,7 @@
 ---@field offsetX Float
 ---@field offsetY Float
 AnimFeature_Inspection = {}
+
 
 ---@param fields? AnimFeature_Inspection
 ---@return AnimFeature_Inspection

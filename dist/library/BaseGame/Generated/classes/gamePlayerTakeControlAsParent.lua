@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePlayerTakeControlAsParent: redEvent
 gamePlayerTakeControlAsParent = {}
+
 
 ---@param fields? gamePlayerTakeControlAsParent
 ---@return gamePlayerTakeControlAsParent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CityLightSystem: gameScriptableSystem
 ---@field timeSystemCallbacks TimetableCallbackData[]
 ---@field fuses FuseData[]
@@ -12,6 +13,7 @@
 ---@field resetLisenerID CName
 ---@field weatherCallbackId Uint32
 CityLightSystem = {}
+
 
 ---@param fields? CityLightSystem
 ---@return CityLightSystem

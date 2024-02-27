@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CooldownOnActivation: AICooldown
 CooldownOnActivation = {}
+
 
 ---@param fields? CooldownOnActivation
 ---@return CooldownOnActivation

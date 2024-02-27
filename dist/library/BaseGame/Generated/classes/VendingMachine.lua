@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class VendingMachine: InteractiveDevice
 ---@field vendorID VendorComponent
 ---@field advUiComponent entIComponent
 ---@field isShortGlitchActive Bool
 ---@field shortGlitchDelayID gameDelayID
 VendingMachine = {}
+
 
 ---@param fields? VendingMachine
 ---@return VendingMachine

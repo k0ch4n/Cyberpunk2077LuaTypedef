@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnequippedWaitingForExternalFactorsEvents: EquipmentBaseEvents
 UnequippedWaitingForExternalFactorsEvents = {}
+
 
 ---@param fields? UnequippedWaitingForExternalFactorsEvents
 ---@return UnequippedWaitingForExternalFactorsEvents

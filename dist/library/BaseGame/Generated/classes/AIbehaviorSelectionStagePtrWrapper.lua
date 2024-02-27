@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorSelectionStagePtrWrapper
 AIbehaviorSelectionStagePtrWrapper = {}
+
 
 ---@param fields? AIbehaviorSelectionStagePtrWrapper
 ---@return AIbehaviorSelectionStagePtrWrapper

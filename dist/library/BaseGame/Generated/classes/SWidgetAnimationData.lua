@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SWidgetAnimationData
 ---@field animationName CName
 ---@field playbackOptions inkanimPlaybackOptions
@@ -12,6 +13,7 @@
 ---@field onStartLoop CName
 ---@field onEndLoop CName
 SWidgetAnimationData = {}
+
 
 ---@param fields? SWidgetAnimationData
 ---@return SWidgetAnimationData

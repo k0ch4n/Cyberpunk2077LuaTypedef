@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiChatBoxGameController: gameuiHUDGameController
 ---@field player gamePuppetBase
 ---@field chatBoxBlackboardId redCallbackObject
@@ -14,6 +15,7 @@
 ---@field maxChatsDisplayed Int32
 ---@field maxChatHistory Int32
 gameuiChatBoxGameController = {}
+
 
 ---@param fields? gameuiChatBoxGameController
 ---@return gameuiChatBoxGameController

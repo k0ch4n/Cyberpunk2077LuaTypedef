@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkAdvertisementsLayer: inkWorldFluffLayer
 inkAdvertisementsLayer = {}
+
 
 ---@param fields? inkAdvertisementsLayer
 ---@return inkAdvertisementsLayer

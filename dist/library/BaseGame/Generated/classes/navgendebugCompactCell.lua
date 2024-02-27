@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class navgendebugCompactCell
 ---@field cellData Uint64
 navgendebugCompactCell = {}
+
 
 ---@param fields? navgendebugCompactCell
 ---@return navgendebugCompactCell

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldPreventionFreeAreaNodeInstance: worldAreaShapeNodeInstance
 worldPreventionFreeAreaNodeInstance = {}
+
 
 ---@param fields? worldPreventionFreeAreaNodeInstance
 ---@return worldPreventionFreeAreaNodeInstance

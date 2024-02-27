@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class DlcMenuGameController: gameuiMenuGameController
 ---@field buttonHintsRef inkWidgetReference
 ---@field containersRef inkCompoundWidgetReference
 ---@field settings userSettingsUserSettings
 ---@field dlcSettingsGroup userSettingsGroup
 DlcMenuGameController = {}
+
 
 ---@param fields? DlcMenuGameController
 ---@return DlcMenuGameController

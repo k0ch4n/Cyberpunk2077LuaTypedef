@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataShooterVFXList_Record: gamedataTweakDBRecord
 gamedataShooterVFXList_Record = {}
+
 
 ---@param fields? gamedataShooterVFXList_Record
 ---@return gamedataShooterVFXList_Record

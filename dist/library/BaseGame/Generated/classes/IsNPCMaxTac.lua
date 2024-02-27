@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsNPCMaxTac: PreventionConditionAbstract
 IsNPCMaxTac = {}
+
 
 ---@param fields? IsNPCMaxTac
 ---@return IsNPCMaxTac

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_Ik2: animAnimNode_Base
 ---@field firstBone animTransformIndex
 ---@field secondBone animTransformIndex
@@ -20,6 +21,7 @@
 ---@field endTargetPositionNode animVectorLink
 ---@field endTargetOrientationNode animQuaternionLink
 animAnimNode_Ik2 = {}
+
 
 ---@param fields? animAnimNode_Ik2
 ---@return animAnimNode_Ik2

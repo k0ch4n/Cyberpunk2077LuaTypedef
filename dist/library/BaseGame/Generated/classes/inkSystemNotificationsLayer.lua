@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkSystemNotificationsLayer: inkFullScreenLayer
 inkSystemNotificationsLayer = {}
+
 
 ---@param fields? inkSystemNotificationsLayer
 ---@return inkSystemNotificationsLayer

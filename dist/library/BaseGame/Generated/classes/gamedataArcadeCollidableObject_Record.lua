@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataArcadeCollidableObject_Record: gamedataArcadeObject_Record
 gamedataArcadeCollidableObject_Record = {}
+
 
 ---@param fields? gamedataArcadeCollidableObject_Record
 ---@return gamedataArcadeCollidableObject_Record

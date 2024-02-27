@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkFocusCause: Enum
 ---@field Mouse Enum 0
 ---@field Navigation Enum 1

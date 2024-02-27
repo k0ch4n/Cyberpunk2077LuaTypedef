@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EnterVehicle: AIVehicleTaskAbstract
 EnterVehicle = {}
+
 
 ---@param fields? EnterVehicle
 ---@return EnterVehicle

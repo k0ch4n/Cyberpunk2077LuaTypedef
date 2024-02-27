@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workMotionAnimClip: workAnimClip
 workMotionAnimClip = {}
+
 
 ---@param fields? workMotionAnimClip
 ---@return workMotionAnimClip

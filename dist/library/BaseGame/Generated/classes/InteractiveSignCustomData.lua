@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class InteractiveSignCustomData: WidgetCustomData
 ---@field messege String
 ---@field signShape SignShape
 InteractiveSignCustomData = {}
+
 
 ---@param fields? InteractiveSignCustomData
 ---@return InteractiveSignCustomData

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questShowBracket_NodeSubType: questITutorial_NodeSubType
 ---@field bracketID CName
 ---@field visible Bool
@@ -10,6 +11,7 @@
 ---@field size Vector2
 ---@field ignoreDisabledTutorials Bool
 questShowBracket_NodeSubType = {}
+
 
 ---@param fields? questShowBracket_NodeSubType
 ---@return questShowBracket_NodeSubType

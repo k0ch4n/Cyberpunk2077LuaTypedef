@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questAnimMoveOnSplineParams
 ---@field controllersSetupName CName
 ---@field blendTime Float
@@ -15,6 +16,7 @@
 ---@field startSnapToTerrainBlendTime Float
 ---@field stopSnapToTerrainBlendTime Float
 questAnimMoveOnSplineParams = {}
+
 
 ---@param fields? questAnimMoveOnSplineParams
 ---@return questAnimMoveOnSplineParams

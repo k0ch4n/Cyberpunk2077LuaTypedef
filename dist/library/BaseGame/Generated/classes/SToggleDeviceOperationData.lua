@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SToggleDeviceOperationData
 ---@field operationName CName
 ---@field enable Bool
 SToggleDeviceOperationData = {}
+
 
 ---@param fields? SToggleDeviceOperationData
 ---@return SToggleDeviceOperationData

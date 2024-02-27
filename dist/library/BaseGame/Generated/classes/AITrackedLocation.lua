@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AITrackedLocation
 ---@field lastKnown AILocationInformation
 ---@field location AILocationInformation
@@ -15,6 +16,7 @@
 ---@field status AITrackedStatusType
 ---@field sharedLastKnown AILocationInformation
 AITrackedLocation = {}
+
 
 ---@param fields? AITrackedLocation
 ---@return AITrackedLocation

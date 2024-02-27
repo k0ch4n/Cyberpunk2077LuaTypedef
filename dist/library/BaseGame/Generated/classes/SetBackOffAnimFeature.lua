@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetBackOffAnimFeature: AIbehaviortaskScript
 SetBackOffAnimFeature = {}
+
 
 ---@param fields? SetBackOffAnimFeature
 ---@return SetBackOffAnimFeature

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkGlitchEffect: inkIEffect
 ---@field intensity Float
 ---@field offsetX Float
@@ -7,6 +8,7 @@
 ---@field sizeX Float
 ---@field sizeY Float
 inkGlitchEffect = {}
+
 
 ---@param fields? inkGlitchEffect
 ---@return inkGlitchEffect

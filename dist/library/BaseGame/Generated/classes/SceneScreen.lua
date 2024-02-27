@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SceneScreen: gameObject
 ---@field uiAnimationsData SceneScreenUIAnimationsData
 ---@field blackboard gameIBlackboard
 SceneScreen = {}
+
 
 ---@param fields? SceneScreen
 ---@return SceneScreen

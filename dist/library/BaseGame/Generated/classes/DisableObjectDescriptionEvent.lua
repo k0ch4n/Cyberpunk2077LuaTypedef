@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DisableObjectDescriptionEvent: redEvent
 ---@field isDisabled Bool
 DisableObjectDescriptionEvent = {}
+
 
 ---@param fields? DisableObjectDescriptionEvent
 ---@return DisableObjectDescriptionEvent

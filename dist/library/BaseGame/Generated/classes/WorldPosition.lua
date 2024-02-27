@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class WorldPosition
 ---@field x FixedPoint
 ---@field y FixedPoint
 ---@field z FixedPoint
 WorldPosition = {}
+
 
 ---@param fields? WorldPosition
 ---@return WorldPosition

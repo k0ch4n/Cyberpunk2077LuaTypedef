@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataLinearAccuracy_Record: gamedataAccuracy_Record
 gamedataLinearAccuracy_Record = {}
+
 
 ---@param fields? gamedataLinearAccuracy_Record
 ---@return gamedataLinearAccuracy_Record

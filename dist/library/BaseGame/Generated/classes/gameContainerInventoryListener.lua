@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameContainerInventoryListener: gameIInventoryListener
 gameContainerInventoryListener = {}
+
 
 ---@param fields? gameContainerInventoryListener
 ---@return gameContainerInventoryListener

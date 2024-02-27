@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ProjectileTickEvent: gameTickableEvent
 ProjectileTickEvent = {}
+
 
 ---@param fields? ProjectileTickEvent
 ---@return ProjectileTickEvent

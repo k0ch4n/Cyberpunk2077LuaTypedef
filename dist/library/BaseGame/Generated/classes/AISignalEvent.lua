@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISignalEvent: AITaggedAIEvent
 AISignalEvent = {}
+
 
 ---@param fields? AISignalEvent
 ---@return AISignalEvent

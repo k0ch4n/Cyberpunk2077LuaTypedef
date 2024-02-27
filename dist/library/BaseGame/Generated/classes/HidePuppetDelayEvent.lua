@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HidePuppetDelayEvent: redEvent
 ---@field target NPCPuppet
 HidePuppetDelayEvent = {}
+
 
 ---@param fields? HidePuppetDelayEvent
 ---@return HidePuppetDelayEvent

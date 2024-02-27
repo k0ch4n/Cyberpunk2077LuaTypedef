@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitIsRarityPrereqState: GenericHitPrereqState
 HitIsRarityPrereqState = {}
+
 
 ---@param fields? HitIsRarityPrereqState
 ---@return HitIsRarityPrereqState

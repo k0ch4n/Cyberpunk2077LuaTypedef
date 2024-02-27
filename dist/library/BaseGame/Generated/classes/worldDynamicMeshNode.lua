@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldDynamicMeshNode: worldMeshNode
 ---@field startAsleep Bool
 ---@field isDebris Bool
@@ -8,6 +9,7 @@
 ---@field navigationSetting NavGenNavigationSetting
 ---@field useMeshNavmeshSettings Bool
 worldDynamicMeshNode = {}
+
 
 ---@param fields? worldDynamicMeshNode
 ---@return worldDynamicMeshNode

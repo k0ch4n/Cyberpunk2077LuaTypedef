@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTelemetryDamageSituation: Enum
 ---@field Irrelevant Enum 0
 ---@field EnemyToPlayer Enum 1

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class TransmogButtonView: BaseButtonView
 ---@field container inkWidgetReference
 ---@field isActive Bool
 TransmogButtonView = {}
+
 
 ---@param fields? TransmogButtonView
 ---@return TransmogButtonView

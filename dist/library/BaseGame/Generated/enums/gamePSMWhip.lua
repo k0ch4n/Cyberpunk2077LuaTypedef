@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePSMWhip: Enum
 ---@field Default Enum 0
 ---@field Charging Enum 1

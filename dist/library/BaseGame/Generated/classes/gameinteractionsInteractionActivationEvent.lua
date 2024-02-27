@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameinteractionsInteractionActivationEvent: gameinteractionsInteractionBaseEvent
 ---@field eventType gameinteractionsEInteractionEventType
 gameinteractionsInteractionActivationEvent = {}
+
 
 ---@param fields? gameinteractionsInteractionActivationEvent
 ---@return gameinteractionsInteractionActivationEvent

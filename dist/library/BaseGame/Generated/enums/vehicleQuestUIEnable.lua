@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleQuestUIEnable: Enum
 ---@field Gameplay Enum 0
 ---@field ForceEnable Enum 1

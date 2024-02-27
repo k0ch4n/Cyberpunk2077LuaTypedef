@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class worldTrafficLightStage
 ---@field color worldTrafficLightColor
 ---@field duration Float
 worldTrafficLightStage = {}
+
 
 ---@param fields? worldTrafficLightStage
 ---@return worldTrafficLightStage

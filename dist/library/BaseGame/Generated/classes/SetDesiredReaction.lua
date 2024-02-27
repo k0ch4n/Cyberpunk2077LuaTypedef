@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SetDesiredReaction: AIbehaviortaskScript
 ---@field behaviorArgumentNameTag CName
 ---@field behaviorArgumentFloatPriority CName
 ---@field behaviorArgumentNameFlag CName
 ---@field reactionData AIReactionData
 SetDesiredReaction = {}
+
 
 ---@param fields? SetDesiredReaction
 ---@return SetDesiredReaction

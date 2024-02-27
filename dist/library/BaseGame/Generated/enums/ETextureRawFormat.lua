@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETextureRawFormat: Enum
 ---@field TRF_Invalid Enum 0
 ---@field TRF_TrueColor Enum 1

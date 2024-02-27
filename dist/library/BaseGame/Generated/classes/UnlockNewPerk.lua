@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnlockNewPerk: NewPerkActionRequest
 UnlockNewPerk = {}
+
 
 ---@param fields? UnlockNewPerk
 ---@return UnlockNewPerk

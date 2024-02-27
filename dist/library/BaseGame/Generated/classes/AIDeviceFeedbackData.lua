@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIDeviceFeedbackData: AIbehaviortaskScript
 AIDeviceFeedbackData = {}
+
 
 ---@param fields? AIDeviceFeedbackData
 ---@return AIDeviceFeedbackData

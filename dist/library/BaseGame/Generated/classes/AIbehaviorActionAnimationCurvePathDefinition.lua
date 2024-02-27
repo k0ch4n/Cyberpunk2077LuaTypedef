@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorActionAnimationCurvePathDefinition: AIbehaviorActionTreeNodeDefinition
 ---@field nodeReference AIArgumentMapping
 ---@field controllersSetupName AIArgumentMapping
@@ -18,6 +19,7 @@
 ---@field startSnapToTerrainBlendTime AIArgumentMapping
 ---@field stopSnapToTerrainBlendTime AIArgumentMapping
 AIbehaviorActionAnimationCurvePathDefinition = {}
+
 
 ---@param fields? AIbehaviorActionAnimationCurvePathDefinition
 ---@return AIbehaviorActionAnimationCurvePathDefinition

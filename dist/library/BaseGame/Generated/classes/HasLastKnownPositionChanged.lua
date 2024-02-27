@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HasLastKnownPositionChanged: PreventionConditionAbstract
 HasLastKnownPositionChanged = {}
+
 
 ---@param fields? HasLastKnownPositionChanged
 ---@return HasLastKnownPositionChanged

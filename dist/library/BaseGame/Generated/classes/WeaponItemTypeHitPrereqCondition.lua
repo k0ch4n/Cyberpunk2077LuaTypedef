@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WeaponItemTypeHitPrereqCondition: BaseHitPrereqCondition
 ---@field itemType gamedataItemType
 WeaponItemTypeHitPrereqCondition = {}
+
 
 ---@param fields? WeaponItemTypeHitPrereqCondition
 ---@return WeaponItemTypeHitPrereqCondition

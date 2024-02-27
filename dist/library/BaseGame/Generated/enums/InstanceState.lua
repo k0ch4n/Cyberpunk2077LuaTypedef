@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InstanceState: Enum
 ---@field DISABLED Enum 0
 ---@field HIDDEN Enum 1

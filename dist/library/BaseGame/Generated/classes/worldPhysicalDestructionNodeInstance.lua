@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldPhysicalDestructionNodeInstance: worldSnappableNodeInstance
 worldPhysicalDestructionNodeInstance = {}
+
 
 ---@param fields? worldPhysicalDestructionNodeInstance
 ---@return worldPhysicalDestructionNodeInstance

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeviceConnectionHighlightComponent: gameScriptableComponent
 DeviceConnectionHighlightComponent = {}
+
 
 ---@param fields? DeviceConnectionHighlightComponent
 ---@return DeviceConnectionHighlightComponent

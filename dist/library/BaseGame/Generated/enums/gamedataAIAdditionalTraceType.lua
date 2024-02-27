@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAIAdditionalTraceType: Enum
 ---@field Chest Enum 0
 ---@field Hip Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CandleDevice: InteractiveDevice
 CandleDevice = {}
+
 
 ---@param fields? CandleDevice
 ---@return CandleDevice

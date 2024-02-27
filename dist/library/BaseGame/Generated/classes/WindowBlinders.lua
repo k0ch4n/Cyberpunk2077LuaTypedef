@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WindowBlinders: InteractiveDevice
 ---@field animFeature AnimFeature_SimpleDevice
 ---@field workspotSideName CName
@@ -11,6 +12,7 @@
 ---@field triggerComponents gameStaticTriggerAreaComponent[]
 ---@field interactionBlockingCollider entIPlacedComponent
 WindowBlinders = {}
+
 
 ---@param fields? WindowBlinders
 ---@return WindowBlinders

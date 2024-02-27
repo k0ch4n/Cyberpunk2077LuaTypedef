@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BasicDistractionDeviceController: ScriptableDeviceComponent
 BasicDistractionDeviceController = {}
+
 
 ---@param fields? BasicDistractionDeviceController
 ---@return BasicDistractionDeviceController

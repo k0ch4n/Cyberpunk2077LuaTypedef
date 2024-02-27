@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventorySlotTooltip: AGenericTooltipController
 ---@field itemName inkTextWidgetReference
 ---@field itemCategory inkTextWidgetReference
@@ -35,6 +36,7 @@
 ---@field tooltipCycleHint ButtonHintListItem
 ---@field anim inkanimProxy
 InventorySlotTooltip = {}
+
 
 ---@param fields? InventorySlotTooltip
 ---@return InventorySlotTooltip

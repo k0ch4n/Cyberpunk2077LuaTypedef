@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CommunityProxyPS: MasterControllerPS
 CommunityProxyPS = {}
+
 
 ---@param fields? CommunityProxyPS
 ---@return CommunityProxyPS

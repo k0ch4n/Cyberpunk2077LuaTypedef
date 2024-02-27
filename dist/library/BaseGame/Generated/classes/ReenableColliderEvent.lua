@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReenableColliderEvent: redEvent
 ReenableColliderEvent = {}
+
 
 ---@param fields? ReenableColliderEvent
 ---@return ReenableColliderEvent

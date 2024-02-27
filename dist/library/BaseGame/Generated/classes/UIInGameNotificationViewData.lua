@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class UIInGameNotificationViewData: gameuiGenericNotificationViewData
 ---@field animContainer inGameMenuAnimContainer
 ---@field notificationType UIInGameNotificationType
 UIInGameNotificationViewData = {}
+
 
 ---@param fields? UIInGameNotificationViewData
 ---@return UIInGameNotificationViewData

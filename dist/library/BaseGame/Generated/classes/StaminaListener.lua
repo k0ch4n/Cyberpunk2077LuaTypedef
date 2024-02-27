@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StaminaListener: gameCustomValueStatPoolsListener
 ---@field player PlayerPuppet
 ---@field psmAdded Bool
@@ -10,6 +11,7 @@
 ---@field sfxName CName
 ---@field delayID gameDelayID
 StaminaListener = {}
+
 
 ---@param fields? StaminaListener
 ---@return StaminaListener

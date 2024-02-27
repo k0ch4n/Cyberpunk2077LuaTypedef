@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkAdditionalContentStatusUpdateCallback: inkCallbackBase
 inkAdditionalContentStatusUpdateCallback = {}
+
 
 ---@param fields? inkAdditionalContentStatusUpdateCallback
 ---@return inkAdditionalContentStatusUpdateCallback

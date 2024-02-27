@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RegisterPreviewControllerEvent: redEvent
 ---@field controller gameuiWardrobeSetPreviewGameController
 RegisterPreviewControllerEvent = {}
+
 
 ---@param fields? RegisterPreviewControllerEvent
 ---@return RegisterPreviewControllerEvent

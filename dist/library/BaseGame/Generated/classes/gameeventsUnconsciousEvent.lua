@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameeventsUnconsciousEvent: redEvent
 gameeventsUnconsciousEvent = {}
+
 
 ---@param fields? gameeventsUnconsciousEvent
 ---@return gameeventsUnconsciousEvent

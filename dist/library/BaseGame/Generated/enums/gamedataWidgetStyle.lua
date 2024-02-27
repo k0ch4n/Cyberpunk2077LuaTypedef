@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataWidgetStyle: Enum
 ---@field Arasaka Enum 0
 ---@field DarkNet Enum 1

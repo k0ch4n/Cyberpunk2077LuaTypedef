@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTracking_Record: gamedataProjectileLaunch_Record
 gamedataTracking_Record = {}
+
 
 ---@param fields? gamedataTracking_Record
 ---@return gamedataTracking_Record

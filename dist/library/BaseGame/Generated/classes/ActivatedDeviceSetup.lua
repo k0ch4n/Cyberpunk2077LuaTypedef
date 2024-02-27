@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ActivatedDeviceSetup
 ---@field actionName CName
 ---@field disableOnActivation Bool
@@ -21,6 +22,7 @@
 ---@field thumbnailIconRecord TweakDBID
 ---@field actionWidgetRecord TweakDBID
 ActivatedDeviceSetup = {}
+
 
 ---@param fields? ActivatedDeviceSetup
 ---@return ActivatedDeviceSetup

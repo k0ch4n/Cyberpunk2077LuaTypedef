@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ElectricBoxControllerPS: MasterControllerPS
 ---@field techieSkillChecks EngineeringContainer
 ---@field questFactSetup ComputerQuickHackData
 ---@field isOverriden Bool
 ElectricBoxControllerPS = {}
+
 
 ---@param fields? ElectricBoxControllerPS
 ---@return ElectricBoxControllerPS

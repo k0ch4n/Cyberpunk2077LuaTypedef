@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class audioVoiceGruntVariations
 ---@field cachedVariations CName[]
 audioVoiceGruntVariations = {}
+
 
 ---@param fields? audioVoiceGruntVariations
 ---@return audioVoiceGruntVariations

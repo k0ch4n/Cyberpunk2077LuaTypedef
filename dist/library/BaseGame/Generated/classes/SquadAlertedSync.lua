@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SquadAlertedSync: SquadTask
 SquadAlertedSync = {}
+
 
 ---@param fields? SquadAlertedSync
 ---@return SquadAlertedSync

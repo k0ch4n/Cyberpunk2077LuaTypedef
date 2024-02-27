@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestSetLiftSpeed: ActionFloat
 QuestSetLiftSpeed = {}
+
 
 ---@param fields? QuestSetLiftSpeed
 ---@return QuestSetLiftSpeed

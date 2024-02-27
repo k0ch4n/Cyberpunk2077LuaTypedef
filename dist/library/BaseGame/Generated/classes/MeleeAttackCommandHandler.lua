@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MeleeAttackCommandHandler: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ---@field currentCommand AIMeleeAttackCommand
 MeleeAttackCommandHandler = {}
+
 
 ---@param fields? MeleeAttackCommandHandler
 ---@return MeleeAttackCommandHandler

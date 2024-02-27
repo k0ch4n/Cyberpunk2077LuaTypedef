@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiCharacterCustomizationOptionVersionUpdateInfo
 ---@field curOptionNames CName[]
 ---@field curDefintionName CName
@@ -8,6 +9,7 @@
 ---@field newDefinitionName CName
 ---@field replaceCurOption Bool
 gameuiCharacterCustomizationOptionVersionUpdateInfo = {}
+
 
 ---@param fields? gameuiCharacterCustomizationOptionVersionUpdateInfo
 ---@return gameuiCharacterCustomizationOptionVersionUpdateInfo

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TerminalSetup
 ---@field minClearance Int32
 ---@field maxClearance Int32
@@ -7,6 +8,7 @@
 ---@field allowRemoteAuthorization Bool
 ---@field shouldForceVirtualSystem Bool
 TerminalSetup = {}
+
 
 ---@param fields? TerminalSetup
 ---@return TerminalSetup

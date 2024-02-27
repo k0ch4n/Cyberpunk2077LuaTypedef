@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class animLookAtRef
 ---@field id Int32
 ---@field part CName
 animLookAtRef = {}
+
 
 ---@param fields? animLookAtRef
 ---@return animLookAtRef

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCrowdSettingsPackageBase_Record: gamedataTweakDBRecord
 gamedataCrowdSettingsPackageBase_Record = {}
+
 
 ---@param fields? gamedataCrowdSettingsPackageBase_Record
 ---@return gamedataCrowdSettingsPackageBase_Record

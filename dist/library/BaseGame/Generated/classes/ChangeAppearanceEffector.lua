@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ChangeAppearanceEffector: gameEffector
 ---@field appearanceName CName
 ---@field resetAppearance Bool
 ---@field previousAppearance CName
 ---@field owner gameObject
 ChangeAppearanceEffector = {}
+
 
 ---@param fields? ChangeAppearanceEffector
 ---@return ChangeAppearanceEffector

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ELogType: Enum
 ---@field DEFAULT Enum 0
 ---@field WARNING Enum 1

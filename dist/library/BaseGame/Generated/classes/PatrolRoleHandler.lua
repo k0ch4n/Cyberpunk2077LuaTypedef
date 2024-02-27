@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PatrolRoleHandler: AIbehaviortaskScript
 PatrolRoleHandler = {}
+
 
 ---@param fields? PatrolRoleHandler
 ---@return PatrolRoleHandler

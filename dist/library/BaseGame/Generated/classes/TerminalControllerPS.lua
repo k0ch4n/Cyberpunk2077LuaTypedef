@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TerminalControllerPS: MasterControllerPS
 ---@field terminalSetup TerminalSetup
 ---@field terminalSkillChecks HackEngContainer
@@ -11,6 +12,7 @@
 ---@field state gameinteractionsReactionState
 ---@field forcedElevatorArrowsState EForcedElevatorArrowsState
 TerminalControllerPS = {}
+
 
 ---@param fields? TerminalControllerPS
 ---@return TerminalControllerPS

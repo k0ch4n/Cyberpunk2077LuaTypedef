@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RemoveCachedStatusEffectFXEvent: redEvent
 RemoveCachedStatusEffectFXEvent = {}
+
 
 ---@param fields? RemoveCachedStatusEffectFXEvent
 ---@return RemoveCachedStatusEffectFXEvent

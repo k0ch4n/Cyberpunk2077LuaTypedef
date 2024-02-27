@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitReceivedPrereq: GenericHitPrereq
 HitReceivedPrereq = {}
+
 
 ---@param fields? HitReceivedPrereq
 ---@return HitReceivedPrereq

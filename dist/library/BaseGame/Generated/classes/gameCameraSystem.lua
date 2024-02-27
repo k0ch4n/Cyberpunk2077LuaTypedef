@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCameraSystem: gameICameraSystem
 gameCameraSystem = {}
+
 
 ---@param fields? gameCameraSystem
 ---@return gameCameraSystem

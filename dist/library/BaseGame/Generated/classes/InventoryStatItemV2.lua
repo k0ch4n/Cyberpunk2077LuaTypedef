@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryStatItemV2: inkWidgetLogicController
 ---@field LabelRef inkTextWidgetReference
 ---@field ValueRef inkTextWidgetReference
@@ -8,6 +9,7 @@
 ---@field TextGroup inkWidgetReference
 ---@field IntroPlayed Bool
 InventoryStatItemV2 = {}
+
 
 ---@param fields? InventoryStatItemV2
 ---@return InventoryStatItemV2

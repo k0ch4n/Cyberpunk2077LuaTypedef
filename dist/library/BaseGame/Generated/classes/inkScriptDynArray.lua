@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkScriptDynArray: IScriptable
 inkScriptDynArray = {}
+
 
 ---@param fields? inkScriptDynArray
 ---@return inkScriptDynArray

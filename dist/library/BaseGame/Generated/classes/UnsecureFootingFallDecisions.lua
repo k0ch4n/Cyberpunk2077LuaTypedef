@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnsecureFootingFallDecisions: FallDecisions
 UnsecureFootingFallDecisions = {}
+
 
 ---@param fields? UnsecureFootingFallDecisions
 ---@return UnsecureFootingFallDecisions

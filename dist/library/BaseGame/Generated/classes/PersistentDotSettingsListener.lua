@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PersistentDotSettingsListener: userSettingsVarListener
 ---@field controller CrosshairGameControllerPersistentDot
 PersistentDotSettingsListener = {}
+
 
 ---@param fields? PersistentDotSettingsListener
 ---@return PersistentDotSettingsListener

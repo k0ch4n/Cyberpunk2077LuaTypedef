@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameInventoryPS: gameComponentPS
 ---@field isRegisteredShared Bool
 ---@field accessible Bool
 gameInventoryPS = {}
+
 
 ---@param fields? gameInventoryPS
 ---@return gameInventoryPS

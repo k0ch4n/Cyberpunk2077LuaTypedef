@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviortweakDetectionListenerWrapper
 AIbehaviortweakDetectionListenerWrapper = {}
+
 
 ---@param fields? AIbehaviortweakDetectionListenerWrapper
 ---@return AIbehaviortweakDetectionListenerWrapper

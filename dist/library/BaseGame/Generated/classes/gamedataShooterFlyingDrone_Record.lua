@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataShooterFlyingDrone_Record: gamedataShooterProjectileAI_Record
 gamedataShooterFlyingDrone_Record = {}
+
 
 ---@param fields? gamedataShooterFlyingDrone_Record
 ---@return gamedataShooterFlyingDrone_Record

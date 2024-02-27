@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AddItemForPlayerToPickUp: ScriptableDeviceAction
 ---@field lootTable TweakDBID
 ---@field shouldAdd Bool
 AddItemForPlayerToPickUp = {}
+
 
 ---@param fields? AddItemForPlayerToPickUp
 ---@return AddItemForPlayerToPickUp

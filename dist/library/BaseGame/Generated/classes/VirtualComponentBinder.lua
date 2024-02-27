@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VirtualComponentBinder
 VirtualComponentBinder = {}
+
 
 ---@param fields? VirtualComponentBinder
 ---@return VirtualComponentBinder

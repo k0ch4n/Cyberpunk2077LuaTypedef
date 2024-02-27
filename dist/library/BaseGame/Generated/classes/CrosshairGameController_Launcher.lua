@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrosshairGameController_Launcher: gameuiCrosshairBaseGameController
 ---@field weaponBBID redCallbackObject
 ---@field animationProxy inkanimProxy
@@ -9,6 +10,7 @@
 ---@field rightStickY Float
 ---@field currentState gamePSMLeftHandCyberware
 CrosshairGameController_Launcher = {}
+
 
 ---@param fields? CrosshairGameController_Launcher
 ---@return CrosshairGameController_Launcher

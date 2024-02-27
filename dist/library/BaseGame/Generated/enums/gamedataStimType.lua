@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataStimType: Enum
 ---@field AimingAt Enum 0
 ---@field Alarm Enum 1

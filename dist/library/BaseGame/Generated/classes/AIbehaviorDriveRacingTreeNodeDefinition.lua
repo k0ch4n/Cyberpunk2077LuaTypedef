@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorDriveRacingTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field useKinematic AIArgumentMapping
 ---@field needDriver AIArgumentMapping
@@ -22,6 +23,7 @@
 ---@field rubberBandingTeleportToCatchUp AIArgumentMapping
 ---@field rubberBandingStayInFront AIArgumentMapping
 AIbehaviorDriveRacingTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorDriveRacingTreeNodeDefinition
 ---@return AIbehaviorDriveRacingTreeNodeDefinition

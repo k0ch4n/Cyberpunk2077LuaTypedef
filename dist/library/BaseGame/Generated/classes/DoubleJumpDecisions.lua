@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DoubleJumpDecisions: JumpDecisions
 DoubleJumpDecisions = {}
+
 
 ---@param fields? DoubleJumpDecisions
 ---@return DoubleJumpDecisions

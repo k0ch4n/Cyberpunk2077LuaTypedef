@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkInputDisplayController: inkWidgetLogicController
 ---@field iconRef inkWidgetReference
 ---@field iconAND inkTextWidgetReference
@@ -12,6 +13,7 @@
 ---@field inputActionName CName
 ---@field fixedIconHeight Float
 inkInputDisplayController = {}
+
 
 ---@param fields? inkInputDisplayController
 ---@return inkInputDisplayController

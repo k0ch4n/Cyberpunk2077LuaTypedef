@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NewPerksRequirementsLinksManager: IScriptable
 ---@field cache NewPerksRequirementsLinks[]
 NewPerksRequirementsLinksManager = {}
+
 
 ---@param fields? NewPerksRequirementsLinksManager
 ---@return NewPerksRequirementsLinksManager

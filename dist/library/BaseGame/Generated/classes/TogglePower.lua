@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class TogglePower: ActionBool
 ---@field TrueRecordName String
 ---@field FalseRecordName String
 TogglePower = {}
+
 
 ---@param fields? TogglePower
 ---@return TogglePower

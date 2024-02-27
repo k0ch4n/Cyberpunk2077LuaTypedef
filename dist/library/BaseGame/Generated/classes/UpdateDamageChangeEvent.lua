@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UpdateDamageChangeEvent: redEvent
 UpdateDamageChangeEvent = {}
+
 
 ---@param fields? UpdateDamageChangeEvent
 ---@return UpdateDamageChangeEvent

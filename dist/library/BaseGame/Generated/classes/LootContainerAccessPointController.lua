@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LootContainerAccessPointController: AccessPointController
 LootContainerAccessPointController = {}
+
 
 ---@param fields? LootContainerAccessPointController
 ---@return LootContainerAccessPointController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePrereqManager: gameIPrereqManager
 gamePrereqManager = {}
+
 
 ---@param fields? gamePrereqManager
 ---@return gamePrereqManager

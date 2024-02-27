@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AutoKillDelayEvent: redEvent
 AutoKillDelayEvent = {}
+
 
 ---@param fields? AutoKillDelayEvent
 ---@return AutoKillDelayEvent

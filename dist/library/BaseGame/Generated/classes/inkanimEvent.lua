@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkanimEvent: IScriptable
 ---@field startTime Float
 inkanimEvent = {}
+
 
 ---@return Float
 function inkanimEvent:GetStartTime() end

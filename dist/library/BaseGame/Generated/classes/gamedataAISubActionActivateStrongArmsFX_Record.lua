@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionActivateStrongArmsFX_Record: gamedataAISubAction_Record
 gamedataAISubActionActivateStrongArmsFX_Record = {}
+
 
 ---@param fields? gamedataAISubActionActivateStrongArmsFX_Record
 ---@return gamedataAISubActionActivateStrongArmsFX_Record

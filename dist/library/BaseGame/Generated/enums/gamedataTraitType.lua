@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataTraitType: Enum
 ---@field AssaultTrait01 Enum 0
 ---@field AthleticsTrait01 Enum 1

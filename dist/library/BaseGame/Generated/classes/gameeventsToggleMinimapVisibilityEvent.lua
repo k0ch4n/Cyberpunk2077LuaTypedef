@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameeventsToggleMinimapVisibilityEvent: redEvent
 ---@field show Bool
 gameeventsToggleMinimapVisibilityEvent = {}
+
 
 ---@param fields? gameeventsToggleMinimapVisibilityEvent
 ---@return gameeventsToggleMinimapVisibilityEvent

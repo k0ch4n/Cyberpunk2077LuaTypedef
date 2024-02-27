@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BraindanceFlyDecisions: LocomotionBraindance
 BraindanceFlyDecisions = {}
+
 
 ---@param fields? BraindanceFlyDecisions
 ---@return BraindanceFlyDecisions

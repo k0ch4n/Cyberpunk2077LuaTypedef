@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InactiveCoverEvents: CoverActionEventsTransition
 InactiveCoverEvents = {}
+
 
 ---@param fields? InactiveCoverEvents
 ---@return InactiveCoverEvents

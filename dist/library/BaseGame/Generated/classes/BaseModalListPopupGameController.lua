@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BaseModalListPopupGameController: gameuiWidgetGameController
 ---@field content inkWidgetReference
 ---@field listController inkVirtualListController
@@ -15,6 +16,7 @@
 ---@field c_scrollInputThreshold Float
 ---@field firstInit Bool
 BaseModalListPopupGameController = {}
+
 
 ---@param fields? BaseModalListPopupGameController
 ---@return BaseModalListPopupGameController

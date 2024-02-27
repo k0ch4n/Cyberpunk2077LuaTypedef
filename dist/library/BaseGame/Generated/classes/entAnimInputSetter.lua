@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entAnimInputSetter: redEvent
 ---@field key CName
 entAnimInputSetter = {}
+
 
 ---@param fields? entAnimInputSetter
 ---@return entAnimInputSetter

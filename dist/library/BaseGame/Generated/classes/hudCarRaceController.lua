@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hudCarRaceController: gameuiHUDGameController
 ---@field Countdown inkCanvasWidgetReference
 ---@field PositionCounter inkCanvasWidgetReference
@@ -15,6 +16,7 @@
 ---@field raceStartEngineTime EngineTime
 ---@field factCallbackID Uint32
 hudCarRaceController = {}
+
 
 ---@param fields? hudCarRaceController
 ---@return hudCarRaceController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GpuWrapApieBufferChunkCategory: Enum
 ---@field BCC_Staging Enum 0
 ---@field BCC_Vertex Enum 1

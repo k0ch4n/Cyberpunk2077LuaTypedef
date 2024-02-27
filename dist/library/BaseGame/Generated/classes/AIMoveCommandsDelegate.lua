@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIMoveCommandsDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field animMoveOnSplineCommand AIAnimMoveOnSplineCommand
 ---@field spline NodeRef
@@ -60,6 +61,7 @@
 ---@field teleportDestination Vector4
 ---@field matchTargetSpeed Bool
 AIMoveCommandsDelegate = {}
+
 
 ---@param fields? AIMoveCommandsDelegate
 ---@return AIMoveCommandsDelegate

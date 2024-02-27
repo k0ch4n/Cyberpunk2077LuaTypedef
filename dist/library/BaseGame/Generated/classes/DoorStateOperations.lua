@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DoorStateOperations: DeviceOperations
 ---@field doorStateOperations SDoorStateOperationData[]
 ---@field wasStateCached Bool
 ---@field cachedState EDoorStatus
 DoorStateOperations = {}
+
 
 ---@param fields? DoorStateOperations
 ---@return DoorStateOperations

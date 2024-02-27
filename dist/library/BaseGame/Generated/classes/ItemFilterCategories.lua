@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ItemFilterCategories: IScriptable
 ItemFilterCategories = {}
+
 
 ---@param filterType Int32
 ---@return String

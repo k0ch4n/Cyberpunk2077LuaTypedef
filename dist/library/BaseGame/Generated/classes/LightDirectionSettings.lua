@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LightDirectionSettings: IAreaSettings
 ---@field direction GlobalLightingTrajectoryOverride
 LightDirectionSettings = {}
+
 
 ---@param fields? LightDirectionSettings
 ---@return LightDirectionSettings

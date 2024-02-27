@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetLastKnownPosition: AIbehaviortaskScript
 SetLastKnownPosition = {}
+
 
 ---@param fields? SetLastKnownPosition
 ---@return SetLastKnownPosition

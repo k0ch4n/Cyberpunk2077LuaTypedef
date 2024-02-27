@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameAppearanceSource: Enum
 ---@field EntityResource Enum 0
 ---@field PopulationSpawner Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAttachmentSlotEventsEquipEnd: gameAttachmentSlotEventsAttachmentSlotEvent
 gameAttachmentSlotEventsEquipEnd = {}
+
 
 ---@param fields? gameAttachmentSlotEventsEquipEnd
 ---@return gameAttachmentSlotEventsEquipEnd

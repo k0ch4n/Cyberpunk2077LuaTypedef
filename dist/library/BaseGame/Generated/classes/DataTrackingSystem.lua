@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DataTrackingSystem: gameScriptableSystem
 ---@field trackedAchievements gamedataAchievement[]
 ---@field rangedAttacksMade Int32
@@ -55,6 +56,7 @@
 ---@field resetNpcDeflectedReqDelayID gameDelayID
 ---@field resetNpcGuardbreakReqDelayID gameDelayID
 DataTrackingSystem = {}
+
 
 ---@param fields? DataTrackingSystem
 ---@return DataTrackingSystem

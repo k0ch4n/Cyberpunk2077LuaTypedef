@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataFxAction: Enum
 ---@field EnterCharge Enum 0
 ---@field EnterDischarge Enum 1

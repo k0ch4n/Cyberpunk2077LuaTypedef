@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HUDManager: gameNativeHudManager
 ---@field state HUDState
 ---@field activeMode ActiveMode
@@ -49,6 +50,7 @@
 ---@field pulseDelayID gameDelayID
 ---@field previousStickInput Vector4
 HUDManager = {}
+
 
 ---@param fields? HUDManager
 ---@return HUDManager

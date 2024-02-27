@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionSetWorldPosition_Record_Implementation: IScriptable
 AISubActionSetWorldPosition_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionSetWorldPosition_Record

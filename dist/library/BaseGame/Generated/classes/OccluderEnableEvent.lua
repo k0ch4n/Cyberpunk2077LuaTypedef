@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OccluderEnableEvent: redEvent
 OccluderEnableEvent = {}
+
 
 ---@param fields? OccluderEnableEvent
 ---@return OccluderEnableEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SingleCooldownManager: inkWidgetLogicController
 ---@field sprite inkImageWidgetReference
 ---@field spriteBg inkImageWidgetReference
@@ -22,6 +23,7 @@
 ---@field excludedStatusEffect TweakDBID
 ---@field C_EXCLUDED_STATUS_EFFECT_NAME String
 SingleCooldownManager = {}
+
 
 ---@param fields? SingleCooldownManager
 ---@return SingleCooldownManager

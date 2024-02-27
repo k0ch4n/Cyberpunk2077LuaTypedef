@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NPCInitTask: AIbehaviortaskStackScript
 ---@field preventSkippingDeathAnimation Bool
 NPCInitTask = {}
+
 
 ---@param fields? NPCInitTask
 ---@return NPCInitTask

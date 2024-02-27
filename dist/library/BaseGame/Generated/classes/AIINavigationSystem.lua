@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIINavigationSystem: gameIGameSystem
 AIINavigationSystem = {}
+
 
 ---@return nil
 function AIINavigationSystem:GetResult() end

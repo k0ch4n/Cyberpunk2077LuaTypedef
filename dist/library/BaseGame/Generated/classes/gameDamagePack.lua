@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameDamagePack: IScriptable
 ---@field damageList gameDamage[]
 gameDamagePack = {}
+
 
 ---@param fields? gameDamagePack
 ---@return gameDamagePack

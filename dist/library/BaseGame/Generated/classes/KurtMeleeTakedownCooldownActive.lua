@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class KurtMeleeTakedownCooldownActive: AIbehaviorconditionScript
 KurtMeleeTakedownCooldownActive = {}
+
 
 ---@param fields? KurtMeleeTakedownCooldownActive
 ---@return KurtMeleeTakedownCooldownActive

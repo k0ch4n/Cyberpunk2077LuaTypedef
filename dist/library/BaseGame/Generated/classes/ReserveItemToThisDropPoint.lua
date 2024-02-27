@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ReserveItemToThisDropPoint: ScriptableDeviceAction
 ---@field item TweakDBID
 ReserveItemToThisDropPoint = {}
+
 
 ---@param fields? ReserveItemToThisDropPoint
 ---@return ReserveItemToThisDropPoint

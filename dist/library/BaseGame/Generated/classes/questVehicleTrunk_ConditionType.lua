@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questVehicleTrunk_ConditionType: questIVehicleConditionType
 ---@field anyVehicle Bool
 ---@field playerVehicle Bool
@@ -9,6 +10,7 @@
 ---@field inverted Bool
 ---@field isInside Bool
 questVehicleTrunk_ConditionType = {}
+
 
 ---@param fields? questVehicleTrunk_ConditionType
 ---@return questVehicleTrunk_ConditionType

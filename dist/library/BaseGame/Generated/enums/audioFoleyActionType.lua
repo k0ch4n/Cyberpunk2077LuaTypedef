@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioFoleyActionType: Enum
 ---@field FastHeavy Enum 0
 ---@field FastMedium Enum 1

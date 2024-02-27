@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questInputNodeDefinition: questIONodeDefinition
 questInputNodeDefinition = {}
+
 
 ---@param fields? questInputNodeDefinition
 ---@return questInputNodeDefinition

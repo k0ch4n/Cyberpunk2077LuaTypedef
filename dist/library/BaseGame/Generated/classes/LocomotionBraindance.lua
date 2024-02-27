@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LocomotionBraindance: LocomotionTransition
 LocomotionBraindance = {}
+
 
 ---@param fields? LocomotionBraindance
 ---@return LocomotionBraindance

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ProgramSetDeviceAttitude: ActionBool
 ProgramSetDeviceAttitude = {}
+
 
 ---@param fields? ProgramSetDeviceAttitude
 ---@return ProgramSetDeviceAttitude

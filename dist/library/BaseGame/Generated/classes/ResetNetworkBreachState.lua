@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetNetworkBreachState: ActionBool
 ResetNetworkBreachState = {}
+
 
 ---@param fields? ResetNetworkBreachState
 ---@return ResetNetworkBreachState

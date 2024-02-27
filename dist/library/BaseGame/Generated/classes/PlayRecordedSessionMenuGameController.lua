@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PlayRecordedSessionMenuGameController: PreGameSubMenuGameController
 ---@field recordsSelector inkSelectorController
 ---@field records String[]
 PlayRecordedSessionMenuGameController = {}
+
 
 ---@param fields? PlayRecordedSessionMenuGameController
 ---@return PlayRecordedSessionMenuGameController

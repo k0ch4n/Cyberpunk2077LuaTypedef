@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ScoreboardLogicController: inkWidgetLogicController
 ---@field gridItem CName
 ---@field namesWidget inkCompoundWidgetReference
 ---@field scoresWidget inkCompoundWidgetReference
 ---@field highScores ScoreboardPlayer[]
 ScoreboardLogicController = {}
+
 
 ---@param fields? ScoreboardLogicController
 ---@return ScoreboardLogicController

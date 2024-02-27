@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameuiSideScrollerMiniGameStateAdvanced: IScriptable
 ---@field opertyMaxScore CName
 ---@field opertyCurrentLives CName
 ---@field opertyCurrentScore CName
 ---@field PropertyChanged gameuiGameStatePropertyChangedCallback
 gameuiSideScrollerMiniGameStateAdvanced = {}
+
 
 ---@return nil
 function gameuiSideScrollerMiniGameStateAdvanced:AddLife() end

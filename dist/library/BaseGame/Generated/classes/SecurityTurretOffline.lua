@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SecurityTurretOffline: redEvent
 SecurityTurretOffline = {}
+
 
 ---@param fields? SecurityTurretOffline
 ---@return SecurityTurretOffline

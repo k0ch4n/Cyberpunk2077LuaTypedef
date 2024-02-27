@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TriggerAttackEffectorWithDelay: redEvent
 ---@field attack gameAttack_GameEffect
 TriggerAttackEffectorWithDelay = {}
+
 
 ---@param fields? TriggerAttackEffectorWithDelay
 ---@return TriggerAttackEffectorWithDelay

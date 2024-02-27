@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HealingItemsChargeStatListener: BaseChargesStatListener
 HealingItemsChargeStatListener = {}
+
 
 ---@param fields? HealingItemsChargeStatListener
 ---@return HealingItemsChargeStatListener

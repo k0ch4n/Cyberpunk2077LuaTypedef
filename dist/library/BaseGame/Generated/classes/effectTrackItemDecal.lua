@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class effectTrackItemDecal: effectTrackItem
 ---@field material IMaterial
 ---@field scale IEvaluatorVector
@@ -21,6 +22,7 @@
 ---@field surfaceType ERenderObjectType
 ---@field decalRenderMode EDecalRenderMode
 effectTrackItemDecal = {}
+
 
 ---@param fields? effectTrackItemDecal
 ---@return effectTrackItemDecal

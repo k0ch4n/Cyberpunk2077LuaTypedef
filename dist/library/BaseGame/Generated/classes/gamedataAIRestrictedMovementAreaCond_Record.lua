@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIRestrictedMovementAreaCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIRestrictedMovementAreaCond_Record = {}
+
 
 ---@param fields? gamedataAIRestrictedMovementAreaCond_Record
 ---@return gamedataAIRestrictedMovementAreaCond_Record

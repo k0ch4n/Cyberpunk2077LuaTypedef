@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiNewHudPhoneGameController: gameuiGenericNotificationGameController
 ---@field holoAudioCallElement gameuiLocalPhoneElement
 ---@field incomingCallElement gameuiLocalPhoneElement
@@ -15,6 +16,7 @@
 ---@field contactsMarker inkWidgetReference
 ---@field notificationMarker inkWidgetReference
 gameuiNewHudPhoneGameController = {}
+
 
 ---@param fields? gameuiNewHudPhoneGameController
 ---@return gameuiNewHudPhoneGameController

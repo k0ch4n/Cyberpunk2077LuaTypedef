@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TriggerContinuousAttackEffector: gameContinuousEffector
 ---@field owner gameObject
 ---@field attackTDBID TweakDBID
@@ -7,6 +8,7 @@
 ---@field delayTime Float
 ---@field timeDilationDriver gamedataEffectorTimeDilationDriver
 TriggerContinuousAttackEffector = {}
+
 
 ---@param fields? TriggerContinuousAttackEffector
 ---@return TriggerContinuousAttackEffector

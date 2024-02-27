@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldTrafficLaneExitDefinition
 ---@field outLaneRef NodeRef
 ---@field exitPosition Vector4
@@ -8,6 +9,7 @@
 ---@field thisLaneReversed Bool
 ---@field outLaneReversed Bool
 worldTrafficLaneExitDefinition = {}
+
 
 ---@param fields? worldTrafficLaneExitDefinition
 ---@return worldTrafficLaneExitDefinition

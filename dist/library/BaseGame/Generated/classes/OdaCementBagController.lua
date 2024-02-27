@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OdaCementBagController: ScriptableDeviceComponent
 OdaCementBagController = {}
+
 
 ---@param fields? OdaCementBagController
 ---@return OdaCementBagController

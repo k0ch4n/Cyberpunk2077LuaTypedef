@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class UnequippedDecisions: EquipmentBaseDecisions
 ---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
 ---@field stateMachineInitData EquipmentInitData
 UnequippedDecisions = {}
+
 
 ---@param fields? UnequippedDecisions
 ---@return UnequippedDecisions

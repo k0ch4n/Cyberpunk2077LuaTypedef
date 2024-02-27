@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InitiateTrafficLightChange: ActionBool
 InitiateTrafficLightChange = {}
+
 
 ---@param fields? InitiateTrafficLightChange
 ---@return InitiateTrafficLightChange

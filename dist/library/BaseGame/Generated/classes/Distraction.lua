@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Distraction: ActionBool
 Distraction = {}
+
 
 ---@param fields? Distraction
 ---@return Distraction

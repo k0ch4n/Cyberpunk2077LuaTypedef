@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsNPCInVehicle: PreventionConditionAbstract
 IsNPCInVehicle = {}
+
 
 ---@param fields? IsNPCInVehicle
 ---@return IsNPCInVehicle

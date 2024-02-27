@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class KurtzBossComponent: gameScriptableComponent
 ---@field owner NPCPuppet
 ---@field owner_id entEntityID
 KurtzBossComponent = {}
+
 
 ---@param fields? KurtzBossComponent
 ---@return KurtzBossComponent

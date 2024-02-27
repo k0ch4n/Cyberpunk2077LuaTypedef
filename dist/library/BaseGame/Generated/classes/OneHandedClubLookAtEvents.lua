@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OneHandedClubLookAtEvents: LookAtPresetMeleeBaseEvents
 OneHandedClubLookAtEvents = {}
+
 
 ---@param fields? OneHandedClubLookAtEvents
 ---@return OneHandedClubLookAtEvents

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class TrafficLight: Device
 ---@field lightState worldTrafficLightColor
 ---@field trafficLightMesh entPhysicalMeshComponent
 ---@field destroyedMesh entPhysicalMeshComponent
 TrafficLight = {}
+
 
 ---@param fields? TrafficLight
 ---@return TrafficLight

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataProjectileOnCollisionAction: Enum
 ---@field Bounce Enum 0
 ---@field Pierce Enum 1

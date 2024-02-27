@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OpenPerksNotificationAction: GenericNotificationBaseAction
 ---@field eventDispatcher worlduiIWidgetGameController
 OpenPerksNotificationAction = {}
+
 
 ---@param fields? OpenPerksNotificationAction
 ---@return OpenPerksNotificationAction

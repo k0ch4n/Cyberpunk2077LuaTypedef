@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EffectExecutor_TrackTargets: gameEffectExecutor_Scripted
 EffectExecutor_TrackTargets = {}
+
 
 ---@param fields? EffectExecutor_TrackTargets
 ---@return EffectExecutor_TrackTargets

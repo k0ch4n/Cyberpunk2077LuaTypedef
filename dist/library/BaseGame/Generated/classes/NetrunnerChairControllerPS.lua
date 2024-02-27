@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NetrunnerChairControllerPS: ScriptableDeviceComponentPS
 ---@field killDelay Float
 ---@field wasOverloaded Bool
 NetrunnerChairControllerPS = {}
+
 
 ---@param fields? NetrunnerChairControllerPS
 ---@return NetrunnerChairControllerPS

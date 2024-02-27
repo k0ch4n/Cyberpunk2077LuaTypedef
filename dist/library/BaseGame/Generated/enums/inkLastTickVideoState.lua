@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkLastTickVideoState: Enum
 ---@field NotDrawn Enum 0
 ---@field Drawn Enum 1

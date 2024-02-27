@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DatatermDetailGameController: BaseBunkerComputerGameController
 ---@field authFactsSet AuthorizationFactsSet
 ---@field attemptedFactsSet AttemptedToStopFactsSet
@@ -24,6 +25,7 @@
 ---@field isOffline Bool
 ---@field isAttemptedToStop Bool
 DatatermDetailGameController = {}
+
 
 ---@param fields? DatatermDetailGameController
 ---@return DatatermDetailGameController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiarcadeTankDestroyableObjectController: gameuiarcadeArcadeObjectController
 gameuiarcadeTankDestroyableObjectController = {}
+
 
 ---@param fields? gameuiarcadeTankDestroyableObjectController
 ---@return gameuiarcadeTankDestroyableObjectController

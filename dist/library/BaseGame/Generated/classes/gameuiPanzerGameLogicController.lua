@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiPanzerGameLogicController: gameuiSideScrollerMiniGameLogicControllerAdvanced
 ---@field gameOverDelay Float
 ---@field mainMenuLibraryName CName
@@ -33,6 +34,7 @@
 ---@field minAvSpawnInterval Float
 ---@field maxAvSpawnInterval Float
 gameuiPanzerGameLogicController = {}
+
 
 ---@param fields? gameuiPanzerGameLogicController
 ---@return gameuiPanzerGameLogicController

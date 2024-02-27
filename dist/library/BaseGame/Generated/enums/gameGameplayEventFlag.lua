@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameGameplayEventFlag: Enum
 ---@field Ai Enum 1
 ---@field Trigger Enum 2

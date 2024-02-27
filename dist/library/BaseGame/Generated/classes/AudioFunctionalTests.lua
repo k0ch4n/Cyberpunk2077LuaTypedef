@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AudioFunctionalTests: IScriptable
 AudioFunctionalTests = {}
+
 
 ---@param fields? AudioFunctionalTests
 ---@return AudioFunctionalTests

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questLogGameController: gameuiMenuGameController
 ---@field virtualList inkWidgetReference
 ---@field detailsPanel inkWidgetReference
@@ -39,6 +40,7 @@
 ---@field questTypeList QuestListItemType[]
 ---@field questToOpen gameJournalQuest
 questLogGameController = {}
+
 
 ---@param fields? questLogGameController
 ---@return questLogGameController

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DispenceItemFromVendor: ActionBool
 ---@field itemID gameItemID
 ---@field price Int32
 ---@field atlasTexture CName
 DispenceItemFromVendor = {}
+
 
 ---@param fields? DispenceItemFromVendor
 ---@return DispenceItemFromVendor

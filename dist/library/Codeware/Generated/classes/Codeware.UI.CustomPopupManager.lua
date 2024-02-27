@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class Codeware_UI_CustomPopupManager: Codeware_UI_ICustomPopupManager
 ---@field gameController gameuiWidgetGameController
 ---@field notificationsContainer inkCompoundWidget
 ---@field bracketsContainer inkCompoundWidget
 ---@field notificationQueues CName[]
 Codeware_UI_CustomPopupManager = {}
+
 
 ---@param fields? Codeware_UI_CustomPopupManager
 ---@return Codeware_UI_CustomPopupManager

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CyberwareTemplateClassifier: inkVirtualItemTemplateClassifierWrapper
 CyberwareTemplateClassifier = {}
+
 
 ---@param fields? CyberwareTemplateClassifier
 ---@return CyberwareTemplateClassifier

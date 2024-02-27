@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class artist_test_area_r: gameuiHUDGameController
 ---@field rootWidget inkWidget
 ---@field linesWidget inkCanvasWidget
 artist_test_area_r = {}
+
 
 ---@param fields? artist_test_area_r
 ---@return artist_test_area_r

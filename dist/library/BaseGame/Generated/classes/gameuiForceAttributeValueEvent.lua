@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiForceAttributeValueEvent: redEvent
 gameuiForceAttributeValueEvent = {}
+
 
 ---@param fields? gameuiForceAttributeValueEvent
 ---@return gameuiForceAttributeValueEvent

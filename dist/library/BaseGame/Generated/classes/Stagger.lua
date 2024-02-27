@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Stagger: ReactionTransition
 ---@field textLayerId Uint32
 Stagger = {}
+
 
 ---@param fields? Stagger
 ---@return Stagger

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NetworkArea: InteractiveMasterDevice
 ---@field area gameStaticTriggerAreaComponent
 NetworkArea = {}
+
 
 ---@param fields? NetworkArea
 ---@return NetworkArea

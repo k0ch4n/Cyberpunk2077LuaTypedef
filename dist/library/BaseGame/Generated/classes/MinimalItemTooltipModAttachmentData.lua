@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MinimalItemTooltipModAttachmentData: MinimalItemTooltipModData
 ---@field isEmpty Bool
 ---@field slotName String
@@ -7,6 +8,7 @@
 ---@field abilitiesSize Int32
 ---@field abilities gameInventoryItemAbility[]
 MinimalItemTooltipModAttachmentData = {}
+
 
 ---@param fields? MinimalItemTooltipModAttachmentData
 ---@return MinimalItemTooltipModAttachmentData

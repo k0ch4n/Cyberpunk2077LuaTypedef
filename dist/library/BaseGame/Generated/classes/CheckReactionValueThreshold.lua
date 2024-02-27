@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckReactionValueThreshold: AIbehaviorconditionScript
 ---@field reactionValue EReactionValue
 CheckReactionValueThreshold = {}
+
 
 ---@param fields? CheckReactionValueThreshold
 ---@return CheckReactionValueThreshold

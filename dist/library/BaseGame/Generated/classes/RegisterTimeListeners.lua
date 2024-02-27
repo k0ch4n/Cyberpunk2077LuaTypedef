@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RegisterTimeListeners: redEvent
 RegisterTimeListeners = {}
+
 
 ---@param fields? RegisterTimeListeners
 ---@return RegisterTimeListeners

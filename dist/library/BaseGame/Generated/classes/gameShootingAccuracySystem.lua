@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameShootingAccuracySystem: gameIShootingAccuracySystem
 gameShootingAccuracySystem = {}
+
 
 ---@param fields? gameShootingAccuracySystem
 ---@return gameShootingAccuracySystem

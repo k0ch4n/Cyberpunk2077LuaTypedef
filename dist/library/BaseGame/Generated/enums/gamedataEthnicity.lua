@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataEthnicity: Enum
 ---@field African Enum 0
 ---@field AfricanAmerican Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TryQueueEventToMountPoliceToVehicle: PreventionConditionAbstract
 TryQueueEventToMountPoliceToVehicle = {}
+
 
 ---@param fields? TryQueueEventToMountPoliceToVehicle
 ---@return TryQueueEventToMountPoliceToVehicle

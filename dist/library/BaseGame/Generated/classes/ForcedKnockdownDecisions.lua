@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForcedKnockdownDecisions: KnockdownDecisions
 ForcedKnockdownDecisions = {}
+
 
 ---@param fields? ForcedKnockdownDecisions
 ---@return ForcedKnockdownDecisions

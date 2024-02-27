@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class TweakAIActionSelector: TweakAIActionAbstract
 ---@field selector TweakDBID
 ---@field selectorRecord gamedataAIActionSelector_Record
 ---@field nodeIterator Int32
 TweakAIActionSelector = {}
+
 
 ---@param fields? TweakAIActionSelector
 ---@return TweakAIActionSelector

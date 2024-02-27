@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetFacialEvent: redEvent
 ResetFacialEvent = {}
+
 
 ---@param fields? ResetFacialEvent
 ---@return ResetFacialEvent

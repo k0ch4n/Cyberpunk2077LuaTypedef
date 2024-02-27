@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkIgnoreOnConsoles: inkUserData
 inkIgnoreOnConsoles = {}
+
 
 ---@param fields? inkIgnoreOnConsoles
 ---@return inkIgnoreOnConsoles

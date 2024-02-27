@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldEnvironmentDefinition: CResource
 ---@field worldRenderSettings WorldRenderAreaSettings
 ---@field worldShadowConfig WorldShadowConfig
@@ -10,6 +11,7 @@
 ---@field areaEnvironmentParameterLayers worldEnvironmentAreaParameters[]
 ---@field resourceVersion Uint8
 worldEnvironmentDefinition = {}
+
 
 ---@param fields? worldEnvironmentDefinition
 ---@return worldEnvironmentDefinition

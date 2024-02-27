@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ContactDataHelper: IScriptable
 ContactDataHelper = {}
+
 
 ---@param fields? ContactDataHelper
 ---@return ContactDataHelper

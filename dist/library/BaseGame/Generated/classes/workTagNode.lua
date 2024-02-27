@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class workTagNode: workIEntry
 ---@field tag CName
 workTagNode = {}
+
 
 ---@param fields? workTagNode
 ---@return workTagNode

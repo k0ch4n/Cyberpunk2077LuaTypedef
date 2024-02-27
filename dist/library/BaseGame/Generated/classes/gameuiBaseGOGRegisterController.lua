@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiBaseGOGRegisterController: inkWidgetLogicController
 gameuiBaseGOGRegisterController = {}
+
 
 ---@param fields? gameuiBaseGOGRegisterController
 ---@return gameuiBaseGOGRegisterController

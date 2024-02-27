@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AccumulatedDamageDigitLogicController: inkWidgetLogicController
 ---@field critWidget inkTextWidgetReference
 ---@field headshotWidget inkTextWidgetReference
@@ -78,6 +79,7 @@
 ---@field animNegativeOpacity Float
 ---@field animDynamicFadeInDuration Float
 AccumulatedDamageDigitLogicController = {}
+
 
 ---@param fields? AccumulatedDamageDigitLogicController
 ---@return AccumulatedDamageDigitLogicController

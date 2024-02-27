@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlatformDevice: InteractiveDevice
 ---@field movingPlatform gameMovingPlatform
 ---@field offMeshConnection AIOffMeshConnectionComponent
@@ -7,6 +8,7 @@
 ---@field StopAudioEvent CName
 ---@field MovingVFX CName
 PlatformDevice = {}
+
 
 ---@param fields? PlatformDevice
 ---@return PlatformDevice

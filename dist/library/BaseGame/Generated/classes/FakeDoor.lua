@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FakeDoor: gameObject
 ---@field interaction gameinteractionsComponent
 FakeDoor = {}
+
 
 ---@param fields? FakeDoor
 ---@return FakeDoor

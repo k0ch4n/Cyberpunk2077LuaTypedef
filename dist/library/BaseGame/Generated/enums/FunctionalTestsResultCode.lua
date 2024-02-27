@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FunctionalTestsResultCode: Enum
 ---@field Valid Enum 0
 ---@field MalformedEntityDescr Enum 1

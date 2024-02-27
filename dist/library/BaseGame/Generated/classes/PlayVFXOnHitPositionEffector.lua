@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class PlayVFXOnHitPositionEffector: gameEffector
 ---@field effectName CName
 ---@field effectTag CName
 ---@field applicationTarget CName
 PlayVFXOnHitPositionEffector = {}
+
 
 ---@param fields? PlayVFXOnHitPositionEffector
 ---@return PlayVFXOnHitPositionEffector

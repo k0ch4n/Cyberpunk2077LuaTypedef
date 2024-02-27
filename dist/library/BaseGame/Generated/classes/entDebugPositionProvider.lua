@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entDebugPositionProvider: entIPositionProvider
 entDebugPositionProvider = {}
+
 
 ---@param fields? entDebugPositionProvider
 ---@return entDebugPositionProvider

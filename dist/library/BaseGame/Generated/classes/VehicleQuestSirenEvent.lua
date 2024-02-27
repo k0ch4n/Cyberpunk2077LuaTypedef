@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class VehicleQuestSirenEvent: redEvent
 ---@field lights Bool
 ---@field sounds Bool
 VehicleQuestSirenEvent = {}
+
 
 ---@param fields? VehicleQuestSirenEvent
 ---@return VehicleQuestSirenEvent

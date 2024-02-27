@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkLocalizationChangedEvent: inkEvent
 inkLocalizationChangedEvent = {}
+
 
 ---@param fields? inkLocalizationChangedEvent
 ---@return inkLocalizationChangedEvent

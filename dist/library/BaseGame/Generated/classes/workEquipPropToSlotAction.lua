@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class workEquipPropToSlotAction: workIWorkspotItemAction
 ---@field itemId CName
 ---@field itemSlot TweakDBID
@@ -7,6 +8,7 @@
 ---@field customOffsetPos Vector3
 ---@field customOffsetRot Quaternion
 workEquipPropToSlotAction = {}
+
 
 ---@param fields? workEquipPropToSlotAction
 ---@return workEquipPropToSlotAction

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_ParentConstraint: animAnimNode_OnePoseInput
 ---@field parentTransform animIAnimNodeSourceChannel_QsTransform
 ---@field isParentTransformResaved Bool
@@ -13,6 +14,7 @@
 ---@field offsetTranslationLS animVectorLink
 ---@field offsetEulerRotationLS animVectorLink
 animAnimNode_ParentConstraint = {}
+
 
 ---@param fields? animAnimNode_ParentConstraint
 ---@return animAnimNode_ParentConstraint

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TriggerNotifier_BarbedWire: entTriggerNotifier_Script
 ---@field attackType TweakDBID
 TriggerNotifier_BarbedWire = {}
+
 
 ---@param fields? TriggerNotifier_BarbedWire
 ---@return TriggerNotifier_BarbedWire

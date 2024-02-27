@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_IconicItem: animAnimFeature
 ---@field isScanning Bool
 ---@field isFreeDrilling Bool
@@ -7,6 +8,7 @@
 ---@field isScanToInteraction Bool
 ---@field isItemEquipped Bool
 AnimFeature_IconicItem = {}
+
 
 ---@param fields? AnimFeature_IconicItem
 ---@return AnimFeature_IconicItem

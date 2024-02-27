@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetDeviceUnpowered: ActionBool
 SetDeviceUnpowered = {}
+
 
 ---@param fields? SetDeviceUnpowered
 ---@return SetDeviceUnpowered

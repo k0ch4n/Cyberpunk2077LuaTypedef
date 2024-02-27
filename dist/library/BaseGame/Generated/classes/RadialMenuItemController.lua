@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RadialMenuItemController: inkWidgetLogicController
 ---@field menuData MenuData
 ---@field label inkTextWidgetReference
@@ -23,6 +24,7 @@
 ---@field isDimmed Bool
 ---@field isHyperlink Bool
 RadialMenuItemController = {}
+
 
 ---@param fields? RadialMenuItemController
 ---@return RadialMenuItemController

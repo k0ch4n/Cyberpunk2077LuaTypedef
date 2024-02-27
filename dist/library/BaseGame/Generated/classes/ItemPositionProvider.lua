@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ItemPositionProvider: inkItemPositionProviderWrapper
 ItemPositionProvider = {}
+
 
 ---@param fields? ItemPositionProvider
 ---@return ItemPositionProvider

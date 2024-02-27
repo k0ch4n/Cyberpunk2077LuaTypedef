@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BackpackEquipSlotChooserPopup: gameuiWidgetGameController
 ---@field titleText inkTextWidgetReference
 ---@field buttonHintsRoot inkWidgetReference
@@ -19,6 +20,7 @@
 ---@field libraryPath inkWidgetLibraryReference
 ---@field closeData BackpackEquipSlotChooserCloseData
 BackpackEquipSlotChooserPopup = {}
+
 
 ---@param fields? BackpackEquipSlotChooserPopup
 ---@return BackpackEquipSlotChooserPopup

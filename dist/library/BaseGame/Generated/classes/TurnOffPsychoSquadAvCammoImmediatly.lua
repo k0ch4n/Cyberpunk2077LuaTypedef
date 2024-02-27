@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TurnOffPsychoSquadAvCammoImmediatly: AIbehaviortaskScript
 TurnOffPsychoSquadAvCammoImmediatly = {}
+
 
 ---@param fields? TurnOffPsychoSquadAvCammoImmediatly
 ---@return TurnOffPsychoSquadAvCammoImmediatly

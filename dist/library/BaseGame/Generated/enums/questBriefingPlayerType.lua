@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questBriefingPlayerType: Enum
 ---@field Fullscreen Enum 0
 ---@field Hud Enum 1

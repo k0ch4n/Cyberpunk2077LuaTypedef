@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnInteractionShapeParams: ISerializable
 ---@field preset scnChoiceNodeNsSizePreset
 ---@field offset Vector3
@@ -10,6 +11,7 @@
 ---@field activationBaseLength Float
 ---@field activationHeight Float
 scnInteractionShapeParams = {}
+
 
 ---@param fields? scnInteractionShapeParams
 ---@return scnInteractionShapeParams

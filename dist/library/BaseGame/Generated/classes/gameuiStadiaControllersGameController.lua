@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiStadiaControllersGameController: gameuiMenuGameController
 ---@field stadiaControllerPage inkWidgetReference
 ---@field nintendoControllerPage inkWidgetReference
@@ -9,6 +10,7 @@
 ---@field buttonHintsManagerRef inkWidgetReference
 ---@field buttonHintsController ButtonHints
 gameuiStadiaControllersGameController = {}
+
 
 ---@param fields? gameuiStadiaControllersGameController
 ---@return gameuiStadiaControllersGameController

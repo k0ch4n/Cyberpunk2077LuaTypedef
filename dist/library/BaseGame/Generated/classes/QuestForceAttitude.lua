@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceAttitude: ActionName
 QuestForceAttitude = {}
+
 
 ---@param fields? QuestForceAttitude
 ---@return QuestForceAttitude

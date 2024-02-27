@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animPropSetup
 animPropSetup = {}
+
 
 ---@param fields? animPropSetup
 ---@return animPropSetup

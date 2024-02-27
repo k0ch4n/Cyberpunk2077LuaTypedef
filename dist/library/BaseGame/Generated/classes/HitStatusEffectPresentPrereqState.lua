@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitStatusEffectPresentPrereqState: GenericHitPrereqState
 HitStatusEffectPresentPrereqState = {}
+
 
 ---@param fields? HitStatusEffectPresentPrereqState
 ---@return HitStatusEffectPresentPrereqState

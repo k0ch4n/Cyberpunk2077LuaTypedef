@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InReloadUpperBodyState: AINPCUpperBodyStateCheck
 InReloadUpperBodyState = {}
+
 
 ---@param fields? InReloadUpperBodyState
 ---@return InReloadUpperBodyState

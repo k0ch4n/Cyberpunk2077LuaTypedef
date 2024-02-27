@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PurgeAllTransitions: redEvent
 PurgeAllTransitions = {}
+
 
 ---@param fields? PurgeAllTransitions
 ---@return PurgeAllTransitions

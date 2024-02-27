@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldStreamingSectorVariant
 ---@field nodeRef NodeRef
 ---@field variantId Uint32
@@ -8,6 +9,7 @@
 ---@field rangeIndex Uint32
 ---@field enabledByDefault Bool
 worldStreamingSectorVariant = {}
+
 
 ---@param fields? worldStreamingSectorVariant
 ---@return worldStreamingSectorVariant

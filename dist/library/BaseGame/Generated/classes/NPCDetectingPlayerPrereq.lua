@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NPCDetectingPlayerPrereq: gameIScriptablePrereq
 ---@field threshold Float
 NPCDetectingPlayerPrereq = {}
+
 
 ---@param fields? NPCDetectingPlayerPrereq
 ---@return NPCDetectingPlayerPrereq

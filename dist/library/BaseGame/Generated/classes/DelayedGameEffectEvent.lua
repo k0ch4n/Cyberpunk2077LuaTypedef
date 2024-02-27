@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DelayedGameEffectEvent: redEvent
 ---@field activator gameObject
 ---@field target gameObject
@@ -7,6 +8,7 @@
 ---@field effectTag CName
 ---@field statusEffect String
 DelayedGameEffectEvent = {}
+
 
 ---@param fields? DelayedGameEffectEvent
 ---@return DelayedGameEffectEvent

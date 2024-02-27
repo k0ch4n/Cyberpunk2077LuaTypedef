@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkHorizontalPanelWidget: inkBasePanelWidget
 inkHorizontalPanelWidget = {}
+
 
 ---@param fields? inkHorizontalPanelWidget
 ---@return inkHorizontalPanelWidget

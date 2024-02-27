@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorWaitingNotMountedCommandConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorWaitingNotMountedCommandConditionDefinition = {}
+
 
 ---@param fields? AIbehaviorWaitingNotMountedCommandConditionDefinition
 ---@return AIbehaviorWaitingNotMountedCommandConditionDefinition

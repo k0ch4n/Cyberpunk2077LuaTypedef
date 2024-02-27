@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ComputerMainLayoutWidgetController: inkWidgetLogicController
 ---@field screenSaverSlot inkWidgetReference
 ---@field wallpaperSlot inkWidgetReference
@@ -36,6 +37,7 @@
 ---@field activeWindowID String
 ---@field menuToOpen EComputerMenuType
 ComputerMainLayoutWidgetController = {}
+
 
 ---@param fields? ComputerMainLayoutWidgetController
 ---@return ComputerMainLayoutWidgetController

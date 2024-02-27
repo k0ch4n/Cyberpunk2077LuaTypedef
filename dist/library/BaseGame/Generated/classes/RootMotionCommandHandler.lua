@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RootMotionCommandHandler: AICommandHandlerBase
 ---@field params AIArgumentMapping
 RootMotionCommandHandler = {}
+
 
 ---@param fields? RootMotionCommandHandler
 ---@return RootMotionCommandHandler

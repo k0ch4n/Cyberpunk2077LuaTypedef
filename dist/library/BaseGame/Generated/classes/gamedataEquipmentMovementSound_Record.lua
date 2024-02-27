@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataEquipmentMovementSound_Record: gamedataTweakDBRecord
 gamedataEquipmentMovementSound_Record = {}
+
 
 ---@param fields? gamedataEquipmentMovementSound_Record
 ---@return gamedataEquipmentMovementSound_Record

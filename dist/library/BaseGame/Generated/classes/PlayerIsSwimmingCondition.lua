@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerIsSwimmingCondition: gameinteractionsInteractionScriptedCondition
 PlayerIsSwimmingCondition = {}
+
 
 ---@param fields? PlayerIsSwimmingCondition
 ---@return PlayerIsSwimmingCondition

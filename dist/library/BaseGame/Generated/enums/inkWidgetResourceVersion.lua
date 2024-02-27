@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkWidgetResourceVersion: Enum
 ---@field Default Enum 0
 ---@field BrushToAtlas Enum 1

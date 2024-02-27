@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questVehicleSpecificCommandParams: ISerializable
 ---@field pushOtherVehiclesAside Bool
 ---@field needDriver Bool

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameinteractionsChoiceTypeWrapper
 ---@field properties Uint32
 gameinteractionsChoiceTypeWrapper = {}
+
 
 ---@param fields? gameinteractionsChoiceTypeWrapper
 ---@return gameinteractionsChoiceTypeWrapper

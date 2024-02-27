@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICondition: IScriptable
 AICondition = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param actionRecord gamedataAIAction_Record

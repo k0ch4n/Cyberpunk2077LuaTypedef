@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ConfessionBoothControllerPS: BasicDistractionDeviceControllerPS
 ConfessionBoothControllerPS = {}
+
 
 ---@param fields? ConfessionBoothControllerPS
 ---@return ConfessionBoothControllerPS

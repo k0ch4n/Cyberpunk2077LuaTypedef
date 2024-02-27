@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckLastHitReaction: HitConditions
 ---@field hitReactionToCheck animHitReactionType
 CheckLastHitReaction = {}
+
 
 ---@param fields? CheckLastHitReaction
 ---@return CheckLastHitReaction

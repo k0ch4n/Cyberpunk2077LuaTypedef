@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_TranslateBone: animAnimNode_Base
 ---@field inputNode animPoseLink
 ---@field inputTranslation animVectorLink
@@ -9,6 +10,7 @@
 ---@field useIncrementalMode Bool
 ---@field resetOnActivation Bool
 animAnimNode_TranslateBone = {}
+
 
 ---@param fields? animAnimNode_TranslateBone
 ---@return animAnimNode_TranslateBone

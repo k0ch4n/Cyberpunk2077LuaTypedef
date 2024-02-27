@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CacheStatusEffectAnimationTask: StatusEffectTasks
 CacheStatusEffectAnimationTask = {}
+
 
 ---@param fields? CacheStatusEffectAnimationTask
 ---@return CacheStatusEffectAnimationTask

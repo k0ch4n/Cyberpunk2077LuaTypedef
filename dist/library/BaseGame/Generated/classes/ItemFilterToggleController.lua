@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ItemFilterToggleController: ToggleController
 ---@field newItemDot inkWidgetReference
 ---@field useCategoryFilter Bool
 ItemFilterToggleController = {}
+
 
 ---@param fields? ItemFilterToggleController
 ---@return ItemFilterToggleController

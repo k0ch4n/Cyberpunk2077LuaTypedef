@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIAvoidLineOfSightCoverSelection: AICoverSelectionParameters
 AIAvoidLineOfSightCoverSelection = {}
+
 
 ---@param fields? AIAvoidLineOfSightCoverSelection
 ---@return AIAvoidLineOfSightCoverSelection

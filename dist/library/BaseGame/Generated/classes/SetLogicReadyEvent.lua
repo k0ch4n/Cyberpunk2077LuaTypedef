@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetLogicReadyEvent: redEvent
 ---@field isReady Bool
 SetLogicReadyEvent = {}
+
 
 ---@param fields? SetLogicReadyEvent
 ---@return SetLogicReadyEvent

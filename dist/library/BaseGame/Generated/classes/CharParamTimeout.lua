@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CharParamTimeout: AITimeoutCondition
 ---@field timeoutParamName String
 CharParamTimeout = {}
+
 
 ---@param fields? CharParamTimeout
 ---@return CharParamTimeout

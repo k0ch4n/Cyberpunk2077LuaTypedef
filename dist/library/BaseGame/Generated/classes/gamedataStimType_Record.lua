@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataStimType_Record: gamedataTweakDBRecord
 gamedataStimType_Record = {}
+
 
 ---@param fields? gamedataStimType_Record
 ---@return gamedataStimType_Record

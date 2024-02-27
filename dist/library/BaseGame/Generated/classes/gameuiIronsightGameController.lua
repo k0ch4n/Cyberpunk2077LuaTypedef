@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiIronsightGameController: gameuiWidgetGameController
 gameuiIronsightGameController = {}
+
 
 ---@param fields? gameuiIronsightGameController
 ---@return gameuiIronsightGameController

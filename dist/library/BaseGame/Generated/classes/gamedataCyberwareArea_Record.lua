@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCyberwareArea_Record: gamedataEquipmentArea_Record
 gamedataCyberwareArea_Record = {}
+
 
 ---@param fields? gamedataCyberwareArea_Record
 ---@return gamedataCyberwareArea_Record

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ShardCollectedNotification: GenericNotificationController
 ---@field shardTitle inkTextWidgetReference
 ---@field bbListenerId redCallbackObject
 ---@field animProxy inkanimProxy
 ShardCollectedNotification = {}
+
 
 ---@param fields? ShardCollectedNotification
 ---@return ShardCollectedNotification

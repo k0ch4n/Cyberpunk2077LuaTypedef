@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIbehaviorReevaluateOnEventNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field eventName CName
 AIbehaviorReevaluateOnEventNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorReevaluateOnEventNodeDefinition
 ---@return AIbehaviorReevaluateOnEventNodeDefinition

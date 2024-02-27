@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ChatterLineLogicController: BaseSubtitleLineLogicController
 ---@field TextContainer inkWidgetReference
 ---@field speachBubble inkWidgetReference
@@ -24,6 +25,7 @@
 ---@field limitSubtitlesDistance Bool
 ---@field isOverHead Bool
 ChatterLineLogicController = {}
+
 
 ---@param fields? ChatterLineLogicController
 ---@return ChatterLineLogicController

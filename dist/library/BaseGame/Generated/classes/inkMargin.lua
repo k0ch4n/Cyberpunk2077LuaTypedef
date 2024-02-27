@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class inkMargin
 ---@field left Float
 ---@field top Float
 ---@field right Float
 ---@field bottom Float
 inkMargin = {}
+
 
 ---@param fields? inkMargin
 ---@return inkMargin

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CompareArgumentsInts: CompareArguments
 ---@field comparator ECompareOp
 CompareArgumentsInts = {}
+
 
 ---@param fields? CompareArgumentsInts
 ---@return CompareArgumentsInts

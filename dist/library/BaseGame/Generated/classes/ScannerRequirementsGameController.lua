@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ScannerRequirementsGameController: BaseChunkGameController
 ---@field ScannerRequirementsRightPanel inkCompoundWidgetReference
 ---@field requirementsCallbackID redCallbackObject
 ---@field isValidRequirements Bool
 ---@field asyncSpawnRequests inkAsyncSpawnRequest[]
 ScannerRequirementsGameController = {}
+
 
 ---@param fields? ScannerRequirementsGameController
 ---@return ScannerRequirementsGameController

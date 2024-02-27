@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemEntityTransactor: worldIRuntimeSystem
 worldRuntimeSystemEntityTransactor = {}
+
 
 ---@param fields? worldRuntimeSystemEntityTransactor
 ---@return worldRuntimeSystemEntityTransactor

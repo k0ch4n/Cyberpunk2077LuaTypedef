@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameuiItemPreviewGameController: gameuiPreviewGameController
 ---@field root inkWidgetReference
 ---@field image inkImageWidgetReference
 ---@field sceneName CName
 ---@field cameraRef NodeRef
 gameuiItemPreviewGameController = {}
+
 
 ---@param fields? gameuiItemPreviewGameController
 ---@return gameuiItemPreviewGameController

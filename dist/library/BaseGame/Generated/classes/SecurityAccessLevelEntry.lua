@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SecurityAccessLevelEntry
 ---@field keycard TweakDBID
 ---@field password CName
 SecurityAccessLevelEntry = {}
+
 
 ---@param fields? SecurityAccessLevelEntry
 ---@return SecurityAccessLevelEntry

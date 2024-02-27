@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiLogTutorialHintActionEvent: redEvent
 ---@field actionName CName
 gameuiLogTutorialHintActionEvent = {}
+
 
 ---@param fields? gameuiLogTutorialHintActionEvent
 ---@return gameuiLogTutorialHintActionEvent

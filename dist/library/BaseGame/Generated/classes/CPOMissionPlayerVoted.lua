@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CPOMissionPlayerVoted: gameinteractionsInteractionScriptedCondition
 CPOMissionPlayerVoted = {}
+
 
 ---@param fields? CPOMissionPlayerVoted
 ---@return CPOMissionPlayerVoted

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetApartmentScreenStatusEvent: redEvent
 ---@field rentStatus ERentStatus
 SetApartmentScreenStatusEvent = {}
+
 
 ---@param fields? SetApartmentScreenStatusEvent
 ---@return SetApartmentScreenStatusEvent

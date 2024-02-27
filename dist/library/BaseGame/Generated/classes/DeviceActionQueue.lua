@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DeviceActionQueue: IScriptable
 ---@field actionsInQueue gamedeviceAction[]
 ---@field maxQueueSize Int32
 ---@field locked Bool
 DeviceActionQueue = {}
+
 
 ---@param fields? DeviceActionQueue
 ---@return DeviceActionQueue

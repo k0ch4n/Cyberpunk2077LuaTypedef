@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ChargedHotkeyItemStatListener: gameScriptStatPoolsListener
 ---@field hotkeyController ChargedHotkeyItemBaseController
 ChargedHotkeyItemStatListener = {}
+
 
 ---@param fields? ChargedHotkeyItemStatListener
 ---@return ChargedHotkeyItemStatListener

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TestEffector: gameEffector
 TestEffector = {}
+
 
 ---@param fields? TestEffector
 ---@return TestEffector

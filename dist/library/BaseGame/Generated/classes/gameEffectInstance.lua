@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectInstance: gameIEffect
 gameEffectInstance = {}
+
 
 ---@param fields? gameEffectInstance
 ---@return gameEffectInstance

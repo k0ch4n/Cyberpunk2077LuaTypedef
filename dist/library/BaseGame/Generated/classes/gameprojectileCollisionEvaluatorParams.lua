@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameprojectileCollisionEvaluatorParams: IScriptable
 ---@field target gameObject
 ---@field isPiercableSurface Bool
@@ -12,6 +13,7 @@
 ---@field isTechPiercing Bool
 ---@field isDestructible Bool
 gameprojectileCollisionEvaluatorParams = {}
+
 
 ---@param fields? gameprojectileCollisionEvaluatorParams
 ---@return gameprojectileCollisionEvaluatorParams

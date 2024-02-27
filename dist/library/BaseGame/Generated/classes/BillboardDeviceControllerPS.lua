@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class BillboardDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field glitchSFX CName
 ---@field useLights Bool
 ---@field lightsSettings EditableGameLightSettings[]
 ---@field useDeviceAppearence Bool
 BillboardDeviceControllerPS = {}
+
 
 ---@param fields? BillboardDeviceControllerPS
 ---@return BillboardDeviceControllerPS

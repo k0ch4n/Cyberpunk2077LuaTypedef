@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePingSystem: gameIPingSystem
 gamePingSystem = {}
+
 
 ---@param fields? gamePingSystem
 ---@return gamePingSystem

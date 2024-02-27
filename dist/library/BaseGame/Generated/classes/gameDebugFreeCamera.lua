@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDebugFreeCamera: gameObject
 gameDebugFreeCamera = {}
+
 
 ---@param fields? gameDebugFreeCamera
 ---@return gameDebugFreeCamera

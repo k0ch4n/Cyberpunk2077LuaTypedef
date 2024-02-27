@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameinteractionsChoiceCaptionScriptPart: gameinteractionsChoiceCaptionPart
 gameinteractionsChoiceCaptionScriptPart = {}
+
 
 ---@param fields? gameinteractionsChoiceCaptionScriptPart
 ---@return gameinteractionsChoiceCaptionScriptPart

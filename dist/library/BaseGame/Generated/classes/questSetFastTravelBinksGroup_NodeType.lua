@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questSetFastTravelBinksGroup_NodeType: questIUIManagerNodeType
 ---@field selectedBinkDataGroup TweakDBID
 questSetFastTravelBinksGroup_NodeType = {}
+
 
 ---@param fields? questSetFastTravelBinksGroup_NodeType
 ---@return questSetFastTravelBinksGroup_NodeType

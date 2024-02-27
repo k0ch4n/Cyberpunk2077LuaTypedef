@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SetTimeDilationEffector: gameEffector
 ---@field owner gameObject
 ---@field reason CName
@@ -9,6 +10,7 @@
 ---@field duration Float
 ---@field affectsPlayer Bool
 SetTimeDilationEffector = {}
+
 
 ---@param fields? SetTimeDilationEffector
 ---@return SetTimeDilationEffector

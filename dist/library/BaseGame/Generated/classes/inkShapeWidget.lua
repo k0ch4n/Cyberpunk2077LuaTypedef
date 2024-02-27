@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkShapeWidget: inkBaseShapeWidget
 ---@field shapeResource inkShapeCollectionResource
 ---@field shapeName CName
@@ -17,6 +18,7 @@
 ---@field jointStyle inkEJointStyle
 ---@field vertexList Vector2[]
 inkShapeWidget = {}
+
 
 ---@param fields? inkShapeWidget
 ---@return inkShapeWidget

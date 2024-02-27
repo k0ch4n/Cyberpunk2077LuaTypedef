@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAINode_Record: gamedataAIRecord_Record
 gamedataAINode_Record = {}
+
 
 ---@param fields? gamedataAINode_Record
 ---@return gamedataAINode_Record

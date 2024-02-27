@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PreventionCrimeWitnessRequest: gameScriptableSystemRequest
 ---@field criminalPosition Vector4
 PreventionCrimeWitnessRequest = {}
+
 
 ---@param fields? PreventionCrimeWitnessRequest
 ---@return PreventionCrimeWitnessRequest

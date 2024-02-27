@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetBlockShootingFromVehicle: gameScriptableSystemRequest
 ---@field enable Bool
 SetBlockShootingFromVehicle = {}
+
 
 ---@param fields? SetBlockShootingFromVehicle
 ---@return SetBlockShootingFromVehicle

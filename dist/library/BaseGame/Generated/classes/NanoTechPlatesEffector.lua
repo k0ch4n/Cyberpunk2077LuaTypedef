@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NanoTechPlatesEffector: ModifyAttackEffector
 ---@field chanceToTrigger Float
 ---@field chanceIncrement Float
@@ -8,6 +9,7 @@
 ---@field minTimeBetweenBlocks Float
 ---@field timeStamps Float[]
 NanoTechPlatesEffector = {}
+
 
 ---@param fields? NanoTechPlatesEffector
 ---@return NanoTechPlatesEffector

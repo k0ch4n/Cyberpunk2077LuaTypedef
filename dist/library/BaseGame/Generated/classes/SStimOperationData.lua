@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SStimOperationData
 ---@field stimType DeviceStimType
 ---@field lifeTime Float
@@ -7,6 +8,7 @@
 ---@field operationType EEffectOperationType
 ---@field nodeRef NodeRef
 SStimOperationData = {}
+
 
 ---@param fields? SStimOperationData
 ---@return SStimOperationData

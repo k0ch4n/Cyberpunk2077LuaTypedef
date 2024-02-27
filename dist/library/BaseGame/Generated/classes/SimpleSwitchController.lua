@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SimpleSwitchController: MasterController
 SimpleSwitchController = {}
+
 
 ---@param fields? SimpleSwitchController
 ---@return SimpleSwitchController

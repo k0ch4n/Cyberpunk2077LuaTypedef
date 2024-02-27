@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SandevistanEvents: TimeDilationEventsTransitions
 ---@field lastTimeDilation Float
 SandevistanEvents = {}
+
 
 ---@param fields? SandevistanEvents
 ---@return SandevistanEvents

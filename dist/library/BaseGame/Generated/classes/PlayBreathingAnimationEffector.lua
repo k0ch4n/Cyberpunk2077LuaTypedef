@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class PlayBreathingAnimationEffector: gameEffector
 ---@field animFeature AnimFeature_CameraBreathing
 ---@field animFeatureName CName
 ---@field owner gameObject
 PlayBreathingAnimationEffector = {}
+
 
 ---@param fields? PlayBreathingAnimationEffector
 ---@return PlayBreathingAnimationEffector

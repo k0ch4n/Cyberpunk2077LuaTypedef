@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AbstractApplyQuickhackEffector: ModifyAttackEffector
 ---@field blackboard gameIBlackboard
 ---@field applyQuickhackDelayConst Float
 AbstractApplyQuickhackEffector = {}
+
 
 ---@param owner gameObject
 ---@return nil

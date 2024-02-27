@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetCustomPersonalLinkReason: ScriptableDeviceAction
 ---@field reason TweakDBID
 SetCustomPersonalLinkReason = {}
+
 
 ---@param fields? SetCustomPersonalLinkReason
 ---@return SetCustomPersonalLinkReason

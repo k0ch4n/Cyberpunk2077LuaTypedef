@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AOEEffectorController: ScriptableDeviceComponent
 AOEEffectorController = {}
+
 
 ---@param fields? AOEEffectorController
 ---@return AOEEffectorController

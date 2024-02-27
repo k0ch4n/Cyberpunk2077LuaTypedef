@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Speaker: InteractiveDevice
 ---@field soundEventPlaying Bool
 ---@field soundEvent CName
@@ -8,6 +9,7 @@
 ---@field targets ScriptedPuppet[]
 ---@field statusEffect TweakDBID
 Speaker = {}
+
 
 ---@param fields? Speaker
 ---@return Speaker

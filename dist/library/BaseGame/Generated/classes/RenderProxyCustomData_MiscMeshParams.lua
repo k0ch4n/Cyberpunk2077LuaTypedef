@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RenderProxyCustomData_MiscMeshParams: IRenderProxyCustomData
 RenderProxyCustomData_MiscMeshParams = {}
+
 
 ---@param fields? RenderProxyCustomData_MiscMeshParams
 ---@return RenderProxyCustomData_MiscMeshParams

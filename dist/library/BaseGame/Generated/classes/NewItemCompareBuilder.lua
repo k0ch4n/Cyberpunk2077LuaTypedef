@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class NewItemCompareBuilder: IScriptable
 ---@field sortData1 UIInventoryItem
 ---@field sortData2 UIInventoryItem
 ---@field compareBuilder CompareBuilder
 NewItemCompareBuilder = {}
+
 
 ---@param fields? NewItemCompareBuilder
 ---@return NewItemCompareBuilder

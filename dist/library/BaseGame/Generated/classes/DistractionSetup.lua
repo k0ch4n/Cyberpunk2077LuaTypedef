@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DistractionSetup
 ---@field StimuliRange Float
 ---@field disableOnActivation Bool
@@ -13,6 +14,7 @@
 ---@field skillChecks EngDemoContainer
 ---@field explosionDefinition ExplosiveDeviceResourceDefinition[]
 DistractionSetup = {}
+
 
 ---@param fields? DistractionSetup
 ---@return DistractionSetup

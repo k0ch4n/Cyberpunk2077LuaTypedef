@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PlayerListEntryLogicController: inkWidgetLogicController
 ---@field playerNameLabel inkWidgetReference
 ---@field playerClassIcon inkImageWidgetReference
 PlayerListEntryLogicController = {}
+
 
 ---@param fields? PlayerListEntryLogicController
 ---@return PlayerListEntryLogicController

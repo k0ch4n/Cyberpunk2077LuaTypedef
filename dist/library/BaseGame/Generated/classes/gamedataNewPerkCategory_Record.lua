@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataNewPerkCategory_Record: gamedataTweakDBRecord
 gamedataNewPerkCategory_Record = {}
+
 
 ---@param fields? gamedataNewPerkCategory_Record
 ---@return gamedataNewPerkCategory_Record

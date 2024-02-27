@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Stillage: InteractiveDevice
 ---@field collider entIPlacedComponent
 Stillage = {}
+
 
 ---@param fields? Stillage
 ---@return Stillage

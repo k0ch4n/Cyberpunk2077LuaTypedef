@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestUpdateGameController: gameuiHUDGameController
 ---@field header inkTextWidgetReference
 ---@field label inkTextWidgetReference
@@ -9,6 +10,7 @@
 ---@field owner gameObject
 ---@field journalMgr gameJournalManager
 QuestUpdateGameController = {}
+
 
 ---@param fields? QuestUpdateGameController
 ---@return QuestUpdateGameController

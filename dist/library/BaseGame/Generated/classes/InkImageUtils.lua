@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InkImageUtils: IScriptable
 InkImageUtils = {}
+
 
 ---@param fields? InkImageUtils
 ---@return InkImageUtils

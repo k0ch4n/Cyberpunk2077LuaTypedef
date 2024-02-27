@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SyncAnimDeathTask: WithoutHitDataDeathTask
 SyncAnimDeathTask = {}
+
 
 ---@param fields? SyncAnimDeathTask
 ---@return SyncAnimDeathTask

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameaudioeventsHitEvent: redEvent
 ---@field attackType gamedataAttackType
 ---@field hitPosition Vector4
@@ -9,6 +10,7 @@
 ---@field targetPuppetMeleeMaterial CName
 ---@field isTargetPuppetHead Bool
 gameaudioeventsHitEvent = {}
+
 
 ---@param fields? gameaudioeventsHitEvent
 ---@return gameaudioeventsHitEvent

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PassiveRoleCondition: AIbehaviorexpressionScript
 ---@field role EAIRole
 ---@field roleCbId Uint32
 PassiveRoleCondition = {}
+
 
 ---@param fields? PassiveRoleCondition
 ---@return PassiveRoleCondition

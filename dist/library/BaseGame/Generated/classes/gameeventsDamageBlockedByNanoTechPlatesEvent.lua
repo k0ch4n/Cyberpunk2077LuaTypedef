@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameeventsDamageBlockedByNanoTechPlatesEvent: redEvent
 ---@field hitEvent gameeventsHitEvent
 gameeventsDamageBlockedByNanoTechPlatesEvent = {}
+
 
 ---@param fields? gameeventsDamageBlockedByNanoTechPlatesEvent
 ---@return gameeventsDamageBlockedByNanoTechPlatesEvent

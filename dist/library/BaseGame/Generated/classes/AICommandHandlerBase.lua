@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AICommandHandlerBase: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 AICommandHandlerBase = {}
+
 
 ---@param fields? AICommandHandlerBase
 ---@return AICommandHandlerBase

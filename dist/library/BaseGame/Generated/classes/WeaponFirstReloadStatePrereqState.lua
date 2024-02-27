@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WeaponFirstReloadStatePrereqState: gamePrereqState
 ---@field listenerWeaponInt redCallbackObject
 ---@field listenerActiveWeaponVariant redCallbackObject
@@ -7,6 +8,7 @@
 ---@field owner gameObject
 ---@field reloaded Bool
 WeaponFirstReloadStatePrereqState = {}
+
 
 ---@param fields? WeaponFirstReloadStatePrereqState
 ---@return WeaponFirstReloadStatePrereqState

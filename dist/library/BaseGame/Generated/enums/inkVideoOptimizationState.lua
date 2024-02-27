@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkVideoOptimizationState: Enum
 ---@field None Enum 0
 ---@field TooManyBinks Enum 1

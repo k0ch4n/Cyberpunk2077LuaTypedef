@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameweaponAnimFeature_LoopableAction: animAnimFeature
 ---@field loopDuration Float
 ---@field numLoops Uint8
 ---@field isActive Bool
 gameweaponAnimFeature_LoopableAction = {}
+
 
 ---@param fields? gameweaponAnimFeature_LoopableAction
 ---@return gameweaponAnimFeature_LoopableAction

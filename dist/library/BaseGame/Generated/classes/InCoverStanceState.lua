@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InCoverStanceState: AINPCStanceStateCheck
 InCoverStanceState = {}
+
 
 ---@param fields? InCoverStanceState
 ---@return InCoverStanceState

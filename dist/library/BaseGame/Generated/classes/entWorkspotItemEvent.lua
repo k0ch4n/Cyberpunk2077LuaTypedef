@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entWorkspotItemEvent: redEvent
 entWorkspotItemEvent = {}
+
 
 ---@param fields? entWorkspotItemEvent
 ---@return entWorkspotItemEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entAppearanceMeshLoadedEvent: redEvent
 entAppearanceMeshLoadedEvent = {}
+
 
 ---@param fields? entAppearanceMeshLoadedEvent
 ---@return entAppearanceMeshLoadedEvent

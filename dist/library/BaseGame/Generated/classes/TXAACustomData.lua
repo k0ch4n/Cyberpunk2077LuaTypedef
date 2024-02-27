@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TXAACustomData: ICameraStorageCustomData
 TXAACustomData = {}
+
 
 ---@param fields? TXAACustomData
 ---@return TXAACustomData

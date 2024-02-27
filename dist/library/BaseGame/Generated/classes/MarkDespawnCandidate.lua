@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MarkDespawnCandidate: AIbehaviortaskScript
 ---@field onDeactivation Bool
 MarkDespawnCandidate = {}
+
 
 ---@param fields? MarkDespawnCandidate
 ---@return MarkDespawnCandidate

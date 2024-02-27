@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIActionPlayerStates
 ---@field locomotionStates gamePSMLocomotionStates[]
 ---@field upperBodyStates gamePSMUpperBodyStates[]
@@ -8,6 +9,7 @@
 ---@field bodyCarryStates gamePSMBodyCarrying[]
 ---@field combatStates gamePSMCombat[]
 AIActionPlayerStates = {}
+
 
 ---@param fields? AIActionPlayerStates
 ---@return AIActionPlayerStates

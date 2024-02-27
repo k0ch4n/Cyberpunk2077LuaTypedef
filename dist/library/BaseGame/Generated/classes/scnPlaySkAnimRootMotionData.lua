@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnPlaySkAnimRootMotionData
 ---@field enabled Bool
 ---@field placementMode scnRootMotionAnimPlacementMode
@@ -16,6 +17,7 @@
 ---@field vehicleEnabledPhysicsOnEnd Bool
 ---@field trajectoryLOD scnAnimationMotionSample[]
 scnPlaySkAnimRootMotionData = {}
+
 
 ---@param fields? scnPlaySkAnimRootMotionData
 ---@return scnPlaySkAnimRootMotionData

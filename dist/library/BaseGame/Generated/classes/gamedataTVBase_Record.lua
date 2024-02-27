@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTVBase_Record: gamedataDevice_Record
 gamedataTVBase_Record = {}
+
 
 ---@param fields? gamedataTVBase_Record
 ---@return gamedataTVBase_Record

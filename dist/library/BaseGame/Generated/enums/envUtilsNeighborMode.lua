@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class envUtilsNeighborMode: Enum
 ---@field eCLOSEST Enum 0
 ---@field eONLY_GLOBAL Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnChoiceNodeOption
 ---@field screenplayOptionId scnscreenplayItemId
 ---@field caption CName
@@ -19,6 +20,7 @@
 ---@field mappinReferencePointId scnReferencePointId
 ---@field timedCondition scnTimedCondition
 scnChoiceNodeOption = {}
+
 
 ---@param fields? scnChoiceNodeOption
 ---@return scnChoiceNodeOption

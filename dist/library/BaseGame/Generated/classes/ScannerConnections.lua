@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerConnections: ScannerChunk
 ---@field deviceConnections DeviceConnectionScannerData[]
 ScannerConnections = {}
+
 
 ---@param fields? ScannerConnections
 ---@return ScannerConnections

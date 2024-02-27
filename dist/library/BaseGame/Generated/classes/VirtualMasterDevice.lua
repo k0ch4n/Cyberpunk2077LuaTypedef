@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VirtualMasterDevice: Device
 VirtualMasterDevice = {}
+
 
 ---@param fields? VirtualMasterDevice
 ---@return VirtualMasterDevice

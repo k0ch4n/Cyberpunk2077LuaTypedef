@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendScreenshotMode: Enum
 ---@field NONE Enum 0
 ---@field NORMAL Enum 1

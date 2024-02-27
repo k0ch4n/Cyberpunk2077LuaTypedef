@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhotoModeListController: inkListController
 ---@field LogoWidget inkWidgetReference
 ---@field Panel inkVerticalPanelWidgetReference
@@ -11,6 +12,7 @@
 ---@field elementsAnimationDelay Float
 ---@field currentElementAnimation Int32
 PhotoModeListController = {}
+
 
 ---@param fields? PhotoModeListController
 ---@return PhotoModeListController

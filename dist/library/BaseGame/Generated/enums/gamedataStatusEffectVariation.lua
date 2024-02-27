@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataStatusEffectVariation: Enum
 ---@field Bike Enum 0
 ---@field Default Enum 1

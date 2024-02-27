@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questUseWeapon_NodeType: questIItemManagerNodeType
 ---@field usageType questWeaponUsageType
 ---@field objectRef questUniversalRef
@@ -7,6 +8,7 @@
 ---@field weaponSlotName CName
 ---@field attackTDBID TweakDBID
 questUseWeapon_NodeType = {}
+
 
 ---@param fields? questUseWeapon_NodeType
 ---@return questUseWeapon_NodeType

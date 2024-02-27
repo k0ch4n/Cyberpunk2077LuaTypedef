@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CParticleModificatorAlphaOverEffect: IParticleModificator
 CParticleModificatorAlphaOverEffect = {}
+
 
 ---@param fields? CParticleModificatorAlphaOverEffect
 ---@return CParticleModificatorAlphaOverEffect

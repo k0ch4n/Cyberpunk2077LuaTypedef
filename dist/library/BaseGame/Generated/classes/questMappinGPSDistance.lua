@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questMappinGPSDistance: questIDistance
 ---@field mappinPath gameJournalPath
 questMappinGPSDistance = {}
+
 
 ---@param fields? questMappinGPSDistance
 ---@return questMappinGPSDistance

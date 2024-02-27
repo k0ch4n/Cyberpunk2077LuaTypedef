@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioVehicleCollisionMap: audioAudioMetadata
 ---@field minImpactVelocityThreshold Float
 ---@field minRumbleVelocityThreshold Float
@@ -15,6 +16,7 @@
 ---@field interiorCollisionEvent CName
 ---@field collisionSettings audioVehicleCollisionMapItem[]
 audioVehicleCollisionMap = {}
+
 
 ---@param fields? audioVehicleCollisionMap
 ---@return audioVehicleCollisionMap

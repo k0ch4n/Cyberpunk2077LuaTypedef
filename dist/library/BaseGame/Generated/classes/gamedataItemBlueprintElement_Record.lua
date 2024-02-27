@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataItemBlueprintElement_Record: gamedataTweakDBRecord
 gamedataItemBlueprintElement_Record = {}
+
 
 ---@param fields? gamedataItemBlueprintElement_Record
 ---@return gamedataItemBlueprintElement_Record

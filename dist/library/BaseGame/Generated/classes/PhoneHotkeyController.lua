@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhoneHotkeyController: GenericHotkeyController
 ---@field mainIcon inkImageWidgetReference
 ---@field questIcon inkImageWidgetReference
@@ -20,6 +21,7 @@
 ---@field isRadioPopupVisibleBBId redCallbackObject
 ---@field isRadialMenuVisibleBBId redCallbackObject
 PhoneHotkeyController = {}
+
 
 ---@param fields? PhoneHotkeyController
 ---@return PhoneHotkeyController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnDialogLineLanguage: Enum
 ---@field Origin Enum 0
 ---@field Creole Enum 1

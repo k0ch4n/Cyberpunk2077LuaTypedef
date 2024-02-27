@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AICTreeNodeFSMDefinition: AICTreeNodeCompositeDefinition
 ---@field defaultState Uint16
 ---@field transitions AIFSMTransitionDefinition[]
@@ -7,6 +8,7 @@
 ---@field states AIFSMStateDefinition[]
 ---@field sharedVars AISharedVarTableDefinition
 AICTreeNodeFSMDefinition = {}
+
 
 ---@param fields? AICTreeNodeFSMDefinition
 ---@return AICTreeNodeFSMDefinition

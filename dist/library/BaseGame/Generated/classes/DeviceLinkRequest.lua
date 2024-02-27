@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DeviceLinkRequest: redEvent
 ---@field deviceLink DeviceLink
 DeviceLinkRequest = {}
+
 
 ---@param fields? DeviceLinkRequest
 ---@return DeviceLinkRequest

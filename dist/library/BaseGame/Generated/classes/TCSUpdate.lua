@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TCSUpdate: gameScriptableSystemRequest
 TCSUpdate = {}
+
 
 ---@param fields? TCSUpdate
 ---@return TCSUpdate

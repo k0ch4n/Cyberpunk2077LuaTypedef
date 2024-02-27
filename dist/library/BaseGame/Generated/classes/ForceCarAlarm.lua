@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceCarAlarm: ActionBool
 ForceCarAlarm = {}
+
 
 ---@param fields? ForceCarAlarm
 ---@return ForceCarAlarm

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NPCGrappledByPlayerPrereq: gameIScriptablePrereq
 NPCGrappledByPlayerPrereq = {}
+
 
 ---@param fields? NPCGrappledByPlayerPrereq
 ---@return NPCGrappledByPlayerPrereq

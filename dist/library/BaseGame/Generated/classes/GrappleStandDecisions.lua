@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GrappleStandDecisions: LocomotionTakedownDecisions
 ---@field stateMachineInitData LocomotionTakedownInitData
 GrappleStandDecisions = {}
+
 
 ---@param fields? GrappleStandDecisions
 ---@return GrappleStandDecisions

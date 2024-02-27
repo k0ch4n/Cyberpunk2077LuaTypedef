@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsInVehicle: AIVehicleConditionAbstract
 IsInVehicle = {}
+
 
 ---@param fields? IsInVehicle
 ---@return IsInVehicle

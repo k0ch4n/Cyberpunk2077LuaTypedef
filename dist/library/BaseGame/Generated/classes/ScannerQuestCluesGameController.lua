@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerQuestCluesGameController: BaseChunkGameController
 ---@field ScannerQuestPanel inkCompoundWidgetReference
 ---@field questCluesCallbackID redCallbackObject
@@ -9,6 +10,7 @@
 ---@field hasValidScannables Bool
 ---@field asyncSpawnRequests inkAsyncSpawnRequest[]
 ScannerQuestCluesGameController = {}
+
 
 ---@param fields? ScannerQuestCluesGameController
 ---@return ScannerQuestCluesGameController

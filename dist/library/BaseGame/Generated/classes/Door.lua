@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Door: InteractiveDevice
 ---@field animationController entAnimationControllerComponent
 ---@field triggerComponent gameStaticTriggerAreaComponent
@@ -47,6 +48,7 @@
 ---@field componentName CName
 ---@field playerInWorkspot PlayerPuppet
 Door = {}
+
 
 ---@param fields? Door
 ---@return Door

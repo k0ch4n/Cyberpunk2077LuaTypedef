@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IncrementArgumentInt: AIbehaviortaskScript
 ---@field argumentIntName CName
 IncrementArgumentInt = {}
+
 
 ---@param fields? IncrementArgumentInt
 ---@return IncrementArgumentInt

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NcartDoorScreenInkController: NcartTrainInkControllerBase
 ---@field LinesList ncartDoorScreenLineDataDef[]
 ---@field ActiveLineFactName CName
@@ -37,6 +38,7 @@
 ---@field speedListner redCallbackObject
 ---@field speedLastValue Float
 NcartDoorScreenInkController = {}
+
 
 ---@param fields? NcartDoorScreenInkController
 ---@return NcartDoorScreenInkController

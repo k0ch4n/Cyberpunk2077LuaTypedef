@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionConditionalFailure_Record: gamedataAISubAction_Record
 gamedataAISubActionConditionalFailure_Record = {}
+
 
 ---@param fields? gamedataAISubActionConditionalFailure_Record
 ---@return gamedataAISubActionConditionalFailure_Record

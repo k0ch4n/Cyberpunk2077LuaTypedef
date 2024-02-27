@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animFacialEmotionTransitionType: Enum
 ---@field Natural Enum 0
 ---@field Fast Enum 1

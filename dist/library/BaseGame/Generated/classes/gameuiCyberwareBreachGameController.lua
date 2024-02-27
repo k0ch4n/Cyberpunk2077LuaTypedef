@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiCyberwareBreachGameController: gameuiWidgetGameController
 ---@field strokeHealthDepleation inkWidgetReference
 ---@field adjustedScreenPosition Vector2
@@ -30,6 +31,7 @@
 ---@field showAnimationProxy inkanimProxy
 ---@field timeoutAnimationProxy inkanimProxy
 gameuiCyberwareBreachGameController = {}
+
 
 ---@param fields? gameuiCyberwareBreachGameController
 ---@return gameuiCyberwareBreachGameController

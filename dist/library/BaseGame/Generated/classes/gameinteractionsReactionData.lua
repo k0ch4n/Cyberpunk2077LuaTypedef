@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsReactionData: IScriptable
 ---@field choiceName CName
 ---@field startDuration Float
@@ -11,6 +12,7 @@
 ---@field useIK Bool
 ---@field IKPoint Vector4
 gameinteractionsReactionData = {}
+
 
 ---@param fields? gameinteractionsReactionData
 ---@return gameinteractionsReactionData

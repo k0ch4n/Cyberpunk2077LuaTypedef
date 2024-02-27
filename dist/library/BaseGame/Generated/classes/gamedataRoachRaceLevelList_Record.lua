@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRoachRaceLevelList_Record: gamedataTweakDBRecord
 gamedataRoachRaceLevelList_Record = {}
+
 
 ---@param fields? gamedataRoachRaceLevelList_Record
 ---@return gamedataRoachRaceLevelList_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EffectExecutor_ToggleDevice: EffectExecutor_Device
 EffectExecutor_ToggleDevice = {}
+
 
 ---@param fields? EffectExecutor_ToggleDevice
 ---@return EffectExecutor_ToggleDevice

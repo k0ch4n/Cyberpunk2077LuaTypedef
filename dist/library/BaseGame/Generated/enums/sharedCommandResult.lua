@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class sharedCommandResult: Enum
 ---@field Success Enum 0
 ---@field NeedOptions Enum 1

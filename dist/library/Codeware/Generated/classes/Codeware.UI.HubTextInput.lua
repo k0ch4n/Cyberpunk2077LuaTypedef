@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Codeware_UI_HubTextInput: Codeware_UI_TextInput
 ---@field bg inkImageWidget
 ---@field fill inkImageWidget
@@ -16,6 +17,7 @@
 ---@field focusFrameAnimDef inkanimDefinition
 ---@field focusFrameAnimProxy inkanimProxy
 Codeware_UI_HubTextInput = {}
+
 
 ---@param fields? Codeware_UI_HubTextInput
 ---@return Codeware_UI_HubTextInput

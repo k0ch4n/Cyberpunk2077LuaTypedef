@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class JuggernautEffector: gameContinuousEffector
 ---@field modifiersAdded Bool
 ---@field poolSystem gameStatPoolsSystem
 ---@field statusEffectSystem gameStatusEffectSystem
 JuggernautEffector = {}
+
 
 ---@param fields? JuggernautEffector
 ---@return JuggernautEffector

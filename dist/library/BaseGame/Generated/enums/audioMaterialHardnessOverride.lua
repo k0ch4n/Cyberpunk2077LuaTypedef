@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioMaterialHardnessOverride: Enum
 ---@field None Enum 0
 ---@field SetAsSoft Enum 1

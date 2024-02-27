@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UIInGameNotification: GenericNotificationController
 UIInGameNotification = {}
+
 
 ---@param fields? UIInGameNotification
 ---@return UIInGameNotification

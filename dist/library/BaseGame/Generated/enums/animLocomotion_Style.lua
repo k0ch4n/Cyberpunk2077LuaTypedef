@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animLocomotion_Style: Enum
 ---@field LS_Idle Enum 0
 ---@field LS_Rotation Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ECookingPlatform: Enum
 ---@field PLATFORM_None Enum 0
 ---@field PLATFORM_PC Enum 1

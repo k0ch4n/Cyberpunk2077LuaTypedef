@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSmartObjectsCompiledResource: resStreamedResource
 ---@field animationDatabase gameSmartObjectAnimationDatabase
 ---@field compiledNodesData gameCompiledNodes
@@ -9,6 +10,7 @@
 ---@field soMembership gameSmartObjectMembership
 ---@field localBoundingBox Box
 gameSmartObjectsCompiledResource = {}
+
 
 ---@param fields? gameSmartObjectsCompiledResource
 ---@return gameSmartObjectsCompiledResource

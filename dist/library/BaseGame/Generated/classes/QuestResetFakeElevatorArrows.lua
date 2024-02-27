@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestResetFakeElevatorArrows: ActionBool
 QuestResetFakeElevatorArrows = {}
+
 
 ---@param fields? QuestResetFakeElevatorArrows
 ---@return QuestResetFakeElevatorArrows

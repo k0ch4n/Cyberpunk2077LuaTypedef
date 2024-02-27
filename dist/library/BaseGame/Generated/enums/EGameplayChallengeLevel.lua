@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EGameplayChallengeLevel: Enum
 ---@field NONE Enum 0
 ---@field TRIVIAL Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerHintInkGameController: gameuiWidgetGameController
 ---@field messegeWidget inkTextWidget
 ---@field root inkWidget
@@ -8,6 +9,7 @@
 ---@field OnMessegeUpdateCallback redCallbackObject
 ---@field OnVisionModeChangedCallback redCallbackObject
 ScannerHintInkGameController = {}
+
 
 ---@param fields? ScannerHintInkGameController
 ---@return ScannerHintInkGameController

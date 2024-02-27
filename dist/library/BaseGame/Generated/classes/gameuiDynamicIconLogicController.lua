@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiDynamicIconLogicController: inkWidgetLogicController
 gameuiDynamicIconLogicController = {}
+
 
 ---@param fields? gameuiDynamicIconLogicController
 ---@return gameuiDynamicIconLogicController

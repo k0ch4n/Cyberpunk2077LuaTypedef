@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EquippedWeaponTypeCondition: workIScriptedCondition
 ---@field weaponType WorkspotWeaponConditionEnum
 EquippedWeaponTypeCondition = {}
+
 
 ---@param fields? EquippedWeaponTypeCondition
 ---@return EquippedWeaponTypeCondition

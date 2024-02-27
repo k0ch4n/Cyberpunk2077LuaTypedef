@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiHitType: Enum
 ---@field Miss Enum 0
 ---@field Glance Enum 1

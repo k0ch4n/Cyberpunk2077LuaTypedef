@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StandDecisions: LocomotionGroundDecisions
 StandDecisions = {}
+
 
 ---@param fields? StandDecisions
 ---@return StandDecisions

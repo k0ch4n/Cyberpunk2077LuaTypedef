@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GameplayMappinController: QuestMappinController
 ---@field anim inkanimProxy
 ---@field isVisibleThroughWalls Bool
 GameplayMappinController = {}
+
 
 ---@param fields? GameplayMappinController
 ---@return GameplayMappinController

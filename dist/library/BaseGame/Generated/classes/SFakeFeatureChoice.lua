@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SFakeFeatureChoice
 ---@field choiceID String
 ---@field isEnabled Bool
@@ -10,6 +11,7 @@
 ---@field affectedComponents SComponentOperationData[]
 ---@field callbackID Uint32
 SFakeFeatureChoice = {}
+
 
 ---@param fields? SFakeFeatureChoice
 ---@return SFakeFeatureChoice

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Sphere
 ---@field CenterRadius2 Vector4
 Sphere = {}
+
 
 ---@param fields? Sphere
 ---@return Sphere

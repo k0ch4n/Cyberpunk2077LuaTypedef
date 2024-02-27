@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questMultiplayerTeleportPuppetParams
 ---@field teleportAllPlayers Bool
 ---@field spawnPointTag CName
@@ -7,6 +8,7 @@
 ---@field destinationOffset Vector3
 ---@field areaNodeTriggerRef gameEntityReference
 questMultiplayerTeleportPuppetParams = {}
+
 
 ---@param fields? questMultiplayerTeleportPuppetParams
 ---@return questMultiplayerTeleportPuppetParams

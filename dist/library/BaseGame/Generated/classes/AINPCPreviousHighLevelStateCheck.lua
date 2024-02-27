@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AINPCPreviousHighLevelStateCheck: AINPCStateCheck
 AINPCPreviousHighLevelStateCheck = {}
+
 
 ---@param fields? AINPCPreviousHighLevelStateCheck
 ---@return AINPCPreviousHighLevelStateCheck

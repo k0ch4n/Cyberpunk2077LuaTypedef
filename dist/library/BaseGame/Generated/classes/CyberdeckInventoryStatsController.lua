@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CyberdeckInventoryStatsController: inkWidgetLogicController
 ---@field bufferTotal inkTextWidgetReference
 ---@field bufferBase inkTextWidgetReference
@@ -13,6 +14,7 @@
 ---@field ramTooltipPlacement gameuiETooltipPlacement
 ---@field tooltipsManager gameuiTooltipsManager
 CyberdeckInventoryStatsController = {}
+
 
 ---@param fields? CyberdeckInventoryStatsController
 ---@return CyberdeckInventoryStatsController

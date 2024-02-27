@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HoverJumpDecisions: LocomotionAirDecisions
 HoverJumpDecisions = {}
+
 
 ---@param fields? HoverJumpDecisions
 ---@return HoverJumpDecisions

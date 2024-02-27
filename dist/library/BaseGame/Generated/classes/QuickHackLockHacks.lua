@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuickHackLockHacks: redEvent
 ---@field IsLocked Bool
 QuickHackLockHacks = {}
+
 
 ---@param fields? QuickHackLockHacks
 ---@return QuickHackLockHacks

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectDuration_Infinite: gameEffectDurationModifier
 gameEffectDuration_Infinite = {}
+
 
 ---@param fields? gameEffectDuration_Infinite
 ---@return gameEffectDuration_Infinite

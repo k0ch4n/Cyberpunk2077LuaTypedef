@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayStartupLocoFearAnimation: AIbehaviorconditionScript
 PlayStartupLocoFearAnimation = {}
+
 
 ---@param fields? PlayStartupLocoFearAnimation
 ---@return PlayStartupLocoFearAnimation

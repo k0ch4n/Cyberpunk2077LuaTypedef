@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkGameNotificationCallback: inkCallbackBase
 inkGameNotificationCallback = {}
+
 
 ---@param fields? inkGameNotificationCallback
 ---@return inkGameNotificationCallback

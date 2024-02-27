@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CityFluffScreenSelector: LCDScreenSelector
 ---@field recordID TweakDBID
 CityFluffScreenSelector = {}
+
 
 ---@param fields? CityFluffScreenSelector
 ---@return CityFluffScreenSelector

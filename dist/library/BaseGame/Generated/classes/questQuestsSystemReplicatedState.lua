@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questQuestsSystemReplicatedState: gameIGameSystemReplicatedState
 ---@field replicatedQuestPrefabs questQuestPrefabsEntry[]
 questQuestsSystemReplicatedState = {}
+
 
 ---@param fields? questQuestsSystemReplicatedState
 ---@return questQuestsSystemReplicatedState

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameuiUpdateInputHintMultipleEvent: redEvent
 ---@field data gameuiInputHintData[]
 ---@field show Bool[]
 ---@field targetHintContainer CName
 gameuiUpdateInputHintMultipleEvent = {}
+
 
 ---@param fields? gameuiUpdateInputHintMultipleEvent
 ---@return gameuiUpdateInputHintMultipleEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestSetChannel: ActionInt
 QuestSetChannel = {}
+
 
 ---@param fields? QuestSetChannel
 ---@return QuestSetChannel

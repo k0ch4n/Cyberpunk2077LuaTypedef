@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CParticleModificatorVelocityTurbulize: IParticleModificator
 ---@field scale IEvaluatorVector
 ---@field timelifeLimit IEvaluatorFloat
@@ -7,6 +8,7 @@
 ---@field duration Float
 ---@field worldSpace Bool
 CParticleModificatorVelocityTurbulize = {}
+
 
 ---@param fields? CParticleModificatorVelocityTurbulize
 ---@return CParticleModificatorVelocityTurbulize

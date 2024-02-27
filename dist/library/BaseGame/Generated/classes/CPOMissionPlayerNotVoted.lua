@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CPOMissionPlayerNotVoted: CPOMissionPlayerVoted
 CPOMissionPlayerNotVoted = {}
+
 
 ---@param fields? CPOMissionPlayerNotVoted
 ---@return CPOMissionPlayerNotVoted

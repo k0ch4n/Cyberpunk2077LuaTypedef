@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animAnimNode_PoseMsToLs: animAnimNode_OnePoseInput
 animAnimNode_PoseMsToLs = {}
+
 
 ---@param fields? animAnimNode_PoseMsToLs
 ---@return animAnimNode_PoseMsToLs

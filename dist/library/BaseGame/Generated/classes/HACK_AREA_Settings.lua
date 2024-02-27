@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HACK_AREA_Settings: IAreaSettings
 ---@field surfelScale Float
 ---@field missingEnergyScale Float
@@ -12,6 +13,7 @@
 ---@field emissiveScale Float
 ---@field albedoMetalness Float
 HACK_AREA_Settings = {}
+
 
 ---@param fields? HACK_AREA_Settings
 ---@return HACK_AREA_Settings

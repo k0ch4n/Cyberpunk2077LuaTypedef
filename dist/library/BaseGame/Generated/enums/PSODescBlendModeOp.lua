@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PSODescBlendModeOp: Enum
 ---@field OP_Add Enum 0
 ---@field OP_Subtract Enum 1

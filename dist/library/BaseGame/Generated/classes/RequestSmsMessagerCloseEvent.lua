@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RequestSmsMessagerCloseEvent: redEvent
 RequestSmsMessagerCloseEvent = {}
+
 
 ---@param fields? RequestSmsMessagerCloseEvent
 ---@return RequestSmsMessagerCloseEvent

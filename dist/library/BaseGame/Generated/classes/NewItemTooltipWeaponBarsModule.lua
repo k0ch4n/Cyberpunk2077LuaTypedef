@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewItemTooltipWeaponBarsModule: NewItemTooltipModuleController
 ---@field wrapper inkWidgetReference
 ---@field bars inkWidgetReference[]
@@ -9,6 +10,7 @@
 ---@field statsToDisplay WeaponBarType[]
 ---@field disableSeparators Bool
 NewItemTooltipWeaponBarsModule = {}
+
 
 ---@param fields? NewItemTooltipWeaponBarsModule
 ---@return NewItemTooltipWeaponBarsModule

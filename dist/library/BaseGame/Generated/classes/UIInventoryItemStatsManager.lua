@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInventoryItemStatsManager: IScriptable
 ---@field Stats UIInventoryItemStat[]
 ---@field TooltipStats UIInventoryItemStat[]
@@ -16,6 +17,7 @@
 ---@field weaponBarsFetched Bool
 ---@field useBareStats Bool
 UIInventoryItemStatsManager = {}
+
 
 ---@param fields? UIInventoryItemStatsManager
 ---@return UIInventoryItemStatsManager

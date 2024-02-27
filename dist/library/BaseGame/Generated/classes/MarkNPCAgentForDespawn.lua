@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MarkNPCAgentForDespawn: AIbehaviortaskScript
 MarkNPCAgentForDespawn = {}
+
 
 ---@param fields? MarkNPCAgentForDespawn
 ---@return MarkNPCAgentForDespawn

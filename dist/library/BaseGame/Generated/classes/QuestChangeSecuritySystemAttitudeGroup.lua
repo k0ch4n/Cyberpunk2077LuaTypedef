@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuestChangeSecuritySystemAttitudeGroup: redEvent
 ---@field newAttitudeGroup TweakDBID
 QuestChangeSecuritySystemAttitudeGroup = {}
+
 
 ---@param fields? QuestChangeSecuritySystemAttitudeGroup
 ---@return QuestChangeSecuritySystemAttitudeGroup

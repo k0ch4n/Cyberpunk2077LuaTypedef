@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedeviceActionProperty: IScriptable
 ---@field name CName
 ---@field typeName CName
@@ -8,6 +9,7 @@
 ---@field third Variant
 ---@field flags gamedeviceActionPropertyFlags
 gamedeviceActionProperty = {}
+
 
 ---@param fields? gamedeviceActionProperty
 ---@return gamedeviceActionProperty

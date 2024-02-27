@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CMesh: resStreamedResource
 ---@field parameters meshMeshParameter[]
 ---@field boundingBox Box
@@ -29,6 +30,7 @@
 ---@field isShadowMesh Bool
 ---@field isPlayerShadowMesh Bool
 CMesh = {}
+
 
 ---@param fields? CMesh
 ---@return CMesh

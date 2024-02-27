@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiarcadeShooterPlatformCollisionController: inkWidgetLogicController
 gameuiarcadeShooterPlatformCollisionController = {}
+
 
 ---@param fields? gameuiarcadeShooterPlatformCollisionController
 ---@return gameuiarcadeShooterPlatformCollisionController

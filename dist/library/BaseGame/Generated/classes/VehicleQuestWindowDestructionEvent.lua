@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class VehicleQuestWindowDestructionEvent: redEvent
 ---@field windowName CName
 ---@field window vehicleQuestWindowDestruction
 VehicleQuestWindowDestructionEvent = {}
+
 
 ---@param fields? VehicleQuestWindowDestructionEvent
 ---@return VehicleQuestWindowDestructionEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIExposureMethodType_Record: gamedataTweakDBRecord
 gamedataAIExposureMethodType_Record = {}
+
 
 ---@param fields? gamedataAIExposureMethodType_Record
 ---@return gamedataAIExposureMethodType_Record

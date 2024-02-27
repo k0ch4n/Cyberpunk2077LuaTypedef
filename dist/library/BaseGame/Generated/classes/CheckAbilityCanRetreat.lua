@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CheckAbilityCanRetreat: AIbehaviorconditionScript
 CheckAbilityCanRetreat = {}
+
 
 ---@param fields? CheckAbilityCanRetreat
 ---@return CheckAbilityCanRetreat

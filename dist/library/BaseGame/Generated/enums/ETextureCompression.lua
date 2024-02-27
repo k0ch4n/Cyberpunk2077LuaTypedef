@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETextureCompression: Enum
 ---@field TCM_None Enum 0
 ---@field TCM_DXTNoAlpha Enum 1

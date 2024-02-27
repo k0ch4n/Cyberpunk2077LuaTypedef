@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ZoomLevel6Decisions: ZoomDecisionsTransition
 ZoomLevel6Decisions = {}
+
 
 ---@param fields? ZoomLevel6Decisions
 ---@return ZoomLevel6Decisions

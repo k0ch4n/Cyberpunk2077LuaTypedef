@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ReprimandData
 ---@field isActive Bool
 ---@field receiver entEntityID
@@ -7,6 +8,7 @@
 ---@field reprimandID Int32
 ---@field count Int32
 ReprimandData = {}
+
 
 ---@param fields? ReprimandData
 ---@return ReprimandData

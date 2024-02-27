@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataWorkspotActionType_Record: gamedataTweakDBRecord
 gamedataWorkspotActionType_Record = {}
+
 
 ---@param fields? gamedataWorkspotActionType_Record
 ---@return gamedataWorkspotActionType_Record

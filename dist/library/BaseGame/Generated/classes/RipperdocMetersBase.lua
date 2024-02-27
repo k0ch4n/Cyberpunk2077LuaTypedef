@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocMetersBase: inkWidgetLogicController
 ---@field barAnchor inkWidgetReference
 ---@field hoverArea inkWidgetReference
@@ -25,6 +26,7 @@
 ---@field barIntroAnimProxy inkanimProxy
 ---@field isIntroPlayed Bool
 RipperdocMetersBase = {}
+
 
 ---@param fields? RipperdocMetersBase
 ---@return RipperdocMetersBase

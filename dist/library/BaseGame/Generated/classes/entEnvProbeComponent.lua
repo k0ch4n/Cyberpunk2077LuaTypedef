@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entEnvProbeComponent: entIVisualComponent
 ---@field isEnabled Bool
 ---@field size Vector3
@@ -20,6 +21,7 @@
 ---@field lightChannels rendLightChannel
 ---@field volumeChannels rendLightChannel
 entEnvProbeComponent = {}
+
 
 ---@param fields? entEnvProbeComponent
 ---@return entEnvProbeComponent

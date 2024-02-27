@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HubMenuDatabaseItems: Enum
 ---@field Codex Enum 0
 ---@field Tarot Enum 1

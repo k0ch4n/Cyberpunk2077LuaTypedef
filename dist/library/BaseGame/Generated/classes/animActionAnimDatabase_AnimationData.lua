@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animActionAnimDatabase_AnimationData
 ---@field animationName CName
 ---@field fallbackAnimationName CName
@@ -9,6 +10,7 @@
 ---@field outCanRequestInertialization Bool
 ---@field streamingContext CName
 animActionAnimDatabase_AnimationData = {}
+
 
 ---@param fields? animActionAnimDatabase_AnimationData
 ---@return animActionAnimDatabase_AnimationData

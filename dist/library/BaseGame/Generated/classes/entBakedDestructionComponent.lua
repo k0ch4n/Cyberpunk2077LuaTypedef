@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entBakedDestructionComponent: entPhysicalMeshComponent
 ---@field meshFractured CMesh
 ---@field meshFracturedAppearance CName
@@ -17,6 +18,7 @@
 ---@field destructionEffect worldEffect
 ---@field audioMetadata CName
 entBakedDestructionComponent = {}
+
 
 ---@param fields? entBakedDestructionComponent
 ---@return entBakedDestructionComponent

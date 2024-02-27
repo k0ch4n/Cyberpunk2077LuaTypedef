@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RestrictedMovementAreaCondition: AIbehaviorconditionScript
 RestrictedMovementAreaCondition = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIGuardAreaManager

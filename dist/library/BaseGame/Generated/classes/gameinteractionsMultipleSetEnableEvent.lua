@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameinteractionsMultipleSetEnableEvent: redEvent
 ---@field enable Bool
 ---@field layer CName
 ---@field linkedLayers CName
 gameinteractionsMultipleSetEnableEvent = {}
+
 
 ---@param fields? gameinteractionsMultipleSetEnableEvent
 ---@return gameinteractionsMultipleSetEnableEvent

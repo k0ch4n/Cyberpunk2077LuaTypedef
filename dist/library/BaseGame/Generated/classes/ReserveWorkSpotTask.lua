@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ReserveWorkSpotTask: WorkSpotTask
 ---@field workspotRef NodeRef
 ---@field workspotObject gameObject
 ReserveWorkSpotTask = {}
+
 
 ---@param fields? ReserveWorkSpotTask
 ---@return ReserveWorkSpotTask

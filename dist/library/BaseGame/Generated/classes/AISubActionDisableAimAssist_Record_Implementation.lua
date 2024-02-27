@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionDisableAimAssist_Record_Implementation: IScriptable
 AISubActionDisableAimAssist_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionDisableAimAssist_Record

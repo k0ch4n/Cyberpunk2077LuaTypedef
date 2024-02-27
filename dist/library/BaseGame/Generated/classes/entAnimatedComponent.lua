@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entAnimatedComponent: entISkinableComponent
 ---@field controlBinding entAnimationControlBinding
 ---@field rig animRig
@@ -16,6 +17,7 @@
 ---@field serverForcedVisibility Bool
 ---@field clientForcedVisibility Bool
 entAnimatedComponent = {}
+
 
 ---@param fields? entAnimatedComponent
 ---@return entAnimatedComponent

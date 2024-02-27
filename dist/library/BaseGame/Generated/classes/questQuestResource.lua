@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questQuestResource: questQuestPhaseResource
 questQuestResource = {}
+
 
 ---@param fields? questQuestResource
 ---@return questQuestResource

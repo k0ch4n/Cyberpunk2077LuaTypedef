@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questVendorPanel_NodeType: questIUIManagerNodeType
 ---@field scenarioName CName
 ---@field openVendorPanel Bool
@@ -8,6 +9,7 @@
 ---@field assetsLibrary String
 ---@field rootItemName CName
 questVendorPanel_NodeType = {}
+
 
 ---@param fields? questVendorPanel_NodeType
 ---@return questVendorPanel_NodeType

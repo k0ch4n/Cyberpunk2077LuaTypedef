@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameJournalEmailGroup: gameJournalFileEntry
 gameJournalEmailGroup = {}
+
 
 ---@param fields? gameJournalEmailGroup
 ---@return gameJournalEmailGroup

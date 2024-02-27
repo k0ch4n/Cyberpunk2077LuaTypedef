@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkScrollController: inkWidgetLogicController
 ---@field ScrollArea inkScrollAreaWidgetReference
 ---@field VerticalScrollBarRef inkWidgetReference
@@ -17,6 +18,7 @@
 ---@field viewportSize Vector2
 ---@field contentSize Vector2
 inkScrollController = {}
+
 
 ---@param fields? inkScrollController
 ---@return inkScrollController

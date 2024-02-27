@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickHackAuthorization: ActionBool
 QuickHackAuthorization = {}
+
 
 ---@param fields? QuickHackAuthorization
 ---@return QuickHackAuthorization

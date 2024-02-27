@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@alias Bool boolean
 ---@alias Int8 integer
 ---@alias Uint8 integer
@@ -11,6 +12,7 @@
 ---@alias Uint64 integer
 ---@alias Float number
 ---@alias Double number
+
 
 ---@param aValue any
 ---@param aTypeName? string

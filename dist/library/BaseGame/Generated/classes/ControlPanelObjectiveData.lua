@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ControlPanelObjectiveData: GemplayObjectiveData
 ControlPanelObjectiveData = {}
+
 
 ---@param fields? ControlPanelObjectiveData
 ---@return ControlPanelObjectiveData

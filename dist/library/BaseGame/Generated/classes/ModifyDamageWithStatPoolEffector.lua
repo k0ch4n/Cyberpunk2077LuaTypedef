@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ModifyDamageWithStatPoolEffector: ModifyDamageEffector
 ---@field statPool gamedataStatPoolType
 ---@field poolStatus String
@@ -7,6 +8,7 @@
 ---@field percentMult Float
 ---@field refObj String
 ModifyDamageWithStatPoolEffector = {}
+
 
 ---@param fields? ModifyDamageWithStatPoolEffector
 ---@return ModifyDamageWithStatPoolEffector

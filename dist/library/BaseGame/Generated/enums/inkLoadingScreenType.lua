@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkLoadingScreenType: Enum
 ---@field Unknown Enum 0
 ---@field SplashScreen Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioReflectionEmitterSettings: audioAudioMetadata
 ---@field reflectionEvent CName
 ---@field fadeout Float
@@ -18,6 +19,7 @@
 ---@field minimumFaceAlignement Float
 ---@field fixedRaycastPitch Float
 audioReflectionEmitterSettings = {}
+
 
 ---@param fields? audioReflectionEmitterSettings
 ---@return audioReflectionEmitterSettings

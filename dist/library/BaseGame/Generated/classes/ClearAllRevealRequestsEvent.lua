@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ClearAllRevealRequestsEvent: redEvent
 ClearAllRevealRequestsEvent = {}
+
 
 ---@param fields? ClearAllRevealRequestsEvent
 ---@return ClearAllRevealRequestsEvent

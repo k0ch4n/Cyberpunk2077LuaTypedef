@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkButtonAnimatedController: inkButtonController
 ---@field animTargetHover inkWidgetReference
 ---@field animTargetPulse inkWidgetReference
@@ -14,6 +15,7 @@
 ---@field animPulseProxy inkanimProxy
 ---@field animPulseOptions inkanimPlaybackOptions
 inkButtonAnimatedController = {}
+
 
 ---@param fields? inkButtonAnimatedController
 ---@return inkButtonAnimatedController

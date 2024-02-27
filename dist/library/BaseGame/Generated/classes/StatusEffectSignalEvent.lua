@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StatusEffectSignalEvent: redEvent
 ---@field statusEffectID TweakDBID
 ---@field priority Float
@@ -7,6 +8,7 @@
 ---@field flags EAIGateSignalFlags[]
 ---@field repeatSignalDelay Float
 StatusEffectSignalEvent = {}
+
 
 ---@param fields? StatusEffectSignalEvent
 ---@return StatusEffectSignalEvent

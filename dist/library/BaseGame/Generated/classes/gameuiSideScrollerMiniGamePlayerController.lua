@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiSideScrollerMiniGamePlayerController: inkWidgetLogicController
 gameuiSideScrollerMiniGamePlayerController = {}
+
 
 ---@param fields? gameuiSideScrollerMiniGamePlayerController
 ---@return gameuiSideScrollerMiniGamePlayerController

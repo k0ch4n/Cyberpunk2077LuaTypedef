@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStatPoolData
 ---@field ownerID gameStatsObjectID
 ---@field recordID TweakDBID
@@ -16,6 +17,7 @@
 ---@field modificationDelay Float
 ---@field modificationStatus gameStatPoolDataStatPoolModificationStatus
 gameStatPoolData = {}
+
 
 ---@param fields? gameStatPoolData
 ---@return gameStatPoolData

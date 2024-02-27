@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GameSessionDataSystem: gameScriptableSystem
 ---@field gameSessionDataModules GameSessionDataModule[]
 GameSessionDataSystem = {}
+
 
 ---@param fields? GameSessionDataSystem
 ---@return GameSessionDataSystem

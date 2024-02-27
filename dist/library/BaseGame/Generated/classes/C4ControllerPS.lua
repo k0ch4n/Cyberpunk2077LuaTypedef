@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class C4ControllerPS: ExplosiveDeviceControllerPS
 ---@field itemTweakDBString CName
 C4ControllerPS = {}
+
 
 ---@param fields? C4ControllerPS
 ---@return C4ControllerPS

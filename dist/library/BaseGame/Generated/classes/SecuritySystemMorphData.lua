@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SecuritySystemMorphData
 ---@field state State
 ---@field reprimandData Reprimand
@@ -7,6 +8,7 @@
 ---@field protectedEntities ProtectedEntities
 ---@field entitiesAtGate EntitiesAtGate
 SecuritySystemMorphData = {}
+
 
 ---@param fields? SecuritySystemMorphData
 ---@return SecuritySystemMorphData

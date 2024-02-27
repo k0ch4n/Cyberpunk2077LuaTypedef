@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class KnockdownDecisions: StatusEffectDecisions
 KnockdownDecisions = {}
+
 
 ---@param fields? KnockdownDecisions
 ---@return KnockdownDecisions

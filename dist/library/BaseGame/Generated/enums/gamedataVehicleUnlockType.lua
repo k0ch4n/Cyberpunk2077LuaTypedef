@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataVehicleUnlockType: Enum
 ---@field CourierMissions Enum 0
 ---@field Quest Enum 1

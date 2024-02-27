@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ApartmentScreenControllerPS: LcdScreenControllerPS
 ---@field initialRentStatus ERentStatus
 ---@field overdueMessageRecordID TweakDBID
@@ -16,6 +17,7 @@
 ---@field currentRentStatus ERentStatus
 ---@field lastStatusChangeDay Int32
 ApartmentScreenControllerPS = {}
+
 
 ---@param fields? ApartmentScreenControllerPS
 ---@return ApartmentScreenControllerPS

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetSkipDeathAnimationTask: AIbehaviortaskScript
 ---@field value Bool
 SetSkipDeathAnimationTask = {}
+
 
 ---@param fields? SetSkipDeathAnimationTask
 ---@return SetSkipDeathAnimationTask

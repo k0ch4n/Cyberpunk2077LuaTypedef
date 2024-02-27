@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MalfunctionHalfOpen: ToggleOpen
 MalfunctionHalfOpen = {}
+
 
 ---@param fields? MalfunctionHalfOpen
 ---@return MalfunctionHalfOpen

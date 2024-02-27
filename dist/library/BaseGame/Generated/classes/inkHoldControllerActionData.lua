@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkHoldControllerActionData: inkUserData
 ---@field actionName CName
 inkHoldControllerActionData = {}
+
 
 ---@param fields? inkHoldControllerActionData
 ---@return inkHoldControllerActionData

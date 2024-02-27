@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class NewPerkTabsArrowController: inkWidgetLogicController
 ---@field direction NewPerkTabsArrowDirection
 ---@field hovered Bool
 ---@field pressed Bool
 NewPerkTabsArrowController = {}
+
 
 ---@param fields? NewPerkTabsArrowController
 ---@return NewPerkTabsArrowController

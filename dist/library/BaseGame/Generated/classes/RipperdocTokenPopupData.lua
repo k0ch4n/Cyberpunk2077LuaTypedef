@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocTokenPopupData: inkGameNotificationData
 ---@field costData CyberwareUpgradeCostData
 ---@field baseItemData UIInventoryItem
@@ -15,6 +16,7 @@
 ---@field option2SideItemData gameItemData
 ---@field option3SideItemData gameItemData
 RipperdocTokenPopupData = {}
+
 
 ---@param fields? RipperdocTokenPopupData
 ---@return RipperdocTokenPopupData

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCharacterMount_ConditionType: questICharacterConditionType
 ---@field anyParent Bool
 ---@field parentRef gameEntityReference
@@ -16,6 +17,7 @@
 ---@field vehicleOrigin questMountVehicleOrigin
 ---@field vehicleAfiliation gamedataAffiliation
 questCharacterMount_ConditionType = {}
+
 
 ---@param fields? questCharacterMount_ConditionType
 ---@return questCharacterMount_ConditionType

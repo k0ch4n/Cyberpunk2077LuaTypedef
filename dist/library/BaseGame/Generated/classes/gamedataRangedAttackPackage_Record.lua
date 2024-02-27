@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRangedAttackPackage_Record: gamedataTweakDBRecord
 gamedataRangedAttackPackage_Record = {}
+
 
 ---@param fields? gamedataRangedAttackPackage_Record
 ---@return gamedataRangedAttackPackage_Record

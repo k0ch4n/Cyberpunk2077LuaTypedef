@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIbehaviorActionSlideToLocalPositionNodeDefinition: AIbehaviorActionSlideNodeDefinition
 ---@field localOffset AIArgumentMapping
 AIbehaviorActionSlideToLocalPositionNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorActionSlideToLocalPositionNodeDefinition
 ---@return AIbehaviorActionSlideToLocalPositionNodeDefinition

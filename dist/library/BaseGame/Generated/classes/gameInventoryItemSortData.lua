@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameInventoryItemSortData
 ---@field Name String
 ---@field Quality Int32
@@ -13,6 +14,7 @@
 ---@field ChimeraMod Bool
 ---@field IsPlayerFavourite Bool
 gameInventoryItemSortData = {}
+
 
 ---@param fields? gameInventoryItemSortData
 ---@return gameInventoryItemSortData

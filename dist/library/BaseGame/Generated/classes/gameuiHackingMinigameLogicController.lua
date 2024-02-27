@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiHackingMinigameLogicController: inkWidgetLogicController
 ---@field grid inkUniformGridWidgetReference
 ---@field buffer inkCompoundWidgetReference
@@ -66,6 +67,7 @@
 ---@field inactiveHiglightBarStateName CName
 ---@field gridCellDisabledSymbol String
 gameuiHackingMinigameLogicController = {}
+
 
 ---@param fields? gameuiHackingMinigameLogicController
 ---@return gameuiHackingMinigameLogicController

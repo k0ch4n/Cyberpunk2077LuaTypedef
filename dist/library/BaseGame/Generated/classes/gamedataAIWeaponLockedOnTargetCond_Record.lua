@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIWeaponLockedOnTargetCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIWeaponLockedOnTargetCond_Record = {}
+
 
 ---@param fields? gamedataAIWeaponLockedOnTargetCond_Record
 ---@return gamedataAIWeaponLockedOnTargetCond_Record

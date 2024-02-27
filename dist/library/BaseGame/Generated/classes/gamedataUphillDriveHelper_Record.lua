@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataUphillDriveHelper_Record: gamedataDriveHelper_Record
 gamedataUphillDriveHelper_Record = {}
+
 
 ---@param fields? gamedataUphillDriveHelper_Record
 ---@return gamedataUphillDriveHelper_Record

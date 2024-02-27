@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisturbingComfortZone: redEvent
 DisturbingComfortZone = {}
+
 
 ---@param fields? DisturbingComfortZone
 ---@return DisturbingComfortZone

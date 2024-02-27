@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataChoiceCaptionPart_Record: gamedataTweakDBRecord
 gamedataChoiceCaptionPart_Record = {}
+
 
 ---@param fields? gamedataChoiceCaptionPart_Record
 ---@return gamedataChoiceCaptionPart_Record

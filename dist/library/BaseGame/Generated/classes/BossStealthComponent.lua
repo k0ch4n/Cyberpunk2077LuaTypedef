@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BossStealthComponent: gameScriptableComponent
 ---@field owner NPCPuppet
 ---@field owner_id entEntityID
@@ -8,6 +9,7 @@
 ---@field statPoolType gamedataStatPoolType
 ---@field targetTrackerComponent AITargetTrackerComponent
 BossStealthComponent = {}
+
 
 ---@param fields? BossStealthComponent
 ---@return BossStealthComponent

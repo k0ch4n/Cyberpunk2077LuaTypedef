@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PhoneOffDecisions: ComDeviceTransition
 PhoneOffDecisions = {}
+
 
 ---@param fields? PhoneOffDecisions
 ---@return PhoneOffDecisions

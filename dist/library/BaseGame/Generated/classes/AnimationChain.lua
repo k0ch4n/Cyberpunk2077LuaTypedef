@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AnimationChain: IScriptable
 ---@field data AnimationElement[]
 ---@field name CName
 AnimationChain = {}
+
 
 ---@param fields? AnimationChain
 ---@return AnimationChain

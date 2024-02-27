@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DispenseFreeItem: redEvent
 DispenseFreeItem = {}
+
 
 ---@param fields? DispenseFreeItem
 ---@return DispenseFreeItem

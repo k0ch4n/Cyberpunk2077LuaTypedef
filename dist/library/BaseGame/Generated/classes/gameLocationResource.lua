@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameLocationResource: CResource
 gameLocationResource = {}
+
 
 ---@param fields? gameLocationResource
 ---@return gameLocationResource

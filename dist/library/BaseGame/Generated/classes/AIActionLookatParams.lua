@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIActionLookatParams
 ---@field useLookat Bool
 ---@field useLeftHand Bool
@@ -16,6 +17,7 @@
 ---@field backLimitDegrees animLookAtLimitDegreesType
 ---@field additionalParts animLookAtPartRequest[]
 AIActionLookatParams = {}
+
 
 ---@param fields? AIActionLookatParams
 ---@return AIActionLookatParams

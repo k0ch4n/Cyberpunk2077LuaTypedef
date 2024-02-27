@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuestResume: ActionBool
 ---@field pauseTime Float
 QuestResume = {}
+
 
 ---@param fields? QuestResume
 ---@return QuestResume

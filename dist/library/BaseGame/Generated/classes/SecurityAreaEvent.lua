@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SecurityAreaEvent: ActionBool
 ---@field securityAreaData SecurityAreaData
 ---@field whoBreached gameObject
 SecurityAreaEvent = {}
+
 
 ---@param fields? SecurityAreaEvent
 ---@return SecurityAreaEvent

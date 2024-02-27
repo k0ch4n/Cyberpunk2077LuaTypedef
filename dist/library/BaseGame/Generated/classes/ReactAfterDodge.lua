@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReactAfterDodge: AIbehaviorconditionScript
 ReactAfterDodge = {}
+
 
 ---@param fields? ReactAfterDodge
 ---@return ReactAfterDodge

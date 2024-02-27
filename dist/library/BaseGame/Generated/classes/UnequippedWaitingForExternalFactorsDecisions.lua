@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class UnequippedWaitingForExternalFactorsDecisions: EquipmentBaseDecisions
 ---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
 ---@field stateMachineInitData EquipmentInitData
 UnequippedWaitingForExternalFactorsDecisions = {}
+
 
 ---@param fields? UnequippedWaitingForExternalFactorsDecisions
 ---@return UnequippedWaitingForExternalFactorsDecisions

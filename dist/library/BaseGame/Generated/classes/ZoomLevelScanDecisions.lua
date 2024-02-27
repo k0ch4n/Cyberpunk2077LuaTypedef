@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ZoomLevelScanDecisions: ZoomDecisionsTransition
 ZoomLevelScanDecisions = {}
+
 
 ---@param fields? ZoomLevelScanDecisions
 ---@return ZoomLevelScanDecisions

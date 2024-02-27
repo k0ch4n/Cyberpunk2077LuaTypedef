@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Crosshair_Custom_HMG: gameuiCrosshairBaseGameController
 ---@field leftPart inkWidgetReference
 ---@field rightPart inkWidgetReference
@@ -25,6 +26,7 @@
 ---@field forcedCooldownProxy inkanimProxy
 ---@field forcedCooldownOptions inkanimPlaybackOptions
 Crosshair_Custom_HMG = {}
+
 
 ---@param fields? Crosshair_Custom_HMG
 ---@return Crosshair_Custom_HMG

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceTintGlass: ActionBool
 QuestForceTintGlass = {}
+
 
 ---@param fields? QuestForceTintGlass
 ---@return QuestForceTintGlass

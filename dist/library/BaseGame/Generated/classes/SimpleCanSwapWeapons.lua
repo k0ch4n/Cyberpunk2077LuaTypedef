@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SimpleCanSwapWeapons: AIbehaviorconditionScript
 ---@field initialized Bool
 ---@field result Bool
 ---@field items gamedataNPCEquipmentItem_Record[]
 SimpleCanSwapWeapons = {}
+
 
 ---@param fields? SimpleCanSwapWeapons
 ---@return SimpleCanSwapWeapons

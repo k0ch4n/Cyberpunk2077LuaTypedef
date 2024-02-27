@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EInputKey: Enum
 ---@field IK_None Enum 0
 ---@field IK_LeftMouse Enum 1

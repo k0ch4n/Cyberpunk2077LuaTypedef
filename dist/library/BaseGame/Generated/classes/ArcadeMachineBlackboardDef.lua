@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ArcadeMachineBlackboardDef: DeviceBaseBlackboardDef
 ArcadeMachineBlackboardDef = {}
+
 
 ---@param fields? ArcadeMachineBlackboardDef
 ---@return ArcadeMachineBlackboardDef

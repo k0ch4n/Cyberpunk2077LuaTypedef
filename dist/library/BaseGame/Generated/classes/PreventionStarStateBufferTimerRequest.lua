@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PreventionStarStateBufferTimerRequest: gameScriptableSystemRequest
 PreventionStarStateBufferTimerRequest = {}
+
 
 ---@param fields? PreventionStarStateBufferTimerRequest
 ---@return PreventionStarStateBufferTimerRequest

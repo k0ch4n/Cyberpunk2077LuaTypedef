@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICombatTargetHelper: IScriptable
 AICombatTargetHelper = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

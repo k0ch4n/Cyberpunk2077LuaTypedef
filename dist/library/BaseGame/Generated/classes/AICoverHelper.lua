@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICoverHelper: IScriptable
 AICoverHelper = {}
+
 
 ---@param fields? AICoverHelper
 ---@return AICoverHelper

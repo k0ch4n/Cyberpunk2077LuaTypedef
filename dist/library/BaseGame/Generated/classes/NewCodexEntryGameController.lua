@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class NewCodexEntryGameController: gameuiWidgetGameController
 ---@field label inkTextWidgetReference
 ---@field animationProxy inkanimProxy
 ---@field data NewCodexEntryUserData
 NewCodexEntryGameController = {}
+
 
 ---@param fields? NewCodexEntryGameController
 ---@return NewCodexEntryGameController

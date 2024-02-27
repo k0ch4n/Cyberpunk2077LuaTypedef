@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TimeBankOnStatusEffectAppliedListener: gameScriptStatusEffectListener
 ---@field effector StatusEffectBasedTimeBankEffector
 TimeBankOnStatusEffectAppliedListener = {}
+
 
 ---@param fields? TimeBankOnStatusEffectAppliedListener
 ---@return TimeBankOnStatusEffectAppliedListener

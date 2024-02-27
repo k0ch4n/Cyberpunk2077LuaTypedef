@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocFillLabel: inkWidgetLogicController
 ---@field label inkTextWidgetReference
 ---@field useMargin Bool
@@ -11,6 +12,7 @@
 ---@field labelAnimation inkanimProxy
 ---@field labelValue Float
 RipperdocFillLabel = {}
+
 
 ---@param fields? RipperdocFillLabel
 ---@return RipperdocFillLabel

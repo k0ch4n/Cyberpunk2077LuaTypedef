@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameRequestStats: redEvent
 gameRequestStats = {}
+
 
 ---@param fields? gameRequestStats
 ---@return gameRequestStats

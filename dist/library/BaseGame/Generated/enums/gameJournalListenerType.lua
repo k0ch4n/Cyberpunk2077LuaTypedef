@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalListenerType: Enum
 ---@field State Enum 0
 ---@field Visited Enum 1

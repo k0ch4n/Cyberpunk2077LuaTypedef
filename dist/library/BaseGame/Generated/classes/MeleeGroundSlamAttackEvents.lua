@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MeleeGroundSlamAttackEvents: MeleeAttackGenericEvents
 ---@field knockdownImmunityModifier gameStatModifierData_Deprecated
 ---@field stunImmunityModifier gameStatModifierData_Deprecated
 MeleeGroundSlamAttackEvents = {}
+
 
 ---@param fields? MeleeGroundSlamAttackEvents
 ---@return MeleeGroundSlamAttackEvents

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ApplyRandomStatusEffectEffector: gameEffector
 ---@field targetEntityID entEntityID
 ---@field applicationTarget CName
 ---@field effects TweakDBID[]
 ---@field appliedEffect TweakDBID
 ApplyRandomStatusEffectEffector = {}
+
 
 ---@param fields? ApplyRandomStatusEffectEffector
 ---@return ApplyRandomStatusEffectEffector

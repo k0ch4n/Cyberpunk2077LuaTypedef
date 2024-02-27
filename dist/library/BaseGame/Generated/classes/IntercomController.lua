@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IntercomController: ScriptableDeviceComponent
 IntercomController = {}
+
 
 ---@param fields? IntercomController
 ---@return IntercomController

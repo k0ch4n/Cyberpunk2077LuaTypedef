@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Crosshair_Melee_Nano_Wire: CrosshairGameController_Melee
 ---@field animEnterADS inkanimProxy
 ---@field inAimDownSight Bool
@@ -13,6 +14,7 @@
 ---@field anim_EnterChargedHold inkanimProxy
 ---@field anim_HoverExitEnemy inkanimProxy
 Crosshair_Melee_Nano_Wire = {}
+
 
 ---@param fields? Crosshair_Melee_Nano_Wire
 ---@return Crosshair_Melee_Nano_Wire

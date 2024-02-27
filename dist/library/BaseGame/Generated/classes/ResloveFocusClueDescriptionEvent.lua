@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResloveFocusClueDescriptionEvent: redEvent
 ResloveFocusClueDescriptionEvent = {}
+
 
 ---@param fields? ResloveFocusClueDescriptionEvent
 ---@return ResloveFocusClueDescriptionEvent

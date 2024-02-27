@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuickhackData: IScriptable
 ---@field actionOwner entEntityID
 ---@field action BaseScriptableAction
@@ -35,6 +36,7 @@
 ---@field noQuickhackData Bool
 ---@field networkBreached Bool
 QuickhackData = {}
+
 
 ---@param fields? QuickhackData
 ---@return QuickhackData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviortweakAttachmentSlotsListener: gameIAttachmentSlotsListener
 AIbehaviortweakAttachmentSlotsListener = {}
+
 
 ---@param fields? AIbehaviortweakAttachmentSlotsListener
 ---@return AIbehaviortweakAttachmentSlotsListener

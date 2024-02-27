@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkInputKeyIconManager: ISerializable
 inkInputKeyIconManager = {}
+
 
 ---@param fields? inkInputKeyIconManager
 ---@return inkInputKeyIconManager

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class mpGameSession: gameBaseGameSession
 mpGameSession = {}
+
 
 ---@param fields? mpGameSession
 ---@return mpGameSession

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AJournalEntryWrapper: ABaseWrapper
 ---@field UniqueId Int32
 AJournalEntryWrapper = {}
+
 
 ---@return Int32
 function AJournalEntryWrapper:GetUniqueId() end

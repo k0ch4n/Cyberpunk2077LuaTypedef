@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimVariableVector: animAnimVariable
 ---@field x Float
 ---@field y Float
@@ -9,6 +10,7 @@
 ---@field min Vector4
 ---@field max Vector4
 animAnimVariableVector = {}
+
 
 ---@param fields? animAnimVariableVector
 ---@return animAnimVariableVector

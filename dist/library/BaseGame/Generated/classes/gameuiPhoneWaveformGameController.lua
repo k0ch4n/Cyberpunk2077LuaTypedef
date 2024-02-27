@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiPhoneWaveformGameController: gameuiWidgetGameController
 ---@field measurementsIntreval Float
 ---@field measurementsCount Int32
@@ -12,6 +13,7 @@
 ---@field barsPadding Float
 ---@field barSize Vector2
 gameuiPhoneWaveformGameController = {}
+
 
 ---@param fields? gameuiPhoneWaveformGameController
 ---@return gameuiPhoneWaveformGameController

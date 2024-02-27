@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TeleportDeviceOperation: DeviceOperationBase
 ---@field teleport STeleportOperationData
 TeleportDeviceOperation = {}
+
 
 ---@param fields? TeleportDeviceOperation
 ---@return TeleportDeviceOperation

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameActionRotateBaseState: gameActionReplicatedState
 ---@field angleOffset Float
 ---@field angleTolerance Float
@@ -8,6 +9,7 @@
 ---@field rotationSpeed Float
 ---@field rotationTime Float
 gameActionRotateBaseState = {}
+
 
 ---@param fields? gameActionRotateBaseState
 ---@return gameActionRotateBaseState

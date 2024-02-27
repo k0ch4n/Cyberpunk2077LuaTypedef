@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LateInit: redEvent
 LateInit = {}
+
 
 ---@param fields? LateInit
 ---@return LateInit

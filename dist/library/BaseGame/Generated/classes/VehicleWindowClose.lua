@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class VehicleWindowClose: ActionBool
 ---@field slotID CName
 ---@field speed CName
 ---@field isInteractionSource Bool
 VehicleWindowClose = {}
+
 
 ---@param fields? VehicleWindowClose
 ---@return VehicleWindowClose

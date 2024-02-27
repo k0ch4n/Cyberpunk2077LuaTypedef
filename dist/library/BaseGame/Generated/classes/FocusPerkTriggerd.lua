@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FocusPerkTriggerd: redEvent
 ---@field isActive Bool
 FocusPerkTriggerd = {}
+
 
 ---@param fields? FocusPerkTriggerd
 ---@return FocusPerkTriggerd

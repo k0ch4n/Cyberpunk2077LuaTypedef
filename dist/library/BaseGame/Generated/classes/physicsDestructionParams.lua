@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsDestructionParams
 ---@field startInactive Bool
 ---@field simulationType physicsSimulationType
@@ -32,6 +33,7 @@
 ---@field maxAngularVelocity Float
 ---@field fractureFieldMask physicsFractureFieldType
 physicsDestructionParams = {}
+
 
 ---@param fields? physicsDestructionParams
 ---@return physicsDestructionParams

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ElectricBoxController: MasterController
 ElectricBoxController = {}
+
 
 ---@param fields? ElectricBoxController
 ---@return ElectricBoxController

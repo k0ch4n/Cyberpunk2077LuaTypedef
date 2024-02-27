@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class dialogWidgetGameController: InteractionUIBase
 ---@field root inkCanvasWidget
 ---@field hubsContainer inkBasePanelWidgetReference
@@ -19,6 +20,7 @@
 ---@field uiSystemBB UI_SystemDef
 ---@field uiSystemId redCallbackObject
 dialogWidgetGameController = {}
+
 
 ---@param fields? dialogWidgetGameController
 ---@return dialogWidgetGameController

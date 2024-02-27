@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionChimeraMetalstorm_Record_Implementation: IScriptable
 AISubActionChimeraMetalstorm_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionChimeraMetalstorm_Record

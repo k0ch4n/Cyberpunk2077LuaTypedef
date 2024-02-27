@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameVisualTagsAppearanceNamesPreset: ISerializable
 ---@field presets gameVisualTagsAppearanceNamesPreset_Entity[]
 gameVisualTagsAppearanceNamesPreset = {}
+
 
 ---@param fields? gameVisualTagsAppearanceNamesPreset
 ---@return gameVisualTagsAppearanceNamesPreset

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class characterCreationVoiceOverSwitcher: CharacterCreationBodyMorphBaseOption
 ---@field selectedLabel inkTextWidgetReference
 ---@field selectorNextBtn inkWidgetReference
@@ -15,6 +16,7 @@
 ---@field selector inkWidget
 ---@field inputDisabled Bool
 characterCreationVoiceOverSwitcher = {}
+
 
 ---@param fields? characterCreationVoiceOverSwitcher
 ---@return characterCreationVoiceOverSwitcher

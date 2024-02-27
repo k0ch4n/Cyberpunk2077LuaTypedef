@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AddSpyTreePerkPoints: NewPerkPoinsActionRequest
 AddSpyTreePerkPoints = {}
+
 
 ---@param fields? AddSpyTreePerkPoints
 ---@return AddSpyTreePerkPoints

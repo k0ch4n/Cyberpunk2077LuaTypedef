@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePopulationSystem: gameIPopulationSystem
 gamePopulationSystem = {}
+
 
 ---@param fields? gamePopulationSystem
 ---@return gamePopulationSystem

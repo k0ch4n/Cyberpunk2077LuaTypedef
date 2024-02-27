@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class inkanimPivotInterpolator: inkanimInterpolator
 ---@field startValue Vector2
 ---@field endValue Vector2
 inkanimPivotInterpolator = {}
+
 
 ---@param fields? inkanimPivotInterpolator
 ---@return inkanimPivotInterpolator

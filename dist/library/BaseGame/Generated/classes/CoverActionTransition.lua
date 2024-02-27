@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CoverActionTransition: LocomotionTransition
 ---@field gameInstance ScriptGameInstance
 ---@field locomotionStateCallbackID redCallbackObject
 ---@field lastSlidingTime Float
 ---@field isSliding Bool
 CoverActionTransition = {}
+
 
 ---@param value Int32
 ---@return Bool

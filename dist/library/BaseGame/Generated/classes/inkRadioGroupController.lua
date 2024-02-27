@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class inkRadioGroupController: inkWidgetLogicController
 ---@field toggleRefs inkWidgetReference[]
 ---@field alwaysToggled Bool
 ---@field selectedIndex Int32
 ---@field ValueChanged inkRadioGroupChangedCallback
 inkRadioGroupController = {}
+
 
 ---@param fields? inkRadioGroupController
 ---@return inkRadioGroupController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataMinigameCategory: Enum
 ---@field CameraAccess Enum 0
 ---@field CyberwareAccess Enum 1

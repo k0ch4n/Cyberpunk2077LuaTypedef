@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CuttingGrenadeAddAxisRotationEvent: redEvent
 CuttingGrenadeAddAxisRotationEvent = {}
+
 
 ---@param fields? CuttingGrenadeAddAxisRotationEvent
 ---@return CuttingGrenadeAddAxisRotationEvent

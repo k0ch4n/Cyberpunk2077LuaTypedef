@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ItemActionsHelper: IScriptable
 ItemActionsHelper = {}
+
 
 ---@param executor gameObject
 ---@param itemID gameItemID

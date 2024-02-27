@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SpawnPoliceVehicleWithDelayRequest: gameScriptableSystemRequest
 SpawnPoliceVehicleWithDelayRequest = {}
+
 
 ---@param fields? SpawnPoliceVehicleWithDelayRequest
 ---@return SpawnPoliceVehicleWithDelayRequest

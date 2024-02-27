@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class animAnimDataChunk
 ---@field buffer serializationDeferredDataBuffer
 animAnimDataChunk = {}
+
 
 ---@param fields? animAnimDataChunk
 ---@return animAnimDataChunk

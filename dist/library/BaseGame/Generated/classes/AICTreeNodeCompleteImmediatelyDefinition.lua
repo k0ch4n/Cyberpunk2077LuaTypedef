@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AICTreeNodeCompleteImmediatelyDefinition: AICTreeNodeAtomicDefinition
 ---@field completeWithSuccess Bool
 AICTreeNodeCompleteImmediatelyDefinition = {}
+
 
 ---@param fields? AICTreeNodeCompleteImmediatelyDefinition
 ---@return AICTreeNodeCompleteImmediatelyDefinition

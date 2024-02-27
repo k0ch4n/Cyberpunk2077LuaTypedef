@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkWidgetUtils
 inkWidgetUtils = {}
+
 
 ---@param fields? inkWidgetUtils
 ---@return inkWidgetUtils

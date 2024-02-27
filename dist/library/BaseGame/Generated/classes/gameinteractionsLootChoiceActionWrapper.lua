@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameinteractionsLootChoiceActionWrapper
 ---@field removeItem Bool
 ---@field itemId gameItemID
 ---@field action CName
 gameinteractionsLootChoiceActionWrapper = {}
+
 
 ---@param fields? gameinteractionsLootChoiceActionWrapper
 ---@return gameinteractionsLootChoiceActionWrapper

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayerCombatControllerBBListeners
 ---@field crouchActive redCallbackObject
 PlayerCombatControllerBBListeners = {}
+
 
 ---@param fields? PlayerCombatControllerBBListeners
 ---@return PlayerCombatControllerBBListeners

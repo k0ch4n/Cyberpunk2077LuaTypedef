@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CyberwareAttributes_ResistancesStruct
 ---@field widgetHealth inkFlexWidgetReference
 ---@field widgetPhysical inkFlexWidgetReference
@@ -8,6 +9,7 @@
 ---@field widgetChemical inkFlexWidgetReference
 ---@field resistanceTooltip inkFlexWidgetReference
 CyberwareAttributes_ResistancesStruct = {}
+
 
 ---@param fields? CyberwareAttributes_ResistancesStruct
 ---@return CyberwareAttributes_ResistancesStruct

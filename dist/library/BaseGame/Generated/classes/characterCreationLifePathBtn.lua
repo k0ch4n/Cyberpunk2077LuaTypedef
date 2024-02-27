@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class characterCreationLifePathBtn: inkButtonController
 ---@field selector inkWidgetReference
 ---@field desc inkTextWidgetReference
@@ -11,6 +12,7 @@
 ---@field translationAnimationCtrl inkTextReplaceAnimationController
 ---@field localizedText String
 characterCreationLifePathBtn = {}
+
 
 ---@param fields? characterCreationLifePathBtn
 ---@return characterCreationLifePathBtn

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ImageBasedFlareAreaSettings: IAreaSettings
 ---@field treshold Float
 ---@field dispersal Float
@@ -10,6 +11,7 @@
 ---@field scale curveData
 ---@field saturation curveData
 ImageBasedFlareAreaSettings = {}
+
 
 ---@param fields? ImageBasedFlareAreaSettings
 ---@return ImageBasedFlareAreaSettings

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameVisionModeComponent: gameComponent
 ---@field defaultHighlightData HighlightEditableData
 ---@field forcedHighlights FocusForcedHighlightData[]
@@ -10,6 +11,7 @@
 ---@field wasCleanedUp Bool
 ---@field slaveObjectsToHighlight entEntityID[]
 gameVisionModeComponent = {}
+
 
 ---@param fields? gameVisionModeComponent
 ---@return gameVisionModeComponent

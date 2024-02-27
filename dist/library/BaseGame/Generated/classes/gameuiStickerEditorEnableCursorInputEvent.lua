@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiStickerEditorEnableCursorInputEvent: redEvent
 gameuiStickerEditorEnableCursorInputEvent = {}
+
 
 ---@param fields? gameuiStickerEditorEnableCursorInputEvent
 ---@return gameuiStickerEditorEnableCursorInputEvent

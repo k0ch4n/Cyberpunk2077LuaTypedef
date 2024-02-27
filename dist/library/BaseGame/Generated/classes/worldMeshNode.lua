@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldMeshNode: worldNode
 ---@field mesh CMesh
 ---@field meshAppearance CName
@@ -16,6 +17,7 @@
 ---@field lodLevelScales Uint32
 ---@field version Uint8
 worldMeshNode = {}
+
 
 ---@param fields? worldMeshNode
 ---@return worldMeshNode

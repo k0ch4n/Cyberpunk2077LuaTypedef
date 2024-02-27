@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeEventsTransition: MeleeTransition
 MeleeEventsTransition = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

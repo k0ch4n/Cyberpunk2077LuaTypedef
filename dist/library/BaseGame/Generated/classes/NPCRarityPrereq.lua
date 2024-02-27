@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NPCRarityPrereq: gameIScriptablePrereq
 ---@field rarity gamedataNPCRarity
 ---@field invert Bool
 NPCRarityPrereq = {}
+
 
 ---@param fields? NPCRarityPrereq
 ---@return NPCRarityPrereq

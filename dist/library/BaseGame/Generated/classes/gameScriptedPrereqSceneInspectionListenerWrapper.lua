@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScriptedPrereqSceneInspectionListenerWrapper: IScriptable
 gameScriptedPrereqSceneInspectionListenerWrapper = {}
+
 
 ---@param fields? gameScriptedPrereqSceneInspectionListenerWrapper
 ---@return gameScriptedPrereqSceneInspectionListenerWrapper

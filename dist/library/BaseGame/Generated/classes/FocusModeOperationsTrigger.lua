@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FocusModeOperationsTrigger: DeviceOperationsTrigger
 ---@field triggerData FocusModeOperationTriggerData
 FocusModeOperationsTrigger = {}
+
 
 ---@param fields? FocusModeOperationsTrigger
 ---@return FocusModeOperationsTrigger

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VirutalNestedListData: IScriptable
 ---@field collapsable Bool
 ---@field isHeader Bool
@@ -9,6 +10,7 @@
 ---@field data IScriptable
 ---@field isSortable Bool
 VirutalNestedListData = {}
+
 
 ---@param fields? VirutalNestedListData
 ---@return VirutalNestedListData

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameEffectExecutor_BulletImpact: gameEffectExecutor
 ---@field isBackfaceImpact Bool
 ---@field noAudio Bool
 ---@field isMeleeAttack Bool
 gameEffectExecutor_BulletImpact = {}
+
 
 ---@param fields? gameEffectExecutor_BulletImpact
 ---@return gameEffectExecutor_BulletImpact

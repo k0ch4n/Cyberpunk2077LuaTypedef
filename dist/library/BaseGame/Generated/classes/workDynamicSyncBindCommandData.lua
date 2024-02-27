@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class workDynamicSyncBindCommandData: workSyncBindBaseCommandData
 ---@field masterID entEntityID
 workDynamicSyncBindCommandData = {}
+
 
 ---@param fields? workDynamicSyncBindCommandData
 ---@return workDynamicSyncBindCommandData

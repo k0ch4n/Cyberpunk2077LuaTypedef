@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameUILocalizationDataPackage: IScriptable
 ---@field floatValues Float[]
 ---@field intValues Int32[]
@@ -10,6 +11,7 @@
 ---@field textParams textTextParameterSet
 ---@field notReplacedWorkaroundEnabled Bool
 gameUILocalizationDataPackage = {}
+
 
 ---@param fields? gameUILocalizationDataPackage
 ---@return gameUILocalizationDataPackage

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EDecalRenderMode: Enum
 ---@field DRM_AllStatic Enum 0
 ---@field DRM_ObjectType Enum 1

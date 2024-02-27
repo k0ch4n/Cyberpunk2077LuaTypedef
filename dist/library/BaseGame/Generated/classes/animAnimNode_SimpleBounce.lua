@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_SimpleBounce: animAnimNode_OnePoseInput
 ---@field areChannelsResaved Bool
 ---@field outputDriverTrack animNamedTrackIndex
@@ -14,6 +15,7 @@
 ---@field transformOutputs animSimpleBounceTransformOutput[]
 ---@field trackOutputs animSimpleBounceTrackOutput[]
 animAnimNode_SimpleBounce = {}
+
 
 ---@param fields? animAnimNode_SimpleBounce
 ---@return animAnimNode_SimpleBounce

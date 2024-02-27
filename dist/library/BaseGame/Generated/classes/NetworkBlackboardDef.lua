@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NetworkBlackboardDef: gamebbScriptDefinition
 ---@field MinigameDef gamebbScriptID_Variant
 ---@field NetworkName gamebbScriptID_String
@@ -14,6 +15,7 @@
 ---@field SelectedMinigameDef gamebbScriptID_Variant
 ---@field PersonalLinkStatus gamebbScriptID_Int32
 NetworkBlackboardDef = {}
+
 
 ---@param fields? NetworkBlackboardDef
 ---@return NetworkBlackboardDef

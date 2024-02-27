@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AimAssistSettingConfig: Enum
 ---@field Default Enum 0
 ---@field Scanning Enum 1

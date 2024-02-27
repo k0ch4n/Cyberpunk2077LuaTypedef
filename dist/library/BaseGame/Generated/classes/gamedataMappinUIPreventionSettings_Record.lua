@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataMappinUIPreventionSettings_Record: gamedataTweakDBRecord
 gamedataMappinUIPreventionSettings_Record = {}
+
 
 ---@param fields? gamedataMappinUIPreventionSettings_Record
 ---@return gamedataMappinUIPreventionSettings_Record

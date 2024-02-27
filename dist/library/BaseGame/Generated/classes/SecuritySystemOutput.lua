@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SecuritySystemOutput: ActionBool
 ---@field currentSecurityState ESecuritySystemState
 ---@field breachOrigin EBreachOrigin
 ---@field originalInputEvent SecuritySystemInput
 ---@field securityStateChanged Bool
 SecuritySystemOutput = {}
+
 
 ---@param fields? SecuritySystemOutput
 ---@return SecuritySystemOutput

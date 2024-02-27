@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TutorialPopupData: inkGameNotificationData
 ---@field closeAtInput Bool
 ---@field pauseGame Bool
@@ -13,6 +14,7 @@
 ---@field videoType gameVideoType
 ---@field video redResourceReferenceScriptToken
 TutorialPopupData = {}
+
 
 ---@param fields? TutorialPopupData
 ---@return TutorialPopupData

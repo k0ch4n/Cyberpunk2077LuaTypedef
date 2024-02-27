@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAIActionTarget: Enum
 ---@field AssignedVehicle Enum 0
 ---@field CombatTarget Enum 1

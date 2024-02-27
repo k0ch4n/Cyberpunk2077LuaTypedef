@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldDestructibleEntityProxyMeshNodeInstance: worldEntityProxyMeshNodeInstance
 worldDestructibleEntityProxyMeshNodeInstance = {}
+
 
 ---@param fields? worldDestructibleEntityProxyMeshNodeInstance
 ---@return worldDestructibleEntityProxyMeshNodeInstance

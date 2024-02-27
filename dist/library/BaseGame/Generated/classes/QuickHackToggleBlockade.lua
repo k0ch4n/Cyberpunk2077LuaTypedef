@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickHackToggleBlockade: ToggleBlockade
 QuickHackToggleBlockade = {}
+
 
 ---@param fields? QuickHackToggleBlockade
 ---@return QuickHackToggleBlockade

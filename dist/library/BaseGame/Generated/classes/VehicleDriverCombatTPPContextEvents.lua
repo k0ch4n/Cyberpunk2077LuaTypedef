@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleDriverCombatTPPContextEvents: VehicleDriverCombatContextEvents
 VehicleDriverCombatTPPContextEvents = {}
+
 
 ---@param fields? VehicleDriverCombatTPPContextEvents
 ---@return VehicleDriverCombatTPPContextEvents

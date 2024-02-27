@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PreventionSystemHackerLoop: gameScriptableSystem
 ---@field firstVehicle vehicleBaseObject
 ---@field state EPreventionHackLoopState
@@ -13,6 +14,7 @@
 ---@field otherProgressBar UploadFromNPCToPlayerListener
 ---@field waitingForUpdate Bool
 PreventionSystemHackerLoop = {}
+
 
 ---@param fields? PreventionSystemHackerLoop
 ---@return PreventionSystemHackerLoop

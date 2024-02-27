@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WardrobeOutfitSlotHoverOutEvent: redEvent
 WardrobeOutfitSlotHoverOutEvent = {}
+
 
 ---@param fields? WardrobeOutfitSlotHoverOutEvent
 ---@return WardrobeOutfitSlotHoverOutEvent

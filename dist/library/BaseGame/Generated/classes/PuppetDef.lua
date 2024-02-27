@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PuppetDef: gamebbScriptDefinition
 ---@field IsCrowd gamebbScriptID_Bool
 ---@field HideNameplate gamebbScriptID_Bool
@@ -8,6 +9,7 @@
 ---@field HasCPOMissionData gamebbScriptID_Bool
 ---@field IsPlayerInterestingFromSecuritySystemPOV gamebbScriptID_Bool
 PuppetDef = {}
+
 
 ---@param fields? PuppetDef
 ---@return PuppetDef

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CycleTriggerModeDecisions: WeaponTransition
 CycleTriggerModeDecisions = {}
+
 
 ---@param fields? CycleTriggerModeDecisions
 ---@return CycleTriggerModeDecisions

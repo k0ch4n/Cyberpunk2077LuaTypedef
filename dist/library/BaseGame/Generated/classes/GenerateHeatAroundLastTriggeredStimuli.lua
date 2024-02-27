@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GenerateHeatAroundLastTriggeredStimuli: AIbehaviortaskScript
 GenerateHeatAroundLastTriggeredStimuli = {}
+
 
 ---@param fields? GenerateHeatAroundLastTriggeredStimuli
 ---@return GenerateHeatAroundLastTriggeredStimuli

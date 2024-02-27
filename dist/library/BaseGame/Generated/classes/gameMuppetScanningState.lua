@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameMuppetScanningState
 ---@field isScanning Bool
 gameMuppetScanningState = {}
+
 
 ---@param fields? gameMuppetScanningState
 ---@return gameMuppetScanningState

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDestructionPersistencySystem: gameIDestructionPersistencySystem
 gameDestructionPersistencySystem = {}
+
 
 ---@param fields? gameDestructionPersistencySystem
 ---@return gameDestructionPersistencySystem

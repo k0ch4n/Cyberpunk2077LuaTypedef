@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HighlightEditableData: IScriptable
 ---@field highlightType EFocusForcedHighlightType
 ---@field outlineType EFocusOutlineType
@@ -9,6 +10,7 @@
 ---@field isRevealed Bool
 ---@field patternType gameVisionModePatternType
 HighlightEditableData = {}
+
 
 ---@param fields? HighlightEditableData
 ---@return HighlightEditableData

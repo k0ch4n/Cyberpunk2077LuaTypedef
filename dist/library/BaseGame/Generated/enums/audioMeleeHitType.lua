@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioMeleeHitType: Enum
 ---@field Light Enum 0
 ---@field Normal Enum 1

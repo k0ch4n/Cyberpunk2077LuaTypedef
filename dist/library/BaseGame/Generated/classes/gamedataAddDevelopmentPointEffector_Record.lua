@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAddDevelopmentPointEffector_Record: gamedataEffector_Record
 gamedataAddDevelopmentPointEffector_Record = {}
+
 
 ---@param fields? gamedataAddDevelopmentPointEffector_Record
 ---@return gamedataAddDevelopmentPointEffector_Record

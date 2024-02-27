@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SampleEntityWithCounter: gameObject
 SampleEntityWithCounter = {}
+
 
 ---@param fields? SampleEntityWithCounter
 ---@return SampleEntityWithCounter

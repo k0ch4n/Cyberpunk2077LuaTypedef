@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReprimandDeescalateAnimFeature: AIbehaviortaskScript
 ReprimandDeescalateAnimFeature = {}
+
 
 ---@param fields? ReprimandDeescalateAnimFeature
 ---@return ReprimandDeescalateAnimFeature

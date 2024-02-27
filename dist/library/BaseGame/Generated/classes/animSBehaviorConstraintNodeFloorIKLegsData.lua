@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animSBehaviorConstraintNodeFloorIKLegsData
 ---@field ["Min rel offset"] Float
 ---@field ["Max rel offset"] Float
@@ -12,6 +13,7 @@
 ---@field ["Max angle from upright normal to side"] Float
 ---@field ["Max angle from upright normal to revert orientation"] Float
 animSBehaviorConstraintNodeFloorIKLegsData = {}
+
 
 ---@param fields? animSBehaviorConstraintNodeFloorIKLegsData
 ---@return animSBehaviorConstraintNodeFloorIKLegsData

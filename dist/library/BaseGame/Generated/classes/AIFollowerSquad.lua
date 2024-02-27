@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIFollowerSquad: AISquadBase
 AIFollowerSquad = {}
+
 
 ---@param fields? AIFollowerSquad
 ---@return AIFollowerSquad

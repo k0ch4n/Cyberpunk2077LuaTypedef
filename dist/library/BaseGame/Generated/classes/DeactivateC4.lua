@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DeactivateC4: ActionBool
 ---@field itemID gameItemID
 DeactivateC4 = {}
+
 
 ---@param fields? DeactivateC4
 ---@return DeactivateC4

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ButtonCursorStateView: BaseButtonView
 ---@field HoverStateName CName
 ---@field PressStateName CName
 ---@field DefaultStateName CName
 ButtonCursorStateView = {}
+
 
 ---@param fields? ButtonCursorStateView
 ---@return ButtonCursorStateView

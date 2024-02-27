@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animLookAtPreset_FullControl: animLookAtPreset
 ---@field limits animLookAtLimits
 ---@field eyesSuppress Float
@@ -11,6 +12,7 @@
 ---@field chestMode Int32
 ---@field chestSquareScale Float
 animLookAtPreset_FullControl = {}
+
 
 ---@param fields? animLookAtPreset_FullControl
 ---@return animLookAtPreset_FullControl

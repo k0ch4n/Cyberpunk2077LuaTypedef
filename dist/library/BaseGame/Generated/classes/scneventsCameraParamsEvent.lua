@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsCameraParamsEvent: scnSceneEvent
 ---@field cameraRef NodeRef
 ---@field fovValue Float
@@ -16,6 +17,7 @@
 ---@field targetActor scnPerformerId
 ---@field targetSlot CName
 scneventsCameraParamsEvent = {}
+
 
 ---@param fields? scneventsCameraParamsEvent
 ---@return scneventsCameraParamsEvent

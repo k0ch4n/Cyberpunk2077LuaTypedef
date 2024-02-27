@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryWeaponDisplayController: InventoryItemDisplayController
 ---@field weaponSpecyficModsRoot inkCompoundWidgetReference
 ---@field silencerIcon inkWidgetReference
@@ -7,6 +8,7 @@
 ---@field ammoIcon inkImageWidgetReference
 ---@field weaponAttachmentsDisplay InventoryItemPartDisplay[]
 InventoryWeaponDisplayController = {}
+
 
 ---@param fields? InventoryWeaponDisplayController
 ---@return InventoryWeaponDisplayController

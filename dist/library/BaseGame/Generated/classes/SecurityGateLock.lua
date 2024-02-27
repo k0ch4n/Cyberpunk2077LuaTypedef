@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SecurityGateLock: InteractiveDevice
 ---@field enteringArea gameStaticTriggerAreaComponent
 ---@field centeredArea gameStaticTriggerAreaComponent
 ---@field leavingArea gameStaticTriggerAreaComponent
 SecurityGateLock = {}
+
 
 ---@param fields? SecurityGateLock
 ---@return SecurityGateLock

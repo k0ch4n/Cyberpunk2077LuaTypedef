@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataWorldMapFreeCameraSettings_Record: gamedataTweakDBRecord
 gamedataWorldMapFreeCameraSettings_Record = {}
+
 
 ---@param fields? gamedataWorldMapFreeCameraSettings_Record
 ---@return gamedataWorldMapFreeCameraSettings_Record

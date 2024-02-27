@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CSkinProfile: CResource
 ---@field blurSize Float
 ---@field diffuse Color
@@ -8,6 +9,7 @@
 ---@field roughness1 Float
 ---@field lobeMix Float
 CSkinProfile = {}
+
 
 ---@param fields? CSkinProfile
 ---@return CSkinProfile

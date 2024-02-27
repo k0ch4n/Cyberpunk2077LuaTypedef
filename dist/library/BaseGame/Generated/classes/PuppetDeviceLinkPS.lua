@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PuppetDeviceLinkPS: DeviceLinkComponentPS
 ---@field securitySystemData SecuritySystemData
 PuppetDeviceLinkPS = {}
+
 
 ---@param fields? PuppetDeviceLinkPS
 ---@return PuppetDeviceLinkPS

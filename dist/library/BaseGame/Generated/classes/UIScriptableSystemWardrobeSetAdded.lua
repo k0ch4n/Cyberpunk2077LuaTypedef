@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UIScriptableSystemWardrobeSetAdded: gameScriptableSystemRequest
 ---@field wardrobeSet gameWardrobeClothingSetIndex
 UIScriptableSystemWardrobeSetAdded = {}
+
 
 ---@param fields? UIScriptableSystemWardrobeSetAdded
 ---@return UIScriptableSystemWardrobeSetAdded

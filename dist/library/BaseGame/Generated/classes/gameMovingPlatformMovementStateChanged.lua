@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameMovingPlatformMovementStateChanged: redEvent
 ---@field isMoving Bool
 gameMovingPlatformMovementStateChanged = {}
+
 
 ---@param fields? gameMovingPlatformMovementStateChanged
 ---@return gameMovingPlatformMovementStateChanged

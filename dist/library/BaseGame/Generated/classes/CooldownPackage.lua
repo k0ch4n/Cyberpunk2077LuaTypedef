@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CooldownPackage: IScriptable
 ---@field actionID TweakDBID
 ---@field addressees PSOwnerData[]
@@ -7,6 +8,7 @@
 ---@field label CooldownStorageID
 ---@field packageStatus PackageStatus
 CooldownPackage = {}
+
 
 ---@param fields? CooldownPackage
 ---@return CooldownPackage

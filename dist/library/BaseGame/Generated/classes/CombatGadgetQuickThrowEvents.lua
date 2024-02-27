@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CombatGadgetQuickThrowEvents: CombatGadgetTransitions
 ---@field grenadeThrown Bool
 ---@field event Bool
 CombatGadgetQuickThrowEvents = {}
+
 
 ---@param fields? CombatGadgetQuickThrowEvents
 ---@return CombatGadgetQuickThrowEvents

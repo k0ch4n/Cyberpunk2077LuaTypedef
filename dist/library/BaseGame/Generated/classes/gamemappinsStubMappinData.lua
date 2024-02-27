@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamemappinsStubMappinData: gamemappinsMappinData
 gamemappinsStubMappinData = {}
+
 
 ---@param fields? gamemappinsStubMappinData
 ---@return gamemappinsStubMappinData

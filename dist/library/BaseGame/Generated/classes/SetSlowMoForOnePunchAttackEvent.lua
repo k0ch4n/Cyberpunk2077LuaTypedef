@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetSlowMoForOnePunchAttackEvent: redEvent
 SetSlowMoForOnePunchAttackEvent = {}
+
 
 ---@param fields? SetSlowMoForOnePunchAttackEvent
 ---@return SetSlowMoForOnePunchAttackEvent

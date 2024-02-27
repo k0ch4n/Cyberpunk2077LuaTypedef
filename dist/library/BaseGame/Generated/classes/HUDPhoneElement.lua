@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HUDPhoneElement: inkWidgetLogicController
 ---@field RootWidget inkWidget
 HUDPhoneElement = {}
+
 
 ---@return Bool
 function HUDPhoneElement:OnInitialize() end

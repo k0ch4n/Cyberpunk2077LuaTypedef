@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ActivatedDeviceCover: ActivatedDeviceTransfromAnim
 ---@field offMeshConnection AIOffMeshConnectionComponent
 ActivatedDeviceCover = {}
+
 
 ---@param fields? ActivatedDeviceCover
 ---@return ActivatedDeviceCover

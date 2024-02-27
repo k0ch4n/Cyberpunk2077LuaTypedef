@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimProfilerData_TimingsDetailed
 ---@field className CName
 ---@field avarageExclusiveUpdateTimeMS Float
@@ -13,6 +14,7 @@
 ---@field updatesCount Uint32
 ---@field samplesCount Uint32
 animAnimProfilerData_TimingsDetailed = {}
+
 
 ---@param fields? animAnimProfilerData_TimingsDetailed
 ---@return animAnimProfilerData_TimingsDetailed

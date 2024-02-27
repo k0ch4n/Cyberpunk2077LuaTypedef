@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameICooldownSystem: gameIGameSystem
 gameICooldownSystem = {}
+
 
 ---@param id Int32
 ---@return Bool

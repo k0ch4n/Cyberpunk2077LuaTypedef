@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIFollowerRole: AIRole
 ---@field followerRef gameEntityReference
 ---@field followTarget gameObject
@@ -13,6 +14,7 @@
 ---@field isFriendMelee Bool
 ---@field isOwnerSniper Bool
 AIFollowerRole = {}
+
 
 ---@param fields? AIFollowerRole
 ---@return AIFollowerRole

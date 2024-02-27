@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AttachCapsuleVisionBlockerEffector: gameEffector
 ---@field visionBlockerRegistrar senseVisionBlockersRegistrar
 ---@field visionBlockerType EVisionBlockerType
@@ -12,6 +13,7 @@
 ---@field isBlockingCompletely Bool
 ---@field blocksParent Bool
 AttachCapsuleVisionBlockerEffector = {}
+
 
 ---@param fields? AttachCapsuleVisionBlockerEffector
 ---@return AttachCapsuleVisionBlockerEffector

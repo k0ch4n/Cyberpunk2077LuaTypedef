@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ProximityDetectorController: ScriptableDeviceComponent
 ProximityDetectorController = {}
+
 
 ---@param fields? ProximityDetectorController
 ---@return ProximityDetectorController

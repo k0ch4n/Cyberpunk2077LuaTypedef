@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiarcadeArcadePermanentResourceManager: ISerializable
 gameuiarcadeArcadePermanentResourceManager = {}
+
 
 ---@param fields? gameuiarcadeArcadePermanentResourceManager
 ---@return gameuiarcadeArcadePermanentResourceManager

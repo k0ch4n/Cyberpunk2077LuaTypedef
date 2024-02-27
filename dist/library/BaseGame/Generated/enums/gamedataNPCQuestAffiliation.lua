@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataNPCQuestAffiliation: Enum
 ---@field General Enum 0
 ---@field MainQuest Enum 1

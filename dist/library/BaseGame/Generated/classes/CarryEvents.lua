@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CarryEvents: CarriedObjectEvents
 ---@field knockdownImmunityModifier gameStatModifierData_Deprecated
 CarryEvents = {}
+
 
 ---@param fields? CarryEvents
 ---@return CarryEvents

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class senseCSenseManager: senseISenseManager
 senseCSenseManager = {}
+
 
 ---@param fields? senseCSenseManager
 ---@return senseCSenseManager

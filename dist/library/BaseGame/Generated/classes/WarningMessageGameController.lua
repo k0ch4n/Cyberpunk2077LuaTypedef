@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WarningMessageGameController: gameuiHUDGameController
 ---@field root inkWidget
 ---@field mainTextWidget inkTextWidgetReference
@@ -20,6 +21,7 @@
 ---@field animProxyHide inkanimProxy
 ---@field animProxyTimeout inkanimProxy
 WarningMessageGameController = {}
+
 
 ---@param fields? WarningMessageGameController
 ---@return WarningMessageGameController

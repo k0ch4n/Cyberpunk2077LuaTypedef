@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAIDifficulty: Enum
 ---@field Easy Enum 0
 ---@field Hard Enum 1

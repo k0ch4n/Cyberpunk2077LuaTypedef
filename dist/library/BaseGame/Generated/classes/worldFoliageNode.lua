@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldFoliageNode: worldNode
 ---@field mesh CMesh
 ---@field meshAppearance CName
@@ -12,6 +13,7 @@
 ---@field destructionHash Uint64
 ---@field meshHeight Float
 worldFoliageNode = {}
+
 
 ---@param fields? worldFoliageNode
 ---@return worldFoliageNode

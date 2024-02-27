@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ControlledDevicesInkGameController: gameuiWidgetGameController
 ---@field rootWidget inkCanvasWidget
 ---@field devicesStackSlot inkHorizontalPanelWidget
@@ -10,6 +11,7 @@
 ---@field deviceChain_BBID redCallbackObject
 ---@field chainLocked_BBID redCallbackObject
 ControlledDevicesInkGameController = {}
+
 
 ---@param fields? ControlledDevicesInkGameController
 ---@return ControlledDevicesInkGameController

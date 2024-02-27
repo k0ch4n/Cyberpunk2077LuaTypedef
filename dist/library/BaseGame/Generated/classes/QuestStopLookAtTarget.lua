@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestStopLookAtTarget: ActionBool
 QuestStopLookAtTarget = {}
+
 
 ---@param fields? QuestStopLookAtTarget
 ---@return QuestStopLookAtTarget

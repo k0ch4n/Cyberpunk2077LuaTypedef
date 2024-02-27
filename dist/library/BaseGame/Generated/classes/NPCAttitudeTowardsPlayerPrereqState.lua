@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NPCAttitudeTowardsPlayerPrereqState: gamePrereqState
 ---@field attitudeListener gameScriptedPrereqAttitudeListenerWrapper
 NPCAttitudeTowardsPlayerPrereqState = {}
+
 
 ---@param fields? NPCAttitudeTowardsPlayerPrereqState
 ---@return NPCAttitudeTowardsPlayerPrereqState

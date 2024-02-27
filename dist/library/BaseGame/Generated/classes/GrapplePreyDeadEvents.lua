@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GrapplePreyDeadEvents: LocomotionTakedownEvents
 GrapplePreyDeadEvents = {}
+
 
 ---@param fields? GrapplePreyDeadEvents
 ---@return GrapplePreyDeadEvents

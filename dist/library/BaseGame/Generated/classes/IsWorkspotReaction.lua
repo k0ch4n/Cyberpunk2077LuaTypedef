@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsWorkspotReaction: AIbehaviorconditionScript
 IsWorkspotReaction = {}
+
 
 ---@param fields? IsWorkspotReaction
 ---@return IsWorkspotReaction

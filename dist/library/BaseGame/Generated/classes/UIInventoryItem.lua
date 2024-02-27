@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInventoryItem: IScriptable
 ---@field ID gameItemID
 ---@field Hash Uint64
@@ -26,6 +27,7 @@
 ---@field TEMP_isEquippedPrefetched Bool
 ---@field TEMP_isEquipped Bool
 UIInventoryItem = {}
+
 
 ---@param fields? UIInventoryItem
 ---@return UIInventoryItem

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StackClearCombatTarget: AIbehaviortaskStackScript
 StackClearCombatTarget = {}
+
 
 ---@param fields? StackClearCombatTarget
 ---@return StackClearCombatTarget

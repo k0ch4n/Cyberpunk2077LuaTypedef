@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class TextSectionLogicController: inkWidgetLogicController
 ---@field rootWidget inkWidget
 ---@field textWidget inkTextWidget
 ---@field showAnimProxy inkanimProxy
 TextSectionLogicController = {}
+
 
 ---@param fields? TextSectionLogicController
 ---@return TextSectionLogicController

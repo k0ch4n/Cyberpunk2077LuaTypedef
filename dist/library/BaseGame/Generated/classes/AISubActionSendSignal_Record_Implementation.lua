@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionSendSignal_Record_Implementation: IScriptable
 AISubActionSendSignal_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionSendSignal_Record

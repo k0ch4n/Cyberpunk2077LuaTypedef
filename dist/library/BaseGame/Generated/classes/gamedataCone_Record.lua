@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCone_Record: gamedataSenseShape_Record
 gamedataCone_Record = {}
+
 
 ---@param fields? gamedataCone_Record
 ---@return gamedataCone_Record

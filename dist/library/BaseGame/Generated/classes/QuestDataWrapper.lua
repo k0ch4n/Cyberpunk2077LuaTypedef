@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestDataWrapper: AJournalEntryWrapper
 ---@field isNew Bool
 ---@field quest gameJournalQuest
@@ -14,6 +15,7 @@
 ---@field district gamedataDistrict_Record
 ---@field journalManager gameJournalManager
 QuestDataWrapper = {}
+
 
 ---@param fields? QuestDataWrapper
 ---@return QuestDataWrapper

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinputActionType: Enum
 ---@field BUTTON_PRESSED Enum 0
 ---@field BUTTON_RELEASED Enum 1

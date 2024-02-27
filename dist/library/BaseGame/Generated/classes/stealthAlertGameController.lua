@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class stealthAlertGameController: gameuiHUDGameController
 ---@field label inkTextWidgetReference
 ---@field icon inkImageWidgetReference
@@ -17,6 +18,7 @@
 ---@field playerPuppet gameObject
 ---@field animationProxy inkanimProxy
 stealthAlertGameController = {}
+
 
 ---@param fields? stealthAlertGameController
 ---@return stealthAlertGameController

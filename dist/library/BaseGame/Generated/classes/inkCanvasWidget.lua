@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkCanvasWidget: inkCompoundWidget
 inkCanvasWidget = {}
+
 
 ---@param fields? inkCanvasWidget
 ---@return inkCanvasWidget

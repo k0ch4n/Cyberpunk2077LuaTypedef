@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataArchetypeType: Enum
 ---@field AndroidMeleeT1 Enum 0
 ---@field AndroidMeleeT2 Enum 1

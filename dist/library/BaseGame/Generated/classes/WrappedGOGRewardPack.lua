@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class WrappedGOGRewardPack: IScriptable
 ---@field index Uint64
 ---@field data gameRewardPack
 WrappedGOGRewardPack = {}
+
 
 ---@param fields? WrappedGOGRewardPack
 ---@return WrappedGOGRewardPack

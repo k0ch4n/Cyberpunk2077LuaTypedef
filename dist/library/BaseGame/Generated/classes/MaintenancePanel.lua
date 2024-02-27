@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MaintenancePanel: InteractiveMasterDevice
 ---@field animFeature AnimFeature_SimpleDevice
 MaintenancePanel = {}
+
 
 ---@param fields? MaintenancePanel
 ---@return MaintenancePanel

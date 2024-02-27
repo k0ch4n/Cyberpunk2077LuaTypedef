@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IdleTier4Decisions: LocomotionGroundDecisions
 IdleTier4Decisions = {}
+
 
 ---@param fields? IdleTier4Decisions
 ---@return IdleTier4Decisions

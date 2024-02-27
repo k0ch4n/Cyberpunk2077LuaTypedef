@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocNewMeterBar: inkWidgetLogicController
 ---@field bar inkWidgetReference
 ---@field overchargeHighlight inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field meterWidth Float
 ---@field pulse PulseAnimation
 RipperdocNewMeterBar = {}
+
 
 ---@param fields? RipperdocNewMeterBar
 ---@return RipperdocNewMeterBar

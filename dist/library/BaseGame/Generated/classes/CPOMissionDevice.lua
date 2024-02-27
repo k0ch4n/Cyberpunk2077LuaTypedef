@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CPOMissionDevice: gameObject
 ---@field compatibleDeviceName CName
 ---@field blockAfterOperation Bool
@@ -7,6 +8,7 @@
 ---@field isBlocked Bool
 ---@field factUnblockCallbackID Uint32
 CPOMissionDevice = {}
+
 
 ---@param fields? CPOMissionDevice
 ---@return CPOMissionDevice

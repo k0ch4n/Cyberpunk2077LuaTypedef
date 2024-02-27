@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStatModifierGroup
 ---@field statModifierArray gameStatModifierHandle[]
 ---@field statModifiersLimit Int32
@@ -11,6 +12,7 @@
 ---@field saveBasedOnStatType Bool
 ---@field optimiseCombinedModifiers Bool
 gameStatModifierGroup = {}
+
 
 ---@param fields? gameStatModifierGroup
 ---@return gameStatModifierGroup

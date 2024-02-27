@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entRagdollRequestCollectAnimPose: redEvent
 entRagdollRequestCollectAnimPose = {}
+
 
 ---@param fields? entRagdollRequestCollectAnimPose
 ---@return entRagdollRequestCollectAnimPose

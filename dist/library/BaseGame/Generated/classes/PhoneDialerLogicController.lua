@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhoneDialerLogicController: inkWidgetLogicController
 ---@field tabsContainer inkWidgetReference
 ---@field titleContainer inkWidgetReference
@@ -49,6 +50,7 @@
 ---@field currentTab PhoneDialerTabs
 ---@field callingEnabled Bool
 PhoneDialerLogicController = {}
+
 
 ---@param fields? PhoneDialerLogicController
 ---@return PhoneDialerLogicController

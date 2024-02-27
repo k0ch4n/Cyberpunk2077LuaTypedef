@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkBaseVariantDataSource: inkAbstractDataSourceWrapper
 inkBaseVariantDataSource = {}
+
 
 ---@param fields? inkBaseVariantDataSource
 ---@return inkBaseVariantDataSource

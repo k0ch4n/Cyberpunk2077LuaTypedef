@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameTimeSkipFinishedEvent: redEvent
 gameTimeSkipFinishedEvent = {}
+
 
 ---@param fields? gameTimeSkipFinishedEvent
 ---@return gameTimeSkipFinishedEvent

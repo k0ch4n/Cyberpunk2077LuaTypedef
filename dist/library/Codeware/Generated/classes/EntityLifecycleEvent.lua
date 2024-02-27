@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EntityLifecycleEvent: NamedEvent
 EntityLifecycleEvent = {}
+
 
 ---@param fields? EntityLifecycleEvent
 ---@return EntityLifecycleEvent

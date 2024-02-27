@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetPhaseState: AIActionHelperTask
 ---@field phaseStateValue ENPCPhaseState
 SetPhaseState = {}
+
 
 ---@param fields? SetPhaseState
 ---@return SetPhaseState

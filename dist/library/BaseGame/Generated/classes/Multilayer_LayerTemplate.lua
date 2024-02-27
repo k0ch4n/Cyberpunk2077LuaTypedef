@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Multilayer_LayerTemplate: CResource
 ---@field overrides Multilayer_LayerTemplateOverrides
 ---@field defaultOverrides Multilayer_LayerOverrideSelection
@@ -11,6 +12,7 @@
 ---@field colorMaskLevelsIn Float[]
 ---@field colorMaskLevelsOut Float[]
 Multilayer_LayerTemplate = {}
+
 
 ---@param fields? Multilayer_LayerTemplate
 ---@return Multilayer_LayerTemplate

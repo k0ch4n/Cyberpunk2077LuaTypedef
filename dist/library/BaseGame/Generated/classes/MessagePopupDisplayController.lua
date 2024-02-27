@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class MessagePopupDisplayController: inkWidgetLogicController
 ---@field title inkTextWidgetReference
 ---@field message inkTextWidgetReference
 ---@field image inkImageWidgetReference
 MessagePopupDisplayController = {}
+
 
 ---@param fields? MessagePopupDisplayController
 ---@return MessagePopupDisplayController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BlinkingEvent: redEvent
 ---@field requestNumber Int32
 BlinkingEvent = {}
+
 
 ---@param fields? BlinkingEvent
 ---@return BlinkingEvent

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ChargeDecisions: WeaponTransition
 ---@field callbackID redCallbackObject
 ---@field triggerModeCorrect Bool
 ---@field inputPressed Bool
 ChargeDecisions = {}
+
 
 ---@param fields? ChargeDecisions
 ---@return ChargeDecisions

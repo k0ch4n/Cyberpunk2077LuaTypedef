@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UpdateWhistleStimSource: UpdateWhistlePosition
 UpdateWhistleStimSource = {}
+
 
 ---@param fields? UpdateWhistleStimSource
 ---@return UpdateWhistleStimSource

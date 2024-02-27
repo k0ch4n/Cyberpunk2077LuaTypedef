@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questEntityManagerMountPuppet_NodeType: questIEntityManager_NodeType
 ---@field parentRef gameEntityReference
 ---@field childRef gameEntityReference
@@ -10,6 +11,7 @@
 ---@field forcedCarryStyle gamePSMBodyCarryingStyle
 ---@field removePitchRollRotation Bool
 questEntityManagerMountPuppet_NodeType = {}
+
 
 ---@param fields? questEntityManagerMountPuppet_NodeType
 ---@return questEntityManagerMountPuppet_NodeType

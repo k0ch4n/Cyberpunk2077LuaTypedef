@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class attrTooltip: attrAttribute
 ---@field xt String
 attrTooltip = {}
+
 
 ---@param fields? attrTooltip
 ---@return attrTooltip

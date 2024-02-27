@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAddStatusEffectToAttackEffector_Record: gamedataEffector_Record
 gamedataAddStatusEffectToAttackEffector_Record = {}
+
 
 ---@param fields? gamedataAddStatusEffectToAttackEffector_Record
 ---@return gamedataAddStatusEffectToAttackEffector_Record

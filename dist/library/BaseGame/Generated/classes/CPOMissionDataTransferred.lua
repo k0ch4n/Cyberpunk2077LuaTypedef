@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CPOMissionDataTransferred: redEvent
 ---@field dataDownloaded Bool
 ---@field dataDamagesPresetName CName
@@ -8,6 +9,7 @@
 ---@field isChoiceToken Bool
 ---@field choiceTokenTimeout Uint32
 CPOMissionDataTransferred = {}
+
 
 ---@param fields? CPOMissionDataTransferred
 ---@return CPOMissionDataTransferred

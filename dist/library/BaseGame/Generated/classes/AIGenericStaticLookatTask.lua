@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class AIGenericStaticLookatTask: AIGenericLookatTask
 ---@field lookAtEvent entLookAtAddEvent
 ---@field activationTimeStamp Float
 ---@field lookatTarget Vector4
 ---@field currentLookatTarget Vector4
 AIGenericStaticLookatTask = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

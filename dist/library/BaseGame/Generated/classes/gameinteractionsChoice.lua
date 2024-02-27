@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsChoice
 ---@field caption String
 ---@field captionParts gameinteractionsChoiceCaption
@@ -8,6 +9,7 @@
 ---@field lookAtDescriptor gameinteractionsChoiceLookAtDescriptor
 ---@field doNotTurnOffPreventionSystem Bool
 gameinteractionsChoice = {}
+
 
 ---@param fields? gameinteractionsChoice
 ---@return gameinteractionsChoice

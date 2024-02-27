@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ItemPreviewHelper: IScriptable
 ItemPreviewHelper = {}
+
 
 ---@param controller IScriptable
 ---@param itemData gameInventoryItemData

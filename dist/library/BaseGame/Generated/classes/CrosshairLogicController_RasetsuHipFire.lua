@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrosshairLogicController_RasetsuHipFire: inkWidgetLogicController
 ---@field offsetLeftRight Float
 ---@field latchVertical Float
@@ -11,6 +12,7 @@
 ---@field rightPart inkWidgetReference
 ---@field targetColorChange inkWidgetReference
 CrosshairLogicController_RasetsuHipFire = {}
+
 
 ---@param fields? CrosshairLogicController_RasetsuHipFire
 ---@return CrosshairLogicController_RasetsuHipFire

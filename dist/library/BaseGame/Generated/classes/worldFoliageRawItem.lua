@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldFoliageRawItem: ISerializable
 ---@field Mesh CMesh
 ---@field MeshAppearance CName
@@ -7,6 +8,7 @@
 ---@field Rotation Quaternion
 ---@field Scale Float
 worldFoliageRawItem = {}
+
 
 ---@param fields? worldFoliageRawItem
 ---@return worldFoliageRawItem

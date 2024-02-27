@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RewardNotificationCurrencyDelayed: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field notificationQueue ItemsNotificationQueue
 ---@field notificationData gameuiGenericNotificationData
 RewardNotificationCurrencyDelayed = {}
+
 
 ---@param fields? RewardNotificationCurrencyDelayed
 ---@return RewardNotificationCurrencyDelayed

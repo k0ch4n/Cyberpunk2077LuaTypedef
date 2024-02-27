@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISquadBase: ISerializable
 AISquadBase = {}
+
 
 ---@param fields? AISquadBase
 ---@return AISquadBase

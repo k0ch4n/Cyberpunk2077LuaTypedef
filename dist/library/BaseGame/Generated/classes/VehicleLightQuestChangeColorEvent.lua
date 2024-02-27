@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class VehicleLightQuestChangeColorEvent: redEvent
 ---@field color Color
 ---@field lightType vehicleELightType
 VehicleLightQuestChangeColorEvent = {}
+
 
 ---@param fields? VehicleLightQuestChangeColorEvent
 ---@return VehicleLightQuestChangeColorEvent

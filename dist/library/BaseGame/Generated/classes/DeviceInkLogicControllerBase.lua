@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class DeviceInkLogicControllerBase: inkWidgetLogicController
 ---@field targetWidgetRef inkWidgetReference
 ---@field displayNameWidget inkTextWidgetReference
 ---@field isInitialized Bool
 ---@field targetWidget inkWidget
 DeviceInkLogicControllerBase = {}
+
 
 ---@param fields? DeviceInkLogicControllerBase
 ---@return DeviceInkLogicControllerBase

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class NewPerkDisplayData: BasePerkDisplayData
 ---@field area gamedataNewPerkSlotType
 ---@field type gamedataNewPerkType
 ---@field isRipperdoc Bool
 NewPerkDisplayData = {}
+
 
 ---@param fields? NewPerkDisplayData
 ---@return NewPerkDisplayData

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EquipmentManipulationAction: Enum
 ---@field Undefined Enum 0
 ---@field RequestActiveMeleeware Enum 1

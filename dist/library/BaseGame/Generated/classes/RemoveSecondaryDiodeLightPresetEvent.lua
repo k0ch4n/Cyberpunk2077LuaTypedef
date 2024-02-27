@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RemoveSecondaryDiodeLightPresetEvent: redEvent
 RemoveSecondaryDiodeLightPresetEvent = {}
+
 
 ---@param fields? RemoveSecondaryDiodeLightPresetEvent
 ---@return RemoveSecondaryDiodeLightPresetEvent

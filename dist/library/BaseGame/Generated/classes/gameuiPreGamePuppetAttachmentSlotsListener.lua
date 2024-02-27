@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiPreGamePuppetAttachmentSlotsListener: gameIAttachmentSlotsListener
 gameuiPreGamePuppetAttachmentSlotsListener = {}
+
 
 ---@param fields? gameuiPreGamePuppetAttachmentSlotsListener
 ---@return gameuiPreGamePuppetAttachmentSlotsListener

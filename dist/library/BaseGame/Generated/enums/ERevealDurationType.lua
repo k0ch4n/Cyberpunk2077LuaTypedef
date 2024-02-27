@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ERevealDurationType: Enum
 ---@field TEMPORARY Enum 0
 ---@field PERMANENT Enum 1

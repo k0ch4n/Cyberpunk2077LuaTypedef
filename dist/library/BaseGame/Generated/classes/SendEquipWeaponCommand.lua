@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SendEquipWeaponCommand: AIbehaviortaskScript
 ---@field secondary Bool
 SendEquipWeaponCommand = {}
+
 
 ---@param fields? SendEquipWeaponCommand
 ---@return SendEquipWeaponCommand

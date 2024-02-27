@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SettingsSelectorControllerListFloat: SettingsSelectorControllerList
 SettingsSelectorControllerListFloat = {}
+
 
 ---@param fields? SettingsSelectorControllerListFloat
 ---@return SettingsSelectorControllerListFloat

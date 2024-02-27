@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EffectSharedDataDef: gamebbScriptDefinition
 ---@field attackStatModList gamebbScriptID_Variant
 ---@field box gamebbScriptID_Vector4
@@ -67,6 +68,7 @@
 ---@field ignoreMountedVehicleCollision gamebbScriptID_Bool
 ---@field debugBool gamebbScriptID_Bool
 EffectSharedDataDef = {}
+
 
 ---@param fields? EffectSharedDataDef
 ---@return EffectSharedDataDef

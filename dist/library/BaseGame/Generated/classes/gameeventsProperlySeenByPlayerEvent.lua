@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameeventsProperlySeenByPlayerEvent: redEvent
 gameeventsProperlySeenByPlayerEvent = {}
+
 
 ---@param fields? gameeventsProperlySeenByPlayerEvent
 ---@return gameeventsProperlySeenByPlayerEvent

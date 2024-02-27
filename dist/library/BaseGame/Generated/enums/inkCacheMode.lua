@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkCacheMode: Enum
 ---@field Normal Enum 0
 ---@field Minimap Enum 1

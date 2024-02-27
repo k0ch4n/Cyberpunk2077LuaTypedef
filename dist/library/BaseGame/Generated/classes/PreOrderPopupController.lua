@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PreOrderPopupController: inkWidgetLogicController
 ---@field preOrderButtonRef inkWidgetReference
 ---@field preOrderButtonText inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field releaseDateContainer inkWidgetReference
 ---@field buttonController inkButtonController
 PreOrderPopupController = {}
+
 
 ---@param fields? PreOrderPopupController
 ---@return PreOrderPopupController

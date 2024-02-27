@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhoneCallUploadDurationListener: gameCustomValueStatPoolsListener
 ---@field gameInstance ScriptGameInstance
 ---@field requesterPuppet ScriptedPuppet
@@ -7,6 +8,7 @@
 ---@field duration Float
 ---@field statPoolType gamedataStatPoolType
 PhoneCallUploadDurationListener = {}
+
 
 ---@param fields? PhoneCallUploadDurationListener
 ---@return PhoneCallUploadDurationListener

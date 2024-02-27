@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ItemInSlotPrereqState: gamePrereqState
 ---@field listener ItemInSlotCallback
 ---@field owner gameObject
 ItemInSlotPrereqState = {}
+
 
 ---@param fields? ItemInSlotPrereqState
 ---@return ItemInSlotPrereqState

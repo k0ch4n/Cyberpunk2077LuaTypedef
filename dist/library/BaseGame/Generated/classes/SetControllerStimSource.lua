@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetControllerStimSource: AIbehaviortaskScript
 ---@field investigateData senseStimInvestigateData
 SetControllerStimSource = {}
+
 
 ---@param fields? SetControllerStimSource
 ---@return SetControllerStimSource

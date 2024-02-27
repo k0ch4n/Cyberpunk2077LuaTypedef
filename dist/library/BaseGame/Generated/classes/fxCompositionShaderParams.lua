@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class fxCompositionShaderParams
 ---@field glitchParam Float
 ---@field glitchParam1 Float
@@ -32,6 +33,7 @@
 ---@field uiLayer3Weight Float
 ---@field uiLayer4Weight Float
 fxCompositionShaderParams = {}
+
 
 ---@param fields? fxCompositionShaderParams
 ---@return fxCompositionShaderParams

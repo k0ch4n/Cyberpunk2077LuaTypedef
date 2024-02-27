@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BaseSubtitlesGameController: gameuiProjectedHUDGameController
 ---@field lineMap subtitleLineMapEntry[]
 ---@field pendingShowLines CRUID[]
@@ -23,6 +24,7 @@
 ---@field fontSize Int32
 ---@field factlistenerId Uint32
 BaseSubtitlesGameController = {}
+
 
 ---@param fields? BaseSubtitlesGameController
 ---@return BaseSubtitlesGameController

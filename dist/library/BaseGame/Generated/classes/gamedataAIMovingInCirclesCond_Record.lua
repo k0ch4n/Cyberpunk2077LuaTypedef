@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIMovingInCirclesCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIMovingInCirclesCond_Record = {}
+
 
 ---@param fields? gamedataAIMovingInCirclesCond_Record
 ---@return gamedataAIMovingInCirclesCond_Record

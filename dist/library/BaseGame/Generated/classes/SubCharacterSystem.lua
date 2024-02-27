@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SubCharacterSystem: gameScriptableSystem
 ---@field uniqueSubCharacters SSubCharacter[]
 ---@field scriptSpawnedFlathead Bool
 ---@field isDespawningFlathead Bool
 SubCharacterSystem = {}
+
 
 ---@param fields? SubCharacterSystem
 ---@return SubCharacterSystem

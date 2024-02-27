@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NavGenAgentSize: Enum
 ---@field Human Enum 0
 ---@field Vehicle Enum 1

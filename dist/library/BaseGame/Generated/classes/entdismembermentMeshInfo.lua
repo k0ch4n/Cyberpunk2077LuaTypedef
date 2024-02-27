@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entdismembermentMeshInfo
 ---@field Mesh CMesh
 ---@field MeshAppearance CName
@@ -12,6 +13,7 @@
 ---@field Scale Vector3
 ---@field Physics entdismembermentPhysicsInfo
 entdismembermentMeshInfo = {}
+
 
 ---@param fields? entdismembermentMeshInfo
 ---@return entdismembermentMeshInfo

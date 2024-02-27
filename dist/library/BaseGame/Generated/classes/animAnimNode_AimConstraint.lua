@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_AimConstraint: animAnimNode_OnePoseInput
 ---@field areSourceChannelsResaved Bool
 ---@field targetTransforms animAnimNodeSourceChannel_WeightedVector[]
@@ -12,6 +13,7 @@
 ---@field weight Float
 ---@field weightFloatTrack animNamedTrackIndex
 animAnimNode_AimConstraint = {}
+
 
 ---@param fields? animAnimNode_AimConstraint
 ---@return animAnimNode_AimConstraint

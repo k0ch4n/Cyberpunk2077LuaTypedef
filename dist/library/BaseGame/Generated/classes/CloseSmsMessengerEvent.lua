@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CloseSmsMessengerEvent: redEvent
 CloseSmsMessengerEvent = {}
+
 
 ---@param fields? CloseSmsMessengerEvent
 ---@return CloseSmsMessengerEvent

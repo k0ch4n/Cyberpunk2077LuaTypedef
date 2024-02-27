@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestContactLinkController: BaseCodexLinkController
 ---@field msgLabel inkTextWidgetReference
 ---@field msgContainer inkWidgetReference
@@ -9,6 +10,7 @@
 ---@field phoneSystem PhoneSystem
 ---@field uiSystem gameuiGameSystemUI
 QuestContactLinkController = {}
+
 
 ---@param fields? QuestContactLinkController
 ---@return QuestContactLinkController

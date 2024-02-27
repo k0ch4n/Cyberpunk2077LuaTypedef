@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PriorityCheckEventCondition: AISignalCondition
 PriorityCheckEventCondition = {}
+
 
 ---@param fields? PriorityCheckEventCondition
 ---@return PriorityCheckEventCondition

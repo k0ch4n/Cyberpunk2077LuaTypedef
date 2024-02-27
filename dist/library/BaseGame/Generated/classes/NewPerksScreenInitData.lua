@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerksScreenInitData: IScriptable
 ---@field stat gamedataStatType
 ---@field attribute TweakDBID
@@ -7,6 +8,7 @@
 ---@field perkMenuAttribute PerkMenuAttribute
 ---@field isPlayerInCombat Bool
 NewPerksScreenInitData = {}
+
 
 ---@param fields? NewPerksScreenInitData
 ---@return NewPerksScreenInitData

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HitAttackSubtypePrereq: GenericHitPrereq
 ---@field attackSubtype gamedataAttackSubtype
 HitAttackSubtypePrereq = {}
+
 
 ---@param fields? HitAttackSubtypePrereq
 ---@return HitAttackSubtypePrereq

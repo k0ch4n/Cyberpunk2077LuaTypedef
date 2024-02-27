@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameCommunitySpawnSetNameToID
 ---@field entries gameCommunitySpawnSetNameToIDEntry[]
 gameCommunitySpawnSetNameToID = {}
+
 
 ---@param fields? gameCommunitySpawnSetNameToID
 ---@return gameCommunitySpawnSetNameToID

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workTransferItemOwnershipCommandData: workIWorkspotCommandData
 workTransferItemOwnershipCommandData = {}
+
 
 ---@param fields? workTransferItemOwnershipCommandData
 ---@return workTransferItemOwnershipCommandData

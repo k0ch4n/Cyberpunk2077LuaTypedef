@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldCrowdNullAreaNodeInstance: worldAreaShapeNodeInstance
 worldCrowdNullAreaNodeInstance = {}
+
 
 ---@param fields? worldCrowdNullAreaNodeInstance
 ---@return worldCrowdNullAreaNodeInstance

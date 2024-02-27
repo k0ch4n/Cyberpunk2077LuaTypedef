@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameRegular1v1FinisherScenario: gameIFinisherScenario
 ---@field attackerWorkspot workWorkspotResource
 ---@field targetWorkspot workWorkspotResource
@@ -12,6 +13,7 @@
 ---@field attackerIsMaster Bool
 ---@field targetSlotNameToAttachAttackerWeaponLeft CName
 gameRegular1v1FinisherScenario = {}
+
 
 ---@param fields? gameRegular1v1FinisherScenario
 ---@return gameRegular1v1FinisherScenario

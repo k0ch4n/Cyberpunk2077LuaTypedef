@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WardrobeItemGridView: CommonItemsGridView
 WardrobeItemGridView = {}
+
 
 ---@param fields? WardrobeItemGridView
 ---@return WardrobeItemGridView

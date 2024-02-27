@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldVehicleForbiddenAreaNotifier: worldITriggerAreaNotifer
 ---@field innerAreaBoundToOuterArea Bool
 ---@field innerAreaOutline AreaShapeOutline
@@ -10,6 +11,7 @@
 ---@field dismount Bool
 ---@field enableSummoning Bool
 worldVehicleForbiddenAreaNotifier = {}
+
 
 ---@param fields? worldVehicleForbiddenAreaNotifier
 ---@return worldVehicleForbiddenAreaNotifier

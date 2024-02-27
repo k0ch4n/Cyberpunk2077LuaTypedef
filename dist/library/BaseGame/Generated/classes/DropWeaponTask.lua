@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DropWeaponTask: StatusEffectTasks
 DropWeaponTask = {}
+
 
 ---@param fields? DropWeaponTask
 ---@return DropWeaponTask

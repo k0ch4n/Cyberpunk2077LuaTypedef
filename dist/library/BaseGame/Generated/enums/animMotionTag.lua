@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animMotionTag: Enum
 ---@field MT_Invalid Enum 0
 ---@field Walk Enum 1

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class StimTargetData
 ---@field spawnerRef NodeRef
 ---@field entryID CName
 StimTargetData = {}
+
 
 ---@param fields? StimTargetData
 ---@return StimTargetData

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataConsumableType: Enum
 ---@field Drug Enum 0
 ---@field Medical Enum 1

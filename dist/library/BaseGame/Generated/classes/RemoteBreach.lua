@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RemoteBreach: ActionBool
 RemoteBreach = {}
+
 
 ---@param fields? RemoteBreach
 ---@return RemoteBreach

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InNormalUpperBodyState: AINPCUpperBodyStateCheck
 InNormalUpperBodyState = {}
+
 
 ---@param fields? InNormalUpperBodyState
 ---@return InNormalUpperBodyState

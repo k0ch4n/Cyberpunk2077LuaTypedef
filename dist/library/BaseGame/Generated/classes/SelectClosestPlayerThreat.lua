@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SelectClosestPlayerThreat: AIbehaviortaskScript
 SelectClosestPlayerThreat = {}
+
 
 ---@param fields? SelectClosestPlayerThreat
 ---@return SelectClosestPlayerThreat

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckHighLevelState: AINPCHighLevelStateCheck
 ---@field state gamedataNPCHighLevelState
 CheckHighLevelState = {}
+
 
 ---@param fields? CheckHighLevelState
 ---@return CheckHighLevelState

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_EngagementScreen: MenuScenario_PreGameSubMenu
 MenuScenario_EngagementScreen = {}
+
 
 ---@param fields? MenuScenario_EngagementScreen
 ---@return MenuScenario_EngagementScreen

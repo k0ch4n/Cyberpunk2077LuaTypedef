@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetGameplayRoleEvent: redEvent
 ---@field gameplayRole EGameplayRole
 SetGameplayRoleEvent = {}
+
 
 ---@param fields? SetGameplayRoleEvent
 ---@return SetGameplayRoleEvent

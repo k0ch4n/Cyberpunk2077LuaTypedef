@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameIsQuickhackPanelOpenedPrereq
 ---@field inverted Bool
 gameIsQuickhackPanelOpenedPrereq = {}
+
 
 ---@param fields? gameIsQuickhackPanelOpenedPrereq
 ---@return gameIsQuickhackPanelOpenedPrereq

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class effectForwardDecalPlayData: effectPlacedTrackItemPlayData
 effectForwardDecalPlayData = {}
+
 
 ---@param fields? effectForwardDecalPlayData
 ---@return effectForwardDecalPlayData

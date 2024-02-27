@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class toolsJiraCreateIssueBody: ISerializable
 ---@field fields toolsJiraIssueFields
 toolsJiraCreateIssueBody = {}
+
 
 ---@param fields? toolsJiraCreateIssueBody
 ---@return toolsJiraCreateIssueBody

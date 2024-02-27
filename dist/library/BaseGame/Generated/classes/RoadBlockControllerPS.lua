@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class RoadBlockControllerPS: ScriptableDeviceComponentPS
 ---@field isBlocking Bool
 ---@field negateAnimState Bool
 ---@field nameForBlocking TweakDBID
 ---@field nameForUnblocking TweakDBID
 RoadBlockControllerPS = {}
+
 
 ---@param fields? RoadBlockControllerPS
 ---@return RoadBlockControllerPS

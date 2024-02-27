@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entMechanicalImpactComponent: entIComponent
 ---@field c_impulseMagThreshold Float
 entMechanicalImpactComponent = {}
+
 
 ---@param fields? entMechanicalImpactComponent
 ---@return entMechanicalImpactComponent

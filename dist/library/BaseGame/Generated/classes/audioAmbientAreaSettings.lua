@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAmbientAreaSettings: audioAudioMetadata
 ---@field MetadataParent CName
 ---@field EmitterDecorator CName
@@ -28,6 +29,7 @@
 ---@field mixingContext CName
 ---@field ambientPaletteEntries audioAmbientPaletteEntry[]
 audioAmbientAreaSettings = {}
+
 
 ---@param fields? audioAmbientAreaSettings
 ---@return audioAmbientAreaSettings

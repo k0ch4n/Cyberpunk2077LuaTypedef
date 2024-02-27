@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hubSelectorController: inkSelectorController
 ---@field leftArrowWidget inkWidgetReference
 ---@field rightArrowWidget inkWidgetReference
@@ -9,6 +10,7 @@
 ---@field hubElementsData MenuData[]
 ---@field previousIndex Int32
 hubSelectorController = {}
+
 
 ---@param fields? hubSelectorController
 ---@return hubSelectorController

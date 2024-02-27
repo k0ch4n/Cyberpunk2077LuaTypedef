@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionSetTopThreatPersistance_Record: gamedataAISubAction_Record
 gamedataAISubActionSetTopThreatPersistance_Record = {}
+
 
 ---@param fields? gamedataAISubActionSetTopThreatPersistance_Record
 ---@return gamedataAISubActionSetTopThreatPersistance_Record

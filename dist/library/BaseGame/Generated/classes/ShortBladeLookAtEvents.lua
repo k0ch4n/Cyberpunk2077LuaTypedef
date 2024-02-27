@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ShortBladeLookAtEvents: LookAtPresetMeleeBaseEvents
 ShortBladeLookAtEvents = {}
+
 
 ---@param fields? ShortBladeLookAtEvents
 ---@return ShortBladeLookAtEvents

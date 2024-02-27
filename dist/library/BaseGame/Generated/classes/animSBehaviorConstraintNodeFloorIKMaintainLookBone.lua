@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animSBehaviorConstraintNodeFloorIKMaintainLookBone
 animSBehaviorConstraintNodeFloorIKMaintainLookBone = {}
+
 
 ---@param fields? animSBehaviorConstraintNodeFloorIKMaintainLookBone
 ---@return animSBehaviorConstraintNodeFloorIKMaintainLookBone

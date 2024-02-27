@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionMissileRainGrid_Record_Implementation: IScriptable
 AISubActionMissileRainGrid_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionMissileRainGrid_Record

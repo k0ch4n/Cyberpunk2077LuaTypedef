@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiMappinsContainerController: gameuiProjectedHUDGameController
 ---@field psmVision gamePSMVision
 ---@field psmCombat gamePSMCombat
@@ -9,6 +10,7 @@
 ---@field gpsQuestPathWidget inkLinePatternWidgetReference
 ---@field gpsPlayerTrackedPathWidget inkLinePatternWidgetReference
 gameuiMappinsContainerController = {}
+
 
 ---@param fields? gameuiMappinsContainerController
 ---@return gameuiMappinsContainerController

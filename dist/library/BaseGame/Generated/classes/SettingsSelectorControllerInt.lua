@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SettingsSelectorControllerInt: SettingsSelectorControllerRange
 ---@field newValue Int32
 ---@field sliderWidget inkWidgetReference
 ---@field sliderController inkSliderController
 SettingsSelectorControllerInt = {}
+
 
 ---@param fields? SettingsSelectorControllerInt
 ---@return SettingsSelectorControllerInt

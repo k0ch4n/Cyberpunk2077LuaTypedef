@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PlayInitFearAnimation: AIbehaviorconditionScript
 ---@field grenadePanic Bool
 ---@field initialized Bool
 PlayInitFearAnimation = {}
+
 
 ---@param fields? PlayInitFearAnimation
 ---@return PlayInitFearAnimation

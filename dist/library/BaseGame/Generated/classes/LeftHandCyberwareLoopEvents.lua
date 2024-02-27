@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareLoopEvents: LeftHandCyberwareEventsTransition
 LeftHandCyberwareLoopEvents = {}
+
 
 ---@param fields? LeftHandCyberwareLoopEvents
 ---@return LeftHandCyberwareLoopEvents

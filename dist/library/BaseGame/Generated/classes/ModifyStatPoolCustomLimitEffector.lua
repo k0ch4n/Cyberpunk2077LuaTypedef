@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ModifyStatPoolCustomLimitEffector: gameEffector
 ---@field statPoolType gamedataStatPoolType
 ---@field value Float
@@ -7,6 +8,7 @@
 ---@field previousLimit Float
 ---@field owner gameObject
 ModifyStatPoolCustomLimitEffector = {}
+
 
 ---@param fields? ModifyStatPoolCustomLimitEffector
 ---@return ModifyStatPoolCustomLimitEffector

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CrouchLowGravityEvents: LocomotionGroundEvents
 CrouchLowGravityEvents = {}
+
 
 ---@param fields? CrouchLowGravityEvents
 ---@return CrouchLowGravityEvents

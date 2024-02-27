@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestSecuritySystemInput: redEvent
 ---@field notificationScope SecurityEventScopeSettings
 ---@field notifySpecificNPCs NPCReference[]

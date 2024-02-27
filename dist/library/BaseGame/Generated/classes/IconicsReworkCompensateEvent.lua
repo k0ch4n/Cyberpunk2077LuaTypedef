@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IconicsReworkCompensateEvent: redEvent
 IconicsReworkCompensateEvent = {}
+
 
 ---@param fields? IconicsReworkCompensateEvent
 ---@return IconicsReworkCompensateEvent

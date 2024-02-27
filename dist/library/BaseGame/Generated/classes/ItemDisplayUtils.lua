@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ItemDisplayUtils: IScriptable
 ItemDisplayUtils = {}
+
 
 ---@param fields? ItemDisplayUtils
 ---@return ItemDisplayUtils

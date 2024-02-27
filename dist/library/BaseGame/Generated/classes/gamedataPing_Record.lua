@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPing_Record: gamedataTweakDBRecord
 gamedataPing_Record = {}
+
 
 ---@param fields? gamedataPing_Record
 ---@return gamedataPing_Record

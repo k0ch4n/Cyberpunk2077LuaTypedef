@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Portal: InteractiveDevice
 ---@field exitNode NodeRef
 ---@field LinkedPortal NodeRef
@@ -11,6 +12,7 @@
 ---@field playerBlocker entIPlacedComponent
 ---@field screen entMeshComponent
 Portal = {}
+
 
 ---@param fields? Portal
 ---@return Portal

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class HitFlagHitPrereqCondition: BaseHitPrereqCondition
 ---@field hitFlag hitFlag
 ---@field invertHitFlag Bool
 HitFlagHitPrereqCondition = {}
+
 
 ---@param fields? HitFlagHitPrereqCondition
 ---@return HitFlagHitPrereqCondition

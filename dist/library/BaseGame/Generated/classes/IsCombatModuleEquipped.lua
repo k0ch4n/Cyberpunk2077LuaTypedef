@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsCombatModuleEquipped: AIAutonomousConditions
 IsCombatModuleEquipped = {}
+
 
 ---@param fields? IsCombatModuleEquipped
 ---@return IsCombatModuleEquipped

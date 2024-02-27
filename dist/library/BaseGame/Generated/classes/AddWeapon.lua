@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AddWeapon: AIbehaviortaskScript
 ---@field weapon EquipmentPriority
 AddWeapon = {}
+
 
 ---@param fields? AddWeapon
 ---@return AddWeapon

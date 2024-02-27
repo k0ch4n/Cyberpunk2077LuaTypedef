@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class HasNewMountRequest: AIVehicleConditionAbstract
 ---@field mountRequest AIArgumentMapping
 ---@field checkOnlyInstant Bool
 HasNewMountRequest = {}
+
 
 ---@param fields? HasNewMountRequest
 ---@return HasNewMountRequest

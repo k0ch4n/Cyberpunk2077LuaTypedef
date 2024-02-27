@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class keyboardHintGameController: gameuiHUDGameController
 ---@field TopElementName CName
 ---@field BottomElementName CName
@@ -10,6 +11,7 @@
 ---@field UiQuickItemsBlackboard gameIBlackboard
 ---@field KeyboardCommandBBID redCallbackObject
 keyboardHintGameController = {}
+
 
 ---@param fields? keyboardHintGameController
 ---@return keyboardHintGameController

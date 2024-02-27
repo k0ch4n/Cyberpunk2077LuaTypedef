@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIActionSpot: AISmartSpot
 ---@field resource workWorkspotResource
 ---@field ActorBodytypeE3 AISocketsForRig
@@ -10,6 +11,7 @@
 ---@field clippingSpaceOrientation Float
 ---@field clippingSpaceRange Float
 AIActionSpot = {}
+
 
 ---@param fields? AIActionSpot
 ---@return AIActionSpot

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gamestateMachineeventStartStateMachine: redEvent
 ---@field stateMachineIdentifier gamestateMachineStateMachineIdentifier
 gamestateMachineeventStartStateMachine = {}
+
 
 ---@param fields? gamestateMachineeventStartStateMachine
 ---@return gamestateMachineeventStartStateMachine

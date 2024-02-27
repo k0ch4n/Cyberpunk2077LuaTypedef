@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedamageHitDebugData: IScriptable
 ---@field sourceHitPosition Vector4
 ---@field targetHitPosition Vector4
@@ -18,6 +19,7 @@
 ---@field hitType CName
 ---@field hitFlags CName
 gamedamageHitDebugData = {}
+
 
 ---@param fields? gamedamageHitDebugData
 ---@return gamedamageHitDebugData

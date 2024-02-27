@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OxygenbarWidgetGameController: gameuiHUDGameController
 ---@field oxygenControllerRef inkWidgetReference
 ---@field oxygenPercTextPath inkTextWidgetReference
@@ -17,6 +18,7 @@
 ---@field currentSwimmingState gamePSMSwimming
 ---@field oxygenListener OxygenListener
 OxygenbarWidgetGameController = {}
+
 
 ---@param fields? OxygenbarWidgetGameController
 ---@return OxygenbarWidgetGameController

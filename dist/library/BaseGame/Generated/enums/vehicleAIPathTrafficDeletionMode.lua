@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleAIPathTrafficDeletionMode: Enum
 ---@field INSTANT Enum 0
 ---@field OUT_OF_VIEW Enum 1

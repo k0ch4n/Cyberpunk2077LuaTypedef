@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GameplayLight: InteractiveDevice
 GameplayLight = {}
+
 
 ---@param fields? GameplayLight
 ---@return GameplayLight

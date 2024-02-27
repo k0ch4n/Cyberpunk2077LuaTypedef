@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorActionMoveOnSplineNodeDefinition: AIbehaviorActionTreeNodeDefinition
 ---@field spline AIArgumentMapping
 ---@field strafingTarget AIArgumentMapping
@@ -19,6 +20,7 @@
 ---@field disableFootIK AIArgumentMapping
 ---@field allowCrowdOnPath AIArgumentMapping
 AIbehaviorActionMoveOnSplineNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorActionMoveOnSplineNodeDefinition
 ---@return AIbehaviorActionMoveOnSplineNodeDefinition

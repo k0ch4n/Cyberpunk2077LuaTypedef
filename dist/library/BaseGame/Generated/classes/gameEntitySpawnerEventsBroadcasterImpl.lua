@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEntitySpawnerEventsBroadcasterImpl: gameIEntitySpawnerEventsBroadcaster
 gameEntitySpawnerEventsBroadcasterImpl = {}
+
 
 ---@param fields? gameEntitySpawnerEventsBroadcasterImpl
 ---@return gameEntitySpawnerEventsBroadcasterImpl

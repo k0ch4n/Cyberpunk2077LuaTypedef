@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRoachRaceMovement_Record: gamedataTweakDBRecord
 gamedataRoachRaceMovement_Record = {}
+
 
 ---@param fields? gamedataRoachRaceMovement_Record
 ---@return gamedataRoachRaceMovement_Record

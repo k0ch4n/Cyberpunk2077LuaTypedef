@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StatPrereqListener: gameScriptStatsListener
 ---@field state StatPrereqState
 StatPrereqListener = {}
+
 
 ---@param fields? StatPrereqListener
 ---@return StatPrereqListener

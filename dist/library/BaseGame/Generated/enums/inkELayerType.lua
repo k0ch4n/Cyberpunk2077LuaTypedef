@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkELayerType: Enum
 ---@field Watermarks Enum 0
 ---@field WaitingSign Enum 1

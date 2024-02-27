@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class TogglePersonalLink: ActionBool
 ---@field cachedStatus EPersonalLinkConnectionStatus
 ---@field shouldSkipMiniGame Bool
 TogglePersonalLink = {}
+
 
 ---@param fields? TogglePersonalLink
 ---@return TogglePersonalLink

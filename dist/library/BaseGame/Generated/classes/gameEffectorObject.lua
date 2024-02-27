@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectorObject: ISerializable
 gameEffectorObject = {}
+
 
 ---@param fields? gameEffectorObject
 ---@return gameEffectorObject

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsPreventionSystemActive: PreventionConditionAbstract
 IsPreventionSystemActive = {}
+
 
 ---@param fields? IsPreventionSystemActive
 ---@return IsPreventionSystemActive

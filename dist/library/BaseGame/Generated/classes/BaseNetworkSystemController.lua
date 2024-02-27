@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BaseNetworkSystemController: MasterController
 BaseNetworkSystemController = {}
+
 
 ---@param fields? BaseNetworkSystemController
 ---@return BaseNetworkSystemController

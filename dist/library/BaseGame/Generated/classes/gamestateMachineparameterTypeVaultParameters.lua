@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineparameterTypeVaultParameters: gamestateMachineparameterTypeClimbParametersBase
 gamestateMachineparameterTypeVaultParameters = {}
+
 
 ---@param fields? gamestateMachineparameterTypeVaultParameters
 ---@return gamestateMachineparameterTypeVaultParameters

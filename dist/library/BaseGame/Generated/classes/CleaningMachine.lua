@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CleaningMachine: BasicDistractionDevice
 CleaningMachine = {}
+
 
 ---@param fields? CleaningMachine
 ---@return CleaningMachine

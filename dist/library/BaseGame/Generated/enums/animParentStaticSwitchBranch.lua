@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animParentStaticSwitchBranch: Enum
 ---@field None Enum 0
 ---@field TrueBranch Enum 1

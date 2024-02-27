@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviortweakInstanceRef
 AIbehaviortweakInstanceRef = {}
+
 
 ---@param fields? AIbehaviortweakInstanceRef
 ---@return AIbehaviortweakInstanceRef

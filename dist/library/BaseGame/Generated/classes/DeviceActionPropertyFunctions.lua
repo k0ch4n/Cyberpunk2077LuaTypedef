@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeviceActionPropertyFunctions: IScriptable
 DeviceActionPropertyFunctions = {}
+
 
 ---@param fields? DeviceActionPropertyFunctions
 ---@return DeviceActionPropertyFunctions

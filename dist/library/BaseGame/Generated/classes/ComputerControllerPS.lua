@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ComputerControllerPS: TerminalControllerPS
 ---@field computerSetup ComputerSetup
 ---@field quickHackSetup ComputerQuickHackData
@@ -11,6 +12,7 @@
 ---@field isInSleepMode Bool
 ---@field computerUIpreset gamedataComputerStyleUIDefinition_Record
 ComputerControllerPS = {}
+
 
 ---@param fields? ComputerControllerPS
 ---@return ComputerControllerPS

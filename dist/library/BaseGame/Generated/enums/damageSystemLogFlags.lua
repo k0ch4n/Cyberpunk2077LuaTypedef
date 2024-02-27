@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class damageSystemLogFlags: Enum
 ---@field GENERAL Enum 1
 ---@field ASSERT Enum 2

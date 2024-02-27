@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsVFXEvent: scnSceneEvent
 ---@field effectEntry scnEffectEntry
 ---@field action scneventsVFXActionType
@@ -8,6 +9,7 @@
 ---@field nodeRef NodeRef
 ---@field muteSound Bool
 scneventsVFXEvent = {}
+
 
 ---@param fields? scneventsVFXEvent
 ---@return scneventsVFXEvent

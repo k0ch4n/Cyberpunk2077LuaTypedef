@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DeathEvents: HighLevelTransition
 ---@field isDyingEffectPlaying Bool
 DeathEvents = {}
+
 
 ---@param fields? DeathEvents
 ---@return DeathEvents

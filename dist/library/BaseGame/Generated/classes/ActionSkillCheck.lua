@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ActionSkillCheck: ActionBool
 ---@field skillCheck SkillCheckBase
 ---@field skillCheckName EDeviceChallengeSkill
@@ -8,6 +9,7 @@
 ---@field wasPassed Bool
 ---@field availableUnpowered Bool
 ActionSkillCheck = {}
+
 
 ---@param device ScriptableDeviceComponentPS
 ---@param availableUnpowered Bool

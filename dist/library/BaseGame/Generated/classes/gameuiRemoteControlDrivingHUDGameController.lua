@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiRemoteControlDrivingHUDGameController: gameuiHUDGameController
 ---@field overlay inkWidgetReference
 ---@field vehicleManufacturer inkImageWidgetReference
@@ -13,6 +14,7 @@
 ---@field maxRemoteControlDrivingRange Float
 ---@field mappinID gameNewMappinID
 gameuiRemoteControlDrivingHUDGameController = {}
+
 
 ---@param fields? gameuiRemoteControlDrivingHUDGameController
 ---@return gameuiRemoteControlDrivingHUDGameController

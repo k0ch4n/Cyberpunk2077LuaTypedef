@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RelicPerkSystem: gameScriptableSystem
 ---@field registeredPerkDevices PerkDeviceMappinData[]
 RelicPerkSystem = {}
+
 
 ---@param fields? RelicPerkSystem
 ---@return RelicPerkSystem

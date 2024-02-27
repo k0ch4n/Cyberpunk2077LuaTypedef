@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhoneContactItemVirtualController: inkVirtualCompoundItemController
 ---@field label inkTextWidgetReference
 ---@field preview inkTextWidgetReference
@@ -20,6 +21,7 @@
 ---@field isCallingEnabled Bool
 ---@field root inkWidget
 PhoneContactItemVirtualController = {}
+
 
 ---@param fields? PhoneContactItemVirtualController
 ---@return PhoneContactItemVirtualController

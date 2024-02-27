@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CarRadioGameController: gameuiHUDGameController
 ---@field radioStationName inkTextWidgetReference
 ---@field songName inkTextWidgetReference
@@ -9,6 +10,7 @@
 ---@field blackboard gameIBlackboard
 ---@field animationProxy inkanimProxy
 CarRadioGameController = {}
+
 
 ---@param fields? CarRadioGameController
 ---@return CarRadioGameController

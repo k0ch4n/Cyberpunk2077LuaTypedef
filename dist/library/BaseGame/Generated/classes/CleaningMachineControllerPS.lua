@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CleaningMachineControllerPS: BasicDistractionDeviceControllerPS
 ---@field cleaningMachineSkillChecks EngDemoContainer
 CleaningMachineControllerPS = {}
+
 
 ---@param fields? CleaningMachineControllerPS
 ---@return CleaningMachineControllerPS

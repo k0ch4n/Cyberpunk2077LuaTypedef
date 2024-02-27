@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldITriggerAreaNotifer: IScriptable
 ---@field isEnabled Bool
 ---@field includeChannels TriggerChannel

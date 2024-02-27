@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIDrivePanicCommandHandler: AICommandHandlerBase
 ---@field outAllowSimplifiedMovement AIArgumentMapping
 ---@field outIgnoreTickets AIArgumentMapping
@@ -7,6 +8,7 @@
 ---@field outUseSpeedBasedLookupRange AIArgumentMapping
 ---@field outTryDriveAwayFromPlayer AIArgumentMapping
 AIDrivePanicCommandHandler = {}
+
 
 ---@param fields? AIDrivePanicCommandHandler
 ---@return AIDrivePanicCommandHandler

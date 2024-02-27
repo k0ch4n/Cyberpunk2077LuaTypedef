@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TraitDisplayData: BasePerkDisplayData
 ---@field type gamedataTraitType
 TraitDisplayData = {}
+
 
 ---@param fields? TraitDisplayData
 ---@return TraitDisplayData

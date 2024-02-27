@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceIdleEvents: LocomotionGroundEvents
 ForceIdleEvents = {}
+
 
 ---@param fields? ForceIdleEvents
 ---@return ForceIdleEvents

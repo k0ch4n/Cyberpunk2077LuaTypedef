@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class scnCutControlNode: scnSceneGraphNode
 scnCutControlNode = {}
+
 
 ---@param fields? scnCutControlNode
 ---@return scnCutControlNode

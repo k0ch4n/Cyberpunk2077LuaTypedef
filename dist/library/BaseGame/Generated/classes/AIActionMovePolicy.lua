@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIActionMovePolicy: IScriptable
 AIActionMovePolicy = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataMovementPolicy_Record

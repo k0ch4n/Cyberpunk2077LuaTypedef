@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryItemStatItem: inkWidgetLogicController
 ---@field labelText inkTextWidgetReference
 ---@field valueText inkTextWidgetReference
@@ -10,6 +11,7 @@
 ---@field negativeState CName
 ---@field positiveState CName
 InventoryItemStatItem = {}
+
 
 ---@param fields? InventoryItemStatItem
 ---@return InventoryItemStatItem

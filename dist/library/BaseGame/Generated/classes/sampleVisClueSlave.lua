@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class sampleVisClueSlave: gameObject
 sampleVisClueSlave = {}
+
 
 ---@param fields? sampleVisClueSlave
 ---@return sampleVisClueSlave

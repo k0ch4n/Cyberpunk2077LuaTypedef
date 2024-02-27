@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class IsPlayerMovingPrereqState: gamePrereqState
 ---@field owner gameObject
 ---@field isMovingVertically Bool
@@ -7,6 +8,7 @@
 ---@field isMovingHorizontally Bool
 ---@field listenerHorizontal redCallbackObject
 IsPlayerMovingPrereqState = {}
+
 
 ---@param fields? IsPlayerMovingPrereqState
 ---@return IsPlayerMovingPrereqState

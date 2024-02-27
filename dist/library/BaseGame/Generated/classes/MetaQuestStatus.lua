@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MetaQuestStatus
 ---@field MetaQuest1Hidden Bool
 ---@field MetaQuest1Value Int32
@@ -11,6 +12,7 @@
 ---@field MetaQuest3Description String
 ---@field MetaQuest3Value Int32
 MetaQuestStatus = {}
+
 
 ---@param fields? MetaQuestStatus
 ---@return MetaQuestStatus

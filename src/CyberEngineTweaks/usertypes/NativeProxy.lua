@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NativeProxy
 NativeProxy = {}
+
 
 ---@return IScriptable|WeakReference
 function NativeProxy:Target() end

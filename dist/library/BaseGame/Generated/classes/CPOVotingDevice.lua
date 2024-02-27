@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CPOVotingDevice: CPOMissionDevice
 ---@field deviceName CName
 CPOVotingDevice = {}
+
 
 ---@param fields? CPOVotingDevice
 ---@return CPOVotingDevice

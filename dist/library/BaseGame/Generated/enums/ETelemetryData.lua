@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETelemetryData: Enum
 ---@field MeleeAttacksMade Enum 0
 ---@field RangedAttacksMade Enum 1

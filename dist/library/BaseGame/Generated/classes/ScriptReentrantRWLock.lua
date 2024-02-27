@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ScriptReentrantRWLock
 ScriptReentrantRWLock = {}
+
 
 ---@param fields? ScriptReentrantRWLock
 ---@return ScriptReentrantRWLock

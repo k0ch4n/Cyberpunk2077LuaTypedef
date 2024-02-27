@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameJournalInternetVideo: gameJournalInternetBase
 ---@field videoResource Bink
 gameJournalInternetVideo = {}
+
 
 ---@param fields? gameJournalInternetVideo
 ---@return gameJournalInternetVideo

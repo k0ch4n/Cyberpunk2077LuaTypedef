@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MeleeLeapEvents: MeleeEventsTransition
 ---@field enableVaultFromLeapAttack Bool
 ---@field exitingToMeleeStrongAttack Bool
@@ -7,6 +8,7 @@
 ---@field isTargetKnockedOver Bool
 ---@field textLayerId Uint32
 MeleeLeapEvents = {}
+
 
 ---@param fields? MeleeLeapEvents
 ---@return MeleeLeapEvents

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_PauseMenu: MenuScenario_BaseMenu
 MenuScenario_PauseMenu = {}
+
 
 ---@param fields? MenuScenario_PauseMenu
 ---@return MenuScenario_PauseMenu

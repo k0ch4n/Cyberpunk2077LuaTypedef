@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldPhysicalFractureFieldNodeInstance: worldINodeInstance
 worldPhysicalFractureFieldNodeInstance = {}
+
 
 ---@param fields? worldPhysicalFractureFieldNodeInstance
 ---@return worldPhysicalFractureFieldNodeInstance

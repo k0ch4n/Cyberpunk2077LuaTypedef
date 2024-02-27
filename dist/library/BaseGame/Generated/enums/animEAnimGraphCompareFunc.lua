@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animEAnimGraphCompareFunc: Enum
 ---@field AGCF_Equal Enum 0
 ---@field AGCF_NotEqual Enum 1

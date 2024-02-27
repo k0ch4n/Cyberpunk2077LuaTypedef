@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SignalType: Enum
 ---@field DEFAULT Enum 0
 ---@field REGISTRATION Enum 1

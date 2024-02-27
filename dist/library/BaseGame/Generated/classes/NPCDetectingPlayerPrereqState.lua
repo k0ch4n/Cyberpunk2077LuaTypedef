@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NPCDetectingPlayerPrereqState: gamePrereqState
 ---@field owner gameObject
 ---@field listenerID redCallbackObject
 NPCDetectingPlayerPrereqState = {}
+
 
 ---@param fields? NPCDetectingPlayerPrereqState
 ---@return NPCDetectingPlayerPrereqState

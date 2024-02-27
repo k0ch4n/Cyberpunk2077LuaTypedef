@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BloodswellEffectorHealthListener: gameScriptStatPoolsListener
 ---@field effector BloodswellEffector
 BloodswellEffectorHealthListener = {}
+
 
 ---@param fields? BloodswellEffectorHealthListener
 ---@return BloodswellEffectorHealthListener

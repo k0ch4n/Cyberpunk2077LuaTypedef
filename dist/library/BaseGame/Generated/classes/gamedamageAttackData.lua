@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedamageAttackData: IScriptable
 ---@field attackType gamedataAttackType
 ---@field instigator gameObject
@@ -22,6 +23,7 @@
 ---@field hitReactionMin Int32
 ---@field hitReactionMax Int32
 gamedamageAttackData = {}
+
 
 ---@param fields? gamedamageAttackData
 ---@return gamedamageAttackData

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerkTooltipData: BasePerksMenuTooltipData
 ---@field perkType gamedataNewPerkType
 ---@field perkArea gamedataNewPerkSlotType
@@ -9,6 +10,7 @@
 ---@field perkData NewPerkDisplayData
 ---@field attributeData AttributeData
 NewPerkTooltipData = {}
+
 
 ---@param fields? NewPerkTooltipData
 ---@return NewPerkTooltipData

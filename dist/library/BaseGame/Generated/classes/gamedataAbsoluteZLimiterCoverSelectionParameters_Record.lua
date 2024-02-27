@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAbsoluteZLimiterCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataAbsoluteZLimiterCoverSelectionParameters_Record = {}
+
 
 ---@param fields? gamedataAbsoluteZLimiterCoverSelectionParameters_Record
 ---@return gamedataAbsoluteZLimiterCoverSelectionParameters_Record

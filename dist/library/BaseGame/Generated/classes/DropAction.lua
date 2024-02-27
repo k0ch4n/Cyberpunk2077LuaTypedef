@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DropAction: BaseItemAction
 DropAction = {}
+
 
 ---@param fields? DropAction
 ---@return DropAction

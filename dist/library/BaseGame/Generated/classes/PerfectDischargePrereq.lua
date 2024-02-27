@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PerfectDischargePrereq: StatPoolPrereq
 ---@field invert Bool
 PerfectDischargePrereq = {}
+
 
 ---@param fields? PerfectDischargePrereq
 ---@return PerfectDischargePrereq

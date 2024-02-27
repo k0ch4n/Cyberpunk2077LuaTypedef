@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameGOGRewardsSystem: gameIOnlineSystem
 gameGOGRewardsSystem = {}
+
 
 ---@param fields? gameGOGRewardsSystem
 ---@return gameGOGRewardsSystem

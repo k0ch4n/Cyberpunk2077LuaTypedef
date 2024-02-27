@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioGeneralVoiceGruntSettings
 ---@field variationsCount Uint32
 ---@field painLong CName
@@ -28,6 +29,7 @@
 ---@field contextualVoiceGruntSettings audioContextualVoiceGruntSettings
 ---@field gruntVariations audioVoiceGruntVariations
 audioGeneralVoiceGruntSettings = {}
+
 
 ---@param fields? audioGeneralVoiceGruntSettings
 ---@return audioGeneralVoiceGruntSettings

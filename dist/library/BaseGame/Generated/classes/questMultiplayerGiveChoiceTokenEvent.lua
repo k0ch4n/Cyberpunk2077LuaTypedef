@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class questMultiplayerGiveChoiceTokenEvent: redEvent
 ---@field compatibleDeviceName CName
 ---@field timeout Uint32
 ---@field tokenAlreadyGiven Bool
 questMultiplayerGiveChoiceTokenEvent = {}
+
 
 ---@param fields? questMultiplayerGiveChoiceTokenEvent
 ---@return questMultiplayerGiveChoiceTokenEvent

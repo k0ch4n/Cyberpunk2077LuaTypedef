@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ElevatorTerminalLogicController: DeviceWidgetControllerBase
 ---@field elevatorUpArrowsWidget inkFlexWidgetReference
 ---@field elevatorDownArrowsWidget inkFlexWidgetReference
 ---@field forcedElevatorArrowsState EForcedElevatorArrowsState
 ElevatorTerminalLogicController = {}
+
 
 ---@param fields? ElevatorTerminalLogicController
 ---@return ElevatorTerminalLogicController

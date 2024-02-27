@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataWorkspotActionType: Enum
 ---@field DeviceInvestigation Enum 0
 ---@field FearHide Enum 1

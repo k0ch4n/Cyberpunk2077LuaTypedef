@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CoolExitingDecisions: ExitingDecisions
 CoolExitingDecisions = {}
+
 
 ---@param fields? CoolExitingDecisions
 ---@return CoolExitingDecisions

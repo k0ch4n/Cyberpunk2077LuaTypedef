@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStatPoolModifier
 ---@field enabled Bool
 ---@field rangeBegin Float
@@ -9,6 +10,7 @@
 ---@field delayOnChange Bool
 ---@field usingPointValues Bool
 gameStatPoolModifier = {}
+
 
 ---@param fields? gameStatPoolModifier
 ---@return gameStatPoolModifier

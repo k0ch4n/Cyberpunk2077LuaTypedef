@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestListVirtualTemplateClassifier: inkVirtualItemTemplateClassifierWrapper
 QuestListVirtualTemplateClassifier = {}
+
 
 ---@param fields? QuestListVirtualTemplateClassifier
 ---@return QuestListVirtualTemplateClassifier

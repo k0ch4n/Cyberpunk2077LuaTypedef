@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TerminalController: MasterController
 TerminalController = {}
+
 
 ---@param fields? TerminalController
 ---@return TerminalController

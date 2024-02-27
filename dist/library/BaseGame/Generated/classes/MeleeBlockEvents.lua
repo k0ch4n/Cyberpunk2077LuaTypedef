@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MeleeBlockEvents: MeleeRumblingEvents
 ---@field blockStatFlag gameStatModifierData_Deprecated
 MeleeBlockEvents = {}
+
 
 ---@param fields? MeleeBlockEvents
 ---@return MeleeBlockEvents

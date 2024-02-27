@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SMeshChunkPacked
 ---@field vertexType EMeshVertexType
 ---@field materialID CName[]
@@ -15,6 +16,7 @@
 ---@field streamMask Uint64
 ---@field lodMask Uint8
 SMeshChunkPacked = {}
+
 
 ---@param fields? SMeshChunkPacked
 ---@return SMeshChunkPacked

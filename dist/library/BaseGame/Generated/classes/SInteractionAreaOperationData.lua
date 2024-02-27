@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SInteractionAreaOperationData
 ---@field isActivatorPlayer Bool
 ---@field isActivatorNPC Bool
@@ -7,6 +8,7 @@
 ---@field operationType gameinteractionsEInteractionEventType
 ---@field operation SBaseDeviceOperationData
 SInteractionAreaOperationData = {}
+
 
 ---@param fields? SInteractionAreaOperationData
 ---@return SInteractionAreaOperationData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SmartDespawnRequest: redEvent
 SmartDespawnRequest = {}
+
 
 ---@param fields? SmartDespawnRequest
 ---@return SmartDespawnRequest

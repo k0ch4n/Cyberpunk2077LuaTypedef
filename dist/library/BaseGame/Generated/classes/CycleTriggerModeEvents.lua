@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CycleTriggerModeEvents: WeaponEventsTransition
 CycleTriggerModeEvents = {}
+
 
 ---@param fields? CycleTriggerModeEvents
 ---@return CycleTriggerModeEvents

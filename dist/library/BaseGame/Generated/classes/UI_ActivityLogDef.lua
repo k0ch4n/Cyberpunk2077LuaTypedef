@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UI_ActivityLogDef: gamebbScriptDefinition
 ---@field activityLogHide gamebbScriptID_Bool
 UI_ActivityLogDef = {}
+
 
 ---@param fields? UI_ActivityLogDef
 ---@return UI_ActivityLogDef

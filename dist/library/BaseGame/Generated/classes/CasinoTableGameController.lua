@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CasinoTableGameController: gameuiWidgetGameController
 ---@field casinoChipTDBID TweakDBID
 ---@field multiplier Uint32
@@ -8,6 +9,7 @@
 ---@field player gameObject
 ---@field transactionSystem gameTransactionSystem
 CasinoTableGameController = {}
+
 
 ---@param fields? CasinoTableGameController
 ---@return CasinoTableGameController

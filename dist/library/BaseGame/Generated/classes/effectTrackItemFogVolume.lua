@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class effectTrackItemFogVolume: effectTrackItem
 ---@field priority Uint8
 ---@field densityFalloff Float
@@ -8,6 +9,7 @@
 ---@field size IEvaluatorVector
 ---@field color IEvaluatorColor
 effectTrackItemFogVolume = {}
+
 
 ---@param fields? effectTrackItemFogVolume
 ---@return effectTrackItemFogVolume

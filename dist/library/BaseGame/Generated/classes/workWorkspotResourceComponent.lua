@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class workWorkspotResourceComponent: entIPlacedComponent
 ---@field workspotResource workWorkspotResource
 ---@field npcWorkspotResourceSync workWorkspotResource
@@ -7,6 +8,7 @@
 ---@field syncSlotName CName
 ---@field shouldCrouch Bool
 workWorkspotResourceComponent = {}
+
 
 ---@param fields? workWorkspotResourceComponent
 ---@return workWorkspotResourceComponent

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerWeaponDetailed: ScannerWeaponBasic
 ---@field damage CName
 ScannerWeaponDetailed = {}
+
 
 ---@param fields? ScannerWeaponDetailed
 ---@return ScannerWeaponDetailed

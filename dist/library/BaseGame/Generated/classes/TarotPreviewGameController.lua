@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TarotPreviewGameController: gameuiWidgetGameController
 ---@field background inkWidgetReference
 ---@field ep1Icon inkWidgetReference
@@ -9,6 +10,7 @@
 ---@field data TarotCardPreviewData
 ---@field isClosing Bool
 TarotPreviewGameController = {}
+
 
 ---@param fields? TarotPreviewGameController
 ---@return TarotPreviewGameController

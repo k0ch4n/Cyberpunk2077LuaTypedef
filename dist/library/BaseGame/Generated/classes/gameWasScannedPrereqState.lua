@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameWasScannedPrereqState: gamePrereqState
 gameWasScannedPrereqState = {}
+
 
 ---@param fields? gameWasScannedPrereqState
 ---@return gameWasScannedPrereqState

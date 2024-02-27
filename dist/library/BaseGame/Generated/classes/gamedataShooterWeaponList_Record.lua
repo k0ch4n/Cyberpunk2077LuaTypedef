@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataShooterWeaponList_Record: gamedataTweakDBRecord
 gamedataShooterWeaponList_Record = {}
+
 
 ---@param fields? gamedataShooterWeaponList_Record
 ---@return gamedataShooterWeaponList_Record

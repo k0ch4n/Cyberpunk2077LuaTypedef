@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class panzerBootupUI: Enum
 ---@field UnbootedIdle Enum 0
 ---@field BootingAttempt Enum 1

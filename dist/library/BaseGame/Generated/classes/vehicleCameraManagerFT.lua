@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleCameraManagerFT: vehicleCameraManager
 vehicleCameraManagerFT = {}
+
 
 ---@param fields? vehicleCameraManagerFT
 ---@return vehicleCameraManagerFT

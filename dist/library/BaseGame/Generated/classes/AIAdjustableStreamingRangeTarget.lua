@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIAdjustableStreamingRangeTarget: gameObject
 ---@field minStreamingDistance Float
 AIAdjustableStreamingRangeTarget = {}
+
 
 ---@param fields? AIAdjustableStreamingRangeTarget
 ---@return AIAdjustableStreamingRangeTarget

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerControlComponent: gameScriptableComponent
 ---@field currentScanType MechanicalScanType
 ---@field currentScanEffect gameEffectInstance
@@ -9,6 +10,7 @@
 ---@field a gameStaticTriggerAreaComponent
 ---@field isScanningPlayer Bool
 ScannerControlComponent = {}
+
 
 ---@param fields? ScannerControlComponent
 ---@return ScannerControlComponent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameUIItemsHelper: IScriptable
 gameUIItemsHelper = {}
+
 
 ---@param fields? gameUIItemsHelper
 ---@return gameUIItemsHelper

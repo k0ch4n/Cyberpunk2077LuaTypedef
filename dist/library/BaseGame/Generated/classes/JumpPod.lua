@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class JumpPod: gameObject
 ---@field activationLight entIVisualComponent
 ---@field activationTrigger entIComponent
@@ -7,6 +8,7 @@
 ---@field impulseRight Float
 ---@field impulseUp Float
 JumpPod = {}
+
 
 ---@param fields? JumpPod
 ---@return JumpPod

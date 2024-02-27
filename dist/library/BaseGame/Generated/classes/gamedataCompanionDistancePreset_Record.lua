@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCompanionDistancePreset_Record: gamedataTweakDBRecord
 gamedataCompanionDistancePreset_Record = {}
+
 
 ---@param fields? gamedataCompanionDistancePreset_Record
 ---@return gamedataCompanionDistancePreset_Record

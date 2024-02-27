@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UpdateWhistleCustomWorldPosition: UpdateWhistlePosition
 ---@field outPositionArgument AIArgumentMapping
 UpdateWhistleCustomWorldPosition = {}
+
 
 ---@param fields? UpdateWhistleCustomWorldPosition
 ---@return UpdateWhistleCustomWorldPosition

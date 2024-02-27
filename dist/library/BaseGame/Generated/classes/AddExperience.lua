@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AddExperience: gamePlayerScriptableSystemRequest
 ---@field amount Int32
 ---@field experienceType gamedataProficiencyType
 ---@field debug Bool
 AddExperience = {}
+
 
 ---@param fields? AddExperience
 ---@return AddExperience

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class InventoryItemPartDisplay: inkWidgetLogicController
 ---@field PartIconImage inkImageWidgetReference
 ---@field Rarity inkWidgetReference
 ---@field TexturePartName CName
 ---@field attachmentData gameInventoryItemAttachments
 InventoryItemPartDisplay = {}
+
 
 ---@param fields? InventoryItemPartDisplay
 ---@return InventoryItemPartDisplay

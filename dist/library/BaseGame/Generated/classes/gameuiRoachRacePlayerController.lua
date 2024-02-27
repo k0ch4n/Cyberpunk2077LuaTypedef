@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameuiRoachRacePlayerController: gameuiSideScrollerMiniGamePlayerController
 ---@field runAnimation CName
 ---@field jumpAnimation CName
 ---@field currentAnimation inkanimProxy
 gameuiRoachRacePlayerController = {}
+
 
 ---@param fields? gameuiRoachRacePlayerController
 ---@return gameuiRoachRacePlayerController

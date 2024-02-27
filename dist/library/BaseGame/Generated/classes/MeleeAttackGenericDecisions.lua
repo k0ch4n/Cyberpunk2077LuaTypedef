@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeAttackGenericDecisions: MeleeTransition
 MeleeAttackGenericDecisions = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

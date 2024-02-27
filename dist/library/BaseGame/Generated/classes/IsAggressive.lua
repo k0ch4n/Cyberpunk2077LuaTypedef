@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsAggressive: AIbehaviorconditionScript
 IsAggressive = {}
+
 
 ---@param fields? IsAggressive
 ---@return IsAggressive

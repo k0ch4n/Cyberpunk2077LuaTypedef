@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animRigPart
 ---@field name CName
 ---@field singleBones animRigPartBone[]
@@ -8,6 +9,7 @@
 ---@field mask animTransformMask[]
 ---@field maskRotMS Int32[]
 animRigPart = {}
+
 
 ---@param fields? animRigPart
 ---@return animRigPart

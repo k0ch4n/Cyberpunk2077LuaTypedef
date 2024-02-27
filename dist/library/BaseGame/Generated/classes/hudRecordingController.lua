@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hudRecordingController: gameuiHUDGameController
 ---@field root inkCompoundWidget
 ---@field anim_intro inkanimProxy
@@ -10,6 +11,7 @@
 ---@field option_outro inkanimPlaybackOptions
 ---@field factListener Uint32
 hudRecordingController = {}
+
 
 ---@param fields? hudRecordingController
 ---@return hudRecordingController

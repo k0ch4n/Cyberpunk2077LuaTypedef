@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PlayerListEntryData
 ---@field playerObject gameObject
 ---@field playerListEntry inkWidget
 PlayerListEntryData = {}
+
 
 ---@param fields? PlayerListEntryData
 ---@return PlayerListEntryData

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTargetSearchQuery
 ---@field testedSet gameTargetingSet
 ---@field searchFilter gameTargetSearchFilter
@@ -9,6 +10,7 @@
 ---@field filterObjectByDistance Bool
 ---@field queryTarget entEntityID
 gameTargetSearchQuery = {}
+
 
 ---@param fields? gameTargetSearchQuery
 ---@return gameTargetSearchQuery

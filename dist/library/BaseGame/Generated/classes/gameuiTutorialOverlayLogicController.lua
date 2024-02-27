@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiTutorialOverlayLogicController: inkWidgetLogicController
 ---@field hideInMenu Bool
 ---@field hideOnInput Bool
@@ -8,6 +9,7 @@
 ---@field animProxy inkanimProxy
 ---@field tutorialManager questTutorialManager
 gameuiTutorialOverlayLogicController = {}
+
 
 ---@param fields? gameuiTutorialOverlayLogicController
 ---@return gameuiTutorialOverlayLogicController

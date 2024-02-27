@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAIActionSecurityNotificationType: Enum
 ---@field COMBAT Enum 0
 ---@field DEESCALATE Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BluelineConditionTypeBase: ScriptConditionTypeBase
 BluelineConditionTypeBase = {}
+
 
 ---@param playerObject gameObject
 ---@return nil

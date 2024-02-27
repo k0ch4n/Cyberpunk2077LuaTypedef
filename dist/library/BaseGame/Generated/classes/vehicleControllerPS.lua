@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleControllerPS: gameComponentPS
 ---@field vehicleDoors vehicleVehicleSlotsState
 ---@field state vehicleEState
@@ -7,6 +8,7 @@
 ---@field isAlarmOn Bool
 ---@field lightTypeMask Int32
 vehicleControllerPS = {}
+
 
 ---@param fields? vehicleControllerPS
 ---@return vehicleControllerPS

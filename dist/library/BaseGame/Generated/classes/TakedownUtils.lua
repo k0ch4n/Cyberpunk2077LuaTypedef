@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TakedownUtils: IScriptable
 TakedownUtils = {}
+
 
 ---@param fields? TakedownUtils
 ---@return TakedownUtils

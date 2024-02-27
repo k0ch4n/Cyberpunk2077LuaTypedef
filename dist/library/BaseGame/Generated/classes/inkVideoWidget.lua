@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkVideoWidget: inkLeafWidget
 ---@field videoResource Bink
 ---@field loop Bool
@@ -7,6 +8,7 @@
 ---@field isParallaxEnabled Bool
 ---@field prefetchVideo Bool
 inkVideoWidget = {}
+
 
 ---@param fields? inkVideoWidget
 ---@return inkVideoWidget

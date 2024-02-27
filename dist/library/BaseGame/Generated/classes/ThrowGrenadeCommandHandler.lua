@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ThrowGrenadeCommandHandler: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ---@field currentCommand AIThrowGrenadeCommand
 ThrowGrenadeCommandHandler = {}
+
 
 ---@param fields? ThrowGrenadeCommandHandler
 ---@return ThrowGrenadeCommandHandler

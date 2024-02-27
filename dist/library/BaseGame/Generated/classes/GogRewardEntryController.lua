@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GogRewardEntryController: inkWidgetLogicController
 ---@field nameWidget inkWidgetReference
 ---@field descriptionWidget inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field backgroundWidget inkWidgetReference
 ---@field isUnlocked Bool
 GogRewardEntryController = {}
+
 
 ---@param fields? GogRewardEntryController
 ---@return GogRewardEntryController

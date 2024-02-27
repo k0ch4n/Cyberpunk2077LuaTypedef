@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RoadBlockadeMappinController: MinimapPOIMappinController
 RoadBlockadeMappinController = {}
+
 
 ---@param fields? RoadBlockadeMappinController
 ---@return RoadBlockadeMappinController

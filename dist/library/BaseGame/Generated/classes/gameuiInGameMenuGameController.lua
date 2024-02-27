@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiInGameMenuGameController: gameuiBaseMenuGameController
 ---@field itemSceneInfos gameuiInGameMenuGameControllerItemSceneInfo[]
 ---@field garmentSwitchEffectControllers gameuiGarmentSwitchEffectController[]
@@ -19,6 +20,7 @@
 ---@field loadSaveDelayID gameDelayID
 ---@field player gameObject
 gameuiInGameMenuGameController = {}
+
 
 ---@param fields? gameuiInGameMenuGameController
 ---@return gameuiInGameMenuGameController

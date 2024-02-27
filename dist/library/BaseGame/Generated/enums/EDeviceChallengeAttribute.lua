@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EDeviceChallengeAttribute: Enum
 ---@field Invalid Enum 0
 ---@field Strength Enum 1

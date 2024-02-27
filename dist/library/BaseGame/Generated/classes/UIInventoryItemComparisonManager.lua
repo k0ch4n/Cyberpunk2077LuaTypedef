@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class UIInventoryItemComparisonManager: IScriptable
 ---@field ComparedStats UIInventoryItemStatComparison[]
 ---@field ComparedItem UIInventoryItem
 ---@field comparisonHash Uint64
 UIInventoryItemComparisonManager = {}
+
 
 ---@param fields? UIInventoryItemComparisonManager
 ---@return UIInventoryItemComparisonManager

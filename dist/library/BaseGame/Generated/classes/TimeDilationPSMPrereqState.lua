@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TimeDilationPSMPrereqState: PlayerStateMachinePrereqState
 TimeDilationPSMPrereqState = {}
+
 
 ---@param fields? TimeDilationPSMPrereqState
 ---@return TimeDilationPSMPrereqState

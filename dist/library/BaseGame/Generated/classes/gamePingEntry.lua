@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePingEntry
 ---@field owner gameObject
 ---@field worldPosition Vector4
@@ -7,6 +8,7 @@
 ---@field pingType gamedataPingType
 ---@field hitObject entEntity
 gamePingEntry = {}
+
 
 ---@param fields? gamePingEntry
 ---@return gamePingEntry

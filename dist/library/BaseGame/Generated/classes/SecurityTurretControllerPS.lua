@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SecurityTurretControllerPS: SensorDeviceControllerPS
 ---@field pendingSecuritySystemDisableRequest Bool
 ---@field turretSkillChecks EngDemoContainer
@@ -8,6 +9,7 @@
 ---@field weaponItemRecordString String
 ---@field vfxNameOnShoot CName
 SecurityTurretControllerPS = {}
+
 
 ---@param fields? SecurityTurretControllerPS
 ---@return SecurityTurretControllerPS

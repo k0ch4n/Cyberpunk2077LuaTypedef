@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class GenericButtonController: inkWidgetLogicController
 ---@field label inkTextWidgetReference
 ---@field frameHovered inkWidgetReference
 ---@field itemHovered Bool
 ---@field enabled Bool
 GenericButtonController = {}
+
 
 ---@param fields? GenericButtonController
 ---@return GenericButtonController

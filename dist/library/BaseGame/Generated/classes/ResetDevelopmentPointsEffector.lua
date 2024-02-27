@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetDevelopmentPointsEffector: gameEffector
 ResetDevelopmentPointsEffector = {}
+
 
 ---@param fields? ResetDevelopmentPointsEffector
 ---@return ResetDevelopmentPointsEffector

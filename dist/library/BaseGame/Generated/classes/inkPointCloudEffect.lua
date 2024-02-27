@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkPointCloudEffect: inkIEffect
 ---@field repeat Float
 ---@field offsetX Float
@@ -10,6 +11,7 @@
 ---@field depthToOpacity Float
 ---@field depthToBrightness Float
 inkPointCloudEffect = {}
+
 
 ---@param fields? inkPointCloudEffect
 ---@return inkPointCloudEffect

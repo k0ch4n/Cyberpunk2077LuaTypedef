@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animEventFilterType: Enum
 ---@field Default Enum 0
 ---@field AlwaysCollect Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SaveGameMenuGameController: gameuiSaveHandlingController
 ---@field list inkCompoundWidgetReference
 ---@field buttonHintsManagerRef inkWidgetReference
@@ -20,6 +21,7 @@
 ---@field emptySlotController LoadListItem
 ---@field isEp1Enabled Bool
 SaveGameMenuGameController = {}
+
 
 ---@param fields? SaveGameMenuGameController
 ---@return SaveGameMenuGameController

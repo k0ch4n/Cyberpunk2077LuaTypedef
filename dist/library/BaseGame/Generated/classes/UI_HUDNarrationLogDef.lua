@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UI_HUDNarrationLogDef: gamebbScriptDefinition
 ---@field LastEvent gamebbScriptID_Variant
 UI_HUDNarrationLogDef = {}
+
 
 ---@param fields? UI_HUDNarrationLogDef
 ---@return UI_HUDNarrationLogDef

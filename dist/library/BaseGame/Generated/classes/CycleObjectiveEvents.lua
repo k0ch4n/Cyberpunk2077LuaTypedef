@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CycleObjectiveEvents: QuickSlotsTapEvents
 CycleObjectiveEvents = {}
+
 
 ---@param fields? CycleObjectiveEvents
 ---@return CycleObjectiveEvents

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OpenStash: ActionBool
 OpenStash = {}
+
 
 ---@param fields? OpenStash
 ---@return OpenStash

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ScannerName: ScannerChunk
 ---@field displayName String
 ---@field hasArchetype Bool
 ---@field textParams textTextParameterSet
 ScannerName = {}
+
 
 ---@param fields? ScannerName
 ---@return ScannerName

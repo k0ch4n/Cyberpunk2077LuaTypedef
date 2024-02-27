@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questMoveType: Enum
 ---@field MoveOnSpline Enum 0
 ---@field MoveTo Enum 1

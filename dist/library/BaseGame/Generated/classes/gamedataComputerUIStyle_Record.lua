@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataComputerUIStyle_Record: gamedataTweakDBRecord
 gamedataComputerUIStyle_Record = {}
+
 
 ---@param fields? gamedataComputerUIStyle_Record
 ---@return gamedataComputerUIStyle_Record

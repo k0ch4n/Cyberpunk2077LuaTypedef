@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ItemLootedEvent: redEvent
 ItemLootedEvent = {}
+
 
 ---@param fields? ItemLootedEvent
 ---@return ItemLootedEvent

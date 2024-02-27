@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DebugNpcNameplateGameController: gameuiProjectedHUDGameController
 ---@field isToggledOn Bool
 ---@field uiBlackboard gameIBlackboard
@@ -10,6 +11,7 @@
 ---@field debugText1 inkTextWidget
 ---@field debugText2 inkTextWidget
 DebugNpcNameplateGameController = {}
+
 
 ---@param fields? DebugNpcNameplateGameController
 ---@return DebugNpcNameplateGameController

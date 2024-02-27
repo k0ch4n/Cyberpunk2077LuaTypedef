@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemWeather: worldIRuntimeSystem
 worldRuntimeSystemWeather = {}
+
 
 ---@param fields? worldRuntimeSystemWeather
 ---@return worldRuntimeSystemWeather

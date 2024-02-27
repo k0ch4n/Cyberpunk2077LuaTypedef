@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class communityPhaseTimePeriod: communityTimePeriod
 ---@field quantity Uint16
 ---@field markings CName[]
@@ -7,6 +8,7 @@
 ---@field categories gameSpotSequenceCategory[]
 ---@field isSequence Bool
 communityPhaseTimePeriod = {}
+
 
 ---@param fields? communityPhaseTimePeriod
 ---@return communityPhaseTimePeriod

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class physicsQueryFilter
 ---@field mask1 Uint64
 ---@field mask2 Uint64
 physicsQueryFilter = {}
+
 
 ---@param fields? physicsQueryFilter
 ---@return physicsQueryFilter

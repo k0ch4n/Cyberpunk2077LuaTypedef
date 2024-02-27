@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NPCAttitudeTowardsPlayerPrereq: gameIScriptablePrereq
 ---@field attitude EAIAttitude
 NPCAttitudeTowardsPlayerPrereq = {}
+
 
 ---@param fields? NPCAttitudeTowardsPlayerPrereq
 ---@return NPCAttitudeTowardsPlayerPrereq

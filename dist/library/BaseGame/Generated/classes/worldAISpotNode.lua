@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldAISpotNode: worldSocketNode
 ---@field spot AISpot
 ---@field isWorkspotInfinite Bool
@@ -13,6 +14,7 @@
 ---@field crowdWhitelist redTagList
 ---@field crowdBlacklist redTagList
 worldAISpotNode = {}
+
 
 ---@param fields? worldAISpotNode
 ---@return worldAISpotNode

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ItemLabelController: inkWidgetLogicController
 ---@field label inkTextWidgetReference
 ---@field moneyIcon inkImageWidgetReference
 ---@field type ItemLabelType
 ItemLabelController = {}
+
 
 ---@param fields? ItemLabelController
 ---@return ItemLabelController

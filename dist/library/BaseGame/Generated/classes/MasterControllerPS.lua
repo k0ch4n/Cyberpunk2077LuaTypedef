@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MasterControllerPS: ScriptableDeviceComponentPS
 ---@field clearance gamedeviceClearance
 MasterControllerPS = {}
+
 
 ---@param fields? MasterControllerPS
 ---@return MasterControllerPS

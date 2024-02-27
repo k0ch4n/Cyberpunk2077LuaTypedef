@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendPostFx_ScanningState: Enum
 ---@field Off Enum 0
 ---@field Scanning Enum 2

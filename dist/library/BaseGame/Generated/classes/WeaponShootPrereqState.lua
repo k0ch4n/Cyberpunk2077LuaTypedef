@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WeaponShootPrereqState: gamePrereqState
 ---@field listenerWeaponInt redCallbackObject
 ---@field listenerActiveWeaponVariant redCallbackObject
@@ -9,6 +10,7 @@
 ---@field howManyAttacks Int32
 ---@field remainingAttacks Int32
 WeaponShootPrereqState = {}
+
 
 ---@param fields? WeaponShootPrereqState
 ---@return WeaponShootPrereqState

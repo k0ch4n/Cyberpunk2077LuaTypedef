@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkanimBuilder: IScriptable
 inkanimBuilder = {}
+
 
 ---@param fields? inkanimBuilder
 ---@return inkanimBuilder

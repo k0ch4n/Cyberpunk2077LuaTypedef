@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AddItemsEffector: gameEffector
 ---@field items gamedataInventoryItem_Record[]
 AddItemsEffector = {}
+
 
 ---@param fields? AddItemsEffector
 ---@return AddItemsEffector

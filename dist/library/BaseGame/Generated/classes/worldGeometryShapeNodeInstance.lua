@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldGeometryShapeNodeInstance: worldINodeInstance
 worldGeometryShapeNodeInstance = {}
+
 
 ---@param fields? worldGeometryShapeNodeInstance
 ---@return worldGeometryShapeNodeInstance

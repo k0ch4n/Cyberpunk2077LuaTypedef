@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GetOwnPosition: AIbehaviortaskScript
 ---@field outPosition AIArgumentMapping
 GetOwnPosition = {}
+
 
 ---@param fields? GetOwnPosition
 ---@return GetOwnPosition

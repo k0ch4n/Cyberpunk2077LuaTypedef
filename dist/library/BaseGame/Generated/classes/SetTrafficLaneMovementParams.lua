@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SetTrafficLaneMovementParams: AIbehaviortaskScript
 ---@field movementType String
 ---@field fearStage gameFearStage
 SetTrafficLaneMovementParams = {}
+
 
 ---@param fields? SetTrafficLaneMovementParams
 ---@return SetTrafficLaneMovementParams

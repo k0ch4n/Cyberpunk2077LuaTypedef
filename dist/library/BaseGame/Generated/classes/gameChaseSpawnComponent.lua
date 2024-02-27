@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameChaseSpawnComponent: entIComponent
 gameChaseSpawnComponent = {}
+
 
 ---@param fields? gameChaseSpawnComponent
 ---@return gameChaseSpawnComponent

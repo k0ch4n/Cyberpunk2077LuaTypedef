@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleChangeRadioReceiverStationEvent: redEvent
 vehicleChangeRadioReceiverStationEvent = {}
+
 
 ---@param fields? vehicleChangeRadioReceiverStationEvent
 ---@return vehicleChangeRadioReceiverStationEvent

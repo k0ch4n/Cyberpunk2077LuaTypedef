@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CodexLinkQuestLog: CodexImageButton
 CodexLinkQuestLog = {}
+
 
 ---@param fields? CodexLinkQuestLog
 ---@return CodexLinkQuestLog

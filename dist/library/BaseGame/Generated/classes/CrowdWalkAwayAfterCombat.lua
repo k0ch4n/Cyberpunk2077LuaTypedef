@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CrowdWalkAwayAfterCombat: AIbehaviortaskScript
 CrowdWalkAwayAfterCombat = {}
+
 
 ---@param fields? CrowdWalkAwayAfterCombat
 ---@return CrowdWalkAwayAfterCombat

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIObjectiveEntryData
 ---@field name String
 ---@field counter String
@@ -8,6 +9,7 @@
 ---@field isTracked Bool
 ---@field isOptional Bool
 UIObjectiveEntryData = {}
+
 
 ---@param fields? UIObjectiveEntryData
 ---@return UIObjectiveEntryData

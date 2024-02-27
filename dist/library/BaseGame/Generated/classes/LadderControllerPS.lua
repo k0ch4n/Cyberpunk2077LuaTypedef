@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LadderControllerPS: ScriptableDeviceComponentPS
 LadderControllerPS = {}
+
 
 ---@param fields? LadderControllerPS
 ---@return LadderControllerPS

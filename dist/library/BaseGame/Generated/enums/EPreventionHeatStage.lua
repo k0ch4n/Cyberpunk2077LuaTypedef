@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EPreventionHeatStage: Enum
 ---@field Heat_0 Enum 0
 ---@field Heat_1 Enum 1

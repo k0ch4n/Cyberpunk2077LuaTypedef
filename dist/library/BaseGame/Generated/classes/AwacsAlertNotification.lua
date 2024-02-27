@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AwacsAlertNotification: GenericNotificationController
 ---@field animation inkanimProxy
 ---@field zone_data VehicleAlertNotificationViewData
 ---@field ZoneLabelText inkTextWidgetReference
 AwacsAlertNotification = {}
+
 
 ---@param fields? AwacsAlertNotification
 ---@return AwacsAlertNotification

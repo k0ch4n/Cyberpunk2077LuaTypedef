@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsvisEVisualizerDefinitionFlags: Enum
 ---@field None Enum 0
 ---@field Fading Enum 1

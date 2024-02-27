@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetGlobalTvChannel: redEvent
 ---@field channel TweakDBID
 SetGlobalTvChannel = {}
+
 
 ---@param fields? SetGlobalTvChannel
 ---@return SetGlobalTvChannel

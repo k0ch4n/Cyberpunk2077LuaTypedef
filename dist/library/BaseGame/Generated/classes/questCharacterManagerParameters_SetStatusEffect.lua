@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCharacterManagerParameters_SetStatusEffect: questICharacterManagerParameters_NodeSubType
 ---@field puppetRef gameEntityReference
 ---@field isPlayer Bool
@@ -9,6 +10,7 @@
 ---@field recordSelector questRecordSelector
 ---@field set Bool
 questCharacterManagerParameters_SetStatusEffect = {}
+
 
 ---@param fields? questCharacterManagerParameters_SetStatusEffect
 ---@return questCharacterManagerParameters_SetStatusEffect

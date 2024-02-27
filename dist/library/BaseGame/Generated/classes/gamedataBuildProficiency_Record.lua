@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataBuildProficiency_Record: gamedataTweakDBRecord
 gamedataBuildProficiency_Record = {}
+
 
 ---@param fields? gamedataBuildProficiency_Record
 ---@return gamedataBuildProficiency_Record

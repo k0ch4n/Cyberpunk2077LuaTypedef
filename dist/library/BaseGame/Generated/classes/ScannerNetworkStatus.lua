@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerNetworkStatus: ScannerChunk
 ---@field networkStatus ScannerNetworkState
 ScannerNetworkStatus = {}
+
 
 ---@param fields? ScannerNetworkStatus
 ---@return ScannerNetworkStatus

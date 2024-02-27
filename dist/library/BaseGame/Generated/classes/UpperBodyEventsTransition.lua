@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UpperBodyEventsTransition: UpperBodyTransition
 ---@field switchButtonPushed Bool
 ---@field cyclePushed Bool
@@ -8,6 +9,7 @@
 ---@field switchPending Bool
 ---@field counter Int32
 UpperBodyEventsTransition = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

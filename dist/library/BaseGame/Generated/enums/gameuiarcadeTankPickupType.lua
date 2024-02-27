@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiarcadeTankPickupType: Enum
 ---@field Patch_Kit Enum 0
 ---@field AEAMS Enum 1

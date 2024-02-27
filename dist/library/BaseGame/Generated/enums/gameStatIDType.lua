@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStatIDType: Enum
 ---@field EntityID Enum 0
 ---@field ItemID Enum 1

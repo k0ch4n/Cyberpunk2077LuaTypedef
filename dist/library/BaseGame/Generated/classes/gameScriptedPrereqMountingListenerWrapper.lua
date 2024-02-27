@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScriptedPrereqMountingListenerWrapper: IScriptable
 gameScriptedPrereqMountingListenerWrapper = {}
+
 
 ---@param fields? gameScriptedPrereqMountingListenerWrapper
 ---@return gameScriptedPrereqMountingListenerWrapper

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VehicleRadioLogicController: inkWidgetLogicController
 ---@field isSoundStopped Bool
 VehicleRadioLogicController = {}
+
 
 ---@param fields? VehicleRadioLogicController
 ---@return VehicleRadioLogicController

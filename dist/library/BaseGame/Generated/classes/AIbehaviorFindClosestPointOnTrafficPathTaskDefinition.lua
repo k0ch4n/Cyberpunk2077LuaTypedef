@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorFindClosestPointOnTrafficPathTaskDefinition: AIbehaviorTaskDefinition
 ---@field enterClosest AIArgumentMapping
 ---@field avoidedPosition AIArgumentMapping
@@ -12,6 +13,7 @@
 ---@field pathDirection AIArgumentMapping
 ---@field joinTrafficSettings AIArgumentMapping
 AIbehaviorFindClosestPointOnTrafficPathTaskDefinition = {}
+
 
 ---@param fields? AIbehaviorFindClosestPointOnTrafficPathTaskDefinition
 ---@return AIbehaviorFindClosestPointOnTrafficPathTaskDefinition

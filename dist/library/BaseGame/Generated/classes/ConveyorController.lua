@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ConveyorController: ScriptableDeviceComponent
 ConveyorController = {}
+
 
 ---@param fields? ConveyorController
 ---@return ConveyorController

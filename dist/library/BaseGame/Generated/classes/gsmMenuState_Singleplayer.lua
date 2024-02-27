@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gsmMenuState_Singleplayer: gsmMenuState
 gsmMenuState_Singleplayer = {}
+
 
 ---@param fields? gsmMenuState_Singleplayer
 ---@return gsmMenuState_Singleplayer

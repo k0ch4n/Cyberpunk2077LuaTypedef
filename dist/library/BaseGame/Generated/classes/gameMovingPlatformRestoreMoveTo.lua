@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameMovingPlatformRestoreMoveTo: gameMovingPlatformMoveTo
 gameMovingPlatformRestoreMoveTo = {}
+
 
 ---@param fields? gameMovingPlatformRestoreMoveTo
 ---@return gameMovingPlatformRestoreMoveTo

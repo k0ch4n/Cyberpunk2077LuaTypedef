@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnEntityAcquisitionPlan: Enum
 ---@field findInContext Enum 1
 ---@field findInWorld Enum 2

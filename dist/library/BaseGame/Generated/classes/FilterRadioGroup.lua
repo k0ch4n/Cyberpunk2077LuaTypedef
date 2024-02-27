@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FilterRadioGroup: inkRadioGroupController
 ---@field libraryPath inkWidgetLibraryReference
 ---@field TooltipsManager gameuiTooltipsManager
@@ -7,6 +8,7 @@
 ---@field toggles inkToggleController[]
 ---@field rootRef inkCompoundWidget
 FilterRadioGroup = {}
+
 
 ---@param fields? FilterRadioGroup
 ---@return FilterRadioGroup

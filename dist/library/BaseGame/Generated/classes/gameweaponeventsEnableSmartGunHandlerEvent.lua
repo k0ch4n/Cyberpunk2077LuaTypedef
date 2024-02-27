@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameweaponeventsEnableSmartGunHandlerEvent: redEvent
 ---@field owner gameObject
 ---@field enable Bool
 gameweaponeventsEnableSmartGunHandlerEvent = {}
+
 
 ---@param fields? gameweaponeventsEnableSmartGunHandlerEvent
 ---@return gameweaponeventsEnableSmartGunHandlerEvent

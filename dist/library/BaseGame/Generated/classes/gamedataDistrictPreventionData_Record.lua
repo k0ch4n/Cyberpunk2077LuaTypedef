@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataDistrictPreventionData_Record: gamedataTweakDBRecord
 gamedataDistrictPreventionData_Record = {}
+
 
 ---@param fields? gamedataDistrictPreventionData_Record
 ---@return gamedataDistrictPreventionData_Record

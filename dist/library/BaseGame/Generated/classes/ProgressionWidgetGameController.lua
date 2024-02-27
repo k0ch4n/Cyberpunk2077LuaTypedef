@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProgressionWidgetGameController: gameuiGenericNotificationGameController
 ---@field duration Float
 ---@field playerDevelopmentSystem PlayerDevelopmentSystem
@@ -8,6 +9,7 @@
 ---@field playerObject gameObject
 ---@field gameInstance ScriptGameInstance
 ProgressionWidgetGameController = {}
+
 
 ---@param fields? ProgressionWidgetGameController
 ---@return ProgressionWidgetGameController

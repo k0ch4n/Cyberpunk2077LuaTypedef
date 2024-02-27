@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionMountVehicle_Record_Implementation: IScriptable
 AISubActionMountVehicle_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionMountVehicle_Record

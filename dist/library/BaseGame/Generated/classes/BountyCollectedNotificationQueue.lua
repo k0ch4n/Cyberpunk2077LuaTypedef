@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class BountyCollectedNotificationQueue: gameuiGenericNotificationGameController
 ---@field duration Float
 ---@field bountyNotification CName
 BountyCollectedNotificationQueue = {}
+
 
 ---@param fields? BountyCollectedNotificationQueue
 ---@return BountyCollectedNotificationQueue

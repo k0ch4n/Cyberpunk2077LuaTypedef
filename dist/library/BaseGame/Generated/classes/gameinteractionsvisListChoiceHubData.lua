@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsvisListChoiceHubData
 ---@field id Int32
 ---@field activityState gameinteractionsvisEVisualizerActivityState
@@ -10,6 +11,7 @@
 ---@field timeProvider gameinteractionsvisIVisualizerTimeProvider
 ---@field hubPriority Uint8
 gameinteractionsvisListChoiceHubData = {}
+
 
 ---@param fields? gameinteractionsvisListChoiceHubData
 ---@return gameinteractionsvisListChoiceHubData

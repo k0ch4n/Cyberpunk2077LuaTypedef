@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameCrowdPhaseTimePeriod: communityTimePeriod
 ---@field mergeMode gameCrowdCreationDataMergeMode
 ---@field density Float
@@ -10,6 +11,7 @@
 ---@field crowdType gameCrowdEntryType
 ---@field useDensityPreset Bool
 gameCrowdPhaseTimePeriod = {}
+
 
 ---@param fields? gameCrowdPhaseTimePeriod
 ---@return gameCrowdPhaseTimePeriod

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class toolsJiraSearchIssuesResult: ISerializable
 ---@field startAt Uint32
 ---@field maxResults Uint32
@@ -8,6 +9,7 @@
 ---@field errorMessages String[]
 ---@field warningMessages String[]
 toolsJiraSearchIssuesResult = {}
+
 
 ---@param fields? toolsJiraSearchIssuesResult
 ---@return toolsJiraSearchIssuesResult

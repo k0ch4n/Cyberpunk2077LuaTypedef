@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SecuritySystemUIPS: SurveillanceSystemUIPS
 SecuritySystemUIPS = {}
+
 
 ---@param fields? SecuritySystemUIPS
 ---@return SecuritySystemUIPS

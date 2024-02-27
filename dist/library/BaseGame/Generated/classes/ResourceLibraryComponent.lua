@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ResourceLibraryComponent: gameScriptableComponent
 ---@field resources FxResourceMapData[]
 ResourceLibraryComponent = {}
+
 
 ---@param fields? ResourceLibraryComponent
 ---@return ResourceLibraryComponent

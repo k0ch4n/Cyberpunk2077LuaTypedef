@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameLookAtFacingPositionProvider: entIPositionProvider
 gameLookAtFacingPositionProvider = {}
+
 
 ---@param fields? gameLookAtFacingPositionProvider
 ---@return gameLookAtFacingPositionProvider

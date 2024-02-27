@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocFilter: Enum
 ---@field All Enum 0
 ---@field Vendor Enum 1

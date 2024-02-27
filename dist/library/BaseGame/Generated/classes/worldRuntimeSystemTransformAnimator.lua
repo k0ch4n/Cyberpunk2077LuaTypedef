@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemTransformAnimator: worldIRuntimeSystem
 worldRuntimeSystemTransformAnimator = {}
+
 
 ---@param fields? worldRuntimeSystemTransformAnimator
 ---@return worldRuntimeSystemTransformAnimator

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiQuestUpdateNotificationViewData: gameuiGenericNotificationViewData
 ---@field questEntryId String
 ---@field canBeMerged Bool
@@ -12,6 +13,7 @@
 ---@field rewardXP Int32
 ---@field priority EGenericNotificationPriority
 gameuiQuestUpdateNotificationViewData = {}
+
 
 ---@param fields? gameuiQuestUpdateNotificationViewData
 ---@return gameuiQuestUpdateNotificationViewData

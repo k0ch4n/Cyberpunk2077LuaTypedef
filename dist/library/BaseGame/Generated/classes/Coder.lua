@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Coder: BasicDistractionDevice
 Coder = {}
+
 
 ---@param fields? Coder
 ---@return Coder

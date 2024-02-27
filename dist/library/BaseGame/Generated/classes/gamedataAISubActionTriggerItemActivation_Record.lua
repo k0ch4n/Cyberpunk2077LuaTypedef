@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionTriggerItemActivation_Record: gamedataAISubAction_Record
 gamedataAISubActionTriggerItemActivation_Record = {}
+
 
 ---@param fields? gamedataAISubActionTriggerItemActivation_Record
 ---@return gamedataAISubActionTriggerItemActivation_Record

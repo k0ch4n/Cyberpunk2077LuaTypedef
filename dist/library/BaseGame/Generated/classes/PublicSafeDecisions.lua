@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PublicSafeDecisions: WeaponReadyListenerTransition
 ---@field isSprinting Bool
 ---@field inKereznikov Bool
@@ -11,6 +12,7 @@
 ---@field isAiming Bool
 ---@field rangedAttackPressed Bool
 PublicSafeDecisions = {}
+
 
 ---@param fields? PublicSafeDecisions
 ---@return PublicSafeDecisions

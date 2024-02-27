@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CollisionExitingDecisions: ExitingDecisions
 CollisionExitingDecisions = {}
+
 
 ---@param fields? CollisionExitingDecisions
 ---@return CollisionExitingDecisions

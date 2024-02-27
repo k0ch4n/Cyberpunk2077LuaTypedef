@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DodgeDecisions: LocomotionGroundDecisions
 ---@field shouldDisableEnterCondition Bool
 DodgeDecisions = {}
+
 
 ---@param fields? DodgeDecisions
 ---@return DodgeDecisions

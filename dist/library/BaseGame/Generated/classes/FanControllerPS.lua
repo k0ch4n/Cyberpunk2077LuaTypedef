@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FanControllerPS: BasicDistractionDeviceControllerPS
 ---@field fanSetup FanSetup
 FanControllerPS = {}
+
 
 ---@param fields? FanControllerPS
 ---@return FanControllerPS

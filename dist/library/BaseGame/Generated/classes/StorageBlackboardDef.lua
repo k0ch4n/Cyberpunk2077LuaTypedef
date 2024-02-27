@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StorageBlackboardDef: gamebbScriptDefinition
 ---@field StorageData gamebbScriptID_Variant
 StorageBlackboardDef = {}
+
 
 ---@param fields? StorageBlackboardDef
 ---@return StorageBlackboardDef

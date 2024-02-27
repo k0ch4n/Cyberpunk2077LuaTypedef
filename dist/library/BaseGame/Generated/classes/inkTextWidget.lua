@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkTextWidget: inkLeafWidget
 ---@field localizationString LocalizationString
 ---@field textIdKey CName
@@ -22,6 +23,7 @@
 ---@field contentHAlign inkEHorizontalAlign
 ---@field contentVAlign inkEVerticalAlign
 inkTextWidget = {}
+
 
 ---@param fields? inkTextWidget
 ---@return inkTextWidget

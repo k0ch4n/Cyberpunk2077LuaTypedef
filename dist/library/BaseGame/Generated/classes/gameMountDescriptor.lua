@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMountDescriptor
 ---@field parentId entEntityID
 ---@field slotName CName
@@ -7,6 +8,7 @@
 ---@field state gamePuppetVehicleState
 ---@field mountType gameMountDescriptorMountType
 gameMountDescriptor = {}
+
 
 ---@param fields? gameMountDescriptor
 ---@return gameMountDescriptor

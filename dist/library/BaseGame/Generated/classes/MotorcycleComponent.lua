@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MotorcycleComponent: VehicleComponent
 MotorcycleComponent = {}
+
 
 ---@param fields? MotorcycleComponent
 ---@return MotorcycleComponent

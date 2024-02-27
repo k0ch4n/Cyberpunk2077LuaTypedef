@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkEditorModeState: inkIStateMachineState
 inkEditorModeState = {}
+
 
 ---@param fields? inkEditorModeState
 ---@return inkEditorModeState

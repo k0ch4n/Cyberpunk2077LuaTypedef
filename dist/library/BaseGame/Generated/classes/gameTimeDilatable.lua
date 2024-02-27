@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameTimeDilatable: gameObject
 gameTimeDilatable = {}
+
 
 ---@param fields? gameTimeDilatable
 ---@return gameTimeDilatable

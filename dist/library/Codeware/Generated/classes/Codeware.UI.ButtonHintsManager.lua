@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class Codeware_UI_ButtonHintsManager: Codeware_UI_IButtonHintsManager
 ---@field buttonHints inkWidget
 ---@field inputHint inkInputDisplayController
 Codeware_UI_ButtonHintsManager = {}
+
 
 ---@param fields? Codeware_UI_ButtonHintsManager
 ---@return Codeware_UI_ButtonHintsManager

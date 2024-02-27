@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CanPlayerHijackMountedNpcPrereq: gameIScriptablePrereq
 ---@field slotName CName
 ---@field isCheckInverted Bool
 CanPlayerHijackMountedNpcPrereq = {}
+
 
 ---@param fields? CanPlayerHijackMountedNpcPrereq
 ---@return CanPlayerHijackMountedNpcPrereq

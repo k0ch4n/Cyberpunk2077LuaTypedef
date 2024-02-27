@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataFastTravelSystem_Record: gamedataTweakDBRecord
 gamedataFastTravelSystem_Record = {}
+
 
 ---@param fields? gamedataFastTravelSystem_Record
 ---@return gamedataFastTravelSystem_Record

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AIMovementTypeSpec
 ---@field useNPCMovementParams Bool
 ---@field movementType moveMovementType
 AIMovementTypeSpec = {}
+
 
 ---@param fields? AIMovementTypeSpec
 ---@return AIMovementTypeSpec

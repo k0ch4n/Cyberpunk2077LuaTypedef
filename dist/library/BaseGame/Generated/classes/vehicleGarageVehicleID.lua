@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class vehicleGarageVehicleID
 ---@field recordID TweakDBID
 ---@field name CName
 vehicleGarageVehicleID = {}
+
 
 ---@param fields? vehicleGarageVehicleID
 ---@return vehicleGarageVehicleID

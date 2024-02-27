@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DisplayGlass: InteractiveDevice
 ---@field collider entIPlacedComponent
 ---@field mesh entIPlacedComponent
 ---@field isDestroyed Bool
 DisplayGlass = {}
+
 
 ---@param fields? DisplayGlass
 ---@return DisplayGlass

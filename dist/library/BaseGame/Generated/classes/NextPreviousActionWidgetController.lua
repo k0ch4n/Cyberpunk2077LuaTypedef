@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class NextPreviousActionWidgetController: DeviceActionWidgetControllerBase
 ---@field defaultContainer inkWidgetReference
 ---@field declineContainer inkWidgetReference
 ---@field moneyStatusAnimName CName
 ---@field isProcessing Bool
 NextPreviousActionWidgetController = {}
+
 
 ---@param fields? NextPreviousActionWidgetController
 ---@return NextPreviousActionWidgetController

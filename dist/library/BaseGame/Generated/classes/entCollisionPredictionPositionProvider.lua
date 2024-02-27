@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entCollisionPredictionPositionProvider: entIPositionProvider
 entCollisionPredictionPositionProvider = {}
+
 
 ---@param fields? entCollisionPredictionPositionProvider
 ---@return entCollisionPredictionPositionProvider

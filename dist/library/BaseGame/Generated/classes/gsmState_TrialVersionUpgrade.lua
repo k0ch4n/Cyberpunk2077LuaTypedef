@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gsmState_TrialVersionUpgrade: gsmState
 gsmState_TrialVersionUpgrade = {}
+
 
 ---@param fields? gsmState_TrialVersionUpgrade
 ---@return gsmState_TrialVersionUpgrade

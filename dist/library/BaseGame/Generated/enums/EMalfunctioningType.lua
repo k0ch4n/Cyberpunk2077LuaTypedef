@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EMalfunctioningType: Enum
 ---@field NONE Enum 0
 ---@field LOUD_ANNOUNCEMENT Enum 1

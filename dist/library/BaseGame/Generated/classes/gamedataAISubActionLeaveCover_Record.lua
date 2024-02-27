@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionLeaveCover_Record: gamedataAISubAction_Record
 gamedataAISubActionLeaveCover_Record = {}
+
 
 ---@param fields? gamedataAISubActionLeaveCover_Record
 ---@return gamedataAISubActionLeaveCover_Record

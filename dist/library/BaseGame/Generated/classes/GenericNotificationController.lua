@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GenericNotificationController: gameuiGenericNotificationReceiverGameController
 ---@field titleRef inkTextWidgetReference
 ---@field textRef inkTextWidgetReference
@@ -13,6 +14,7 @@
 ---@field isInteractive Bool
 ---@field customInputActionName CName
 GenericNotificationController = {}
+
 
 ---@param fields? GenericNotificationController
 ---@return GenericNotificationController

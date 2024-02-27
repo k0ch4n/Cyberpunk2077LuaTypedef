@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldStaticOccluderMeshNodeInstance: worldINodeInstance
 worldStaticOccluderMeshNodeInstance = {}
+
 
 ---@param fields? worldStaticOccluderMeshNodeInstance
 ---@return worldStaticOccluderMeshNodeInstance

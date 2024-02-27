@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiMappinGroupState: Enum
 ---@field Ungrouped Enum 0
 ---@field Grouped Enum 1

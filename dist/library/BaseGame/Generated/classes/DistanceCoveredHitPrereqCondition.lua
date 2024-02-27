@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DistanceCoveredHitPrereqCondition: BaseHitPrereqCondition
 ---@field distanceRequired Float
 ---@field comparisonType EComparisonType
 DistanceCoveredHitPrereqCondition = {}
+
 
 ---@param fields? DistanceCoveredHitPrereqCondition
 ---@return DistanceCoveredHitPrereqCondition

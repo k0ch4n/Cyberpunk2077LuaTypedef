@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiBriefingGameController: gameuiWidgetGameController
 ---@field briefingPlayerType questBriefingPlayerType
 gameuiBriefingGameController = {}
+
 
 ---@param fields? gameuiBriefingGameController
 ---@return gameuiBriefingGameController

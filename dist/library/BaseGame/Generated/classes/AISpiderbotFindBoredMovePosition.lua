@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AISpiderbotFindBoredMovePosition: AIFindPositionAroundSelf
 ---@field maxWanderDistance AIArgumentMapping
 AISpiderbotFindBoredMovePosition = {}
+
 
 ---@param fields? AISpiderbotFindBoredMovePosition
 ---@return AISpiderbotFindBoredMovePosition

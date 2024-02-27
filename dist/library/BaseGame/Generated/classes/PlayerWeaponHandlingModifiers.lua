@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerWeaponHandlingModifiers: IScriptable
 ---@field player PlayerPuppet
 ---@field opSymbol CName
@@ -9,6 +10,7 @@
 ---@field addSwayGroup gameConstantStatModifierData_Deprecated[]
 ---@field spreadGroup gameConstantStatModifierData_Deprecated[]
 PlayerWeaponHandlingModifiers = {}
+
 
 ---@param fields? PlayerWeaponHandlingModifiers
 ---@return PlayerWeaponHandlingModifiers

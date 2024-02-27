@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CasinoTableIdlePageLogicController: inkWidgetLogicController
 CasinoTableIdlePageLogicController = {}
+
 
 ---@param fields? CasinoTableIdlePageLogicController
 ---@return CasinoTableIdlePageLogicController

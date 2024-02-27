@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameActionRotateToState: gameActionRotateBaseState
 gameActionRotateToState = {}
+
 
 ---@param fields? gameActionRotateToState
 ---@return gameActionRotateToState

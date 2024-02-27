@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@alias ForceResetAmmoEvent gameForceResetAmmoEvent
 ForceResetAmmoEvent = gameForceResetAmmoEvent
 

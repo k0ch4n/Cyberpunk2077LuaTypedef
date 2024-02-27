@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class worldTrafficCompiledNode: worldNode
 ---@field aabb Box
 worldTrafficCompiledNode = {}
+
 
 ---@param fields? worldTrafficCompiledNode
 ---@return worldTrafficCompiledNode

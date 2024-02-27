@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class senseSensorObjectComponent: entIPlacedComponent
 ---@field sensorObject senseSensorObject
 ---@field isEnabled Bool
 senseSensorObjectComponent = {}
+
 
 ---@param fields? senseSensorObjectComponent
 ---@return senseSensorObjectComponent

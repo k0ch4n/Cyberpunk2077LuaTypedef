@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SPerformedActions
 ---@field ID CName
 ---@field ActionContext EActionContext[]
 SPerformedActions = {}
+
 
 ---@param fields? SPerformedActions
 ---@return SPerformedActions

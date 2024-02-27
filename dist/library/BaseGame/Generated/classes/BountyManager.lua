@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BountyManager: IScriptable
 BountyManager = {}
+
 
 ---@param fields? BountyManager
 ---@return BountyManager

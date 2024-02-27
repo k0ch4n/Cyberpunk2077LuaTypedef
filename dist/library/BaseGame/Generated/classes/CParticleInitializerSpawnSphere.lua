@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CParticleInitializerSpawnSphere: IParticleInitializer
 ---@field innerRadius IEvaluatorFloat
 ---@field outerRadius IEvaluatorFloat
@@ -14,6 +15,7 @@
 ---@field worldSpace Bool
 ---@field forceScale IEvaluatorFloat
 CParticleInitializerSpawnSphere = {}
+
 
 ---@param fields? CParticleInitializerSpawnSphere
 ---@return CParticleInitializerSpawnSphere

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeSafeAttackDecisions: MeleeAttackGenericDecisions
 MeleeSafeAttackDecisions = {}
+
 
 ---@param fields? MeleeSafeAttackDecisions
 ---@return MeleeSafeAttackDecisions

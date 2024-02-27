@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CharacterCreationGenderBackstoryPathHeader: inkWidgetLogicController
 ---@field label inkTextWidgetReference
 ---@field desc inkTextWidgetReference
@@ -9,6 +10,7 @@
 ---@field textSelectedColor Color
 ---@field textUnselectedColor Color
 CharacterCreationGenderBackstoryPathHeader = {}
+
 
 ---@param fields? CharacterCreationGenderBackstoryPathHeader
 ---@return CharacterCreationGenderBackstoryPathHeader

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LookatCombatTarget: AIGenericEntityLookatTask
 LookatCombatTarget = {}
+
 
 ---@param fields? LookatCombatTarget
 ---@return LookatCombatTarget

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldStaticMeshNodeInstance: worldMeshNodeInstance
 worldStaticMeshNodeInstance = {}
+
 
 ---@param fields? worldStaticMeshNodeInstance
 ---@return worldStaticMeshNodeInstance

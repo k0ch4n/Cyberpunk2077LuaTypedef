@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UI_VendorDef: gamebbScriptDefinition
 ---@field VendorData gamebbScriptID_Variant
 UI_VendorDef = {}
+
 
 ---@param fields? UI_VendorDef
 ---@return UI_VendorDef

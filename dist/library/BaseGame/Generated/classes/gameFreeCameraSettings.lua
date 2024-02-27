@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameFreeCameraSettings
 ---@field movPrecision Float
 ---@field rotPrecision Float
@@ -15,6 +16,7 @@
 ---@field aperture Float
 ---@field lights gameFreeCameraLightSettings[]
 gameFreeCameraSettings = {}
+
 
 ---@param fields? gameFreeCameraSettings
 ---@return gameFreeCameraSettings

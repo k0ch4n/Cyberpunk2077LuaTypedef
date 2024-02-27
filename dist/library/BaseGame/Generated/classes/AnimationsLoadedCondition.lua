@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AnimationsLoadedCondition: AIbehaviorconditionScript
 ---@field coreAnims Bool
 ---@field melee Bool
 AnimationsLoadedCondition = {}
+
 
 ---@param fields? AnimationsLoadedCondition
 ---@return AnimationsLoadedCondition

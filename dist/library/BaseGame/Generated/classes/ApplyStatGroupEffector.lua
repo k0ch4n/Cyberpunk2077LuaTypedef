@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ApplyStatGroupEffector: gameEffector
 ---@field target gameStatsObjectID
 ---@field record TweakDBID
@@ -12,6 +13,7 @@
 ---@field ownerSlotCallback ApplyStatGroupEffectorCallback
 ---@field ownerSlotListener gameAttachmentSlotsScriptListener
 ApplyStatGroupEffector = {}
+
 
 ---@param fields? ApplyStatGroupEffector
 ---@return ApplyStatGroupEffector

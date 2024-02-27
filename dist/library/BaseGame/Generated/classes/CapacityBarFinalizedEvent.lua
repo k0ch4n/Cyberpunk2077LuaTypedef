@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CapacityBarFinalizedEvent: redEvent
 CapacityBarFinalizedEvent = {}
+
 
 ---@param fields? CapacityBarFinalizedEvent
 ---@return CapacityBarFinalizedEvent

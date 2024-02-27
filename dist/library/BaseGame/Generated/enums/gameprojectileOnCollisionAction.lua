@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameprojectileOnCollisionAction: Enum
 ---@field None Enum 0
 ---@field Stop Enum 1

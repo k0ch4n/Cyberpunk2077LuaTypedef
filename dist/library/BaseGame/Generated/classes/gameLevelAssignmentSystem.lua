@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameLevelAssignmentSystem: gameILevelAssignmentSystem
 gameLevelAssignmentSystem = {}
+
 
 ---@param fields? gameLevelAssignmentSystem
 ---@return gameLevelAssignmentSystem

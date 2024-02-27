@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ServerNodeControllerPS: ScriptableDeviceComponentPS
 ---@field coverState CoverState
 ---@field serverState ServerState
 ---@field destroyedPin Int32[]
 ServerNodeControllerPS = {}
+
 
 ---@param fields? ServerNodeControllerPS
 ---@return ServerNodeControllerPS

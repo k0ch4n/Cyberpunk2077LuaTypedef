@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SettingsSelectorControllerRange: inkSettingsSelectorController
 ---@field ValueText inkTextWidgetReference
 ---@field LeftArrow inkWidgetReference
 ---@field RightArrow inkWidgetReference
 ---@field ProgressBar inkWidgetReference
 SettingsSelectorControllerRange = {}
+
 
 ---@param fields? SettingsSelectorControllerRange
 ---@return SettingsSelectorControllerRange

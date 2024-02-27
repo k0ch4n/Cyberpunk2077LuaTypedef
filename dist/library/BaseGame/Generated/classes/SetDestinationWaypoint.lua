@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SetDestinationWaypoint: AIActionHelperTask
 ---@field refTargetType EAITargetType
 ---@field findClosest Bool
@@ -7,6 +8,7 @@
 ---@field destinations Vector4[]
 ---@field finalDestinations Vector4[]
 SetDestinationWaypoint = {}
+
 
 ---@param fields? SetDestinationWaypoint
 ---@return SetDestinationWaypoint

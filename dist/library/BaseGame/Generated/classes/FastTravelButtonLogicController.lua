@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FastTravelButtonLogicController: inkButtonController
 ---@field districtName inkTextWidgetReference
 ---@field locationName inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field isInitialized Bool
 ---@field fastTravelPointData gameFastTravelPointData
 FastTravelButtonLogicController = {}
+
 
 ---@param fields? FastTravelButtonLogicController
 ---@return FastTravelButtonLogicController

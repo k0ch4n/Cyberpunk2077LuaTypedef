@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleVehicleDoorInteractionState: Enum
 ---@field Available Enum 0
 ---@field Locked Enum 1

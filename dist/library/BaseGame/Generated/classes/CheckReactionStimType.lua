@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckReactionStimType: AIbehaviorconditionScript
 ---@field stimToCompare gamedataStimType
 CheckReactionStimType = {}
+
 
 ---@param fields? CheckReactionStimType
 ---@return CheckReactionStimType

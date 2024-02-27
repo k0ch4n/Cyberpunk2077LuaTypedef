@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Codeware_Localization_RegisterProviderRequest: gameScriptableSystemRequest
 ---@field provider Codeware_Localization_ModLocalizationProvider
 Codeware_Localization_RegisterProviderRequest = {}
+
 
 ---@param fields? Codeware_Localization_RegisterProviderRequest
 ---@return Codeware_Localization_RegisterProviderRequest

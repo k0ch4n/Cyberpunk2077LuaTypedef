@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIStatusEffectCondition: AIbehaviorconditionScript
 AIStatusEffectCondition = {}
+
 
 ---@param fields? AIStatusEffectCondition
 ---@return AIStatusEffectCondition

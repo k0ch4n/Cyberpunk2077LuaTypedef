@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameSmartObjectPropertyDictionary: ISerializable
 ---@field properties gameSmartObjectPropertyDictionaryPropertyEntry[]
 gameSmartObjectPropertyDictionary = {}
+
 
 ---@param fields? gameSmartObjectPropertyDictionary
 ---@return gameSmartObjectPropertyDictionary

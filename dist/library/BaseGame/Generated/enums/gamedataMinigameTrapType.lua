@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataMinigameTrapType: Enum
 ---@field Both Enum 0
 ---@field Device Enum 1

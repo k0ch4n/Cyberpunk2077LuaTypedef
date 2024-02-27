@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICTreeNodeSimpleSelectorDefinition: AICTreeNodeChildrenListDefinition
 AICTreeNodeSimpleSelectorDefinition = {}
+
 
 ---@param fields? AICTreeNodeSimpleSelectorDefinition
 ---@return AICTreeNodeSimpleSelectorDefinition

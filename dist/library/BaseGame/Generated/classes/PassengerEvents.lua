@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PassengerEvents: VehicleEventsTransition
 ---@field noWeaponsRestrictionApplied Bool
 PassengerEvents = {}
+
 
 ---@param fields? PassengerEvents
 ---@return PassengerEvents

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class Target: IScriptable
 ---@field target gameObject
 ---@field isInteresting Bool
 ---@field isVisible Bool
 Target = {}
+
 
 ---@param fields? Target
 ---@return Target

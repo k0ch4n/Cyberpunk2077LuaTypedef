@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkDiscreteNavigationDirection: Enum
 ---@field Up Enum 0
 ---@field Right Enum 1

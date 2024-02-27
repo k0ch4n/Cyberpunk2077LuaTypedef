@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerGameplayRestrictions: IScriptable
 PlayerGameplayRestrictions = {}
+
 
 ---@param fields? PlayerGameplayRestrictions
 ---@return PlayerGameplayRestrictions

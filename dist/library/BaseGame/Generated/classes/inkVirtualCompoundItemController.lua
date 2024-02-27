@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkVirtualCompoundItemController: inkButtonController
 ---@field ToggledOff inkVirtualCompoundItemControllerCallback
 ---@field ToggledOn inkVirtualCompoundItemControllerCallback
@@ -7,6 +8,7 @@
 ---@field Deselected inkVirtualCompoundItemControllerCallback
 ---@field Added inkVirtualCompoundItemControllerCallback
 inkVirtualCompoundItemController = {}
+
 
 ---@param fields? inkVirtualCompoundItemController
 ---@return inkVirtualCompoundItemController

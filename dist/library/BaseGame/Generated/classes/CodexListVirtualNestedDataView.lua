@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CodexListVirtualNestedDataView: VirtualNestedListDataView
 ---@field currentFilter CodexCategoryType
 CodexListVirtualNestedDataView = {}
+
 
 ---@param fields? CodexListVirtualNestedDataView
 ---@return CodexListVirtualNestedDataView

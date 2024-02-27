@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ApplyQuickhackEffector: AbstractApplyQuickhackEffector
 ---@field quickhackObjectActionID TweakDBID
 ---@field quickhackObjectActionRecord gamedataObjectAction_Record
 ---@field MaxUploadChance Float
 ---@field uploadTime Float
 ApplyQuickhackEffector = {}
+
 
 ---@param fields? ApplyQuickhackEffector
 ---@return ApplyQuickhackEffector

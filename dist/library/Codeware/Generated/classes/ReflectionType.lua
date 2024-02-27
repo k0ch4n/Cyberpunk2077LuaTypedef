@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReflectionType: IScriptable
 ReflectionType = {}
+
 
 ---@param fields? ReflectionType
 ---@return ReflectionType

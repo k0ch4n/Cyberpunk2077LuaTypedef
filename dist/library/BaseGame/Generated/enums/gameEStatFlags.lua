@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEStatFlags: Enum
 ---@field Bool Enum 1
 ---@field EquipOnPlayer Enum 2

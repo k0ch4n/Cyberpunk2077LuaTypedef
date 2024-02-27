@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CompassController: inkWidgetLogicController
 ---@field faceLeft inkWidgetReference
 ---@field faceRight inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field playerPuppet gameObject
 ---@field precisionEpsilon Float
 CompassController = {}
+
 
 ---@param fields? CompassController
 ---@return CompassController

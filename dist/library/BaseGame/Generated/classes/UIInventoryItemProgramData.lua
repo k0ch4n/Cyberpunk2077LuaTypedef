@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInventoryItemProgramData: IScriptable
 ---@field MemoryCost Int32
 ---@field BaseCost Int32
@@ -8,6 +9,7 @@
 ---@field Cooldown Float
 ---@field AttackEffects DamageEffectUIEntry[]
 UIInventoryItemProgramData = {}
+
 
 ---@param fields? UIInventoryItemProgramData
 ---@return UIInventoryItemProgramData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EveningPreset: SmartHousePreset
 EveningPreset = {}
+
 
 ---@param fields? EveningPreset
 ---@return EveningPreset

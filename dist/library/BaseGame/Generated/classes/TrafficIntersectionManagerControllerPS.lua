@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TrafficIntersectionManagerControllerPS: MasterControllerPS
 ---@field trafficLightStatus worldTrafficLightColor
 TrafficIntersectionManagerControllerPS = {}
+
 
 ---@param fields? TrafficIntersectionManagerControllerPS
 ---@return TrafficIntersectionManagerControllerPS

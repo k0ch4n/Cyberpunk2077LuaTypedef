@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleDoorDetachRule_Record: gamedataTweakDBRecord
 gamedataVehicleDoorDetachRule_Record = {}
+
 
 ---@param fields? gamedataVehicleDoorDetachRule_Record
 ---@return gamedataVehicleDoorDetachRule_Record

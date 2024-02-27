@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_Summary: MenuScenario_PreGameSubMenu
 MenuScenario_Summary = {}
+
 
 ---@param fields? MenuScenario_Summary
 ---@return MenuScenario_Summary

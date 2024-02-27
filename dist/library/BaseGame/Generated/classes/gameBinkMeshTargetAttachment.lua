@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameBinkMeshTargetAttachment: entIAttachment
 gameBinkMeshTargetAttachment = {}
+
 
 ---@param fields? gameBinkMeshTargetAttachment
 ---@return gameBinkMeshTargetAttachment

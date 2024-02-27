@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiSetAttributeEnabledEvent: redEvent
 gameuiSetAttributeEnabledEvent = {}
+
 
 ---@param fields? gameuiSetAttributeEnabledEvent
 ---@return gameuiSetAttributeEnabledEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuadRacerObstacleCollisionLogic: gameuiSideScrollerMiniGameCollisionLogic
 QuadRacerObstacleCollisionLogic = {}
+
 
 ---@param fields? QuadRacerObstacleCollisionLogic
 ---@return QuadRacerObstacleCollisionLogic

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MinimapPOIMappinController: gameuiBaseMinimapMappinController
 ---@field pulseWidget inkWidgetReference
 ---@field pingAnimationOnStateChange Bool
@@ -14,6 +15,7 @@
 ---@field vehicleMinimapMappinComponent VehicleMinimapMappinComponent
 ---@field keepIconOnClamping Bool
 MinimapPOIMappinController = {}
+
 
 ---@param fields? MinimapPOIMappinController
 ---@return MinimapPOIMappinController

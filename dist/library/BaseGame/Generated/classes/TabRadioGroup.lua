@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class TabRadioGroup: inkRadioGroupController
 ---@field root inkCompoundWidgetReference
 ---@field toggles TabButtonController[]
 ---@field TooltipsManager gameuiTooltipsManager
 TabRadioGroup = {}
+
 
 ---@param fields? TabRadioGroup
 ---@return TabRadioGroup

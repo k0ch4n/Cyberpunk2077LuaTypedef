@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProximityDetector: Device
 ---@field scanningAreaName CName
 ---@field surroundingAreaName CName
@@ -8,6 +9,7 @@
 ---@field securityAreaType ESecurityAreaType
 ---@field notifiactionType ESecurityNotificationType
 ProximityDetector = {}
+
 
 ---@param evt entAreaEnteredEvent
 ---@return Bool

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameuiOptionsGroup
 ---@field name CName
 ---@field options CName[]
 gameuiOptionsGroup = {}
+
 
 ---@param fields? gameuiOptionsGroup
 ---@return gameuiOptionsGroup

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SpeakerControllerPS: ScriptableDeviceComponentPS
 ---@field speakerSetup SpeakerSetup
 ---@field currentValue CName
 ---@field previousValue CName
 SpeakerControllerPS = {}
+
 
 ---@param fields? SpeakerControllerPS
 ---@return SpeakerControllerPS

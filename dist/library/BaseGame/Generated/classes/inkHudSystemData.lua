@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class inkHudSystemData: inkILayerSystemData
 ---@field rootLibrary inkWidgetLibraryResource
 ---@field entriesResource inkHudEntriesResource
 inkHudSystemData = {}
+
 
 ---@param fields? inkHudSystemData
 ---@return inkHudSystemData

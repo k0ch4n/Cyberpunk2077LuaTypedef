@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkIconResult: Enum
 ---@field Success Enum 0
 ---@field UnknownIconTweak Enum 1

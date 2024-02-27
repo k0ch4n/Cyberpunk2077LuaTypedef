@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LightGroupsAreaSettings: IAreaSettings
 ---@field groupFade curveData[]
 LightGroupsAreaSettings = {}
+
 
 ---@param fields? LightGroupsAreaSettings
 ---@return LightGroupsAreaSettings

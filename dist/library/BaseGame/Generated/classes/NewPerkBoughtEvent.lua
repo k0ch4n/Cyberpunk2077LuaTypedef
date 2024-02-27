@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NewPerkBoughtEvent: redEvent
 ---@field perkType gamedataNewPerkType
 NewPerkBoughtEvent = {}
+
 
 ---@param fields? NewPerkBoughtEvent
 ---@return NewPerkBoughtEvent

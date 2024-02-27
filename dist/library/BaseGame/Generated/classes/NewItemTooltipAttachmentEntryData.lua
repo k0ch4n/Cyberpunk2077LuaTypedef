@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class NewItemTooltipAttachmentEntryData: IScriptable
 ---@field text String
 ---@field colorState CName
 ---@field dataPackage gameUILocalizationDataPackage
 ---@field attunementData UIInventoryItemModAttunementData
 NewItemTooltipAttachmentEntryData = {}
+
 
 ---@param fields? NewItemTooltipAttachmentEntryData
 ---@return NewItemTooltipAttachmentEntryData

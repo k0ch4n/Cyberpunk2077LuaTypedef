@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataSpawnableObjectPriority_Record: gamedataTweakDBRecord
 gamedataSpawnableObjectPriority_Record = {}
+
 
 ---@param fields? gamedataSpawnableObjectPriority_Record
 ---@return gamedataSpawnableObjectPriority_Record

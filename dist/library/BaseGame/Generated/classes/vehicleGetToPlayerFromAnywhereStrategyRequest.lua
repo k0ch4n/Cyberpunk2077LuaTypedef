@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleGetToPlayerFromAnywhereStrategyRequest: vehicleBaseStrategyRequest
 vehicleGetToPlayerFromAnywhereStrategyRequest = {}
+
 
 ---@param fields? vehicleGetToPlayerFromAnywhereStrategyRequest
 ---@return vehicleGetToPlayerFromAnywhereStrategyRequest

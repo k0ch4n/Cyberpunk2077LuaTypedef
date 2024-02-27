@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkWidgetLibraryResource: CResource
 ---@field libraryItems inkWidgetLibraryItem[]
 ---@field externalLibraries inkWidgetLibraryResource[]
@@ -10,6 +11,7 @@
 ---@field rootResolution inkETextureResolution
 ---@field version inkWidgetResourceVersion
 inkWidgetLibraryResource = {}
+
 
 ---@param fields? inkWidgetLibraryResource
 ---@return inkWidgetLibraryResource

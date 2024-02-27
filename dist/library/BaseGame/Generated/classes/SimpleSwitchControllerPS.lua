@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SimpleSwitchControllerPS: MasterControllerPS
 ---@field switchAction ESwitchAction
 ---@field nameForON TweakDBID
 ---@field nameForOFF TweakDBID
 SimpleSwitchControllerPS = {}
+
 
 ---@param fields? SimpleSwitchControllerPS
 ---@return SimpleSwitchControllerPS

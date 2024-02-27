@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NewItemTooltipAttachmentEntrySettingsListener: userSettingsVarListener
 ---@field ctrl NewItemTooltipAttachmentEntryController
 NewItemTooltipAttachmentEntrySettingsListener = {}
+
 
 ---@param fields? NewItemTooltipAttachmentEntrySettingsListener
 ---@return NewItemTooltipAttachmentEntrySettingsListener

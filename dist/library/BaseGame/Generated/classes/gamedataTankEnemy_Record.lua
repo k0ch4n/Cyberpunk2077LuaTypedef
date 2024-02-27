@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTankEnemy_Record: gamedataTankDestroyableObject_Record
 gamedataTankEnemy_Record = {}
+
 
 ---@param fields? gamedataTankEnemy_Record
 ---@return gamedataTankEnemy_Record

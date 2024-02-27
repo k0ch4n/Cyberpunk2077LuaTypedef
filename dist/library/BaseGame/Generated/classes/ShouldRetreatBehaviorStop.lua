@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ShouldRetreatBehaviorStop: PreventionConditionAbstract
 ---@field agentRegistry PoliceAgentRegistry
 ShouldRetreatBehaviorStop = {}
+
 
 ---@param fields? ShouldRetreatBehaviorStop
 ---@return ShouldRetreatBehaviorStop

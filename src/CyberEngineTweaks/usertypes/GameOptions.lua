@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GameOptions
 GameOptions = {}
+
 
 ---@param category string
 ---@param name string

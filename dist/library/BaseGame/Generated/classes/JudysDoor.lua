@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class JudysDoor: InteractiveDevice
 ---@field animationController entAnimationControllerComponent
 ---@field triggerComponent gameStaticTriggerAreaComponent
@@ -47,6 +48,7 @@
 ---@field componentName CName
 ---@field playerInWorkspot PlayerPuppet
 JudysDoor = {}
+
 
 ---@param fields? JudysDoor
 ---@return JudysDoor

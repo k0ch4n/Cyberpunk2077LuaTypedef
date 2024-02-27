@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AltimeterController: inkWidgetLogicController
 ---@field faceUp inkWidgetReference
 ---@field faceDown inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field alitimeterValue Float
 ---@field precisionEpsilon Float
 AltimeterController = {}
+
 
 ---@param fields? AltimeterController
 ---@return AltimeterController

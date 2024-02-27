@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiScannerGameController: gameuiHUDGameController
 ---@field currentTarget entEntityID
 ---@field scanLock Bool
@@ -42,6 +43,7 @@
 ---@field isShown Bool
 ---@field playerPuppet gameObject
 gameuiScannerGameController = {}
+
 
 ---@param fields? gameuiScannerGameController
 ---@return gameuiScannerGameController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsBumpIntensity: Enum
 ---@field Invalid Enum 0
 ---@field Light Enum 1

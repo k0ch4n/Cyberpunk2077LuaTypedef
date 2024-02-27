@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkUniformGridWidgetReference: inkCompoundWidgetReference
 inkUniformGridWidgetReference = {}
+
 
 ---@param fields? inkUniformGridWidgetReference
 ---@return inkUniformGridWidgetReference

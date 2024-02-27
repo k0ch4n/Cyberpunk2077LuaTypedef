@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animSimpleBounceTransformOutput
 ---@field targetTransform animTransformIndex
 ---@field parentTransform animTransformIndex
@@ -7,6 +8,7 @@
 ---@field multiplier Float
 ---@field channelEntries animSimpleBounceTransformOutput_ChannelEntry[]
 animSimpleBounceTransformOutput = {}
+
 
 ---@param fields? animSimpleBounceTransformOutput
 ---@return animSimpleBounceTransformOutput

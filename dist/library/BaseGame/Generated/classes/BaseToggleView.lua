@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class BaseToggleView: inkWidgetLogicController
 ---@field ToggleController inkToggleController
 ---@field OldState inkEToggleState
 BaseToggleView = {}
+
 
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState

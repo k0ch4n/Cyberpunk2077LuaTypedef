@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorInstance
 AIbehaviorInstance = {}
+
 
 ---@param fields? AIbehaviorInstance
 ---@return AIbehaviorInstance

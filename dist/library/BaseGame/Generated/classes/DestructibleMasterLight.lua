@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DestructibleMasterLight: DestructibleMasterDevice
 ---@field lightComponents gameLightComponent[]
 ---@field lightDefinitions gamedataLightPreset[]
 DestructibleMasterLight = {}
+
 
 ---@param fields? DestructibleMasterLight
 ---@return DestructibleMasterLight

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ShouldContinuePatrolFromNextControlPoint: AIbehaviorconditionScript
 ---@field patrolContinuationPolicy AIArgumentMapping
 ShouldContinuePatrolFromNextControlPoint = {}
+
 
 ---@param fields? ShouldContinuePatrolFromNextControlPoint
 ---@return ShouldContinuePatrolFromNextControlPoint

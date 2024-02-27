@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entPlaceholderComponent: entIPlacedComponent
 entPlaceholderComponent = {}
+
 
 ---@param fields? entPlaceholderComponent
 ---@return entPlaceholderComponent

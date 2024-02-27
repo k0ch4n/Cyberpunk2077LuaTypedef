@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerksCategoriesGameController: gameuiMenuGameController
 ---@field tooltipsManagerRef inkWidgetReference
 ---@field buttonHintsManagerRef inkWidgetReference
@@ -58,6 +59,7 @@
 ---@field isPlayerInCombat Bool
 ---@field screenDisplayContext ScreenDisplayContext
 NewPerksCategoriesGameController = {}
+
 
 ---@param fields? NewPerksCategoriesGameController
 ---@return NewPerksCategoriesGameController

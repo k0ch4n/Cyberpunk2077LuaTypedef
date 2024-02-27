@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkanimEffectInterpolator: inkanimInterpolator
 ---@field startValue Float
 ---@field endValue Float
@@ -7,6 +8,7 @@
 ---@field effectName CName
 ---@field paramName CName
 inkanimEffectInterpolator = {}
+
 
 ---@param fields? inkanimEffectInterpolator
 ---@return inkanimEffectInterpolator

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scannerBorderGameController: gameuiProjectedHUDGameController
 ---@field ZoomMovingContainer inkCompoundWidgetReference
 ---@field DistanceMovingContainer inkCompoundWidgetReference
@@ -53,6 +54,7 @@
 ---@field tcs_BBID redCallbackObject
 ---@field VisionStateBlackboardId redCallbackObject
 scannerBorderGameController = {}
+
 
 ---@param fields? scannerBorderGameController
 ---@return scannerBorderGameController

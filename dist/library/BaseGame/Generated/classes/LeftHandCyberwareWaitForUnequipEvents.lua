@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareWaitForUnequipEvents: LeftHandCyberwareEventsTransition
 LeftHandCyberwareWaitForUnequipEvents = {}
+
 
 ---@param fields? LeftHandCyberwareWaitForUnequipEvents
 ---@return LeftHandCyberwareWaitForUnequipEvents

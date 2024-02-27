@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class minimapuiELayerType: Enum
 ---@field Floor Enum 0
 ---@field Cover Enum 1

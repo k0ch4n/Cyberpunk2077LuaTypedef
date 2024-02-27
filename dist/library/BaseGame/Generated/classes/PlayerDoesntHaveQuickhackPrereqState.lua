@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerDoesntHaveQuickhackPrereqState: gamePrereqState
 PlayerDoesntHaveQuickhackPrereqState = {}
+
 
 ---@param fields? PlayerDoesntHaveQuickhackPrereqState
 ---@return PlayerDoesntHaveQuickhackPrereqState

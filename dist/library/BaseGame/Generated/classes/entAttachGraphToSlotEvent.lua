@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entAttachGraphToSlotEvent: redEvent
 entAttachGraphToSlotEvent = {}
+
 
 ---@param fields? entAttachGraphToSlotEvent
 ---@return entAttachGraphToSlotEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameprojectileComponent: entIPlacedComponent
 ---@field onCollisionAction gameprojectileOnCollisionAction
 ---@field useSweepCollision Bool
@@ -16,6 +17,7 @@
 ---@field explosionPreviewTime Float
 ---@field gameEffectRef gameEffectRef
 gameprojectileComponent = {}
+
 
 ---@param fields? gameprojectileComponent
 ---@return gameprojectileComponent

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SandevistanDecisions: TimeDilationTransitions
 ---@field statListener DefaultTransitionStatListener
 SandevistanDecisions = {}
+
 
 ---@param fields? SandevistanDecisions
 ---@return SandevistanDecisions

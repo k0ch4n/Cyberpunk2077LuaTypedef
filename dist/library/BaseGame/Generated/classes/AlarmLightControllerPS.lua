@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AlarmLightControllerPS: BasicDistractionDeviceControllerPS
 ---@field securityAlarmState ESecuritySystemState
 AlarmLightControllerPS = {}
+
 
 ---@param fields? AlarmLightControllerPS
 ---@return AlarmLightControllerPS

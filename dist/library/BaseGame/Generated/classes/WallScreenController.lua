@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WallScreenController: TVController
 WallScreenController = {}
+
 
 ---@param fields? WallScreenController
 ---@return WallScreenController

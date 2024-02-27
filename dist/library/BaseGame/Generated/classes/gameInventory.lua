@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameInventory: gameComponent
 ---@field saveInventory Bool
 ---@field inventoryTag gameSharedInventoryTag
 ---@field noInitialization Bool
 gameInventory = {}
+
 
 ---@param fields? gameInventory
 ---@return gameInventory

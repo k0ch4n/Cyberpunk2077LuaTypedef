@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class OutlineRequest: IScriptable
 ---@field requester CName
 ---@field outlineDuration Float
 ---@field outlineData OutlineData
 OutlineRequest = {}
+
 
 ---@param fields? OutlineRequest
 ---@return OutlineRequest

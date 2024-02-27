@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProgramTooltipController: AGenericTooltipControllerWithDebug
 ---@field backgroundContainer inkCompoundWidgetReference
 ---@field equipedWrapper inkWidgetReference
@@ -42,6 +43,7 @@
 ---@field itemDisplayContext gameItemDisplayContext
 ---@field isCrafting Bool
 ProgramTooltipController = {}
+
 
 ---@param fields? ProgramTooltipController
 ---@return ProgramTooltipController

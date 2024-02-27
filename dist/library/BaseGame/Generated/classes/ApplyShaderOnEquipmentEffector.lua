@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ApplyShaderOnEquipmentEffector: gameEffector
 ---@field overrideMaterialName CName
 ---@field overrideMaterialTag CName
@@ -7,6 +8,7 @@
 ---@field owner gameObject
 ---@field ownerEffect gameEffectInstance
 ApplyShaderOnEquipmentEffector = {}
+
 
 ---@param fields? ApplyShaderOnEquipmentEffector
 ---@return ApplyShaderOnEquipmentEffector

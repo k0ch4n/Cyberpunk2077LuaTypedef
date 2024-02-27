@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ESecurityGateScannerIssueType: Enum
 ---@field NoIssues Enum 0
 ---@field ScannerEmpty Enum 1

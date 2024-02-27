@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ScannerAuthorization: ScannerChunk
 ---@field keycard Bool
 ---@field password Bool
 ScannerAuthorization = {}
+
 
 ---@param fields? ScannerAuthorization
 ---@return ScannerAuthorization

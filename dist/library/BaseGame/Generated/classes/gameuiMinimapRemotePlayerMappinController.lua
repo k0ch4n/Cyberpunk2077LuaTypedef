@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameuiMinimapRemotePlayerMappinController: gameuiBaseMinimapMappinController
 ---@field rootWidget inkWidgetReference
 ---@field shapeWidget inkWidgetReference
 ---@field dataWidget inkWidgetReference
 ---@field playerMappin gamemappinsRemotePlayerMappin
 gameuiMinimapRemotePlayerMappinController = {}
+
 
 ---@param fields? gameuiMinimapRemotePlayerMappinController
 ---@return gameuiMinimapRemotePlayerMappinController

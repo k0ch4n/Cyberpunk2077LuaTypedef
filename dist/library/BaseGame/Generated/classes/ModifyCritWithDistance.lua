@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ModifyCritWithDistance: ModifyAttackEffector
 ---@field critChanceBonus Float
 ---@field minDistance Float
 ---@field maxDistance Float
 ---@field improveWithDistance Bool
 ModifyCritWithDistance = {}
+
 
 ---@param fields? ModifyCritWithDistance
 ---@return ModifyCritWithDistance

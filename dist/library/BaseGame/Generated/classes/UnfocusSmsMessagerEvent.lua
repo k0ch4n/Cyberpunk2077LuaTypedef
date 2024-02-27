@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnfocusSmsMessagerEvent: redEvent
 UnfocusSmsMessagerEvent = {}
+
 
 ---@param fields? UnfocusSmsMessagerEvent
 ---@return UnfocusSmsMessagerEvent

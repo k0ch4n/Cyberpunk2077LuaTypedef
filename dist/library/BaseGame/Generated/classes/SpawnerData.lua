@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SpawnerData
 ---@field spawnerID entEntityID
 ---@field entryNames CName[]
 SpawnerData = {}
+
 
 ---@param fields? SpawnerData
 ---@return SpawnerData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SceneExitingEvents: VehicleEventsTransition
 SceneExitingEvents = {}
+
 
 ---@param fields? SceneExitingEvents
 ---@return SceneExitingEvents

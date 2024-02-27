@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class PerkDeviceMappinData: IScriptable
 ---@field ownerID entEntityID
 ---@field isUsed Bool
 ---@field position Vector4
 ---@field mappinID gameNewMappinID
 PerkDeviceMappinData = {}
+
 
 ---@param fields? PerkDeviceMappinData
 ---@return PerkDeviceMappinData

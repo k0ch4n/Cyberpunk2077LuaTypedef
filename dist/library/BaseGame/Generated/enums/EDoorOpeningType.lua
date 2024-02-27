@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EDoorOpeningType: Enum
 ---@field SLIDING_HORIZONTALLY Enum 0
 ---@field SLIDING_VERTICALLY Enum 1

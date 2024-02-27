@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ComputerDocumentWidgetController: DeviceInkLogicControllerBase
 ---@field titleWidget inkTextWidgetReference
 ---@field ownerNameWidget inkTextWidgetReference
@@ -14,6 +15,7 @@
 ---@field documentType EDocumentType
 ---@field lastPlayedVideo redResourceReferenceScriptToken
 ComputerDocumentWidgetController = {}
+
 
 ---@param fields? ComputerDocumentWidgetController
 ---@return ComputerDocumentWidgetController

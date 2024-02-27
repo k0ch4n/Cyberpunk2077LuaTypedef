@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalPointOfInterestMappin: gameJournalEntry
 ---@field staticNodeRef NodeRef
 ---@field dynamicEntityRef gameEntityReference
@@ -10,6 +11,7 @@
 ---@field recommendedLevelID TweakDBID
 ---@field notificationTriggerAreaRef NodeRef
 gameJournalPointOfInterestMappin = {}
+
 
 ---@param fields? gameJournalPointOfInterestMappin
 ---@return gameJournalPointOfInterestMappin

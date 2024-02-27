@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InteractionsInputView: inkWidgetLogicController
 ---@field TopArrowRef inkWidgetReference
 ---@field BotArrowRef inkWidgetReference
@@ -11,6 +12,7 @@
 ---@field AllItemsNum Int32
 ---@field DefaultInputPartName CName
 InteractionsInputView = {}
+
 
 ---@param fields? InteractionsInputView
 ---@return InteractionsInputView

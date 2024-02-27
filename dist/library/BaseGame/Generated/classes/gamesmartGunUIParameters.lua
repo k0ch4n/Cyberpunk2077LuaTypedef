@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamesmartGunUIParameters: IScriptable
 ---@field targets gamesmartGunUITargetParameters[]
 ---@field sight gamesmartGunUISightParameters
@@ -11,6 +12,7 @@
 ---@field smartAudioEvents CName[]
 ---@field smartAudioEventsDelays Float[]
 gamesmartGunUIParameters = {}
+
 
 ---@param fields? gamesmartGunUIParameters
 ---@return gamesmartGunUIParameters

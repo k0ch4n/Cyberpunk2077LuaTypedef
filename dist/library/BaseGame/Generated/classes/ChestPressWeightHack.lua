@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ChestPressWeightHack: ActionBool
 ChestPressWeightHack = {}
+
 
 ---@param fields? ChestPressWeightHack
 ---@return ChestPressWeightHack

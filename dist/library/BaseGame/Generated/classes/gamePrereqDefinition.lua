@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gamePrereqDefinition
 ---@field prereqName CName
 ---@field prereq gameIPrereq
 gamePrereqDefinition = {}
+
 
 ---@param fields? gamePrereqDefinition
 ---@return gamePrereqDefinition

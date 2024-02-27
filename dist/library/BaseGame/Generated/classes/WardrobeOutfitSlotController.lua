@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WardrobeOutfitSlotController: inkWidgetLogicController
 ---@field slotNumberText inkTextWidgetReference
 ---@field newSetIndicator inkWidgetReference
@@ -9,6 +10,7 @@
 ---@field equipped Bool
 ---@field isNew Bool
 WardrobeOutfitSlotController = {}
+
 
 ---@param fields? WardrobeOutfitSlotController
 ---@return WardrobeOutfitSlotController

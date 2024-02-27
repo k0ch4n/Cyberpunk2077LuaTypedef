@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsCerberus: AIbehaviorconditionScript
 IsCerberus = {}
+
 
 ---@param fields? IsCerberus
 ---@return IsCerberus

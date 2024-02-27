@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LcdScreenILogicController: inkWidgetLogicController
 ---@field defaultUI inkWidgetReference
 ---@field mainDisplayWidget inkVideoWidgetReference
@@ -9,6 +10,7 @@
 ---@field replaceTextWithCustomNumber Bool
 ---@field customNumber Int32
 LcdScreenILogicController = {}
+
 
 ---@param fields? LcdScreenILogicController
 ---@return LcdScreenILogicController

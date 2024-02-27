@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScriptedReactionSystem: gameScriptableSystem
 ---@field fleeingNPCs Int32
 ---@field runners entEntity[]
@@ -7,6 +8,7 @@
 ---@field callInAction Bool
 ---@field policeCaller entEntity
 ScriptedReactionSystem = {}
+
 
 ---@param fields? ScriptedReactionSystem
 ---@return ScriptedReactionSystem

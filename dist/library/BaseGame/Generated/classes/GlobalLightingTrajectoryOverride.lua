@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GlobalLightingTrajectoryOverride
 ---@field overrideScale Float
 ---@field latitude Float
@@ -7,6 +8,7 @@
 ---@field moonRotationOffset Float
 ---@field timeOfYearSeason ETimeOfYearSeason
 GlobalLightingTrajectoryOverride = {}
+
 
 ---@param fields? GlobalLightingTrajectoryOverride
 ---@return GlobalLightingTrajectoryOverride

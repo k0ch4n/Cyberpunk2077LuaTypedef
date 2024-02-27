@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimFeature_FPPCamera: animAnimFeature
 ---@field fov Float
 ---@field deltaYaw Float
@@ -44,6 +45,7 @@
 ---@field t4UseCameraIdleOrientation Bool
 ---@field t4CameraControlIdleOrientation Quaternion
 animAnimFeature_FPPCamera = {}
+
 
 ---@param fields? animAnimFeature_FPPCamera
 ---@return animAnimFeature_FPPCamera

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TargetTrackingExtension: AITargetTrackerComponent
 ---@field trackedCombatSquads AICombatSquadScriptInterface[]
 ---@field trackedCombatSquadsCounters Int32[]
@@ -8,6 +9,7 @@
 ---@field canBeAddedToBossHealthbar Bool
 ---@field playerPuppet gameObject
 TargetTrackingExtension = {}
+
 
 ---@param fields? TargetTrackingExtension
 ---@return TargetTrackingExtension

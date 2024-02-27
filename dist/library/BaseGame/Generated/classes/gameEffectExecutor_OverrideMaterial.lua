@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameEffectExecutor_OverrideMaterial: gameEffectExecutor
 ---@field material IMaterial
 gameEffectExecutor_OverrideMaterial = {}
+
 
 ---@param fields? gameEffectExecutor_OverrideMaterial
 ---@return gameEffectExecutor_OverrideMaterial

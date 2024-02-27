@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InShootUpperBodyState: AINPCUpperBodyStateCheck
 InShootUpperBodyState = {}
+
 
 ---@param fields? InShootUpperBodyState
 ---@return InShootUpperBodyState

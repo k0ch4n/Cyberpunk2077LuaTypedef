@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorDriveFollowSlotTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 AIbehaviorDriveFollowSlotTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorDriveFollowSlotTreeNodeDefinition
 ---@return AIbehaviorDriveFollowSlotTreeNodeDefinition

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ScriptConditionTypeBase: IScriptable
 ScriptConditionTypeBase = {}
+
 
 ---@param playerObject gameObject
 ---@return Bool

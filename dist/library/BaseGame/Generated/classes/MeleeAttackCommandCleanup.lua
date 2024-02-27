@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MeleeAttackCommandCleanup: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 MeleeAttackCommandCleanup = {}
+
 
 ---@param fields? MeleeAttackCommandCleanup
 ---@return MeleeAttackCommandCleanup

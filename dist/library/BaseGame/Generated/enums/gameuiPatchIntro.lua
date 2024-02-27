@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiPatchIntro: Enum
 ---@field Patch1500_NextGen Enum 0
 ---@field Patch1600 Enum 1

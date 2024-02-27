@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorClearActiveNodesDebuggerCommand: AIbehaviorIDebuggerCommand
 AIbehaviorClearActiveNodesDebuggerCommand = {}
+
 
 ---@param fields? AIbehaviorClearActiveNodesDebuggerCommand
 ---@return AIbehaviorClearActiveNodesDebuggerCommand

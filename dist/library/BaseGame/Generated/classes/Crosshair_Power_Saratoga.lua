@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class Crosshair_Power_Saratoga: gameuiCrosshairBaseGameController
 ---@field leftPart inkWidgetReference
 ---@field rightPart inkWidgetReference
 ---@field topPart inkWidgetReference
 ---@field botPart inkWidgetReference
 Crosshair_Power_Saratoga = {}
+
 
 ---@param fields? Crosshair_Power_Saratoga
 ---@return Crosshair_Power_Saratoga

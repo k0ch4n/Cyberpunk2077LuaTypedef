@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class UIInventoryItemTooltipWrapper: ATooltipData
 ---@field data UIInventoryItem
 ---@field displayContext ItemDisplayContextData
 ---@field overridePrice Int32
 ---@field comparisonData UIInventoryItemComparisonManager
 UIInventoryItemTooltipWrapper = {}
+
 
 ---@param fields? UIInventoryItemTooltipWrapper
 ---@return UIInventoryItemTooltipWrapper

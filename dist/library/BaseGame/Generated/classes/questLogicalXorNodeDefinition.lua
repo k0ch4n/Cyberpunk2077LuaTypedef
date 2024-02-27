@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questLogicalXorNodeDefinition: questLogicalBaseNodeDefinition
 questLogicalXorNodeDefinition = {}
+
 
 ---@param fields? questLogicalXorNodeDefinition
 ---@return questLogicalXorNodeDefinition

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PerksSkillLabelController: HubMenuLabelController
 PerksSkillLabelController = {}
+
 
 ---@param fields? PerksSkillLabelController
 ---@return PerksSkillLabelController

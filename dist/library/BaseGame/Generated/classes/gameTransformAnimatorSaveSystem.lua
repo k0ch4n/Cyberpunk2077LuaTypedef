@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameTransformAnimatorSaveSystem: gameITransformAnimatorSaveSystem
 gameTransformAnimatorSaveSystem = {}
+
 
 ---@param fields? gameTransformAnimatorSaveSystem
 ---@return gameTransformAnimatorSaveSystem

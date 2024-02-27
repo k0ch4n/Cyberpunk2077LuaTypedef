@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class StatPoolPrereqState: gamePrereqState
 ---@field statPoolListener BaseStatPoolPrereqListener
 ---@field statpoolWasMissing Bool
 ---@field object gameObject
 ---@field statsObjID gameStatsObjectID
 StatPoolPrereqState = {}
+
 
 ---@param fields? StatPoolPrereqState
 ---@return StatPoolPrereqState

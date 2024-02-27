@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EMeshStreamType: Enum
 ---@field MST_Position_3F Enum 1
 ---@field MST_SkinningIndices_4U8 Enum 2

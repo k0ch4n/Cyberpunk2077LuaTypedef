@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CombatGadgetTransitions: DefaultTransition
 CombatGadgetTransitions = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript

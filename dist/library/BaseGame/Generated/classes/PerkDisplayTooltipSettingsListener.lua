@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PerkDisplayTooltipSettingsListener: userSettingsVarListener
 ---@field ctrl PerkDisplayTooltipController
 PerkDisplayTooltipSettingsListener = {}
+
 
 ---@param fields? PerkDisplayTooltipSettingsListener
 ---@return PerkDisplayTooltipSettingsListener

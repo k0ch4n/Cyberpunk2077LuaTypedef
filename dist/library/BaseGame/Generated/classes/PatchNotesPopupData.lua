@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PatchNotesPopupData: inkGameNotificationData
 PatchNotesPopupData = {}
+
 
 ---@param fields? PatchNotesPopupData
 ---@return PatchNotesPopupData

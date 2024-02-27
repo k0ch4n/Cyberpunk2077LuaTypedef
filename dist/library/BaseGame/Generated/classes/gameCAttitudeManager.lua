@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCAttitudeManager: gameIAttitudeManager
 gameCAttitudeManager = {}
+
 
 ---@param fields? gameCAttitudeManager
 ---@return gameCAttitudeManager

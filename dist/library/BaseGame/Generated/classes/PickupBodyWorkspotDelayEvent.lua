@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PickupBodyWorkspotDelayEvent: redEvent
 PickupBodyWorkspotDelayEvent = {}
+
 
 ---@param fields? PickupBodyWorkspotDelayEvent
 ---@return PickupBodyWorkspotDelayEvent

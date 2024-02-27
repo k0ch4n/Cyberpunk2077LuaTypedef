@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class meshRegionData
 ---@field chunkDataIntact meshChunkOffset[]
 ---@field chunkDataFractured meshChunkOffset[]
@@ -7,6 +8,7 @@
 ---@field chunkMaskFractured Uint64
 ---@field isStaticRemains Bool
 meshRegionData = {}
+
 
 ---@param fields? meshRegionData
 ---@return meshRegionData

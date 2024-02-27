@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsAnyThreatClose: AIAutonomousConditions
 ---@field distance Float
 IsAnyThreatClose = {}
+
 
 ---@param fields? IsAnyThreatClose
 ---@return IsAnyThreatClose

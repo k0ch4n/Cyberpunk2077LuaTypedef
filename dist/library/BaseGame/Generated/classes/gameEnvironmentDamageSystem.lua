@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEnvironmentDamageSystem: gameIEnvironmentDamageSystem
 gameEnvironmentDamageSystem = {}
+
 
 ---@param fields? gameEnvironmentDamageSystem
 ---@return gameEnvironmentDamageSystem

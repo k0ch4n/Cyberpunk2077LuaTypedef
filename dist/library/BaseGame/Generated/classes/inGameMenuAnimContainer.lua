@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inGameMenuAnimContainer: IScriptable
 ---@field animProxy inkanimProxy
 inGameMenuAnimContainer = {}
+
 
 ---@param fields? inGameMenuAnimContainer
 ---@return inGameMenuAnimContainer

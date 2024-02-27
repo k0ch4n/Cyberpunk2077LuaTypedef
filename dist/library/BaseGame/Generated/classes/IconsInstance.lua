@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IconsInstance: ModuleInstance
 ---@field isForcedVisibleThroughWalls Bool
 IconsInstance = {}
+
 
 ---@param fields? IconsInstance
 ---@return IconsInstance

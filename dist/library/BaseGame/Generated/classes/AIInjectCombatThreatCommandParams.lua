@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIInjectCombatThreatCommandParams: questScriptedAICommandParams
 ---@field targetNodeRef NodeRef
 ---@field targetPuppetRef gameEntityReference
@@ -7,6 +8,7 @@
 ---@field duration Float
 ---@field isPersistent Bool
 AIInjectCombatThreatCommandParams = {}
+
 
 ---@param fields? AIInjectCombatThreatCommandParams
 ---@return AIInjectCombatThreatCommandParams

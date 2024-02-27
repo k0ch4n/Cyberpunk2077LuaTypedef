@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MovableWallScreen: Door
 ---@field animationLength Float
 ---@field animFeature AnimFeature_SimpleDevice
 MovableWallScreen = {}
+
 
 ---@param fields? MovableWallScreen
 ---@return MovableWallScreen

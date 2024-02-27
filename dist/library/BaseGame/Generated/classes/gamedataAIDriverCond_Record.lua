@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIDriverCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIDriverCond_Record = {}
+
 
 ---@param fields? gamedataAIDriverCond_Record
 ---@return gamedataAIDriverCond_Record

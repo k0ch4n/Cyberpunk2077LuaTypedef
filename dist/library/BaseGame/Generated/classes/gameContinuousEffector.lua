@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameContinuousEffector: gameEffector
 gameContinuousEffector = {}
+
 
 ---@param fields? gameContinuousEffector
 ---@return gameContinuousEffector

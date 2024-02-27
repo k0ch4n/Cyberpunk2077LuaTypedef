@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GameplayEquipProgramsRequest: gamePlayerScriptableSystemRequest
 ---@field programIDs gameItemID[]
 GameplayEquipProgramsRequest = {}
+
 
 ---@param fields? GameplayEquipProgramsRequest
 ---@return GameplayEquipProgramsRequest

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocFillBar: inkWidgetLogicController
 ---@field root inkWidget
 ---@field fillStart Float
@@ -8,6 +9,7 @@
 ---@field sizeAnimation inkanimProxy
 ---@field marginAnimation inkanimProxy
 RipperdocFillBar = {}
+
 
 ---@param fields? RipperdocFillBar
 ---@return RipperdocFillBar

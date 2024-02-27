@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIHostLeftSquad: AIAIEvent
 ---@field squadInterface AISquadScriptInterface
 AIHostLeftSquad = {}
+
 
 ---@param fields? AIHostLeftSquad
 ---@return AIHostLeftSquad

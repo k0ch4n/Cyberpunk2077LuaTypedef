@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DestroyWeakspot: AIActionHelperTask
 ---@field weakspotIndex Int32
 ---@field weakspotComponent gameWeakspotComponent
 ---@field weakspotArray gameWeakspotObject[]
 DestroyWeakspot = {}
+
 
 ---@param fields? DestroyWeakspot
 ---@return DestroyWeakspot

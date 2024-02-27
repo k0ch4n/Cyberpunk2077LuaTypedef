@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class WorkspotMapData: IScriptable
 ---@field action gamedataWorkspotActionType
 ---@field workspots WorkspotEntryData[]
 WorkspotMapData = {}
+
 
 ---@param fields? WorkspotMapData
 ---@return WorkspotMapData

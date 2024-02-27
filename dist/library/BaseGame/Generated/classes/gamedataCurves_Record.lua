@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCurves_Record: gamedataTweakDBRecord
 gamedataCurves_Record = {}
+
 
 ---@param fields? gamedataCurves_Record
 ---@return gamedataCurves_Record

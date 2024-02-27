@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkLanguageId: Enum
 ---@field EN Enum 0
 ---@field PL Enum 1

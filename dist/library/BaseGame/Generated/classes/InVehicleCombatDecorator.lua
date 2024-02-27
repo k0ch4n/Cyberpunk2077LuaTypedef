@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class InVehicleCombatDecorator: AIVehicleTaskAbstract
 ---@field targetToChase gameObject
 ---@field vehCommand AIVehicleChaseCommand
 InVehicleCombatDecorator = {}
+
 
 ---@param fields? InVehicleCombatDecorator
 ---@return InVehicleCombatDecorator

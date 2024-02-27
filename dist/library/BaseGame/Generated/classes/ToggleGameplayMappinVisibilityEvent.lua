@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ToggleGameplayMappinVisibilityEvent: redEvent
 ---@field isHidden Bool
 ToggleGameplayMappinVisibilityEvent = {}
+
 
 ---@param fields? ToggleGameplayMappinVisibilityEvent
 ---@return ToggleGameplayMappinVisibilityEvent

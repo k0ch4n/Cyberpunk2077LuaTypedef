@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameJournalInternetCanvas: gameJournalInternetBase
 ---@field isHidden Bool
 gameJournalInternetCanvas = {}
+
 
 ---@param fields? gameJournalInternetCanvas
 ---@return gameJournalInternetCanvas

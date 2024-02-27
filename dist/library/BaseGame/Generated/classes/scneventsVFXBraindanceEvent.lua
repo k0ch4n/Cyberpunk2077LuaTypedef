@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsVFXBraindanceEvent: scnSceneEvent
 ---@field performerId scnPerformerId
 ---@field nodeRef NodeRef
@@ -9,6 +10,7 @@
 ---@field glitchSequenceShift Uint32
 ---@field fullyRewindable Bool
 scneventsVFXBraindanceEvent = {}
+
 
 ---@param fields? scneventsVFXBraindanceEvent
 ---@return scneventsVFXBraindanceEvent

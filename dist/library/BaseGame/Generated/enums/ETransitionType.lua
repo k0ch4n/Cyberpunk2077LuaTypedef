@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETransitionType: Enum
 ---@field EET_Linear Enum 0
 ---@field EET_Sine Enum 1

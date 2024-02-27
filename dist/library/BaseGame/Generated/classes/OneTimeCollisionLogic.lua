@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OneTimeCollisionLogic: QuadRacerBonusCollisionLogic
 OneTimeCollisionLogic = {}
+
 
 ---@param fields? OneTimeCollisionLogic
 ---@return OneTimeCollisionLogic

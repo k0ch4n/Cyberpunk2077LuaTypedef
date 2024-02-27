@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionSetUnequipSecondaryWeapons_Record_Implementation: IScriptable
 AISubActionSetUnequipSecondaryWeapons_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionSetUnequipSecondaryWeapons_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiTooltipAttachmentSlot: inkWidgetLogicController
 gameuiTooltipAttachmentSlot = {}
+
 
 ---@param fields? gameuiTooltipAttachmentSlot
 ---@return gameuiTooltipAttachmentSlot

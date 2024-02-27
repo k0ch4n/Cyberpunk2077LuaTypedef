@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PatrolAction: TweakAIActionSmartComposite
 PatrolAction = {}
+
 
 ---@param fields? PatrolAction
 ---@return PatrolAction

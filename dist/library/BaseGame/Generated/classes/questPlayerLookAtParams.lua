@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questPlayerLookAtParams: ISerializable
 ---@field useOffsetToPlayer Bool
 ---@field lookAtTarget gameEntityReference
@@ -17,6 +18,7 @@
 ---@field easeIn Bool
 ---@field easeOut Bool
 questPlayerLookAtParams = {}
+
 
 ---@param fields? questPlayerLookAtParams
 ---@return questPlayerLookAtParams

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiMinimapQuestAreaMappinController: gameuiBaseMinimapMappinController
 ---@field areaShapeWidget inkShapeWidgetReference
 gameuiMinimapQuestAreaMappinController = {}
+
 
 ---@param fields? gameuiMinimapQuestAreaMappinController
 ---@return gameuiMinimapQuestAreaMappinController

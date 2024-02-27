@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workItemOverrideCommandData: workIWorkspotCommandData
 workItemOverrideCommandData = {}
+
 
 ---@param fields? workItemOverrideCommandData
 ---@return workItemOverrideCommandData

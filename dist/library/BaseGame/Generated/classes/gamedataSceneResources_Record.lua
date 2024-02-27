@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataSceneResources_Record: gamedataTweakDBRecord
 gamedataSceneResources_Record = {}
+
 
 ---@param fields? gamedataSceneResources_Record
 ---@return gamedataSceneResources_Record

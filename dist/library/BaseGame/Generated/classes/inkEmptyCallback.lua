@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkEmptyCallback: inkCallbackBase
 inkEmptyCallback = {}
+
 
 ---@param fields? inkEmptyCallback
 ---@return inkEmptyCallback

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataIconsGeneratorContext_Record: gamedataTweakDBRecord
 gamedataIconsGeneratorContext_Record = {}
+
 
 ---@param fields? gamedataIconsGeneratorContext_Record
 ---@return gamedataIconsGeneratorContext_Record

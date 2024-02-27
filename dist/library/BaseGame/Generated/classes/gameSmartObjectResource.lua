@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSmartObjectResource: CResource
 ---@field entryPoints gameSmartObjectGate[]
 ---@field exitPoints gameSmartObjectGate[]
@@ -7,6 +8,7 @@
 ---@field loopAnimations gameSmartObjectGate[]
 ---@field type gameSmartObjectType
 gameSmartObjectResource = {}
+
 
 ---@param fields? gameSmartObjectResource
 ---@return gameSmartObjectResource

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PachinkoMachineControllerPS: ArcadeMachineControllerPS
 PachinkoMachineControllerPS = {}
+
 
 ---@param fields? PachinkoMachineControllerPS
 ---@return PachinkoMachineControllerPS

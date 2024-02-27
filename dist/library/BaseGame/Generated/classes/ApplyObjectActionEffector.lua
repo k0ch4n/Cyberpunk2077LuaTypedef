@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ApplyObjectActionEffector: gameEffector
 ---@field actionID TweakDBID
 ---@field triggered Bool
 ---@field probability Float
 ApplyObjectActionEffector = {}
+
 
 ---@param fields? ApplyObjectActionEffector
 ---@return ApplyObjectActionEffector

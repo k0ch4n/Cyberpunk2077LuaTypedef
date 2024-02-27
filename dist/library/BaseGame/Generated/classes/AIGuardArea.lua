@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIGuardArea
 AIGuardArea = {}
+
 
 ---@param fields? AIGuardArea
 ---@return AIGuardArea

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TurretEndEvents: TurretTransition
 TurretEndEvents = {}
+
 
 ---@param fields? TurretEndEvents
 ---@return TurretEndEvents

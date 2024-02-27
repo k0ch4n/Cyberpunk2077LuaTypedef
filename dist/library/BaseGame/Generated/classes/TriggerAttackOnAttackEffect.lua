@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TriggerAttackOnAttackEffect: ModifyAttackEffector
 ---@field owner gameObject
 ---@field attack gameAttack_GameEffect
@@ -12,6 +13,7 @@
 ---@field applicationChance Float
 ---@field useHitPosition Bool
 TriggerAttackOnAttackEffect = {}
+
 
 ---@param fields? TriggerAttackOnAttackEffect
 ---@return TriggerAttackOnAttackEffect

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class StimuliSquadActionEvent: senseBaseStimuliEvent
 ---@field squadActionName CName
 ---@field squadVerb EAISquadVerb
 StimuliSquadActionEvent = {}
+
 
 ---@param fields? StimuliSquadActionEvent
 ---@return StimuliSquadActionEvent

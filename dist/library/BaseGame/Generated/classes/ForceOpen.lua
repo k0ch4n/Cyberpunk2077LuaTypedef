@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceOpen: ActionBool
 ForceOpen = {}
+
 
 ---@param fields? ForceOpen
 ---@return ForceOpen

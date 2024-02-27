@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestExitNoAnimation: ActionBool
 QuestExitNoAnimation = {}
+
 
 ---@param fields? QuestExitNoAnimation
 ---@return QuestExitNoAnimation

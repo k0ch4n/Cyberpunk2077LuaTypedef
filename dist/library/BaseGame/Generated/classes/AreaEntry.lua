@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AreaEntry
 ---@field user entEntityID
 AreaEntry = {}
+
 
 ---@param fields? AreaEntry
 ---@return AreaEntry

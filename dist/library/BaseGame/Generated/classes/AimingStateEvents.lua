@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AimingStateEvents: UpperBodyEventsTransition
 ---@field aim gameweaponAnimFeature_AimPlayer
 ---@field posAnimFeature AnimFeature_ProceduralIronsightData
@@ -33,6 +34,7 @@
 ---@field accelerationMod gameConstantStatModifierData_Deprecated
 ---@field decelerationMod gameConstantStatModifierData_Deprecated
 AimingStateEvents = {}
+
 
 ---@param fields? AimingStateEvents
 ---@return AimingStateEvents

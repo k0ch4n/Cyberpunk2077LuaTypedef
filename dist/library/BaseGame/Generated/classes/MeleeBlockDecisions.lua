@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeBlockDecisions: MeleeTransition
 MeleeBlockDecisions = {}
+
 
 ---@param fields? MeleeBlockDecisions
 ---@return MeleeBlockDecisions

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class DeviceScanningDescription: ObjectScanningDescription
 ---@field DeviceGameplayDescription TweakDBID
 ---@field DeviceCustomDescriptions TweakDBID[]
 ---@field DeviceGameplayRole TweakDBID
 ---@field DeviceRoleActionsDescriptions TweakDBID[]
 DeviceScanningDescription = {}
+
 
 ---@param fields? DeviceScanningDescription
 ---@return DeviceScanningDescription

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReleaseEvents: CarriedObjectEvents
 ReleaseEvents = {}
+
 
 ---@param fields? ReleaseEvents
 ---@return ReleaseEvents

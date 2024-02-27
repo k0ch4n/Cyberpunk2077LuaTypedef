@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayRadio: MusicSettings
 ---@field radioStation ERadioStationList
 PlayRadio = {}
+
 
 ---@param fields? PlayRadio
 ---@return PlayRadio

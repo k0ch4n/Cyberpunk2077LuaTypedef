@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionGeneratePointOfInterestTarget_Record_Implementation: IScriptable
 AISubActionGeneratePointOfInterestTarget_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionGeneratePointOfInterestTarget_Record

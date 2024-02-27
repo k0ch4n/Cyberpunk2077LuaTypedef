@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionMeleeAttackAttemptEvent_Record_Implementation: IScriptable
 AISubActionMeleeAttackAttemptEvent_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionMeleeAttackAttemptEvent_Record

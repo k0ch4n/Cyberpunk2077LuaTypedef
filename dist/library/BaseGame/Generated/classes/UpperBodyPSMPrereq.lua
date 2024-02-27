@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UpperBodyPSMPrereq: PlayerStateMachinePrereq
 UpperBodyPSMPrereq = {}
+
 
 ---@param fields? UpperBodyPSMPrereq
 ---@return UpperBodyPSMPrereq

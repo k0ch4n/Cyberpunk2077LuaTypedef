@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ModifyStaminaHandlerEffector: gameEffector
 ---@field opSymbol CName
 ModifyStaminaHandlerEffector = {}
+
 
 ---@param fields? ModifyStaminaHandlerEffector
 ---@return ModifyStaminaHandlerEffector

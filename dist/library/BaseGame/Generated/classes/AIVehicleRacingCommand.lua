@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIVehicleRacingCommand: AIVehicleCommand
 ---@field splineRef NodeRef
 ---@field secureTimeOut Float
@@ -15,6 +16,7 @@
 ---@field rubberBandingTeleportToCatchUp Bool
 ---@field rubberBandingStayInFront Bool
 AIVehicleRacingCommand = {}
+
 
 ---@param fields? AIVehicleRacingCommand
 ---@return AIVehicleRacingCommand

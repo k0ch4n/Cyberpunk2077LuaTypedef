@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class moveMovementType: Enum
 ---@field Walk Enum 0
 ---@field Run Enum 1

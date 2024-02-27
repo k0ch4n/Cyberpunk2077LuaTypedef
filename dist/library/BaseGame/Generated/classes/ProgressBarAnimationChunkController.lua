@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProgressBarAnimationChunkController: inkWidgetLogicController
 ---@field rootCanvas inkWidgetReference
 ---@field barCanvas inkWidgetReference
@@ -7,6 +8,7 @@
 ---@field fullbarSize Float
 ---@field isNegative Bool
 ProgressBarAnimationChunkController = {}
+
 
 ---@param fields? ProgressBarAnimationChunkController
 ---@return ProgressBarAnimationChunkController

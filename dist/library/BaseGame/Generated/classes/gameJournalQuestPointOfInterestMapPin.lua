@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameJournalQuestPointOfInterestMapPin: gameJournalQuestMapPinBase
 gameJournalQuestPointOfInterestMapPin = {}
+
 
 ---@param fields? gameJournalQuestPointOfInterestMapPin
 ---@return gameJournalQuestPointOfInterestMapPin

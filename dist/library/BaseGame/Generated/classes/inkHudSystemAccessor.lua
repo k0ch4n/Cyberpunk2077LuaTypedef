@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkHudSystemAccessor: inkILayerSystemAccesor
 inkHudSystemAccessor = {}
+
 
 ---@param fields? inkHudSystemAccessor
 ---@return inkHudSystemAccessor

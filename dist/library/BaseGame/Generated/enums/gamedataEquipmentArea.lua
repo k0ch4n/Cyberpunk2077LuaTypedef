@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataEquipmentArea: Enum
 ---@field AbilityCW Enum 0
 ---@field ArmsCW Enum 1

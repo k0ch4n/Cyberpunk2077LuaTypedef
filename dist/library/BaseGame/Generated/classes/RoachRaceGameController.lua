@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class RoachRaceGameController: gameuiSideScrollerMiniGameController
 ---@field gameMenu inkWidgetReference
 ---@field scoreboardMenu inkWidgetReference
 ---@field isCutsceneInProgress Bool
 RoachRaceGameController = {}
+
 
 ---@param fields? RoachRaceGameController
 ---@return RoachRaceGameController

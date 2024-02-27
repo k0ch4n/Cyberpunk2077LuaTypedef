@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class animAnimFeature_MoveTo: animAnimFeature
 ---@field initialFwdVector Vector4
 ---@field targetPositionWs Vector4
 ---@field targetDirectionWs Vector4
 ---@field timeToMove Float
 animAnimFeature_MoveTo = {}
+
 
 ---@param fields? animAnimFeature_MoveTo
 ---@return animAnimFeature_MoveTo

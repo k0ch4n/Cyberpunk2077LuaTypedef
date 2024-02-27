@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ItemAddedInventoryCallback: gameInventoryScriptCallback
 ---@field notificationQueue ItemsNotificationQueue
 ItemAddedInventoryCallback = {}
+
 
 ---@param fields? ItemAddedInventoryCallback
 ---@return ItemAddedInventoryCallback

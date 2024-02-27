@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIGameDataDef: gamebbScriptDefinition
 ---@field BreachUIParams gamebbScriptID_Variant
 ---@field InteractionData gamebbScriptID_Variant
@@ -37,6 +38,7 @@
 ---@field Popup_Radio_Enabled gamebbScriptID_Bool
 ---@field Popup_CarColorPicker_IsShown gamebbScriptID_Bool
 UIGameDataDef = {}
+
 
 ---@param fields? UIGameDataDef
 ---@return UIGameDataDef

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldNavigationConfigAreaNodeInstance: worldAreaShapeNodeInstance
 worldNavigationConfigAreaNodeInstance = {}
+
 
 ---@param fields? worldNavigationConfigAreaNodeInstance
 ---@return worldNavigationConfigAreaNodeInstance

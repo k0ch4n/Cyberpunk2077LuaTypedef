@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BountyCollectedNotificationViewData: gameuiGenericNotificationViewData
 BountyCollectedNotificationViewData = {}
+
 
 ---@param fields? BountyCollectedNotificationViewData
 ---@return BountyCollectedNotificationViewData

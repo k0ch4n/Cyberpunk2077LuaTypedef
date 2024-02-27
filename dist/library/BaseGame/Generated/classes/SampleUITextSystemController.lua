@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SampleUITextSystemController: gameuiWidgetGameController
 ---@field locKeyTextWidget inkTextWidgetReference
 ---@field localizedTextWidget inkTextWidgetReference
@@ -21,6 +22,7 @@
 ---@field animateValueButton inkWidgetReference
 ---@field animateValueWidget inkTextWidgetReference
 SampleUITextSystemController = {}
+
 
 ---@param fields? SampleUITextSystemController
 ---@return SampleUITextSystemController

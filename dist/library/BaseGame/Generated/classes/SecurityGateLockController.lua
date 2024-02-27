@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SecurityGateLockController: ScriptableDeviceComponent
 SecurityGateLockController = {}
+
 
 ---@param fields? SecurityGateLockController
 ---@return SecurityGateLockController

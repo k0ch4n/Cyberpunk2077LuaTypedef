@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ReactionManagerTask: AIbehaviortaskScript
 ---@field reactionData AIReactionData
 ReactionManagerTask = {}
+
 
 ---@param fields? ReactionManagerTask
 ---@return ReactionManagerTask

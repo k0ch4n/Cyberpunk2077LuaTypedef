@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WidgetCustomData: IScriptable
 WidgetCustomData = {}
+
 
 ---@param fields? WidgetCustomData
 ---@return WidgetCustomData

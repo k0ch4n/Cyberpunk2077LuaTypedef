@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StatusScreenGameController: BaseBunkerComputerGameController
 ---@field alphaSys inkWidgetReference
 ---@field bravoSys inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field sierraBackupSys inkWidgetReference
 ---@field victorBackupSys inkWidgetReference
 StatusScreenGameController = {}
+
 
 ---@param fields? StatusScreenGameController
 ---@return StatusScreenGameController

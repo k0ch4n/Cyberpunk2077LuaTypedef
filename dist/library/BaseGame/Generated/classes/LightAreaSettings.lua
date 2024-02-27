@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LightAreaSettings: IAreaSettings
 ---@field latitude curveData
 ---@field season ETimeOfYearSeason
@@ -11,6 +12,7 @@
 ---@field moonSize curveData
 ---@field specularTint curveData
 LightAreaSettings = {}
+
 
 ---@param fields? LightAreaSettings
 ---@return LightAreaSettings

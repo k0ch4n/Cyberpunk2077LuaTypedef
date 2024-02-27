@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehiclePassengerContextDecisions: VehicleGameplayContextDecisions
 VehiclePassengerContextDecisions = {}
+
 
 ---@param fields? VehiclePassengerContextDecisions
 ---@return VehiclePassengerContextDecisions

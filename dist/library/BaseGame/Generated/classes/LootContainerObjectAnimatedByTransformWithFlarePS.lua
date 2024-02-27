@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LootContainerObjectAnimatedByTransformWithFlarePS: LootContainerObjectAnimatedByTransformPS
 LootContainerObjectAnimatedByTransformWithFlarePS = {}
+
 
 ---@param fields? LootContainerObjectAnimatedByTransformWithFlarePS
 ---@return LootContainerObjectAnimatedByTransformWithFlarePS

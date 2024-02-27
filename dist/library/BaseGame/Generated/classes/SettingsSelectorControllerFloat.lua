@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SettingsSelectorControllerFloat: SettingsSelectorControllerRange
 ---@field newValue Float
 ---@field sliderWidget inkWidgetReference
 ---@field sliderController inkSliderController
 SettingsSelectorControllerFloat = {}
+
 
 ---@param fields? SettingsSelectorControllerFloat
 ---@return SettingsSelectorControllerFloat

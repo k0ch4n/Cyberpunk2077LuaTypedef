@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestItemController: inkButtonController
 ---@field QuestTitle inkTextWidgetReference
 ---@field QuestStatus inkTextWidgetReference
@@ -19,6 +20,7 @@
 ---@field QuestObjectiveData ABaseQuestObjectiveWrapper
 ---@field QuestData QuestDataWrapper
 QuestItemController = {}
+
 
 ---@param fields? QuestItemController
 ---@return QuestItemController

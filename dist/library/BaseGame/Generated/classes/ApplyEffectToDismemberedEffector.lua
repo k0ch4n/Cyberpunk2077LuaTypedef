@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ApplyEffectToDismemberedEffector: gameEffector
 ApplyEffectToDismemberedEffector = {}
+
 
 ---@param fields? ApplyEffectToDismemberedEffector
 ---@return ApplyEffectToDismemberedEffector

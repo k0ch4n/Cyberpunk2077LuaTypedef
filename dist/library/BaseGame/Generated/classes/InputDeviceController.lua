@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class InputDeviceController: gameScriptableComponent
 ---@field isStarted Bool
 InputDeviceController = {}
+
 
 ---@param fields? InputDeviceController
 ---@return InputDeviceController

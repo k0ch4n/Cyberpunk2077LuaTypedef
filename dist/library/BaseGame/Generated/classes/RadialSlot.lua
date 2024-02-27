@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RadialSlot: IScriptable
 ---@field slotAnchorRef inkWidgetReference
 ---@field libraryRef inkWidgetLibraryReference
@@ -11,6 +12,7 @@
 ---@field inactive String
 ---@field blocked String
 RadialSlot = {}
+
 
 ---@param fields? RadialSlot
 ---@return RadialSlot

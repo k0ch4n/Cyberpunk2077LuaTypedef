@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkInitializedWidgetUserData: inkUserData
 inkInitializedWidgetUserData = {}
+
 
 ---@param fields? inkInitializedWidgetUserData
 ---@return inkInitializedWidgetUserData

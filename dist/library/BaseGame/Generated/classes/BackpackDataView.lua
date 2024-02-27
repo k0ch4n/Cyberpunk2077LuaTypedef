@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class BackpackDataView: inkScriptableDataViewWrapper
 ---@field itemSortMode ItemSortMode
 ---@field attachmentsList gamedataItemType[]
 ---@field uiScriptableSystem UIScriptableSystem
 ---@field itemFilterType ItemFilterCategory
 BackpackDataView = {}
+
 
 ---@param fields? BackpackDataView
 ---@return BackpackDataView

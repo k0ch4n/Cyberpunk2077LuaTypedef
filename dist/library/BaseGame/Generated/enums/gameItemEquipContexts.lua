@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameItemEquipContexts: Enum
 ---@field LastWeaponEquipped Enum 0
 ---@field LastUsedMeleeWeapon Enum 1

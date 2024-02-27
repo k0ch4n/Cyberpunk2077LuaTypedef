@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsPlayerMovingPrereq: PlayerStateMachinePrereq
 IsPlayerMovingPrereq = {}
+
 
 ---@param fields? IsPlayerMovingPrereq
 ---@return IsPlayerMovingPrereq

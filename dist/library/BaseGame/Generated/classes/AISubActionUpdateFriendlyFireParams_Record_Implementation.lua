@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionUpdateFriendlyFireParams_Record_Implementation: IScriptable
 AISubActionUpdateFriendlyFireParams_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionUpdateFriendlyFireParams_Record

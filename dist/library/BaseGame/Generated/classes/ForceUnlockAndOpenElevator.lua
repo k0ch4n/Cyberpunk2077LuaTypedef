@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceUnlockAndOpenElevator: ToggleLock
 ForceUnlockAndOpenElevator = {}
+
 
 ---@param fields? ForceUnlockAndOpenElevator
 ---@return ForceUnlockAndOpenElevator

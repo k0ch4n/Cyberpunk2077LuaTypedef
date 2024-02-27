@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendRenderMultilayerMaskBlobHeader
 ---@field version Uint32
 ---@field atlasWidth Uint32
@@ -12,6 +13,7 @@
 ---@field maskTileSize Uint32
 ---@field flags Uint32
 rendRenderMultilayerMaskBlobHeader = {}
+
 
 ---@param fields? rendRenderMultilayerMaskBlobHeader
 ---@return rendRenderMultilayerMaskBlobHeader

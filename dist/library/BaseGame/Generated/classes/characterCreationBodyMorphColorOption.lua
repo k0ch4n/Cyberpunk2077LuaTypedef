@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class characterCreationBodyMorphColorOption: CharacterCreationBodyMorphBaseOption
 ---@field optionLabel inkTextWidgetReference
 ---@field colorPickerBtn inkWidgetReference
@@ -14,6 +15,7 @@
 ---@field selector inkWidget
 ---@field inputDisabled Bool
 characterCreationBodyMorphColorOption = {}
+
 
 ---@param fields? characterCreationBodyMorphColorOption
 ---@return characterCreationBodyMorphColorOption

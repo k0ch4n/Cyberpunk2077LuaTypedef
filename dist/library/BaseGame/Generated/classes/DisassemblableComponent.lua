@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DisassemblableComponent: gameScriptableComponent
 ---@field disassembled Bool
 ---@field disassembleTargetRequesters gameObject[]
 DisassemblableComponent = {}
+
 
 ---@param fields? DisassemblableComponent
 ---@return DisassemblableComponent

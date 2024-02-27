@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuickSlotsManager: gameScriptableComponent
 ---@field Player PlayerPuppet
 ---@field QuickSlotsBB gameIBlackboard
@@ -23,6 +24,7 @@
 ---@field currentInteractionWheelItem QuickSlotCommand
 ---@field OnVehPlayerStateDataChangedCallback redCallbackObject
 QuickSlotsManager = {}
+
 
 ---@param fields? QuickSlotsManager
 ---@return QuickSlotsManager

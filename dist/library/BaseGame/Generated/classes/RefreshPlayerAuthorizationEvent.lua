@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RefreshPlayerAuthorizationEvent: redEvent
 RefreshPlayerAuthorizationEvent = {}
+
 
 ---@param fields? RefreshPlayerAuthorizationEvent
 ---@return RefreshPlayerAuthorizationEvent

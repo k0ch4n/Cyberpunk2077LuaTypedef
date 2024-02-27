@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectExecutor_LandingFX: gameEffectExecutor
 gameEffectExecutor_LandingFX = {}
+
 
 ---@param fields? gameEffectExecutor_LandingFX
 ---@return gameEffectExecutor_LandingFX

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class C4Controller: ExplosiveDeviceController
 C4Controller = {}
+
 
 ---@param fields? C4Controller
 ---@return C4Controller

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAIRingType: Enum
 ---@field Approach Enum 0
 ---@field Close Enum 1

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayTransformAnimationDeviceOperation: DeviceOperationBase
 ---@field transformAnimations STransformAnimationData[]
 PlayTransformAnimationDeviceOperation = {}
+
 
 ---@param fields? PlayTransformAnimationDeviceOperation
 ---@return PlayTransformAnimationDeviceOperation

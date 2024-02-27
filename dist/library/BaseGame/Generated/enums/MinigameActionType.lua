@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MinigameActionType: Enum
 ---@field Device Enum 0
 ---@field NPC Enum 1

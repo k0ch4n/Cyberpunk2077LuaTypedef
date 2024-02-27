@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class questVehicleDoor_ConditionType: questIVehicleConditionType
 ---@field vehicleRef gameEntityReference
 ---@field door vehicleEVehicleDoor
 ---@field state vehicleVehicleDoorState
 questVehicleDoor_ConditionType = {}
+
 
 ---@param fields? questVehicleDoor_ConditionType
 ---@return questVehicleDoor_ConditionType

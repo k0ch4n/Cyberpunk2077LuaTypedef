@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UseHealChargeAction: BaseItemAction
 UseHealChargeAction = {}
+
 
 ---@param fields? UseHealChargeAction
 ---@return UseHealChargeAction

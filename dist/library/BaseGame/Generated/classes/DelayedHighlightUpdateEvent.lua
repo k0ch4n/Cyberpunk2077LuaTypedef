@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DelayedHighlightUpdateEvent: redEvent
 DelayedHighlightUpdateEvent = {}
+
 
 ---@param fields? DelayedHighlightUpdateEvent
 ---@return DelayedHighlightUpdateEvent

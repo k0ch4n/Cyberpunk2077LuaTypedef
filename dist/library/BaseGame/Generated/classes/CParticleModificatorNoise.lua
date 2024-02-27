@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CParticleModificatorNoise: IParticleModificator
 ---@field amplitude IEvaluatorVector
 ---@field offset IEvaluatorVector
@@ -9,6 +10,7 @@
 ---@field worldSpaceOffset Bool
 ---@field noiseType ENoiseType
 CParticleModificatorNoise = {}
+
 
 ---@param fields? CParticleModificatorNoise
 ---@return CParticleModificatorNoise

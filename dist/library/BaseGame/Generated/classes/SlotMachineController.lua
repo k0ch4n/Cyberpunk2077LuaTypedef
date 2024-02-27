@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SlotMachineController: inkWidgetLogicController
 ---@field barrelAnimationID CName
 ---@field winAnimationsID CName[]
@@ -13,6 +14,7 @@
 ---@field outcomeAnimation inkanimProxy
 ---@field shouldWinNextTime Bool
 SlotMachineController = {}
+
 
 ---@param fields? SlotMachineController
 ---@return SlotMachineController

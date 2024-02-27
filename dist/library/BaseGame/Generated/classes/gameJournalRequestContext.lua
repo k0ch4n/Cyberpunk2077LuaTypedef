@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameJournalRequestContext
 ---@field stateFilter gameJournalRequestStateFilter
 ---@field classFilter gameJournalRequestClassFilter
 gameJournalRequestContext = {}
+
 
 ---@param fields? gameJournalRequestContext
 ---@return gameJournalRequestContext

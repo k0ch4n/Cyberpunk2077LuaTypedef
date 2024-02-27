@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorExitWorkspotNodeDefinition: AIbehaviorDecoratorNodeDefinition
 ---@field skipExitAnimation AIArgumentMapping
 ---@field useSlowExitAnimation AIArgumentMapping
@@ -10,6 +11,7 @@
 ---@field cancelQueuedCommand AIArgumentMapping
 ---@field target AIArgumentMapping
 AIbehaviorExitWorkspotNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorExitWorkspotNodeDefinition
 ---@return AIbehaviorExitWorkspotNodeDefinition

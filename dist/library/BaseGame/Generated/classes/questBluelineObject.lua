@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questBluelineObject: IScriptable
 questBluelineObject = {}
+
 
 ---@param fields? questBluelineObject
 ---@return questBluelineObject

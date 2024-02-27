@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameTransformAnimationPauseEvent: gameTransformAnimationEvent
 gameTransformAnimationPauseEvent = {}
+
 
 ---@param fields? gameTransformAnimationPauseEvent
 ---@return gameTransformAnimationPauseEvent

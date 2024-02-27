@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiTooltipsManager: inkWidgetLogicController
 ---@field tooltipsContainer inkWidgetReference
 ---@field flipX Bool
@@ -28,6 +29,7 @@
 ---@field mouseDataThreshold Float
 ---@field isHidden Bool
 gameuiTooltipsManager = {}
+
 
 ---@param fields? gameuiTooltipsManager
 ---@return gameuiTooltipsManager

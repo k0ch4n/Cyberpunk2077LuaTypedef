@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FastTravelDeviceAction: ActionBool
 ---@field fastTravelPointData gameFastTravelPointData
 FastTravelDeviceAction = {}
+
 
 ---@param fields? FastTravelDeviceAction
 ---@return FastTravelDeviceAction

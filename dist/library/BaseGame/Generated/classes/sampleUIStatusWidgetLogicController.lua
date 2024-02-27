@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class sampleUIStatusWidgetLogicController: inkWidgetLogicController
 ---@field enableStateColor Color
 ---@field disableStateColor Color
 ---@field textWidget inkTextWidget
 ---@field iconWidget inkRectangleWidget
 sampleUIStatusWidgetLogicController = {}
+
 
 ---@param fields? sampleUIStatusWidgetLogicController
 ---@return sampleUIStatusWidgetLogicController

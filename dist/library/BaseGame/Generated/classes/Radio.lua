@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Radio: InteractiveDevice
 ---@field effectAction ScriptableDeviceAction
 ---@field effectRef gameEffectRef
@@ -13,6 +14,7 @@
 ---@field targets ScriptedPuppet[]
 ---@field vfxInstance gameFxInstance
 Radio = {}
+
 
 ---@param fields? Radio
 ---@return Radio

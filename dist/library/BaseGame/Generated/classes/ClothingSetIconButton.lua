@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ClothingSetIconButton: BaseButtonView
 ---@field setIcon inkImageWidgetReference
 ---@field currentIconFrame inkWidgetReference
 ---@field iconID TweakDBID
 ClothingSetIconButton = {}
+
 
 ---@param fields? ClothingSetIconButton
 ---@return ClothingSetIconButton

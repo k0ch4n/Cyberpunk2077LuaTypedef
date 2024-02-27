@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSmartObjectType: Enum
 ---@field Default Enum 0
 ---@field LadderUp Enum 1

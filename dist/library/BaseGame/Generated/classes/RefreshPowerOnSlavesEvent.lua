@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RefreshPowerOnSlavesEvent: ProcessDevicesEvent
 RefreshPowerOnSlavesEvent = {}
+
 
 ---@param fields? RefreshPowerOnSlavesEvent
 ---@return RefreshPowerOnSlavesEvent

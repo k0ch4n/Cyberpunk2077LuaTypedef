@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiWardrobeSetPreviewGameController: gameuiBaseGarmentItemPreviewGameController
 ---@field colliderWidgetRef inkWidgetReference
 ---@field colliderWidget inkWidget
@@ -8,6 +9,7 @@
 ---@field isNotification Bool
 ---@field c_GARMENT_ROTATION_SPEED Float
 gameuiWardrobeSetPreviewGameController = {}
+
 
 ---@param fields? gameuiWardrobeSetPreviewGameController
 ---@return gameuiWardrobeSetPreviewGameController

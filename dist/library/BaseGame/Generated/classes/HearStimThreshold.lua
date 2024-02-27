@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HearStimThreshold: AIbehaviorconditionScript
 ---@field thresholdNumber Int32
 HearStimThreshold = {}
+
 
 ---@param fields? HearStimThreshold
 ---@return HearStimThreshold

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ChargeStartedEvent: redEvent
 ChargeStartedEvent = {}
+
 
 ---@param fields? ChargeStartedEvent
 ---@return ChargeStartedEvent

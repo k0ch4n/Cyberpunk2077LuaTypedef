@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UI_PlayerBioMonitorDef: gamebbScriptDefinition
 ---@field PlayerStatsInfo gamebbScriptID_Variant
 ---@field BuffsList gamebbScriptID_Variant
@@ -11,6 +12,7 @@
 ---@field NetworkName gamebbScriptID_CName
 ---@field MemoryPercent gamebbScriptID_Float
 UI_PlayerBioMonitorDef = {}
+
 
 ---@param fields? UI_PlayerBioMonitorDef
 ---@return UI_PlayerBioMonitorDef

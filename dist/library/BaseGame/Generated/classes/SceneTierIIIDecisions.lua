@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SceneTierIIIDecisions: SceneTierAbstractDecisions
 SceneTierIIIDecisions = {}
+
 
 ---@param fields? SceneTierIIIDecisions
 ---@return SceneTierIIIDecisions

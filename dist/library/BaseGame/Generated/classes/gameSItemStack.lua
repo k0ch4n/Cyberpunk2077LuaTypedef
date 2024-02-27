@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSItemStack
 ---@field itemID gameItemID
 ---@field quantity Int32
@@ -9,6 +10,7 @@
 ---@field requirement gameSItemStackRequirementData
 ---@field dynamicTags CName[]
 gameSItemStack = {}
+
 
 ---@param fields? gameSItemStack
 ---@return gameSItemStack

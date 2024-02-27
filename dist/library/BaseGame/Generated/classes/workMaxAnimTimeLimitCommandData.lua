@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workMaxAnimTimeLimitCommandData: workIWorkspotCommandData
 workMaxAnimTimeLimitCommandData = {}
+
 
 ---@param fields? workMaxAnimTimeLimitCommandData
 ---@return workMaxAnimTimeLimitCommandData

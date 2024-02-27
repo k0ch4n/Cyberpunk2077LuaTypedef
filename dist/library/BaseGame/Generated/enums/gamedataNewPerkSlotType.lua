@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataNewPerkSlotType: Enum
 ---@field Central_Milestone_1 Enum 0
 ---@field Central_Milestone_2 Enum 1

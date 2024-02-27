@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameTelemetryTelemetrySystem: gameITelemetrySystem
 gameTelemetryTelemetrySystem = {}
+
 
 ---@param fields? gameTelemetryTelemetrySystem
 ---@return gameTelemetryTelemetrySystem

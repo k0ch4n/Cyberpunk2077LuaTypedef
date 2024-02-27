@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisassembleDevice: ActionBool
 DisassembleDevice = {}
+
 
 ---@param fields? DisassembleDevice
 ---@return DisassembleDevice

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RevealDevicesGridEvent: redEvent
 ---@field shouldDraw Bool
 ---@field ownerEntityPosition Vector4
@@ -7,6 +8,7 @@
 ---@field revealSlave Bool
 ---@field revealMaster Bool
 RevealDevicesGridEvent = {}
+
 
 ---@param fields? RevealDevicesGridEvent
 ---@return RevealDevicesGridEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NewPerkFinisherCondition: gameinteractionsInteractionScriptedCondition
 NewPerkFinisherCondition = {}
+
 
 ---@param fields? NewPerkFinisherCondition
 ---@return NewPerkFinisherCondition

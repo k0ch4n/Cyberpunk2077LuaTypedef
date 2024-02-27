@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MaintenancePanelControllerPS: MasterControllerPS
 ---@field maintenancePanelSkillChecks EngineeringContainer
 MaintenancePanelControllerPS = {}
+
 
 ---@param fields? MaintenancePanelControllerPS
 ---@return MaintenancePanelControllerPS

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WebsiteLoadingSpinner: inkWidgetLogicController
 WebsiteLoadingSpinner = {}
+
 
 ---@param fields? WebsiteLoadingSpinner
 ---@return WebsiteLoadingSpinner

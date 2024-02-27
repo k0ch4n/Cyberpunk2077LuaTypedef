@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WeaponDataDef: gamebbScriptDefinition
 ---@field Charge gamebbScriptID_Float
 ---@field OverheatPercentage gamebbScriptID_Float
@@ -10,6 +11,7 @@
 ---@field MagazineAmmoCount gamebbScriptID_Uint32
 ---@field MagazineAmmoID gamebbScriptID_Variant
 WeaponDataDef = {}
+
 
 ---@param fields? WeaponDataDef
 ---@return WeaponDataDef

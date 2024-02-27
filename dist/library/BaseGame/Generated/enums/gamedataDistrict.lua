@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataDistrict: Enum
 ---@field ArasakaWaterfront Enum 0
 ---@field ArasakaWaterfront_AbandonedWarehouse Enum 1

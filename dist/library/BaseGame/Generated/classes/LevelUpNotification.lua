@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LevelUpNotification: GenericNotificationController
 ---@field levelupData gameuiLevelUpNotificationViewData
 ---@field animation inkanimProxy
@@ -20,6 +21,7 @@
 ---@field passiveBonusReward inkWidgetReference
 ---@field unlockedActivites Int32
 LevelUpNotification = {}
+
 
 ---@param fields? LevelUpNotification
 ---@return LevelUpNotification

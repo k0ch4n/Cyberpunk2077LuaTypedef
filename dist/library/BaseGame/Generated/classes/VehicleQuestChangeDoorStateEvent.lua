@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class VehicleQuestChangeDoorStateEvent: redEvent
 ---@field door vehicleEVehicleDoor
 ---@field newState vehicleEQuestVehicleDoorState
 ---@field forceScene Bool
 VehicleQuestChangeDoorStateEvent = {}
+
 
 ---@param fields? VehicleQuestChangeDoorStateEvent
 ---@return VehicleQuestChangeDoorStateEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questLanguageMode: Enum
 ---@field Undefined Enum 0
 ---@field VoLang Enum 1

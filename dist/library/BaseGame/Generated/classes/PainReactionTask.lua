@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PainReactionTask: AIHitReactionTask
 ---@field weaponOverride AnimFeature_WeaponOverride
 PainReactionTask = {}
+
 
 ---@param fields? PainReactionTask
 ---@return PainReactionTask

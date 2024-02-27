@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EWorkspotOperationType: Enum
 ---@field ENTER Enum 0
 ---@field LEAVE Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCooldownSystem: gameICooldownSystem
 gameCooldownSystem = {}
+
 
 ---@param fields? gameCooldownSystem
 ---@return gameCooldownSystem

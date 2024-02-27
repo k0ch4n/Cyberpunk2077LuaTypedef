@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NarrationJournalGameController: gameuiHUDGameController
 ---@field entriesContainer inkCompoundWidgetReference
 ---@field narrationJournalBlackboardId redCallbackObject
 NarrationJournalGameController = {}
+
 
 ---@param fields? NarrationJournalGameController
 ---@return NarrationJournalGameController

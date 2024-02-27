@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CraftingNotificationViewData: gameuiGenericNotificationViewData
 ---@field canBeMerged Bool
 CraftingNotificationViewData = {}
+
 
 ---@param fields? CraftingNotificationViewData
 ---@return CraftingNotificationViewData

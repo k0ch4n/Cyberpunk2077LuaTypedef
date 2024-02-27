@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEntityStubComponentPlacedProxy: entIPlacedComponent
 gameEntityStubComponentPlacedProxy = {}
+
 
 ---@param fields? gameEntityStubComponentPlacedProxy
 ---@return gameEntityStubComponentPlacedProxy

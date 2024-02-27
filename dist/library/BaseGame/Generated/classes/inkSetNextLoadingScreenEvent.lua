@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkSetNextLoadingScreenEvent: redEvent
 inkSetNextLoadingScreenEvent = {}
+
 
 ---@param fields? inkSetNextLoadingScreenEvent
 ---@return inkSetNextLoadingScreenEvent

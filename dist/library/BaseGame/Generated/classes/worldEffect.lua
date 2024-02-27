@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldEffect: resStreamedResource
 ---@field name CName
 ---@field length Float
@@ -8,6 +9,7 @@
 ---@field events effectTrackItem[]
 ---@field effectLoops effectLoopData[]
 worldEffect = {}
+
 
 ---@param fields? worldEffect
 ---@return worldEffect

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class HUDModule: IScriptable
 ---@field hud HUDManager
 ---@field state ModuleState
 ---@field instancesList ModuleInstance[]
 HUDModule = {}
+
 
 ---@param actor gameHudActor
 ---@return ModuleInstance

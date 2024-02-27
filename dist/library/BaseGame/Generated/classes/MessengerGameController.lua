@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MessengerGameController: gameuiMenuGameController
 ---@field buttonHintsManagerRef inkWidgetReference
 ---@field contactsRef inkWidgetReference
@@ -11,6 +12,7 @@
 ---@field menuEventDispatcher inkMenuEventDispatcher
 ---@field activeData MessengerContactSyncData
 MessengerGameController = {}
+
 
 ---@param fields? MessengerGameController
 ---@return MessengerGameController

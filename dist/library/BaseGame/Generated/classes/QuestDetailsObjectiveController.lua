@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestDetailsObjectiveController: inkWidgetLogicController
 ---@field objectiveName inkTextWidgetReference
 ---@field trackingMarker inkWidgetReference
@@ -9,6 +10,7 @@
 ---@field hovered Bool
 ---@field isTracked Bool
 QuestDetailsObjectiveController = {}
+
 
 ---@param fields? QuestDetailsObjectiveController
 ---@return QuestDetailsObjectiveController

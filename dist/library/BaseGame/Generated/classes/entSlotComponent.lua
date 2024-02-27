@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class entSlotComponent: entIPlacedComponent
 ---@field slots entSlot[]
 ---@field fallbackSlots entFallbackSlot[]
 entSlotComponent = {}
+
 
 ---@param fields? entSlotComponent
 ---@return entSlotComponent

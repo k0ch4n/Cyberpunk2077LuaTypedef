@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SmartStorageEffector: ModifyAttackEffector
 ---@field baseRevengeChance Float
 ---@field revengeChanceStep Float
@@ -8,6 +9,7 @@
 ---@field statusEffectForSelf TweakDBID
 ---@field currentChance Float
 SmartStorageEffector = {}
+
 
 ---@param fields? SmartStorageEffector
 ---@return SmartStorageEffector

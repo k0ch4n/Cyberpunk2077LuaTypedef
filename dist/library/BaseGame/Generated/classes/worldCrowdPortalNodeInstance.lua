@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldCrowdPortalNodeInstance: worldINodeInstance
 worldCrowdPortalNodeInstance = {}
+
 
 ---@param fields? worldCrowdPortalNodeInstance
 ---@return worldCrowdPortalNodeInstance

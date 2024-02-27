@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PerfectDischargePrereqListener: gameScriptStatPoolsListener
 ---@field state PerfectDischargePrereqState
 PerfectDischargePrereqListener = {}
+
 
 ---@param fields? PerfectDischargePrereqListener
 ---@return PerfectDischargePrereqListener

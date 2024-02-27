@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class UIScriptableSystemSetPreviousAttributeLevel: gameScriptableSystemRequest
 ---@field stat gamedataStatType
 ---@field level Int32
 UIScriptableSystemSetPreviousAttributeLevel = {}
+
 
 ---@param fields? UIScriptableSystemSetPreviousAttributeLevel
 ---@return UIScriptableSystemSetPreviousAttributeLevel

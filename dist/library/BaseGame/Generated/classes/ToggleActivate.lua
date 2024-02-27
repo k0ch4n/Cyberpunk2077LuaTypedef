@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ToggleActivate: ActionBool
 ---@field TrueRecordName String
 ---@field FalseRecordName String
 ToggleActivate = {}
+
 
 ---@param fields? ToggleActivate
 ---@return ToggleActivate

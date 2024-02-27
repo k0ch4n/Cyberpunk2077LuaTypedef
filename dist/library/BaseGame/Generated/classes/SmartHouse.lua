@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SmartHouse: InteractiveMasterDevice
 ---@field timetableActive Bool
 SmartHouse = {}
+
 
 ---@param fields? SmartHouse
 ---@return SmartHouse

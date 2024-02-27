@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiPreviewGameController: gameuiMenuGameController
 ---@field yawSpeed Float
 ---@field yawDefault Float
@@ -7,6 +8,7 @@
 ---@field rotationSpeed Float
 ---@field inputDisabled Bool
 gameuiPreviewGameController = {}
+
 
 ---@param yaw Float
 ---@return nil

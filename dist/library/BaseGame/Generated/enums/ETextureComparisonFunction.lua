@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETextureComparisonFunction: Enum
 ---@field TCF_None Enum 0
 ---@field TCF_Less Enum 1

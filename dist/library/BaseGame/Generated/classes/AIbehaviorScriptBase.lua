@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorScriptBase: IScriptable
 AIbehaviorScriptBase = {}
+
 
 ---@param fields? AIbehaviorScriptBase
 ---@return AIbehaviorScriptBase

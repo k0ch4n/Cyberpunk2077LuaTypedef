@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SlideEvents: CrouchEvents
 ---@field rumblePlayed Bool
 ---@field enteredWithSprint Bool
@@ -8,6 +9,7 @@
 ---@field addDecelerationModifier gameStatModifierData_Deprecated
 ---@field multiplyDecelerationModifier gameStatModifierData_Deprecated
 SlideEvents = {}
+
 
 ---@param fields? SlideEvents
 ---@return SlideEvents

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class sampleUIAnchorButton: inkWidgetLogicController
 ---@field anchorLocation inkEAnchor
 sampleUIAnchorButton = {}
+
 
 ---@param fields? sampleUIAnchorButton
 ---@return sampleUIAnchorButton

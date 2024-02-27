@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HardLandDecisions: FailedLandingAbstractDecisions
 HardLandDecisions = {}
+
 
 ---@param fields? HardLandDecisions
 ---@return HardLandDecisions

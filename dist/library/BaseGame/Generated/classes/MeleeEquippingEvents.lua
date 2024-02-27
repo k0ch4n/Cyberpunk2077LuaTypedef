@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeEquippingEvents: MeleeRumblingEvents
 MeleeEquippingEvents = {}
+
 
 ---@param fields? MeleeEquippingEvents
 ---@return MeleeEquippingEvents

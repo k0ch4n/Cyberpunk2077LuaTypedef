@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocHoverState: Enum
 ---@field None Enum 0
 ---@field BarCapacity Enum 1

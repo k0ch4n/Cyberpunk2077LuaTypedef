@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DamageTypePrereqState: GenericHitPrereqState
 DamageTypePrereqState = {}
+
 
 ---@param fields? DamageTypePrereqState
 ---@return DamageTypePrereqState

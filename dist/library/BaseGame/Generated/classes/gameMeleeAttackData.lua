@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMeleeAttackData: IScriptable
 ---@field trailAttackSide String
 ---@field isThrust Bool
@@ -39,6 +40,7 @@
 ---@field useAdjustmentInsteadOfImpulse Bool
 ---@field enableAdjustingPlayerPositionToTarget Bool
 gameMeleeAttackData = {}
+
 
 ---@param fields? gameMeleeAttackData
 ---@return gameMeleeAttackData

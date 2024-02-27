@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MeleeProjectile: BaseProjectile
 ---@field resourceLibraryComponent ResourceLibraryComponent
 ---@field throwCooldownSE TweakDBID
@@ -18,6 +19,7 @@
 ---@field projectileStopped Bool
 ---@field isCollidedWithEnemy Bool
 MeleeProjectile = {}
+
 
 ---@param fields? MeleeProjectile
 ---@return MeleeProjectile

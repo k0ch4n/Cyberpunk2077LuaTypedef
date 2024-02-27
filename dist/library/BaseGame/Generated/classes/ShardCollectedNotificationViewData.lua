@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ShardCollectedNotificationViewData: gameuiGenericNotificationViewData
 ---@field entry gameJournalOnscreen
 ---@field isCrypted Bool
@@ -7,6 +8,7 @@
 ---@field shardTitle String
 ---@field imageId TweakDBID
 ShardCollectedNotificationViewData = {}
+
 
 ---@param fields? ShardCollectedNotificationViewData
 ---@return ShardCollectedNotificationViewData

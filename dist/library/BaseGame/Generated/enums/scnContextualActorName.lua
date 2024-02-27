@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnContextualActorName: Enum
 ---@field Player Enum 0
 ---@field VoicesetHolder Enum 1

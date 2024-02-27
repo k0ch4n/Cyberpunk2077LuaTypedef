@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Reflector: BlindingLight
 Reflector = {}
+
 
 ---@param fields? Reflector
 ---@return Reflector

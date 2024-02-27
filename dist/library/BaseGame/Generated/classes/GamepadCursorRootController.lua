@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GamepadCursorRootController: CursorRootController
 GamepadCursorRootController = {}
+
 
 ---@param fields? GamepadCursorRootController
 ---@return GamepadCursorRootController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UIInventoryItemMod: IScriptable
 UIInventoryItemMod = {}
+
 
 ---@param fields? UIInventoryItemMod
 ---@return UIInventoryItemMod

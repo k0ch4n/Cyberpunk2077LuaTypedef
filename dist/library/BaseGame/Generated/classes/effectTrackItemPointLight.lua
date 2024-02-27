@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class effectTrackItemPointLight: effectTrackItem
 ---@field tint effectEffectParameterEvaluatorColor
 ---@field intensity effectEffectParameterEvaluatorFloat
@@ -19,6 +20,7 @@
 ---@field clampAttenuation Bool
 ---@field flicker rendSLightFlickering
 effectTrackItemPointLight = {}
+
 
 ---@param fields? effectTrackItemPointLight
 ---@return effectTrackItemPointLight

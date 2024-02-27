@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnscreenplayItemType: Enum
 ---@field invalid Enum 0
 ---@field dialogLine Enum 1

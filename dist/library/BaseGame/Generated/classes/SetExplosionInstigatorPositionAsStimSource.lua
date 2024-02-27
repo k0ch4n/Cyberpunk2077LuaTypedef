@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetExplosionInstigatorPositionAsStimSource: AIbehaviortaskScript
 SetExplosionInstigatorPositionAsStimSource = {}
+
 
 ---@param fields? SetExplosionInstigatorPositionAsStimSource
 ---@return SetExplosionInstigatorPositionAsStimSource

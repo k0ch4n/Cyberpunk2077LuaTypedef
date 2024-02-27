@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DoorWidgetCustomData: WidgetCustomData
 ---@field passcode Int32
 ---@field card CName
 ---@field isPasswordKnown Bool
 DoorWidgetCustomData = {}
+
 
 ---@param fields? DoorWidgetCustomData
 ---@return DoorWidgetCustomData

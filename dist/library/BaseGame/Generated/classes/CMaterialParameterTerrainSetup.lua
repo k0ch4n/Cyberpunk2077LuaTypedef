@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CMaterialParameterTerrainSetup: CMaterialParameter
 ---@field setup CTerrainSetup
 CMaterialParameterTerrainSetup = {}
+
 
 ---@param fields? CMaterialParameterTerrainSetup
 ---@return CMaterialParameterTerrainSetup

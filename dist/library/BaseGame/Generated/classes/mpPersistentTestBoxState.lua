@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class mpPersistentTestBoxState: netIEntityState
 ---@field isOn Bool
 ---@field weakPersistentEntity mpPersistentTestBox
@@ -7,6 +8,7 @@
 ---@field weakDynamicEntity gameObject
 ---@field weakDynamicEntityComponent entIComponent
 mpPersistentTestBoxState = {}
+
 
 ---@param fields? mpPersistentTestBoxState
 ---@return mpPersistentTestBoxState

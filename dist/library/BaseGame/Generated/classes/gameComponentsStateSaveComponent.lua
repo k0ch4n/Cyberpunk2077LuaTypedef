@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameComponentsStateSaveComponent: entIComponent
 gameComponentsStateSaveComponent = {}
+
 
 ---@param fields? gameComponentsStateSaveComponent
 ---@return gameComponentsStateSaveComponent

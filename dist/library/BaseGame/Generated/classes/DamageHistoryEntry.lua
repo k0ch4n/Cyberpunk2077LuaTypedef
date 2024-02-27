@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DamageHistoryEntry
 ---@field hitEvent gameeventsHitEvent
 ---@field totalDamageReceived Float
@@ -9,6 +10,7 @@
 ---@field source gameObject
 ---@field target gameObject
 DamageHistoryEntry = {}
+
 
 ---@param fields? DamageHistoryEntry
 ---@return DamageHistoryEntry

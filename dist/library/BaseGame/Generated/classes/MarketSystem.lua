@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MarketSystem: gameIMarketSystem
 ---@field vendors Vendor[]
 ---@field vendingMachinesVendors Vendor[]
 MarketSystem = {}
+
 
 ---@param fields? MarketSystem
 ---@return MarketSystem

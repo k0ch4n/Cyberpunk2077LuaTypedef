@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class userSettingsVarListName: userSettingsVar
 userSettingsVarListName = {}
+
 
 ---@param fields? userSettingsVarListName
 ---@return userSettingsVarListName

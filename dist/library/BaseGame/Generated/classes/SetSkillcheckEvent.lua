@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetSkillcheckEvent: redEvent
 ---@field skillcheckContainer BaseSkillCheckContainer
 SetSkillcheckEvent = {}
+
 
 ---@param fields? SetSkillcheckEvent
 ---@return SetSkillcheckEvent

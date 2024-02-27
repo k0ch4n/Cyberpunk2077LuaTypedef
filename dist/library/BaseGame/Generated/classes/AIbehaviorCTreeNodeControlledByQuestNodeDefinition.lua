@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorCTreeNodeControlledByQuestNodeDefinition: AIbehaviorActionTreeNodeDefinition
 AIbehaviorCTreeNodeControlledByQuestNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorCTreeNodeControlledByQuestNodeDefinition
 ---@return AIbehaviorCTreeNodeControlledByQuestNodeDefinition

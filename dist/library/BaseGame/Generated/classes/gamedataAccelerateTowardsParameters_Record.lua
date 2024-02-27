@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAccelerateTowardsParameters_Record: gamedataTweakDBRecord
 gamedataAccelerateTowardsParameters_Record = {}
+
 
 ---@param fields? gamedataAccelerateTowardsParameters_Record
 ---@return gamedataAccelerateTowardsParameters_Record

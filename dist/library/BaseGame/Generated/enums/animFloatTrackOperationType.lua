@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animFloatTrackOperationType: Enum
 ---@field Override Enum 0
 ---@field Multiply Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CrackAction: BaseItemAction
 CrackAction = {}
+
 
 ---@param fields? CrackAction
 ---@return CrackAction

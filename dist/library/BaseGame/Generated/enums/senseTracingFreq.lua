@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class senseTracingFreq: Enum
 ---@field Never Enum 0
 ---@field Lowest Enum 1

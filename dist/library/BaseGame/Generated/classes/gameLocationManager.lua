@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameLocationManager: gameILocationManager
 gameLocationManager = {}
+
 
 ---@param fields? gameLocationManager
 ---@return gameLocationManager

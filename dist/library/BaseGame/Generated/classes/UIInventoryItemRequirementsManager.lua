@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInventoryItemRequirementsManager: IScriptable
 ---@field itemRequiredLevel Int32
 ---@field requiredStrength Int32
@@ -19,6 +20,7 @@
 ---@field player gameObject
 ---@field attachedItem UIInventoryItem
 UIInventoryItemRequirementsManager = {}
+
 
 ---@param fields? UIInventoryItemRequirementsManager
 ---@return UIInventoryItemRequirementsManager

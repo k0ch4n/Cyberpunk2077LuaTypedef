@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CharacterDataPrereq: gameIScriptablePrereq
 ---@field idToCheck TweakDBID
 CharacterDataPrereq = {}
+
 
 ---@param fields? CharacterDataPrereq
 ---@return CharacterDataPrereq

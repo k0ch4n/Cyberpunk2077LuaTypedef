@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SystemDeviceWidgetController: DeviceWidgetControllerBase
 ---@field slavesConnectedCount inkTextWidgetReference
 ---@field connectedDevicesHolder inkWidgetReference
 SystemDeviceWidgetController = {}
+
 
 ---@param fields? SystemDeviceWidgetController
 ---@return SystemDeviceWidgetController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScriptStatsListener: gameIStatsListener
 gameScriptStatsListener = {}
+
 
 ---@param fields? gameScriptStatsListener
 ---@return gameScriptStatsListener

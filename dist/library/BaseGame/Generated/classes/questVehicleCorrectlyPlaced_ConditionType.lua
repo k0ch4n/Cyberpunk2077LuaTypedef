@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questVehicleCorrectlyPlaced_ConditionType: questIVehicleConditionType
 ---@field vehicleRef gameEntityReference
 ---@field timeInterval Float
@@ -8,6 +9,7 @@
 ---@field checkAreAllWheelsOnGround Bool
 ---@field inverted Bool
 questVehicleCorrectlyPlaced_ConditionType = {}
+
 
 ---@param fields? questVehicleCorrectlyPlaced_ConditionType
 ---@return questVehicleCorrectlyPlaced_ConditionType

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NcartStationMarker: gameObject
 ---@field station ENcartStations
 ---@field callBackOnlyIfMatchesDestination Bool
@@ -7,6 +8,7 @@
 ---@field onTrainApproachingFact CName
 ---@field TrainGlobalRef CName
 NcartStationMarker = {}
+
 
 ---@param fields? NcartStationMarker
 ---@return NcartStationMarker

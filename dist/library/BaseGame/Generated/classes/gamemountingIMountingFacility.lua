@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamemountingIMountingFacility: gameIGameSystem
 gamemountingIMountingFacility = {}
+
 
 ---@param info gamemountingMountingInfo
 ---@return Bool

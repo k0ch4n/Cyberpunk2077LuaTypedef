@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BakcpackImmediateNotificationListener: ImmediateNotificationListener
 ---@field backpackInstance gameuiBackpackMainGameController
 BakcpackImmediateNotificationListener = {}
+
 
 ---@param fields? BakcpackImmediateNotificationListener
 ---@return BakcpackImmediateNotificationListener

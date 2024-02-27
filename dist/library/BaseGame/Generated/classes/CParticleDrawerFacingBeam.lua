@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CParticleDrawerFacingBeam: IParticleDrawer
 ---@field texturesPerUnit Float
 ---@field dynamicTexCoords Bool
@@ -10,6 +11,7 @@
 ---@field targetTangent Vector4
 ---@field debugTargetTranslation Vector3
 CParticleDrawerFacingBeam = {}
+
 
 ---@param fields? CParticleDrawerFacingBeam
 ---@return CParticleDrawerFacingBeam

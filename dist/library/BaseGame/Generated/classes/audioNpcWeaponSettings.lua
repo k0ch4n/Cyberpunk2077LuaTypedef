@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioNpcWeaponSettings: audioWeaponSettings
 ---@field gunChoir CName
 ---@field tails CName
@@ -13,6 +14,7 @@
 ---@field quickMeleeAttackSound CName
 ---@field quickMeleeHitSound CName
 audioNpcWeaponSettings = {}
+
 
 ---@param fields? audioNpcWeaponSettings
 ---@return audioNpcWeaponSettings

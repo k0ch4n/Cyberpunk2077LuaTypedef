@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EffectExecutor_GameObjectOutline: gameEffectExecutor_Scripted
 ---@field outlineType EOutlineType
 EffectExecutor_GameObjectOutline = {}
+
 
 ---@param fields? EffectExecutor_GameObjectOutline
 ---@return EffectExecutor_GameObjectOutline

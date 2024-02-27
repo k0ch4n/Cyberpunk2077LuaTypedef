@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AOEAreaController: MasterController
 AOEAreaController = {}
+
 
 ---@param fields? AOEAreaController
 ---@return AOEAreaController

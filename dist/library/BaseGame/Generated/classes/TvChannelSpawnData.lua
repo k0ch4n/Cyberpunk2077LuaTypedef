@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class TvChannelSpawnData: IScriptable
 ---@field channelName CName
 ---@field localizedName String
 ---@field order Int32
 TvChannelSpawnData = {}
+
 
 ---@param fields? TvChannelSpawnData
 ---@return TvChannelSpawnData

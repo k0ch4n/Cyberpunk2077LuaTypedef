@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BreachAccessPointEvent: redEvent
 BreachAccessPointEvent = {}
+
 
 ---@param fields? BreachAccessPointEvent
 ---@return BreachAccessPointEvent

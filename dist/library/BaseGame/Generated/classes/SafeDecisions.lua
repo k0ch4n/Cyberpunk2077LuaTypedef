@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SafeDecisions: WeaponTransition
 SafeDecisions = {}
+
 
 ---@param fields? SafeDecisions
 ---@return SafeDecisions

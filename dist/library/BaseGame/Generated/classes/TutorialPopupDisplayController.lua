@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TutorialPopupDisplayController: inkWidgetLogicController
 ---@field title inkTextWidgetReference
 ---@field message inkTextWidgetReference
@@ -11,6 +12,7 @@
 ---@field inputHint inkWidgetReference
 ---@field data TutorialPopupData
 TutorialPopupDisplayController = {}
+
 
 ---@param fields? TutorialPopupDisplayController
 ---@return TutorialPopupDisplayController

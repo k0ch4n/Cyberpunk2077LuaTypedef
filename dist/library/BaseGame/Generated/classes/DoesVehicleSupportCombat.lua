@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DoesVehicleSupportCombat: AIVehicleConditionAbstract
 DoesVehicleSupportCombat = {}
+
 
 ---@param fields? DoesVehicleSupportCombat
 ---@return DoesVehicleSupportCombat

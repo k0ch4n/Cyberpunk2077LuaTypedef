@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIPatrolCommand: AIMoveCommand
 ---@field pathParams AIPatrolPathParameters
 ---@field alertedPathParams AIPatrolPathParameters
@@ -8,6 +9,7 @@
 ---@field patrolWithWeapon Bool
 ---@field patrolAction TweakDBID
 AIPatrolCommand = {}
+
 
 ---@param fields? AIPatrolCommand
 ---@return AIPatrolCommand

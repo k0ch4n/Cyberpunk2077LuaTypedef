@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCameraFocus_ConditionType: questISystemConditionType
 ---@field objectRef gameEntityReference
 ---@field timeInterval Float
@@ -9,6 +10,7 @@
 ---@field inverted Bool
 ---@field zoomed Bool
 questCameraFocus_ConditionType = {}
+
 
 ---@param fields? questCameraFocus_ConditionType
 ---@return questCameraFocus_ConditionType

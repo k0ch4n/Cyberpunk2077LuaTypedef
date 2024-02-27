@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PerkDisplayContainerController: inkWidgetLogicController
 ---@field index Int32
 ---@field isTrait Bool
@@ -8,6 +9,7 @@
 ---@field dataManager PlayerDevelopmentDataManager
 ---@field controller PerkDisplayController
 PerkDisplayContainerController = {}
+
 
 ---@param fields? PerkDisplayContainerController
 ---@return PerkDisplayContainerController

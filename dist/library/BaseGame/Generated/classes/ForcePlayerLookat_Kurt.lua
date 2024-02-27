@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForcePlayerLookat_Kurt: AIbehaviortaskScript
 ForcePlayerLookat_Kurt = {}
+
 
 ---@param fields? ForcePlayerLookat_Kurt
 ---@return ForcePlayerLookat_Kurt

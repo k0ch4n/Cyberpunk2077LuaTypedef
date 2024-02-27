@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CanMountVehicle: AIVehicleConditionAbstract
 CanMountVehicle = {}
+
 
 ---@param fields? CanMountVehicle
 ---@return CanMountVehicle

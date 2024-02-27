@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICoverDemandHolder: IScriptable
 AICoverDemandHolder = {}
+
 
 ---@param fields? AICoverDemandHolder
 ---@return AICoverDemandHolder

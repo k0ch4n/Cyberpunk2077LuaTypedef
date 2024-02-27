@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class redTOMLKeyValue: redTOMLBaseValue
 redTOMLKeyValue = {}
+
 
 ---@param fields? redTOMLKeyValue
 ---@return redTOMLKeyValue

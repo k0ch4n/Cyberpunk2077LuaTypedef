@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gamemappinsMappinScriptData: IScriptable
 ---@field statPoolType gamedataStatPoolType
 gamemappinsMappinScriptData = {}
+
 
 ---@param fields? gamemappinsMappinScriptData
 ---@return gamemappinsMappinScriptData

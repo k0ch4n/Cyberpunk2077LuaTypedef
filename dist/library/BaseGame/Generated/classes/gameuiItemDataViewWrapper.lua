@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiItemDataViewWrapper: gameuiBaseItemDataSource
 gameuiItemDataViewWrapper = {}
+
 
 ---@param fields? gameuiItemDataViewWrapper
 ---@return gameuiItemDataViewWrapper

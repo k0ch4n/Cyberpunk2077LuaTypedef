@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimFeature_PlayerMovement: animAnimFeature_Movement
 ---@field facingDirection Vector4
 ---@field verticalSpeed Float
@@ -7,6 +8,7 @@
 ---@field inAir Bool
 ---@field standingTerrainAngle Float
 animAnimFeature_PlayerMovement = {}
+
 
 ---@param fields? animAnimFeature_PlayerMovement
 ---@return animAnimFeature_PlayerMovement

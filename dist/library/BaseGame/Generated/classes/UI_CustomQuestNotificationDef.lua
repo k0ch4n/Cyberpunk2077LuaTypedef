@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UI_CustomQuestNotificationDef: gamebbScriptDefinition
 ---@field data gamebbScriptID_Variant
 UI_CustomQuestNotificationDef = {}
+
 
 ---@param fields? UI_CustomQuestNotificationDef
 ---@return UI_CustomQuestNotificationDef

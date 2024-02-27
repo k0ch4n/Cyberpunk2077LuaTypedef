@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleAutonomousData: ISerializable
 ---@field owner vehicleBaseObject
 ---@field useKinematic Bool
@@ -48,6 +49,7 @@
 ---@field emergencyPatrol Bool
 ---@field numPatrolLoops Uint32
 vehicleAutonomousData = {}
+
 
 ---@param fields? vehicleAutonomousData
 ---@return vehicleAutonomousData

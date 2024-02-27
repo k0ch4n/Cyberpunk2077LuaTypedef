@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OverclockHudEvent: redEvent
 ---@field activated Bool
 OverclockHudEvent = {}
+
 
 ---@param fields? OverclockHudEvent
 ---@return OverclockHudEvent

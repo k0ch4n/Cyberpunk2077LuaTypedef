@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BackpackOutfitCooldownResetCallback: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field controller gameuiBackpackMainGameController
 BackpackOutfitCooldownResetCallback = {}
+
 
 ---@param fields? BackpackOutfitCooldownResetCallback
 ---@return BackpackOutfitCooldownResetCallback

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Codeware_Localization_GenderNeutralEntry: Codeware_Localization_LocalizationEntry
 ---@field value String
 Codeware_Localization_GenderNeutralEntry = {}
+
 
 ---@param fields? Codeware_Localization_GenderNeutralEntry
 ---@return Codeware_Localization_GenderNeutralEntry

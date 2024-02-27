@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GogRewardEntryData: IScriptable
 ---@field title String
 ---@field description String
@@ -9,6 +10,7 @@
 ---@field isUnlocked Bool
 ---@field record gamedataGOGReward_Record
 GogRewardEntryData = {}
+
 
 ---@param fields? GogRewardEntryData
 ---@return GogRewardEntryData

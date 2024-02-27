@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SequencerLock: redEvent
 ---@field shouldLock Bool
 SequencerLock = {}
+
 
 ---@param fields? SequencerLock
 ---@return SequencerLock

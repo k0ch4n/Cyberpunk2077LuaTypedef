@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entIKTargetRemoveEvent: redEvent
 ---@field ikTargetRef animIKTargetRef
 entIKTargetRemoveEvent = {}
+
 
 ---@param fields? entIKTargetRemoveEvent
 ---@return entIKTargetRemoveEvent

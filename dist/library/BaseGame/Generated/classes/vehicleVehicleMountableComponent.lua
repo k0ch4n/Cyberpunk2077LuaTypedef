@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleVehicleMountableComponent: gamemountingMountableComponent
 vehicleVehicleMountableComponent = {}
+
 
 ---@param fields? vehicleVehicleMountableComponent
 ---@return vehicleVehicleMountableComponent

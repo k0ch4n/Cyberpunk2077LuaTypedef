@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OverclockListener: gameScriptStatusEffectListener
 ---@field healthBar gameuiHudHealthbarGameController
 OverclockListener = {}
+
 
 ---@param fields? OverclockListener
 ---@return OverclockListener

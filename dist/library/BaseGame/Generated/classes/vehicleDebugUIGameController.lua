@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleDebugUIGameController: gameuiBaseVehicleHUDGameController
 ---@field vehicleBlackboard gameIBlackboard
 ---@field vehicleBBStateConectionId redCallbackObject
@@ -28,6 +29,7 @@
 ---@field isInAutoPilot Bool
 ---@field useDebugUI Bool
 vehicleDebugUIGameController = {}
+
 
 ---@param fields? vehicleDebugUIGameController
 ---@return vehicleDebugUIGameController

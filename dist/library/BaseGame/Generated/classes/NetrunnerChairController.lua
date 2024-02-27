@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NetrunnerChairController: ScriptableDeviceComponent
 NetrunnerChairController = {}
+
 
 ---@param fields? NetrunnerChairController
 ---@return NetrunnerChairController

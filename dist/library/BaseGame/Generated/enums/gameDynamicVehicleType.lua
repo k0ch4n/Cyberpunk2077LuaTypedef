@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameDynamicVehicleType: Enum
 ---@field None Enum 0
 ---@field Car Enum 1

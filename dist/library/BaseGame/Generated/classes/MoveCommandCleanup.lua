@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MoveCommandCleanup: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 MoveCommandCleanup = {}
+
 
 ---@param fields? MoveCommandCleanup
 ---@return MoveCommandCleanup

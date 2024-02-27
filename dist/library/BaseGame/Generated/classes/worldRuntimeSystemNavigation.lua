@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemNavigation: worldIRuntimeSystemNavigation
 worldRuntimeSystemNavigation = {}
+
 
 ---@param fields? worldRuntimeSystemNavigation
 ---@return worldRuntimeSystemNavigation

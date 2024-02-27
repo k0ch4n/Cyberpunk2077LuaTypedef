@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioWeaponTailSettings: audioAudioMetadata
 ---@field interiorDefault CName
 ---@field interiorWide CName
@@ -13,6 +14,7 @@
 ---@field exteriorBadlandsOpen CName
 ---@field exteriorBadlandsCanyon CName
 audioWeaponTailSettings = {}
+
 
 ---@param fields? audioWeaponTailSettings
 ---@return audioWeaponTailSettings

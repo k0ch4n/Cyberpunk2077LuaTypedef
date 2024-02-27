@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkIsAbleToSwapHorizontally: inkUserData
 inkIsAbleToSwapHorizontally = {}
+
 
 ---@param fields? inkIsAbleToSwapHorizontally
 ---@return inkIsAbleToSwapHorizontally

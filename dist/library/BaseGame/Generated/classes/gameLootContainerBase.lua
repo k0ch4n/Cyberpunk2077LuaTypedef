@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameLootContainerBase: gameObject
 ---@field useAreaLoot Bool
 ---@field lootTables TweakDBID[]
@@ -13,6 +14,7 @@
 ---@field isIconic Bool
 ---@field activeQualityRangeInteraction CName
 gameLootContainerBase = {}
+
 
 ---@param fields? gameLootContainerBase
 ---@return gameLootContainerBase

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class GenericHitPrereqState: gamePrereqState
 ---@field listener HitCallback
 ---@field hitEvent gameeventsHitEvent
 ---@field missEvent gameeventsMissEvent
 GenericHitPrereqState = {}
+
 
 ---@param fields? GenericHitPrereqState
 ---@return GenericHitPrereqState

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCheckpointNodeDefinition: questSignalStoppingNodeDefinition
 ---@field saveLock Bool
 ---@field ignoreSaveLocks Bool
@@ -9,6 +10,7 @@
 ---@field additionalEndGameRewardsTweak TweakDBID[]
 ---@field debugString String
 questCheckpointNodeDefinition = {}
+
 
 ---@param fields? questCheckpointNodeDefinition
 ---@return questCheckpointNodeDefinition

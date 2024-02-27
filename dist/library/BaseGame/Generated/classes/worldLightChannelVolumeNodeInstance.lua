@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldLightChannelVolumeNodeInstance: worldINodeInstance
 worldLightChannelVolumeNodeInstance = {}
+
 
 ---@param fields? worldLightChannelVolumeNodeInstance
 ---@return worldLightChannelVolumeNodeInstance

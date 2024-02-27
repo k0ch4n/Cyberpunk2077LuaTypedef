@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class inkDiscreteNavigationController: inkWidgetLogicController
 ---@field shouldUpdateScrollController Bool
 ---@field isNavigalbe Bool
 ---@field supportsHoldInput Bool
 inkDiscreteNavigationController = {}
+
 
 ---@param fields? inkDiscreteNavigationController
 ---@return inkDiscreteNavigationController

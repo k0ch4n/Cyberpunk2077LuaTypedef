@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class FirstEquipEvents: EquipmentBaseEvents
 ---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
 ---@field stateMachineInitData EquipmentInitData
 FirstEquipEvents = {}
+
 
 ---@param fields? FirstEquipEvents
 ---@return FirstEquipEvents

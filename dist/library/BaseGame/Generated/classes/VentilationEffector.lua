@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VentilationEffector: ActivatedDeviceTransfromAnim
 ---@field effectComponent entIPlacedComponent
 VentilationEffector = {}
+
 
 ---@param fields? VentilationEffector
 ---@return VentilationEffector

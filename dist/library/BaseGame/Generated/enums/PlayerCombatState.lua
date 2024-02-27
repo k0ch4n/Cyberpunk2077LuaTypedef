@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerCombatState: Enum
 ---@field Invalid Enum 0
 ---@field InCombat Enum 1

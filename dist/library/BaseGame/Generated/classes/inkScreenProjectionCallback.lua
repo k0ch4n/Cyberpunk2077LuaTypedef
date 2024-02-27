@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkScreenProjectionCallback: inkCallbackBase
 inkScreenProjectionCallback = {}
+
 
 ---@param fields? inkScreenProjectionCallback
 ---@return inkScreenProjectionCallback

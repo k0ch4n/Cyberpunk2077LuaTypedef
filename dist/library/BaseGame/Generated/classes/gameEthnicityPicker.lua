@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEthnicityPicker
 gameEthnicityPicker = {}
+
 
 ---@param fields? gameEthnicityPicker
 ---@return gameEthnicityPicker

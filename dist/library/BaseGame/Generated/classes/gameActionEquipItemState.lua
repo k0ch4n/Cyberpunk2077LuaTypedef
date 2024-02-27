@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameActionEquipItemState: gameActionReplicatedState
 ---@field slotId TweakDBID
 ---@field itemId gameItemID
@@ -8,6 +9,7 @@
 ---@field duration Float
 ---@field spawnDelay Float
 gameActionEquipItemState = {}
+
 
 ---@param fields? gameActionEquipItemState
 ---@return gameActionEquipItemState

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_FastTravel: MenuScenario_BaseMenu
 MenuScenario_FastTravel = {}
+
 
 ---@param fields? MenuScenario_FastTravel
 ---@return MenuScenario_FastTravel

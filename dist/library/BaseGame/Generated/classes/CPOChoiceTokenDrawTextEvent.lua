@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CPOChoiceTokenDrawTextEvent: redEvent
 CPOChoiceTokenDrawTextEvent = {}
+
 
 ---@param fields? CPOChoiceTokenDrawTextEvent
 ---@return CPOChoiceTokenDrawTextEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkMenuInstance_SwitchToScenario: redEvent
 inkMenuInstance_SwitchToScenario = {}
+
 
 ---@param fields? inkMenuInstance_SwitchToScenario
 ---@return inkMenuInstance_SwitchToScenario

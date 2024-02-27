@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameRichPresenceSystem: gameIRichPresenceSystem
 gameRichPresenceSystem = {}
+
 
 ---@param fields? gameRichPresenceSystem
 ---@return gameRichPresenceSystem

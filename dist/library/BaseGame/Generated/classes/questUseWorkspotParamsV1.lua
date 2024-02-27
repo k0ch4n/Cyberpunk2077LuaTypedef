@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questUseWorkspotParamsV1: questAICommandParams
 ---@field function questUseWorkspotNodeFunctions
 ---@field workspotNode NodeRef
@@ -25,6 +26,7 @@
 ---@field meshDissolvingEnabled Bool
 ---@field dangleResetSimulation Bool
 questUseWorkspotParamsV1 = {}
+
 
 ---@param fields? questUseWorkspotParamsV1
 ---@return questUseWorkspotParamsV1

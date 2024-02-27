@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataReactionPreset_Record: gamedataTweakDBRecord
 gamedataReactionPreset_Record = {}
+
 
 ---@param fields? gamedataReactionPreset_Record
 ---@return gamedataReactionPreset_Record

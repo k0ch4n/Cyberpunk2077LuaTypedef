@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GameplayConditionContainer: IScriptable
 ---@field logicOperator ELogicOperator
 ---@field conditionGroups ConditionGroupData[]
 GameplayConditionContainer = {}
+
 
 ---@param fields? GameplayConditionContainer
 ---@return GameplayConditionContainer

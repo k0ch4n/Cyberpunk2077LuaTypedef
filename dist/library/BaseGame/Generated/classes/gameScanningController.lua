@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScanningController: IScriptable
 gameScanningController = {}
+
 
 ---@param fields? gameScanningController
 ---@return gameScanningController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PachinkoMachine: ArcadeMachine
 ---@field distractionFXName CName
 PachinkoMachine = {}
+
 
 ---@param fields? PachinkoMachine
 ---@return PachinkoMachine

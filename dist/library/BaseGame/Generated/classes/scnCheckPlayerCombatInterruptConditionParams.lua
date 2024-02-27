@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class scnCheckPlayerCombatInterruptConditionParams
 ---@field isInCombat Bool
 scnCheckPlayerCombatInterruptConditionParams = {}
+
 
 ---@param fields? scnCheckPlayerCombatInterruptConditionParams
 ---@return scnCheckPlayerCombatInterruptConditionParams

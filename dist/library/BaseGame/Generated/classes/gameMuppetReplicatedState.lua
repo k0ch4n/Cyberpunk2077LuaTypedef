@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMuppetReplicatedState: netIEntityState
 ---@field state gameMuppetState
 ---@field initialOrientation EulerAngles
@@ -7,6 +8,7 @@
 ---@field health Float
 ---@field armor Float
 gameMuppetReplicatedState = {}
+
 
 ---@param fields? gameMuppetReplicatedState
 ---@return gameMuppetReplicatedState

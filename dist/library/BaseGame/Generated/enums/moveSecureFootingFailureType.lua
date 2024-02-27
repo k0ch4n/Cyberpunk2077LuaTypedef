@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class moveSecureFootingFailureType: Enum
 ---@field Invalid Enum 0
 ---@field Edge Enum 1

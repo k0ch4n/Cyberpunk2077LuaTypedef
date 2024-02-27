@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questReactionPresetRecordSelector: ISerializable
 ---@field setDefault Bool
 ---@field isGanger Bool
@@ -15,6 +16,7 @@
 ---@field isNoReaction Bool
 ---@field noReactionRecordID TweakDBID
 questReactionPresetRecordSelector = {}
+
 
 ---@param fields? questReactionPresetRecordSelector
 ---@return questReactionPresetRecordSelector

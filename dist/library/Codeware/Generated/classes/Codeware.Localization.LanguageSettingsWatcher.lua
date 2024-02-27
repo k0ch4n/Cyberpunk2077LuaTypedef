@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Codeware_Localization_LanguageSettingsWatcher: userSettingsVarListener
 ---@field game ScriptGameInstance
 Codeware_Localization_LanguageSettingsWatcher = {}
+
 
 ---@param fields? Codeware_Localization_LanguageSettingsWatcher
 ---@return Codeware_Localization_LanguageSettingsWatcher

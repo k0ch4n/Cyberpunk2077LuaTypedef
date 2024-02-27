@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questWeaponUsageType: Enum
 ---@field Shoot Enum 0
 ---@field StopShooting Enum 1

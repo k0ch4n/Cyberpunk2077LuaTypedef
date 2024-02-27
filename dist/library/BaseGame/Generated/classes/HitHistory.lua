@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class HitHistory: IScriptable
 ---@field hitHistory HitHistoryItem[]
 ---@field maxEntries Int32
 HitHistory = {}
+
 
 ---@param fields? HitHistory
 ---@return HitHistory

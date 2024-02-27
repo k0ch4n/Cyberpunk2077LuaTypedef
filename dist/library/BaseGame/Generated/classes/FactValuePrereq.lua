@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class FactValuePrereq: gameIScriptablePrereq
 ---@field fact CName
 ---@field value Int32
 ---@field comparisonType EComparisonType
 ---@field repeated Bool
 FactValuePrereq = {}
+
 
 ---@param fields? FactValuePrereq
 ---@return FactValuePrereq

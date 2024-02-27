@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class FocusCluesSystem: gameScriptableSystem
 ---@field linkedClues LinkedFocusClueData[]
 ---@field disabledGroupes CName[]
 ---@field activeLinkedClue LinkedFocusClueData
 FocusCluesSystem = {}
+
 
 ---@param fields? FocusCluesSystem
 ---@return FocusCluesSystem

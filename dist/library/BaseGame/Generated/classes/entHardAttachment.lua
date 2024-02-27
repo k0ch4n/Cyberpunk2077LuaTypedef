@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entHardAttachment: entITransformAttachment
 entHardAttachment = {}
+
 
 ---@param fields? entHardAttachment
 ---@return entHardAttachment

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnInterruptionScenario
 ---@field id scnInterruptionScenarioId
 ---@field name CName
@@ -17,6 +18,7 @@
 ---@field interruptConditions scnIInterruptCondition[]
 ---@field returnConditions scnIReturnCondition[]
 scnInterruptionScenario = {}
+
 
 ---@param fields? scnInterruptionScenario
 ---@return scnInterruptionScenario

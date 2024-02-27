@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class activityLogGameController: gameuiHUDGameController
 ---@field readIndex Int32
 ---@field writeIndex Int32
@@ -9,6 +10,7 @@
 ---@field onNewEntries redCallbackObject
 ---@field onHide redCallbackObject
 activityLogGameController = {}
+
 
 ---@param fields? activityLogGameController
 ---@return activityLogGameController

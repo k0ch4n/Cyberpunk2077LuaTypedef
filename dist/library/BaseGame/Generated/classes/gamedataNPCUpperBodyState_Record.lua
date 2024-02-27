@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataNPCUpperBodyState_Record: gamedataTweakDBRecord
 gamedataNPCUpperBodyState_Record = {}
+
 
 ---@param fields? gamedataNPCUpperBodyState_Record
 ---@return gamedataNPCUpperBodyState_Record

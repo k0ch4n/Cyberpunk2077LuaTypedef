@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InstallModConfirmationData: IScriptable
 ---@field itemId gameItemID
 ---@field partId gameItemID
@@ -7,6 +8,7 @@
 ---@field telemetryItemData gameTelemetryInventoryItem
 ---@field telemetryPartData gameTelemetryInventoryItem
 InstallModConfirmationData = {}
+
 
 ---@param fields? InstallModConfirmationData
 ---@return InstallModConfirmationData

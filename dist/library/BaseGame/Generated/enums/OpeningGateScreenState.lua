@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OpeningGateScreenState: Enum
 ---@field Unknown Enum 0
 ---@field Idle Enum 1

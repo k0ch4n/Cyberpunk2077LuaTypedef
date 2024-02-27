@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TestConditon: workIScriptedCondition
 TestConditon = {}
+
 
 ---@param fields? TestConditon
 ---@return TestConditon

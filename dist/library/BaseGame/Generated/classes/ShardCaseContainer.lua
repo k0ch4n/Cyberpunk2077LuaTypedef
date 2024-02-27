@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ShardCaseContainer: gameContainerObjectSingleItem
 ---@field wasOpened Bool
 ---@field shardMesh entMeshComponent
 ShardCaseContainer = {}
+
 
 ---@param fields? ShardCaseContainer
 ---@return ShardCaseContainer

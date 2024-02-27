@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class StatPoolHitPrereqCondition: BaseHitPrereqCondition
 ---@field valueToCheck Float
 ---@field objectToCheck CName
 ---@field comparisonType EComparisonType
 ---@field statPoolToCompare gamedataStatPoolType
 StatPoolHitPrereqCondition = {}
+
 
 ---@param fields? StatPoolHitPrereqCondition
 ---@return StatPoolHitPrereqCondition

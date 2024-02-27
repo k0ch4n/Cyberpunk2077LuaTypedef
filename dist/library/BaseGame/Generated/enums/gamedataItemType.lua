@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataItemType: Enum
 ---@field Clo_Face Enum 0
 ---@field Clo_Feet Enum 1

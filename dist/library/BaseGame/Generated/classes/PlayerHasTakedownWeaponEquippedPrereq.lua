@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerHasTakedownWeaponEquippedPrereq: gameIScriptablePrereq
 PlayerHasTakedownWeaponEquippedPrereq = {}
+
 
 ---@param fields? PlayerHasTakedownWeaponEquippedPrereq
 ---@return PlayerHasTakedownWeaponEquippedPrereq

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ItemSlotsFilledPrereq: gameIScriptablePrereq
 ---@field equipAreas gamedataEquipmentArea[]
 ItemSlotsFilledPrereq = {}
+
 
 ---@param fields? ItemSlotsFilledPrereq
 ---@return ItemSlotsFilledPrereq

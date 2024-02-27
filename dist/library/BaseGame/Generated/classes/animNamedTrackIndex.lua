@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class animNamedTrackIndex
 ---@field name CName
 animNamedTrackIndex = {}
+
 
 ---@param fields? animNamedTrackIndex
 ---@return animNamedTrackIndex

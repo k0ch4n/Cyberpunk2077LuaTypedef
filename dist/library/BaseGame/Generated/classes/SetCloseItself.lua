@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetCloseItself: redEvent
 ---@field automaticallyClosesItself Bool
 SetCloseItself = {}
+
 
 ---@param fields? SetCloseItself
 ---@return SetCloseItself

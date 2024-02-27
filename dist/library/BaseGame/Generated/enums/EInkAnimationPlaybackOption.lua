@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EInkAnimationPlaybackOption: Enum
 ---@field PLAY Enum 0
 ---@field STOP Enum 1

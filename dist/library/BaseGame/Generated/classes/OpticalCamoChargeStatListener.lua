@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OpticalCamoChargeStatListener: BaseChargesStatListener
 OpticalCamoChargeStatListener = {}
+
 
 ---@param fields? OpticalCamoChargeStatListener
 ---@return OpticalCamoChargeStatListener

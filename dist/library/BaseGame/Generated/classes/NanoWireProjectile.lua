@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NanoWireProjectile: BaseProjectile
 ---@field maxAttackRange Float
 ---@field launchMode ELaunchMode
 NanoWireProjectile = {}
+
 
 ---@param fields? NanoWireProjectile
 ---@return NanoWireProjectile

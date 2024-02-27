@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class InventoryCyberwareDisplayController: InventoryItemDisplayController
 ---@field ownedFrame inkWidgetReference
 ---@field selectedFrame inkWidgetReference
 ---@field amountPanel inkWidgetReference
 ---@field amount inkTextWidgetReference
 InventoryCyberwareDisplayController = {}
+
 
 ---@param fields? InventoryCyberwareDisplayController
 ---@return InventoryCyberwareDisplayController

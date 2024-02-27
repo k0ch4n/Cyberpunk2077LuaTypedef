@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsPlayerFarFromLKP: PreventionConditionAbstract
 IsPlayerFarFromLKP = {}
+
 
 ---@param fields? IsPlayerFarFromLKP
 ---@return IsPlayerFarFromLKP

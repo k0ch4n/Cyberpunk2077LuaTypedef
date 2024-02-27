@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ItemTooltipEvolutionModule: ItemTooltipModuleController
 ---@field weaponEvolutionIcon inkImageWidgetReference
 ---@field weaponEvolutionName inkTextWidgetReference
 ---@field weaponEvolutionDescription inkTextWidgetReference
 ItemTooltipEvolutionModule = {}
+
 
 ---@param fields? ItemTooltipEvolutionModule
 ---@return ItemTooltipEvolutionModule

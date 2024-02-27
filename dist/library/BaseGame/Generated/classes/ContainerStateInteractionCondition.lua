@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ContainerStateInteractionCondition: gameinteractionsInteractionScriptedCondition
 ContainerStateInteractionCondition = {}
+
 
 ---@param fields? ContainerStateInteractionCondition
 ---@return ContainerStateInteractionCondition

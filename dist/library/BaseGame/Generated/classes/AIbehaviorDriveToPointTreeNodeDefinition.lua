@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorDriveToPointTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field targetPosition AIArgumentMapping
 ---@field secureTimeOut AIArgumentMapping
@@ -10,6 +11,7 @@
 ---@field trafficTryNeighborsForStart AIArgumentMapping
 ---@field trafficTryNeighborsForEnd AIArgumentMapping
 AIbehaviorDriveToPointTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorDriveToPointTreeNodeDefinition
 ---@return AIbehaviorDriveToPointTreeNodeDefinition

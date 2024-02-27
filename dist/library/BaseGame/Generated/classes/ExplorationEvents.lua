@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ExplorationEvents: HighLevelTransition
 ExplorationEvents = {}
+
 
 ---@param fields? ExplorationEvents
 ---@return ExplorationEvents

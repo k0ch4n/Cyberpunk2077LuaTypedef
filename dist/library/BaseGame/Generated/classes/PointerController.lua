@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PointerController: inkWidgetLogicController
 ---@field connectors inkWidgetReference[]
 ---@field pointer inkWidgetReference
@@ -7,6 +8,7 @@
 ---@field centerButton inkWidget
 ---@field currentIndex Int32
 PointerController = {}
+
 
 ---@param fields? PointerController
 ---@return PointerController

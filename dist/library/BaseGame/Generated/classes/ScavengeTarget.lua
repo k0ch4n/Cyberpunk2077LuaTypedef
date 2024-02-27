@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ScavengeTarget: AIbehaviortaskScript
 ScavengeTarget = {}
+
 
 ---@param fields? ScavengeTarget
 ---@return ScavengeTarget

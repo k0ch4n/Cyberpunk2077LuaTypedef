@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VendingMachineSetup
 ---@field timeToCompletePurchase Float
 VendingMachineSetup = {}
+
 
 ---@param fields? VendingMachineSetup
 ---@return VendingMachineSetup

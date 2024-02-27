@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RegularLandEvents: AbstractLandEvents
 RegularLandEvents = {}
+
 
 ---@param fields? RegularLandEvents
 ---@return RegularLandEvents

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class KerenzikovEvents: TimeDilationEventsTransitions
 ---@field allowMovementModifier gameStatModifierData_Deprecated
 KerenzikovEvents = {}
+
 
 ---@param fields? KerenzikovEvents
 ---@return KerenzikovEvents

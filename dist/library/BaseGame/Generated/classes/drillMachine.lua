@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class drillMachine: gameweaponObject
 ---@field rewireComponent RewireComponent
 ---@field player gameObject
@@ -10,6 +11,7 @@
 ---@field isActive Bool
 ---@field targetDevice gameObject
 drillMachine = {}
+
 
 ---@param fields? drillMachine
 ---@return drillMachine

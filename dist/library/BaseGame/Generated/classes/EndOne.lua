@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EndOne: DefaultTest
 EndOne = {}
+
 
 ---@param fields? EndOne
 ---@return EndOne

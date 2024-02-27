@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class audioLocomotionStateVfxDictionaryItem: audioInlinedAudioMetadata
 ---@field key CName
 ---@field value CResource
 audioLocomotionStateVfxDictionaryItem = {}
+
 
 ---@param fields? audioLocomotionStateVfxDictionaryItem
 ---@return audioLocomotionStateVfxDictionaryItem

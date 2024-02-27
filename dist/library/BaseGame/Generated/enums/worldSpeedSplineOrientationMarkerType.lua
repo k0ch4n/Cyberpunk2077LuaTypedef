@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldSpeedSplineOrientationMarkerType: Enum
 ---@field UseSplineOrientation Enum 0
 ---@field WorldSpace Enum 1

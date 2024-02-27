@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestMuteSounds: ActionBool
 QuestMuteSounds = {}
+
 
 ---@param fields? QuestMuteSounds
 ---@return QuestMuteSounds

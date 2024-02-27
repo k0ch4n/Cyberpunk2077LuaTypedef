@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NewItemTooltipBrokenModule: NewItemTooltipModuleController
 ---@field descriptionText inkTextWidgetReference
 NewItemTooltipBrokenModule = {}
+
 
 ---@param fields? NewItemTooltipBrokenModule
 ---@return NewItemTooltipBrokenModule

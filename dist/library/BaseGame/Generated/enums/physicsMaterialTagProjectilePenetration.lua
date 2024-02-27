@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsMaterialTagProjectilePenetration: Enum
 ---@field TechOnly Enum 0
 ---@field Any Enum 1

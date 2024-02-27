@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestListGameController: gameuiHUDGameController
 ---@field entryList inkVerticalPanelWidgetReference
 ---@field scanPulse inkCompoundWidgetReference
@@ -17,6 +18,7 @@
 ---@field toDoHeaderController QuestListHeaderLogicController
 ---@field lastNonOptionalObjective QuestObjectiveWrapper
 QuestListGameController = {}
+
 
 ---@param fields? QuestListGameController
 ---@return QuestListGameController

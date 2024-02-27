@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SimpleTemporalCustomData: ICameraStorageCustomData
 SimpleTemporalCustomData = {}
+
 
 ---@param fields? SimpleTemporalCustomData
 ---@return SimpleTemporalCustomData

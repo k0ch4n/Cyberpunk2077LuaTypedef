@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NoReactionPerformedRequest: gameScriptableSystemRequest
 NoReactionPerformedRequest = {}
+
 
 ---@param fields? NoReactionPerformedRequest
 ---@return NoReactionPerformedRequest

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsNPCInCourier: AIbehaviorconditionScript
 IsNPCInCourier = {}
+
 
 ---@param fields? IsNPCInCourier
 ---@return IsNPCInCourier

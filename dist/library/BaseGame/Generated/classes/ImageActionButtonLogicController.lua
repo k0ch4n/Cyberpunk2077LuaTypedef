@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ImageActionButtonLogicController: DeviceActionWidgetControllerBase
 ---@field tallImageWidget inkImageWidgetReference
 ---@field price Int32
 ImageActionButtonLogicController = {}
+
 
 ---@param fields? ImageActionButtonLogicController
 ---@return ImageActionButtonLogicController

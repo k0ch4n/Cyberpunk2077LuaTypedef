@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestToggleInteractivity: ActionBool
 QuestToggleInteractivity = {}
+
 
 ---@param fields? QuestToggleInteractivity
 ---@return QuestToggleInteractivity

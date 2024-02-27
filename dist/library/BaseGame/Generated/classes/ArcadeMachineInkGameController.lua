@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ArcadeMachineInkGameController: DeviceInkGameControllerBase
 ---@field defaultUI inkCanvasWidget
 ---@field mainDisplayWidget inkVideoWidget
 ---@field counterWidget inkTextWidget
 ---@field onGlitchingStateChangedListener redCallbackObject
 ArcadeMachineInkGameController = {}
+
 
 ---@param fields? ArcadeMachineInkGameController
 ---@return ArcadeMachineInkGameController

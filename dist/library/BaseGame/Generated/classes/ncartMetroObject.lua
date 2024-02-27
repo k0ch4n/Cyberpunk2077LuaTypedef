@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ncartMetroObject: vehicleAVBaseObject
 ---@field pitchAdjustmentDelayID gameDelayID
 ---@field Z Float
@@ -11,6 +12,7 @@
 ---@field pitchAngleAdjustmentTreshold Float
 ---@field pitchAngleLevelOutTreshold Float
 ncartMetroObject = {}
+
 
 ---@param fields? ncartMetroObject
 ---@return ncartMetroObject

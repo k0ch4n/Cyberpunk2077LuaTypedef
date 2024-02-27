@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entFoleyActionEvent: redEvent
 ---@field actionName CName
 entFoleyActionEvent = {}
+
 
 ---@param fields? entFoleyActionEvent
 ---@return entFoleyActionEvent

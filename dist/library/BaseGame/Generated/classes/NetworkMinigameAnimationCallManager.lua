@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NetworkMinigameAnimationCallManager: inkWidgetLogicController
 NetworkMinigameAnimationCallManager = {}
+
 
 ---@param fields? NetworkMinigameAnimationCallManager
 ---@return NetworkMinigameAnimationCallManager

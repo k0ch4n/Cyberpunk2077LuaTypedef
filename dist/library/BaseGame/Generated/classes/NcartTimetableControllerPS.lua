@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class NcartTimetableControllerPS: ScriptableDeviceComponentPS
 ---@field ncartTimetableSetup NcartTimetableSetup
 ---@field currentTimeToDepart Int32
 ---@field currentLine Int32
 NcartTimetableControllerPS = {}
+
 
 ---@param fields? NcartTimetableControllerPS
 ---@return NcartTimetableControllerPS

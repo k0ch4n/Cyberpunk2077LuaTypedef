@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayLibraryAnimationButtonView: BaseButtonView
 ---@field ToHoverAnimationName CName
 ---@field ToPressedAnimationName CName
@@ -7,6 +8,7 @@
 ---@field ToDisabledAnimationName CName
 ---@field InputAnimation inkanimProxy
 PlayLibraryAnimationButtonView = {}
+
 
 ---@param fields? PlayLibraryAnimationButtonView
 ---@return PlayLibraryAnimationButtonView

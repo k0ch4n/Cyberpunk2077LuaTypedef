@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entReplicatedLookAtData
 ---@field creationNetTime netTime
 entReplicatedLookAtData = {}
+
 
 ---@param fields? entReplicatedLookAtData
 ---@return entReplicatedLookAtData

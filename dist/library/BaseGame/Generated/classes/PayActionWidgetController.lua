@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PayActionWidgetController: DeviceActionWidgetControllerBase
 ---@field priceContainer inkWidgetReference
 ---@field moneyStatusContainer inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field processingAnimName CName
 ---@field isProcessingPayment Bool
 PayActionWidgetController = {}
+
 
 ---@param fields? PayActionWidgetController
 ---@return PayActionWidgetController

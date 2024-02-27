@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AITargetTrackerManager: AITargetTrackerManagerInterface
 AITargetTrackerManager = {}
+
 
 ---@param fields? AITargetTrackerManager
 ---@return AITargetTrackerManager

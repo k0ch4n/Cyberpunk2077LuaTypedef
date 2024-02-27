@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldVehicleForbiddenAreaNotifierInstance: worldITriggerAreaNotiferInstance
 worldVehicleForbiddenAreaNotifierInstance = {}
+
 
 ---@param fields? worldVehicleForbiddenAreaNotifierInstance
 ---@return worldVehicleForbiddenAreaNotifierInstance

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestListSortType: Enum
 ---@field Updated Enum 0
 ---@field Distance Enum 1

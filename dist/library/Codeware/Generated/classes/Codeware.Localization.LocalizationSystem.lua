@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Codeware_Localization_LocalizationSystem: gameScriptableSystem
 ---@field interfaceLanguage CName
 ---@field subtitleLanguage CName
@@ -15,6 +16,7 @@
 ---@field localeChanged Bool
 ---@field genderChanged Bool
 Codeware_Localization_LocalizationSystem = {}
+
 
 ---@param fields? Codeware_Localization_LocalizationSystem
 ---@return Codeware_Localization_LocalizationSystem

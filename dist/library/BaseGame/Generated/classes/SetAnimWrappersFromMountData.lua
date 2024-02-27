@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetAnimWrappersFromMountData: AIVehicleTaskAbstract
 ---@field mountData AIArgumentMapping
 SetAnimWrappersFromMountData = {}
+
 
 ---@param fields? SetAnimWrappersFromMountData
 ---@return SetAnimWrappersFromMountData

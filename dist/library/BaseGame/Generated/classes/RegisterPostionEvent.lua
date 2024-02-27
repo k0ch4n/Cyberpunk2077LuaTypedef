@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RegisterPostionEvent: BlackBoardRequestEvent
 ---@field start Bool
 RegisterPostionEvent = {}
+
 
 ---@param fields? RegisterPostionEvent
 ---@return RegisterPostionEvent

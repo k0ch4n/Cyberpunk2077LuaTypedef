@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class scnRidAnimationContainerSRRefId
 scnRidAnimationContainerSRRefId = {}
+
 
 ---@param fields? scnRidAnimationContainerSRRefId
 ---@return scnRidAnimationContainerSRRefId

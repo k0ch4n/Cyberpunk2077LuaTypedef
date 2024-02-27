@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldDebugColoring_ResourceReadiness: worldEditorDebugColoringSettings
 worldDebugColoring_ResourceReadiness = {}
+
 
 ---@param fields? worldDebugColoring_ResourceReadiness
 ---@return worldDebugColoring_ResourceReadiness

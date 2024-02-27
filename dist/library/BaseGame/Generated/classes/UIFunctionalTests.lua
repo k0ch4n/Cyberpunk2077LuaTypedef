@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UIFunctionalTests: IScriptable
 UIFunctionalTests = {}
+
 
 ---@param fields? UIFunctionalTests
 ---@return UIFunctionalTests

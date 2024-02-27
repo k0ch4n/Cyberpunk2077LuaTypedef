@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldTrafficLightColor: Enum
 ---@field GREEN Enum 0
 ---@field RED Enum 1

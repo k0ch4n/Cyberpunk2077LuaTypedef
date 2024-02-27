@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ObjectiveController: inkButtonController
 ---@field ObjectiveLabel inkTextWidgetReference
 ---@field ObjectiveStatus inkTextWidgetReference
@@ -14,6 +15,7 @@
 ---@field QuestObjectiveData ABaseQuestObjectiveWrapper
 ---@field ToTrack ABaseQuestObjectiveWrapper
 ObjectiveController = {}
+
 
 ---@param fields? ObjectiveController
 ---@return ObjectiveController

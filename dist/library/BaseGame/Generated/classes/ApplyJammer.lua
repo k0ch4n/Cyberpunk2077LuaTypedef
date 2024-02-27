@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ApplyJammer: gameEffectExecutor_Scripted
 ApplyJammer = {}
+
 
 ---@param fields? ApplyJammer
 ---@return ApplyJammer

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiChoiceIndicatorType: Enum
 ---@field Default Enum 0
 ---@field Speech Enum 1

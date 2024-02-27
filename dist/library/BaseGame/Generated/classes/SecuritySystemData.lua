@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SecuritySystemData
 ---@field suppressIncomingEvents Bool
 ---@field suppressOutgoingEvents Bool
 SecuritySystemData = {}
+
 
 ---@param fields? SecuritySystemData
 ---@return SecuritySystemData

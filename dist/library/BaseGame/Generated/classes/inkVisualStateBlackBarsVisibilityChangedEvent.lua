@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkVisualStateBlackBarsVisibilityChangedEvent: redEvent
 ---@field blackBarsVisible Bool
 inkVisualStateBlackBarsVisibilityChangedEvent = {}
+
 
 ---@param fields? inkVisualStateBlackBarsVisibilityChangedEvent
 ---@return inkVisualStateBlackBarsVisibilityChangedEvent

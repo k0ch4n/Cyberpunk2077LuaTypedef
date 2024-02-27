@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entRenderToTextureCameraComponent: entBaseCameraComponent
 ---@field isEnabled Bool
 ---@field virtualCameraName CName
@@ -21,6 +22,7 @@
 ---@field features entRenderToTextureFeatures
 ---@field streamingDistance Float
 entRenderToTextureCameraComponent = {}
+
 
 ---@param fields? entRenderToTextureCameraComponent
 ---@return entRenderToTextureCameraComponent

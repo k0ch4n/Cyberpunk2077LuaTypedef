@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleAIPanicDrivingSettings_Record: gamedataTweakDBRecord
 gamedataVehicleAIPanicDrivingSettings_Record = {}
+
 
 ---@param fields? gamedataVehicleAIPanicDrivingSettings_Record
 ---@return gamedataVehicleAIPanicDrivingSettings_Record

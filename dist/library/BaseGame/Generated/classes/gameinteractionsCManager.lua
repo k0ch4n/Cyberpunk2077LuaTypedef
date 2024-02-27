@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameinteractionsCManager: gameinteractionsIManager
 gameinteractionsCManager = {}
+
 
 ---@param fields? gameinteractionsCManager
 ---@return gameinteractionsCManager

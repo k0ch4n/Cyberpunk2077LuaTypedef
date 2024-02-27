@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EntityAttachementData
 ---@field slotName CName
 ---@field slotComponentName CName
@@ -7,6 +8,7 @@
 ---@field attachementComponentName CName
 ---@field ownerID entEntityID
 EntityAttachementData = {}
+
 
 ---@param fields? EntityAttachementData
 ---@return EntityAttachementData

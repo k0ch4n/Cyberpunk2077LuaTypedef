@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsVFXActionType: Enum
 ---@field Play Enum 0
 ---@field Break Enum 1

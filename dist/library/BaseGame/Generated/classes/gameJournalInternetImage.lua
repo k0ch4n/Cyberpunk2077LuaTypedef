@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameJournalInternetImage: gameJournalInternetBase
 ---@field textureAtlas inkTextureAtlas
 ---@field texturePart CName
 gameJournalInternetImage = {}
+
 
 ---@param fields? gameJournalInternetImage
 ---@return gameJournalInternetImage

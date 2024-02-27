@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProjectileLauncherRoundCollisionEvaluator: gameprojectileScriptCollisionEvaluator
 ---@field collisionAction gamedataProjectileOnCollisionAction
 ---@field projectileStopped Bool
@@ -8,6 +9,7 @@
 ---@field projectileStopAndStick Bool
 ---@field projectilePierced Bool
 ProjectileLauncherRoundCollisionEvaluator = {}
+
 
 ---@param fields? ProjectileLauncherRoundCollisionEvaluator
 ---@return ProjectileLauncherRoundCollisionEvaluator

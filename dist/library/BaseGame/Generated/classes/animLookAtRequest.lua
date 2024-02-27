@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animLookAtRequest
 ---@field transitionSpeed Float
 ---@field hasOutTransition Bool
@@ -13,6 +14,7 @@
 ---@field additionalParts animLookAtPartRequest
 ---@field invalid Bool
 animLookAtRequest = {}
+
 
 ---@param fields? animLookAtRequest
 ---@return animLookAtRequest

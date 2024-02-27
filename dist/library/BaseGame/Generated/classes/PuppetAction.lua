@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PuppetAction: ScriptableDeviceAction
 PuppetAction = {}
+
 
 ---@param fields? PuppetAction
 ---@return PuppetAction

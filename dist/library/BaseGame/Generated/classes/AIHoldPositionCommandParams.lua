@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIHoldPositionCommandParams: questScriptedAICommandParams
 ---@field duration Float
 AIHoldPositionCommandParams = {}
+
 
 ---@param fields? AIHoldPositionCommandParams
 ---@return AIHoldPositionCommandParams

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questLootPurge_NodeType: questIGameManagerNonSignalStoppingNodeType
 questLootPurge_NodeType = {}
+
 
 ---@param fields? questLootPurge_NodeType
 ---@return questLootPurge_NodeType

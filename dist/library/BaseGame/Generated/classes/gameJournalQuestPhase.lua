@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameJournalQuestPhase: gameJournalContainerEntry
 ---@field locationPrefabRef NodeRef
 gameJournalQuestPhase = {}
+
 
 ---@param fields? gameJournalQuestPhase
 ---@return gameJournalQuestPhase

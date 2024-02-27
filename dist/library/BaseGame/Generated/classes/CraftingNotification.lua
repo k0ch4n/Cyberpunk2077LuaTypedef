@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CraftingNotification: GenericNotificationController
 ---@field introAnimation inkanimProxy
 CraftingNotification = {}
+
 
 ---@param fields? CraftingNotification
 ---@return CraftingNotification

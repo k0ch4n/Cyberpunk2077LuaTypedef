@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldgeometryDescriptionResult: IScriptable
 ---@field leftHandData worldgeometryHandIKDescriptionResult
 ---@field rightHandData worldgeometryHandIKDescriptionResult
@@ -23,6 +24,7 @@
 ---@field queryStatus worldgeometryDescriptionQueryStatus
 ---@field climbedEntity entEntity
 worldgeometryDescriptionResult = {}
+
 
 ---@param fields? worldgeometryDescriptionResult
 ---@return worldgeometryDescriptionResult

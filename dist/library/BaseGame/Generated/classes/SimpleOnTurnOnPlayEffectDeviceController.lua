@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SimpleOnTurnOnPlayEffectDeviceController: ScriptableDeviceComponent
 SimpleOnTurnOnPlayEffectDeviceController = {}
+
 
 ---@param fields? SimpleOnTurnOnPlayEffectDeviceController
 ---@return SimpleOnTurnOnPlayEffectDeviceController

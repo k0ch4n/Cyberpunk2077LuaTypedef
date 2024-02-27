@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class inkSettingsSelectorControllerKeyBinding: inkSettingsSelectorController
 ---@field text inkRichTextBoxWidgetReference
 ---@field buttonRef inkWidgetReference
 ---@field editView inkWidgetReference
 ---@field editOpacity Float
 inkSettingsSelectorControllerKeyBinding = {}
+
 
 ---@param fields? inkSettingsSelectorControllerKeyBinding
 ---@return inkSettingsSelectorControllerKeyBinding

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkSliderController: inkWidgetLogicController
 ---@field slidingAreaRef inkWidgetReference
 ---@field handleRef inkWidgetReference
@@ -28,6 +29,7 @@
 ---@field pressedColor CName
 ---@field pressedOpacity Float
 inkSliderController = {}
+
 
 ---@param fields? inkSliderController
 ---@return inkSliderController

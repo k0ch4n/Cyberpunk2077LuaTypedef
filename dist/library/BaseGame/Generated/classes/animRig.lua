@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animRig: CResource
 ---@field boneNames CName[]
 ---@field trackNames CName[]
@@ -19,6 +20,7 @@
 ---@field ragdollDesc physicsRagdollBodyInfo[]
 ---@field ragdollNames physicsRagdollBodyNames[]
 animRig = {}
+
 
 ---@param fields? animRig
 ---@return animRig

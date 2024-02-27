@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ActivatorControllerPS: MasterControllerPS
 ---@field hasSpiderbotInteraction Bool
 ---@field spiderbotInteractionLocationOverride NodeRef
@@ -10,6 +11,7 @@
 ---@field activatorSkillChecks GenericContainer
 ---@field alternativeInteractionString String
 ActivatorControllerPS = {}
+
 
 ---@param fields? ActivatorControllerPS
 ---@return ActivatorControllerPS

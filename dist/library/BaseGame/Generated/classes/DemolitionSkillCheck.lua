@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DemolitionSkillCheck: SkillCheckBase
 DemolitionSkillCheck = {}
+
 
 ---@param fields? DemolitionSkillCheck
 ---@return DemolitionSkillCheck

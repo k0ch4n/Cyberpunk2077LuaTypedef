@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OnlyVehicleEvents: QuickSlotsReadyEvents
 OnlyVehicleEvents = {}
+
 
 ---@param fields? OnlyVehicleEvents
 ---@return OnlyVehicleEvents

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineFunctor: IScriptable
 gamestateMachineFunctor = {}
+
 
 ---@param fields? gamestateMachineFunctor
 ---@return gamestateMachineFunctor

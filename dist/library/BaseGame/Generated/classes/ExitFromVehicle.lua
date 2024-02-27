@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ExitFromVehicle: AIVehicleTaskAbstract
 ---@field useFastExit Bool
 ---@field tryBlendToWalk Bool
 ExitFromVehicle = {}
+
 
 ---@param fields? ExitFromVehicle
 ---@return ExitFromVehicle

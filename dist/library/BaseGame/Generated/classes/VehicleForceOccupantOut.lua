@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VehicleForceOccupantOut: ActionBool
 ---@field slotID CName
 VehicleForceOccupantOut = {}
+
 
 ---@param fields? VehicleForceOccupantOut
 ---@return VehicleForceOccupantOut

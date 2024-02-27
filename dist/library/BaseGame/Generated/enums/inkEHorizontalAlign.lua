@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkEHorizontalAlign: Enum
 ---@field Fill Enum 0
 ---@field Left Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EscalateProvoke: AIbehaviorconditionScript
 EscalateProvoke = {}
+
 
 ---@param fields? EscalateProvoke
 ---@return EscalateProvoke

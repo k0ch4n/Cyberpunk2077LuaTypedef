@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PSODescBlendModeWriteMask: Enum
 ---@field MASK_None Enum 0
 ---@field MASK_R Enum 1

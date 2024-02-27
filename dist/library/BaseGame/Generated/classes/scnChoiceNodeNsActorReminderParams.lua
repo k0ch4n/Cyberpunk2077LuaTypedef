@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnChoiceNodeNsActorReminderParams: ISerializable
 ---@field useCustomReminder Bool
 ---@field reminderActor scnActorId
@@ -10,6 +11,7 @@
 ---@field cutReminderEnabled Bool
 ---@field waitTimeToCutReminder Float
 scnChoiceNodeNsActorReminderParams = {}
+
 
 ---@param fields? scnChoiceNodeNsActorReminderParams
 ---@return scnChoiceNodeNsActorReminderParams

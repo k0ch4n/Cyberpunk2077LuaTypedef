@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HoloDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field isPlaying Bool
 HoloDeviceControllerPS = {}
+
 
 ---@param fields? HoloDeviceControllerPS
 ---@return HoloDeviceControllerPS

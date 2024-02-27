@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldProxyMiscAdvancedParams
 ---@field useLod1 Bool
 ---@field smoothVolume Bool
@@ -28,6 +29,7 @@
 ---@field removeIslands Bool
 ---@field backgroundColor Color
 worldProxyMiscAdvancedParams = {}
+
 
 ---@param fields? worldProxyMiscAdvancedParams
 ---@return worldProxyMiscAdvancedParams

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PowerBlockEffector: ModifyAttackEffector
 ---@field damageReduction Float
 PowerBlockEffector = {}
+
 
 ---@param fields? PowerBlockEffector
 ---@return PowerBlockEffector

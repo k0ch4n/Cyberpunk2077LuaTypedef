@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questScriptedAICommandParams: questMiscAICommandNodeParams
 questScriptedAICommandParams = {}
+
 
 ---@param fields? questScriptedAICommandParams
 ---@return questScriptedAICommandParams

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CollectDropPointRewards: ActionBool
 CollectDropPointRewards = {}
+
 
 ---@param fields? CollectDropPointRewards
 ---@return CollectDropPointRewards

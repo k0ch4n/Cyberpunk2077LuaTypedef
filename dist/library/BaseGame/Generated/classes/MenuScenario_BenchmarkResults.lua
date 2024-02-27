@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MenuScenario_BenchmarkResults: MenuScenario_BaseMenu
 ---@field callbackData inkCallbackConnectorData
 MenuScenario_BenchmarkResults = {}
+
 
 ---@param fields? MenuScenario_BenchmarkResults
 ---@return MenuScenario_BenchmarkResults

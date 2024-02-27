@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestTrackerObjectiveLogicController: inkWidgetLogicController
 ---@field objectiveTitle inkTextWidgetReference
 ---@field trackingIcon inkWidgetReference
@@ -10,6 +11,7 @@
 ---@field AnimOptions inkanimPlaybackOptions
 ---@field readyToRemove Bool
 QuestTrackerObjectiveLogicController = {}
+
 
 ---@param fields? QuestTrackerObjectiveLogicController
 ---@return QuestTrackerObjectiveLogicController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GTFManager: IScriptable
 GTFManager = {}
+
 
 ---@param fields? GTFManager
 ---@return GTFManager

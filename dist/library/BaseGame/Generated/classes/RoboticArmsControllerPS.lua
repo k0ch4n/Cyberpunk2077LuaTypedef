@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RoboticArmsControllerPS: ScriptableDeviceComponentPS
 RoboticArmsControllerPS = {}
+
 
 ---@param fields? RoboticArmsControllerPS
 ---@return RoboticArmsControllerPS

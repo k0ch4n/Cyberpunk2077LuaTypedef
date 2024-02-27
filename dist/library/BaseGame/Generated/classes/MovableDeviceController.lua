@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MovableDeviceController: ScriptableDeviceComponent
 MovableDeviceController = {}
+
 
 ---@param fields? MovableDeviceController
 ---@return MovableDeviceController

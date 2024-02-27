@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SlotReservationDecorator: AIVehicleTaskAbstract
 ---@field mountData AIArgumentMapping
 ---@field mountEventData gameMountEventData
 SlotReservationDecorator = {}
+
 
 ---@param fields? SlotReservationDecorator
 ---@return SlotReservationDecorator

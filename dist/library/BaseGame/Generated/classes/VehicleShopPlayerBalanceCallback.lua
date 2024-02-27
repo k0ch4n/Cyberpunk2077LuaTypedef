@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VehicleShopPlayerBalanceCallback: gameInventoryScriptCallback
 ---@field owner gameuiVehicleShopGameController
 VehicleShopPlayerBalanceCallback = {}
+
 
 ---@param fields? VehicleShopPlayerBalanceCallback
 ---@return VehicleShopPlayerBalanceCallback

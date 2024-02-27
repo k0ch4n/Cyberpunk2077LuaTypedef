@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NPCIsAggressiveState: gamePrereqState
 NPCIsAggressiveState = {}
+
 
 ---@param fields? NPCIsAggressiveState
 ---@return NPCIsAggressiveState

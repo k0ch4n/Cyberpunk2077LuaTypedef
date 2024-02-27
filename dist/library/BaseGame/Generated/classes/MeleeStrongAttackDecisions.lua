@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeStrongAttackDecisions: MeleeAttackGenericDecisions
 MeleeStrongAttackDecisions = {}
+
 
 ---@param fields? MeleeStrongAttackDecisions
 ---@return MeleeStrongAttackDecisions

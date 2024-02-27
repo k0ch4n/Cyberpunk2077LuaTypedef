@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StrikeExecutor_Kill: gameEffectExecutor_Scripted
 StrikeExecutor_Kill = {}
+
 
 ---@param fields? StrikeExecutor_Kill
 ---@return StrikeExecutor_Kill

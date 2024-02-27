@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class redTOMLTable: redTOMLBaseValue
 redTOMLTable = {}
+
 
 ---@param fields? redTOMLTable
 ---@return redTOMLTable

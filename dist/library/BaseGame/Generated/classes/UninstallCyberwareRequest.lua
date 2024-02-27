@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UninstallCyberwareRequest: UnequipRequest
 UninstallCyberwareRequest = {}
+
 
 ---@param fields? UninstallCyberwareRequest
 ---@return UninstallCyberwareRequest

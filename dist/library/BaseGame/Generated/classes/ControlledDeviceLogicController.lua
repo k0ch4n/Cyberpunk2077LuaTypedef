@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ControlledDeviceLogicController: inkWidgetLogicController
 ---@field deviceIcon inkImageWidget
 ---@field nestIcon inkImageWidget
 ---@field activeBg inkRectangleWidget
 ControlledDeviceLogicController = {}
+
 
 ---@param fields? ControlledDeviceLogicController
 ---@return ControlledDeviceLogicController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAdvertMetadata: audioEmitterMetadata
 ---@field advertSoundNames CName[]
 ---@field minSilenceTime Float
@@ -7,6 +8,7 @@
 ---@field minDistance Float
 ---@field filter audioAdvertIndoorFilter
 audioAdvertMetadata = {}
+
 
 ---@param fields? audioAdvertMetadata
 ---@return audioAdvertMetadata

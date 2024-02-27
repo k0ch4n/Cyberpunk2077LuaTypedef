@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRotationLimiter_Record: gamedataDriveHelper_Record
 gamedataRotationLimiter_Record = {}
+
 
 ---@param fields? gamedataRotationLimiter_Record
 ---@return gamedataRotationLimiter_Record

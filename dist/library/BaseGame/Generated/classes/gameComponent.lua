@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameComponent: entIComponent
 ---@field persistentState gamePersistentState
 gameComponent = {}
+
 
 ---@param fields? gameComponent
 ---@return gameComponent

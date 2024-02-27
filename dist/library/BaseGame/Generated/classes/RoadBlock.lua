@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RoadBlock: InteractiveDevice
 ---@field openingSpeed Float
 ---@field coverObjectRefs NodeRef[]
@@ -11,6 +12,7 @@
 ---@field globalCoverObjectRefs worldGlobalNodeRef[]
 ---@field areGlobalCoverRefsInitialized Bool
 RoadBlock = {}
+
 
 ---@param fields? RoadBlock
 ---@return RoadBlock

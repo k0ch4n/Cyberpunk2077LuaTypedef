@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ConvertDamageToStatPoolEffector: HitEventEffector
 ---@field statPoolType gamedataStatPoolType
 ---@field operationType EMathOperator
 ---@field value Float
 ConvertDamageToStatPoolEffector = {}
+
 
 ---@param fields? ConvertDamageToStatPoolEffector
 ---@return ConvertDamageToStatPoolEffector

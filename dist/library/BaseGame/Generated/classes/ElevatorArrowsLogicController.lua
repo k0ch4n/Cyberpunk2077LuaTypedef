@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ElevatorArrowsLogicController: DeviceInkLogicControllerBase
 ---@field arrow1Widget inkWidgetReference
 ---@field arrow2Widget inkWidgetReference
@@ -13,6 +14,7 @@
 ---@field animOptions2 inkanimPlaybackOptions
 ---@field animOptions3 inkanimPlaybackOptions
 ElevatorArrowsLogicController = {}
+
 
 ---@param fields? ElevatorArrowsLogicController
 ---@return ElevatorArrowsLogicController

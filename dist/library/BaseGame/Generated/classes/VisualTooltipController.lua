@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VisualTooltipController: ItemTooltipCommonController
 VisualTooltipController = {}
+
 
 ---@param fields? VisualTooltipController
 ---@return VisualTooltipController

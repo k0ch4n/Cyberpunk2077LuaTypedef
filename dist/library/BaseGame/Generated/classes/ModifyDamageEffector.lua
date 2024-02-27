@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ModifyDamageEffector: ModifyAttackEffector
 ---@field operationType EMathOperator
 ---@field value Float
@@ -8,6 +9,7 @@
 ---@field statListener ModifyDamageEffectorStatListener
 ---@field statBasedValue Float
 ModifyDamageEffector = {}
+
 
 ---@param fields? ModifyDamageEffector
 ---@return ModifyDamageEffector

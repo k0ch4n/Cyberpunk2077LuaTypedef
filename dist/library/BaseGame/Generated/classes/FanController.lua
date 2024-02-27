@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FanController: BasicDistractionDeviceController
 FanController = {}
+
 
 ---@param fields? FanController
 ---@return FanController

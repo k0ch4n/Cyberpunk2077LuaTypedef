@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CVisualDebug: IScriptable
 CVisualDebug = {}
+
 
 ---@param fields? CVisualDebug
 ---@return CVisualDebug

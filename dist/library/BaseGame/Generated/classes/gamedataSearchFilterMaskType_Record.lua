@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataSearchFilterMaskType_Record: gamedataTweakDBRecord
 gamedataSearchFilterMaskType_Record = {}
+
 
 ---@param fields? gamedataSearchFilterMaskType_Record
 ---@return gamedataSearchFilterMaskType_Record

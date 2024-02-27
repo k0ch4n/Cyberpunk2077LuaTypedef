@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkLayerWrapper: IScriptable
 inkLayerWrapper = {}
+
 
 ---@param fields? inkLayerWrapper
 ---@return inkLayerWrapper

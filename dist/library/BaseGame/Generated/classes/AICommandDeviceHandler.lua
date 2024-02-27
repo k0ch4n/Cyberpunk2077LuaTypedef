@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AICommandDeviceHandler: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 AICommandDeviceHandler = {}
+
 
 ---@param fields? AICommandDeviceHandler
 ---@return AICommandDeviceHandler

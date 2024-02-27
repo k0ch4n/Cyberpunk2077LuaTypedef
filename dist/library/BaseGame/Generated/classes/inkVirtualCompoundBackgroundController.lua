@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkVirtualCompoundBackgroundController: inkWidgetLogicController
 inkVirtualCompoundBackgroundController = {}
+
 
 ---@param fields? inkVirtualCompoundBackgroundController
 ---@return inkVirtualCompoundBackgroundController

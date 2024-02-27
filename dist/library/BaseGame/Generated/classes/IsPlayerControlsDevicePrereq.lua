@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsPlayerControlsDevicePrereq: gameIScriptablePrereq
 IsPlayerControlsDevicePrereq = {}
+
 
 ---@param fields? IsPlayerControlsDevicePrereq
 ---@return IsPlayerControlsDevicePrereq

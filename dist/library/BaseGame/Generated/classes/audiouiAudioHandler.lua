@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class audiouiAudioHandler: IScriptable
 audiouiAudioHandler = {}
+
 
 ---@param fields? audiouiAudioHandler
 ---@return audiouiAudioHandler

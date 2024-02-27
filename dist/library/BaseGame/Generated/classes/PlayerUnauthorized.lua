@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayerUnauthorized: ActionBool
 ---@field isLiftDoor Bool
 PlayerUnauthorized = {}
+
 
 ---@param fields? PlayerUnauthorized
 ---@return PlayerUnauthorized

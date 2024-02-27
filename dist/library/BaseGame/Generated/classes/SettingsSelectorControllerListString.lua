@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SettingsSelectorControllerListString: SettingsSelectorControllerList
 SettingsSelectorControllerListString = {}
+
 
 ---@param fields? SettingsSelectorControllerListString
 ---@return SettingsSelectorControllerListString

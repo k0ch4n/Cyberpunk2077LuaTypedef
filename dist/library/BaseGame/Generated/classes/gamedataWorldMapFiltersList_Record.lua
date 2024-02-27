@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataWorldMapFiltersList_Record: gamedataTweakDBRecord
 gamedataWorldMapFiltersList_Record = {}
+
 
 ---@param fields? gamedataWorldMapFiltersList_Record
 ---@return gamedataWorldMapFiltersList_Record

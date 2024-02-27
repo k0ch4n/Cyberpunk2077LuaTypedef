@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CyberdeckStatController: inkWidgetLogicController
 ---@field label inkTextWidgetReference
 ---@field settings userSettingsUserSettings
@@ -8,6 +9,7 @@
 ---@field minWidth inkWidgetReference
 ---@field bigFontEnabled Bool
 CyberdeckStatController = {}
+
 
 ---@param fields? CyberdeckStatController
 ---@return CyberdeckStatController

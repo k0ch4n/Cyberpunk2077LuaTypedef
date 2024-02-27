@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScriptsDebugOverlaySystem: gameIScriptsDebugOverlaySystem
 gameScriptsDebugOverlaySystem = {}
+
 
 ---@param fields? gameScriptsDebugOverlaySystem
 ---@return gameScriptsDebugOverlaySystem

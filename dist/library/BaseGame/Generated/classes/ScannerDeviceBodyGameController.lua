@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerDeviceBodyGameController: BaseChunkGameController
 ---@field networkStatusText inkTextWidgetReference
 ---@field deviceAuthorizationText inkTextWidgetReference
@@ -10,6 +11,7 @@
 ---@field isValidnetworkStatus Bool
 ---@field isValidDeviceAuthorization Bool
 ScannerDeviceBodyGameController = {}
+
 
 ---@param fields? ScannerDeviceBodyGameController
 ---@return ScannerDeviceBodyGameController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkDexLimoGameController: gameuiWidgetGameController
 ---@field activeVehicleBlackboard gameIBlackboard
 ---@field playerVehStateId redCallbackObject
@@ -7,6 +8,7 @@
 ---@field screenVideoWidgetPath CName
 ---@field videoPath redResourceReferenceScriptToken
 inkDexLimoGameController = {}
+
 
 ---@param fields? inkDexLimoGameController
 ---@return inkDexLimoGameController

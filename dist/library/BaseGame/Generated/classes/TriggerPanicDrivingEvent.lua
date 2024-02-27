@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TriggerPanicDrivingEvent: redEvent
 TriggerPanicDrivingEvent = {}
+
 
 ---@param fields? TriggerPanicDrivingEvent
 ---@return TriggerPanicDrivingEvent

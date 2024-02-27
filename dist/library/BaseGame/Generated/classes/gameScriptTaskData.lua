@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScriptTaskData: IScriptable
 gameScriptTaskData = {}
+
 
 ---@param fields? gameScriptTaskData
 ---@return gameScriptTaskData

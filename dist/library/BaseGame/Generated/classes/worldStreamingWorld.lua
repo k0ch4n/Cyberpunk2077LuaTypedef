@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldStreamingWorld: CResource
 ---@field version Uint32
 ---@field blockRefs worldStreamingBlock[]
@@ -27,6 +28,7 @@
 ---@field wasBuiltForSceneRecording Bool
 ---@field streamingQueryDataResource worldStreamingQueryDataResource
 worldStreamingWorld = {}
+
 
 ---@param fields? worldStreamingWorld
 ---@return worldStreamingWorld

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class vehicleDriveToGameObjectEvent: redEvent
 ---@field targetObjToReach gameObject
 vehicleDriveToGameObjectEvent = {}
+
 
 ---@param fields? vehicleDriveToGameObjectEvent
 ---@return vehicleDriveToGameObjectEvent

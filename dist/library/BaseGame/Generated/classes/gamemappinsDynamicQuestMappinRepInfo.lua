@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gamemappinsDynamicQuestMappinRepInfo
 ---@field journalPathHash Uint32
 ---@field entity entEntity
 gamemappinsDynamicQuestMappinRepInfo = {}
+
 
 ---@param fields? gamemappinsDynamicQuestMappinRepInfo
 ---@return gamemappinsDynamicQuestMappinRepInfo

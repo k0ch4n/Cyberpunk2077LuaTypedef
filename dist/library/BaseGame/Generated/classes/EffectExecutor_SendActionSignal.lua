@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class EffectExecutor_SendActionSignal: gameEffectExecutor_Scripted
 ---@field signalName CName
 ---@field signalDuration Float
 EffectExecutor_SendActionSignal = {}
+
 
 ---@param fields? EffectExecutor_SendActionSignal
 ---@return EffectExecutor_SendActionSignal

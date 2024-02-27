@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questAvailableVehicleType: Enum
 ---@field AnyCar Enum 0
 ---@field AnyMotorcycle Enum 1

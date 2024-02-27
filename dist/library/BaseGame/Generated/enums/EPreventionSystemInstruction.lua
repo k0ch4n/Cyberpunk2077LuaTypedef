@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EPreventionSystemInstruction: Enum
 ---@field Safe Enum 0
 ---@field Active Enum 1

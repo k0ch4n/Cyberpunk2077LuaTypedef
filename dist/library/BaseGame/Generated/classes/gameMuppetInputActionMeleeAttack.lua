@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameMuppetInputActionMeleeAttack: gameIMuppetInputAction
 gameMuppetInputActionMeleeAttack = {}
+
 
 ---@param fields? gameMuppetInputActionMeleeAttack
 ---@return gameMuppetInputActionMeleeAttack

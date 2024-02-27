@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectPostAction_ProcessNearlyHitAgents: gameEffectPostAction
 gameEffectPostAction_ProcessNearlyHitAgents = {}
+
 
 ---@param fields? gameEffectPostAction_ProcessNearlyHitAgents
 ---@return gameEffectPostAction_ProcessNearlyHitAgents

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CurrencyUpdateCallback: gameInventoryScriptCallback
 ---@field playerStatsUIHolder PlayerStatsUIHolder
 ---@field transactionSystem gameTransactionSystem
 ---@field player PlayerPuppet
 CurrencyUpdateCallback = {}
+
 
 ---@param fields? CurrencyUpdateCallback
 ---@return CurrencyUpdateCallback

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorMaybeNodeAction: Enum
 ---@field Succeed Enum 0
 ---@field Fail Enum 1

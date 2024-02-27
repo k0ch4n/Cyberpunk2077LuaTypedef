@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DriverCombatMountedWeaponsReloadCrosshairStateEvents: BaseCrosshairStateEvents
 DriverCombatMountedWeaponsReloadCrosshairStateEvents = {}
+
 
 ---@param fields? DriverCombatMountedWeaponsReloadCrosshairStateEvents
 ---@return DriverCombatMountedWeaponsReloadCrosshairStateEvents

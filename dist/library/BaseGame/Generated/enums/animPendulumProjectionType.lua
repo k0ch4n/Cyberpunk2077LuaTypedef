@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animPendulumProjectionType: Enum
 ---@field Disabled Enum 0
 ---@field ShortestPathRotational Enum 1

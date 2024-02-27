@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIDirectorEntryStartType_Record: gamedataTweakDBRecord
 gamedataAIDirectorEntryStartType_Record = {}
+
 
 ---@param fields? gamedataAIDirectorEntryStartType_Record
 ---@return gamedataAIDirectorEntryStartType_Record

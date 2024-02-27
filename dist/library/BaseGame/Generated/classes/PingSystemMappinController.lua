@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PingSystemMappinController: gameuiInteractionMappinController
 PingSystemMappinController = {}
+
 
 ---@param fields? PingSystemMappinController
 ---@return PingSystemMappinController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WeaponRegisterChargeStatListener: redEvent
 ---@field register Bool
 WeaponRegisterChargeStatListener = {}
+
 
 ---@param fields? WeaponRegisterChargeStatListener
 ---@return WeaponRegisterChargeStatListener

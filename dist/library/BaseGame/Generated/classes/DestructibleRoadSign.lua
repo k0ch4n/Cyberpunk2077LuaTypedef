@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DestructibleRoadSign: BaseDestructibleDevice
 ---@field frameMesh entMeshComponent
 ---@field uiMesh entMeshComponent
 ---@field uiMesh_2 entMeshComponent
 DestructibleRoadSign = {}
+
 
 ---@param fields? DestructibleRoadSign
 ---@return DestructibleRoadSign

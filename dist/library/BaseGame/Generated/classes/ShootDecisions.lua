@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ShootDecisions: WeaponTransition
 ---@field stateBodyDone Bool
 ShootDecisions = {}
+
 
 ---@param fields? ShootDecisions
 ---@return ShootDecisions

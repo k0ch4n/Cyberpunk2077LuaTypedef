@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayBinkDeviceOperation: DeviceOperationBase
 ---@field bink SBinkperationData
 PlayBinkDeviceOperation = {}
+
 
 ---@param fields? PlayBinkDeviceOperation
 ---@return PlayBinkDeviceOperation

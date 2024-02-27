@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameNativeHudManager: gameScriptableSystem
 gameNativeHudManager = {}
+
 
 ---@param fields? gameNativeHudManager
 ---@return gameNativeHudManager

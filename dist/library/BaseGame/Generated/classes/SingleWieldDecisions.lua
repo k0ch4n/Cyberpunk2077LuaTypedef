@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SingleWieldDecisions: UpperBodyTransition
 SingleWieldDecisions = {}
+
 
 ---@param fields? SingleWieldDecisions
 ---@return SingleWieldDecisions

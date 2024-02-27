@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WasNPCForcedToJoinCrowd: AIbehaviorconditionScript
 WasNPCForcedToJoinCrowd = {}
+
 
 ---@param fields? WasNPCForcedToJoinCrowd
 ---@return WasNPCForcedToJoinCrowd

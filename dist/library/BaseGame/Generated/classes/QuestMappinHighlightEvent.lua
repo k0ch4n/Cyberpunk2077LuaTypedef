@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuestMappinHighlightEvent: redEvent
 ---@field hash Uint32
 QuestMappinHighlightEvent = {}
+
 
 ---@param fields? QuestMappinHighlightEvent
 ---@return QuestMappinHighlightEvent

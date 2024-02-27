@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questUseWorkspotNodeFunctions: Enum
 ---@field UseWorkspot Enum 0
 ---@field JumpWorkspot Enum 1

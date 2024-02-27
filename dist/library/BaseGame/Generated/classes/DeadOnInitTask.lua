@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DeadOnInitTask: AIbehaviortaskScript
 ---@field preventSkippingDeathAnimation Bool
 DeadOnInitTask = {}
+
 
 ---@param fields? DeadOnInitTask
 ---@return DeadOnInitTask

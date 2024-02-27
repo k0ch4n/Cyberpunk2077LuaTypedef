@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EGameSessionDataType: Enum
 ---@field NONE Enum 0
 ---@field CameraDeadBody Enum 1

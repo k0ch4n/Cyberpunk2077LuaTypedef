@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetCustomObjectDescriptionEvent: redEvent
 ---@field objectDescription ObjectScanningDescription
 SetCustomObjectDescriptionEvent = {}
+
 
 ---@param fields? SetCustomObjectDescriptionEvent
 ---@return SetCustomObjectDescriptionEvent

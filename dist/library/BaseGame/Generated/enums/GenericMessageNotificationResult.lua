@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GenericMessageNotificationResult: Enum
 ---@field Cancel Enum 0
 ---@field Confirm Enum 1

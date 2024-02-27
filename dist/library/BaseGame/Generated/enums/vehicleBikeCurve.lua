@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleBikeCurve: Enum
 ---@field SpeedToTilt Enum 0
 ---@field InputToTilt Enum 1

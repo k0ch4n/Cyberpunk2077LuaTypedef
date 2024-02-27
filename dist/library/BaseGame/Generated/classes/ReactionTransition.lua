@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReactionTransition: DefaultTransition
 ReactionTransition = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param textLayerId Uint32

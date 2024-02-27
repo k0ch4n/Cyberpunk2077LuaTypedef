@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPresetMapper_Record: gamedataTweakDBRecord
 gamedataPresetMapper_Record = {}
+
 
 ---@param fields? gamedataPresetMapper_Record
 ---@return gamedataPresetMapper_Record

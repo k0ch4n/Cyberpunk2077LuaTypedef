@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAccumulatedSoundDecoratorMetadata: audioEmitterMetadata
 ---@field accumulatedSounds CName[]
 ---@field inSpammingMode Bool
@@ -10,6 +11,7 @@
 ---@field spammingSound CName
 ---@field spammingSoundInterval Float
 audioAccumulatedSoundDecoratorMetadata = {}
+
 
 ---@param fields? audioAccumulatedSoundDecoratorMetadata
 ---@return audioAccumulatedSoundDecoratorMetadata

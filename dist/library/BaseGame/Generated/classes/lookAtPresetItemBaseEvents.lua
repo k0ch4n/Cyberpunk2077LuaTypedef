@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class lookAtPresetItemBaseEvents: LookAtPresetBaseEvents
 lookAtPresetItemBaseEvents = {}
+
 
 ---@param fields? lookAtPresetItemBaseEvents
 ---@return lookAtPresetItemBaseEvents

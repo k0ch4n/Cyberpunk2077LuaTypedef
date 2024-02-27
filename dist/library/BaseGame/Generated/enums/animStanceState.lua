@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animStanceState: Enum
 ---@field Stand Enum 0
 ---@field Crouch Enum 1

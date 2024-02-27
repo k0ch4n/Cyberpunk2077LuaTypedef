@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HitCallback: gameScriptedDamageSystemListener
 ---@field state GenericHitPrereqState
 HitCallback = {}
+
 
 ---@param fields? HitCallback
 ---@return HitCallback

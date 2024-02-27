@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class navNaviPositionType: Enum
 ---@field None Enum 0
 ---@field Normal Enum 1

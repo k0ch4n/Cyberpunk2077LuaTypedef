@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NetworkAreaController: MasterController
 NetworkAreaController = {}
+
 
 ---@param fields? NetworkAreaController
 ---@return NetworkAreaController

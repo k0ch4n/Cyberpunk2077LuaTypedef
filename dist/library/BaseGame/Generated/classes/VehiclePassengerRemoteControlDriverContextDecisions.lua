@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehiclePassengerRemoteControlDriverContextDecisions: VehicleGameplayContextDecisions
 VehiclePassengerRemoteControlDriverContextDecisions = {}
+
 
 ---@param fields? VehiclePassengerRemoteControlDriverContextDecisions
 ---@return VehiclePassengerRemoteControlDriverContextDecisions

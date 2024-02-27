@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HasShootFromVehicleTicket: PreventionConditionAbstract
 HasShootFromVehicleTicket = {}
+
 
 ---@param fields? HasShootFromVehicleTicket
 ---@return HasShootFromVehicleTicket

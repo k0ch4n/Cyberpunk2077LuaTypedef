@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetAuthorizationModuleON: ActionBool
 SetAuthorizationModuleON = {}
+
 
 ---@param fields? SetAuthorizationModuleON
 ---@return SetAuthorizationModuleON

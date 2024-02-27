@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SecurityGate: InteractiveMasterDevice
 ---@field sideA gameStaticTriggerAreaComponent
 ---@field sideB gameStaticTriggerAreaComponent
 ---@field scanningArea gameStaticTriggerAreaComponent
 ---@field trespassersDataList TrespasserEntry[]
 SecurityGate = {}
+
 
 ---@param fields? SecurityGate
 ---@return SecurityGate

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LaserTargettingState: Enum
 ---@field Start Enum 0
 ---@field Update Enum 1

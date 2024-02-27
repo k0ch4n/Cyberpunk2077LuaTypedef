@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldVehicleForbiddenAreaNode: worldTriggerAreaNode
 worldVehicleForbiddenAreaNode = {}
+
 
 ---@param fields? worldVehicleForbiddenAreaNode
 ---@return worldVehicleForbiddenAreaNode

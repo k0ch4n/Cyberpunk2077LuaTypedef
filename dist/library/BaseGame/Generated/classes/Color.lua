@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class Color
 ---@field Red Uint8
 ---@field Green Uint8
 ---@field Blue Uint8
 ---@field Alpha Uint8
 Color = {}
+
 
 ---@param fields? Color
 ---@return Color

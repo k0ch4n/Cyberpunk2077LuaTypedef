@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIHumanComponentPS: AICommandQueuePS
 ---@field spotUsageToken AISpotUsageToken
 AIHumanComponentPS = {}
+
 
 ---@param fields? AIHumanComponentPS
 ---@return AIHumanComponentPS

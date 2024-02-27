@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemTooltipModController: inkWidgetLogicController
 ---@field dotIndicator inkWidgetReference
 ---@field rarityContainer inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field partIndicatorController InventoryItemPartDisplay
 ---@field isCrafting Bool
 ItemTooltipModController = {}
+
 
 ---@param fields? ItemTooltipModController
 ---@return ItemTooltipModController

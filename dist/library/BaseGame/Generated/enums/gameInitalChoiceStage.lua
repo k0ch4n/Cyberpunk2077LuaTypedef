@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameInitalChoiceStage: Enum
 ---@field None Enum 0
 ---@field Difficulty Enum 1

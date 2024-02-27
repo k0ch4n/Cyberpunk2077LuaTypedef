@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Air: DefaultTransition
 Air = {}
+
 
 ---@param fields? Air
 ---@return Air

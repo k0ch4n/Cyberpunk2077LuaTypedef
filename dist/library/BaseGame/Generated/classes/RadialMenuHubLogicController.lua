@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RadialMenuHubLogicController: inkWidgetLogicController
 ---@field menuObject inkWidgetReference
 ---@field btnCrafting inkWidgetReference
@@ -31,6 +32,7 @@
 ---@field panelHoverOverAnimProxy inkanimProxy
 ---@field panelHoverOutAnimProxy inkanimProxy
 RadialMenuHubLogicController = {}
+
 
 ---@param fields? RadialMenuHubLogicController
 ---@return RadialMenuHubLogicController

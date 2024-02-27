@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SampleInteractiveEntityThatBumpsTheCounter: gameObject
 ---@field targetEntityWithCounter NodeRef
 ---@field targetPersistentID gamePersistentID
 SampleInteractiveEntityThatBumpsTheCounter = {}
+
 
 ---@param fields? SampleInteractiveEntityThatBumpsTheCounter
 ---@return SampleInteractiveEntityThatBumpsTheCounter

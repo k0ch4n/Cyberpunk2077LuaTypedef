@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questCombatNodeParams_SwitchWeapon: questCombatNodeParams
 ---@field mode questSwitchWeaponModes
 questCombatNodeParams_SwitchWeapon = {}
+
 
 ---@param fields? questCombatNodeParams_SwitchWeapon
 ---@return questCombatNodeParams_SwitchWeapon

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineeventResetPhysicalRepresentation: redEvent
 gamestateMachineeventResetPhysicalRepresentation = {}
+
 
 ---@param fields? gamestateMachineeventResetPhysicalRepresentation
 ---@return gamestateMachineeventResetPhysicalRepresentation

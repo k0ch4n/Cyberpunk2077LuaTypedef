@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entVertexAnimationMapperSourceType: Enum
 ---@field FloatTrack Enum 0
 ---@field TranslationX Enum 1

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GamplayQuestData: IScriptable
 ---@field questUniqueID String
 ---@field objectives GemplayObjectiveData[]
 GamplayQuestData = {}
+
 
 ---@param fields? GamplayQuestData
 ---@return GamplayQuestData

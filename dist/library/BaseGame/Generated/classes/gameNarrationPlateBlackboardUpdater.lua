@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameNarrationPlateBlackboardUpdater: ISerializable
 gameNarrationPlateBlackboardUpdater = {}
+
 
 ---@param fields? gameNarrationPlateBlackboardUpdater
 ---@return gameNarrationPlateBlackboardUpdater

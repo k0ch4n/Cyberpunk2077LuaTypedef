@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSmartObjectPropertyDictionaryPropertyEntry
 ---@field id Uint16
 ---@field usage Uint32
@@ -12,6 +13,7 @@
 ---@field isReachable Bool
 ---@field overObstacle Bool
 gameSmartObjectPropertyDictionaryPropertyEntry = {}
+
 
 ---@param fields? gameSmartObjectPropertyDictionaryPropertyEntry
 ---@return gameSmartObjectPropertyDictionaryPropertyEntry

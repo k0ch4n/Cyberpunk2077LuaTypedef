@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectComponentBinding: entISourceBinding
 gameEffectComponentBinding = {}
+
 
 ---@param fields? gameEffectComponentBinding
 ---@return gameEffectComponentBinding

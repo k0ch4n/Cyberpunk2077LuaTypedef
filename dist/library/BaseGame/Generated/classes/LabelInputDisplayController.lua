@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LabelInputDisplayController: inkInputDisplayController
 ---@field inputLabel inkTextWidgetReference
 LabelInputDisplayController = {}
+
 
 ---@param fields? LabelInputDisplayController
 ---@return LabelInputDisplayController

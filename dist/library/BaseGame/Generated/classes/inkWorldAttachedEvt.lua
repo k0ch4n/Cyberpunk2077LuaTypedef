@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkWorldAttachedEvt: redEvent
 inkWorldAttachedEvt = {}
+
 
 ---@param fields? inkWorldAttachedEvt
 ---@return inkWorldAttachedEvt

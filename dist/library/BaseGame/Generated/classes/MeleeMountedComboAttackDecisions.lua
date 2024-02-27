@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeMountedComboAttackDecisions: MeleeComboAttackDecisions
 MeleeMountedComboAttackDecisions = {}
+
 
 ---@param fields? MeleeMountedComboAttackDecisions
 ---@return MeleeMountedComboAttackDecisions

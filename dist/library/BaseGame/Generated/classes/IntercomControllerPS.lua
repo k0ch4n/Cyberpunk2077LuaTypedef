@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class IntercomControllerPS: ScriptableDeviceComponentPS
 ---@field isCalling Bool
 ---@field sceneStarted Bool
@@ -7,6 +8,7 @@
 ---@field forceLookAt entEntityID
 ---@field forceFollow Bool
 IntercomControllerPS = {}
+
 
 ---@param fields? IntercomControllerPS
 ---@return IntercomControllerPS

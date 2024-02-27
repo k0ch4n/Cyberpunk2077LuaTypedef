@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkStreetSignsLayerDefinition: inkLayerDefinition
 inkStreetSignsLayerDefinition = {}
+
 
 ---@param fields? inkStreetSignsLayerDefinition
 ---@return inkStreetSignsLayerDefinition

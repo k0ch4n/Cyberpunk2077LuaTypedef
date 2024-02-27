@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiBaseWorldMapMappinController: gameuiInteractionMappinController
 ---@field selected Bool
 ---@field inZoomLevel Bool
@@ -19,6 +20,7 @@
 ---@field selectAnim inkanimProxy
 ---@field fadeInOutDelay Float
 gameuiBaseWorldMapMappinController = {}
+
 
 ---@param fields? gameuiBaseWorldMapMappinController
 ---@return gameuiBaseWorldMapMappinController

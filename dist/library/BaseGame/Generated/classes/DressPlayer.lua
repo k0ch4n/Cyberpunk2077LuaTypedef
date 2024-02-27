@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DressPlayer: redEvent
 DressPlayer = {}
+
 
 ---@param fields? DressPlayer
 ---@return DressPlayer

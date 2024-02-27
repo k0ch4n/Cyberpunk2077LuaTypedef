@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerModule: HUDModule
 ---@field activeScans ScanInstance[]
 ScannerModule = {}
+
 
 ---@param fields? ScannerModule
 ---@return ScannerModule

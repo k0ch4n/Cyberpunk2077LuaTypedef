@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WindowControllerPS: DoorControllerPS
 ---@field windowSkillChecks EngDemoContainer
 WindowControllerPS = {}
+
 
 ---@param fields? WindowControllerPS
 ---@return WindowControllerPS

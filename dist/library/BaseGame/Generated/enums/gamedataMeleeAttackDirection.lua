@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataMeleeAttackDirection: Enum
 ---@field Center Enum 0
 ---@field DownToUp Enum 1

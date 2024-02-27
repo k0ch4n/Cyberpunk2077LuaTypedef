@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gamestateMachineeventPostponedParameterInt: gamestateMachineeventPostponedParameterBase
 ---@field value Int32
 gamestateMachineeventPostponedParameterInt = {}
+
 
 ---@param fields? gamestateMachineeventPostponedParameterInt
 ---@return gamestateMachineeventPostponedParameterInt

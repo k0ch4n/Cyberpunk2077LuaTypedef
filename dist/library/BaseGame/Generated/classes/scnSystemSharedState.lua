@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class scnSystemSharedState
 scnSystemSharedState = {}
+
 
 ---@param fields? scnSystemSharedState
 ---@return scnSystemSharedState

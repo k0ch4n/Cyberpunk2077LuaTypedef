@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorSucceederNodeDefinition: AIbehaviorLeafTreeNodeDefinition
 AIbehaviorSucceederNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorSucceederNodeDefinition
 ---@return AIbehaviorSucceederNodeDefinition

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAttitudeGroup_Record: gamedataTweakDBRecord
 gamedataAttitudeGroup_Record = {}
+
 
 ---@param fields? gamedataAttitudeGroup_Record
 ---@return gamedataAttitudeGroup_Record

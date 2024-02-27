@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ItemModificationSystem: gameScriptableSystem
 ---@field blackboard gameIBlackboard
 ---@field CYBMETA1695 Bool
 ItemModificationSystem = {}
+
 
 ---@param fields? ItemModificationSystem
 ---@return ItemModificationSystem

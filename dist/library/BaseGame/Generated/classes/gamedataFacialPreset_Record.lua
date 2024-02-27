@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataFacialPreset_Record: gamedataTweakDBRecord
 gamedataFacialPreset_Record = {}
+
 
 ---@param fields? gamedataFacialPreset_Record
 ---@return gamedataFacialPreset_Record

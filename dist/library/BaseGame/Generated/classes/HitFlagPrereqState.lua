@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitFlagPrereqState: GenericHitPrereqState
 HitFlagPrereqState = {}
+
 
 ---@param fields? HitFlagPrereqState
 ---@return HitFlagPrereqState

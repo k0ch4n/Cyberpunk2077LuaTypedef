@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkCanvasWidgetReference: inkCompoundWidgetReference
 inkCanvasWidgetReference = {}
+
 
 ---@param fields? inkCanvasWidgetReference
 ---@return inkCanvasWidgetReference

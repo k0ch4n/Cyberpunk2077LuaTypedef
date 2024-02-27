@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AISearchingLookat: AIGenericStaticLookatTask
 ---@field minAngleDifferenceMapping AIArgumentMapping
 ---@field minAngleDifference Float
@@ -12,6 +13,7 @@
 ---@field sideHorizontal Int32
 ---@field sideVertical Int32
 AISearchingLookat = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ApplyStatusEffectDeviceOperation: DeviceOperationBase
 ---@field statusEffects SStatusEffectOperationData[]
 ApplyStatusEffectDeviceOperation = {}
+
 
 ---@param fields? ApplyStatusEffectDeviceOperation
 ---@return ApplyStatusEffectDeviceOperation

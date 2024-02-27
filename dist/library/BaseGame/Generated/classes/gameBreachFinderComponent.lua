@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameBreachFinderComponent: entIComponent
 ---@field owner gameObject
 ---@field audioSystem gameGameAudioSystem
@@ -21,6 +22,7 @@
 ---@field desiredBreachDuration Float
 ---@field cooldownAfterBreach Float
 gameBreachFinderComponent = {}
+
 
 ---@param fields? gameBreachFinderComponent
 ---@return gameBreachFinderComponent

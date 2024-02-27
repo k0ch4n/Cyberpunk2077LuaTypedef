@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ComputerSetup: TerminalSetup
 ---@field startingMenu EComputerMenuType
 ---@field mailsMenu Bool
@@ -18,6 +19,7 @@
 ---@field animationStateSetFactName CName
 ---@field ignoreSleepMode Bool
 ComputerSetup = {}
+
 
 ---@param fields? ComputerSetup
 ---@return ComputerSetup

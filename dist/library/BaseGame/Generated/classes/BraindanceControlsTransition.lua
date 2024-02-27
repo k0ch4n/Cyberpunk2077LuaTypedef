@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BraindanceControlsTransition: DefaultTransition
 BraindanceControlsTransition = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil

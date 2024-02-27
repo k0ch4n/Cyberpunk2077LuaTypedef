@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataNPCType: Enum
 ---@field Android Enum 0
 ---@field Any Enum 1

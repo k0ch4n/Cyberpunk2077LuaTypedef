@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewItemTooltipStatBarController: inkWidgetLogicController
 ---@field background inkWidgetReference
 ---@field bar inkWidgetReference
@@ -15,6 +16,7 @@
 ---@field worseColor HDRColor
 ---@field width Float
 NewItemTooltipStatBarController = {}
+
 
 ---@param fields? NewItemTooltipStatBarController
 ---@return NewItemTooltipStatBarController

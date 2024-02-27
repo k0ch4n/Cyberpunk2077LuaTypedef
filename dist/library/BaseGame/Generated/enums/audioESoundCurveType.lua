@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioESoundCurveType: Enum
 ---@field Log3 Enum 0
 ---@field Sine Enum 1

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameStaticTriggerAreaComponent: gameStaticAreaShapeComponent
 ---@field includeMask Uint32
 ---@field excludeMask Uint32
 gameStaticTriggerAreaComponent = {}
+
 
 ---@param fields? gameStaticTriggerAreaComponent
 ---@return gameStaticTriggerAreaComponent

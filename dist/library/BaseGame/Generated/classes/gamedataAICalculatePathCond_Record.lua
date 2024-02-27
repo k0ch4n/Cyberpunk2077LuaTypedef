@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAICalculatePathCond_Record: gamedataAIActionSubCondition_Record
 gamedataAICalculatePathCond_Record = {}
+
 
 ---@param fields? gamedataAICalculatePathCond_Record
 ---@return gamedataAICalculatePathCond_Record

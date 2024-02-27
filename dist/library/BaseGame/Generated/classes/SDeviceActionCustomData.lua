@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SDeviceActionCustomData: SDeviceActionData
 ---@field actionID CName
 ---@field On Bool
@@ -17,6 +18,7 @@
 ---@field quickHackCost Int32
 ---@field callbackID Uint32
 SDeviceActionCustomData = {}
+
 
 ---@param fields? SDeviceActionCustomData
 ---@return SDeviceActionCustomData

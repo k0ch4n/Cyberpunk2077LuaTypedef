@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LookAtTargetExecutor: gameEffectExecutor_Scripted
 LookAtTargetExecutor = {}
+
 
 ---@param fields? LookAtTargetExecutor
 ---@return LookAtTargetExecutor

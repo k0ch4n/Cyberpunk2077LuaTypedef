@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CraftingPopupController: gameuiWidgetGameController
 ---@field tooltipContainer inkWidgetReference
 ---@field craftIcon inkImageWidgetReference
@@ -14,6 +15,7 @@
 ---@field closeButtonController inkButtonController
 ---@field data CraftingPopupData
 CraftingPopupController = {}
+
 
 ---@param fields? CraftingPopupController
 ---@return CraftingPopupController

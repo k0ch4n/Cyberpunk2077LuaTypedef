@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActionHacking: ActionSkillCheck
 ActionHacking = {}
+
 
 ---@param fields? ActionHacking
 ---@return ActionHacking

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questvehicleRacingParams: questVehicleSpecificCommandParams
 ---@field splineRef NodeRef
 ---@field preciseLevel Float
@@ -9,6 +10,7 @@
 ---@field rubberBanding Bool
 ---@field rubberBandingParam questParamRubberbanding
 questvehicleRacingParams = {}
+
 
 ---@param fields? questvehicleRacingParams
 ---@return questvehicleRacingParams

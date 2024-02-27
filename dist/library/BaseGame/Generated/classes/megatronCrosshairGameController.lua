@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class megatronCrosshairGameController: gameuiWidgetGameController
 ---@field bulletSpreedBlackboardId redCallbackObject
 ---@field crosshairStateBlackboardId redCallbackObject
@@ -13,6 +14,7 @@
 ---@field gameplaySpreadMultiplier Float
 ---@field crosshairState gamePSMCrosshairStates
 megatronCrosshairGameController = {}
+
 
 ---@param fields? megatronCrosshairGameController
 ---@return megatronCrosshairGameController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEffectHitDataType: Enum
 ---@field Entity Enum 0
 ---@field Node Enum 1

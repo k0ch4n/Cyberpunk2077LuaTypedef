@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class NarrativePlateLogicController: inkWidgetLogicController
 ---@field textWidget inkWidgetReference
 ---@field captionWidget inkWidgetReference
 ---@field root inkWidgetReference
 NarrativePlateLogicController = {}
+
 
 ---@param fields? NarrativePlateLogicController
 ---@return NarrativePlateLogicController

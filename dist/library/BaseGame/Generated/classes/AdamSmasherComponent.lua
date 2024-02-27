@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AdamSmasherComponent: gameScriptableComponent
 ---@field owner NPCPuppet
 ---@field owner_id entEntityID
@@ -16,6 +17,7 @@
 ---@field targetTrackerComponent AITargetTrackerComponent
 ---@field weakspotDestroyed Bool
 AdamSmasherComponent = {}
+
 
 ---@param fields? AdamSmasherComponent
 ---@return AdamSmasherComponent

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class StuckInEffector: gameContinuousEffector
 ---@field maxEnemyDistance Float
 ---@field enemyCount Int32
 ---@field statusEffectID TweakDBID
 StuckInEffector = {}
+
 
 ---@param fields? StuckInEffector
 ---@return StuckInEffector

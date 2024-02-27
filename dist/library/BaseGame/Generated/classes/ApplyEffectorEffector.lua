@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ApplyEffectorEffector: gameEffector
 ---@field target entEntityID
 ---@field applicationTarget CName
 ---@field effectorToApply TweakDBID
 ApplyEffectorEffector = {}
+
 
 ---@param fields? ApplyEffectorEffector
 ---@return ApplyEffectorEffector

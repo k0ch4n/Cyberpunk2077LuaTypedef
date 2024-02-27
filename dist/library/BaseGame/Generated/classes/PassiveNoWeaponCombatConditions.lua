@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PassiveNoWeaponCombatConditions: PassiveAutonomousCondition
 ---@field delayEvaluationCbId Uint32
 ---@field onItemAddedToSlotCbId Uint32
 PassiveNoWeaponCombatConditions = {}
+
 
 ---@param fields? PassiveNoWeaponCombatConditions
 ---@return PassiveNoWeaponCombatConditions

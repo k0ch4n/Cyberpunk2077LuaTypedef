@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkTextureType: Enum
 ---@field StaticTexture Enum 0
 ---@field DynamicTexture Enum 1

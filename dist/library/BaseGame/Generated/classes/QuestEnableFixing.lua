@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestEnableFixing: ActionBool
 QuestEnableFixing = {}
+
 
 ---@param fields? QuestEnableFixing
 ---@return QuestEnableFixing

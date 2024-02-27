@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WardrobeUIGameController: gameuiMenuGameController
 ---@field tooltipsManagerRef inkWidgetReference
 ---@field buttonHintsManagerRef inkWidgetReference
@@ -25,6 +26,7 @@
 ---@field equipmentBlackboard gameIBlackboard
 ---@field equipmentInProgressCallback redCallbackObject
 WardrobeUIGameController = {}
+
 
 ---@param fields? WardrobeUIGameController
 ---@return WardrobeUIGameController

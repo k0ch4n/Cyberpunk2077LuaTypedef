@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CodexListVirtualEntry: inkVirtualCompoundItemController
 ---@field title inkTextWidgetReference
 ---@field icon inkImageWidgetReference
@@ -12,6 +13,7 @@
 ---@field isItemHovered Bool
 ---@field isItemToggled Bool
 CodexListVirtualEntry = {}
+
 
 ---@param fields? CodexListVirtualEntry
 ---@return CodexListVirtualEntry

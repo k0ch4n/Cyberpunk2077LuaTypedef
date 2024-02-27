@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UpperBodyNPCStatePrereq: NPCStatePrereq
 ---@field valueToListen gamedataNPCUpperBodyState
 UpperBodyNPCStatePrereq = {}
+
 
 ---@param fields? UpperBodyNPCStatePrereq
 ---@return UpperBodyNPCStatePrereq

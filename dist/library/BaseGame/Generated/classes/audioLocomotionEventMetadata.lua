@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class audioLocomotionEventMetadata: audioAudioMetadata
 audioLocomotionEventMetadata = {}
+
 
 ---@param fields? audioLocomotionEventMetadata
 ---@return audioLocomotionEventMetadata

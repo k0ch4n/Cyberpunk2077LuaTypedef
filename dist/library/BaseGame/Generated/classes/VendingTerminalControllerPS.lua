@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class VendingTerminalControllerPS: ScriptableDeviceComponentPS
 ---@field vendingTerminalSetup VendingTerminalSetup
 ---@field isReady Bool
 ---@field VendorDataManager VendorDataManager
 VendingTerminalControllerPS = {}
+
 
 ---@param fields? VendingTerminalControllerPS
 ---@return VendingTerminalControllerPS

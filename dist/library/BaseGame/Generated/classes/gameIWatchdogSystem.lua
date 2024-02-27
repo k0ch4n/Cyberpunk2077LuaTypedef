@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameIWatchdogSystem: gameIGameSystem
 gameIWatchdogSystem = {}
+
 
 ---@param entityId entEntityID
 ---@param fallbackCategory CName|string

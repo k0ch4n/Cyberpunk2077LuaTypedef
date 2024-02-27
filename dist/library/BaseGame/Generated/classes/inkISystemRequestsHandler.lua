@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkISystemRequestsHandler: IScriptable
 ---@field SavesForSaveReady inkSystemRequesResult
 ---@field SavesForLoadReady inkSystemRequesResult
@@ -21,6 +22,7 @@
 ---@field CloudSavesQueryStatusChanged inkCloudSavesQueryStatusChange
 ---@field CloudSaveUploadFinish inkCloudSaveUploadFinish
 inkISystemRequestsHandler = {}
+
 
 ---@return nil
 function inkISystemRequestsHandler:CancelSavedGameScreenshotRequests() end

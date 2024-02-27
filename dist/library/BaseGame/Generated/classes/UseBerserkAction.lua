@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UseBerserkAction: UseAction
 UseBerserkAction = {}
+
 
 ---@param fields? UseBerserkAction
 ---@return UseBerserkAction

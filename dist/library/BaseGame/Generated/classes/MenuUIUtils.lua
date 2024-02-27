@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuUIUtils: IScriptable
 MenuUIUtils = {}
+
 
 ---@param player gameObject
 ---@param delay? Float

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPhotoModeBackground_Record: gamedataPhotoModeItem_Record
 gamedataPhotoModeBackground_Record = {}
+
 
 ---@param fields? gamedataPhotoModeBackground_Record
 ---@return gamedataPhotoModeBackground_Record

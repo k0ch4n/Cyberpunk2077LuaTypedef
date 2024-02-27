@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIActionSmartComposite_Record: gamedataAIRecord_Record
 gamedataAIActionSmartComposite_Record = {}
+
 
 ---@param fields? gamedataAIActionSmartComposite_Record
 ---@return gamedataAIActionSmartComposite_Record

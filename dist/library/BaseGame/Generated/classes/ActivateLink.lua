@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActivateLink: redEvent
 ActivateLink = {}
+
 
 ---@param fields? ActivateLink
 ---@return ActivateLink

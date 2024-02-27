@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkButtonController: inkDiscreteNavigationController
 ---@field ButtonClick inkButtonClickCallback
 ---@field ButtonHoldComplete inkButtonHoldCompleteCallback
@@ -11,6 +12,7 @@
 ---@field selected Bool
 ---@field autoUpdateWidgetState Bool
 inkButtonController = {}
+
 
 ---@param fields? inkButtonController
 ---@return inkButtonController

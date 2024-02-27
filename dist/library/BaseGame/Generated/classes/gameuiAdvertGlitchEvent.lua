@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiAdvertGlitchEvent: redEvent
 ---@field glitchValue Float
 gameuiAdvertGlitchEvent = {}
+
 
 ---@param fields? gameuiAdvertGlitchEvent
 ---@return gameuiAdvertGlitchEvent

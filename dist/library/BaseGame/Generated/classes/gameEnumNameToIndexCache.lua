@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEnumNameToIndexCache
 gameEnumNameToIndexCache = {}
+
 
 ---@param fields? gameEnumNameToIndexCache
 ---@return gameEnumNameToIndexCache

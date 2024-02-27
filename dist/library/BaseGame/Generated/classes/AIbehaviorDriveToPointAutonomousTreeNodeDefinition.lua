@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorDriveToPointAutonomousTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field targetPosition AIArgumentMapping
 ---@field maxSpeed AIArgumentMapping
@@ -9,6 +10,7 @@
 ---@field forcedStartSpeed AIArgumentMapping
 ---@field driveDownTheRoadIndefinitely AIArgumentMapping
 AIbehaviorDriveToPointAutonomousTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorDriveToPointAutonomousTreeNodeDefinition
 ---@return AIbehaviorDriveToPointAutonomousTreeNodeDefinition

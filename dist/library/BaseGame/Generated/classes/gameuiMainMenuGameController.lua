@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiMainMenuGameController: gameuiMenuItemListGameController
 ---@field backgroundContainer inkCompoundWidgetReference
 gameuiMainMenuGameController = {}
+
 
 ---@param fields? gameuiMainMenuGameController
 ---@return gameuiMainMenuGameController

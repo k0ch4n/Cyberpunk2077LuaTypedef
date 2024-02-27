@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAISquadType: Enum
 ---@field Attitude Enum 0
 ---@field Community Enum 1

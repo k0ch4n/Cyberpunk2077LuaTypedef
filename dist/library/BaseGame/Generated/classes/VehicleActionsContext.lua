@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleActionsContext
 ---@field requestorID entEntityID
 ---@field requestType gamedeviceRequestType
@@ -7,6 +8,7 @@
 ---@field processInitiatorObject gameObject
 ---@field eventType gameinteractionsEInteractionEventType
 VehicleActionsContext = {}
+
 
 ---@param fields? VehicleActionsContext
 ---@return VehicleActionsContext

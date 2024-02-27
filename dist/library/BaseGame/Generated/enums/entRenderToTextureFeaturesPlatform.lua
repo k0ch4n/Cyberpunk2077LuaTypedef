@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entRenderToTextureFeaturesPlatform: Enum
 ---@field RTFP_All Enum 0
 ---@field RTFP_PC Enum 1

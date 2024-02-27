@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InteractiveDevice: Device
 ---@field interaction gameinteractionsComponent
 ---@field interactionIndicator gameLightComponent
@@ -12,6 +13,7 @@
 ---@field actionRestrictionPlayerBB gameIBlackboard
 ---@field actionRestrictionCallbackID redCallbackObject
 InteractiveDevice = {}
+
 
 ---@param fields? InteractiveDevice
 ---@return InteractiveDevice

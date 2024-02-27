@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CustomDeviceAction: ActionBool
 CustomDeviceAction = {}
+
 
 ---@param fields? CustomDeviceAction
 ---@return CustomDeviceAction

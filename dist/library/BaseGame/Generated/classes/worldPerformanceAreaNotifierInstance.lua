@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldPerformanceAreaNotifierInstance: worldITriggerAreaNotiferInstance
 worldPerformanceAreaNotifierInstance = {}
+
 
 ---@param fields? worldPerformanceAreaNotifierInstance
 ---@return worldPerformanceAreaNotifierInstance

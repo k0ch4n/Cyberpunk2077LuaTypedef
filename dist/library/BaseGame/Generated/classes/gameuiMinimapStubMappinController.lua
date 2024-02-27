@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameuiMinimapStubMappinController: gameuiBaseMinimapMappinController
 ---@field regularIconContainer inkCompoundWidgetReference
 ---@field preventionVehicleIconContainer inkCompoundWidgetReference
 ---@field stubMappin gamemappinsStubMappin
 ---@field state CName
 gameuiMinimapStubMappinController = {}
+
 
 ---@param fields? gameuiMinimapStubMappinController
 ---@return gameuiMinimapStubMappinController

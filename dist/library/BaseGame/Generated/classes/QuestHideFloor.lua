@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestHideFloor: ActionInt
 QuestHideFloor = {}
+
 
 ---@param fields? QuestHideFloor
 ---@return QuestHideFloor

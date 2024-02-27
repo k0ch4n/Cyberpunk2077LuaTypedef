@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineparameterTypeClimbParametersBase: IScriptable
 gamestateMachineparameterTypeClimbParametersBase = {}
+
 
 ---@param fields? gamestateMachineparameterTypeClimbParametersBase
 ---@return gamestateMachineparameterTypeClimbParametersBase

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ItemDisplayContextData: IScriptable
 ---@field player gameObject
 ---@field displayContext gameItemDisplayContext
 ---@field displayComparison Bool
 ---@field tags CName[]
 ItemDisplayContextData = {}
+
 
 ---@param fields? ItemDisplayContextData
 ---@return ItemDisplayContextData

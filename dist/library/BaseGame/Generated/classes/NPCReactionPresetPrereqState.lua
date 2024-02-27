@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NPCReactionPresetPrereqState: gamePrereqState
 NPCReactionPresetPrereqState = {}
+
 
 ---@param fields? NPCReactionPresetPrereqState
 ---@return NPCReactionPresetPrereqState

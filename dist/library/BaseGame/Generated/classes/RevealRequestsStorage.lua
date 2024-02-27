@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RevealRequestsStorage: IScriptable
 ---@field currentRequestersAmount Int32
 ---@field requestersList entEntityID[]
 RevealRequestsStorage = {}
+
 
 ---@param fields? RevealRequestsStorage
 ---@return RevealRequestsStorage

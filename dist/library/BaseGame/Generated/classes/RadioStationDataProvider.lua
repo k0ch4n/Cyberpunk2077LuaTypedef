@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RadioStationDataProvider: IScriptable
 RadioStationDataProvider = {}
+
 
 ---@param fields? RadioStationDataProvider
 ---@return RadioStationDataProvider

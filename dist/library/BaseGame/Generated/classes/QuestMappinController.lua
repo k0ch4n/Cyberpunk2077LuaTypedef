@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestMappinController: gameuiQuestMappinController
 ---@field arrowCanvas inkWidgetReference
 ---@field arrowPart inkWidgetReference
@@ -21,6 +22,7 @@
 ---@field vehiclePulseTimeSecs Float
 ---@field vehicleMappinComponent VehicleMappinComponent
 QuestMappinController = {}
+
 
 ---@param fields? QuestMappinController
 ---@return QuestMappinController

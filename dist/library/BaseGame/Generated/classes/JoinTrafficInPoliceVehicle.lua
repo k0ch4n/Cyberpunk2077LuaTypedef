@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class JoinTrafficInPoliceVehicle: AIVehicleTaskAbstract
 ---@field vehicle vehicleBaseObject
 ---@field panicDrivingCmd AIVehiclePanicCommand
 JoinTrafficInPoliceVehicle = {}
+
 
 ---@param fields? JoinTrafficInPoliceVehicle
 ---@return JoinTrafficInPoliceVehicle

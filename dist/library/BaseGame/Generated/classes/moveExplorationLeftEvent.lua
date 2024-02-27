@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class moveExplorationLeftEvent: redEvent
 ---@field type moveExplorationType
 moveExplorationLeftEvent = {}
+
 
 ---@param fields? moveExplorationLeftEvent
 ---@return moveExplorationLeftEvent

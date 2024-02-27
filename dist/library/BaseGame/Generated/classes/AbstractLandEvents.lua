@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AbstractLandEvents: LocomotionGroundEvents
 ---@field blockLandingStimBroadcasting Bool
 AbstractLandEvents = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

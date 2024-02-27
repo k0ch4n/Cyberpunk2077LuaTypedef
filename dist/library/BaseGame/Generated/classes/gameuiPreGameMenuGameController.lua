@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiPreGameMenuGameController: gameuiBaseMenuGameController
 gameuiPreGameMenuGameController = {}
+
 
 ---@param fields? gameuiPreGameMenuGameController
 ---@return gameuiPreGameMenuGameController

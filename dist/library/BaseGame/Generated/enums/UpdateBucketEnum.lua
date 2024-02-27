@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UpdateBucketEnum: Enum
 ---@field Vehicle Enum 0
 ---@field Character Enum 1

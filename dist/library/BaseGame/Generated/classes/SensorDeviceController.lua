@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SensorDeviceController: ExplosiveDeviceController
 SensorDeviceController = {}
+
 
 ---@param fields? SensorDeviceController
 ---@return SensorDeviceController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InDeadHighLevelState: AINPCHighLevelStateCheck
 InDeadHighLevelState = {}
+
 
 ---@param fields? InDeadHighLevelState
 ---@return InDeadHighLevelState

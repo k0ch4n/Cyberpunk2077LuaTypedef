@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameContainerManager: gameIContainerManager
 gameContainerManager = {}
+
 
 ---@param fields? gameContainerManager
 ---@return gameContainerManager

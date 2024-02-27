@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class netEntityReplicatedState: netIEntityState
 netEntityReplicatedState = {}
+
 
 ---@param fields? netEntityReplicatedState
 ---@return netEntityReplicatedState

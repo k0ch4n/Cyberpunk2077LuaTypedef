@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleePreAttackExecutor: gameEffectExecutor_Scripted
 MeleePreAttackExecutor = {}
+
 
 ---@param fields? MeleePreAttackExecutor
 ---@return MeleePreAttackExecutor

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameTeleportationFacility: gameITeleportationFacility
 gameTeleportationFacility = {}
+
 
 ---@param fields? gameTeleportationFacility
 ---@return gameTeleportationFacility

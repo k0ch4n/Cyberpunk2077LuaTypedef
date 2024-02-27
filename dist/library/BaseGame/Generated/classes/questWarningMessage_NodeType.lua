@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questWarningMessage_NodeType: questIUIManagerNodeType
 ---@field message String
 ---@field localizedMessage LocalizationString
@@ -8,6 +9,7 @@
 ---@field instant Bool
 ---@field type gameSimpleMessageType
 questWarningMessage_NodeType = {}
+
 
 ---@param fields? questWarningMessage_NodeType
 ---@return questWarningMessage_NodeType

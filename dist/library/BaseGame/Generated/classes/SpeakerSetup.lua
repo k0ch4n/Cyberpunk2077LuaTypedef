@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SpeakerSetup
 ---@field defaultMusic ERadioStationList
 ---@field distractionMusic ERadioStationList
@@ -7,6 +8,7 @@
 ---@field glitchSFX CName
 ---@field useOnlyGlitchSFX Bool
 SpeakerSetup = {}
+
 
 ---@param fields? SpeakerSetup
 ---@return SpeakerSetup

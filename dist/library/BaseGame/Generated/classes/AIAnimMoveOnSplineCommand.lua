@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIAnimMoveOnSplineCommand: AIMoveCommand
 ---@field spline NodeRef
 ---@field useStart Bool
@@ -18,6 +19,7 @@
 ---@field startSnapToTerrainBlendTime Float
 ---@field stopSnapToTerrainBlendTime Float
 AIAnimMoveOnSplineCommand = {}
+
 
 ---@param fields? AIAnimMoveOnSplineCommand
 ---@return AIAnimMoveOnSplineCommand

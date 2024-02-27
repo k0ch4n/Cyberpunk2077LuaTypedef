@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlaySoundEvent: MusicSettings
 ---@field soundEvent CName
 PlaySoundEvent = {}
+
 
 ---@param fields? PlaySoundEvent
 ---@return PlaySoundEvent

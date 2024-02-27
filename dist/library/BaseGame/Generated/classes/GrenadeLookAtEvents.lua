@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GrenadeLookAtEvents: lookAtPresetItemBaseEvents
 GrenadeLookAtEvents = {}
+
 
 ---@param fields? GrenadeLookAtEvents
 ---@return GrenadeLookAtEvents

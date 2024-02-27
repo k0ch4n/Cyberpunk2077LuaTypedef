@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ChargedHotkeyItemGadgetVehicleController: ChargedHotkeyItemGadgetController
 ChargedHotkeyItemGadgetVehicleController = {}
+
 
 ---@param fields? ChargedHotkeyItemGadgetVehicleController
 ---@return ChargedHotkeyItemGadgetVehicleController

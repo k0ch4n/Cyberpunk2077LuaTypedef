@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class meleeMoveDirection: Enum
 ---@field Forward Enum 0
 ---@field Right Enum 1

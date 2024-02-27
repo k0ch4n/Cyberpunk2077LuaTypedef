@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataUICharacterCustomizationResourcePaths_Record: gamedataTweakDBRecord
 gamedataUICharacterCustomizationResourcePaths_Record = {}
+
 
 ---@param fields? gamedataUICharacterCustomizationResourcePaths_Record
 ---@return gamedataUICharacterCustomizationResourcePaths_Record

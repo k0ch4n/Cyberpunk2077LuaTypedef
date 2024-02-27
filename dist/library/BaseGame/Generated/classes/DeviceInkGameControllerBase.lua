@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DeviceInkGameControllerBase: gameuiWidgetGameController
 ---@field animationManager WidgetAnimationManager
 ---@field rootWidget inkCanvasWidget
@@ -16,6 +17,7 @@
 ---@field onBreadcrumbBarUpdateListener redCallbackObject
 ---@field bbCallbacksRegistered Bool
 DeviceInkGameControllerBase = {}
+
 
 ---@param fields? DeviceInkGameControllerBase
 ---@return DeviceInkGameControllerBase

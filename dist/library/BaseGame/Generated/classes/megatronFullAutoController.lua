@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class megatronFullAutoController: AmmoLogicController
 ---@field ammoCountText inkTextWidget
 ---@field ammoBar inkImageWidget
 megatronFullAutoController = {}
+
 
 ---@param fields? megatronFullAutoController
 ---@return megatronFullAutoController

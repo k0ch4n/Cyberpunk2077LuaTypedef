@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MovableDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field MovableDeviceSetup MovableDeviceSetup
 ---@field movableDeviceSkillChecks DemolitionContainer
 MovableDeviceControllerPS = {}
+
 
 ---@param fields? MovableDeviceControllerPS
 ---@return MovableDeviceControllerPS

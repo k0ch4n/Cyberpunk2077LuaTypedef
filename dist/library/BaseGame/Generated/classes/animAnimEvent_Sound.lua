@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimEvent_Sound: animAnimEvent
 ---@field switches audioAudSwitch[]
 ---@field params audioAudParameter[]
@@ -9,6 +10,7 @@
 ---@field dontPlayOn CName
 ---@field playerGenderAlt animAnimEventGenderAlt
 animAnimEvent_Sound = {}
+
 
 ---@param fields? animAnimEvent_Sound
 ---@return animAnimEvent_Sound

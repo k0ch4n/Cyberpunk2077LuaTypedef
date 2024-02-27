@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetZoomLevelEvent: redEvent
 ---@field value Int32
 SetZoomLevelEvent = {}
+
 
 ---@param fields? SetZoomLevelEvent
 ---@return SetZoomLevelEvent

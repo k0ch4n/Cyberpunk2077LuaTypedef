@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameAudioEmitterComponent: entIPlacedComponent
 ---@field EmitterName CName
 ---@field EmitterType audioEntityEmitterContextType
@@ -10,6 +11,7 @@
 ---@field Tags CName[]
 ---@field TagList redTagList
 gameAudioEmitterComponent = {}
+
 
 ---@param fields? gameAudioEmitterComponent
 ---@return gameAudioEmitterComponent

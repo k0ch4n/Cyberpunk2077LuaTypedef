@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameLoSIFinderSystem: gameIGameSystem
 gameLoSIFinderSystem = {}
+
 
 ---@param entityId entEntityID
 ---@return gameLoSMode

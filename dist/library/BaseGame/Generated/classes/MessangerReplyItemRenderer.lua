@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MessangerReplyItemRenderer: JournalEntryListItemController
 ---@field selectedState Bool
 ---@field isQuestImportant Bool
@@ -10,6 +11,7 @@
 ---@field stateQuestSelected CName
 ---@field stateDisabled CName
 MessangerReplyItemRenderer = {}
+
 
 ---@param fields? MessangerReplyItemRenderer
 ---@return MessangerReplyItemRenderer

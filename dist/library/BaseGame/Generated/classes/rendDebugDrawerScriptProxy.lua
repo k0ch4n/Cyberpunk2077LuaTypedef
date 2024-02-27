@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class rendDebugDrawerScriptProxy
 rendDebugDrawerScriptProxy = {}
+
 
 ---@param fields? rendDebugDrawerScriptProxy
 ---@return rendDebugDrawerScriptProxy

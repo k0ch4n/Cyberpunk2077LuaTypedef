@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class sampleTimeDilatable: gameTimeDilatable
 ---@field listener sampleTimeListener
 sampleTimeDilatable = {}
+
 
 ---@param fields? sampleTimeDilatable
 ---@return sampleTimeDilatable

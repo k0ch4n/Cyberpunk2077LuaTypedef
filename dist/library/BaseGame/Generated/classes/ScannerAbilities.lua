@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerAbilities: ScannerChunk
 ---@field abilities gamedataGameplayAbility_Record[]
 ScannerAbilities = {}
+
 
 ---@param fields? ScannerAbilities
 ---@return ScannerAbilities

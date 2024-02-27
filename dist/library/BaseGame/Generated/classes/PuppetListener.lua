@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PuppetListener: IScriptable
 ---@field prereqOwner gamePrereqState
 PuppetListener = {}
+
 
 ---@param fields? PuppetListener
 ---@return PuppetListener

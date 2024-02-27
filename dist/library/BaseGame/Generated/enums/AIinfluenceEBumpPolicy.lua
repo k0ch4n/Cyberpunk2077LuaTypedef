@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIinfluenceEBumpPolicy: Enum
 ---@field Static Enum 0
 ---@field Lean Enum 1

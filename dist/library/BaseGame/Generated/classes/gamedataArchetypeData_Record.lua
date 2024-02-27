@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataArchetypeData_Record: gamedataTweakDBRecord
 gamedataArchetypeData_Record = {}
+
 
 ---@param fields? gamedataArchetypeData_Record
 ---@return gamedataArchetypeData_Record

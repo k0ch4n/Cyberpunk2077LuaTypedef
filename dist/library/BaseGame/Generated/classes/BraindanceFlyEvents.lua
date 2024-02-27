@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BraindanceFlyEvents: LocomotionBraindanceEvents
 BraindanceFlyEvents = {}
+
 
 ---@param fields? BraindanceFlyEvents
 ---@return BraindanceFlyEvents

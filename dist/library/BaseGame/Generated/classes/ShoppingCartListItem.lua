@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ShoppingCartListItem: inkWidgetLogicController
 ---@field label inkTextWidgetReference
 ---@field quantity inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field removeBtn inkWidgetReference
 ---@field data gameInventoryItemData
 ShoppingCartListItem = {}
+
 
 ---@param fields? ShoppingCartListItem
 ---@return ShoppingCartListItem

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ClearFearOnHitEvent: redEvent
 ClearFearOnHitEvent = {}
+
 
 ---@param fields? ClearFearOnHitEvent
 ---@return ClearFearOnHitEvent

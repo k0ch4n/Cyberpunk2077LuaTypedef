@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAITargetStandingOnTopOfMovingVehicleCond_Record: gamedataAIActionSubCondition_Record
 gamedataAITargetStandingOnTopOfMovingVehicleCond_Record = {}
+
 
 ---@param fields? gamedataAITargetStandingOnTopOfMovingVehicleCond_Record
 ---@return gamedataAITargetStandingOnTopOfMovingVehicleCond_Record

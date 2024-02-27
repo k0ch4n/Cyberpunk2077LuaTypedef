@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CanNPCRun: AIbehaviorconditionScript
 ---@field maxRunners Int32
 CanNPCRun = {}
+
 
 ---@param fields? CanNPCRun
 ---@return CanNPCRun

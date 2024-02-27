@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DeviceTimetable: gameScriptableComponent
 ---@field timeTableSetup DeviceTimeTableManager
 DeviceTimetable = {}
+
 
 ---@param fields? DeviceTimetable
 ---@return DeviceTimetable

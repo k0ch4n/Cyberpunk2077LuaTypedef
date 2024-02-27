@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BunkerCursorGameController: CursorGameController
 BunkerCursorGameController = {}
+
 
 ---@param fields? BunkerCursorGameController
 ---@return BunkerCursorGameController

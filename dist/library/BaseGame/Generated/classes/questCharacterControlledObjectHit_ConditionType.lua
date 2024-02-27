@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCharacterControlledObjectHit_ConditionType: questICharacterConditionType
 ---@field attackerRef gameEntityReference
 ---@field targetRef gameEntityReference
@@ -9,6 +10,7 @@
 ---@field includeHitShapes CName[]
 ---@field excludeHitShapes CName[]
 questCharacterControlledObjectHit_ConditionType = {}
+
 
 ---@param fields? questCharacterControlledObjectHit_ConditionType
 ---@return questCharacterControlledObjectHit_ConditionType

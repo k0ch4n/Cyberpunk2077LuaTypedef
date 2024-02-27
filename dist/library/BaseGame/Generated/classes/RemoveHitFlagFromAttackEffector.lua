@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RemoveHitFlagFromAttackEffector: ModifyAttackEffector
 ---@field hitFlag hitFlag
 ---@field reason CName
 RemoveHitFlagFromAttackEffector = {}
+
 
 ---@param fields? RemoveHitFlagFromAttackEffector
 ---@return RemoveHitFlagFromAttackEffector

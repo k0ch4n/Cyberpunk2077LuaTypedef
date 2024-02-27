@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class KillTaggedTargetEvent: redEvent
 ---@field taggedObject gameObject
 KillTaggedTargetEvent = {}
+
 
 ---@param fields? KillTaggedTargetEvent
 ---@return KillTaggedTargetEvent

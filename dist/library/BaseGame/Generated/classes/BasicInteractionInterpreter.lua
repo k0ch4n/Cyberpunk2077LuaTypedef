@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BasicInteractionInterpreter: IScriptable
 BasicInteractionInterpreter = {}
+
 
 ---@param fields? BasicInteractionInterpreter
 ---@return BasicInteractionInterpreter

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workIScriptedCondition: IScriptable
 workIScriptedCondition = {}
+
 
 ---@param fields? workIScriptedCondition
 ---@return workIScriptedCondition

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsMaterialTagType: Enum
 ---@field AIVisibility Enum 0
 ---@field PlayerVisibility Enum 1

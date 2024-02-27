@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DifficultySelectionMenu: gameuiBaseCharacterCreationController
 ---@field difficultyTitle inkTextWidgetReference
 ---@field textureTop inkImageWidgetReference
@@ -18,6 +19,7 @@
 ---@field c_atlas2 redResourceReferenceScriptToken
 ---@field isInputLocked Bool
 DifficultySelectionMenu = {}
+
 
 ---@param fields? DifficultySelectionMenu
 ---@return DifficultySelectionMenu

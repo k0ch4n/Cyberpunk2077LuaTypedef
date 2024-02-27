@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataStatusEffectType: Enum
 ---@field AndroidTurnOff Enum 0
 ---@field AndroidTurnOn Enum 1

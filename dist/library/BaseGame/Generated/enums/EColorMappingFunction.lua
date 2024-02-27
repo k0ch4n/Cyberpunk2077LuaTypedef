@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EColorMappingFunction: Enum
 ---@field CMF_Linear Enum 0
 ---@field CMF_sRGB Enum 1

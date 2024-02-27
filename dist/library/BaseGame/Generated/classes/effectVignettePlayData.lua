@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class effectVignettePlayData: effectPlacedTrackItemPlayData
 effectVignettePlayData = {}
+
 
 ---@param fields? effectVignettePlayData
 ---@return effectVignettePlayData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataChatterHelperRadius_Record: gamedataTweakDBRecord
 gamedataChatterHelperRadius_Record = {}
+
 
 ---@param fields? gamedataChatterHelperRadius_Record
 ---@return gamedataChatterHelperRadius_Record

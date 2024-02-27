@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataConsumableBaseName: Enum
 ---@field Alcohol Enum 0
 ---@field BonesMcCoy70 Enum 1

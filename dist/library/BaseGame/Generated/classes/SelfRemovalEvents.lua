@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SelfRemovalEvents: gamestateMachineFunctor
 ---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
 SelfRemovalEvents = {}
+
 
 ---@param fields? SelfRemovalEvents
 ---@return SelfRemovalEvents

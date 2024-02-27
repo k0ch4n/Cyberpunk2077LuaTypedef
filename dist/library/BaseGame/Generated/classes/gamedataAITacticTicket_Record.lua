@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAITacticTicket_Record: gamedataAITicket_Record
 gamedataAITacticTicket_Record = {}
+
 
 ---@param fields? gamedataAITacticTicket_Record
 ---@return gamedataAITacticTicket_Record

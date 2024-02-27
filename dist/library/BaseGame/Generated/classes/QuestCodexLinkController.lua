@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class QuestCodexLinkController: BaseCodexLinkController
 ---@field linkLabelContainer inkWidgetReference
 ---@field journalEntry gameJournalEntry
 QuestCodexLinkController = {}
+
 
 ---@param fields? QuestCodexLinkController
 ---@return QuestCodexLinkController

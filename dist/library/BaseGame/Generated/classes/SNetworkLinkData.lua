@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SNetworkLinkData
 ---@field beam gameFxInstance
 ---@field fxResource gameFxResource
@@ -21,6 +22,7 @@
 ---@field delayID gameDelayID
 ---@field weakLink Bool
 SNetworkLinkData = {}
+
 
 ---@param fields? SNetworkLinkData
 ---@return SNetworkLinkData

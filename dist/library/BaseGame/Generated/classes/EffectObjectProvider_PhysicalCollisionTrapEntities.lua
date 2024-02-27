@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EffectObjectProvider_PhysicalCollisionTrapEntities: gameEffectObjectProvider_Scripted
 EffectObjectProvider_PhysicalCollisionTrapEntities = {}
+
 
 ---@param fields? EffectObjectProvider_PhysicalCollisionTrapEntities
 ---@return EffectObjectProvider_PhysicalCollisionTrapEntities

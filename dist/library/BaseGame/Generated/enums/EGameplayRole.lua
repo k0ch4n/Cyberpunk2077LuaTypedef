@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EGameplayRole: Enum
 ---@field UnAssigned Enum 0
 ---@field None Enum 1

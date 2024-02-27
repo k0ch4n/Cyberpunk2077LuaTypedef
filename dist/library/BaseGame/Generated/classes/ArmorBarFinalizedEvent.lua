@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ArmorBarFinalizedEvent: redEvent
 ArmorBarFinalizedEvent = {}
+
 
 ---@param fields? ArmorBarFinalizedEvent
 ---@return ArmorBarFinalizedEvent

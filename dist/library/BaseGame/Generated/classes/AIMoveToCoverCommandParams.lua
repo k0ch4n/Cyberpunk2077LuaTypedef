@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AIMoveToCoverCommandParams: questScriptedAICommandParams
 ---@field coverNodeRef NodeRef
 ---@field alwaysUseStealth Bool
 ---@field specialAction ECoverSpecialAction
 AIMoveToCoverCommandParams = {}
+
 
 ---@param fields? AIMoveToCoverCommandParams
 ---@return AIMoveToCoverCommandParams

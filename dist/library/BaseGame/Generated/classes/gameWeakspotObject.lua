@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameWeakspotObject: gameObject
 gameWeakspotObject = {}
+
 
 ---@param fields? gameWeakspotObject
 ---@return gameWeakspotObject

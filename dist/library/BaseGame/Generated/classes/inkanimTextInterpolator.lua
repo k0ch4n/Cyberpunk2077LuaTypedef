@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class inkanimTextInterpolator: inkanimInterpolator
 ---@field startValue Float
 ---@field endValue Float
 inkanimTextInterpolator = {}
+
 
 ---@return Float
 function inkanimTextInterpolator:GetEndProgress() end

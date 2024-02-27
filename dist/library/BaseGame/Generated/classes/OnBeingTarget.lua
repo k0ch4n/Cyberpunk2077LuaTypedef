@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class OnBeingTarget: redEvent
 ---@field objectThatTargets gameObject
 ---@field noLongerTarget Bool
 OnBeingTarget = {}
+
 
 ---@param fields? OnBeingTarget
 ---@return OnBeingTarget

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RefreshPerkAreas: gamePlayerScriptableSystemRequest
 RefreshPerkAreas = {}
+
 
 ---@param fields? RefreshPerkAreas
 ---@return RefreshPerkAreas

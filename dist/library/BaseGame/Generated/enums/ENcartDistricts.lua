@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ENcartDistricts: Enum
 ---@field WATSON Enum 0
 ---@field CITY_CENTER Enum 1

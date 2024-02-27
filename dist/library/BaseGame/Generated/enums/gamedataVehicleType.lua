@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataVehicleType: Enum
 ---@field Bike Enum 0
 ---@field Car Enum 1

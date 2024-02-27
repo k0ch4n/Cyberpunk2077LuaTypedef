@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class IncomingCallLogicController: inkWidgetLogicController
 ---@field contactNameWidget inkTextWidgetReference
 ---@field buttonHint inkWidgetReference
 ---@field avatar inkImageWidgetReference
 ---@field animProxy inkanimProxy
 IncomingCallLogicController = {}
+
 
 ---@param fields? IncomingCallLogicController
 ---@return IncomingCallLogicController

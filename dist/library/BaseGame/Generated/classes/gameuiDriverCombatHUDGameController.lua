@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiDriverCombatHUDGameController: gameuiHUDGameController
 ---@field inWeaponizedVehicle Bool
 ---@field inDriverCombat Bool
@@ -26,6 +27,7 @@
 ---@field vehicleManufacturer inkImageWidgetReference
 ---@field debugTuningStatusText inkTextWidgetReference
 gameuiDriverCombatHUDGameController = {}
+
 
 ---@param fields? gameuiDriverCombatHUDGameController
 ---@return gameuiDriverCombatHUDGameController

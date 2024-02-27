@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineplayeractionsActionCycleTriggerMode: gamestateMachineplayeractionsWeaponActionBase
 gamestateMachineplayeractionsActionCycleTriggerMode = {}
+
 
 ---@param fields? gamestateMachineplayeractionsActionCycleTriggerMode
 ---@return gamestateMachineplayeractionsActionCycleTriggerMode

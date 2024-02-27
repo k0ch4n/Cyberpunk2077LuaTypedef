@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NpcNameplateVisualData
 ---@field npcNextToCrosshair gameuiNPCNextToTheCrosshair
 NpcNameplateVisualData = {}
+
 
 ---@param fields? NpcNameplateVisualData
 ---@return NpcNameplateVisualData

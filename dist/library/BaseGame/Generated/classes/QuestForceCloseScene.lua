@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceCloseScene: ActionBool
 QuestForceCloseScene = {}
+
 
 ---@param fields? QuestForceCloseScene
 ---@return QuestForceCloseScene

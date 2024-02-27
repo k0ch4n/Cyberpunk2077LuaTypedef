@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class meleeQueuedAttack: Enum
 ---@field Block Enum 0
 ---@field Combo Enum 1

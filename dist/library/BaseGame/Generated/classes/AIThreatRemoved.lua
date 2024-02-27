@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIThreatRemoved: AIAIEvent
 ---@field owner entEntity
 ---@field threat entEntity
@@ -8,6 +9,7 @@
 ---@field isDead Bool
 ---@field distanceBasedInstantDrop Bool
 AIThreatRemoved = {}
+
 
 ---@param fields? AIThreatRemoved
 ---@return AIThreatRemoved

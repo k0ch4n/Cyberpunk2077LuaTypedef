@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SecuritySystemInputTaskData: gameScriptTaskData
 ---@field cachedEvt SecuritySystemInput
 SecuritySystemInputTaskData = {}
+
 
 ---@param fields? SecuritySystemInputTaskData
 ---@return SecuritySystemInputTaskData

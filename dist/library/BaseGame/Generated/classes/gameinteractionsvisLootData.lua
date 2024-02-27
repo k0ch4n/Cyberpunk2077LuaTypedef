@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsvisLootData
 ---@field isActive Bool
 ---@field isListOpen Bool
@@ -11,6 +12,7 @@
 ---@field ownerId entEntityID
 ---@field isLocked Bool
 gameinteractionsvisLootData = {}
+
 
 ---@param fields? gameinteractionsvisLootData
 ---@return gameinteractionsvisLootData

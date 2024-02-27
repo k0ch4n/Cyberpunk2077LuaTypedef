@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NcartTrainLineListInkController: NcartTrainInkControllerBase
 ---@field LinesList ncartLineListDef[]
 ---@field ActiveMetroLineNumberFactName CName
@@ -31,6 +32,7 @@
 ---@field ncartLineStationList inkHorizontalPanelWidgetReference
 ---@field cachedLine Uint32
 NcartTrainLineListInkController = {}
+
 
 ---@param fields? NcartTrainLineListInkController
 ---@return NcartTrainLineListInkController

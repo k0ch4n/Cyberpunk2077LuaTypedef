@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DropPointTerminalInkGameController: DeviceInkGameControllerBase
 ---@field sellAction inkWidgetReference
 ---@field statusText inkTextWidgetReference
 ---@field onGlitchingStateChangedListener redCallbackObject
 DropPointTerminalInkGameController = {}
+
 
 ---@param fields? DropPointTerminalInkGameController
 ---@return DropPointTerminalInkGameController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gamestateMachineStateSnapshotsContainer
 ---@field snapshot gamestateMachineStateSnapshot[]
 gamestateMachineStateSnapshotsContainer = {}
+
 
 ---@param fields? gamestateMachineStateSnapshotsContainer
 ---@return gamestateMachineStateSnapshotsContainer

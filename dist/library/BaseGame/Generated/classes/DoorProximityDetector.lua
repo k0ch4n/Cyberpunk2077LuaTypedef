@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DoorProximityDetector: ProximityDetector
 ---@field triggeredAlarmID gameDelayID
 ---@field blinkInterval Float
 ---@field authorizationLevel ESecurityAccessLevel
 DoorProximityDetector = {}
+
 
 ---@param fields? DoorProximityDetector
 ---@return DoorProximityDetector

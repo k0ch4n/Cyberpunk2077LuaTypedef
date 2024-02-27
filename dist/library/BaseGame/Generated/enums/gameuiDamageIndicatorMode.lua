@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiDamageIndicatorMode: Enum
 ---@field Off Enum 0
 ---@field DamageOnly Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamesmartGunUITargetParameters
 ---@field pos Vector2
 ---@field state gamesmartGunTargetState
@@ -11,6 +12,7 @@
 ---@field entityID entEntityID
 ---@field attachedBoneName CName
 gamesmartGunUITargetParameters = {}
+
 
 ---@param fields? gamesmartGunUITargetParameters
 ---@return gamesmartGunUITargetParameters

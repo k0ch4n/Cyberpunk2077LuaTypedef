@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SubMenuPanelLogicController: PlayerStatsUIHolder
 ---@field levelValue inkTextWidgetReference
 ---@field streetCredLabel inkTextWidgetReference
@@ -29,6 +30,7 @@
 ---@field curSubMenuData MenuData
 ---@field hubMenuInstanceID Uint32
 SubMenuPanelLogicController = {}
+
 
 ---@param fields? SubMenuPanelLogicController
 ---@return SubMenuPanelLogicController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UpdateComponent: gameScriptableComponent
 UpdateComponent = {}
+
 
 ---@param fields? UpdateComponent
 ---@return UpdateComponent

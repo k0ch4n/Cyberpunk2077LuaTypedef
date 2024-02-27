@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animMixerSlotIdleParams: ISerializable
 animMixerSlotIdleParams = {}
+
 
 ---@param fields? animMixerSlotIdleParams
 ---@return animMixerSlotIdleParams

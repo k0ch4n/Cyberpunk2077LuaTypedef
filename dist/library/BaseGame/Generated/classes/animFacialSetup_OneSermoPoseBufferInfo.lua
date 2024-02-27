@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animFacialSetup_OneSermoPoseBufferInfo
 ---@field numMainPoses Uint16
 ---@field numCorrectivePoses Uint16
@@ -8,6 +9,7 @@
 ---@field numCorrectiveTransforms Uint32
 ---@field numCorrectiveScales Uint32
 animFacialSetup_OneSermoPoseBufferInfo = {}
+
 
 ---@param fields? animFacialSetup_OneSermoPoseBufferInfo
 ---@return animFacialSetup_OneSermoPoseBufferInfo

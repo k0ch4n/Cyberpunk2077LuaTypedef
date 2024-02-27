@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MeleeChargedHoldEvents: MeleeRumblingEvents
 ---@field clearWeaponCharge Bool
 ---@field effectiveRangeMod gameStatModifierData_Deprecated
 MeleeChargedHoldEvents = {}
+
 
 ---@param fields? MeleeChargedHoldEvents
 ---@return MeleeChargedHoldEvents

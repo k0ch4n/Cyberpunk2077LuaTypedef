@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerNotGrapplingPrereq: gameIScriptablePrereq
 PlayerNotGrapplingPrereq = {}
+
 
 ---@param fields? PlayerNotGrapplingPrereq
 ---@return PlayerNotGrapplingPrereq

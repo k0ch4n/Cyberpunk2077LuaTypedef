@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIGenericLookatTask: AILookatTask
 AIGenericLookatTask = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

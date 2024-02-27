@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PatrolAlertedCommandHandler: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 PatrolAlertedCommandHandler = {}
+
 
 ---@param fields? PatrolAlertedCommandHandler
 ---@return PatrolAlertedCommandHandler

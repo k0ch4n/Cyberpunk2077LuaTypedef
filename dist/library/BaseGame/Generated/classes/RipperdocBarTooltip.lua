@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocBarTooltip: AGenericTooltipController
 ---@field statsHolder inkWidgetReference
 ---@field perksHolder inkWidgetReference
@@ -45,6 +46,7 @@
 ---@field armorPerk1IconsName CName
 ---@field armorPerk1LocKey CName
 RipperdocBarTooltip = {}
+
 
 ---@param fields? RipperdocBarTooltip
 ---@return RipperdocBarTooltip

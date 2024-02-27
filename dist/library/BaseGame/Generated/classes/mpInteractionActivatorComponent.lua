@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class mpInteractionActivatorComponent: entIPlacedComponent
 mpInteractionActivatorComponent = {}
+
 
 ---@param fields? mpInteractionActivatorComponent
 ---@return mpInteractionActivatorComponent

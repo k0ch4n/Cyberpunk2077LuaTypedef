@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questRecordSelector: ISerializable
 ---@field isCharacter Bool
 ---@field characterRecordID TweakDBID
@@ -8,6 +9,7 @@
 ---@field isItem Bool
 ---@field itemRecordID TweakDBID
 questRecordSelector = {}
+
 
 ---@param fields? questRecordSelector
 ---@return questRecordSelector

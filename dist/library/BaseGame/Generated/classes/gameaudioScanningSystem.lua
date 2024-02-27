@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameaudioScanningSystem: gameaudioIScanningSystem
 gameaudioScanningSystem = {}
+
 
 ---@param fields? gameaudioScanningSystem
 ---@return gameaudioScanningSystem

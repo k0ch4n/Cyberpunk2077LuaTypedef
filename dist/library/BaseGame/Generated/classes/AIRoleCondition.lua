@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIRoleCondition: AIbehaviorconditionScript
 ---@field role EAIRole
 AIRoleCondition = {}
+
 
 ---@param fields? AIRoleCondition
 ---@return AIRoleCondition

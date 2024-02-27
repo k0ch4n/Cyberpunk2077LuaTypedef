@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animDangleConstraint_SimulationSpring: animDangleConstraint_SimulationSingleBone
 ---@field constraintSphereRadius Float
 ---@field constraintScale1 Float
@@ -21,6 +22,7 @@
 ---@field sinOfHalfXAngle Float
 ---@field sinOfHalfYAngle Float
 animDangleConstraint_SimulationSpring = {}
+
 
 ---@param fields? animDangleConstraint_SimulationSpring
 ---@return animDangleConstraint_SimulationSpring

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BloodswellEffector: gameEffector
 ---@field deathListener BloodswellEffectorHealthListener
 ---@field coldBloodListener BloodswellEffectorColdBloodListener
@@ -7,6 +8,7 @@
 ---@field owner gameObject
 ---@field isImmortal Bool
 BloodswellEffector = {}
+
 
 ---@param fields? BloodswellEffector
 ---@return BloodswellEffector

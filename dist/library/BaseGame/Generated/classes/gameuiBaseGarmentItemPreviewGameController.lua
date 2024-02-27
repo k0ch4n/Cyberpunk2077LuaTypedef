@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameuiBaseGarmentItemPreviewGameController: gameuiInventoryPuppetPreviewGameController
 ---@field placementSlot TweakDBID
 ---@field givenItem gameItemID
 ---@field initialItem gameItemID
 gameuiBaseGarmentItemPreviewGameController = {}
+
 
 ---@param fields? gameuiBaseGarmentItemPreviewGameController
 ---@return gameuiBaseGarmentItemPreviewGameController

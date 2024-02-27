@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UI_HotkeysDef: gamebbScriptDefinition
 ---@field ModifiedHotkey gamebbScriptID_Variant
 UI_HotkeysDef = {}
+
 
 ---@param fields? UI_HotkeysDef
 ---@return UI_HotkeysDef

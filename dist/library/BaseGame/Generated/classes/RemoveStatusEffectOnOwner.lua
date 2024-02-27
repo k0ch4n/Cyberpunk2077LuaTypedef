@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RemoveStatusEffectOnOwner: StatusEffectTasks
 ---@field statusEffectID TweakDBID
 RemoveStatusEffectOnOwner = {}
+
 
 ---@param fields? RemoveStatusEffectOnOwner
 ---@return RemoveStatusEffectOnOwner

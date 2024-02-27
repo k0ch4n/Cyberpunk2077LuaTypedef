@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CMaterialTemplate: IMaterialDefinition
 ---@field name CName
 ---@field parameters array[]
@@ -11,6 +12,7 @@
 ---@field audioTag CName
 ---@field resourceVersion Uint8
 CMaterialTemplate = {}
+
 
 ---@param fields? CMaterialTemplate
 ---@return CMaterialTemplate

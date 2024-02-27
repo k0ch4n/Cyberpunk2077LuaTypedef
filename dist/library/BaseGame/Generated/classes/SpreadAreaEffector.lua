@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SpreadAreaEffector: gameEffector
 ---@field maxTargetNum Int32
 ---@field range Float
 ---@field objectActionsRecord gamedataObjectAction_Record[]
 ---@field player PlayerPuppet
 SpreadAreaEffector = {}
+
 
 ---@param fields? SpreadAreaEffector
 ---@return SpreadAreaEffector

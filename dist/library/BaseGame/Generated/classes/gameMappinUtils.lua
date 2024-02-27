@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameMappinUtils
 gameMappinUtils = {}
+
 
 ---@param fields? gameMappinUtils
 ---@return gameMappinUtils

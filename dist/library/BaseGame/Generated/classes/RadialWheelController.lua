@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RadialWheelController: gameuiHUDGameController
 ---@field radialWeapons WeaponRadialSlot[]
 ---@field inputHintController RadialSlot
@@ -34,6 +35,7 @@
 ---@field EquipmentBlackboardDef UI_EquipmentDef
 ---@field equipmentUICallbackID redCallbackObject
 RadialWheelController = {}
+
 
 ---@param fields? RadialWheelController
 ---@return RadialWheelController

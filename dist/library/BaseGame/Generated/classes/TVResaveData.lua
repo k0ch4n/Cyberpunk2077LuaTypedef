@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TVResaveData
 ---@field mediaResaveData MediaResaveData
 ---@field channels STvChannel[]
@@ -7,6 +8,7 @@
 ---@field muteInterface Bool
 ---@field useWhiteNoiseFX Bool
 TVResaveData = {}
+
 
 ---@param fields? TVResaveData
 ---@return TVResaveData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldNavigationScriptInterface: IScriptable
 worldNavigationScriptInterface = {}
+
 
 ---@param fields? worldNavigationScriptInterface
 ---@return worldNavigationScriptInterface

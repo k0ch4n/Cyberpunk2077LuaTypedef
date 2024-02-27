@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RadioVolumeSettingsController: inkSettingsSelectorController
 ---@field value inkTextWidgetReference
 RadioVolumeSettingsController = {}
+
 
 ---@param fields? RadioVolumeSettingsController
 ---@return RadioVolumeSettingsController

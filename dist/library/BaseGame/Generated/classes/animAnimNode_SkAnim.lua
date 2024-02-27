@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_SkAnim: animAnimNode_Base
 ---@field animation CName
 ---@field applyMotion Bool
@@ -19,6 +20,7 @@
 ---@field motionProvider animIMotionTableProvider
 ---@field applyInertializationOnAnimSetSwap Bool
 animAnimNode_SkAnim = {}
+
 
 ---@param fields? animAnimNode_SkAnim
 ---@return animAnimNode_SkAnim

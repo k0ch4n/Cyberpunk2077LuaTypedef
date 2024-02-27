@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Codeware: IScriptable
 Codeware = {}
+
 
 ---@param version String
 ---@return Bool

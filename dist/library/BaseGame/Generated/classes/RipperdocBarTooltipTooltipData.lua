@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocBarTooltipTooltipData: ATooltipData
 ---@field barType BarType
 ---@field totalValue Int32
@@ -12,6 +13,7 @@
 ---@field statValue Int32
 ---@field health Float
 RipperdocBarTooltipTooltipData = {}
+
 
 ---@param fields? RipperdocBarTooltipTooltipData
 ---@return RipperdocBarTooltipTooltipData

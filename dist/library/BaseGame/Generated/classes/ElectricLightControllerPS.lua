@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ElectricLightControllerPS: ScriptableDeviceComponentPS
 ---@field isConnectedToCLS Bool
 ---@field wasCLSInitTriggered Bool
 ElectricLightControllerPS = {}
+
 
 ---@param fields? ElectricLightControllerPS
 ---@return ElectricLightControllerPS

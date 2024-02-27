@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryDataManager: IScriptable
 ---@field gameInstance ScriptGameInstance
 ---@field player PlayerPuppet
@@ -8,6 +9,7 @@
 ---@field statsSystem gameStatsSystem
 ---@field locMgr UILocalizationMap
 InventoryDataManager = {}
+
 
 ---@param fields? InventoryDataManager
 ---@return InventoryDataManager

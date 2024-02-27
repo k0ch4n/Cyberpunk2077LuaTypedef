@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldNodesGroup: ISerializable
 ---@field name CName
 ---@field id Uint64
@@ -16,6 +17,7 @@
 ---@field proxyDistanceFactor Float
 ---@field metadataArray worldPrefabMetadata[]
 worldNodesGroup = {}
+
 
 ---@param fields? worldNodesGroup
 ---@return worldNodesGroup

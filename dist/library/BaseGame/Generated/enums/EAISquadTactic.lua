@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAISquadTactic: Enum
 ---@field Invalid Enum 0
 ---@field Flanking Enum 1

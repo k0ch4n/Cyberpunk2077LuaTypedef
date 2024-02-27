@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class characterCreationStatsAttributeBtn: inkWidgetLogicController
 ---@field value inkTextWidgetReference
 ---@field label inkTextWidgetReference
@@ -18,6 +19,7 @@
 ---@field isPlusOrMinusBtnHoveredOver Bool
 ---@field inputDisabled Bool
 characterCreationStatsAttributeBtn = {}
+
 
 ---@param fields? characterCreationStatsAttributeBtn
 ---@return characterCreationStatsAttributeBtn

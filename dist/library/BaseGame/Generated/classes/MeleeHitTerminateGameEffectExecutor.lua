@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MeleeHitTerminateGameEffectExecutor: gameEffectExecutor_Scripted
 ---@field ignoreWaterImpacts Bool
 MeleeHitTerminateGameEffectExecutor = {}
+
 
 ---@param fields? MeleeHitTerminateGameEffectExecutor
 ---@return MeleeHitTerminateGameEffectExecutor

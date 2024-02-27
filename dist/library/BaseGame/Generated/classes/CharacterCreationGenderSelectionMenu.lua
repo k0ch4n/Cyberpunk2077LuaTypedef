@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CharacterCreationGenderSelectionMenu: gameuiBaseCharacterCreationController
 ---@field streetRat_male inkWidgetReference
 ---@field streetRat_female inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field maleAnimProxy inkanimProxy
 ---@field femaleAnimProxy inkanimProxy
 CharacterCreationGenderSelectionMenu = {}
+
 
 ---@param fields? CharacterCreationGenderSelectionMenu
 ---@return CharacterCreationGenderSelectionMenu

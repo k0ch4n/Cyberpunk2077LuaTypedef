@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RevealNetworkGridNetworkRequest: redEvent
 RevealNetworkGridNetworkRequest = {}
+
 
 ---@param fields? RevealNetworkGridNetworkRequest
 ---@return RevealNetworkGridNetworkRequest

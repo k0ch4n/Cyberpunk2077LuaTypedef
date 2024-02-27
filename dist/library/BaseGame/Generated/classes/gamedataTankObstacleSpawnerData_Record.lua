@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTankObstacleSpawnerData_Record: gamedataTweakDBRecord
 gamedataTankObstacleSpawnerData_Record = {}
+
 
 ---@param fields? gamedataTankObstacleSpawnerData_Record
 ---@return gamedataTankObstacleSpawnerData_Record

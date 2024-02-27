@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameSourceShootComponent: entIComponent
 gameSourceShootComponent = {}
+
 
 ---@param fields? gameSourceShootComponent
 ---@return gameSourceShootComponent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiTimeskipGameController: gameuiWidgetGameController
 ---@field currentTimeLabel inkTextWidgetReference
 ---@field tragetTimeLabel inkTextWidgetReference
@@ -52,6 +53,7 @@
 ---@field scenarioEvt TimeSkipFinishEvent
 ---@field hoveredOver Bool
 gameuiTimeskipGameController = {}
+
 
 ---@param fields? gameuiTimeskipGameController
 ---@return gameuiTimeskipGameController

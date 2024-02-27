@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckCurrentWorkspotTag: AIbehaviorconditionScript
 ---@field tag AIArgumentMapping
 CheckCurrentWorkspotTag = {}
+
 
 ---@param fields? CheckCurrentWorkspotTag
 ---@return CheckCurrentWorkspotTag

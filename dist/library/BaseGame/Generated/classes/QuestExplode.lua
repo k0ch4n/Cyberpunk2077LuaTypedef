@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestExplode: ActionBool
 QuestExplode = {}
+
 
 ---@param fields? QuestExplode
 ---@return QuestExplode

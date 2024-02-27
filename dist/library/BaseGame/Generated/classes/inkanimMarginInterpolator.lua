@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class inkanimMarginInterpolator: inkanimInterpolator
 ---@field startValue inkMargin
 ---@field endValue inkMargin
 inkanimMarginInterpolator = {}
+
 
 ---@param fields? inkanimMarginInterpolator
 ---@return inkanimMarginInterpolator

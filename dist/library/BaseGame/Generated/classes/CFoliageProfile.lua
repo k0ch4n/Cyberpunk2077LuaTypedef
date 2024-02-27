@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CFoliageProfile: CResource
 ---@field cutoffAlphaMinMip Float
 ---@field cutoffAlphaMaxMip Float
@@ -14,6 +15,7 @@
 ---@field colorGradientDarkenWeight Float
 ---@field preserveOriginalColor Float
 CFoliageProfile = {}
+
 
 ---@param fields? CFoliageProfile
 ---@return CFoliageProfile

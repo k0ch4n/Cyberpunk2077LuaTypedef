@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataObjectActionType: Enum
 ---@field DeviceQuickHack Enum 0
 ---@field Direct Enum 1

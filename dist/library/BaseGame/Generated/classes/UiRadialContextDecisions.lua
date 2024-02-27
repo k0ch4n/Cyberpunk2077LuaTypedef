@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UiRadialContextDecisions: InputContextTransitionDecisions
 UiRadialContextDecisions = {}
+
 
 ---@param fields? UiRadialContextDecisions
 ---@return UiRadialContextDecisions

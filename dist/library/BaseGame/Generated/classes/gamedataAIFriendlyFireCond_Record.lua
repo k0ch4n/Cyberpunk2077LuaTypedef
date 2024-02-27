@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIFriendlyFireCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIFriendlyFireCond_Record = {}
+
 
 ---@param fields? gamedataAIFriendlyFireCond_Record
 ---@return gamedataAIFriendlyFireCond_Record

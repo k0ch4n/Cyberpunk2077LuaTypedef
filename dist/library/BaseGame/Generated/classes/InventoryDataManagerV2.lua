@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryDataManagerV2: IScriptable
 ---@field owner gameuiHUDGameController
 ---@field Player PlayerPuppet
@@ -40,6 +41,7 @@
 ---@field HashMapCache inkScriptWeakHashMap
 ---@field uiInventorySystem UIInventoryScriptableSystem
 InventoryDataManagerV2 = {}
+
 
 ---@param fields? InventoryDataManagerV2
 ---@return InventoryDataManagerV2

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkanimVideoInterpolator: inkanimInterpolator
 ---@field startValue Float
 ---@field endValue Float
@@ -8,6 +9,7 @@
 ---@field audioEvent CName
 ---@field retriggerAudioOnLoop Bool
 inkanimVideoInterpolator = {}
+
 
 ---@param fields? inkanimVideoInterpolator
 ---@return inkanimVideoInterpolator

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DestructibleMasterLightController: DestructibleMasterDeviceController
 DestructibleMasterLightController = {}
+
 
 ---@param fields? DestructibleMasterLightController
 ---@return DestructibleMasterLightController

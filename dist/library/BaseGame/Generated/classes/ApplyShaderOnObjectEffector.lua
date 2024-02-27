@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ApplyShaderOnObjectEffector: gameEffector
 ---@field applicationTargetName CName
 ---@field applicationTarget gameObject
@@ -11,6 +12,7 @@
 ---@field owner gameObject
 ---@field ownerEffect gameEffectInstance
 ApplyShaderOnObjectEffector = {}
+
 
 ---@param fields? ApplyShaderOnObjectEffector
 ---@return ApplyShaderOnObjectEffector

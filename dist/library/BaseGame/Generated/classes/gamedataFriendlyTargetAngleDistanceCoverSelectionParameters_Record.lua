@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataFriendlyTargetAngleDistanceCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataFriendlyTargetAngleDistanceCoverSelectionParameters_Record = {}
+
 
 ---@param fields? gamedataFriendlyTargetAngleDistanceCoverSelectionParameters_Record
 ---@return gamedataFriendlyTargetAngleDistanceCoverSelectionParameters_Record

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UnequipCycleEvents: EquipmentBaseEvents
 ---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
 UnequipCycleEvents = {}
+
 
 ---@param fields? UnequipCycleEvents
 ---@return UnequipCycleEvents

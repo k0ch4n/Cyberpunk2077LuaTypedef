@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SlotAnimationInProgress: AIbehaviorconditionScript
 SlotAnimationInProgress = {}
+
 
 ---@param fields? SlotAnimationInProgress
 ---@return SlotAnimationInProgress

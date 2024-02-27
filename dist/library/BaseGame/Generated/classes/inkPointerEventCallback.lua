@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkPointerEventCallback: inkCallbackBase
 inkPointerEventCallback = {}
+
 
 ---@param fields? inkPointerEventCallback
 ---@return inkPointerEventCallback

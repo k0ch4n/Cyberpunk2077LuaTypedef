@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questContentLock_ConditionType: questIContentConditionType
 ---@field isContentBlocked Bool
 questContentLock_ConditionType = {}
+
 
 ---@param fields? questContentLock_ConditionType
 ---@return questContentLock_ConditionType

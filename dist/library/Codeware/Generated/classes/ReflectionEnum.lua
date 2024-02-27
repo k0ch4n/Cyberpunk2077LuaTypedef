@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReflectionEnum: ReflectionType
 ReflectionEnum = {}
+
 
 ---@param fields? ReflectionEnum
 ---@return ReflectionEnum

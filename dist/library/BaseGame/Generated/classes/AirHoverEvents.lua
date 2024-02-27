@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AirHoverEvents: LocomotionAirEvents
 AirHoverEvents = {}
+
 
 ---@param fields? AirHoverEvents
 ---@return AirHoverEvents

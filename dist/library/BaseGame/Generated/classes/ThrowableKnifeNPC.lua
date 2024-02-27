@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ThrowableKnifeNPC: BaseProjectile
 ---@field visualComponent entIComponent
 ---@field resourceLibraryComponent ResourceLibraryComponent
@@ -18,6 +19,7 @@
 ---@field dbgCurrentLifetime Float
 ---@field projectileCollisionEvaluator ThrowingMeleeCollisionEvaluator
 ThrowableKnifeNPC = {}
+
 
 ---@param fields? ThrowableKnifeNPC
 ---@return ThrowableKnifeNPC

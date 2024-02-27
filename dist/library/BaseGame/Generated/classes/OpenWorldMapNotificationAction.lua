@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OpenWorldMapNotificationAction: GenericNotificationBaseAction
 ---@field eventDispatcher worlduiIWidgetGameController
 OpenWorldMapNotificationAction = {}
+
 
 ---@param fields? OpenWorldMapNotificationAction
 ---@return OpenWorldMapNotificationAction

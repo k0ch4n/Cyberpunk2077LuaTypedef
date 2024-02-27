@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DriverCombatDecisions: VehicleTransition
 DriverCombatDecisions = {}
+
 
 ---@param fields? DriverCombatDecisions
 ---@return DriverCombatDecisions

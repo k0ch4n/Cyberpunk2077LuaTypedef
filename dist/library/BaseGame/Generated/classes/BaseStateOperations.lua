@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class BaseStateOperations: DeviceOperations
 ---@field stateActionsOverrides SGenericDeviceActionsData
 ---@field baseStateOperations SBaseStateOperationData[]
 ---@field wasStateCached Bool
 ---@field cachedState EDeviceStatus
 BaseStateOperations = {}
+
 
 ---@param fields? BaseStateOperations
 ---@return BaseStateOperations

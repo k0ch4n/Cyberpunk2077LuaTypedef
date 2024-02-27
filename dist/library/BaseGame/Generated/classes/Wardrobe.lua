@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Wardrobe: InteractiveDevice
 Wardrobe = {}
+
 
 ---@param fields? Wardrobe
 ---@return Wardrobe

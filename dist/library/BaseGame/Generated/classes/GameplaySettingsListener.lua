@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GameplaySettingsListener: userSettingsVarListener
 ---@field player PlayerPuppet
 ---@field userSettings userSettingsUserSettings
@@ -24,6 +25,7 @@
 ---@field movementDodgeOptionName CName
 ---@field vehicleCombatHoldToShootOptionName CName
 GameplaySettingsListener = {}
+
 
 ---@param fields? GameplaySettingsListener
 ---@return GameplaySettingsListener

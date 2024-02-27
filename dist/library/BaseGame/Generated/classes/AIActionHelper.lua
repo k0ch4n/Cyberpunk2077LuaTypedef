@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIActionHelper: IScriptable
 AIActionHelper = {}
+
 
 ---@param fields? AIActionHelper
 ---@return AIActionHelper

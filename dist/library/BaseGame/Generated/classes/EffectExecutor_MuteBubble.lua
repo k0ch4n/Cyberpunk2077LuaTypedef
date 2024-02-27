@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EffectExecutor_MuteBubble: gameEffectExecutor_Scripted
 EffectExecutor_MuteBubble = {}
+
 
 ---@param fields? EffectExecutor_MuteBubble
 ---@return EffectExecutor_MuteBubble

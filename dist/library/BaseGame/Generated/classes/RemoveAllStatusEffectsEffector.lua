@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RemoveAllStatusEffectsEffector: gameEffector
 RemoveAllStatusEffectsEffector = {}
+
 
 ---@param fields? RemoveAllStatusEffectsEffector
 ---@return RemoveAllStatusEffectsEffector

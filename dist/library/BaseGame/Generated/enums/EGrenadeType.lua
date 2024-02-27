@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EGrenadeType: Enum
 ---@field Frag Enum 0
 ---@field Flash Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkEndGameLoadingState: inkIStateMachineState
 inkEndGameLoadingState = {}
+
 
 ---@param fields? inkEndGameLoadingState
 ---@return inkEndGameLoadingState

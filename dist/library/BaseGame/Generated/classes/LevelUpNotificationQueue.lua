@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LevelUpNotificationQueue: gameuiGenericNotificationGameController
 ---@field duration Float
 ---@field levelUpBlackboard gameIBlackboard
@@ -12,6 +13,7 @@
 ---@field warningBlackboardDef UI_NotificationsDef
 ---@field warningMessageCallbackId redCallbackObject
 LevelUpNotificationQueue = {}
+
 
 ---@param fields? LevelUpNotificationQueue
 ---@return LevelUpNotificationQueue

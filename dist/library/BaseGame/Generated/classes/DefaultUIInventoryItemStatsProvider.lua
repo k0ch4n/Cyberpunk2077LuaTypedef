@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DefaultUIInventoryItemStatsProvider: IUIInventoryItemStatsProvider
 ---@field statType gamedataStatType
 ---@field manager UIInventoryItemsManager
 DefaultUIInventoryItemStatsProvider = {}
+
 
 ---@param fields? DefaultUIInventoryItemStatsProvider
 ---@return DefaultUIInventoryItemStatsProvider

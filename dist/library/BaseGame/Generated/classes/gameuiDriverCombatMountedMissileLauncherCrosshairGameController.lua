@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameuiDriverCombatMountedMissileLauncherCrosshairGameController: gameuiCrosshairBaseGameController
 ---@field lockingAnimationWidget inkWidgetReference
 ---@field lockingAnimationProxy inkanimProxy
 ---@field psmTrackedTargetChangedCallback redCallbackObject
 ---@field currentTarget entIPlacedComponent
 gameuiDriverCombatMountedMissileLauncherCrosshairGameController = {}
+
 
 ---@param fields? gameuiDriverCombatMountedMissileLauncherCrosshairGameController
 ---@return gameuiDriverCombatMountedMissileLauncherCrosshairGameController

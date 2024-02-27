@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class TargetedObjectDeathListener: gameCustomValueStatPoolsListener
 ---@field lsitener SensorDevice
 ---@field lsitenTarget gameObject
 TargetedObjectDeathListener = {}
+
 
 ---@param fields? TargetedObjectDeathListener
 ---@return TargetedObjectDeathListener

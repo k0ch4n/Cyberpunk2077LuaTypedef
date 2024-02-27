@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameaudioSoundComponentBase: entIPlacedComponent
 ---@field audioName CName
 ---@field applyObstruction Bool

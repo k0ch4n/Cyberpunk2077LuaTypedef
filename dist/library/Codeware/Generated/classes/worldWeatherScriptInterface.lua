@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldWeatherScriptInterface: IScriptable
 worldWeatherScriptInterface = {}
+
 
 ---@param fields? worldWeatherScriptInterface
 ---@return worldWeatherScriptInterface

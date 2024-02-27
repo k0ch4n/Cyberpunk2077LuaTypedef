@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class EffectExecutor_VisualEffectAtTarget: gameEffectExecutor_Scripted
 ---@field effect gameFxResource
 ---@field ignoreTimeDilation Bool
 EffectExecutor_VisualEffectAtTarget = {}
+
 
 ---@param fields? EffectExecutor_VisualEffectAtTarget
 ---@return EffectExecutor_VisualEffectAtTarget

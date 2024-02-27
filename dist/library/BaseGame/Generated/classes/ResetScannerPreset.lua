@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetScannerPreset: redEvent
 ResetScannerPreset = {}
+
 
 ---@param fields? ResetScannerPreset
 ---@return ResetScannerPreset

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkCharacterEventCallback: inkCallbackBase
 inkCharacterEventCallback = {}
+
 
 ---@param fields? inkCharacterEventCallback
 ---@return inkCharacterEventCallback

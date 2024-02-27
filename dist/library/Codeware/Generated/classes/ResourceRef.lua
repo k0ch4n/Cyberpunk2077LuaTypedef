@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResourceRef
 ResourceRef = {}
+
 
 ---@param fields? ResourceRef
 ---@return ResourceRef

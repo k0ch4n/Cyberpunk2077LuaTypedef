@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ProjectileDelayEvent: redEvent
 ProjectileDelayEvent = {}
+
 
 ---@param fields? ProjectileDelayEvent
 ---@return ProjectileDelayEvent

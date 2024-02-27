@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkTrialOnBuyFullGame: inkCallbackBase
 inkTrialOnBuyFullGame = {}
+
 
 ---@param fields? inkTrialOnBuyFullGame
 ---@return inkTrialOnBuyFullGame

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StartPingingNetworkRequest: gameScriptableSystemRequest
 ---@field source gameObject
 ---@field fxResource gameFxResource
@@ -9,6 +10,7 @@
 ---@field revealNetworkAtEnd Bool
 ---@field virtualNetworkShapeID TweakDBID
 StartPingingNetworkRequest = {}
+
 
 ---@param fields? StartPingingNetworkRequest
 ---@return StartPingingNetworkRequest

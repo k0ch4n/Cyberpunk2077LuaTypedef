@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entRenderHighlightOpacityEvent: redEvent
 ---@field opacity Float
 entRenderHighlightOpacityEvent = {}
+
 
 ---@param fields? entRenderHighlightOpacityEvent
 ---@return entRenderHighlightOpacityEvent

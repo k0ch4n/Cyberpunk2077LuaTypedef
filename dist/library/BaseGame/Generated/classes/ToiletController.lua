@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToiletController: ScriptableDeviceComponent
 ToiletController = {}
+
 
 ---@param fields? ToiletController
 ---@return ToiletController

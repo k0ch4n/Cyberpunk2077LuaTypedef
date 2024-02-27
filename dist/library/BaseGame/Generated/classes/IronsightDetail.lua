@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IronsightDetail: IScriptable
 IronsightDetail = {}
+
 
 ---@param fields? IronsightDetail
 ---@return IronsightDetail

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisposeDecisions: CarriedObjectDecisions
 DisposeDecisions = {}
+
 
 ---@param fields? DisposeDecisions
 ---@return DisposeDecisions

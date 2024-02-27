@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiCharacterCreationPuppetPreviewGameController: gameuiPuppetPreviewGameController
 ---@field maleSceneName CName
 ---@field femaleSceneName CName
@@ -11,6 +12,7 @@
 ---@field animName CName
 ---@field characterCustomizationSystem gameuiICharacterCustomizationSystem
 gameuiCharacterCreationPuppetPreviewGameController = {}
+
 
 ---@param fields? gameuiCharacterCreationPuppetPreviewGameController
 ---@return gameuiCharacterCreationPuppetPreviewGameController

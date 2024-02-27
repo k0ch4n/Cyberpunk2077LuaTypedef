@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HideSmsMessagerEvent: redEvent
 HideSmsMessagerEvent = {}
+
 
 ---@param fields? HideSmsMessagerEvent
 ---@return HideSmsMessagerEvent

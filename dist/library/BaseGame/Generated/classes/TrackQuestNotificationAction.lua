@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class TrackQuestNotificationAction: GenericNotificationBaseAction
 ---@field questEntry gameJournalQuest
 ---@field journalMgr gameJournalManager
 TrackQuestNotificationAction = {}
+
 
 ---@param fields? TrackQuestNotificationAction
 ---@return TrackQuestNotificationAction

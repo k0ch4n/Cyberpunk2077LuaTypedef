@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkVideoSequenceEntry
 ---@field videoResource Bink
 ---@field audioEvent CName
@@ -7,6 +8,7 @@
 ---@field retriggerAudioOnLoop Bool
 ---@field loop Bool
 inkVideoSequenceEntry = {}
+
 
 ---@param fields? inkVideoSequenceEntry
 ---@return inkVideoSequenceEntry

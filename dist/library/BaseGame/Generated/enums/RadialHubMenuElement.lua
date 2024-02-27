@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RadialHubMenuElement: Enum
 ---@field None Enum 0
 ---@field Inventory Enum 1

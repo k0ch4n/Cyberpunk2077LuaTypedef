@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entAnimationControlAttachment: entIAttachment
 entAnimationControlAttachment = {}
+
 
 ---@param fields? entAnimationControlAttachment
 ---@return entAnimationControlAttachment

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerVisionModeControllerOtherVars
 ---@field enabledByToggle Bool
 ---@field active Bool
@@ -8,6 +9,7 @@
 ---@field buttonHoldTapTime Float
 ---@field buttonHoldTapCount Int32
 PlayerVisionModeControllerOtherVars = {}
+
 
 ---@param fields? PlayerVisionModeControllerOtherVars
 ---@return PlayerVisionModeControllerOtherVars

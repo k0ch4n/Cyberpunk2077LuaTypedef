@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ModifyAttackEffector: HitEventEffector
 ModifyAttackEffector = {}
+
 
 ---@param fields? ModifyAttackEffector
 ---@return ModifyAttackEffector

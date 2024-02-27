@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class rendRenderTextureBlobProspero: rendIRenderTextureBlob
 rendRenderTextureBlobProspero = {}
+
 
 ---@param fields? rendRenderTextureBlobProspero
 ---@return rendRenderTextureBlobProspero

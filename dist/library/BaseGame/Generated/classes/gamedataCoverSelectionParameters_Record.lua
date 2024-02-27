@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCoverSelectionParameters_Record: gamedataTweakDBRecord
 gamedataCoverSelectionParameters_Record = {}
+
 
 ---@param fields? gamedataCoverSelectionParameters_Record
 ---@return gamedataCoverSelectionParameters_Record

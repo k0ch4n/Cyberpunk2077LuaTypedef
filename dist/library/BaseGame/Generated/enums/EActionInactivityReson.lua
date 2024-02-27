@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EActionInactivityReson: Enum
 ---@field Ready Enum 0
 ---@field Locked Enum 1

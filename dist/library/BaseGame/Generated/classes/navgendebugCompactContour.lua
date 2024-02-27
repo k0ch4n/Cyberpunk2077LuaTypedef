@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class navgendebugCompactContour
 ---@field rawVertices Int32[]
 ---@field simplifiedVertices Int32[]
@@ -8,6 +9,7 @@
 ---@field area Uint8
 ---@field box Box
 navgendebugCompactContour = {}
+
 
 ---@param fields? navgendebugCompactContour
 ---@return navgendebugCompactContour

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class moveExplorationType: Enum
 ---@field None Enum 0
 ---@field Ladder Enum 1

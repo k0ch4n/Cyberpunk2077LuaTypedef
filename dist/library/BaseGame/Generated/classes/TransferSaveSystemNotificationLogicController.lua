@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TransferSaveSystemNotificationLogicController: inkGenericSystemNotificationLogicController
 ---@field contentBlock inkWidgetReference
 ---@field spinnerBlock inkWidgetReference
@@ -20,6 +21,7 @@
 ---@field cancelButtonHovered Bool
 ---@field currentState TransferSaveState
 TransferSaveSystemNotificationLogicController = {}
+
 
 ---@param fields? TransferSaveSystemNotificationLogicController
 ---@return TransferSaveSystemNotificationLogicController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiHUDCyberwareInfoGameController: gameuiHUDGameController
 ---@field activatePopupAnimName CName
 ---@field deactivatePopupAnimName CName
@@ -11,6 +12,7 @@
 ---@field popupAnimProxy inkanimProxy
 ---@field animProxy inkanimProxy
 gameuiHUDCyberwareInfoGameController = {}
+
 
 ---@param fields? gameuiHUDCyberwareInfoGameController
 ---@return gameuiHUDCyberwareInfoGameController

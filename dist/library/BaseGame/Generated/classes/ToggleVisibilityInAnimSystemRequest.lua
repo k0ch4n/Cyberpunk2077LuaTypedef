@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ToggleVisibilityInAnimSystemRequest: gameScriptableSystemRequest
 ---@field entityID entEntityID
 ---@field isVisible Bool
@@ -7,6 +8,7 @@
 ---@field transitionTime Float
 ---@field forcedVisibleOnlyInFrustum Bool
 ToggleVisibilityInAnimSystemRequest = {}
+
 
 ---@param fields? ToggleVisibilityInAnimSystemRequest
 ---@return ToggleVisibilityInAnimSystemRequest

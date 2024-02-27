@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAchievement_Record: gamedataTweakDBRecord
 gamedataAchievement_Record = {}
+
 
 ---@param fields? gamedataAchievement_Record
 ---@return gamedataAchievement_Record

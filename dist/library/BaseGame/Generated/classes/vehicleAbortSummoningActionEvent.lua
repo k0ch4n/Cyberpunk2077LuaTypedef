@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleAbortSummoningActionEvent: gameActionEvent
 vehicleAbortSummoningActionEvent = {}
+
 
 ---@param fields? vehicleAbortSummoningActionEvent
 ---@return vehicleAbortSummoningActionEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuicksortInt: IScriptable
 QuicksortInt = {}
+
 
 ---@param fields? QuicksortInt
 ---@return QuicksortInt

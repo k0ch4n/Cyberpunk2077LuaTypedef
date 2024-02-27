@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTankLevelSpawnableArrangement_Record: gamedataTweakDBRecord
 gamedataTankLevelSpawnableArrangement_Record = {}
+
 
 ---@param fields? gamedataTankLevelSpawnableArrangement_Record
 ---@return gamedataTankLevelSpawnableArrangement_Record

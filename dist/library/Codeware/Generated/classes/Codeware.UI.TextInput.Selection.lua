@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Codeware_UI_TextInput_Selection: Codeware_UI_inkCustomController
 ---@field selection inkRectangleWidget
 ---@field startPosition Int32
@@ -8,6 +9,7 @@
 ---@field fontSize Float
 ---@field padSize Float
 Codeware_UI_TextInput_Selection = {}
+
 
 ---@param fields? Codeware_UI_TextInput_Selection
 ---@return Codeware_UI_TextInput_Selection

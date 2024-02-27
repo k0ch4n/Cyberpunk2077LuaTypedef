@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PachinkoMachineController: ArcadeMachineController
 PachinkoMachineController = {}
+
 
 ---@param fields? PachinkoMachineController
 ---@return PachinkoMachineController

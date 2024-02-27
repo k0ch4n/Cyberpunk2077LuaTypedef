@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animDyngConstraintCone: animIDyngConstraint
 ---@field constrainedBone animTransformIndex
 ---@field coneAttachmentBone animTransformIndex
@@ -10,6 +11,7 @@
 ---@field collisionCapsuleRadius Float
 ---@field collisionCapsuleHeightExtent Float
 animDyngConstraintCone = {}
+
 
 ---@param fields? animDyngConstraintCone
 ---@return animDyngConstraintCone

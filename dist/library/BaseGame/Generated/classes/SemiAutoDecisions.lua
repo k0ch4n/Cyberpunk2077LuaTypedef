@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SemiAutoDecisions: WeaponTransition
 ---@field callBackID redCallbackObject
 SemiAutoDecisions = {}
+
 
 ---@param fields? SemiAutoDecisions
 ---@return SemiAutoDecisions

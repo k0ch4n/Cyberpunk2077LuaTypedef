@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetAttackHitTypeEffector: ModifyAttackEffector
 ---@field hitType gameuiHitType
 SetAttackHitTypeEffector = {}
+
 
 ---@param fields? SetAttackHitTypeEffector
 ---@return SetAttackHitTypeEffector

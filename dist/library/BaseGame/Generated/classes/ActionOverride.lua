@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActionOverride: ActionBool
 ActionOverride = {}
+
 
 ---@param fields? ActionOverride
 ---@return ActionOverride

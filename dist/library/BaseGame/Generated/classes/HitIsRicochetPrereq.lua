@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitIsRicochetPrereq: GenericHitPrereq
 HitIsRicochetPrereq = {}
+
 
 ---@param fields? HitIsRicochetPrereq
 ---@return HitIsRicochetPrereq

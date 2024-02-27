@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GunnerEvents: VehicleEventsTransition
 GunnerEvents = {}
+
 
 ---@param fields? GunnerEvents
 ---@return GunnerEvents

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionChangeAttitude_Record: gamedataAISubAction_Record
 gamedataAISubActionChangeAttitude_Record = {}
+
 
 ---@param fields? gamedataAISubActionChangeAttitude_Record
 ---@return gamedataAISubActionChangeAttitude_Record

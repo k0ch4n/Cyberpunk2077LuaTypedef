@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePopulationEntityPriority: Enum
 ---@field Quest Enum 0
 ---@field Community Enum 1

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GiveRewardEffector: gameEffector
 ---@field reward TweakDBID
 ---@field target entEntityID
 GiveRewardEffector = {}
+
 
 ---@param fields? GiveRewardEffector
 ---@return GiveRewardEffector

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ClimbLowGravityDecisions: LocomotionGroundDecisions
 ClimbLowGravityDecisions = {}
+
 
 ---@param fields? ClimbLowGravityDecisions
 ---@return ClimbLowGravityDecisions

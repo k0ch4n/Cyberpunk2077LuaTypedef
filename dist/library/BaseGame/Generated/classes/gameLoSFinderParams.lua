@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameLoSFinderParams: IScriptable
 gameLoSFinderParams = {}
+
 
 ---@param fields? gameLoSFinderParams
 ---@return gameLoSFinderParams

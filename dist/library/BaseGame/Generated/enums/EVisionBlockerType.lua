@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EVisionBlockerType: Enum
 ---@field Smoke Enum 0
 ---@field OpticalCamo Enum 1

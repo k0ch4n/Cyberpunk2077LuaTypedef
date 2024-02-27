@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IncrimentStimThreshold: AIbehaviortaskScript
 ---@field thresholdTimeout Float
 IncrimentStimThreshold = {}
+
 
 ---@param fields? IncrimentStimThreshold
 ---@return IncrimentStimThreshold

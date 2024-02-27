@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BuyAttributeEffector: gameEffector
 ---@field type gamedataStatType
 BuyAttributeEffector = {}
+
 
 ---@param fields? BuyAttributeEffector
 ---@return BuyAttributeEffector

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldForbiddenAreaNotifierInstance: worldITriggerAreaNotiferInstance
 worldForbiddenAreaNotifierInstance = {}
+
 
 ---@param fields? worldForbiddenAreaNotifierInstance
 ---@return worldForbiddenAreaNotifierInstance

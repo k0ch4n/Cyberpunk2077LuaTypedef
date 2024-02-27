@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PortalController: ScriptableDeviceComponent
 PortalController = {}
+
 
 ---@param fields? PortalController
 ---@return PortalController

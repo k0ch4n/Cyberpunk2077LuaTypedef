@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TonemappingModeLottes: ITonemappingMode
 ---@field maxInput Float
 ---@field contrast Float
@@ -8,6 +9,7 @@
 ---@field crosstalk Vector3
 ---@field crosstalkSaturation Vector3
 TonemappingModeLottes = {}
+
 
 ---@param fields? TonemappingModeLottes
 ---@return TonemappingModeLottes

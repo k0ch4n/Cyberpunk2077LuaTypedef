@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ECompanionDistancePreset: Enum
 ---@field Medium Enum 0
 ---@field Close Enum 1

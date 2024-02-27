@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class NewPerksPerkContainerLogicController: inkWidgetLogicController
 ---@field slotIdentifier gamedataNewPerkSlotType
 ---@field perkWidget inkWidgetReference
 ---@field wiresConnections NewPerksWireConnection[]
 NewPerksPerkContainerLogicController = {}
+
 
 ---@param fields? NewPerksPerkContainerLogicController
 ---@return NewPerksPerkContainerLogicController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UiQuickHackPanelContextDrivingDecisions: UiQuickHackPanelContextDecisions
 UiQuickHackPanelContextDrivingDecisions = {}
+
 
 ---@param fields? UiQuickHackPanelContextDrivingDecisions
 ---@return UiQuickHackPanelContextDrivingDecisions

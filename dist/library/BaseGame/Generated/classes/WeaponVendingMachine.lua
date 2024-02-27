@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WeaponVendingMachine: VendingMachine
 ---@field bigAdScreen IWorldWidgetComponent
 WeaponVendingMachine = {}
+
 
 ---@param fields? WeaponVendingMachine
 ---@return WeaponVendingMachine

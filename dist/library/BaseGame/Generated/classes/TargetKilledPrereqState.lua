@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TargetKilledPrereqState: GenericHitPrereqState
 TargetKilledPrereqState = {}
+
 
 ---@param fields? TargetKilledPrereqState
 ---@return TargetKilledPrereqState

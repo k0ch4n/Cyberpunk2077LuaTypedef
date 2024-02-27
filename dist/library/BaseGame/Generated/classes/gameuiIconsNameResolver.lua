@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiIconsNameResolver: IScriptable
 gameuiIconsNameResolver = {}
+
 
 ---@param fields? gameuiIconsNameResolver
 ---@return gameuiIconsNameResolver

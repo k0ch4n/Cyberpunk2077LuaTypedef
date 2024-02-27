@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AimWalkDecisions: LocomotionGroundDecisions
 ---@field callbackIDs redCallbackObject[]
 ---@field isBlocking Bool
@@ -7,6 +8,7 @@
 ---@field inFocusMode Bool
 ---@field isLeftHandChanging Bool
 AimWalkDecisions = {}
+
 
 ---@param fields? AimWalkDecisions
 ---@return AimWalkDecisions

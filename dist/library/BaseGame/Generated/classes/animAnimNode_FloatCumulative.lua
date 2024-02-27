@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_FloatCumulative: animAnimNode_FloatValue
 ---@field clamp Bool
 ---@field resetOnActivation Bool
@@ -14,6 +15,7 @@
 ---@field curValue animFloatLink
 ---@field normalize180Input animBoolLink
 animAnimNode_FloatCumulative = {}
+
 
 ---@param fields? animAnimNode_FloatCumulative
 ---@return animAnimNode_FloatCumulative

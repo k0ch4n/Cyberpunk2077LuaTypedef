@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ManagePersonalLinkChangeEvent: redEvent
 ---@field shouldEquip Bool
 ManagePersonalLinkChangeEvent = {}
+
 
 ---@param fields? ManagePersonalLinkChangeEvent
 ---@return ManagePersonalLinkChangeEvent

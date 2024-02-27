@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GenericNotificationBaseAction: IScriptable
 GenericNotificationBaseAction = {}
+
 
 ---@param fields? GenericNotificationBaseAction
 ---@return GenericNotificationBaseAction

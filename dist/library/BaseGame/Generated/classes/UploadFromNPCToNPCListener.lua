@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UploadFromNPCToNPCListener: QuickHackUploadListener
 ---@field npcPuppet ScriptedPuppet
 UploadFromNPCToNPCListener = {}
+
 
 ---@param fields? UploadFromNPCToNPCListener
 ---@return UploadFromNPCToNPCListener

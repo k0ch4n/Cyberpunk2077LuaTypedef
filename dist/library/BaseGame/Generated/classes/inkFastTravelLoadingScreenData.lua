@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkFastTravelLoadingScreenData: inkILoadingScreenPersistentData
 inkFastTravelLoadingScreenData = {}
+
 
 ---@param fields? inkFastTravelLoadingScreenData
 ---@return inkFastTravelLoadingScreenData

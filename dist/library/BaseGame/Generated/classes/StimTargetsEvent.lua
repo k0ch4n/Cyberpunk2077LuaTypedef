@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class StimTargetsEvent: redEvent
 ---@field targets StimTargetData[]
 ---@field restore Bool
 StimTargetsEvent = {}
+
 
 ---@param fields? StimTargetsEvent
 ---@return StimTargetsEvent

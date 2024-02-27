@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SpawnBoxEvaluator: PhysicsParticleInitializer
 SpawnBoxEvaluator = {}
+
 
 ---@param fields? SpawnBoxEvaluator
 ---@return SpawnBoxEvaluator

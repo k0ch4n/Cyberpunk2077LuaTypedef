@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BackpackFilterButtonController: inkWidgetLogicController
 ---@field icon inkImageWidgetReference
 ---@field text inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field active Bool
 ---@field hovered Bool
 BackpackFilterButtonController = {}
+
 
 ---@param fields? BackpackFilterButtonController
 ---@return BackpackFilterButtonController

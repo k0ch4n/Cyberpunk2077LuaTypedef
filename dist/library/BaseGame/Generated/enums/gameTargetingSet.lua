@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTargetingSet: Enum
 ---@field Visible Enum 0
 ---@field ClearlyVisible Enum 1

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class Transform
 ---@field position Vector4
 ---@field orientation Quaternion
 Transform = {}
+
 
 ---@param fields? Transform
 ---@return Transform

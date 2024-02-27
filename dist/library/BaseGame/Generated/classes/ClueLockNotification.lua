@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ClueLockNotification: HUDManagerRequest
 ---@field isLocked Bool
 ClueLockNotification = {}
+
 
 ---@param fields? ClueLockNotification
 ---@return ClueLockNotification

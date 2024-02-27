@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TriggerAttackByChanceStatListener: gameScriptStatsListener
 ---@field effector TriggerAttackByChanceEffector
 TriggerAttackByChanceStatListener = {}
+
 
 ---@param fields? TriggerAttackByChanceStatListener
 ---@return TriggerAttackByChanceStatListener

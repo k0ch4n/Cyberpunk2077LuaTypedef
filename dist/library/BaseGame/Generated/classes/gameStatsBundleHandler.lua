@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameStatsBundleHandler: IScriptable
 gameStatsBundleHandler = {}
+
 
 ---@param fields? gameStatsBundleHandler
 ---@return gameStatsBundleHandler

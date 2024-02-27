@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CGameEngine: BaseGameEngine
 CGameEngine = {}
+
 
 ---@param fields? CGameEngine
 ---@return CGameEngine

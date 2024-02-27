@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ShouldExitVehicle: AIVehicleConditionAbstract
 ---@field bb gameIBlackboard
 ---@field mf gamemountingIMountingFacility
 ---@field initialized Bool
 ShouldExitVehicle = {}
+
 
 ---@param fields? ShouldExitVehicle
 ---@return ShouldExitVehicle

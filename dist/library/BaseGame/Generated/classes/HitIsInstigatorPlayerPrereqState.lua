@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitIsInstigatorPlayerPrereqState: GenericHitPrereqState
 HitIsInstigatorPlayerPrereqState = {}
+
 
 ---@param fields? HitIsInstigatorPlayerPrereqState
 ---@return HitIsInstigatorPlayerPrereqState

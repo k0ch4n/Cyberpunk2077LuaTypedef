@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ExitingDecisions: VehicleTransition
 ExitingDecisions = {}
+
 
 ---@param fields? ExitingDecisions
 ---@return ExitingDecisions

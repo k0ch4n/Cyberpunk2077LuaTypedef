@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class vehicleChaseTargetEvent: redEvent
 ---@field inProgress Bool
 vehicleChaseTargetEvent = {}
+
 
 ---@param fields? vehicleChaseTargetEvent
 ---@return vehicleChaseTargetEvent

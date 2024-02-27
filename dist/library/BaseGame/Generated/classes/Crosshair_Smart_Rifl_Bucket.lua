@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Crosshair_Smart_Rifl_Bucket: inkWidgetLogicController
 ---@field lockingAnimationLength Float
 ---@field unlockingAnimationLength Float
@@ -11,6 +12,7 @@
 ---@field hasDeadEye Bool
 ---@field deadEyeAnimProxy inkanimProxy
 Crosshair_Smart_Rifl_Bucket = {}
+
 
 ---@param fields? Crosshair_Smart_Rifl_Bucket
 ---@return Crosshair_Smart_Rifl_Bucket

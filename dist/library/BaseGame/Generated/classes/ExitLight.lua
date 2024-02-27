@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ExitLight: ElectricLight
 ExitLight = {}
+
 
 ---@param fields? ExitLight
 ---@return ExitLight

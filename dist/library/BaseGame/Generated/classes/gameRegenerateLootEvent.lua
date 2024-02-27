@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameRegenerateLootEvent: redEvent
 gameRegenerateLootEvent = {}
+
 
 ---@param fields? gameRegenerateLootEvent
 ---@return gameRegenerateLootEvent

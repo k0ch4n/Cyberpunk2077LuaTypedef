@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProjectileHitAoEData
 ---@field source gameObject
 ---@field instigator gameObject
@@ -12,6 +13,7 @@
 ---@field enableImpulseFalloff Bool
 ---@field impulseFalloffFactor Float
 ProjectileHitAoEData = {}
+
 
 ---@param fields? ProjectileHitAoEData
 ---@return ProjectileHitAoEData

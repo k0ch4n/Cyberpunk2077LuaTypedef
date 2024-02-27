@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FocusForcedHighlightPersistentData: IScriptable
 ---@field sourceID entEntityID
 ---@field sourceName CName
@@ -11,6 +12,7 @@
 ---@field isRevealed Bool
 ---@field patternType gameVisionModePatternType
 FocusForcedHighlightPersistentData = {}
+
 
 ---@param fields? FocusForcedHighlightPersistentData
 ---@return FocusForcedHighlightPersistentData

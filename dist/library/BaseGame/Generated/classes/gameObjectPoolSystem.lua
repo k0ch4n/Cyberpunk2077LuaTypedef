@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameObjectPoolSystem: gameIObjectPoolSystem
 gameObjectPoolSystem = {}
+
 
 ---@param fields? gameObjectPoolSystem
 ---@return gameObjectPoolSystem

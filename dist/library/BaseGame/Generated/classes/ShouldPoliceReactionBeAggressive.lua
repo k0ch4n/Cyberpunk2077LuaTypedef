@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ShouldPoliceReactionBeAggressive: PreventionConditionAbstract
 ShouldPoliceReactionBeAggressive = {}
+
 
 ---@param fields? ShouldPoliceReactionBeAggressive
 ---@return ShouldPoliceReactionBeAggressive

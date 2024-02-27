@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEffectTriggerEffectDesc: ISerializable
 ---@field effect worldEffect
 ---@field positionType gameEffectTriggerPositioningType
@@ -8,6 +9,7 @@
 ---@field playFromHour Uint32
 ---@field playTillHour Uint32
 gameEffectTriggerEffectDesc = {}
+
 
 ---@param fields? gameEffectTriggerEffectDesc
 ---@return gameEffectTriggerEffectDesc

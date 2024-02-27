@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TakedownUnmountPreyDecisions: LocomotionTakedownDecisions
 TakedownUnmountPreyDecisions = {}
+
 
 ---@param fields? TakedownUnmountPreyDecisions
 ---@return TakedownUnmountPreyDecisions

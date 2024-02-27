@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldTrafficLanesSpotsResource: resStreamedResource
 worldTrafficLanesSpotsResource = {}
+
 
 ---@param fields? worldTrafficLanesSpotsResource
 ---@return worldTrafficLanesSpotsResource

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Codeware_Localization_GenderSensitiveEntry: Codeware_Localization_LocalizationEntry
 ---@field variants String[]
 Codeware_Localization_GenderSensitiveEntry = {}
+
 
 ---@param fields? Codeware_Localization_GenderSensitiveEntry
 ---@return Codeware_Localization_GenderSensitiveEntry

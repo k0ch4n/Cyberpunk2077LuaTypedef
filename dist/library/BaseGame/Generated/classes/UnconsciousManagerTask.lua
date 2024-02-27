@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnconsciousManagerTask: StatusEffectTasks
 UnconsciousManagerTask = {}
+
 
 ---@param fields? UnconsciousManagerTask
 ---@return UnconsciousManagerTask

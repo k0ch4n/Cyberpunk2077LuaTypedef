@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkSaveMetadataInfo: IScriptable
 ---@field saveIndex Int32
 ---@field saveID Uint32
@@ -20,6 +21,7 @@
 ---@field platform String
 ---@field additionalContentIds CName[]
 inkSaveMetadataInfo = {}
+
 
 ---@param fields? inkSaveMetadataInfo
 ---@return inkSaveMetadataInfo

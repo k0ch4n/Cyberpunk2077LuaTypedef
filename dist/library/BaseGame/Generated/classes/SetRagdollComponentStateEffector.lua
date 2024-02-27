@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetRagdollComponentStateEffector: gameEffector
 ---@field state Bool
 SetRagdollComponentStateEffector = {}
+
 
 ---@param fields? SetRagdollComponentStateEffector
 ---@return SetRagdollComponentStateEffector

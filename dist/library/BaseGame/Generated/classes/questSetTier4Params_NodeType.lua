@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questSetTier4Params_NodeType: questISceneManagerNodeType
 ---@field objectRef NodeRef
 ---@field adjustTime Float
@@ -7,6 +8,7 @@
 ---@field useEnterAnim Bool
 ---@field useExitAnim Bool
 questSetTier4Params_NodeType = {}
+
 
 ---@param fields? questSetTier4Params_NodeType
 ---@return questSetTier4Params_NodeType

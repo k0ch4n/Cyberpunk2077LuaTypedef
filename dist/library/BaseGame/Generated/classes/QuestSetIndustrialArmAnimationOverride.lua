@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestSetIndustrialArmAnimationOverride: ActionInt
 QuestSetIndustrialArmAnimationOverride = {}
+
 
 ---@param fields? QuestSetIndustrialArmAnimationOverride
 ---@return QuestSetIndustrialArmAnimationOverride

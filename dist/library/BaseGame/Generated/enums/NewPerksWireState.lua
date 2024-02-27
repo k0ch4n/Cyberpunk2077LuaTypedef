@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerksWireState: Enum
 ---@field Default Enum 0
 ---@field Available Enum 1

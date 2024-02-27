@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkInitialLoadingState: inkIStateMachineState
 inkInitialLoadingState = {}
+
 
 ---@param fields? inkInitialLoadingState
 ---@return inkInitialLoadingState

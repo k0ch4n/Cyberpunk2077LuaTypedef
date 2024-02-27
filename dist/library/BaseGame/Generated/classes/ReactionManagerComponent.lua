@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ReactionManagerComponent: gameScriptableComponent
 ---@field activeReaction AIReactionData
 ---@field desiredReaction AIReactionData
@@ -88,6 +89,7 @@
 ---@field recentAlertObject gameObject
 ---@field recentAlertTimeStamp Float
 ReactionManagerComponent = {}
+
 
 ---@param fields? ReactionManagerComponent
 ---@return ReactionManagerComponent

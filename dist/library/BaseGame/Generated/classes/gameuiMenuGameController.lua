@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiMenuGameController: gameuiWidgetGameController
 ---@field baseEventDispatcher inkMenuEventDispatcher
 gameuiMenuGameController = {}
+
 
 ---@param fields? gameuiMenuGameController
 ---@return gameuiMenuGameController

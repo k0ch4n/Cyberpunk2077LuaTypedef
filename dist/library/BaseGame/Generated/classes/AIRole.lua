@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIRole: IScriptable
 AIRole = {}
+
 
 ---@param fields? AIRole
 ---@return AIRole

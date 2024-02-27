@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StatPrereq: gameIScriptablePrereq
 ---@field notifyOnAnyChange Bool
 ---@field notifyOnlyOnStateFulfilled Bool
@@ -10,6 +11,7 @@
 ---@field statPrereqRecordID TweakDBID
 ---@field objToCheck CName
 StatPrereq = {}
+
 
 ---@param fields? StatPrereq
 ---@return StatPrereq

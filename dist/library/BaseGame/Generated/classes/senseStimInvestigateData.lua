@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class senseStimInvestigateData
 ---@field distrationPoint Vector4
 ---@field attackInstigatorPosition Vector4
@@ -15,6 +16,7 @@
 ---@field skipInitialAnimation Bool
 ---@field investigateController Bool
 senseStimInvestigateData = {}
+
 
 ---@param fields? senseStimInvestigateData
 ---@return senseStimInvestigateData

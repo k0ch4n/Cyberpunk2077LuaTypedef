@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiWeaponRosterGameController: gameuiHUDGameController
 ---@field weaponName inkTextWidgetReference
 ---@field weaponIcon inkImageWidgetReference
@@ -48,6 +49,7 @@
 ---@field weaponizedVehicleMissileLauncherRechargeTime Float
 ---@field weaponizedVehicleMissileLauncherRechargeElapsedTime Float
 gameuiWeaponRosterGameController = {}
+
 
 ---@param fields? gameuiWeaponRosterGameController
 ---@return gameuiWeaponRosterGameController

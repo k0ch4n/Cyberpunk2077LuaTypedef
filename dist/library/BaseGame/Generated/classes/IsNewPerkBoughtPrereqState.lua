@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsNewPerkBoughtPrereqState: gamePrereqState
 IsNewPerkBoughtPrereqState = {}
+
 
 ---@param fields? IsNewPerkBoughtPrereqState
 ---@return IsNewPerkBoughtPrereqState

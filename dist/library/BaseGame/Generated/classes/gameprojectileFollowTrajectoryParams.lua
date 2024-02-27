@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameprojectileFollowTrajectoryParams: gameprojectileTrajectoryParams
 ---@field startVel Float
 ---@field target gameObject
@@ -7,6 +8,7 @@
 ---@field accuracy Float
 ---@field targetOffset Vector4
 gameprojectileFollowTrajectoryParams = {}
+
 
 ---@param fields? gameprojectileFollowTrajectoryParams
 ---@return gameprojectileFollowTrajectoryParams

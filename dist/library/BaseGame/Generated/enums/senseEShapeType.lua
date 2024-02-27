@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class senseEShapeType: Enum
 ---@field INVALID Enum -1
 ---@field BOX Enum 0

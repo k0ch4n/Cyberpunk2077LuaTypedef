@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkMenuLayer_SetGender: redEvent
 inkMenuLayer_SetGender = {}
+
 
 ---@param fields? inkMenuLayer_SetGender
 ---@return inkMenuLayer_SetGender

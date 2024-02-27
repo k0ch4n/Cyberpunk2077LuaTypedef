@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemTriggers: worldIRuntimeSystem
 worldRuntimeSystemTriggers = {}
+
 
 ---@param fields? worldRuntimeSystemTriggers
 ---@return worldRuntimeSystemTriggers

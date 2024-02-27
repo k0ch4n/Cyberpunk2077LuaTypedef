@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InteractiveSignInkGameController: DeviceInkGameControllerBase
 InteractiveSignInkGameController = {}
+
 
 ---@param fields? InteractiveSignInkGameController
 ---@return InteractiveSignInkGameController

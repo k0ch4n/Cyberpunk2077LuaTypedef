@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIObjectSelectionComponent: entIComponent
 AIObjectSelectionComponent = {}
+
 
 ---@param fields? AIObjectSelectionComponent
 ---@return AIObjectSelectionComponent

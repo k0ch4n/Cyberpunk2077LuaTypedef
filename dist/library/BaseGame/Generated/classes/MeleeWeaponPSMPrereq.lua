@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeWeaponPSMPrereq: PlayerStateMachinePrereq
 MeleeWeaponPSMPrereq = {}
+
 
 ---@param fields? MeleeWeaponPSMPrereq
 ---@return MeleeWeaponPSMPrereq

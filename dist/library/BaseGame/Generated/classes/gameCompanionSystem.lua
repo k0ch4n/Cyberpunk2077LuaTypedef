@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCompanionSystem: gameICompanionSystem
 gameCompanionSystem = {}
+
 
 ---@param fields? gameCompanionSystem
 ---@return gameCompanionSystem

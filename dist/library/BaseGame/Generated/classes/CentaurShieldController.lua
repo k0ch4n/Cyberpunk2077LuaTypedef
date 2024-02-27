@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CentaurShieldController: AICustomComponents
 ---@field startWithShieldActive Bool
 ---@field animFeatureName CName
@@ -7,6 +8,7 @@
 ---@field shieldState ECentaurShieldState
 ---@field centaurBlackboard gameIBlackboard
 CentaurShieldController = {}
+
 
 ---@param fields? CentaurShieldController
 ---@return CentaurShieldController

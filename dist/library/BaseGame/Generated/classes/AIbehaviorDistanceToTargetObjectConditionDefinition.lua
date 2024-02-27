@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorDistanceToTargetObjectConditionDefinition: AIbehaviorDistanceToTargetConditionDefinition
 AIbehaviorDistanceToTargetObjectConditionDefinition = {}
+
 
 ---@param fields? AIbehaviorDistanceToTargetObjectConditionDefinition
 ---@return AIbehaviorDistanceToTargetObjectConditionDefinition

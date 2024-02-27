@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetTargetHealthEffector: gameEffector
 ---@field healthValueToSet Float
 SetTargetHealthEffector = {}
+
 
 ---@param fields? SetTargetHealthEffector
 ---@return SetTargetHealthEffector

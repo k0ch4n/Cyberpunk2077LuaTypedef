@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NullifyMountRequestBehaviourTask: AIVehicleTaskAbstract
 NullifyMountRequestBehaviourTask = {}
+
 
 ---@param fields? NullifyMountRequestBehaviourTask
 ---@return NullifyMountRequestBehaviourTask

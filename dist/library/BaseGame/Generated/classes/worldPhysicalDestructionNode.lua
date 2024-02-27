@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldPhysicalDestructionNode: worldNode
 ---@field mesh CMesh
 ---@field meshAppearance CName
@@ -12,6 +13,7 @@
 ---@field useMeshNavmeshSettings Bool
 ---@field systemsToNotifyFlags Uint16
 worldPhysicalDestructionNode = {}
+
 
 ---@param fields? worldPhysicalDestructionNode
 ---@return worldPhysicalDestructionNode

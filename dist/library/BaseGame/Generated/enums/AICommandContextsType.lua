@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AICommandContextsType: Enum
 ---@field Default Enum 0
 ---@field Immediate Enum 1

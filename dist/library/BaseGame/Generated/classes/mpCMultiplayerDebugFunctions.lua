@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class mpCMultiplayerDebugFunctions
 mpCMultiplayerDebugFunctions = {}
+
 
 ---@param fields? mpCMultiplayerDebugFunctions
 ---@return mpCMultiplayerDebugFunctions

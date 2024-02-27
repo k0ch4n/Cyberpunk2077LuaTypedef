@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SceneFirstEquipState: redEvent
 ---@field prevented Bool
 SceneFirstEquipState = {}
+
 
 ---@param fields? SceneFirstEquipState
 ---@return SceneFirstEquipState

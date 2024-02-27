@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamesmartGunTargetState: Enum
 ---@field Visible Enum 1
 ---@field Targetable Enum 2

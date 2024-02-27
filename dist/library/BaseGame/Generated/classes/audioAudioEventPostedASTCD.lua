@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class audioAudioEventPostedASTCD: audioAudioStateTransitionConditionData
 ---@field audioEvent CName
 audioAudioEventPostedASTCD = {}
+
 
 ---@param fields? audioAudioEventPostedASTCD
 ---@return audioAudioEventPostedASTCD

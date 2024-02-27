@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PullSquadSyncRequest: AIAIEvent
 ---@field squadType AISquadType
 PullSquadSyncRequest = {}
+
 
 ---@param fields? PullSquadSyncRequest
 ---@return PullSquadSyncRequest

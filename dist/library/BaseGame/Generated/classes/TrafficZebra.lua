@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TrafficZebra: TrafficLight
 TrafficZebra = {}
+
 
 ---@param fields? TrafficZebra
 ---@return TrafficZebra

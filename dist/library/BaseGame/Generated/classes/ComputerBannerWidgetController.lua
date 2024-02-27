@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ComputerBannerWidgetController: DeviceInkLogicControllerBase
 ---@field titleWidget inkTextWidgetReference
 ---@field textContentWidget inkTextWidgetReference
@@ -9,6 +10,7 @@
 ---@field bannerData SBannerWidgetPackage
 ---@field lastPlayedVideo redResourceReferenceScriptToken
 ComputerBannerWidgetController = {}
+
 
 ---@param fields? ComputerBannerWidgetController
 ---@return ComputerBannerWidgetController

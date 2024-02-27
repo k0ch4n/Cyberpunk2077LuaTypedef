@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SetPoliceForcesPool: gameScriptableSystemRequest
 ---@field disableOnFootSpawn Bool
 ---@field disableVehicleSpawn Bool
@@ -7,6 +8,7 @@
 ---@field resetToDefault Bool
 ---@field source CName
 SetPoliceForcesPool = {}
+
 
 ---@param fields? SetPoliceForcesPool
 ---@return SetPoliceForcesPool

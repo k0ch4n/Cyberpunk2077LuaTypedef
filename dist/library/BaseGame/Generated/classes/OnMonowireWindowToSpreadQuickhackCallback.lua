@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class OnMonowireWindowToSpreadQuickhackCallback: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field MonoWireApplyQuickhackEffector MonoWireQuickHackApplyEffector
 ---@field PlayerPuppet PlayerPuppet
 OnMonowireWindowToSpreadQuickhackCallback = {}
+
 
 ---@param fields? OnMonowireWindowToSpreadQuickhackCallback
 ---@return OnMonowireWindowToSpreadQuickhackCallback

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsTargetObjectPlayer: AIbehaviorconditionScript
 ---@field targetObject AIArgumentMapping
 IsTargetObjectPlayer = {}
+
 
 ---@param fields? IsTargetObjectPlayer
 ---@return IsTargetObjectPlayer

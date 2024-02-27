@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EnterLadder: ActionBool
 EnterLadder = {}
+
 
 ---@param fields? EnterLadder
 ---@return EnterLadder

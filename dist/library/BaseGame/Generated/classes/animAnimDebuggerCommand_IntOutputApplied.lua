@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animAnimDebuggerCommand_IntOutputApplied: animIAnimDebuggerCommand
 animAnimDebuggerCommand_IntOutputApplied = {}
+
 
 ---@param fields? animAnimDebuggerCommand_IntOutputApplied
 ---@return animAnimDebuggerCommand_IntOutputApplied

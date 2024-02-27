@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class HasPositionFarFromThreat: AIbehaviorconditionScript
 ---@field desiredDistance Float
 ---@field minDistance Float
 ---@field minPathLength Float
 HasPositionFarFromThreat = {}
+
 
 ---@param fields? HasPositionFarFromThreat
 ---@return HasPositionFarFromThreat

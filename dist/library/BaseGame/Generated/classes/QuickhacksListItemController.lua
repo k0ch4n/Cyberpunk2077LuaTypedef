@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuickhacksListItemController: inkListItemController
 ---@field expandAnimationDuration Float
 ---@field icon inkImageWidgetReference
@@ -35,6 +36,7 @@
 ---@field cachedDescriptionSize Vector2
 ---@field defaultMargin inkMargin
 QuickhacksListItemController = {}
+
 
 ---@param fields? QuickhacksListItemController
 ---@return QuickhacksListItemController

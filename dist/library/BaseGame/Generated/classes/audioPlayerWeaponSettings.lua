@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioPlayerWeaponSettings: audioWeaponSettings
 ---@field fireSound CName
 ---@field preFireSound CName
@@ -24,6 +25,7 @@
 ---@field triggerEffectAuto CName
 ---@field perfectChargePerkSounds audioPerfectChargePerkSounds
 audioPlayerWeaponSettings = {}
+
 
 ---@param fields? audioPlayerWeaponSettings
 ---@return audioPlayerWeaponSettings

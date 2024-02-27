@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionUseSensePreset_Record_Implementation: IScriptable
 AISubActionUseSensePreset_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionUseSensePreset_Record

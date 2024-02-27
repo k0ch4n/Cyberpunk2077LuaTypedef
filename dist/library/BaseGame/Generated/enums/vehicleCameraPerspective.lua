@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleCameraPerspective: Enum
 ---@field FPP Enum 0
 ---@field TPPClose Enum 1

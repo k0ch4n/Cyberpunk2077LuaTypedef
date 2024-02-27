@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameObjectSpawnParametersList: gameObjectSpawnParameter
 ---@field parameterList gameObjectSpawnParameter[]
 gameObjectSpawnParametersList = {}
+
 
 ---@param fields? gameObjectSpawnParametersList
 ---@return gameObjectSpawnParametersList

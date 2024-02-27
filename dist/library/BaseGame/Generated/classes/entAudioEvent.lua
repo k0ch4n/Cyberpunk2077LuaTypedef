@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entAudioEvent: redEvent
 ---@field eventName CName
 ---@field emitterName CName
@@ -8,6 +9,7 @@
 ---@field eventType audioEventActionType
 ---@field eventFlags audioAudioEventFlags
 entAudioEvent = {}
+
 
 ---@param fields? entAudioEvent
 ---@return entAudioEvent

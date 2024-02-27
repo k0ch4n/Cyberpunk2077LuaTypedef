@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataVehicleModel: Enum
 ---@field Aerondight Enum 0
 ---@field Alvarado Enum 1

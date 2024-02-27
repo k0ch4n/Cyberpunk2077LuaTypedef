@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DelayedSmartGunUISoundClue: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field puppet gameObject
 ---@field audioEventName CName
 DelayedSmartGunUISoundClue = {}
+
 
 ---@param fields? DelayedSmartGunUISoundClue
 ---@return DelayedSmartGunUISoundClue

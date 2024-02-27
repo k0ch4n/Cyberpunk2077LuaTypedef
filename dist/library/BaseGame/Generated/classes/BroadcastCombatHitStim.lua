@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BroadcastCombatHitStim: AIbehaviortaskScript
 BroadcastCombatHitStim = {}
+
 
 ---@param fields? BroadcastCombatHitStim
 ---@return BroadcastCombatHitStim

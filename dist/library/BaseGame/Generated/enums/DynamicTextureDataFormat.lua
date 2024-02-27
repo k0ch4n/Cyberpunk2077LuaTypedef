@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DynamicTextureDataFormat: Enum
 ---@field R_Uint8 Enum 0
 ---@field R_Float16 Enum 1

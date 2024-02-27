@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PerkTooltipDescriptionEntry
 ---@field wrapper inkWidgetReference
 ---@field level inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field videoLabel inkWidgetReference
 ---@field highlightLabel inkWidgetReference
 PerkTooltipDescriptionEntry = {}
+
 
 ---@param fields? PerkTooltipDescriptionEntry
 ---@return PerkTooltipDescriptionEntry

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActiveSkillScreenChangedEvent: redEvent
 ActiveSkillScreenChangedEvent = {}
+
 
 ---@param fields? ActiveSkillScreenChangedEvent
 ---@return ActiveSkillScreenChangedEvent

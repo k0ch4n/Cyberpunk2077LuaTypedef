@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameJoinTrafficSettings: ISerializable
 gameJoinTrafficSettings = {}
+
 
 ---@param fields? gameJoinTrafficSettings
 ---@return gameJoinTrafficSettings

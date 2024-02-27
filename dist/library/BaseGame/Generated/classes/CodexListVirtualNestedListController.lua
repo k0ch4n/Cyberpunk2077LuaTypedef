@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CodexListVirtualNestedListController: VirtualNestedListController
 ---@field currentDataView CodexListVirtualNestedDataView
 CodexListVirtualNestedListController = {}
+
 
 ---@param fields? CodexListVirtualNestedListController
 ---@return CodexListVirtualNestedListController

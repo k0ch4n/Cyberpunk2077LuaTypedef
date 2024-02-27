@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questLevelUpData
 ---@field lvl Int32
 ---@field type gamedataProficiencyType
@@ -8,6 +9,7 @@
 ---@field espionagePoints Int32
 ---@field disableAction Bool
 questLevelUpData = {}
+
 
 ---@param fields? questLevelUpData
 ---@return questLevelUpData

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NcartTimetable: InteractiveDevice
 ---@field isShortGlitchActive Bool
 ---@field shortGlitchDelayID gameDelayID
 NcartTimetable = {}
+
 
 ---@param fields? NcartTimetable
 ---@return NcartTimetable

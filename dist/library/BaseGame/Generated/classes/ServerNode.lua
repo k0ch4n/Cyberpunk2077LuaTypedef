@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ServerNode: InteractiveDevice
 ---@field minWeaponCharge Float
 ---@field maxWeaponCharge Float
@@ -18,6 +19,7 @@
 ---@field damagedFX CName
 ---@field destroyedMesh entPhysicalMeshComponent
 ServerNode = {}
+
 
 ---@param fields? ServerNode
 ---@return ServerNode

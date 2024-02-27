@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TargetBreachCanGetKilledByDamagePrereqCondition: BaseHitPrereqCondition
 ---@field lastTarget gameObject
 TargetBreachCanGetKilledByDamagePrereqCondition = {}
+
 
 ---@param fields? TargetBreachCanGetKilledByDamagePrereqCondition
 ---@return TargetBreachCanGetKilledByDamagePrereqCondition

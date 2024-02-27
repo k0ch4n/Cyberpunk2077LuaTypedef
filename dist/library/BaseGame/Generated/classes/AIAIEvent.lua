@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AIAIEvent: redEvent
 ---@field name CName
 ---@field timeToLive Float
 AIAIEvent = {}
+
 
 ---@param fields? AIAIEvent
 ---@return AIAIEvent

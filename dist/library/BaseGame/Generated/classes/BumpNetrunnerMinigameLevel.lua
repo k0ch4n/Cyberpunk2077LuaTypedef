@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BumpNetrunnerMinigameLevel: gamePlayerScriptableSystemRequest
 ---@field completedMinigameLevel Int32
 BumpNetrunnerMinigameLevel = {}
+
 
 ---@param fields? BumpNetrunnerMinigameLevel
 ---@return BumpNetrunnerMinigameLevel

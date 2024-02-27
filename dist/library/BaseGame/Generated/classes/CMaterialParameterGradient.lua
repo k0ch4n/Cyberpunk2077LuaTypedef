@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CMaterialParameterGradient: CMaterialParameter
 ---@field gradient CGradient
 CMaterialParameterGradient = {}
+
 
 ---@param fields? CMaterialParameterGradient
 ---@return CMaterialParameterGradient

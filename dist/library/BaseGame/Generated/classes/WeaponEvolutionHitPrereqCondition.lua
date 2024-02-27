@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WeaponEvolutionHitPrereqCondition: BaseHitPrereqCondition
 ---@field weaponEvolution gamedataWeaponEvolution
 WeaponEvolutionHitPrereqCondition = {}
+
 
 ---@param fields? WeaponEvolutionHitPrereqCondition
 ---@return WeaponEvolutionHitPrereqCondition

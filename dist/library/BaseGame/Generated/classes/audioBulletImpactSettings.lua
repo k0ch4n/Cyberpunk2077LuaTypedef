@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioBulletImpactSettings: audioEntitySettings
 ---@field lowImpactSound CName
 ---@field medImpactSound CName
@@ -9,6 +10,7 @@
 ---@field mediumDamageDistance Float
 ---@field highDamageDistance Float
 audioBulletImpactSettings = {}
+
 
 ---@param fields? audioBulletImpactSettings
 ---@return audioBulletImpactSettings

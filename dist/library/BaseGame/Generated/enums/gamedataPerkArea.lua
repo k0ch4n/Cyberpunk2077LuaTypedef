@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataPerkArea: Enum
 ---@field Assault_Area_01 Enum 0
 ---@field Assault_Area_02 Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerHasMantisBladesEquippedPrereq: gameIScriptablePrereq
 PlayerHasMantisBladesEquippedPrereq = {}
+
 
 ---@param fields? PlayerHasMantisBladesEquippedPrereq
 ---@return PlayerHasMantisBladesEquippedPrereq

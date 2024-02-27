@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkSaveStatus: Enum
 ---@field Invalid Enum 0
 ---@field Local Enum 1

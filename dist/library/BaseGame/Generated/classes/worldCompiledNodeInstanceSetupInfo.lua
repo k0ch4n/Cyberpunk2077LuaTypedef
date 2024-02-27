@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldCompiledNodeInstanceSetupInfo
 worldCompiledNodeInstanceSetupInfo = {}
+
 
 ---@param fields? worldCompiledNodeInstanceSetupInfo
 ---@return worldCompiledNodeInstanceSetupInfo

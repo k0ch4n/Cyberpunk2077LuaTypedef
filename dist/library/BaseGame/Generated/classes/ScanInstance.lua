@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScanInstance: ModuleInstance
 ---@field isScanningCluesBlocked Bool
 ScanInstance = {}
+
 
 ---@param fields? ScanInstance
 ---@return ScanInstance

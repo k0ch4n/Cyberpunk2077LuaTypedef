@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldWaterNullAreaNode: worldAreaShapeNode
 worldWaterNullAreaNode = {}
+
 
 ---@param fields? worldWaterNullAreaNode
 ---@return worldWaterNullAreaNode

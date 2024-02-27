@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryItemPreferredComparisonResolver: IScriptable
 ---@field cacheadAreaItems InventoryItemPreferredAreaItems[]
 ---@field cachedComparableTypes InventoryItemComparableTypesCache[]
@@ -8,6 +9,7 @@
 ---@field forcedCompareItem UIInventoryItem
 ---@field useForceCompare Bool
 InventoryItemPreferredComparisonResolver = {}
+
 
 ---@param fields? InventoryItemPreferredComparisonResolver
 ---@return InventoryItemPreferredComparisonResolver

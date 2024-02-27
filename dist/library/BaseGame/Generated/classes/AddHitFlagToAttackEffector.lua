@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AddHitFlagToAttackEffector: ModifyAttackEffector
 ---@field hitFlag hitFlag
 AddHitFlagToAttackEffector = {}
+
 
 ---@param fields? AddHitFlagToAttackEffector
 ---@return AddHitFlagToAttackEffector

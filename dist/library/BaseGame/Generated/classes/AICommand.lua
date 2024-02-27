@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class AICommand: IScriptable
 ---@field id Uint32
 ---@field state AICommandState
 ---@field questBlockId Uint64
 ---@field category CName
 AICommand = {}
+
 
 ---@param fields? AICommand
 ---@return AICommand

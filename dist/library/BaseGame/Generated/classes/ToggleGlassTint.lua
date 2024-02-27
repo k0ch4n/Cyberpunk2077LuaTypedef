@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ToggleGlassTint: ActionBool
 ---@field TrueRecord String
 ---@field FalseRecord String
 ToggleGlassTint = {}
+
 
 ---@param fields? ToggleGlassTint
 ---@return ToggleGlassTint

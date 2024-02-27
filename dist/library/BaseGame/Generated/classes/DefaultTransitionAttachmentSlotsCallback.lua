@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DefaultTransitionAttachmentSlotsCallback: gameAttachmentSlotsScriptCallback
 ---@field transitionOwner DefaultTransition
 DefaultTransitionAttachmentSlotsCallback = {}
+
 
 ---@param fields? DefaultTransitionAttachmentSlotsCallback
 ---@return DefaultTransitionAttachmentSlotsCallback

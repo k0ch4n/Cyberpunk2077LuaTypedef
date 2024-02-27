@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataStatusEffectAIBehaviorFlag: Enum
 ---@field AcceptsAdditives Enum 0
 ---@field InterruptsForcedBehavior Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiGenericNotificationViewData: IScriptable
 ---@field title String
 ---@field text String
@@ -7,6 +8,7 @@
 ---@field soundAction CName
 ---@field action GenericNotificationBaseAction
 gameuiGenericNotificationViewData = {}
+
 
 ---@param fields? gameuiGenericNotificationViewData
 ---@return gameuiGenericNotificationViewData

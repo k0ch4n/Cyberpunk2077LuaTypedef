@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocInventoryController: inkWidgetLogicController
 ---@field virtualGridContainer inkVirtualCompoundWidgetReference
 ---@field scrollBarContainer inkWidgetReference
@@ -22,6 +23,7 @@
 ---@field hasCache Bool
 ---@field isAreaCache Bool
 RipperdocInventoryController = {}
+
 
 ---@param fields? RipperdocInventoryController
 ---@return RipperdocInventoryController

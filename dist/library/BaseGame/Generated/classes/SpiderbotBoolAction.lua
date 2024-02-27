@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SpiderbotBoolAction: ActionBool
 ---@field TrueRecord String
 ---@field FalseRecord String
 SpiderbotBoolAction = {}
+
 
 ---@param fields? SpiderbotBoolAction
 ---@return SpiderbotBoolAction

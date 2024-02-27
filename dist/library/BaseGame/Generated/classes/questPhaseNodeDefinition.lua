@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questPhaseNodeDefinition: questEmbeddedGraphNodeDefinition
 ---@field saveLock Bool
 ---@field phaseResource questQuestPhaseResource
@@ -7,6 +8,7 @@
 ---@field phaseInstancePrefabs questQuestPrefabEntry[]
 ---@field phaseGraph questGraphDefinition
 questPhaseNodeDefinition = {}
+
 
 ---@param fields? questPhaseNodeDefinition
 ---@return questPhaseNodeDefinition

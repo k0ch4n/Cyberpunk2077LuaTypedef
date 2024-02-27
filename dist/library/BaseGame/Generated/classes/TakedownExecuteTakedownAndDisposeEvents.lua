@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TakedownExecuteTakedownAndDisposeEvents: LocomotionTakedownEvents
 ---@field targetID entEntityID
 TakedownExecuteTakedownAndDisposeEvents = {}
+
 
 ---@param fields? TakedownExecuteTakedownAndDisposeEvents
 ---@return TakedownExecuteTakedownAndDisposeEvents

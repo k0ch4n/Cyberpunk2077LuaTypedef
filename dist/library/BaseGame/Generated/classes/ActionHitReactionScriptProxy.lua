@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActionHitReactionScriptProxy: CActionScriptProxy
 ActionHitReactionScriptProxy = {}
+
 
 ---@param fields? ActionHitReactionScriptProxy
 ---@return ActionHitReactionScriptProxy

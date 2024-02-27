@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class LcdScreenControllerPS: ScriptableDeviceComponentPS
 ---@field messageRecordID TweakDBID
 ---@field replaceTextWithCustomNumber Bool
 ---@field customNumber Int32
 ---@field messageRecordSelector ScreenMessageSelector
 LcdScreenControllerPS = {}
+
 
 ---@param fields? LcdScreenControllerPS
 ---@return LcdScreenControllerPS

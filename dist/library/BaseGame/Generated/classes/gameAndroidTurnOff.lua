@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAndroidTurnOff: redEvent
 gameAndroidTurnOff = {}
+
 
 ---@param fields? gameAndroidTurnOff
 ---@return gameAndroidTurnOff

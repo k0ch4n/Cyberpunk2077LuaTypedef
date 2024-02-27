@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RetrofixCyberwaresEvent: redEvent
 RetrofixCyberwaresEvent = {}
+
 
 ---@param fields? RetrofixCyberwaresEvent
 ---@return RetrofixCyberwaresEvent

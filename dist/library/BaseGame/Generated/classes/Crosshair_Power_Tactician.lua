@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class Crosshair_Power_Tactician: gameuiCrosshairBaseGameController
 ---@field leftPart inkWidgetReference
 ---@field rightPart inkWidgetReference
 ---@field topPart inkWidgetReference
 ---@field botPart inkWidgetReference
 Crosshair_Power_Tactician = {}
+
 
 ---@param fields? Crosshair_Power_Tactician
 ---@return Crosshair_Power_Tactician

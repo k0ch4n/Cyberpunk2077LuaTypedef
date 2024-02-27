@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class FocusModeTaggingSystem: gameScriptableSystem
 ---@field playerAttachedCallbackID Uint32
 ---@field playerDetachedCallbackID Uint32
 FocusModeTaggingSystem = {}
+
 
 ---@param fields? FocusModeTaggingSystem
 ---@return FocusModeTaggingSystem

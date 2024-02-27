@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class VehicleRadioTierEvent: redEvent
 ---@field radioTier Uint32
 ---@field overrideTier Bool
 VehicleRadioTierEvent = {}
+
 
 ---@param fields? VehicleRadioTierEvent
 ---@return VehicleRadioTierEvent

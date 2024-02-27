@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StaticShaderInputLayout: Enum
 ---@field DebugVertexBase Enum 0
 ---@field DebugVertexUV Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AvStartDescentSFXBehaviour: AIbehaviortaskScript
 AvStartDescentSFXBehaviour = {}
+
 
 ---@param fields? AvStartDescentSFXBehaviour
 ---@return AvStartDescentSFXBehaviour

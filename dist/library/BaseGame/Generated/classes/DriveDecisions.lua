@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DriveDecisions: VehicleTransition
 DriveDecisions = {}
+
 
 ---@param fields? DriveDecisions
 ---@return DriveDecisions

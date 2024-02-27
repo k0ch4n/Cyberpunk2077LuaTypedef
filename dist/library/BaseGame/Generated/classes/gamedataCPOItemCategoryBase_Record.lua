@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCPOItemCategoryBase_Record: gamedataTweakDBRecord
 gamedataCPOItemCategoryBase_Record = {}
+
 
 ---@param fields? gamedataCPOItemCategoryBase_Record
 ---@return gamedataCPOItemCategoryBase_Record

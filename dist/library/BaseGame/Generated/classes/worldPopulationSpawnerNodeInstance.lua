@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldPopulationSpawnerNodeInstance: worldINodeInstance
 worldPopulationSpawnerNodeInstance = {}
+
 
 ---@param fields? worldPopulationSpawnerNodeInstance
 ---@return worldPopulationSpawnerNodeInstance

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GetOffThePsychoSquadAV: AIbehaviortaskScript
 GetOffThePsychoSquadAV = {}
+
 
 ---@param fields? GetOffThePsychoSquadAV
 ---@return GetOffThePsychoSquadAV

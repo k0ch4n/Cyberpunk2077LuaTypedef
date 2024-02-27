@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class VehiclesManagerListItemController: inkVirtualCompoundItemController
 ---@field label inkTextWidgetReference
 ---@field typeIcon inkImageWidgetReference
 ---@field repairTime inkTextWidgetReference
 ---@field vehicleData VehicleListItemData
 VehiclesManagerListItemController = {}
+
 
 ---@param fields? VehiclesManagerListItemController
 ---@return VehiclesManagerListItemController

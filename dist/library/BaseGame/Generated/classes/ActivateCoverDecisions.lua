@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActivateCoverDecisions: CoverActionTransition
 ActivateCoverDecisions = {}
+
 
 ---@param fields? ActivateCoverDecisions
 ---@return ActivateCoverDecisions

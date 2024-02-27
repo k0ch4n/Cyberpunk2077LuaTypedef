@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DeviceLink
 ---@field PSID gamePersistentID
 ---@field className CName
 DeviceLink = {}
+
 
 ---@param fields? DeviceLink
 ---@return DeviceLink

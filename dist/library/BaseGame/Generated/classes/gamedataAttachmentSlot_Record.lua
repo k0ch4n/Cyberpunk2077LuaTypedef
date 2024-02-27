@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAttachmentSlot_Record: gamedataTweakDBRecord
 gamedataAttachmentSlot_Record = {}
+
 
 ---@param fields? gamedataAttachmentSlot_Record
 ---@return gamedataAttachmentSlot_Record

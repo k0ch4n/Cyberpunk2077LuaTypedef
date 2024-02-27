@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questGraphDefinition: graphGraphDefinition
 questGraphDefinition = {}
+
 
 ---@param fields? questGraphDefinition
 ---@return questGraphDefinition

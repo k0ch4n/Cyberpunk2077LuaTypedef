@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PlayerIsNewPerkBoughtPrereqState: gamePrereqState
 ---@field listenerPerksVariant redCallbackObject
 ---@field owner gameObject
 PlayerIsNewPerkBoughtPrereqState = {}
+
 
 ---@param fields? PlayerIsNewPerkBoughtPrereqState
 ---@return PlayerIsNewPerkBoughtPrereqState

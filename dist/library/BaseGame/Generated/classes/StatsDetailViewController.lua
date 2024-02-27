@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class StatsDetailViewController: inkWidgetLogicController
 ---@field StatLabelRef inkTextWidgetReference
 ---@field StatValueRef inkTextWidgetReference
 StatsDetailViewController = {}
+
 
 ---@param fields? StatsDetailViewController
 ---@return StatsDetailViewController

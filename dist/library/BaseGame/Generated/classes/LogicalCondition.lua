@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class LogicalCondition: workIScriptedCondition
 ---@field operation WorkspotConditionOperators
 ---@field conditions workIScriptedCondition[]
 LogicalCondition = {}
+
 
 ---@param fields? LogicalCondition
 ---@return LogicalCondition

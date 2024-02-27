@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class inkanimAnchorInterpolator: inkanimInterpolator
 ---@field startValue Vector2
 ---@field endValue Vector2
 inkanimAnchorInterpolator = {}
+
 
 ---@param fields? inkanimAnchorInterpolator
 ---@return inkanimAnchorInterpolator

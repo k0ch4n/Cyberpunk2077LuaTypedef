@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WaterCustomData: ICameraStorageCustomData
 WaterCustomData = {}
+
 
 ---@param fields? WaterCustomData
 ---@return WaterCustomData

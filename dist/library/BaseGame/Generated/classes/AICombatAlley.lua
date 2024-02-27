@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICombatAlley: IScriptable
 AICombatAlley = {}
+
 
 ---@param fields? AICombatAlley
 ---@return AICombatAlley

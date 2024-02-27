@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiPanzerHUDGameController: gameuiHUDGameController
 ---@field vehicle vehicleBaseObject
 ---@field vehiclePS VehicleComponentPS
@@ -47,6 +48,7 @@
 ---@field targetWidgetLibraryName CName
 ---@field targetWidgetPoolSize Int32
 gameuiPanzerHUDGameController = {}
+
 
 ---@param fields? gameuiPanzerHUDGameController
 ---@return gameuiPanzerHUDGameController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAIThreatCalculationType: Enum
 ---@field Regular Enum 0
 ---@field Boss Enum 1

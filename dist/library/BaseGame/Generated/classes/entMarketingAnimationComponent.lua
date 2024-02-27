@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entMarketingAnimationComponent: entIPlacedComponent
 ---@field freezeAnimations Bool
 ---@field animations entMarketingAnimationEntry[]
@@ -10,6 +11,7 @@
 ---@field lookAtTargetPitch Float
 ---@field lookAtTargetYaw Float
 entMarketingAnimationComponent = {}
+
 
 ---@param fields? entMarketingAnimationComponent
 ---@return entMarketingAnimationComponent

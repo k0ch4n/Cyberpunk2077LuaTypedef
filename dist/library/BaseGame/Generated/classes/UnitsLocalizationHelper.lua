@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnitsLocalizationHelper: IScriptable
 UnitsLocalizationHelper = {}
+
 
 ---@param fields? UnitsLocalizationHelper
 ---@return UnitsLocalizationHelper

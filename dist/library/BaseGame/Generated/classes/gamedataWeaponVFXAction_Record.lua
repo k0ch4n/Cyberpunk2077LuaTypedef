@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataWeaponVFXAction_Record: gamedataTweakDBRecord
 gamedataWeaponVFXAction_Record = {}
+
 
 ---@param fields? gamedataWeaponVFXAction_Record
 ---@return gamedataWeaponVFXAction_Record

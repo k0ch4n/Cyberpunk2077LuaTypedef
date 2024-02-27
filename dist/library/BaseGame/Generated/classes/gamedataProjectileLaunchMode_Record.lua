@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataProjectileLaunchMode_Record: gamedataTweakDBRecord
 gamedataProjectileLaunchMode_Record = {}
+
 
 ---@param fields? gamedataProjectileLaunchMode_Record
 ---@return gamedataProjectileLaunchMode_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAvoidLineOfSightSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataAvoidLineOfSightSelectionParameters_Record = {}
+
 
 ---@param fields? gamedataAvoidLineOfSightSelectionParameters_Record
 ---@return gamedataAvoidLineOfSightSelectionParameters_Record

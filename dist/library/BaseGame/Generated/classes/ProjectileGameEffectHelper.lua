@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ProjectileGameEffectHelper: IScriptable
 ProjectileGameEffectHelper = {}
+
 
 ---@param fields? ProjectileGameEffectHelper
 ---@return ProjectileGameEffectHelper

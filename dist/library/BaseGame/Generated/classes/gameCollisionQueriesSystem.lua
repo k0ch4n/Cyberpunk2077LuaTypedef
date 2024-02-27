@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCollisionQueriesSystem: gameICollisionQueriesSystem
 gameCollisionQueriesSystem = {}
+
 
 ---@param fields? gameCollisionQueriesSystem
 ---@return gameCollisionQueriesSystem

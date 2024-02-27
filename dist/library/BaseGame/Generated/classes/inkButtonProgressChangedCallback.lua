@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkButtonProgressChangedCallback: inkCallbackBase
 inkButtonProgressChangedCallback = {}
+
 
 ---@param fields? inkButtonProgressChangedCallback
 ---@return inkButtonProgressChangedCallback

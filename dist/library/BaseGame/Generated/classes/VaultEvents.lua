@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VaultEvents: LocomotionGroundEvents
 VaultEvents = {}
+
 
 ---@param fields? VaultEvents
 ---@return VaultEvents

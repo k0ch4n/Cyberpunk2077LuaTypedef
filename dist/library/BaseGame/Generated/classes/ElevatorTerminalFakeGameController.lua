@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ElevatorTerminalFakeGameController: DeviceInkGameControllerBase
 ---@field elevatorTerminalWidget inkCanvasWidgetReference
 ElevatorTerminalFakeGameController = {}
+
 
 ---@param fields? ElevatorTerminalFakeGameController
 ---@return ElevatorTerminalFakeGameController

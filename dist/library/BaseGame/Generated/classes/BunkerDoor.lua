@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class BunkerDoor: Door
 ---@field loudAnnouncementOpenSoundName CName
 ---@field halfOpenSoundName CName
 ---@field glitchingSoundName CName
 ---@field fastOpenSoundName CName
 BunkerDoor = {}
+
 
 ---@param fields? BunkerDoor
 ---@return BunkerDoor

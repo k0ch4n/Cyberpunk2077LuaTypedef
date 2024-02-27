@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HighlightObjectEffector: gameEffector
 ---@field reason CName
 HighlightObjectEffector = {}
+
 
 ---@param fields? HighlightObjectEffector
 ---@return HighlightObjectEffector

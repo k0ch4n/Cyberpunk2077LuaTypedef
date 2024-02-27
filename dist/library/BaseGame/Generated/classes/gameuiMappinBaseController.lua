@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiMappinBaseController: inkWidgetLogicController
 ---@field iconWidget inkImageWidgetReference
 ---@field playerTrackedWidget inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field animPlayerAboveBelowWidget inkWidgetReference
 ---@field taggedWidgets inkWidgetReference[]
 gameuiMappinBaseController = {}
+
 
 ---@return Float
 function gameuiMappinBaseController:GetDistanceToPlayer() end

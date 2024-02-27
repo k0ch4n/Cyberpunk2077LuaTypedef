@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HotkeyItemController: GenericHotkeyController
 ---@field hotkeyItemSlot inkWidgetReference
 ---@field hotkeyItemWidget inkWidget
@@ -12,6 +13,7 @@
 ---@field inventoryManager InventoryDataManagerV2
 ---@field dpadAnim inkanimProxy
 HotkeyItemController = {}
+
 
 ---@param fields? HotkeyItemController
 ---@return HotkeyItemController

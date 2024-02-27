@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ESystemNotificationTypes: Enum
 ---@field DiscOperationIndicator Enum 0
 ---@field GenericNotModal Enum 1

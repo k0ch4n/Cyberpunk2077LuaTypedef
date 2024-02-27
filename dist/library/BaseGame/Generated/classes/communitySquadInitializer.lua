@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class communitySquadInitializer: communitySpawnInitializer
 ---@field entries communitySquadInitializerEntry[]
 communitySquadInitializer = {}
+
 
 ---@param fields? communitySquadInitializer
 ---@return communitySquadInitializer

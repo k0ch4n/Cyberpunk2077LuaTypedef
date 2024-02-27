@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameObject: entGameEntity
 gameObject = {}
+
 
 ---@param fields? gameObject
 ---@return gameObject

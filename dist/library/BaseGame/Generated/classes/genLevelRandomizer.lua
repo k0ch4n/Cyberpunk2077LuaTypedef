@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class genLevelRandomizer: gameObject
 ---@field entries genLevelRandomizerEntry[]
 ---@field seed Uint32
@@ -7,6 +8,7 @@
 ---@field supervisorType CName
 ---@field debugSpawnAll Bool
 genLevelRandomizer = {}
+
 
 ---@param fields? genLevelRandomizer
 ---@return genLevelRandomizer

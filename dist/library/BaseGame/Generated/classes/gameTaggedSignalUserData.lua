@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameTaggedSignalUserData: gameSignalUserData
 ---@field tags CName[]
 gameTaggedSignalUserData = {}
+
 
 ---@param fields? gameTaggedSignalUserData
 ---@return gameTaggedSignalUserData

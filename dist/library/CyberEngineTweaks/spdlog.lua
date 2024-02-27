@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---
 ---[View documents](https://wiki.redmodding.org/cyber-engine-tweaks/cet-functions/misc/debug-functions#spdlog)
 ---
 ---@class spdlog
 spdlog = {}
+
 
 ---@param message string
 ---@return nil

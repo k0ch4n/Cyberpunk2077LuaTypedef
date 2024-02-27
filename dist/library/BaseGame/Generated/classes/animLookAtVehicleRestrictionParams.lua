@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animLookAtVehicleRestrictionParams: ISerializable
 animLookAtVehicleRestrictionParams = {}
+
 
 ---@param fields? animLookAtVehicleRestrictionParams
 ---@return animLookAtVehicleRestrictionParams

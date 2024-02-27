@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questEntityManagerSetStat_NodeType: questIEntityManager_NodeType
 ---@field objectRef gameEntityReference
 ---@field isPlayer Bool
@@ -7,6 +8,7 @@
 ---@field value Float
 ---@field setExactValue Bool
 questEntityManagerSetStat_NodeType = {}
+
 
 ---@param fields? questEntityManagerSetStat_NodeType
 ---@return questEntityManagerSetStat_NodeType

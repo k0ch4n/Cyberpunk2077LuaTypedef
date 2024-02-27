@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SmartWindowMainLayoutWidgetController: ComputerMainLayoutWidgetController
 ---@field menuMailsSlot inkWidgetReference
 ---@field menuFilesSlot inkWidgetReference
 ---@field menuNewsFeedSlot inkWidgetReference
 ---@field menuDevicesSlot inkWidgetReference
 SmartWindowMainLayoutWidgetController = {}
+
 
 ---@param fields? SmartWindowMainLayoutWidgetController
 ---@return SmartWindowMainLayoutWidgetController

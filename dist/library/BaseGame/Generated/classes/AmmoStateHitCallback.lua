@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AmmoStateHitCallback: HitCallback
 AmmoStateHitCallback = {}
+
 
 ---@param fields? AmmoStateHitCallback
 ---@return AmmoStateHitCallback

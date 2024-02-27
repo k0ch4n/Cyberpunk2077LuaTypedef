@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataGrenadeDeliveryMethodType_Record: gamedataTweakDBRecord
 gamedataGrenadeDeliveryMethodType_Record = {}
+
 
 ---@param fields? gamedataGrenadeDeliveryMethodType_Record
 ---@return gamedataGrenadeDeliveryMethodType_Record

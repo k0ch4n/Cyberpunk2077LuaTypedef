@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hudDroneController: gameuiHUDGameController
 ---@field Date inkTextWidgetReference
 ---@field Timer inkTextWidgetReference
@@ -11,6 +12,7 @@
 ---@field currentZoom Float
 ---@field currentTime GameTime
 hudDroneController = {}
+
 
 ---@param fields? hudDroneController
 ---@return hudDroneController

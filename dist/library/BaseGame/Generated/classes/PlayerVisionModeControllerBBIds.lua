@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerVisionModeControllerBBIds
 ---@field kerenzikov gamebbScriptDefinition
 ---@field restrictedScene gamebbScriptDefinition
@@ -11,6 +12,7 @@
 ---@field veryHardLanding gamebbScriptDefinition
 ---@field isBriefingActive gamebbScriptDefinition
 PlayerVisionModeControllerBBIds = {}
+
 
 ---@param fields? PlayerVisionModeControllerBBIds
 ---@return PlayerVisionModeControllerBBIds

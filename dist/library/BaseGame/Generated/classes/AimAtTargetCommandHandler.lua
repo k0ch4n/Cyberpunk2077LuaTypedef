@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AimAtTargetCommandHandler: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ---@field currentCommand AIAimAtTargetCommand
 AimAtTargetCommandHandler = {}
+
 
 ---@param fields? AimAtTargetCommandHandler
 ---@return AimAtTargetCommandHandler

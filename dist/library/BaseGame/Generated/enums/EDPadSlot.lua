@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EDPadSlot: Enum
 ---@field Left Enum 0
 ---@field Up Enum 1

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AISetSoloModeHandler: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 AISetSoloModeHandler = {}
+
 
 ---@param fields? AISetSoloModeHandler
 ---@return AISetSoloModeHandler

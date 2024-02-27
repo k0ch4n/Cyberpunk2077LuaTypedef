@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HotkeyRefreshRequest: gamePlayerScriptableSystemRequest
 HotkeyRefreshRequest = {}
+
 
 ---@param fields? HotkeyRefreshRequest
 ---@return HotkeyRefreshRequest

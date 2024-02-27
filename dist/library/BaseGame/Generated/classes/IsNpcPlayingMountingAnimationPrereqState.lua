@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsNpcPlayingMountingAnimationPrereqState: gamePrereqState
 ---@field psListener gameScriptedPrereqPSChangeListenerWrapper
 IsNpcPlayingMountingAnimationPrereqState = {}
+
 
 ---@param fields? IsNpcPlayingMountingAnimationPrereqState
 ---@return IsNpcPlayingMountingAnimationPrereqState

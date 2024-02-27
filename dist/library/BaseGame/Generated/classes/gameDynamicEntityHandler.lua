@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDynamicEntityHandler
 gameDynamicEntityHandler = {}
+
 
 ---@param fields? gameDynamicEntityHandler
 ---@return gameDynamicEntityHandler

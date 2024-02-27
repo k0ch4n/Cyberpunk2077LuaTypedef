@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HasNPCReactiveSignal: PreventionConditionAbstract
 HasNPCReactiveSignal = {}
+
 
 ---@param fields? HasNPCReactiveSignal
 ---@return HasNPCReactiveSignal

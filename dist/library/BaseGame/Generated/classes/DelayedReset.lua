@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DelayedReset: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field controller CraftingLogicController
 DelayedReset = {}
+
 
 ---@param fields? DelayedReset
 ---@return DelayedReset

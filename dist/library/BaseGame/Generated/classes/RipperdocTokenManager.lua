@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class RipperdocTokenManager: IScriptable
 ---@field player PlayerPuppet
 ---@field tokenBlackboard gameIBlackboard
 ---@field gameInstance ScriptGameInstance
 RipperdocTokenManager = {}
+
 
 ---@param fields? RipperdocTokenManager
 ---@return RipperdocTokenManager

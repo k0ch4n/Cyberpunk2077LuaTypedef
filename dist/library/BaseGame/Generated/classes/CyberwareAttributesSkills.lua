@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CyberwareAttributesSkills: gameuiWidgetGameController
 ---@field attributes CyberwareAttributes_ContainersStruct
 ---@field resistances CyberwareAttributes_ResistancesStruct
@@ -16,6 +17,7 @@
 ---@field OnEnergyResistanceChangedCallback redCallbackObject
 ---@field OnChemicalResistanceChangedCallback redCallbackObject
 CyberwareAttributesSkills = {}
+
 
 ---@param fields? CyberwareAttributesSkills
 ---@return CyberwareAttributesSkills

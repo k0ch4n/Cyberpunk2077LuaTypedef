@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestStopHacking: ActionBool
 QuestStopHacking = {}
+
 
 ---@param fields? QuestStopHacking
 ---@return QuestStopHacking

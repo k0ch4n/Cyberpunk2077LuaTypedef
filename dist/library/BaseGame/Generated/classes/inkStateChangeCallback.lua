@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkStateChangeCallback: inkCallbackBase
 inkStateChangeCallback = {}
+
 
 ---@param fields? inkStateChangeCallback
 ---@return inkStateChangeCallback

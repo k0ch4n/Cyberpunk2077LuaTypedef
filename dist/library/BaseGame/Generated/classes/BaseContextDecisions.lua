@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BaseContextDecisions: InputContextTransitionDecisions
 BaseContextDecisions = {}
+
 
 ---@param fields? BaseContextDecisions
 ---@return BaseContextDecisions

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataNetworkPingingParameteres_Record: gamedataTweakDBRecord
 gamedataNetworkPingingParameteres_Record = {}
+
 
 ---@param fields? gamedataNetworkPingingParameteres_Record
 ---@return gamedataNetworkPingingParameteres_Record

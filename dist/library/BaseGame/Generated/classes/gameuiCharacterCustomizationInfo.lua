@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiCharacterCustomizationInfo: IScriptable
 ---@field name CName
 ---@field uiSlot CName

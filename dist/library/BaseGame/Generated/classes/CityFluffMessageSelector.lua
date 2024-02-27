@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CityFluffMessageSelector: ScreenMessageSelector
 ---@field recordID TweakDBID
 CityFluffMessageSelector = {}
+
 
 ---@param fields? CityFluffMessageSelector
 ---@return CityFluffMessageSelector

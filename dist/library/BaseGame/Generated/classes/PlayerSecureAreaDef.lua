@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayerSecureAreaDef: gamebbScriptDefinition
 ---@field inside gamebbScriptID_Bool
 PlayerSecureAreaDef = {}
+
 
 ---@param fields? PlayerSecureAreaDef
 ---@return PlayerSecureAreaDef

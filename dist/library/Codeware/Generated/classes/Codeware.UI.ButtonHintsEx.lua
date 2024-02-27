@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class Codeware_UI_ButtonHintsEx: Codeware_UI_inkCustomController
 ---@field buttonHints ButtonHints
 ---@field isLocked Bool
 ---@field style CName
 Codeware_UI_ButtonHintsEx = {}
+
 
 ---@param fields? Codeware_UI_ButtonHintsEx
 ---@return Codeware_UI_ButtonHintsEx

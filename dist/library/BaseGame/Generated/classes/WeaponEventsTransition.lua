@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class WeaponEventsTransition: WeaponTransition
 ---@field scriptInterface gamestateMachineGameScriptInterface
 ---@field statusEffectListener DefaultTransitionStatusEffectListener
 WeaponEventsTransition = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RewardPlayerWithCrimeScoreEffector: gameEffector
 RewardPlayerWithCrimeScoreEffector = {}
+
 
 ---@param fields? RewardPlayerWithCrimeScoreEffector
 ---@return RewardPlayerWithCrimeScoreEffector

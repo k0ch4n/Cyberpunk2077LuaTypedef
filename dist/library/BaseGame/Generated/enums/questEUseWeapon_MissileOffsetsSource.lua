@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questEUseWeapon_MissileOffsetsSource: Enum
 ---@field None Enum 0
 ---@field Predefined_Narrow Enum 1

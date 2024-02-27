@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiGlobalTvSystem: gameIGlobalTvSystem
 gameuiGlobalTvSystem = {}
+
 
 ---@param fields? gameuiGlobalTvSystem
 ---@return gameuiGlobalTvSystem

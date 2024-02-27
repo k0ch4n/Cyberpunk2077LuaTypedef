@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleDeviceLinkPS: DeviceLinkComponentPS
 VehicleDeviceLinkPS = {}
+
 
 ---@param fields? VehicleDeviceLinkPS
 ---@return VehicleDeviceLinkPS

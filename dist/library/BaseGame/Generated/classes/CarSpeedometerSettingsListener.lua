@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CarSpeedometerSettingsListener: userSettingsVarListener
 ---@field ctrl hudCarController
 CarSpeedometerSettingsListener = {}
+
 
 ---@param fields? CarSpeedometerSettingsListener
 ---@return CarSpeedometerSettingsListener

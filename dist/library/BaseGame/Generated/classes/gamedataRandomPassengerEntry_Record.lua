@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRandomPassengerEntry_Record: gamedataTweakDBRecord
 gamedataRandomPassengerEntry_Record = {}
+
 
 ---@param fields? gamedataRandomPassengerEntry_Record
 ---@return gamedataRandomPassengerEntry_Record

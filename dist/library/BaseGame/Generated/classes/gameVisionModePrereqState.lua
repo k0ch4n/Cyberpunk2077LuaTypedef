@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameVisionModePrereqState: gamePrereqState
 gameVisionModePrereqState = {}
+
 
 ---@param fields? gameVisionModePrereqState
 ---@return gameVisionModePrereqState

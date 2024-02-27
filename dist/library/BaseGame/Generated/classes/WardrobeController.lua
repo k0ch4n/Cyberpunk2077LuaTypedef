@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WardrobeController: ScriptableDeviceComponent
 WardrobeController = {}
+
 
 ---@param fields? WardrobeController
 ---@return WardrobeController

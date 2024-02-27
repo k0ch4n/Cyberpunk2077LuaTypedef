@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class NewGameMenuGameController: PreGameSubMenuGameController
 ---@field categories inkSelectorController
 ---@field gameDefinitions inkSelectorController
 ---@field genders inkSelectorController
 NewGameMenuGameController = {}
+
 
 ---@param fields? NewGameMenuGameController
 ---@return NewGameMenuGameController

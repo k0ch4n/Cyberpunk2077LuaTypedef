@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PaymentStatus: Enum
 ---@field DEFAULT Enum 0
 ---@field IN_PROGRESS Enum 1

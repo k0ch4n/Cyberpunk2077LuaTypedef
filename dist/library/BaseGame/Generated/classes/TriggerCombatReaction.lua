@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TriggerCombatReaction: AIbehaviortaskScript
 TriggerCombatReaction = {}
+
 
 ---@param fields? TriggerCombatReaction
 ---@return TriggerCombatReaction

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CursorRootController: inkWidgetLogicController
 ---@field mainCursor inkWidgetReference
 ---@field cursorPattern inkWidgetReference
@@ -7,6 +8,7 @@
 ---@field progressBarFrame inkWidgetReference
 ---@field animProxy inkanimProxy
 CursorRootController = {}
+
 
 ---@param fields? CursorRootController
 ---@return CursorRootController

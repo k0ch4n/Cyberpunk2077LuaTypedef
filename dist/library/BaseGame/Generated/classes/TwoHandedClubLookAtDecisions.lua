@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TwoHandedClubLookAtDecisions: LookAtPresetMeleeBaseDecisions
 TwoHandedClubLookAtDecisions = {}
+
 
 ---@param fields? TwoHandedClubLookAtDecisions
 ---@return TwoHandedClubLookAtDecisions

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataImprovementRelation_Record: gamedataTweakDBRecord
 gamedataImprovementRelation_Record = {}
+
 
 ---@param fields? gamedataImprovementRelation_Record
 ---@return gamedataImprovementRelation_Record

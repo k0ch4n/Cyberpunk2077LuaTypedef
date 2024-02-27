@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_TransformToTrack: animAnimNode_OnePoseInput
 ---@field floatTrack Int32
 ---@field floatTrackIndex animNamedTrackIndex
@@ -11,6 +12,7 @@
 ---@field weightNode animFloatLink
 ---@field mulFactorNode animFloatLink
 animAnimNode_TransformToTrack = {}
+
 
 ---@param fields? animAnimNode_TransformToTrack
 ---@return animAnimNode_TransformToTrack

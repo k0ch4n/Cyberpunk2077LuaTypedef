@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceCloseHubMenuEvent: redEvent
 ForceCloseHubMenuEvent = {}
+
 
 ---@param fields? ForceCloseHubMenuEvent
 ---@return ForceCloseHubMenuEvent

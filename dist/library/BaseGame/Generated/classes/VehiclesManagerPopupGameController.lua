@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehiclesManagerPopupGameController: BaseModalListPopupGameController
 ---@field repairOverlay inkWidgetReference
 ---@field vehicleIconContainer inkWidgetReference
@@ -14,6 +15,7 @@
 ---@field selectAnimProxy inkanimProxy
 ---@field initialIndex Uint32
 VehiclesManagerPopupGameController = {}
+
 
 ---@param fields? VehiclesManagerPopupGameController
 ---@return VehiclesManagerPopupGameController

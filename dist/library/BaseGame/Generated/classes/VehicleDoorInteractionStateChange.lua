@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class VehicleDoorInteractionStateChange: ActionBool
 ---@field door vehicleEVehicleDoor
 ---@field newState vehicleVehicleDoorInteractionState
 ---@field source String
 VehicleDoorInteractionStateChange = {}
+
 
 ---@param fields? VehicleDoorInteractionStateChange
 ---@return VehicleDoorInteractionStateChange

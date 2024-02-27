@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ActivatedDeviceNPC: ActivatedDeviceTransfromAnim
 ---@field hasProperAnimations Bool
 ActivatedDeviceNPC = {}
+
 
 ---@param fields? ActivatedDeviceNPC
 ---@return ActivatedDeviceNPC

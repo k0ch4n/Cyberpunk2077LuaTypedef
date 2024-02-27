@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldStreamingQueryRoadData
 ---@field transform Transform
 ---@field splineData Spline
@@ -8,6 +9,7 @@
 ---@field connectedRoadsStartIndex Uint16
 ---@field connectedRoadsCount Uint16
 worldStreamingQueryRoadData = {}
+
 
 ---@param fields? worldStreamingQueryRoadData
 ---@return worldStreamingQueryRoadData

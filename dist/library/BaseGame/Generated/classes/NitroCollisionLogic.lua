@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NitroCollisionLogic: QuadRacerBonusCollisionLogic
 NitroCollisionLogic = {}
+
 
 ---@param fields? NitroCollisionLogic
 ---@return NitroCollisionLogic

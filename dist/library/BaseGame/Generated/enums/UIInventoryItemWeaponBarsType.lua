@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInventoryItemWeaponBarsType: Enum
 ---@field Ranged Enum 0
 ---@field Melee Enum 1

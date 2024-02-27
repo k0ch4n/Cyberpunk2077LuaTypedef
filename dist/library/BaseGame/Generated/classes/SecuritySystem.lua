@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SecuritySystem: DeviceSystemBase
 ---@field savedOutputCache OutputValidationDataStruct[]
 SecuritySystem = {}
+
 
 ---@param fields? SecuritySystem
 ---@return SecuritySystem

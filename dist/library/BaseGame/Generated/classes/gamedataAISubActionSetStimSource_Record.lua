@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionSetStimSource_Record: gamedataAISubAction_Record
 gamedataAISubActionSetStimSource_Record = {}
+
 
 ---@param fields? gamedataAISubActionSetStimSource_Record
 ---@return gamedataAISubActionSetStimSource_Record

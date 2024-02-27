@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class sampleUICustomizableAnimationsController: inkWidgetLogicController
 ---@field imagePath CName
 ---@field interpolationType inkanimInterpolationType
@@ -26,6 +27,7 @@
 ---@field currentTarget inkWidget
 ---@field currentAnimProxy inkanimProxy
 sampleUICustomizableAnimationsController = {}
+
 
 ---@param fields? sampleUICustomizableAnimationsController
 ---@return sampleUICustomizableAnimationsController

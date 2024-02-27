@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questLookAtAction: Enum
 ---@field Nothing Enum 0
 ---@field Reset Enum 1

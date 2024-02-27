@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleActivation: ActionBool
 ToggleActivation = {}
+
 
 ---@param fields? ToggleActivation
 ---@return ToggleActivation

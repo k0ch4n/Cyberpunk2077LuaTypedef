@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioDroneMetadata: audioCustomEmitterMetadata
 ---@field boneName CName
 ---@field engineStart CName
@@ -21,6 +22,7 @@
 ---@field playDistance Float
 ---@field decorators CName[]
 audioDroneMetadata = {}
+
 
 ---@param fields? audioDroneMetadata
 ---@return audioDroneMetadata

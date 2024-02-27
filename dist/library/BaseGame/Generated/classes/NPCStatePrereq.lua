@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class NPCStatePrereq: gameIScriptablePrereq
 ---@field previousState Bool
 ---@field isInState Bool
 ---@field skipWhenApplied Bool
 NPCStatePrereq = {}
+
 
 ---@param fields? NPCStatePrereq
 ---@return NPCStatePrereq

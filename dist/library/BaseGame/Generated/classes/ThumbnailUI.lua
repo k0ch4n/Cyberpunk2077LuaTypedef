@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ThumbnailUI: ActionBool
 ---@field thumbnailWidgetPackage SThumbnailWidgetPackage
 ThumbnailUI = {}
+
 
 ---@param fields? ThumbnailUI
 ---@return ThumbnailUI

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TempClearForcedCombatTarget: AIbehaviortaskScript
 TempClearForcedCombatTarget = {}
+
 
 ---@param fields? TempClearForcedCombatTarget
 ---@return TempClearForcedCombatTarget

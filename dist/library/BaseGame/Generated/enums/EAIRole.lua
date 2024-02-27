@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAIRole: Enum
 ---@field None Enum 0
 ---@field Patrol Enum 1

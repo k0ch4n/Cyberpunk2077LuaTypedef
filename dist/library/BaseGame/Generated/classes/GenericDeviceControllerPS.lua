@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GenericDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field isRecognizableBySenses Bool
 ---@field genericDeviceActionsSetup GenericDeviceActionsData
@@ -8,6 +9,7 @@
 ---@field thumbnailWidgetRecord TweakDBID
 ---@field performedCustomActionsIDs CName[]
 GenericDeviceControllerPS = {}
+
 
 ---@param fields? GenericDeviceControllerPS
 ---@return GenericDeviceControllerPS

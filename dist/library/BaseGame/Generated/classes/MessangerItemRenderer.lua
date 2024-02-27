@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MessangerItemRenderer: JournalEntryListItemController
 ---@field image inkImageWidgetReference
 ---@field container inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field stateQuestReply CName
 ---@field imageId TweakDBID
 MessangerItemRenderer = {}
+
 
 ---@param fields? MessangerItemRenderer
 ---@return MessangerItemRenderer

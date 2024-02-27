@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class InteractionMappinController: gameuiInteractionMappinController
 ---@field mappin gamemappinsInteractionMappin
 ---@field root inkWidget
 ---@field isConnected Bool
 InteractionMappinController = {}
+
 
 ---@param fields? InteractionMappinController
 ---@return InteractionMappinController

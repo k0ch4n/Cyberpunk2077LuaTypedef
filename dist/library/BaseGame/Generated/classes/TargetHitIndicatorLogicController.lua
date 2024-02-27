@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class TargetHitIndicatorLogicController: inkWidgetLogicController
 ---@field animName CName
 ---@field animationPriority Int32
 TargetHitIndicatorLogicController = {}
+
 
 ---@param fields? TargetHitIndicatorLogicController
 ---@return TargetHitIndicatorLogicController

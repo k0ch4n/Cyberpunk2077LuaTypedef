@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NoAmmoDecisions: WeaponTransition
 ---@field callbackID redCallbackObject
 NoAmmoDecisions = {}
+
 
 ---@param fields? NoAmmoDecisions
 ---@return NoAmmoDecisions

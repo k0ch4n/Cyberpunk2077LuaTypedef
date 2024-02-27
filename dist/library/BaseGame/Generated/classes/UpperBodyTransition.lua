@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UpperBodyTransition: DefaultTransition
 UpperBodyTransition = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool

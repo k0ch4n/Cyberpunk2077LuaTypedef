@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiCharacterCustomizationOptionImpl: gameuiCharacterCustomizationOption
 gameuiCharacterCustomizationOptionImpl = {}
+
 
 ---@param fields? gameuiCharacterCustomizationOptionImpl
 ---@return gameuiCharacterCustomizationOptionImpl

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayerQuickHackDataDef: gamebbScriptDefinition
 ---@field CachedQuickHackList gamebbScriptID_Variant
 PlayerQuickHackDataDef = {}
+
 
 ---@param fields? PlayerQuickHackDataDef
 ---@return PlayerQuickHackDataDef

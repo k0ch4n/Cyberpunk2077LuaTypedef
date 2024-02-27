@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animMotionTableAction: Enum
 ---@field MTA_None Enum 0
 ---@field MTA_Start Enum 1

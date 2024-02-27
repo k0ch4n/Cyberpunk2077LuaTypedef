@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DoorController: ScriptableDeviceComponent
 DoorController = {}
+
 
 ---@param fields? DoorController
 ---@return DoorController

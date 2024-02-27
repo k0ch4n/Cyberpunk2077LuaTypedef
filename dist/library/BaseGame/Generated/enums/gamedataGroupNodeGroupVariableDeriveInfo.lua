@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataGroupNodeGroupVariableDeriveInfo: Enum
 ---@field FullyDerived Enum 0
 ---@field TypeDerived Enum 1

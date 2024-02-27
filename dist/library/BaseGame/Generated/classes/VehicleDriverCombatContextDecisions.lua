@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleDriverCombatContextDecisions: InputContextTransitionDecisions
 ---@field callbackID redCallbackObject
 ---@field tppCallbackID redCallbackObject
@@ -7,6 +8,7 @@
 ---@field inTpp Bool
 ---@field isAiming Bool
 VehicleDriverCombatContextDecisions = {}
+
 
 ---@param fields? VehicleDriverCombatContextDecisions
 ---@return VehicleDriverCombatContextDecisions

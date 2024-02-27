@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviortweakCompiledActionConditionData
 AIbehaviortweakCompiledActionConditionData = {}
+
 
 ---@param fields? AIbehaviortweakCompiledActionConditionData
 ---@return AIbehaviortweakCompiledActionConditionData

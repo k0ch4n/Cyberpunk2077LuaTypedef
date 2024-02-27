@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class MovableQuestTrigger: gameObject
 ---@field factName CName
 ---@field onlyDetectsPlayer Bool
 MovableQuestTrigger = {}
+
 
 ---@param fields? MovableQuestTrigger
 ---@return MovableQuestTrigger

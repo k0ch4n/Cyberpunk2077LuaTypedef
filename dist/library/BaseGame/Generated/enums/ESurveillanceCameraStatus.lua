@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ESurveillanceCameraStatus: Enum
 ---@field THREAT Enum -1
 ---@field STREAMING Enum 0

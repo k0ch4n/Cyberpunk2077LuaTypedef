@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EHitReactionMode: Enum
 ---@field Regular Enum 0
 ---@field ForceImpact Enum 1

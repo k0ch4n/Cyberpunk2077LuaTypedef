@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TurretTransition: DefaultTransition
 TurretTransition = {}
+
 
 ---@param turret gameObject
 ---@param activator gameObject

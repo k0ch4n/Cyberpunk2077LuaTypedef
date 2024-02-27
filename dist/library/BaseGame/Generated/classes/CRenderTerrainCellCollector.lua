@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CRenderTerrainCellCollector: ISceneStorageCustomData
 CRenderTerrainCellCollector = {}
+
 
 ---@param fields? CRenderTerrainCellCollector
 ---@return CRenderTerrainCellCollector

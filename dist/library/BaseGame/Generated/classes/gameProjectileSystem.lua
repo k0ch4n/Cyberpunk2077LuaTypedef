@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameProjectileSystem: gameIProjectileSystem
 gameProjectileSystem = {}
+
 
 ---@param fields? gameProjectileSystem
 ---@return gameProjectileSystem

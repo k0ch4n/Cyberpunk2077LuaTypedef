@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vgEStyleAttributeType: Enum
 ---@field FillColor Enum 0
 ---@field StrokeColor Enum 1

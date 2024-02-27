@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RevealAccessPointPrereq: gameIScriptablePrereq
 RevealAccessPointPrereq = {}
+
 
 ---@param fields? RevealAccessPointPrereq
 ---@return RevealAccessPointPrereq

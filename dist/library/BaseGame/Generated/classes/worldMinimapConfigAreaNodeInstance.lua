@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldMinimapConfigAreaNodeInstance: worldAreaShapeNodeInstance
 worldMinimapConfigAreaNodeInstance = {}
+
 
 ---@param fields? worldMinimapConfigAreaNodeInstance
 ---@return worldMinimapConfigAreaNodeInstance

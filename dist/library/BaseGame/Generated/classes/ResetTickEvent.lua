@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetTickEvent: gameTickableEvent
 ResetTickEvent = {}
+
 
 ---@param fields? ResetTickEvent
 ---@return ResetTickEvent

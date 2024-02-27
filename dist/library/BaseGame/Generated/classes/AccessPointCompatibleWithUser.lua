@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AccessPointCompatibleWithUser: gameinteractionsInteractionScriptedCondition
 AccessPointCompatibleWithUser = {}
+
 
 ---@param fields? AccessPointCompatibleWithUser
 ---@return AccessPointCompatibleWithUser

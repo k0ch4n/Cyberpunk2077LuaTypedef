@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleOpenFridge: ActionBool
 ToggleOpenFridge = {}
+
 
 ---@param fields? ToggleOpenFridge
 ---@return ToggleOpenFridge

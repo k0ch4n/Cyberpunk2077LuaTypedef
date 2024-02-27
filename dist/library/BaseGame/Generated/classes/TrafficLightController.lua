@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TrafficLightController: ScriptableDeviceComponent
 TrafficLightController = {}
+
 
 ---@param fields? TrafficLightController
 ---@return TrafficLightController

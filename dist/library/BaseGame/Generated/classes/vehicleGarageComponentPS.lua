@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleGarageComponentPS: gameComponentPS
 ---@field spawnedVehiclesData vehicleGarageComponentVehicleData[]
 ---@field unlockedVehicles vehicleGarageVehicleID[]
@@ -9,6 +10,7 @@
 ---@field mountedVehicleData vehicleGarageComponentVehicleData
 ---@field mountedVehicleStolen Bool
 vehicleGarageComponentPS = {}
+
 
 ---@param fields? vehicleGarageComponentPS
 ---@return vehicleGarageComponentPS

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataHomingGDM_Record: gamedataGrenadeDeliveryMethod_Record
 gamedataHomingGDM_Record = {}
+
 
 ---@param fields? gamedataHomingGDM_Record
 ---@return gamedataHomingGDM_Record

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayerPuppetAllStatListener: gameScriptStatsListener
 ---@field player PlayerPuppet
 PlayerPuppetAllStatListener = {}
+
 
 ---@param fields? PlayerPuppetAllStatListener
 ---@return PlayerPuppetAllStatListener

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entEntity: IScriptable
 entEntity = {}
+
 
 ---@param fields? entEntity
 ---@return entEntity

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsclothState
 ---@field verticalPhaseData physicsclothPhaseConfig
 ---@field horizontalPhaseData physicsclothPhaseConfig
@@ -7,6 +8,7 @@
 ---@field shearPhaseData physicsclothPhaseConfig
 ---@field runtimeInfo physicsclothRuntimeInfo
 physicsclothState = {}
+
 
 ---@param fields? physicsclothState
 ---@return physicsclothState

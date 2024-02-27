@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animBoneTraceCondition: ISerializable
 ---@field boneIndex Int16
 ---@field traceByRotation Bool
@@ -7,6 +8,7 @@
 ---@field traceByTranslation Bool
 ---@field translationTolerance Float
 animBoneTraceCondition = {}
+
 
 ---@param fields? animBoneTraceCondition
 ---@return animBoneTraceCondition

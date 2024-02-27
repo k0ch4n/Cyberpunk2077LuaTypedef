@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AdjustAnimWrappersForEscalatingFearPhase: AIbehaviortaskScript
 AdjustAnimWrappersForEscalatingFearPhase = {}
+
 
 ---@param fields? AdjustAnimWrappersForEscalatingFearPhase
 ---@return AdjustAnimWrappersForEscalatingFearPhase

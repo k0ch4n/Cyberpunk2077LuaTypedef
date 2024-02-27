@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActionEntityReference: ScriptableDeviceAction
 ActionEntityReference = {}
+
 
 ---@return String
 function ActionEntityReference:GetCurrentDisplayString() end

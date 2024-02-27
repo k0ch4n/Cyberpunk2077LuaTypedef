@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CombatDecisions: VehicleTransition
 CombatDecisions = {}
+
 
 ---@param fields? CombatDecisions
 ---@return CombatDecisions

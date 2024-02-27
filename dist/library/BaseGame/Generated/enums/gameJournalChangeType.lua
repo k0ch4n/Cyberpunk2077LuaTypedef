@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalChangeType: Enum
 ---@field Undefined Enum 0
 ---@field Direct Enum 1

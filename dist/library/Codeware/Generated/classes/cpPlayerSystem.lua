@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class cpPlayerSystem: gamePlayerSystem
 ---@field customizationPuppet gamePuppet
 ---@field inventoryPuppet gamePuppet
 ---@field photoPuppet gamePuppet
 cpPlayerSystem = {}
+
 
 ---@param fields? cpPlayerSystem
 ---@return cpPlayerSystem

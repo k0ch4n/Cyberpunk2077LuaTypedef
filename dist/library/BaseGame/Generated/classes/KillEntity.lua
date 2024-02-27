@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class KillEntity: AIActionHelperTask
 KillEntity = {}
+
 
 ---@param fields? KillEntity
 ---@return KillEntity

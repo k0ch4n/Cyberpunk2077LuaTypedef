@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RemotePlayerMappinController: gameuiInteractionMappinController
 ---@field mappin gamemappinsRemotePlayerMappin
 ---@field root inkWidget
 RemotePlayerMappinController = {}
+
 
 ---@param fields? RemotePlayerMappinController
 ---@return RemotePlayerMappinController

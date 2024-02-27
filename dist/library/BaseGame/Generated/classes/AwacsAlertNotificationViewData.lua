@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AwacsAlertNotificationViewData: gameuiGenericNotificationViewData
 ---@field canBeMerged Bool
 AwacsAlertNotificationViewData = {}
+
 
 ---@param fields? AwacsAlertNotificationViewData
 ---@return AwacsAlertNotificationViewData

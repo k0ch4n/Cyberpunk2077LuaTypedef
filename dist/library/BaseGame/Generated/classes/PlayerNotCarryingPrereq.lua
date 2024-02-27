@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerNotCarryingPrereq: gameIScriptablePrereq
 PlayerNotCarryingPrereq = {}
+
 
 ---@param fields? PlayerNotCarryingPrereq
 ---@return PlayerNotCarryingPrereq

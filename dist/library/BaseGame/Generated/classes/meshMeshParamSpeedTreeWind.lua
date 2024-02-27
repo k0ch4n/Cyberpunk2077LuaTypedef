@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class meshMeshParamSpeedTreeWind: meshMeshParameter
 meshMeshParamSpeedTreeWind = {}
+
 
 ---@param fields? meshMeshParamSpeedTreeWind
 ---@return meshMeshParamSpeedTreeWind

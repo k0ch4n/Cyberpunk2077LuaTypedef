@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerResistancesGameController: BaseChunkGameController
 ---@field physicalResistText inkTextWidgetReference
 ---@field physicalResistContainer inkCompoundWidgetReference
@@ -26,6 +27,7 @@
 ---@field resistancesCallbackID redCallbackObject
 ---@field isValidResistances Bool
 ScannerResistancesGameController = {}
+
 
 ---@param fields? ScannerResistancesGameController
 ---@return ScannerResistancesGameController

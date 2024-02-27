@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleQuestEngineLockState: Enum
 ---@field DontToggleIfLocked Enum 0
 ---@field Lock Enum 1

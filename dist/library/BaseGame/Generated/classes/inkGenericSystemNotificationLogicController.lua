@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkGenericSystemNotificationLogicController: inkWidgetLogicController
 ---@field titleTextWidget inkTextWidgetReference
 ---@field descriptionTextWidget inkTextWidgetReference
@@ -10,6 +11,7 @@
 ---@field cancelButton inkWidgetReference
 ---@field DataSetByToken inkEmptyCallback
 inkGenericSystemNotificationLogicController = {}
+
 
 ---@param fields? inkGenericSystemNotificationLogicController
 ---@return inkGenericSystemNotificationLogicController

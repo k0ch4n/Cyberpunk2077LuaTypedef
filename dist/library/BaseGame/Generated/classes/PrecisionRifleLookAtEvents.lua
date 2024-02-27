@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PrecisionRifleLookAtEvents: lookAtPresetGunBaseEvents
 PrecisionRifleLookAtEvents = {}
+
 
 ---@param fields? PrecisionRifleLookAtEvents
 ---@return PrecisionRifleLookAtEvents

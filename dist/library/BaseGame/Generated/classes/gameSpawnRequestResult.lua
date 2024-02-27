@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSpawnRequestResult
 ---@field requestID Uint32
 ---@field policeStrategy vehiclePoliceStrategy
@@ -7,6 +8,7 @@
 ---@field spawnedObjects gameObject[]
 ---@field success Bool
 gameSpawnRequestResult = {}
+
 
 ---@param fields? gameSpawnRequestResult
 ---@return gameSpawnRequestResult

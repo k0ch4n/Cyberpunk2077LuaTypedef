@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class interopTerrainNodeInfo
 ---@field width Uint32
 ---@field height Uint32
@@ -18,6 +19,7 @@
 ---@field densityTexelSize Float
 ---@field nodeIDPath toolsEditorObjectIDPath
 interopTerrainNodeInfo = {}
+
 
 ---@param fields? interopTerrainNodeInfo
 ---@return interopTerrainNodeInfo

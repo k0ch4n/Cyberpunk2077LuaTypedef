@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InVehicleAlertedDecorator: AIVehicleTaskAbstract
 InVehicleAlertedDecorator = {}
+
 
 ---@param fields? InVehicleAlertedDecorator
 ---@return InVehicleAlertedDecorator

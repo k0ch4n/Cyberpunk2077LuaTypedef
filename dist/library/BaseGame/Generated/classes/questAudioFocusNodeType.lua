@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questAudioFocusNodeType: questIAudioNodeType
 questAudioFocusNodeType = {}
+
 
 ---@param fields? questAudioFocusNodeType
 ---@return questAudioFocusNodeType

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TimeDilationTransitions: DefaultTransition
 TimeDilationTransitions = {}
+
 
 ---@param fields? TimeDilationTransitions
 ---@return TimeDilationTransitions

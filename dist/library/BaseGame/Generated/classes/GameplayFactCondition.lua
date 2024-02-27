@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class GameplayFactCondition: GameplayConditionBase
 ---@field factName CName
 ---@field value Int32
 ---@field comparisonType ECompareOp
 ---@field description String
 GameplayFactCondition = {}
+
 
 ---@param fields? GameplayFactCondition
 ---@return GameplayFactCondition

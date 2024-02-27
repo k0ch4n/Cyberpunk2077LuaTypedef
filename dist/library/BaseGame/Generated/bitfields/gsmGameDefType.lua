@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@enum gsmGameDefType
 gsmGameDefType = {
     BASE = 0x1,

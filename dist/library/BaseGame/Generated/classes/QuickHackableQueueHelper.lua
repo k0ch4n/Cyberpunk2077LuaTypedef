@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickHackableQueueHelper: IScriptable
 QuickHackableQueueHelper = {}
+
 
 ---@param fields? QuickHackableQueueHelper
 ---@return QuickHackableQueueHelper

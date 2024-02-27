@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameinfluenceObstacleComponent: entIPlacedComponent
 ---@field boundingBoxType gameinfluenceEBoundingBoxType
 ---@field customBoundingBox Box
 ---@field obstacleAgent gameinfluenceObstacleAgent
 ---@field isEnabled Bool
 gameinfluenceObstacleComponent = {}
+
 
 ---@param fields? gameinfluenceObstacleComponent
 ---@return gameinfluenceObstacleComponent

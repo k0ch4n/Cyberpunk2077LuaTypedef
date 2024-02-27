@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTankBackgroundData_Record: gamedataTweakDBRecord
 gamedataTankBackgroundData_Record = {}
+
 
 ---@param fields? gamedataTankBackgroundData_Record
 ---@return gamedataTankBackgroundData_Record

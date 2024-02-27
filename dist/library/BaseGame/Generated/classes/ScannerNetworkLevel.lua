@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerNetworkLevel: ScannerChunk
 ---@field networkLevel Int32
 ScannerNetworkLevel = {}
+
 
 ---@param fields? ScannerNetworkLevel
 ---@return ScannerNetworkLevel

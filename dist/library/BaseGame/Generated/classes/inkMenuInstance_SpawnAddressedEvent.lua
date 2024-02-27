@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkMenuInstance_SpawnAddressedEvent: inkMenuInstance_SpawnEvent
 inkMenuInstance_SpawnAddressedEvent = {}
+
 
 ---@param fields? inkMenuInstance_SpawnAddressedEvent
 ---@return inkMenuInstance_SpawnAddressedEvent

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PanzerSmartWeaponTargetController: inkWidgetLogicController
 ---@field distanceText inkTextWidgetReference
 ---@field lockingAnimationProxy inkanimProxy
 PanzerSmartWeaponTargetController = {}
+
 
 ---@param fields? PanzerSmartWeaponTargetController
 ---@return PanzerSmartWeaponTargetController

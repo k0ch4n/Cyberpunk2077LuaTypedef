@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryEquipmentSlot: inkWidgetLogicController
 ---@field EquipSlotRef inkWidgetReference
 ---@field EmptySlotButtonRef inkWidgetReference
@@ -18,6 +19,7 @@
 ---@field smallSize Vector2
 ---@field bigSize Vector2
 InventoryEquipmentSlot = {}
+
 
 ---@param fields? InventoryEquipmentSlot
 ---@return InventoryEquipmentSlot

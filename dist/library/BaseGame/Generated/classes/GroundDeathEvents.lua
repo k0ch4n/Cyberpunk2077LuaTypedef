@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GroundDeathEvents: DeathEvents
 GroundDeathEvents = {}
+
 
 ---@param fields? GroundDeathEvents
 ---@return GroundDeathEvents

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectObjectProvider_ProjectileHitEvent: gameEffectObjectProvider
 gameEffectObjectProvider_ProjectileHitEvent = {}
+
 
 ---@param fields? gameEffectObjectProvider_ProjectileHitEvent
 ---@return gameEffectObjectProvider_ProjectileHitEvent

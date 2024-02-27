@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EVehicleSpawnBlockSide: Enum
 ---@field Front Enum 0
 ---@field Back Enum 1

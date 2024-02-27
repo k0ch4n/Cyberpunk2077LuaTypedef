@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_RotateBoneByQuaternion: animAnimNode_Base
 ---@field inputNode animPoseLink
 ---@field quaternionNode animQuaternionLink
@@ -7,6 +8,7 @@
 ---@field useIncrementalMode Bool
 ---@field resetOnActivation Bool
 animAnimNode_RotateBoneByQuaternion = {}
+
 
 ---@param fields? animAnimNode_RotateBoneByQuaternion
 ---@return animAnimNode_RotateBoneByQuaternion

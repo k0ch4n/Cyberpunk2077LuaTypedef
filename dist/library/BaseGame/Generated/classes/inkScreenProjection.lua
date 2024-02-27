@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class inkScreenProjection: IScriptable
 ---@field distanceToCamera Float
 ---@field previousPosition Vector2
 ---@field currentPosition Vector2
 ---@field uvPosition Vector2
 inkScreenProjection = {}
+
 
 ---@param fields? inkScreenProjection
 ---@return inkScreenProjection

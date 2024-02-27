@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CheckPuppetRagdollStateEvent: redEvent
 CheckPuppetRagdollStateEvent = {}
+
 
 ---@param fields? CheckPuppetRagdollStateEvent
 ---@return CheckPuppetRagdollStateEvent

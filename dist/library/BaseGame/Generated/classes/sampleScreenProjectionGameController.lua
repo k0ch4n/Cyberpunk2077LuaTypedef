@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class sampleScreenProjectionGameController: gameuiProjectedHUDGameController
 ---@field OnTargetHitCallback redCallbackObject
 sampleScreenProjectionGameController = {}
+
 
 ---@param fields? sampleScreenProjectionGameController
 ---@return sampleScreenProjectionGameController

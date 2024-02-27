@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ItemCategoryFliterManager: IScriptable
 ---@field filtersToCheck ItemFilterCategory[]
 ---@field filters ItemFilterCategory[]
 ---@field sharedFiltersToCheck ItemFilterCategory[]
 ---@field isOrderDirty Bool
 ItemCategoryFliterManager = {}
+
 
 ---@param fields? ItemCategoryFliterManager
 ---@return ItemCategoryFliterManager

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ForceMoveInCombatWhistleEffector: ForceMoveInCombatEffector
 ---@field targetPosition Vector4
 ForceMoveInCombatWhistleEffector = {}
+
 
 ---@param fields? ForceMoveInCombatWhistleEffector
 ---@return ForceMoveInCombatWhistleEffector

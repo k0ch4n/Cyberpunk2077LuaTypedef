@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class BaseHitPrereqCondition: IScriptable
 ---@field invert Bool
 ---@field onlyOncePerShot Bool
 ---@field lastAttackTime Float
 BaseHitPrereqCondition = {}
+
 
 ---@param fields? BaseHitPrereqCondition
 ---@return BaseHitPrereqCondition

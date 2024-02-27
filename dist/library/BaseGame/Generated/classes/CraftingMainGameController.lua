@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CraftingMainGameController: gameuiMenuGameController
 ---@field tooltipsManagerRef inkWidgetReference
 ---@field tabRootRef inkWidgetReference
@@ -27,6 +28,7 @@
 ---@field tabRoot TabRadioGroup
 ---@field isTabEnabled Bool
 CraftingMainGameController = {}
+
 
 ---@param fields? CraftingMainGameController
 ---@return CraftingMainGameController

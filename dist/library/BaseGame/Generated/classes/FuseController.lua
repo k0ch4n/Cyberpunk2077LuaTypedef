@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FuseController: MasterController
 FuseController = {}
+
 
 ---@param fields? FuseController
 ---@return FuseController

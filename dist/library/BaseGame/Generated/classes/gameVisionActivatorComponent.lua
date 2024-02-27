@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameVisionActivatorComponent: entIComponent
 gameVisionActivatorComponent = {}
+
 
 ---@param fields? gameVisionActivatorComponent
 ---@return gameVisionActivatorComponent

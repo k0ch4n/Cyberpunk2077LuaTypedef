@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataGrenade_Record: gamedataGadget_Record
 gamedataGrenade_Record = {}
+
 
 ---@param fields? gamedataGrenade_Record
 ---@return gamedataGrenade_Record

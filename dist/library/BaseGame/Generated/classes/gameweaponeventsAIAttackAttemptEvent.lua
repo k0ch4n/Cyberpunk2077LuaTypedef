@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameweaponeventsAIAttackAttemptEvent: redEvent
 ---@field instigator gameObject
 ---@field target gameObject
@@ -7,6 +8,7 @@
 ---@field continuousMode gameEContinuousMode
 ---@field minimumOpacity Float
 gameweaponeventsAIAttackAttemptEvent = {}
+
 
 ---@param fields? gameweaponeventsAIAttackAttemptEvent
 ---@return gameweaponeventsAIAttackAttemptEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldNodeEditorData: ISerializable
 ---@field id Uint64
 ---@field name CName
@@ -23,6 +24,7 @@
 ---@field maxStreamingDistance Float
 ---@field initialGlobalNameHash String
 worldNodeEditorData = {}
+
 
 ---@param fields? worldNodeEditorData
 ---@return worldNodeEditorData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsLastPlayerPositionEmpty: PreventionConditionAbstract
 IsLastPlayerPositionEmpty = {}
+
 
 ---@param fields? IsLastPlayerPositionEmpty
 ---@return IsLastPlayerPositionEmpty

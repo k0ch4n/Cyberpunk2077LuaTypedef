@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ChestPressControllerPS: ScriptableDeviceComponentPS
 ---@field chestPressSkillChecks EngDemoContainer
 ---@field factOnQHack CName
 ---@field wasWeighHacked Bool
 ChestPressControllerPS = {}
+
 
 ---@param fields? ChestPressControllerPS
 ---@return ChestPressControllerPS

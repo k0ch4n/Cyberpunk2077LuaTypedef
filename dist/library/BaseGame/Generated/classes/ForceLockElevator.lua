@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceLockElevator: ToggleLock
 ForceLockElevator = {}
+
 
 ---@param fields? ForceLockElevator
 ---@return ForceLockElevator

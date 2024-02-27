@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiEntityPreviewCameraSettings
 ---@field autoEnable Bool
 ---@field renderingMode ERenderingMode
@@ -13,6 +14,7 @@
 ---@field zoomMax Float
 ---@field zoomDefault Float
 gameuiEntityPreviewCameraSettings = {}
+
 
 ---@param fields? gameuiEntityPreviewCameraSettings
 ---@return gameuiEntityPreviewCameraSettings

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class GravityChangeTrigger: gameObject
 ---@field gravityType EGravityType
 ---@field regularStateMachineName CName
 ---@field lowGravityStateMachineName CName
 GravityChangeTrigger = {}
+
 
 ---@param fields? GravityChangeTrigger
 ---@return GravityChangeTrigger

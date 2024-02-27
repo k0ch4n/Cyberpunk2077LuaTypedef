@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataClearLineOfSightCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataClearLineOfSightCoverSelectionParameters_Record = {}
+
 
 ---@param fields? gamedataClearLineOfSightCoverSelectionParameters_Record
 ---@return gamedataClearLineOfSightCoverSelectionParameters_Record

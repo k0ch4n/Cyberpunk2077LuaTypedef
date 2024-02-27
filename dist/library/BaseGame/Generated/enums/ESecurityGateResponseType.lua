@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ESecurityGateResponseType: Enum
 ---@field AUDIOVISUAL_ONLY Enum 0
 ---@field SEC_SYS_REPRIMAND Enum 1

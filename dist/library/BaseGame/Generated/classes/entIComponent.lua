@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class entIComponent: IScriptable
 ---@field name CName
 ---@field isReplicable Bool
 ---@field id CRUID
 entIComponent = {}
+
 
 ---@param componentName CName|string
 ---@return entIComponent

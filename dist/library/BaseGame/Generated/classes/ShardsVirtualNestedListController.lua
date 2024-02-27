@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ShardsVirtualNestedListController: VirtualNestedListController
 ---@field currentDataView ShardsNestedListDataView
 ShardsVirtualNestedListController = {}
+
 
 ---@param fields? ShardsVirtualNestedListController
 ---@return ShardsVirtualNestedListController

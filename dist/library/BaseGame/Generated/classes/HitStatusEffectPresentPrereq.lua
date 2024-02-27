@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class HitStatusEffectPresentPrereq: GenericHitPrereq
 ---@field checkType gamedataCheckType
 ---@field statusEffectParam String
 ---@field tag CName
 HitStatusEffectPresentPrereq = {}
+
 
 ---@param fields? HitStatusEffectPresentPrereq
 ---@return HitStatusEffectPresentPrereq

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class interopReExportOptions
 ---@field occlusionExportOptNames CName[]
 ---@field occlusionExportOptValues Bool[]
@@ -35,6 +36,7 @@
 ---@field preferSmallProxiesTreshold Float
 ---@field generatePlayerBlockingCollision Bool
 interopReExportOptions = {}
+
 
 ---@param fields? interopReExportOptions
 ---@return interopReExportOptions

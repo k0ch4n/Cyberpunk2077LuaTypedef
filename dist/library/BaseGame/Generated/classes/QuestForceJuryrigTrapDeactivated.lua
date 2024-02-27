@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceJuryrigTrapDeactivated: ActionBool
 QuestForceJuryrigTrapDeactivated = {}
+
 
 ---@param fields? QuestForceJuryrigTrapDeactivated
 ---@return QuestForceJuryrigTrapDeactivated

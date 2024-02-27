@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DismembermentTriggeredPrereq: gameIScriptablePrereq
 ---@field currValue Uint32
 DismembermentTriggeredPrereq = {}
+
 
 ---@param fields? DismembermentTriggeredPrereq
 ---@return DismembermentTriggeredPrereq

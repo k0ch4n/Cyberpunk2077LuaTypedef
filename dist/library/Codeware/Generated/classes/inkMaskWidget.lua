@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkMaskWidget: inkLeafWidget
 inkMaskWidget = {}
+
 
 ---@param fields? inkMaskWidget
 ---@return inkMaskWidget

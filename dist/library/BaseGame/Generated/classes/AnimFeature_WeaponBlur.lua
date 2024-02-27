@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_WeaponBlur: animAnimFeature
 ---@field weaponNearPlane Float
 ---@field weaponFarPlane Float
@@ -16,6 +17,7 @@
 ---@field weaponVignetteCircular_aim Float
 ---@field weaponBlurIntensity_aim Float
 AnimFeature_WeaponBlur = {}
+
 
 ---@param fields? AnimFeature_WeaponBlur
 ---@return AnimFeature_WeaponBlur

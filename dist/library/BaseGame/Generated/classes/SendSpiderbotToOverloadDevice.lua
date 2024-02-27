@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SendSpiderbotToOverloadDevice: ActionBool
 SendSpiderbotToOverloadDevice = {}
+
 
 ---@param fields? SendSpiderbotToOverloadDevice
 ---@return SendSpiderbotToOverloadDevice

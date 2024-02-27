@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryItemDisplayController: BaseButtonView
 ---@field widgetWrapper inkWidgetReference
 ---@field itemName inkTextWidgetReference
@@ -117,6 +118,7 @@
 ---@field displayContextData ItemDisplayContextData
 ---@field parrentWrappedDataObject WrappedInventoryItemData
 InventoryItemDisplayController = {}
+
 
 ---@param fields? InventoryItemDisplayController
 ---@return InventoryItemDisplayController

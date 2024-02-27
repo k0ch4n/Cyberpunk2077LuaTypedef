@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDebugTimeState: gameITimeState
 gameDebugTimeState = {}
+
 
 ---@param fields? gameDebugTimeState
 ---@return gameDebugTimeState

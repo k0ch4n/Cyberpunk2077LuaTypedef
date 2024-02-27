@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReprimandStartAnimFeature: AIbehaviortaskScript
 ReprimandStartAnimFeature = {}
+
 
 ---@param fields? ReprimandStartAnimFeature
 ---@return ReprimandStartAnimFeature

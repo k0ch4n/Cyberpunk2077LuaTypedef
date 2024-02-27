@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CpoCharacterButtonItemController: inkButtonDpadSupportedController
 ---@field characterRecordId TweakDBID
 CpoCharacterButtonItemController = {}
+
 
 ---@param fields? CpoCharacterButtonItemController
 ---@return CpoCharacterButtonItemController

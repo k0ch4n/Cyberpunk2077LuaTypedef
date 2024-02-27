@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEffectTriggerRotationType: Enum
 ---@field None Enum 0
 ---@field AtSpawn Enum 1

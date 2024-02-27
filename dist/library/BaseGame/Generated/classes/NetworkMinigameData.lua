@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NetworkMinigameData
 ---@field gridData CellData[]
 ---@field playerBufferSize Int32
@@ -9,6 +10,7 @@
 ---@field enemyLockNetwork ProgramData
 ---@field enemyPrograms ProgramData[]
 NetworkMinigameData = {}
+
 
 ---@param fields? NetworkMinigameData
 ---@return NetworkMinigameData

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class HoloFeeder: InteractiveDevice
 ---@field feederMesh entIPlacedComponent
 ---@field feederMesh1 entIPlacedComponent
 HoloFeeder = {}
+
 
 ---@param fields? HoloFeeder
 ---@return HoloFeeder

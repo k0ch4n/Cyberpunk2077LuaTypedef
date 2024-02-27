@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StatusEffectManagerComponent: AIMandatoryComponents
 ---@field weaponDropedInWounded Bool
 StatusEffectManagerComponent = {}
+
 
 ---@param fields? StatusEffectManagerComponent
 ---@return StatusEffectManagerComponent

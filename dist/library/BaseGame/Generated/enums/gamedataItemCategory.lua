@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataItemCategory: Enum
 ---@field Clothing Enum 0
 ---@field Consumable Enum 1

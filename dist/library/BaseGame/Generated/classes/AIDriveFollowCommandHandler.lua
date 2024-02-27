@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIDriveFollowCommandHandler: AICommandHandlerBase
 ---@field outUseKinematic AIArgumentMapping
 ---@field outNeedDriver AIArgumentMapping
@@ -12,6 +13,7 @@
 ---@field outTrafficTryNeighborsForStart AIArgumentMapping
 ---@field outTrafficTryNeighborsForEnd AIArgumentMapping
 AIDriveFollowCommandHandler = {}
+
 
 ---@param fields? AIDriveFollowCommandHandler
 ---@return AIDriveFollowCommandHandler

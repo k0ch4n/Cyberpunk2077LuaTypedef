@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ECarryState: Enum
 ---@field None Enum 0
 ---@field Pickup Enum 1

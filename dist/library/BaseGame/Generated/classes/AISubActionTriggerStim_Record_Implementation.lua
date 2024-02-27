@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionTriggerStim_Record_Implementation: IScriptable
 AISubActionTriggerStim_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionTriggerStim_Record

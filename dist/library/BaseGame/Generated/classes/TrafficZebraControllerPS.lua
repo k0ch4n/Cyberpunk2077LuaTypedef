@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TrafficZebraControllerPS: TrafficLightControllerPS
 TrafficZebraControllerPS = {}
+
 
 ---@param fields? TrafficZebraControllerPS
 ---@return TrafficZebraControllerPS

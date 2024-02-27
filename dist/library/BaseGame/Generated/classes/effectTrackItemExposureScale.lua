@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class effectTrackItemExposureScale: effectTrackItem
 ---@field scale effectEffectParameterEvaluatorFloat
 ---@field useInitialCameraPosDirForFadeout Bool
@@ -8,6 +9,7 @@
 ---@field fullyVisibleAngle Float
 ---@field fadeOutAngle Float
 effectTrackItemExposureScale = {}
+
 
 ---@param fields? effectTrackItemExposureScale
 ---@return effectTrackItemExposureScale

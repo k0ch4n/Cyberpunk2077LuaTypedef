@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameJournalEntryOverrideData: IScriptable
 ---@field inputDevice inputESimplifiedInputDevice
 ---@field inputScheme inputEInputScheme
 ---@field overriddenLocalizationString LocalizationString
 gameJournalEntryOverrideData = {}
+
 
 ---@param fields? gameJournalEntryOverrideData
 ---@return gameJournalEntryOverrideData

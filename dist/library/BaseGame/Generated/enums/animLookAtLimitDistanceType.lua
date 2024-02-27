@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animLookAtLimitDistanceType: Enum
 ---@field Short Enum 0
 ---@field Normal Enum 1

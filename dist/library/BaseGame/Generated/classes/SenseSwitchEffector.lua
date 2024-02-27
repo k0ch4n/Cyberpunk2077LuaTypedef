@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SenseSwitchEffector: gameEffector
 SenseSwitchEffector = {}
+
 
 ---@param fields? SenseSwitchEffector
 ---@return SenseSwitchEffector

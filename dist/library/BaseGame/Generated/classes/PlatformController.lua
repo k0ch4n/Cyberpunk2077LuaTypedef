@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlatformController: ScriptableDeviceComponent
 PlatformController = {}
+
 
 ---@param fields? PlatformController
 ---@return PlatformController

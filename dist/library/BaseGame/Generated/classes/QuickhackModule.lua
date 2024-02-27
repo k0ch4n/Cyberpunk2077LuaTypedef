@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuickhackModule: HUDModule
 ---@field calculateClose Bool
 QuickhackModule = {}
+
 
 ---@param fields? QuickhackModule
 ---@return QuickhackModule

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_RotateBone: animAnimNode_Base
 ---@field inputNode animPoseLink
 ---@field angleNode animFloatLink
@@ -16,6 +17,7 @@
 ---@field resetOnActivation Bool
 ---@field inModelSpace Bool
 animAnimNode_RotateBone = {}
+
 
 ---@param fields? animAnimNode_RotateBone
 ---@return animAnimNode_RotateBone

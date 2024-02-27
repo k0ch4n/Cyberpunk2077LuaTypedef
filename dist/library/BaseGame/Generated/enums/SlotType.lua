@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SlotType: Enum
 ---@field DEFAULT Enum 0
 ---@field HOLSTER Enum 1

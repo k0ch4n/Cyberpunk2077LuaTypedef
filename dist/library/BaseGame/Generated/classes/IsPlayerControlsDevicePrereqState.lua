@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsPlayerControlsDevicePrereqState: gamePrereqState
 ---@field listenerInfo redCallbackObject
 IsPlayerControlsDevicePrereqState = {}
+
 
 ---@param fields? IsPlayerControlsDevicePrereqState
 ---@return IsPlayerControlsDevicePrereqState

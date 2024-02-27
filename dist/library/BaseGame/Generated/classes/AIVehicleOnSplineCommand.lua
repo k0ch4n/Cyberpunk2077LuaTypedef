@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIVehicleOnSplineCommand: AIVehicleCommand
 ---@field splineRef NodeRef
 ---@field secureTimeOut Float
@@ -21,6 +22,7 @@
 ---@field rubberBandingStayInFront Bool
 ---@field audioCurvesParam vehicleAudioCurvesParam
 AIVehicleOnSplineCommand = {}
+
 
 ---@param fields? AIVehicleOnSplineCommand
 ---@return AIVehicleOnSplineCommand

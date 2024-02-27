@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GetFollowTarget: FollowVehicleTask
 ---@field blackboard gameIBlackboard
 ---@field vehicle vehicleBaseObject
 GetFollowTarget = {}
+
 
 ---@param fields? GetFollowTarget
 ---@return GetFollowTarget

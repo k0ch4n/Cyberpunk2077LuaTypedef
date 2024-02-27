@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GrappleBreakFreeEvents: GrappleStandEvents
 ---@field playerPositionVerified Bool
 ---@field shouldPushPlayerAway Bool
 GrappleBreakFreeEvents = {}
+
 
 ---@param fields? GrappleBreakFreeEvents
 ---@return GrappleBreakFreeEvents

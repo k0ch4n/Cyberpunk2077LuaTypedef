@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OpenFullscreenUI: ActionBool
 OpenFullscreenUI = {}
+
 
 ---@param fields? OpenFullscreenUI
 ---@return OpenFullscreenUI

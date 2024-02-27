@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnInterruptCapability: Enum
 ---@field None Enum 0
 ---@field Interruptable Enum 1

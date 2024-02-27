@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorDriveChaseTargetTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field target AIArgumentMapping
 ---@field distanceMin AIArgumentMapping
@@ -10,6 +11,7 @@
 ---@field ignoreChaseVehiclesLimit AIArgumentMapping
 ---@field boostDrivingStats AIArgumentMapping
 AIbehaviorDriveChaseTargetTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorDriveChaseTargetTreeNodeDefinition
 ---@return AIbehaviorDriveChaseTargetTreeNodeDefinition

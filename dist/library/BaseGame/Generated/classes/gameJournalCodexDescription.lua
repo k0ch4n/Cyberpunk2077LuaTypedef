@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameJournalCodexDescription: gameJournalEntry
 ---@field subTitle LocalizationString
 ---@field textContent LocalizationString
 gameJournalCodexDescription = {}
+
 
 ---@param fields? gameJournalCodexDescription
 ---@return gameJournalCodexDescription

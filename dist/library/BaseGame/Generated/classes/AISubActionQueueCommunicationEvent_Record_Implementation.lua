@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionQueueCommunicationEvent_Record_Implementation: IScriptable
 AISubActionQueueCommunicationEvent_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionQueueCommunicationEvent_Record

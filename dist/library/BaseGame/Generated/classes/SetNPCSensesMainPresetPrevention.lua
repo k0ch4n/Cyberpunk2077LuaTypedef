@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetNPCSensesMainPresetPrevention: SetNPCSensesMainPreset
 SetNPCSensesMainPresetPrevention = {}
+
 
 ---@param fields? SetNPCSensesMainPresetPrevention
 ---@return SetNPCSensesMainPresetPrevention

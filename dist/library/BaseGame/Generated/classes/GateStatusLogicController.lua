@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GateStatusLogicController: inkWidgetLogicController
 ---@field textStatus inkTextWidgetReference
 GateStatusLogicController = {}
+
 
 ---@param fields? GateStatusLogicController
 ---@return GateStatusLogicController

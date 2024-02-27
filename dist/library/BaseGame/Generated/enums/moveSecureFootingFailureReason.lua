@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class moveSecureFootingFailureReason: Enum
 ---@field Invalid Enum 0
 ---@field Filter Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PerksMainGameController: gameuiMenuGameController
 ---@field tooltipsManagerRef inkWidgetReference
 ---@field buttonHintsManagerRef inkWidgetReference
@@ -34,6 +35,7 @@
 ---@field cantRespecAnim inkanimProxy
 ---@field lastHoveredAttribute PerkMenuAttribute
 PerksMainGameController = {}
+
 
 ---@param fields? PerksMainGameController
 ---@return PerksMainGameController

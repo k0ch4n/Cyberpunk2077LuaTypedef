@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Codeware_UI_inkWidgetHelper: IScriptable
 Codeware_UI_inkWidgetHelper = {}
+
 
 ---@param widget inkWidget
 ---@param controllerType CName|string

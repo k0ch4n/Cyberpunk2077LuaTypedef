@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AuthorizationFactsSet: BunkerSystemsFactsSet
 AuthorizationFactsSet = {}
+
 
 ---@param fields? AuthorizationFactsSet
 ---@return AuthorizationFactsSet

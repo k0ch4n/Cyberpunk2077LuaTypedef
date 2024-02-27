@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UI_ScannerModulesDef: gamebbScriptDefinition
 ---@field ScannerName gamebbScriptID_Variant
 ---@field ScannerHealth gamebbScriptID_Variant
@@ -33,6 +34,7 @@
 ---@field ScannerQuickHackDescription gamebbScriptID_Variant
 ---@field ObjectType gamebbScriptID_Int32
 UI_ScannerModulesDef = {}
+
 
 ---@param fields? UI_ScannerModulesDef
 ---@return UI_ScannerModulesDef

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RegisterNPCRequest: gameScriptableSystemRequest
 ---@field puppet ScriptedPuppet
 RegisterNPCRequest = {}
+
 
 ---@param fields? RegisterNPCRequest
 ---@return RegisterNPCRequest

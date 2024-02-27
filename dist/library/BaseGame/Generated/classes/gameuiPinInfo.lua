@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiPinInfo
 ---@field shouldShow Bool
 ---@field showFloorAbove Bool
@@ -8,6 +9,7 @@
 ---@field offset Float
 ---@field displayText String
 gameuiPinInfo = {}
+
 
 ---@param fields? gameuiPinInfo
 ---@return gameuiPinInfo

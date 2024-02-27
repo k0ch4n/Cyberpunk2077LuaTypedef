@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InventoryComboBoxContentController: inkWidgetLogicController
 InventoryComboBoxContentController = {}
+
 
 ---@param fields? InventoryComboBoxContentController
 ---@return InventoryComboBoxContentController

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CameraDeadBodyInternalData: IScriptable
 ---@field ownerID entEntityID
 ---@field bodyIDs entEntityID[]
 CameraDeadBodyInternalData = {}
+
 
 ---@param fields? CameraDeadBodyInternalData
 ---@return CameraDeadBodyInternalData

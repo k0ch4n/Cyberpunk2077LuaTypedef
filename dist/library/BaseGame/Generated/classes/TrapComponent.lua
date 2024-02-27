@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TrapComponent: gameScriptableComponent
 TrapComponent = {}
+
 
 ---@param fields? TrapComponent
 ---@return TrapComponent

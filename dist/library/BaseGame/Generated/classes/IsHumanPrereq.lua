@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsHumanPrereq: gameIScriptablePrereq
 ---@field invert Bool
 IsHumanPrereq = {}
+
 
 ---@param fields? IsHumanPrereq
 ---@return IsHumanPrereq

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CombatGadgetChargeDecisions: CombatGadgetTransitions
 CombatGadgetChargeDecisions = {}
+
 
 ---@param fields? CombatGadgetChargeDecisions
 ---@return CombatGadgetChargeDecisions

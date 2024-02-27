@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISquadFilterOwnTargetSpotted_Record: gamedataAITicketFilter_Record
 gamedataAISquadFilterOwnTargetSpotted_Record = {}
+
 
 ---@param fields? gamedataAISquadFilterOwnTargetSpotted_Record
 ---@return gamedataAISquadFilterOwnTargetSpotted_Record

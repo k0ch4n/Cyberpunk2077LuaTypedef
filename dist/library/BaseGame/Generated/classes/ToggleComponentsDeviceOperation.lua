@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ToggleComponentsDeviceOperation: DeviceOperationBase
 ---@field components SComponentOperationData[]
 ToggleComponentsDeviceOperation = {}
+
 
 ---@param fields? ToggleComponentsDeviceOperation
 ---@return ToggleComponentsDeviceOperation

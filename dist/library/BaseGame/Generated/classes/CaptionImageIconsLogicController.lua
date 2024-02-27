@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CaptionImageIconsLogicController: inkWidgetLogicController
 ---@field GenericIcon inkImageWidgetReference
 ---@field GenericHolder inkCompoundWidgetReference
@@ -21,6 +22,7 @@
 ---@field PayWrapper inkCompoundWidgetReference
 ---@field PayHolder inkCompoundWidgetReference
 CaptionImageIconsLogicController = {}
+
 
 ---@param fields? CaptionImageIconsLogicController
 ---@return CaptionImageIconsLogicController

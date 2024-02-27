@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineState: graphGraphNodeDefinition
 gamestateMachineState = {}
+
 
 ---@param fields? gamestateMachineState
 ---@return gamestateMachineState

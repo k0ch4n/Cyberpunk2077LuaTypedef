@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISquadHelper: IScriptable
 AISquadHelper = {}
+
 
 ---@param fields? AISquadHelper
 ---@return AISquadHelper

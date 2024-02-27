@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EmissiveColorSettings: IAreaSettings
 ---@field tint curveData
 ---@field saturation curveData
@@ -12,6 +13,7 @@
 ---@field curveRampIBL Float
 ---@field exposureScale curveData
 EmissiveColorSettings = {}
+
 
 ---@param fields? EmissiveColorSettings
 ---@return EmissiveColorSettings

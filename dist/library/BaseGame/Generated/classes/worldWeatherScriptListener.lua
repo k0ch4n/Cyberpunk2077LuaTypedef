@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldWeatherScriptListener: IScriptable
 worldWeatherScriptListener = {}
+
 
 ---@param fields? worldWeatherScriptListener
 ---@return worldWeatherScriptListener

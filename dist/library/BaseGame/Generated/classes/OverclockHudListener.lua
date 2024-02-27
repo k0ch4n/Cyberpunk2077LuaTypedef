@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OverclockHudListener: gameScriptStatusEffectListener
 ---@field hudController gameuiHUDGameController
 OverclockHudListener = {}
+
 
 ---@param fields? OverclockHudListener
 ---@return OverclockHudListener

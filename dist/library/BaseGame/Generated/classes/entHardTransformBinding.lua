@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entHardTransformBinding: entITransformBinding
 ---@field slotName CName
 entHardTransformBinding = {}
+
 
 ---@param fields? entHardTransformBinding
 ---@return entHardTransformBinding

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Codeware_UI_ICustomPopupManager: IScriptable
 Codeware_UI_ICustomPopupManager = {}
+
 
 ---@param popupController Codeware_UI_CustomPopup
 ---@return nil

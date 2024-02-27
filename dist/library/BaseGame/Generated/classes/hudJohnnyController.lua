@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hudJohnnyController: gameuiHUDGameController
 ---@field tourHeader inkTextWidgetReference
 ---@field leftDates inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field cancelled inkWidgetReference
 ---@field gameInstance ScriptGameInstance
 hudJohnnyController = {}
+
 
 ---@param fields? hudJohnnyController
 ---@return hudJohnnyController

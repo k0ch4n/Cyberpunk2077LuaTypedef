@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class LimfaticNanoChargeSystemEffector: gameContinuousEffector
 ---@field maxDistance Float
 ---@field statusEffectID TweakDBID
 ---@field ownerID entEntityID
 ---@field statusEffectIsApplied Bool
 LimfaticNanoChargeSystemEffector = {}
+
 
 ---@param fields? LimfaticNanoChargeSystemEffector
 ---@return LimfaticNanoChargeSystemEffector

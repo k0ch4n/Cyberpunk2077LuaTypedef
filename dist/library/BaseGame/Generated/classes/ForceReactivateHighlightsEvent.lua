@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceReactivateHighlightsEvent: redEvent
 ForceReactivateHighlightsEvent = {}
+
 
 ---@param fields? ForceReactivateHighlightsEvent
 ---@return ForceReactivateHighlightsEvent

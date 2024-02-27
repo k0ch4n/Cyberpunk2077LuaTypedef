@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_BlendAdditive: animAnimNode_Base
 ---@field biasValue Float
 ---@field scaleValue Float
@@ -15,6 +16,7 @@
 ---@field weightPreviousFrameFloatTrackDefaultValue Float
 ---@field maskName CName
 animAnimNode_BlendAdditive = {}
+
 
 ---@param fields? animAnimNode_BlendAdditive
 ---@return animAnimNode_BlendAdditive

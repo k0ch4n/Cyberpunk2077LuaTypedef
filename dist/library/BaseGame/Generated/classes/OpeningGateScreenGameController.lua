@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OpeningGateScreenGameController: BaseBunkerComputerGameController
 ---@field systemConsole inkWidgetReference
 ---@field gateScheme inkWidgetReference
@@ -28,6 +29,7 @@
 ---@field resultPopupIntroAnimProxy inkanimProxy
 ---@field resultPopupAnimProxy inkanimProxy
 OpeningGateScreenGameController = {}
+
 
 ---@param fields? OpeningGateScreenGameController
 ---@return OpeningGateScreenGameController

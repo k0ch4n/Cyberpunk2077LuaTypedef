@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameGameRulesSystem: gameIGameRulesSystem
 gameGameRulesSystem = {}
+
 
 ---@param fields? gameGameRulesSystem
 ---@return gameGameRulesSystem

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameJournalQuest: gameJournalFileEntry
 ---@field title LocalizationString
 ---@field type gameJournalQuestType
 ---@field recommendedLevelID TweakDBID
 ---@field districtID String
 gameJournalQuest = {}
+
 
 ---@param fields? gameJournalQuest
 ---@return gameJournalQuest

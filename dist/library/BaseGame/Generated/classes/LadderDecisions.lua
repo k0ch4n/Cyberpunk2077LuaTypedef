@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LadderDecisions: LocomotionGroundDecisions
 LadderDecisions = {}
+
 
 ---@param fields? LadderDecisions
 ---@return LadderDecisions

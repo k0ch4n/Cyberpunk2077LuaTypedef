@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class InvestedPerksPrereq: gameIScriptablePrereq
 ---@field amount Int32
 ---@field proficiency gamedataProficiencyType
 InvestedPerksPrereq = {}
+
 
 ---@param fields? InvestedPerksPrereq
 ---@return InvestedPerksPrereq

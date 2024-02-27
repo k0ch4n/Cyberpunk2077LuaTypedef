@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhoneMessageNotificationsGameController: gameuiWidgetGameController
 ---@field maxMessageSize Int32
 ---@field title inkTextWidgetReference
@@ -10,6 +11,7 @@
 ---@field animationProxy inkanimProxy
 ---@field data JournalNotificationData
 PhoneMessageNotificationsGameController = {}
+
 
 ---@param fields? PhoneMessageNotificationsGameController
 ---@return PhoneMessageNotificationsGameController

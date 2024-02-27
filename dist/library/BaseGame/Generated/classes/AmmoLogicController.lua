@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AmmoLogicController: inkWidgetLogicController
 ---@field count Uint32
 ---@field capacity Uint32
 AmmoLogicController = {}
+
 
 ---@param value Uint32
 ---@return nil

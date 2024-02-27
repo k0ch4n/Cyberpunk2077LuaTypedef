@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataApperanceToEthnicitiesMap_Record: gamedataTweakDBRecord
 gamedataApperanceToEthnicitiesMap_Record = {}
+
 
 ---@param fields? gamedataApperanceToEthnicitiesMap_Record
 ---@return gamedataApperanceToEthnicitiesMap_Record

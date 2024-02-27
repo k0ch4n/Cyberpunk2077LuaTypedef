@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionApplyTimeDilation_Record_Implementation: IScriptable
 AISubActionApplyTimeDilation_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionApplyTimeDilation_Record

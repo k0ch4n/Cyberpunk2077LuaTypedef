@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class MoveToScavengeTarget: AIbehaviortaskScript
 ---@field lastTime Float
 ---@field timeout Float
 ---@field timeoutDuration Float
 MoveToScavengeTarget = {}
+
 
 ---@param fields? MoveToScavengeTarget
 ---@return MoveToScavengeTarget

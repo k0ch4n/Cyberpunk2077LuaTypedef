@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionSpawnFX_Record: gamedataAISubAction_Record
 gamedataAISubActionSpawnFX_Record = {}
+
 
 ---@param fields? gamedataAISubActionSpawnFX_Record
 ---@return gamedataAISubActionSpawnFX_Record

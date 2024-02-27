@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TargetNPCIsCrowdHitPrereqCondition: BaseHitPrereqCondition
 TargetNPCIsCrowdHitPrereqCondition = {}
+
 
 ---@param fields? TargetNPCIsCrowdHitPrereqCondition
 ---@return TargetNPCIsCrowdHitPrereqCondition

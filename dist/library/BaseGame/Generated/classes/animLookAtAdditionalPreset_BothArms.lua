@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class animLookAtAdditionalPreset_BothArms: animLookAtAdditionalPreset
 ---@field rightHanded Bool
 ---@field softLimitAngle Float
 animLookAtAdditionalPreset_BothArms = {}
+
 
 ---@param fields? animLookAtAdditionalPreset_BothArms
 ---@return animLookAtAdditionalPreset_BothArms

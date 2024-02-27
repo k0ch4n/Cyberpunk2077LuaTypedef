@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InteractiveAdFinishedEvent: redEvent
 InteractiveAdFinishedEvent = {}
+
 
 ---@param fields? InteractiveAdFinishedEvent
 ---@return InteractiveAdFinishedEvent

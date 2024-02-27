@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReserveAssignedSeat: redEvent
 ReserveAssignedSeat = {}
+
 
 ---@param fields? ReserveAssignedSeat
 ---@return ReserveAssignedSeat

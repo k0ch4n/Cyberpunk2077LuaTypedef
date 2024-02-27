@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioVehicleInteriorParameterData
 ---@field enterCurveType audioESoundCurveType
 ---@field enterCurveTime Float
@@ -8,6 +9,7 @@
 ---@field exitCurveTime Float
 ---@field exitDelayTime Float
 audioVehicleInteriorParameterData = {}
+
 
 ---@param fields? audioVehicleInteriorParameterData
 ---@return audioVehicleInteriorParameterData

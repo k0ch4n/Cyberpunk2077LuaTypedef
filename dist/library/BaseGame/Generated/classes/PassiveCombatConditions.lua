@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PassiveCombatConditions: PassiveAutonomousCondition
 ---@field combatCommandCbId Uint32
 ---@field roleCbId Uint32
@@ -8,6 +9,7 @@
 ---@field activeCombatConditionCbId Uint32
 ---@field delayEvaluationCbId Uint32
 PassiveCombatConditions = {}
+
 
 ---@param fields? PassiveCombatConditions
 ---@return PassiveCombatConditions

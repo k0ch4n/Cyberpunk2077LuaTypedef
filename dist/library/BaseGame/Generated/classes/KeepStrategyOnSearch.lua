@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class KeepStrategyOnSearch: AIVehicleConditionAbstract
 KeepStrategyOnSearch = {}
+
 
 ---@param fields? KeepStrategyOnSearch
 ---@return KeepStrategyOnSearch

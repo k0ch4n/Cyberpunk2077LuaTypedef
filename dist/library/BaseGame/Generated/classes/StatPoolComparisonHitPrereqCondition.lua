@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class StatPoolComparisonHitPrereqCondition: BaseHitPrereqCondition
 ---@field comparisonSource CName
 ---@field comparisonTarget CName
 ---@field comparisonType EComparisonType
 ---@field statPoolToCompare gamedataStatPoolType
 StatPoolComparisonHitPrereqCondition = {}
+
 
 ---@param fields? StatPoolComparisonHitPrereqCondition
 ---@return StatPoolComparisonHitPrereqCondition

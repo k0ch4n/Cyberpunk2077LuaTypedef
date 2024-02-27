@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIActionPhase_Record: gamedataTweakDBRecord
 gamedataAIActionPhase_Record = {}
+
 
 ---@param fields? gamedataAIActionPhase_Record
 ---@return gamedataAIActionPhase_Record

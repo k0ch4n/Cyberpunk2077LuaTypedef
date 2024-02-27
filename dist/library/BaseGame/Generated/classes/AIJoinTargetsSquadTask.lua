@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIJoinTargetsSquadTask: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 AIJoinTargetsSquadTask = {}
+
 
 ---@param fields? AIJoinTargetsSquadTask
 ---@return AIJoinTargetsSquadTask

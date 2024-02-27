@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayerElevationPrereq: gameIScriptablePrereq
 ---@field elevationThreshold Float
 PlayerElevationPrereq = {}
+
 
 ---@param fields? PlayerElevationPrereq
 ---@return PlayerElevationPrereq

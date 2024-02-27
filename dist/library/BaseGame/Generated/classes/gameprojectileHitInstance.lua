@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameprojectileHitInstance
 ---@field traceResult physicsTraceResult
 ---@field position Vector4
@@ -14,6 +15,7 @@
 ---@field isWaterSurfaceImpact Bool
 ---@field hitThroughWaterSurface Bool
 gameprojectileHitInstance = {}
+
 
 ---@param fields? gameprojectileHitInstance
 ---@return gameprojectileHitInstance

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStatusEffectComponentPS: gameComponentPS
 ---@field statusEffectArray gameStatusEffect[]
 ---@field delayedFunctions gameDelayedFunctionsScheduler
@@ -7,6 +8,7 @@
 ---@field isPlayerControlled Bool
 ---@field tickComponent Bool
 gameStatusEffectComponentPS = {}
+
 
 ---@param fields? gameStatusEffectComponentPS
 ---@return gameStatusEffectComponentPS

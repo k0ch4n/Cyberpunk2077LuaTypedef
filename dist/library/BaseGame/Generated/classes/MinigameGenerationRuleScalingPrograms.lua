@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class MinigameGenerationRuleScalingPrograms: gameuiMinigameGenerationRule
 ---@field bbNetwork gameIBlackboard
 ---@field isOfficerBreach Bool
 ---@field isRemoteBreach Bool
 ---@field isFirstAttempt Bool
 MinigameGenerationRuleScalingPrograms = {}
+
 
 ---@param fields? MinigameGenerationRuleScalingPrograms
 ---@return MinigameGenerationRuleScalingPrograms

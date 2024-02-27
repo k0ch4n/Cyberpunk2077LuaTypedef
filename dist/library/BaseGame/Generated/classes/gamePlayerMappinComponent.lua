@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePlayerMappinComponent: entIComponent
 gamePlayerMappinComponent = {}
+
 
 ---@param fields? gamePlayerMappinComponent
 ---@return gamePlayerMappinComponent

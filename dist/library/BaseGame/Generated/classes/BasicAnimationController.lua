@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BasicAnimationController: inkWidgetLogicController
 ---@field showAnimation CName
 ---@field idleAnimation CName
@@ -7,6 +8,7 @@
 ---@field animationPlayer AnimationChainPlayer
 ---@field currentAnimation CName
 BasicAnimationController = {}
+
 
 ---@param fields? BasicAnimationController
 ---@return BasicAnimationController

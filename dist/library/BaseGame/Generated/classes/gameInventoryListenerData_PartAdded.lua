@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameInventoryListenerData_PartAdded: gameInventoryListenerData_Base
 gameInventoryListenerData_PartAdded = {}
+
 
 ---@param fields? gameInventoryListenerData_PartAdded
 ---@return gameInventoryListenerData_PartAdded

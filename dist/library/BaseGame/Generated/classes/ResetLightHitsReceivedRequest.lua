@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetLightHitsReceivedRequest: gameScriptableSystemRequest
 ResetLightHitsReceivedRequest = {}
+
 
 ---@param fields? ResetLightHitsReceivedRequest
 ---@return ResetLightHitsReceivedRequest

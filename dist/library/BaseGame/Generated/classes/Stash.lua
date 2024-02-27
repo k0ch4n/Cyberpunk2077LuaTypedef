@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Stash: InteractiveDevice
 Stash = {}
+
 
 ---@param fields? Stash
 ---@return Stash

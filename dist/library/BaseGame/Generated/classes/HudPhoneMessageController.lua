@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HudPhoneMessageController: HUDPhoneElement
 ---@field MessageText inkTextWidgetReference
 ---@field MessageAnim inkanimProxy
@@ -12,6 +13,7 @@
 ---@field CurrentMessage gameJournalPhoneMessage
 ---@field Queue gameJournalPhoneMessage[]
 HudPhoneMessageController = {}
+
 
 ---@param fields? HudPhoneMessageController
 ---@return HudPhoneMessageController

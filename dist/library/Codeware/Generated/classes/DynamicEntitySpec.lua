@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DynamicEntitySpec: IScriptable
 ---@field recordID TweakDBID
 ---@field templatePath CResource
@@ -14,6 +15,7 @@
 ---@field tags CName[]
 ---@field active Bool
 DynamicEntitySpec = {}
+
 
 ---@param fields? DynamicEntitySpec
 ---@return DynamicEntitySpec

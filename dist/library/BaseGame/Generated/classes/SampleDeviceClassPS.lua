@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SampleDeviceClassPS: gameObjectPS
 ---@field counter Int32
 SampleDeviceClassPS = {}
+
 
 ---@param fields? SampleDeviceClassPS
 ---@return SampleDeviceClassPS

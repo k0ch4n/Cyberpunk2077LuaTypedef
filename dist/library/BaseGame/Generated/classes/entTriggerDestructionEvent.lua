@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entTriggerDestructionEvent: redEvent
 entTriggerDestructionEvent = {}
+
 
 ---@param fields? entTriggerDestructionEvent
 ---@return entTriggerDestructionEvent

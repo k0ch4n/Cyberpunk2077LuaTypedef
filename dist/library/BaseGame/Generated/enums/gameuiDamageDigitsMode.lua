@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiDamageDigitsMode: Enum
 ---@field Off Enum 0
 ---@field Individual Enum 1

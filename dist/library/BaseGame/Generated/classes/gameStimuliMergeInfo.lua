@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStimuliMergeInfo
 ---@field position Vector4
 ---@field instigator gameObject
@@ -8,6 +9,7 @@
 ---@field propagationType gamedataStimPropagation
 ---@field targets gamedataStimTargets
 gameStimuliMergeInfo = {}
+
 
 ---@param fields? gameStimuliMergeInfo
 ---@return gameStimuliMergeInfo

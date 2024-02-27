@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SetProgressionBuild: gamePlayerScriptableSystemRequest
 ---@field buildType gamedataBuildType
 ---@field isDebug Bool
 SetProgressionBuild = {}
+
 
 ---@param fields? SetProgressionBuild
 ---@return SetProgressionBuild

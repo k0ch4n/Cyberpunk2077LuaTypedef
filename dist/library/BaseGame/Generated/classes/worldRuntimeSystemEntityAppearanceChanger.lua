@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemEntityAppearanceChanger: worldIRuntimeSystem
 worldRuntimeSystemEntityAppearanceChanger = {}
+
 
 ---@param fields? worldRuntimeSystemEntityAppearanceChanger
 ---@return worldRuntimeSystemEntityAppearanceChanger

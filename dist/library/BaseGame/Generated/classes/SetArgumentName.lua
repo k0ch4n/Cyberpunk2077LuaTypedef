@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetArgumentName: SetArguments
 ---@field customVar CName
 SetArgumentName = {}
+
 
 ---@param fields? SetArgumentName
 ---@return SetArgumentName

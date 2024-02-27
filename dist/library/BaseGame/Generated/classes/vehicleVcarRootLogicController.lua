@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleVcarRootLogicController: inkWidgetLogicController
 vehicleVcarRootLogicController = {}
+
 
 ---@param fields? vehicleVcarRootLogicController
 ---@return vehicleVcarRootLogicController

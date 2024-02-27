@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RefreshQhWithTagInAreaEffector: gameEffector
 ---@field tags CName[]
 ---@field range Float
 RefreshQhWithTagInAreaEffector = {}
+
 
 ---@param fields? RefreshQhWithTagInAreaEffector
 ---@return RefreshQhWithTagInAreaEffector

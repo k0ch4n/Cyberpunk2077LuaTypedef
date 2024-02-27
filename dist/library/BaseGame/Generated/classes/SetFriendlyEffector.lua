@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SetFriendlyEffector: gameEffector
 ---@field target gameObject
 ---@field duration Float
 SetFriendlyEffector = {}
+
 
 ---@param fields? SetFriendlyEffector
 ---@return SetFriendlyEffector

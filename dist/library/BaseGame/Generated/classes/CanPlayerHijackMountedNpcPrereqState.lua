@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CanPlayerHijackMountedNpcPrereqState: gamePrereqState
 ---@field mountingListener gameScriptedPrereqMountingListenerWrapper
 CanPlayerHijackMountedNpcPrereqState = {}
+
 
 ---@param fields? CanPlayerHijackMountedNpcPrereqState
 ---@return CanPlayerHijackMountedNpcPrereqState

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerDevelopmentData: IScriptable
 ---@field owner gameObject
 ---@field ownerID entEntityID
@@ -20,6 +21,7 @@
 ---@field displayActivityLog Bool
 ---@field progressionBuildSetCompleted Bool
 PlayerDevelopmentData = {}
+
 
 ---@param fields? PlayerDevelopmentData
 ---@return PlayerDevelopmentData

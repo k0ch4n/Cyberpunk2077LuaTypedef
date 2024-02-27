@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AddDevelopmentPointEffector: gameEffector
 ---@field amount Int32
 ---@field type gamedataDevelopmentPointType
 ---@field tdbid TweakDBID
 AddDevelopmentPointEffector = {}
+
 
 ---@param fields? AddDevelopmentPointEffector
 ---@return AddDevelopmentPointEffector

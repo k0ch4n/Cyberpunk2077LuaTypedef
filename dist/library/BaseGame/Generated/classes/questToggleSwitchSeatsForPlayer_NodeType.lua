@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questToggleSwitchSeatsForPlayer_NodeType: questIVehicleManagerNodeType
 questToggleSwitchSeatsForPlayer_NodeType = {}
+
 
 ---@param fields? questToggleSwitchSeatsForPlayer_NodeType
 ---@return questToggleSwitchSeatsForPlayer_NodeType

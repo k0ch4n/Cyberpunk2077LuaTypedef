@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SuppressNPCInSecuritySystem: redEvent
 ---@field suppressIncomingEvents Bool
 ---@field suppressOutgoingEvents Bool
 SuppressNPCInSecuritySystem = {}
+
 
 ---@param fields? SuppressNPCInSecuritySystem
 ---@return SuppressNPCInSecuritySystem

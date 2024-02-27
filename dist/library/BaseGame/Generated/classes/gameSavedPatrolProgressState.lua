@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSavedPatrolProgressState: ISerializable
 ---@field entrySplineParam Float
 ---@field entrySectionIndex Uint32
@@ -10,6 +11,7 @@
 ---@field currentDestinationPosition Vector3
 ---@field currentDestinationTangent Vector3
 gameSavedPatrolProgressState = {}
+
 
 ---@param fields? gameSavedPatrolProgressState
 ---@return gameSavedPatrolProgressState

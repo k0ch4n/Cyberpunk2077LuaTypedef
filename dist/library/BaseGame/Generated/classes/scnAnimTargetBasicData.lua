@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnAnimTargetBasicData
 ---@field performerId scnPerformerId
 ---@field isStart Bool
@@ -11,6 +12,7 @@
 ---@field targetPropId scnPropId
 ---@field targetType scnLookAtTargetType
 scnAnimTargetBasicData = {}
+
 
 ---@param fields? scnAnimTargetBasicData
 ---@return scnAnimTargetBasicData

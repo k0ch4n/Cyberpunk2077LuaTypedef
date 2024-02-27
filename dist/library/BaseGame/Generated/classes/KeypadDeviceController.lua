@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class KeypadDeviceController: DeviceWidgetControllerBase
 ---@field hasButtonAuthorization Bool
 ---@field enteredPasswordWidget inkTextWidget
@@ -17,6 +18,7 @@
 ---@field arePasswordsInitialized Bool
 ---@field blackboard gameIBlackboard
 KeypadDeviceController = {}
+
 
 ---@param fields? KeypadDeviceController
 ---@return KeypadDeviceController

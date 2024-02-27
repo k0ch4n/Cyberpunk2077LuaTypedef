@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entTriggerNotifier_ScriptInstance: worldITriggerAreaNotiferInstance
 entTriggerNotifier_ScriptInstance = {}
+
 
 ---@param fields? entTriggerNotifier_ScriptInstance
 ---@return entTriggerNotifier_ScriptInstance

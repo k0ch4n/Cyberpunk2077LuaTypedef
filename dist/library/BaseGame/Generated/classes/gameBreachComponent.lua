@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameBreachComponent: entIPlacedComponent
 ---@field radius Float
 ---@field healthPercentageOverride Float
 gameBreachComponent = {}
+
 
 ---@param fields? gameBreachComponent
 ---@return gameBreachComponent

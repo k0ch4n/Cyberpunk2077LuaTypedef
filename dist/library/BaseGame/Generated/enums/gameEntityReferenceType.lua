@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEntityReferenceType: Enum
 ---@field EntityRef Enum 0
 ---@field Tag Enum 1

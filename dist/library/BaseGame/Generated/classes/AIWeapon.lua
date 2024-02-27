@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIWeapon: IScriptable
 AIWeapon = {}
+
 
 ---@param gameObject gameweaponObject
 ---@return Bool

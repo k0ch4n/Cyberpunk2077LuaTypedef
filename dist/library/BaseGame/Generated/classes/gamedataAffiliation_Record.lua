@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAffiliation_Record: gamedataTweakDBRecord
 gamedataAffiliation_Record = {}
+
 
 ---@param fields? gamedataAffiliation_Record
 ---@return gamedataAffiliation_Record

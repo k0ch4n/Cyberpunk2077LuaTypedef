@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SlidingLadderController: BaseAnimatedDeviceController
 SlidingLadderController = {}
+
 
 ---@param fields? SlidingLadderController
 ---@return SlidingLadderController

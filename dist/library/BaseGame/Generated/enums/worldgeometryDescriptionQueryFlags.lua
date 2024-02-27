@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldgeometryDescriptionQueryFlags: Enum
 ---@field DistanceVector Enum 1
 ---@field CollisionNormal Enum 2

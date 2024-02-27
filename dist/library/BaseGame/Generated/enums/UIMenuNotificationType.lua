@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIMenuNotificationType: Enum
 ---@field VendorNotEnoughMoney Enum 0
 ---@field VNotEnoughMoney Enum 1

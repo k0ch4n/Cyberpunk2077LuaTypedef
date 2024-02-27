@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hubSelectorSingleCarouselController: inkSelectorController
 ---@field NUMBER_OF_WIDGETS Int32
 ---@field WIDGETS_PADDING Float
@@ -23,6 +24,7 @@
 ---@field currentIndex Int32
 ---@field activeAnimations inkanimProxy[]
 hubSelectorSingleCarouselController = {}
+
 
 ---@param fields? hubSelectorSingleCarouselController
 ---@return hubSelectorSingleCarouselController

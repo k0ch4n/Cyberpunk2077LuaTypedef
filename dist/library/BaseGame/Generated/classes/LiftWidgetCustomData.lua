@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LiftWidgetCustomData: WidgetCustomData
 ---@field movementState gamePlatformMovementState
 LiftWidgetCustomData = {}
+
 
 ---@param fields? LiftWidgetCustomData
 ---@return LiftWidgetCustomData

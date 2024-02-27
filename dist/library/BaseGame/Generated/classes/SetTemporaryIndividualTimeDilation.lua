@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetTemporaryIndividualTimeDilation: gameEffectExecutor_Scripted
 SetTemporaryIndividualTimeDilation = {}
+
 
 ---@param fields? SetTemporaryIndividualTimeDilation
 ---@return SetTemporaryIndividualTimeDilation

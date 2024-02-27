@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class rendInfoBox: IScriptable
 rendInfoBox = {}
+
 
 ---@param fields? rendInfoBox
 ---@return rendInfoBox

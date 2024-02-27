@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataShooterGameplay_Record: gamedataArcadeGameplay_Record
 gamedataShooterGameplay_Record = {}
+
 
 ---@param fields? gamedataShooterGameplay_Record
 ---@return gamedataShooterGameplay_Record

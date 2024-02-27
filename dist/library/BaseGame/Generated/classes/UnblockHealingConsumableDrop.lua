@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnblockHealingConsumableDrop: gameScriptableSystemRequest
 UnblockHealingConsumableDrop = {}
+
 
 ---@param fields? UnblockHealingConsumableDrop
 ---@return UnblockHealingConsumableDrop

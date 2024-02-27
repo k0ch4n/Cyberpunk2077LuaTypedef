@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldProxWindowsType: Enum
 ---@field SkipWindows Enum 0
 ---@field PropagateWindows Enum 1

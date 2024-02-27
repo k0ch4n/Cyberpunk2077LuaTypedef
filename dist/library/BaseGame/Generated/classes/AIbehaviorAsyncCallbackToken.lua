@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorAsyncCallbackToken
 AIbehaviorAsyncCallbackToken = {}
+
 
 ---@param fields? AIbehaviorAsyncCallbackToken
 ---@return AIbehaviorAsyncCallbackToken

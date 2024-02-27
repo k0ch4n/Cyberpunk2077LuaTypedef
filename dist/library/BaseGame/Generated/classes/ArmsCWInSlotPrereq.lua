@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ArmsCWInSlotPrereq: gameIScriptablePrereq
 ---@field equipmentArea gamedataEquipmentArea
 ---@field slotCheckType gamedataCheckType
@@ -7,6 +8,7 @@
 ---@field itemTag CName
 ---@field invert Bool
 ArmsCWInSlotPrereq = {}
+
 
 ---@param fields? ArmsCWInSlotPrereq
 ---@return ArmsCWInSlotPrereq

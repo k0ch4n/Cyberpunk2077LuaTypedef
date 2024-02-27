@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AIGateSignalSender: AIbehaviortaskStackScript
 ---@field tags CName[]
 ---@field flags EAIGateSignalFlags[]
 ---@field priority Float
 AIGateSignalSender = {}
+
 
 ---@param fields? AIGateSignalSender
 ---@return AIGateSignalSender

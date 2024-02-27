@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPhotoModeSticker_Record: gamedataPhotoModeItem_Record
 gamedataPhotoModeSticker_Record = {}
+
 
 ---@param fields? gamedataPhotoModeSticker_Record
 ---@return gamedataPhotoModeSticker_Record

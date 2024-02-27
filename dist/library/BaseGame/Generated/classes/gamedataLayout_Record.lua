@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataLayout_Record: gamedataTweakDBRecord
 gamedataLayout_Record = {}
+
 
 ---@param fields? gamedataLayout_Record
 ---@return gamedataLayout_Record

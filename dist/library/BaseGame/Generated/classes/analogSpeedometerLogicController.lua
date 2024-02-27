@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class analogSpeedometerLogicController: IVehicleModuleController
 ---@field analogSpeedNeedleWidget inkWidgetReference
 ---@field analogSpeedNeedleMinRotation Float
@@ -9,6 +10,7 @@
 ---@field vehBB gameIBlackboard
 ---@field vehicle vehicleBaseObject
 analogSpeedometerLogicController = {}
+
 
 ---@param fields? analogSpeedometerLogicController
 ---@return analogSpeedometerLogicController

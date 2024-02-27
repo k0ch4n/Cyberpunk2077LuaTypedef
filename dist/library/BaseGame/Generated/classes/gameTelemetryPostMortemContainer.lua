@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameTelemetryPostMortemContainer: ISerializable
 ---@field postMortem gameTelemetryPostMortem
 gameTelemetryPostMortemContainer = {}
+
 
 ---@param fields? gameTelemetryPostMortemContainer
 ---@return gameTelemetryPostMortemContainer

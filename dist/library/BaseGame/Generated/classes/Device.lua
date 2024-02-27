@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Device: gameDeviceBase
 ---@field controller ScriptableDeviceComponent
 ---@field wasVisible Bool
@@ -53,6 +54,7 @@
 ---@field currentlyUploadingAction ScriptableDeviceAction
 ---@field workspotActivator gameObject
 Device = {}
+
 
 ---@param fields? Device
 ---@return Device

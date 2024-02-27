@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SimpleQuestListItemController: inkVirtualCompoundItemController
 ---@field title inkTextWidgetReference
 ---@field description inkTextWidgetReference
@@ -35,6 +36,7 @@
 ---@field tracked Bool
 ---@field rootWidget inkWidget
 SimpleQuestListItemController = {}
+
 
 ---@param fields? SimpleQuestListItemController
 ---@return SimpleQuestListItemController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestEjectPlayer: ActionBool
 QuestEjectPlayer = {}
+
 
 ---@param fields? QuestEjectPlayer
 ---@return QuestEjectPlayer

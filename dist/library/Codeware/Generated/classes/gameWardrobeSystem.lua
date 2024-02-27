@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameWardrobeSystem: gameIWardrobeSystem
 gameWardrobeSystem = {}
+
 
 ---@param fields? gameWardrobeSystem
 ---@return gameWardrobeSystem

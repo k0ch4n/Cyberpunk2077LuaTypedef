@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RarityOfEquippedCyberdeckPrereqState: gamePrereqState
 RarityOfEquippedCyberdeckPrereqState = {}
+
 
 ---@param fields? RarityOfEquippedCyberdeckPrereqState
 ---@return RarityOfEquippedCyberdeckPrereqState

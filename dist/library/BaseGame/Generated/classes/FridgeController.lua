@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FridgeController: ScriptableDeviceComponent
 FridgeController = {}
+
 
 ---@param fields? FridgeController
 ---@return FridgeController

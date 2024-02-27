@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataMappinPhase: Enum
 ---@field CompletedPhase Enum 0
 ---@field DefaultPhase Enum 1

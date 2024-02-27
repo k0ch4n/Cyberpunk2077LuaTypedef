@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GoToFloor: ActionBool
 GoToFloor = {}
+
 
 ---@param fields? GoToFloor
 ---@return GoToFloor

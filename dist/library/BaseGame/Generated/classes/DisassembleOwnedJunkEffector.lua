@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisassembleOwnedJunkEffector: gameEffector
 DisassembleOwnedJunkEffector = {}
+
 
 ---@param fields? DisassembleOwnedJunkEffector
 ---@return DisassembleOwnedJunkEffector

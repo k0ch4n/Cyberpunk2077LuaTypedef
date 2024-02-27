@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiInGameCharacterCustomizationGameController: gameuiBaseMenuGameController
 gameuiInGameCharacterCustomizationGameController = {}
+
 
 ---@param fields? gameuiInGameCharacterCustomizationGameController
 ---@return gameuiInGameCharacterCustomizationGameController

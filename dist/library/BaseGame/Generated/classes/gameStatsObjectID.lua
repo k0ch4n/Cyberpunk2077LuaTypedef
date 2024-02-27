@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameStatsObjectID
 ---@field entityHash Uint64
 ---@field idType gameStatIDType
 gameStatsObjectID = {}
+
 
 ---@param fields? gameStatsObjectID
 ---@return gameStatsObjectID

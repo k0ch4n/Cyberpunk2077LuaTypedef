@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CoverActionEventsTransition: CoverActionTransition
 CoverActionEventsTransition = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newVal Int32

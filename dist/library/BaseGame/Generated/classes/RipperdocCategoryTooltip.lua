@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocCategoryTooltip: AGenericTooltipController
 ---@field desc inkTextWidgetReference
 ---@field availableLabelCounter inkTextWidgetReference
@@ -8,6 +9,7 @@
 ---@field availableLabel inkWidgetReference
 ---@field NALabel inkWidgetReference
 RipperdocCategoryTooltip = {}
+
 
 ---@param fields? RipperdocCategoryTooltip
 ---@return RipperdocCategoryTooltip

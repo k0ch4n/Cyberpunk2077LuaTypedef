@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ConfigMeshQualityLevel: Enum
 ---@field Default Enum 0
 ---@field Console Enum 1

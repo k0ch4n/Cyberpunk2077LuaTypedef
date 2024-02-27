@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ToggleFactEffector: gameEffector
 ---@field fact CName
 ---@field valueOn Int32
 ---@field valueOff Int32
 ToggleFactEffector = {}
+
 
 ---@param fields? ToggleFactEffector
 ---@return ToggleFactEffector

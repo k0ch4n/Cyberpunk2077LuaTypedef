@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WrappedInventoryItemData: IScriptable
 ---@field ItemData gameInventoryItemData
 ---@field ComparisonState gameItemComparisonState
@@ -13,6 +14,7 @@
 ---@field OverrideQuantity Int32
 ---@field IsQuestBought Bool
 WrappedInventoryItemData = {}
+
 
 ---@param fields? WrappedInventoryItemData
 ---@return WrappedInventoryItemData

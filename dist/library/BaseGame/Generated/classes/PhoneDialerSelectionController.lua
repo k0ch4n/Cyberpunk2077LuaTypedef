@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhoneDialerSelectionController: inkSelectorController
 ---@field leftArrowWidget inkWidgetReference
 ---@field rightArrowWidget inkWidgetReference
@@ -14,6 +15,7 @@
 ---@field highlightInitialized Bool
 ---@field currentIndex Int32
 PhoneDialerSelectionController = {}
+
 
 ---@param fields? PhoneDialerSelectionController
 ---@return PhoneDialerSelectionController

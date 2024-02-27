@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TDB: gamedataTweakDBInterface
 TDB = {}
+
 
 ---@param fields? TDB
 ---@return TDB

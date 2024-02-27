@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamemountingMountableComponent: entIComponent
 gamemountingMountableComponent = {}
+
 
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return Bool

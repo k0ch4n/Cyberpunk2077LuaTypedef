@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BraindanceSystem: gameScriptableSystem
 ---@field inputMask SBraindanceInputMask
 ---@field requestCameraToggle Bool
@@ -8,6 +9,7 @@
 ---@field isInBraindance Bool
 ---@field debugFFSceneThrehsold Int32
 BraindanceSystem = {}
+
 
 ---@param fields? BraindanceSystem
 ---@return BraindanceSystem

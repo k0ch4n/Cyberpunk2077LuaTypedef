@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestCloseAllDoors: ActionBool
 QuestCloseAllDoors = {}
+
 
 ---@param fields? QuestCloseAllDoors
 ---@return QuestCloseAllDoors

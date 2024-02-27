@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WithoutHitDataDeathTask: AIDeathReactionsTask
 WithoutHitDataDeathTask = {}
+
 
 ---@param fields? WithoutHitDataDeathTask
 ---@return WithoutHitDataDeathTask

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerFaction: ScannerChunk
 ---@field faction String
 ScannerFaction = {}
+
 
 ---@param fields? ScannerFaction
 ---@return ScannerFaction

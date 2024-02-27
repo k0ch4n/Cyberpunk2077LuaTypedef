@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class KeyboardHintItemController: AHintItemController
 ---@field NumberText inkTextWidgetReference
 ---@field Frame inkImageWidgetReference
@@ -9,6 +10,7 @@
 ---@field FrameUnselectedName CName
 ---@field AnimationName CName
 KeyboardHintItemController = {}
+
 
 ---@param fields? KeyboardHintItemController
 ---@return KeyboardHintItemController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldProxyMeshAdvancedBuildParams
 ---@field boundingBoxSyncParams worldProxyBoundingBoxSyncParams
 ---@field surfaceFlattenParams worldProxySurfaceFlattenParams
@@ -7,6 +8,7 @@
 ---@field rayBias Float
 ---@field rayMaxDistance Float
 worldProxyMeshAdvancedBuildParams = {}
+
 
 ---@param fields? worldProxyMeshAdvancedBuildParams
 ---@return worldProxyMeshAdvancedBuildParams

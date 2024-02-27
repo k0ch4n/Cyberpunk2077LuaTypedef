@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PerksScreenStaticData: IScriptable
 PerksScreenStaticData = {}
+
 
 ---@param fields? PerksScreenStaticData
 ---@return PerksScreenStaticData

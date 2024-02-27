@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class rendRenderTextureBlobStreamable: rendIRenderTextureBlob
 rendRenderTextureBlobStreamable = {}
+
 
 ---@param fields? rendRenderTextureBlobStreamable
 ---@return rendRenderTextureBlobStreamable

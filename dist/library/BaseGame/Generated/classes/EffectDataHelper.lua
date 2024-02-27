@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EffectDataHelper: IScriptable
 EffectDataHelper = {}
+
 
 ---@param effectData gameEffectData
 ---@param colliderBoxSize Vector4

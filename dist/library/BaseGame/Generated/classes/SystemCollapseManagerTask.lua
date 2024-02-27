@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SystemCollapseManagerTask: UnconsciousManagerTask
 SystemCollapseManagerTask = {}
+
 
 ---@param fields? SystemCollapseManagerTask
 ---@return SystemCollapseManagerTask

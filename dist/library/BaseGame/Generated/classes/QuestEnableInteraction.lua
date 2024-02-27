@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestEnableInteraction: ActionBool
 QuestEnableInteraction = {}
+
 
 ---@param fields? QuestEnableInteraction
 ---@return QuestEnableInteraction

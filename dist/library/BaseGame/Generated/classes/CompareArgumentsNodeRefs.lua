@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CompareArgumentsNodeRefs: CompareArguments
 CompareArgumentsNodeRefs = {}
+
 
 ---@param fields? CompareArgumentsNodeRefs
 ---@return CompareArgumentsNodeRefs

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldCompiledCommunityAreaNodeInstance: worldINodeInstance
 worldCompiledCommunityAreaNodeInstance = {}
+
 
 ---@param fields? worldCompiledCommunityAreaNodeInstance
 ---@return worldCompiledCommunityAreaNodeInstance

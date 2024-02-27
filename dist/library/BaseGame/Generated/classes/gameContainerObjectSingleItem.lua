@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameContainerObjectSingleItem: gameContainerObjectBase
 ---@field itemTDBID TweakDBID
 gameContainerObjectSingleItem = {}
+
 
 ---@param fields? gameContainerObjectSingleItem
 ---@return gameContainerObjectSingleItem

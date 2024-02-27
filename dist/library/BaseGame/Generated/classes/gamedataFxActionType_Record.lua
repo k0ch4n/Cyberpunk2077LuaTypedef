@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataFxActionType_Record: gamedataTweakDBRecord
 gamedataFxActionType_Record = {}
+
 
 ---@param fields? gamedataFxActionType_Record
 ---@return gamedataFxActionType_Record

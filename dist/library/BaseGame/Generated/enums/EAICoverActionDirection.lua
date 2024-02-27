@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAICoverActionDirection: Enum
 ---@field Front Enum 0
 ---@field FrontRight Enum 1

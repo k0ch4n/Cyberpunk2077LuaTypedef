@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldStaticDecalNodeInstance: worldINodeInstance
 worldStaticDecalNodeInstance = {}
+
 
 ---@param fields? worldStaticDecalNodeInstance
 ---@return worldStaticDecalNodeInstance

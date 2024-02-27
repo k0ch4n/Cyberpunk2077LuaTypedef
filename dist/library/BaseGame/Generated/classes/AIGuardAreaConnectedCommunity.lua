@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AIGuardAreaConnectedCommunity
 ---@field communityArea gameEntityReference
 ---@field isPrimary Bool
 AIGuardAreaConnectedCommunity = {}
+
 
 ---@param fields? AIGuardAreaConnectedCommunity
 ---@return AIGuardAreaConnectedCommunity

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameItemEventsPropagateRenderingPlane: redEvent
 gameItemEventsPropagateRenderingPlane = {}
+
 
 ---@param fields? gameItemEventsPropagateRenderingPlane
 ---@return gameItemEventsPropagateRenderingPlane

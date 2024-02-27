@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ESecurityGateStatus: Enum
 ---@field READY Enum 0
 ---@field SCANNING Enum 1

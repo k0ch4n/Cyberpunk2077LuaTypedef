@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GameplayEquipRequest: gamePlayerScriptableSystemRequest
 ---@field itemID gameItemID
 ---@field slotIndex Int32
@@ -10,6 +11,7 @@
 ---@field extraQuality Float
 ---@field partsToAdd gameItemID[]
 GameplayEquipRequest = {}
+
 
 ---@param fields? GameplayEquipRequest
 ---@return GameplayEquipRequest

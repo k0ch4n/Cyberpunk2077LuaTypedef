@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TransparencyAnimationButtonView: BaseButtonView
 ---@field AnimationTime Float
 ---@field HoverTransparency Float
@@ -9,6 +10,7 @@
 ---@field AnimationProxies inkanimProxy[]
 ---@field Targets inkWidgetReference[]
 TransparencyAnimationButtonView = {}
+
 
 ---@param fields? TransparencyAnimationButtonView
 ---@return TransparencyAnimationButtonView

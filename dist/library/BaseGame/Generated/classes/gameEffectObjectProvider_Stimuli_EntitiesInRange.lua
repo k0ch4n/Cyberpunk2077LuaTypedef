@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectObjectProvider_Stimuli_EntitiesInRange: gameEffectObjectProvider
 gameEffectObjectProvider_Stimuli_EntitiesInRange = {}
+
 
 ---@param fields? gameEffectObjectProvider_Stimuli_EntitiesInRange
 ---@return gameEffectObjectProvider_Stimuli_EntitiesInRange

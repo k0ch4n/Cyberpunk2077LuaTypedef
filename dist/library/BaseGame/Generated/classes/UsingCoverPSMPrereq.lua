@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UsingCoverPSMPrereq: PlayerStateMachinePrereq
 UsingCoverPSMPrereq = {}
+
 
 ---@param fields? UsingCoverPSMPrereq
 ---@return UsingCoverPSMPrereq

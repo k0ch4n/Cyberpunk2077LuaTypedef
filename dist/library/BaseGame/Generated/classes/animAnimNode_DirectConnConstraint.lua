@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_DirectConnConstraint: animAnimNode_OnePoseInput
 ---@field sourceTransform animIAnimNodeSourceChannel_QsTransform
 ---@field isSourceTransformResaved Bool
@@ -17,6 +18,7 @@
 ---@field weight Float
 ---@field weightNode animFloatLink
 animAnimNode_DirectConnConstraint = {}
+
 
 ---@param fields? animAnimNode_DirectConnConstraint
 ---@return animAnimNode_DirectConnConstraint

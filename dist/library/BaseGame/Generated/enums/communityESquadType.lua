@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class communityESquadType: Enum
 ---@field Global Enum 0
 ---@field Community Enum 1

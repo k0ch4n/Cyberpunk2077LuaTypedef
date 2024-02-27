@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_Difficulty: MenuScenario_PreGameSubMenu
 MenuScenario_Difficulty = {}
+
 
 ---@param fields? MenuScenario_Difficulty
 ---@return MenuScenario_Difficulty

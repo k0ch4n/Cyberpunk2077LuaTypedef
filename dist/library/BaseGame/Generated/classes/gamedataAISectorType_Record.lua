@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISectorType_Record: gamedataTweakDBRecord
 gamedataAISectorType_Record = {}
+
 
 ---@param fields? gamedataAISectorType_Record
 ---@return gamedataAISectorType_Record

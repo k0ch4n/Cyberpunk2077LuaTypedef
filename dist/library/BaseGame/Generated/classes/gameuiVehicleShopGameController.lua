@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiVehicleShopGameController: gameuiWidgetGameController
 ---@field homePage inkWidgetReference
 ---@field homePageMainText inkTextWidgetReference
@@ -24,6 +25,7 @@
 ---@field c_discountFactTDBID TweakDBID
 ---@field c_discountValuesTDBID TweakDBID
 gameuiVehicleShopGameController = {}
+
 
 ---@param fields? gameuiVehicleShopGameController
 ---@return gameuiVehicleShopGameController

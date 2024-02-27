@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ConsumablesChargesHelper: IScriptable
 ConsumablesChargesHelper = {}
+
 
 ---@param fields? ConsumablesChargesHelper
 ---@return ConsumablesChargesHelper

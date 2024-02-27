@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkImageWidget: inkLeafWidget
 ---@field useExternalDynamicTexture Bool
 ---@field externalDynamicTexture CName
@@ -16,6 +17,7 @@
 ---@field tileHAlign inkEHorizontalAlign
 ---@field tileVAlign inkEVerticalAlign
 inkImageWidget = {}
+
 
 ---@param fields? inkImageWidget
 ---@return inkImageWidget

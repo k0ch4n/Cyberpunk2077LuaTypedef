@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questMoveOnSplineParams: questAICommandParams
 ---@field splineNodeRef NodeRef
 ---@field useStart Bool
@@ -19,6 +20,7 @@
 ---@field alwaysUseStealth Bool
 ---@field disableFootIK Bool
 questMoveOnSplineParams = {}
+
 
 ---@param fields? questMoveOnSplineParams
 ---@return questMoveOnSplineParams

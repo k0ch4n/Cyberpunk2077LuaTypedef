@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SelectorTimeout: AITimeoutCondition
 SelectorTimeout = {}
+
 
 ---@param fields? SelectorTimeout
 ---@return SelectorTimeout

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataScreenMessageData_Record: gamedataTweakDBRecord
 gamedataScreenMessageData_Record = {}
+
 
 ---@param fields? gamedataScreenMessageData_Record
 ---@return gamedataScreenMessageData_Record

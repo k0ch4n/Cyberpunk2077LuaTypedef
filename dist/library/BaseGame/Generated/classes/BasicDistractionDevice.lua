@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BasicDistractionDevice: InteractiveDevice
 ---@field animFeatureDataDistractor AnimFeature_DistractionState
 ---@field animFeatureDataNameDistractor CName
@@ -10,6 +11,7 @@
 ---@field meshAppearanceNameON CName
 ---@field meshAppearanceNameOFF CName
 BasicDistractionDevice = {}
+
 
 ---@param fields? BasicDistractionDevice
 ---@return BasicDistractionDevice

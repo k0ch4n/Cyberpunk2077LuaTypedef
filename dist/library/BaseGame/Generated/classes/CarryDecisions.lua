@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CarryDecisions: CanTransitionToThrowDecisions
 CarryDecisions = {}
+
 
 ---@param fields? CarryDecisions
 ---@return CarryDecisions

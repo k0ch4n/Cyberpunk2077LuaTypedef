@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SColor
 SColor = {}
+
 
 ---@param fields? SColor
 ---@return SColor

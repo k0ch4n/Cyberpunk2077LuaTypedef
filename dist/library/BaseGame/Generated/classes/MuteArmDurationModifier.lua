@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MuteArmDurationModifier: gameEffectDurationModifier_Scripted
 ---@field initialDuration Float
 MuteArmDurationModifier = {}
+
 
 ---@param fields? MuteArmDurationModifier
 ---@return MuteArmDurationModifier

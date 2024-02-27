@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAudioStateTransitionData
 ---@field targetStateId Uint8
 ---@field allConditionsFulfilled Bool
@@ -9,6 +10,7 @@
 ---@field readVariableActions audioAudioSceneVariableReadActionData[]
 ---@field conditions CName[]
 audioAudioStateTransitionData = {}
+
 
 ---@param fields? audioAudioStateTransitionData
 ---@return audioAudioStateTransitionData

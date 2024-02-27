@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemsNotificationQueue: gameuiGenericNotificationGameController
 ---@field showDuration Float
 ---@field transactionSystem gameTransactionSystem
@@ -16,6 +17,7 @@
 ---@field combatModePSM gamePSMCombat
 ---@field delaySystem gameDelaySystem
 ItemsNotificationQueue = {}
+
 
 ---@param fields? ItemsNotificationQueue
 ---@return ItemsNotificationQueue

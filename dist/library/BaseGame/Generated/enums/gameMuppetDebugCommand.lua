@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMuppetDebugCommand: Enum
 ---@field None Enum 0
 ---@field Kill Enum 1

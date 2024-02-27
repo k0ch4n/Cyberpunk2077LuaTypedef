@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ENPCTelemetryData: Enum
 ---@field HitByLightAttack Enum 0
 ---@field HitByStrongAttack Enum 1

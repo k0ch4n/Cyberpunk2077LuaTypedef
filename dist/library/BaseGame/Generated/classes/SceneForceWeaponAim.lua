@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SceneForceWeaponAim: redEvent
 SceneForceWeaponAim = {}
+
 
 ---@param fields? SceneForceWeaponAim
 ---@return SceneForceWeaponAim

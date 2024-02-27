@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animIMotionTableProvider: ISerializable
 ---@field id Int32
 ---@field parentId Int32

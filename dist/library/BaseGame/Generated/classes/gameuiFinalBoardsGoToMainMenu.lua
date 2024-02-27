@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiFinalBoardsGoToMainMenu: redEvent
 gameuiFinalBoardsGoToMainMenu = {}
+
 
 ---@param fields? gameuiFinalBoardsGoToMainMenu
 ---@return gameuiFinalBoardsGoToMainMenu

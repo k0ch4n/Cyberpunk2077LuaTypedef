@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class moveSecureFootingParameters
 ---@field unsecureCollisionFilterName CName
 ---@field maxVerticalDistanceForCentreRaycast Float
@@ -13,6 +14,7 @@
 ---@field minVelocityForFalling Float
 ---@field slopeCurveName CName
 moveSecureFootingParameters = {}
+
 
 ---@param fields? moveSecureFootingParameters
 ---@return moveSecureFootingParameters

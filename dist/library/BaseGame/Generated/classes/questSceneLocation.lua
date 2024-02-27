@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questSceneLocation
 ---@field sceneWorldMarkerTag CName
 questSceneLocation = {}
+
 
 ---@param fields? questSceneLocation
 ---@return questSceneLocation

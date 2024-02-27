@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UpdateStimSource: ReactionManagerTask
 UpdateStimSource = {}
+
 
 ---@param fields? UpdateStimSource
 ---@return UpdateStimSource

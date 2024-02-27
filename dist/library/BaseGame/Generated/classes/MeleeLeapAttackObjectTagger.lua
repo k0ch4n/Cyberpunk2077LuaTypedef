@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MeleeLeapAttackObjectTagger: IScriptable
 ---@field game ScriptGameInstance
 ---@field playerPuppet gameObject
@@ -8,6 +9,7 @@
 ---@field target gameObject
 ---@field minDistanceToTarget Float
 MeleeLeapAttackObjectTagger = {}
+
 
 ---@param fields? MeleeLeapAttackObjectTagger
 ---@return MeleeLeapAttackObjectTagger

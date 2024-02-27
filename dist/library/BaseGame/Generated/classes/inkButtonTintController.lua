@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkButtonTintController: inkButtonController
 ---@field NormalColor Color
 ---@field HoverColor Color
@@ -7,6 +8,7 @@
 ---@field DisableColor Color
 ---@field TintControlRef inkWidgetReference
 inkButtonTintController = {}
+
 
 ---@param fields? inkButtonTintController
 ---@return inkButtonTintController

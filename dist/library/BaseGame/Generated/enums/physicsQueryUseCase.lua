@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsQueryUseCase: Enum
 ---@field Default Enum 0
 ---@field ActionAnimation Enum 1

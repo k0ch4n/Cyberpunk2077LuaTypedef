@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataMinigameActionType: Enum
 ---@field AccessPoint Enum 0
 ---@field Both Enum 1

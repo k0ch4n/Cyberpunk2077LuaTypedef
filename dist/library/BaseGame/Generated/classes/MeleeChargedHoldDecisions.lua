@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeChargedHoldDecisions: MeleeTransition
 MeleeChargedHoldDecisions = {}
+
 
 ---@param fields? MeleeChargedHoldDecisions
 ---@return MeleeChargedHoldDecisions

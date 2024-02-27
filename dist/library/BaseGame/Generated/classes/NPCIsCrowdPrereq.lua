@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NPCIsCrowdPrereq: gameIScriptablePrereq
 ---@field invert Bool
 NPCIsCrowdPrereq = {}
+
 
 ---@param fields? NPCIsCrowdPrereq
 ---@return NPCIsCrowdPrereq

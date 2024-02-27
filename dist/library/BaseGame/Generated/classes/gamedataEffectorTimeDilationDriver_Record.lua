@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataEffectorTimeDilationDriver_Record: gamedataTweakDBRecord
 gamedataEffectorTimeDilationDriver_Record = {}
+
 
 ---@param fields? gamedataEffectorTimeDilationDriver_Record
 ---@return gamedataEffectorTimeDilationDriver_Record

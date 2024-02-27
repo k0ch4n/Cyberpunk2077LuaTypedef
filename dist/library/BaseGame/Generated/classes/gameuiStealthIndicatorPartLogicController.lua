@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiStealthIndicatorPartLogicController: gameuiBaseDirectionalIndicatorPartLogicController
 ---@field arrowFrontWidget inkImageWidgetReference
 ---@field wrapper inkCompoundWidgetReference
@@ -11,6 +12,7 @@
 ---@field flashAnimProxy inkanimProxy
 ---@field scaleAnimDef inkanimDefinition
 gameuiStealthIndicatorPartLogicController = {}
+
 
 ---@param fields? gameuiStealthIndicatorPartLogicController
 ---@return gameuiStealthIndicatorPartLogicController

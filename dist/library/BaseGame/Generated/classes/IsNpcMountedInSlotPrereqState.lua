@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsNpcMountedInSlotPrereqState: gamePrereqState
 ---@field psListener gameScriptedPrereqPSChangeListenerWrapper
 IsNpcMountedInSlotPrereqState = {}
+
 
 ---@param fields? IsNpcMountedInSlotPrereqState
 ---@return IsNpcMountedInSlotPrereqState

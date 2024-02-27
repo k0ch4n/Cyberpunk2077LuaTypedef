@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ChargedHotkeyItemConsumableController: ChargedHotkeyItemBaseController
 ---@field c_statPool gamedataStatPoolType
 ChargedHotkeyItemConsumableController = {}
+
 
 ---@param fields? ChargedHotkeyItemConsumableController
 ---@return ChargedHotkeyItemConsumableController

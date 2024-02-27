@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePSMDetailedLocomotionStates: Enum
 ---@field NotInBaseLocomotion Enum 0
 ---@field Stand Enum 1

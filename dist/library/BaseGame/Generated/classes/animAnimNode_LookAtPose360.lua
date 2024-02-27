@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_LookAtPose360: animAnimNode_Base
 ---@field speedInDegreesPerSecond Float
 ---@field angleOffsetNode animFloatLink
@@ -9,6 +10,7 @@
 ---@field animation CName
 ---@field durationCut Float
 animAnimNode_LookAtPose360 = {}
+
 
 ---@param fields? animAnimNode_LookAtPose360
 ---@return animAnimNode_LookAtPose360

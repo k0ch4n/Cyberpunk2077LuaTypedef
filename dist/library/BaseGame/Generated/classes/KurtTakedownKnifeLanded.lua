@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class KurtTakedownKnifeLanded: AIbehaviorconditionScript
 KurtTakedownKnifeLanded = {}
+
 
 ---@param fields? KurtTakedownKnifeLanded
 ---@return KurtTakedownKnifeLanded

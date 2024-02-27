@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkVerticalPanelWidgetReference: inkBasePanelWidgetReference
 inkVerticalPanelWidgetReference = {}
+
 
 ---@param fields? inkVerticalPanelWidgetReference
 ---@return inkVerticalPanelWidgetReference

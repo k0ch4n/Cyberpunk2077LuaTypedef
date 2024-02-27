@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StatPoolPrereqListener: BaseStatPoolPrereqListener
 ---@field state StatPoolPrereqState
 StatPoolPrereqListener = {}
+
 
 ---@param fields? StatPoolPrereqListener
 ---@return StatPoolPrereqListener

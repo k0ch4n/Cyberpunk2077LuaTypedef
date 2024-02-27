@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehiclesManagerDataHelper: IScriptable
 VehiclesManagerDataHelper = {}
+
 
 ---@param fields? VehiclesManagerDataHelper
 ---@return VehiclesManagerDataHelper

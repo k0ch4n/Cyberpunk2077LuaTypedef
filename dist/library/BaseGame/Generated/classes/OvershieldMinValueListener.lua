@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OvershieldMinValueListener: gameScriptStatPoolsListener
 ---@field effector ScaleOvershieldDecayOverTimeEffector
 OvershieldMinValueListener = {}
+
 
 ---@param fields? OvershieldMinValueListener
 ---@return OvershieldMinValueListener

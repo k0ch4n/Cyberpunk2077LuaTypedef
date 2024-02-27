@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InvestigationReactionFilter: gameEffectObjectSingleFilter_Scripted
 InvestigationReactionFilter = {}
+
 
 ---@param fields? InvestigationReactionFilter
 ---@return InvestigationReactionFilter

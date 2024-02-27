@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAITargetInPreventionFreeArea_Record: gamedataAIActionSubCondition_Record
 gamedataAITargetInPreventionFreeArea_Record = {}
+
 
 ---@param fields? gamedataAITargetInPreventionFreeArea_Record
 ---@return gamedataAITargetInPreventionFreeArea_Record

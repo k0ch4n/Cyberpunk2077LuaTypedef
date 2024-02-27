@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class HoloFeederControllerPS: ScriptableDeviceComponentPS
 ---@field turnOnSFX CName
 ---@field turnOffSFX CName
 HoloFeederControllerPS = {}
+
 
 ---@param fields? HoloFeederControllerPS
 ---@return HoloFeederControllerPS

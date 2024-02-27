@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class inkButtonDpadSupportedController: inkButtonAnimatedController
 ---@field targetPath_DpadUp inkWidget
 ---@field targetPath_DpadDown inkWidget
 ---@field targetPath_DpadLeft inkWidget
 ---@field targetPath_DpadRight inkWidget
 inkButtonDpadSupportedController = {}
+
 
 ---@param fields? inkButtonDpadSupportedController
 ---@return inkButtonDpadSupportedController

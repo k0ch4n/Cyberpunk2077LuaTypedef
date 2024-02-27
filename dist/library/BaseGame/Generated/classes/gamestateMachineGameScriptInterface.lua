@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineGameScriptInterface: gamestateMachineScriptInterface
 gamestateMachineGameScriptInterface = {}
+
 
 ---@param fields? gamestateMachineGameScriptInterface
 ---@return gamestateMachineGameScriptInterface

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entIPositionProvider: IScriptable
 entIPositionProvider = {}
+
 
 ---@param targetPosProvider entIPositionProvider
 ---@param ownerPosProvider entIPositionProvider

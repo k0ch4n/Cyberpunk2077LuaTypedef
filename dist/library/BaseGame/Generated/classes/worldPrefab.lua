@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldPrefab: resStreamedResource
 ---@field mainGroup worldNodesGroup
 ---@field type worldPrefabType
@@ -35,6 +36,7 @@
 ---@field proxyLimiterHelper worldPrefab
 ---@field customProxyMeshHelper CMesh
 worldPrefab = {}
+
 
 ---@param fields? worldPrefab
 ---@return worldPrefab

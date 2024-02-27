@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RewireEvent: redEvent
 ---@field ownerID entEntityID
 ---@field activatorID entEntityID
@@ -7,6 +8,7 @@
 ---@field state EDrillMachineRewireState
 ---@field sucess Bool
 RewireEvent = {}
+
 
 ---@param fields? RewireEvent
 ---@return RewireEvent

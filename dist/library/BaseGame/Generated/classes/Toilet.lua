@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Toilet: InteractiveDevice
 Toilet = {}
+
 
 ---@param fields? Toilet
 ---@return Toilet

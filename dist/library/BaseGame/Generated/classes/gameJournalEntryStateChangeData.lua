@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalEntryStateChangeData
 ---@field entryPath gameJournalPath
 ---@field entryName String
@@ -11,6 +12,7 @@
 ---@field notifyOption gameJournalNotifyOption
 ---@field changeType gameJournalChangeType
 gameJournalEntryStateChangeData = {}
+
 
 ---@param fields? gameJournalEntryStateChangeData
 ---@return gameJournalEntryStateChangeData

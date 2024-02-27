@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class garmentMeshParamGarmentChunkData
 ---@field numVertices Uint32
 ---@field lodMask Uint8
@@ -10,6 +11,7 @@
 ---@field garmentFlags DataBuffer
 ---@field uv DataBuffer
 garmentMeshParamGarmentChunkData = {}
+
 
 ---@param fields? garmentMeshParamGarmentChunkData
 ---@return garmentMeshParamGarmentChunkData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DelayedItemEquipped: redEvent
 DelayedItemEquipped = {}
+
 
 ---@param fields? DelayedItemEquipped
 ---@return DelayedItemEquipped

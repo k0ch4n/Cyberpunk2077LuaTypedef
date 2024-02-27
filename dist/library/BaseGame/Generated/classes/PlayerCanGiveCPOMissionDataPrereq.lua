@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerCanGiveCPOMissionDataPrereq: gameinteractionsInteractionScriptedCondition
 PlayerCanGiveCPOMissionDataPrereq = {}
+
 
 ---@param fields? PlayerCanGiveCPOMissionDataPrereq
 ---@return PlayerCanGiveCPOMissionDataPrereq

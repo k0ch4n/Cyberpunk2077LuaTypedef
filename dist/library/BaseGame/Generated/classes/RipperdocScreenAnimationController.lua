@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocScreenAnimationController: inkWidgetLogicController
 ---@field doll inkWidgetReference
 ---@field defaultAnimationTab inkWidgetReference
@@ -63,6 +64,7 @@
 ---@field midArea gamedataEquipmentArea
 ---@field SLIDE_DURATION Float
 RipperdocScreenAnimationController = {}
+
 
 ---@param fields? RipperdocScreenAnimationController
 ---@return RipperdocScreenAnimationController

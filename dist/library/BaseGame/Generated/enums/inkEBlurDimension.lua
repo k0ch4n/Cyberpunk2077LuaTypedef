@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkEBlurDimension: Enum
 ---@field Horizontal Enum 0
 ---@field Vertical Enum 1

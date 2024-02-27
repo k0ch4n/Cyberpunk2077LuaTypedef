@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ShowRecipeRequest: gamePlayerScriptableSystemRequest
 ---@field recipe TweakDBID
 ShowRecipeRequest = {}
+
 
 ---@param fields? ShowRecipeRequest
 ---@return ShowRecipeRequest

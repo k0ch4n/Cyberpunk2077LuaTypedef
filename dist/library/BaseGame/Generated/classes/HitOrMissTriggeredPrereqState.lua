@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitOrMissTriggeredPrereqState: GenericHitPrereqState
 HitOrMissTriggeredPrereqState = {}
+
 
 ---@param fields? HitOrMissTriggeredPrereqState
 ---@return HitOrMissTriggeredPrereqState

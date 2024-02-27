@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DialerContactDataView: inkScriptableDataViewWrapper
 ---@field compareBuilder CompareBuilder
 ---@field sortMethod ContactsSortMethod
 DialerContactDataView = {}
+
 
 ---@param fields? DialerContactDataView
 ---@return DialerContactDataView

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuantityPickerPopupCloseData: inkGameNotificationData
 ---@field choosenQuantity Int32
 ---@field itemData gameInventoryItemData
@@ -7,6 +8,7 @@
 ---@field actionType QuantityPickerActionType
 ---@field isBuyback Bool
 QuantityPickerPopupCloseData = {}
+
 
 ---@param fields? QuantityPickerPopupCloseData
 ---@return QuantityPickerPopupCloseData

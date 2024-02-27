@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehiclesManagerDataView: inkScriptableDataViewWrapper
 VehiclesManagerDataView = {}
+
 
 ---@param fields? VehiclesManagerDataView
 ---@return VehiclesManagerDataView

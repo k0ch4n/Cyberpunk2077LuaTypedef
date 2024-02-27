@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HasMeleeWeaponEquippedCondition: workIScriptedCondition
 HasMeleeWeaponEquippedCondition = {}
+
 
 ---@param fields? HasMeleeWeaponEquippedCondition
 ---@return HasMeleeWeaponEquippedCondition

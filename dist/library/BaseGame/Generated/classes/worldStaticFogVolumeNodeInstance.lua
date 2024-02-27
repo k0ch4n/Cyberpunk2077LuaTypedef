@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldStaticFogVolumeNodeInstance: worldINodeInstance
 worldStaticFogVolumeNodeInstance = {}
+
 
 ---@param fields? worldStaticFogVolumeNodeInstance
 ---@return worldStaticFogVolumeNodeInstance

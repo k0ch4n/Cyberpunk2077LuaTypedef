@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class JukeboxBigGameController: DeviceInkGameControllerBase
 ---@field onTogglePlayListener redCallbackObject
 JukeboxBigGameController = {}
+
 
 ---@param fields? JukeboxBigGameController
 ---@return JukeboxBigGameController

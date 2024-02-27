@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_SimpleSpline: animAnimNode_OnePoseInput
 ---@field areSourceChannelsResaved Bool
 ---@field startTransform animTransformIndex
@@ -10,6 +11,7 @@
 ---@field defaultProgress Float
 ---@field progressTrack animNamedTrackIndex
 animAnimNode_SimpleSpline = {}
+
 
 ---@param fields? animAnimNode_SimpleSpline
 ---@return animAnimNode_SimpleSpline

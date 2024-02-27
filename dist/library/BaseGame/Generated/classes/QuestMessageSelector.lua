@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuestMessageSelector: ScreenMessageSelector
 ---@field recordID TweakDBID
 QuestMessageSelector = {}
+
 
 ---@param fields? QuestMessageSelector
 ---@return QuestMessageSelector

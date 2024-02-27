@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class questPrefabVariantMapArrayElement
 ---@field globalNodeRef worldGlobalNodeRef
 ---@field PrefabVariantsReplicatedInfos questPrefabVariantReplicatedInfo[]
 questPrefabVariantMapArrayElement = {}
+
 
 ---@param fields? questPrefabVariantMapArrayElement
 ---@return questPrefabVariantMapArrayElement

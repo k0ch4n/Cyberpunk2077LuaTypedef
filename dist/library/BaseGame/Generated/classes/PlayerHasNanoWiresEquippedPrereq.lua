@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerHasNanoWiresEquippedPrereq: gameIScriptablePrereq
 PlayerHasNanoWiresEquippedPrereq = {}
+
 
 ---@param fields? PlayerHasNanoWiresEquippedPrereq
 ---@return PlayerHasNanoWiresEquippedPrereq

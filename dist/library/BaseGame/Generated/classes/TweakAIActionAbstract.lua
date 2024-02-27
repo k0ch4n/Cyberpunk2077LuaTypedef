@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TweakAIActionAbstract: AIbehaviortaskScript
 ---@field actionRecord gamedataAIAction_Record
 ---@field actionDebugName String
@@ -39,6 +40,7 @@
 ---@field initializedAfterActivation Bool
 ---@field shouldCallGetActionRecordAgain Bool
 TweakAIActionAbstract = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

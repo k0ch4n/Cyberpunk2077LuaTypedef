@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldStaticDecalNode: worldNode
 ---@field material IMaterial
 ---@field autoHideDistance Float
@@ -19,6 +20,7 @@
 ---@field forcedAutoHideDistance Float
 ---@field decalNodeVersion Uint8
 worldStaticDecalNode = {}
+
 
 ---@param fields? worldStaticDecalNode
 ---@return worldStaticDecalNode

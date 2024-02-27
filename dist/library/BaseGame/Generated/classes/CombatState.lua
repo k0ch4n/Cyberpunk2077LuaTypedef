@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CombatState: ChangeHighLevelStateAbstract
 CombatState = {}
+
 
 ---@param fields? CombatState
 ---@return CombatState

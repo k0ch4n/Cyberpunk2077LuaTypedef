@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_CreditsPicker: MenuScenario_PreGameSubMenu
 MenuScenario_CreditsPicker = {}
+
 
 ---@param fields? MenuScenario_CreditsPicker
 ---@return MenuScenario_CreditsPicker

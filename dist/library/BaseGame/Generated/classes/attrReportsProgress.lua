@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class attrReportsProgress: attrAttribute
 attrReportsProgress = {}
+
 
 ---@param fields? attrReportsProgress
 ---@return attrReportsProgress

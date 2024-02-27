@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class audioAdvertPositionStrategy: audioApplySoundPositionStrategy
 audioAdvertPositionStrategy = {}
+
 
 ---@param fields? audioAdvertPositionStrategy
 ---@return audioAdvertPositionStrategy

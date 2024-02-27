@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AINavigationSystemQuery
 ---@field source AIPositionSpec
 ---@field target AIPositionSpec
@@ -10,6 +11,7 @@
 ---@field useFollowSlots Bool
 ---@field usePredictionTime Bool
 AINavigationSystemQuery = {}
+
 
 ---@param fields? AINavigationSystemQuery
 ---@return AINavigationSystemQuery

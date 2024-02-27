@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIExtendTargetCirclingCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIExtendTargetCirclingCond_Record = {}
+
 
 ---@param fields? gamedataAIExtendTargetCirclingCond_Record
 ---@return gamedataAIExtendTargetCirclingCond_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReadyDecisions: WeaponReadyListenerTransition
 ReadyDecisions = {}
+
 
 ---@param fields? ReadyDecisions
 ---@return ReadyDecisions

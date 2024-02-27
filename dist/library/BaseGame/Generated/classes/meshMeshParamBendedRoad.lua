@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class meshMeshParamBendedRoad: meshMeshParameter
 ---@field occInds Uint16[]
 ---@field occVerts Vector4[]
@@ -14,6 +15,7 @@
 ---@field collFaceMatInds Uint16[][]
 ---@field collFaceMaterialNames String[][]
 meshMeshParamBendedRoad = {}
+
 
 ---@param fields? meshMeshParamBendedRoad
 ---@return meshMeshParamBendedRoad

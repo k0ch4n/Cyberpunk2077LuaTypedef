@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IScriptable: ISerializable
 IScriptable = {}
+
 
 ---@param fields? IScriptable
 ---@return IScriptable

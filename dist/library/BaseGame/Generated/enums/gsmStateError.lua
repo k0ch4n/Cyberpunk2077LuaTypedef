@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gsmStateError: Enum
 ---@field StateError_OK Enum 0
 ---@field StateError_SettingsCorrupted Enum 1

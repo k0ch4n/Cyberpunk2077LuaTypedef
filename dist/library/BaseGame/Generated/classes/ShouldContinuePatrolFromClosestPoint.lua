@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ShouldContinuePatrolFromClosestPoint: AIbehaviorconditionScript
 ---@field patrolContinuationPolicy AIArgumentMapping
 ShouldContinuePatrolFromClosestPoint = {}
+
 
 ---@param fields? ShouldContinuePatrolFromClosestPoint
 ---@return ShouldContinuePatrolFromClosestPoint

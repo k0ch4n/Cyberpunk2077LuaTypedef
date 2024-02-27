@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FocusModeOperations: DeviceOperations
 ---@field focusModeOperations SFocusModeOperationData[]
 FocusModeOperations = {}
+
 
 ---@param fields? FocusModeOperations
 ---@return FocusModeOperations

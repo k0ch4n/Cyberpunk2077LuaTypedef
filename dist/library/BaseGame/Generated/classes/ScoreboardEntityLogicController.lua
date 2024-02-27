@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScoreboardEntityLogicController: inkWidgetLogicController
 ---@field label inkTextWidgetReference
 ScoreboardEntityLogicController = {}
+
 
 ---@param fields? ScoreboardEntityLogicController
 ---@return ScoreboardEntityLogicController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldQuestPreventionNotifierInstance: worldITriggerAreaNotiferInstance
 worldQuestPreventionNotifierInstance = {}
+
 
 ---@param fields? worldQuestPreventionNotifierInstance
 ---@return worldQuestPreventionNotifierInstance

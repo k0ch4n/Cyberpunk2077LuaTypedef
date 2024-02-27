@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OpenMenuRequest: redEvent
 ---@field menuName CName
 ---@field userData IScriptable
@@ -10,6 +11,7 @@
 ---@field internal Bool
 ---@field hubMenuInstanceID Uint32
 OpenMenuRequest = {}
+
 
 ---@param fields? OpenMenuRequest
 ---@return OpenMenuRequest

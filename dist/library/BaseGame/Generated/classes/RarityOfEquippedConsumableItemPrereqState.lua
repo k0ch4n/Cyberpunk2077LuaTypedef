@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RarityOfEquippedConsumableItemPrereqState: gamePrereqState
 RarityOfEquippedConsumableItemPrereqState = {}
+
 
 ---@param fields? RarityOfEquippedConsumableItemPrereqState
 ---@return RarityOfEquippedConsumableItemPrereqState

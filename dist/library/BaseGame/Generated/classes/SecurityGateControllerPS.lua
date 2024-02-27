@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SecurityGateControllerPS: MasterControllerPS
 ---@field securityGateDetectionProperties SecurityGateDetectionProperties
 ---@field securityGateResponseProperties SecurityGateResponseProperties
 ---@field securityGateStatus ESecurityGateStatus
 ---@field trespassersDataList TrespasserEntry[]
 SecurityGateControllerPS = {}
+
 
 ---@param fields? SecurityGateControllerPS
 ---@return SecurityGateControllerPS

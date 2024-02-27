@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IgnoreAlreadyAffectedEntities: gameEffectObjectSingleFilter_Scripted
 IgnoreAlreadyAffectedEntities = {}
+
 
 ---@param fields? IgnoreAlreadyAffectedEntities
 ---@return IgnoreAlreadyAffectedEntities

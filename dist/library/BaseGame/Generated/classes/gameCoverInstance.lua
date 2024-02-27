@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCoverInstance: gameSmartObjectWorkspotInstance
 gameCoverInstance = {}
+
 
 ---@param fields? gameCoverInstance
 ---@return gameCoverInstance

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamestateMachineParameterAspect: Enum
 ---@field Temporary Enum 0
 ---@field Permanent Enum 1

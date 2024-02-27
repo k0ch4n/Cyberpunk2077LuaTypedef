@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class enteventsSetDissolveVisibility: redEvent
 enteventsSetDissolveVisibility = {}
+
 
 ---@param fields? enteventsSetDissolveVisibility
 ---@return enteventsSetDissolveVisibility

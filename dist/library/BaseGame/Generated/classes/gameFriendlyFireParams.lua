@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameFriendlyFireParams: IScriptable
 ---@field attitude gameAttitudeAgent
 ---@field slots entSlotComponent
@@ -8,6 +9,7 @@
 ---@field spread Float
 ---@field maxRange Float
 gameFriendlyFireParams = {}
+
 
 ---@param fields? gameFriendlyFireParams
 ---@return gameFriendlyFireParams

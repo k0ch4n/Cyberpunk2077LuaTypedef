@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIbehaviorSubtreeDefinition: AIbehaviorNestedTreeDefinition
 ---@field tree AIbehaviorParameterizedBehavior
 AIbehaviorSubtreeDefinition = {}
+
 
 ---@param fields? AIbehaviorSubtreeDefinition
 ---@return AIbehaviorSubtreeDefinition

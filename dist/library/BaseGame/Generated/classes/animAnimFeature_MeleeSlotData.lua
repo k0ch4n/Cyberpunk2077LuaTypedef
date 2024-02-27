@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimFeature_MeleeSlotData: animAnimFeature
 ---@field attackType Int32
 ---@field comboNumber Int32
@@ -9,6 +10,7 @@
 ---@field activeHitDuration Float
 ---@field recoverHitDuration Float
 animAnimFeature_MeleeSlotData = {}
+
 
 ---@param fields? animAnimFeature_MeleeSlotData
 ---@return animAnimFeature_MeleeSlotData

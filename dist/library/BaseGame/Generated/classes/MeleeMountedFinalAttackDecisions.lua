@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MeleeMountedFinalAttackDecisions: MeleeFinalAttackDecisions
 MeleeMountedFinalAttackDecisions = {}
+
 
 ---@param fields? MeleeMountedFinalAttackDecisions
 ---@return MeleeMountedFinalAttackDecisions

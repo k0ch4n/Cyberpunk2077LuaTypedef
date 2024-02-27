@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StandState: ChangeStanceStateAbstract
 StandState = {}
+
 
 ---@param fields? StandState
 ---@return StandState

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AIOffMeshConnectionComponent: entIComponent
 ---@field offMeshConnectionNodesRefs NodeRef[]
 ---@field agentSize NavGenAgentSize
 AIOffMeshConnectionComponent = {}
+
 
 ---@param fields? AIOffMeshConnectionComponent
 ---@return AIOffMeshConnectionComponent

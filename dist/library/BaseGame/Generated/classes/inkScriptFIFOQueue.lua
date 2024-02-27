@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkScriptFIFOQueue: IScriptable
 inkScriptFIFOQueue = {}
+
 
 ---@param fields? inkScriptFIFOQueue
 ---@return inkScriptFIFOQueue

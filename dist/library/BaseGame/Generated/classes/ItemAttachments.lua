@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ItemAttachments
 ---@field itemID gameItemID
 ---@field attachmentSlotID TweakDBID
 ItemAttachments = {}
+
 
 ---@param fields? ItemAttachments
 ---@return ItemAttachments

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnconsciousState: ChangeHighLevelStateAbstract
 UnconsciousState = {}
+
 
 ---@param fields? UnconsciousState
 ---@return UnconsciousState

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkSubtitlesLanguageOverride: inkUserData
 inkSubtitlesLanguageOverride = {}
+
 
 ---@param fields? inkSubtitlesLanguageOverride
 ---@return inkSubtitlesLanguageOverride

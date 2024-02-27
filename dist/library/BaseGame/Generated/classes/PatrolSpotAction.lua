@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PatrolSpotAction: TweakAIActionSmartComposite
 ---@field patrolAction AIArgumentMapping
 PatrolSpotAction = {}
+
 
 ---@param fields? PatrolSpotAction
 ---@return PatrolSpotAction

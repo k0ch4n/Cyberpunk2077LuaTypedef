@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsICollider: ISerializable
 ---@field localToBody Transform
 ---@field material CName

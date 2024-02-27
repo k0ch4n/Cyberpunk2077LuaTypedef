@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsvisEVisualizerType: Enum
 ---@field Device Enum 0
 ---@field Dialog Enum 1

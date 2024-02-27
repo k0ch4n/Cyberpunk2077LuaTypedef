@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class BloodswellEffectorColdBloodListener: gameScriptStatsListener
 ---@field effector BloodswellEffector
 ---@field gameInstance ScriptGameInstance
 BloodswellEffectorColdBloodListener = {}
+
 
 ---@param fields? BloodswellEffectorColdBloodListener
 ---@return BloodswellEffectorColdBloodListener

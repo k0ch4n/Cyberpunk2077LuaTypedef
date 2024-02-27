@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsBraindanceVisibilityEvent: scnSceneEvent
 ---@field performerId scnPerformerId
 ---@field customMaterialParam ECustomMaterialParam
@@ -11,6 +12,7 @@
 ---@field renderSettingsFPP WorldRenderAreaSettings
 ---@field renderSettingsTPP WorldRenderAreaSettings
 scneventsBraindanceVisibilityEvent = {}
+
 
 ---@param fields? scneventsBraindanceVisibilityEvent
 ---@return scneventsBraindanceVisibilityEvent

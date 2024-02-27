@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Codeware_UI_ThemeColors: IScriptable
 Codeware_UI_ThemeColors = {}
+
 
 ---@return HDRColor
 function Codeware_UI_ThemeColors.Bittersweet() end

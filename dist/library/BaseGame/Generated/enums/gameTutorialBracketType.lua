@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTutorialBracketType: Enum
 ---@field WidgetArea Enum 0
 ---@field CustomArea Enum 1

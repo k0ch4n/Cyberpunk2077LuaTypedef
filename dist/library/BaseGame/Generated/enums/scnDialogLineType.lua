@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnDialogLineType: Enum
 ---@field None Enum 0
 ---@field Regular Enum 1

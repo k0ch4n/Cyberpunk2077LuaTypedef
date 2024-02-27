@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CombatConditions: AIAutonomousConditions
 CombatConditions = {}
+
 
 ---@param fields? CombatConditions
 ---@return CombatConditions

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SetProficiencyLevel: gamePlayerScriptableSystemRequest
 ---@field newLevel Int32
 ---@field proficiencyType gamedataProficiencyType
 ---@field telemetryLevelGainReason telemetryLevelGainReason
 SetProficiencyLevel = {}
+
 
 ---@param fields? SetProficiencyLevel
 ---@return SetProficiencyLevel

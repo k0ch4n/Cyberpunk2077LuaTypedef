@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class appearanceAppearanceDefinition: ISerializable
 ---@field name CName
 ---@field parentAppearance CName
@@ -19,6 +20,7 @@
 ---@field looseDependencies CResource[]
 ---@field censorFlags Uint32
 appearanceAppearanceDefinition = {}
+
 
 ---@param fields? appearanceAppearanceDefinition
 ---@return appearanceAppearanceDefinition

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataBuildProgram_Record: gamedataTweakDBRecord
 gamedataBuildProgram_Record = {}
+
 
 ---@param fields? gamedataBuildProgram_Record
 ---@return gamedataBuildProgram_Record

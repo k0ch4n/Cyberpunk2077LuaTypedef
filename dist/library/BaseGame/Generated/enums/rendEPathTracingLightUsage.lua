@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendEPathTracingLightUsage: Enum
 ---@field PTLU_Everywhere Enum 0
 ---@field PTLU_OnlyInPathTracing Enum 1

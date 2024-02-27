@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AdHocAnimationEvents: TemporaryUnequipEvents
 AdHocAnimationEvents = {}
+
 
 ---@param fields? AdHocAnimationEvents
 ---@return AdHocAnimationEvents

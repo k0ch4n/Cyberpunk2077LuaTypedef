@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ImmediateExitWithForceEvents: ExitingEventsBase
 ---@field exitForce gamestateMachineResultVector
 ---@field bikeForce gamestateMachineResultVector
 ---@field knockOverBike KnockOverBikeEvent
 ImmediateExitWithForceEvents = {}
+
 
 ---@param fields? ImmediateExitWithForceEvents
 ---@return ImmediateExitWithForceEvents

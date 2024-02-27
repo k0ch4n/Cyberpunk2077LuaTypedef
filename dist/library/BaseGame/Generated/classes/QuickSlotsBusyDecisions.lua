@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickSlotsBusyDecisions: QuickSlotsDecisions
 QuickSlotsBusyDecisions = {}
+
 
 ---@param fields? QuickSlotsBusyDecisions
 ---@return QuickSlotsBusyDecisions

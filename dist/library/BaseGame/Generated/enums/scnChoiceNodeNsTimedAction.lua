@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnChoiceNodeNsTimedAction: Enum
 ---@field appear Enum 0
 ---@field disappear Enum 1

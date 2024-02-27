@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DelayedUpdateDeviceStateEvent: redEvent
 DelayedUpdateDeviceStateEvent = {}
+
 
 ---@param fields? DelayedUpdateDeviceStateEvent
 ---@return DelayedUpdateDeviceStateEvent

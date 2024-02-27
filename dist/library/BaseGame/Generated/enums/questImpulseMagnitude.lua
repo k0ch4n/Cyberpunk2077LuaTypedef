@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questImpulseMagnitude: Enum
 ---@field Any Enum 0
 ---@field Low Enum 1

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class PowerUpCyberwareEffector: gameEffector
 ---@field targetEquipArea gamedataEquipmentArea
 ---@field targetEquipSlotIndex Int32
 ---@field playerData EquipmentSystemPlayerData
 ---@field owner gameObject
 PowerUpCyberwareEffector = {}
+
 
 ---@param fields? PowerUpCyberwareEffector
 ---@return PowerUpCyberwareEffector

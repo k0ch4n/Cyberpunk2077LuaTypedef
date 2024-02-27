@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetSecuritySystemState: redEvent
 ---@field state ESecuritySystemState
 SetSecuritySystemState = {}
+
 
 ---@param fields? SetSecuritySystemState
 ---@return SetSecuritySystemState

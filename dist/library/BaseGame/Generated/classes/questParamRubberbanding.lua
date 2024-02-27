@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questParamRubberbanding: ISerializable
 ---@field targetRef questUniversalRef
 ---@field targetForwardOffset Float
@@ -9,6 +10,7 @@
 ---@field teleportToCatchUp Bool
 ---@field stayInFront Bool
 questParamRubberbanding = {}
+
 
 ---@param fields? questParamRubberbanding
 ---@return questParamRubberbanding

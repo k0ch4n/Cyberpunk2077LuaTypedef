@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuickMeleeDataDef: gamebbScriptDefinition
 ---@field NPCHit gamebbScriptID_Bool
 QuickMeleeDataDef = {}
+
 
 ---@param fields? QuickMeleeDataDef
 ---@return QuickMeleeDataDef

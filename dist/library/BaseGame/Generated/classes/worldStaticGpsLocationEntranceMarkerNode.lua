@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldStaticGpsLocationEntranceMarkerNode: worldNode
 worldStaticGpsLocationEntranceMarkerNode = {}
+
 
 ---@param fields? worldStaticGpsLocationEntranceMarkerNode
 ---@return worldStaticGpsLocationEntranceMarkerNode

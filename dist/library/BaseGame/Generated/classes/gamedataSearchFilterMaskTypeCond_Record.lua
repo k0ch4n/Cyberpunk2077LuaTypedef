@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataSearchFilterMaskTypeCond_Record: gamedataSearchFilterMaskTypeCondition_Record
 gamedataSearchFilterMaskTypeCond_Record = {}
+
 
 ---@param fields? gamedataSearchFilterMaskTypeCond_Record
 ---@return gamedataSearchFilterMaskTypeCond_Record

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entMorphTargetSkinnedMeshComponent: entISkinTargetComponent
 ---@field morphResource MorphTargetMesh
 ---@field meshAppearance CName
@@ -13,6 +14,7 @@
 ---@field tags redTagList
 ---@field version Uint8
 entMorphTargetSkinnedMeshComponent = {}
+
 
 ---@param fields? entMorphTargetSkinnedMeshComponent
 ---@return entMorphTargetSkinnedMeshComponent

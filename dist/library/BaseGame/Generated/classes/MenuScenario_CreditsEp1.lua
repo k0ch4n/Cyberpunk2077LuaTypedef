@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_CreditsEp1: MenuScenario_PreGameSubMenu
 MenuScenario_CreditsEp1 = {}
+
 
 ---@param fields? MenuScenario_CreditsEp1
 ---@return MenuScenario_CreditsEp1

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SNameplateRangesData
 ---@field c_DisplayRange Float
 ---@field c_MaxDisplayRange Float
 ---@field c_MaxDisplayRangeNotAggressive Float
 ---@field c_DisplayRangeNotAggressive Float
 SNameplateRangesData = {}
+
 
 ---@param fields? SNameplateRangesData
 ---@return SNameplateRangesData

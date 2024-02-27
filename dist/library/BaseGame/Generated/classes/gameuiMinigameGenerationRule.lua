@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiMinigameGenerationRule: IScriptable
 ---@field minigameController gameuiHackingMinigameGameController
 ---@field blackboardSystem gameBlackboardSystem
@@ -9,6 +10,7 @@
 ---@field bufferSize Int32
 ---@field isItemBreach Bool
 gameuiMinigameGenerationRule = {}
+
 
 ---@param fields? gameuiMinigameGenerationRule
 ---@return gameuiMinigameGenerationRule

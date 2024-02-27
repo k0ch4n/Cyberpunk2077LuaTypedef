@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleVisualCustomizationWidgetCarPart: Enum
 ---@field Default Enum 0
 ---@field Body Enum 1

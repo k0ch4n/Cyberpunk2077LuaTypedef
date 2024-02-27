@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class populationSpawnerObjectCtrlAction: Enum
 ---@field Undefined Enum 0
 ---@field Activate Enum 1

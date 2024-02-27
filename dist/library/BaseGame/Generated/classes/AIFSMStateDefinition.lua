@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIFSMStateDefinition
 ---@field onUpdateTransition AIFSMTransitionListDefinition
 ---@field onCompleteTransition AIFSMTransitionListDefinition
@@ -9,6 +10,7 @@
 ---@field onEventTransitions AIFSMTransitionListDefinition
 ---@field childNode AICTreeNodeDefinition
 AIFSMStateDefinition = {}
+
 
 ---@param fields? AIFSMStateDefinition
 ---@return AIFSMStateDefinition

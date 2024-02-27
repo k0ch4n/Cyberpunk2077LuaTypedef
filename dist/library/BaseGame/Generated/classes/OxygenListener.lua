@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OxygenListener: gameScriptStatPoolsListener
 ---@field oxygenBar OxygenbarWidgetGameController
 OxygenListener = {}
+
 
 ---@param fields? OxygenListener
 ---@return OxygenListener

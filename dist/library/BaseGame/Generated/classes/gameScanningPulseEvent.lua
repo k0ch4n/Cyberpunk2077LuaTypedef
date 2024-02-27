@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameScanningPulseEvent: redEvent
 gameScanningPulseEvent = {}
+
 
 ---@param fields? gameScanningPulseEvent
 ---@return gameScanningPulseEvent

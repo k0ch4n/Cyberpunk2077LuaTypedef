@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TriggerAttackOnOwnerEffect: gameEffector
 ---@field owner gameObject
 ---@field attackTDBID TweakDBID
@@ -9,6 +10,7 @@
 ---@field isRandom Bool
 ---@field applicationChance Float
 TriggerAttackOnOwnerEffect = {}
+
 
 ---@param fields? TriggerAttackOnOwnerEffect
 ---@return TriggerAttackOnOwnerEffect

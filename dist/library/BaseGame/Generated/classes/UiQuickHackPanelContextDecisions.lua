@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UiQuickHackPanelContextDecisions: InputContextTransitionDecisions
 UiQuickHackPanelContextDecisions = {}
+
 
 ---@param fields? UiQuickHackPanelContextDecisions
 ---@return UiQuickHackPanelContextDecisions

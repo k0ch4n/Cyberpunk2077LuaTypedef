@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MinigameGenerationRulePredefinedBoard: gameuiMinigameGenerationRule
 MinigameGenerationRulePredefinedBoard = {}
+
 
 ---@param fields? MinigameGenerationRulePredefinedBoard
 ---@return MinigameGenerationRulePredefinedBoard

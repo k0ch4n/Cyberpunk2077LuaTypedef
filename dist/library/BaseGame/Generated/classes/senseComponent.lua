@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class senseComponent: entIPlacedComponent
 ---@field enableBeingDetectable Bool
 ---@field visibleObject senseVisibleObject
@@ -24,6 +25,7 @@
 ---@field playerCarryingStateCallbackID redCallbackObject
 ---@field playerInPerception PlayerPuppet
 senseComponent = {}
+
 
 ---@param fields? senseComponent
 ---@return senseComponent

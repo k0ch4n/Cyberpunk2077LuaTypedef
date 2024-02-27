@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questEquipItemParams: questAICommandParams
 ---@field slotId TweakDBID
 ---@field type questNodeType
@@ -16,6 +17,7 @@
 ---@field unequipTypes gameItemUnequipContexts
 ---@field byItem Bool
 questEquipItemParams = {}
+
 
 ---@param fields? questEquipItemParams
 ---@return questEquipItemParams

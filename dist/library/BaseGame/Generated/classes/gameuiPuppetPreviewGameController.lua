@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiPuppetPreviewGameController: gameuiPreviewGameController
 ---@field cameraController gameuiPuppetPreviewCameraController
 gameuiPuppetPreviewGameController = {}
+
 
 ---@param fields? gameuiPuppetPreviewGameController
 ---@return gameuiPuppetPreviewGameController

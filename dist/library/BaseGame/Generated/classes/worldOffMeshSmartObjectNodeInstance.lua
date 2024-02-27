@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldOffMeshSmartObjectNodeInstance: worldOffMeshConnectionNodeInstance
 worldOffMeshSmartObjectNodeInstance = {}
+
 
 ---@param fields? worldOffMeshSmartObjectNodeInstance
 ---@return worldOffMeshSmartObjectNodeInstance

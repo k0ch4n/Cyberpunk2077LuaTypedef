@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleQuestVisualDestructionEvent: redEvent
 ---@field accumulate Bool
 ---@field frontLeft Float
@@ -12,6 +13,7 @@
 ---@field back Float
 ---@field roof Float
 VehicleQuestVisualDestructionEvent = {}
+
 
 ---@param fields? VehicleQuestVisualDestructionEvent
 ---@return VehicleQuestVisualDestructionEvent

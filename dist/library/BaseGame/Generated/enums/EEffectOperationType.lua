@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EEffectOperationType: Enum
 ---@field START Enum 0
 ---@field STOP Enum 1

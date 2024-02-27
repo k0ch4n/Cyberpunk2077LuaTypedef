@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CluePSData: IScriptable
 ---@field id Int32
 ---@field isEnabled Bool
@@ -7,6 +8,7 @@
 ---@field isScanned Bool
 ---@field conclusionQuestState EConclusionQuestState
 CluePSData = {}
+
 
 ---@param fields? CluePSData
 ---@return CluePSData

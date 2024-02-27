@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animAnimFeature_PlayerStateMachineState: animAnimFeature
 animAnimFeature_PlayerStateMachineState = {}
+
 
 ---@param fields? animAnimFeature_PlayerStateMachineState
 ---@return animAnimFeature_PlayerStateMachineState

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAITresspassingCond_Record: gamedataAIActionSubCondition_Record
 gamedataAITresspassingCond_Record = {}
+
 
 ---@param fields? gamedataAITresspassingCond_Record
 ---@return gamedataAITresspassingCond_Record

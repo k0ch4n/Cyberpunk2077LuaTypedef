@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRoachRaceObstacleTexturePartPair_Record: gamedataTweakDBRecord
 gamedataRoachRaceObstacleTexturePartPair_Record = {}
+
 
 ---@param fields? gamedataRoachRaceObstacleTexturePartPair_Record
 ---@return gamedataRoachRaceObstacleTexturePartPair_Record

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ReloadingExpansionPopupController: inkWidgetLogicController
 ---@field progressBarRef inkWidgetReference
 ---@field titleTextRef inkTextWidgetReference
@@ -8,6 +9,7 @@
 ---@field progressBarController LoadingScreenProgressBarController
 ---@field animProxy inkanimProxy
 ReloadingExpansionPopupController = {}
+
 
 ---@param fields? ReloadingExpansionPopupController
 ---@return ReloadingExpansionPopupController

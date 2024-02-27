@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CoderControllerPS: BasicDistractionDeviceControllerPS
 ---@field providedAuthorizationLevel ESecurityAccessLevel
 CoderControllerPS = {}
+
 
 ---@param fields? CoderControllerPS
 ---@return CoderControllerPS

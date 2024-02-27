@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataLightPreset_Record: gamedataTweakDBRecord
 gamedataLightPreset_Record = {}
+
 
 ---@param fields? gamedataLightPreset_Record
 ---@return gamedataLightPreset_Record

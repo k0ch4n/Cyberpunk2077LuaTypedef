@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class QuestShardLinkController: BaseCodexLinkController
 ---@field journalManager gameJournalManager
 ---@field journalEntry gameJournalOnscreen
 QuestShardLinkController = {}
+
 
 ---@param fields? QuestShardLinkController
 ---@return QuestShardLinkController

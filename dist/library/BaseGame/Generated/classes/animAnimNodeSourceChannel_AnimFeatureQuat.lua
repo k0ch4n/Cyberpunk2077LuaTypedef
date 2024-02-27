@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animAnimNodeSourceChannel_AnimFeatureQuat: animIAnimNodeSourceChannel_Quat
 animAnimNodeSourceChannel_AnimFeatureQuat = {}
+
 
 ---@param fields? animAnimNodeSourceChannel_AnimFeatureQuat
 ---@return animAnimNodeSourceChannel_AnimFeatureQuat

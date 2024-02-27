@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetNPCIncapacitatedDelayedRequest: gameScriptableSystemRequest
 ResetNPCIncapacitatedDelayedRequest = {}
+
 
 ---@param fields? ResetNPCIncapacitatedDelayedRequest
 ---@return ResetNPCIncapacitatedDelayedRequest

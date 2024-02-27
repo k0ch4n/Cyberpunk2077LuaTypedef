@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workWorkspotSystem: worldIWorkspotSystem
 workWorkspotSystem = {}
+
 
 ---@param fields? workWorkspotSystem
 ---@return workWorkspotSystem

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCarriedObjectAttached: redEvent
 gameCarriedObjectAttached = {}
+
 
 ---@param fields? gameCarriedObjectAttached
 ---@return gameCarriedObjectAttached

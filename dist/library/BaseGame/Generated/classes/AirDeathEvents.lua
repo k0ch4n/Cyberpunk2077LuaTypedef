@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AirDeathEvents: DeathEvents
 AirDeathEvents = {}
+
 
 ---@param fields? AirDeathEvents
 ---@return AirDeathEvents

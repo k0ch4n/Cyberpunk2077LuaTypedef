@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataLocomotionMode_Record: gamedataTweakDBRecord
 gamedataLocomotionMode_Record = {}
+
 
 ---@param fields? gamedataLocomotionMode_Record
 ---@return gamedataLocomotionMode_Record

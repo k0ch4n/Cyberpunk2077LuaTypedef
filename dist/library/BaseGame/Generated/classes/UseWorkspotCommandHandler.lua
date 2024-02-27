@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class UseWorkspotCommandHandler: AICommandHandlerBase
 ---@field outMoveToWorkspot AIArgumentMapping
 ---@field outForceEntryAnimName AIArgumentMapping
 ---@field outContinueInCombat AIArgumentMapping
 UseWorkspotCommandHandler = {}
+
 
 ---@param fields? UseWorkspotCommandHandler
 ---@return UseWorkspotCommandHandler

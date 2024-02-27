@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class QuestForceCameraZoom: ActionBool
 ---@field useWorkspot Bool
 ---@field instant Bool
 QuestForceCameraZoom = {}
+
 
 ---@param fields? QuestForceCameraZoom
 ---@return QuestForceCameraZoom

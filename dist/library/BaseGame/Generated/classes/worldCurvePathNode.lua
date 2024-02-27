@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldCurvePathNode: worldSplineNode
 ---@field userInput animCurvePathBakerUserInput
 ---@field defaultForwardVector Vector4
@@ -13,6 +14,7 @@
 ---@field animSets animAnimSet[]
 ---@field timeDeltaMultiplier Float
 worldCurvePathNode = {}
+
 
 ---@param fields? worldCurvePathNode
 ---@return worldCurvePathNode

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class AIGateSignal
 ---@field tags CName
 ---@field flags AISignalFlags
 ---@field priority Float
 ---@field lifeTime Float
 AIGateSignal = {}
+
 
 ---@param fields? AIGateSignal
 ---@return AIGateSignal

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class characterCreationBodyMorphImageThumbnail: inkButtonAnimatedController
 ---@field selector inkWidgetReference
 ---@field equipped inkWidgetReference
 ---@field bg inkWidgetReference
 ---@field index Int32
 characterCreationBodyMorphImageThumbnail = {}
+
 
 ---@param fields? characterCreationBodyMorphImageThumbnail
 ---@return characterCreationBodyMorphImageThumbnail

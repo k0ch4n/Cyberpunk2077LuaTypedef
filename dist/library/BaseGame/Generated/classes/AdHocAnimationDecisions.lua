@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AdHocAnimationDecisions: UpperBodyEventsTransition
 AdHocAnimationDecisions = {}
+
 
 ---@param fields? AdHocAnimationDecisions
 ---@return AdHocAnimationDecisions

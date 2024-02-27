@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InteractiveSignController: ScriptableDeviceComponent
 InteractiveSignController = {}
+
 
 ---@param fields? InteractiveSignController
 ---@return InteractiveSignController

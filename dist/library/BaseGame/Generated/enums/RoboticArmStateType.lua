@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RoboticArmStateType: Enum
 ---@field Idle Enum 0
 ---@field Work Enum 1

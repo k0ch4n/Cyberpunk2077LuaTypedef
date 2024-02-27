@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GenericDevice: InteractiveDevice
 ---@field offMeshConnectionComponent AIOffMeshConnectionComponent
 ---@field currentSpiderbotAction CustomDeviceAction
 GenericDevice = {}
+
 
 ---@param fields? GenericDevice
 ---@return GenericDevice

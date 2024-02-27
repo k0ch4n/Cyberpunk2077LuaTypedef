@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameRazerChromaEffectsSystem: gameIRazerChromaEffectsSystem
 gameRazerChromaEffectsSystem = {}
+
 
 ---@param fields? gameRazerChromaEffectsSystem
 ---@return gameRazerChromaEffectsSystem

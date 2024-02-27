@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class itempreviewUIObjectsLoaderSystemListener: gameuiIUIObjectsLoaderSystemListener
 itempreviewUIObjectsLoaderSystemListener = {}
+
 
 ---@param fields? itempreviewUIObjectsLoaderSystemListener
 ---@return itempreviewUIObjectsLoaderSystemListener

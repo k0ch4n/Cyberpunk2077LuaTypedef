@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuicksortInventoryItemData: IScriptable
 QuicksortInventoryItemData = {}
+
 
 ---@param fields? QuicksortInventoryItemData
 ---@return QuicksortInventoryItemData

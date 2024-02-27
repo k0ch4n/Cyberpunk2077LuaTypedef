@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BaseBullet: BaseProjectile
 ---@field meshComponent entIComponent
 ---@field countTime Float
@@ -8,6 +9,7 @@
 ---@field lifetime Float
 ---@field alive Bool
 BaseBullet = {}
+
 
 ---@param fields? BaseBullet
 ---@return BaseBullet

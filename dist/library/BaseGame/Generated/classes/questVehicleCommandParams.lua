@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questVehicleCommandParams: questAICommandParams
 ---@field type questVehicleCommandType
 ---@field additionalParamsOnSpline questvehicleOnSplineParams
@@ -10,6 +11,7 @@
 ---@field additionalParamsPanic questvehiclePanicParams
 ---@field additionalParamsChase questvehicleChaseParams
 questVehicleCommandParams = {}
+
 
 ---@param fields? questVehicleCommandParams
 ---@return questVehicleCommandParams

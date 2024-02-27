@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FunctionalTestsDataTimeStatsData: ISerializable
 ---@field engineTick Uint64
 ---@field lastFps Float
@@ -12,6 +13,7 @@
 ---@field playerPosition String
 ---@field playerOrientation String
 FunctionalTestsDataTimeStatsData = {}
+
 
 ---@param fields? FunctionalTestsDataTimeStatsData
 ---@return FunctionalTestsDataTimeStatsData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldAcousticPortalNodeInstance: worldINodeInstance
 worldAcousticPortalNodeInstance = {}
+
 
 ---@param fields? worldAcousticPortalNodeInstance
 ---@return worldAcousticPortalNodeInstance

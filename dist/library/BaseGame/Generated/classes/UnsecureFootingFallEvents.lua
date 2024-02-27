@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnsecureFootingFallEvents: FallEvents
 UnsecureFootingFallEvents = {}
+
 
 ---@param fields? UnsecureFootingFallEvents
 ---@return UnsecureFootingFallEvents

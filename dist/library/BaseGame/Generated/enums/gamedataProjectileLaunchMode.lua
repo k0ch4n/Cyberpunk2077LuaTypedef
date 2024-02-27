@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataProjectileLaunchMode: Enum
 ---@field Regular Enum 0
 ---@field Tracking Enum 1

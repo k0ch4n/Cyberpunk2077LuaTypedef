@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UpdateWeaponStatsEvent: redEvent
 UpdateWeaponStatsEvent = {}
+
 
 ---@param fields? UpdateWeaponStatsEvent
 ---@return UpdateWeaponStatsEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AuthorisationNotification: GenericNotificationController
 AuthorisationNotification = {}
+
 
 ---@param fields? AuthorisationNotification
 ---@return AuthorisationNotification

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class PerksSkillLabelContentContainer: HubMenuLabelContentContainer
 ---@field levelLabel inkTextWidgetReference
 ---@field levelBar inkWidgetReference
 ---@field skillData ProficiencyDisplayData
 PerksSkillLabelContentContainer = {}
+
 
 ---@param fields? PerksSkillLabelContentContainer
 ---@return PerksSkillLabelContentContainer

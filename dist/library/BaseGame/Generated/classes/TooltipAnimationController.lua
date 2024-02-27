@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TooltipAnimationController: inkWidgetLogicController
 ---@field tooltipContainer inkWidgetReference
 ---@field tooltipAnimHideDef inkanimDefinition
@@ -10,6 +11,7 @@
 ---@field mouseDataThreshold Float
 ---@field isHidden Bool
 TooltipAnimationController = {}
+
 
 ---@param fields? TooltipAnimationController
 ---@return TooltipAnimationController

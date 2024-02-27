@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleRemoteControlCameraToggleEvent: redEvent
 vehicleRemoteControlCameraToggleEvent = {}
+
 
 ---@param fields? vehicleRemoteControlCameraToggleEvent
 ---@return vehicleRemoteControlCameraToggleEvent

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ICECounterHackEffector: gameEffector
 ---@field quickhackObjectActionID TweakDBID
 ---@field quickhackObjectActionRecord gamedataObjectAction_Record
 ICECounterHackEffector = {}
+
 
 ---@param fields? ICECounterHackEffector
 ---@return ICECounterHackEffector

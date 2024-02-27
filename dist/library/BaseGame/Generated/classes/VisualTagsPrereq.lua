@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class VisualTagsPrereq: gameIScriptablePrereq
 ---@field allowedTags CName[]
 ---@field invert Bool
 VisualTagsPrereq = {}
+
 
 ---@param fields? VisualTagsPrereq
 ---@return VisualTagsPrereq

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SpawnLibraryItemController: inkWidgetLogicController
 ---@field libraryID CName
 SpawnLibraryItemController = {}
+
 
 ---@param fields? SpawnLibraryItemController
 ---@return SpawnLibraryItemController

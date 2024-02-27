@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questLogV2GameController: gameuiMenuGameController
 ---@field QuestDetailsRef inkWidgetReference
 ---@field QuestDetailsHeader inkWidgetReference
@@ -29,6 +30,7 @@
 ---@field menuEventDispatcher inkMenuEventDispatcher
 ---@field buttonHintsController ButtonHints
 questLogV2GameController = {}
+
 
 ---@param fields? questLogV2GameController
 ---@return questLogV2GameController

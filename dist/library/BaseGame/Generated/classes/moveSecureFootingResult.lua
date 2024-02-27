@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class moveSecureFootingResult
 ---@field slidingDirection Vector4
 ---@field normalDirection Vector4
@@ -8,6 +9,7 @@
 ---@field reason moveSecureFootingFailureReason
 ---@field type moveSecureFootingFailureType
 moveSecureFootingResult = {}
+
 
 ---@param fields? moveSecureFootingResult
 ---@return moveSecureFootingResult

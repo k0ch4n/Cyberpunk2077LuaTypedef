@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScavengeComponent: gameScriptableComponent
 ---@field scavengeTargets gameObject[]
 ScavengeComponent = {}
+
 
 ---@param fields? ScavengeComponent
 ---@return ScavengeComponent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AttitudeChange: Enum
 ---@field DONT_CHANGE Enum 0
 ---@field FRIENDLY Enum 1

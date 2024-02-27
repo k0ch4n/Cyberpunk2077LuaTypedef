@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SwimmingTransitionDecisions: LocomotionSwimming
 SwimmingTransitionDecisions = {}
+
 
 ---@param fields? SwimmingTransitionDecisions
 ---@return SwimmingTransitionDecisions

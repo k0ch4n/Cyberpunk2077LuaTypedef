@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RemoveCommand: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 RemoveCommand = {}
+
 
 ---@param fields? RemoveCommand
 ---@return RemoveCommand

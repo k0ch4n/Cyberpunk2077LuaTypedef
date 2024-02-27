@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameDeviceBase: gameObject
 ---@field isLogicReady Bool
 gameDeviceBase = {}
+
 
 ---@param fields? gameDeviceBase
 ---@return gameDeviceBase

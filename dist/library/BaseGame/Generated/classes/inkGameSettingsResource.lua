@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkGameSettingsResource: CResource
 ---@field compositionResource inkFullscreenCompositionResource
 ---@field permanentTextureAtlases inkTextureAtlas[]
@@ -41,6 +42,7 @@
 ---@field stadiaDurangoIconsAtlas inkTextureAtlas
 ---@field stadiaOrbisIconsAtlas inkTextureAtlas
 inkGameSettingsResource = {}
+
 
 ---@param fields? inkGameSettingsResource
 ---@return inkGameSettingsResource

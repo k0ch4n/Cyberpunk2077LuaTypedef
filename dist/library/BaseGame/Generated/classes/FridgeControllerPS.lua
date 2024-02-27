@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FridgeControllerPS: ScriptableDeviceComponentPS
 ---@field isOpen Bool
 FridgeControllerPS = {}
+
 
 ---@param fields? FridgeControllerPS
 ---@return FridgeControllerPS

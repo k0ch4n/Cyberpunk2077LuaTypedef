@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PhoneStatsListener: gameScriptStatsListener
 ---@field phoneSystem PhoneSystem
 PhoneStatsListener = {}
+
 
 ---@param fields? PhoneStatsListener
 ---@return PhoneStatsListener

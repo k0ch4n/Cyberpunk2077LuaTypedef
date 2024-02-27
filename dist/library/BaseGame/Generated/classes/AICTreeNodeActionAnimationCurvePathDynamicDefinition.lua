@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AICTreeNodeActionAnimationCurvePathDynamicDefinition: AICTreeNodeActionDefinition
 ---@field targetSplineVarName CName
 ---@field controlerVarName CName
@@ -15,6 +16,7 @@
 ---@field startSnapToTerrainBlendTime Float
 ---@field stopSnapToTerrainBlendTime Float
 AICTreeNodeActionAnimationCurvePathDynamicDefinition = {}
+
 
 ---@param fields? AICTreeNodeActionAnimationCurvePathDynamicDefinition
 ---@return AICTreeNodeActionAnimationCurvePathDynamicDefinition

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DialogChoiceLogicController: inkWidgetLogicController
 ---@field InputViewRef inkWidgetReference
 ---@field VerticalLineWidget inkWidgetReference
@@ -46,6 +47,7 @@
 ---@field animfFadingOutProxy inkanimProxy
 ---@field animIntroProxy inkanimProxy
 DialogChoiceLogicController = {}
+
 
 ---@param fields? DialogChoiceLogicController
 ---@return DialogChoiceLogicController

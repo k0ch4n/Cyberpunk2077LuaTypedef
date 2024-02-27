@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameFPPCameraComponent: gameCameraComponent
 ---@field pitchMin Float
 ---@field pitchMax Float
@@ -10,6 +11,7 @@
 ---@field sensitivityMultY Float
 ---@field timeDilationCurveName CName
 gameFPPCameraComponent = {}
+
 
 ---@param fields? gameFPPCameraComponent
 ---@return gameFPPCameraComponent

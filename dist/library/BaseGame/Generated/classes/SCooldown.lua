@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SCooldown
 ---@field delayId gameDelayID
 ---@field removeId gameDelayID
@@ -16,6 +17,7 @@
 ---@field abilityType gamedataStatType
 ---@field statMod gameStatModifierData_Deprecated
 SCooldown = {}
+
 
 ---@param fields? SCooldown
 ---@return SCooldown

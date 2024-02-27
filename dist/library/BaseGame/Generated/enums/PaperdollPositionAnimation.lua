@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PaperdollPositionAnimation: Enum
 ---@field Center Enum 0
 ---@field Left Enum 1

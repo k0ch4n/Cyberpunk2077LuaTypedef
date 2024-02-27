@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FallLowGravityDecisions: LocomotionAirLowGravityDecisions
 FallLowGravityDecisions = {}
+
 
 ---@param fields? FallLowGravityDecisions
 ---@return FallLowGravityDecisions

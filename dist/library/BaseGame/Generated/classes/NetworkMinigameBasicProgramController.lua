@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NetworkMinigameBasicProgramController: NetworkMinigameProgramController
 NetworkMinigameBasicProgramController = {}
+
 
 ---@param fields? NetworkMinigameBasicProgramController
 ---@return NetworkMinigameBasicProgramController

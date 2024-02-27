@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CombatGadgetChargeEvents: CombatGadgetTransitions
 ---@field initiated Bool
 ---@field itemSwitched Bool
 CombatGadgetChargeEvents = {}
+
 
 ---@param fields? CombatGadgetChargeEvents
 ---@return CombatGadgetChargeEvents

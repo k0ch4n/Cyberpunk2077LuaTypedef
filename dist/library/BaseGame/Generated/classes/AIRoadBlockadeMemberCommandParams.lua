@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIRoadBlockadeMemberCommandParams: questScriptedAICommandParams
 ---@field duration Float
 AIRoadBlockadeMemberCommandParams = {}
+
 
 ---@param fields? AIRoadBlockadeMemberCommandParams
 ---@return AIRoadBlockadeMemberCommandParams

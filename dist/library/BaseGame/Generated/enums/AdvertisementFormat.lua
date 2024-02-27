@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AdvertisementFormat: Enum
 ---@field Format_0_7x1 Enum 0
 ---@field Format_1x1 Enum 1

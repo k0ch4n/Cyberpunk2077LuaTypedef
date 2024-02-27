@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldDeviceNodeInstance: worldEntityNodeInstance
 worldDeviceNodeInstance = {}
+
 
 ---@param fields? worldDeviceNodeInstance
 ---@return worldDeviceNodeInstance

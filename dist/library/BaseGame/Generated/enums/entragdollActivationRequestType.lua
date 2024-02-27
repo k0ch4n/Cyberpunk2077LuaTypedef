@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entragdollActivationRequestType: Enum
 ---@field Default Enum 0
 ---@field Animated Enum 1

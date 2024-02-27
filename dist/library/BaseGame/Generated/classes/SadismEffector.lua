@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SadismEffector: gameEffector
 ---@field healingItemChargeRestorePercentage Float
 SadismEffector = {}
+
 
 ---@param fields? SadismEffector
 ---@return SadismEffector

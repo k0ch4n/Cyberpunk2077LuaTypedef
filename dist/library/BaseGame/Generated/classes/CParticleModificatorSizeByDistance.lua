@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CParticleModificatorSizeByDistance: IParticleModificator
 ---@field nearDistanceRangeStart IEvaluatorFloat
 ---@field nearDistanceRangeEnd IEvaluatorFloat
@@ -8,6 +9,7 @@
 ---@field farDistanceRangeEnd IEvaluatorFloat
 ---@field farDistanceSizeMultiplier IEvaluatorFloat
 CParticleModificatorSizeByDistance = {}
+
 
 ---@param fields? CParticleModificatorSizeByDistance
 ---@return CParticleModificatorSizeByDistance

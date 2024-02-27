@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameActionScript: gameIObjectScriptBase
 ---@field actionFlags Uint32
 gameActionScript = {}
+
 
 ---@param fields? gameActionScript
 ---@return gameActionScript

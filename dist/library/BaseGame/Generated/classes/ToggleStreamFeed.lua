@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ToggleStreamFeed: ActionBool
 ---@field vRoomFake Bool
 ToggleStreamFeed = {}
+
 
 ---@param fields? ToggleStreamFeed
 ---@return ToggleStreamFeed

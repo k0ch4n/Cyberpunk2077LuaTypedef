@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleDetailsLogicController: inkWidgetLogicController
 ---@field backButton inkWidgetReference
 ---@field purchaseButton inkWidgetReference
@@ -24,6 +25,7 @@
 ---@field price Int32
 ---@field discount Float
 VehicleDetailsLogicController = {}
+
 
 ---@param fields? VehicleDetailsLogicController
 ---@return VehicleDetailsLogicController

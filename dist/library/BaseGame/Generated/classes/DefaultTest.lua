@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DefaultTest: gamestateMachineFunctor
 DefaultTest = {}
+
 
 ---@param fields? DefaultTest
 ---@return DefaultTest

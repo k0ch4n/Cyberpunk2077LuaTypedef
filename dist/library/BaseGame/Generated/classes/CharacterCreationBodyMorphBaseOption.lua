@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CharacterCreationBodyMorphBaseOption: inkWidgetLogicController
 ---@field isPrevOrNextBtnHoveredOver Bool
 CharacterCreationBodyMorphBaseOption = {}
+
 
 ---@param fields? CharacterCreationBodyMorphBaseOption
 ---@return CharacterCreationBodyMorphBaseOption

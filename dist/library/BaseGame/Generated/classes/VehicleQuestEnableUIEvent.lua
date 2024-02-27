@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VehicleQuestEnableUIEvent: redEvent
 ---@field mode vehicleQuestUIEnable
 VehicleQuestEnableUIEvent = {}
+
 
 ---@param fields? VehicleQuestEnableUIEvent
 ---@return VehicleQuestEnableUIEvent

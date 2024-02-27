@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class FastForwardAvailableEvents: ScenesFastForwardTransition
 ---@field forceCloseFX Bool
 ---@field delay Float
 FastForwardAvailableEvents = {}
+
 
 ---@param fields? FastForwardAvailableEvents
 ---@return FastForwardAvailableEvents

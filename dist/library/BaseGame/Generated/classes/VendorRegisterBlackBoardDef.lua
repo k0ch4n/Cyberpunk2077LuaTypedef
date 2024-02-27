@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VendorRegisterBlackBoardDef: gamebbScriptDefinition
 ---@field vendors gamebbScriptID_Variant
 VendorRegisterBlackBoardDef = {}
+
 
 ---@param fields? VendorRegisterBlackBoardDef
 ---@return VendorRegisterBlackBoardDef

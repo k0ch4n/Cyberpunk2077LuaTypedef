@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CheckIfSearchAllowed: AIDebugConditions
 CheckIfSearchAllowed = {}
+
 
 ---@param fields? CheckIfSearchAllowed
 ---@return CheckIfSearchAllowed

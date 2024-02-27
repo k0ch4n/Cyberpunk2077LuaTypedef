@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class audioAuxiliaryMetadata
 ---@field physicalPropSettings CName
 audioAuxiliaryMetadata = {}
+
 
 ---@param fields? audioAuxiliaryMetadata
 ---@return audioAuxiliaryMetadata

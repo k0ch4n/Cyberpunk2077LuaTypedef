@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AITicketCondition: IScriptable
 AITicketCondition = {}
+
 
 ---@param entity entEntity
 ---@param interface PuppetSquadInterface

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OdaCementBag: InteractiveDevice
 ---@field onCooldown Bool
 OdaCementBag = {}
+
 
 ---@param fields? OdaCementBag
 ---@return OdaCementBag

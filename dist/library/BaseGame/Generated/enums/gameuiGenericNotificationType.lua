@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiGenericNotificationType: Enum
 ---@field Generic Enum 0
 ---@field QuestUpdate Enum 1

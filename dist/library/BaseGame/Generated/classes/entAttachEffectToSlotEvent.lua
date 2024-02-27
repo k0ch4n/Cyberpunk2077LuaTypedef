@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entAttachEffectToSlotEvent: entAttachEffectEvent
 entAttachEffectToSlotEvent = {}
+
 
 ---@param fields? entAttachEffectToSlotEvent
 ---@return entAttachEffectToSlotEvent

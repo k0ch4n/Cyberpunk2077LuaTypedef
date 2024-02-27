@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class BlacklistEntry: IScriptable
 ---@field entryID entEntityID
 ---@field entryReason BlacklistReason
 ---@field warningsCount Int32
 ---@field reprimandID Int32
 BlacklistEntry = {}
+
 
 ---@param fields? BlacklistEntry
 ---@return BlacklistEntry

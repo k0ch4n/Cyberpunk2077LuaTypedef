@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerVulnerabilities: ScannerChunk
 ---@field vulnerabilities Vulnerability[]
 ScannerVulnerabilities = {}
+
 
 ---@param fields? ScannerVulnerabilities
 ---@return ScannerVulnerabilities

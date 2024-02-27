@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class District: IScriptable
 ---@field districtID TweakDBID
 ---@field presetID TweakDBID
 ---@field districtRecord gamedataDistrict_Record
 District = {}
+
 
 ---@param fields? District
 ---@return District

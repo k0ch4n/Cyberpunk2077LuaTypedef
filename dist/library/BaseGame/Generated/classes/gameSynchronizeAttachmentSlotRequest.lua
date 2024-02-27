@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameSynchronizeAttachmentSlotRequest: gamePlayerScriptableSystemRequest
 ---@field slotID TweakDBID
 gameSynchronizeAttachmentSlotRequest = {}
+
 
 ---@param fields? gameSynchronizeAttachmentSlotRequest
 ---@return gameSynchronizeAttachmentSlotRequest

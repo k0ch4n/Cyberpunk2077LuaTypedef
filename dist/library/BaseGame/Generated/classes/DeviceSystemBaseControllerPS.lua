@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DeviceSystemBaseControllerPS: MasterControllerPS
 ---@field quickHacksEnabled Bool
 DeviceSystemBaseControllerPS = {}
+
 
 ---@return GetAccess
 function DeviceSystemBaseControllerPS:ActionGetAccess() end

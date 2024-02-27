@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VirutalNestedListClassifier: inkVirtualItemTemplateClassifierWrapper
 VirutalNestedListClassifier = {}
+
 
 ---@param fields? VirutalNestedListClassifier
 ---@return VirutalNestedListClassifier

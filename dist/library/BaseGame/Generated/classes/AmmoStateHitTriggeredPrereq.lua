@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AmmoStateHitTriggeredPrereq: HitTriggeredPrereq
 ---@field valueToListen EMagazineAmmoState
 AmmoStateHitTriggeredPrereq = {}
+
 
 ---@param fields? AmmoStateHitTriggeredPrereq
 ---@return AmmoStateHitTriggeredPrereq

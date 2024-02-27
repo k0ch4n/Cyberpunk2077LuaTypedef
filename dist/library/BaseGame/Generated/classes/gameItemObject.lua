@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameItemObject: gameTimeDilatable
 ---@field updateBucket UpdateBucketEnum
 ---@field lootQuality gamedataQuality
 ---@field isIconic Bool
 ---@field isBroken Bool
 gameItemObject = {}
+
 
 ---@param fields? gameItemObject
 ---@return gameItemObject

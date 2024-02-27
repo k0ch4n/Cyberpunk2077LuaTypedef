@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ItemCompareBuilder: IScriptable
 ---@field sortData1 gameInventoryItemSortData
 ---@field sortData2 gameInventoryItemSortData
 ---@field compareBuilder CompareBuilder
 ItemCompareBuilder = {}
+
 
 ---@param fields? ItemCompareBuilder
 ---@return ItemCompareBuilder

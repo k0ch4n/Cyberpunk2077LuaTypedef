@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleFollowObject
 vehicleFollowObject = {}
+
 
 ---@param fields? vehicleFollowObject
 ---@return vehicleFollowObject

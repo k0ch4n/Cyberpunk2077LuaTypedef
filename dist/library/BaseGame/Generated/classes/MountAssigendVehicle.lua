@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MountAssigendVehicle: AIVehicleTaskAbstract
 ---@field result AIbehaviorUpdateOutcome
 MountAssigendVehicle = {}
+
 
 ---@param fields? MountAssigendVehicle
 ---@return MountAssigendVehicle

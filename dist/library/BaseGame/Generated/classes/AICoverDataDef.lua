@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AICoverDataDef: AIBlackboardDef
 ---@field exposureMethod gamebbScriptID_CName
 ---@field fallbackExposureMethod gamebbScriptID_CName
@@ -19,6 +20,7 @@
 ---@field firstCoverEvaluationDone gamebbScriptID_Bool
 ---@field startCoverEvaluationTimeStamp gamebbScriptID_Float
 AICoverDataDef = {}
+
 
 ---@param fields? AICoverDataDef
 ---@return AICoverDataDef

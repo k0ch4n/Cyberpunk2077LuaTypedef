@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AlarmLight: BasicDistractionDevice
 ---@field isGlitching Bool
 AlarmLight = {}
+
 
 ---@param fields? AlarmLight
 ---@return AlarmLight

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CodexSystem: gameScriptableSystem
 ---@field codex SCodexRecord[]
 ---@field blackboard gameIBlackboard
 CodexSystem = {}
+
 
 ---@param fields? CodexSystem
 ---@return CodexSystem

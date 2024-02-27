@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MinimalItemTooltipModData: IScriptable
 MinimalItemTooltipModData = {}
+
 
 ---@param fields? MinimalItemTooltipModData
 ---@return MinimalItemTooltipModData

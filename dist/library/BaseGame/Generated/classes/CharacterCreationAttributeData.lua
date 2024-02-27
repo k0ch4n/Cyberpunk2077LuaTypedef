@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CharacterCreationAttributeData: IScriptable
 ---@field label String
 ---@field desc String
@@ -11,6 +12,7 @@
 ---@field maxed Bool
 ---@field atMinimum Bool
 CharacterCreationAttributeData = {}
+
 
 ---@param fields? CharacterCreationAttributeData
 ---@return CharacterCreationAttributeData

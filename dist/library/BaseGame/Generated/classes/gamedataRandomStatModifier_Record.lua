@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRandomStatModifier_Record: gamedataStatModifier_Record
 gamedataRandomStatModifier_Record = {}
+
 
 ---@param fields? gamedataRandomStatModifier_Record
 ---@return gamedataRandomStatModifier_Record

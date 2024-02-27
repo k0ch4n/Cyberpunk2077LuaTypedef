@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ProcessQueuedCombatExperience: gamePlayerScriptableSystemRequest
 ---@field entity entEntityID
 ProcessQueuedCombatExperience = {}
+
 
 ---@param fields? ProcessQueuedCombatExperience
 ---@return ProcessQueuedCombatExperience

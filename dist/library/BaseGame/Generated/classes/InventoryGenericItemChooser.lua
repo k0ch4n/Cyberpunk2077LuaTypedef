@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryGenericItemChooser: inkWidgetLogicController
 ---@field itemContainer inkCompoundWidgetReference
 ---@field slotsCategory inkWidgetReference
@@ -18,6 +19,7 @@
 ---@field transmogIndicatorCtrl TransmogButtonView
 ---@field transmogIndicator inkWidget
 InventoryGenericItemChooser = {}
+
 
 ---@param fields? InventoryGenericItemChooser
 ---@return InventoryGenericItemChooser

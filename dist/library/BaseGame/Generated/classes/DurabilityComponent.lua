@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DurabilityComponent: gameScriptableComponent
 DurabilityComponent = {}
+
 
 ---@param fields? DurabilityComponent
 ---@return DurabilityComponent

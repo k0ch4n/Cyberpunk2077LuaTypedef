@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestSetPlayerSafePass: ActionBool
 QuestSetPlayerSafePass = {}
+
 
 ---@param fields? QuestSetPlayerSafePass
 ---@return QuestSetPlayerSafePass

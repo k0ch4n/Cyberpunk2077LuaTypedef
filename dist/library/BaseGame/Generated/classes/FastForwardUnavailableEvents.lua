@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FastForwardUnavailableEvents: ScenesFastForwardTransition
 FastForwardUnavailableEvents = {}
+
 
 ---@param fields? FastForwardUnavailableEvents
 ---@return FastForwardUnavailableEvents

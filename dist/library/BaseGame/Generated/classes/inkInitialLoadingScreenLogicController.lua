@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkInitialLoadingScreenLogicController: inkILoadingLogicController
 ---@field skipButtonPanel inkWidgetReference
 ---@field loadingPartsContainer inkCompoundWidgetReference
@@ -8,6 +9,7 @@
 ---@field progressBarRoot inkWidgetReference
 ---@field progressBarController LoadingScreenProgressBarController
 inkInitialLoadingScreenLogicController = {}
+
 
 ---@param fields? inkInitialLoadingScreenLogicController
 ---@return inkInitialLoadingScreenLogicController

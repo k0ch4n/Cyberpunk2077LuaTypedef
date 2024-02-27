@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_DOFControl: animAnimFeature
 ---@field dofIntensity Float
 ---@field dofNearBlur Float
@@ -9,6 +10,7 @@
 ---@field dofBlendInTime Float
 ---@field dofBlendOutTime Float
 AnimFeature_DOFControl = {}
+
 
 ---@param fields? AnimFeature_DOFControl
 ---@return AnimFeature_DOFControl

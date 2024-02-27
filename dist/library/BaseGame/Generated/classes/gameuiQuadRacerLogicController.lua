@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiQuadRacerLogicController: gameuiSideScrollerMiniGameLogicController
 ---@field endgameDelay Float
 ---@field baseMultiplicatorScale Float
@@ -41,6 +42,7 @@
 ---@field currentNotificationAnimation inkanimProxy
 ---@field lastTime Int32
 gameuiQuadRacerLogicController = {}
+
 
 ---@param fields? gameuiQuadRacerLogicController
 ---@return gameuiQuadRacerLogicController

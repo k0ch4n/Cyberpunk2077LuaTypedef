@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVirtualNetworkPath_Record: gamedataTweakDBRecord
 gamedataVirtualNetworkPath_Record = {}
+
 
 ---@param fields? gamedataVirtualNetworkPath_Record
 ---@return gamedataVirtualNetworkPath_Record

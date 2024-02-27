@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animCoverStance: Enum
 ---@field None Enum 0
 ---@field LowLeft Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TerminalInkGameControllerBase: MasterDeviceInkGameControllerBase
 ---@field layoutID TweakDBID
 ---@field currentLayoutLibraryID CName
@@ -10,6 +11,7 @@
 ---@field terminalTitle String
 ---@field onGlitchingStateChangedListener redCallbackObject
 TerminalInkGameControllerBase = {}
+
 
 ---@param fields? TerminalInkGameControllerBase
 ---@return TerminalInkGameControllerBase

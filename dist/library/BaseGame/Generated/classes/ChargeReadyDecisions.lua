@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ChargeReadyDecisions: WeaponTransition
 ChargeReadyDecisions = {}
+
 
 ---@param fields? ChargeReadyDecisions
 ---@return ChargeReadyDecisions

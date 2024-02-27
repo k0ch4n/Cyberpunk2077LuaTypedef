@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiGameStatePropertyChangedCallback: inkCallbackBase
 gameuiGameStatePropertyChangedCallback = {}
+
 
 ---@param fields? gameuiGameStatePropertyChangedCallback
 ---@return gameuiGameStatePropertyChangedCallback

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataItemPartConnection_Record: gamedataTweakDBRecord
 gamedataItemPartConnection_Record = {}
+
 
 ---@param fields? gamedataItemPartConnection_Record
 ---@return gamedataItemPartConnection_Record

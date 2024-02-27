@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceClearGlass: ActionBool
 QuestForceClearGlass = {}
+
 
 ---@param fields? QuestForceClearGlass
 ---@return QuestForceClearGlass

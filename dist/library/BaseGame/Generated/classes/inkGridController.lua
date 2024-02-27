@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkGridController: inkVirtualCompoundController
 ---@field height Uint32
 ---@field width Uint32
@@ -7,6 +8,7 @@
 ---@field slotSize Vector2
 ---@field itemTemplates inkGridItemTemplate[]
 inkGridController = {}
+
 
 ---@param fields? inkGridController
 ---@return inkGridController

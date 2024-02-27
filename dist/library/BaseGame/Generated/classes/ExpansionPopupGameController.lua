@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ExpansionPopupGameController: gameuiWidgetGameController
 ---@field popupCanvasAnchor inkWidgetReference
 ---@field expansionScreenName CName
@@ -20,6 +21,7 @@
 ---@field preOrderButton inkWidgetReference
 ---@field isProcessingPurchase Bool
 ExpansionPopupGameController = {}
+
 
 ---@param fields? ExpansionPopupGameController
 ---@return ExpansionPopupGameController

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class characterCreationBodyMorphOptionColorPickerItem: inkWidgetLogicController
 ---@field background inkWidgetReference
 ---@field icon inkImageWidgetReference
 ---@field foreground inkWidgetReference
 ---@field selectionMark inkWidgetReference
 characterCreationBodyMorphOptionColorPickerItem = {}
+
 
 ---@param fields? characterCreationBodyMorphOptionColorPickerItem
 ---@return characterCreationBodyMorphOptionColorPickerItem

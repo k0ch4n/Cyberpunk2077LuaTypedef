@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AITargetNodeInstance: AIITarget
 AITargetNodeInstance = {}
+
 
 ---@param fields? AITargetNodeInstance
 ---@return AITargetNodeInstance

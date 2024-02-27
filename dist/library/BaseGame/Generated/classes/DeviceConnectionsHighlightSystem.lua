@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DeviceConnectionsHighlightSystem: gameScriptableSystem
 ---@field highlightedDeviceID entEntityID
 ---@field highlightedConnectionsIDs entEntityID[]
 DeviceConnectionsHighlightSystem = {}
+
 
 ---@param fields? DeviceConnectionsHighlightSystem
 ---@return DeviceConnectionsHighlightSystem

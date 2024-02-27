@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class E3Hack_QuestPlayAnimationKillNPC: ActionBool
 E3Hack_QuestPlayAnimationKillNPC = {}
+
 
 ---@param fields? E3Hack_QuestPlayAnimationKillNPC
 ---@return E3Hack_QuestPlayAnimationKillNPC

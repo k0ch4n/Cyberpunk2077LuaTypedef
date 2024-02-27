@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIActionLookat: IScriptable
 AIActionLookat = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAIActionLookAtData_Record

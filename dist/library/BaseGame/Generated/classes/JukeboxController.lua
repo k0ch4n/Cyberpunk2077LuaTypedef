@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class JukeboxController: ScriptableDeviceComponent
 JukeboxController = {}
+
 
 ---@param fields? JukeboxController
 ---@return JukeboxController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataDataNodeType: Enum
 ---@field File Enum 0
 ---@field Group Enum 1

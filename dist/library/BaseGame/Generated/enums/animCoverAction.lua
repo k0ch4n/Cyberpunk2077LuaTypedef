@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animCoverAction: Enum
 ---@field NoAction Enum 0
 ---@field LeanLeft Enum 1

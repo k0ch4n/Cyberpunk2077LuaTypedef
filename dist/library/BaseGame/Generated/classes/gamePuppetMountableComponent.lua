@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePuppetMountableComponent: gamemountingMountableComponent
 gamePuppetMountableComponent = {}
+
 
 ---@param fields? gamePuppetMountableComponent
 ---@return gamePuppetMountableComponent

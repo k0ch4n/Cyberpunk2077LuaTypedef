@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SquadMemberBaseComponent: gameSquadMemberComponent
 ---@field baseSquadRecord gamedataAISquadParams_Record
 SquadMemberBaseComponent = {}
+
 
 ---@param fields? SquadMemberBaseComponent
 ---@return SquadMemberBaseComponent

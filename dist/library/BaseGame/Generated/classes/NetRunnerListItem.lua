@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NetRunnerListItem: inkWidgetLogicController
 ---@field highlight inkWidgetReference
 NetRunnerListItem = {}
+
 
 ---@param fields? NetRunnerListItem
 ---@return NetRunnerListItem

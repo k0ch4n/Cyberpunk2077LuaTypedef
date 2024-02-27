@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BaseAnimatedDevice: InteractiveDevice
 ---@field openingSpeed Float
 ---@field closingSpeed Float
@@ -7,6 +8,7 @@
 ---@field animFeature AnimFeature_RoadBlock
 ---@field animationType EAnimationType
 BaseAnimatedDevice = {}
+
 
 ---@param fields? BaseAnimatedDevice
 ---@return BaseAnimatedDevice

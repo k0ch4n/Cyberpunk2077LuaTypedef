@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UiQuickHackPanelContextRemoteControlEvents: UiQuickHackPanelContextEvents
 UiQuickHackPanelContextRemoteControlEvents = {}
+
 
 ---@param fields? UiQuickHackPanelContextRemoteControlEvents
 ---@return UiQuickHackPanelContextRemoteControlEvents

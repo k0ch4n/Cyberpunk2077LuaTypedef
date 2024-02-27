@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataModifyStatPoolCustomLimitEffector_Record: gamedataEffector_Record
 gamedataModifyStatPoolCustomLimitEffector_Record = {}
+
 
 ---@param fields? gamedataModifyStatPoolCustomLimitEffector_Record
 ---@return gamedataModifyStatPoolCustomLimitEffector_Record

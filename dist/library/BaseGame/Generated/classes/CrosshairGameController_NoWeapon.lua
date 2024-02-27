@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrosshairGameController_NoWeapon: gameuiCrosshairBaseGameController
 ---@field AimDownSightContainer inkCompoundWidgetReference
 ---@field ZoomMovingContainer inkCompoundWidgetReference
@@ -21,6 +22,7 @@
 ---@field zoomHideAnim inkanimProxy
 ---@field argZoomBuffered Float
 CrosshairGameController_NoWeapon = {}
+
 
 ---@param fields? CrosshairGameController_NoWeapon
 ---@return CrosshairGameController_NoWeapon

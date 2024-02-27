@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FastForwardSelfRemovalDecisions: ScenesFastForwardTransition
 FastForwardSelfRemovalDecisions = {}
+
 
 ---@param fields? FastForwardSelfRemovalDecisions
 ---@return FastForwardSelfRemovalDecisions

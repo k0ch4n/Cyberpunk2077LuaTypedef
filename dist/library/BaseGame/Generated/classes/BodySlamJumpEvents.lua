@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BodySlamJumpEvents: LocomotionAirEvents
 BodySlamJumpEvents = {}
+
 
 ---@param fields? BodySlamJumpEvents
 ---@return BodySlamJumpEvents

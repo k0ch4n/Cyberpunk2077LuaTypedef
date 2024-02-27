@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BodyInvestigated: AIbehaviortaskScript
 BodyInvestigated = {}
+
 
 ---@param fields? BodyInvestigated
 ---@return BodyInvestigated

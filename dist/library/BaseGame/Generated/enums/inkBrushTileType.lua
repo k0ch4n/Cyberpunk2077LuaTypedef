@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkBrushTileType: Enum
 ---@field NoTile Enum 0
 ---@field Horizontal Enum 1

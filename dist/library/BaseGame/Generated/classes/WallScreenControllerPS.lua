@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WallScreenControllerPS: TVControllerPS
 ---@field isShown Bool
 WallScreenControllerPS = {}
+
 
 ---@param fields? WallScreenControllerPS
 ---@return WallScreenControllerPS

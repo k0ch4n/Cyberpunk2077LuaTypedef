@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsFollowTargetInCombat: AIAutonomousConditions
 IsFollowTargetInCombat = {}
+
 
 ---@param fields? IsFollowTargetInCombat
 ---@return IsFollowTargetInCombat

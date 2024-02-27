@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_CameraBodyOffset: animAnimFeature
 ---@field lookat_pitch_forward_offset Float
 ---@field lookat_pitch_forward_down_ratio Float
@@ -13,6 +14,7 @@
 ---@field paralax_forward_offset Float
 ---@field lookat_offset_vertical Float
 AnimFeature_CameraBodyOffset = {}
+
 
 ---@param fields? AnimFeature_CameraBodyOffset
 ---@return AnimFeature_CameraBodyOffset

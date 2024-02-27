@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameSceneAnimationMotionActionParams: IScriptable
 ---@field motionType gameSceneAnimationMotionActionParamsMotionType
 ---@field placementTransform WorldTransform
@@ -17,6 +18,7 @@
 ---@field trajectoryLOD scnAnimationMotionSample[]
 ---@field dynamicAnimSetupHash Uint64
 gameSceneAnimationMotionActionParams = {}
+
 
 ---@param fields? gameSceneAnimationMotionActionParams
 ---@return gameSceneAnimationMotionActionParams

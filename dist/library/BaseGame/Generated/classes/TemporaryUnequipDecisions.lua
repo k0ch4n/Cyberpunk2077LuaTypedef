@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TemporaryUnequipDecisions: UpperBodyTransition
 TemporaryUnequipDecisions = {}
+
 
 ---@param fields? TemporaryUnequipDecisions
 ---@return TemporaryUnequipDecisions

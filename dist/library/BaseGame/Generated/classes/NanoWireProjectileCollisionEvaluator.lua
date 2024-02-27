@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NanoWireProjectileCollisionEvaluator: gameprojectileScriptCollisionEvaluator
 NanoWireProjectileCollisionEvaluator = {}
+
 
 ---@param fields? NanoWireProjectileCollisionEvaluator
 ---@return NanoWireProjectileCollisionEvaluator

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ContactData: IScriptable
 ---@field id String
 ---@field localizedName String
@@ -25,6 +26,7 @@
 ---@field messagesCount Int32
 ---@field repliesCount Int32
 ContactData = {}
+
 
 ---@param fields? ContactData
 ---@return ContactData

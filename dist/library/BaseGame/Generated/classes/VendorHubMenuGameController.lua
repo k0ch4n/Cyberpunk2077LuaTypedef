@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VendorHubMenuGameController: gameuiMenuGameController
 ---@field notificationRoot inkWidgetReference
 ---@field tabRootContainer inkWidgetReference
@@ -49,6 +50,7 @@
 ---@field storageDef StorageBlackboardDef
 ---@field storageBlackboard gameIBlackboard
 VendorHubMenuGameController = {}
+
 
 ---@param fields? VendorHubMenuGameController
 ---@return VendorHubMenuGameController

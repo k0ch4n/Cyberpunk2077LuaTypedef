@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAffiliation: Enum
 ---@field AfterlifeMercs Enum 0
 ---@field Aldecaldos Enum 1

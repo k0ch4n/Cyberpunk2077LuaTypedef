@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIOwnerDistanceCoverSelection: AICoverSelectionParameters
 AIOwnerDistanceCoverSelection = {}
+
 
 ---@param fields? AIOwnerDistanceCoverSelection
 ---@return AIOwnerDistanceCoverSelection

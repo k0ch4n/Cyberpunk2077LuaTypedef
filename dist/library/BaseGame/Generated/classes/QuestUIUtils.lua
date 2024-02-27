@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestUIUtils
 QuestUIUtils = {}
+
 
 ---@param fields? QuestUIUtils
 ---@return QuestUIUtils

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InnerBunkerCoreScreenGameController: BaseInnerBunkerComputerGameController
 ---@field systems inkWidgetReference[]
 ---@field statuses InnerBunkerCoreStatus[]
@@ -23,6 +24,7 @@
 ---@field resultPopupAnimProxy inkanimProxy
 ---@field coreStatusAnimProxy inkanimProxy
 InnerBunkerCoreScreenGameController = {}
+
 
 ---@param fields? InnerBunkerCoreScreenGameController
 ---@return InnerBunkerCoreScreenGameController

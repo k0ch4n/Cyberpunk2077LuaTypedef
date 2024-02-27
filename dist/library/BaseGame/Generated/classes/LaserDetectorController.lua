@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LaserDetectorController: ScriptableDeviceComponent
 LaserDetectorController = {}
+
 
 ---@param fields? LaserDetectorController
 ---@return LaserDetectorController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ColorGradingAreaSettings: IAreaSettings
 ---@field contrast Float
 ---@field contrastPivot Float
@@ -19,6 +20,7 @@
 ---@field hdrLut ColorGradingLutParams
 ---@field forceHdrLut Bool
 ColorGradingAreaSettings = {}
+
 
 ---@param fields? ColorGradingAreaSettings
 ---@return ColorGradingAreaSettings

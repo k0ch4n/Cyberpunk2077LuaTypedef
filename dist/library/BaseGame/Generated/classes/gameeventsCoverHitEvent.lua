@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameeventsCoverHitEvent: gameeventsHitEvent
 ---@field cover gameObject
 gameeventsCoverHitEvent = {}
+
 
 ---@param fields? gameeventsCoverHitEvent
 ---@return gameeventsCoverHitEvent

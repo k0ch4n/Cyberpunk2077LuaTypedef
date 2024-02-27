@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldBakedDestructionNodeInstance: worldMeshNodeInstance
 worldBakedDestructionNodeInstance = {}
+
 
 ---@param fields? worldBakedDestructionNodeInstance
 ---@return worldBakedDestructionNodeInstance

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CerberusDetectionCombat: AIbehaviorconditionScript
 CerberusDetectionCombat = {}
+
 
 ---@param fields? CerberusDetectionCombat
 ---@return CerberusDetectionCombat

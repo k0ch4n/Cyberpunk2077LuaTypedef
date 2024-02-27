@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataGroupNodeInheritanceState: Enum
 ---@field Unresolved Enum 0
 ---@field Resolving Enum 1

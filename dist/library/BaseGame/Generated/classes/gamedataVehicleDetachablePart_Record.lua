@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleDetachablePart_Record: gamedataTweakDBRecord
 gamedataVehicleDetachablePart_Record = {}
+
 
 ---@param fields? gamedataVehicleDetachablePart_Record
 ---@return gamedataVehicleDetachablePart_Record

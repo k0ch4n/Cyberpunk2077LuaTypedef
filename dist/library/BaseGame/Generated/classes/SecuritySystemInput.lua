@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SecuritySystemInput: SecurityAreaEvent
 ---@field lastKnownPosition Vector4
 ---@field notifier SharedGameplayPS
@@ -13,6 +14,7 @@
 ---@field debugReporterCharRecord gamedataCharacter_Record
 ---@field stimTypeTriggeredAlarm gamedataStimType
 SecuritySystemInput = {}
+
 
 ---@param fields? SecuritySystemInput
 ---@return SecuritySystemInput

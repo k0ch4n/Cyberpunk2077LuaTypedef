@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestRemoveQuickHacks: ActionBool
 QuestRemoveQuickHacks = {}
+
 
 ---@param fields? QuestRemoveQuickHacks
 ---@return QuestRemoveQuickHacks

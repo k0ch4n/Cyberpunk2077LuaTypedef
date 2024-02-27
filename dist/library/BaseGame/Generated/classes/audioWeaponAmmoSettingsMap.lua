@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioWeaponAmmoSettingsMap: audioAudioMetadata
 ---@field standardFlyby audioFlybySettings
 ---@field sniperFlyby audioFlybySettings
@@ -11,6 +12,7 @@
 ---@field hmgFlyby audioFlybySettings
 ---@field flybyMinDistance Float
 audioWeaponAmmoSettingsMap = {}
+
 
 ---@param fields? audioWeaponAmmoSettingsMap
 ---@return audioWeaponAmmoSettingsMap

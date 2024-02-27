@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameSmartObjectWorkspotDefinition: gameSmartObjectDefinition
 ---@field workspotTemplate workWorkspotResource
 gameSmartObjectWorkspotDefinition = {}
+
 
 ---@param fields? gameSmartObjectWorkspotDefinition
 ---@return gameSmartObjectWorkspotDefinition

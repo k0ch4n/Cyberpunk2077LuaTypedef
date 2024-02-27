@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiHackingMinigameGameController: gameuiWidgetGameController
 ---@field symbolsRecordTDBID TweakDBID
 ---@field minigameDefaultsTDBID TweakDBID
@@ -22,6 +23,7 @@
 ---@field bbUiData gameIBlackboard
 ---@field bbControllerStateListener redCallbackObject
 gameuiHackingMinigameGameController = {}
+
 
 ---@param fields? gameuiHackingMinigameGameController
 ---@return gameuiHackingMinigameGameController

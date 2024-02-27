@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CachedCraftingMaterial: IScriptable
 ---@field itemID gameItemID
 ---@field displayName String
 ---@field iconPath String
 ---@field quantity Int32
 CachedCraftingMaterial = {}
+
 
 ---@param fields? CachedCraftingMaterial
 ---@return CachedCraftingMaterial

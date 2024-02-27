@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RadialSubMenuPanelLogicController: PlayerStatsUIHolder
 ---@field levelValue inkTextWidgetReference
 ---@field streetCredLabel inkTextWidgetReference
@@ -29,6 +30,7 @@
 ---@field curSubMenuData MenuData
 ---@field hubMenuInstanceID Uint32
 RadialSubMenuPanelLogicController = {}
+
 
 ---@param fields? RadialSubMenuPanelLogicController
 ---@return RadialSubMenuPanelLogicController

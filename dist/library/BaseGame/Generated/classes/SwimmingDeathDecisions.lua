@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SwimmingDeathDecisions: DeathDecisionsWithResurrection
 SwimmingDeathDecisions = {}
+
 
 ---@param fields? SwimmingDeathDecisions
 ---@return SwimmingDeathDecisions

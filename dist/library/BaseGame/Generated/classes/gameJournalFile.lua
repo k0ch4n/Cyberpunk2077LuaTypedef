@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalFile: gameJournalEntry
 ---@field title LocalizationString
 ---@field content LocalizationString
@@ -7,6 +8,7 @@
 ---@field ["PictureFilename(legacy)"] String
 ---@field pictureTweak TweakDBID
 gameJournalFile = {}
+
 
 ---@param fields? gameJournalFile
 ---@return gameJournalFile

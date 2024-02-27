@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DoorSystemUIPS: VirtualSystemPS
 ---@field isOpen Bool
 DoorSystemUIPS = {}
+
 
 ---@param fields? DoorSystemUIPS
 ---@return DoorSystemUIPS

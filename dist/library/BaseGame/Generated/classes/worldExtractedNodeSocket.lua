@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldExtractedNodeSocket
 ---@field name CName
 ---@field displayName CName
@@ -10,6 +11,7 @@
 ---@field isSnapped Bool
 ---@field color Color
 worldExtractedNodeSocket = {}
+
 
 ---@param fields? worldExtractedNodeSocket
 ---@return worldExtractedNodeSocket

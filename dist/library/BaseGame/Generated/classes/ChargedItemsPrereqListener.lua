@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ChargedItemsPrereqListener: BaseStatPoolPrereqListener
 ---@field state ChargedItemsPrereqState
 ChargedItemsPrereqListener = {}
+
 
 ---@param fields? ChargedItemsPrereqListener
 ---@return ChargedItemsPrereqListener

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameJournalManager: gameIJournalManager
 gameJournalManager = {}
+
 
 ---@param fields? gameJournalManager
 ---@return gameJournalManager

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerSkillCheckConditionDataItemLogicController: inkWidgetLogicController
 ---@field ConditionDataDescriptionName CName
 ---@field ParentConditionTextPath inkWidgetPath
@@ -10,6 +11,7 @@
 ---@field OwnConditionText inkTextWidget
 ---@field ConditionDescriptionList inkCompoundWidget
 ScannerSkillCheckConditionDataItemLogicController = {}
+
 
 ---@param fields? ScannerSkillCheckConditionDataItemLogicController
 ---@return ScannerSkillCheckConditionDataItemLogicController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NcartTimeTableCounterUpdateEvent: redEvent
 NcartTimeTableCounterUpdateEvent = {}
+
 
 ---@param fields? NcartTimeTableCounterUpdateEvent
 ---@return NcartTimeTableCounterUpdateEvent

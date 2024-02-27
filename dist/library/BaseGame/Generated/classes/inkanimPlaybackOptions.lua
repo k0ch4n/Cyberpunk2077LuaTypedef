@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkanimPlaybackOptions
 ---@field playReversed Bool
 ---@field loopType inkanimLoopType
@@ -13,6 +14,7 @@
 ---@field applyCustomTimeDilation Bool
 ---@field customTimeDilation Float
 inkanimPlaybackOptions = {}
+
 
 ---@param fields? inkanimPlaybackOptions
 ---@return inkanimPlaybackOptions

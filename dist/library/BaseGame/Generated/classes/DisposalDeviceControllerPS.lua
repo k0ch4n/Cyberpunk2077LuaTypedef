@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DisposalDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field DisposalDeviceSetup DisposalDeviceSetup
 ---@field distractionSetup DistractionSetup
@@ -9,6 +10,7 @@
 ---@field wasLethalTakedownPerformed Bool
 ---@field isPlayerCurrentlyPerformingDisposal Bool
 DisposalDeviceControllerPS = {}
+
 
 ---@param fields? DisposalDeviceControllerPS
 ---@return DisposalDeviceControllerPS

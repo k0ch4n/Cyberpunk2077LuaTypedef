@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorActionMoveToSmartObjectNodeDefinition: AIbehaviorActionTreeNodeDefinition
 ---@field smartObjectId AIArgumentMapping
 ---@field lookAtTarget AIArgumentMapping
@@ -11,6 +12,7 @@
 ---@field useStop AIArgumentMapping
 ---@field forcedEntryAnimation AIArgumentMapping
 AIbehaviorActionMoveToSmartObjectNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorActionMoveToSmartObjectNodeDefinition
 ---@return AIbehaviorActionMoveToSmartObjectNodeDefinition

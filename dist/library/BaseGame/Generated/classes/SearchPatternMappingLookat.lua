@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SearchPatternMappingLookat: AISearchingLookat
 ---@field targetObjectMapping AIArgumentMapping
 ---@field lookatTargetObject gameObject
 SearchPatternMappingLookat = {}
+
 
 ---@param fields? SearchPatternMappingLookat
 ---@return SearchPatternMappingLookat

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SimpleTargetManager: gameScriptableComponent
 SimpleTargetManager = {}
+
 
 ---@param fields? SimpleTargetManager
 ---@return SimpleTargetManager

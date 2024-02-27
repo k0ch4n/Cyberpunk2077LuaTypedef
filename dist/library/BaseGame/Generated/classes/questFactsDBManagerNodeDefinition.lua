@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questFactsDBManagerNodeDefinition: questDisableableNodeDefinition
 ---@field type questIFactsDBManagerNodeType
 questFactsDBManagerNodeDefinition = {}
+
 
 ---@param fields? questFactsDBManagerNodeDefinition
 ---@return questFactsDBManagerNodeDefinition

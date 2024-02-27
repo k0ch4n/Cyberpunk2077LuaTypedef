@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ItemInSlotCallback: gameAttachmentSlotsScriptCallback
 ---@field state ItemInSlotPrereqState
 ---@field waitForVisuals Bool
 ItemInSlotCallback = {}
+
 
 ---@param fields? ItemInSlotCallback
 ---@return ItemInSlotCallback

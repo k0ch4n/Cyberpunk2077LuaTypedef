@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CFrustum
 CFrustum = {}
+
 
 ---@param fields? CFrustum
 ---@return CFrustum

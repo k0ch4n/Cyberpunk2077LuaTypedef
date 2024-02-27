@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameMovingPlatformMovementLinear: gameIMovingPlatformMovementPointToPoint
 gameMovingPlatformMovementLinear = {}
+
 
 ---@param fields? gameMovingPlatformMovementLinear
 ---@return gameMovingPlatformMovementLinear

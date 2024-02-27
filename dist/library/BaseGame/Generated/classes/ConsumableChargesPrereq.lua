@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ConsumableChargesPrereq: StatPoolPrereq
 ConsumableChargesPrereq = {}
+
 
 ---@param fields? ConsumableChargesPrereq
 ---@return ConsumableChargesPrereq

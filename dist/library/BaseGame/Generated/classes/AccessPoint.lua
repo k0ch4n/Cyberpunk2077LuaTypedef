@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AccessPoint: InteractiveMasterDevice
 ---@field networkName String
 ---@field isPlayerInBreachView Bool
@@ -7,6 +8,7 @@
 ---@field breachViewTimeListener BreachViewTimeListener
 ---@field upload_program_listener_id Uint32
 AccessPoint = {}
+
 
 ---@param fields? AccessPoint
 ---@return AccessPoint

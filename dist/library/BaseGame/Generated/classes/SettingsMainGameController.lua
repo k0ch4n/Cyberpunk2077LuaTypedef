@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SettingsMainGameController: gameuiSettingsMenuGameController
 ---@field scrollPanel inkWidgetReference
 ---@field selectorWidget inkWidgetReference
@@ -46,6 +47,7 @@
 ---@field currentHDRindex Int32
 ---@field selectorCtrl inkListController
 SettingsMainGameController = {}
+
 
 ---@param fields? SettingsMainGameController
 ---@return SettingsMainGameController

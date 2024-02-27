@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendSingleScreenShotData: ISerializable
 ---@field mode rendScreenshotMode
 ---@field outputPath AbsolutePathSerializable
@@ -9,6 +10,7 @@
 ---@field forceLOD0 Bool
 ---@field saveFormat ESaveFormat
 rendSingleScreenShotData = {}
+
 
 ---@param fields? rendSingleScreenShotData
 ---@return rendSingleScreenShotData

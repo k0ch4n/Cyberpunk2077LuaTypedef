@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameLootSlotSingleItemLongStreaming: gameLootSlotSingleItem
 gameLootSlotSingleItemLongStreaming = {}
+
 
 ---@param fields? gameLootSlotSingleItemLongStreaming
 ---@return gameLootSlotSingleItemLongStreaming

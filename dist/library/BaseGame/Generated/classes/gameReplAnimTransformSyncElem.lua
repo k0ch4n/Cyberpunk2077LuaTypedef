@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameReplAnimTransformSyncElem
 ---@field definitionId Int32
 ---@field currentTime Float
@@ -8,6 +9,7 @@
 ---@field timesToPlay Int32
 ---@field playing Bool
 gameReplAnimTransformSyncElem = {}
+
 
 ---@param fields? gameReplAnimTransformSyncElem
 ---@return gameReplAnimTransformSyncElem

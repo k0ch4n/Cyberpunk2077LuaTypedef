@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ELightState: Enum
 ---@field Reset Enum 0
 ---@field DefaultColor Enum 1

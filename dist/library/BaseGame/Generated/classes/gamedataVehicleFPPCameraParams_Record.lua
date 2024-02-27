@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleFPPCameraParams_Record: gamedataTweakDBRecord
 gamedataVehicleFPPCameraParams_Record = {}
+
 
 ---@param fields? gamedataVehicleFPPCameraParams_Record
 ---@return gamedataVehicleFPPCameraParams_Record

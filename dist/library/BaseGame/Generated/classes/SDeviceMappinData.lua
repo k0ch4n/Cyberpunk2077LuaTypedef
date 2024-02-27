@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SDeviceMappinData
 ---@field mappinName CName
 ---@field mappinType TweakDBID
@@ -16,6 +17,7 @@
 ---@field gameplayRole EGameplayRole
 ---@field visualStateData GameplayRoleMappinData
 SDeviceMappinData = {}
+
 
 ---@param fields? SDeviceMappinData
 ---@return SDeviceMappinData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameTPPRepresentationSlotListener: gameIAttachmentSlotsListener
 gameTPPRepresentationSlotListener = {}
+
 
 ---@param fields? gameTPPRepresentationSlotListener
 ---@return gameTPPRepresentationSlotListener

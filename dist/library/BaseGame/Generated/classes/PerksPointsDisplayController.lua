@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PerksPointsDisplayController: inkWidgetLogicController
 ---@field desc1Text inkTextWidgetReference
 ---@field value1Text inkTextWidgetReference
@@ -12,6 +13,7 @@
 ---@field icon3 inkImageWidgetReference
 ---@field screenType CharacterScreenType
 PerksPointsDisplayController = {}
+
 
 ---@param fields? PerksPointsDisplayController
 ---@return PerksPointsDisplayController

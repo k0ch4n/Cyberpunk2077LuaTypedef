@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class moveMoveComponentVelocityProvider: entIVelocityProvider
 moveMoveComponentVelocityProvider = {}
+
 
 ---@param fields? moveMoveComponentVelocityProvider
 ---@return moveMoveComponentVelocityProvider

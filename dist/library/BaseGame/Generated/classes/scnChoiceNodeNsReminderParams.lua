@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnChoiceNodeNsReminderParams
 ---@field reminderEnabled Bool
 ---@field useCustomReminder Bool
@@ -9,6 +10,7 @@
 ---@field waitTimeForReminderC scnSceneTime
 ---@field waitTimeForLooping scnSceneTime
 scnChoiceNodeNsReminderParams = {}
+
 
 ---@param fields? scnChoiceNodeNsReminderParams
 ---@return scnChoiceNodeNsReminderParams

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETextureFilteringMip: Enum
 ---@field TFMip_None Enum 0
 ---@field TFMip_Point Enum 1

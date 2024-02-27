@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsRagdolling: AIbehaviorconditionScript
 ---@field npc NPCPuppet
 IsRagdolling = {}
+
 
 ---@param fields? IsRagdolling
 ---@return IsRagdolling

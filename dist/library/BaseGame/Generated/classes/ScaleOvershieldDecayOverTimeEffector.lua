@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScaleOvershieldDecayOverTimeEffector: gameContinuousEffector
 ---@field effectApplied Bool
 ---@field decayModifier gameStatModifierData_Deprecated
@@ -14,6 +15,7 @@
 ---@field maxValueApplied Bool
 ---@field markedForReset Bool
 ScaleOvershieldDecayOverTimeEffector = {}
+
 
 ---@param fields? ScaleOvershieldDecayOverTimeEffector
 ---@return ScaleOvershieldDecayOverTimeEffector

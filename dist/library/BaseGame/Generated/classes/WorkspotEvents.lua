@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WorkspotEvents: LocomotionGroundEvents
 WorkspotEvents = {}
+
 
 ---@param fields? WorkspotEvents
 ---@return WorkspotEvents

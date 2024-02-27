@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataDeviceHackTier_Record: gamedataTweakDBRecord
 gamedataDeviceHackTier_Record = {}
+
 
 ---@param fields? gamedataDeviceHackTier_Record
 ---@return gamedataDeviceHackTier_Record

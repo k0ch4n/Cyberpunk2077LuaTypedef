@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameItemEventsUnequipStarted: redEvent
 gameItemEventsUnequipStarted = {}
+
 
 ---@param fields? gameItemEventsUnequipStarted
 ---@return gameItemEventsUnequipStarted

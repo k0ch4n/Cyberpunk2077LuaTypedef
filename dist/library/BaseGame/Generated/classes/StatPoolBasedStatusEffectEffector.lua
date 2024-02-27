@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StatPoolBasedStatusEffectEffector: gameEffector
 ---@field statPool gamedataStatPoolType
 ---@field statusEffectID TweakDBID
@@ -22,6 +23,7 @@
 ---@field checkStatPoolOnWeapon Bool
 ---@field ownerWeaponID entEntityID
 StatPoolBasedStatusEffectEffector = {}
+
 
 ---@param fields? StatPoolBasedStatusEffectEffector
 ---@return StatPoolBasedStatusEffectEffector

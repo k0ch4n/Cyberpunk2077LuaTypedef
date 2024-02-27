@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiWorldMapMenuGameController: gameuiMappinsContainerController
 ---@field settingsRecordID TweakDBID
 ---@field selectedMappin gameuiBaseWorldMapMappinController
@@ -81,6 +82,7 @@
 ---@field pressedRMB Bool
 ---@field startedFastTraveling Bool
 gameuiWorldMapMenuGameController = {}
+
 
 ---@param fields? gameuiWorldMapMenuGameController
 ---@return gameuiWorldMapMenuGameController

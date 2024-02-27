@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_DampQuaternion: animAnimNode_QuaternionValue
 ---@field defaultRotationSpeed Float
 ---@field defaultInitialValue EulerAngles
@@ -7,6 +8,7 @@
 ---@field initialValueNode animQuaternionLink
 ---@field rotationSpeedNode animFloatLink
 animAnimNode_DampQuaternion = {}
+
 
 ---@param fields? animAnimNode_DampQuaternion
 ---@return animAnimNode_DampQuaternion

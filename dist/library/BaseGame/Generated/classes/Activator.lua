@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Activator: InteractiveMasterDevice
 ---@field animFeature AnimFeature_SimpleDevice
 ---@field hitCount Int32
@@ -11,6 +12,7 @@
 ---@field yellowDelay Float
 ---@field redDelay Float
 Activator = {}
+
 
 ---@param fields? Activator
 ---@return Activator

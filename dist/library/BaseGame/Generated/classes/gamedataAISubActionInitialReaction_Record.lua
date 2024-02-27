@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionInitialReaction_Record: gamedataAISubAction_Record
 gamedataAISubActionInitialReaction_Record = {}
+
 
 ---@param fields? gamedataAISubActionInitialReaction_Record
 ---@return gamedataAISubActionInitialReaction_Record

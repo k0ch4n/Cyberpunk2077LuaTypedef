@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gsmgameStateObserver_FunctionalTests: gsmIStateObserver
 gsmgameStateObserver_FunctionalTests = {}
+
 
 ---@param fields? gsmgameStateObserver_FunctionalTests
 ---@return gsmgameStateObserver_FunctionalTests

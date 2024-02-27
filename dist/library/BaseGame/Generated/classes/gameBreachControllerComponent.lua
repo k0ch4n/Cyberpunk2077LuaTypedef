@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameBreachControllerComponent: entIComponent
 ---@field canHaveBreaches Bool
 ---@field allowNormalBreachesAfterWeakspotsAreDestroyed Bool
 ---@field debugAllowBreachesAfterDestruction Bool
 ---@field breachesScale Float
 gameBreachControllerComponent = {}
+
 
 ---@param fields? gameBreachControllerComponent
 ---@return gameBreachControllerComponent

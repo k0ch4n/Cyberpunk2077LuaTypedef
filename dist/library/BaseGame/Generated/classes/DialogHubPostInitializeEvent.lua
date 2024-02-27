@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DialogHubPostInitializeEvent: redEvent
 DialogHubPostInitializeEvent = {}
+
 
 ---@param fields? DialogHubPostInitializeEvent
 ---@return DialogHubPostInitializeEvent

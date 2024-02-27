@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PuppetMortalPrereq: gameIScriptablePrereq
 ---@field invert Bool
 PuppetMortalPrereq = {}
+
 
 ---@param fields? PuppetMortalPrereq
 ---@return PuppetMortalPrereq

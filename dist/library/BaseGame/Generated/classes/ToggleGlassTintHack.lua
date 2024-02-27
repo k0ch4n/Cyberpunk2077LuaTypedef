@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleGlassTintHack: ToggleGlassTint
 ToggleGlassTintHack = {}
+
 
 ---@param fields? ToggleGlassTintHack
 ---@return ToggleGlassTintHack

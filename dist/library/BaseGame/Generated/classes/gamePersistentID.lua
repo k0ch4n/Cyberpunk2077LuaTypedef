@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gamePersistentID
 ---@field entityHash Uint64
 ---@field componentName CName
 gamePersistentID = {}
+
 
 ---@param fields? gamePersistentID
 ---@return gamePersistentID

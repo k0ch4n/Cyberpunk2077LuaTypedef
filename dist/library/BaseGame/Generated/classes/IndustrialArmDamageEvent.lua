@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IndustrialArmDamageEvent: redEvent
 IndustrialArmDamageEvent = {}
+
 
 ---@param fields? IndustrialArmDamageEvent
 ---@return IndustrialArmDamageEvent

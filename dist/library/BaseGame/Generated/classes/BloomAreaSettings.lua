@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BloomAreaSettings: IAreaSettings
 ---@field blurSizeX Float
 ---@field blurSizeY Float
@@ -12,6 +13,7 @@
 ---@field numDownsamplePasses Uint8
 ---@field shaftsAreaSettings ShaftsAreaSettings
 BloomAreaSettings = {}
+
 
 ---@param fields? BloomAreaSettings
 ---@return BloomAreaSettings

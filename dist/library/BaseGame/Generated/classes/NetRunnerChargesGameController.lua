@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NetRunnerChargesGameController: gameuiWidgetGameController
 ---@field header inkTextWidgetReference
 ---@field list inkCompoundWidgetReference
@@ -14,6 +15,7 @@
 ---@field chargesList NetRunnerListItem[]
 ---@field root inkWidget
 NetRunnerChargesGameController = {}
+
 
 ---@param fields? NetRunnerChargesGameController
 ---@return NetRunnerChargesGameController

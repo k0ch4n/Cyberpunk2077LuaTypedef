@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameInventoryScriptCallback: IScriptable
 ---@field itemID gameItemID
 gameInventoryScriptCallback = {}
+
 
 ---@param fields? gameInventoryScriptCallback
 ---@return gameInventoryScriptCallback

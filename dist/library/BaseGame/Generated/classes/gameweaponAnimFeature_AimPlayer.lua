@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameweaponAnimFeature_AimPlayer: animAnimFeature_BasicAim
 ---@field zoomLevel Float
 ---@field aimInTime Float
 ---@field aimOutTime Float
 gameweaponAnimFeature_AimPlayer = {}
+
 
 ---@param fields? gameweaponAnimFeature_AimPlayer
 ---@return gameweaponAnimFeature_AimPlayer

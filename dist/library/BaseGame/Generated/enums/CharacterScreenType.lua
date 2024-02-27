@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CharacterScreenType: Enum
 ---@field Attributes Enum 0
 ---@field Perks Enum 1

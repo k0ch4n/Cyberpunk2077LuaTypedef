@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisableAlarmEvent: redEvent
 DisableAlarmEvent = {}
+
 
 ---@param fields? DisableAlarmEvent
 ---@return DisableAlarmEvent

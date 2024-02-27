@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceAuthorizationEnabled: ActionBool
 QuestForceAuthorizationEnabled = {}
+
 
 ---@param fields? QuestForceAuthorizationEnabled
 ---@return QuestForceAuthorizationEnabled

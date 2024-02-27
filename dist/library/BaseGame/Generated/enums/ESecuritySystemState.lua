@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ESecuritySystemState: Enum
 ---@field UNINITIALIZED Enum 0
 ---@field SAFE Enum 1

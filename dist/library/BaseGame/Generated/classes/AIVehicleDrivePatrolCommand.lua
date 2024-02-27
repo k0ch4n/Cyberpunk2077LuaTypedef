@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIVehicleDrivePatrolCommand: AIVehicleCommand
 ---@field maxSpeed Float
 ---@field minSpeed Float
@@ -8,6 +9,7 @@
 ---@field numPatrolLoops Uint32
 ---@field forcedStartSpeed Float
 AIVehicleDrivePatrolCommand = {}
+
 
 ---@param fields? AIVehicleDrivePatrolCommand
 ---@return AIVehicleDrivePatrolCommand

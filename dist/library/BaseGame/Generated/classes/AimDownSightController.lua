@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AimDownSightController: BasicAnimationController
 ---@field isAiming Bool
 AimDownSightController = {}
+
 
 ---@param fields? AimDownSightController
 ---@return AimDownSightController

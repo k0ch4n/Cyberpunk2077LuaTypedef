@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAudioEventArray: ISerializable
 ---@field isSortedByRedHash Bool
 ---@field events audioAudioEventMetadataArrayElement[]
@@ -10,6 +11,7 @@
 ---@field gameParameter audioAudioEventMetadataArrayElement[]
 ---@field bus audioAudioEventMetadataArrayElement[]
 audioAudioEventArray = {}
+
 
 ---@param fields? audioAudioEventArray
 ---@return audioAudioEventArray

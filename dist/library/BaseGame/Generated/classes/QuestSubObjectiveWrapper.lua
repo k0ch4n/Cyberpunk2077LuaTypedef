@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestSubObjectiveWrapper: ABaseQuestObjectiveWrapper
 QuestSubObjectiveWrapper = {}
+
 
 ---@param fields? QuestSubObjectiveWrapper
 ---@return QuestSubObjectiveWrapper

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TankTurret: gameWeakspotObject
 TankTurret = {}
+
 
 ---@param fields? TankTurret
 ---@return TankTurret

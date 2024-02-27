@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePlatformMovementState: Enum
 ---@field Stopped Enum 0
 ---@field Paused Enum 1

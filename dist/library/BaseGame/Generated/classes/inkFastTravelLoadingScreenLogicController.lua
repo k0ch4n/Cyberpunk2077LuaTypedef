@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkFastTravelLoadingScreenLogicController: inkILoadingLogicController
 ---@field mainBackgroundImage inkImageWidgetReference
 ---@field supportBackgroundImage inkImageWidgetReference
@@ -12,6 +13,7 @@
 ---@field progressBarRoot inkWidgetReference
 ---@field progressBarController LoadingScreenProgressBarController
 inkFastTravelLoadingScreenLogicController = {}
+
 
 ---@param fields? inkFastTravelLoadingScreenLogicController
 ---@return inkFastTravelLoadingScreenLogicController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsDeviceTargetValidFilter: gameEffectObjectSingleFilter_Scripted
 IsDeviceTargetValidFilter = {}
+
 
 ---@param fields? IsDeviceTargetValidFilter
 ---@return IsDeviceTargetValidFilter

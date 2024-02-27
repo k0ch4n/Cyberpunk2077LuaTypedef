@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameInventoryScriptListener: gameIInventoryListener
 gameInventoryScriptListener = {}
+
 
 ---@param fields? gameInventoryScriptListener
 ---@return gameInventoryScriptListener

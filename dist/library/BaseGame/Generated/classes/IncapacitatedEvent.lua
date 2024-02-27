@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IncapacitatedEvent: redEvent
 IncapacitatedEvent = {}
+
 
 ---@param fields? IncapacitatedEvent
 ---@return IncapacitatedEvent

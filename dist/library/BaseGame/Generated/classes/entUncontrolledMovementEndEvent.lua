@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entUncontrolledMovementEndEvent: redEvent
 entUncontrolledMovementEndEvent = {}
+
 
 ---@param fields? entUncontrolledMovementEndEvent
 ---@return entUncontrolledMovementEndEvent

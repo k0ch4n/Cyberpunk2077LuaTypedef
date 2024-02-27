@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIOwnerThreatCoverSelection: AICoverSelectionParameters
 AIOwnerThreatCoverSelection = {}
+
 
 ---@param fields? AIOwnerThreatCoverSelection
 ---@return AIOwnerThreatCoverSelection

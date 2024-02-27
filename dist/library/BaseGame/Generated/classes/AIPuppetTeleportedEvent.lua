@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIPuppetTeleportedEvent: redEvent
 AIPuppetTeleportedEvent = {}
+
 
 ---@param fields? AIPuppetTeleportedEvent
 ---@return AIPuppetTeleportedEvent

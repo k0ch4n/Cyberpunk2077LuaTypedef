@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIItemStatProperties: IScriptable
 ---@field localizedName String
 ---@field decimalPlaces Int32
@@ -13,6 +14,7 @@
 ---@field maxValue Float
 ---@field flipNegative Bool
 UIItemStatProperties = {}
+
 
 ---@param fields? UIItemStatProperties
 ---@return UIItemStatProperties

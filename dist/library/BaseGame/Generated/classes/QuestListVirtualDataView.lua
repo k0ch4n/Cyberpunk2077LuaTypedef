@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class QuestListVirtualDataView: inkScriptableDataViewWrapper
 ---@field filterType QuestListItemType
 ---@field compareBuilder CompareBuilder
 ---@field currentQuestSortType QuestListSortType
 QuestListVirtualDataView = {}
+
 
 ---@param fields? QuestListVirtualDataView
 ---@return QuestListVirtualDataView

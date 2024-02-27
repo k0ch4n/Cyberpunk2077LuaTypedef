@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckPathToCombatTarget: AIbehaviorconditionScript
 ---@field path worldNavigationScriptPath
 CheckPathToCombatTarget = {}
+
 
 ---@param fields? CheckPathToCombatTarget
 ---@return CheckPathToCombatTarget

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GrenadeDamageType: Enum
 ---@field Normal Enum 0
 ---@field DoT Enum 1

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gamePendingSubtitles
 ---@field pendingSubtitles scnDialogLineData[]
 gamePendingSubtitles = {}
+
 
 ---@param fields? gamePendingSubtitles
 ---@return gamePendingSubtitles

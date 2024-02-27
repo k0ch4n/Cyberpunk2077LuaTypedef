@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EJuryrigTrapState: Enum
 ---@field UNARMED Enum 0
 ---@field ARMED Enum 1

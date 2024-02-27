@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleELightType: Enum
 ---@field Head Enum 1
 ---@field Brake Enum 2

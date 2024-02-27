@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAIGateEventFlags: Enum
 ---@field AIGEF_Undefined Enum 0
 ---@field AIGEF_OverridesSelf Enum 1

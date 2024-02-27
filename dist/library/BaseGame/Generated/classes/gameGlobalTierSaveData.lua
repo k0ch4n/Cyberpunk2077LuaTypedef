@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameGlobalTierSaveData
 ---@field subtype gameGlobalTierSubtype
 ---@field data gameSceneTierData
 gameGlobalTierSaveData = {}
+
 
 ---@param fields? gameGlobalTierSaveData
 ---@return gameGlobalTierSaveData

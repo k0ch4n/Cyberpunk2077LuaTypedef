@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class WardrobeControllerPS: ScriptableDeviceComponentPS
 ---@field clothingSets gameClothingSet[]
 ---@field hasInteraction Bool
 WardrobeControllerPS = {}
+
 
 ---@param fields? WardrobeControllerPS
 ---@return WardrobeControllerPS

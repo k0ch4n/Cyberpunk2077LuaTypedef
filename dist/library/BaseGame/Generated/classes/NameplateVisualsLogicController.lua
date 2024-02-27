@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NameplateVisualsLogicController: inkWidgetLogicController
 ---@field rootWidget inkCompoundWidget
 ---@field nameTextMain inkTextWidgetReference
@@ -48,6 +49,7 @@
 ---@field maximumHealth Int32
 ---@field currentDamagePreviewValue Int32
 NameplateVisualsLogicController = {}
+
 
 ---@param fields? NameplateVisualsLogicController
 ---@return NameplateVisualsLogicController

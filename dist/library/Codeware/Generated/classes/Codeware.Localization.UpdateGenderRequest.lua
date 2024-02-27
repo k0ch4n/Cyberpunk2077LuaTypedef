@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Codeware_Localization_UpdateGenderRequest: gameScriptableSystemRequest
 Codeware_Localization_UpdateGenderRequest = {}
+
 
 ---@param fields? Codeware_Localization_UpdateGenderRequest
 ---@return Codeware_Localization_UpdateGenderRequest

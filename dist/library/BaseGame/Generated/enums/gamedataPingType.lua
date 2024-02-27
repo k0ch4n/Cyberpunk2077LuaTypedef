@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataPingType: Enum
 ---@field Device Enum 0
 ---@field Door Enum 1

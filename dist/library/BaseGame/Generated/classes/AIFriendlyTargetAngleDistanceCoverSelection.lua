@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIFriendlyTargetAngleDistanceCoverSelection: AICoverSelectionParameters
 AIFriendlyTargetAngleDistanceCoverSelection = {}
+
 
 ---@param fields? AIFriendlyTargetAngleDistanceCoverSelection
 ---@return AIFriendlyTargetAngleDistanceCoverSelection

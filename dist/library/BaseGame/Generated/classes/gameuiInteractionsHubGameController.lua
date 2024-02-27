@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiInteractionsHubGameController: gameuiHUDGameController
 ---@field TopInteractionWidgetsLibraries inkWidgetLibraryReference[]
 ---@field TopInteractionsRoot inkWidgetReference
@@ -10,6 +11,7 @@
 ---@field TooltipsManager gameuiTooltipsManager
 ---@field tooltipProvider TooltipProvider
 gameuiInteractionsHubGameController = {}
+
 
 ---@param fields? gameuiInteractionsHubGameController
 ---@return gameuiInteractionsHubGameController

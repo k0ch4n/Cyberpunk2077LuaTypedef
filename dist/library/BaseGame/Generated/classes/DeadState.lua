@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeadState: ChangeHighLevelStateAbstract
 DeadState = {}
+
 
 ---@param fields? DeadState
 ---@return DeadState

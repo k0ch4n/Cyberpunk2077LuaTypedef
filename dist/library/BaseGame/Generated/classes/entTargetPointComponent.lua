@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entTargetPointComponent: entIPlacedComponent
 entTargetPointComponent = {}
+
 
 ---@param fields? entTargetPointComponent
 ---@return entTargetPointComponent

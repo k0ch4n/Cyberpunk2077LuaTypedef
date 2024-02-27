@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EndGracePeriodAfterSpawn: redEvent
 EndGracePeriodAfterSpawn = {}
+
 
 ---@param fields? EndGracePeriodAfterSpawn
 ---@return EndGracePeriodAfterSpawn

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetProgressionForNewPerks: gamePlayerScriptableSystemRequest
 ResetProgressionForNewPerks = {}
+
 
 ---@param fields? ResetProgressionForNewPerks
 ---@return ResetProgressionForNewPerks

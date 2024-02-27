@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Sample_RPC_Class: IScriptable
 Sample_RPC_Class = {}
+
 
 ---@param fields? Sample_RPC_Class
 ---@return Sample_RPC_Class

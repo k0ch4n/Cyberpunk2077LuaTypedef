@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CrouchIndicatorGameController: gameuiHUDGameController
 ---@field crouchIcon inkImageWidgetReference
 ---@field genderName CName
 ---@field psmLocomotionStateChangedCallback redCallbackObject
 CrouchIndicatorGameController = {}
+
 
 ---@param fields? CrouchIndicatorGameController
 ---@return CrouchIndicatorGameController

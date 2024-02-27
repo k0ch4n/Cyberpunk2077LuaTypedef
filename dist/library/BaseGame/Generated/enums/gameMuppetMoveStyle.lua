@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMuppetMoveStyle: Enum
 ---@field Invalid Enum 0
 ---@field Walk Enum 1

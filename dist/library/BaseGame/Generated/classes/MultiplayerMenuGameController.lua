@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MultiplayerMenuGameController: PreGameSubMenuGameController
 MultiplayerMenuGameController = {}
+
 
 ---@param fields? MultiplayerMenuGameController
 ---@return MultiplayerMenuGameController

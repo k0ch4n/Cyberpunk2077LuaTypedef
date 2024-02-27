@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StopCritHealthRumble: redEvent
 StopCritHealthRumble = {}
+
 
 ---@param fields? StopCritHealthRumble
 ---@return StopCritHealthRumble

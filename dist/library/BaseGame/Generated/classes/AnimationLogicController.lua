@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AnimationLogicController: inkWidgetLogicController
 ---@field imageView inkImageWidgetReference
 AnimationLogicController = {}
+
 
 ---@param fields? AnimationLogicController
 ---@return AnimationLogicController

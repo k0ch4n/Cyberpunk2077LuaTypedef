@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameItemID
 ---@field id TweakDBID
 ---@field rngSeed Uint32
 ---@field uniqueCounter Uint16
 ---@field flags Uint8
 gameItemID = {}
+
 
 ---@param fields? gameItemID
 ---@return gameItemID

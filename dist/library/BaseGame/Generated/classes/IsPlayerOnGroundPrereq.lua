@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsPlayerOnGroundPrereq: gameIScriptablePrereq
 ---@field invert Bool
 IsPlayerOnGroundPrereq = {}
+
 
 ---@param fields? IsPlayerOnGroundPrereq
 ---@return IsPlayerOnGroundPrereq

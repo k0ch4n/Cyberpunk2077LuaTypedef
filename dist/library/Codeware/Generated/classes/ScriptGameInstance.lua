@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ScriptGameInstance
 ScriptGameInstance = {}
+
 
 ---@return ScriptGameInstance
 function ScriptGameInstance.new() end

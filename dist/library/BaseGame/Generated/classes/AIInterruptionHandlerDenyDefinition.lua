@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIInterruptionHandlerDenyDefinition: AIInterruptionHandlerDefinition
 AIInterruptionHandlerDenyDefinition = {}
+
 
 ---@param fields? AIInterruptionHandlerDenyDefinition
 ---@return AIInterruptionHandlerDenyDefinition

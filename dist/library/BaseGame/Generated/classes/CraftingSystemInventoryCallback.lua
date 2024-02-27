@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CraftingSystemInventoryCallback: gameInventoryScriptCallback
 ---@field player PlayerPuppet
 CraftingSystemInventoryCallback = {}
+
 
 ---@param fields? CraftingSystemInventoryCallback
 ---@return CraftingSystemInventoryCallback

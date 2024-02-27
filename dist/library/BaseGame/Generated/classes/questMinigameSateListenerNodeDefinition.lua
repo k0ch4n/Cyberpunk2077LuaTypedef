@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questMinigameSateListenerNodeDefinition: questSignalStoppingNodeDefinition
 questMinigameSateListenerNodeDefinition = {}
+
 
 ---@param fields? questMinigameSateListenerNodeDefinition
 ---@return questMinigameSateListenerNodeDefinition

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameWeakspotComponent: entIComponent
 ---@field defaultPhysicalDestructionProperties gameWeakspotPhysicalDestructionProperties
 gameWeakspotComponent = {}
+
 
 ---@param fields? gameWeakspotComponent
 ---@return gameWeakspotComponent

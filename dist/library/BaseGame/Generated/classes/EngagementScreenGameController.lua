@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EngagementScreenGameController: gameuiMenuGameController
 ---@field backgroundVideo inkVideoWidgetReference
 ---@field proceedConfirmationContainer inkCompoundWidgetReference
@@ -11,6 +12,7 @@
 ---@field progressBarController LoadingScreenProgressBarController
 ---@field breachingEnabled Bool
 EngagementScreenGameController = {}
+
 
 ---@param fields? EngagementScreenGameController
 ---@return EngagementScreenGameController

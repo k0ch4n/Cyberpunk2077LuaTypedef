@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ChargedHotkeyItemGadgetController: ChargedHotkeyItemBaseController
 ---@field currentStatPoolType gamedataStatPoolType
 ---@field c_grenadeKey CName
@@ -11,6 +12,7 @@
 ---@field combatStateCallback redCallbackObject
 ---@field c_grenadeFlashSalePerkType gamedataNewPerkType
 ChargedHotkeyItemGadgetController = {}
+
 
 ---@param fields? ChargedHotkeyItemGadgetController
 ---@return ChargedHotkeyItemGadgetController

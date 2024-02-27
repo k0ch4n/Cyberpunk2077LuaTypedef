@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class EntityNoticedPlayerPrereq: gameIScriptablePrereq
 ---@field isPlayerNoticed Bool
 ---@field valueToListen Uint32
 EntityNoticedPlayerPrereq = {}
+
 
 ---@param fields? EntityNoticedPlayerPrereq
 ---@return EntityNoticedPlayerPrereq

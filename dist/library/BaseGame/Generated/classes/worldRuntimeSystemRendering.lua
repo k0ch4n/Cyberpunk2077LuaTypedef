@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemRendering: worldIRuntimeSystem
 worldRuntimeSystemRendering = {}
+
 
 ---@param fields? worldRuntimeSystemRendering
 ---@return worldRuntimeSystemRendering

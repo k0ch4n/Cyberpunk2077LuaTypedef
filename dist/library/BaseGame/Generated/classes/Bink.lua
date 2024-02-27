@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Bink: CResource
 Bink = {}
+
 
 ---@param fields? Bink
 ---@return Bink

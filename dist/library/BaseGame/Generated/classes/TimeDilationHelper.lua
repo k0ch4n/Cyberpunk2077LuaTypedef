@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TimeDilationHelper: IScriptable
 TimeDilationHelper = {}
+
 
 ---@param fields? TimeDilationHelper
 ---@return TimeDilationHelper

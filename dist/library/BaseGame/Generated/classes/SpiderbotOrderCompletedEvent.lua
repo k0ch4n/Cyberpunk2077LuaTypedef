@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SpiderbotOrderCompletedEvent: redEvent
 SpiderbotOrderCompletedEvent = {}
+
 
 ---@param fields? SpiderbotOrderCompletedEvent
 ---@return SpiderbotOrderCompletedEvent

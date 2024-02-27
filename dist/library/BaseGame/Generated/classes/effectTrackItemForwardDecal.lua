@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class effectTrackItemForwardDecal: effectTrackItem
 ---@field mesh CMesh
 ---@field appearance CName
@@ -15,6 +16,7 @@
 ---@field fadeOutTime Float
 ---@field fadeInTime Float
 effectTrackItemForwardDecal = {}
+
 
 ---@param fields? effectTrackItemForwardDecal
 ---@return effectTrackItemForwardDecal

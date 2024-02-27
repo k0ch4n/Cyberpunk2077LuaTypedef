@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DepleteCharges: redEvent
 DepleteCharges = {}
+
 
 ---@param fields? DepleteCharges
 ---@return DepleteCharges

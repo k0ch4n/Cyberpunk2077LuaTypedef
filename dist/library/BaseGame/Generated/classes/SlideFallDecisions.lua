@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SlideFallDecisions: LocomotionAirDecisions
 SlideFallDecisions = {}
+
 
 ---@param fields? SlideFallDecisions
 ---@return SlideFallDecisions

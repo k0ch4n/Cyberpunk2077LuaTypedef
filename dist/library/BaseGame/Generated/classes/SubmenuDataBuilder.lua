@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SubmenuDataBuilder: IScriptable
 ---@field menuBuilder MenuDataBuilder
 ---@field menuDataIndex Int32
 SubmenuDataBuilder = {}
+
 
 ---@param fields? SubmenuDataBuilder
 ---@return SubmenuDataBuilder

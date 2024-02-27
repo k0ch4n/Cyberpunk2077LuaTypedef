@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameVisionModeComponentPS: gameComponentPS
 ---@field hideInDefaultMode Bool
 ---@field hideInFocusMode Bool
@@ -7,6 +8,7 @@
 ---@field questInactive Bool
 ---@field storedHighlightData FocusForcedHighlightPersistentData
 gameVisionModeComponentPS = {}
+
 
 ---@param fields? gameVisionModeComponentPS
 ---@return gameVisionModeComponentPS

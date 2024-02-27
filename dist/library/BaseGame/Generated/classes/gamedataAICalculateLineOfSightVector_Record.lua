@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAICalculateLineOfSightVector_Record: gamedataAIActionSubCondition_Record
 gamedataAICalculateLineOfSightVector_Record = {}
+
 
 ---@param fields? gamedataAICalculateLineOfSightVector_Record
 ---@return gamedataAICalculateLineOfSightVector_Record

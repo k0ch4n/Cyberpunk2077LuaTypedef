@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DEBUG_VisualizerComponent: gameScriptableComponent
 ---@field records DEBUG_VisualRecord[]
 ---@field offsetCounter Int32
@@ -13,6 +14,7 @@
 ---@field TEXT_TOP Float
 ---@field TEXT_OFFSET Float
 DEBUG_VisualizerComponent = {}
+
 
 ---@param fields? DEBUG_VisualizerComponent
 ---@return DEBUG_VisualizerComponent

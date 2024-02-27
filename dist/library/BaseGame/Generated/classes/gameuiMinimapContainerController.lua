@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiMinimapContainerController: gameuiMappinsContainerController
 ---@field settings gameMinimapSettings
 ---@field clampedMappinContainer inkCompoundWidgetReference
@@ -39,6 +40,7 @@
 ---@field currentZoneType ESecurityAreaType
 ---@field messageCounterController inkCompoundWidget
 gameuiMinimapContainerController = {}
+
 
 ---@param fields? gameuiMinimapContainerController
 ---@return gameuiMinimapContainerController

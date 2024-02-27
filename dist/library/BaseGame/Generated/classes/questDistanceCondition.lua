@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questDistanceCondition: questTypedCondition
 ---@field type questIDistanceConditionType
 questDistanceCondition = {}
+
 
 ---@param fields? questDistanceCondition
 ---@return questDistanceCondition

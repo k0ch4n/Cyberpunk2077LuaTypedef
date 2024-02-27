@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionChangeAttitude_Record_Implementation: IScriptable
 AISubActionChangeAttitude_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionChangeAttitude_Record

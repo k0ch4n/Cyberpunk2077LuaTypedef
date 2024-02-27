@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CompareArgumentsNames: CompareArguments
 CompareArgumentsNames = {}
+
 
 ---@param fields? CompareArgumentsNames
 ---@return CompareArgumentsNames

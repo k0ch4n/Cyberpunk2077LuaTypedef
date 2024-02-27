@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionForceEquip_Record: gamedataAISubAction_Record
 gamedataAISubActionForceEquip_Record = {}
+
 
 ---@param fields? gamedataAISubActionForceEquip_Record
 ---@return gamedataAISubActionForceEquip_Record

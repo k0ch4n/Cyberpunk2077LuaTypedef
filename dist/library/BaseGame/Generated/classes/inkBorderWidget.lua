@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkBorderWidget: inkLeafWidget
 ---@field thickness Float
 inkBorderWidget = {}
+
 
 ---@param fields? inkBorderWidget
 ---@return inkBorderWidget

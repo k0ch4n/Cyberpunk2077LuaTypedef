@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DetectPlayerFromAV: AIbehaviortaskScript
 DetectPlayerFromAV = {}
+
 
 ---@param fields? DetectPlayerFromAV
 ---@return DetectPlayerFromAV

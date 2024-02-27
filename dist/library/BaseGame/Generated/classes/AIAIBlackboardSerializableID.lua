@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIAIBlackboardSerializableID
 ---@field id gameBlackboardSerializableID
 AIAIBlackboardSerializableID = {}
+
 
 ---@param fields? AIAIBlackboardSerializableID
 ---@return AIAIBlackboardSerializableID

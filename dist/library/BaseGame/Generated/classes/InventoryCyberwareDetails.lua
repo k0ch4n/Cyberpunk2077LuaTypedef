@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InventoryCyberwareDetails: inkWidgetLogicController
 InventoryCyberwareDetails = {}
+
 
 ---@param fields? InventoryCyberwareDetails
 ---@return InventoryCyberwareDetails

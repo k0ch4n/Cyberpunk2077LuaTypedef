@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HUDInstruction: redEvent
 ---@field scannerInstructions ScanInstance
 ---@field highlightInstructions HighlightInstance
@@ -7,6 +8,7 @@
 ---@field iconsInstruction IconsInstance
 ---@field quickhackInstruction QuickhackInstance
 HUDInstruction = {}
+
 
 ---@param fields? HUDInstruction
 ---@return HUDInstruction

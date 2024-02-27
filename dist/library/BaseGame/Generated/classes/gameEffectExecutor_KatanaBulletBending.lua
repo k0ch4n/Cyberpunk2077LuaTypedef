@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameEffectExecutor_KatanaBulletBending: gameEffectExecutor_Scripted
 ---@field effects gameEffectExecutor_KatanaBulletBendingEffectEntry[]
 gameEffectExecutor_KatanaBulletBending = {}
+
 
 ---@param fields? gameEffectExecutor_KatanaBulletBending
 ---@return gameEffectExecutor_KatanaBulletBending

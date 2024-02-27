@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CameraTagSeenEnemies: ActionBool
 CameraTagSeenEnemies = {}
+
 
 ---@param fields? CameraTagSeenEnemies
 ---@return CameraTagSeenEnemies

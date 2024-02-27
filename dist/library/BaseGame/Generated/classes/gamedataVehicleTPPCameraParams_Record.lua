@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleTPPCameraParams_Record: gamedataTweakDBRecord
 gamedataVehicleTPPCameraParams_Record = {}
+
 
 ---@param fields? gamedataVehicleTPPCameraParams_Record
 ---@return gamedataVehicleTPPCameraParams_Record

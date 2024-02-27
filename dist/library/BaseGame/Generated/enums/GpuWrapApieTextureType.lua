@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GpuWrapApieTextureType: Enum
 ---@field TEXTYPE_2D Enum 0
 ---@field TEXTYPE_CUBE Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsMultiplayerGamePrereq: gameIScriptablePrereq
 IsMultiplayerGamePrereq = {}
+
 
 ---@param fields? IsMultiplayerGamePrereq
 ---@return IsMultiplayerGamePrereq

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ConstantStatPoolPrereq: StatPoolPrereq
 ConstantStatPoolPrereq = {}
+
 
 ---@param fields? ConstantStatPoolPrereq
 ---@return ConstantStatPoolPrereq

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SAreaEffectData
 ---@field action ScriptableDeviceAction
 ---@field areaEffectID CName
@@ -19,6 +20,7 @@
 ---@field highlightPriority EPriority
 ---@field effectInstance gameEffectInstance
 SAreaEffectData = {}
+
 
 ---@param fields? SAreaEffectData
 ---@return SAreaEffectData

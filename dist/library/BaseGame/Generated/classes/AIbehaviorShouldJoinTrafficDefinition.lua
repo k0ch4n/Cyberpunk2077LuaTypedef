@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorShouldJoinTrafficDefinition: AIbehaviorVehicleExpressionDefinition
 AIbehaviorShouldJoinTrafficDefinition = {}
+
 
 ---@param fields? AIbehaviorShouldJoinTrafficDefinition
 ---@return AIbehaviorShouldJoinTrafficDefinition

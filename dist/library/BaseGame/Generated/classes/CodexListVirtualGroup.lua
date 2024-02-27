@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CodexListVirtualGroup: inkVirtualCompoundItemController
 ---@field title inkTextWidgetReference
 ---@field arrow inkWidgetReference
@@ -13,6 +14,7 @@
 ---@field isItemToggled Bool
 ---@field isItemCollapsed Bool
 CodexListVirtualGroup = {}
+
 
 ---@param fields? CodexListVirtualGroup
 ---@return CodexListVirtualGroup

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkanimInterpolator: IScriptable
 ---@field interpolationMode inkanimInterpolationMode
 ---@field interpolationType inkanimInterpolationType
@@ -9,6 +10,7 @@
 ---@field useRelativeDuration Bool
 ---@field isAdditive Bool
 inkanimInterpolator = {}
+
 
 ---@return inkanimInterpolationDirection
 function inkanimInterpolator:GetDirection() end

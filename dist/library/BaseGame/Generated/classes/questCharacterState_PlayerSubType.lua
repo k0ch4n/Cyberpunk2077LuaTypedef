@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCharacterState_PlayerSubType: questICharacterConditionSubType
 ---@field locomotionComparisonType questEComparisonTypeEquality
 ---@field locomotionState gamePSMLocomotionStates
@@ -16,6 +17,7 @@
 ---@field swimmingStateComparisonType questEComparisonTypeEquality
 ---@field swimmingState gamePSMSwimming
 questCharacterState_PlayerSubType = {}
+
 
 ---@param fields? questCharacterState_PlayerSubType
 ---@return questCharacterState_PlayerSubType

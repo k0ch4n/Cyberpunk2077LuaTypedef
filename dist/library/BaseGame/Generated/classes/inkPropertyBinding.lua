@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class inkPropertyBinding
 ---@field propertyName CName
 ---@field stylePath CName
 inkPropertyBinding = {}
+
 
 ---@param fields? inkPropertyBinding
 ---@return inkPropertyBinding

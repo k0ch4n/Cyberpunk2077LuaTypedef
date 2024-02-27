@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entAnimVisibilityChangedEvent: redEvent
 ---@field isVisible Bool
 entAnimVisibilityChangedEvent = {}
+
 
 ---@param fields? entAnimVisibilityChangedEvent
 ---@return entAnimVisibilityChangedEvent

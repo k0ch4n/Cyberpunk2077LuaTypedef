@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questvehicleJoinTrafficParams: questVehicleSpecificCommandParams
 questvehicleJoinTrafficParams = {}
+
 
 ---@param fields? questvehicleJoinTrafficParams
 ---@return questvehicleJoinTrafficParams

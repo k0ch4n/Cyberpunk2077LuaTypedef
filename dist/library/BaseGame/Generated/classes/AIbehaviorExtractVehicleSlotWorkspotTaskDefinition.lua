@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIbehaviorExtractVehicleSlotWorkspotTaskDefinition: AIbehaviorTaskDefinition
 ---@field outWorkspotData AIArgumentMapping
 AIbehaviorExtractVehicleSlotWorkspotTaskDefinition = {}
+
 
 ---@param fields? AIbehaviorExtractVehicleSlotWorkspotTaskDefinition
 ---@return AIbehaviorExtractVehicleSlotWorkspotTaskDefinition

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsSourceDeviceActveFilter: gameEffectObjectGroupFilter_Scripted
 IsSourceDeviceActveFilter = {}
+
 
 ---@param fields? IsSourceDeviceActveFilter
 ---@return IsSourceDeviceActveFilter

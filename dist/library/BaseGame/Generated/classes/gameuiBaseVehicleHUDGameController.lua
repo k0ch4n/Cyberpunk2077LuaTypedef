@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiBaseVehicleHUDGameController: gameuiHUDGameController
 ---@field mounted Bool
 gameuiBaseVehicleHUDGameController = {}
+
 
 ---@param fields? gameuiBaseVehicleHUDGameController
 ---@return gameuiBaseVehicleHUDGameController

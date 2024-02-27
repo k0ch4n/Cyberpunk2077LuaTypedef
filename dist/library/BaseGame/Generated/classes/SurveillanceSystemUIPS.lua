@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SurveillanceSystemUIPS: VirtualSystemPS
 SurveillanceSystemUIPS = {}
+
 
 ---@param fields? SurveillanceSystemUIPS
 ---@return SurveillanceSystemUIPS

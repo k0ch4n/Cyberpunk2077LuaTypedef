@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scannerDetailsGameController: gameuiHUDGameController
 ---@field scannerCountainer inkCompoundWidgetReference
 ---@field quickhackContainer inkCompoundWidgetReference
@@ -24,6 +25,7 @@
 ---@field outroAnimProxy inkanimProxy
 ---@field scannerToggleTabAnimProxy inkanimProxy
 scannerDetailsGameController = {}
+
 
 ---@param fields? scannerDetailsGameController
 ---@return scannerDetailsGameController

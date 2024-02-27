@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataObjectActionCost_Record: gamedataTweakDBRecord
 gamedataObjectActionCost_Record = {}
+
 
 ---@param fields? gamedataObjectActionCost_Record
 ---@return gamedataObjectActionCost_Record

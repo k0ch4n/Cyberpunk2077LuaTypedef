@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCompiledSmartObjectData: ISerializable
 gameCompiledSmartObjectData = {}
+
 
 ---@param fields? gameCompiledSmartObjectData
 ---@return gameCompiledSmartObjectData

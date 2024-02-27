@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VentilationEffectorController: ScriptableDeviceComponent
 VentilationEffectorController = {}
+
 
 ---@param fields? VentilationEffectorController
 ---@return VentilationEffectorController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AITimeoutCondition: AITimeCondition
 ---@field timestamp Float
 AITimeoutCondition = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

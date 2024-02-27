@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UI_ActiveVehicleDataDef: gamebbScriptDefinition
 ---@field VehPlayerStateData gamebbScriptID_Variant
 ---@field IsPlayerMounted gamebbScriptID_Bool
@@ -11,6 +12,7 @@
 ---@field MountedMissileLauncherAmmo gamebbScriptID_Uint32
 ---@field MountedPowerWeaponAmmo gamebbScriptID_Uint32
 UI_ActiveVehicleDataDef = {}
+
 
 ---@param fields? UI_ActiveVehicleDataDef
 ---@return UI_ActiveVehicleDataDef

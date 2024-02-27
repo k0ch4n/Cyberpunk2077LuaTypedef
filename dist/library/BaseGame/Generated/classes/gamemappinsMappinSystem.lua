@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamemappinsMappinSystem: gamemappinsIMappinSystem
 gamemappinsMappinSystem = {}
+
 
 ---@param fields? gamemappinsMappinSystem
 ---@return gamemappinsMappinSystem

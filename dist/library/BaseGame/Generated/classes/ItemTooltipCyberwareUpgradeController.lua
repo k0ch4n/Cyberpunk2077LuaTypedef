@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemTooltipCyberwareUpgradeController: ItemTooltipModuleController
 ---@field componentsContainer inkCompoundWidgetReference
 ---@field moneyContainer inkCompoundWidgetReference
@@ -26,6 +27,7 @@
 ---@field progressStarted Bool
 ---@field progressBarAnimProxy inkanimProxy
 ItemTooltipCyberwareUpgradeController = {}
+
 
 ---@param fields? ItemTooltipCyberwareUpgradeController
 ---@return ItemTooltipCyberwareUpgradeController

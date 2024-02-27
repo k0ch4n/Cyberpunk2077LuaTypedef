@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class WindowBlindersControllerPS: ScriptableDeviceComponentPS
 ---@field windowBlindersSkillChecks EngDemoContainer
 ---@field windowBlindersData WindowBlindersData
 ---@field cachedState EWindowBlindersStates
 ---@field alarmRaised Bool
 WindowBlindersControllerPS = {}
+
 
 ---@param fields? WindowBlindersControllerPS
 ---@return WindowBlindersControllerPS

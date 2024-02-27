@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BraindanceBarLogicController: inkWidgetLogicController
 ---@field layer gameuiEBraindanceLayer
 ---@field isInLayer Bool
@@ -8,6 +9,7 @@
 ---@field timelineActiveAnimation inkanimProxy
 ---@field timelineDisabledAnimation inkanimProxy
 BraindanceBarLogicController = {}
+
 
 ---@param fields? BraindanceBarLogicController
 ---@return BraindanceBarLogicController

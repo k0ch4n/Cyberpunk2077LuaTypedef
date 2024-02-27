@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StatsSystemHelper: IScriptable
 StatsSystemHelper = {}
+
 
 ---@param fields? StatsSystemHelper
 ---@return StatsSystemHelper

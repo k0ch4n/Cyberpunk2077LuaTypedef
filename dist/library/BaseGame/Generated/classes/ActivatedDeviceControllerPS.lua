@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ActivatedDeviceControllerPS: ScriptableDeviceComponentPS
 ---@field animationSetup ActivatedDeviceAnimSetup
 ---@field activatedDeviceSetup ActivatedDeviceSetup
 ---@field spiderbotInteractionLocationOverride NodeRef
 ---@field industrialArmAnimationOverride Int32
 ActivatedDeviceControllerPS = {}
+
 
 ---@param fields? ActivatedDeviceControllerPS
 ---@return ActivatedDeviceControllerPS

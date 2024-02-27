@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DetectionMeterEffector: gameEffector
 ---@field statusEffectID TweakDBID
 ---@field detectionStep Float
@@ -11,6 +12,7 @@
 ---@field gameInstance ScriptGameInstance
 ---@field ownerID entEntityID
 DetectionMeterEffector = {}
+
 
 ---@param fields? DetectionMeterEffector
 ---@return DetectionMeterEffector

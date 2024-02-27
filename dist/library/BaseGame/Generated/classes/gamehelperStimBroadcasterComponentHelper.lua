@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamehelperStimBroadcasterComponentHelper: IScriptable
 gamehelperStimBroadcasterComponentHelper = {}
+
 
 ---@param fields? gamehelperStimBroadcasterComponentHelper
 ---@return gamehelperStimBroadcasterComponentHelper

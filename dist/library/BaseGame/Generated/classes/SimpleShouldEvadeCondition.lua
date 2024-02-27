@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SimpleShouldEvadeCondition: AIbehaviorconditionScript
 ---@field hitReactionComponent HitReactionComponent
 SimpleShouldEvadeCondition = {}
+
 
 ---@param fields? SimpleShouldEvadeCondition
 ---@return SimpleShouldEvadeCondition

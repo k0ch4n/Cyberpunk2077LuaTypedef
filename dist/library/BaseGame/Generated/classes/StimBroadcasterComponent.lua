@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StimBroadcasterComponent: gameScriptableComponent
 ---@field activeRequests StimRequest[]
 ---@field currentID Uint32
@@ -8,6 +9,7 @@
 ---@field blockedStims StimIdentificationData[]
 ---@field fallbackInterval Float
 StimBroadcasterComponent = {}
+
 
 ---@param fields? StimBroadcasterComponent
 ---@return StimBroadcasterComponent

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ActionDemolition: ActionSkillCheck
 ---@field slotID gamemountingMountingSlotId
 ActionDemolition = {}
+
 
 ---@param fields? ActionDemolition
 ---@return ActionDemolition

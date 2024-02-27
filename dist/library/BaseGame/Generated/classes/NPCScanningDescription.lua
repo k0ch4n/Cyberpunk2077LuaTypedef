@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NPCScanningDescription: ObjectScanningDescription
 ---@field NPCGameplayDescription TweakDBID
 ---@field NPCCustomDescriptions TweakDBID[]
 NPCScanningDescription = {}
+
 
 ---@param fields? NPCScanningDescription
 ---@return NPCScanningDescription

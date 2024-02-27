@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ActivateDevice: ActionBool
 ---@field tweakDBChoiceName String
 ActivateDevice = {}
+
 
 ---@param fields? ActivateDevice
 ---@return ActivateDevice

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animEAnimGraphMathOp: Enum
 ---@field AGMO_Add Enum 0
 ---@field AGMO_Subtract Enum 1

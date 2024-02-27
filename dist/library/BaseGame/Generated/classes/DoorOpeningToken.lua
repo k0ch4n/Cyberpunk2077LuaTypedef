@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DoorOpeningToken: ActionBool
 DoorOpeningToken = {}
+
 
 ---@param fields? DoorOpeningToken
 ---@return DoorOpeningToken

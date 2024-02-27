@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FxResourceMapperComponent: gameScriptableComponent
 ---@field areaEffectData AreaEffectData[]
 ---@field investigationSlotOffsetMultiplier Float
@@ -9,6 +10,7 @@
 ---@field DEBUG_copiedDataFromFXStruct Bool
 ---@field isInitialized Bool
 FxResourceMapperComponent = {}
+
 
 ---@param fields? FxResourceMapperComponent
 ---@return FxResourceMapperComponent

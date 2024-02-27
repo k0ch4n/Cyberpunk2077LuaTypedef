@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MoveToCoverCommandDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field inCommand AIArgumentMapping
 ---@field releaseSignalOnCoverEnter Bool
@@ -8,6 +9,7 @@
 ---@field useLeft Bool
 ---@field useRight Bool
 MoveToCoverCommandDelegate = {}
+
 
 ---@param fields? MoveToCoverCommandDelegate
 ---@return MoveToCoverCommandDelegate

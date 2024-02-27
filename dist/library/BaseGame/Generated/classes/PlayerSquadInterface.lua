@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerSquadInterface: PuppetSquadInterface
 PlayerSquadInterface = {}
+
 
 ---@param fields? PlayerSquadInterface
 ---@return PlayerSquadInterface

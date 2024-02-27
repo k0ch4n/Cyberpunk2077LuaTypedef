@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioMeleeMaterialType: Enum
 ---@field Hard Enum 0
 ---@field Soft Enum 1

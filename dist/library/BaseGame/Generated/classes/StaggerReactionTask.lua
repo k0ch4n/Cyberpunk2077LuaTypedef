@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class StaggerReactionTask: AIHitReactionTask
 ---@field tweakDBPackage TweakDBID
 ---@field tumble Bool
 ---@field onUpdateCompleted Bool
 StaggerReactionTask = {}
+
 
 ---@param fields? StaggerReactionTask
 ---@return StaggerReactionTask

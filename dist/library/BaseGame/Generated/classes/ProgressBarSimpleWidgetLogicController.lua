@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProgressBarSimpleWidgetLogicController: inkWidgetLogicController
 ---@field width Float
 ---@field height Float
@@ -26,6 +27,7 @@
 ---@field barCap_anim inkanimDefinition
 ---@field rootWidget inkCompoundWidget
 ProgressBarSimpleWidgetLogicController = {}
+
 
 ---@param fields? ProgressBarSimpleWidgetLogicController
 ---@return ProgressBarSimpleWidgetLogicController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VehicleDriverCombatContextEvents: InputContextTransitionEvents
 ---@field weapon gameweaponObject
 VehicleDriverCombatContextEvents = {}
+
 
 ---@param fields? VehicleDriverCombatContextEvents
 ---@return VehicleDriverCombatContextEvents

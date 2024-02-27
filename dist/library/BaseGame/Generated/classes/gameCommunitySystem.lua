@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCommunitySystem: gameICommunitySystem
 gameCommunitySystem = {}
+
 
 ---@param fields? gameCommunitySystem
 ---@return gameCommunitySystem

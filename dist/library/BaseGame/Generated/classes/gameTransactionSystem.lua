@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameTransactionSystem: gameITransactionSystem
 gameTransactionSystem = {}
+
 
 ---@param fields? gameTransactionSystem
 ---@return gameTransactionSystem

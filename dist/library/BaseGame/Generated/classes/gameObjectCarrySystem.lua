@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameObjectCarrySystem: gameIObjectCarrySystem
 gameObjectCarrySystem = {}
+
 
 ---@param fields? gameObjectCarrySystem
 ---@return gameObjectCarrySystem

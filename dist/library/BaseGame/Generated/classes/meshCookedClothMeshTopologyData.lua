@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class meshCookedClothMeshTopologyData
 ---@field cookedData DataBuffer
 ---@field gfxIndexToTriangles Uint32[]
@@ -15,6 +16,7 @@
 ---@field phxNumLodSwitchData Uint32
 ---@field phxNumSimulated Uint32
 meshCookedClothMeshTopologyData = {}
+
 
 ---@param fields? meshCookedClothMeshTopologyData
 ---@return meshCookedClothMeshTopologyData

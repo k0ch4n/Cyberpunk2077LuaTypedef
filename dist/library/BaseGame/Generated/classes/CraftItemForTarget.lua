@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CraftItemForTarget: ActionBool
 ---@field itemID TweakDBID
 CraftItemForTarget = {}
+
 
 ---@param fields? CraftItemForTarget
 ---@return CraftItemForTarget

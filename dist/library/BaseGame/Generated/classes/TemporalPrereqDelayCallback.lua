@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TemporalPrereqDelayCallback: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field state TemporalPrereqState
 TemporalPrereqDelayCallback = {}
+
 
 ---@param fields? TemporalPrereqDelayCallback
 ---@return TemporalPrereqDelayCallback

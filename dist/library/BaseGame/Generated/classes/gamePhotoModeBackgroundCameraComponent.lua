@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePhotoModeBackgroundCameraComponent: entBaseCameraComponent
 ---@field isEnabled Bool
 ---@field virtualCameraName CName
@@ -12,6 +13,7 @@
 ---@field renderSceneLayer RenderSceneLayer
 ---@field streamingDistance Float
 gamePhotoModeBackgroundCameraComponent = {}
+
 
 ---@param fields? gamePhotoModeBackgroundCameraComponent
 ---@return gamePhotoModeBackgroundCameraComponent

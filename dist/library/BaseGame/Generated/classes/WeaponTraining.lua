@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class WeaponTraining: InteractiveDevice
 ---@field rewardRecord TweakDBID
 ---@field weaponTypes gamedataItemType[]
 ---@field limitOfHits Int32
 ---@field amountOfHits Int32
 WeaponTraining = {}
+
 
 ---@param fields? WeaponTraining
 ---@return WeaponTraining

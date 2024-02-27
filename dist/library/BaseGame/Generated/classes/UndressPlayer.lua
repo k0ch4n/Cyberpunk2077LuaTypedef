@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UndressPlayer: redEvent
 ---@field isCensored Bool
 UndressPlayer = {}
+
 
 ---@param fields? UndressPlayer
 ---@return UndressPlayer

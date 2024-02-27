@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameprojectileAcceleratedMovementEvent: gameprojectileLinearMovementEvent
 gameprojectileAcceleratedMovementEvent = {}
+
 
 ---@param fields? gameprojectileAcceleratedMovementEvent
 ---@return gameprojectileAcceleratedMovementEvent

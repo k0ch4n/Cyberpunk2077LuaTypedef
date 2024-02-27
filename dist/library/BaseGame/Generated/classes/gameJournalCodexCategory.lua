@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameJournalCodexCategory: gameJournalFileEntry
 ---@field categoryName LocalizationString
 gameJournalCodexCategory = {}
+
 
 ---@param fields? gameJournalCodexCategory
 ---@return gameJournalCodexCategory

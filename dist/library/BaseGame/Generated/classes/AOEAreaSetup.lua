@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AOEAreaSetup
 ---@field areaEffect TweakDBID
 ---@field actionName TweakDBID
@@ -12,6 +13,7 @@
 ---@field deviceWidgetRecord TweakDBID
 ---@field thumbnailWidgetRecord TweakDBID
 AOEAreaSetup = {}
+
 
 ---@param fields? AOEAreaSetup
 ---@return AOEAreaSetup

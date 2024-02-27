@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animDyngConstraintLink: animIDyngConstraint
 ---@field bone1 animTransformIndex
 ---@field bone2 animTransformIndex
@@ -8,6 +9,7 @@
 ---@field lengthUpperBoundRatioPercentage Float
 ---@field lookAtAxis Vector3
 animDyngConstraintLink = {}
+
 
 ---@param fields? animDyngConstraintLink
 ---@return animDyngConstraintLink

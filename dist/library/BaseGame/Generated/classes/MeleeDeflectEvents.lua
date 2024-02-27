@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MeleeDeflectEvents: MeleeEventsTransition
 ---@field deflectStatFlag gameStatModifierData_Deprecated
 MeleeDeflectEvents = {}
+
 
 ---@param fields? MeleeDeflectEvents
 ---@return MeleeDeflectEvents

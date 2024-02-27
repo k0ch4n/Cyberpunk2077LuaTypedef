@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BlockStimProcessingCooldownEvent: redEvent
 ---@field stimData StimIdentificationData
 BlockStimProcessingCooldownEvent = {}
+
 
 ---@param fields? BlockStimProcessingCooldownEvent
 ---@return BlockStimProcessingCooldownEvent

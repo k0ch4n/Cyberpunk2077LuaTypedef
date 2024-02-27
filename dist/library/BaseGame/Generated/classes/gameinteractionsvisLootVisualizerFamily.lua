@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameinteractionsvisLootVisualizerFamily: gameinteractionsvisFamilyBase
 gameinteractionsvisLootVisualizerFamily = {}
+
 
 ---@param fields? gameinteractionsvisLootVisualizerFamily
 ---@return gameinteractionsvisLootVisualizerFamily

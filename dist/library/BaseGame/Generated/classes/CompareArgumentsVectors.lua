@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CompareArgumentsVectors: CompareArguments
 CompareArgumentsVectors = {}
+
 
 ---@param fields? CompareArgumentsVectors
 ---@return CompareArgumentsVectors

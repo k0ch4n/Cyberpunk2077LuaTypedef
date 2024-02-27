@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldSceneRecordingContentObserverNodeInstance: worldINodeInstance
 worldSceneRecordingContentObserverNodeInstance = {}
+
 
 ---@param fields? worldSceneRecordingContentObserverNodeInstance
 ---@return worldSceneRecordingContentObserverNodeInstance

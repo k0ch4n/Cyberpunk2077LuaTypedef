@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiarcadeShooterBossMeatHead: gameuiarcadeShooterBossController
 gameuiarcadeShooterBossMeatHead = {}
+
 
 ---@param fields? gameuiarcadeShooterBossMeatHead
 ---@return gameuiarcadeShooterBossMeatHead

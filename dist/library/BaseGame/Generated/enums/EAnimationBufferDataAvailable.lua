@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAnimationBufferDataAvailable: Enum
 ---@field ABDA_None Enum 0
 ---@field ABDA_Partial Enum 1

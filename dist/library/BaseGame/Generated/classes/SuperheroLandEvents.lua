@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SuperheroLandEvents: AbstractLandEvents
 ---@field spawnedLandingAttack Bool
 ---@field superheroFallTime Float
 SuperheroLandEvents = {}
+
 
 ---@param fields? SuperheroLandEvents
 ---@return SuperheroLandEvents

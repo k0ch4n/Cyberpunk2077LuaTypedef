@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleComponent: ScriptableDeviceComponent
 ---@field interaction gameinteractionsComponent
 ---@field scanningComponent gameScanningComponent
@@ -52,6 +53,7 @@
 ---@field customizableApperanceApplied Bool
 ---@field vehicleController vehicleController
 VehicleComponent = {}
+
 
 ---@param fields? VehicleComponent
 ---@return VehicleComponent

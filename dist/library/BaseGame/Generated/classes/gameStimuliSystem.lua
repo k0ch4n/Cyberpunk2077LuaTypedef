@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameStimuliSystem: gameIStimuliSystem
 gameStimuliSystem = {}
+
 
 ---@param fields? gameStimuliSystem
 ---@return gameStimuliSystem

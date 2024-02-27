@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETextureFilteringMin: Enum
 ---@field TFMin_Point Enum 0
 ---@field TFMin_Linear Enum 1

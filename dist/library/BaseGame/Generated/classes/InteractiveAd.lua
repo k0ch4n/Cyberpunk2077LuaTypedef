@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InteractiveAd: InteractiveDevice
 ---@field triggerComponent gameStaticTriggerAreaComponent
 ---@field triggerExitComponent gameStaticTriggerAreaComponent
@@ -7,6 +8,7 @@
 ---@field showAd Bool
 ---@field showVendor Bool
 InteractiveAd = {}
+
 
 ---@param fields? InteractiveAd
 ---@return InteractiveAd

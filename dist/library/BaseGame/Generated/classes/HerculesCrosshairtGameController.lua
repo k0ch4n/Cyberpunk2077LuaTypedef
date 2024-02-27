@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HerculesCrosshairtGameController: IronsightGameController
 ---@field appearanceFill Int32
 ---@field appearanceOutline Int32
@@ -11,6 +12,7 @@
 ---@field targetedApperance gameVisionAppearance
 ---@field targets entEntityID[]
 HerculesCrosshairtGameController = {}
+
 
 ---@param fields? HerculesCrosshairtGameController
 ---@return HerculesCrosshairtGameController

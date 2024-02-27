@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Multilayer_LayerTemplateOverrides
 ---@field colorScale Multilayer_LayerTemplateOverridesColor[]
 ---@field roughLevelsIn Multilayer_LayerTemplateOverridesLevels[]
@@ -8,6 +9,7 @@
 ---@field metalLevelsOut Multilayer_LayerTemplateOverridesLevels[]
 ---@field normalStrength Multilayer_LayerTemplateOverridesNormalStrength[]
 Multilayer_LayerTemplateOverrides = {}
+
 
 ---@param fields? Multilayer_LayerTemplateOverrides
 ---@return Multilayer_LayerTemplateOverrides

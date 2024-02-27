@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameSetupWorkspotActionEvent: senseStimuliData
 gameSetupWorkspotActionEvent = {}
+
 
 ---@param fields? gameSetupWorkspotActionEvent
 ---@return gameSetupWorkspotActionEvent

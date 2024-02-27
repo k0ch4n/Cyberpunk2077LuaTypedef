@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HotkeyManager
 HotkeyManager = {}
+
 
 ---@param fields? HotkeyManager
 ---@return HotkeyManager

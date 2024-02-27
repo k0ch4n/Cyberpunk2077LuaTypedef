@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InitialStateDecisions: InputContextTransitionDecisions
 InitialStateDecisions = {}
+
 
 ---@param fields? InitialStateDecisions
 ---@return InitialStateDecisions

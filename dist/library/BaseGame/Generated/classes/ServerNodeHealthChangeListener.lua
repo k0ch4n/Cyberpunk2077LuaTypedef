@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ServerNodeHealthChangeListener: gameCustomValueStatPoolsListener
 ---@field serverNode ServerNode
 ServerNodeHealthChangeListener = {}
+
 
 ---@param fields? ServerNodeHealthChangeListener
 ---@return ServerNodeHealthChangeListener

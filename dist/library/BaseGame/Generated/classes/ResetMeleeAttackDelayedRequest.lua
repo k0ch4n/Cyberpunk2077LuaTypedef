@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetMeleeAttackDelayedRequest: gameScriptableSystemRequest
 ResetMeleeAttackDelayedRequest = {}
+
 
 ---@param fields? ResetMeleeAttackDelayedRequest
 ---@return ResetMeleeAttackDelayedRequest

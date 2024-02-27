@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ChangeUIAnimEvent: redEvent
 ---@field animName CName
 ChangeUIAnimEvent = {}
+
 
 ---@param fields? ChangeUIAnimEvent
 ---@return ChangeUIAnimEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataStimPriority: Enum
 ---@field High Enum 0
 ---@field Low Enum 1

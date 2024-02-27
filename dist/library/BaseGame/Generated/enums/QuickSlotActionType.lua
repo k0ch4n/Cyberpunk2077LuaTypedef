@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuickSlotActionType: Enum
 ---@field Undefined Enum 0
 ---@field SelectItem Enum 1

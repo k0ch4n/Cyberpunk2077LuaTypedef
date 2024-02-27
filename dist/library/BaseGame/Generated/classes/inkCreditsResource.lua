@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkCreditsResource: CResource
 ---@field sections inkCreditsSectionEntry[]
 inkCreditsResource = {}
+
 
 ---@param fields? inkCreditsResource
 ---@return inkCreditsResource

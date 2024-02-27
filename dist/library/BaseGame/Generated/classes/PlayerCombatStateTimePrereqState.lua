@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PlayerCombatStateTimePrereqState: gamePrereqState
 ---@field owner gameObject
 ---@field listener redCallbackObject
 PlayerCombatStateTimePrereqState = {}
+
 
 ---@param fields? PlayerCombatStateTimePrereqState
 ---@return PlayerCombatStateTimePrereqState

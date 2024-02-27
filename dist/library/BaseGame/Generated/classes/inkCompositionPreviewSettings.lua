@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkCompositionPreviewSettings: ISerializable
 ---@field sourceState CName
 ---@field targetState CName
@@ -8,6 +9,7 @@
 ---@field textureAtlas inkTextureAtlas
 ---@field texturePart CName
 inkCompositionPreviewSettings = {}
+
 
 ---@param fields? inkCompositionPreviewSettings
 ---@return inkCompositionPreviewSettings

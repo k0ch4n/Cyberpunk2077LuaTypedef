@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStatPoolDataStatPoolModificationStatus: Enum
 ---@field Regeneration Enum 0
 ---@field Decay Enum 1

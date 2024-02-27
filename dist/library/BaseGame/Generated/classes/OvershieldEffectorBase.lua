@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OvershieldEffectorBase: gameContinuousEffector
 ---@field statSystem gameStatsSystem
 ---@field poolSystem gameStatPoolsSystem
@@ -7,6 +8,7 @@
 ---@field modifiersAdded Bool
 ---@field owner gameObject
 OvershieldEffectorBase = {}
+
 
 ---@param fields? OvershieldEffectorBase
 ---@return OvershieldEffectorBase

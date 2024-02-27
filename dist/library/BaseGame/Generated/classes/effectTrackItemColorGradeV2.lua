@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class effectTrackItemColorGradeV2: effectTrackItem
 ---@field contrast effectEffectParameterEvaluatorFloat
 ---@field contrastPivot effectEffectParameterEvaluatorFloat
@@ -16,6 +17,7 @@
 ---@field midtone effectEffectParameterEvaluatorVector
 ---@field highlight effectEffectParameterEvaluatorVector
 effectTrackItemColorGradeV2 = {}
+
 
 ---@param fields? effectTrackItemColorGradeV2
 ---@return effectTrackItemColorGradeV2

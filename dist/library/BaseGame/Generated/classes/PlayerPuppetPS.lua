@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerPuppetPS: ScriptedPuppetPS
 ---@field keybindigs KeyBindings
 ---@field availablePrograms gameuiMinigameProgramData[]
@@ -12,6 +13,7 @@
 ---@field permanentMemoryBonus Float
 ---@field minigameBB gameIBlackboard
 PlayerPuppetPS = {}
+
 
 ---@param fields? PlayerPuppetPS
 ---@return PlayerPuppetPS

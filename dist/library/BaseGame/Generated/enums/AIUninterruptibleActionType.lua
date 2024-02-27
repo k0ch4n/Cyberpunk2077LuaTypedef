@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIUninterruptibleActionType: Enum
 ---@field None Enum 0
 ---@field Default Enum 1

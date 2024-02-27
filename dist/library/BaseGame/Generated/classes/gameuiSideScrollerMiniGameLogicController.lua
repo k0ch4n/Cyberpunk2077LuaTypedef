@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiSideScrollerMiniGameLogicController: inkWidgetLogicController
 ---@field gameName CName
 ---@field startHealth Uint32
@@ -11,6 +12,7 @@
 ---@field spawnedListLibraryNames CName[]
 ---@field isGameRunning Bool
 gameuiSideScrollerMiniGameLogicController = {}
+
 
 ---@param fields? gameuiSideScrollerMiniGameLogicController
 ---@return gameuiSideScrollerMiniGameLogicController

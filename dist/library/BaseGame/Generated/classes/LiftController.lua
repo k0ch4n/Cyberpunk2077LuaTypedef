@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LiftController: MasterController
 LiftController = {}
+
 
 ---@param fields? LiftController
 ---@return LiftController

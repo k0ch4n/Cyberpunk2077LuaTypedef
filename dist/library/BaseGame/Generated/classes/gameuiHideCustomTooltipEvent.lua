@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiHideCustomTooltipEvent: redEvent
 gameuiHideCustomTooltipEvent = {}
+
 
 ---@param fields? gameuiHideCustomTooltipEvent
 ---@return gameuiHideCustomTooltipEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldStreamingSectorDescriptor
 ---@field data worldStreamingSector
 ---@field streamingBox Box
@@ -10,6 +11,7 @@
 ---@field level Uint8
 ---@field category worldStreamingSectorCategory
 worldStreamingSectorDescriptor = {}
+
 
 ---@param fields? worldStreamingSectorDescriptor
 ---@return worldStreamingSectorDescriptor

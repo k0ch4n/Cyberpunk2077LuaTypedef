@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BlockAndCompensateScalingEvent: redEvent
 BlockAndCompensateScalingEvent = {}
+
 
 ---@param fields? BlockAndCompensateScalingEvent
 ---@return BlockAndCompensateScalingEvent

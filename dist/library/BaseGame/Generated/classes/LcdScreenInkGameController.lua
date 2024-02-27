@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LcdScreenInkGameController: DeviceInkGameControllerBase
 ---@field defaultUI inkCanvasWidget
 ---@field mainDisplayWidget inkVideoWidget
@@ -11,6 +12,7 @@
 ---@field onGlitchingStateChangedListener redCallbackObject
 ---@field onMessegeChangedListener redCallbackObject
 LcdScreenInkGameController = {}
+
 
 ---@param fields? LcdScreenInkGameController
 ---@return LcdScreenInkGameController

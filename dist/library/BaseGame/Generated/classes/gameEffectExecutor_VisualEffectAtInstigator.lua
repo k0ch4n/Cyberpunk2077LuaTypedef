@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameEffectExecutor_VisualEffectAtInstigator: gameEffectExecutor
 ---@field effect worldEffect
 gameEffectExecutor_VisualEffectAtInstigator = {}
+
 
 ---@param fields? gameEffectExecutor_VisualEffectAtInstigator
 ---@return gameEffectExecutor_VisualEffectAtInstigator

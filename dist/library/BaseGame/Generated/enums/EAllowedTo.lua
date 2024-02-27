@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAllowedTo: Enum
 ---@field UNDEFINED Enum 0
 ---@field TRESSPASSING Enum 1

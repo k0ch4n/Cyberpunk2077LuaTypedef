@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioFoleyNPCMetadata: audioAudioMetadata
 ---@field fastHeavy audioMeleeSound
 ---@field fastMedium audioMeleeSound
@@ -13,6 +14,7 @@
 ---@field walk audioMeleeSound
 ---@field run audioMeleeSound
 audioFoleyNPCMetadata = {}
+
 
 ---@param fields? audioFoleyNPCMetadata
 ---@return audioFoleyNPCMetadata

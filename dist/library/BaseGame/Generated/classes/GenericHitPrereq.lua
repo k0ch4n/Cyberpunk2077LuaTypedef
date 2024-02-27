@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GenericHitPrereq: gameIScriptablePrereq
 ---@field isSync Bool
 ---@field processMiss Bool
@@ -10,6 +11,7 @@
 ---@field conditions BaseHitPrereqCondition[]
 ---@field ignoreSelfInflictedPressureWave Bool
 GenericHitPrereq = {}
+
 
 ---@param fields? GenericHitPrereq
 ---@return GenericHitPrereq

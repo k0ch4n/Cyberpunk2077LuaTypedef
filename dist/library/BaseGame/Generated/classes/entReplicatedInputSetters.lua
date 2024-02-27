@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entReplicatedInputSetters
 ---@field serverReplicatedTime netTime
 entReplicatedInputSetters = {}
+
 
 ---@param fields? entReplicatedInputSetters
 ---@return entReplicatedInputSetters

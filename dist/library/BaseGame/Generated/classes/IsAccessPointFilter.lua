@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsAccessPointFilter: gameEffectObjectSingleFilter_Scripted
 IsAccessPointFilter = {}
+
 
 ---@param fields? IsAccessPointFilter
 ---@return IsAccessPointFilter

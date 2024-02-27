@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DamageManager: IScriptable
 DamageManager = {}
+
 
 ---@param fields? DamageManager
 ---@return DamageManager

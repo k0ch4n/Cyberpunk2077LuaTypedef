@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiBaseItemDataSource: inkAbstractDataSourceWrapper
 gameuiBaseItemDataSource = {}
+
 
 ---@param fields? gameuiBaseItemDataSource
 ---@return gameuiBaseItemDataSource

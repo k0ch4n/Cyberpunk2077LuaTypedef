@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIAssignRoleTask: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 AIAssignRoleTask = {}
+
 
 ---@param fields? AIAssignRoleTask
 ---@return AIAssignRoleTask

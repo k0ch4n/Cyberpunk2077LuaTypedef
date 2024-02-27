@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CpoHudRootGameController: gameuiWidgetGameController
 ---@field hitIndicator inkWidget
 ---@field chatBox inkWidget
@@ -9,6 +10,7 @@
 ---@field inventory inkWidget
 ---@field loadouts inkWidget
 CpoHudRootGameController = {}
+
 
 ---@param fields? CpoHudRootGameController
 ---@return CpoHudRootGameController

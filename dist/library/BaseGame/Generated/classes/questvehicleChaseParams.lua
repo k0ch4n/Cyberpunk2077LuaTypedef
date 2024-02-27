@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questvehicleChaseParams: questVehicleSpecificCommandParams
 ---@field targetEntRef gameEntityReference
 ---@field isPlayer Bool
@@ -10,6 +11,7 @@
 ---@field ignoreChaseVehiclesLimit Bool
 ---@field boostDrivingStats Bool
 questvehicleChaseParams = {}
+
 
 ---@param fields? questvehicleChaseParams
 ---@return questvehicleChaseParams

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerVehicleProdYears: ScannerChunk
 ---@field vehicleProdYears String
 ScannerVehicleProdYears = {}
+
 
 ---@param fields? ScannerVehicleProdYears
 ---@return ScannerVehicleProdYears

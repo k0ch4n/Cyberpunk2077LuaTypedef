@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EMPEnded: redEvent
 EMPEnded = {}
+
 
 ---@param fields? EMPEnded
 ---@return EMPEnded

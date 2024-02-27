@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_BoothMode: MenuScenario_PreGameSubMenu
 MenuScenario_BoothMode = {}
+
 
 ---@param fields? MenuScenario_BoothMode
 ---@return MenuScenario_BoothMode

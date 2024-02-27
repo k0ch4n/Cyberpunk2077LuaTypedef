@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EnablePlayerVisibilityEvent: redEvent
 EnablePlayerVisibilityEvent = {}
+
 
 ---@param fields? EnablePlayerVisibilityEvent
 ---@return EnablePlayerVisibilityEvent

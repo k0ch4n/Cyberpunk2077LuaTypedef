@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DamageStatListener: gameScriptStatsListener
 ---@field weapon gameweaponObject
 ---@field updateEvt UpdateDamageChangeEvent
 DamageStatListener = {}
+
 
 ---@param fields? DamageStatListener
 ---@return DamageStatListener

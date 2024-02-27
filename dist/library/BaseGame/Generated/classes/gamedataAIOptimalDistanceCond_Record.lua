@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIOptimalDistanceCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIOptimalDistanceCond_Record = {}
+
 
 ---@param fields? gamedataAIOptimalDistanceCond_Record
 ---@return gamedataAIOptimalDistanceCond_Record

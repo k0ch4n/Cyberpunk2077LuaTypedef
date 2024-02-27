@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ForceCLSStateRequest: gameScriptableSystemRequest
 ---@field state ECLSForcedState
 ---@field sourceName CName
@@ -7,6 +8,7 @@
 ---@field removePreviousRequests Bool
 ---@field savable Bool
 ForceCLSStateRequest = {}
+
 
 ---@param fields? ForceCLSStateRequest
 ---@return ForceCLSStateRequest

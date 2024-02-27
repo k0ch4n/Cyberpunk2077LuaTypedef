@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SimpleCombatConditon: AIbehaviorconditionScript
 ---@field firstCoverEvaluationDone Bool
 ---@field takeCoverAbility gamedataGameplayAbility_Record
 ---@field quickhackAbility gamedataGameplayAbility_Record
 SimpleCombatConditon = {}
+
 
 ---@param fields? SimpleCombatConditon
 ---@return SimpleCombatConditon

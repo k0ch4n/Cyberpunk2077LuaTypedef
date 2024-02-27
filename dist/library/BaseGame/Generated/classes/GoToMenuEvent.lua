@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class GoToMenuEvent: redEvent
 ---@field menuType EComputerMenuType
 ---@field wakeUp Bool
 ---@field ownerID entEntityID
 GoToMenuEvent = {}
+
 
 ---@param fields? GoToMenuEvent
 ---@return GoToMenuEvent

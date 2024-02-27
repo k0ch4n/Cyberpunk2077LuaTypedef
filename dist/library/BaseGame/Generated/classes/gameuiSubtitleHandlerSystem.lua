@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiSubtitleHandlerSystem: gameISubtitleHandlerSystem
 gameuiSubtitleHandlerSystem = {}
+
 
 ---@param fields? gameuiSubtitleHandlerSystem
 ---@return gameuiSubtitleHandlerSystem

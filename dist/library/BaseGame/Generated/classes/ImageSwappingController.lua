@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ImageSwappingController: inkWidgetLogicController
 ---@field ImageWidgetPath String
 ---@field ButtonsPaths CName[]
@@ -7,6 +8,7 @@
 ---@field ButtonsValues String[]
 ---@field Buttons inkCanvasWidget[]
 ImageSwappingController = {}
+
 
 ---@param fields? ImageSwappingController
 ---@return ImageSwappingController

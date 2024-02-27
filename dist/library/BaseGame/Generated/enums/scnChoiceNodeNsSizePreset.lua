@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnChoiceNodeNsSizePreset: Enum
 ---@field small Enum 0
 ---@field normal Enum 1

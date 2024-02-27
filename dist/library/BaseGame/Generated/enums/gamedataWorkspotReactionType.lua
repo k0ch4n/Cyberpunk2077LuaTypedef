@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataWorkspotReactionType: Enum
 ---@field Anger Enum 0
 ---@field BumpLeftBack Enum 1

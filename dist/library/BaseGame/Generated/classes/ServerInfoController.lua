@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ServerInfoController: inkListItemController
 ---@field settingsListCtrl inkListController
 ---@field number inkTextWidget
@@ -18,6 +19,7 @@
 ---@field c_markColor HDRColor
 ---@field marked Bool
 ServerInfoController = {}
+
 
 ---@param fields? ServerInfoController
 ---@return ServerInfoController

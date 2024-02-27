@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareChargeEvents: LeftHandCyberwareEventsTransition
 ---@field chargeModeAim gameweaponAnimFeature_AimPlayer
 ---@field leftHandObject gameweaponObject
 ---@field aimInTimeRemaining Float
 LeftHandCyberwareChargeEvents = {}
+
 
 ---@param fields? LeftHandCyberwareChargeEvents
 ---@return LeftHandCyberwareChargeEvents

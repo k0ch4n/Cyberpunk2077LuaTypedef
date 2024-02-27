@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataStimTargets: Enum
 ---@field All Enum 0
 ---@field Puppets Enum 1

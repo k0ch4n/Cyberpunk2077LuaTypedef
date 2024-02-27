@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FactQuickHack: ActionBool
 ---@field factProperties ComputerQuickHackData
 FactQuickHack = {}
+
 
 ---@param fields? FactQuickHack
 ---@return FactQuickHack

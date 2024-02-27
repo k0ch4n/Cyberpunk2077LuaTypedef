@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsMountedByPreventionNPCPrereq: gameIScriptablePrereq
 ---@field isCheckInverted Bool
 IsMountedByPreventionNPCPrereq = {}
+
 
 ---@param fields? IsMountedByPreventionNPCPrereq
 ---@return IsMountedByPreventionNPCPrereq

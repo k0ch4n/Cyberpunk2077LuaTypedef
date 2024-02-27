@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PresetAction: ActionBool
 ---@field preset SmartHousePreset
 PresetAction = {}
+
 
 ---@param fields? PresetAction
 ---@return PresetAction

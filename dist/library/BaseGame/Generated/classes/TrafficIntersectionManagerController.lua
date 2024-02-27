@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TrafficIntersectionManagerController: MasterController
 TrafficIntersectionManagerController = {}
+
 
 ---@param fields? TrafficIntersectionManagerController
 ---@return TrafficIntersectionManagerController

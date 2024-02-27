@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetArgumentFloat: SetArguments
 ---@field customVar Float
 SetArgumentFloat = {}
+
 
 ---@param fields? SetArgumentFloat
 ---@return SetArgumentFloat

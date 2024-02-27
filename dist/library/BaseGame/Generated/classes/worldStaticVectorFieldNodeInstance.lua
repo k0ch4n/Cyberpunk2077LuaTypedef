@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldStaticVectorFieldNodeInstance: worldINodeInstance
 worldStaticVectorFieldNodeInstance = {}
+
 
 ---@param fields? worldStaticVectorFieldNodeInstance
 ---@return worldStaticVectorFieldNodeInstance

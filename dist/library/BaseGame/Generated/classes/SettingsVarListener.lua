@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SettingsVarListener: userSettingsVarListener
 ---@field ctrl SettingsMainGameController
 SettingsVarListener = {}
+
 
 ---@param fields? SettingsVarListener
 ---@return SettingsVarListener

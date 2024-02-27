@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePreventionSystemDebugData
 ---@field totalCrimeScore Float
 ---@field heatStage Int32
@@ -29,6 +30,7 @@
 ---@field systemEnabled Bool
 ---@field systemLockEventSources String[]
 gamePreventionSystemDebugData = {}
+
 
 ---@param fields? gamePreventionSystemDebugData
 ---@return gamePreventionSystemDebugData

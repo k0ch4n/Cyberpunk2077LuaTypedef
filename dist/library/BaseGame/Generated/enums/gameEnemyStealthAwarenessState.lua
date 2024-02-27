@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEnemyStealthAwarenessState: Enum
 ---@field Relaxed Enum 0
 ---@field Aware Enum 1

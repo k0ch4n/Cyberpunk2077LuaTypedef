@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WeaponMachineInkGameController: VendingMachineInkGameController
 ---@field buttonRef WeaponVendorActionWidgetController
 WeaponMachineInkGameController = {}
+
 
 ---@param fields? WeaponMachineInkGameController
 ---@return WeaponMachineInkGameController

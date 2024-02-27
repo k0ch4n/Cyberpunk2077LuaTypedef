@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorDriveIdleTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 AIbehaviorDriveIdleTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorDriveIdleTreeNodeDefinition
 ---@return AIbehaviorDriveIdleTreeNodeDefinition

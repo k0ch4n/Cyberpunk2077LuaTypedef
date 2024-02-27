@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameuiCurrencyUpdateNotificationViewData: gameuiGenericNotificationViewData
 ---@field diff Int32
 ---@field total Uint32
 gameuiCurrencyUpdateNotificationViewData = {}
+
 
 ---@param fields? gameuiCurrencyUpdateNotificationViewData
 ---@return gameuiCurrencyUpdateNotificationViewData

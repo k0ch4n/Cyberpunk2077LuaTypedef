@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataVendorType: Enum
 ---@field Armorsmith Enum 0
 ---@field Clothes Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioPoliceDispatcherMetadata: audioAudioMetadata
 ---@field regularInputs CName[]
 ---@field playerChaseStartInputs CName[]
@@ -8,6 +9,7 @@
 ---@field dispatcherTimeInterval Float
 ---@field sceneFilePath String
 audioPoliceDispatcherMetadata = {}
+
 
 ---@param fields? audioPoliceDispatcherMetadata
 ---@return audioPoliceDispatcherMetadata

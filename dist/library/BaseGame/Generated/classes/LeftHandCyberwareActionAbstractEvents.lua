@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareActionAbstractEvents: LeftHandCyberwareEventsTransition
 ---@field projectileReleased Bool
 LeftHandCyberwareActionAbstractEvents = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil

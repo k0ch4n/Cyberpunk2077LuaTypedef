@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class effectFOVPlayData: effectPlacedTrackItemPlayData
 effectFOVPlayData = {}
+
 
 ---@param fields? effectFOVPlayData
 ---@return effectFOVPlayData

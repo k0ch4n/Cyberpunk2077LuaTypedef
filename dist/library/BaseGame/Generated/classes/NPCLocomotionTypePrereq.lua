@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NPCLocomotionTypePrereq: gameIScriptablePrereq
 ---@field locomotionMode gamedataLocomotionMode[]
 ---@field invert Bool
 NPCLocomotionTypePrereq = {}
+
 
 ---@param fields? NPCLocomotionTypePrereq
 ---@return NPCLocomotionTypePrereq

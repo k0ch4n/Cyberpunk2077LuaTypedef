@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animSetBoneTransform_JsonEntry
 ---@field transformToChange CName
 ---@field setMethod animSetBoneTransformEntry_SetMethod
@@ -9,6 +10,7 @@
 ---@field offsetSpaceBone CName
 ---@field offset QsTransform
 animSetBoneTransform_JsonEntry = {}
+
 
 ---@param fields? animSetBoneTransform_JsonEntry
 ---@return animSetBoneTransform_JsonEntry

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionFastExitWorkspot_Record_Implementation: IScriptable
 AISubActionFastExitWorkspot_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionFastExitWorkspot_Record

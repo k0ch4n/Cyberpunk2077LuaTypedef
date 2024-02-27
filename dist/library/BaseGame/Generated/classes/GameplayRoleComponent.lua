@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GameplayRoleComponent: gameScriptableComponent
 ---@field gameplayRole EGameplayRole
 ---@field autoDeterminGameplayRole Bool
@@ -21,6 +22,7 @@
 ---@field isForcedVisibleThroughWalls Bool
 ---@field enabledMinimapMappins gamedataMappinVariant[]
 GameplayRoleComponent = {}
+
 
 ---@param fields? GameplayRoleComponent
 ---@return GameplayRoleComponent

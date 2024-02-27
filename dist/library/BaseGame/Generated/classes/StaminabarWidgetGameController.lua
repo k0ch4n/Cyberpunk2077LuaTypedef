@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StaminabarWidgetGameController: gameuiHUDGameController
 ---@field staminaControllerRef inkWidgetReference
 ---@field staminaPercTextPath inkTextWidgetReference
@@ -22,6 +23,7 @@
 ---@field pulse PulseAnimation
 ---@field playerPuppet gameObject
 StaminabarWidgetGameController = {}
+
 
 ---@param fields? StaminabarWidgetGameController
 ---@return StaminabarWidgetGameController

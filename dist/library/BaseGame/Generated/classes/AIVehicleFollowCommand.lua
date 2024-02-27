@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIVehicleFollowCommand: AIVehicleCommand
 ---@field target gameObject
 ---@field secureTimeOut Float
@@ -10,6 +11,7 @@
 ---@field trafficTryNeighborsForStart Bool
 ---@field trafficTryNeighborsForEnd Bool
 AIVehicleFollowCommand = {}
+
 
 ---@param fields? AIVehicleFollowCommand
 ---@return AIVehicleFollowCommand

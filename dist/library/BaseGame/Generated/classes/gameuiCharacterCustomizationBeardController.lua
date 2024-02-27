@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiCharacterCustomizationBeardController: gameuiCharacterCustomizationHeadPartsController
 gameuiCharacterCustomizationBeardController = {}
+
 
 ---@param fields? gameuiCharacterCustomizationBeardController
 ---@return gameuiCharacterCustomizationBeardController

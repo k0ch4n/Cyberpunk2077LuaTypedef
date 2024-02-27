@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Intercom: InteractiveDevice
 ---@field isShortGlitchActive Bool
 ---@field shortGlitchDelayID gameDelayID
@@ -9,6 +10,7 @@
 ---@field distractionStopSound CName
 ---@field answeredSound CName
 Intercom = {}
+
 
 ---@param fields? Intercom
 ---@return Intercom

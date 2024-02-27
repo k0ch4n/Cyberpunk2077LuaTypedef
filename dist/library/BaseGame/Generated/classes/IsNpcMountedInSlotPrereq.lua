@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class IsNpcMountedInSlotPrereq: gameIScriptablePrereq
 ---@field slotName CName
 ---@field isCheckInverted Bool
 IsNpcMountedInSlotPrereq = {}
+
 
 ---@param fields? IsNpcMountedInSlotPrereq
 ---@return IsNpcMountedInSlotPrereq

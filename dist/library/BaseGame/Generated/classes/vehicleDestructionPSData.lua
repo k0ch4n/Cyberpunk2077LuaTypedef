@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleDestructionPSData
 ---@field gridValues Float[]
 ---@field brokenGlass Uint32
@@ -9,6 +10,7 @@
 ---@field windshieldPoints Vector3[]
 ---@field detachedParts CName[]
 vehicleDestructionPSData = {}
+
 
 ---@param fields? vehicleDestructionPSData
 ---@return vehicleDestructionPSData

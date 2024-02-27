@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldCommunityRegistryNodeInstance: worldINodeInstance
 worldCommunityRegistryNodeInstance = {}
+
 
 ---@param fields? worldCommunityRegistryNodeInstance
 ---@return worldCommunityRegistryNodeInstance

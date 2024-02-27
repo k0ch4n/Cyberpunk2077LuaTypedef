@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class questAddDevelopmentPointsRequest: gamePlayerScriptableSystemRequest
 ---@field amountOfPoints Int32
 ---@field developmentPointType gamedataDevelopmentPointType
 questAddDevelopmentPointsRequest = {}
+
 
 ---@param fields? questAddDevelopmentPointsRequest
 ---@return questAddDevelopmentPointsRequest

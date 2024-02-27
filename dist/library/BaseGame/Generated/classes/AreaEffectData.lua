@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AreaEffectData: IScriptable
 ---@field action ScriptableDeviceAction
 ---@field actionRecordID TweakDBID
@@ -22,6 +23,7 @@
 ---@field effectInstance gameEffectInstance
 ---@field gameEffectOverrideName CName
 AreaEffectData = {}
+
 
 ---@param fields? AreaEffectData
 ---@return AreaEffectData

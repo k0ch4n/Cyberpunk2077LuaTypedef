@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InvisibleSceneStashController: ScriptableDeviceComponent
 InvisibleSceneStashController = {}
+
 
 ---@param fields? InvisibleSceneStashController
 ---@return InvisibleSceneStashController

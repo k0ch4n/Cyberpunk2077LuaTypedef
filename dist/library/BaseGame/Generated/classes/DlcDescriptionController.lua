@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DlcDescriptionController: inkWidgetLogicController
 ---@field titleRef inkTextWidgetReference
 ---@field descriptionRef inkTextWidgetReference
@@ -11,6 +12,7 @@
 ---@field settingVar userSettingsVar
 ---@field isPreGame Bool
 DlcDescriptionController = {}
+
 
 ---@param fields? DlcDescriptionController
 ---@return DlcDescriptionController

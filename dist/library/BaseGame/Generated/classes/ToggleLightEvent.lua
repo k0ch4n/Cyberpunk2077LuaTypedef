@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ToggleLightEvent: redEvent
 ---@field toggle Bool
 ---@field loop Bool
 ToggleLightEvent = {}
+
 
 ---@param fields? ToggleLightEvent
 ---@return ToggleLightEvent

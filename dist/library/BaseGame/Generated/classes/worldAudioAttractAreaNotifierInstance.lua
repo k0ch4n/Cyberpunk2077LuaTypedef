@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldAudioAttractAreaNotifierInstance: worldITriggerAreaNotiferInstance
 worldAudioAttractAreaNotifierInstance = {}
+
 
 ---@param fields? worldAudioAttractAreaNotifierInstance
 ---@return worldAudioAttractAreaNotifierInstance

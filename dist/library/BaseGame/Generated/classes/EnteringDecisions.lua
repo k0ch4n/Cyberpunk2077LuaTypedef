@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EnteringDecisions: VehicleTransition
 EnteringDecisions = {}
+
 
 ---@param fields? EnteringDecisions
 ---@return EnteringDecisions

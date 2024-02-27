@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class aiscriptSharedVarFloat
 ---@field varName LibTreeSharedVarReferenceName
 aiscriptSharedVarFloat = {}
+
 
 ---@param fields? aiscriptSharedVarFloat
 ---@return aiscriptSharedVarFloat

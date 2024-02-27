@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class PickUpEvents: CarriedObjectEvents
 ---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
 ---@field noCameraControlApplied Bool
 ---@field noMovementApplied Bool
 PickUpEvents = {}
+
 
 ---@param fields? PickUpEvents
 ---@return PickUpEvents

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class hudMilitechWarningGameController: gameuiHUDGameController
 ---@field root inkCompoundWidget
 ---@field anim inkanimProxy
 ---@field factListenerId Uint32
 hudMilitechWarningGameController = {}
+
 
 ---@param fields? hudMilitechWarningGameController
 ---@return hudMilitechWarningGameController

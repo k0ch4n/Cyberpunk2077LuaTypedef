@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldTrafficMovementBehavior: Enum
 ---@field Pedestrian Enum 0
 ---@field Car Enum 1

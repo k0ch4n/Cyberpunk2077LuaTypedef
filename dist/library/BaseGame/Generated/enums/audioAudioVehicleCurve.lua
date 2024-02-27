@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAudioVehicleCurve: Enum
 ---@field ThrottleInput Enum 0
 ---@field RPM Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataSpreadAreaEffector_Record: gamedataEffector_Record
 gamedataSpreadAreaEffector_Record = {}
+
 
 ---@param fields? gamedataSpreadAreaEffector_Record
 ---@return gamedataSpreadAreaEffector_Record

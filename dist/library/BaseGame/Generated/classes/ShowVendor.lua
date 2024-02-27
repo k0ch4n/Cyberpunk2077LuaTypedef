@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ShowVendor: ActionBool
 ShowVendor = {}
+
 
 ---@param fields? ShowVendor
 ---@return ShowVendor

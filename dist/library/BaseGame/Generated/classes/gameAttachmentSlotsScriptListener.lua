@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAttachmentSlotsScriptListener: gameIAttachmentSlotsListener
 gameAttachmentSlotsScriptListener = {}
+
 
 ---@param fields? gameAttachmentSlotsScriptListener
 ---@return gameAttachmentSlotsScriptListener

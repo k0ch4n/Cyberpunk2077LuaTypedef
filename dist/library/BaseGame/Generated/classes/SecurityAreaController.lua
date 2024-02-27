@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SecurityAreaController: MasterController
 SecurityAreaController = {}
+
 
 ---@param fields? SecurityAreaController
 ---@return SecurityAreaController

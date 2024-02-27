@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MediaSystemUIPS: VirtualSystemPS
 MediaSystemUIPS = {}
+
 
 ---@param fields? MediaSystemUIPS
 ---@return MediaSystemUIPS

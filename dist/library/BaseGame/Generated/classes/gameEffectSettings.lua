@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEffectSettings
 ---@field advancedTargetHandling Bool
 ---@field synchronousProcessingForPlayer Bool
@@ -8,6 +9,7 @@
 ---@field tickRate Float
 ---@field useSimTimeForTick Bool
 gameEffectSettings = {}
+
 
 ---@param fields? gameEffectSettings
 ---@return gameEffectSettings

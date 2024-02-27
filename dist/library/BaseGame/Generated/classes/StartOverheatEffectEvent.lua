@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StartOverheatEffectEvent: redEvent
 StartOverheatEffectEvent = {}
+
 
 ---@param fields? StartOverheatEffectEvent
 ---@return StartOverheatEffectEvent

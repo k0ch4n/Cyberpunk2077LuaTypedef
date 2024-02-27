@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuickMeleeEvents: WeaponEventsTransition
 ---@field gameEffect gameEffectInstance
 ---@field targetObject gameObject
@@ -7,6 +8,7 @@
 ---@field quickMeleeAttackCreated Bool
 ---@field quickMeleeAttackData QuickMeleeAttackData
 QuickMeleeEvents = {}
+
 
 ---@param fields? QuickMeleeEvents
 ---@return QuickMeleeEvents

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_BlendOverride: animAnimNode_Base
 ---@field inputNode animPoseLink
 ---@field overrideInputNode animPoseLink
@@ -14,6 +15,7 @@
 ---@field blendMethod animIPoseBlendMethod
 ---@field postProcess animIAnimNode_PostProcess
 animAnimNode_BlendOverride = {}
+
 
 ---@param fields? animAnimNode_BlendOverride
 ---@return animAnimNode_BlendOverride

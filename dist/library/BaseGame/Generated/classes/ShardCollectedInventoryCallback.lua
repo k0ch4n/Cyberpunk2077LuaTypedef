@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ShardCollectedInventoryCallback: gameInventoryScriptCallback
 ---@field notificationQueue JournalNotificationQueue
 ---@field journalManager gameJournalManager
 ShardCollectedInventoryCallback = {}
+
 
 ---@param fields? ShardCollectedInventoryCallback
 ---@return ShardCollectedInventoryCallback

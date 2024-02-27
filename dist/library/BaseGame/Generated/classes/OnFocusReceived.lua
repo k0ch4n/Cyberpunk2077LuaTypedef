@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OnFocusReceived: inkFocusEvent
 OnFocusReceived = {}
+
 
 ---@param fields? OnFocusReceived
 ---@return OnFocusReceived

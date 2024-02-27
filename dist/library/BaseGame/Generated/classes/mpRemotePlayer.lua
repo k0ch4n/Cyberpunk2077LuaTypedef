@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class mpRemotePlayer: mpPlayer
 mpRemotePlayer = {}
+
 
 ---@param fields? mpRemotePlayer
 ---@return mpRemotePlayer

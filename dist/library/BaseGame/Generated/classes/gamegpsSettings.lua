@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamegpsSettings
 ---@field lineEffectOnFoot worldEffect
 ---@field lineEffectVehicle worldEffect
@@ -9,6 +10,7 @@
 ---@field lastPlayerNavmeshPositionRefreshTimeIntervalSecs Float
 ---@field maxPathDisplayLength Float
 gamegpsSettings = {}
+
 
 ---@param fields? gamegpsSettings
 ---@return gamegpsSettings

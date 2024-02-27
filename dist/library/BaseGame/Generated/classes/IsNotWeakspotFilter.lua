@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsNotWeakspotFilter: gameEffectObjectSingleFilter_Scripted
 IsNotWeakspotFilter = {}
+
 
 ---@param fields? IsNotWeakspotFilter
 ---@return IsNotWeakspotFilter

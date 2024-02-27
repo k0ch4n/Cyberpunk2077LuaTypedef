@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animLocomotionDecision: Enum
 ---@field LD_None Enum 0
 ---@field LD_Stop Enum 1

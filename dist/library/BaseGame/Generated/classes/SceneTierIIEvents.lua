@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SceneTierIIEvents: SceneTierAbstractEvents
 ---@field cachedSpeedValue Float
 ---@field maxSpeedStat gameStatModifierData_Deprecated
@@ -7,6 +8,7 @@
 ---@field currentSpeedValue Float
 ---@field currentLocomotionState CName
 SceneTierIIEvents = {}
+
 
 ---@param fields? SceneTierIIEvents
 ---@return SceneTierIIEvents

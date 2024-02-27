@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animDangleConstraint_Simulation: ISerializable
 ---@field collisionRoundedShapes animCollisionRoundedShape[]
 ---@field jsonCollisionShapes JsonResource

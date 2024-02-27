@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class TooltipCycleDotController: inkWidgetLogicController
 ---@field slotBorder inkWidgetReference
 ---@field slotBackground inkWidgetReference
 TooltipCycleDotController = {}
+
 
 ---@param fields? TooltipCycleDotController
 ---@return TooltipCycleDotController

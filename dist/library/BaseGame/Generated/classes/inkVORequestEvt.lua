@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkVORequestEvt: redEvent
 inkVORequestEvt = {}
+
 
 ---@param fields? inkVORequestEvt
 ---@return inkVORequestEvt

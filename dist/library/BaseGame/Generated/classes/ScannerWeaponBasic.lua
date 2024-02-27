@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerWeaponBasic: ScannerChunk
 ---@field weapon CName
 ScannerWeaponBasic = {}
+
 
 ---@param fields? ScannerWeaponBasic
 ---@return ScannerWeaponBasic

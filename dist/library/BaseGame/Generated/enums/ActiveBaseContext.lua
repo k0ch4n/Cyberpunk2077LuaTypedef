@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ActiveBaseContext: Enum
 ---@field None Enum 0
 ---@field Locomotion Enum 1

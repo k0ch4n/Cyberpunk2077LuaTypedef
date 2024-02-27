@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EProgressBarState: Enum
 ---@field Available Enum 0
 ---@field Blocked Enum 1

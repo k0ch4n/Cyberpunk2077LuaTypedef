@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIISerializableArgumentInstancePS: AIArgumentInstancePS
 ---@field value ISerializable
 AIISerializableArgumentInstancePS = {}
+
 
 ---@param fields? AIISerializableArgumentInstancePS
 ---@return AIISerializableArgumentInstancePS

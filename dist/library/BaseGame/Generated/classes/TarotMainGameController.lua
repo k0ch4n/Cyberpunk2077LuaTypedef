@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TarotMainGameController: gameuiMenuGameController
 ---@field buttonHintsManagerRef inkWidgetReference
 ---@field TooltipsManagerRef inkWidgetReference
@@ -16,6 +17,7 @@
 ---@field baseCards Int32
 ---@field ep1Cards Int32
 TarotMainGameController = {}
+
 
 ---@param fields? TarotMainGameController
 ---@return TarotMainGameController

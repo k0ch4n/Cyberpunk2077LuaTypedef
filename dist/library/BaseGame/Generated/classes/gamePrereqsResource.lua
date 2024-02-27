@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gamePrereqsResource: CResource
 ---@field prereqs gamePrereqDefinition[]
 gamePrereqsResource = {}
+
 
 ---@param fields? gamePrereqsResource
 ---@return gamePrereqsResource

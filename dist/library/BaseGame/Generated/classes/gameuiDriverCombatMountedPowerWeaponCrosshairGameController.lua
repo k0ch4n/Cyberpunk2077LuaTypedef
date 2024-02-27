@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiDriverCombatMountedPowerWeaponCrosshairGameController: gameuiCrosshairBaseGameController
 ---@field reticleLeft inkWidgetReference
 ---@field reticleRight inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field psmCombatStateChangedCallback redCallbackObject
 ---@field uiActiveVehicleCameraChangedCallback redCallbackObject
 gameuiDriverCombatMountedPowerWeaponCrosshairGameController = {}
+
 
 ---@param fields? gameuiDriverCombatMountedPowerWeaponCrosshairGameController
 ---@return gameuiDriverCombatMountedPowerWeaponCrosshairGameController

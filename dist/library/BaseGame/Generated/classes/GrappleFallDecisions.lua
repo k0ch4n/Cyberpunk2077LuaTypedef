@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GrappleFallDecisions: FallDecisions
 GrappleFallDecisions = {}
+
 
 ---@param fields? GrappleFallDecisions
 ---@return GrappleFallDecisions

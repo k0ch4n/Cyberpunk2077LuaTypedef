@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SurveillanceCameraStatus: BaseDeviceStatus
 SurveillanceCameraStatus = {}
+
 
 ---@param fields? SurveillanceCameraStatus
 ---@return SurveillanceCameraStatus

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class StaticPlatform: InteractiveDevice
 ---@field componentsToToggleNames CName[]
 ---@field meshName CName
 ---@field sfxOnEnable CName
 ---@field componentsToToggle entIComponent[]
 StaticPlatform = {}
+
 
 ---@param fields? StaticPlatform
 ---@return StaticPlatform

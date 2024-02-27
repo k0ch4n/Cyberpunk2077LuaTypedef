@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIFollowerBeforeTakedown: AIbehaviortaskScript
 AIFollowerBeforeTakedown = {}
+
 
 ---@param fields? AIFollowerBeforeTakedown
 ---@return AIFollowerBeforeTakedown

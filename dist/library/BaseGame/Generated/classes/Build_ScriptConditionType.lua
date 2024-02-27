@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class Build_ScriptConditionType: BluelineConditionTypeBase
 ---@field questAssignment TweakDBID
 ---@field buildId TweakDBID
 ---@field difficulty EGameplayChallengeLevel
 ---@field comparisonType ECompareOp
 Build_ScriptConditionType = {}
+
 
 ---@param fields? Build_ScriptConditionType
 ---@return Build_ScriptConditionType

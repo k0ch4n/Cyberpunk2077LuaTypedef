@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SocialPanelGameController: gameuiMenuGameController
 ---@field SocialPanelContactsListRef inkWidgetReference
 ---@field SocialPanelContactsDetailsRef inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field RootWidget inkWidget
 ---@field JournalMgr gameJournalManager
 SocialPanelGameController = {}
+
 
 ---@param fields? SocialPanelGameController
 ---@return SocialPanelGameController

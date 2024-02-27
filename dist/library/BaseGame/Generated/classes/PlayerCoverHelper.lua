@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerCoverHelper: IScriptable
 PlayerCoverHelper = {}
+
 
 ---@param fields? PlayerCoverHelper
 ---@return PlayerCoverHelper

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class InventoryStatsList: inkWidgetLogicController
 ---@field titleText inkTextWidget
 ---@field containerWidget inkCompoundWidget
 ---@field widgtesList inkWidget[]
 InventoryStatsList = {}
+
 
 ---@param fields? InventoryStatsList
 ---@return InventoryStatsList

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DiodeControlComponent: gameScriptableComponent
 ---@field affectedLights CName[]
 ---@field lightsState Bool
@@ -8,6 +9,7 @@
 ---@field secondaryPresetActive Bool
 ---@field secondaryPresetRemovalID gameDelayID
 DiodeControlComponent = {}
+
 
 ---@param fields? DiodeControlComponent
 ---@return DiodeControlComponent

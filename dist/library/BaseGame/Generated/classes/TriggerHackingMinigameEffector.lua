@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TriggerHackingMinigameEffector: gameEffector
 ---@field owner gameObject
 ---@field listener redCallbackObject
@@ -11,6 +12,7 @@
 ---@field showPopup Bool
 ---@field returnToJournal Bool
 TriggerHackingMinigameEffector = {}
+
 
 ---@param fields? TriggerHackingMinigameEffector
 ---@return TriggerHackingMinigameEffector

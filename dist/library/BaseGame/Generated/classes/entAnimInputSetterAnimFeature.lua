@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class entAnimInputSetterAnimFeature: entAnimInputSetter
 ---@field value animAnimFeature
 ---@field delay Float
 entAnimInputSetterAnimFeature = {}
+
 
 ---@param fields? entAnimInputSetterAnimFeature
 ---@return entAnimInputSetterAnimFeature

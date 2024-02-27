@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleNewPlayerFlashlightEvent: redEvent
 ToggleNewPlayerFlashlightEvent = {}
+
 
 ---@param fields? ToggleNewPlayerFlashlightEvent
 ---@return ToggleNewPlayerFlashlightEvent

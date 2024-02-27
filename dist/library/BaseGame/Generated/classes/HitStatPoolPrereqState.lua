@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitStatPoolPrereqState: GenericHitPrereqState
 HitStatPoolPrereqState = {}
+
 
 ---@param fields? HitStatPoolPrereqState
 ---@return HitStatPoolPrereqState

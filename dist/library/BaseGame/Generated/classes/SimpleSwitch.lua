@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SimpleSwitch: InteractiveMasterDevice
 ---@field animationType EAnimationType
 ---@field animationSpeed Float
 SimpleSwitch = {}
+
 
 ---@param fields? SimpleSwitch
 ---@return SimpleSwitch

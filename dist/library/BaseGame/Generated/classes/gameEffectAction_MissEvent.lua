@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameEffectAction_MissEvent: gameEffectAction
 ---@field npcMissEvents Bool
 gameEffectAction_MissEvent = {}
+
 
 ---@param fields? gameEffectAction_MissEvent
 ---@return gameEffectAction_MissEvent

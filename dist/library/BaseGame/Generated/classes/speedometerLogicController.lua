@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class speedometerLogicController: IVehicleModuleController
 ---@field speedTextWidget inkTextWidgetReference
 ---@field speedBBConnectionId redCallbackObject
@@ -7,6 +8,7 @@
 ---@field vehicle vehicleBaseObject
 ---@field currentSpeed Int32
 speedometerLogicController = {}
+
 
 ---@param fields? speedometerLogicController
 ---@return speedometerLogicController

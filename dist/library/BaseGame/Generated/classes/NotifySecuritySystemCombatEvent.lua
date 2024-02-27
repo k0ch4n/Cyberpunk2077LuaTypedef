@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NotifySecuritySystemCombatEvent: redEvent
 NotifySecuritySystemCombatEvent = {}
+
 
 ---@param fields? NotifySecuritySystemCombatEvent
 ---@return NotifySecuritySystemCombatEvent

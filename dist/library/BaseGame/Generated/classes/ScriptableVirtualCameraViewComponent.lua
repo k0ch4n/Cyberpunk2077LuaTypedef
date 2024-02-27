@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ScriptableVirtualCameraViewComponent: entVirtualCameraViewComponent
 ScriptableVirtualCameraViewComponent = {}
+
 
 ---@param fields? ScriptableVirtualCameraViewComponent
 ---@return ScriptableVirtualCameraViewComponent

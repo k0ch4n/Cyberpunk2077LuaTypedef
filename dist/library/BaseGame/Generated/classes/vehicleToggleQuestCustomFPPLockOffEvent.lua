@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleToggleQuestCustomFPPLockOffEvent: redEvent
 vehicleToggleQuestCustomFPPLockOffEvent = {}
+
 
 ---@param fields? vehicleToggleQuestCustomFPPLockOffEvent
 ---@return vehicleToggleQuestCustomFPPLockOffEvent

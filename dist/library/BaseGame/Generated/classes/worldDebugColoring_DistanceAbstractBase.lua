@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldDebugColoring_DistanceAbstractBase: worldEditorDebugColoringSettings
 ---@field maxColor Color
 ---@field minColor Color

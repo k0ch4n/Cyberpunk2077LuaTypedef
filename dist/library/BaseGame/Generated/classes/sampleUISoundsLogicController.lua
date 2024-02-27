@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class sampleUISoundsLogicController: inkWidgetLogicController
 ---@field textWidget inkTextWidget
 sampleUISoundsLogicController = {}
+
 
 ---@param fields? sampleUISoundsLogicController
 ---@return sampleUISoundsLogicController

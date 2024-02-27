@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ShotgunLookAtDecisions: lookAtPresetGunBaseDecisions
 ShotgunLookAtDecisions = {}
+
 
 ---@param fields? ShotgunLookAtDecisions
 ---@return ShotgunLookAtDecisions

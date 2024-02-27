@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocWrappedUIInventoryItem: IScriptable
 ---@field InventoryItem UIInventoryItem
 ---@field Delay Float
@@ -11,6 +12,7 @@
 ---@field IsBuybackStack Bool
 ---@field AdditionalData IScriptable
 RipperdocWrappedUIInventoryItem = {}
+
 
 ---@param fields? RipperdocWrappedUIInventoryItem
 ---@return RipperdocWrappedUIInventoryItem

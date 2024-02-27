@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class audioMeleeWeaponPlayerSettings: audioMeleeWeaponSettings
 audioMeleeWeaponPlayerSettings = {}
+
 
 ---@param fields? audioMeleeWeaponPlayerSettings
 ---@return audioMeleeWeaponPlayerSettings

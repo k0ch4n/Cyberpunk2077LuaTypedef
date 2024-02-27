@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameSSlotActiveItems
 ---@field rightHandItem gameItemID
 ---@field leftHandItem gameItemID
 gameSSlotActiveItems = {}
+
 
 ---@param fields? gameSSlotActiveItems
 ---@return gameSSlotActiveItems

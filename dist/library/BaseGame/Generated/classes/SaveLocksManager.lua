@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SaveLocksManager: gameScriptableSystem
 ---@field saveLocks CName[]
 SaveLocksManager = {}
+
 
 ---@param fields? SaveLocksManager
 ---@return SaveLocksManager

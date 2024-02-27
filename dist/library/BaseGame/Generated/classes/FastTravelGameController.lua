@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class FastTravelGameController: gameuiWidgetGameController
 ---@field fastTravelPointsList inkCompoundWidgetReference
 ---@field menuEventDispatcher inkMenuEventDispatcher
 FastTravelGameController = {}
+
 
 ---@param fields? FastTravelGameController
 ---@return FastTravelGameController

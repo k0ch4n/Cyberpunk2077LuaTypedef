@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FinisherLeapToTargetDecisions: FinisherTransition
 ---@field stateMachineInitData FinisherInitData
 FinisherLeapToTargetDecisions = {}
+
 
 ---@param fields? FinisherLeapToTargetDecisions
 ---@return FinisherLeapToTargetDecisions

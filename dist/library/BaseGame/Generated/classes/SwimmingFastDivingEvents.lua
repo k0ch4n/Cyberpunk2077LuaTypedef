@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SwimmingFastDivingEvents: LocomotionSwimmingEvents
 ---@field lapsedTime Float
 SwimmingFastDivingEvents = {}
+
 
 ---@param fields? SwimmingFastDivingEvents
 ---@return SwimmingFastDivingEvents

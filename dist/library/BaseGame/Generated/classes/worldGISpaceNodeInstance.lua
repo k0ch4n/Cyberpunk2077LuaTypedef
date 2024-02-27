@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldGISpaceNodeInstance: worldINodeInstance
 worldGISpaceNodeInstance = {}
+
 
 ---@param fields? worldGISpaceNodeInstance
 ---@return worldGISpaceNodeInstance

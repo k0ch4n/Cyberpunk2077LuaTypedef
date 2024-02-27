@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LaserSight: Attack_Beam
 ---@field previousTarget entEntity
 LaserSight = {}
+
 
 ---@param fields? LaserSight
 ---@return LaserSight

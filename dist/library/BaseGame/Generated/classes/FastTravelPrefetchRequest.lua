@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FastTravelPrefetchRequest: gameScriptableSystemRequest
 ---@field destinationRef NodeRef
 FastTravelPrefetchRequest = {}
+
 
 ---@param fields? FastTravelPrefetchRequest
 ---@return FastTravelPrefetchRequest

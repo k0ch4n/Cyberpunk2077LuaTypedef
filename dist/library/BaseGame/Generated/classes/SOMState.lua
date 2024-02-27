@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SOMState
 ---@field depthStencilModeDesc PSODescDepthStencilModeDesc
 ---@field rasterizerModeDesc PSODescRasterizerModeDesc
@@ -8,6 +9,7 @@
 ---@field stencilWriteMask Uint8
 ---@field stencilRef Uint8
 SOMState = {}
+
 
 ---@param fields? SOMState
 ---@return SOMState

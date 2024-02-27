@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InGameConfigVarType: Enum
 ---@field Bool Enum 0
 ---@field Int Enum 1

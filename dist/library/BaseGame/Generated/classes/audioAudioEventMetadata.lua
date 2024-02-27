@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAudioEventMetadata: ISerializable
 ---@field wwiseId Uint32
 ---@field maxAttenuation Float
@@ -9,6 +10,7 @@
 ---@field stopActionEvents CName[]
 ---@field tags CName[]
 audioAudioEventMetadata = {}
+
 
 ---@param fields? audioAudioEventMetadata
 ---@return audioAudioEventMetadata

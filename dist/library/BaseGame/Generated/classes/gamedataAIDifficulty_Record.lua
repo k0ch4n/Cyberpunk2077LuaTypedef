@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIDifficulty_Record: gamedataTweakDBRecord
 gamedataAIDifficulty_Record = {}
+
 
 ---@param fields? gamedataAIDifficulty_Record
 ---@return gamedataAIDifficulty_Record

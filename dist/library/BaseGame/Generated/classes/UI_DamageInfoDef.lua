@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UI_DamageInfoDef: gamebbScriptDefinition
 ---@field DamageList gamebbScriptID_Variant
 ---@field KillList gamebbScriptID_Variant
@@ -9,6 +10,7 @@
 ---@field HitIndicatorEnabled gamebbScriptID_Bool
 ---@field DmgIndicatorMode gamebbScriptID_Variant
 UI_DamageInfoDef = {}
+
 
 ---@param fields? UI_DamageInfoDef
 ---@return UI_DamageInfoDef

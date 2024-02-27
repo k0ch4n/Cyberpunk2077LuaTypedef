@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_LookAt: animAnimFeature
 ---@field enableLookAt Int32
 ---@field enableLookAtChest Int32
@@ -22,6 +23,7 @@
 ---@field lookAtTwoHandedMode Int32
 ---@field lookAtTwoHandedOverride Float
 AnimFeature_LookAt = {}
+
 
 ---@param fields? AnimFeature_LookAt
 ---@return AnimFeature_LookAt

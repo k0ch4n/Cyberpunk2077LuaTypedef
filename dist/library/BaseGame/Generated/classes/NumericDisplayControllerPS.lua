@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NumericDisplayControllerPS: ScriptableDeviceComponentPS
 ---@field numberToDisplay Int32
 ---@field targetNumber Int32
 NumericDisplayControllerPS = {}
+
 
 ---@param fields? NumericDisplayControllerPS
 ---@return NumericDisplayControllerPS

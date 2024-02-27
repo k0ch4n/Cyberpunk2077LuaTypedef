@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questFollowObject_NodeType: questIVehicleManagerNodeType
 ---@field vehicleRef gameEntityReference
 ---@field followObjectRef gameEntityReference
@@ -7,6 +8,7 @@
 ---@field positionLerpSpeed Float
 ---@field rotationLerpSpeed Float
 questFollowObject_NodeType = {}
+
 
 ---@param fields? questFollowObject_NodeType
 ---@return questFollowObject_NodeType

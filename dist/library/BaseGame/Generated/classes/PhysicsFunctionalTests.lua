@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PhysicsFunctionalTests: IScriptable
 PhysicsFunctionalTests = {}
+
 
 ---@param fields? PhysicsFunctionalTests
 ---@return PhysicsFunctionalTests

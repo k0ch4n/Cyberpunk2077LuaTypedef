@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsPlayerFilter: gameEffectObjectSingleFilter_Scripted
 IsPlayerFilter = {}
+
 
 ---@param fields? IsPlayerFilter
 ---@return IsPlayerFilter

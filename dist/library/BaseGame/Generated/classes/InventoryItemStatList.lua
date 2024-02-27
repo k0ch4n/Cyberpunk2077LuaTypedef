@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class InventoryItemStatList: inkWidgetLogicController
 ---@field libraryItemName CName
 ---@field container inkCompoundWidget
 ---@field data InventoryTooltipData_StatData[]
 ---@field itemsList inkWidget[]
 InventoryItemStatList = {}
+
 
 ---@param fields? InventoryItemStatList
 ---@return InventoryItemStatList

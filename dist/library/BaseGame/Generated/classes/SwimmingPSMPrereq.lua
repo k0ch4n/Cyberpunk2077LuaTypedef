@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SwimmingPSMPrereq: PlayerStateMachinePrereq
 SwimmingPSMPrereq = {}
+
 
 ---@param fields? SwimmingPSMPrereq
 ---@return SwimmingPSMPrereq

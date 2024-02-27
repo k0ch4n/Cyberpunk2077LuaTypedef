@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckRemovedItemWithSlotActiveItem: gamePlayerScriptableSystemRequest
 ---@field itemID gameItemID
 CheckRemovedItemWithSlotActiveItem = {}
+
 
 ---@param fields? CheckRemovedItemWithSlotActiveItem
 ---@return CheckRemovedItemWithSlotActiveItem

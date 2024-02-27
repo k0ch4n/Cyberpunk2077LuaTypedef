@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldReflectionProbeNode: worldNode
 ---@field probeDataRef CReflectionProbeDataResource
 ---@field priority Uint8
@@ -28,6 +29,7 @@
 ---@field subScene Bool
 ---@field noFadeBlend Bool
 worldReflectionProbeNode = {}
+
 
 ---@param fields? worldReflectionProbeNode
 ---@return worldReflectionProbeNode

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class GameTimePrereq: gameIScriptablePrereq
 ---@field delay Float
 ---@field repeated Bool
 ---@field delayFromStat gamedataStatType
 GameTimePrereq = {}
+
 
 ---@param fields? GameTimePrereq
 ---@return GameTimePrereq

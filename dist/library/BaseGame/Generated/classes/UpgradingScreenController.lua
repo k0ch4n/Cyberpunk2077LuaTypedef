@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UpgradingScreenController: CraftingMainLogicController
 ---@field itemNameUpgrade inkTextWidgetReference
 ---@field arrowComparison inkWidgetReference
@@ -11,6 +12,7 @@
 ---@field EquipAreas gamedataEquipmentArea[]
 ---@field DELAYED_TOOLTIP_RIGHT Float
 UpgradingScreenController = {}
+
 
 ---@param fields? UpgradingScreenController
 ---@return UpgradingScreenController

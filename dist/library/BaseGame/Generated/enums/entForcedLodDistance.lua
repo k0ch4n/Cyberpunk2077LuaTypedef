@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entForcedLodDistance: Enum
 ---@field Default Enum 0
 ---@field Background Enum 1

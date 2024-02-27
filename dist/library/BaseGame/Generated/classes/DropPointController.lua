@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DropPointController: ScriptableDeviceComponent
 DropPointController = {}
+
 
 ---@param fields? DropPointController
 ---@return DropPointController

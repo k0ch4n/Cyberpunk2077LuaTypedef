@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIBackgroundCombatDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field command AIBackgroundCombatCommand
 ---@field execute Bool
@@ -16,6 +17,7 @@
 ---@field canFireFromCover Bool
 ---@field canFireOutOfCover Bool
 AIBackgroundCombatDelegate = {}
+
 
 ---@param fields? AIBackgroundCombatDelegate
 ---@return AIBackgroundCombatDelegate

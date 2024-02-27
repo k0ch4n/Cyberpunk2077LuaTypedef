@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class IntercomInkGameController: DeviceInkGameControllerBase
 ---@field actionsList inkWidgetReference
 ---@field mainDisplayWidget inkVideoWidget
@@ -8,6 +9,7 @@
 ---@field onUpdateStatusListener redCallbackObject
 ---@field onGlitchingStateChangedListener redCallbackObject
 IntercomInkGameController = {}
+
 
 ---@param fields? IntercomInkGameController
 ---@return IntercomInkGameController

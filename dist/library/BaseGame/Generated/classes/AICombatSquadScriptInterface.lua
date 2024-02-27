@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICombatSquadScriptInterface: AISquadScriptInterface
 AICombatSquadScriptInterface = {}
+
 
 ---@param fields? AICombatSquadScriptInterface
 ---@return AICombatSquadScriptInterface

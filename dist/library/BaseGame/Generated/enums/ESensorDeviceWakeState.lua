@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ESensorDeviceWakeState: Enum
 ---@field NONE Enum -1
 ---@field CLOSED Enum 0

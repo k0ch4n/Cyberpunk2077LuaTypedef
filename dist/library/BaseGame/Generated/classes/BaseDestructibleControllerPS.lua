@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BaseDestructibleControllerPS: ScriptableDeviceComponentPS
 ---@field destroyed Bool
 BaseDestructibleControllerPS = {}
+
 
 ---@param fields? BaseDestructibleControllerPS
 ---@return BaseDestructibleControllerPS

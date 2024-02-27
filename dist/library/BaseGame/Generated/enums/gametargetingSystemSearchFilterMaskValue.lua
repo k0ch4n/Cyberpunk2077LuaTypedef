@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gametargetingSystemSearchFilterMaskValue: Enum
 ---@field Obj_Player Enum 1
 ---@field Obj_Puppet Enum 2

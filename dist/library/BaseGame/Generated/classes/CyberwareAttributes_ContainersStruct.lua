@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CyberwareAttributes_ContainersStruct
 ---@field widgetBody inkWidgetReference
 ---@field widgetCool inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field logicRef CyberwareAttributes_Logic
 ---@field logicTech CyberwareAttributes_Logic
 CyberwareAttributes_ContainersStruct = {}
+
 
 ---@param fields? CyberwareAttributes_ContainersStruct
 ---@return CyberwareAttributes_ContainersStruct

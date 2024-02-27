@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CuttingGrenadeStopAttackEvent: redEvent
 CuttingGrenadeStopAttackEvent = {}
+
 
 ---@param fields? CuttingGrenadeStopAttackEvent
 ---@return CuttingGrenadeStopAttackEvent

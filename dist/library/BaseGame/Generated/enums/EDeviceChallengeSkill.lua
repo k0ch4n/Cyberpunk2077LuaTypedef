@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EDeviceChallengeSkill: Enum
 ---@field Invalid Enum 0
 ---@field Hacking Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerVisionModeController: IScriptable
 ---@field gameplayActiveFlagsRefreshPolicy PlayerVisionModeControllerRefreshPolicy
 ---@field blackboardIds PlayerVisionModeControllerBBIds
@@ -13,6 +14,7 @@
 ---@field otherVars PlayerVisionModeControllerOtherVars
 ---@field owner gameObject
 PlayerVisionModeController = {}
+
 
 ---@param fields? PlayerVisionModeController
 ---@return PlayerVisionModeController

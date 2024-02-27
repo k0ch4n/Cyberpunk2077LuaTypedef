@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CPOMissionDataAccessPoint: CPOMissionDevice
 ---@field hasDataToDownload Bool
 ---@field damagesPresetName CName
@@ -7,6 +8,7 @@
 ---@field factsOnUpload SFactToChange[]
 ---@field ownerDecidesOnTransfer Bool
 CPOMissionDataAccessPoint = {}
+
 
 ---@param fields? CPOMissionDataAccessPoint
 ---@return CPOMissionDataAccessPoint

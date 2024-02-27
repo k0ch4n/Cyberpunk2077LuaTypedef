@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class megatronModeInfoController: TriggerModeLogicController
 ---@field ammoBarVisibility inkWidget
 ---@field chargeBarVisibility inkWidget
@@ -11,6 +12,7 @@
 ---@field bg2 inkWidget
 ---@field vignette inkWidget
 megatronModeInfoController = {}
+
 
 ---@param fields? megatronModeInfoController
 ---@return megatronModeInfoController

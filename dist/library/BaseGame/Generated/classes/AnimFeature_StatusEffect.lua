@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_StatusEffect: animAnimFeature
 ---@field state Int32
 ---@field duration Float
@@ -10,6 +11,7 @@
 ---@field stunned Bool
 ---@field playImpact Bool
 AnimFeature_StatusEffect = {}
+
 
 ---@param fields? AnimFeature_StatusEffect
 ---@return AnimFeature_StatusEffect

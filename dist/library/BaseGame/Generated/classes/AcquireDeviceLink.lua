@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AcquireDeviceLink: redEvent
 AcquireDeviceLink = {}
+
 
 ---@param fields? AcquireDeviceLink
 ---@return AcquireDeviceLink

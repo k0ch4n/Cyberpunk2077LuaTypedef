@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AITrafficWorkspotDefinition: worldTrafficSpotDefinition
 ---@field workspotResource workWorkspotResource
 AITrafficWorkspotDefinition = {}
+
 
 ---@param fields? AITrafficWorkspotDefinition
 ---@return AITrafficWorkspotDefinition

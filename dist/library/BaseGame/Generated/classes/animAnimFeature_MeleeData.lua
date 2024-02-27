@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimFeature_MeleeData: animAnimFeature
 ---@field isMeleeWeaponEquipped Bool
 ---@field attackSpeed Float
@@ -21,6 +22,7 @@
 ---@field isThrowReloading Bool
 ---@field throwReloadTime Float
 animAnimFeature_MeleeData = {}
+
 
 ---@param fields? animAnimFeature_MeleeData
 ---@return animAnimFeature_MeleeData

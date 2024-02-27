@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SecurityTurretStatus: BaseDeviceStatus
 SecurityTurretStatus = {}
+
 
 ---@param fields? SecurityTurretStatus
 ---@return SecurityTurretStatus

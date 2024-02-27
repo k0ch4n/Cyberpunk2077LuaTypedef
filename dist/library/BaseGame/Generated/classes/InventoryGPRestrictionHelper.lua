@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InventoryGPRestrictionHelper: IScriptable
 InventoryGPRestrictionHelper = {}
+
 
 ---@param playerPuppet PlayerPuppet
 ---@return Bool

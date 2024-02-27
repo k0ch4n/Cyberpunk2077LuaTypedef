@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerFunctionalTests: IScriptable
 PlayerFunctionalTests = {}
+
 
 ---@param fields? PlayerFunctionalTests
 ---@return PlayerFunctionalTests

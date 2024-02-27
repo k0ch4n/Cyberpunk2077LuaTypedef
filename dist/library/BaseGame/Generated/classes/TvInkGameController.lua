@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TvInkGameController: DeviceInkGameControllerBase
 ---@field defaultUI inkCanvasWidget
 ---@field securedUI inkCanvasWidget
@@ -22,6 +23,7 @@
 ---@field onChangeChannelListener redCallbackObject
 ---@field onGlitchingStateChangedListener redCallbackObject
 TvInkGameController = {}
+
 
 ---@param fields? TvInkGameController
 ---@return TvInkGameController

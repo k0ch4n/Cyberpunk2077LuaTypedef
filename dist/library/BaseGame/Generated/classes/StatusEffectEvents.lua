@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class StatusEffectEvents: LocomotionGroundEvents
 ---@field statusEffectRecord gamedataStatusEffect_Record
 ---@field playerStatusEffectRecordData gamedataStatusEffectPlayerData_Record
@@ -8,6 +9,7 @@
 ---@field timeInAnimState Float
 ---@field timeInEffect Float
 StatusEffectEvents = {}
+
 
 ---@param fields? StatusEffectEvents
 ---@return StatusEffectEvents

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataNewPerkCategoryType: Enum
 ---@field MasterNewPerkCategory Enum 0
 ---@field MilestoneNewPerkCategory Enum 1

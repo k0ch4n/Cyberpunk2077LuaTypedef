@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animSBehaviorConstraintNodeFloorIKCommonData
 ---@field gravityCentreBone animTransformIndex
 ---@field rootRotationBlendTime Float
@@ -7,6 +8,7 @@
 ---@field verticalVelocityOffsetDownBlendTime Float
 ---@field slidingOnSlopeBlendTime Float
 animSBehaviorConstraintNodeFloorIKCommonData = {}
+
 
 ---@param fields? animSBehaviorConstraintNodeFloorIKCommonData
 ---@return animSBehaviorConstraintNodeFloorIKCommonData

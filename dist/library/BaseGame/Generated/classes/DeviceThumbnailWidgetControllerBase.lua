@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class DeviceThumbnailWidgetControllerBase: DeviceButtonLogicControllerBase
 ---@field deviceIconRef inkImageWidgetReference
 ---@field statusNameWidget inkTextWidgetReference
 ---@field thumbnailAction ThumbnailUI
 DeviceThumbnailWidgetControllerBase = {}
+
 
 ---@param fields? DeviceThumbnailWidgetControllerBase
 ---@return DeviceThumbnailWidgetControllerBase

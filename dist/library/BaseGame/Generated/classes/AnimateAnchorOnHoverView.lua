@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimateAnchorOnHoverView: inkWidgetLogicController
 ---@field Raycaster inkWidgetReference
 ---@field AnimProxy inkanimProxy
@@ -7,6 +8,7 @@
 ---@field NormalAnchor Vector2
 ---@field AnimTime Float
 AnimateAnchorOnHoverView = {}
+
 
 ---@param fields? AnimateAnchorOnHoverView
 ---@return AnimateAnchorOnHoverView

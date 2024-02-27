@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareChargeRepeatActionEvents: LeftHandCyberwareActionAbstractEvents
 ---@field maxSpread Float
 ---@field maxProjectiles Int32
 LeftHandCyberwareChargeRepeatActionEvents = {}
+
 
 ---@param fields? LeftHandCyberwareChargeRepeatActionEvents
 ---@return LeftHandCyberwareChargeRepeatActionEvents

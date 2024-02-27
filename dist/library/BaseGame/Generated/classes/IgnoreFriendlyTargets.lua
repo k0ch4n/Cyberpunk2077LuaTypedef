@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IgnoreFriendlyTargets: gameEffectObjectSingleFilter_Scripted
 IgnoreFriendlyTargets = {}
+
 
 ---@param fields? IgnoreFriendlyTargets
 ---@return IgnoreFriendlyTargets

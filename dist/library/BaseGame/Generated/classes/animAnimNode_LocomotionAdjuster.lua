@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_LocomotionAdjuster: animAnimNode_OnePoseInput
 ---@field targetPosition animVectorLink
 ---@field targetDirection animVectorLink
@@ -9,6 +10,7 @@
 ---@field blendSpeedRot Float
 ---@field maxDistance Float
 animAnimNode_LocomotionAdjuster = {}
+
 
 ---@param fields? animAnimNode_LocomotionAdjuster
 ---@return animAnimNode_LocomotionAdjuster

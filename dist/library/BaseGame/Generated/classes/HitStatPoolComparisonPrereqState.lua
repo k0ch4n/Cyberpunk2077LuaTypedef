@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitStatPoolComparisonPrereqState: GenericHitPrereqState
 HitStatPoolComparisonPrereqState = {}
+
 
 ---@param fields? HitStatPoolComparisonPrereqState
 ---@return HitStatPoolComparisonPrereqState

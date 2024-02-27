@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsBoss: AIbehaviorconditionScript
 IsBoss = {}
+
 
 ---@param fields? IsBoss
 ---@return IsBoss

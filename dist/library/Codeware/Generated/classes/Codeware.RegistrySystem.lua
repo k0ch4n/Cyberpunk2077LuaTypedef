@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Codeware_RegistrySystem: gameScriptableSystem
 ---@field container inkScriptHashMap
 Codeware_RegistrySystem = {}
+
 
 ---@param fields? Codeware_RegistrySystem
 ---@return Codeware_RegistrySystem

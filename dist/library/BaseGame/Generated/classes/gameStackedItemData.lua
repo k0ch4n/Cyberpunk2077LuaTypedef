@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameStackedItemData: gameItemData
 gameStackedItemData = {}
+
 
 ---@param fields? gameStackedItemData
 ---@return gameStackedItemData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MineDespawnEvent: redEvent
 MineDespawnEvent = {}
+
 
 ---@param fields? MineDespawnEvent
 ---@return MineDespawnEvent

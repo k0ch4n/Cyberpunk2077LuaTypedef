@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataItemAction_Record: gamedataObjectAction_Record
 gamedataItemAction_Record = {}
+
 
 ---@param fields? gamedataItemAction_Record
 ---@return gamedataItemAction_Record

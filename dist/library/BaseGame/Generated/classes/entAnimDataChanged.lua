@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entAnimDataChanged: redEvent
 entAnimDataChanged = {}
+
 
 ---@param fields? entAnimDataChanged
 ---@return entAnimDataChanged

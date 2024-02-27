@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePlayerSocket
 gamePlayerSocket = {}
+
 
 ---@param fields? gamePlayerSocket
 ---@return gamePlayerSocket

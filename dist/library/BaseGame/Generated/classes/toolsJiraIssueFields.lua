@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class toolsJiraIssueFields
 ---@field project toolsJiraProject
 ---@field status toolsJiraStatus
@@ -39,6 +40,7 @@
 ---@field customfield_10606 String
 ---@field customfield_31700 String
 toolsJiraIssueFields = {}
+
 
 ---@param fields? toolsJiraIssueFields
 ---@return toolsJiraIssueFields

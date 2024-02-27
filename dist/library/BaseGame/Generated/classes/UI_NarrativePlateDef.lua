@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UI_NarrativePlateDef: gamebbScriptDefinition
 ---@field PlateData gamebbScriptID_Variant
 UI_NarrativePlateDef = {}
+
 
 ---@param fields? UI_NarrativePlateDef
 ---@return UI_NarrativePlateDef

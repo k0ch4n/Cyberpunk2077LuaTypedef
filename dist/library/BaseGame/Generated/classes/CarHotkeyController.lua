@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CarHotkeyController: GenericHotkeyController
 ---@field carIconSlot inkImageWidgetReference
 ---@field psmBB gameIBlackboard
@@ -7,6 +8,7 @@
 ---@field bbListener redCallbackObject
 ---@field radialListener redCallbackObject
 CarHotkeyController = {}
+
 
 ---@param fields? CarHotkeyController
 ---@return CarHotkeyController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SampleComponentWithCounterPS: gameComponentPS
 ---@field counter Int32
 SampleComponentWithCounterPS = {}
+
 
 ---@param fields? SampleComponentWithCounterPS
 ---@return SampleComponentWithCounterPS

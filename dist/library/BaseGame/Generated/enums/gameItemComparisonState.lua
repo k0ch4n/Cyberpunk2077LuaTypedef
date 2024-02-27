@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameItemComparisonState: Enum
 ---@field Default Enum 0
 ---@field NoChange Enum 1

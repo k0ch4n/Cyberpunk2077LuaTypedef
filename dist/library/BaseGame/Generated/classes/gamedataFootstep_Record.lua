@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataFootstep_Record: gamedataTweakDBRecord
 gamedataFootstep_Record = {}
+
 
 ---@param fields? gamedataFootstep_Record
 ---@return gamedataFootstep_Record

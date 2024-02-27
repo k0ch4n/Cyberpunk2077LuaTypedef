@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimFeature_Locomotion: animAnimFeature
 ---@field action Int32
 ---@field style Int32
@@ -14,6 +15,7 @@
 ---@field isOnStairs Bool
 ---@field areAnimWrappersUnlocked Bool
 animAnimFeature_Locomotion = {}
+
 
 ---@param fields? animAnimFeature_Locomotion
 ---@return animAnimFeature_Locomotion

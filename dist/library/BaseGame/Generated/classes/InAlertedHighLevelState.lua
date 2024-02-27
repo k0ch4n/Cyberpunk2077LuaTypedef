@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InAlertedHighLevelState: AINPCHighLevelStateCheck
 InAlertedHighLevelState = {}
+
 
 ---@param fields? InAlertedHighLevelState
 ---@return InAlertedHighLevelState

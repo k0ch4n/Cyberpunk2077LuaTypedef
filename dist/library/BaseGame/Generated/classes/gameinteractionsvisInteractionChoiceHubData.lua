@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsvisInteractionChoiceHubData
 ---@field id Int32
 ---@field flags gameinteractionsvisEVisualizerDefinitionFlags
@@ -8,6 +9,7 @@
 ---@field choices gameinteractionsvisInteractionChoiceData[]
 ---@field timeProvider gameinteractionsvisIVisualizerTimeProvider
 gameinteractionsvisInteractionChoiceHubData = {}
+
 
 ---@param fields? gameinteractionsvisInteractionChoiceHubData
 ---@return gameinteractionsvisInteractionChoiceHubData

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ElevatorFloorSetup
 ---@field isHidden Bool
 ---@field isInactive Bool
@@ -9,6 +10,7 @@
 ---@field authorizationTextOverride String
 ---@field doorShouldOpenFrontLeftRight Bool[]
 ElevatorFloorSetup = {}
+
 
 ---@param fields? ElevatorFloorSetup
 ---@return ElevatorFloorSetup

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioEntitySettings: audioAudioMetadata
 ---@field commonSettings audioCommonEntitySettings
 ---@field scanningSettings audioScanningSettings

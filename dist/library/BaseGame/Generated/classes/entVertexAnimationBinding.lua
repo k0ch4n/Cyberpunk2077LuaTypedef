@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entVertexAnimationBinding: entISourceBinding
 entVertexAnimationBinding = {}
+
 
 ---@param fields? entVertexAnimationBinding
 ---@return entVertexAnimationBinding

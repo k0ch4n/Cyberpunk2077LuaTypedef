@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_Paperdoll: animAnimFeature
 ---@field genderSelection Bool
 ---@field characterCreation Bool
@@ -25,6 +26,7 @@
 ---@field inventoryScreen_InnerChest Bool
 ---@field inventoryScreen_OuterChest Bool
 AnimFeature_Paperdoll = {}
+
 
 ---@param fields? AnimFeature_Paperdoll
 ---@return AnimFeature_Paperdoll

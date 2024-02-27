@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkVideoLayerDefinition: inkLayerDefinition
 inkVideoLayerDefinition = {}
+
 
 ---@param fields? inkVideoLayerDefinition
 ---@return inkVideoLayerDefinition

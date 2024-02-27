@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GOGProfileLogicController: inkWidgetLogicController
 ---@field gogMenuState EGOGMenuState
 GOGProfileLogicController = {}
+
 
 ---@param fields? GOGProfileLogicController
 ---@return GOGProfileLogicController

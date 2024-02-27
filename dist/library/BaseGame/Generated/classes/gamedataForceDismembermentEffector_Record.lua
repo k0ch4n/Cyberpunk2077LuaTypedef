@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataForceDismembermentEffector_Record: gamedataEffector_Record
 gamedataForceDismembermentEffector_Record = {}
+
 
 ---@param fields? gamedataForceDismembermentEffector_Record
 ---@return gamedataForceDismembermentEffector_Record

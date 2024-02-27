@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkanimTextKiroshiInterpolator: inkanimTextInterpolator
 inkanimTextKiroshiInterpolator = {}
+
 
 ---@param fields? inkanimTextKiroshiInterpolator
 ---@return inkanimTextKiroshiInterpolator

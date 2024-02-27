@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StatusEffectHelper: IScriptable
 StatusEffectHelper = {}
+
 
 ---@param fields? StatusEffectHelper
 ---@return StatusEffectHelper

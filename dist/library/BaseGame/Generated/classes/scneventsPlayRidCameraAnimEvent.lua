@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsPlayRidCameraAnimEvent: scnSceneEvent
 ---@field cameraRef NodeRef
 ---@field cameraPlacement scneventsRidCameraPlacement
@@ -10,6 +11,7 @@
 ---@field controlRenderToTextureState Bool
 ---@field markCamerCut Bool
 scneventsPlayRidCameraAnimEvent = {}
+
 
 ---@param fields? scneventsPlayRidCameraAnimEvent
 ---@return scneventsPlayRidCameraAnimEvent

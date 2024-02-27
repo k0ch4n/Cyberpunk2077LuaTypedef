@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RevealEnemies: ActionBool
 RevealEnemies = {}
+
 
 ---@param fields? RevealEnemies
 ---@return RevealEnemies

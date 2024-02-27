@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckEquippedWeaponType: AIItemHandlingCondition
 ---@field weaponTypeToCheck CName
 CheckEquippedWeaponType = {}
+
 
 ---@param fields? CheckEquippedWeaponType
 ---@return CheckEquippedWeaponType

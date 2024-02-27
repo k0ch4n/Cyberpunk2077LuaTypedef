@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SetVendorPriceMultiplierRequest: gameScriptableSystemRequest
 ---@field vendorID TweakDBID
 ---@field multiplier Float
 SetVendorPriceMultiplierRequest = {}
+
 
 ---@param fields? SetVendorPriceMultiplierRequest
 ---@return SetVendorPriceMultiplierRequest

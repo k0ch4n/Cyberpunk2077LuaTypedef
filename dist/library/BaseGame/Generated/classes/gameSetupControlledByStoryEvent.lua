@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameSetupControlledByStoryEvent: AIAIEvent
 gameSetupControlledByStoryEvent = {}
+
 
 ---@param fields? gameSetupControlledByStoryEvent
 ---@return gameSetupControlledByStoryEvent

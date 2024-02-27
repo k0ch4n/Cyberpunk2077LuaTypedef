@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class BreachViewTimeListener: tickScriptTimeDilationListener
 ---@field myOwner gameObject
 BreachViewTimeListener = {}
+
 
 ---@param fields? BreachViewTimeListener
 ---@return BreachViewTimeListener

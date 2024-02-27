@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class InteractionAreaOperations: DeviceOperations
 ---@field interactionAreaOperations SInteractionAreaOperationData[]
 InteractionAreaOperations = {}
+
 
 ---@param fields? InteractionAreaOperations
 ---@return InteractionAreaOperations

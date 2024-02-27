@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BraindanceInstance: ModuleInstance
 BraindanceInstance = {}
+
 
 ---@param fields? BraindanceInstance
 ---@return BraindanceInstance

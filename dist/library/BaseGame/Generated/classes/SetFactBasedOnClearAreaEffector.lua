@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SetFactBasedOnClearAreaEffector: gameEffector
 ---@field fact CName
 ---@field factSuffixes CName[]
@@ -10,6 +11,7 @@
 ---@field fromHeight Float
 ---@field height Float
 SetFactBasedOnClearAreaEffector = {}
+
 
 ---@param fields? SetFactBasedOnClearAreaEffector
 ---@return SetFactBasedOnClearAreaEffector

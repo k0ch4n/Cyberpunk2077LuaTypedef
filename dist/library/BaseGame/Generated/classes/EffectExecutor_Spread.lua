@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class EffectExecutor_Spread: gameEffectExecutor_Scripted
 ---@field objectActionRecord gamedataObjectAction_Record
 ---@field prevEntity entEntity
 ---@field player PlayerPuppet
 ---@field spreadToAllTargetsInTheArea Bool
 EffectExecutor_Spread = {}
+
 
 ---@param fields? EffectExecutor_Spread
 ---@return EffectExecutor_Spread

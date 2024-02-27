@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionScaleDurationWithDistance_Record_Implementation: IScriptable
 AISubActionScaleDurationWithDistance_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionScaleDurationWithDistance_Record

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class nanowireGrenade: BaseProjectile
 ---@field countTime Float
 ---@field timeToActivation Float
@@ -10,6 +11,7 @@
 ---@field trailEffectName CName
 ---@field alive Bool
 nanowireGrenade = {}
+
 
 ---@param fields? nanowireGrenade
 ---@return nanowireGrenade

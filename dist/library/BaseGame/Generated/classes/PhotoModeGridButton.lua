@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhotoModeGridButton: inkToggleController
 ---@field FrameImg inkImageWidgetReference
 ---@field DynamicImg inkImageWidgetReference
@@ -15,6 +16,7 @@
 ---@field imageScalingSpeed Float
 ---@field opacityScalingSpeed Float
 PhotoModeGridButton = {}
+
 
 ---@param fields? PhotoModeGridButton
 ---@return PhotoModeGridButton

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameinputScriptListenerActionConsumer
 gameinputScriptListenerActionConsumer = {}
+
 
 ---@param fields? gameinputScriptListenerActionConsumer
 ---@return gameinputScriptListenerActionConsumer

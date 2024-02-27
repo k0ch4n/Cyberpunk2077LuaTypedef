@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worlduiStreetSignWidgetComponentWrapper: inkIStreetSignWidgetComponentWrapper
 worlduiStreetSignWidgetComponentWrapper = {}
+
 
 ---@param fields? worlduiStreetSignWidgetComponentWrapper
 ---@return worlduiStreetSignWidgetComponentWrapper

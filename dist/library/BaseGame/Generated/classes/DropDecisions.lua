@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DropDecisions: CarriedObjectDecisions
 DropDecisions = {}
+
 
 ---@param fields? DropDecisions
 ---@return DropDecisions

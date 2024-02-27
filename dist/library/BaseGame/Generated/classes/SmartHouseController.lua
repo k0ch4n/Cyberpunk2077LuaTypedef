@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SmartHouseController: MasterController
 SmartHouseController = {}
+
 
 ---@param fields? SmartHouseController
 ---@return SmartHouseController

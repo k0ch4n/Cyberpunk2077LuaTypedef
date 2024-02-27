@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CraftingItemTemplateClassifier: inkVirtualItemTemplateClassifierWrapper
 CraftingItemTemplateClassifier = {}
+
 
 ---@param fields? CraftingItemTemplateClassifier
 ---@return CraftingItemTemplateClassifier

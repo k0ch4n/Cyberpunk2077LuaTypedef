@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataLookAtPart_Record: gamedataTweakDBRecord
 gamedataLookAtPart_Record = {}
+
 
 ---@param fields? gamedataLookAtPart_Record
 ---@return gamedataLookAtPart_Record

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorActivationStatus: Enum
 ---@field NOT_ACTIVATED Enum 0
 ---@field ACTIVATING Enum 1

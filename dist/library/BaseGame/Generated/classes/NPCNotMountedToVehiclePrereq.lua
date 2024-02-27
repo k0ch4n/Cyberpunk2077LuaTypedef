@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NPCNotMountedToVehiclePrereq: gameIScriptablePrereq
 NPCNotMountedToVehiclePrereq = {}
+
 
 ---@param fields? NPCNotMountedToVehiclePrereq
 ---@return NPCNotMountedToVehiclePrereq

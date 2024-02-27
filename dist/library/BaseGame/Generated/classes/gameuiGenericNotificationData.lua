@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiGenericNotificationData
 ---@field time Float
 ---@field widgetLibraryItemName CName
@@ -7,6 +8,7 @@
 ---@field widgetLibraryResource redResourceReferenceScriptToken
 ---@field notificationData gameuiGenericNotificationViewData
 gameuiGenericNotificationData = {}
+
 
 ---@param fields? gameuiGenericNotificationData
 ---@return gameuiGenericNotificationData

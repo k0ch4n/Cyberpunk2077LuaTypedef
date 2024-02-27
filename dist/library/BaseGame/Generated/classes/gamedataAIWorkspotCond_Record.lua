@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIWorkspotCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIWorkspotCond_Record = {}
+
 
 ---@param fields? gamedataAIWorkspotCond_Record
 ---@return gamedataAIWorkspotCond_Record

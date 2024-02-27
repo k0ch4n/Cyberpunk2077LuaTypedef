@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PSODescRasterizerModeOffsetMode: Enum
 ---@field OFFSET_None Enum 0
 ---@field OFFSET_NormalBias Enum 1

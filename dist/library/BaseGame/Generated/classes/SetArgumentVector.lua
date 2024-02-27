@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetArgumentVector: SetArguments
 ---@field newValue AIArgumentMapping
 SetArgumentVector = {}
+
 
 ---@param fields? SetArgumentVector
 ---@return SetArgumentVector

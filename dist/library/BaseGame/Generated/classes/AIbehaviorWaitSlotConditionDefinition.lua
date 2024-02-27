@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorWaitSlotConditionDefinition: AIbehaviorConditionDefinition
 AIbehaviorWaitSlotConditionDefinition = {}
+
 
 ---@param fields? AIbehaviorWaitSlotConditionDefinition
 ---@return AIbehaviorWaitSlotConditionDefinition

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class StatusEffectDecisions: LocomotionGroundDecisions
 ---@field executionOwner gameObject
 ---@field statusEffectListener DefaultTransitionStatusEffectListener
 ---@field statusEffectEnumName String
 StatusEffectDecisions = {}
+
 
 ---@param fields? StatusEffectDecisions
 ---@return StatusEffectDecisions

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiSetPhotoModeKeyEnabledCallback: inkCallbackBase
 gameuiSetPhotoModeKeyEnabledCallback = {}
+
 
 ---@param fields? gameuiSetPhotoModeKeyEnabledCallback
 ---@return gameuiSetPhotoModeKeyEnabledCallback

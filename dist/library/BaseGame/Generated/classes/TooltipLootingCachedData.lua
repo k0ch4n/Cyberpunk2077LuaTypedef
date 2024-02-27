@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TooltipLootingCachedData: IScriptable
 ---@field externalItemData gameItemData
 ---@field itemRecord gamedataItem_Record
@@ -9,6 +10,7 @@
 ---@field comparisonWeaponBars UIInventoryItemWeaponBars
 ---@field comparisonQualityF Float
 TooltipLootingCachedData = {}
+
 
 ---@param fields? TooltipLootingCachedData
 ---@return TooltipLootingCachedData

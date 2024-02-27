@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animAnimEvent_Phase: animAnimEvent
 animAnimEvent_Phase = {}
+
 
 ---@param fields? animAnimEvent_Phase
 ---@return animAnimEvent_Phase

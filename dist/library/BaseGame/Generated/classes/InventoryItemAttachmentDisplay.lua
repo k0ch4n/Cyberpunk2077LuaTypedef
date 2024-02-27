@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class InventoryItemAttachmentDisplay: inkWidgetLogicController
 ---@field QualityRootRef inkWidgetReference
 ---@field ShapeRef inkWidgetReference
 ---@field BorderRef inkWidgetReference
 ---@field MarkedStateName CName
 InventoryItemAttachmentDisplay = {}
+
 
 ---@param fields? InventoryItemAttachmentDisplay
 ---@return InventoryItemAttachmentDisplay

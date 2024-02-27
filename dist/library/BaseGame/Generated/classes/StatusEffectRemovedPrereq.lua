@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StatusEffectRemovedPrereq: StatusEffectPrereq
 StatusEffectRemovedPrereq = {}
+
 
 ---@param fields? StatusEffectRemovedPrereq
 ---@return StatusEffectRemovedPrereq

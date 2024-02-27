@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataStreetCredTier_Record: gamedataTweakDBRecord
 gamedataStreetCredTier_Record = {}
+
 
 ---@param fields? gamedataStreetCredTier_Record
 ---@return gamedataStreetCredTier_Record

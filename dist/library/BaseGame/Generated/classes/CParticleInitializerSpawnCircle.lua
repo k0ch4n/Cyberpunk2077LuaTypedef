@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CParticleInitializerSpawnCircle: IParticleInitializer
 ---@field innerRadius IEvaluatorFloat
 ---@field outerRadius IEvaluatorFloat
@@ -7,6 +8,7 @@
 ---@field worldSpace Bool
 ---@field spawnToLocal Matrix
 CParticleInitializerSpawnCircle = {}
+
 
 ---@param fields? CParticleInitializerSpawnCircle
 ---@return CParticleInitializerSpawnCircle

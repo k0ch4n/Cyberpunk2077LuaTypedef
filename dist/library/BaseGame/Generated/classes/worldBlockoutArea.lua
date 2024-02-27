@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldBlockoutArea: ISerializable
 ---@field name String
 ---@field color Color
@@ -9,6 +10,7 @@
 ---@field isFree Bool
 ---@field increaseTerrainStreamingDistance Bool
 worldBlockoutArea = {}
+
 
 ---@param fields? worldBlockoutArea
 ---@return worldBlockoutArea

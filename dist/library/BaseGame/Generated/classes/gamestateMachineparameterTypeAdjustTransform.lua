@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gamestateMachineparameterTypeAdjustTransform: IScriptable
 ---@field position Vector4
 ---@field rotation Quaternion
 gamestateMachineparameterTypeAdjustTransform = {}
+
 
 ---@param fields? gamestateMachineparameterTypeAdjustTransform
 ---@return gamestateMachineparameterTypeAdjustTransform

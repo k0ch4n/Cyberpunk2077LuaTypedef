@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAIHitIntensity: Enum
 ---@field None Enum -1
 ---@field Light Enum 0

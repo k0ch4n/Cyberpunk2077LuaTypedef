@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HotkeyRadioStatusListener: gameScriptStatusEffectListener
 ---@field radioWidgetController HotkeyConsumableWidgetController
 HotkeyRadioStatusListener = {}
+
 
 ---@param fields? HotkeyRadioStatusListener
 ---@return HotkeyRadioStatusListener

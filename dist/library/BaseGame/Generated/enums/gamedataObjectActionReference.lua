@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataObjectActionReference: Enum
 ---@field Instigator Enum 0
 ---@field Source Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InventoryUtils: IScriptable
 InventoryUtils = {}
+
 
 ---@param fields? InventoryUtils
 ---@return InventoryUtils

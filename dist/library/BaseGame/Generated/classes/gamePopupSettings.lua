@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamePopupSettings
 ---@field closeAtInput Bool
 ---@field pauseGame Bool
@@ -8,6 +9,7 @@
 ---@field hideInMenu Bool
 ---@field margin inkMargin
 gamePopupSettings = {}
+
 
 ---@param fields? gamePopupSettings
 ---@return gamePopupSettings

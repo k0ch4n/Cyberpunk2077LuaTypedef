@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worlduiEntryVisibility: Enum
 ---@field TierVisibility Enum 0
 ---@field ForceShow Enum 1

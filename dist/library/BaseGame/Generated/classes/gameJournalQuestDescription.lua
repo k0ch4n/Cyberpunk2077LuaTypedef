@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameJournalQuestDescription: gameJournalEntry
 ---@field description LocalizationString
 gameJournalQuestDescription = {}
+
 
 ---@param fields? gameJournalQuestDescription
 ---@return gameJournalQuestDescription

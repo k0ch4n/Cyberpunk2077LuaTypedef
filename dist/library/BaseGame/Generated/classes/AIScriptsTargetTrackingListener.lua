@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIScriptsTargetTrackingListener: AIITargetTrackingListener
 AIScriptsTargetTrackingListener = {}
+
 
 ---@param fields? AIScriptsTargetTrackingListener
 ---@return AIScriptsTargetTrackingListener

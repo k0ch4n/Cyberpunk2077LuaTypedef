@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEPowerDifferential: Enum
 ---@field IMPOSSIBLE Enum -6
 ---@field HARD Enum -3

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIArgumentType: Enum
 ---@field Bool Enum 0
 ---@field Int Enum 1

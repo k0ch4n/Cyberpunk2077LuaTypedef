@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceWalkDecisions: LocomotionGroundDecisions
 ForceWalkDecisions = {}
+
 
 ---@param fields? ForceWalkDecisions
 ---@return ForceWalkDecisions

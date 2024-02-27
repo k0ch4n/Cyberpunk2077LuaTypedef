@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Sample_All_Supported_Replicated_Types
 ---@field bool Bool
 ---@field uint8 Uint8
@@ -20,6 +21,7 @@
 ---@field staticArray Sample_Replicated_Struct
 ---@field THandle Sample_Replicated_Serializable
 Sample_All_Supported_Replicated_Types = {}
+
 
 ---@param fields? Sample_All_Supported_Replicated_Types
 ---@return Sample_All_Supported_Replicated_Types

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldGroupProxyMeshBuildParams: worldProxyMeshBuildParams
 worldGroupProxyMeshBuildParams = {}
+
 
 ---@param fields? worldGroupProxyMeshBuildParams
 ---@return worldGroupProxyMeshBuildParams

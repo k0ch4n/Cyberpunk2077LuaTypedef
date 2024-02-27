@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetDeviceON: ActionBool
 SetDeviceON = {}
+
 
 ---@param fields? SetDeviceON
 ---@return SetDeviceON

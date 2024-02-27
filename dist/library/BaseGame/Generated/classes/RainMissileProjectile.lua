@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RainMissileProjectile: BaseProjectile
 ---@field meshComponent entIComponent
 ---@field effect gameEffectRef
@@ -34,6 +35,7 @@
 ---@field useSpiralParams Bool
 ---@field randStartVelocity Float
 RainMissileProjectile = {}
+
 
 ---@param fields? RainMissileProjectile
 ---@return RainMissileProjectile

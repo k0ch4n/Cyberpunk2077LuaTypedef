@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StackChangeHighLevelStateAbstract: AIbehaviortaskStackScript
 StackChangeHighLevelStateAbstract = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gamedataNPCHighLevelState

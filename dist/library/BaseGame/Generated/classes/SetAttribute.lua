@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SetAttribute: gamePlayerScriptableSystemRequest
 ---@field statLevel Float
 ---@field attributeType gamedataStatType
 SetAttribute = {}
+
 
 ---@param fields? SetAttribute
 ---@return SetAttribute

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkGameNotificationData: inkUserData
 ---@field notificationName CName
 ---@field requiredGameState CName
@@ -9,6 +10,7 @@
 ---@field introAnimation CName
 ---@field token inkGameNotificationToken
 inkGameNotificationData = {}
+
 
 ---@param fields? inkGameNotificationData
 ---@return inkGameNotificationData

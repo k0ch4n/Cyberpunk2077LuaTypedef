@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiWorldMapPlayerInitData: gameuiMappinControllerCustomData
 gameuiWorldMapPlayerInitData = {}
+
 
 ---@param fields? gameuiWorldMapPlayerInitData
 ---@return gameuiWorldMapPlayerInitData

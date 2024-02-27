@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DialogueChoiceHubPrereq: gameIScriptablePrereq
 ---@field isChoiceHubActive Bool
 DialogueChoiceHubPrereq = {}
+
 
 ---@param fields? DialogueChoiceHubPrereq
 ---@return DialogueChoiceHubPrereq

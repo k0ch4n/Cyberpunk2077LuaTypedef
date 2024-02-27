@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RecipeData: IScriptable
 ---@field label String
 ---@field ingredients IngredientData[]
@@ -15,6 +16,7 @@
 ---@field isSelected Bool
 ---@field quality gamedataQuality
 RecipeData = {}
+
 
 ---@param fields? RecipeData
 ---@return RecipeData

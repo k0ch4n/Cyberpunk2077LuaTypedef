@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HighLevelNPCStatePrereq: NPCStatePrereq
 ---@field valueToListen gamedataNPCHighLevelState
 HighLevelNPCStatePrereq = {}
+
 
 ---@param fields? HighLevelNPCStatePrereq
 ---@return HighLevelNPCStatePrereq

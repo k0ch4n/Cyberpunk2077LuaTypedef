@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActivateMapLink: redEvent
 ActivateMapLink = {}
+
 
 ---@param fields? ActivateMapLink
 ---@return ActivateMapLink

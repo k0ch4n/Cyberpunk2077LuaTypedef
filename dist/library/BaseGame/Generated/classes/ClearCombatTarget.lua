@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ClearCombatTarget: AIbehaviortaskScript
 ClearCombatTarget = {}
+
 
 ---@param fields? ClearCombatTarget
 ---@return ClearCombatTarget

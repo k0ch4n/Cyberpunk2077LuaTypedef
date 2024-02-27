@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataDeviceHackTier: Enum
 ---@field Tier1DeviceHack Enum 0
 ---@field Tier2DeviceHack Enum 1

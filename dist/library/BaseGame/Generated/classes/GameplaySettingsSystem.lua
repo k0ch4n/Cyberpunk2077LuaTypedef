@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GameplaySettingsSystem: gameScriptableSystem
 ---@field gameplaySettingsListener GameplaySettingsListener
 ---@field wasEverJohnny Bool
 GameplaySettingsSystem = {}
+
 
 ---@param fields? GameplaySettingsSystem
 ---@return GameplaySettingsSystem

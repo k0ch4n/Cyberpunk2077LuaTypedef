@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICMovementTarget: AIPosition
 AICMovementTarget = {}
+
 
 ---@param fields? AICMovementTarget
 ---@return AICMovementTarget

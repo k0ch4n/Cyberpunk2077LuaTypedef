@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FactInvokerController: MasterController
 FactInvokerController = {}
+
 
 ---@param fields? FactInvokerController
 ---@return FactInvokerController

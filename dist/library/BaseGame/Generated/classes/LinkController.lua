@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class LinkController: inkButtonController
 ---@field linkAddress String
 ---@field defaultColor HDRColor
 ---@field hoverColor HDRColor
 ---@field IGNORED_COLOR HDRColor
 LinkController = {}
+
 
 ---@param fields? LinkController
 ---@return LinkController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class workExitAnim: workIEntry
 ---@field animName CName
 ---@field disableAutoTransition Bool
@@ -13,6 +14,7 @@
 ---@field syncOffset Transform
 ---@field disableRandomExit Bool
 workExitAnim = {}
+
 
 ---@param fields? workExitAnim
 ---@return workExitAnim

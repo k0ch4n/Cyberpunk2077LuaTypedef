@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameMuppetComparisonReportItemType: Enum
 ---@field Different Enum 0
 ---@field WithinTolerance Enum 1

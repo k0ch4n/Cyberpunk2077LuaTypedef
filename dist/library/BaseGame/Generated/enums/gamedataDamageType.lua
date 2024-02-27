@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataDamageType: Enum
 ---@field Chemical Enum 0
 ---@field Electric Enum 1

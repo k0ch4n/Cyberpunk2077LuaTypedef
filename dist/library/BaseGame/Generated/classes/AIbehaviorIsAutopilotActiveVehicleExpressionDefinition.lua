@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorIsAutopilotActiveVehicleExpressionDefinition: AIbehaviorVehicleExpressionDefinition
 AIbehaviorIsAutopilotActiveVehicleExpressionDefinition = {}
+
 
 ---@param fields? AIbehaviorIsAutopilotActiveVehicleExpressionDefinition
 ---@return AIbehaviorIsAutopilotActiveVehicleExpressionDefinition

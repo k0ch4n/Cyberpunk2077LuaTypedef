@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnInterruptionPhase: Enum
 ---@field WaitForInterruption Enum 0
 ---@field WaitForInterrupted Enum 1

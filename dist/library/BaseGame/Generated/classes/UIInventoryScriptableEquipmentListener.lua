@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class UIInventoryScriptableEquipmentListener: IScriptable
 ---@field uiInventoryScriptableSystem UIInventoryScriptableSystem
 ---@field EquipmentBlackboard gameIBlackboard
 ---@field itemEquippedListener redCallbackObject
 UIInventoryScriptableEquipmentListener = {}
+
 
 ---@param fields? UIInventoryScriptableEquipmentListener
 ---@return UIInventoryScriptableEquipmentListener

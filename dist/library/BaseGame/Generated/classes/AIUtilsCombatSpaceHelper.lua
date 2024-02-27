@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIUtilsCombatSpaceHelper
 AIUtilsCombatSpaceHelper = {}
+
 
 ---@param fields? AIUtilsCombatSpaceHelper
 ---@return AIUtilsCombatSpaceHelper

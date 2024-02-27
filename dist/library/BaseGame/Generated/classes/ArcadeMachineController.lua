@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ArcadeMachineController: ScriptableDeviceComponent
 ArcadeMachineController = {}
+
 
 ---@param fields? ArcadeMachineController
 ---@return ArcadeMachineController

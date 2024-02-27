@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameCameraCurve: Enum
 ---@field CentricPitchOfSpeed Enum 0
 ---@field CentricVerticalOffsetOfSpeed Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LoopEndedEvent: redEvent
 LoopEndedEvent = {}
+
 
 ---@param fields? LoopEndedEvent
 ---@return LoopEndedEvent

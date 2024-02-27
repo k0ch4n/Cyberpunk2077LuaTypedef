@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EffectExecutor_Device: gameEffectExecutor_Scripted
 ---@field maxDelay Float
 EffectExecutor_Device = {}
+
 
 ---@param device InteractiveDevice
 ---@param evt ActionBool

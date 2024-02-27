@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRemoveAllModifiersEffector_Record: gamedataEffector_Record
 gamedataRemoveAllModifiersEffector_Record = {}
+
 
 ---@param fields? gamedataRemoveAllModifiersEffector_Record
 ---@return gamedataRemoveAllModifiersEffector_Record

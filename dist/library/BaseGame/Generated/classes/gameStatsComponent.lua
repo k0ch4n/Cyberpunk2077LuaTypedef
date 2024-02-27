@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameStatsComponent: gameComponent
 gameStatsComponent = {}
+
 
 ---@param fields? gameStatsComponent
 ---@return gameStatsComponent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioLocomotionWaterSettings: audioAudioMetadata
 ---@field defaultLegVfx CResource
 ---@field locomotionStatesLegVfx audioLocomotionStateVfxDictionary
@@ -19,6 +20,7 @@
 ---@field fastFallVfx CResource
 ---@field fastFallEvent CName
 audioLocomotionWaterSettings = {}
+
 
 ---@param fields? audioLocomotionWaterSettings
 ---@return audioLocomotionWaterSettings

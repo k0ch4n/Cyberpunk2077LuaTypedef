@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WeaponMalfunctionHudEffector: gameEffector
 ---@field bb gameIBlackboard
 WeaponMalfunctionHudEffector = {}
+
 
 ---@param fields? WeaponMalfunctionHudEffector
 ---@return WeaponMalfunctionHudEffector

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AuthorizationData
 ---@field isAuthorizationModuleOn Bool
 ---@field alwaysExposeActions Bool
 ---@field authorizationDataEntry SecurityAccessLevelEntryClient
 AuthorizationData = {}
+
 
 ---@param fields? AuthorizationData
 ---@return AuthorizationData

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PaperdollGlitchController: inkWidgetLogicController
 ---@field PaperdollGlichRoot inkWidgetReference
 ---@field GlitchAnimationName CName
 PaperdollGlitchController = {}
+
 
 ---@param fields? PaperdollGlitchController
 ---@return PaperdollGlitchController

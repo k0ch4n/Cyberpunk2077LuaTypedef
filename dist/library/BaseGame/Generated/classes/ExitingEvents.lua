@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ExitingEvents: ExitingEventsBase
 ---@field fromDriverCombat Bool
 ExitingEvents = {}
+
 
 ---@param fields? ExitingEvents
 ---@return ExitingEvents

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LinkedFocusClueData
 ---@field clueGroupID CName
 ---@field ownerID entEntityID
@@ -11,6 +12,7 @@
 ---@field isEnabled Bool
 ---@field psData PSOwnerData
 LinkedFocusClueData = {}
+
 
 ---@param fields? LinkedFocusClueData
 ---@return LinkedFocusClueData

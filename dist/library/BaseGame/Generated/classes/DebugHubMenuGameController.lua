@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DebugHubMenuGameController: gameuiMenuGameController
 ---@field menuCtrl DebugHubMenuLogicController
 ---@field selectorCtrl hubSelectorController
@@ -13,6 +14,7 @@
 ---@field characterCredPointsListener Uint32
 ---@field Transaction gameTransactionSystem
 DebugHubMenuGameController = {}
+
 
 ---@param fields? DebugHubMenuGameController
 ---@return DebugHubMenuGameController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PerksSkillsLevelsContainerController: inkWidgetLogicController
 ---@field topRowItemsContainer inkCompoundWidgetReference
 ---@field bottomRowItemsContainer inkCompoundWidgetReference
@@ -8,6 +9,7 @@
 ---@field label inkTextWidgetReference
 ---@field proficiencyDisplayData ProficiencyDisplayData
 PerksSkillsLevelsContainerController = {}
+
 
 ---@param fields? PerksSkillsLevelsContainerController
 ---@return PerksSkillsLevelsContainerController

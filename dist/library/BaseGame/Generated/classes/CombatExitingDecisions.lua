@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CombatExitingDecisions: ExitingDecisions
 CombatExitingDecisions = {}
+
 
 ---@param fields? CombatExitingDecisions
 ---@return CombatExitingDecisions

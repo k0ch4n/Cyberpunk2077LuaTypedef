@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleToggleForbiddenVehicleAreaEvent: redEvent
 vehicleToggleForbiddenVehicleAreaEvent = {}
+
 
 ---@param fields? vehicleToggleForbiddenVehicleAreaEvent
 ---@return vehicleToggleForbiddenVehicleAreaEvent

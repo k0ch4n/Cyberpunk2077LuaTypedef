@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameGarmentItemObject: gameItemObject
 gameGarmentItemObject = {}
+
 
 ---@param fields? gameGarmentItemObject
 ---@return gameGarmentItemObject

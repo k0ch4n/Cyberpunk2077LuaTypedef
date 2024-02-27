@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class LifePath_ScriptConditionType: BluelineConditionTypeBase
 ---@field lifePathId TweakDBID
 ---@field inverted Bool
 LifePath_ScriptConditionType = {}
+
 
 ---@param fields? LifePath_ScriptConditionType
 ---@return LifePath_ScriptConditionType

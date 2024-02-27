@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsNPCInPrevention: PreventionConditionAbstract
 IsNPCInPrevention = {}
+
 
 ---@param fields? IsNPCInPrevention
 ---@return IsNPCInPrevention

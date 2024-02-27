@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class inkanimDefinition: IScriptable
 ---@field interpolators inkanimInterpolator[]
 ---@field events inkanimEvent[]
 inkanimDefinition = {}
+
 
 ---@param fields? inkanimDefinition
 ---@return inkanimDefinition

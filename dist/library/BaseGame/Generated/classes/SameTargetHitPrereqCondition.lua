@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SameTargetHitPrereqCondition: BaseHitPrereqCondition
 ---@field previousTarget gameObject
 ---@field previousSource gameObject
 ---@field previousWeapon gameweaponObject
 SameTargetHitPrereqCondition = {}
+
 
 ---@param fields? SameTargetHitPrereqCondition
 ---@return SameTargetHitPrereqCondition

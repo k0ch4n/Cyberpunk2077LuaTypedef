@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataKeepCurrentCoverCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataKeepCurrentCoverCoverSelectionParameters_Record = {}
+
 
 ---@param fields? gamedataKeepCurrentCoverCoverSelectionParameters_Record
 ---@return gamedataKeepCurrentCoverCoverSelectionParameters_Record

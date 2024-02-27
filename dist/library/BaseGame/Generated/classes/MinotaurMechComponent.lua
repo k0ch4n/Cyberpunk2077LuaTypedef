@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MinotaurMechComponent: gameScriptableComponent
 ---@field deathAttackRecordID TweakDBID
 ---@field owner NPCPuppet
@@ -10,6 +11,7 @@
 ---@field currentScanType MechanicalScanType
 ---@field currentScanAnimation CName
 MinotaurMechComponent = {}
+
 
 ---@param fields? MinotaurMechComponent
 ---@return MinotaurMechComponent

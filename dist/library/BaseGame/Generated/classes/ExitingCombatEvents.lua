@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ExitingCombatEvents: VehicleEventsTransition
 ExitingCombatEvents = {}
+
 
 ---@param fields? ExitingCombatEvents
 ---@return ExitingCombatEvents

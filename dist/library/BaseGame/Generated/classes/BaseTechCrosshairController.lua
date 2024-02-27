@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BaseTechCrosshairController: gameuiCrosshairBaseGameController
 ---@field player gameObject
 ---@field statsSystem gameStatsSystem
@@ -8,6 +9,7 @@
 ---@field fullChargeListener CrosshairWeaponStatsListener
 ---@field overChargeListener CrosshairWeaponStatsListener
 BaseTechCrosshairController = {}
+
 
 ---@param fields? BaseTechCrosshairController
 ---@return BaseTechCrosshairController

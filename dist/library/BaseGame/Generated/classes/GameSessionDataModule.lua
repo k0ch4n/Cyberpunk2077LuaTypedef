@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GameSessionDataModule: IScriptable
 ---@field moduleType EGameSessionDataType
 GameSessionDataModule = {}
+
 
 ---@param fields? GameSessionDataModule
 ---@return GameSessionDataModule

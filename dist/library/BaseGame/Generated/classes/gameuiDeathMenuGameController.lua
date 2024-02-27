@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiDeathMenuGameController: gameuiMenuItemListGameController
 ---@field buttonHintsManagerRef inkWidgetReference
 ---@field buttonHintsController ButtonHints
@@ -7,6 +8,7 @@
 ---@field axisInputReceived Bool
 ---@field dpadInputReceived Bool
 gameuiDeathMenuGameController = {}
+
 
 ---@param fields? gameuiDeathMenuGameController
 ---@return gameuiDeathMenuGameController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIScriptActionDelegate: AIbehaviorScriptBehaviorDelegate
 ---@field actionPackageType AIactionParamsPackageTypes
 AIScriptActionDelegate = {}
+
 
 ---@param fields? AIScriptActionDelegate
 ---@return AIScriptActionDelegate

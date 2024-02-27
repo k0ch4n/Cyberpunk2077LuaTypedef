@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProficiencyProgressEvent: redEvent
 ---@field type gamedataProficiencyType
 ---@field expValue Int32
@@ -8,6 +9,7 @@
 ---@field currentLevel Int32
 ---@field isLevelMaxed Bool
 ProficiencyProgressEvent = {}
+
 
 ---@param fields? ProficiencyProgressEvent
 ---@return ProficiencyProgressEvent

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TrafficGenTrafficSetting
 ---@field meshImpact TrafficGenMeshImpact
 TrafficGenTrafficSetting = {}
+
 
 ---@param fields? TrafficGenTrafficSetting
 ---@return TrafficGenTrafficSetting

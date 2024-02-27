@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PerksLevelBarController: inkWidgetLogicController
 ---@field foregroundImage inkWidgetReference
 ---@field backgroundImage inkWidgetReference
 PerksLevelBarController = {}
+
 
 ---@param fields? PerksLevelBarController
 ---@return PerksLevelBarController

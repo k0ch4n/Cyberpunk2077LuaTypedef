@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineplayeractionsUpperBodyBase: gamestateMachineStateActionDefinition
 gamestateMachineplayeractionsUpperBodyBase = {}
+
 
 ---@param fields? gamestateMachineplayeractionsUpperBodyBase
 ---@return gamestateMachineplayeractionsUpperBodyBase

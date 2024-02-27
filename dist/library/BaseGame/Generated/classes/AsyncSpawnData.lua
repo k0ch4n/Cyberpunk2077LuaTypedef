@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AsyncSpawnData: IScriptable
 ---@field callbackTarget IScriptable
 ---@field controller IScriptable
@@ -7,6 +8,7 @@
 ---@field libraryID CName
 ---@field widgetData Variant
 AsyncSpawnData = {}
+
 
 ---@param fields? AsyncSpawnData
 ---@return AsyncSpawnData

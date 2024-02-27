@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePlayerManager: gameIPlayerManager
 gamePlayerManager = {}
+
 
 ---@param fields? gamePlayerManager
 ---@return gamePlayerManager

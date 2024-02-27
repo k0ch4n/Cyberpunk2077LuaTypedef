@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CrosshairLogicController_RasetsuAimFire: inkWidgetLogicController
 ---@field chargebarContainer inkWidgetReference
 ---@field perfectChargeIndicator inkWidgetReference
 ---@field chargeBar ChargebarController
 ---@field animPerfectCharge inkanimProxy
 CrosshairLogicController_RasetsuAimFire = {}
+
 
 ---@param fields? CrosshairLogicController_RasetsuAimFire
 ---@return CrosshairLogicController_RasetsuAimFire

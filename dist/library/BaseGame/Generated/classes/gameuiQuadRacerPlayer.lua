@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiQuadRacerPlayer: gameuiSideScrollerMiniGamePlayerController
 ---@field playerImage inkImageWidgetReference
 ---@field leftTireSmoke inkImageWidgetReference
@@ -10,6 +11,7 @@
 ---@field rightTurnAtlasRegion CName
 ---@field straightTurnAtlasRegion CName
 gameuiQuadRacerPlayer = {}
+
 
 ---@param fields? gameuiQuadRacerPlayer
 ---@return gameuiQuadRacerPlayer

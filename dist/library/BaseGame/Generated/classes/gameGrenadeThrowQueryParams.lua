@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameGrenadeThrowQueryParams
 ---@field requester gameObject
 ---@field target gameObject
@@ -12,6 +13,7 @@
 ---@field minTargetAngleDegrees Float
 ---@field maxTargetAngleDegrees Float
 gameGrenadeThrowQueryParams = {}
+
 
 ---@param fields? gameGrenadeThrowQueryParams
 ---@return gameGrenadeThrowQueryParams

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Crosshair_Melee_Hammer: gameuiCrosshairBaseGameController
 ---@field targetColorChange inkWidgetReference
 Crosshair_Melee_Hammer = {}
+
 
 ---@param fields? Crosshair_Melee_Hammer
 ---@return Crosshair_Melee_Hammer

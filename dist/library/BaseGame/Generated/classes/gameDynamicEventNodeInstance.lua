@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDynamicEventNodeInstance: worldAreaShapeNodeInstance
 gameDynamicEventNodeInstance = {}
+
 
 ---@param fields? gameDynamicEventNodeInstance
 ---@return gameDynamicEventNodeInstance

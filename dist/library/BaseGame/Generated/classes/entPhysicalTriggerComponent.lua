@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entPhysicalTriggerComponent: entIPlacedComponent
 ---@field simulationType physicsSimulationType
 ---@field shape physicsTriggerShape

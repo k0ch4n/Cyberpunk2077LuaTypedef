@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DrillMachineScanManager: gameScriptableComponent
 ---@field ppStarting Bool
 ---@field ppEnding Bool
@@ -8,6 +9,7 @@
 ---@field idleToScanTime Float
 ---@field ppOffFrameDelay Int32
 DrillMachineScanManager = {}
+
 
 ---@param fields? DrillMachineScanManager
 ---@return DrillMachineScanManager

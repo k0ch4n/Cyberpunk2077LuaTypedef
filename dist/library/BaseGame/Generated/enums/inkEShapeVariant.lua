@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkEShapeVariant: Enum
 ---@field Fill Enum 0
 ---@field Border Enum 1

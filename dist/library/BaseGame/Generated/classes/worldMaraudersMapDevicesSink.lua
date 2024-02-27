@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldMaraudersMapDevicesSink: IScriptable
 worldMaraudersMapDevicesSink = {}
+
 
 ---@param fields? worldMaraudersMapDevicesSink
 ---@return worldMaraudersMapDevicesSink

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GameplayItemCondition: GameplayConditionBase
 ---@field itemToCheck TweakDBID
 GameplayItemCondition = {}
+
 
 ---@param fields? GameplayItemCondition
 ---@return GameplayItemCondition

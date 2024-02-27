@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SurveillanceCameraControllerPS: SensorDeviceControllerPS
 ---@field cameraProperties CameraSetup
 ---@field cameraQuestProperties CameraQuestProperties
@@ -17,6 +18,7 @@
 ---@field overrideTakeOverPitch Float
 ---@field overrideTakeOverRotation Float
 SurveillanceCameraControllerPS = {}
+
 
 ---@param fields? SurveillanceCameraControllerPS
 ---@return SurveillanceCameraControllerPS

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class sampleStylesGameController: gameuiWidgetGameController
 ---@field stateText inkTextWidget
 ---@field button1Controller inkButtonController
 ---@field button2Controller inkButtonController
 sampleStylesGameController = {}
+
 
 ---@param fields? sampleStylesGameController
 ---@return sampleStylesGameController

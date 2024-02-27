@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIESharedVarDefinitionType: Enum
 ---@field SVInt Enum 0
 ---@field SVFloat Enum 1

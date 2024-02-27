@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class questPuppetsKill: questPuppetsEffector
 questPuppetsKill = {}
+
 
 ---@param fields? questPuppetsKill
 ---@return questPuppetsKill

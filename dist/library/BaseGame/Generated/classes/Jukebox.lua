@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Jukebox: InteractiveDevice
 ---@field uiComponentBig IWorldWidgetComponent
 Jukebox = {}
+
 
 ---@param fields? Jukebox
 ---@return Jukebox

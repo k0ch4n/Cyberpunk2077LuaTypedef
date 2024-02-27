@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ToggleMaterialOverlayEffector: gameEffector
 ---@field effectPath String
 ---@field effectTag CName
 ---@field owner gameObject
 ToggleMaterialOverlayEffector = {}
+
 
 ---@param fields? ToggleMaterialOverlayEffector
 ---@return ToggleMaterialOverlayEffector

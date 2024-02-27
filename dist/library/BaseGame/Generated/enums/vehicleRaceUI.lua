@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleRaceUI: Enum
 ---@field PreRaceSetup Enum 0
 ---@field CountdownStart Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Confess: Pay
 Confess = {}
+
 
 ---@param fields? Confess
 ---@return Confess

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnlocLocStoreEmbeddedVariantDescriptorEntry
 ---@field variantId scnlocVariantId
 ---@field locstringId scnlocLocstringId
@@ -7,6 +8,7 @@
 ---@field signature scnlocSignature
 ---@field vpeIndex Uint32
 scnlocLocStoreEmbeddedVariantDescriptorEntry = {}
+
 
 ---@param fields? scnlocLocStoreEmbeddedVariantDescriptorEntry
 ---@return scnlocLocStoreEmbeddedVariantDescriptorEntry

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataDefenseMode: Enum
 ---@field DefendAll Enum 0
 ---@field DefendMelee Enum 1

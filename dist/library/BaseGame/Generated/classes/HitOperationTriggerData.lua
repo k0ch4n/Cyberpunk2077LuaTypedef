@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HitOperationTriggerData: DeviceOperationTriggerData
 ---@field isAttackerPlayer Bool
 ---@field isAttackerNPC Bool
@@ -8,6 +9,7 @@
 ---@field melee Bool
 ---@field healthPercentage Float
 HitOperationTriggerData = {}
+
 
 ---@param fields? HitOperationTriggerData
 ---@return HitOperationTriggerData

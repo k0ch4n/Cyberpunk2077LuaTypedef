@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiMinimapStealthMappinController: gameuiBaseMinimapMappinController
 ---@field visionConeWidget inkImageWidgetReference
 ---@field stealthMappin gamemappinsStealthMappin
@@ -49,6 +50,7 @@
 ---@field alertedAnim inkanimProxy
 ---@field preventionAnimProxy inkanimProxy
 gameuiMinimapStealthMappinController = {}
+
 
 ---@param fields? gameuiMinimapStealthMappinController
 ---@return gameuiMinimapStealthMappinController

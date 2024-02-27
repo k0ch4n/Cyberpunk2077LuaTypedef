@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class RoboticArms: InteractiveDevice
 ---@field workSFX CName
 ---@field distractSFX CName
 ---@field animationController entAnimationControllerComponent
 ---@field animFeature AnimFeature_RoboticArm
 RoboticArms = {}
+
 
 ---@param fields? RoboticArms
 ---@return RoboticArms

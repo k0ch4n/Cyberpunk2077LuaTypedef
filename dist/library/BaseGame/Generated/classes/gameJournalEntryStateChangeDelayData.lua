@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalEntryStateChangeDelayData
 ---@field entryPath gameJournalPath
 ---@field entryType CName
@@ -9,6 +10,7 @@
 ---@field changeType gameJournalChangeType
 ---@field delay Float
 gameJournalEntryStateChangeDelayData = {}
+
 
 ---@param fields? gameJournalEntryStateChangeDelayData
 ---@return gameJournalEntryStateChangeDelayData

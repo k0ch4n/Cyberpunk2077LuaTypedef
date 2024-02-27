@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsFriendlyToPlayer: AIAutonomousConditions
 IsFriendlyToPlayer = {}
+
 
 ---@param fields? IsFriendlyToPlayer
 ---@return IsFriendlyToPlayer

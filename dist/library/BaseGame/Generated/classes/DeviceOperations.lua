@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DeviceOperations: IScriptable
 ---@field components entIPlacedComponent[]
 ---@field fxInstances SVfxInstanceData[]
 DeviceOperations = {}
+
 
 ---@param operationID Int32
 ---@return nil

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AIbehaviorRecalculateVehicleWorkspotPositionTaskDefinition: AIbehaviorTaskDefinition
 ---@field mountData AIArgumentMapping
 ---@field workspotData AIArgumentMapping
 AIbehaviorRecalculateVehicleWorkspotPositionTaskDefinition = {}
+
 
 ---@param fields? AIbehaviorRecalculateVehicleWorkspotPositionTaskDefinition
 ---@return AIbehaviorRecalculateVehicleWorkspotPositionTaskDefinition

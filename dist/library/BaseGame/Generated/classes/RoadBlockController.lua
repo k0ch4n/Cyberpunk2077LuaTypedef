@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RoadBlockController: ScriptableDeviceComponent
 RoadBlockController = {}
+
 
 ---@param fields? RoadBlockController
 ---@return RoadBlockController

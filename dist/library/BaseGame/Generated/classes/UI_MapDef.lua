@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class UI_MapDef: gamebbScriptDefinition
 ---@field currentLocation gamebbScriptID_String
 ---@field currentLocationEnumName gamebbScriptID_String
 ---@field newLocationDiscovered gamebbScriptID_Bool
 ---@field currentState gamebbScriptID_String
 UI_MapDef = {}
+
 
 ---@param fields? UI_MapDef
 ---@return UI_MapDef

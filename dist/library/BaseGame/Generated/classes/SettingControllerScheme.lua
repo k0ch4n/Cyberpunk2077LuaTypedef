@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SettingControllerScheme: inkWidgetLogicController
 ---@field tabRootRef inkWidgetReference
 ---@field inputTab inkWidgetReference
@@ -7,6 +8,7 @@
 ---@field braindanceTab inkWidgetReference
 ---@field tabRoot TabRadioGroup
 SettingControllerScheme = {}
+
 
 ---@param fields? SettingControllerScheme
 ---@return SettingControllerScheme

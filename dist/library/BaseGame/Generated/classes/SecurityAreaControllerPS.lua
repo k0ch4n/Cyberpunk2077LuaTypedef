@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SecurityAreaControllerPS: MasterControllerPS
 ---@field system SecuritySystemControllerPS
 ---@field usersInPerimeter AreaEntry[]
@@ -15,6 +16,7 @@
 ---@field hasThisAreaReceivedCombatNotification Bool
 ---@field pendingNotifyPlayerAboutTransition Bool
 SecurityAreaControllerPS = {}
+
 
 ---@param fields? SecurityAreaControllerPS
 ---@return SecurityAreaControllerPS

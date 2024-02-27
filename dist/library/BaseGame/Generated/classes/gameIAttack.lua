@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameIAttack: IScriptable
 gameIAttack = {}
+
 
 ---@param context gameAttackInitContext
 ---@return gameIAttack

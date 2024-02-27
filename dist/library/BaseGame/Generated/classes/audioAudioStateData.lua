@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAudioStateData
 ---@field stateName CName
 ---@field enterEvent CName
@@ -9,6 +10,7 @@
 ---@field interruptionSources CName[]
 ---@field writeVariableActions audioAudioSceneVariableWriteActionData[]
 audioAudioStateData = {}
+
 
 ---@param fields? audioAudioStateData
 ---@return audioAudioStateData

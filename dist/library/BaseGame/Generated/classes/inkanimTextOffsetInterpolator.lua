@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkanimTextOffsetInterpolator: inkanimTextInterpolator
 inkanimTextOffsetInterpolator = {}
+
 
 ---@param fields? inkanimTextOffsetInterpolator
 ---@return inkanimTextOffsetInterpolator

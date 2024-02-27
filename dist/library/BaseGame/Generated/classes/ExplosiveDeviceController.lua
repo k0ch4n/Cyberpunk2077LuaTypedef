@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ExplosiveDeviceController: BasicDistractionDeviceController
 ExplosiveDeviceController = {}
+
 
 ---@param fields? ExplosiveDeviceController
 ---@return ExplosiveDeviceController

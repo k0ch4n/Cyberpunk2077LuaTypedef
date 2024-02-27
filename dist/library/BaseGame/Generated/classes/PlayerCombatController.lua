@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerCombatController: IScriptable
 ---@field gameplayActiveFlagsRefreshPolicy PlayerCombatControllerRefreshPolicy
 ---@field blackboardIds PlayerCombatControllerBBIds
@@ -11,6 +12,7 @@
 ---@field otherVars PlayerCombatControllerOtherVars
 ---@field owner gameObject
 PlayerCombatController = {}
+
 
 ---@param fields? PlayerCombatController
 ---@return PlayerCombatController

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class NetworkMinigameAnimatedElementController: NetworkMinigameElementController
 ---@field onConsumeAnimation CName
 ---@field onSetContentAnimation CName
 ---@field onHighlightOnAnimation CName
 ---@field onHighlightOffAnimation CName
 NetworkMinigameAnimatedElementController = {}
+
 
 ---@param fields? NetworkMinigameAnimatedElementController
 ---@return NetworkMinigameAnimatedElementController

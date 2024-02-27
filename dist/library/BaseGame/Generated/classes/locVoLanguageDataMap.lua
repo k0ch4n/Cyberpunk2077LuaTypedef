@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class locVoLanguageDataMap: ISerializable
 ---@field entries locVoLanguageDataEntry[]
 locVoLanguageDataMap = {}
+
 
 ---@param fields? locVoLanguageDataMap
 ---@return locVoLanguageDataMap

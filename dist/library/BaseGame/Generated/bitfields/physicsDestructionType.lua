@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@enum physicsDestructionType
 physicsDestructionType = {
     DT_PhysicalNode = 0x1,

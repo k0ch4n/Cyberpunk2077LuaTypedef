@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ForceWalkEvents: LocomotionGroundEvents
 ---@field storedSpeedValue Float
 ForceWalkEvents = {}
+
 
 ---@param fields? ForceWalkEvents
 ---@return ForceWalkEvents

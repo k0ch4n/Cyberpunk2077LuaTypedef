@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HaveScavengeTargets: AIbehaviorconditionScript
 HaveScavengeTargets = {}
+
 
 ---@param fields? HaveScavengeTargets
 ---@return HaveScavengeTargets

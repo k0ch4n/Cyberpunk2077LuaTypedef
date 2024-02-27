@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GameObjectListener: IScriptable
 ---@field prereqOwner gamePrereqState
 ---@field e3HackBlock Bool
 GameObjectListener = {}
+
 
 ---@param fields? GameObjectListener
 ---@return GameObjectListener

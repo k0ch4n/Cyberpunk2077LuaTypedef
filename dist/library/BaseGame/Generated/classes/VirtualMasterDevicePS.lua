@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class VirtualMasterDevicePS: ScriptableDeviceComponentPS
 ---@field owner IScriptable
 ---@field globalActions gamedeviceAction[]
 ---@field context gameGetActionsContext
 ---@field connectedDevices gameDeviceComponentPS[]
 VirtualMasterDevicePS = {}
+
 
 ---@param fields? VirtualMasterDevicePS
 ---@return VirtualMasterDevicePS

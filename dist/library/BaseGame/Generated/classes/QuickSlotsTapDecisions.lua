@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickSlotsTapDecisions: QuickSlotsDecisions
 QuickSlotsTapDecisions = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class Codeware_UI_CustomPopup: Codeware_UI_inkCustomController
 ---@field notificationData inkGameNotificationData
 ---@field notificationToken inkGameNotificationToken
 ---@field transitionAnimProxy inkanimProxy
 ---@field closeAction CName
 Codeware_UI_CustomPopup = {}
+
 
 ---@return nil
 function Codeware_UI_CustomPopup:OnAttach() end

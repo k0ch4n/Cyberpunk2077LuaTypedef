@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class sampleUIAnchorController: inkWidgetLogicController
 ---@field rectangleAnchor inkRectangleWidgetReference
 sampleUIAnchorController = {}
+
 
 ---@param fields? sampleUIAnchorController
 ---@return sampleUIAnchorController

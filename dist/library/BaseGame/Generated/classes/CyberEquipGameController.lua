@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CyberEquipGameController: ArmorEquipGameController
 ---@field eyesTags CName[]
 ---@field brainTags CName[]
@@ -15,6 +16,7 @@
 ---@field weaponsQuickSlotTags CName[]
 ---@field fragmentTags CName[]
 CyberEquipGameController = {}
+
 
 ---@param fields? CyberEquipGameController
 ---@return CyberEquipGameController

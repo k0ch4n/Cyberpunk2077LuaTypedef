@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EntitiesAtGate: MorphData
 ---@field entitiesAtGate entEntityID[]
 EntitiesAtGate = {}
+
 
 ---@param fields? EntitiesAtGate
 ---@return EntitiesAtGate

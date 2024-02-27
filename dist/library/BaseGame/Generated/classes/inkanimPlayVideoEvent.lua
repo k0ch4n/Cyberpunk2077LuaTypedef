@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkanimPlayVideoEvent: inkanimEvent
 ---@field videoResource Bink
 inkanimPlayVideoEvent = {}
+
 
 ---@param fields? inkanimPlayVideoEvent
 ---@return inkanimPlayVideoEvent

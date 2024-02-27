@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DoorResaveData
 ---@field doorType EDoorType
 ---@field canPlayerToggleLockState Bool
@@ -8,6 +9,7 @@
 ---@field keycardName TweakDBID
 ---@field passcode CName
 DoorResaveData = {}
+
 
 ---@param fields? DoorResaveData
 ---@return DoorResaveData

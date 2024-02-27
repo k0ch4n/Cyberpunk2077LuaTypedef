@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WeaponChargeStatListener: gameCustomValueStatPoolsListener
 ---@field weapon gameweaponObject
 WeaponChargeStatListener = {}
+
 
 ---@param fields? WeaponChargeStatListener
 ---@return WeaponChargeStatListener

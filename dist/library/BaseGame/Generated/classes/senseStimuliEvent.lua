@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class senseStimuliEvent: senseBaseStimuliEvent
 ---@field sourceObject gameObject
 ---@field stimInvestigateData senseStimInvestigateData
@@ -14,6 +15,7 @@
 ---@field purelyDirect Bool
 ---@field id Uint32
 senseStimuliEvent = {}
+
 
 ---@param fields? senseStimuliEvent
 ---@return senseStimuliEvent

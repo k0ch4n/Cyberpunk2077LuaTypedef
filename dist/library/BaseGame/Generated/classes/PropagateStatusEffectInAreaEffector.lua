@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PropagateStatusEffectInAreaEffector: ApplyEffectToDismemberedEffector
 ---@field statusEffect TweakDBID
 ---@field range Float
@@ -7,6 +8,7 @@
 ---@field applicationTarget CName
 ---@field propagateToInstigator Bool
 PropagateStatusEffectInAreaEffector = {}
+
 
 ---@param fields? PropagateStatusEffectInAreaEffector
 ---@return PropagateStatusEffectInAreaEffector

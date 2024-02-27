@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAcousticsEmitterMetadata: audioEmitterMetadata
 ---@field obstuctionEnabled Bool
 ---@field occlusionEnabled Bool
@@ -12,6 +13,7 @@
 ---@field elevateSource Bool
 ---@field leakingFloorHack Bool
 audioAcousticsEmitterMetadata = {}
+
 
 ---@param fields? audioAcousticsEmitterMetadata
 ---@return audioAcousticsEmitterMetadata

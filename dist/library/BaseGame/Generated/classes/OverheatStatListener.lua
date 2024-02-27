@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class OverheatStatListener: gameScriptStatPoolsListener
 ---@field weapon gameweaponObject
 ---@field updateEvt UpdateOverheatEvent
 ---@field startEvt StartOverheatEffectEvent
 OverheatStatListener = {}
+
 
 ---@param fields? OverheatStatListener
 ---@return OverheatStatListener

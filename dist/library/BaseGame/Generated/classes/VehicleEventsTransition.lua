@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class VehicleEventsTransition: VehicleTransition
 ---@field isCameraTogglePressed Bool
 ---@field cameraToggleHoldToResetTimeSeconds Float
 VehicleEventsTransition = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

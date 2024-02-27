@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ScannerChunk: IScriptable
 ScannerChunk = {}
+
 
 ---@param fields? ScannerChunk
 ---@return ScannerChunk

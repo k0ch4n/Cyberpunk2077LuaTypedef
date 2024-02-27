@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldProxyCoreAxis: Enum
 ---@field X Enum 0
 ---@field Y Enum 1

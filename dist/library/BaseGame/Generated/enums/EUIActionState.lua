@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EUIActionState: Enum
 ---@field Invalid Enum 0
 ---@field DEFAULT Enum 1

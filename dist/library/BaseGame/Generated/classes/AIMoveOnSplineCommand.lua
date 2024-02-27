@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIMoveOnSplineCommand: AIMoveCommand
 ---@field spline NodeRef
 ---@field movementType AIMovementTypeSpec
@@ -32,6 +33,7 @@
 ---@field noWaitToEndCompanionDistance Float
 ---@field maxCompanionDistanceOnSpline Float
 AIMoveOnSplineCommand = {}
+
 
 ---@param fields? AIMoveOnSplineCommand
 ---@return AIMoveOnSplineCommand

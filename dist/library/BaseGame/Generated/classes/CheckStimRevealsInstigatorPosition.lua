@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CheckStimRevealsInstigatorPosition: AIbehaviorconditionScript
 ---@field checkStimType Bool
 ---@field stimType gamedataStimType
 CheckStimRevealsInstigatorPosition = {}
+
 
 ---@param fields? CheckStimRevealsInstigatorPosition
 ---@return CheckStimRevealsInstigatorPosition

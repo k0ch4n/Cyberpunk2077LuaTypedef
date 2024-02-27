@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionDisableCollider_Record_Implementation: IScriptable
 AISubActionDisableCollider_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionDisableCollider_Record

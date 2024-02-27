@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiCrosshairContainerController: gameuiHUDGameController
 ---@field defaultCrosshair TweakDBID
 ---@field bbUIData gameIBlackboard
@@ -21,6 +22,7 @@
 ---@field Player PlayerPuppet
 ---@field HiddenTextCanvas inkWidgetReference
 gameuiCrosshairContainerController = {}
+
 
 ---@param fields? gameuiCrosshairContainerController
 ---@return gameuiCrosshairContainerController

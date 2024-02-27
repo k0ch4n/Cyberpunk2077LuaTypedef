@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkLoadingLayer: inkFullScreenLayer
 inkLoadingLayer = {}
+
 
 ---@param fields? inkLoadingLayer
 ---@return inkLoadingLayer

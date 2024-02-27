@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInventoryItemGrenadeData: IScriptable
 ---@field Type GrenadeDamageType
 ---@field Range Float
@@ -13,6 +14,7 @@
 ---@field TotalDamage Float
 ---@field Player PlayerPuppet
 UIInventoryItemGrenadeData = {}
+
 
 ---@param fields? UIInventoryItemGrenadeData
 ---@return UIInventoryItemGrenadeData

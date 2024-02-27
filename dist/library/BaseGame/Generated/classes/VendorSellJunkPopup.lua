@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VendorSellJunkPopup: gameuiWidgetGameController
 ---@field itemNameText inkTextWidgetReference
 ---@field buttonHintsRoot inkWidgetReference
@@ -22,6 +23,7 @@
 ---@field libraryPath inkWidgetLibraryReference
 ---@field closeData VendorSellJunkPopupCloseData
 VendorSellJunkPopup = {}
+
 
 ---@param fields? VendorSellJunkPopup
 ---@return VendorSellJunkPopup

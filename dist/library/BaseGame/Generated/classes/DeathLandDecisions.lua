@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeathLandDecisions: FailedLandingAbstractDecisions
 DeathLandDecisions = {}
+
 
 ---@param fields? DeathLandDecisions
 ---@return DeathLandDecisions

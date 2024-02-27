@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataMappinsGroup_Record: gamedataTweakDBRecord
 gamedataMappinsGroup_Record = {}
+
 
 ---@param fields? gamedataMappinsGroup_Record
 ---@return gamedataMappinsGroup_Record

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AIVehicleAgent: AICAgent
 ---@field keepStrategyOnSearch Bool
 ---@field initCmd AIVehicleCommand
 AIVehicleAgent = {}
+
 
 ---@param fields? AIVehicleAgent
 ---@return AIVehicleAgent

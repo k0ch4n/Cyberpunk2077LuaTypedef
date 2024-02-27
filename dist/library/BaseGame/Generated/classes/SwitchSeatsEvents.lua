@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SwitchSeatsEvents: VehicleEventsTransition
 ---@field workspotSystem gameWorkspotGameSystem
 ---@field enabledSceneMode Bool
 SwitchSeatsEvents = {}
+
 
 ---@param fields? SwitchSeatsEvents
 ---@return SwitchSeatsEvents

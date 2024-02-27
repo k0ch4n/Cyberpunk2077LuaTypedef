@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareChargeDecisions: LeftHandCyberwareTransition
 LeftHandCyberwareChargeDecisions = {}
+
 
 ---@param fields? LeftHandCyberwareChargeDecisions
 ---@return LeftHandCyberwareChargeDecisions

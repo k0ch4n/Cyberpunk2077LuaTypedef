@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class entSimpleColliderComponent: entIPlacedComponent
 ---@field isEnabled Bool
 ---@field colliders physicsICollider[]
 ---@field filter physicsFilterData
 ---@field compiledBuffer DataBuffer
 entSimpleColliderComponent = {}
+
 
 ---@param fields? entSimpleColliderComponent
 ---@return entSimpleColliderComponent

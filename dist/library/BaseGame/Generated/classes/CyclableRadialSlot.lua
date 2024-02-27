@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CyclableRadialSlot: WeaponRadialSlot
 ---@field leftArrowEmpty inkWidgetReference
 ---@field leftArrowFull inkWidgetReference
@@ -10,6 +11,7 @@
 ---@field wasCyclingRight Bool
 ---@field hotkey gameEHotkey
 CyclableRadialSlot = {}
+
 
 ---@param fields? CyclableRadialSlot
 ---@return CyclableRadialSlot

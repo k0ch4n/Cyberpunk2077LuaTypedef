@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataRecipeElement_Record: gamedataTweakDBRecord
 gamedataRecipeElement_Record = {}
+
 
 ---@param fields? gamedataRecipeElement_Record
 ---@return gamedataRecipeElement_Record

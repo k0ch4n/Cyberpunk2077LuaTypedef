@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CustomValueFromMappingTimeout: AITimeoutCondition
 ---@field actionTweakIDMapping AIArgumentMapping
 CustomValueFromMappingTimeout = {}
+
 
 ---@param fields? CustomValueFromMappingTimeout
 ---@return CustomValueFromMappingTimeout

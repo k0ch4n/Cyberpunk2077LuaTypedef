@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class WeakFenceControllerPS: ScriptableDeviceComponentPS
 ---@field weakfenceSkillChecks EngDemoContainer
 ---@field weakFenceSetup WeakFenceSetup
 WeakFenceControllerPS = {}
+
 
 ---@param fields? WeakFenceControllerPS
 ---@return WeakFenceControllerPS

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendScreenshotBatchData
 ---@field batchPositionsPath AbsolutePathSerializable
 ---@field delayTime Float
@@ -7,6 +8,7 @@
 ---@field mergeScreenshots Bool
 ---@field streamingObserverMode rendEStreamingObserverMode
 rendScreenshotBatchData = {}
+
 
 ---@param fields? rendScreenshotBatchData
 ---@return rendScreenshotBatchData

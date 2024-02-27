@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ImmediateNotificationListener: IScriptable
 ImmediateNotificationListener = {}
+
 
 ---@param message Int32
 ---@param id Uint64

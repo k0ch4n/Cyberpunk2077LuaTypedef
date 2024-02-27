@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameDeviceComponentPS: gameComponentPS
 ---@field markAsQuest Bool
 ---@field autoToggleQuestMark Bool
@@ -16,6 +17,7 @@
 ---@field isLogicReady Bool
 ---@field maxDevicesToExtractInOneFrame Int32
 gameDeviceComponentPS = {}
+
 
 ---@param fields? gameDeviceComponentPS
 ---@return gameDeviceComponentPS

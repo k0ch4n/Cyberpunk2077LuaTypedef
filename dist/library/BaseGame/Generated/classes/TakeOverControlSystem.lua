@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class TakeOverControlSystem: gameScriptableSystem
 ---@field controlledObject gameObject
 ---@field takeControlSourceID entEntityID
@@ -16,6 +17,7 @@
 ---@field sniperNestObject gameObject
 ---@field timestampLastTCS Float
 TakeOverControlSystem = {}
+
 
 ---@param fields? TakeOverControlSystem
 ---@return TakeOverControlSystem

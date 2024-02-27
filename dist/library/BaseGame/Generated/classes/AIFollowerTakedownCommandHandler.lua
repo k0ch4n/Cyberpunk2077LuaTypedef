@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIFollowerTakedownCommandHandler: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 AIFollowerTakedownCommandHandler = {}
+
 
 ---@param fields? AIFollowerTakedownCommandHandler
 ---@return AIFollowerTakedownCommandHandler

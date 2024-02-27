@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataEffectorTimeDilationDriver: Enum
 ---@field Source Enum 0
 ---@field Target Enum 1

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class scnInterruptManagerNode: scnSceneGraphNode
 ---@field interruptionOperations scnIInterruptionOperation[]
 scnInterruptManagerNode = {}
+
 
 ---@param fields? scnInterruptManagerNode
 ---@return scnInterruptManagerNode

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class grsDeathmatchPlayerGameInfo
 ---@field peerID netPeerID
 ---@field isInGame Bool
@@ -9,6 +10,7 @@
 ---@field deathCount Uint32
 ---@field lastShooter netPeerID
 grsDeathmatchPlayerGameInfo = {}
+
 
 ---@param fields? grsDeathmatchPlayerGameInfo
 ---@return grsDeathmatchPlayerGameInfo

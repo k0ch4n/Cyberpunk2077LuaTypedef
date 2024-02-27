@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDeviceLoaded: redEvent
 gameDeviceLoaded = {}
+
 
 ---@param fields? gameDeviceLoaded
 ---@return gameDeviceLoaded

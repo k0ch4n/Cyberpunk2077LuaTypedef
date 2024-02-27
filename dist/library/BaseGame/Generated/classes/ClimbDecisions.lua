@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ClimbDecisions: LocomotionGroundDecisions
 ---@field stateBodyDone Bool
 ClimbDecisions = {}
+
 
 ---@param fields? ClimbDecisions
 ---@return ClimbDecisions

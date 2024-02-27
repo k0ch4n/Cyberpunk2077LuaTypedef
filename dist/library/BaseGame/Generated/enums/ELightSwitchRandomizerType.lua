@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ELightSwitchRandomizerType: Enum
 ---@field RANDOM Enum 0
 ---@field RANDOM_PROGRESSIVE Enum 1

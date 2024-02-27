@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questPlayerLookAt_NodeType: questISceneManagerNodeType
 ---@field useOffsetToPlayer Bool
 ---@field objectRef gameEntityReference
@@ -17,6 +18,7 @@
 ---@field easeIn Bool
 ---@field easeOut Bool
 questPlayerLookAt_NodeType = {}
+
 
 ---@param fields? questPlayerLookAt_NodeType
 ---@return questPlayerLookAt_NodeType

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ConsumableChargesPrereqListener: gameScriptStatPoolsListener
 ---@field state ConsumableChargesPrereqState
 ConsumableChargesPrereqListener = {}
+
 
 ---@param fields? ConsumableChargesPrereqListener
 ---@return ConsumableChargesPrereqListener

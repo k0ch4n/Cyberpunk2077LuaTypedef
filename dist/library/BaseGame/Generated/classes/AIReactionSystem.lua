@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIReactionSystem: AIIReactionSystem
 AIReactionSystem = {}
+
 
 ---@param fields? AIReactionSystem
 ---@return AIReactionSystem

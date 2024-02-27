@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVendorCraftable_Record: gamedataVendorWare_Record
 gamedataVendorCraftable_Record = {}
+
 
 ---@param fields? gamedataVendorCraftable_Record
 ---@return gamedataVendorCraftable_Record

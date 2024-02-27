@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIMixingOutputSystemSquadAudioMember: AISquadAudioMemberBase
 AIMixingOutputSystemSquadAudioMember = {}
+
 
 ---@param fields? AIMixingOutputSystemSquadAudioMember
 ---@return AIMixingOutputSystemSquadAudioMember

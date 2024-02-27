@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NetworkMinigameVisualController: inkWidgetLogicController
 ---@field gridContainer inkCompoundWidgetReference
 ---@field middleVideoContainer inkVideoWidgetReference
@@ -33,6 +34,7 @@
 ---@field bufferAnimProxy inkanimProxy
 ---@field fillProgress inkanimDefinition
 NetworkMinigameVisualController = {}
+
 
 ---@param fields? NetworkMinigameVisualController
 ---@return NetworkMinigameVisualController

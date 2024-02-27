@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiForcePlayerCustomizationData
 ---@field customizationPart gameuiCharacterCustomizationPart
 ---@field uiSlot CName
@@ -9,6 +10,7 @@
 ---@field definitionUiSlot CName
 ---@field definition CName
 gameuiForcePlayerCustomizationData = {}
+
 
 ---@param fields? gameuiForcePlayerCustomizationData
 ---@return gameuiForcePlayerCustomizationData

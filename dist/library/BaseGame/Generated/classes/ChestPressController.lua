@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ChestPressController: ScriptableDeviceComponent
 ChestPressController = {}
+
 
 ---@param fields? ChestPressController
 ---@return ChestPressController

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class InspectableObjectComponentPS: gameComponentPS
 ---@field isStarted Bool
 ---@field isFinished Bool
 ---@field listeners questObjectInspectListener[]
 InspectableObjectComponentPS = {}
+
 
 ---@param fields? InspectableObjectComponentPS
 ---@return InspectableObjectComponentPS

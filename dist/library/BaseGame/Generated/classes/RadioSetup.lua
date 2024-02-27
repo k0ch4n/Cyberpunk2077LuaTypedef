@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RadioSetup
 ---@field randomizeStartingStation Bool
 ---@field startingStation ERadioStationList
@@ -13,6 +14,7 @@
 ---@field AoeDamageSFX CName
 ---@field AoeDamageVFX gameFxResource
 RadioSetup = {}
+
 
 ---@param fields? RadioSetup
 ---@return RadioSetup

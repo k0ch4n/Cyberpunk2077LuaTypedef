@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gametargetingSystemHitInfo
 ---@field queryMask Uint64
 ---@field entityId entEntityID
@@ -9,6 +10,7 @@
 ---@field closestHitPosition Vector4
 ---@field isTransparent Bool
 gametargetingSystemHitInfo = {}
+
 
 ---@param fields? gametargetingSystemHitInfo
 ---@return gametargetingSystemHitInfo

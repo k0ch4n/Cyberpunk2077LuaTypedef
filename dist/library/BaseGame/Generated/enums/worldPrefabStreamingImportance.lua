@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldPrefabStreamingImportance: Enum
 ---@field Auto Enum 0
 ---@field P1 Enum 1

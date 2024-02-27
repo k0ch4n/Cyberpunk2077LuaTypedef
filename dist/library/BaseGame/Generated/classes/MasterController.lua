@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MasterController: ScriptableDeviceComponent
 MasterController = {}
+
 
 ---@param fields? MasterController
 ---@return MasterController

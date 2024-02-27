@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISmartCoverManager: AIISmartCoverManager
 AISmartCoverManager = {}
+
 
 ---@param fields? AISmartCoverManager
 ---@return AISmartCoverManager

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVendorExperience_Record: gamedataVendorWare_Record
 gamedataVendorExperience_Record = {}
+
 
 ---@param fields? gamedataVendorExperience_Record
 ---@return gamedataVendorExperience_Record

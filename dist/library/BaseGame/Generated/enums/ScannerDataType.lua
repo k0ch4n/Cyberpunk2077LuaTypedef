@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerDataType: Enum
 ---@field None Enum 0
 ---@field Name Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SceneCustomData_ColorFadeParams: ISceneStorageCustomData
 SceneCustomData_ColorFadeParams = {}
+
 
 ---@param fields? SceneCustomData_ColorFadeParams
 ---@return SceneCustomData_ColorFadeParams

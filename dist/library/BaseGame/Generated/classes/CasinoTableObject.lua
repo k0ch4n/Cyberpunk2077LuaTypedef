@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CasinoTableObject: gameObject
 CasinoTableObject = {}
+
 
 ---@param fields? CasinoTableObject
 ---@return CasinoTableObject

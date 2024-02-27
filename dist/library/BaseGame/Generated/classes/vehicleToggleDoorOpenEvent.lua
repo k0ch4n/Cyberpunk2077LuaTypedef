@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleToggleDoorOpenEvent: redEvent
 vehicleToggleDoorOpenEvent = {}
+
 
 ---@param fields? vehicleToggleDoorOpenEvent
 ---@return vehicleToggleDoorOpenEvent

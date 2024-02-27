@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameLadderObject: gameObject
 ---@field heightOfBottomPart Float
 ---@field exitStepTop Float
@@ -10,6 +11,7 @@
 ---@field verticalStepJump Float
 ---@field enterOffset Float
 gameLadderObject = {}
+
 
 ---@param fields? gameLadderObject
 ---@return gameLadderObject

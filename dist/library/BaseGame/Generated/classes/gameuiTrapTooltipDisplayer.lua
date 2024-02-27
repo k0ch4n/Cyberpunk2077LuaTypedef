@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameuiTrapTooltipDisplayer: inkWidgetLogicController
 ---@field trap gamedataMiniGame_Trap_Record
 ---@field delayDuration Float
 ---@field animationProxy inkanimProxy
 gameuiTrapTooltipDisplayer = {}
+
 
 ---@param fields? gameuiTrapTooltipDisplayer
 ---@return gameuiTrapTooltipDisplayer

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PulseAnimation: IScriptable
 ---@field root inkWidget
 ---@field anim inkanimProxy
@@ -8,6 +9,7 @@
 ---@field time Float
 ---@field delay Float
 PulseAnimation = {}
+
 
 ---@param fields? PulseAnimation
 ---@return PulseAnimation

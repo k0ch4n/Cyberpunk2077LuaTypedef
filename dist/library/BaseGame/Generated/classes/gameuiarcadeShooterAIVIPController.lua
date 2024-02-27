@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiarcadeShooterAIVIPController: gameuiarcadeShooterAIController
 gameuiarcadeShooterAIVIPController = {}
+
 
 ---@param fields? gameuiarcadeShooterAIVIPController
 ---@return gameuiarcadeShooterAIVIPController

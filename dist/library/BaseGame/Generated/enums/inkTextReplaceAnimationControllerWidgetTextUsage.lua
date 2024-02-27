@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkTextReplaceAnimationControllerWidgetTextUsage: Enum
 ---@field BaseText Enum 0
 ---@field TargetText Enum 1

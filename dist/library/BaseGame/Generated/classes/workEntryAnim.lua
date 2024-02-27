@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class workEntryAnim: workIEntry
 ---@field animName CName
 ---@field idleAnim CName
@@ -10,6 +11,7 @@
 ---@field syncOffset Transform
 ---@field blendOutTime Float
 workEntryAnim = {}
+
 
 ---@param fields? workEntryAnim
 ---@return workEntryAnim

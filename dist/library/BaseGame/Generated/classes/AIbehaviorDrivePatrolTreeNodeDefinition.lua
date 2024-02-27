@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorDrivePatrolTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
 ---@field maxSpeed AIArgumentMapping
 ---@field minSpeed AIArgumentMapping
@@ -8,6 +9,7 @@
 ---@field numPatrolLoops AIArgumentMapping
 ---@field forcedStartSpeed AIArgumentMapping
 AIbehaviorDrivePatrolTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorDrivePatrolTreeNodeDefinition
 ---@return AIbehaviorDrivePatrolTreeNodeDefinition

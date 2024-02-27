@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class QuestRemoveTransition: redEvent
 ---@field removeTransitionFrom Int32
 QuestRemoveTransition = {}
+
 
 ---@param fields? QuestRemoveTransition
 ---@return QuestRemoveTransition

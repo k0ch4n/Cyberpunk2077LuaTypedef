@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetDroppedThreatLastKnowPosition: AIbehaviortaskScript
 SetDroppedThreatLastKnowPosition = {}
+
 
 ---@param fields? SetDroppedThreatLastKnowPosition
 ---@return SetDroppedThreatLastKnowPosition

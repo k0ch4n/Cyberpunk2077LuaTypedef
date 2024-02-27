@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DelayedTooltipCall: gameDelaySystemScriptedDelayCallbackWrapper
 ---@field controller UpgradingScreenController
 DelayedTooltipCall = {}
+
 
 ---@param fields? DelayedTooltipCall
 ---@return DelayedTooltipCall

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class InputProgressView: inkWidgetLogicController
 ---@field TargetImage inkImageWidget
 ---@field ProgressPercent Int32
 ---@field PartName String
 InputProgressView = {}
+
 
 ---@param fields? InputProgressView
 ---@return InputProgressView

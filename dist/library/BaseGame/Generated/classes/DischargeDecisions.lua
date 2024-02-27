@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DischargeDecisions: WeaponTransition
 DischargeDecisions = {}
+
 
 ---@param fields? DischargeDecisions
 ---@return DischargeDecisions

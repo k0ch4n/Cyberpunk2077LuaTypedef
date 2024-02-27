@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EWeaponNamesList: Enum
 ---@field EWNL_PowerStreetRifle Enum 0
 ---@field EWNL_TechStreetShotgun Enum 1

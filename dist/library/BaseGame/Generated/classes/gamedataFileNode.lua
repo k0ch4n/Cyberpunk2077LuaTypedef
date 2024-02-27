@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataFileNode: gamedataDataNode
 ---@field packageName String
 ---@field packageDependencies gamedataPackageNode
@@ -7,6 +8,7 @@
 ---@field variables gamedataVariableNode[]
 ---@field groups gamedataGroupNode[]
 gamedataFileNode = {}
+
 
 ---@param fields? gamedataFileNode
 ---@return gamedataFileNode

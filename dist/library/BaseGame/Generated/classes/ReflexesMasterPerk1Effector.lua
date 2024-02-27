@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ReflexesMasterPerk1Effector: ModifyAttackEffector
 ---@field operationType EMathOperator
 ---@field value Float
@@ -8,6 +9,7 @@
 ---@field listener ReflexesMasterPerk1EffectorListener
 ---@field lastTargetID entEntityID
 ReflexesMasterPerk1Effector = {}
+
 
 ---@param fields? ReflexesMasterPerk1Effector
 ---@return ReflexesMasterPerk1Effector

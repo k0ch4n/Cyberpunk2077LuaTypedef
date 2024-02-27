@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class buffListItemLogicController: inkWidgetLogicController
 ---@field icon inkImageWidgetReference
 ---@field iconBg inkImageWidgetReference
@@ -10,6 +11,7 @@
 ---@field stackCounterContainer inkWidgetReference
 ---@field statusEffectRecord gamedataStatusEffect_Record
 buffListItemLogicController = {}
+
 
 ---@param fields? buffListItemLogicController
 ---@return buffListItemLogicController

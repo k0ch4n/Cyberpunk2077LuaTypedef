@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WorkspotDecisions: LocomotionGroundDecisions
 WorkspotDecisions = {}
+
 
 ---@param fields? WorkspotDecisions
 ---@return WorkspotDecisions

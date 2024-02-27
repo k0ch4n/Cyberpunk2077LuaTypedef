@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickMeleeDecisions: WeaponTransition
 QuickMeleeDecisions = {}
+
 
 ---@param fields? QuickMeleeDecisions
 ---@return QuickMeleeDecisions

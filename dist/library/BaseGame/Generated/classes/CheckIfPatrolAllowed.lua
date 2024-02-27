@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CheckIfPatrolAllowed: AIDebugConditions
 CheckIfPatrolAllowed = {}
+
 
 ---@param fields? CheckIfPatrolAllowed
 ---@return CheckIfPatrolAllowed

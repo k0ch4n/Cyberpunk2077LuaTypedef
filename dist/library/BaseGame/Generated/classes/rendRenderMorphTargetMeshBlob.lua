@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendRenderMorphTargetMeshBlob: IRenderResourceBlob
 ---@field header rendRenderMorphTargetMeshBlobHeader
 ---@field diffsBuffer DataBuffer
@@ -7,6 +8,7 @@
 ---@field textureDiffsBuffer serializationDeferredDataBuffer
 ---@field baseBlob IRenderResourceBlob
 rendRenderMorphTargetMeshBlob = {}
+
 
 ---@param fields? rendRenderMorphTargetMeshBlob
 ---@return rendRenderMorphTargetMeshBlob

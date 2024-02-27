@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectSystem: gameIEffectSystem
 gameEffectSystem = {}
+
 
 ---@param fields? gameEffectSystem
 ---@return gameEffectSystem

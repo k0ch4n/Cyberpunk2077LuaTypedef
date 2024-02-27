@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OpenWorldSystem: gameIGameSystem
 OpenWorldSystem = {}
+
 
 ---@param fields? OpenWorldSystem
 ---@return OpenWorldSystem

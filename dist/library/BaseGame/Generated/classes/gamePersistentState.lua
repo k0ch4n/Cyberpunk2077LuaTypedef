@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePersistentState: IScriptable
 gamePersistentState = {}
+
 
 ---@return nil
 function gamePersistentState:ForcePersistentStateChanged() end

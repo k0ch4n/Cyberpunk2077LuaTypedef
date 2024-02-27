@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ShardSyncBackEvent: redEvent
 ShardSyncBackEvent = {}
+
 
 ---@param fields? ShardSyncBackEvent
 ---@return ShardSyncBackEvent

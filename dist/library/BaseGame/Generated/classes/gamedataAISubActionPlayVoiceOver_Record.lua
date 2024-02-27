@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionPlayVoiceOver_Record: gamedataAISubAction_Record
 gamedataAISubActionPlayVoiceOver_Record = {}
+
 
 ---@param fields? gamedataAISubActionPlayVoiceOver_Record
 ---@return gamedataAISubActionPlayVoiceOver_Record

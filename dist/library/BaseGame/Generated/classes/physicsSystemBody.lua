@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsSystemBody: physicsISystemObject
 ---@field params physicsSystemBodyParams
 ---@field localToModel Transform
@@ -8,6 +9,7 @@
 ---@field mappedBoneToBody Transform
 ---@field isQueryBodyOnly Bool
 physicsSystemBody = {}
+
 
 ---@param fields? physicsSystemBody
 ---@return physicsSystemBody

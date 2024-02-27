@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entRenderToTextureFeatures
 ---@field renderDecals Bool
 ---@field renderParticles Bool
@@ -10,6 +11,7 @@
 ---@field SSAO entRenderToTextureFeaturesPlatform
 ---@field reflections entRenderToTextureFeaturesPlatform
 entRenderToTextureFeatures = {}
+
 
 ---@param fields? entRenderToTextureFeatures
 ---@return entRenderToTextureFeatures

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeactivateDevice: ActionBool
 DeactivateDevice = {}
+
 
 ---@param fields? DeactivateDevice
 ---@return DeactivateDevice

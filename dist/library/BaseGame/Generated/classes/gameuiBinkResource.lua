@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiBinkResource
 ---@field video Bink
 gameuiBinkResource = {}
+
 
 ---@param fields? gameuiBinkResource
 ---@return gameuiBinkResource

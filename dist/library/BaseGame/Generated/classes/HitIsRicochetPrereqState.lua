@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitIsRicochetPrereqState: GenericHitPrereqState
 HitIsRicochetPrereqState = {}
+
 
 ---@param fields? HitIsRicochetPrereqState
 ---@return HitIsRicochetPrereqState

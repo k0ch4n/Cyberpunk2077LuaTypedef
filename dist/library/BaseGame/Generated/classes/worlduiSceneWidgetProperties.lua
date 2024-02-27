@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worlduiSceneWidgetProperties
 ---@field projectionPlaneSize Vector2
 ---@field renderingPlane ERenderingPlane
@@ -11,6 +12,7 @@
 ---@field useCustomFaceVector Bool
 ---@field faceVector Vector3
 worlduiSceneWidgetProperties = {}
+
 
 ---@param fields? worlduiSceneWidgetProperties
 ---@return worlduiSceneWidgetProperties

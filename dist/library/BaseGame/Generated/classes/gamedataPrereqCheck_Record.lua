@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataPrereqCheck_Record: gamedataTweakDBRecord
 gamedataPrereqCheck_Record = {}
+
 
 ---@param fields? gamedataPrereqCheck_Record
 ---@return gamedataPrereqCheck_Record

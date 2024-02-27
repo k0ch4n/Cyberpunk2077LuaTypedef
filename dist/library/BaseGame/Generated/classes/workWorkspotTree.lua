@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class workWorkspotTree: ISerializable
 ---@field workspotRig animRig
 ---@field globalProps workWorkspotGlobalProp[]
@@ -29,6 +30,7 @@
 ---@field whitelistVisualTags redTagList
 ---@field blacklistVisualTags redTagList
 workWorkspotTree = {}
+
 
 ---@param fields? workWorkspotTree
 ---@return workWorkspotTree

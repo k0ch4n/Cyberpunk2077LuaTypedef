@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EnableColliderDelayEvent: DelayEvent
 EnableColliderDelayEvent = {}
+
 
 ---@param fields? EnableColliderDelayEvent
 ---@return EnableColliderDelayEvent

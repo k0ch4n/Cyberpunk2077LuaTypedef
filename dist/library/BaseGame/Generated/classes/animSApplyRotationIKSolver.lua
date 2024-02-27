@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animSApplyRotationIKSolver
 animSApplyRotationIKSolver = {}
+
 
 ---@param fields? animSApplyRotationIKSolver
 ---@return animSApplyRotationIKSolver

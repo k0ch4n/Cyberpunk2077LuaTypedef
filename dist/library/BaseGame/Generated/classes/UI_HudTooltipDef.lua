@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class UI_HudTooltipDef: gamebbScriptDefinition
 ---@field ItemId gamebbScriptID_Variant
 ---@field ShowTooltip gamebbScriptID_Bool
 UI_HudTooltipDef = {}
+
 
 ---@param fields? UI_HudTooltipDef
 ---@return UI_HudTooltipDef

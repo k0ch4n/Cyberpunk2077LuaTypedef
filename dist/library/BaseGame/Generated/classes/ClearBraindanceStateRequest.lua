@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ClearBraindanceStateRequest: gameScriptableSystemRequest
 ClearBraindanceStateRequest = {}
+
 
 ---@param fields? ClearBraindanceStateRequest
 ---@return ClearBraindanceStateRequest

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataGameplayAbility_Record: gamedataTweakDBRecord
 gamedataGameplayAbility_Record = {}
+
 
 ---@param fields? gamedataGameplayAbility_Record
 ---@return gamedataGameplayAbility_Record

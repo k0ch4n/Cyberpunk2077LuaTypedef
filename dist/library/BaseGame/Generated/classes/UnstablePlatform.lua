@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnstablePlatform: BaseAnimatedDevice
 UnstablePlatform = {}
+
 
 ---@param fields? UnstablePlatform
 ---@return UnstablePlatform

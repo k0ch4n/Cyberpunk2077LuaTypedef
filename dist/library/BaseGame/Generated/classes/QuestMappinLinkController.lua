@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestMappinLinkController: BaseCodexLinkController
 ---@field mappinEntry gameJournalQuestMapPinBase
 ---@field mappinEntryHash gameJournalQuestMapPinBase
@@ -7,6 +8,7 @@
 ---@field hash Int32
 ---@field isTracked Bool
 QuestMappinLinkController = {}
+
 
 ---@param fields? QuestMappinLinkController
 ---@return QuestMappinLinkController

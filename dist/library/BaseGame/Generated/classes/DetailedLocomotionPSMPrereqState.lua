@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class DetailedLocomotionPSMPrereqState: PlayerStateMachinePrereqState
 ---@field locomotionID gamebbScriptID_Int32
 ---@field playerAttachedCallbackID Uint32
 DetailedLocomotionPSMPrereqState = {}
+
 
 ---@param fields? DetailedLocomotionPSMPrereqState
 ---@return DetailedLocomotionPSMPrereqState

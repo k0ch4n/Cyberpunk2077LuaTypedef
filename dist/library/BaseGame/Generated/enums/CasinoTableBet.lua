@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CasinoTableBet: Enum
 ---@field none Enum 0
 ---@field on_0 Enum 1

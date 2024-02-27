@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class entEntityID
 ---@field hash Uint64
 entEntityID = {}
+
 
 ---@param fields? entEntityID
 ---@return entEntityID

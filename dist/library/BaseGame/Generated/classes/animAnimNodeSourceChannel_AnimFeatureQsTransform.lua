@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animAnimNodeSourceChannel_AnimFeatureQsTransform: animIAnimNodeSourceChannel_QsTransform
 animAnimNodeSourceChannel_AnimFeatureQsTransform = {}
+
 
 ---@param fields? animAnimNodeSourceChannel_AnimFeatureQsTransform
 ---@return animAnimNodeSourceChannel_AnimFeatureQsTransform

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PingDevice: ActionBool
 ---@field shouldForward Bool
 PingDevice = {}
+
 
 ---@param fields? PingDevice
 ---@return PingDevice

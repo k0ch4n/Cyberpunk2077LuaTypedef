@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleColorSelectorGameController: gameuiWidgetGameController
 ---@field rootContainerRef inkWidgetReference
 ---@field colorPaletteRef inkWidgetReference
@@ -66,6 +67,7 @@
 ---@field cachedNewColorB Color
 ---@field CloseReason vehicleColorSelectorMenuCloseReason
 vehicleColorSelectorGameController = {}
+
 
 ---@param fields? vehicleColorSelectorGameController
 ---@return vehicleColorSelectorGameController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class buildsWidgetGameController: gameuiWidgetGameController
 ---@field horizontalPanelsList inkHorizontalPanelWidget[]
 buildsWidgetGameController = {}
+
 
 ---@param fields? buildsWidgetGameController
 ---@return buildsWidgetGameController

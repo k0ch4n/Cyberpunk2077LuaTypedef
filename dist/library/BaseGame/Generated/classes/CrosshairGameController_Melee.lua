@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrosshairGameController_Melee: gameuiCrosshairBaseMelee
 ---@field targetColorChange inkWidgetReference
 ---@field chargeBar inkCanvasWidget
@@ -16,6 +17,7 @@
 ---@field currentState Int32
 ---@field meleeLeapAttackObjectTagger MeleeLeapAttackObjectTagger
 CrosshairGameController_Melee = {}
+
 
 ---@param fields? CrosshairGameController_Melee
 ---@return CrosshairGameController_Melee

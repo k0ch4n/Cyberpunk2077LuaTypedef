@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DelayedStatusEffectApplicationEvent: redEvent
 ---@field statusEffectEvent gameeventsApplyStatusEffectEvent
 DelayedStatusEffectApplicationEvent = {}
+
 
 ---@param fields? DelayedStatusEffectApplicationEvent
 ---@return DelayedStatusEffectApplicationEvent

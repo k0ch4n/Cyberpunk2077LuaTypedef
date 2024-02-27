@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class HealthStatListener: gameScriptStatPoolsListener
 ---@field ownerPuppet PlayerPuppet
 ---@field healthEvent HealthUpdateEvent
 HealthStatListener = {}
+
 
 ---@param fields? HealthStatListener
 ---@return HealthStatListener

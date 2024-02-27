@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldgeometryRuntimeSystemGeomDescription: worldIRuntimeSystem
 worldgeometryRuntimeSystemGeomDescription = {}
+
 
 ---@param fields? worldgeometryRuntimeSystemGeomDescription
 ---@return worldgeometryRuntimeSystemGeomDescription

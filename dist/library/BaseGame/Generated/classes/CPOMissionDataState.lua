@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CPOMissionDataState: IScriptable
 ---@field CPOMissionDataDamagesPreset CName
 ---@field compatibleDeviceName CName
@@ -9,6 +10,7 @@
 ---@field delayedGiveChoiceTokenEventId gameDelayID
 ---@field dataDamageTextLayerId Uint32
 CPOMissionDataState = {}
+
 
 ---@param fields? CPOMissionDataState
 ---@return CPOMissionDataState

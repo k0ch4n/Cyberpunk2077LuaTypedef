@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StopSoundDisposal: redEvent
 StopSoundDisposal = {}
+
 
 ---@param fields? StopSoundDisposal
 ---@return StopSoundDisposal

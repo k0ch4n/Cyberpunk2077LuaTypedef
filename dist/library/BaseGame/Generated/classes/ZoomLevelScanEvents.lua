@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ZoomLevelScanEvents: ZoomEventsTransition
 ZoomLevelScanEvents = {}
+
 
 ---@param fields? ZoomLevelScanEvents
 ---@return ZoomLevelScanEvents

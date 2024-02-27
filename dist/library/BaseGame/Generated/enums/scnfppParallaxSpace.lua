@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnfppParallaxSpace: Enum
 ---@field Default Enum 0
 ---@field Camera Enum 1

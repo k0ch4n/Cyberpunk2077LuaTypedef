@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SetTopThreatToCombatTarget: AIbehaviortaskScript
 ---@field refreshTimer Float
 ---@field previousChecktime Float
@@ -7,6 +8,7 @@
 ---@field movePoliciesComponent movePoliciesComponent
 ---@field targetChangeTime Float
 SetTopThreatToCombatTarget = {}
+
 
 ---@param fields? SetTopThreatToCombatTarget
 ---@return SetTopThreatToCombatTarget

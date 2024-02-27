@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ShardNotificationController: gameuiWidgetGameController
 ---@field titleRef inkTextWidgetReference
 ---@field shortTextRef inkTextWidgetReference
@@ -19,6 +20,7 @@
 ---@field mingameBB gameIBlackboard
 ---@field scroll inkScrollController
 ShardNotificationController = {}
+
 
 ---@param fields? ShardNotificationController
 ---@return ShardNotificationController

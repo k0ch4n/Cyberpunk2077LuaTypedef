@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorAndConditionDefinition: AIbehaviorCompositeConditionDefinition
 AIbehaviorAndConditionDefinition = {}
+
 
 ---@param fields? AIbehaviorAndConditionDefinition
 ---@return AIbehaviorAndConditionDefinition

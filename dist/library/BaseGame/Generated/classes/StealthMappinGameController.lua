@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class StealthMappinGameController: gameuiWidgetGameController
 ---@field controller gameuiStealthMappinController
 ---@field ownerNPC NPCPuppet
 StealthMappinGameController = {}
+
 
 ---@param fields? StealthMappinGameController
 ---@return StealthMappinGameController

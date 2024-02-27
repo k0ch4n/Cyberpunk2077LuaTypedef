@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameEnvironmentDamageReceiverComponent: entIPlacedComponent
 ---@field cooldown Float
 ---@field shapes gameEnvironmentDamageReceiverShape[]
 gameEnvironmentDamageReceiverComponent = {}
+
 
 ---@param fields? gameEnvironmentDamageReceiverComponent
 ---@return gameEnvironmentDamageReceiverComponent

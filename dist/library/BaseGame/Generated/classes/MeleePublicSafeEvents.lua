@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MeleePublicSafeEvents: MeleeRumblingEvents
 ---@field unequipTime Float
 MeleePublicSafeEvents = {}
+
 
 ---@param fields? MeleePublicSafeEvents
 ---@return MeleePublicSafeEvents

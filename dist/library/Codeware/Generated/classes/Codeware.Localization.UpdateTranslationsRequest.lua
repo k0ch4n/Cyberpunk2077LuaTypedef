@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Codeware_Localization_UpdateTranslationsRequest: gameScriptableSystemRequest
 ---@field force Bool
 Codeware_Localization_UpdateTranslationsRequest = {}
+
 
 ---@param fields? Codeware_Localization_UpdateTranslationsRequest
 ---@return Codeware_Localization_UpdateTranslationsRequest

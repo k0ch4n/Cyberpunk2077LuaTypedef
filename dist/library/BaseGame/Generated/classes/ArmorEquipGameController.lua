@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ArmorEquipGameController: gameuiMenuGameController
 ---@field inventoryCanvas inkWidget
 ---@field inventoryList inkVerticalPanelWidget
@@ -45,6 +46,7 @@
 ---@field framesTags CName[]
 ---@field operationsMode operationsMode
 ArmorEquipGameController = {}
+
 
 ---@param fields? ArmorEquipGameController
 ---@return ArmorEquipGameController

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SettingsLanguageInstallProgressBar: inkWidgetLogicController
 ---@field progressBarRoot inkWidgetReference
 ---@field progressBarFill inkWidgetReference
 ---@field textProgress inkTextWidgetReference
 ---@field isEnabled Bool
 SettingsLanguageInstallProgressBar = {}
+
 
 ---@param fields? SettingsLanguageInstallProgressBar
 ---@return SettingsLanguageInstallProgressBar

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsInWorkspotPSMPrereq: PlayerStateMachinePrereq
 IsInWorkspotPSMPrereq = {}
+
 
 ---@param fields? IsInWorkspotPSMPrereq
 ---@return IsInWorkspotPSMPrereq

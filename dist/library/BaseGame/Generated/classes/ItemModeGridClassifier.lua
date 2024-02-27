@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ItemModeGridClassifier: inkVirtualItemTemplateClassifierWrapper
 ItemModeGridClassifier = {}
+
 
 ---@param fields? ItemModeGridClassifier
 ---@return ItemModeGridClassifier

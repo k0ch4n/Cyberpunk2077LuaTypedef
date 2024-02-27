@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WeaponWheelDecisions: QuickSlotsHoldDecisions
 WeaponWheelDecisions = {}
+
 
 ---@param fields? WeaponWheelDecisions
 ---@return WeaponWheelDecisions

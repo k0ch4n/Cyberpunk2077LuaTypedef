@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SettingsListItem: inkListItemController
 ---@field Selector inkWidgetReference
 ---@field settingsSelector inkSettingsSelectorController
 SettingsListItem = {}
+
 
 ---@param fields? SettingsListItem
 ---@return SettingsListItem

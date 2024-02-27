@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameeventsHitEvent: redEvent
 ---@field attackData gamedamageAttackData
 ---@field target gameObject
@@ -13,6 +14,7 @@
 ---@field attackComputed gameAttackComputed
 ---@field projectionPipeline Bool
 gameeventsHitEvent = {}
+
 
 ---@param fields? gameeventsHitEvent
 ---@return gameeventsHitEvent

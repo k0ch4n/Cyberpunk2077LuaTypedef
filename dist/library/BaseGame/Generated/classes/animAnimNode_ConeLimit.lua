@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_ConeLimit: animAnimNode_OnePoseInput
 ---@field coneTransform animTransformIndex
 ---@field constrainedTransform animTransformIndex
@@ -29,6 +30,7 @@
 ---@field colorfulCone Bool
 ---@field applyDebugConeScalling Bool
 animAnimNode_ConeLimit = {}
+
 
 ---@param fields? animAnimNode_ConeLimit
 ---@return animAnimNode_ConeLimit

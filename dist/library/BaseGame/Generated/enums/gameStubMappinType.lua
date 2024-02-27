@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStubMappinType: Enum
 ---@field None Enum 0
 ---@field Police Enum 1

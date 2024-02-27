@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NewPerkSkillsLogicController: inkWidgetLogicController
 ---@field virtualGridContainer inkVirtualCompoundWidgetReference
 ---@field scrollBarContainer inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field initialized Bool
 ---@field virtualItems IScriptable[]
 NewPerkSkillsLogicController = {}
+
 
 ---@param fields? NewPerkSkillsLogicController
 ---@return NewPerkSkillsLogicController

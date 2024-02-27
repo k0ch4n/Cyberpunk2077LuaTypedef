@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnBraindanceSpeed: Enum
 ---@field Any Enum 0
 ---@field Slow Enum 1

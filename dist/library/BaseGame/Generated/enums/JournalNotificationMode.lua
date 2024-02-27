@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class JournalNotificationMode: Enum
 ---@field Default Enum 0
 ---@field Menu Enum 1

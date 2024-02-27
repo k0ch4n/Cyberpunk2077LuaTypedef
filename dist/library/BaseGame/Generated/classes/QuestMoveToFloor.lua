@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestMoveToFloor: ActionInt
 QuestMoveToFloor = {}
+
 
 ---@param fields? QuestMoveToFloor
 ---@return QuestMoveToFloor

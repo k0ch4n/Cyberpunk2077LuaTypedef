@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class Codeware_UI_TextInput_Viewport: Codeware_UI_inkCustomController
 ---@field viewport inkScrollAreaWidget
 ---@field content inkCanvasWidget
 ---@field caretSize Vector2
 Codeware_UI_TextInput_Viewport = {}
+
 
 ---@param fields? Codeware_UI_TextInput_Viewport
 ---@return Codeware_UI_TextInput_Viewport

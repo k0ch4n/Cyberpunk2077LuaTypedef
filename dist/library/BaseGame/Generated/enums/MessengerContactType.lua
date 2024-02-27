@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MessengerContactType: Enum
 ---@field SingleThread Enum 0
 ---@field MultiThread Enum 1

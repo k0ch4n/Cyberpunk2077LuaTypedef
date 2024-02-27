@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class rendRenderMultilayerMaskBlobScarlett: rendRenderMultilayerMaskBlob
 rendRenderMultilayerMaskBlobScarlett = {}
+
 
 ---@param fields? rendRenderMultilayerMaskBlobScarlett
 ---@return rendRenderMultilayerMaskBlobScarlett

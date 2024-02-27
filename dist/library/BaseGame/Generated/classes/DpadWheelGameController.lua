@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DpadWheelGameController: gameuiHUDGameController
 ---@field haskMarkContainer inkCompoundWidgetReference
 ---@field itemContainer inkCompoundWidgetReference
@@ -44,6 +45,7 @@
 ---@field DPadWheelInterationEndedBBID redCallbackObject
 ---@field DpadWheelCyberwareAssignedBBID redCallbackObject
 DpadWheelGameController = {}
+
 
 ---@param fields? DpadWheelGameController
 ---@return DpadWheelGameController

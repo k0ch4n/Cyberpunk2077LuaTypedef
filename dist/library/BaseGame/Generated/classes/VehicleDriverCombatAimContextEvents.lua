@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleDriverCombatAimContextEvents: VehicleDriverCombatContextEvents
 VehicleDriverCombatAimContextEvents = {}
+
 
 ---@param fields? VehicleDriverCombatAimContextEvents
 ---@return VehicleDriverCombatAimContextEvents

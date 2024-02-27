@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OpenVendorUI: ActionBool
 OpenVendorUI = {}
+
 
 ---@param fields? OpenVendorUI
 ---@return OpenVendorUI

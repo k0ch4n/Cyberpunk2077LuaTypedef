@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReprimandEscalation: AIbehaviortaskScript
 ReprimandEscalation = {}
+
 
 ---@param fields? ReprimandEscalation
 ---@return ReprimandEscalation

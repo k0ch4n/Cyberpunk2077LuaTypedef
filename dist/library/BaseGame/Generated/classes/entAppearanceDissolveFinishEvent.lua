@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entAppearanceDissolveFinishEvent: redEvent
 entAppearanceDissolveFinishEvent = {}
+
 
 ---@param fields? entAppearanceDissolveFinishEvent
 ---@return entAppearanceDissolveFinishEvent

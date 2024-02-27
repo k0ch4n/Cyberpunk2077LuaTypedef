@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataNPCEquipmentItem_Record: gamedataNPCEquipmentGroupEntry_Record
 gamedataNPCEquipmentItem_Record = {}
+
 
 ---@param fields? gamedataNPCEquipmentItem_Record
 ---@return gamedataNPCEquipmentItem_Record

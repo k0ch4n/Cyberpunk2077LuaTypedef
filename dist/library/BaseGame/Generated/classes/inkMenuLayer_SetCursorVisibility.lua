@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkMenuLayer_SetCursorVisibility: redEvent
 inkMenuLayer_SetCursorVisibility = {}
+
 
 ---@param fields? inkMenuLayer_SetCursorVisibility
 ---@return inkMenuLayer_SetCursorVisibility

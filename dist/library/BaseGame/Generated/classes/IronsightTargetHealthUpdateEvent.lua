@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IronsightTargetHealthUpdateEvent: redEvent
 IronsightTargetHealthUpdateEvent = {}
+
 
 ---@param fields? IronsightTargetHealthUpdateEvent
 ---@return IronsightTargetHealthUpdateEvent

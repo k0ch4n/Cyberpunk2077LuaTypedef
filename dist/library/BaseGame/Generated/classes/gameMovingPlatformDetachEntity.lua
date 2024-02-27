@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameMovingPlatformDetachEntity: redEvent
 ---@field entity entEntity
 gameMovingPlatformDetachEntity = {}
+
 
 ---@param fields? gameMovingPlatformDetachEntity
 ---@return gameMovingPlatformDetachEntity

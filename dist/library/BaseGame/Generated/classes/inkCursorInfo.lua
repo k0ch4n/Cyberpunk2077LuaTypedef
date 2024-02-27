@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class inkCursorInfo: inkUserData
 ---@field pos Vector2
 ---@field isVisible Bool
 ---@field cursorForDevice CName
 inkCursorInfo = {}
+
 
 ---@param fields? inkCursorInfo
 ---@return inkCursorInfo

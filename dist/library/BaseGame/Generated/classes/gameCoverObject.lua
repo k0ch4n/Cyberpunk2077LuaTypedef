@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameCoverObject: gameObject
 ---@field coverType animCoverState
 ---@field slotRadius Float
@@ -8,6 +9,7 @@
 ---@field fovDegrees Float
 ---@field fovExposureDegrees Float
 gameCoverObject = {}
+
 
 ---@param fields? gameCoverObject
 ---@return gameCoverObject

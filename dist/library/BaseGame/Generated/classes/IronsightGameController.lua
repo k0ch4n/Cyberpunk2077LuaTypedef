@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class IronsightGameController: gameuiIronsightGameController
 ---@field playerPuppet gameObject
 ---@field dot inkWidgetReference
@@ -63,6 +64,7 @@
 ---@field attitude EAIAttitude
 ---@field upperBodyState gamePSMUpperBodyStates
 IronsightGameController = {}
+
 
 ---@param fields? IronsightGameController
 ---@return IronsightGameController

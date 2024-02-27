@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SceneTierAbstract: HighLevelTransition
 SceneTierAbstract = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@return GameplayTier

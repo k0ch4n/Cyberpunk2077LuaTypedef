@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class InitializationSoundController: inkWidgetLogicController
 ---@field soundControlName CName
 ---@field initializeSoundName CName
 ---@field unitializeSoundName CName
 InitializationSoundController = {}
+
 
 ---@param fields? InitializationSoundController
 ---@return InitializationSoundController

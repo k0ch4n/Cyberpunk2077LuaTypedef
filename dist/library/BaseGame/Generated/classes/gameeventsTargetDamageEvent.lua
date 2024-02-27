@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameeventsTargetDamageEvent: gameeventsTargetHitEvent
 ---@field damage Float
 gameeventsTargetDamageEvent = {}
+
 
 ---@param fields? gameeventsTargetDamageEvent
 ---@return gameeventsTargetDamageEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questObjectInteractionEventType: Enum
 ---@field Undefined Enum 0
 ---@field Entered Enum 1

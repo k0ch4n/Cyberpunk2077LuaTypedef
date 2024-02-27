@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RemoveStatusEffectEvent: redEvent
 ---@field effectID TweakDBID
 ---@field removeCount Uint32
 RemoveStatusEffectEvent = {}
+
 
 ---@param fields? RemoveStatusEffectEvent
 ---@return RemoveStatusEffectEvent

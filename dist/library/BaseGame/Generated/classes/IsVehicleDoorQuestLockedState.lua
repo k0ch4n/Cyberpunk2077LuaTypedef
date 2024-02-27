@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class IsVehicleDoorQuestLockedState: gamePrereqState
 ---@field psListener gameScriptedPrereqPSChangeListenerWrapper
 IsVehicleDoorQuestLockedState = {}
+
 
 ---@param fields? IsVehicleDoorQuestLockedState
 ---@return IsVehicleDoorQuestLockedState

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InnerAdminPanelScreenGameController: BaseInnerBunkerComputerGameController
 ---@field introAnimName CName
 ---@field loopAnimName CName
@@ -21,6 +22,7 @@
 ---@field zoomUICallbackHandle redCallbackObject
 ---@field isUIZoomDevice Bool
 InnerAdminPanelScreenGameController = {}
+
 
 ---@param fields? InnerAdminPanelScreenGameController
 ---@return InnerAdminPanelScreenGameController

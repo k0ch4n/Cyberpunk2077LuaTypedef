@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DoorStatus: BaseDeviceStatus
 DoorStatus = {}
+
 
 ---@param fields? DoorStatus
 ---@return DoorStatus

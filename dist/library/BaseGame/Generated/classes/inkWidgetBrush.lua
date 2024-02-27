@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class inkWidgetBrush: IScriptable
 ---@field textureAtlas inkTextureAtlas
 ---@field texturePartId CName
 ---@field tileType inkBrushTileType
 ---@field mirrorType inkBrushMirrorType
 inkWidgetBrush = {}
+
 
 ---@param fields? inkWidgetBrush
 ---@return inkWidgetBrush

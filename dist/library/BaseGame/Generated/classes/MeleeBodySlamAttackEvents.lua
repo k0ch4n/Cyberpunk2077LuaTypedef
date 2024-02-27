@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MeleeBodySlamAttackEvents: MeleeEventsTransition
 ---@field effect gameEffectInstance
 ---@field speedModifier gameStatModifierData_Deprecated
@@ -16,6 +17,7 @@
 ---@field fullAttackIndex Int32
 ---@field weakAttackIndex Int32
 MeleeBodySlamAttackEvents = {}
+
 
 ---@param fields? MeleeBodySlamAttackEvents
 ---@return MeleeBodySlamAttackEvents

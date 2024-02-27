@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameJournalContact: gameJournalFileEntry
 ---@field name LocalizationString
 ---@field avatarID TweakDBID
@@ -7,6 +8,7 @@
 ---@field useFlatMessageLayout Bool
 ---@field isCallableDefault Bool
 gameJournalContact = {}
+
 
 ---@param fields? gameJournalContact
 ---@return gameJournalContact

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameuiSideScrollerMiniGameCollisionLogic: inkWidgetLogicController
 ---@field colliderPositionOffset Vector2
 ---@field colliderSizeOffset Vector2
 gameuiSideScrollerMiniGameCollisionLogic = {}
+
 
 ---@param fields? gameuiSideScrollerMiniGameCollisionLogic
 ---@return gameuiSideScrollerMiniGameCollisionLogic

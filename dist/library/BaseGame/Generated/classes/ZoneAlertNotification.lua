@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ZoneAlertNotification: GenericNotificationController
 ---@field animation inkanimProxy
 ---@field zone_data ZoneAlertNotificationViewData
 ---@field ZoneLabelText inkTextWidgetReference
 ZoneAlertNotification = {}
+
 
 ---@param fields? ZoneAlertNotification
 ---@return ZoneAlertNotification

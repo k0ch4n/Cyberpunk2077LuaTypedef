@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class WorldMapTooltipBaseController: inkWidgetLogicController
 ---@field root inkWidgetReference
 ---@field showHideAnim inkanimProxy
 ---@field visible Bool
 ---@field active Bool
 WorldMapTooltipBaseController = {}
+
 
 ---@param fields? WorldMapTooltipBaseController
 ---@return WorldMapTooltipBaseController

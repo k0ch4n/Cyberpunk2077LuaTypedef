@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DriverCombatEvents: VehicleEventsTransition
 ---@field executionOwner gameObject
 ---@field owner gameObject
@@ -18,6 +19,7 @@
 ---@field vehicleManeuversTime Float
 ---@field exitReleasedTime Float
 DriverCombatEvents = {}
+
 
 ---@param fields? DriverCombatEvents
 ---@return DriverCombatEvents

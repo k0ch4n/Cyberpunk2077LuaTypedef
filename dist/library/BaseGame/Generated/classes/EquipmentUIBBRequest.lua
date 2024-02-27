@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EquipmentUIBBRequest: gamePlayerScriptableSystemRequest
 EquipmentUIBBRequest = {}
+
 
 ---@param fields? EquipmentUIBBRequest
 ---@return EquipmentUIBBRequest

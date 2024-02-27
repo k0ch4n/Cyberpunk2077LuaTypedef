@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataProficiencyType: Enum
 ---@field Assault Enum 0
 ---@field Athletics Enum 1

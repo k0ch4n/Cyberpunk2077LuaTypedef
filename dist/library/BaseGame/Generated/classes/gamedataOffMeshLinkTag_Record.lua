@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataOffMeshLinkTag_Record: gamedataTweakDBRecord
 gamedataOffMeshLinkTag_Record = {}
+
 
 ---@param fields? gamedataOffMeshLinkTag_Record
 ---@return gamedataOffMeshLinkTag_Record

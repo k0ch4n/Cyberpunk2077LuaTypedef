@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleJuryrigTrap: ActionBool
 ToggleJuryrigTrap = {}
+
 
 ---@param fields? ToggleJuryrigTrap
 ---@return ToggleJuryrigTrap

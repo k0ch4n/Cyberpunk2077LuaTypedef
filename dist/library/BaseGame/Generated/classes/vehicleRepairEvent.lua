@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleRepairEvent: redEvent
 vehicleRepairEvent = {}
+
 
 ---@param fields? vehicleRepairEvent
 ---@return vehicleRepairEvent

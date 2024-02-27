@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SingleWieldEvents: UpperBodyEventsTransition
 ---@field hasInstantEquipHackBeenApplied Bool
 SingleWieldEvents = {}
+
 
 ---@param fields? SingleWieldEvents
 ---@return SingleWieldEvents

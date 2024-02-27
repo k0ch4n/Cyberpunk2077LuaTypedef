@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class OutputPersistentData
 ---@field currentSecurityState ESecuritySystemState
 ---@field breachOrigin EBreachOrigin
@@ -12,6 +13,7 @@
 ---@field reporter gamePersistentID
 ---@field id Int32
 OutputPersistentData = {}
+
 
 ---@param fields? OutputPersistentData
 ---@return OutputPersistentData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CoolExitJumpEvents: LocomotionAirEvents
 CoolExitJumpEvents = {}
+
 
 ---@param fields? CoolExitJumpEvents
 ---@return CoolExitJumpEvents

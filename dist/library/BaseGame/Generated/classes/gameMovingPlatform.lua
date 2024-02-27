@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameMovingPlatform: entIPlacedComponent
 ---@field loopType gameMovingPlatformLoopType
 ---@field supportLegacyUnalignedMarkers Bool
 ---@field enableWaterInteractions Bool
 ---@field soundPositionName CName
 gameMovingPlatform = {}
+
 
 ---@param fields? gameMovingPlatform
 ---@return gameMovingPlatform

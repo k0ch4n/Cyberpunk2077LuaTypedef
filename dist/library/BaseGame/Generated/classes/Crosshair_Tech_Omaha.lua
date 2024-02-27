@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Crosshair_Tech_Omaha: gameuiCrosshairBaseGameController
 ---@field leftPart inkWidget
 ---@field rightPart inkWidget
@@ -8,6 +9,7 @@
 ---@field sizeOfChargeBar Vector2
 ---@field chargeBBID redCallbackObject
 Crosshair_Tech_Omaha = {}
+
 
 ---@param fields? Crosshair_Tech_Omaha
 ---@return Crosshair_Tech_Omaha

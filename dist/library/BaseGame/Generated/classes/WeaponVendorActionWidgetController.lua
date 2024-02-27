@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WeaponVendorActionWidgetController: DeviceActionWidgetControllerBase
 ---@field buttonText inkTextWidgetReference
 ---@field standardButtonContainer inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field hoverState HoverStatus
 ---@field isBusy Bool
 WeaponVendorActionWidgetController = {}
+
 
 ---@param fields? WeaponVendorActionWidgetController
 ---@return WeaponVendorActionWidgetController

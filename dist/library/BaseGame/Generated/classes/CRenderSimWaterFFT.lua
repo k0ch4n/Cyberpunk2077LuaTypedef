@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CRenderSimWaterFFT: IDynamicTextureGenerator
 ---@field windDir Float
 ---@field windSpeed Float
@@ -7,6 +8,7 @@
 ---@field amplitude Float
 ---@field lambda Float
 CRenderSimWaterFFT = {}
+
 
 ---@param fields? CRenderSimWaterFFT
 ---@return CRenderSimWaterFFT

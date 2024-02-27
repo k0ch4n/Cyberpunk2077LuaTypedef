@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CheckElapsedTimeFromArgumentFloat: CheckArguments
 ---@field customVar Float
 ---@field comparator ECompareOp
 CheckElapsedTimeFromArgumentFloat = {}
+
 
 ---@param fields? CheckElapsedTimeFromArgumentFloat
 ---@return CheckElapsedTimeFromArgumentFloat

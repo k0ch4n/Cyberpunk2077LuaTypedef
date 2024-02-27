@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class NewItemTooltipRequirementsModule: NewItemTooltipModuleController
 ---@field smartlinkGunWrapper inkWidgetReference
 ---@field line inkWidgetReference
 NewItemTooltipRequirementsModule = {}
+
 
 ---@param fields? NewItemTooltipRequirementsModule
 ---@return NewItemTooltipRequirementsModule

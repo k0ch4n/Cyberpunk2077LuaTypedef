@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameweaponAnimFeature_WeaponData: animAnimFeature
 ---@field cycleTime Float
 ---@field chargePercentage Float
@@ -9,6 +10,7 @@
 ---@field isMagazineFull Bool
 ---@field isTriggerDown Bool
 gameweaponAnimFeature_WeaponData = {}
+
 
 ---@param fields? gameweaponAnimFeature_WeaponData
 ---@return gameweaponAnimFeature_WeaponData

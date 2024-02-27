@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryTooltipData_StatData
 ---@field statType gamedataStatType
 ---@field statName String
@@ -13,6 +14,7 @@
 ---@field diffValueF Float
 ---@field state EInventoryDataStatDisplayType
 InventoryTooltipData_StatData = {}
+
 
 ---@param fields? InventoryTooltipData_StatData
 ---@return InventoryTooltipData_StatData

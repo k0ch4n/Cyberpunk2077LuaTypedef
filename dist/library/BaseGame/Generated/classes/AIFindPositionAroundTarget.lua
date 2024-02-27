@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIFindPositionAroundTarget: AIbehaviortaskScript
 AIFindPositionAroundTarget = {}
+
 
 ---@param fields? AIFindPositionAroundTarget
 ---@return AIFindPositionAroundTarget

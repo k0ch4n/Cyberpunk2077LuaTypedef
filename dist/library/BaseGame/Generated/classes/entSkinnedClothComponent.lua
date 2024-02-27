@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entSkinnedClothComponent: entISkinTargetComponent
 ---@field graphicsMesh CMesh
 ---@field physicalMesh CMesh
@@ -9,6 +10,7 @@
 ---@field chunkMask Uint64
 ---@field compiledTopologyData meshCookedClothMeshTopologyData
 entSkinnedClothComponent = {}
+
 
 ---@param fields? entSkinnedClothComponent
 ---@return entSkinnedClothComponent

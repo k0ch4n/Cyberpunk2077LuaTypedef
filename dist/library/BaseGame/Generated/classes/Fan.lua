@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Fan: BasicDistractionDevice
 ---@field animationType EAnimationType
 ---@field rotateClockwise Bool
@@ -9,6 +10,7 @@
 ---@field animFeature AnimFeature_RotatingObject
 ---@field updateComp UpdateComponent
 Fan = {}
+
 
 ---@param fields? Fan
 ---@return Fan

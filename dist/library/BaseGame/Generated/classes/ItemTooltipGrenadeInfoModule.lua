@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemTooltipGrenadeInfoModule: ItemTooltipModuleController
 ---@field headerText inkTextWidgetReference
 ---@field totalDamageText inkTextWidgetReference
@@ -13,6 +14,7 @@
 ---@field deliveryIcon inkImageWidgetReference
 ---@field deliveryText inkTextWidgetReference
 ItemTooltipGrenadeInfoModule = {}
+
 
 ---@param fields? ItemTooltipGrenadeInfoModule
 ---@return ItemTooltipGrenadeInfoModule

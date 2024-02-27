@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StartedUsingHealingItemOrCyberwarePrereqState: gamePrereqState
 ---@field listenerInfo redCallbackObject
 StartedUsingHealingItemOrCyberwarePrereqState = {}
+
 
 ---@param fields? StartedUsingHealingItemOrCyberwarePrereqState
 ---@return StartedUsingHealingItemOrCyberwarePrereqState

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UnlockPerkArea: gamePlayerScriptableSystemRequest
 ---@field perkArea gamedataPerkArea
 UnlockPerkArea = {}
+
 
 ---@param fields? UnlockPerkArea
 ---@return UnlockPerkArea

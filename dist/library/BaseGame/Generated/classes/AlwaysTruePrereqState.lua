@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AlwaysTruePrereqState: gamePrereqState
 AlwaysTruePrereqState = {}
+
 
 ---@param fields? AlwaysTruePrereqState
 ---@return AlwaysTruePrereqState

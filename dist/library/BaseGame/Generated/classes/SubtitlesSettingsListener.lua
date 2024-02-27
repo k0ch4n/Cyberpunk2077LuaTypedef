@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SubtitlesSettingsListener: userSettingsVarListener
 ---@field ctrl BaseSubtitlesGameController
 SubtitlesSettingsListener = {}
+
 
 ---@param fields? SubtitlesSettingsListener
 ---@return SubtitlesSettingsListener

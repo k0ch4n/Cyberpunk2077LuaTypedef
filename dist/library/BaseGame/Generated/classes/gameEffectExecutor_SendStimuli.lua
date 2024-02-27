@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectExecutor_SendStimuli: gameEffectExecutor
 gameEffectExecutor_SendStimuli = {}
+
 
 ---@param fields? gameEffectExecutor_SendStimuli
 ---@return gameEffectExecutor_SendStimuli

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsClueEvent: scnSceneEvent
 ---@field clueEntity gameEntityReference
 ---@field markedOnTimeline Bool
@@ -8,6 +9,7 @@
 ---@field overrideFact Bool
 ---@field factName CName
 scneventsClueEvent = {}
+
 
 ---@param fields? scneventsClueEvent
 ---@return scneventsClueEvent

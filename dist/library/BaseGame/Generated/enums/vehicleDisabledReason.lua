@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleDisabledReason: Enum
 ---@field FrontTire Enum 0
 ---@field RearTire Enum 1

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class StopAndPlayVFXEffector: gameEffector
 ---@field vfxToStop CName
 ---@field vfxToStart CName
 ---@field owner gameObject
 StopAndPlayVFXEffector = {}
+
 
 ---@param fields? StopAndPlayVFXEffector
 ---@return StopAndPlayVFXEffector

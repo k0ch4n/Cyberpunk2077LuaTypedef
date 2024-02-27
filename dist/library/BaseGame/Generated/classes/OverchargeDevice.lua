@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OverchargeDevice: ActionBool
 OverchargeDevice = {}
+
 
 ---@param fields? OverchargeDevice
 ---@return OverchargeDevice

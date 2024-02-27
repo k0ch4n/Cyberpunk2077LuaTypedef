@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ExplorationDecisions: HighLevelTransition
 ExplorationDecisions = {}
+
 
 ---@param fields? ExplorationDecisions
 ---@return ExplorationDecisions

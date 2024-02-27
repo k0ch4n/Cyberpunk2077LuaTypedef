@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkTrialVersionRemainingTimeUpdate: inkCallbackBase
 inkTrialVersionRemainingTimeUpdate = {}
+
 
 ---@param fields? inkTrialVersionRemainingTimeUpdate
 ---@return inkTrialVersionRemainingTimeUpdate

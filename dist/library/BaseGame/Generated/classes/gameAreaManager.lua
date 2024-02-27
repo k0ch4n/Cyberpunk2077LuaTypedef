@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAreaManager: gameIAreaManager
 gameAreaManager = {}
+
 
 ---@param fields? gameAreaManager
 ---@return gameAreaManager

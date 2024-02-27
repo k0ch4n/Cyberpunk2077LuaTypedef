@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BaseScriptableAction: gamedeviceAction
 ---@field requesterID entEntityID
 ---@field executor gameObject
@@ -21,6 +22,7 @@
 ---@field activationTimeReduction Float
 ---@field IsAppliedByMonowire Bool
 BaseScriptableAction = {}
+
 
 ---@param executor gameObject
 ---@param actionRecord gamedataObjectAction_Record

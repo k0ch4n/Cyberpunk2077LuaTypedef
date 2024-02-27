@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SimpleSandevistanDashShootCondition: AIbehaviorconditionScript
 ---@field initialized Bool
 ---@field result Bool
 SimpleSandevistanDashShootCondition = {}
+
 
 ---@param fields? SimpleSandevistanDashShootCondition
 ---@return SimpleSandevistanDashShootCondition

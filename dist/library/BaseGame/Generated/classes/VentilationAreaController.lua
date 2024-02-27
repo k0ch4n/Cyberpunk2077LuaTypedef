@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VentilationAreaController: MasterController
 VentilationAreaController = {}
+
 
 ---@param fields? VentilationAreaController
 ---@return VentilationAreaController

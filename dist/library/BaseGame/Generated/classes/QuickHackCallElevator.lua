@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickHackCallElevator: ActionBool
 QuickHackCallElevator = {}
+
 
 ---@param fields? QuickHackCallElevator
 ---@return QuickHackCallElevator

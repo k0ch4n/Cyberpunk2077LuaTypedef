@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReleaseReservedSeat: AIbehaviortaskScript
 ReleaseReservedSeat = {}
+
 
 ---@param fields? ReleaseReservedSeat
 ---@return ReleaseReservedSeat

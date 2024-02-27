@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ThrowableWeaponObject: gameweaponObject
 ---@field projectileComponent gameprojectileComponent
 ---@field weaponOwner gameObject
 ThrowableWeaponObject = {}
+
 
 ---@param fields? ThrowableWeaponObject
 ---@return ThrowableWeaponObject

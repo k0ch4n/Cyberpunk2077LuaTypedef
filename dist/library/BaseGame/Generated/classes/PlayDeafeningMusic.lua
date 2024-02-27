@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayDeafeningMusic: ActionBool
 PlayDeafeningMusic = {}
+
 
 ---@param fields? PlayDeafeningMusic
 ---@return PlayDeafeningMusic

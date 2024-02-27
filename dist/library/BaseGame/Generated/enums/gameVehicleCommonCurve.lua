@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameVehicleCommonCurve: Enum
 ---@field RPMLimit Enum 0
 ---@field ForcedBrakeForce Enum 1

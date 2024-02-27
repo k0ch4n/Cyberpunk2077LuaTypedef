@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataItemRecipe_Record: gamedataItem_Record
 gamedataItemRecipe_Record = {}
+
 
 ---@param fields? gamedataItemRecipe_Record
 ---@return gamedataItemRecipe_Record

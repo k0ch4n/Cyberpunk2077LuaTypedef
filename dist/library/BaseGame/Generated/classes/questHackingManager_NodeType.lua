@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questHackingManager_NodeType: questIInteractiveObjectManagerNodeType
 ---@field params questHackingManager_NodeTypeParams[]
 questHackingManager_NodeType = {}
+
 
 ---@param fields? questHackingManager_NodeType
 ---@return questHackingManager_NodeType

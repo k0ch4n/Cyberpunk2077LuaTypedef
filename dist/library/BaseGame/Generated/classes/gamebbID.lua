@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gamebbID
 ---@field g CName
 gamebbID = {}
+
 
 ---@param fields? gamebbID
 ---@return gamebbID

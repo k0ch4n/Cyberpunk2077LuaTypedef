@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ExhaustedDecisions: StaminaTransition
 ---@field staminaRatioEnterCondition Float
 ExhaustedDecisions = {}
+
 
 ---@param fields? ExhaustedDecisions
 ---@return ExhaustedDecisions

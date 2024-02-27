@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIOwnerAngleCoverSelection: AICoverSelectionParameters
 AIOwnerAngleCoverSelection = {}
+
 
 ---@param fields? AIOwnerAngleCoverSelection
 ---@return AIOwnerAngleCoverSelection

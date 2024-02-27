@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MetaQuestLogicController: inkWidgetLogicController
 ---@field MetaQuestHint inkWidgetReference
 ---@field MetaQuestHintText inkTextWidgetReference
@@ -17,6 +18,7 @@
 ---@field animMeta3 inkanimProxy
 ---@field animTooltip inkanimProxy
 MetaQuestLogicController = {}
+
 
 ---@param fields? MetaQuestLogicController
 ---@return MetaQuestLogicController

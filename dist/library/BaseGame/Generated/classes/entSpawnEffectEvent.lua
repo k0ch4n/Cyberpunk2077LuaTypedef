@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entSpawnEffectEvent: redEvent
 ---@field blackboard worldEffectBlackboard
 ---@field effectName CName
@@ -10,6 +11,7 @@
 ---@field breakAllOnDestroy Bool
 ---@field e3hackDeferCount Uint32
 entSpawnEffectEvent = {}
+
 
 ---@param fields? entSpawnEffectEvent
 ---@return entSpawnEffectEvent

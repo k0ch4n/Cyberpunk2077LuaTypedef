@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SlidingLadder: BaseAnimatedDevice
 ---@field offMeshConnectionDown AIOffMeshConnectionComponent
 ---@field offMeshConnectionUp AIOffMeshConnectionComponent
 ---@field ladderInteraction gameinteractionsComponent
 ---@field wasShot Bool
 SlidingLadder = {}
+
 
 ---@param fields? SlidingLadder
 ---@return SlidingLadder

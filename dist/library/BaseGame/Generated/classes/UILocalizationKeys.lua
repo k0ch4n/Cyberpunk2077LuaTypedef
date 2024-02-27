@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UILocalizationKeys: IScriptable
 UILocalizationKeys = {}
+
 
 ---@param fields? UILocalizationKeys
 ---@return UILocalizationKeys

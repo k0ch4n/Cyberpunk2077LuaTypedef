@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkWindowDrawMetrics
 ---@field allTextures Vector2[]
 ---@field textureSizeTypes Vector2[]
@@ -7,6 +8,7 @@
 ---@field maxUsedTextureTypes Uint32[]
 ---@field drawMetrics inkSingleDrawMetric[]
 inkWindowDrawMetrics = {}
+
 
 ---@param fields? inkWindowDrawMetrics
 ---@return inkWindowDrawMetrics

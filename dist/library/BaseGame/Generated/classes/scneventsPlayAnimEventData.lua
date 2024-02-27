@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scneventsPlayAnimEventData
 ---@field blendIn Float
 ---@field blendOut Float
@@ -9,6 +10,7 @@
 ---@field blendInCurve scnEasingType
 ---@field blendOutCurve scnEasingType
 scneventsPlayAnimEventData = {}
+
 
 ---@param fields? scneventsPlayAnimEventData
 ---@return scneventsPlayAnimEventData

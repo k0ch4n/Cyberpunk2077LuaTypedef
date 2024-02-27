@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NetworkMinigameElementController: inkWidgetLogicController
 ---@field data ElementData
 ---@field text inkTextWidgetReference
@@ -13,6 +14,7 @@
 ---@field wasConsumed Bool
 ---@field root inkWidget
 NetworkMinigameElementController = {}
+
 
 ---@param fields? NetworkMinigameElementController
 ---@return NetworkMinigameElementController

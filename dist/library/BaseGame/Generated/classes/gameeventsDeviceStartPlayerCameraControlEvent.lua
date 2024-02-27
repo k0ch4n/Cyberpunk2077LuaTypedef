@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameeventsDeviceStartPlayerCameraControlEvent: redEvent
 ---@field playerController gameObject
 ---@field initialRotation Vector4
@@ -8,6 +9,7 @@
 ---@field minPitch Float
 ---@field maxPitch Float
 gameeventsDeviceStartPlayerCameraControlEvent = {}
+
 
 ---@param fields? gameeventsDeviceStartPlayerCameraControlEvent
 ---@return gameeventsDeviceStartPlayerCameraControlEvent

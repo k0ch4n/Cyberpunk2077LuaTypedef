@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameinteractionsSuppressedPredicate: gameinteractionsIPredicateType
 gameinteractionsSuppressedPredicate = {}
+
 
 ---@param fields? gameinteractionsSuppressedPredicate
 ---@return gameinteractionsSuppressedPredicate

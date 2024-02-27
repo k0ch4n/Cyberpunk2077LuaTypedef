@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIActionNPCStates
 ---@field highLevelStates gamedataNPCHighLevelState[]
 ---@field upperBodyStates gamedataNPCUpperBodyState[]
@@ -8,6 +9,7 @@
 ---@field defenseMode gamedataDefenseMode[]
 ---@field locomotionMode gamedataLocomotionMode[]
 AIActionNPCStates = {}
+
 
 ---@param fields? AIActionNPCStates
 ---@return AIActionNPCStates

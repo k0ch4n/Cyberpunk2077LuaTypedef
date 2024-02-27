@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AICombatSpaceSize: Enum
 ---@field Undefined Enum 0
 ---@field Narrow Enum 1

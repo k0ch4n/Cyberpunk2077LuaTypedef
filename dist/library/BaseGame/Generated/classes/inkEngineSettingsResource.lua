@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkEngineSettingsResource: CResource
 ---@field fallbackCompositionResource inkFullscreenCompositionResource
 ---@field fallbackShapeCollectionResource inkShapeCollectionResource
@@ -18,6 +19,7 @@
 ---@field tooManyBinksTexture CBitmapTexture
 ---@field componentMissingTexture CBitmapTexture
 inkEngineSettingsResource = {}
+
 
 ---@param fields? inkEngineSettingsResource
 ---@return inkEngineSettingsResource

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckArgumentBoolean: CheckArguments
 ---@field customVar Bool
 CheckArgumentBoolean = {}
+
 
 ---@param fields? CheckArgumentBoolean
 ---@return CheckArgumentBoolean

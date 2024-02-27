@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendChunk
 ---@field chunkVertices rendVertexBufferChunk
 ---@field chunkIndices rendIndexBufferChunk
@@ -12,6 +13,7 @@
 ---@field renderMask EMeshChunkFlags
 ---@field lodMask Uint8
 rendChunk = {}
+
 
 ---@param fields? rendChunk
 ---@return rendChunk

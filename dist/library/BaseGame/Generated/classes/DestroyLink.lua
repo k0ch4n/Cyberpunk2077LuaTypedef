@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DestroyLink: redEvent
 DestroyLink = {}
+
 
 ---@param fields? DestroyLink
 ---@return DestroyLink

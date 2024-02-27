@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataTankDestroyableObject_Record: gamedataArcadeCollidableObject_Record
 gamedataTankDestroyableObject_Record = {}
+
 
 ---@param fields? gamedataTankDestroyableObject_Record
 ---@return gamedataTankDestroyableObject_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkCacheWidgetReference: inkCompoundWidgetReference
 inkCacheWidgetReference = {}
+
 
 ---@param fields? inkCacheWidgetReference
 ---@return inkCacheWidgetReference

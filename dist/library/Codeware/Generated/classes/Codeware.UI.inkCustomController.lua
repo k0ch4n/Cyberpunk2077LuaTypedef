@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Codeware_UI_inkCustomController: inkWidgetLogicController
 ---@field isCreated Bool
 ---@field isInitialized Bool
@@ -9,6 +10,7 @@
 ---@field rootWidget inkWidget
 ---@field containerWidget inkCompoundWidget
 Codeware_UI_inkCustomController = {}
+
 
 ---@return nil
 function Codeware_UI_inkCustomController:OnCreate() end

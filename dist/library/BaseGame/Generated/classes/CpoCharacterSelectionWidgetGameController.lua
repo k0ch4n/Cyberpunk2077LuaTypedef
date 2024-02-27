@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CpoCharacterSelectionWidgetGameController: gameuiWidgetGameController
 ---@field defaultCharacterTexturePart String
 ---@field soloCharacterTexturePart String
 ---@field horizontalPanelsList inkHorizontalPanelWidget[]
 ---@field amount Int32
 CpoCharacterSelectionWidgetGameController = {}
+
 
 ---@param fields? CpoCharacterSelectionWidgetGameController
 ---@return CpoCharacterSelectionWidgetGameController

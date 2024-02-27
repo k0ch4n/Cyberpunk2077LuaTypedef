@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ChargedItemsPrereq: gameIScriptablePrereq
 ---@field chargesToCheck EChargesAmount
 ---@field typeOfItem EChargesItem
 ChargedItemsPrereq = {}
+
 
 ---@param fields? ChargedItemsPrereq
 ---@return ChargedItemsPrereq

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnChoiceNodeNsAdaptiveLookAtParams: scnChoiceNodeNsLookAtParams
 ---@field nearbySlotName CName
 ---@field distantSlotName CName
@@ -11,6 +12,7 @@
 ---@field referencePoints scnChoiceNodeNsAdaptiveLookAtReferencePoint[]
 ---@field auxiliaryRelativePoint Vector3
 scnChoiceNodeNsAdaptiveLookAtParams = {}
+
 
 ---@param fields? scnChoiceNodeNsAdaptiveLookAtParams
 ---@return scnChoiceNodeNsAdaptiveLookAtParams

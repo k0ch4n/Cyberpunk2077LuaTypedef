@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuicksortTemplate: IScriptable
 QuicksortTemplate = {}
+
 
 ---@param items Variant[]
 ---@param comparator SortComparatorTemplate

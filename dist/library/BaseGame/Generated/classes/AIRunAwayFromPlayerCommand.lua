@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIRunAwayFromPlayerCommand: AICommand
 AIRunAwayFromPlayerCommand = {}
+
 
 ---@param fields? AIRunAwayFromPlayerCommand
 ---@return AIRunAwayFromPlayerCommand

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePuppetBlackboardUpdater: IScriptable
 gamePuppetBlackboardUpdater = {}
+
 
 ---@param fields? gamePuppetBlackboardUpdater
 ---@return gamePuppetBlackboardUpdater

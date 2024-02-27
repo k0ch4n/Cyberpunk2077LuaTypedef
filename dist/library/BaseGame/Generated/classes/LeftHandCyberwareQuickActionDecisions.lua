@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareQuickActionDecisions: LeftHandCyberwareActionAbstractDecisions
 LeftHandCyberwareQuickActionDecisions = {}
+
 
 ---@param fields? LeftHandCyberwareQuickActionDecisions
 ---@return LeftHandCyberwareQuickActionDecisions

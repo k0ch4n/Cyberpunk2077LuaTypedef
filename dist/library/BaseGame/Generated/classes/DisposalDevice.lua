@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DisposalDevice: InteractiveDevice
 ---@field additionalMeshComponent entMeshComponent
 ---@field npcBody NPCPuppet
@@ -22,6 +23,7 @@
 ---@field OnTakedownChangedCallback redCallbackObject
 ---@field OnCarryingChangedCallback redCallbackObject
 DisposalDevice = {}
+
 
 ---@param fields? DisposalDevice
 ---@return DisposalDevice

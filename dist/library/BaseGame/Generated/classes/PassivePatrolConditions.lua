@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PassivePatrolConditions: PassiveAutonomousCondition
 ---@field roleCbId Uint32
 ---@field cmdCbId Uint32
 PassivePatrolConditions = {}
+
 
 ---@param fields? PassivePatrolConditions
 ---@return PassivePatrolConditions

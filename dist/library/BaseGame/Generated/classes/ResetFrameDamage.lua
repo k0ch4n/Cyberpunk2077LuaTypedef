@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetFrameDamage: redEvent
 ResetFrameDamage = {}
+
 
 ---@param fields? ResetFrameDamage
 ---@return ResetFrameDamage

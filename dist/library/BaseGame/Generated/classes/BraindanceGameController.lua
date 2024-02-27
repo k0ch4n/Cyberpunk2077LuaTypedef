@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BraindanceGameController: gameuiHUDGameController
 ---@field currentTimerMarker inkWidgetReference
 ---@field currentTimerText inkTextWidgetReference
@@ -40,6 +41,7 @@
 ---@field hideTimelineAnimation inkanimProxy
 ---@field showWidgetAnimation inkanimProxy
 BraindanceGameController = {}
+
 
 ---@param fields? BraindanceGameController
 ---@return BraindanceGameController

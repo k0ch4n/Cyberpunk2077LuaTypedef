@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@enum animMuteAnimEvents
 animMuteAnimEvents = {
     STANDARD = 0x1,

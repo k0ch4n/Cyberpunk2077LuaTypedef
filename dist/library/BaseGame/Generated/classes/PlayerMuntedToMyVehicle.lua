@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayerMuntedToMyVehicle: redEvent
 ---@field player PlayerPuppet
 PlayerMuntedToMyVehicle = {}
+
 
 ---@param fields? PlayerMuntedToMyVehicle
 ---@return PlayerMuntedToMyVehicle

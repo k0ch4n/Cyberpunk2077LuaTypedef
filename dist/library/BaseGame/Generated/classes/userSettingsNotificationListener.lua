@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class userSettingsNotificationListener: IScriptable
 userSettingsNotificationListener = {}
+
 
 ---@param fields? userSettingsNotificationListener
 ---@return userSettingsNotificationListener

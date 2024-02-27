@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class animAnimFeature_Stance: animAnimFeature
 ---@field stanceState Int32
 animAnimFeature_Stance = {}
+
 
 ---@param fields? animAnimFeature_Stance
 ---@return animAnimFeature_Stance

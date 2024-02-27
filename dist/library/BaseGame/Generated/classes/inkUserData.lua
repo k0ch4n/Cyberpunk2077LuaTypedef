@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkUserData: IScriptable
 inkUserData = {}
+
 
 ---@param fields? inkUserData
 ---@return inkUserData

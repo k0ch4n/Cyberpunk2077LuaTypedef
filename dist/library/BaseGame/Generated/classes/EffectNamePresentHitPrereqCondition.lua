@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EffectNamePresentHitPrereqCondition: BaseHitPrereqCondition
 ---@field effectName CName
 EffectNamePresentHitPrereqCondition = {}
+
 
 ---@param fields? EffectNamePresentHitPrereqCondition
 ---@return EffectNamePresentHitPrereqCondition

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIAdditionalTraceType_Record: gamedataTweakDBRecord
 gamedataAIAdditionalTraceType_Record = {}
+
 
 ---@param fields? gamedataAIAdditionalTraceType_Record
 ---@return gamedataAIAdditionalTraceType_Record

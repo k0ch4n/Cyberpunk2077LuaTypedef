@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LiftMovementLoadEvent: redEvent
 LiftMovementLoadEvent = {}
+
 
 ---@param fields? LiftMovementLoadEvent
 ---@return LiftMovementLoadEvent

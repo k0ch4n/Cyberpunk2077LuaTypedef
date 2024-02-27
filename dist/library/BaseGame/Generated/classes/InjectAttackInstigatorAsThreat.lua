@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InjectAttackInstigatorAsThreat: AIbehaviortaskScript
 InjectAttackInstigatorAsThreat = {}
+
 
 ---@param fields? InjectAttackInstigatorAsThreat
 ---@return InjectAttackInstigatorAsThreat

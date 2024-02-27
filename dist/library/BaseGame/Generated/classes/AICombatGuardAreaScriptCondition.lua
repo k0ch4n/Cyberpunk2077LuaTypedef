@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICombatGuardAreaScriptCondition: AIICombatGuardAreaCondition
 AICombatGuardAreaScriptCondition = {}
+
 
 ---@param fields? AICombatGuardAreaScriptCondition
 ---@return AICombatGuardAreaScriptCondition

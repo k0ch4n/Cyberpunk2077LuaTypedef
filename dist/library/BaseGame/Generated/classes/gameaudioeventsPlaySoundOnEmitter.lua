@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameaudioeventsPlaySoundOnEmitter: gameaudioeventsEmitterEvent
 ---@field eventName CName
 gameaudioeventsPlaySoundOnEmitter = {}
+
 
 ---@param fields? gameaudioeventsPlaySoundOnEmitter
 ---@return gameaudioeventsPlaySoundOnEmitter

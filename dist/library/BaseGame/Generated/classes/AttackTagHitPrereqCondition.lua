@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AttackTagHitPrereqCondition: BaseHitPrereqCondition
 ---@field attackTag CName
 AttackTagHitPrereqCondition = {}
+
 
 ---@param fields? AttackTagHitPrereqCondition
 ---@return AttackTagHitPrereqCondition

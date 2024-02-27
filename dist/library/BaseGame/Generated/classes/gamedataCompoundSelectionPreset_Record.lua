@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCompoundSelectionPreset_Record: gamedataTweakDBRecord
 gamedataCompoundSelectionPreset_Record = {}
+
 
 ---@param fields? gamedataCompoundSelectionPreset_Record
 ---@return gamedataCompoundSelectionPreset_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataDriveHelper_Record: gamedataTweakDBRecord
 gamedataDriveHelper_Record = {}
+
 
 ---@param fields? gamedataDriveHelper_Record
 ---@return gamedataDriveHelper_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataUIAnimation_Record: gamedataTweakDBRecord
 gamedataUIAnimation_Record = {}
+
 
 ---@param fields? gamedataUIAnimation_Record
 ---@return gamedataUIAnimation_Record

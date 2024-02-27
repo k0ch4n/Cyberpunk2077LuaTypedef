@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceSecuritySystemArmed: ActionBool
 QuestForceSecuritySystemArmed = {}
+
 
 ---@param fields? QuestForceSecuritySystemArmed
 ---@return QuestForceSecuritySystemArmed

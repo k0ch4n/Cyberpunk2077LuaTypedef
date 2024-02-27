@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EntityAttachementComponent: gameScriptableComponent
 ---@field parentAttachementData EntityAttachementData
 EntityAttachementComponent = {}
+
 
 ---@param fields? EntityAttachementComponent
 ---@return EntityAttachementComponent

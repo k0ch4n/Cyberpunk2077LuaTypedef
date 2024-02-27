@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceEmptyHandsEvents: UpperBodyEventsTransition
 ForceEmptyHandsEvents = {}
+
 
 ---@param fields? ForceEmptyHandsEvents
 ---@return ForceEmptyHandsEvents

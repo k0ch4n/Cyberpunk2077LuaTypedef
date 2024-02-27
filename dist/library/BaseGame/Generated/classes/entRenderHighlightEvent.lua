@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entRenderHighlightEvent: redEvent
 ---@field fillIndex Uint8
 ---@field outlineIndex Uint8
@@ -7,6 +8,7 @@
 ---@field componentName CName
 ---@field opacity Float
 entRenderHighlightEvent = {}
+
 
 ---@param fields? entRenderHighlightEvent
 ---@return entRenderHighlightEvent

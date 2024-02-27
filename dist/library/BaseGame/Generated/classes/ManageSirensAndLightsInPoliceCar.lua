@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ManageSirensAndLightsInPoliceCar: AIbehaviortaskScript
 ---@field turnOnLights AIArgumentMapping
 ---@field turnOnSirens AIArgumentMapping
 ManageSirensAndLightsInPoliceCar = {}
+
 
 ---@param fields? ManageSirensAndLightsInPoliceCar
 ---@return ManageSirensAndLightsInPoliceCar

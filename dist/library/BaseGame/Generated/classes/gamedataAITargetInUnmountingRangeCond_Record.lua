@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAITargetInUnmountingRangeCond_Record: gamedataAIActionSubCondition_Record
 gamedataAITargetInUnmountingRangeCond_Record = {}
+
 
 ---@param fields? gamedataAITargetInUnmountingRangeCond_Record
 ---@return gamedataAITargetInUnmountingRangeCond_Record

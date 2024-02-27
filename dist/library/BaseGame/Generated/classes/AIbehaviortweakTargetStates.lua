@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviortweakTargetStates
 AIbehaviortweakTargetStates = {}
+
 
 ---@param fields? AIbehaviortweakTargetStates
 ---@return AIbehaviortweakTargetStates

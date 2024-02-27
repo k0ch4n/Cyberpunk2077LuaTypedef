@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class mpServerPlayer: mpPlayer
 mpServerPlayer = {}
+
 
 ---@param fields? mpServerPlayer
 ---@return mpServerPlayer

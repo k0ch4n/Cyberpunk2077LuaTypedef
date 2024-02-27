@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gsmGameDefinition: CResource
 ---@field mainQuests gsmMainQuest[]
 ---@field world worldWorld
@@ -7,6 +8,7 @@
 ---@field worldName String
 ---@field spawnPointTags redTagList
 gsmGameDefinition = {}
+
 
 ---@param fields? gsmGameDefinition
 ---@return gsmGameDefinition

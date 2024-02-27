@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameTargetShootComponent: entIComponent
 ---@field weaponRecord gamedataWeaponItem_Record
 ---@field weaponTDBID TweakDBID
 ---@field characterRecord gamedataCharacter_Record
 ---@field characterTDBID TweakDBID
 gameTargetShootComponent = {}
+
 
 ---@param fields? gameTargetShootComponent
 ---@return gameTargetShootComponent

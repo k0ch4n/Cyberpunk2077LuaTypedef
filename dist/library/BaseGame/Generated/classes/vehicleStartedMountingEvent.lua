@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleStartedMountingEvent: redEvent
 ---@field slotID CName
 ---@field animationSlotName CName
@@ -8,6 +9,7 @@
 ---@field instant Bool
 ---@field silent Bool
 vehicleStartedMountingEvent = {}
+
 
 ---@param fields? vehicleStartedMountingEvent
 ---@return vehicleStartedMountingEvent

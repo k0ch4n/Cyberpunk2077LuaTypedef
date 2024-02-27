@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ReloadEvents: WeaponEventsTransition
 ---@field statListener DefaultTransitionStatListener
 ---@field randomSync AnimFeature_SelectRandomAnimSync
@@ -14,6 +15,7 @@
 ---@field lastReloadWasEmpty Bool
 ---@field isCoolPerkReload Bool
 ReloadEvents = {}
+
 
 ---@param fields? ReloadEvents
 ---@return ReloadEvents

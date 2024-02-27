@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsPlayerInVehicle: PreventionConditionAbstract
 IsPlayerInVehicle = {}
+
 
 ---@param fields? IsPlayerInVehicle
 ---@return IsPlayerInVehicle

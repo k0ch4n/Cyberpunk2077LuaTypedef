@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PlayPauseActionWidgetController: NextPreviousActionWidgetController
 ---@field playContainer inkWidgetReference
 ---@field isPlaying Bool
 PlayPauseActionWidgetController = {}
+
 
 ---@param fields? PlayPauseActionWidgetController
 ---@return PlayPauseActionWidgetController

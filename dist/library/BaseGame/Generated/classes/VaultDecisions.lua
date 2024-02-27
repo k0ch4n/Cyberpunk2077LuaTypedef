@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class VaultDecisions: LocomotionGroundDecisions
 ---@field callbackIDs redCallbackObject[]
 ---@field stateBodyDone Bool
 ---@field shouldDisableEnterCondition Bool
 VaultDecisions = {}
+
 
 ---@param fields? VaultDecisions
 ---@return VaultDecisions

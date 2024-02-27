@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NetworkMinigameBufferController: inkWidgetLogicController
 ---@field bufferSlotsContainer inkWidgetReference
 ---@field elementLibraryName CName
@@ -12,6 +13,7 @@
 ---@field currentAlpha Float
 ---@field nextAlpha Float
 NetworkMinigameBufferController = {}
+
 
 ---@param fields? NetworkMinigameBufferController
 ---@return NetworkMinigameBufferController

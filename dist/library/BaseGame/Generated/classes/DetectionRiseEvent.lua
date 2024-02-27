@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DetectionRiseEvent: senseVisibilityEvent
 DetectionRiseEvent = {}
+
 
 ---@param fields? DetectionRiseEvent
 ---@return DetectionRiseEvent

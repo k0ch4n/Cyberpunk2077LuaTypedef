@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SampleUIButtons: inkWidgetLogicController
 ---@field Button inkWidgetReference
 ---@field Toggle1 inkWidgetReference
@@ -8,6 +9,7 @@
 ---@field RadioGroup inkWidgetReference
 ---@field Text inkTextWidgetReference
 SampleUIButtons = {}
+
 
 ---@param fields? SampleUIButtons
 ---@return SampleUIButtons

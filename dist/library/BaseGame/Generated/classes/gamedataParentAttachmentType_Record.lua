@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataParentAttachmentType_Record: gamedataTweakDBRecord
 gamedataParentAttachmentType_Record = {}
+
 
 ---@param fields? gamedataParentAttachmentType_Record
 ---@return gamedataParentAttachmentType_Record

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleSummonWidgetGameController: gameuiHUDGameController
 ---@field vehicleNameLabel inkTextWidgetReference
 ---@field vehicleTypeIcon inkImageWidgetReference
@@ -21,6 +22,7 @@
 ---@field animationProxy inkanimProxy
 ---@field animationCounterProxy inkanimProxy
 VehicleSummonWidgetGameController = {}
+
 
 ---@param fields? VehicleSummonWidgetGameController
 ---@return VehicleSummonWidgetGameController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TagObjectEvent: redEvent
 ---@field isTagged Bool
 TagObjectEvent = {}
+
 
 ---@param fields? TagObjectEvent
 ---@return TagObjectEvent

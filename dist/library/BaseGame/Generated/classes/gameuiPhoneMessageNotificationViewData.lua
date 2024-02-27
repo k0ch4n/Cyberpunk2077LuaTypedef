@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameuiPhoneMessageNotificationViewData: gameuiQuestUpdateNotificationViewData
 ---@field threadHash Int32
 ---@field contactHash Int32
 gameuiPhoneMessageNotificationViewData = {}
+
 
 ---@param fields? gameuiPhoneMessageNotificationViewData
 ---@return gameuiPhoneMessageNotificationViewData

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class QuestAnimationMappinController: gameuiQuestMappinController
 ---@field mappin gamemappinsQuestMappin
 ---@field animationRecord gamedataUIAnimation_Record
 ---@field animProxy inkanimProxy
 ---@field playing Bool
 QuestAnimationMappinController = {}
+
 
 ---@param fields? QuestAnimationMappinController
 ---@return QuestAnimationMappinController

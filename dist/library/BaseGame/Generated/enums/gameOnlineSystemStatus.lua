@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameOnlineSystemStatus: Enum
 ---@field Uninitialized Enum 0
 ---@field GeneratingCPID Enum 1

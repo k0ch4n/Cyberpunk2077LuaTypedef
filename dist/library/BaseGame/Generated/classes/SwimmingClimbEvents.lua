@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SwimmingClimbEvents: ClimbEvents
 SwimmingClimbEvents = {}
+
 
 ---@param fields? SwimmingClimbEvents
 ---@return SwimmingClimbEvents

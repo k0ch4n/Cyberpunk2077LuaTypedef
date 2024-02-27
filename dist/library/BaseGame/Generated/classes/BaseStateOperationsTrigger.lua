@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class BaseStateOperationsTrigger: DeviceOperationsTrigger
 ---@field triggerData BaseStateOperationTriggerData
 ---@field wasStateCached Bool
 ---@field cachedState EDeviceStatus
 BaseStateOperationsTrigger = {}
+
 
 ---@param fields? BaseStateOperationsTrigger
 ---@return BaseStateOperationsTrigger

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlayerElevationPrereqState: gamePrereqState
 ---@field minElevationValue Float
 ---@field maxElevationValue Float
@@ -7,6 +8,7 @@
 ---@field maxElevationListener redCallbackObject
 ---@field owner gameObject
 PlayerElevationPrereqState = {}
+
 
 ---@param fields? PlayerElevationPrereqState
 ---@return PlayerElevationPrereqState

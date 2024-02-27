@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SpatialQueriesHelper: IScriptable
 SpatialQueriesHelper = {}
+
 
 ---@param fields? SpatialQueriesHelper
 ---@return SpatialQueriesHelper

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkSelectionRule: Enum
 ---@field Single Enum 0
 ---@field Parent Enum 1

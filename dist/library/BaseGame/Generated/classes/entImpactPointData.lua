@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entImpactPointData
 ---@field worldPosition WorldPosition
 ---@field worldNormal Vector4
@@ -8,6 +9,7 @@
 ---@field maxForceMagnitude Float
 ---@field maxImpulseMagnitude Float
 entImpactPointData = {}
+
 
 ---@param fields? entImpactPointData
 ---@return entImpactPointData

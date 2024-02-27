@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Attack_Beam: gameAttack_Continuous
 Attack_Beam = {}
+
 
 ---@param fields? Attack_Beam
 ---@return Attack_Beam

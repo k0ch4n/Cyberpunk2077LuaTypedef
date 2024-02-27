@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsPlayerReachablePrereqState: gamePrereqState
 IsPlayerReachablePrereqState = {}
+
 
 ---@param fields? IsPlayerReachablePrereqState
 ---@return IsPlayerReachablePrereqState

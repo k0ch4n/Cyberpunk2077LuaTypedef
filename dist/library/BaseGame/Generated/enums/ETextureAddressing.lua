@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETextureAddressing: Enum
 ---@field TA_Wrap Enum 0
 ---@field TA_Mirror Enum 1

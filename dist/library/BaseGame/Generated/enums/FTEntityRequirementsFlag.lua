@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FTEntityRequirementsFlag: Enum
 ---@field None Enum 0
 ---@field LookAtComponent Enum 1

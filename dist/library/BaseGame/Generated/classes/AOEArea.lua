@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AOEArea: InteractiveMasterDevice
 ---@field areaComponent gameStaticTriggerAreaComponent
 ---@field gameEffect gameEffectInstance
@@ -10,6 +11,7 @@
 ---@field extendPercentAABB Float
 ---@field isAABBExtended Bool
 AOEArea = {}
+
 
 ---@param fields? AOEArea
 ---@return AOEArea

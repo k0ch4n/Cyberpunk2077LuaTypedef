@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SuperheroLandRecoveryDecisions: AbstractLandDecisions
 SuperheroLandRecoveryDecisions = {}
+
 
 ---@param fields? SuperheroLandRecoveryDecisions
 ---@return SuperheroLandRecoveryDecisions

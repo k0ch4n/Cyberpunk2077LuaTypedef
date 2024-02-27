@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PatchNotePopupController: gameuiWidgetGameController
 PatchNotePopupController = {}
+
 
 ---@param fields? PatchNotePopupController
 ---@return PatchNotePopupController

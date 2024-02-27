@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PreventionVehicleHackedEvent: redEvent
 ---@field instigatorID entEntityID
 PreventionVehicleHackedEvent = {}
+
 
 ---@param fields? PreventionVehicleHackedEvent
 ---@return PreventionVehicleHackedEvent

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameCrowdCreationDataRegistry: ISerializable
 ---@field creationData gameCrowdCreationData[]
 gameCrowdCreationDataRegistry = {}
+
 
 ---@param fields? gameCrowdCreationDataRegistry
 ---@return gameCrowdCreationDataRegistry

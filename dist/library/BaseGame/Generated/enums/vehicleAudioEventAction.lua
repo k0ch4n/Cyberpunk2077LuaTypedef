@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleAudioEventAction: Enum
 ---@field OnPlayerDriving Enum 0
 ---@field OnPlayerPassenger Enum 1

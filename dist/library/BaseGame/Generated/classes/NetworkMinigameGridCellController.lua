@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NetworkMinigameGridCellController: inkButtonController
 ---@field cellData CellData
 ---@field grid NetworkMinigameGridController
@@ -8,6 +9,7 @@
 ---@field elementLibraryName CName
 ---@field defaultColor HDRColor
 NetworkMinigameGridCellController = {}
+
 
 ---@param fields? NetworkMinigameGridCellController
 ---@return NetworkMinigameGridCellController

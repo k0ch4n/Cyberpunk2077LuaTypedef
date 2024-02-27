@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SecurityAreaData
 ---@field securityArea SecurityAreaControllerPS
 ---@field securityAreaType ESecurityAreaType
@@ -11,6 +12,7 @@
 ---@field outgoingFilters EFilterType
 ---@field shouldHideOnMinimap Bool
 SecurityAreaData = {}
+
 
 ---@param fields? SecurityAreaData
 ---@return SecurityAreaData

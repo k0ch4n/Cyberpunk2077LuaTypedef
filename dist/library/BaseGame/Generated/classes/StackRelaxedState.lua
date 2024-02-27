@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StackRelaxedState: StackChangeHighLevelStateAbstract
 StackRelaxedState = {}
+
 
 ---@param fields? StackRelaxedState
 ---@return StackRelaxedState

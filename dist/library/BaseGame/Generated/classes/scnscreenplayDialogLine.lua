@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnscreenplayDialogLine
 ---@field itemId scnscreenplayItemId
 ---@field speaker scnActorId
@@ -9,6 +10,7 @@
 ---@field maleLipsyncAnimationName CName
 ---@field femaleLipsyncAnimationName CName
 scnscreenplayDialogLine = {}
+
 
 ---@param fields? scnscreenplayDialogLine
 ---@return scnscreenplayDialogLine

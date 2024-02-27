@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CallOffReactionAction: SquadTask
 ---@field squadActionName EAISquadAction
 CallOffReactionAction = {}
+
 
 ---@param fields? CallOffReactionAction
 ---@return CallOffReactionAction

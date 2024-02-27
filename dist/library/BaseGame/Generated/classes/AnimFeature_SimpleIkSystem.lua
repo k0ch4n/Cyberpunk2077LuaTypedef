@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_SimpleIkSystem: animAnimFeature
 ---@field isEnable Bool
 ---@field weight Float
@@ -10,6 +11,7 @@
 ---@field rotation Quaternion
 ---@field rotationOffset Quaternion
 AnimFeature_SimpleIkSystem = {}
+
 
 ---@param fields? AnimFeature_SimpleIkSystem
 ---@return AnimFeature_SimpleIkSystem

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ChargeMaxDecisions: WeaponTransition
 ChargeMaxDecisions = {}
+
 
 ---@param fields? ChargeMaxDecisions
 ---@return ChargeMaxDecisions

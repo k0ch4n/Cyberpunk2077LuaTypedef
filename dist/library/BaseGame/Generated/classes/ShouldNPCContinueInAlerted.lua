@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ShouldNPCContinueInAlerted: AIbehaviorconditionScript
 ShouldNPCContinueInAlerted = {}
+
 
 ---@param fields? ShouldNPCContinueInAlerted
 ---@return ShouldNPCContinueInAlerted

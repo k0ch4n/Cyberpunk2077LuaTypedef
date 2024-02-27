@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PlayerDoesntHaveRecipePrereq: gameIScriptablePrereq
 ---@field recipeID TweakDBID
 ---@field invert Bool
 PlayerDoesntHaveRecipePrereq = {}
+
 
 ---@param fields? PlayerDoesntHaveRecipePrereq
 ---@return PlayerDoesntHaveRecipePrereq

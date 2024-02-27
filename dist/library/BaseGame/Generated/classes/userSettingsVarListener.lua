@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class userSettingsVarListener: IScriptable
 userSettingsVarListener = {}
+
 
 ---@param fields? userSettingsVarListener
 ---@return userSettingsVarListener

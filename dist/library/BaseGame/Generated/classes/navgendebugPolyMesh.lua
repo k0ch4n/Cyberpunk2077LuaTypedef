@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class navgendebugPolyMesh: ISerializable
 ---@field vertices Vector3[]
 ---@field polygons navgendebugCompactPolygon[]
@@ -10,6 +11,7 @@
 ---@field maxEdgeError Float
 ---@field maxVerticesPerPolygon Int32
 navgendebugPolyMesh = {}
+
 
 ---@param fields? navgendebugPolyMesh
 ---@return navgendebugPolyMesh

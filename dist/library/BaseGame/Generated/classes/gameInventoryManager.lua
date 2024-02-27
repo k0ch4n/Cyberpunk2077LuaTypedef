@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameInventoryManager: gameIInventoryManager
 gameInventoryManager = {}
+
 
 ---@param fields? gameInventoryManager
 ---@return gameInventoryManager

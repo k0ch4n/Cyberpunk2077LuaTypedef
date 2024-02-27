@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleMappinComponent: IScriptable
 ---@field questMappinController QuestMappinController
 ---@field vehicleMappin gamemappinsVehicleMappin
@@ -17,6 +18,7 @@
 ---@field uiActiveVehicleDataBB gameIBlackboard
 ---@field vehPlayerStateDataCallback redCallbackObject
 VehicleMappinComponent = {}
+
 
 ---@param fields? VehicleMappinComponent
 ---@return VehicleMappinComponent

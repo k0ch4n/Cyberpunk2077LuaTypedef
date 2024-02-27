@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TVViabilityInterpreter: IScriptable
 TVViabilityInterpreter = {}
+
 
 ---@param fields? TVViabilityInterpreter
 ---@return TVViabilityInterpreter

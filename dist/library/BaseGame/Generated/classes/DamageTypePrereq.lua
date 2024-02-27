@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DamageTypePrereq: GenericHitPrereq
 ---@field damageType gamedataDamageType
 DamageTypePrereq = {}
+
 
 ---@param fields? DamageTypePrereq
 ---@return DamageTypePrereq

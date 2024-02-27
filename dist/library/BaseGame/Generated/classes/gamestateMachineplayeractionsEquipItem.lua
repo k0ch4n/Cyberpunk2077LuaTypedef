@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineplayeractionsEquipItem: gamestateMachineStateActionDefinition
 gamestateMachineplayeractionsEquipItem = {}
+
 
 ---@param fields? gamestateMachineplayeractionsEquipItem
 ---@return gamestateMachineplayeractionsEquipItem

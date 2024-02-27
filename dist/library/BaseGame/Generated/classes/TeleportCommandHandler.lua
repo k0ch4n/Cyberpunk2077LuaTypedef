@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class TeleportCommandHandler: AICommandHandlerBase
 ---@field position AIArgumentMapping
 ---@field rotation AIArgumentMapping
 ---@field doNavTest AIArgumentMapping
 TeleportCommandHandler = {}
+
 
 ---@param fields? TeleportCommandHandler
 ---@return TeleportCommandHandler

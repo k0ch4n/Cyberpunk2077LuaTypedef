@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DebugHubMenuLogicController: inkWidgetLogicController
 ---@field selectorWidget inkWidget
 ---@field selectorCtrl hubSelectorController
@@ -7,6 +8,7 @@
 ---@field eventsList CName[]
 ---@field defailtMenuName CName
 DebugHubMenuLogicController = {}
+
 
 ---@param fields? DebugHubMenuLogicController
 ---@return DebugHubMenuLogicController

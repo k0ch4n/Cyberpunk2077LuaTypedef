@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAITacticType: Enum
 ---@field Assault Enum 0
 ---@field Defend Enum 1

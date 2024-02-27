@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataNPCTypePrereq_Record: gamedataIPrereq_Record
 gamedataNPCTypePrereq_Record = {}
+
 
 ---@param fields? gamedataNPCTypePrereq_Record
 ---@return gamedataNPCTypePrereq_Record

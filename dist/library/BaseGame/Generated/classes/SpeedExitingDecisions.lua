@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SpeedExitingDecisions: ExitingDecisions
 SpeedExitingDecisions = {}
+
 
 ---@param fields? SpeedExitingDecisions
 ---@return SpeedExitingDecisions

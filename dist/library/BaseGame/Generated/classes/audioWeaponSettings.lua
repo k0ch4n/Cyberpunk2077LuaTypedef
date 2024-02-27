@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioWeaponSettings: audioAudioMetadata
 ---@field bulletType audioWeaponBulletType
 ---@field shellCasingType audioWeaponShellCasingType

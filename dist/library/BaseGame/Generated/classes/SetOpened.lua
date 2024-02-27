@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SetOpened: ActionBool
 SetOpened = {}
+
 
 ---@param fields? SetOpened
 ---@return SetOpened

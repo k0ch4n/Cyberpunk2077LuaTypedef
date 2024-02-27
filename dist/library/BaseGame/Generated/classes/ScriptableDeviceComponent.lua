@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ScriptableDeviceComponent: gameDeviceComponent
 ScriptableDeviceComponent = {}
+
 
 ---@param fields? ScriptableDeviceComponent
 ---@return ScriptableDeviceComponent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class textTextShapingMethod: Enum
 ---@field Auto Enum 0
 ---@field KerningOnly Enum 1

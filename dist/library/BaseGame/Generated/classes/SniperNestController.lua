@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SniperNestController: SensorDeviceController
 SniperNestController = {}
+
 
 ---@param fields? SniperNestController
 ---@return SniperNestController

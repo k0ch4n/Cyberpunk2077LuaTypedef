@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ConsumableUseDecisions: ConsumableTransitions
 ConsumableUseDecisions = {}
+
 
 ---@param fields? ConsumableUseDecisions
 ---@return ConsumableUseDecisions

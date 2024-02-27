@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animAnimFeatureWorkspotExitAnim: animAnimFeature
 animAnimFeatureWorkspotExitAnim = {}
+
 
 ---@param fields? animAnimFeatureWorkspotExitAnim
 ---@return animAnimFeatureWorkspotExitAnim

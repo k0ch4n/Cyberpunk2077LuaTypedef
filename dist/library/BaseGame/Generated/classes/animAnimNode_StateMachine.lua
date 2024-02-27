@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_StateMachine: animAnimNode_Base
 ---@field states animAnimNode_State[]
 ---@field frozenState animAnimNode_StateFrozen
@@ -10,6 +11,7 @@
 ---@field defaultStateIndex Uint32
 ---@field notifyOnEnterState Bool
 animAnimNode_StateMachine = {}
+
 
 ---@param fields? animAnimNode_StateMachine
 ---@return animAnimNode_StateMachine

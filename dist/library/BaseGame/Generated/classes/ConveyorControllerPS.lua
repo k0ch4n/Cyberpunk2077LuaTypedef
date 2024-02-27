@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ConveyorControllerPS: ScriptableDeviceComponentPS
 ConveyorControllerPS = {}
+
 
 ---@param fields? ConveyorControllerPS
 ---@return ConveyorControllerPS

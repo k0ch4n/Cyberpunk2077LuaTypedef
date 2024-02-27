@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PerkTrainingController: ScriptableDeviceComponent
 PerkTrainingController = {}
+
 
 ---@param fields? PerkTrainingController
 ---@return PerkTrainingController

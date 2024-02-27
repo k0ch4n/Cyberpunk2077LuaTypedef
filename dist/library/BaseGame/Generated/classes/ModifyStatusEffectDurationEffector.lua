@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ModifyStatusEffectDurationEffector: gameEffector
 ---@field statusEffectListener OnStatusEffectAppliedListener
 ---@field tags CName[]
@@ -9,6 +10,7 @@
 ---@field canGoOverInitialDuration Bool
 ---@field gameInstance ScriptGameInstance
 ModifyStatusEffectDurationEffector = {}
+
 
 ---@param fields? ModifyStatusEffectDurationEffector
 ---@return ModifyStatusEffectDurationEffector

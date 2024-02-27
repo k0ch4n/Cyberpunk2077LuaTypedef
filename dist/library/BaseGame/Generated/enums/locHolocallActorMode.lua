@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class locHolocallActorMode: Enum
 ---@field Default Enum 0
 ---@field ActorUsesHolocall Enum 1

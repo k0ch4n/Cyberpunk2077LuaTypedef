@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIStopCoverCommandParams: questScriptedAICommandParams
 AIStopCoverCommandParams = {}
+
 
 ---@param fields? AIStopCoverCommandParams
 ---@return AIStopCoverCommandParams

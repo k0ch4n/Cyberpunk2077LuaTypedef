@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ModifyStatPoolValuePerHitEffector: ModifyStatPoolValueEffector
 ---@field damageScaleFactor Float
 ModifyStatPoolValuePerHitEffector = {}
+
 
 ---@param fields? ModifyStatPoolValuePerHitEffector
 ---@return ModifyStatPoolValuePerHitEffector

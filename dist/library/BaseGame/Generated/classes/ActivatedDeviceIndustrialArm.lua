@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ActivatedDeviceIndustrialArm: ActivatedDeviceTrap
 ---@field loopAnimation EIndustrialArmAnimations
 ActivatedDeviceIndustrialArm = {}
+
 
 ---@param fields? ActivatedDeviceIndustrialArm
 ---@return ActivatedDeviceIndustrialArm

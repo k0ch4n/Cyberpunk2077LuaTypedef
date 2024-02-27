@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ElectricBoxInkGameController: DeviceInkGameControllerBase
 ---@field onOverrideListener redCallbackObject
 ElectricBoxInkGameController = {}
+
 
 ---@param fields? ElectricBoxInkGameController
 ---@return ElectricBoxInkGameController

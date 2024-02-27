@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class animHasAnimationCondition: animIStaticCondition
 ---@field animationName CName
 animHasAnimationCondition = {}
+
 
 ---@param fields? animHasAnimationCondition
 ---@return animHasAnimationCondition

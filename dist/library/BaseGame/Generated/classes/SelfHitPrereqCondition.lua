@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SelfHitPrereqCondition: BaseHitPrereqCondition
 SelfHitPrereqCondition = {}
+
 
 ---@param fields? SelfHitPrereqCondition
 ---@return SelfHitPrereqCondition

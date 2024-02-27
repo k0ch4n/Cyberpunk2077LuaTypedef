@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UIMenuNotificationQueue: gameuiGenericNotificationGameController
 ---@field duration Float
 UIMenuNotificationQueue = {}
+
 
 ---@param fields? UIMenuNotificationQueue
 ---@return UIMenuNotificationQueue

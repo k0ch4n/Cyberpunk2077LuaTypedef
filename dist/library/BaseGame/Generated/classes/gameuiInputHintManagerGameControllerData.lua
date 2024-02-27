@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiInputHintManagerGameControllerData: gameuiBaseUIData
 ---@field inputHintsData gameuiInputHintData[]
 gameuiInputHintManagerGameControllerData = {}
+
 
 ---@param fields? gameuiInputHintManagerGameControllerData
 ---@return gameuiInputHintManagerGameControllerData

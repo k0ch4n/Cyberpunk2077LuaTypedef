@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataTriggerMode: Enum
 ---@field Burst Enum 0
 ---@field Charge Enum 1

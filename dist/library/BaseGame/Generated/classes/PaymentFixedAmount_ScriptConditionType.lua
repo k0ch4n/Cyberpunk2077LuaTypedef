@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PaymentFixedAmount_ScriptConditionType: PaymentConditionTypeBase
 ---@field payAmount Uint32
 PaymentFixedAmount_ScriptConditionType = {}
+
 
 ---@param fields? PaymentFixedAmount_ScriptConditionType
 ---@return PaymentFixedAmount_ScriptConditionType

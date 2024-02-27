@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestIdle: ActionBool
 QuestIdle = {}
+
 
 ---@param fields? QuestIdle
 ---@return QuestIdle

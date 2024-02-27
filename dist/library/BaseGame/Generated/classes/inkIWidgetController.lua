@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkIWidgetController: IScriptable
 ---@field audioMetadataName CName
 inkIWidgetController = {}
+
 
 ---@param spawnData inkAsyncSpawnData
 ---@param callbackObject? IScriptable

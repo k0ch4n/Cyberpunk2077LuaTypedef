@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldMinimapModeOverrideAreaNotifierInstance: worldITriggerAreaNotiferInstance
 worldMinimapModeOverrideAreaNotifierInstance = {}
+
 
 ---@param fields? worldMinimapModeOverrideAreaNotifierInstance
 ---@return worldMinimapModeOverrideAreaNotifierInstance

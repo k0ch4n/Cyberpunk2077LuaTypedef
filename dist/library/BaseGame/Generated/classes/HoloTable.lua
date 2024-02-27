@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class HoloTable: InteractiveDevice
 ---@field componentCounter Int32
 ---@field meshTable entMeshComponent[]
 ---@field currentMesh Int32
 ---@field glitchMesh entMeshComponent
 HoloTable = {}
+
 
 ---@param fields? HoloTable
 ---@return HoloTable

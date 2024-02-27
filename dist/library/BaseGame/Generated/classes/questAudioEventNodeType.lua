@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questAudioEventNodeType: questIAudioNodeType
 ---@field events audioAudEventStruct[]
 ---@field musicEvents audioAudEventStruct[]
@@ -13,6 +14,7 @@
 ---@field objectRef gameEntityReference
 ---@field isPlayer Bool
 questAudioEventNodeType = {}
+
 
 ---@param fields? questAudioEventNodeType
 ---@return questAudioEventNodeType

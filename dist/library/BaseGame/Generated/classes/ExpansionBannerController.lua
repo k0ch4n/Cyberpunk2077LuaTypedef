@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ExpansionBannerController: inkWidgetLogicController
 ---@field statusTextRef inkTextWidgetReference
 ---@field inputHintRef inkWidgetReference
@@ -9,6 +10,7 @@
 ---@field expansionStatus ExpansionStatus
 ---@field root inkWidget
 ExpansionBannerController = {}
+
 
 ---@param fields? ExpansionBannerController
 ---@return ExpansionBannerController

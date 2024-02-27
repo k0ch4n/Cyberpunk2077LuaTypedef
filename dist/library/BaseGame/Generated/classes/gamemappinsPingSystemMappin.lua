@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gamemappinsPingSystemMappin: gamemappinsRuntimeMappin
 ---@field pingType gamedataPingType
 gamemappinsPingSystemMappin = {}
+
 
 ---@param fields? gamemappinsPingSystemMappin
 ---@return gamemappinsPingSystemMappin

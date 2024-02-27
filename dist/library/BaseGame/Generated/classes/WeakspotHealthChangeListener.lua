@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class WeakspotHealthChangeListener: gameCustomValueStatPoolsListener
 ---@field self gameObject
 ---@field statPoolType gamedataStatPoolType
 ---@field statPoolSystem gameStatPoolsSystem
 WeakspotHealthChangeListener = {}
+
 
 ---@param fields? WeakspotHealthChangeListener
 ---@return WeakspotHealthChangeListener

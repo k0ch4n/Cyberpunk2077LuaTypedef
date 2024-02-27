@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataUIIconCensorFlag: Enum
 ---@field Drugs Enum 0
 ---@field Gore Enum 1

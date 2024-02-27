@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class scannerBorderLogicController: inkWidgetLogicController
 ---@field braindanceSetVisible inkWidgetReference[]
 ---@field braindanceSetHidden inkWidgetReference[]
 scannerBorderLogicController = {}
+
 
 ---@param fields? scannerBorderLogicController
 ---@return scannerBorderLogicController

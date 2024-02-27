@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ReloadFromEmptyPrereqState: gamePrereqState
 ---@field owner gameObject
 ---@field minAmountOfAmmoReloaded Int32
@@ -7,6 +8,7 @@
 ---@field listenerActiveWeaponVariant redCallbackObject
 ---@field reloadingInProgress Bool
 ReloadFromEmptyPrereqState = {}
+
 
 ---@param fields? ReloadFromEmptyPrereqState
 ---@return ReloadFromEmptyPrereqState

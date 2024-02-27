@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiCharacterCustomizationPart: Enum
 ---@field Head Enum 0
 ---@field Body Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkSliderControllerValueChangeCallback: inkCallbackBase
 inkSliderControllerValueChangeCallback = {}
+
 
 ---@param fields? inkSliderControllerValueChangeCallback
 ---@return inkSliderControllerValueChangeCallback

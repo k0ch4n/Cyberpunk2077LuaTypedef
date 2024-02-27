@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAttackSubtype: Enum
 ---@field BlockAttack Enum 0
 ---@field BodySlamAttack Enum 1

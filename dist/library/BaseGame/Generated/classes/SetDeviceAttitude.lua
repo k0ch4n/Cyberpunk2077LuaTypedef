@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SetDeviceAttitude: ActionBool
 ---@field Repeat Bool
 ---@field IgnoreHostiles Bool
 ---@field Attitude EAIAttitude
 SetDeviceAttitude = {}
+
 
 ---@param fields? SetDeviceAttitude
 ---@return SetDeviceAttitude

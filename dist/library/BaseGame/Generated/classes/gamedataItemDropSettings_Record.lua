@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataItemDropSettings_Record: gamedataTweakDBRecord
 gamedataItemDropSettings_Record = {}
+
 
 ---@param fields? gamedataItemDropSettings_Record
 ---@return gamedataItemDropSettings_Record

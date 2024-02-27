@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NPCPoiseListener: gameScriptStatPoolsListener
 ---@field npc NPCPuppet
 NPCPoiseListener = {}
+
 
 ---@param fields? NPCPoiseListener
 ---@return NPCPoiseListener

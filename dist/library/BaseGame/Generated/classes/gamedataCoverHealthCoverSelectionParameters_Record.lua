@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataCoverHealthCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataCoverHealthCoverSelectionParameters_Record = {}
+
 
 ---@param fields? gamedataCoverHealthCoverSelectionParameters_Record
 ---@return gamedataCoverHealthCoverSelectionParameters_Record

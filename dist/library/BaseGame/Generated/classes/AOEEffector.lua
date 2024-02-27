@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AOEEffector: ActivatedDeviceTransfromAnim
 AOEEffector = {}
+
 
 ---@param fields? AOEEffector
 ---@return AOEEffector

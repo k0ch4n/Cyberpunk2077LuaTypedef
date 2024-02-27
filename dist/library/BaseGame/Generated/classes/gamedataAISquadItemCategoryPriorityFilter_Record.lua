@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISquadItemCategoryPriorityFilter_Record: gamedataAISquadItemPriorityFilter_Record
 gamedataAISquadItemCategoryPriorityFilter_Record = {}
+
 
 ---@param fields? gamedataAISquadItemCategoryPriorityFilter_Record
 ---@return gamedataAISquadItemCategoryPriorityFilter_Record

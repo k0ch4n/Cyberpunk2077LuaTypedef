@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleWindowState: ChangeStanceStateAbstract
 VehicleWindowState = {}
+
 
 ---@param fields? VehicleWindowState
 ---@return VehicleWindowState

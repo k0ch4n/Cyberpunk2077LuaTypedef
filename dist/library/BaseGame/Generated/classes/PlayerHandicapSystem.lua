@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PlayerHandicapSystem: gameIPlayerHandicapSystem
 ---@field canDropHealingConsumable Bool
 ---@field canDropAmmo Bool
 PlayerHandicapSystem = {}
+
 
 ---@param fields? PlayerHandicapSystem
 ---@return PlayerHandicapSystem

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class LookAtPresetBaseEvents: DefaultTransition
 ---@field lookAtEvents entLookAtAddEvent[]
 ---@field attachLeft Bool
 ---@field attachRight Bool
 LookAtPresetBaseEvents = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param recordID TweakDBID|string

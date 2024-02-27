@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EquipWardrobeSetRequest: gamePlayerScriptableSystemRequest
 ---@field setID gameWardrobeClothingSetIndex
 EquipWardrobeSetRequest = {}
+
 
 ---@param fields? EquipWardrobeSetRequest
 ---@return EquipWardrobeSetRequest

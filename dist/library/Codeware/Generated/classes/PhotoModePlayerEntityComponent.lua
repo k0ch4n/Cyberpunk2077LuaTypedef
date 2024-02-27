@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PhotoModePlayerEntityComponent: gameScriptableComponent
 PhotoModePlayerEntityComponent = {}
+
 
 ---@param fields? PhotoModePlayerEntityComponent
 ---@return PhotoModePlayerEntityComponent

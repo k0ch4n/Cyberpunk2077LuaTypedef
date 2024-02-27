@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VehicleMinimapMappinComponent: IScriptable
 ---@field minimapPOIMappinController MinimapPOIMappinController
 ---@field vehicle vehicleBaseObject
@@ -13,6 +14,7 @@
 ---@field vehicleSummonDataBB gameIBlackboard
 ---@field vehicleSummonStateCallback redCallbackObject
 VehicleMinimapMappinComponent = {}
+
 
 ---@param fields? VehicleMinimapMappinComponent
 ---@return VehicleMinimapMappinComponent

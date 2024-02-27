@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class Codeware_UI_InMenuPopup: Codeware_UI_CustomPopup
 ---@field container inkCompoundWidget
 ---@field result GenericMessageNotificationResult
 ---@field confirmAction CName
 Codeware_UI_InMenuPopup = {}
+
 
 ---@return nil
 function Codeware_UI_InMenuPopup:OnCancel() end

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlatformControllerPS: ScriptableDeviceComponentPS
 ---@field floors NodeRef[]
 ---@field startingFloor Int32
@@ -15,6 +16,7 @@
 ---@field paused Bool
 ---@field pausingTime Float
 PlatformControllerPS = {}
+
 
 ---@param fields? PlatformControllerPS
 ---@return PlatformControllerPS

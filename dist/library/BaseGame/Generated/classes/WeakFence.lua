@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WeakFence: InteractiveDevice
 ---@field impulseForce Float
 ---@field impulseVector Vector4
@@ -9,6 +10,7 @@
 ---@field offMeshConnectionComponent AIOffMeshConnectionComponent
 ---@field physicalMesh entIPlacedComponent
 WeakFence = {}
+
 
 ---@param fields? WeakFence
 ---@return WeakFence

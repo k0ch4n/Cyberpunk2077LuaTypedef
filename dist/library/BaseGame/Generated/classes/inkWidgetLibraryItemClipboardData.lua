@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkWidgetLibraryItemClipboardData: ISerializable
 ---@field libraryItem inkWidgetLibraryItemUnpackedView
 inkWidgetLibraryItemClipboardData = {}
+
 
 ---@param fields? inkWidgetLibraryItemClipboardData
 ---@return inkWidgetLibraryItemClipboardData

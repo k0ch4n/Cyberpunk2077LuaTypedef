@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviortweakPlayerCallbacks
 AIbehaviortweakPlayerCallbacks = {}
+
 
 ---@param fields? AIbehaviortweakPlayerCallbacks
 ---@return AIbehaviortweakPlayerCallbacks

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class worldNavigationScriptPath: IScriptable
 ---@field path Vector4[]
 worldNavigationScriptPath = {}
+
 
 ---@param fields? worldNavigationScriptPath
 ---@return worldNavigationScriptPath

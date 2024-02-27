@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InvincibilityCollisionLogic: BonusCollisionLogic
 InvincibilityCollisionLogic = {}
+
 
 ---@param fields? InvincibilityCollisionLogic
 ---@return InvincibilityCollisionLogic

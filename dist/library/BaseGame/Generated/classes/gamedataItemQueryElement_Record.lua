@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataItemQueryElement_Record: gamedataLootTableElement_Record
 gamedataItemQueryElement_Record = {}
+
 
 ---@param fields? gamedataItemQueryElement_Record
 ---@return gamedataItemQueryElement_Record

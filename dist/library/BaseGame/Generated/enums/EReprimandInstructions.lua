@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EReprimandInstructions: Enum
 ---@field INITIATE_FIRST Enum 0
 ---@field INITIATE_SUCCESSIVE Enum 1

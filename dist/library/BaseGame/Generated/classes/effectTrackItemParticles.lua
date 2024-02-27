@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class effectTrackItemParticles: effectTrackItem
 ---@field particleSystem CParticleSystem
 ---@field emissionScale effectEffectParameterEvaluatorFloat
@@ -10,6 +11,7 @@
 ---@field soundPositionOffset Vector3
 ---@field renderLayerMask RenderSceneLayerMask
 effectTrackItemParticles = {}
+
 
 ---@param fields? effectTrackItemParticles
 ---@return effectTrackItemParticles

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldProxyMeshTexRes: Enum
 ---@field RES_64 Enum 0
 ---@field RES_128 Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class sampleUILoadingBarController: inkWidgetLogicController
 ---@field minSize Vector2
 ---@field maxSize Vector2
@@ -9,6 +10,7 @@
 ---@field imageWidget inkImageWidget
 ---@field textWidget inkTextWidget
 sampleUILoadingBarController = {}
+
 
 ---@param fields? sampleUILoadingBarController
 ---@return sampleUILoadingBarController

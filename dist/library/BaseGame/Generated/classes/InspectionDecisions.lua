@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InspectionDecisions: HighLevelTransition
 InspectionDecisions = {}
+
 
 ---@param fields? InspectionDecisions
 ---@return InspectionDecisions

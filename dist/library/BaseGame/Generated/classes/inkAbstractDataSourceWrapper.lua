@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkAbstractDataSourceWrapper: IScriptable
 inkAbstractDataSourceWrapper = {}
+
 
 ---@param fields? inkAbstractDataSourceWrapper
 ---@return inkAbstractDataSourceWrapper

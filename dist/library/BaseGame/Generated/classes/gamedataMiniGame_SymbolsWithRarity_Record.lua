@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataMiniGame_SymbolsWithRarity_Record: gamedataTweakDBRecord
 gamedataMiniGame_SymbolsWithRarity_Record = {}
+
 
 ---@param fields? gamedataMiniGame_SymbolsWithRarity_Record
 ---@return gamedataMiniGame_SymbolsWithRarity_Record

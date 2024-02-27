@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVisionModuleBase_Record: gamedataTweakDBRecord
 gamedataVisionModuleBase_Record = {}
+
 
 ---@param fields? gamedataVisionModuleBase_Record
 ---@return gamedataVisionModuleBase_Record

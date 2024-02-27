@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataApplyStatusEffectByChanceEffector_Record: gamedataApplyStatusEffectEffector_Record
 gamedataApplyStatusEffectByChanceEffector_Record = {}
+
 
 ---@param fields? gamedataApplyStatusEffectByChanceEffector_Record
 ---@return gamedataApplyStatusEffectByChanceEffector_Record

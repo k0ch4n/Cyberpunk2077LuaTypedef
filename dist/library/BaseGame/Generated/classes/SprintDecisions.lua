@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class SprintDecisions: LocomotionGroundDecisions
 ---@field sprintPressed Bool
 ---@field toggleSprintPressed Bool
 ---@field dodgeForwardPressed Bool
 SprintDecisions = {}
+
 
 ---@param fields? SprintDecisions
 ---@return SprintDecisions

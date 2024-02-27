@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemDisplayHoldEvent: redEvent
 ---@field itemData gameInventoryItemData
 ---@field display InventoryItemDisplayController
@@ -7,6 +8,7 @@
 ---@field displayContextData ItemDisplayContextData
 ---@field actionName inkActionName
 ItemDisplayHoldEvent = {}
+
 
 ---@param fields? ItemDisplayHoldEvent
 ---@return ItemDisplayHoldEvent

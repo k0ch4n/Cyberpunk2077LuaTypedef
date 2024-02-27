@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class grenadeSpawner: gameweaponObject
 ---@field isCombatGadgetActive Bool
 grenadeSpawner = {}
+
 
 ---@param fields? grenadeSpawner
 ---@return grenadeSpawner

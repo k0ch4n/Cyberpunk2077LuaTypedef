@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleState: ChangeStanceStateAbstract
 VehicleState = {}
+
 
 ---@param fields? VehicleState
 ---@return VehicleState

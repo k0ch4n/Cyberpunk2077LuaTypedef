@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ButtonHints: inkWidgetLogicController
 ---@field horizontalHolder inkCompoundWidgetReference
 ButtonHints = {}
+
 
 ---@param fields? ButtonHints
 ---@return ButtonHints

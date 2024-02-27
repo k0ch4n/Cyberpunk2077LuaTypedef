@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_VehicleData: animAnimFeature
 ---@field isInVehicle Bool
 ---@field isDriver Bool
@@ -17,6 +18,7 @@
 ---@field isExitingVehicle Bool
 ---@field isWorldRenderPlane Bool
 AnimFeature_VehicleData = {}
+
 
 ---@param fields? AnimFeature_VehicleData
 ---@return AnimFeature_VehicleData

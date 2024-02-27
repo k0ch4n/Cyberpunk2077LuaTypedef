@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GrappleInteractionCondition: gameinteractionsInteractionScriptedCondition
 GrappleInteractionCondition = {}
+
 
 ---@param fields? GrappleInteractionCondition
 ---@return GrappleInteractionCondition

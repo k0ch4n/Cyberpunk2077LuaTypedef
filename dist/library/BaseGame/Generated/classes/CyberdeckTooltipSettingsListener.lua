@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CyberdeckTooltipSettingsListener: userSettingsVarListener
 ---@field ctrl CyberdeckTooltip
 ---@field statctrl CyberdeckStatController
 CyberdeckTooltipSettingsListener = {}
+
 
 ---@param fields? CyberdeckTooltipSettingsListener
 ---@return CyberdeckTooltipSettingsListener

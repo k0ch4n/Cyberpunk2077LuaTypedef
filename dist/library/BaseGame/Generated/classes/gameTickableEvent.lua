@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameTickableEvent: redEvent
 ---@field state gameTickableEventState
 gameTickableEvent = {}
+
 
 ---@param fields? gameTickableEvent
 ---@return gameTickableEvent

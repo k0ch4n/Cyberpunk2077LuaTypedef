@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class gameuiMappinUIProfile
 ---@field widgetResource redResourceReferenceScriptToken
 ---@field widgetLibraryID CName
 ---@field spawn gamedataMappinUISpawnProfile_Record
 ---@field runtime gamedataMappinUIRuntimeProfile_Record
 gameuiMappinUIProfile = {}
+
 
 ---@param fields? gameuiMappinUIProfile
 ---@return gameuiMappinUIProfile

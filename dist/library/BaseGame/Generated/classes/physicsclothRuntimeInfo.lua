@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsclothRuntimeInfo
 ---@field translation Vector3
 ---@field rotation Quaternion
@@ -20,6 +21,7 @@
 ---@field motionConstraintStiffness Float
 ---@field enableSelfCollision Bool
 physicsclothRuntimeInfo = {}
+
 
 ---@param fields? physicsclothRuntimeInfo
 ---@return physicsclothRuntimeInfo

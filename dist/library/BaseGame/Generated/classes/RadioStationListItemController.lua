@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RadioStationListItemController: inkVirtualCompoundItemController
 ---@field label inkTextWidgetReference
 ---@field typeIcon inkImageWidgetReference
@@ -8,6 +9,7 @@
 ---@field stationData RadioListItemData
 ---@field currentRadioStationId Int32
 RadioStationListItemController = {}
+
 
 ---@param fields? RadioStationListItemController
 ---@return RadioStationListItemController

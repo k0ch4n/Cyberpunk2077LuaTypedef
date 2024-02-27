@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CyberwareTooltip: AGenericTooltipController
 ---@field slotList inkCompoundWidgetReference
 ---@field label inkTextWidgetReference
 ---@field data CyberwareTooltipData
 CyberwareTooltip = {}
+
 
 ---@param fields? CyberwareTooltip
 ---@return CyberwareTooltip

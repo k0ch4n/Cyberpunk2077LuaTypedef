@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RadioLogicController: IVehicleModuleController
 ---@field radioTextWidget inkTextWidgetReference
 ---@field radioEQWidget inkCanvasWidgetReference
@@ -9,6 +10,7 @@
 ---@field eqLoopAnimProxy inkanimProxy
 ---@field radioTextWidgetSize Vector2
 RadioLogicController = {}
+
 
 ---@param fields? RadioLogicController
 ---@return RadioLogicController

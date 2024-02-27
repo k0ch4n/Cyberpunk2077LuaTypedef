@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataDroneAnimationSetup_Record: gamedataTweakDBRecord
 gamedataDroneAnimationSetup_Record = {}
+
 
 ---@param fields? gamedataDroneAnimationSetup_Record
 ---@return gamedataDroneAnimationSetup_Record

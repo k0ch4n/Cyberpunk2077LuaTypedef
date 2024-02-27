@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GlitchedTurret: Device
 ---@field animFeature AnimFeature_SensorDevice
 GlitchedTurret = {}
+
 
 ---@param fields? GlitchedTurret
 ---@return GlitchedTurret

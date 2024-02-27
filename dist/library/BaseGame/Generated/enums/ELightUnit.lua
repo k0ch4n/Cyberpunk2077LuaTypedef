@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ELightUnit: Enum
 ---@field LU_Lumen Enum 0
 ---@field LU_Watt Enum 1

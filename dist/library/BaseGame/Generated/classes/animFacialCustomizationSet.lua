@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animFacialCustomizationSet: CResource
 ---@field baseSetup animFacialSetup
 ---@field targetSetups animFacialSetup[]
@@ -14,6 +15,7 @@
 ---@field rigReferencePosesData DataBuffer
 ---@field isCooked Bool
 animFacialCustomizationSet = {}
+
 
 ---@param fields? animFacialCustomizationSet
 ---@return animFacialCustomizationSet

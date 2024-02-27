@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionChangeCoverSelectionPreset_Record_Implementation: IScriptable
 AISubActionChangeCoverSelectionPreset_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionChangeCoverSelectionPreset_Record

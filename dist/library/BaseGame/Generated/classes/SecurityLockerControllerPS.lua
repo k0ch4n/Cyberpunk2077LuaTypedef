@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SecurityLockerControllerPS: ScriptableDeviceComponentPS
 ---@field securityLockerProperties SecurityLockerProperties
 ---@field isStoringPlayerEquipement Bool
 SecurityLockerControllerPS = {}
+
 
 ---@param fields? SecurityLockerControllerPS
 ---@return SecurityLockerControllerPS

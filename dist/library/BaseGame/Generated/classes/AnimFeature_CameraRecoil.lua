@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_CameraRecoil: animAnimFeature
 ---@field backward_offset Float
 ---@field side_offset Float
@@ -10,6 +11,7 @@
 ---@field rotate_transform_speed Float
 ---@field is_offset Bool
 AnimFeature_CameraRecoil = {}
+
 
 ---@param fields? AnimFeature_CameraRecoil
 ---@return AnimFeature_CameraRecoil

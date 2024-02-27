@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SecurityAreaResetRequest: gameScriptableSystemRequest
 SecurityAreaResetRequest = {}
+
 
 ---@param fields? SecurityAreaResetRequest
 ---@return SecurityAreaResetRequest

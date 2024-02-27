@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAdvertisementFormatsEnum_Record: gamedataTweakDBRecord
 gamedataAdvertisementFormatsEnum_Record = {}
+
 
 ---@param fields? gamedataAdvertisementFormatsEnum_Record
 ---@return gamedataAdvertisementFormatsEnum_Record

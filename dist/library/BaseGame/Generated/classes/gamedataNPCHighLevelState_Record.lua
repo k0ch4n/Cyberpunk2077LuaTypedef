@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataNPCHighLevelState_Record: gamedataTweakDBRecord
 gamedataNPCHighLevelState_Record = {}
+
 
 ---@param fields? gamedataNPCHighLevelState_Record
 ---@return gamedataNPCHighLevelState_Record

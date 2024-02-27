@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DoorProximityDetectorController: ProximityDetectorController
 DoorProximityDetectorController = {}
+
 
 ---@param fields? DoorProximityDetectorController
 ---@return DoorProximityDetectorController

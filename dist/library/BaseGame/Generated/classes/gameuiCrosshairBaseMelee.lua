@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiCrosshairBaseMelee: gameuiCrosshairBaseGameController
 ---@field meleeStateBlackboardId redCallbackObject
 gameuiCrosshairBaseMelee = {}
+
 
 ---@param fields? gameuiCrosshairBaseMelee
 ---@return gameuiCrosshairBaseMelee

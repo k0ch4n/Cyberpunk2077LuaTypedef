@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameGrenadeThrowStartType: Enum
 ---@field Invalid Enum 0
 ---@field LeftSide Enum 1

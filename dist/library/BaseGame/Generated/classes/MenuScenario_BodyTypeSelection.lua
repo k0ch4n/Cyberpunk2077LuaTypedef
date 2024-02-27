@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_BodyTypeSelection: MenuScenario_PreGameSubMenu
 MenuScenario_BodyTypeSelection = {}
+
 
 ---@param fields? MenuScenario_BodyTypeSelection
 ---@return MenuScenario_BodyTypeSelection

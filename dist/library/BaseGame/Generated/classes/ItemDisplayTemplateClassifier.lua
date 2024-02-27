@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ItemDisplayTemplateClassifier: inkVirtualItemTemplateClassifierWrapper
 ItemDisplayTemplateClassifier = {}
+
 
 ---@param fields? ItemDisplayTemplateClassifier
 ---@return ItemDisplayTemplateClassifier

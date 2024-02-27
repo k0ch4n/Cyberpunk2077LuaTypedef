@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HotkeyWidgetStatsListener: gameScriptStatusEffectListener
 ---@field controller GenericHotkeyController
 HotkeyWidgetStatsListener = {}
+
 
 ---@param fields? HotkeyWidgetStatsListener
 ---@return HotkeyWidgetStatsListener

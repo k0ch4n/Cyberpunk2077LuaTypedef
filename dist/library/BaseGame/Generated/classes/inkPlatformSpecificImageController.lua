@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkPlatformSpecificImageController: inkWidgetLogicController
 ---@field textureAtlas inkTextureAtlas
 ---@field textureAtlas_PS4 inkTextureAtlas
@@ -12,6 +13,7 @@
 ---@field partName_XB1 CName
 ---@field partName_Scarlett CName
 inkPlatformSpecificImageController = {}
+
 
 ---@param fields? inkPlatformSpecificImageController
 ---@return inkPlatformSpecificImageController

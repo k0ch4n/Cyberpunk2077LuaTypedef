@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkWaitingSignLayerDefinition: inkLayerDefinition
 ---@field introAnimName CName
 ---@field waitingAnimName CName
@@ -10,6 +11,7 @@
 ---@field postWaitTime Float
 ---@field outroTime Float
 inkWaitingSignLayerDefinition = {}
+
 
 ---@param fields? inkWaitingSignLayerDefinition
 ---@return inkWaitingSignLayerDefinition

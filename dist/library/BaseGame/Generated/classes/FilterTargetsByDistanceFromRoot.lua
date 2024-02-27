@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class FilterTargetsByDistanceFromRoot: gameEffectObjectSingleFilter_Scripted
 ---@field rootOffset_Z Float
 ---@field tollerance Float
 FilterTargetsByDistanceFromRoot = {}
+
 
 ---@param fields? FilterTargetsByDistanceFromRoot
 ---@return FilterTargetsByDistanceFromRoot

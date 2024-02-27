@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameIPrereq: IScriptable
 gameIPrereq = {}
+
 
 ---@param id TweakDBID|string
 ---@return gameIPrereq

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UseAction: BaseItemAction
 UseAction = {}
+
 
 ---@param fields? UseAction
 ---@return UseAction

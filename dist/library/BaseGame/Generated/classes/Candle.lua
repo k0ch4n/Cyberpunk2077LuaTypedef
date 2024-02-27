@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Candle: gameObject
 Candle = {}
+
 
 ---@param fields? Candle
 ---@return Candle

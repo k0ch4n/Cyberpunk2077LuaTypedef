@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EAISquadVerb: Enum
 ---@field Invalid Enum 0
 ---@field JoinSquad Enum 1

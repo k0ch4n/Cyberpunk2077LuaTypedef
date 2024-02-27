@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldTrafficLanePersistentFlags: Enum
 ---@field FromRoadSpline Enum 1
 ---@field Bidirectional Enum 2

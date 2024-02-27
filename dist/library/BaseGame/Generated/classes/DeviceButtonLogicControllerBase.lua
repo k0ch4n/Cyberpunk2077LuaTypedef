@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class DeviceButtonLogicControllerBase: inkButtonController
 ---@field targetWidgetRef inkWidgetReference
 ---@field displayNameWidget inkTextWidgetReference
@@ -18,6 +19,7 @@
 ---@field targetWidget inkWidget
 ---@field isSelected Bool
 DeviceButtonLogicControllerBase = {}
+
 
 ---@param fields? DeviceButtonLogicControllerBase
 ---@return DeviceButtonLogicControllerBase

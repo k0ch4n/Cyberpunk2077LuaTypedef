@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entRagdollImpactPointData
 ---@field worldPosition WorldPosition
 ---@field worldNormal Vector4
@@ -11,6 +12,7 @@
 ---@field ragdollProxyActorIndex Uint32
 ---@field otherProxyActorIndex Uint32
 entRagdollImpactPointData = {}
+
 
 ---@param fields? entRagdollImpactPointData
 ---@return entRagdollImpactPointData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WaitingForSceneEvents: VehicleTransition
 WaitingForSceneEvents = {}
+
 
 ---@param fields? WaitingForSceneEvents
 ---@return WaitingForSceneEvents

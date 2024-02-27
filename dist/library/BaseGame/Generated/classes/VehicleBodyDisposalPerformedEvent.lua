@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleBodyDisposalPerformedEvent: redEvent
 VehicleBodyDisposalPerformedEvent = {}
+
 
 ---@param fields? VehicleBodyDisposalPerformedEvent
 ---@return VehicleBodyDisposalPerformedEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldOffMeshConnectionsData
 ---@field verts Float[]
 ---@field radii Float[]
@@ -12,6 +13,7 @@
 ---@field globalNodeIDs worldGlobalNodeID[]
 ---@field userData worldOffMeshUserData[]
 worldOffMeshConnectionsData = {}
+
 
 ---@param fields? worldOffMeshConnectionsData
 ---@return worldOffMeshConnectionsData

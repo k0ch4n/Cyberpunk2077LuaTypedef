@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class RequestCLSStateChangeDeviceOperation: DeviceOperationBase
 ---@field state ECLSForcedState
 ---@field sourceName CName
 ---@field priority EPriority
 ---@field removePreviousRequests Bool
 RequestCLSStateChangeDeviceOperation = {}
+
 
 ---@param fields? RequestCLSStateChangeDeviceOperation
 ---@return RequestCLSStateChangeDeviceOperation

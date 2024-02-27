@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CleanUpTimeDilationEvent: redEvent
 ---@field reason CName
 CleanUpTimeDilationEvent = {}
+
 
 ---@param fields? CleanUpTimeDilationEvent
 ---@return CleanUpTimeDilationEvent

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class worlduiIWidgetGameController: inkIWidgetController
 ---@field elementRecordID TweakDBID
 worlduiIWidgetGameController = {}
+
 
 ---@param worldPosition Vector4
 ---@return Vector2

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class audioMaterialOverride
 ---@field base CName
 ---@field override CName
 audioMaterialOverride = {}
+
 
 ---@param fields? audioMaterialOverride
 ---@return audioMaterialOverride

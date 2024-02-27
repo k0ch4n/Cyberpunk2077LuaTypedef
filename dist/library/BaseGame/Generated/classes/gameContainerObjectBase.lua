@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameContainerObjectBase: gameLootContainerBase
 ---@field giveHandicapAmmo Bool
 ---@field lockedByKey TweakDBID
 gameContainerObjectBase = {}
+
 
 ---@param fields? gameContainerObjectBase
 ---@return gameContainerObjectBase

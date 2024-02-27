@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamestateMachineparameterTypeActionLocomotionParameters: IScriptable
 ---@field imperfectTurn Bool
 ---@field speedBoostInputRequired Bool
@@ -12,6 +13,7 @@
 ---@field doJump Bool
 ---@field doSpeedBoost Bool
 gamestateMachineparameterTypeActionLocomotionParameters = {}
+
 
 ---@param fields? gamestateMachineparameterTypeActionLocomotionParameters
 ---@return gamestateMachineparameterTypeActionLocomotionParameters

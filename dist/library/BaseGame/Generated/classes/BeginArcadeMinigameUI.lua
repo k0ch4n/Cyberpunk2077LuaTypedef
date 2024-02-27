@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BeginArcadeMinigameUI: ActionBool
 BeginArcadeMinigameUI = {}
+
 
 ---@param fields? BeginArcadeMinigameUI
 ---@return BeginArcadeMinigameUI

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BaseChargesStatListener: gameCustomValueStatPoolsListener
 ---@field player PlayerPuppet
 ---@field playedCueAlready Bool
@@ -9,6 +10,7 @@
 ---@field statSystem gameStatsSystem
 ---@field finalString String
 BaseChargesStatListener = {}
+
 
 ---@param fields? BaseChargesStatListener
 ---@return BaseChargesStatListener

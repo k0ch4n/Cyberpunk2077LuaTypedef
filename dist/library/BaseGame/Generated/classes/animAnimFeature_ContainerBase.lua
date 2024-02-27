@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class animAnimFeature_ContainerBase: animAnimFeature
 ---@field opened Bool
 ---@field transitionDuration Float
 animAnimFeature_ContainerBase = {}
+
 
 ---@param fields? animAnimFeature_ContainerBase
 ---@return animAnimFeature_ContainerBase

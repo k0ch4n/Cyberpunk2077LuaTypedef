@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameNotificationsTest: gameuiWidgetGameController
 ---@field token inkGameNotificationToken
 gameNotificationsTest = {}
+
 
 ---@param fields? gameNotificationsTest
 ---@return gameNotificationsTest

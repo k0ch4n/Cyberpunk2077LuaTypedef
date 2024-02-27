@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProcessRelevantDevicesForNetworkGridEvent: ProcessDevicesEvent
 ---@field ignoreRevealed Bool
 ---@field finalizeRegistrationAsMaster Bool
@@ -10,6 +11,7 @@
 ---@field revealSlave Bool
 ---@field revealMaster Bool
 ProcessRelevantDevicesForNetworkGridEvent = {}
+
 
 ---@param fields? ProcessRelevantDevicesForNetworkGridEvent
 ---@return ProcessRelevantDevicesForNetworkGridEvent

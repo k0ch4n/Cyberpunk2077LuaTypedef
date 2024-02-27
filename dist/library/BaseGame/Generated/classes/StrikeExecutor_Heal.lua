@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StrikeExecutor_Heal: gameEffectExecutor_Scripted
 ---@field healthPerc Float
 StrikeExecutor_Heal = {}
+
 
 ---@param fields? StrikeExecutor_Heal
 ---@return StrikeExecutor_Heal

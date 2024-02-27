@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameStatsBundleOwnerType: Enum
 ---@field None Enum 0
 ---@field Cleared Enum 1

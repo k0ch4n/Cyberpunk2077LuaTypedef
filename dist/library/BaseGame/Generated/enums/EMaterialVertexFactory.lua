@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EMaterialVertexFactory: Enum
 ---@field MVF_Terrain Enum 1
 ---@field MVF_MeshStatic Enum 2

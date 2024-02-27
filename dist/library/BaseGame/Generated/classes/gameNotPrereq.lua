@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameNotPrereq: gameIPrereq
 ---@field negatedPrereq gameIPrereq
 gameNotPrereq = {}
+
 
 ---@param fields? gameNotPrereq
 ---@return gameNotPrereq

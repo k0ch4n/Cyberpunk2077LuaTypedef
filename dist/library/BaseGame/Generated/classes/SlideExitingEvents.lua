@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SlideExitingEvents: ExitingEvents
 ---@field exitMomentum Vector4
 SlideExitingEvents = {}
+
 
 ---@param fields? SlideExitingEvents
 ---@return SlideExitingEvents

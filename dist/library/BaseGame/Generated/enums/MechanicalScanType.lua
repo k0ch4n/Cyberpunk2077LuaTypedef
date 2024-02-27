@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MechanicalScanType: Enum
 ---@field None Enum 0
 ---@field Short Enum 1

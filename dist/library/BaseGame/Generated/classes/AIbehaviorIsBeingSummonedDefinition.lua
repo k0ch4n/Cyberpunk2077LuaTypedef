@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorIsBeingSummonedDefinition: AIbehaviorVehicleExpressionDefinition
 AIbehaviorIsBeingSummonedDefinition = {}
+
 
 ---@param fields? AIbehaviorIsBeingSummonedDefinition
 ---@return AIbehaviorIsBeingSummonedDefinition

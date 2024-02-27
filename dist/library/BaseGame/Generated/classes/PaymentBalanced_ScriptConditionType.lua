@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class PaymentBalanced_ScriptConditionType: PaymentConditionTypeBase
 ---@field questAssignment TweakDBID
 ---@field difficulty EGameplayChallengeLevel
 PaymentBalanced_ScriptConditionType = {}
+
 
 ---@param fields? PaymentBalanced_ScriptConditionType
 ---@return PaymentBalanced_ScriptConditionType

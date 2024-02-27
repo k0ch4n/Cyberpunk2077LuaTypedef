@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LaserDetector: ProximityDetector
 ---@field lasers handle[]
 LaserDetector = {}
+
 
 ---@param fields? LaserDetector
 ---@return LaserDetector

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WeaponType: Enum
 ---@field Ranged Enum 0
 ---@field Melee Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkMenuLogicController: inkWidgetLogicController
 inkMenuLogicController = {}
+
 
 ---@param fields? inkMenuLogicController
 ---@return inkMenuLogicController

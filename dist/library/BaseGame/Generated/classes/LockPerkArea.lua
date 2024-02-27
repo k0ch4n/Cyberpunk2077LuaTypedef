@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class LockPerkArea: gamePlayerScriptableSystemRequest
 ---@field perkArea gamedataPerkArea
 LockPerkArea = {}
+
 
 ---@param fields? LockPerkArea
 ---@return LockPerkArea

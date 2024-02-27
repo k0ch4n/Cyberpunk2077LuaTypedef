@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimFeature_HitReactionsData: animAnimFeature
 ---@field hitIntensity Int32
 ---@field hitSource Int32
@@ -15,6 +16,7 @@
 ---@field angleToAttack Float
 ---@field initialRotationDuration Float
 animAnimFeature_HitReactionsData = {}
+
 
 ---@param fields? animAnimFeature_HitReactionsData
 ---@return animAnimFeature_HitReactionsData

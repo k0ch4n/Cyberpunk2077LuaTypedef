@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIInTacticPositionCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIInTacticPositionCond_Record = {}
+
 
 ---@param fields? gamedataAIInTacticPositionCond_Record
 ---@return gamedataAIInTacticPositionCond_Record

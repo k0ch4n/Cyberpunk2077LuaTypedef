@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class StimRequestID
 ---@field ID Uint32
 ---@field isValid Bool
 StimRequestID = {}
+
 
 ---@param fields? StimRequestID
 ---@return StimRequestID

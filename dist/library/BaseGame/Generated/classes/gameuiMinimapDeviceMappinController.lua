@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiMinimapDeviceMappinController: gameuiBaseMinimapMappinController
 ---@field effectAreaWidget inkCircleWidgetReference
 gameuiMinimapDeviceMappinController = {}
+
 
 ---@param fields? gameuiMinimapDeviceMappinController
 ---@return gameuiMinimapDeviceMappinController

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ItemTooltipBottomModule: ItemTooltipModuleController
 ---@field weightWrapper inkWidgetReference
 ---@field priceWrapper inkWidgetReference
 ---@field weightText inkTextWidgetReference
 ---@field priceText inkTextWidgetReference
 ItemTooltipBottomModule = {}
+
 
 ---@param fields? ItemTooltipBottomModule
 ---@return ItemTooltipBottomModule

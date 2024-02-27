@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HasNetworkPrereq: gameIScriptablePrereq
 ---@field invert Bool
 HasNetworkPrereq = {}
+
 
 ---@param fields? HasNetworkPrereq
 ---@return HasNetworkPrereq

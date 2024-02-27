@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class InteractiveSign: Device
 ---@field signShape SignShape
 ---@field type SignType
 ---@field message String
 InteractiveSign = {}
+
 
 ---@param fields? InteractiveSign
 ---@return InteractiveSign

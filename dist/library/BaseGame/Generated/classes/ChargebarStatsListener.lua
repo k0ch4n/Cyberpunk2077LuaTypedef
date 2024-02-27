@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ChargebarStatsListener: gameScriptStatsListener
 ---@field controller ChargebarController
 ChargebarStatsListener = {}
+
 
 ---@param fields? ChargebarStatsListener
 ---@return ChargebarStatsListener

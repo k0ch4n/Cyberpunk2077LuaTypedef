@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class piercingGrenade: BaseProjectile
 ---@field piercingEffect gameEffectRef
 ---@field pierceTime Float
@@ -10,6 +11,7 @@
 ---@field trailEffectName CName
 ---@field alive Bool
 piercingGrenade = {}
+
 
 ---@param fields? piercingGrenade
 ---@return piercingGrenade

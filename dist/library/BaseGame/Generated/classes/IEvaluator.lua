@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IEvaluator: ISerializable
 IEvaluator = {}
+
 
 ---@param fields? IEvaluator
 ---@return IEvaluator

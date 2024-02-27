@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISquadCoverSelection: AICoverSelectionParameters
 AISquadCoverSelection = {}
+
 
 ---@param fields? AISquadCoverSelection
 ---@return AISquadCoverSelection

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ExpansionStatus: Enum
 ---@field NotAvailable Enum 0
 ---@field Available Enum 1

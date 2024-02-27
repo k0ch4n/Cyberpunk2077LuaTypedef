@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehiclePlayerToAIBlendInterpolator
 vehiclePlayerToAIBlendInterpolator = {}
+
 
 ---@param fields? vehiclePlayerToAIBlendInterpolator
 ---@return vehiclePlayerToAIBlendInterpolator

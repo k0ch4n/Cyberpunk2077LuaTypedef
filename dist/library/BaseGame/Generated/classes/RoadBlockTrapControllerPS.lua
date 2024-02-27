@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RoadBlockTrapControllerPS: MasterControllerPS
 RoadBlockTrapControllerPS = {}
+
 
 ---@param fields? RoadBlockTrapControllerPS
 ---@return RoadBlockTrapControllerPS

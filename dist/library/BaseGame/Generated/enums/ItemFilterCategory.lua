@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemFilterCategory: Enum
 ---@field RangedWeapons Enum 0
 ---@field MeleeWeapons Enum 1

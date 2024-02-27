@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SDocumentWidgetPackage: SWidgetPackage
 ---@field owner String
 ---@field date String
@@ -12,6 +13,7 @@
 ---@field wasRead Bool
 ---@field documentType EDocumentType
 SDocumentWidgetPackage = {}
+
 
 ---@param fields? SDocumentWidgetPackage
 ---@return SDocumentWidgetPackage

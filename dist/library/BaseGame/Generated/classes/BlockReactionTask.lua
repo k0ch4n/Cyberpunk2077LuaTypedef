@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BlockReactionTask: AIbehaviortaskScript
 BlockReactionTask = {}
+
 
 ---@param fields? BlockReactionTask
 ---@return BlockReactionTask

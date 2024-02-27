@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LootingController: inkWidgetLogicController
 ---@field root inkWidget
 ---@field itemsListContainer inkCompoundWidgetReference
@@ -48,6 +49,7 @@
 ---@field brokenLocPrefix String
 ---@field requestsCounter Int32
 LootingController = {}
+
 
 ---@param fields? LootingController
 ---@return LootingController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CRenderTextureMaterial: IDynamicTextureGenerator
 CRenderTextureMaterial = {}
+
 
 ---@param fields? CRenderTextureMaterial
 ---@return CRenderTextureMaterial

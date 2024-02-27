@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhotoModeFrame: inkWidgetLogicController
 ---@field images inkImageWidgetReference[]
 ---@field keepImageAspectRatio Bool
@@ -7,6 +8,7 @@
 ---@field currentImagePart CName
 ---@field opacity Float
 PhotoModeFrame = {}
+
 
 ---@param fields? PhotoModeFrame
 ---@return PhotoModeFrame

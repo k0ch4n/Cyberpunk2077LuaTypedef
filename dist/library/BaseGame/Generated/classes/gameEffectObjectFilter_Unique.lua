@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectObjectFilter_Unique: gameEffectObjectGroupFilter
 gameEffectObjectFilter_Unique = {}
+
 
 ---@param fields? gameEffectObjectFilter_Unique
 ---@return gameEffectObjectFilter_Unique

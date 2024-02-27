@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questVehicleSpawned_ConditionType: questIVehicleConditionType
 ---@field vehicleType questSpawnedVehicleType
 ---@field vehicleRef gameEntityReference
@@ -8,6 +9,7 @@
 ---@field vehicleName String
 ---@field vehicleGlobalName CName
 questVehicleSpawned_ConditionType = {}
+
 
 ---@param fields? questVehicleSpawned_ConditionType
 ---@return questVehicleSpawned_ConditionType

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkBrushDrawType: Enum
 ---@field NoDraw Enum 0
 ---@field Solid Enum 1

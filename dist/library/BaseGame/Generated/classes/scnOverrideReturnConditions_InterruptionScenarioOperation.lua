@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class scnOverrideReturnConditions_InterruptionScenarioOperation: scnIInterruptionScenarioOperation
 ---@field returnConditions scnIReturnCondition[]
 scnOverrideReturnConditions_InterruptionScenarioOperation = {}
+
 
 ---@param fields? scnOverrideReturnConditions_InterruptionScenarioOperation
 ---@return scnOverrideReturnConditions_InterruptionScenarioOperation

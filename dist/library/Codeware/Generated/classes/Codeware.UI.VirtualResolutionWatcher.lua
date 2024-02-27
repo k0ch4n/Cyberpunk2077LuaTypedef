@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Codeware_UI_VirtualResolutionWatcher: userSettingsVarListener
 ---@field initialized Bool
 ---@field window Vector2
@@ -8,6 +9,7 @@
 ---@field gameControllers gameuiWidgetGameController[]
 ---@field logicControllers inkWidgetLogicController[]
 Codeware_UI_VirtualResolutionWatcher = {}
+
 
 ---@param fields? Codeware_UI_VirtualResolutionWatcher
 ---@return Codeware_UI_VirtualResolutionWatcher

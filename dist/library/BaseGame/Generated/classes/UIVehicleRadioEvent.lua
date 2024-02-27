@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UIVehicleRadioEvent: redEvent
 UIVehicleRadioEvent = {}
+
 
 ---@param fields? UIVehicleRadioEvent
 ---@return UIVehicleRadioEvent

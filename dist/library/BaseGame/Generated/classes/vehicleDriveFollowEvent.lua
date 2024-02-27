@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleDriveFollowEvent: redEvent
 ---@field targetObjToFollow gameObject
 ---@field distanceMin Float
@@ -7,6 +8,7 @@
 ---@field stopWhenTargetReached Bool
 ---@field useTraffic Bool
 vehicleDriveFollowEvent = {}
+
 
 ---@param fields? vehicleDriveFollowEvent
 ---@return vehicleDriveFollowEvent

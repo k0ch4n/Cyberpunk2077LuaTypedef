@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameaudioeventsStopWeaponFire: redEvent
 gameaudioeventsStopWeaponFire = {}
+
 
 ---@param fields? gameaudioeventsStopWeaponFire
 ---@return gameaudioeventsStopWeaponFire

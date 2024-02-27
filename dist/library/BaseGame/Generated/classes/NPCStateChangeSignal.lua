@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class NPCStateChangeSignal: gameTaggedSignalUserData
 ---@field highLevelState gamedataNPCHighLevelState
 ---@field highLevelStateValid Bool
@@ -18,6 +19,7 @@
 ---@field phaseState ENPCPhaseState
 ---@field phaseStateValid Bool
 NPCStateChangeSignal = {}
+
 
 ---@param fields? NPCStateChangeSignal
 ---@return NPCStateChangeSignal

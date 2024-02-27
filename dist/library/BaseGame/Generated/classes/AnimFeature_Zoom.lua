@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_Zoom: animAnimFeature
 ---@field finalZoomLevel Float
 ---@field weaponZoomLevel Float
@@ -12,6 +13,7 @@
 ---@field focusModeActive Bool
 ---@field weaponScopeFov Float
 AnimFeature_Zoom = {}
+
 
 ---@param fields? AnimFeature_Zoom
 ---@return AnimFeature_Zoom

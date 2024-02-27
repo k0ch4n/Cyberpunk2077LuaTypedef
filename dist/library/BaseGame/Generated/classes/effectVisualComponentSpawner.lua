@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class effectVisualComponentSpawner: effectSpawner
 ---@field componentName CName[]
 effectVisualComponentSpawner = {}
+
 
 ---@param fields? effectVisualComponentSpawner
 ---@return effectVisualComponentSpawner

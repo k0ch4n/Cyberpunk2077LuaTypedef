@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class HighlightInstance: ModuleInstance
 ---@field context HighlightContext
 ---@field instant Bool
 HighlightInstance = {}
+
 
 ---@param fields? HighlightInstance
 ---@return HighlightInstance

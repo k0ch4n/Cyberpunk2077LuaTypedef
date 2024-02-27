@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class LogEntryLogicController: inkWidgetLogicController
 ---@field root inkWidget
 ---@field textWidget inkTextWidgetReference
 ---@field animProxyTimeout inkanimProxy
 ---@field animProxyFadeOut inkanimProxy
 LogEntryLogicController = {}
+
 
 ---@param fields? LogEntryLogicController
 ---@return LogEntryLogicController

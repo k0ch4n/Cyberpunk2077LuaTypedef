@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class GamepadLightScriptableSystem: gameScriptableSystem
 ---@field controllerCurrentColor Vector3
 ---@field controllerStartColor Vector3
@@ -12,6 +13,7 @@
 ---@field timeLimit Float
 ---@field currrentId gameDelayID
 GamepadLightScriptableSystem = {}
+
 
 ---@param fields? GamepadLightScriptableSystem
 ---@return GamepadLightScriptableSystem

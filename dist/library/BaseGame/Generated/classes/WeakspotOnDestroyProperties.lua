@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WeakspotOnDestroyProperties
 ---@field isInternal Bool
 ---@field disableInteraction Bool
@@ -21,6 +22,7 @@
 ---@field StatusEffectOnDestroyID TweakDBID
 ---@field physicalDestructionComponents gameWeakspotPhysicalDestructionComponent[]
 WeakspotOnDestroyProperties = {}
+
 
 ---@param fields? WeakspotOnDestroyProperties
 ---@return WeakspotOnDestroyProperties

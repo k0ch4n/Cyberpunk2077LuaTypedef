@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ncartLineListDef
 ---@field lineNumber Uint32
 ---@field lineColor Color
@@ -7,6 +8,7 @@
 ---@field lineSymbolWidget inkWidgetReference
 ---@field lineIsLooped Bool
 ncartLineListDef = {}
+
 
 ---@param fields? ncartLineListDef
 ---@return ncartLineListDef

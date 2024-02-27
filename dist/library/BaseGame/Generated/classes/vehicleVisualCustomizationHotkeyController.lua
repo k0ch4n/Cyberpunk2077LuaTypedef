@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleVisualCustomizationHotkeyController: GenericHotkeyController
 ---@field vehicleBB gameIBlackboard
 ---@field vehicleEnterListener redCallbackObject
@@ -12,6 +13,7 @@
 ---@field combatStateCallback redCallbackObject
 ---@field phoneStateCallback redCallbackObject
 vehicleVisualCustomizationHotkeyController = {}
+
 
 ---@param fields? vehicleVisualCustomizationHotkeyController
 ---@return vehicleVisualCustomizationHotkeyController

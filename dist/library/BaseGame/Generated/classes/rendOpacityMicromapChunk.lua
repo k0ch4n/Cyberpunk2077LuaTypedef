@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendOpacityMicromapChunk
 ---@field mChunkIndex Uint32
 ---@field unkIndex Uint32
@@ -14,6 +15,7 @@
 ---@field mDescArrayHistogramData rendOpacityMicromapUsageCounts[]
 ---@field mIndexHistogramData rendOpacityMicromapUsageCounts[]
 rendOpacityMicromapChunk = {}
+
 
 ---@param fields? rendOpacityMicromapChunk
 ---@return rendOpacityMicromapChunk

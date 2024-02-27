@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataHomingParameters_Record: gamedataTweakDBRecord
 gamedataHomingParameters_Record = {}
+
 
 ---@param fields? gamedataHomingParameters_Record
 ---@return gamedataHomingParameters_Record

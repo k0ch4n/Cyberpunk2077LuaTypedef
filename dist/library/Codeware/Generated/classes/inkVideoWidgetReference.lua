@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkVideoWidgetReference: inkLeafWidgetReference
 inkVideoWidgetReference = {}
+
 
 ---@param fields? inkVideoWidgetReference
 ---@return inkVideoWidgetReference

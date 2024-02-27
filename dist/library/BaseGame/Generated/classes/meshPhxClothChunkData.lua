@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class meshPhxClothChunkData
 ---@field positions DataBuffer
 ---@field indices DataBuffer
@@ -10,6 +11,7 @@
 ---@field cookedData DataBuffer
 ---@field normals DataBuffer
 meshPhxClothChunkData = {}
+
 
 ---@param fields? meshPhxClothChunkData
 ---@return meshPhxClothChunkData

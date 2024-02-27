@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InStealthHighLevelState: AINPCHighLevelStateCheck
 InStealthHighLevelState = {}
+
 
 ---@param fields? InStealthHighLevelState
 ---@return InStealthHighLevelState

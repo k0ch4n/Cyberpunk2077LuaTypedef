@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkTextValueProgressAnimationController: inkTextAnimationController
 ---@field baseValue Float
 ---@field targetValue Float
@@ -7,6 +8,7 @@
 ---@field stepValue Float
 ---@field suffix String
 inkTextValueProgressAnimationController = {}
+
 
 ---@param fields? inkTextValueProgressAnimationController
 ---@return inkTextValueProgressAnimationController

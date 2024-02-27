@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ETransformAnimationOperationType: Enum
 ---@field PLAY Enum 0
 ---@field PAUSE Enum 1

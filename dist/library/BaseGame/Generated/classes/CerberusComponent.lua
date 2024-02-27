@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CerberusComponent: gameScriptableComponent
 ---@field laserGameEffectUp gameEffectInstance
 ---@field laserGameEffectRefUp gameEffectRef
@@ -13,6 +14,7 @@
 ---@field laserGameEffectRefBottom2 gameEffectRef
 ---@field gameObject gameObject
 CerberusComponent = {}
+
 
 ---@param fields? CerberusComponent
 ---@return CerberusComponent

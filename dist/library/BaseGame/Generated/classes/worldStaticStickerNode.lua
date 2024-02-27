@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldStaticStickerNode: worldNode
 ---@field labels String[]
 ---@field showBackground Bool
@@ -11,6 +12,7 @@
 ---@field scale Float
 ---@field visibilityDistance Float
 worldStaticStickerNode = {}
+
 
 ---@param fields? worldStaticStickerNode
 ---@return worldStaticStickerNode

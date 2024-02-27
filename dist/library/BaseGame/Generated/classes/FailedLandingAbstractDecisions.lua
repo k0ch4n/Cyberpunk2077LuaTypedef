@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FailedLandingAbstractDecisions: AbstractLandDecisions
 FailedLandingAbstractDecisions = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

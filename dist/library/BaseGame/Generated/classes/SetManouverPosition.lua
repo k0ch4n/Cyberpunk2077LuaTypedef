@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SetManouverPosition: AIbehaviortaskScript
 ---@field distance Float
 ---@field angle Float
 SetManouverPosition = {}
+
 
 ---@param fields? SetManouverPosition
 ---@return SetManouverPosition

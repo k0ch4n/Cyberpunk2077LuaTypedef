@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiarcadeShooterPlayerLevelTransitionController: inkWidgetLogicController
 gameuiarcadeShooterPlayerLevelTransitionController = {}
+
 
 ---@param fields? gameuiarcadeShooterPlayerLevelTransitionController
 ---@return gameuiarcadeShooterPlayerLevelTransitionController

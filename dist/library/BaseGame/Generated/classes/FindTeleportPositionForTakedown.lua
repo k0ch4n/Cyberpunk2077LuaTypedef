@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class FindTeleportPositionForTakedown: AIbehaviorconditionScript
 ---@field target AIArgumentMapping
 ---@field extents AIArgumentMapping
@@ -10,6 +11,7 @@
 ---@field outRotationArgument AIArgumentMapping
 ---@field outMaybeStairs AIArgumentMapping
 FindTeleportPositionForTakedown = {}
+
 
 ---@param fields? FindTeleportPositionForTakedown
 ---@return FindTeleportPositionForTakedown

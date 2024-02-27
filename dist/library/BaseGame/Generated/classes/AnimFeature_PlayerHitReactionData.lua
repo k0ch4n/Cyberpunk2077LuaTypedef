@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_PlayerHitReactionData: animAnimFeature
 ---@field hitDirection Float
 ---@field hitStrength Float
@@ -11,6 +12,7 @@
 ---@field isPressureWave Bool
 ---@field meleeAttackDirection Int32
 AnimFeature_PlayerHitReactionData = {}
+
 
 ---@param fields? AnimFeature_PlayerHitReactionData
 ---@return AnimFeature_PlayerHitReactionData

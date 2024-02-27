@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ProgramEffect: Enum
 ---@field GrantAccess Enum 0
 ---@field BlockAccess Enum 1

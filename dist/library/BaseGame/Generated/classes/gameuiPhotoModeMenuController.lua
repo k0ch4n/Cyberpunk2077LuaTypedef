@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiPhotoModeMenuController: gameuiWidgetGameController
 ---@field SetAttributeOptionEnabled gameuiSetPhotoModeKeyEnabledCallback
 ---@field SetCategoryEnabled gameuiSetPhotoModeKeyEnabledCallback
@@ -39,6 +40,7 @@
 ---@field loopAnimproxy inkanimProxy
 ---@field uiVisiblityFadeAnim inkanimProxy
 gameuiPhotoModeMenuController = {}
+
 
 ---@param fields? gameuiPhotoModeMenuController
 ---@return gameuiPhotoModeMenuController

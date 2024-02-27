@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ArcadeMachineControllerPS: ScriptableDeviceComponentPS
 ---@field gameVideosPaths redResourceReferenceScriptToken[]
 ---@field DEBUG_enableArcadeMinigames Bool
 ---@field minigame ArcadeMinigame
 ---@field combatStateListener redCallbackObject
 ArcadeMachineControllerPS = {}
+
 
 ---@param fields? ArcadeMachineControllerPS
 ---@return ArcadeMachineControllerPS

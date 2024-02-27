@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FullAutoDecisions: WeaponTransition
 ---@field callBackID redCallbackObject
 FullAutoDecisions = {}
+
 
 ---@param fields? FullAutoDecisions
 ---@return FullAutoDecisions

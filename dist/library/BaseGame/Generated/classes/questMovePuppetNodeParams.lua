@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questMovePuppetNodeParams: questAICommandParams
 ---@field moveType questMoveType
 ---@field moveOnSplineParams questMoveOnSplineParams
@@ -7,6 +8,7 @@
 ---@field otherParams questAICommandParams
 ---@field repeatCommandOnInterrupt Bool
 questMovePuppetNodeParams = {}
+
 
 ---@param fields? questMovePuppetNodeParams
 ---@return questMovePuppetNodeParams

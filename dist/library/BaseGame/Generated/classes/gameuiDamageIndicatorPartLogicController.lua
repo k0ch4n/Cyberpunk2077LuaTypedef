@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiDamageIndicatorPartLogicController: gameuiBaseDirectionalIndicatorPartLogicController
 ---@field maxDistanceForSharedIndicators Float
 ---@field arrowFrontWidget inkImageWidgetReference
@@ -11,6 +12,7 @@
 ---@field continuous Bool
 ---@field revengeActive Bool
 gameuiDamageIndicatorPartLogicController = {}
+
 
 ---@param fields? gameuiDamageIndicatorPartLogicController
 ---@return gameuiDamageIndicatorPartLogicController

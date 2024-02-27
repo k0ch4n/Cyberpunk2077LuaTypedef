@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PassiveIsPlayerCompanionCondition: PassiveAutonomousCondition
 ---@field roleCbId Uint32
 PassiveIsPlayerCompanionCondition = {}
+
 
 ---@param fields? PassiveIsPlayerCompanionCondition
 ---@return PassiveIsPlayerCompanionCondition

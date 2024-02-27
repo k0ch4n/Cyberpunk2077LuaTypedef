@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamestateMachineparameterTypeLadderDescription: IScriptable
 ---@field position Vector4
 ---@field normal Vector4
@@ -13,6 +14,7 @@
 ---@field verticalStepJump Float
 ---@field enterOffset Float
 gamestateMachineparameterTypeLadderDescription = {}
+
 
 ---@param fields? gamestateMachineparameterTypeLadderDescription
 ---@return gamestateMachineparameterTypeLadderDescription

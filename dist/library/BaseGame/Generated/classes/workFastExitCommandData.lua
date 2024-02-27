@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workFastExitCommandData: workIWorkspotCommandData
 workFastExitCommandData = {}
+
 
 ---@param fields? workFastExitCommandData
 ---@return workFastExitCommandData

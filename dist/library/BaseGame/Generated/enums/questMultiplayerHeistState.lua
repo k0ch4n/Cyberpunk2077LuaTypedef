@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questMultiplayerHeistState: Enum
 ---@field Invalid Enum 0
 ---@field Failure Enum 1

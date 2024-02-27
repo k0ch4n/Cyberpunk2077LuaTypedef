@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiarcadeTankGameplayController: gameuiarcadeArcadeGameplayController
 ---@field player inkWidgetReference
 ---@field enemySpawner inkWidgetReference
@@ -10,6 +11,7 @@
 ---@field hudCounter inkWidgetReference
 ---@field hudScoreMultiplier inkWidgetReference
 gameuiarcadeTankGameplayController = {}
+
 
 ---@param fields? gameuiarcadeTankGameplayController
 ---@return gameuiarcadeTankGameplayController

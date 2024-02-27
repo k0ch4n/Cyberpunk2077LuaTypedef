@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DestroyBreachEffector: gameEffector
 DestroyBreachEffector = {}
+
 
 ---@param fields? DestroyBreachEffector
 ---@return DestroyBreachEffector

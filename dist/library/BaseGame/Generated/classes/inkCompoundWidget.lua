@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class inkCompoundWidget: inkWidget
 ---@field childOrder inkEChildOrder
 ---@field children inkMultiChildren
 ---@field childMargin inkMargin
 inkCompoundWidget = {}
+
 
 ---@param fields? inkCompoundWidget
 ---@return inkCompoundWidget

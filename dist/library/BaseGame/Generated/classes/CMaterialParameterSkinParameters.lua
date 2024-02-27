@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CMaterialParameterSkinParameters: CMaterialParameter
 ---@field skinProfile CSkinProfile
 CMaterialParameterSkinParameters = {}
+
 
 ---@param fields? CMaterialParameterSkinParameters
 ---@return CMaterialParameterSkinParameters

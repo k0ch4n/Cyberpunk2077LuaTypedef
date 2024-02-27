@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerBountySystemGameController: BaseChunkGameController
 ---@field moneyReward inkTextWidgetReference
 ---@field moneyRewardRow inkWidgetReference
@@ -22,6 +23,7 @@
 ---@field objectType ScannerObjectType
 ---@field showScanBountyAnimProxy inkanimProxy
 ScannerBountySystemGameController = {}
+
 
 ---@param fields? ScannerBountySystemGameController
 ---@return ScannerBountySystemGameController

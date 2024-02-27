@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiMappinUIUtils
 gameuiMappinUIUtils = {}
+
 
 ---@param fields? gameuiMappinUIUtils
 ---@return gameuiMappinUIUtils

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SettingsSelectorControllerList: SettingsSelectorControllerRange
 ---@field dotsContainer inkHorizontalPanelWidgetReference
 SettingsSelectorControllerList = {}
+
 
 ---@param fields? SettingsSelectorControllerList
 ---@return SettingsSelectorControllerList

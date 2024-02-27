@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldBenchmarkSummary: IScriptable
 ---@field gameVersion String
 ---@field benchmarkName String
@@ -51,6 +52,7 @@
 ---@field rayTracedLightingQuality Int32
 ---@field rayTracedPathTracingEnabled Bool
 worldBenchmarkSummary = {}
+
 
 ---@param fields? worldBenchmarkSummary
 ---@return worldBenchmarkSummary

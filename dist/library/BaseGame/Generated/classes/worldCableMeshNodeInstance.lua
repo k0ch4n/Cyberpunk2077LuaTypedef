@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldCableMeshNodeInstance: worldBendedMeshNodeInstance
 worldCableMeshNodeInstance = {}
+
 
 ---@param fields? worldCableMeshNodeInstance
 ---@return worldCableMeshNodeInstance

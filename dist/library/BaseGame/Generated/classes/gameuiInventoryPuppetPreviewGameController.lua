@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiInventoryPuppetPreviewGameController: gameuiPuppetPreviewGameController
 ---@field sceneName CName
 ---@field cameraRef NodeRef
@@ -8,6 +9,7 @@
 ---@field maxMousePointerOffset Float
 ---@field mouseRotationSpeed Float
 gameuiInventoryPuppetPreviewGameController = {}
+
 
 ---@param fields? gameuiInventoryPuppetPreviewGameController
 ---@return gameuiInventoryPuppetPreviewGameController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MessengerUtils: IScriptable
 MessengerUtils = {}
+
 
 ---@param fields? MessengerUtils
 ---@return MessengerUtils

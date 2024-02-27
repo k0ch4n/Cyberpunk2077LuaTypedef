@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ResetDoorState: redEvent
 ResetDoorState = {}
+
 
 ---@param fields? ResetDoorState
 ---@return ResetDoorState

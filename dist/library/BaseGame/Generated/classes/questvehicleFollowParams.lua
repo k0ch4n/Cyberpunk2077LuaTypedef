@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questvehicleFollowParams: questVehicleSpecificCommandParams
 ---@field targetEntRef gameEntityReference
 ---@field distanceMin Float
@@ -10,6 +11,7 @@
 ---@field trafficTryNeighborsForStart Bool
 ---@field trafficTryNeighborsForEnd Bool
 questvehicleFollowParams = {}
+
 
 ---@param fields? questvehicleFollowParams
 ---@return questvehicleFollowParams

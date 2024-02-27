@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleAudio
 vehicleAudio = {}
+
 
 ---@param fields? vehicleAudio
 ---@return vehicleAudio

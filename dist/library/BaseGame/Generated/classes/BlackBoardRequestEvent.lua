@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class BlackBoardRequestEvent: redEvent
 ---@field blackBoard gameIBlackboard
 ---@field storageClass gameScriptedBlackboardStorage
 ---@field entryTag CName
 BlackBoardRequestEvent = {}
+
 
 ---@param fields? BlackBoardRequestEvent
 ---@return BlackBoardRequestEvent

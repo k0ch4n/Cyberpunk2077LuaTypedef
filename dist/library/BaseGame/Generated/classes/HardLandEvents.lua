@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HardLandEvents: FailedLandingAbstractEvents
 HardLandEvents = {}
+
 
 ---@param fields? HardLandEvents
 ---@return HardLandEvents

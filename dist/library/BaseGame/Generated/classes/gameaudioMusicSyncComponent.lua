@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameaudioMusicSyncComponent: entIComponent
 ---@field notifyBeats Bool
 ---@field notifyBars Bool
@@ -8,6 +9,7 @@
 ---@field notifyBeatProgression Bool
 ---@field syncTrack CName
 gameaudioMusicSyncComponent = {}
+
 
 ---@param fields? gameaudioMusicSyncComponent
 ---@return gameaudioMusicSyncComponent

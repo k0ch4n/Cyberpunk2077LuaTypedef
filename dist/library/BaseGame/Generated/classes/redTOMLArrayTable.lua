@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class redTOMLArrayTable: redTOMLBaseValue
 redTOMLArrayTable = {}
+
 
 ---@param fields? redTOMLArrayTable
 ---@return redTOMLArrayTable

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ChromaticAberrationAreaSettings: IAreaSettings
 ---@field chromaticAberrationEnabled Bool
 ---@field chromaticAberrationMargin Float
@@ -7,6 +8,7 @@
 ---@field chromaticAberrationExp Float
 ---@field subpixelDispersal Float
 ChromaticAberrationAreaSettings = {}
+
 
 ---@param fields? ChromaticAberrationAreaSettings
 ---@return ChromaticAberrationAreaSettings

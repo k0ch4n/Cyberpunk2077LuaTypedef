@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class OnAttachedEvent: redEvent
 OnAttachedEvent = {}
+
 
 ---@param fields? OnAttachedEvent
 ---@return OnAttachedEvent

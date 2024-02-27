@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ActionWorkSpot: ActionBool
 ---@field workspotTarget gamePuppet
 ActionWorkSpot = {}
+
 
 ---@return gamePuppet
 function ActionWorkSpot:GetWorkspotTarget() end

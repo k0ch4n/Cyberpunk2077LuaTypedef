@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class worldTrafficNullAreaDynamicBlockadeData: ISerializable
 ---@field nullAreasBlockades worldTrafficNullAreaDynamicBlockade[]
 worldTrafficNullAreaDynamicBlockadeData = {}
+
 
 ---@param fields? worldTrafficNullAreaDynamicBlockadeData
 ---@return worldTrafficNullAreaDynamicBlockadeData

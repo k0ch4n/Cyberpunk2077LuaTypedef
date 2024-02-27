@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class HighestPrioritySignalCondition: AIbehaviorexpressionScript
 ---@field signalName CName
 ---@field cbId Uint32
 ---@field lastValue Bool
 HighestPrioritySignalCondition = {}
+
 
 ---@param fields? HighestPrioritySignalCondition
 ---@return HighestPrioritySignalCondition

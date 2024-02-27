@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FindNavmeshPointAroundThePlayer: AIbehaviortaskScript
 ---@field outPositionArgument AIArgumentMapping
 FindNavmeshPointAroundThePlayer = {}
+
 
 ---@param fields? FindNavmeshPointAroundThePlayer
 ---@return FindNavmeshPointAroundThePlayer

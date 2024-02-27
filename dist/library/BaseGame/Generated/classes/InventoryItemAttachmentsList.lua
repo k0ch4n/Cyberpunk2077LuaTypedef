@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class InventoryItemAttachmentsList: inkWidgetLogicController
 ---@field libraryItemName CName
 ---@field container inkCompoundWidgetReference
 ---@field itemsList inkWidget[]
 ---@field data CName[]
 InventoryItemAttachmentsList = {}
+
 
 ---@param fields? InventoryItemAttachmentsList
 ---@return InventoryItemAttachmentsList

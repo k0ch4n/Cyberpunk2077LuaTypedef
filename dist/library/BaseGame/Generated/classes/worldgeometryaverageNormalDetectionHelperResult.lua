@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldgeometryaverageNormalDetectionHelperResult: IScriptable
 worldgeometryaverageNormalDetectionHelperResult = {}
+
 
 ---@param fields? worldgeometryaverageNormalDetectionHelperResult
 ---@return worldgeometryaverageNormalDetectionHelperResult

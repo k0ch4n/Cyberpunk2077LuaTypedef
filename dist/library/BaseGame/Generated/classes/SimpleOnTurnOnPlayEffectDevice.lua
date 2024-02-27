@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class SimpleOnTurnOnPlayEffectDevice: Device
 ---@field OnTurnOnEffectName CName
 ---@field OnTurnOffEffectName CName
 SimpleOnTurnOnPlayEffectDevice = {}
+
 
 ---@param fields? SimpleOnTurnOnPlayEffectDevice
 ---@return SimpleOnTurnOnPlayEffectDevice

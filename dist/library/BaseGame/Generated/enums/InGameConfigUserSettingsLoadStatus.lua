@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InGameConfigUserSettingsLoadStatus: Enum
 ---@field NotLoaded Enum 0
 ---@field InternalError Enum 1

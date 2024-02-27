@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LootPickupScriptedCondition: gameinteractionsInteractionScriptedCondition
 LootPickupScriptedCondition = {}
+
 
 ---@param fields? LootPickupScriptedCondition
 ---@return LootPickupScriptedCondition

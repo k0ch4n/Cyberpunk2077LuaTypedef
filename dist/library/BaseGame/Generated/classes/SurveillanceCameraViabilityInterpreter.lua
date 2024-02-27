@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SurveillanceCameraViabilityInterpreter: IScriptable
 SurveillanceCameraViabilityInterpreter = {}
+
 
 ---@param fields? SurveillanceCameraViabilityInterpreter
 ---@return SurveillanceCameraViabilityInterpreter

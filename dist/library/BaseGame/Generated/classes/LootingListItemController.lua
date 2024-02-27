@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class LootingListItemController: inkWidgetLogicController
 ---@field widgetWrapper inkWidgetReference
 ---@field itemName inkTextWidgetReference
@@ -15,6 +16,7 @@
 ---@field tooltipData InventoryTooltipData
 ---@field lootingData MinimalLootingListItemData
 LootingListItemController = {}
+
 
 ---@param fields? LootingListItemController
 ---@return LootingListItemController

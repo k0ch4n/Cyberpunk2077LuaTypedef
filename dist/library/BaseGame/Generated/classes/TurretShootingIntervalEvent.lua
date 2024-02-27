@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TurretShootingIntervalEvent: redEvent
 TurretShootingIntervalEvent = {}
+
 
 ---@param fields? TurretShootingIntervalEvent
 ---@return TurretShootingIntervalEvent

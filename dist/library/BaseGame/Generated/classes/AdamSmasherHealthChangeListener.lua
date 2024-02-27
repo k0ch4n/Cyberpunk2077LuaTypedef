@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AdamSmasherHealthChangeListener: gameCustomValueStatPoolsListener
 ---@field owner NPCPuppet
 ---@field player PlayerPuppet
@@ -7,6 +8,7 @@
 ---@field statPoolType gamedataStatPoolType
 ---@field statPoolSystem gameStatPoolsSystem
 AdamSmasherHealthChangeListener = {}
+
 
 ---@param fields? AdamSmasherHealthChangeListener
 ---@return AdamSmasherHealthChangeListener

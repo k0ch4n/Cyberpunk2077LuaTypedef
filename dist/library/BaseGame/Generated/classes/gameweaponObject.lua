@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameweaponObject: gameItemObject
 ---@field effect gameEffectSet
 ---@field hasOverheat Bool
@@ -28,6 +29,7 @@
 ---@field AIBlackboard gameIBlackboard
 ---@field isCharged Bool
 gameweaponObject = {}
+
 
 ---@param fields? gameweaponObject
 ---@return gameweaponObject

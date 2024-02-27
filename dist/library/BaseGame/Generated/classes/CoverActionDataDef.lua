@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CoverActionDataDef: gamebbScriptDefinition
 ---@field coverActionStateId gamebbScriptID_Int32
 ---@field playerNearValidEdge gamebbScriptID_Bool
@@ -10,6 +11,7 @@
 ---@field debugStagesLeaning gamebbScriptID_Bool
 ---@field debugAdsLeaning gamebbScriptID_Bool
 CoverActionDataDef = {}
+
 
 ---@param fields? CoverActionDataDef
 ---@return CoverActionDataDef

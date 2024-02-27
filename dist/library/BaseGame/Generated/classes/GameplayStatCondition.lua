@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class GameplayStatCondition: GameplayConditionBase
 ---@field statToCheck TweakDBID
 ---@field stat EDeviceChallengeAttribute
 ---@field difficulty EGameplayChallengeLevel
 GameplayStatCondition = {}
+
 
 ---@param fields? GameplayStatCondition
 ---@return GameplayStatCondition

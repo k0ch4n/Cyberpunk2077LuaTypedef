@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ParryReactionTask: AIbehaviortaskScript
 ParryReactionTask = {}
+
 
 ---@param fields? ParryReactionTask
 ---@return ParryReactionTask

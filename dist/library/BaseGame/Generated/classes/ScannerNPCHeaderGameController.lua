@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScannerNPCHeaderGameController: BaseChunkGameController
 ---@field nameText inkTextWidgetReference
 ---@field skullIndicator inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field isValidRarity Bool
 ---@field isValidArchetype Bool
 ScannerNPCHeaderGameController = {}
+
 
 ---@param fields? ScannerNPCHeaderGameController
 ---@return ScannerNPCHeaderGameController

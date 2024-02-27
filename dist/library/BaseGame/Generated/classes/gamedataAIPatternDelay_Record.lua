@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIPatternDelay_Record: gamedataTweakDBRecord
 gamedataAIPatternDelay_Record = {}
+
 
 ---@param fields? gamedataAIPatternDelay_Record
 ---@return gamedataAIPatternDelay_Record

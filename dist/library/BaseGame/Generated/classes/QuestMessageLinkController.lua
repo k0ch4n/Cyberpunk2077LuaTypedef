@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestMessageLinkController: BaseCodexLinkController
 ---@field contactEntry gameJournalContact
 ---@field messageEntry gameJournalPhoneMessage
@@ -8,6 +9,7 @@
 ---@field conversation gameJournalPhoneConversation
 ---@field phoneSystem PhoneSystem
 QuestMessageLinkController = {}
+
 
 ---@param fields? QuestMessageLinkController
 ---@return QuestMessageLinkController

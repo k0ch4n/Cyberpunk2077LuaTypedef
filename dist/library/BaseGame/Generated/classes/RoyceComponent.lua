@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RoyceComponent: gameScriptableComponent
 ---@field owner NPCPuppet
 ---@field owner_id entEntityID
@@ -10,6 +11,7 @@
 ---@field hitData animAnimFeature_HitReactionsData
 ---@field weakspotDestroyed Bool
 RoyceComponent = {}
+
 
 ---@param fields? RoyceComponent
 ---@return RoyceComponent

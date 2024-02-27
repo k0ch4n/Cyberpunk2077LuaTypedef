@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CyberspaceMappinController: gameuiQuestMappinController
 ---@field image inkImageWidgetReference
 CyberspaceMappinController = {}
+
 
 ---@param fields? CyberspaceMappinController
 ---@return CyberspaceMappinController

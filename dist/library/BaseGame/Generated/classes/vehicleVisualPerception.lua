@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleVisualPerception
 vehicleVisualPerception = {}
+
 
 ---@param fields? vehicleVisualPerception
 ---@return vehicleVisualPerception

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CyberwareMainGameController: gameuiWidgetGameController
 ---@field MainViewRoot inkWidgetReference
 ---@field CyberwareColumnLeft inkCompoundWidgetReference
@@ -16,6 +17,7 @@
 ---@field toolTipOffset inkMargin
 ---@field rawStatsData gameStatViewData[]
 CyberwareMainGameController = {}
+
 
 ---@param fields? CyberwareMainGameController
 ---@return CyberwareMainGameController

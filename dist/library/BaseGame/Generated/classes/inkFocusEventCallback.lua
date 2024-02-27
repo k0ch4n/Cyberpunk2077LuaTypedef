@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkFocusEventCallback: inkCallbackBase
 inkFocusEventCallback = {}
+
 
 ---@param fields? inkFocusEventCallback
 ---@return inkFocusEventCallback

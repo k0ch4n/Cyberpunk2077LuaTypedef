@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameWrappedEntIDArray
 ---@field arr entEntityID[]
 gameWrappedEntIDArray = {}
+
 
 ---@param fields? gameWrappedEntIDArray
 ---@return gameWrappedEntIDArray

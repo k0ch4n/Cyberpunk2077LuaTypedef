@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class rendGridGeneratorData
 ---@field startingPosition Vector3
 ---@field rotation EulerAngles
@@ -10,6 +11,7 @@
 ---@field orbitDistance Float
 ---@field zoom Float
 rendGridGeneratorData = {}
+
 
 ---@param fields? rendGridGeneratorData
 ---@return rendGridGeneratorData

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIPatrolPathParameters: IScriptable
 ---@field path NodeRef
 ---@field movementType moveMovementType
@@ -12,6 +13,7 @@
 ---@field sortPatrolPoints Bool
 ---@field patrolAction TweakDBID
 AIPatrolPathParameters = {}
+
 
 ---@param fields? AIPatrolPathParameters
 ---@return AIPatrolPathParameters

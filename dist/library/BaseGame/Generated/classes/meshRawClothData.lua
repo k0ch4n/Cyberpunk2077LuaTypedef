@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class meshRawClothData
 ---@field state physicsclothState
 ---@field maxDistanceChannel DataBuffer[]
@@ -8,6 +9,7 @@
 ---@field backstopRadiusChannel DataBuffer[]
 ---@field selfCollisionChannel DataBuffer[]
 meshRawClothData = {}
+
 
 ---@param fields? meshRawClothData
 ---@return meshRawClothData

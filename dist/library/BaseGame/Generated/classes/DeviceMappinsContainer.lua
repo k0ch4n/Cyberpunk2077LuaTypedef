@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class DeviceMappinsContainer: IScriptable
 ---@field mappins SDeviceMappinData[]
 ---@field newNewFocusMappin SDeviceMappinData
 ---@field useNewFocusMappin Bool
 ---@field offsetValue Float
 DeviceMappinsContainer = {}
+
 
 ---@param fields? DeviceMappinsContainer
 ---@return DeviceMappinsContainer

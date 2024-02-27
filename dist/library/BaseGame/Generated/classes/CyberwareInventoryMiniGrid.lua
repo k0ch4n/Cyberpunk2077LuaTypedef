@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CyberwareInventoryMiniGrid: inkWidgetLogicController
 ---@field isLeftAligned Bool
 ---@field gridContainer inkUniformGridWidgetReference
@@ -23,6 +24,7 @@
 ---@field gridData InventoryItemDisplayController[]
 ---@field root inkWidget
 CyberwareInventoryMiniGrid = {}
+
 
 ---@param fields? CyberwareInventoryMiniGrid
 ---@return CyberwareInventoryMiniGrid

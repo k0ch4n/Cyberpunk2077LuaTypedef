@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ESmartHousePreset: Enum
 ---@field MorningPreset Enum 0
 ---@field EveningPreset Enum 1

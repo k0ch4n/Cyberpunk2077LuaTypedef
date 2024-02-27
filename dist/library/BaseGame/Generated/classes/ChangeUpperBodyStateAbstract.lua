@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ChangeUpperBodyStateAbstract: AIbehaviortaskScript
 ChangeUpperBodyStateAbstract = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

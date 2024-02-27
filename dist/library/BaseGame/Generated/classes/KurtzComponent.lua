@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class KurtzComponent: gameScriptableComponent
 KurtzComponent = {}
+
 
 ---@param fields? KurtzComponent
 ---@return KurtzComponent

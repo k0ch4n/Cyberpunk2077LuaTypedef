@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WeaponReadyListenerTransition: WeaponTransition
 ---@field executionOwner gameObject
 ---@field callBackIDs redCallbackObject[]
@@ -24,6 +25,7 @@
 ---@field isInSafeSceneTier Bool
 ---@field weaponReadyListenerReturnValue Bool
 WeaponReadyListenerTransition = {}
+
 
 ---@param fields? WeaponReadyListenerTransition
 ---@return WeaponReadyListenerTransition

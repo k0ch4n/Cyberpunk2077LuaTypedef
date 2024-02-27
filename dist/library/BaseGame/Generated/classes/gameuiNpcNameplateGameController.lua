@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiNpcNameplateGameController: gameuiProjectedHUDGameController
 ---@field projection inkWidgetReference
 ---@field displayName inkWidgetReference
@@ -42,6 +43,7 @@
 ---@field uiBlackboardNameplateBlackboard gameIBlackboard
 ---@field nextDistanceCheckTime Float
 gameuiNpcNameplateGameController = {}
+
 
 ---@param fields? gameuiNpcNameplateGameController
 ---@return gameuiNpcNameplateGameController

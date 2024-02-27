@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class KiroshiEffectorTechPreviewStatListener: gameScriptStatsListener
 ---@field effector KiroshiHighlightEffector
 KiroshiEffectorTechPreviewStatListener = {}
+
 
 ---@param fields? KiroshiEffectorTechPreviewStatListener
 ---@return KiroshiEffectorTechPreviewStatListener

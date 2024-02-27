@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class moveExitedSplineEvent: redEvent
 moveExitedSplineEvent = {}
+
 
 ---@param fields? moveExitedSplineEvent
 ---@return moveExitedSplineEvent

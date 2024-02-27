@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocPerkTooltip: AGenericTooltipController
 ---@field perkName inkTextWidgetReference
 ---@field perkIcon inkImageWidgetReference
@@ -8,6 +9,7 @@
 ---@field skeletonPerkIconName CName
 ---@field handsPerkIconName CName
 RipperdocPerkTooltip = {}
+
 
 ---@param fields? RipperdocPerkTooltip
 ---@return RipperdocPerkTooltip

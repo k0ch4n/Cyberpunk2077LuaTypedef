@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnPlayerActorDef
 ---@field actorId scnActorId
 ---@field specTemplate CName
@@ -20,6 +21,7 @@
 ---@field findActorInContextParams scnFindEntityInContextParams
 ---@field playerName String
 scnPlayerActorDef = {}
+
 
 ---@param fields? scnPlayerActorDef
 ---@return scnPlayerActorDef

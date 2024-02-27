@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICTreeNodePositionSharedVarDecoratorDefinition: AICTreeNodeSingleSharedVarDecoratorDefinition
 AICTreeNodePositionSharedVarDecoratorDefinition = {}
+
 
 ---@param fields? AICTreeNodePositionSharedVarDecoratorDefinition
 ---@return AICTreeNodePositionSharedVarDecoratorDefinition

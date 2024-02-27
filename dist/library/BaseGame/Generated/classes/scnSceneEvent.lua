@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnSceneEvent: ISerializable
 ---@field id scnSceneEventId
 ---@field type scnEventType

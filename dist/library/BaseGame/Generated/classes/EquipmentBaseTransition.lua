@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EquipmentBaseTransition: DefaultTransition
 EquipmentBaseTransition = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class EffectExecutor_PingNetwork: gameEffectExecutor_Scripted
 ---@field fxResource gameFxResource
 EffectExecutor_PingNetwork = {}
+
 
 ---@param fields? EffectExecutor_PingNetwork
 ---@return EffectExecutor_PingNetwork

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionPlayVoiceOver_Record_Implementation: IScriptable
 AISubActionPlayVoiceOver_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionPlayVoiceOver_Record

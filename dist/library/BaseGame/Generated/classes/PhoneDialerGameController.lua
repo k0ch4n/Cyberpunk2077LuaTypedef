@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PhoneDialerGameController: gameuiNewPhoneRelatedHUDGameController
 ---@field contactsList inkWidgetReference
 ---@field avatarImage inkImageWidgetReference
@@ -24,6 +25,7 @@
 ---@field repeatingScrollActionEnabled Bool
 ---@field firstInit Bool
 PhoneDialerGameController = {}
+
 
 ---@param fields? PhoneDialerGameController
 ---@return PhoneDialerGameController

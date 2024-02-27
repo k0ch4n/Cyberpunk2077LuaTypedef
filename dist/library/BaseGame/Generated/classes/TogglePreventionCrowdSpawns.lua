@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TogglePreventionCrowdSpawns: gameScriptableSystemRequest
 ---@field toggle Bool
 TogglePreventionCrowdSpawns = {}
+
 
 ---@param fields? TogglePreventionCrowdSpawns
 ---@return TogglePreventionCrowdSpawns

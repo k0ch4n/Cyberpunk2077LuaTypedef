@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIIsOnNavmeshCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIIsOnNavmeshCond_Record = {}
+
 
 ---@param fields? gamedataAIIsOnNavmeshCond_Record
 ---@return gamedataAIIsOnNavmeshCond_Record

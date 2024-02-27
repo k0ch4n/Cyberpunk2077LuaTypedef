@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FinishedPathWithDoors: redEvent
 FinishedPathWithDoors = {}
+
 
 ---@param fields? FinishedPathWithDoors
 ---@return FinishedPathWithDoors

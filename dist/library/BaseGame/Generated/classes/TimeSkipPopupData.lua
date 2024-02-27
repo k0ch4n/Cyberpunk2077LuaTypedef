@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class TimeSkipPopupData: inkGameNotificationData
 TimeSkipPopupData = {}
+
 
 ---@param fields? TimeSkipPopupData
 ---@return TimeSkipPopupData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameGodModeSystem: gameIGodModeSystem
 gameGodModeSystem = {}
+
 
 ---@param fields? gameGodModeSystem
 ---@return gameGodModeSystem

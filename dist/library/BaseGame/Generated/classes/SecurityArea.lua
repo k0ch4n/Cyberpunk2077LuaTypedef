@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SecurityArea: InteractiveMasterDevice
 ---@field area gameStaticTriggerAreaComponent
 SecurityArea = {}
+
 
 ---@param fields? SecurityArea
 ---@return SecurityArea

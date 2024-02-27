@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class MeleeAttackGenericEvents: MeleeEventsTransition
 ---@field effect gameEffectInstance
 ---@field attackCreated Bool
@@ -15,6 +16,7 @@
 ---@field effectPositionUpdated Bool
 ---@field tppYawOverride Float
 MeleeAttackGenericEvents = {}
+
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param radius Float

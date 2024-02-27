@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceScanEffectStop: ActionBool
 QuestForceScanEffectStop = {}
+
 
 ---@param fields? QuestForceScanEffectStop
 ---@return QuestForceScanEffectStop

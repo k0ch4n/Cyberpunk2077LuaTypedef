@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AIQuickHackAction: PuppetAction
 ---@field target gameObject
 ---@field scaleUploadTime Bool
 ---@field HUDData HUDProgressBarData
 AIQuickHackAction = {}
+
 
 ---@param fields? AIQuickHackAction
 ---@return AIQuickHackAction

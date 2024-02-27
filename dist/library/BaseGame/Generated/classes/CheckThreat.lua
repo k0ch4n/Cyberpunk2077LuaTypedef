@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class CheckThreat: AIbehaviorconditionScript
 ---@field targetObjectMapping AIArgumentMapping
 ---@field targetThreat gameObject
 CheckThreat = {}
+
 
 ---@param fields? CheckThreat
 ---@return CheckThreat

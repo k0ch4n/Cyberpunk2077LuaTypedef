@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ReflectorControllerPS: BlindingLightControllerPS
 ReflectorControllerPS = {}
+
 
 ---@param fields? ReflectorControllerPS
 ---@return ReflectorControllerPS

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Codeware_Localization_ModLocalizationProvider: gameScriptableSystem
 Codeware_Localization_ModLocalizationProvider = {}
+
 
 ---@return CName
 function Codeware_Localization_ModLocalizationProvider:GetFallback() end

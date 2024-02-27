@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CCombatTargetDataPtr
 CCombatTargetDataPtr = {}
+
 
 ---@param fields? CCombatTargetDataPtr
 ---@return CCombatTargetDataPtr

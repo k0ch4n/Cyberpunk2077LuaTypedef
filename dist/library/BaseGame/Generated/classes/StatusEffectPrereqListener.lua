@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StatusEffectPrereqListener: gameScriptStatusEffectListener
 ---@field state StatusEffectPrereqState
 StatusEffectPrereqListener = {}
+
 
 ---@param fields? StatusEffectPrereqListener
 ---@return StatusEffectPrereqListener

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ItemTooltipStatSettingsListener: userSettingsVarListener
 ---@field ctrl ItemTooltipStatController
 ItemTooltipStatSettingsListener = {}
+
 
 ---@param fields? ItemTooltipStatSettingsListener
 ---@return ItemTooltipStatSettingsListener

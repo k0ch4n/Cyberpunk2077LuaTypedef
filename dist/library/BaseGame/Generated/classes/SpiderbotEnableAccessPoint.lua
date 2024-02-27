@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SpiderbotEnableAccessPoint: ActionBool
 SpiderbotEnableAccessPoint = {}
+
 
 ---@param fields? SpiderbotEnableAccessPoint
 ---@return SpiderbotEnableAccessPoint

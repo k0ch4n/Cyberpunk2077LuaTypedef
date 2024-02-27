@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckUpperBodyState: AINPCUpperBodyStateCheck
 ---@field state gamedataNPCUpperBodyState
 CheckUpperBodyState = {}
+
 
 ---@param fields? CheckUpperBodyState
 ---@return CheckUpperBodyState

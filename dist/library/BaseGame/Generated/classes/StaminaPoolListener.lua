@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StaminaPoolListener: gameScriptStatPoolsListener
 ---@field staminaBar StaminabarWidgetGameController
 StaminaPoolListener = {}
+
 
 ---@param fields? StaminaPoolListener
 ---@return StaminaPoolListener

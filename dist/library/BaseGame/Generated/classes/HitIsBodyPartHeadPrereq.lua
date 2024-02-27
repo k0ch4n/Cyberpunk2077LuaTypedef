@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitIsBodyPartHeadPrereq: GenericHitPrereq
 HitIsBodyPartHeadPrereq = {}
+
 
 ---@param fields? HitIsBodyPartHeadPrereq
 ---@return HitIsBodyPartHeadPrereq

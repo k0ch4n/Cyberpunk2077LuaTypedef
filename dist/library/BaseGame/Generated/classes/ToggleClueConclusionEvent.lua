@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ToggleClueConclusionEvent: redEvent
 ---@field toggleConclusion Bool
 ---@field clueID Int32
 ---@field updatePS Bool
 ToggleClueConclusionEvent = {}
+
 
 ---@param fields? ToggleClueConclusionEvent
 ---@return ToggleClueConclusionEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsvisDialogVisualizerDefinition: gameinteractionsvisIVisualizerDefinition
 ---@field displayNameOverride String
 ---@field useLookAt Bool
@@ -7,6 +8,7 @@
 ---@field timeProvider gameinteractionsvisIVisualizerTimeProvider
 ---@field hubPriority Uint8
 gameinteractionsvisDialogVisualizerDefinition = {}
+
 
 ---@param fields? gameinteractionsvisDialogVisualizerDefinition
 ---@return gameinteractionsvisDialogVisualizerDefinition

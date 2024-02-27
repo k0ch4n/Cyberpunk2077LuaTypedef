@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Ladder: InteractiveDevice
 Ladder = {}
+
 
 ---@param fields? Ladder
 ---@return Ladder

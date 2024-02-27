@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiStickersRegisterCallbacksEvent: redEvent
 gameuiStickersRegisterCallbacksEvent = {}
+
 
 ---@param fields? gameuiStickersRegisterCallbacksEvent
 ---@return gameuiStickersRegisterCallbacksEvent

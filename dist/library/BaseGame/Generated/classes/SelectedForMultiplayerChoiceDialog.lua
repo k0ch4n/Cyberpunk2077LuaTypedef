@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SelectedForMultiplayerChoiceDialog: gameIScriptablePrereq
 SelectedForMultiplayerChoiceDialog = {}
+
 
 ---@param fields? SelectedForMultiplayerChoiceDialog
 ---@return SelectedForMultiplayerChoiceDialog

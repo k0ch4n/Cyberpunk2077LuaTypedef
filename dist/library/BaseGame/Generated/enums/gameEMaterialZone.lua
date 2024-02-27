@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEMaterialZone: Enum
 ---@field Zero Enum 0
 ---@field One Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldSaveSanitizationForbiddenAreaNotifier: worldITriggerAreaNotifer
 worldSaveSanitizationForbiddenAreaNotifier = {}
+
 
 ---@param fields? worldSaveSanitizationForbiddenAreaNotifier
 ---@return worldSaveSanitizationForbiddenAreaNotifier

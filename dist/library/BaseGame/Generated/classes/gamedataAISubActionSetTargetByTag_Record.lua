@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionSetTargetByTag_Record: gamedataAISubAction_Record
 gamedataAISubActionSetTargetByTag_Record = {}
+
 
 ---@param fields? gamedataAISubActionSetTargetByTag_Record
 ---@return gamedataAISubActionSetTargetByTag_Record

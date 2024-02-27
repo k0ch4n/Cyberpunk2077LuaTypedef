@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Pay: ActionBool
 Pay = {}
+
 
 ---@param fields? Pay
 ---@return Pay

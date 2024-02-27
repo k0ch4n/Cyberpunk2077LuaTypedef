@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ActorVisibilityStatus: Enum
 ---@field OUTSIDE_CAMERA Enum 0
 ---@field IN_CAMERA Enum 1

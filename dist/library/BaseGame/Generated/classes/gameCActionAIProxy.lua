@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCActionAIProxy
 gameCActionAIProxy = {}
+
 
 ---@param fields? gameCActionAIProxy
 ---@return gameCActionAIProxy

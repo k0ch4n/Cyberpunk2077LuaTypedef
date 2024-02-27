@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class RaceCheckpointSelector: StreetSignSelector
 ---@field recordID TweakDBID
 RaceCheckpointSelector = {}
+
 
 ---@param fields? RaceCheckpointSelector
 ---@return RaceCheckpointSelector

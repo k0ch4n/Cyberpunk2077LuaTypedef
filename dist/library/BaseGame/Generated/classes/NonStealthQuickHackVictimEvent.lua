@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class NonStealthQuickHackVictimEvent: redEvent
 ---@field instigatorID entEntityID
 NonStealthQuickHackVictimEvent = {}
+
 
 ---@param fields? NonStealthQuickHackVictimEvent
 ---@return NonStealthQuickHackVictimEvent

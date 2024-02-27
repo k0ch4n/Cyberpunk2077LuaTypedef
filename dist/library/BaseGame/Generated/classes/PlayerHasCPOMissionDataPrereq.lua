@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PlayerHasCPOMissionDataPrereq: gameIScriptablePrereq
 PlayerHasCPOMissionDataPrereq = {}
+
 
 ---@param fields? PlayerHasCPOMissionDataPrereq
 ---@return PlayerHasCPOMissionDataPrereq

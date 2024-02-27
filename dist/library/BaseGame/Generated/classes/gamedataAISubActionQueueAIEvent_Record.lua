@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionQueueAIEvent_Record: gamedataAISubAction_Record
 gamedataAISubActionQueueAIEvent_Record = {}
+
 
 ---@param fields? gamedataAISubActionQueueAIEvent_Record
 ---@return gamedataAISubActionQueueAIEvent_Record

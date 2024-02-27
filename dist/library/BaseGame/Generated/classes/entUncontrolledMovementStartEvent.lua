@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class entUncontrolledMovementStartEvent: redEvent
 ---@field ragdollNoGroundThreshold Float
 ---@field ragdollOnCollision Bool
 ---@field calculateEarlyPositionGroundHeight Bool
 entUncontrolledMovementStartEvent = {}
+
 
 ---@param fields? entUncontrolledMovementStartEvent
 ---@return entUncontrolledMovementStartEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Crosshair: ModuleInstance
 Crosshair = {}
+
 
 ---@param fields? Crosshair
 ---@return Crosshair

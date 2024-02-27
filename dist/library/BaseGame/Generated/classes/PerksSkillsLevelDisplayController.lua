@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PerksSkillsLevelDisplayController: inkWidgetLogicController
 ---@field tint inkWidgetReference
 PerksSkillsLevelDisplayController = {}
+
 
 ---@param fields? PerksSkillsLevelDisplayController
 ---@return PerksSkillsLevelDisplayController

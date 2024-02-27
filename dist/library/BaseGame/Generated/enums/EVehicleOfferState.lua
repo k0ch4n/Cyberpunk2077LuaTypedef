@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EVehicleOfferState: Enum
 ---@field Default Enum 0
 ---@field New Enum 1

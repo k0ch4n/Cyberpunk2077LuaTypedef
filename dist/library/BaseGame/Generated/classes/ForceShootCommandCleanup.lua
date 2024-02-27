@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ForceShootCommandCleanup: AIbehaviortaskScript
 ---@field inCommand AIArgumentMapping
 ForceShootCommandCleanup = {}
+
 
 ---@param fields? ForceShootCommandCleanup
 ---@return ForceShootCommandCleanup

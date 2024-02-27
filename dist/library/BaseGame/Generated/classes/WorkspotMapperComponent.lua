@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WorkspotMapperComponent: gameScriptableComponent
 ---@field workspotsMap WorkspotMapData[]
 WorkspotMapperComponent = {}
+
 
 ---@param fields? WorkspotMapperComponent
 ---@return WorkspotMapperComponent

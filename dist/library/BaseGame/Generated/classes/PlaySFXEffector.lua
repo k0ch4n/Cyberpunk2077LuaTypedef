@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PlaySFXEffector: gameEffector
 ---@field activationSFXName CName
 ---@field deactivationSFXName CName
@@ -9,6 +10,7 @@
 ---@field stopActiveSfxOnDeactivate Bool
 ---@field owner gameObject
 PlaySFXEffector = {}
+
 
 ---@param fields? PlaySFXEffector
 ---@return PlaySFXEffector

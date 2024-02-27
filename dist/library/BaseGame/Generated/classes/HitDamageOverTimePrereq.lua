@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class HitDamageOverTimePrereq: GenericHitPrereq
 ---@field dotType gamedataStatusEffectType
 HitDamageOverTimePrereq = {}
+
 
 ---@param fields? HitDamageOverTimePrereq
 ---@return HitDamageOverTimePrereq

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animHipsIkRequest
 ---@field leftLegIkChain CName
 ---@field rightLegIkChain CName
@@ -7,6 +8,7 @@
 ---@field leftFootTransformIndex animTransformIndex
 ---@field rightFootTransformIndex animTransformIndex
 animHipsIkRequest = {}
+
 
 ---@param fields? animHipsIkRequest
 ---@return animHipsIkRequest

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class inkToggleController: inkButtonController
 ---@field ToggleChanged inkToggleChangedCallback
 ---@field isToggled Bool
 ---@field autoToggleOnInput Bool
 inkToggleController = {}
+
 
 ---@param fields? inkToggleController
 ---@return inkToggleController

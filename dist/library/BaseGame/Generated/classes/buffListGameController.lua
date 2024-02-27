@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class buffListGameController: gameuiHUDGameController
 ---@field buffsList inkHorizontalPanelWidgetReference
 ---@field bbBuffList redCallbackObject
@@ -11,6 +12,7 @@
 ---@field UISystem gameuiGameSystemUI
 ---@field pendingRequests Int32
 buffListGameController = {}
+
 
 ---@param fields? buffListGameController
 ---@return buffListGameController

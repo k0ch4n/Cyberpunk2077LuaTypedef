@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UI_QuickSlotsDataDef: gamebbScriptDefinition
 ---@field UIRadialContextRequest gamebbScriptID_Bool
 ---@field UIRadialContextRightStickAngle gamebbScriptID_Float
@@ -21,6 +22,7 @@
 ---@field containerConsumable gamebbScriptID_Variant
 ---@field consumableBeingUsed gamebbScriptID_Variant
 UI_QuickSlotsDataDef = {}
+
 
 ---@param fields? UI_QuickSlotsDataDef
 ---@return UI_QuickSlotsDataDef

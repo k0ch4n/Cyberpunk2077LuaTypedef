@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questHUDVideo_NodeType: questIUIManagerNodeType
 ---@field video Bink
 ---@field skippable Bool
@@ -15,6 +16,7 @@
 ---@field position Vector2
 ---@field size Vector2
 questHUDVideo_NodeType = {}
+
 
 ---@param fields? questHUDVideo_NodeType
 ---@return questHUDVideo_NodeType

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AttemptedToStopFactsSet: BunkerSystemsFactsSet
 AttemptedToStopFactsSet = {}
+
 
 ---@param fields? AttemptedToStopFactsSet
 ---@return AttemptedToStopFactsSet

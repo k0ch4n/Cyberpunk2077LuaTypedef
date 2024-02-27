@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InspectableObjectComponent: gameScriptableComponent
 ---@field factToAdd CName
 ---@field itemID String
@@ -8,6 +9,7 @@
 ---@field timeToScan Float
 ---@field slot String
 InspectableObjectComponent = {}
+
 
 ---@param fields? InspectableObjectComponent
 ---@return InspectableObjectComponent

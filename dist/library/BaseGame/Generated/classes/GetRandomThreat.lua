@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GetRandomThreat: AIRandomTasks
 ---@field outThreatArgument AIArgumentMapping
 GetRandomThreat = {}
+
 
 ---@param fields? GetRandomThreat
 ---@return GetRandomThreat

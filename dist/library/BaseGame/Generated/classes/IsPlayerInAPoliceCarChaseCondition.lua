@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class IsPlayerInAPoliceCarChaseCondition: PreventionConditionAbstract
 IsPlayerInAPoliceCarChaseCondition = {}
+
 
 ---@param fields? IsPlayerInAPoliceCarChaseCondition
 ---@return IsPlayerInAPoliceCarChaseCondition

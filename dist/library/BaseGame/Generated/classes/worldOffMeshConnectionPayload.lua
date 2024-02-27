@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldOffMeshConnectionPayload
 worldOffMeshConnectionPayload = {}
+
 
 ---@param fields? worldOffMeshConnectionPayload
 ---@return worldOffMeshConnectionPayload

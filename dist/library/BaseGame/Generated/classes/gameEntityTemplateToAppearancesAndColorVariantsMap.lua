@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameEntityTemplateToAppearancesAndColorVariantsMap: ISerializable
 ---@field entries gameEntityToAppearancesAndColorVariantsMapEntry[]
 gameEntityTemplateToAppearancesAndColorVariantsMap = {}
+
 
 ---@param fields? gameEntityTemplateToAppearancesAndColorVariantsMap
 ---@return gameEntityTemplateToAppearancesAndColorVariantsMap

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIThreatPersistenceStatus: Enum
 ---@field ThreatNotFound Enum 0
 ---@field Persistent Enum 1

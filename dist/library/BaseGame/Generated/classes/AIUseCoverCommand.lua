@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIUseCoverCommand: AICombatRelatedCommand
 ---@field coverNodeRef NodeRef
 ---@field oneTimeSelection Bool
@@ -7,6 +8,7 @@
 ---@field exposureMethods AICoverExposureMethod[]
 ---@field limitToTheseExposureMethods CoverCommandParams
 AIUseCoverCommand = {}
+
 
 ---@param fields? AIUseCoverCommand
 ---@return AIUseCoverCommand

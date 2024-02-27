@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class Vector4
 ---@field x number
 ---@field y number
 ---@field z number
 ---@field w number
 Vector4 = {}
+
 
 ---@param x number
 ---@param y number

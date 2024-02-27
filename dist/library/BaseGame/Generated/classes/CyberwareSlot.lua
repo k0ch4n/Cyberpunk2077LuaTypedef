@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CyberwareSlot: BaseButtonView
 ---@field IconImageRef inkImageWidgetReference
 ---@field SlotEquipArea gamedataEquipmentArea
 ---@field NumSlots Int32
 CyberwareSlot = {}
+
 
 ---@param fields? CyberwareSlot
 ---@return CyberwareSlot

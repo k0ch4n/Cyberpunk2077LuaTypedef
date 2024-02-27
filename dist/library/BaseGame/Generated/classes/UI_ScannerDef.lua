@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UI_ScannerDef: gamebbScriptDefinition
 ---@field Scannables gamebbScriptID_Variant
 ---@field CurrentProgress gamebbScriptID_Float
@@ -23,6 +24,7 @@
 ---@field UIVisible gamebbScriptID_Bool
 ---@field ScannerLookAt gamebbScriptID_Bool
 UI_ScannerDef = {}
+
 
 ---@param fields? UI_ScannerDef
 ---@return UI_ScannerDef

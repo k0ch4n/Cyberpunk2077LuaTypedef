@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisposalDeviceController: ScriptableDeviceComponent
 DisposalDeviceController = {}
+
 
 ---@param fields? DisposalDeviceController
 ---@return DisposalDeviceController

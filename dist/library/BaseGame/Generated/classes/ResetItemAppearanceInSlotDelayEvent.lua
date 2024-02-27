@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ResetItemAppearanceInSlotDelayEvent: redEvent
 ---@field slotID TweakDBID
 ResetItemAppearanceInSlotDelayEvent = {}
+
 
 ---@param fields? ResetItemAppearanceInSlotDelayEvent
 ---@return ResetItemAppearanceInSlotDelayEvent

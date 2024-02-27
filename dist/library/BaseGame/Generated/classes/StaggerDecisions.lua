@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StaggerDecisions: ReactionTransition
 ---@field textLayerId Uint32
 StaggerDecisions = {}
+
 
 ---@param fields? StaggerDecisions
 ---@return StaggerDecisions

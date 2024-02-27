@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CrosshairGameController_Basic: gameuiCrosshairBaseGameController
 ---@field leftPart inkImageWidgetReference
 ---@field rightPart inkImageWidgetReference
@@ -16,6 +17,7 @@
 ---@field verticalMinSpread Float
 ---@field gameplaySpreadMultiplier Float
 CrosshairGameController_Basic = {}
+
 
 ---@param fields? CrosshairGameController_Basic
 ---@return CrosshairGameController_Basic

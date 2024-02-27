@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkWidgetReference
 ---@field widget inkWidget
 inkWidgetReference = {}
+
 
 ---@param fields? inkWidgetReference
 ---@return inkWidgetReference

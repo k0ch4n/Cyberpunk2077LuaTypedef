@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RandomChancePrereq: gameIScriptablePrereq
 RandomChancePrereq = {}
+
 
 ---@param fields? RandomChancePrereq
 ---@return RandomChancePrereq

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UiRadialContextEvents: InputContextTransitionEvents
 ---@field mouse Vector4
 UiRadialContextEvents = {}
+
 
 ---@param fields? UiRadialContextEvents
 ---@return UiRadialContextEvents

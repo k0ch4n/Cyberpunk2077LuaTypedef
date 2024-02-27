@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldAudioSignpostTriggerNodeInstance: worldTriggerAreaNodeInstance
 worldAudioSignpostTriggerNodeInstance = {}
+
 
 ---@param fields? worldAudioSignpostTriggerNodeInstance
 ---@return worldAudioSignpostTriggerNodeInstance

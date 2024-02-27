@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameImpostorComponentAttachEvent: redEvent
 gameImpostorComponentAttachEvent = {}
+
 
 ---@param fields? gameImpostorComponentAttachEvent
 ---@return gameImpostorComponentAttachEvent

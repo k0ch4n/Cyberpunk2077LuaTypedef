@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class StealthState: ChangeHighLevelStateAbstract
 StealthState = {}
+
 
 ---@param fields? StealthState
 ---@return StealthState

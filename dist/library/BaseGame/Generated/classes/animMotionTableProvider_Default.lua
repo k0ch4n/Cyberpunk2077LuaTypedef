@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class animMotionTableProvider_Default: animIMotionTableProvider
 animMotionTableProvider_Default = {}
+
 
 ---@param fields? animMotionTableProvider_Default
 ---@return animMotionTableProvider_Default

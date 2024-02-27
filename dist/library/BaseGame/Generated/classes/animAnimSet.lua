@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimSet: CResource
 ---@field animations animAnimSetEntry[]
 ---@field animationDataChunks animAnimDataChunk[]
@@ -15,6 +16,7 @@
 ---@field tags redTagList
 ---@field version Uint32
 animAnimSet = {}
+
 
 ---@param fields? animAnimSet
 ---@return animAnimSet

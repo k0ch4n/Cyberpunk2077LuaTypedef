@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class NCPDJobDoneNotification: JournalNotification
 ---@field NCPD_Reward inkWidgetReference
 ---@field NCPD_XP_RewardText inkTextWidgetReference
 ---@field NCPD_SC_RewardText inkTextWidgetReference
 NCPDJobDoneNotification = {}
+
 
 ---@param fields? NCPDJobDoneNotification
 ---@return NCPDJobDoneNotification

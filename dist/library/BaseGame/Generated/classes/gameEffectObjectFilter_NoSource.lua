@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectObjectFilter_NoSource: gameEffectObjectGroupFilter
 gameEffectObjectFilter_NoSource = {}
+
 
 ---@param fields? gameEffectObjectFilter_NoSource
 ---@return gameEffectObjectFilter_NoSource

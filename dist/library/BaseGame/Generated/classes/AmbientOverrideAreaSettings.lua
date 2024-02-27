@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AmbientOverrideAreaSettings: IAreaSettings
 ---@field color curveData[]
 AmbientOverrideAreaSettings = {}
+
 
 ---@param fields? AmbientOverrideAreaSettings
 ---@return AmbientOverrideAreaSettings

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class HitIsTheSameTargetPrereqState: GenericHitPrereqState
 ---@field previousTarget gameObject
 ---@field previousSource gameObject
 ---@field previousWeapon gameweaponObject
 HitIsTheSameTargetPrereqState = {}
+
 
 ---@param fields? HitIsTheSameTargetPrereqState
 ---@return HitIsTheSameTargetPrereqState

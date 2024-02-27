@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ScriptedPuppet: gamePuppet
 ---@field aiController AIHumanComponent
 ---@field movePolicies movePoliciesComponent
@@ -67,6 +68,7 @@
 ---@field isFinsherSoundPlayed Bool
 ---@field attemptedShards gameItemID[]
 ScriptedPuppet = {}
+
 
 ---@param fields? ScriptedPuppet
 ---@return ScriptedPuppet

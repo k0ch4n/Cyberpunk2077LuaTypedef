@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HeadLookatCombatTarget: LookatCombatTarget
 HeadLookatCombatTarget = {}
+
 
 ---@param fields? HeadLookatCombatTarget
 ---@return HeadLookatCombatTarget

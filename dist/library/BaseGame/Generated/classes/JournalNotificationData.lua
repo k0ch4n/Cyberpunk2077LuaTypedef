@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class JournalNotificationData: inkGameNotificationData
 ---@field journalEntry gameJournalEntry
 ---@field journalEntryState gameJournalEntryState
@@ -10,6 +11,7 @@
 ---@field openedFromPhone Bool
 ---@field source PhoneScreenType
 JournalNotificationData = {}
+
 
 ---@param fields? JournalNotificationData
 ---@return JournalNotificationData

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class inkanimColorInterpolator: inkanimInterpolator
 ---@field startValue HDRColor
 ---@field endValue HDRColor
 inkanimColorInterpolator = {}
+
 
 ---@param fields? inkanimColorInterpolator
 ---@return inkanimColorInterpolator

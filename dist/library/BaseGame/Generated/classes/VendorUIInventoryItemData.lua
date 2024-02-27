@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class VendorUIInventoryItemData: WrappedInventoryItemData
 ---@field ItemPrice Float
 ---@field IsVendorItem Bool
@@ -8,6 +9,7 @@
 ---@field IsDLCAddedActiveItem Bool
 ---@field IsNotInWardrobe Bool
 VendorUIInventoryItemData = {}
+
 
 ---@param fields? VendorUIInventoryItemData
 ---@return VendorUIInventoryItemData

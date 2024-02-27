@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questEAddRemoveItemType: Enum
 ---@field AddItem Enum 0
 ---@field RemoveByItemID Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAIDirectorTensionAnalyzer
 gameAIDirectorTensionAnalyzer = {}
+
 
 ---@param fields? gameAIDirectorTensionAnalyzer
 ---@return gameAIDirectorTensionAnalyzer

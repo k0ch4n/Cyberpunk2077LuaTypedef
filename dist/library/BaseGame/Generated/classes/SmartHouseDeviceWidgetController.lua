@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SmartHouseDeviceWidgetController: DeviceWidgetControllerBase
 ---@field interiorManagerSlot inkWidget
 SmartHouseDeviceWidgetController = {}
+
 
 ---@param fields? SmartHouseDeviceWidgetController
 ---@return SmartHouseDeviceWidgetController

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DeviceControlContextDecisions: InputContextTransitionDecisions
 ---@field callbackID redCallbackObject
 DeviceControlContextDecisions = {}
+
 
 ---@param fields? DeviceControlContextDecisions
 ---@return DeviceControlContextDecisions

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BaseCrosshairState: DefaultTransition
 BaseCrosshairState = {}
+
 
 ---@param fields? BaseCrosshairState
 ---@return BaseCrosshairState

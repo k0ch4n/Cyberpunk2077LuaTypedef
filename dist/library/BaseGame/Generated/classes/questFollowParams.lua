@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questFollowParams: questAICommandParams
 ---@field companionRef questUniversalRef
 ---@field companionDistance Float
@@ -10,6 +11,7 @@
 ---@field useTeleport Bool
 ---@field repeatCommandOnInterrupt Bool
 questFollowParams = {}
+
 
 ---@param fields? questFollowParams
 ---@return questFollowParams

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnFindEntityInEntityParams
 ---@field actorId scnActorId
 ---@field performerId scnPerformerId
@@ -8,6 +9,7 @@
 ---@field forceMaxVisibility Bool
 ---@field ownershipTransferOptions scnPropOwnershipTransferOptions
 scnFindEntityInEntityParams = {}
+
 
 ---@param fields? scnFindEntityInEntityParams
 ---@return scnFindEntityInEntityParams

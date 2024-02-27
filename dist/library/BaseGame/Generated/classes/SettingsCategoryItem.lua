@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SettingsCategoryItem: inkListItemController
 ---@field labelHighlight inkTextWidgetReference
 SettingsCategoryItem = {}
+
 
 ---@param fields? SettingsCategoryItem
 ---@return SettingsCategoryItem

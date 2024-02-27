@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataUtilityLossCoverSelectionParameters_Record: gamedataCoverSelectionParameters_Record
 gamedataUtilityLossCoverSelectionParameters_Record = {}
+
 
 ---@param fields? gamedataUtilityLossCoverSelectionParameters_Record
 ---@return gamedataUtilityLossCoverSelectionParameters_Record

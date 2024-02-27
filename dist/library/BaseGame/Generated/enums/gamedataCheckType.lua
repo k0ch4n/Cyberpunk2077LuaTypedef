@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataCheckType: Enum
 ---@field Category Enum 0
 ---@field Evolution Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class QuestListItemData: IScriptable
 ---@field questType QuestListItemType
 ---@field lastUpdateTimestamp GameTime
@@ -14,6 +15,7 @@
 ---@field distancesFetched Bool
 ---@field objectivesDistances QuestListDistanceData[]
 QuestListItemData = {}
+
 
 ---@param fields? QuestListItemData
 ---@return QuestListItemData

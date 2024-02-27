@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionActivateLightPreset_Record: gamedataAISubAction_Record
 gamedataAISubActionActivateLightPreset_Record = {}
+
 
 ---@param fields? gamedataAISubActionActivateLightPreset_Record
 ---@return gamedataAISubActionActivateLightPreset_Record

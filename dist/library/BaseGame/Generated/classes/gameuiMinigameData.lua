@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiMinigameData
 ---@field timeLimit Float
 ---@field trapSpawnProbability Float
@@ -10,6 +11,7 @@
 ---@field symbolsToUse gamedataMiniGame_AllSymbols_Record
 ---@field rules gameuiMinigameGenerationRule[]
 gameuiMinigameData = {}
+
 
 ---@param fields? gameuiMinigameData
 ---@return gameuiMinigameData

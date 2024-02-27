@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryItemPreviewData: inkGameNotificationData
 ---@field itemID gameItemID
 ---@field itemName String
@@ -9,6 +10,7 @@
 ---@field itemEvolution gamedataWeaponEvolution
 ---@field itemPerkGroup gamedataPerkWeaponGroupType
 InventoryItemPreviewData = {}
+
 
 ---@param fields? InventoryItemPreviewData
 ---@return InventoryItemPreviewData

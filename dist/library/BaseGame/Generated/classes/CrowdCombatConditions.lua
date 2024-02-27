@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CrowdCombatConditions: AIAutonomousConditions
 CrowdCombatConditions = {}
+
 
 ---@param fields? CrowdCombatConditions
 ---@return CrowdCombatConditions

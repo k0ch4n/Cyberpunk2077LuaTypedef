@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SceneForceWeaponSafe: redEvent
 ---@field weaponLoweringSpeedOverride Float
 SceneForceWeaponSafe = {}
+
 
 ---@param fields? SceneForceWeaponSafe
 ---@return SceneForceWeaponSafe

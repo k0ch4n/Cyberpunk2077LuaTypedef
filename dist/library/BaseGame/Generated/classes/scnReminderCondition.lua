@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnReminderCondition: ISerializable
 ---@field useCustomReminder Bool
 ---@field reminderActor scnActorId
@@ -13,6 +14,7 @@
 ---@field running Bool
 ---@field reminderParams scnChoiceNodeNsReminderParams
 scnReminderCondition = {}
+
 
 ---@param fields? scnReminderCondition
 ---@return scnReminderCondition

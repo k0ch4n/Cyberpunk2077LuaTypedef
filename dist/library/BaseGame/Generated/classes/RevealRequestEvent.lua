@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class RevealRequestEvent: redEvent
 ---@field shouldReveal Bool
 ---@field requester entEntityID
 ---@field oneFrame Bool
 RevealRequestEvent = {}
+
 
 ---@param fields? RevealRequestEvent
 ---@return RevealRequestEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UseSecurityLocker: ActionBool
 UseSecurityLocker = {}
+
 
 ---@param fields? UseSecurityLocker
 ---@return UseSecurityLocker

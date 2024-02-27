@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UI_HUDSignalProgressBarDef: gamebbScriptDefinition
 ---@field TimerID gamebbScriptID_Variant
 ---@field State gamebbScriptID_Uint32
@@ -8,6 +9,7 @@
 ---@field Orientation gamebbScriptID_Uint32
 ---@field Appearance gamebbScriptID_CName
 UI_HUDSignalProgressBarDef = {}
+
 
 ---@param fields? UI_HUDSignalProgressBarDef
 ---@return UI_HUDSignalProgressBarDef

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectData_PiercePreview
 gameEffectData_PiercePreview = {}
+
 
 ---@param fields? gameEffectData_PiercePreview
 ---@return gameEffectData_PiercePreview

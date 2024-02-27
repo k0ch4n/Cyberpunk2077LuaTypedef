@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AnimatedSign: InteractiveDevice
 ---@field animFeature AnimFeature_AnimatedDevice
 AnimatedSign = {}
+
 
 ---@param fields? AnimatedSign
 ---@return AnimatedSign

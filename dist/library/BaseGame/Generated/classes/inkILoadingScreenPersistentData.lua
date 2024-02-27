@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkILoadingScreenPersistentData: inkILoadingScreenData
 inkILoadingScreenPersistentData = {}
+
 
 ---@param fields? inkILoadingScreenPersistentData
 ---@return inkILoadingScreenPersistentData

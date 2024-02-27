@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryWideItemDisplay: InventoryItemDisplay
 ---@field itemNameText inkTextWidgetReference
 ---@field rarityBackground inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field damageTypeIndicator DamageTypeIndicator
 ---@field additionalInfoToShow ItemAdditionalInfoType
 InventoryWideItemDisplay = {}
+
 
 ---@param fields? InventoryWideItemDisplay
 ---@return InventoryWideItemDisplay

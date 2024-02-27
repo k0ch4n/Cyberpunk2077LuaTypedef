@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataSpawnableObject_Record: gamedataBaseObject_Record
 gamedataSpawnableObject_Record = {}
+
 
 ---@param fields? gamedataSpawnableObject_Record
 ---@return gamedataSpawnableObject_Record

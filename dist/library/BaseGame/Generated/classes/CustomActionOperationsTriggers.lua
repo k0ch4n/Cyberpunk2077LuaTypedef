@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CustomActionOperationsTriggers: DeviceOperationsTrigger
 ---@field triggerData CustomActionOperationTriggerData
 CustomActionOperationsTriggers = {}
+
 
 ---@param fields? CustomActionOperationsTriggers
 ---@return CustomActionOperationsTriggers

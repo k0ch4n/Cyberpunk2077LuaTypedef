@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiSetCategoryEnabledEvent: redEvent
 gameuiSetCategoryEnabledEvent = {}
+
 
 ---@param fields? gameuiSetCategoryEnabledEvent
 ---@return gameuiSetCategoryEnabledEvent

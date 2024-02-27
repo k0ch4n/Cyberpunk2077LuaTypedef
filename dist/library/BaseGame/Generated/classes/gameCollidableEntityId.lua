@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameCollidableEntityId: ISerializable
 gameCollidableEntityId = {}
+
 
 ---@param fields? gameCollidableEntityId
 ---@return gameCollidableEntityId

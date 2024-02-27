@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SimpleMessengerItemVirtualController: inkVirtualCompoundItemController
 ---@field label inkTextWidgetReference
 ---@field msgPreview inkTextWidgetReference
@@ -14,6 +15,7 @@
 ---@field isItemHovered Bool
 ---@field isItemToggled Bool
 SimpleMessengerItemVirtualController = {}
+
 
 ---@param fields? SimpleMessengerItemVirtualController
 ---@return SimpleMessengerItemVirtualController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class hitFlag: Enum
 ---@field None Enum 0
 ---@field IgnoreImmortalityModes Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVisualTagsPrereq_Record: gamedataIPrereq_Record
 gamedataVisualTagsPrereq_Record = {}
+
 
 ---@param fields? gamedataVisualTagsPrereq_Record
 ---@return gamedataVisualTagsPrereq_Record

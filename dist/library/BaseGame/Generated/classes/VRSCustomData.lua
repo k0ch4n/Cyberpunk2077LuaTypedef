@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VRSCustomData: ICameraStorageCustomData
 VRSCustomData = {}
+
 
 ---@param fields? VRSCustomData
 ---@return VRSCustomData

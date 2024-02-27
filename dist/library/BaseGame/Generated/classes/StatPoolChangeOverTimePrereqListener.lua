@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StatPoolChangeOverTimePrereqListener: BaseStatPoolPrereqListener
 ---@field state StatPoolChangeOverTimePrereqState
 StatPoolChangeOverTimePrereqListener = {}
+
 
 ---@param fields? StatPoolChangeOverTimePrereqListener
 ---@return StatPoolChangeOverTimePrereqListener

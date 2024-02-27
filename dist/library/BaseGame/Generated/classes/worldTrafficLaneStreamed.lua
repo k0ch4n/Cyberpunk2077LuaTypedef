@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldTrafficLaneStreamed
 worldTrafficLaneStreamed = {}
+
 
 ---@param fields? worldTrafficLaneStreamed
 ---@return worldTrafficLaneStreamed

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class DisableScannerEvent: redEvent
 ---@field isDisabled Bool
 DisableScannerEvent = {}
+
 
 ---@param fields? DisableScannerEvent
 ---@return DisableScannerEvent

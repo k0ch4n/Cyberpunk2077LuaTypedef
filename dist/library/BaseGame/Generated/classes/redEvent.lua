@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class redEvent: IScriptable
 redEvent = {}
+
 
 ---@param fields? redEvent
 ---@return redEvent

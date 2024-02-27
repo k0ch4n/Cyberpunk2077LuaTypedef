@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioAcousticConstantsPreset: audioAudioMetadata
 ---@field dopplerFactor Float
 ---@field speedOfSound Float
@@ -20,6 +21,7 @@
 ---@field windowEventName CName
 ---@field maxWindowOffset Float
 audioAcousticConstantsPreset = {}
+
 
 ---@param fields? audioAcousticConstantsPreset
 ---@return audioAcousticConstantsPreset

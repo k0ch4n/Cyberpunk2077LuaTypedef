@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CloseAd: ActionBool
 CloseAd = {}
+
 
 ---@param fields? CloseAd
 ---@return CloseAd

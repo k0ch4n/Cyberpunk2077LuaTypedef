@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameGodModeType: Enum
 ---@field Immortal Enum 1
 ---@field Invulnerable Enum 0

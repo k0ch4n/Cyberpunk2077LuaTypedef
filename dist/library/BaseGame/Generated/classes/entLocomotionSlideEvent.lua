@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entLocomotionSlideEvent: redEvent
 entLocomotionSlideEvent = {}
+
 
 ---@param fields? entLocomotionSlideEvent
 ---@return entLocomotionSlideEvent

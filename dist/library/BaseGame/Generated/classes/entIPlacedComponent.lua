@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class entIPlacedComponent: entIComponent
 ---@field localTransform WorldTransform
 ---@field parentTransform entITransformBinding
 entIPlacedComponent = {}
+
 
 ---@return Quaternion
 function entIPlacedComponent:GetInitialOrientation() end

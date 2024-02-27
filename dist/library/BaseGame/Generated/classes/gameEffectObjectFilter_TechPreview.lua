@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEffectObjectFilter_TechPreview: gameEffectObjectGroupFilter
 gameEffectObjectFilter_TechPreview = {}
+
 
 ---@param fields? gameEffectObjectFilter_TechPreview
 ---@return gameEffectObjectFilter_TechPreview

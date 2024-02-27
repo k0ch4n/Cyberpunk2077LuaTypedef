@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataInAirGravityModifier_Record: gamedataDriveHelper_Record
 gamedataInAirGravityModifier_Record = {}
+
 
 ---@param fields? gamedataInAirGravityModifier_Record
 ---@return gamedataInAirGravityModifier_Record

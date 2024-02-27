@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PatchNotesGameController: gameuiWidgetGameController
 ---@field notesContainerRef inkCompoundWidgetReference
 ---@field patch20TitleContainerRef inkWidgetReference
@@ -13,6 +14,7 @@
 ---@field data PatchNotesPopupData
 ---@field requestHandler inkISystemRequestsHandler
 PatchNotesGameController = {}
+
 
 ---@param fields? PatchNotesGameController
 ---@return PatchNotesGameController

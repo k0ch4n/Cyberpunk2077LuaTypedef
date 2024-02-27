@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BountyUI
 ---@field issuedBy String
 ---@field moneyReward Int32
@@ -8,6 +9,7 @@
 ---@field hasAccess Bool
 ---@field level Int32
 BountyUI = {}
+
 
 ---@param fields? BountyUI
 ---@return BountyUI

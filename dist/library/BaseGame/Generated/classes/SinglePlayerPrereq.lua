@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SinglePlayerPrereq: gameIScriptablePrereq
 SinglePlayerPrereq = {}
+
 
 ---@param fields? SinglePlayerPrereq
 ---@return SinglePlayerPrereq

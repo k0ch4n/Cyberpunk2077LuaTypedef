@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataLifePath_Record: gamedataTweakDBRecord
 gamedataLifePath_Record = {}
+
 
 ---@param fields? gamedataLifePath_Record
 ---@return gamedataLifePath_Record

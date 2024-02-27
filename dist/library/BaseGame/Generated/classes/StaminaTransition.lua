@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class StaminaTransition: DefaultTransition
 ---@field staminaChangeToggle Bool
 StaminaTransition = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OpenSkillsNotificationAction: GenericNotificationBaseAction
 ---@field eventDispatcher worlduiIWidgetGameController
 OpenSkillsNotificationAction = {}
+
 
 ---@param fields? OpenSkillsNotificationAction
 ---@return OpenSkillsNotificationAction

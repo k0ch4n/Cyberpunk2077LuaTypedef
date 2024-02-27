@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitReactionStopMotionExtraction: redEvent
 HitReactionStopMotionExtraction = {}
+
 
 ---@param fields? HitReactionStopMotionExtraction
 ---@return HitReactionStopMotionExtraction

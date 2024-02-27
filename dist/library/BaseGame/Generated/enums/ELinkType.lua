@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ELinkType: Enum
 ---@field NETWORK Enum 0
 ---@field GRID Enum 1

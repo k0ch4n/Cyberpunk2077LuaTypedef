@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataActionRestrictionGroup_Record: gamedataTweakDBRecord
 gamedataActionRestrictionGroup_Record = {}
+
 
 ---@param fields? gamedataActionRestrictionGroup_Record
 ---@return gamedataActionRestrictionGroup_Record

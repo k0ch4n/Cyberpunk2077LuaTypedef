@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class rendFragmentBuilderScriptProxy
 rendFragmentBuilderScriptProxy = {}
+
 
 ---@param fields? rendFragmentBuilderScriptProxy
 ---@return rendFragmentBuilderScriptProxy

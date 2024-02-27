@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIBaseUseWorkspotCommand: AICommand
 ---@field moveToWorkspot Bool
 ---@field forceEntryAnimName CName

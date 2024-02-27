@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RegularLandLowGravityEvents: AbstractLandEvents
 RegularLandLowGravityEvents = {}
+
 
 ---@param fields? RegularLandLowGravityEvents
 ---@return RegularLandLowGravityEvents

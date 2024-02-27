@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MenuScenario_StatsAdjustment: MenuScenario_PreGameSubMenu
 MenuScenario_StatsAdjustment = {}
+
 
 ---@param fields? MenuScenario_StatsAdjustment
 ---@return MenuScenario_StatsAdjustment

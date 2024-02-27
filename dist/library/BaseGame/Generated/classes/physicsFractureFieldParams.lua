@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class physicsFractureFieldParams
 ---@field origin Vector3
 ---@field fractureFieldValue Float
@@ -9,6 +10,7 @@
 ---@field fractureFieldEffect physicsFractureFieldEffect
 ---@field fractureFieldValueType physicsFractureFieldValueType
 physicsFractureFieldParams = {}
+
 
 ---@param fields? physicsFractureFieldParams
 ---@return physicsFractureFieldParams

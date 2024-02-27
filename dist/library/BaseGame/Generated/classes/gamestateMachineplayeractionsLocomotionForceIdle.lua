@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamestateMachineplayeractionsLocomotionForceIdle: gamestateMachineplayeractionsLocomotionBase
 gamestateMachineplayeractionsLocomotionForceIdle = {}
+
 
 ---@param fields? gamestateMachineplayeractionsLocomotionForceIdle
 ---@return gamestateMachineplayeractionsLocomotionForceIdle

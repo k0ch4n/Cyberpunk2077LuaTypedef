@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class MenuScenario_RadialHubMenu: MenuScenario_BaseMenu
 ---@field hubMenuInitData HubMenuInitData
 ---@field currentState inkMenusState
 ---@field combatRestriction Bool
 ---@field hubMenuInstanceID Uint32
 MenuScenario_RadialHubMenu = {}
+
 
 ---@param fields? MenuScenario_RadialHubMenu
 ---@return MenuScenario_RadialHubMenu

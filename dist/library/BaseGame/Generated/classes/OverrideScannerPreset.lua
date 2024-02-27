@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class OverrideScannerPreset: redEvent
 ---@field scannerPreset TweakDBID
 OverrideScannerPreset = {}
+
 
 ---@param fields? OverrideScannerPreset
 ---@return OverrideScannerPreset

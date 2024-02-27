@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ScannerVehicleManufacturer: ScannerChunk
 ---@field vehicleManufacturer String
 ScannerVehicleManufacturer = {}
+
 
 ---@param fields? ScannerVehicleManufacturer
 ---@return ScannerVehicleManufacturer

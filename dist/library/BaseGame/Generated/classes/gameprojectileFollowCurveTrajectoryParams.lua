@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameprojectileFollowCurveTrajectoryParams: gameprojectileTrajectoryParams
 ---@field target gameObject
 ---@field componentName CName
@@ -25,6 +26,7 @@
 ---@field sendFollowEvent Bool
 ---@field startVelocityDirectionCheck Bool
 gameprojectileFollowCurveTrajectoryParams = {}
+
 
 ---@param fields? gameprojectileFollowCurveTrajectoryParams
 ---@return gameprojectileFollowCurveTrajectoryParams

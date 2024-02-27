@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class WeaponShootPrereq: gameIScriptablePrereq
 ---@field howManyAttacks Int32
 WeaponShootPrereq = {}
+
 
 ---@param fields? WeaponShootPrereq
 ---@return WeaponShootPrereq

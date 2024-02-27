@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class communityECommunitySpawnTime: Enum
 ---@field Morning Enum 0
 ---@field Day Enum 1

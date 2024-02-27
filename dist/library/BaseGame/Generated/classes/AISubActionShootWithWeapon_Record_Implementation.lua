@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AISubActionShootWithWeapon_Record_Implementation: IScriptable
 AISubActionShootWithWeapon_Record_Implementation = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionShootWithWeapon_Record

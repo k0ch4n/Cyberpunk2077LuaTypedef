@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameTppRepAttachedObjectInfo
 ---@field slotID TweakDBID
 ---@field itemID TweakDBID
 gameTppRepAttachedObjectInfo = {}
+
 
 ---@param fields? gameTppRepAttachedObjectInfo
 ---@return gameTppRepAttachedObjectInfo

@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class ProficiencyTabButtonController: TabButtonController
 ---@field bottom_bar inkWidgetReference
 ---@field proxy inkanimProxy
 ---@field isToggledState Bool
 ProficiencyTabButtonController = {}
+
 
 ---@param fields? ProficiencyTabButtonController
 ---@return ProficiencyTabButtonController

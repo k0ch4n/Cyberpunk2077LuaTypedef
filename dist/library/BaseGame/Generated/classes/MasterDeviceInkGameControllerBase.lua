@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class MasterDeviceInkGameControllerBase: DeviceInkGameControllerBase
 ---@field thumbnailWidgetsData SThumbnailWidgetPackage[]
 ---@field onThumbnailWidgetsUpdateListener redCallbackObject
 ---@field onCleanPasswordListener redCallbackObject
 ---@field keypadController KeypadDeviceController
 MasterDeviceInkGameControllerBase = {}
+
 
 ---@param fields? MasterDeviceInkGameControllerBase
 ---@return MasterDeviceInkGameControllerBase

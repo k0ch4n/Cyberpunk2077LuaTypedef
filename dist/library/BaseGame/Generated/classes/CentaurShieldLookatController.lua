@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class CentaurShieldLookatController: AILookatTask
 ---@field mainShieldLookat entLookAtAddEvent
 ---@field mainShieldlookatActive Bool
@@ -8,6 +9,7 @@
 ---@field centaurBlackboard gameIBlackboard
 ---@field shieldTargetTimeStamp Float
 CentaurShieldLookatController = {}
+
 
 ---@param fields? CentaurShieldLookatController
 ---@return CentaurShieldLookatController

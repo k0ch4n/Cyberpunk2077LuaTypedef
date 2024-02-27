@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NcartMetroComponent: VehicleComponent
 NcartMetroComponent = {}
+
 
 ---@param fields? NcartMetroComponent
 ---@return NcartMetroComponent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AiControlledDecisions: HighLevelTransition
 AiControlledDecisions = {}
+
 
 ---@param fields? AiControlledDecisions
 ---@return AiControlledDecisions

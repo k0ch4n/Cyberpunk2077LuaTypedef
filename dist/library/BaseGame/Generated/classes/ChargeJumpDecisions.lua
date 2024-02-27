@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ChargeJumpDecisions: LocomotionAirDecisions
 ChargeJumpDecisions = {}
+
 
 ---@param fields? ChargeJumpDecisions
 ---@return ChargeJumpDecisions

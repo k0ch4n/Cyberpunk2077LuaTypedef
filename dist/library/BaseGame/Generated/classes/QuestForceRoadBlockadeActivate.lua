@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceRoadBlockadeActivate: ActionBool
 QuestForceRoadBlockadeActivate = {}
+
 
 ---@param fields? QuestForceRoadBlockadeActivate
 ---@return QuestForceRoadBlockadeActivate

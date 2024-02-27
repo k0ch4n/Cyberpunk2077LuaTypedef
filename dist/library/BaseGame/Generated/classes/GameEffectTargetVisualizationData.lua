@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GameEffectTargetVisualizationData: IScriptable
 ---@field bucketName CName
 ---@field forceHighlightTargets entEntityID[]
 GameEffectTargetVisualizationData = {}
+
 
 ---@param fields? GameEffectTargetVisualizationData
 ---@return GameEffectTargetVisualizationData

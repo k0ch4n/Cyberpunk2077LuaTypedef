@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionFastExitWorkspot_Record: gamedataAISubAction_Record
 gamedataAISubActionFastExitWorkspot_Record = {}
+
 
 ---@param fields? gamedataAISubActionFastExitWorkspot_Record
 ---@return gamedataAISubActionFastExitWorkspot_Record

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CRenderDistantIrradiancetData: ISceneStorageCustomData
 CRenderDistantIrradiancetData = {}
+
 
 ---@param fields? CRenderDistantIrradiancetData
 ---@return CRenderDistantIrradiancetData

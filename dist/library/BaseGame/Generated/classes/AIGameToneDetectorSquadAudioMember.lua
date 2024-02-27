@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIGameToneDetectorSquadAudioMember: AISquadAudioMemberBase
 AIGameToneDetectorSquadAudioMember = {}
+
 
 ---@param fields? AIGameToneDetectorSquadAudioMember
 ---@return AIGameToneDetectorSquadAudioMember

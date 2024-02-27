@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetArgumentBoolean: SetArguments
 ---@field customVar Bool
 SetArgumentBoolean = {}
+
 
 ---@param fields? SetArgumentBoolean
 ---@return SetArgumentBoolean

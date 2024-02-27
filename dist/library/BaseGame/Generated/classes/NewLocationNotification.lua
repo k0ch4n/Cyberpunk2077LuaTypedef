@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class NewLocationNotification: JournalNotification
 ---@field districtName inkTextWidgetReference
 ---@field districtIcon inkImageWidgetReference
 ---@field districtFluffIcon inkImageWidgetReference
 NewLocationNotification = {}
+
 
 ---@param fields? NewLocationNotification
 ---@return NewLocationNotification

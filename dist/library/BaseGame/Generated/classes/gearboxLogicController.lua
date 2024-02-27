@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gearboxLogicController: IVehicleModuleController
 ---@field gearboxRImageWidget inkImageWidgetReference
 ---@field gearboxNImageWidget inkImageWidgetReference
@@ -7,6 +8,7 @@
 ---@field gearboxBBConnectionId redCallbackObject
 ---@field vehBB gameIBlackboard
 gearboxLogicController = {}
+
 
 ---@param fields? gearboxLogicController
 ---@return gearboxLogicController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class rendRenderTextureBlobPS4: rendIRenderTextureBlob
 rendRenderTextureBlobPS4 = {}
+
 
 ---@param fields? rendRenderTextureBlobPS4
 ---@return rendRenderTextureBlobPS4

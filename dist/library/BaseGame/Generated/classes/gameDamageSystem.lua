@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameDamageSystem: gameIDamageSystem
 ---@field previewTarget previewTargetStruct
 ---@field previewLock Bool
 ---@field previewRWLockTemp ScriptReentrantRWLock
 gameDamageSystem = {}
+
 
 ---@param fields? gameDamageSystem
 ---@return gameDamageSystem

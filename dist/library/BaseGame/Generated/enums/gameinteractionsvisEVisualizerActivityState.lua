@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsvisEVisualizerActivityState: Enum
 ---@field None Enum 0
 ---@field Visible Enum 1

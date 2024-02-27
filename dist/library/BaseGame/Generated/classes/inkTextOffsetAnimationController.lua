@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class inkTextOffsetAnimationController: inkTextAnimationController
 ---@field timeToSkip Float
 inkTextOffsetAnimationController = {}
+
 
 ---@param fields? inkTextOffsetAnimationController
 ---@return inkTextOffsetAnimationController

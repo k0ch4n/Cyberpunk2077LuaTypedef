@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CombatExitingEvents: ExitingEvents
 CombatExitingEvents = {}
+
 
 ---@param fields? CombatExitingEvents
 ---@return CombatExitingEvents

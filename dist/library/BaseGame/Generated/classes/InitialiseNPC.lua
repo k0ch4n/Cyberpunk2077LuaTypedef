@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class InitialiseNPC: AIbehaviortaskScript
 InitialiseNPC = {}
+
 
 ---@param fields? InitialiseNPC
 ---@return InitialiseNPC

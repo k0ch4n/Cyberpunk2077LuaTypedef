@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class VisibilitySimpleControllerBase: inkWidgetLogicController
 ---@field affectedWidgets CName[]
 ---@field isVisible Bool
 ---@field widget inkWidget
 VisibilitySimpleControllerBase = {}
+
 
 ---@param fields? VisibilitySimpleControllerBase
 ---@return VisibilitySimpleControllerBase

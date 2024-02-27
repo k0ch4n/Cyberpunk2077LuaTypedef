@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIPathLengthCoverSelection: AICoverSelectionParameters
 AIPathLengthCoverSelection = {}
+
 
 ---@param fields? AIPathLengthCoverSelection
 ---@return AIPathLengthCoverSelection

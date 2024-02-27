@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActivatorController: MasterController
 ActivatorController = {}
+
 
 ---@param fields? ActivatorController
 ---@return ActivatorController

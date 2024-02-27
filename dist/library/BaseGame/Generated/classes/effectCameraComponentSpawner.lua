@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class effectCameraComponentSpawner: effectSpawner
 effectCameraComponentSpawner = {}
+
 
 ---@param fields? effectCameraComponentSpawner
 ---@return effectCameraComponentSpawner

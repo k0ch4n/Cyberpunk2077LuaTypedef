@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIAssignedVehicleCanReachTargetCond_Record: gamedataAIActionSubCondition_Record
 gamedataAIAssignedVehicleCanReachTargetCond_Record = {}
+
 
 ---@param fields? gamedataAIAssignedVehicleCanReachTargetCond_Record
 ---@return gamedataAIAssignedVehicleCanReachTargetCond_Record

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class AntiRadar: gameweaponObject
 ---@field colliderComponent entIComponent
 ---@field gameEffectRef gameEffectRef
 ---@field gameEffectInstance gameEffectInstance
 ---@field jammedSensorsArray SensorDevice[]
 AntiRadar = {}
+
 
 ---@param fields? AntiRadar
 ---@return AntiRadar

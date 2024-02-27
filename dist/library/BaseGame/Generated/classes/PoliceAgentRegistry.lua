@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class PoliceAgentRegistry: IScriptable
 ---@field game ScriptGameInstance
 ---@field vehicleAgents VehicleAgent[]
 ---@field npcAgents NPCAgent[]
 ---@field requestTickets TicketData[]
 PoliceAgentRegistry = {}
+
 
 ---@param fields? PoliceAgentRegistry
 ---@return PoliceAgentRegistry

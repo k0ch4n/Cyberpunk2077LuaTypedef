@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemDisplayVirtualController: inkVirtualCompoundItemController
 ---@field itemDisplayWidget inkWidgetReference
 ---@field widgetToSpawn CName
@@ -9,6 +10,7 @@
 ---@field notificationListenerID Int32
 ---@field immediateNotificationListener ImmediateNotificationListener
 ItemDisplayVirtualController = {}
+
 
 ---@param fields? ItemDisplayVirtualController
 ---@return ItemDisplayVirtualController

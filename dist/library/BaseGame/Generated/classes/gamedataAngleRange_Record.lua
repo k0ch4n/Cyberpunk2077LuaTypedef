@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAngleRange_Record: gamedataSenseShape_Record
 gamedataAngleRange_Record = {}
+
 
 ---@param fields? gamedataAngleRange_Record
 ---@return gamedataAngleRange_Record

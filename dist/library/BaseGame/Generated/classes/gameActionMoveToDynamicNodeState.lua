@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameActionMoveToDynamicNodeState: gameActionMoveToState
 ---@field target gameObject
 ---@field strafingTarget gameObject
@@ -10,6 +11,7 @@
 ---@field useStart Bool
 ---@field useStop Bool
 gameActionMoveToDynamicNodeState = {}
+
 
 ---@param fields? gameActionMoveToDynamicNodeState
 ---@return gameActionMoveToDynamicNodeState

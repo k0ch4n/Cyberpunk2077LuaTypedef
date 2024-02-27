@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryStatsController: inkWidgetLogicController
 ---@field detailsButton inkWidgetReference
 ---@field entryContainer inkCompoundWidgetReference
@@ -7,6 +8,7 @@
 ---@field armorEntryController InventoryStatsEntryController
 ---@field staminaEntryController InventoryStatsEntryController
 InventoryStatsController = {}
+
 
 ---@param fields? InventoryStatsController
 ---@return InventoryStatsController

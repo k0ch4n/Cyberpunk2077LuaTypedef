@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnarmedLookAtDecisions: LookAtPresetBaseDecisions
 UnarmedLookAtDecisions = {}
+
 
 ---@param fields? UnarmedLookAtDecisions
 ---@return UnarmedLookAtDecisions

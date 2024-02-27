@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class QuickSlotsReadyEvents: QuickSlotsEvents
 ---@field shouldSendEvent Bool
 ---@field timePressed Float
 QuickSlotsReadyEvents = {}
+
 
 ---@param fields? QuickSlotsReadyEvents
 ---@return QuickSlotsReadyEvents

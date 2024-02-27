@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class Slave_Test: gameObject
 ---@field deviceComponent PSD_Detector
 Slave_Test = {}
+
 
 ---@param fields? Slave_Test
 ---@return Slave_Test

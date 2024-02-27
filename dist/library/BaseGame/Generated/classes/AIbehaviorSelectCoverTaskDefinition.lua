@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIbehaviorSelectCoverTaskDefinition: AIbehaviorTaskDefinition
 ---@field cover AIArgumentMapping
 ---@field coverID AIArgumentMapping
@@ -16,6 +17,7 @@
 ---@field coverGatheringCenterObject AIArgumentMapping
 ---@field coverDisablingDuration AIArgumentMapping
 AIbehaviorSelectCoverTaskDefinition = {}
+
 
 ---@param fields? AIbehaviorSelectCoverTaskDefinition
 ---@return AIbehaviorSelectCoverTaskDefinition

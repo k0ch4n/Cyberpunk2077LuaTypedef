@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeactivateAllNetworkLinksRequest: gameScriptableSystemRequest
 DeactivateAllNetworkLinksRequest = {}
+
 
 ---@param fields? DeactivateAllNetworkLinksRequest
 ---@return DeactivateAllNetworkLinksRequest

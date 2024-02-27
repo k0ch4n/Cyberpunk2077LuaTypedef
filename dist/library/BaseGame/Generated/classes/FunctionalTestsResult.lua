@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class FunctionalTestsResult
 ---@field code FunctionalTestsResultCode
 ---@field msg String
 FunctionalTestsResult = {}
+
 
 ---@param fields? FunctionalTestsResult
 ---@return FunctionalTestsResult

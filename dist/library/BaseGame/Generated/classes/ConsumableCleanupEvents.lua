@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ConsumableCleanupEvents: ConsumableTransitions
 ConsumableCleanupEvents = {}
+
 
 ---@param fields? ConsumableCleanupEvents
 ---@return ConsumableCleanupEvents

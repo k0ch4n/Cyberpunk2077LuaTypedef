@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataGameplayRestrictionStatusEffect_Record: gamedataStatusEffect_Record
 gamedataGameplayRestrictionStatusEffect_Record = {}
+
 
 ---@param fields? gamedataGameplayRestrictionStatusEffect_Record
 ---@return gamedataGameplayRestrictionStatusEffect_Record

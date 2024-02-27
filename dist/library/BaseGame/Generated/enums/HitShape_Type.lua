@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HitShape_Type: Enum
 ---@field Normal Enum 0
 ---@field InternalWeakSpot Enum 1

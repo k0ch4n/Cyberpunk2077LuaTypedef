@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class HubTimeSkipController: inkWidgetLogicController
 ---@field gameTimeText inkTextWidgetReference
 ---@field timeSkipText inkTextWidgetReference
@@ -12,6 +13,7 @@
 ---@field gameTimeTextParams textTextParameterSet
 ---@field canSkipTime Bool
 HubTimeSkipController = {}
+
 
 ---@param fields? HubTimeSkipController
 ---@return HubTimeSkipController

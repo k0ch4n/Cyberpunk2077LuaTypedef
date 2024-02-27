@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questClearForcedBehavioursNodeDefinition: questSignalStoppingNodeDefinition
 ---@field puppet gameEntityReference
 questClearForcedBehavioursNodeDefinition = {}
+
 
 ---@param fields? questClearForcedBehavioursNodeDefinition
 ---@return questClearForcedBehavioursNodeDefinition

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiarcadeShooterArcadeScoreboardController: gameuiarcadeArcadeScoreboardController
 ---@field scoreBackground inkWidgetReference
 ---@field endingScoreBackground inkWidgetReference
@@ -18,6 +19,7 @@
 ---@field namesOriginalOffset Vector2
 ---@field namesEndingOffset Vector2
 gameuiarcadeShooterArcadeScoreboardController = {}
+
 
 ---@param fields? gameuiarcadeShooterArcadeScoreboardController
 ---@return gameuiarcadeShooterArcadeScoreboardController

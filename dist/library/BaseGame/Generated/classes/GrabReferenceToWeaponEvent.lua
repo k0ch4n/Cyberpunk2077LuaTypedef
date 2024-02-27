@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GrabReferenceToWeaponEvent: redEvent
 GrabReferenceToWeaponEvent = {}
+
 
 ---@param fields? GrabReferenceToWeaponEvent
 ---@return GrabReferenceToWeaponEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInteractionsDef: gamebbScriptDefinition
 ---@field InteractionChoiceHub gamebbScriptID_Variant
 ---@field DialogChoiceHubs gamebbScriptID_Variant
@@ -17,6 +18,7 @@
 ---@field HasScrollableInteraction gamebbScriptID_Bool
 ---@field IsQuestNotificationUp gamebbScriptID_Bool
 UIInteractionsDef = {}
+
 
 ---@param fields? UIInteractionsDef
 ---@return UIInteractionsDef

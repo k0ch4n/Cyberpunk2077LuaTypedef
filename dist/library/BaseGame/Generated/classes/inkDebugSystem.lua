@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkDebugSystem: inkIDebugSystem
 inkDebugSystem = {}
+
 
 ---@param fields? inkDebugSystem
 ---@return inkDebugSystem

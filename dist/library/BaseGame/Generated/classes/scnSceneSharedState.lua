@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnSceneSharedState: ISerializable
 ---@field entrypoint CName
 ---@field syncNodesVisited scnSyncNodeSignal[]
@@ -7,6 +8,7 @@
 ---@field finishedOnServer Bool
 ---@field finishedOnClient Bool
 scnSceneSharedState = {}
+
 
 ---@param fields? scnSceneSharedState
 ---@return scnSceneSharedState

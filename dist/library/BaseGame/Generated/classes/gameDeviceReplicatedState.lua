@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameDeviceReplicatedState: IScriptable
 gameDeviceReplicatedState = {}
+
 
 ---@param fields? gameDeviceReplicatedState
 ---@return gameDeviceReplicatedState

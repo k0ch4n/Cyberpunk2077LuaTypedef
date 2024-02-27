@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class instrumentPanelLogicController: IVehicleModuleController
 ---@field lightStateImageWidget inkImageWidgetReference
 ---@field cautionStateImageWidget inkImageWidgetReference
@@ -7,6 +8,7 @@
 ---@field cautionStateBBConnectionId redCallbackObject
 ---@field vehBB gameIBlackboard
 instrumentPanelLogicController = {}
+
 
 ---@param fields? instrumentPanelLogicController
 ---@return instrumentPanelLogicController

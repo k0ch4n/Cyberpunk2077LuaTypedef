@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiCyberspaceMappinsContainerController: gameuiMappinsContainerController
 gameuiCyberspaceMappinsContainerController = {}
+
 
 ---@param fields? gameuiCyberspaceMappinsContainerController
 ---@return gameuiCyberspaceMappinsContainerController

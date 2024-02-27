@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIObjectSelectionManager: AIObjectSelectionManagerInterface
 AIObjectSelectionManager = {}
+
 
 ---@param fields? AIObjectSelectionManager
 ---@return AIObjectSelectionManager

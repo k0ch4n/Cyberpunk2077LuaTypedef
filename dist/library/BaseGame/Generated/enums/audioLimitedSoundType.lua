@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioLimitedSoundType: Enum
 ---@field Locomotion Enum 0
 ---@field Footsteps Enum 1

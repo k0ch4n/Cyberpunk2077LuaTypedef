@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameJournalEntry: IScriptable
 ---@field id String
 ---@field journalEntryOverrideDataList gameJournalEntryOverrideData[]
 gameJournalEntry = {}
+
 
 ---@return String
 function gameJournalEntry:GetEditorName() end

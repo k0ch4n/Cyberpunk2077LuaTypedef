@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class FastTravelComponent: gameScriptableComponent
 ---@field fastTravelNodes gameFastTravelPointData[]
 FastTravelComponent = {}
+
 
 ---@param fields? FastTravelComponent
 ---@return FastTravelComponent

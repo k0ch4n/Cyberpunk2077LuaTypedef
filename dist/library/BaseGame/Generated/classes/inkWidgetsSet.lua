@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkWidgetsSet: IScriptable
 inkWidgetsSet = {}
+
 
 ---@param fields? inkWidgetsSet
 ---@return inkWidgetsSet

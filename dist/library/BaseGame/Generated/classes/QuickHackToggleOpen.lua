@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuickHackToggleOpen: ActionBool
 QuickHackToggleOpen = {}
+
 
 ---@param fields? QuickHackToggleOpen
 ---@return QuickHackToggleOpen

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entPhysicalDestructionComponent: entIVisualComponent
 ---@field mesh CMesh
 ---@field meshAppearance CName
@@ -10,6 +11,7 @@
 ---@field audioMetadata CName
 ---@field systemsToNotifyFlags Uint16
 entPhysicalDestructionComponent = {}
+
 
 ---@param fields? entPhysicalDestructionComponent
 ---@return entPhysicalDestructionComponent

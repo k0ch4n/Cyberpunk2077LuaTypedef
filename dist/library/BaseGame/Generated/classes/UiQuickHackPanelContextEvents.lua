@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UiQuickHackPanelContextEvents: InputContextTransitionEvents
 UiQuickHackPanelContextEvents = {}
+
 
 ---@param fields? UiQuickHackPanelContextEvents
 ---@return UiQuickHackPanelContextEvents

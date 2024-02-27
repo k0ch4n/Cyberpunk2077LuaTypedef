@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemWorldStreaming: worldIRuntimeSystem
 worldRuntimeSystemWorldStreaming = {}
+
 
 ---@param fields? worldRuntimeSystemWorldStreaming
 ---@return worldRuntimeSystemWorldStreaming

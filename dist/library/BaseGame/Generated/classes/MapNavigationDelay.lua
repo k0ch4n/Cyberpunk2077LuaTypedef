@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MapNavigationDelay: redEvent
 MapNavigationDelay = {}
+
 
 ---@param fields? MapNavigationDelay
 ---@return MapNavigationDelay

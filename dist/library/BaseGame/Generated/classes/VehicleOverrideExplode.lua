@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class VehicleOverrideExplode: ActionBool
 ---@field isRequestedFormOtherDevice Bool
 VehicleOverrideExplode = {}
+
 
 ---@param fields? VehicleOverrideExplode
 ---@return VehicleOverrideExplode

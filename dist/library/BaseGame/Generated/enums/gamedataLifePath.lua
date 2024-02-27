@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataLifePath: Enum
 ---@field Corporate Enum 0
 ---@field Nomad Enum 1

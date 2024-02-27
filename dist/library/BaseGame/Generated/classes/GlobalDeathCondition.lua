@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GlobalDeathCondition: AIDeathConditions
 GlobalDeathCondition = {}
+
 
 ---@param fields? GlobalDeathCondition
 ---@return GlobalDeathCondition

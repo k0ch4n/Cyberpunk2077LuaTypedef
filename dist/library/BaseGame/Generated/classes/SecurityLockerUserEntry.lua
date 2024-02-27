@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SecurityLockerUserEntry
 SecurityLockerUserEntry = {}
+
 
 ---@param fields? SecurityLockerUserEntry
 ---@return SecurityLockerUserEntry

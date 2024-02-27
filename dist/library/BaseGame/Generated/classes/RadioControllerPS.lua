@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class RadioControllerPS: MediaDeviceControllerPS
 ---@field radioSetup RadioSetup
 ---@field wasRadioSetup Bool
 RadioControllerPS = {}
+
 
 ---@param fields? RadioControllerPS
 ---@return RadioControllerPS

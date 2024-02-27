@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class BenchmarkResultsGameController: gameuiWidgetGameController
 ---@field exitButton inkWidgetReference
 ---@field settingButton inkWidgetReference
@@ -12,6 +13,7 @@
 ---@field exitRequestToken inkGameNotificationToken
 ---@field settingsAcive Bool
 BenchmarkResultsGameController = {}
+
 
 ---@param fields? BenchmarkResultsGameController
 ---@return BenchmarkResultsGameController

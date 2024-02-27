@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EIndustrialArmAnimations: Enum
 ---@field Idle Enum 0
 ---@field RepairLoop Enum 1

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorCreateAlertedInfluenceMapTaskDefinition: AIbehaviorTaskDefinition
 AIbehaviorCreateAlertedInfluenceMapTaskDefinition = {}
+
 
 ---@param fields? AIbehaviorCreateAlertedInfluenceMapTaskDefinition
 ---@return AIbehaviorCreateAlertedInfluenceMapTaskDefinition

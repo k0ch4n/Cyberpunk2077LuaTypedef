@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class IsVehicleDoorQuestLocked: gameIScriptablePrereq
 ---@field slotName CName
 ---@field isCheckInverted Bool
 IsVehicleDoorQuestLocked = {}
+
 
 ---@param fields? IsVehicleDoorQuestLocked
 ---@return IsVehicleDoorQuestLocked

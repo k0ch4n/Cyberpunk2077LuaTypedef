@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MouseCursorRootController: CursorRootController
 MouseCursorRootController = {}
+
 
 ---@param fields? MouseCursorRootController
 ---@return MouseCursorRootController

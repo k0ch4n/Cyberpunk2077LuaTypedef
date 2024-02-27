@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiPanzerFriendlyBullet: gameuiPanzerBullet
 gameuiPanzerFriendlyBullet = {}
+
 
 ---@param fields? gameuiPanzerFriendlyBullet
 ---@return gameuiPanzerFriendlyBullet

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ZoneAlertNotificationQueue: gameuiGenericNotificationGameController
 ---@field duration Float
 ---@field securityBlackBoardID redCallbackObject
@@ -19,6 +20,7 @@
 ---@field wantedLevel Int32
 ---@field factListenerID Uint32
 ZoneAlertNotificationQueue = {}
+
 
 ---@param fields? ZoneAlertNotificationQueue
 ---@return ZoneAlertNotificationQueue

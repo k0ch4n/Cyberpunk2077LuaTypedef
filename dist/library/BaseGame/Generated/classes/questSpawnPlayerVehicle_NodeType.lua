@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questSpawnPlayerVehicle_NodeType: questIVehicleManagerNodeType
 ---@field despawn Bool
 ---@field positionRef questUniversalRef
@@ -10,6 +11,7 @@
 ---@field despawnAllEnabledVehicles Bool
 ---@field retryUntilStubCreated Bool
 questSpawnPlayerVehicle_NodeType = {}
+
 
 ---@param fields? questSpawnPlayerVehicle_NodeType
 ---@return questSpawnPlayerVehicle_NodeType

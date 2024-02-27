@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class vehicleEVehicleDoor: Enum
 ---@field seat_front_left Enum 0
 ---@field seat_front_right Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InventoryTooltipData_QuickhackData
 ---@field memorycost Int32
 ---@field baseCost Int32
@@ -11,6 +12,7 @@
 ---@field durationDiff Float
 ---@field cooldownDiff Float
 InventoryTooltipData_QuickhackData = {}
+
 
 ---@param fields? InventoryTooltipData_QuickhackData
 ---@return InventoryTooltipData_QuickhackData

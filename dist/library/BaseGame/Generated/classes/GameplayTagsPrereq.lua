@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class GameplayTagsPrereq: gameIScriptablePrereq
 ---@field allowedTags CName[]
 ---@field invert Bool
 GameplayTagsPrereq = {}
+
 
 ---@param fields? GameplayTagsPrereq
 ---@return GameplayTagsPrereq

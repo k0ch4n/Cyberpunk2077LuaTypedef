@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameInputTriggerState
 gameInputTriggerState = {}
+
 
 ---@param fields? gameInputTriggerState
 ---@return gameInputTriggerState

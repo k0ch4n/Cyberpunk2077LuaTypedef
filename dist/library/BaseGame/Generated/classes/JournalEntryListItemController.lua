@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class JournalEntryListItemController: inkListItemController
 JournalEntryListItemController = {}
+
 
 ---@param fields? JournalEntryListItemController
 ---@return JournalEntryListItemController

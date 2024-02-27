@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PuppetNotBossPrereq: gameIScriptablePrereq
 PuppetNotBossPrereq = {}
+
 
 ---@param fields? PuppetNotBossPrereq
 ---@return PuppetNotBossPrereq

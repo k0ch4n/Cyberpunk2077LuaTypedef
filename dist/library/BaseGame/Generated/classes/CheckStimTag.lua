@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CheckStimTag: AIbehaviorconditionScript
 ---@field stimTagToCompare CName[]
 CheckStimTag = {}
+
 
 ---@param fields? CheckStimTag
 ---@return CheckStimTag

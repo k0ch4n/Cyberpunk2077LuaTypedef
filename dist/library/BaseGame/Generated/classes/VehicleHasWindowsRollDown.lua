@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleHasWindowsRollDown: PreventionConditionAbstract
 VehicleHasWindowsRollDown = {}
+
 
 ---@param fields? VehicleHasWindowsRollDown
 ---@return VehicleHasWindowsRollDown

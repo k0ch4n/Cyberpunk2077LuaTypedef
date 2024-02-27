@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameBinkComponent: entIVisualComponent
 ---@field meshTargetBinding gameBinkMeshTargetBinding
 ---@field videoPlayerName CName
@@ -9,6 +10,7 @@
 ---@field forceVideoFrameRate Bool
 ---@field isEnabled Bool
 gameBinkComponent = {}
+
 
 ---@param fields? gameBinkComponent
 ---@return gameBinkComponent

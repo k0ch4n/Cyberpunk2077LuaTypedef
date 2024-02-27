@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HasPatrolAction: AIbehaviorconditionScript
 HasPatrolAction = {}
+
 
 ---@param fields? HasPatrolAction
 ---@return HasPatrolAction

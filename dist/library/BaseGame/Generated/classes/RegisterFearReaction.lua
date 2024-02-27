@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class RegisterFearReaction: AIbehaviortaskScript
 RegisterFearReaction = {}
+
 
 ---@param fields? RegisterFearReaction
 ---@return RegisterFearReaction

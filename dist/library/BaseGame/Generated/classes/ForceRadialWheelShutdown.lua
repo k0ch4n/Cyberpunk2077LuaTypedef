@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ForceRadialWheelShutdown: redEvent
 ForceRadialWheelShutdown = {}
+
 
 ---@param fields? ForceRadialWheelShutdown
 ---@return ForceRadialWheelShutdown

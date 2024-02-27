@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class BillboardDeviceController: ScriptableDeviceComponent
 BillboardDeviceController = {}
+
 
 ---@param fields? BillboardDeviceController
 ---@return BillboardDeviceController

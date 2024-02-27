@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class ActionTargetInDistancePrereq: gameIScriptablePrereq
 ---@field targetRecord gamedataAIActionTarget_Record
 ---@field distance Float
 ---@field distanceStat gamedataStatType
 ---@field invert Bool
 ActionTargetInDistancePrereq = {}
+
 
 ---@param fields? ActionTargetInDistancePrereq
 ---@return ActionTargetInDistancePrereq

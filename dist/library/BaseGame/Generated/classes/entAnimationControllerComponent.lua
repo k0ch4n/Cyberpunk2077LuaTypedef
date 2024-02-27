@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class entAnimationControllerComponent: entIComponent
 ---@field actionAnimDatabaseRef animActionAnimDatabase
 ---@field animDatabaseCollection animAnimDatabaseCollection
 ---@field controlBinding entAnimationControlBinding
 entAnimationControllerComponent = {}
+
 
 ---@param fields? entAnimationControllerComponent
 ---@return entAnimationControllerComponent

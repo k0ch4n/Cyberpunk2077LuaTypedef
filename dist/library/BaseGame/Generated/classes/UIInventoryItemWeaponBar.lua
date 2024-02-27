@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInventoryItemWeaponBar: IScriptable
 ---@field Value Float
 ---@field MaxValue Float
@@ -7,6 +8,7 @@
 ---@field Type WeaponBarType
 ---@field isValueSet Bool
 UIInventoryItemWeaponBar = {}
+
 
 ---@param fields? UIInventoryItemWeaponBar
 ---@return UIInventoryItemWeaponBar

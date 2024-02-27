@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CameraDeadBodySessionDataModule: GameSessionDataModule
 ---@field cameraDeadBodyData CameraDeadBodyInternalData[]
 CameraDeadBodySessionDataModule = {}
+
 
 ---@param fields? CameraDeadBodySessionDataModule
 ---@return CameraDeadBodySessionDataModule

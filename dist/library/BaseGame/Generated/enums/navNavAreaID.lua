@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class navNavAreaID: Enum
 ---@field Unwalkable Enum 0
 ---@field Terrain Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinfluenceBumpComponent: entIPlacedComponent
 ---@field isPlayerControlled Bool
 ---@field movementSpreadDistance Float
@@ -11,6 +12,7 @@
 ---@field isEnabled Bool
 ---@field isBumpable Bool
 gameinfluenceBumpComponent = {}
+
 
 ---@param fields? gameinfluenceBumpComponent
 ---@return gameinfluenceBumpComponent

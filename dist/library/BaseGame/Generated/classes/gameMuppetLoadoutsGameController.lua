@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameMuppetLoadoutsGameController: gameuiHUDGameController
 gameMuppetLoadoutsGameController = {}
+
 
 ---@param fields? gameMuppetLoadoutsGameController
 ---@return gameMuppetLoadoutsGameController

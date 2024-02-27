@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleWheelDrivingSetup_4_Record: gamedataVehicleWheelDrivingSetup_Record
 gamedataVehicleWheelDrivingSetup_4_Record = {}
+
 
 ---@param fields? gamedataVehicleWheelDrivingSetup_4_Record
 ---@return gamedataVehicleWheelDrivingSetup_4_Record

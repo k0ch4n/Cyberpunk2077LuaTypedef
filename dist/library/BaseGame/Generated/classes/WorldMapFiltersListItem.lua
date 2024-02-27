@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class WorldMapFiltersListItem: inkWidgetLogicController
 ---@field checker inkWidgetReference
 ---@field filterName inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field rootWidget inkWidget
 ---@field isHovered Bool
 WorldMapFiltersListItem = {}
+
 
 ---@param fields? WorldMapFiltersListItem
 ---@return WorldMapFiltersListItem

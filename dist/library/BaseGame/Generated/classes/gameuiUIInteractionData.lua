@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class gameuiUIInteractionData
 ---@field interactionListActive Bool
 ---@field terminalInteractionActive Bool
 gameuiUIInteractionData = {}
+
 
 ---@param fields? gameuiUIInteractionData
 ---@return gameuiUIInteractionData

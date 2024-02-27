@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayerWokrspotDeviceOperation: DeviceOperationBase
 ---@field playerWorkspot SWorkspotData
 PlayerWokrspotDeviceOperation = {}
+
 
 ---@param fields? PlayerWokrspotDeviceOperation
 ---@return PlayerWokrspotDeviceOperation

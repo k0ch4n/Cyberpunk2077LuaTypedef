@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperdocMeterArmorHoverEvent: redEvent
 ---@field IsHover Bool
 ---@field ArmorChange Float
@@ -9,6 +10,7 @@
 ---@field EquippedArmorMultiplier Float
 ---@field isCyberwareEquipped Bool
 RipperdocMeterArmorHoverEvent = {}
+
 
 ---@param fields? RipperdocMeterArmorHoverEvent
 ---@return RipperdocMeterArmorHoverEvent

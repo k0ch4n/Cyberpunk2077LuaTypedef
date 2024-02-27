@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkMenuEventDispatcher: IScriptable
 inkMenuEventDispatcher = {}
+
 
 ---@param fields? inkMenuEventDispatcher
 ---@return inkMenuEventDispatcher

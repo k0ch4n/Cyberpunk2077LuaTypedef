@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class ElectricLight: Device
 ---@field lightComponents gameLightComponent[]
 ---@field lightDefinitions gamedataLightPreset[]
 ElectricLight = {}
+
 
 ---@param fields? ElectricLight
 ---@return ElectricLight

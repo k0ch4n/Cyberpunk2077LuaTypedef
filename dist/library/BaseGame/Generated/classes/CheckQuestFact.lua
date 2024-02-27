@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class CheckQuestFact: AIbehaviorconditionScript
 ---@field questFactName CName
 ---@field comparedValue Int32
 ---@field comparator ECompareOp
 CheckQuestFact = {}
+
 
 ---@param fields? CheckQuestFact
 ---@return CheckQuestFact

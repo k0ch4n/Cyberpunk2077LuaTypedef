@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ChaosWeaponCustomEffector: gameEffector
 ---@field effectorOwnerID entEntityID
 ---@field target gameStatsObjectID
@@ -7,6 +8,7 @@
 ---@field applicationTarget CName
 ---@field modGroupID Uint64
 ChaosWeaponCustomEffector = {}
+
 
 ---@param fields? ChaosWeaponCustomEffector
 ---@return ChaosWeaponCustomEffector

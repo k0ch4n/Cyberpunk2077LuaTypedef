@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SasquatchComponent: gameScriptableComponent
 ---@field owner NPCPuppet
 ---@field owner_id entEntityID
 ---@field weakspotDestroyed Bool
 ---@field player PlayerPuppet
 SasquatchComponent = {}
+
 
 ---@param fields? SasquatchComponent
 ---@return SasquatchComponent

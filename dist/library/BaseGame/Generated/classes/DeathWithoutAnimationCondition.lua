@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeathWithoutAnimationCondition: AIDeathConditions
 DeathWithoutAnimationCondition = {}
+
 
 ---@param fields? DeathWithoutAnimationCondition
 ---@return DeathWithoutAnimationCondition

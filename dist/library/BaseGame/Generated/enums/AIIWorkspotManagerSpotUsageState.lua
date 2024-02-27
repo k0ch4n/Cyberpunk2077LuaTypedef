@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIIWorkspotManagerSpotUsageState: Enum
 ---@field Reserved Enum 0
 ---@field Occupied Enum 1

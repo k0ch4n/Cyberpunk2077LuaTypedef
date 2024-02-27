@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ActionScavenge: ActionInt
 ActionScavenge = {}
+
 
 ---@param fields? ActionScavenge
 ---@return ActionScavenge

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemPreferredComparisonResolver: IScriptable
 ---@field cacheadAreaItems ItemPreferredAreaItems[]
 ---@field cachedComparableTypes ItemComparableTypesCache[]
@@ -8,6 +9,7 @@
 ---@field forcedCompareItem gameInventoryItemData
 ---@field useForceCompare Bool
 ItemPreferredComparisonResolver = {}
+
 
 ---@param fields? ItemPreferredComparisonResolver
 ---@return ItemPreferredComparisonResolver

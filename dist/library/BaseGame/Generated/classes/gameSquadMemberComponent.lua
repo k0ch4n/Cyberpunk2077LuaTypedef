@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameSquadMemberComponent: gameComponent
 gameSquadMemberComponent = {}
+
 
 ---@param fields? gameSquadMemberComponent
 ---@return gameSquadMemberComponent

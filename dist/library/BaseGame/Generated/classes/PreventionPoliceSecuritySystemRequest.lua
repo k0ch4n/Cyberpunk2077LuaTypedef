@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PreventionPoliceSecuritySystemRequest: gameScriptableSystemRequest
 ---@field securitySystemID gamePersistentID
 PreventionPoliceSecuritySystemRequest = {}
+
 
 ---@param fields? PreventionPoliceSecuritySystemRequest
 ---@return PreventionPoliceSecuritySystemRequest

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UIInventoryItemStat: IScriptable
 ---@field Type gamedataStatType
 ---@field Value Float
@@ -7,6 +8,7 @@
 ---@field properties UIItemStatProperties
 ---@field propertiesFetched Bool
 UIInventoryItemStat = {}
+
 
 ---@param fields? UIInventoryItemStat
 ---@return UIInventoryItemStat

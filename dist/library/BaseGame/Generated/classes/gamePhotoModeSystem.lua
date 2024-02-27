@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamePhotoModeSystem: gameIPhotoModeSystem
 gamePhotoModeSystem = {}
+
 
 ---@param fields? gamePhotoModeSystem
 ---@return gamePhotoModeSystem

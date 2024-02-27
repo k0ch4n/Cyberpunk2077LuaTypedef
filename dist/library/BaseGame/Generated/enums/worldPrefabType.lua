@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldPrefabType: Enum
 ---@field Regular Enum 0
 ---@field Area Enum 1

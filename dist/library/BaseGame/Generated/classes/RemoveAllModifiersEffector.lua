@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class RemoveAllModifiersEffector: gameEffector
 ---@field statType gamedataStatType
 ---@field applicationTarget CName
 ---@field target gameStatsObjectID
 RemoveAllModifiersEffector = {}
+
 
 ---@param fields? RemoveAllModifiersEffector
 ---@return RemoveAllModifiersEffector

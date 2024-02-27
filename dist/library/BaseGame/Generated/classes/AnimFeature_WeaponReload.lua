@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AnimFeature_WeaponReload: animAnimFeature
 ---@field emptyReload Bool
 ---@field amountToReload Int32
@@ -7,6 +8,7 @@
 ---@field loopDuration Float
 ---@field emptyDuration Float
 AnimFeature_WeaponReload = {}
+
 
 ---@param fields? AnimFeature_WeaponReload
 ---@return AnimFeature_WeaponReload

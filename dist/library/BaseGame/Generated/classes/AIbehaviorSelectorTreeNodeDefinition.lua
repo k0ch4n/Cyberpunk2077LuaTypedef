@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviorSelectorTreeNodeDefinition: AIbehaviorCompositeTreeNodeDefinition
 AIbehaviorSelectorTreeNodeDefinition = {}
+
 
 ---@param fields? AIbehaviorSelectorTreeNodeDefinition
 ---@return AIbehaviorSelectorTreeNodeDefinition

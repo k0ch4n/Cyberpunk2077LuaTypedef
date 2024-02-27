@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TriggerVolumeOperations: DeviceOperations
 ---@field triggerVolumeOperations STriggerVolumeOperationData[]
 TriggerVolumeOperations = {}
+
 
 ---@param fields? TriggerVolumeOperations
 ---@return TriggerVolumeOperations

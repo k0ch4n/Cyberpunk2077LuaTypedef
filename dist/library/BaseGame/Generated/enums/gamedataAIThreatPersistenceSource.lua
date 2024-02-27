@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataAIThreatPersistenceSource: Enum
 ---@field AddThreat Enum 0
 ---@field CatchUp Enum 1

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MenuDataBuilder: IScriptable
 ---@field data MenuData[]
 MenuDataBuilder = {}
+
 
 ---@param fields? MenuDataBuilder
 ---@return MenuDataBuilder

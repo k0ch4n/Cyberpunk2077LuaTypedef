@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameAttack_Projectile: gameIAttack
 gameAttack_Projectile = {}
+
 
 ---@param fields? gameAttack_Projectile
 ---@return gameAttack_Projectile

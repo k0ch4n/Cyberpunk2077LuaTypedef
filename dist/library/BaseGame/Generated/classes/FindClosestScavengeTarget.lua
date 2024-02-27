@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class FindClosestScavengeTarget: AIbehaviortaskScript
 FindClosestScavengeTarget = {}
+
 
 ---@param fields? FindClosestScavengeTarget
 ---@return FindClosestScavengeTarget

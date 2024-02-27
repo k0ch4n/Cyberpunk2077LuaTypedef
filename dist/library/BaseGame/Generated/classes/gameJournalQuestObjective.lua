@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameJournalQuestObjective: gameJournalQuestObjectiveBase
 gameJournalQuestObjective = {}
+
 
 ---@param fields? gameJournalQuestObjective
 ---@return gameJournalQuestObjective

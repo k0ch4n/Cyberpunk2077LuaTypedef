@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LcdScreenController: ScriptableDeviceComponent
 LcdScreenController = {}
+
 
 ---@param fields? LcdScreenController
 ---@return LcdScreenController

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameSpatialQueriesSystem: gameISpatialQueriesSystem
 gameSpatialQueriesSystem = {}
+
 
 ---@param fields? gameSpatialQueriesSystem
 ---@return gameSpatialQueriesSystem

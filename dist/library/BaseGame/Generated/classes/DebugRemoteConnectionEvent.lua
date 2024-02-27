@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DebugRemoteConnectionEvent: redEvent
 DebugRemoteConnectionEvent = {}
+
 
 ---@param fields? DebugRemoteConnectionEvent
 ---@return DebugRemoteConnectionEvent

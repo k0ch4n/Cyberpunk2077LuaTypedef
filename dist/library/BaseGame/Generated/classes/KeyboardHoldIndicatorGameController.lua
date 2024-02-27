@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class KeyboardHoldIndicatorGameController: gameuiHoldIndicatorGameController
 ---@field progress inkImageWidgetReference
 KeyboardHoldIndicatorGameController = {}
+
 
 ---@param fields? KeyboardHoldIndicatorGameController
 ---@return KeyboardHoldIndicatorGameController

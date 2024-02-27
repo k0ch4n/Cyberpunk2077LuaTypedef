@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entDynamicActorRepellingComponent: entIPlacedComponent
 ---@field type entRepellingType
 ---@field shape entRepellingShape
@@ -12,6 +13,7 @@
 ---@field capsuleRadius Float
 ---@field capsuleHeight Float
 entDynamicActorRepellingComponent = {}
+
 
 ---@param fields? entDynamicActorRepellingComponent
 ---@return entDynamicActorRepellingComponent

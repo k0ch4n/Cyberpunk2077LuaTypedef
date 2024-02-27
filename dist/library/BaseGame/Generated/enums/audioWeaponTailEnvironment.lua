@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioWeaponTailEnvironment: Enum
 ---@field InteriorDefault Enum 0
 ---@field InteriorWide Enum 1

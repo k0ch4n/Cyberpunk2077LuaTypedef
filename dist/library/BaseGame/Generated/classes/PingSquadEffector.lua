@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PingSquadEffector: gameEffector
 ---@field squadMembers entEntityID[]
 ---@field owner gameObject
@@ -8,6 +9,7 @@
 ---@field data FocusForcedHighlightData
 ---@field squadName CName
 PingSquadEffector = {}
+
 
 ---@param fields? PingSquadEffector
 ---@return PingSquadEffector

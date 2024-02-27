@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class RemoveStatusEffectsEffector: gameEffector
 ---@field effectTypes String[]
 ---@field effectString String[]
 ---@field effectTags CName[]
 RemoveStatusEffectsEffector = {}
+
 
 ---@param fields? RemoveStatusEffectsEffector
 ---@return RemoveStatusEffectsEffector

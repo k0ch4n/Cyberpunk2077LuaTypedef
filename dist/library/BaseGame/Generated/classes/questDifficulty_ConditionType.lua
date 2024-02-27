@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class questDifficulty_ConditionType: questIStatsConditionType
 ---@field difficulty gameDifficulty
 questDifficulty_ConditionType = {}
+
 
 ---@param fields? questDifficulty_ConditionType
 ---@return questDifficulty_ConditionType

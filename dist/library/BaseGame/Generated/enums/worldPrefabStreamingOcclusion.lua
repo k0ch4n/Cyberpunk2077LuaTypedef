@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class worldPrefabStreamingOcclusion: Enum
 ---@field Default Enum 0
 ---@field Exterior Enum 1

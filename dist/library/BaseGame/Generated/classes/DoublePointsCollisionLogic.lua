@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DoublePointsCollisionLogic: BonusCollisionLogic
 DoublePointsCollisionLogic = {}
+
 
 ---@param fields? DoublePointsCollisionLogic
 ---@return DoublePointsCollisionLogic

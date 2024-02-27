@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AIGenericEntityLookatTask: AIGenericLookatTask
 ---@field lookAtEvent entLookAtAddEvent
 ---@field activationTimeStamp Float
 ---@field lookatTarget entEntity
 AIGenericEntityLookatTask = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

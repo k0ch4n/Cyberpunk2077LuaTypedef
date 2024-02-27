@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkanimToggleVisibilityEvent: inkanimEvent
 inkanimToggleVisibilityEvent = {}
+
 
 ---@param fields? inkanimToggleVisibilityEvent
 ---@return inkanimToggleVisibilityEvent

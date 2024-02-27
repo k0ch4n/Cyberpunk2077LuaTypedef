@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class Vector3
 ---@field X Float
 ---@field Y Float
 ---@field Z Float
 Vector3 = {}
+
 
 ---@param fields? Vector3
 ---@return Vector3

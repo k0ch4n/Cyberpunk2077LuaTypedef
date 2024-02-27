@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class workJumpToCommandData: workIWorkspotCommandData
 workJumpToCommandData = {}
+
 
 ---@param fields? workJumpToCommandData
 ---@return workJumpToCommandData

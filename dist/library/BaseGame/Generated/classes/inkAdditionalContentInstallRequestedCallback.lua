@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkAdditionalContentInstallRequestedCallback: inkCallbackBase
 inkAdditionalContentInstallRequestedCallback = {}
+
 
 ---@param fields? inkAdditionalContentInstallRequestedCallback
 ---@return inkAdditionalContentInstallRequestedCallback

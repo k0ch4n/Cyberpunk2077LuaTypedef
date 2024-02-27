@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsELootChoiceType: Enum
 ---@field Available Enum 0
 ---@field Unavailable Enum 1

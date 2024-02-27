@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class sampleVisWireMaster: gameObject
 ---@field dependableEntities NodeRef[]
 ---@field inFocus Bool
 ---@field found Bool
 ---@field lookedAt Bool
 sampleVisWireMaster = {}
+
 
 ---@param fields? sampleVisWireMaster
 ---@return sampleVisWireMaster

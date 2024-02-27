@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class JoinTrafficOnFoot: AIVehicleTaskAbstract
 JoinTrafficOnFoot = {}
+
 
 ---@param fields? JoinTrafficOnFoot
 ---@return JoinTrafficOnFoot

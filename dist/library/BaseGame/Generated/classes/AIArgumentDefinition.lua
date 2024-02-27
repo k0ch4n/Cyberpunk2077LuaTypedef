@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AIArgumentDefinition: ISerializable
 ---@field name CName
 ---@field isPersistent Bool

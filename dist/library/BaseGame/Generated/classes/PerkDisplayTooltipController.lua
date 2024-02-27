@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PerkDisplayTooltipController: AGenericTooltipControllerWithDebug
 ---@field root inkWidgetReference
 ---@field perkNameText inkTextWidgetReference
@@ -46,6 +47,7 @@
 ---@field horizontalSizer inkWidgetReference
 ---@field bigFontEnabled Bool
 PerkDisplayTooltipController = {}
+
 
 ---@param fields? PerkDisplayTooltipController
 ---@return PerkDisplayTooltipController

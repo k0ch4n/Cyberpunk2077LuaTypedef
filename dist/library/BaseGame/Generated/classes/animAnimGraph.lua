@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimGraph: CResource
 ---@field rootNode animAnimNode_Root
 ---@field variables animAnimVariableContainer
@@ -17,6 +18,7 @@
 ---@field staticCommandsRig animRig
 ---@field hackAlwaysSample Bool
 animAnimGraph = {}
+
 
 ---@param fields? animAnimGraph
 ---@return animAnimGraph

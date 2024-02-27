@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class animPoseCorrectionGroup
 ---@field poseCorrections animPoseCorrection
 animPoseCorrectionGroup = {}
+
 
 ---@param fields? animPoseCorrectionGroup
 ---@return animPoseCorrectionGroup

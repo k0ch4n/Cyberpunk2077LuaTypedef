@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEAreaShape: Enum
 ---@field NONE Enum 0
 ---@field SPHERE Enum 1

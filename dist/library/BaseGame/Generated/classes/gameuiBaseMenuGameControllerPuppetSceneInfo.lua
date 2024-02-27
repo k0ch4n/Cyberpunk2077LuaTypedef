@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiBaseMenuGameControllerPuppetSceneInfo
 ---@field sceneName CName
 ---@field markerRef NodeRef
@@ -8,6 +9,7 @@
 ---@field puppetRecordId TweakDBID
 ---@field gender gameuiBaseMenuGameControllerPuppetGenderInfo
 gameuiBaseMenuGameControllerPuppetSceneInfo = {}
+
 
 ---@param fields? gameuiBaseMenuGameControllerPuppetSceneInfo
 ---@return gameuiBaseMenuGameControllerPuppetSceneInfo

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SimpleSetEquipWeapons: AIbehaviortaskScript
 ---@field primary Bool
 ---@field secondary Bool
@@ -10,6 +11,7 @@
 ---@field secondaryItems gamedataNPCEquipmentItem_Record[]
 ---@field initialized Bool
 SimpleSetEquipWeapons = {}
+
 
 ---@param fields? SimpleSetEquipWeapons
 ---@return SimpleSetEquipWeapons

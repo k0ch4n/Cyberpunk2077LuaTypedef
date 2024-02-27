@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animAnimNode_TransformRotator: animAnimNode_OnePoseInput
 ---@field transform animTransformIndex
 ---@field axis Vector3
@@ -10,6 +11,7 @@
 ---@field angleValueNode animFloatLink
 ---@field angleSpeedNode animFloatLink
 animAnimNode_TransformRotator = {}
+
 
 ---@param fields? animAnimNode_TransformRotator
 ---@return animAnimNode_TransformRotator

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiTutorialPopupGameController: gameuiWidgetGameController
 ---@field actionHint inkWidgetReference
 ---@field popupPanel inkWidgetReference
@@ -25,6 +26,7 @@
 ---@field targetPosition gamePopupPosition
 ---@field onInputDeviceChangedCallbackID redCallbackObject
 gameuiTutorialPopupGameController = {}
+
 
 ---@param fields? gameuiTutorialPopupGameController
 ---@return gameuiTutorialPopupGameController

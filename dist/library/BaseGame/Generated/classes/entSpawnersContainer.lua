@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class entSpawnersContainer: ISerializable
 entSpawnersContainer = {}
+
 
 ---@param fields? entSpawnersContainer
 ---@return entSpawnersContainer

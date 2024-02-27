@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class MessageTooltip: AGenericTooltipController
 ---@field Title inkTextWidgetReference
 ---@field Description inkTextWidgetReference
 ---@field animProxy inkanimProxy
 MessageTooltip = {}
+
 
 ---@param fields? MessageTooltip
 ---@return MessageTooltip

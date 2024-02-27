@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameinteractionsComponent: entIPlacedComponent
 ---@field definitionResource gameinteractionsInteractionDescriptorResource
 ---@field interactionRootOffset Vector3
@@ -7,6 +8,7 @@
 ---@field layerOverridesTemp gameinteractionsInteractionDefinitionOverrider[]
 ---@field isEnabled Bool
 gameinteractionsComponent = {}
+
 
 ---@param fields? gameinteractionsComponent
 ---@return gameinteractionsComponent

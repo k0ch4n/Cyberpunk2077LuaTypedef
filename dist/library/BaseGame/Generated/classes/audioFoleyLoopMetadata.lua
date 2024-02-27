@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class audioFoleyLoopMetadata
 ---@field startEvent CName
 ---@field stopEvent CName
 audioFoleyLoopMetadata = {}
+
 
 ---@param fields? audioFoleyLoopMetadata
 ---@return audioFoleyLoopMetadata

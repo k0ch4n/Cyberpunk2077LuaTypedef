@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ShardItemVirtualController: inkVirtualCompoundItemController
 ---@field icon inkWidgetReference
 ---@field label inkTextWidgetReference
@@ -15,6 +16,7 @@
 ---@field isItemCollapsed Bool
 ---@field clicked Bool
 ShardItemVirtualController = {}
+
 
 ---@param fields? ShardItemVirtualController
 ---@return ShardItemVirtualController

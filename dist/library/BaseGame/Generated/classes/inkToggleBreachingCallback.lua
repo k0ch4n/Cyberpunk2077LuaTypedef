@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkToggleBreachingCallback: inkCallbackBase
 inkToggleBreachingCallback = {}
+
 
 ---@param fields? inkToggleBreachingCallback
 ---@return inkToggleBreachingCallback

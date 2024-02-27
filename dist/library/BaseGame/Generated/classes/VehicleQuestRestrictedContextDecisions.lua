@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleQuestRestrictedContextDecisions: InputContextTransitionDecisions
 VehicleQuestRestrictedContextDecisions = {}
+
 
 ---@param fields? VehicleQuestRestrictedContextDecisions
 ---@return VehicleQuestRestrictedContextDecisions

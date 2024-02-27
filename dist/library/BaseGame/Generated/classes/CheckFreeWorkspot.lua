@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CheckFreeWorkspot: AIbehaviorconditionScript
 ---@field AIAction gamedataWorkspotActionType
 ---@field workspotObject gameObject
 ---@field workspotData WorkspotEntryData
 ---@field globalRef worldGlobalNodeRef
 CheckFreeWorkspot = {}
+
 
 ---@param fields? CheckFreeWorkspot
 ---@return CheckFreeWorkspot

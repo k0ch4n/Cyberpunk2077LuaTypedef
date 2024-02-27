@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamemappinsRuntimeQuestMappinData: gamemappinsIRuntimeMappinData
 gamemappinsRuntimeQuestMappinData = {}
+
 
 ---@param fields? gamemappinsRuntimeQuestMappinData
 ---@return gamemappinsRuntimeQuestMappinData

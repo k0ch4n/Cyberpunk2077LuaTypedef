@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ECraftingIconPositioning: Enum
 ---@field generic Enum 0
 ---@field weaponBig Enum 1

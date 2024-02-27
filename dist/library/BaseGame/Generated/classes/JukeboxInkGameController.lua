@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class JukeboxInkGameController: DeviceInkGameControllerBase
 ---@field ActionsPanel inkHorizontalPanelWidgetReference
 ---@field PriceText inkTextWidgetReference
@@ -7,6 +8,7 @@
 ---@field nextButton NextPreviousActionWidgetController
 ---@field previousButton NextPreviousActionWidgetController
 JukeboxInkGameController = {}
+
 
 ---@param fields? JukeboxInkGameController
 ---@return JukeboxInkGameController

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PingNetworkGridEvent: redEvent
 ---@field ownerEntityPosition Vector4
 ---@field fxResource gameFxResource
@@ -9,6 +10,7 @@
 ---@field revealMaster Bool
 ---@field ignoreRevealed Bool
 PingNetworkGridEvent = {}
+
 
 ---@param fields? PingNetworkGridEvent
 ---@return PingNetworkGridEvent

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SpiderbotHeavyProjectile: BaseProjectile
 ---@field meshComponent entIComponent
 ---@field effect gameEffectRef
@@ -8,6 +9,7 @@
 ---@field alive Bool
 ---@field hit Bool
 SpiderbotHeavyProjectile = {}
+
 
 ---@param fields? SpiderbotHeavyProjectile
 ---@return SpiderbotHeavyProjectile

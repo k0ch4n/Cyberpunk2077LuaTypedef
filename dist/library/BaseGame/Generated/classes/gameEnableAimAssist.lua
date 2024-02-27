@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameEnableAimAssist: redEvent
 gameEnableAimAssist = {}
+
 
 ---@param fields? gameEnableAimAssist
 ---@return gameEnableAimAssist

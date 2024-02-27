@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PalladiaAdvertisementWidgetComponent: AdvertisementWidgetComponent
 PalladiaAdvertisementWidgetComponent = {}
+
 
 ---@param fields? PalladiaAdvertisementWidgetComponent
 ---@return PalladiaAdvertisementWidgetComponent

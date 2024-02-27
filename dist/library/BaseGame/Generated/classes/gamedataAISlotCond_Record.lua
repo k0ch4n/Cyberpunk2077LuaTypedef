@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISlotCond_Record: gamedataAIItemCond_Record
 gamedataAISlotCond_Record = {}
+
 
 ---@param fields? gamedataAISlotCond_Record
 ---@return gamedataAISlotCond_Record

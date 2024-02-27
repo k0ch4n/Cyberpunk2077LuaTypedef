@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TurretRipOffEvents: TurretTransition
 ---@field stateMachineInitData TurretInitData
 TurretRipOffEvents = {}
+
 
 ---@param fields? TurretRipOffEvents
 ---@return TurretRipOffEvents

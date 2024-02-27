@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class NamedEvent: IScriptable
 NamedEvent = {}
+
 
 ---@return CName
 function NamedEvent:GetEventName() end

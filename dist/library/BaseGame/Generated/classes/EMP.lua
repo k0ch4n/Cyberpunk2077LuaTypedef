@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EMP: gameEffectExecutor_Scripted
 EMP = {}
+
 
 ---@param fields? EMP
 ---@return EMP

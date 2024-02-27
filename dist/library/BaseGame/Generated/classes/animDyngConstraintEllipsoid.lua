@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animDyngConstraintEllipsoid: animIDyngConstraint
 ---@field bone animTransformIndex
 ---@field ellipsoidTransformLS QsTransform
@@ -7,6 +8,7 @@
 ---@field constraintScale1 Float
 ---@field constraintScale2 Float
 animDyngConstraintEllipsoid = {}
+
 
 ---@param fields? animDyngConstraintEllipsoid
 ---@return animDyngConstraintEllipsoid

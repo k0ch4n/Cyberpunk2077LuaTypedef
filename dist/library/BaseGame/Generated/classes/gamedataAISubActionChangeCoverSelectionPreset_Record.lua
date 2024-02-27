@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAISubActionChangeCoverSelectionPreset_Record: gamedataAISubAction_Record
 gamedataAISubActionChangeCoverSelectionPreset_Record = {}
+
 
 ---@param fields? gamedataAISubActionChangeCoverSelectionPreset_Record
 ---@return gamedataAISubActionChangeCoverSelectionPreset_Record

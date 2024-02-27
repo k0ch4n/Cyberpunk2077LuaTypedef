@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioTriggerEffectMode: Enum
 ---@field Off Enum 0
 ---@field Feedback Enum 1

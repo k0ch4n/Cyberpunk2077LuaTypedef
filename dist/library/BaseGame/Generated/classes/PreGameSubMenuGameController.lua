@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PreGameSubMenuGameController: gameuiWidgetGameController
 ---@field menuEventDispatcher inkMenuEventDispatcher
 PreGameSubMenuGameController = {}
+
 
 ---@param fields? PreGameSubMenuGameController
 ---@return PreGameSubMenuGameController

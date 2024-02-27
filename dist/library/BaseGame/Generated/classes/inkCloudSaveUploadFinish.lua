@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkCloudSaveUploadFinish: inkCallbackBase
 inkCloudSaveUploadFinish = {}
+
 
 ---@param fields? inkCloudSaveUploadFinish
 ---@return inkCloudSaveUploadFinish

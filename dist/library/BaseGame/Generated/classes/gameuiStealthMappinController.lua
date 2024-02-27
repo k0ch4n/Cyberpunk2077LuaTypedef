@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiStealthMappinController: gameuiInteractionMappinController
 ---@field arrow inkImageWidgetReference
 ---@field fill inkWidgetReference
@@ -79,6 +80,7 @@
 ---@field statusEffectStartTime Float
 ---@field statusEffectTextureName String
 gameuiStealthMappinController = {}
+
 
 ---@param fields? gameuiStealthMappinController
 ---@return gameuiStealthMappinController

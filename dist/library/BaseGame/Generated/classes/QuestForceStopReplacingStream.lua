@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class QuestForceStopReplacingStream: ActionBool
 QuestForceStopReplacingStream = {}
+
 
 ---@param fields? QuestForceStopReplacingStream
 ---@return QuestForceStopReplacingStream

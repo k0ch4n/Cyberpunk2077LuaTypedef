@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIVehicleConditionAbstract: AIbehaviorconditionScript
 AIVehicleConditionAbstract = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIVehicleAgent

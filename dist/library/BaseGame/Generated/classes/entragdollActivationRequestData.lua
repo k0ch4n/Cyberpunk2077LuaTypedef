@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class entragdollActivationRequestData
 ---@field type entragdollActivationRequestType
 ---@field activationNoGroundThreshold Float
@@ -9,6 +10,7 @@
 ---@field filterDataOverride CName
 ---@field calculateEarlyPositionGroundHeight Bool
 entragdollActivationRequestData = {}
+
 
 ---@param fields? entragdollActivationRequestData
 ---@return entragdollActivationRequestData

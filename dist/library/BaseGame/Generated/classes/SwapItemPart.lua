@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class SwapItemPart: gameScriptableSystemRequest
 ---@field obj gameObject
 ---@field baseItem gameItemID
 ---@field partToInstall gameItemID
 ---@field slotID TweakDBID
 SwapItemPart = {}
+
 
 ---@param fields? SwapItemPart
 ---@return SwapItemPart

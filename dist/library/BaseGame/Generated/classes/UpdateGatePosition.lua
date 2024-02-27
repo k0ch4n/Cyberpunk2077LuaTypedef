@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UpdateGatePosition: redEvent
 UpdateGatePosition = {}
+
 
 ---@param fields? UpdateGatePosition
 ---@return UpdateGatePosition

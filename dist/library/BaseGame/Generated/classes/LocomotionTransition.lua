@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class LocomotionTransition: DefaultTransition
 ---@field ownerRecordId TweakDBID
 ---@field statModifierGroupId Uint64
 ---@field statModifierTDBNameDefault String
 LocomotionTransition = {}
+
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param impulse Vector4

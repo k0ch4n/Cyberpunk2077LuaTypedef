@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamedataHitPrereqConditionType: Enum
 ---@field AgentMoving Enum 0
 ---@field AmmoState Enum 1

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class Bounty
 ---@field transgressions TweakDBID[]
 ---@field bountySetter TweakDBID
@@ -10,6 +11,7 @@
 ---@field wantedStars Int32
 ---@field filteredOut Bool
 Bounty = {}
+
 
 ---@param fields? Bounty
 ---@return Bounty

@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class StatusEffectBasedTimeBankEffector: gameEffector
 ---@field player gameObject
 ---@field playerEntityID entEntityID
 ---@field statusEffectListener TimeBankOnStatusEffectAppliedListener
 ---@field gameInstance ScriptGameInstance
 StatusEffectBasedTimeBankEffector = {}
+
 
 ---@param fields? StatusEffectBasedTimeBankEffector
 ---@return StatusEffectBasedTimeBankEffector

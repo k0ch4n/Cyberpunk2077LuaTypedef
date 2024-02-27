@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioReflectionVariant: Enum
 ---@field WorldSpaceFixedDrections Enum 0
 ---@field LocalSpaceFixedDirections Enum 1

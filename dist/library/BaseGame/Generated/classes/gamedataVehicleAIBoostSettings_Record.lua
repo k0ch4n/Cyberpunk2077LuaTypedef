@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataVehicleAIBoostSettings_Record: gamedataTweakDBRecord
 gamedataVehicleAIBoostSettings_Record = {}
+
 
 ---@param fields? gamedataVehicleAIBoostSettings_Record
 ---@return gamedataVehicleAIBoostSettings_Record

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class TweakAIActionConditionAbstract: AIbehaviorconditionScript
 ---@field actionRecord gamedataAIAction_Record
 ---@field actionDebugName String
 TweakAIActionConditionAbstract = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class audioVehicleEmitterPositionData
 ---@field engineEmitterPosition Vector3
 ---@field exaustEmitterPosition Vector3
@@ -11,6 +12,7 @@
 ---@field wheel3Position Vector3
 ---@field wheel4Position Vector3
 audioVehicleEmitterPositionData = {}
+
 
 ---@param fields? audioVehicleEmitterPositionData
 ---@return audioVehicleEmitterPositionData

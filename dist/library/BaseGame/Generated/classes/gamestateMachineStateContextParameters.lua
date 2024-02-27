@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gamestateMachineStateContextParameters
 ---@field boolParameters gamestateMachineActionParameterBool
 ---@field intParameters gamestateMachineActionParameterInt
@@ -10,6 +11,7 @@
 ---@field IScriptableParameters gamestateMachineActionParameterIScriptable
 ---@field tweakDBIDParameters gamestateMachineActionParameterTweakDBID
 gamestateMachineStateContextParameters = {}
+
 
 ---@param fields? gamestateMachineStateContextParameters
 ---@return gamestateMachineStateContextParameters

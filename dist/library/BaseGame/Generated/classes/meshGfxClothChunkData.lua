@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class meshGfxClothChunkData
 ---@field positions DataBuffer
 ---@field indices DataBuffer
@@ -9,6 +10,7 @@
 ---@field skinIndicesExt DataBuffer
 ---@field simulation Uint16[]
 meshGfxClothChunkData = {}
+
 
 ---@param fields? meshGfxClothChunkData
 ---@return meshGfxClothChunkData

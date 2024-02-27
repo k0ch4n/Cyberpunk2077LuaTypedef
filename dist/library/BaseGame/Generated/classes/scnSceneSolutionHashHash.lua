@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class scnSceneSolutionHashHash
 ---@field sceneSolutionHashDate Uint64
 scnSceneSolutionHashHash = {}
+
 
 ---@param fields? scnSceneSolutionHashHash
 ---@return scnSceneSolutionHashHash

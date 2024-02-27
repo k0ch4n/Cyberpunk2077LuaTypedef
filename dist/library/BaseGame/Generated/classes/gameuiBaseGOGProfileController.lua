@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameuiBaseGOGProfileController: gameuiWidgetGameController
 gameuiBaseGOGProfileController = {}
+
 
 ---@param fields? gameuiBaseGOGProfileController
 ---@return gameuiBaseGOGProfileController

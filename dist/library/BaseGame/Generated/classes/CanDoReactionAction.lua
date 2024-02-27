@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class CanDoReactionAction: AIbehaviorconditionScript
 ---@field reactionName CName
 CanDoReactionAction = {}
+
 
 ---@param fields? CanDoReactionAction
 ---@return CanDoReactionAction

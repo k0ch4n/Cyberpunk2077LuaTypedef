@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class NewAreaGameController: gameuiHUDGameController
 ---@field label inkTextWidgetReference
 ---@field animationProxy inkanimProxy
 ---@field data NewAreaDiscoveredUserData
 NewAreaGameController = {}
+
 
 ---@param fields? NewAreaGameController
 ---@return NewAreaGameController

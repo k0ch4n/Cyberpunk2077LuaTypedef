@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class BroadcastStimEffector: gameContinuousEffector
 ---@field stimType gamedataStimType
 ---@field radius Float
 BroadcastStimEffector = {}
+
 
 ---@param fields? BroadcastStimEffector
 ---@return BroadcastStimEffector

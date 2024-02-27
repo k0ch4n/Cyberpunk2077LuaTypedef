@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CheckHitReactionStimID: CheckStimID
 CheckHitReactionStimID = {}
+
 
 ---@param fields? CheckHitReactionStimID
 ---@return CheckHitReactionStimID

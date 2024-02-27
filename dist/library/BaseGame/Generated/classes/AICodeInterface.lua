@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AICodeInterface: IScriptable
 AICodeInterface = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param puppet gamePuppet

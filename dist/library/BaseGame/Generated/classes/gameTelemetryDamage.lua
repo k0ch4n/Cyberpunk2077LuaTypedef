@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameTelemetryDamage
 ---@field attackType gamedataAttackType
 ---@field attackRecord TweakDBID
@@ -10,6 +11,7 @@
 ---@field distance Float
 ---@field time Float
 gameTelemetryDamage = {}
+
 
 ---@param fields? gameTelemetryDamage
 ---@return gameTelemetryDamage

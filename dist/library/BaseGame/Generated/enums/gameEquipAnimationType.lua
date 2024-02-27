@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEquipAnimationType: Enum
 ---@field Default Enum 0
 ---@field Instant Enum 1

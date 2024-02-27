@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class PlayerTargetChangedRequest: gameScriptableSystemRequest
 ---@field playerTarget entEntityID
 PlayerTargetChangedRequest = {}
+
 
 ---@param fields? PlayerTargetChangedRequest
 ---@return PlayerTargetChangedRequest

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameWorldBoundaryNode: worldAreaShapeNode
 gameWorldBoundaryNode = {}
+
 
 ---@param fields? gameWorldBoundaryNode
 ---@return gameWorldBoundaryNode

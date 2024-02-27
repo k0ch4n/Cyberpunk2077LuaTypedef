@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class inkPauseMenuState: inkIStateMachineState
 inkPauseMenuState = {}
+
 
 ---@param fields? inkPauseMenuState
 ---@return inkPauseMenuState

@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameEffectExecutor_Ricochet: gameEffectExecutor
 ---@field outputRicochetVector gameEffectOutputParameter_Vector
 gameEffectExecutor_Ricochet = {}
+
 
 ---@param fields? gameEffectExecutor_Ricochet
 ---@return gameEffectExecutor_Ricochet

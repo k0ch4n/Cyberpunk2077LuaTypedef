@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class gameJournalPhoneChoiceEntry: gameJournalEntry
 ---@field text LocalizationString
 ---@field isQuestImportant Bool
 ---@field questCondition questIBaseCondition
 gameJournalPhoneChoiceEntry = {}
+
 
 ---@param fields? gameJournalPhoneChoiceEntry
 ---@return gameJournalPhoneChoiceEntry

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SHitOperationData
 ---@field isAttackerPlayer Bool
 ---@field isAttackerNPC Bool
@@ -9,6 +10,7 @@
 ---@field healthPercentage Float
 ---@field operation SBaseDeviceOperationData
 SHitOperationData = {}
+
 
 ---@param fields? SHitOperationData
 ---@return SHitOperationData

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AirDeathDecisions: DeathDecisionsWithResurrection
 AirDeathDecisions = {}
+
 
 ---@param fields? AirDeathDecisions
 ---@return AirDeathDecisions

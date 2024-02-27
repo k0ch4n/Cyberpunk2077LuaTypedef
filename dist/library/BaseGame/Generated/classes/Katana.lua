@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class Katana: gameweaponObject
 ---@field bentBulletTemplateName CName
 ---@field bulletBendingReferenceSlotName CName
 ---@field colliderComponent entIComponent
 ---@field slotComponent entSlotComponent
 Katana = {}
+
 
 ---@param fields? Katana
 ---@return Katana

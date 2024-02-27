@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AICTreeNodeChildrenListDefinition: AICTreeNodeCompositeDefinition
 ---@field children LibTreeINodeDefinition[]
 AICTreeNodeChildrenListDefinition = {}
+
 
 ---@param fields? AICTreeNodeChildrenListDefinition
 ---@return AICTreeNodeChildrenListDefinition

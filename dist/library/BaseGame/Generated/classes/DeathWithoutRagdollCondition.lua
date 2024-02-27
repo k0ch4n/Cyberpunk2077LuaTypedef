@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeathWithoutRagdollCondition: AIDeathConditions
 DeathWithoutRagdollCondition = {}
+
 
 ---@param fields? DeathWithoutRagdollCondition
 ---@return DeathWithoutRagdollCondition

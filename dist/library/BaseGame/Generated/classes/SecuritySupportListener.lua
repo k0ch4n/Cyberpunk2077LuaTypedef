@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SecuritySupportListener: AIScriptsTargetTrackingListener
 ---@field npc ScriptedPuppet
 SecuritySupportListener = {}
+
 
 ---@param fields? SecuritySupportListener
 ---@return SecuritySupportListener

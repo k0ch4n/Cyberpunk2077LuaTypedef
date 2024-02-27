@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ListItemsGroupController: CodexListItemController
 ---@field menuList inkCompoundWidgetReference
 ---@field foldArrowRef inkWidgetReference
@@ -11,6 +12,7 @@
 ---@field data IScriptable[]
 ---@field isOpen Bool
 ListItemsGroupController = {}
+
 
 ---@param fields? ListItemsGroupController
 ---@return ListItemsGroupController

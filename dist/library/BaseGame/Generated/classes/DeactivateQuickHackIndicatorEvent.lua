@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DeactivateQuickHackIndicatorEvent: redEvent
 DeactivateQuickHackIndicatorEvent = {}
+
 
 ---@param fields? DeactivateQuickHackIndicatorEvent
 ---@return DeactivateQuickHackIndicatorEvent

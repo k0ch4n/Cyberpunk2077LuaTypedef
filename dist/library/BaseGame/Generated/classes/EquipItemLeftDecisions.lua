@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class EquipItemLeftDecisions: DefaultTransition
 EquipItemLeftDecisions = {}
+
 
 ---@param fields? EquipItemLeftDecisions
 ---@return EquipItemLeftDecisions

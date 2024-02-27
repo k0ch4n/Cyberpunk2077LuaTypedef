@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class WaitForEquipEvents: UpperBodyEventsTransition
 WaitForEquipEvents = {}
+
 
 ---@param fields? WaitForEquipEvents
 ---@return WaitForEquipEvents

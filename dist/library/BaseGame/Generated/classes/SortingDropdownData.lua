@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SortingDropdownData: IScriptable
 SortingDropdownData = {}
+
 
 ---@return DropdownItemData[]
 function SortingDropdownData.GeVisualsDropdownOptions() end

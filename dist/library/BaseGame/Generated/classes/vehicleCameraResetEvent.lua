@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class vehicleCameraResetEvent: redEvent
 vehicleCameraResetEvent = {}
+
 
 ---@param fields? vehicleCameraResetEvent
 ---@return vehicleCameraResetEvent

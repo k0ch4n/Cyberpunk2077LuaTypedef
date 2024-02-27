@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class UI_PlayerStatsDef: gamebbScriptDefinition
 ---@field MaxHealth gamebbScriptID_Int32
 ---@field CurrentHealth gamebbScriptID_Int32
@@ -21,6 +22,7 @@
 ---@field currentInventoryWeight gamebbScriptID_Float
 ---@field isReplacer gamebbScriptID_Bool
 UI_PlayerStatsDef = {}
+
 
 ---@param fields? UI_PlayerStatsDef
 ---@return UI_PlayerStatsDef

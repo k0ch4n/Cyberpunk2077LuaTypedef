@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameuiarcadeShooterSpawnController: inkWidgetLogicController
 ---@field enemyType gameuiarcadeShooterAIType
 ---@field spawnCondition gameuiarcadeShooterSpawnerCondition
@@ -11,6 +12,7 @@
 ---@field awaitPreviousUnitDead Bool
 ---@field enemyParameter String
 gameuiarcadeShooterSpawnController = {}
+
 
 ---@param fields? gameuiarcadeShooterSpawnController
 ---@return gameuiarcadeShooterSpawnController

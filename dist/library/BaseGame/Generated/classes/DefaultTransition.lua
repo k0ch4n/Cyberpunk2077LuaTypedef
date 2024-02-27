@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DefaultTransition: gamestateMachineFunctor
 DefaultTransition = {}
+
 
 ---@param fields? DefaultTransition
 ---@return DefaultTransition

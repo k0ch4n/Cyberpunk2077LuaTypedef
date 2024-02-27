@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIbehaviortweakItemsInInventoryListener: gameIInventoryListener
 AIbehaviortweakItemsInInventoryListener = {}
+
 
 ---@param fields? AIbehaviortweakItemsInInventoryListener
 ---@return AIbehaviortweakItemsInInventoryListener

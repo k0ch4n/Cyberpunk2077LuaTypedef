@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AIAggressiveReactionPresetCondition: AIbehaviorconditionScript
 AIAggressiveReactionPresetCondition = {}
+
 
 ---@param fields? AIAggressiveReactionPresetCondition
 ---@return AIAggressiveReactionPresetCondition

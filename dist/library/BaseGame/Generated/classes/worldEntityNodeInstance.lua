@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldEntityNodeInstance: worldINodeInstance
 worldEntityNodeInstance = {}
+
 
 ---@param fields? worldEntityNodeInstance
 ---@return worldEntityNodeInstance

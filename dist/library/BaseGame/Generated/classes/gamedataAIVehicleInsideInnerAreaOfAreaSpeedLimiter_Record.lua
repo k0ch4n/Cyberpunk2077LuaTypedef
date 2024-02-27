@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record: gamedataAIActionSubCondition_Record
 gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record = {}
+
 
 ---@param fields? gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record
 ---@return gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record

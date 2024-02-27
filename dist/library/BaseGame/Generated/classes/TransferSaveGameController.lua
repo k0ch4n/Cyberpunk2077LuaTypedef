@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class TransferSaveGameController: gameuiWidgetGameController
 ---@field notificationController inkWidgetReference
 TransferSaveGameController = {}
+
 
 ---@param fields? TransferSaveGameController
 ---@return TransferSaveGameController

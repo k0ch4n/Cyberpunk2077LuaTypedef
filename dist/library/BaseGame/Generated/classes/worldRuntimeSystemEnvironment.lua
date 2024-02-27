@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class worldRuntimeSystemEnvironment: worldIRuntimeSystem
 worldRuntimeSystemEnvironment = {}
+
 
 ---@param fields? worldRuntimeSystemEnvironment
 ---@return worldRuntimeSystemEnvironment

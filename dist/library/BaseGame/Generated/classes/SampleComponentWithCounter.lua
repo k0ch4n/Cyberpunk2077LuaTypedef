@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class SampleComponentWithCounter: gameScriptableComponent
 SampleComponentWithCounter = {}
+
 
 ---@param fields? SampleComponentWithCounter
 ---@return SampleComponentWithCounter

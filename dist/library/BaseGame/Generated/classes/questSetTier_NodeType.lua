@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questSetTier_NodeType: questISceneManagerNodeType
 ---@field tier GameplayTier
 ---@field usePlayerWorkspot Bool
@@ -8,6 +9,7 @@
 ---@field forceEmptyHands Bool
 ---@field motionConstrainedTierDataParams gameMotionConstrainedTierDataParams
 questSetTier_NodeType = {}
+
 
 ---@param fields? questSetTier_NodeType
 ---@return questSetTier_NodeType

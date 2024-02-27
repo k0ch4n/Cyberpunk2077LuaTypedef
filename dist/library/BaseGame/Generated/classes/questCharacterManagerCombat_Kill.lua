@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class questCharacterManagerCombat_Kill: questICharacterManagerCombat_NodeSubType
 ---@field puppetRef gameEntityReference
 ---@field isPlayer Bool
@@ -11,6 +12,7 @@
 ---@field woundType entdismembermentWoundTypeE
 ---@field dismembermentStrenght Float
 questCharacterManagerCombat_Kill = {}
+
 
 ---@param fields? questCharacterManagerCombat_Kill
 ---@return questCharacterManagerCombat_Kill

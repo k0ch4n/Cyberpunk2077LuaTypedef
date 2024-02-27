@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class AIbehaviorCrowdSettingsNameVehicleExpressionDefinition: AIbehaviorVehicleExpressionDefinition
 ---@field settingsName CName
 AIbehaviorCrowdSettingsNameVehicleExpressionDefinition = {}
+
 
 ---@param fields? AIbehaviorCrowdSettingsNameVehicleExpressionDefinition
 ---@return AIbehaviorCrowdSettingsNameVehicleExpressionDefinition

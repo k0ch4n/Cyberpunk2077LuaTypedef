@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class DisplayGlassInkGameController: DeviceInkGameControllerBase
 DisplayGlassInkGameController = {}
+
 
 ---@param fields? DisplayGlassInkGameController
 ---@return DisplayGlassInkGameController

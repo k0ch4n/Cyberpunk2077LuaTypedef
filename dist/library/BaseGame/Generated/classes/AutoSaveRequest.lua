@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class AutoSaveRequest: gameScriptableSystemRequest
 AutoSaveRequest = {}
+
 
 ---@param fields? AutoSaveRequest
 ---@return AutoSaveRequest

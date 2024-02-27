@@ -1,11 +1,13 @@
 ---@meta
 
+
 ---@class CodexImageButton: CodexListItemController
 ---@field image inkImageWidgetReference
 ---@field border inkImageWidgetReference
 ---@field translateOnSelect inkWidgetReference
 ---@field selectTranslationX Float
 CodexImageButton = {}
+
 
 ---@param fields? CodexImageButton
 ---@return CodexImageButton

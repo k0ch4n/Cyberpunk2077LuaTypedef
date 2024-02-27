@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiMinimapQuestMappinController: gameuiBaseMinimapMappinController
 ---@field questMappin gamemappinsQuestMappin
 gameuiMinimapQuestMappinController = {}
+
 
 ---@param fields? gameuiMinimapQuestMappinController
 ---@return gameuiMinimapQuestMappinController

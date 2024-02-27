@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnlimitedUnlocked: redEvent
 UnlimitedUnlocked = {}
+
 
 ---@param fields? UnlimitedUnlocked
 ---@return UnlimitedUnlocked

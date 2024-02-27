@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class animFacialSetup: CResource
 ---@field rig animRig
 ---@field inputRig animRig
@@ -12,6 +13,7 @@
 ---@field useFemaleAnimSet Bool
 ---@field version Uint32
 animFacialSetup = {}
+
 
 ---@param fields? animFacialSetup
 ---@return animFacialSetup

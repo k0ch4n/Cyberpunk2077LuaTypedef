@@ -1,10 +1,12 @@
 ---@meta
 
+
 ---@class AIMeleeAttackCommandParams: questScriptedAICommandParams
 ---@field targetOverrideNodeRef NodeRef
 ---@field targetOverridePuppetRef gameEntityReference
 ---@field duration Float
 AIMeleeAttackCommandParams = {}
+
 
 ---@param fields? AIMeleeAttackCommandParams
 ---@return AIMeleeAttackCommandParams

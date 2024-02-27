@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UnregisterFromZoomBlackboardEvent: redEvent
 UnregisterFromZoomBlackboardEvent = {}
+
 
 ---@param fields? UnregisterFromZoomBlackboardEvent
 ---@return UnregisterFromZoomBlackboardEvent

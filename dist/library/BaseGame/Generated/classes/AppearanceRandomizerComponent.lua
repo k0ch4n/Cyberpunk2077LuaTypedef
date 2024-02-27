@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class AppearanceRandomizerComponent: gameScriptableComponent
 ---@field appearances CName[]
 ---@field isEnabled Bool
 AppearanceRandomizerComponent = {}
+
 
 ---@param fields? AppearanceRandomizerComponent
 ---@return AppearanceRandomizerComponent

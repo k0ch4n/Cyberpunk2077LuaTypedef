@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GICGIEditSettings: ISerializable
 GICGIEditSettings = {}
+
 
 ---@param fields? GICGIEditSettings
 ---@return GICGIEditSettings

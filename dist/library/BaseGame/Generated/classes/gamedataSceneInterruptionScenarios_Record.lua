@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataSceneInterruptionScenarios_Record: gamedataTweakDBRecord
 gamedataSceneInterruptionScenarios_Record = {}
+
 
 ---@param fields? gamedataSceneInterruptionScenarios_Record
 ---@return gamedataSceneInterruptionScenarios_Record

@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class ItemQuantityPickerController: gameuiWidgetGameController
 ---@field quantityTextMin inkTextWidgetReference
 ---@field quantityTextMax inkTextWidgetReference
@@ -36,6 +37,7 @@
 ---@field player gameObject
 ---@field closeData QuantityPickerPopupCloseData
 ItemQuantityPickerController = {}
+
 
 ---@param fields? ItemQuantityPickerController
 ---@return ItemQuantityPickerController

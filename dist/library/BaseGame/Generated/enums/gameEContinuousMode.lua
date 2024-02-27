@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameEContinuousMode: Enum
 ---@field None Enum 0
 ---@field Start Enum 1

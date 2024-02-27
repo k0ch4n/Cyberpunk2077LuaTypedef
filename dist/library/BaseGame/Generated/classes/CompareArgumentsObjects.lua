@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CompareArgumentsObjects: CompareArguments
 CompareArgumentsObjects = {}
+
 
 ---@param fields? CompareArgumentsObjects
 ---@return CompareArgumentsObjects

@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class BenchmarkLabelController: inkWidgetLogicController
 ---@field labelWidget inkTextWidgetReference
 ---@field valueWidget inkTextWidgetReference
 BenchmarkLabelController = {}
+
 
 ---@param fields? BenchmarkLabelController
 ---@return BenchmarkLabelController

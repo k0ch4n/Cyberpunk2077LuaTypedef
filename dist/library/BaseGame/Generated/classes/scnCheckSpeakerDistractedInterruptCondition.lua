@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class scnCheckSpeakerDistractedInterruptCondition: scnIInterruptCondition
 scnCheckSpeakerDistractedInterruptCondition = {}
+
 
 ---@param fields? scnCheckSpeakerDistractedInterruptCondition
 ---@return scnCheckSpeakerDistractedInterruptCondition

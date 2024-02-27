@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class gameLadderComponent: entIComponent
 ---@field heightOfBottomPart Float
 ---@field exitStepTop Float
@@ -10,6 +11,7 @@
 ---@field verticalStepJump Float
 ---@field enterOffset Float
 gameLadderComponent = {}
+
 
 ---@param fields? gameLadderComponent
 ---@return gameLadderComponent

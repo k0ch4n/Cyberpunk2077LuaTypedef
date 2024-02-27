@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkMaskWidget: inkLeafWidget
 ---@field textureAtlas inkTextureAtlas
 ---@field texturePart CName
@@ -8,6 +9,7 @@
 ---@field invertMask Bool
 ---@field maskTransparency Float
 inkMaskWidget = {}
+
 
 ---@param fields? inkMaskWidget
 ---@return inkMaskWidget

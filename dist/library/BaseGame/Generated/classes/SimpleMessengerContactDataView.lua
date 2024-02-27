@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SimpleMessengerContactDataView: inkScriptableDataViewWrapper
 ---@field compareBuilder CompareBuilder
 SimpleMessengerContactDataView = {}
+
 
 ---@param fields? SimpleMessengerContactDataView
 ---@return SimpleMessengerContactDataView

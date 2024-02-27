@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkVideoWidgetSummary
 ---@field width Uint32
 ---@field height Uint32
@@ -9,6 +10,7 @@
 ---@field totalFrames Uint32
 ---@field frameRate Uint32
 inkVideoWidgetSummary = {}
+
 
 ---@param fields? inkVideoWidgetSummary
 ---@return inkVideoWidgetSummary

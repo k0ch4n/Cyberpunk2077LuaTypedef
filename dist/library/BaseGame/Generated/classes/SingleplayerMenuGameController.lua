@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SingleplayerMenuGameController: gameuiMainMenuGameController
 ---@field baseLogoContainer inkCompoundWidgetReference
 ---@field ep1LogoContainer inkCompoundWidgetReference
@@ -40,6 +41,7 @@
 ---@field patch2NotificationAnimProxy inkanimProxy
 ---@field gameVersionAnim inkanimProxy
 SingleplayerMenuGameController = {}
+
 
 ---@param fields? SingleplayerMenuGameController
 ---@return SingleplayerMenuGameController

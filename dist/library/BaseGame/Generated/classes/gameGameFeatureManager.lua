@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameGameFeatureManager: IScriptable
 gameGameFeatureManager = {}
+
 
 ---@param fields? gameGameFeatureManager
 ---@return gameGameFeatureManager

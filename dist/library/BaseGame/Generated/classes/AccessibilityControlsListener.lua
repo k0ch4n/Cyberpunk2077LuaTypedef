@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class AccessibilityControlsListener: userSettingsVarListener
 ---@field ctrl PlayerPuppet
 ---@field settings userSettingsUserSettings
@@ -7,6 +8,7 @@
 ---@field allowCycleToFistCyberware Bool
 ---@field accessibilityControlsPath CName
 AccessibilityControlsListener = {}
+
 
 ---@param fields? AccessibilityControlsListener
 ---@return AccessibilityControlsListener

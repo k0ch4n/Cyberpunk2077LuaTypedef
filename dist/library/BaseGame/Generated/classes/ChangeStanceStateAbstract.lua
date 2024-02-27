@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ChangeStanceStateAbstract: AIbehaviortaskScript
 ---@field changeStateOnDeactivate Bool
 ChangeStanceStateAbstract = {}
+
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil

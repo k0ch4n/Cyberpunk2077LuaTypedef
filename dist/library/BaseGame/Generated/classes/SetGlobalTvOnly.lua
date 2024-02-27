@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class SetGlobalTvOnly: redEvent
 ---@field isGlobalTvOnly Bool
 SetGlobalTvOnly = {}
+
 
 ---@param fields? SetGlobalTvOnly
 ---@return SetGlobalTvOnly

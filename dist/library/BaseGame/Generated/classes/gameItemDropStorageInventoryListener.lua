@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameItemDropStorageInventoryListener
 gameItemDropStorageInventoryListener = {}
+
 
 ---@param fields? gameItemDropStorageInventoryListener
 ---@return gameItemDropStorageInventoryListener

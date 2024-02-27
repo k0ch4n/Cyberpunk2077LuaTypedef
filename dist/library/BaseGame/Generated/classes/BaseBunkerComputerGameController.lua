@@ -1,9 +1,11 @@
 ---@meta
 
+
 ---@class BaseBunkerComputerGameController: gameuiBaseBunkerComputerGameController
 ---@field factsSet BunkerSystemsFactsSet
 ---@field gateClosedFact CName
 BaseBunkerComputerGameController = {}
+
 
 ---@param fields? BaseBunkerComputerGameController
 ---@return BaseBunkerComputerGameController

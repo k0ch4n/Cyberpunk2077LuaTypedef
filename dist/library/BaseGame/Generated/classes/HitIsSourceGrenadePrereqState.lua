@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class HitIsSourceGrenadePrereqState: GenericHitPrereqState
 HitIsSourceGrenadePrereqState = {}
+
 
 ---@param fields? HitIsSourceGrenadePrereqState
 ---@return HitIsSourceGrenadePrereqState

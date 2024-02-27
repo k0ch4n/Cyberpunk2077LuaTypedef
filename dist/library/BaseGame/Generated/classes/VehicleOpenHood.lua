@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class VehicleOpenHood: ActionBool
 VehicleOpenHood = {}
+
 
 ---@param fields? VehicleOpenHood
 ---@return VehicleOpenHood

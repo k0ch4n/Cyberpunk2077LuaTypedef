@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SplinePoint
 ---@field position Vector3
 ---@field rotation Quaternion
@@ -8,6 +9,7 @@
 ---@field automaticTangents Bool
 ---@field id Uint32
 SplinePoint = {}
+
 
 ---@param fields? SplinePoint
 ---@return SplinePoint

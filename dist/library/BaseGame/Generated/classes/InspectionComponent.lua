@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class InspectionComponent: gameScriptableComponent
 ---@field slot String
 ---@field cumulatedObjRotationX Float
@@ -17,6 +18,7 @@
 ---@field listener IScriptable
 ---@field lastInspectedObjID entEntityID
 InspectionComponent = {}
+
 
 ---@param fields? InspectionComponent
 ---@return InspectionComponent

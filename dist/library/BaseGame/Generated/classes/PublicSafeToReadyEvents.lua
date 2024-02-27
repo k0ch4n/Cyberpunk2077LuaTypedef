@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class PublicSafeToReadyEvents: WeaponEventsTransition
 PublicSafeToReadyEvents = {}
+
 
 ---@param fields? PublicSafeToReadyEvents
 ---@return PublicSafeToReadyEvents

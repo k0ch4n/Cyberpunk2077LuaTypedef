@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class GameplayCyberwareCondition: GameplayConditionBase
 ---@field cyberwareToCheck TweakDBID
 GameplayCyberwareCondition = {}
+
 
 ---@param fields? GameplayCyberwareCondition
 ---@return GameplayCyberwareCondition

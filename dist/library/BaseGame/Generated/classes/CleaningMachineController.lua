@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CleaningMachineController: BasicDistractionDeviceController
 CleaningMachineController = {}
+
 
 ---@param fields? CleaningMachineController
 ---@return CleaningMachineController

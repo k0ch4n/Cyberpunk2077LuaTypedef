@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class CallbackSystem: gameIGameSystem
 CallbackSystem = {}
+
 
 ---@param fields? CallbackSystem
 ---@return CallbackSystem

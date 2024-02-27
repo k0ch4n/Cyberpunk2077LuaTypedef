@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class ReloadWeaponEffector: gameEffector
 ---@field owner gameObject
 ReloadWeaponEffector = {}
+
 
 ---@param fields? ReloadWeaponEffector
 ---@return ReloadWeaponEffector

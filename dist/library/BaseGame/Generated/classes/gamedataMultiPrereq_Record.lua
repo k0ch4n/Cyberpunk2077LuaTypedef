@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gamedataMultiPrereq_Record: gamedataIPrereq_Record
 gamedataMultiPrereq_Record = {}
+
 
 ---@param fields? gamedataMultiPrereq_Record
 ---@return gamedataMultiPrereq_Record

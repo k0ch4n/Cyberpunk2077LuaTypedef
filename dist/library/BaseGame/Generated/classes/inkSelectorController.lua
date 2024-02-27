@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class inkSelectorController: inkWidgetLogicController
 ---@field index Int32
 ---@field values String[]
@@ -16,6 +17,7 @@
 ---@field rightArrowButton inkButtonController
 ---@field leftArrowButton inkButtonController
 inkSelectorController = {}
+
 
 ---@param fields? inkSelectorController
 ---@return inkSelectorController

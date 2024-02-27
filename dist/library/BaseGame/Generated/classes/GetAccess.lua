@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class GetAccess: ActionBool
 GetAccess = {}
+
 
 ---@param fields? GetAccess
 ---@return GetAccess

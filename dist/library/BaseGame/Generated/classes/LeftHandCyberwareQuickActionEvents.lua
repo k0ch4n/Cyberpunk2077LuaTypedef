@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class LeftHandCyberwareQuickActionEvents: LeftHandCyberwareActionAbstractEvents
 LeftHandCyberwareQuickActionEvents = {}
+
 
 ---@param fields? LeftHandCyberwareQuickActionEvents
 ---@return LeftHandCyberwareQuickActionEvents

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UIInventoryItemModsStaticData: IScriptable
 UIInventoryItemModsStaticData = {}
+
 
 ---@param itemType gamedataItemType
 ---@return TweakDBID[]

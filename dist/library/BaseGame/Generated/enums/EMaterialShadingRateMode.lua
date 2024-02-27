@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class EMaterialShadingRateMode: Enum
 ---@field MSRM_Default Enum 0
 ---@field MSRM_Disable Enum 1

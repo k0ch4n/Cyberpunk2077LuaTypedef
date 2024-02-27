@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class gameweaponeventsReloadInterruptedEvent: redEvent
 gameweaponeventsReloadInterruptedEvent = {}
+
 
 ---@param fields? gameweaponeventsReloadInterruptedEvent
 ---@return gameweaponeventsReloadInterruptedEvent

@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class ToggleDoorInteractionEvent: redEvent
 ToggleDoorInteractionEvent = {}
+
 
 ---@param fields? ToggleDoorInteractionEvent
 ---@return ToggleDoorInteractionEvent

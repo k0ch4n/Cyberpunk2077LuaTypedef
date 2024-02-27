@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class UiQuickHackPanelContextDrivingEvents: UiQuickHackPanelContextEvents
 UiQuickHackPanelContextDrivingEvents = {}
+
 
 ---@param fields? UiQuickHackPanelContextDrivingEvents
 ---@return UiQuickHackPanelContextDrivingEvents

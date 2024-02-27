@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class SSensesOperationData
 ---@field isActivatorPlayer Bool
 ---@field isActivatorNPC Bool
@@ -7,6 +8,7 @@
 ---@field operationType ETriggerOperationType
 ---@field operation SBaseDeviceOperationData
 SSensesOperationData = {}
+
 
 ---@param fields? SSensesOperationData
 ---@return SSensesOperationData

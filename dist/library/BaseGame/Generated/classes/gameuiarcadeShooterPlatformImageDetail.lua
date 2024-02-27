@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gameuiarcadeShooterPlatformImageDetail
 ---@field platformImage inkWidgetReference
 gameuiarcadeShooterPlatformImageDetail = {}
+
 
 ---@param fields? gameuiarcadeShooterPlatformImageDetail
 ---@return gameuiarcadeShooterPlatformImageDetail

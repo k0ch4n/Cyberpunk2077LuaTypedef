@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class RipperDocGameController: gameuiMenuGameController
 ---@field TooltipsManagerRef inkWidgetReference
 ---@field buttonHintsManagerRef inkWidgetReference
@@ -159,6 +160,7 @@
 ---@field cameFromInventoryMenu Bool
 ---@field screenDisplayContext ScreenDisplayContext
 RipperDocGameController = {}
+
 
 ---@param fields? RipperDocGameController
 ---@return RipperDocGameController

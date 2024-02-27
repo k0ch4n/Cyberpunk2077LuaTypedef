@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class MeshAppearanceDeviceOperation: DeviceOperationBase
 ---@field meshesAppearence CName
 MeshAppearanceDeviceOperation = {}
+
 
 ---@param fields? MeshAppearanceDeviceOperation
 ---@return MeshAppearanceDeviceOperation

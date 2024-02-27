@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class scnblocLocaleId: Enum
 ---@field db_db Enum 0
 ---@field pl_pl Enum 1

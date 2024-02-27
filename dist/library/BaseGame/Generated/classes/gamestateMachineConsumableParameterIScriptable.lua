@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class gamestateMachineConsumableParameterIScriptable: gamestateMachineActionParameterIScriptable
 ---@field consumed Bool
 gamestateMachineConsumableParameterIScriptable = {}
+
 
 ---@param fields? gamestateMachineConsumableParameterIScriptable
 ---@return gamestateMachineConsumableParameterIScriptable

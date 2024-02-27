@@ -1,5 +1,6 @@
 ---@meta
 
+
 ---@class PocketRadioRestrictions: Enum
 ---@field SceneTier Enum 0
 ---@field UpperBodyState Enum 1

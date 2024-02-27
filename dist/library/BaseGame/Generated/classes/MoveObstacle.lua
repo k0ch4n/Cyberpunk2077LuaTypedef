@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class MoveObstacle: ActionBool
 MoveObstacle = {}
+
 
 ---@param fields? MoveObstacle
 ---@return MoveObstacle

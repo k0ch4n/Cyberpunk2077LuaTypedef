@@ -1,7 +1,9 @@
 ---@meta
 
+
 ---@class Mainframe: BaseAnimatedDevice
 Mainframe = {}
+
 
 ---@param fields? Mainframe
 ---@return Mainframe

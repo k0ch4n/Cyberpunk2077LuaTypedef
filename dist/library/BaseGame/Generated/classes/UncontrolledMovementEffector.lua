@@ -1,8 +1,10 @@
 ---@meta
 
+
 ---@class UncontrolledMovementEffector: gameEffector
 ---@field recordID TweakDBID
 UncontrolledMovementEffector = {}
+
 
 ---@param fields? UncontrolledMovementEffector
 ---@return UncontrolledMovementEffector
