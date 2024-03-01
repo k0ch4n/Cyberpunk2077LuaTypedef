@@ -59,13 +59,13 @@ VehicleComponent = {}
 ---@return VehicleComponent
 function VehicleComponent.new(fields) end
 
----@param vehicle vehicleBaseObject
----@return Bool
-function VehicleComponent.CanBeDriven(vehicle) end
-
 ---@param ownerID entEntityID
 ---@return Bool
 function VehicleComponent.CanBeDriven(ownerID) end
+
+---@param vehicle vehicleBaseObject
+---@return Bool
+function VehicleComponent.CanBeDriven(vehicle) end
 
 ---@param vehicleID entEntityID
 ---@param passengersCanLeaveCar gameObject[]
@@ -73,15 +73,15 @@ function VehicleComponent.CanBeDriven(ownerID) end
 ---@return nil
 function VehicleComponent.CheckIfPassengersCanLeaveCar(vehicleID, passengersCanLeaveCar, passengersCantLeaveCar) end
 
----@param vehicle vehicleBaseObject
----@param desiredTag CName|string
----@return Bool
-function VehicleComponent.CheckVehicleDesiredTag(vehicle, desiredTag) end
-
 ---@param owner gameObject
 ---@param desiredTag CName|string
 ---@return Bool
 function VehicleComponent.CheckVehicleDesiredTag(owner, desiredTag) end
+
+---@param vehicle vehicleBaseObject
+---@param desiredTag CName|string
+---@return Bool
+function VehicleComponent.CheckVehicleDesiredTag(vehicle, desiredTag) end
 
 ---@param vehicle vehicleBaseObject
 ---@param vehicleSlotID gamemountingMountingSlotId
@@ -162,16 +162,16 @@ function VehicleComponent.GetSeats(vehicle) end
 function VehicleComponent.GetSeatsStatus(vehicle) end
 
 ---@param owner gameObject
+---@return Bool, vehicleBaseObject vehicle
+function VehicleComponent.GetVehicle(owner) end
+
+---@param owner gameObject
 ---@return Bool, gameObject vehicle
 function VehicleComponent.GetVehicle(owner) end
 
 ---@param ownerID entEntityID
 ---@return Bool, vehicleBaseObject vehicle
 function VehicleComponent.GetVehicle(ownerID) end
-
----@param owner gameObject
----@return Bool, vehicleBaseObject vehicle
-function VehicleComponent.GetVehicle(owner) end
 
 ---@param vehicle vehicleBaseObject
 ---@return Bool
@@ -197,17 +197,17 @@ function VehicleComponent.GetVehicleID(ownerID) end
 ---@return Bool, AnimFeature_VehicleNPCData vehicleNPCData
 function VehicleComponent.GetVehicleNPCData(owner) end
 
----@param vehicle vehicleBaseObject
+---@param ownerID entEntityID
 ---@return Bool, gamedataVehicle_Record vehicleRecord
-function VehicleComponent.GetVehicleRecord(vehicle) end
+function VehicleComponent.GetVehicleRecord(ownerID) end
 
 ---@param owner gameObject
 ---@return Bool, gamedataVehicle_Record vehicleRecord
 function VehicleComponent.GetVehicleRecord(owner) end
 
----@param ownerID entEntityID
+---@param vehicle vehicleBaseObject
 ---@return Bool, gamedataVehicle_Record vehicleRecord
-function VehicleComponent.GetVehicleRecord(ownerID) end
+function VehicleComponent.GetVehicleRecord(vehicle) end
 
 ---@param vehicleID entEntityID
 ---@return Bool, gamedataVehicle_Record vehicleRecord
@@ -218,13 +218,13 @@ function VehicleComponent.GetVehicleRecordFromID(vehicleID) end
 ---@return Bool
 function VehicleComponent.GetVehicleType(owner, type) end
 
----@param vehicle vehicleBaseObject
----@return Bool
-function VehicleComponent.HasActiveAutopilot(vehicle) end
-
 ---@param ownerID entEntityID
 ---@return Bool
 function VehicleComponent.HasActiveAutopilot(ownerID) end
+
+---@param vehicle vehicleBaseObject
+---@return Bool
+function VehicleComponent.HasActiveAutopilot(vehicle) end
 
 ---@param vehicle vehicleBaseObject
 ---@param vehicleID entEntityID
@@ -268,13 +268,13 @@ function VehicleComponent.IsAnyPassengerCrowd(vehicle) end
 ---@return Bool
 function VehicleComponent.IsDestroyed(vehicleID) end
 
----@param ownerID entEntityID
----@return Bool
-function VehicleComponent.IsDriver(ownerID) end
-
 ---@param owner gameObject
 ---@return Bool
 function VehicleComponent.IsDriver(owner) end
+
+---@param ownerID entEntityID
+---@return Bool
+function VehicleComponent.IsDriver(ownerID) end
 
 ---@param vehicleID entEntityID
 ---@return Bool
@@ -293,13 +293,13 @@ function VehicleComponent.IsExecutingAnyCommand(vehicle) end
 ---@return Bool
 function VehicleComponent.IsMountedToProvidedVehicle(ownerID, vehicle) end
 
----@param ownerID entEntityID
----@return Bool
-function VehicleComponent.IsMountedToVehicle(ownerID) end
-
 ---@param owner gameObject
 ---@return Bool
 function VehicleComponent.IsMountedToVehicle(owner) end
+
+---@param ownerID entEntityID
+---@return Bool
+function VehicleComponent.IsMountedToVehicle(ownerID) end
 
 ---@param passengerID entEntityID
 ---@return Bool
@@ -375,19 +375,19 @@ function VehicleComponent.PushVehicleNPCData(passenger) end
 ---@return Bool
 function VehicleComponent.QueueEventToAllNonFriendlyAggressivePassengers(vehicleID, evt, delay) end
 
----@param vehicleID entEntityID
----@param evt redEvent
----@param delay? Float
----@param randomDelay? Bool
----@return Bool
-function VehicleComponent.QueueEventToAllPassengers(vehicleID, evt, delay, randomDelay) end
-
 ---@param vehicle vehicleBaseObject
 ---@param evt redEvent
 ---@param delay? Float
 ---@param randomDelay? Bool
 ---@return Bool
 function VehicleComponent.QueueEventToAllPassengers(vehicle, evt, delay, randomDelay) end
+
+---@param vehicleID entEntityID
+---@param evt redEvent
+---@param delay? Float
+---@param randomDelay? Bool
+---@return Bool
+function VehicleComponent.QueueEventToAllPassengers(vehicleID, evt, delay, randomDelay) end
 
 ---@param id entEntityID
 ---@param evt redEvent
@@ -916,12 +916,12 @@ function VehicleComponent:DestroyRandomWindow() end
 ---@return nil
 function VehicleComponent:DetermineAdditionalEngineFX(gridID, gridState) end
 
----@return nil
-function VehicleComponent:DetermineInteractionState() end
-
 ---@param layerName CName|string
 ---@return nil
 function VehicleComponent:DetermineInteractionState(layerName) end
+
+---@return nil
+function VehicleComponent:DetermineInteractionState() end
 
 ---@return nil
 function VehicleComponent:DisableRadio() end
@@ -941,6 +941,10 @@ function VehicleComponent:DoPreventionVehicleCleanup() end
 ---@param broadcast Bool
 ---@return nil
 function VehicleComponent:DrivingStimuli(broadcast) end
+
+---@param val Bool
+---@return nil
+function VehicleComponent:EnableCustomizableAppearance(val) end
 
 ---@return nil
 function VehicleComponent:EnableRadio() end
@@ -984,15 +988,15 @@ function VehicleComponent:EvaluateWindowReaction(doorID, speed) end
 ---@return nil
 function VehicleComponent:EvaluateWindowState() end
 
----@param choice gameinteractionsChoice
----@param executor gameObject
----@return nil
-function VehicleComponent:ExecuteAction(choice, executor) end
-
 ---@param action gamedeviceAction
 ---@param executor? gameObject
 ---@return nil
 function VehicleComponent:ExecuteAction(action, executor) end
+
+---@param choice gameinteractionsChoice
+---@param executor gameObject
+---@return nil
+function VehicleComponent:ExecuteAction(choice, executor) end
 
 ---@param set Bool
 ---@param reset Bool
@@ -1155,10 +1159,6 @@ function VehicleComponent:PlayHonkForDuration(honkTime) end
 ---@return nil
 function VehicleComponent:PlaySummonArrivalSFX() end
 
----@param toCustom Bool
----@return nil
-function VehicleComponent:PrepVisualCustomizationAppearance(toCustom) end
-
 ---@return nil
 function VehicleComponent:ProcessExplosionEffects() end
 
@@ -1305,10 +1305,6 @@ function VehicleComponent:StartEffectEvent(self, effectName, shouldPersist, blac
 ---@return nil
 function VehicleComponent:StealVehicle(slotID) end
 
----@param toCustom Bool
----@return nil
-function VehicleComponent:SwitchVisualCustomizationAppearance(toCustom) end
-
 ---@param toggle Bool
 ---@param force? Bool
 ---@param instant? Bool
@@ -1419,19 +1415,8 @@ function VehicleComponent:UnregisterWantedLevelListener() end
 ---@return nil
 function VehicleComponent:UpdateDamageEngineEffects() end
 
----@param angle Float
----@param onlyHue Bool
----@param saturation? Float
----@param brightness? Float
----@return Color
-function VehicleComponent:VehicleCustomizationAngleToColor(angle, onlyHue, saturation, brightness) end
-
 ---@return nil
 function VehicleComponent:VehicleDefaultStateSetup() end
-
----@param toggle Bool
----@return nil
-function VehicleComponent:VehicleVisualCustomizationHandleCrystalDome(toggle) end
 
 ---@return nil
 function VehicleComponent:VehicleVisualDestructionSetup() end

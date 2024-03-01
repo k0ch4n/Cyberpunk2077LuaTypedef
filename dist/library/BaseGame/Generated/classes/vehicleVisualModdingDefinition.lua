@@ -10,6 +10,8 @@
 ---@field secondaryColorH Float
 ---@field secondaryColorS Float
 ---@field secondaryColorB Float
+---@field lightsColorDefined Bool
+---@field lightsColorH Float
 ---@field decoPreset Int32
 ---@field defaultAppearance CName
 vehicleVisualModdingDefinition = {}

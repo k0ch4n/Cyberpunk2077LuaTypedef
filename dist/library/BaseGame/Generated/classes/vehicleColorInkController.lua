@@ -9,6 +9,9 @@
 ---@field AnimProxy inkanimProxy
 ---@field GlitchAnimProxy inkanimProxy
 ---@field SpoilerAnimProxy inkanimProxy
+---@field vvcComponent vehicleVisualCustomizationComponent
+---@field primaryColorPane inkWidgetReference
+---@field secondaryColorPane inkWidgetReference
 ---@field primaryColor inkImageWidgetReference[]
 ---@field secondaryColor inkImageWidgetReference[]
 ---@field carPartType VehicleVisualCustomizationWidgetCarPart
@@ -41,10 +44,6 @@ function vehicleColorInkController:OnInitialize() end
 
 ---@param proxy inkanimProxy
 ---@return Bool
-function vehicleColorInkController:OnResetAnimationFinished(proxy) end
-
----@param proxy inkanimProxy
----@return Bool
 function vehicleColorInkController:OnSpolierAnimationEnd(proxy) end
 
 ---@return Bool
@@ -73,12 +72,6 @@ function vehicleColorInkController:OnVehicleSpeedChange(speed) end
 ---@param value Bool
 ---@return Bool
 function vehicleColorInkController:OnVehicleVisualCustomizationActive(value) end
-
----@param angle Float
----@param saturation Float
----@param brightness Float
----@return Color
-function vehicleColorInkController:AngleToColor(angle, saturation, brightness) end
 
 ---@param instant? Bool
 ---@return nil

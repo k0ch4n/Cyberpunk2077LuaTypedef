@@ -2,18 +2,25 @@
 
 
 ---@class vehicleColorSelectorGameController: gameuiWidgetGameController
----@field rootContainerRef inkWidgetReference
+---@field CursorRootContainerRef inkWidgetReference
+---@field CursorRootOffsetPoint inkWidgetReference
 ---@field colorPaletteRef inkWidgetReference
 ---@field stickerPaletteRef inkWidgetReference
+---@field colorWheelColorA inkWidgetReference
+---@field colorWheelColorB inkWidgetReference
+---@field colorWheelColorLights inkWidgetReference
 ---@field colorPickerA vehicleColorSelectorPointerDef
 ---@field selectedColorPointerA vehicleColorSelectorPointerDef
 ---@field colorPickerB vehicleColorSelectorPointerDef
 ---@field selectedColorPointerB vehicleColorSelectorPointerDef
----@field mouseHitTestRef inkWidgetReference
+---@field colorPickerLights vehicleColorSelectorPointerDef
+---@field selectedColorPointerLights vehicleColorSelectorPointerDef
 ---@field mouseHitColor1Ref inkWidgetReference
 ---@field mouseHitColor2Ref inkWidgetReference
+---@field mouseHitLightsRef inkWidgetReference
 ---@field targetColorPrintA inkWidgetReference
 ---@field targetColorPrintB inkWidgetReference
+---@field targetColorPrintLights inkWidgetReference[]
 ---@field timeDilationProfile String
 ---@field introAnimation CName
 ---@field cancelAnimation CName
@@ -25,25 +32,34 @@
 ---@field brightnessPointer inkWidgetReference
 ---@field sliderInputHintUp inkWidgetReference
 ---@field sliderInputHintDown inkWidgetReference
+---@field modeChangeBack inkWidgetReference
+---@field modeChangeNext inkWidgetReference
 ---@field applyContainerWidget inkWidgetReference
 ---@field resetContainerWidget inkWidgetReference
+---@field vehicleUnknownPane inkWidgetReference
+---@field vehicleBrandIcon inkImageWidgetReference
 ---@field popupData inkGameNotificationData
 ---@field systemRequestsHandler inkISystemRequestsHandler
 ---@field player PlayerPuppet
 ---@field gameInstance ScriptGameInstance
 ---@field timeSystem gameTimeSystem
 ---@field vehicle vehicleBaseObject
+---@field vvcComponent vehicleVisualCustomizationComponent
 ---@field animProxy inkanimProxy
 ---@field fakeUpdateProxy inkanimProxy
 ---@field SBBarProxy inkanimProxy
+---@field LightsFocusProxy inkanimProxy
 ---@field stickersPage inkWidget
 ---@field isInMenuCallbackID redCallbackObject
 ---@field activeMode vehicleColorSelectorActiveMode
+---@field previousMode vehicleColorSelectorActiveMode
 ---@field currentAngle Float
 ---@field colorADefined Bool
 ---@field colorBDefined Bool
+---@field lightsDefined Bool
 ---@field targetColorAngleA Float
 ---@field targetColorAngleB Float
+---@field targetColorAngleLights Float
 ---@field targetColorASaturation Float
 ---@field targetColorBSaturation Float
 ---@field targetColorABrightness Float
@@ -65,7 +81,9 @@
 ---@field storedSelectedColorID Int32
 ---@field cachedNewColorA Color
 ---@field cachedNewColorB Color
+---@field cachedNewColorLights Color
 ---@field CloseReason vehicleColorSelectorMenuCloseReason
+---@field unsupportedVehicle Bool
 vehicleColorSelectorGameController = {}
 
 
@@ -100,19 +118,27 @@ function vehicleColorSelectorGameController:OnGlobalPressInput(e) end
 
 ---@param evt inkPointerEvent
 ---@return Bool
-function vehicleColorSelectorGameController:OnHoverOutColor1(evt) end
+function vehicleColorSelectorGameController:OnHoverOutColorWheel1(evt) end
 
 ---@param evt inkPointerEvent
 ---@return Bool
-function vehicleColorSelectorGameController:OnHoverOutColor2(evt) end
+function vehicleColorSelectorGameController:OnHoverOutColorWheel2(evt) end
 
 ---@param evt inkPointerEvent
 ---@return Bool
-function vehicleColorSelectorGameController:OnHoverOverColor1(evt) end
+function vehicleColorSelectorGameController:OnHoverOutColorWheelLights(evt) end
 
 ---@param evt inkPointerEvent
 ---@return Bool
-function vehicleColorSelectorGameController:OnHoverOverColor2(evt) end
+function vehicleColorSelectorGameController:OnHoverOverColorWheel1(evt) end
+
+---@param evt inkPointerEvent
+---@return Bool
+function vehicleColorSelectorGameController:OnHoverOverColorWheel2(evt) end
+
+---@param evt inkPointerEvent
+---@return Bool
+function vehicleColorSelectorGameController:OnHoverOverColorWheelLights(evt) end
 
 ---@return Bool
 function vehicleColorSelectorGameController:OnInitialize() end
@@ -144,13 +170,6 @@ function vehicleColorSelectorGameController:OnVehicleColorSelectionInitFinishedE
 ---@return Bool
 function vehicleColorSelectorGameController:OnVehicleColorSelectionSliderHoldEvent(evt) end
 
----@param angle Float
----@param onlyHue Bool
----@param saturation? Float
----@param brightness? Float
----@return Color
-function vehicleColorSelectorGameController:AngleToColor(angle, onlyHue, saturation, brightness) end
-
 ---@return nil
 function vehicleColorSelectorGameController:Apply() end
 
@@ -165,8 +184,9 @@ function vehicleColorSelectorGameController:Cancel() end
 function vehicleColorSelectorGameController:GetColorPickerForActiveColor() end
 
 ---@param currentMode vehicleColorSelectorActiveMode
+---@param direction? Int32
 ---@return vehicleColorSelectorActiveMode
-function vehicleColorSelectorGameController:GetNextValidMode(currentMode) end
+function vehicleColorSelectorGameController:GetNextValidMode(currentMode, direction) end
 
 ---@param saturation Float
 ---@param brightness Float
@@ -185,11 +205,17 @@ function vehicleColorSelectorGameController:NormalizeAngle(angle) end
 ---@return nil
 function vehicleColorSelectorGameController:PlayAnimation(animationName, playbackOptions) end
 
+---@param val Bool
+---@return nil
+function vehicleColorSelectorGameController:PlayLightsFocusAnimation(val) end
+
 ---@return nil
 function vehicleColorSelectorGameController:ProcessApplyHintVisiblity() end
 
+---@param currentMode vehicleColorSelectorActiveMode
+---@param previousMode vehicleColorSelectorActiveMode
 ---@return nil
-function vehicleColorSelectorGameController:ProcessColorHighlightAnim() end
+function vehicleColorSelectorGameController:ProcessColorHighlight(currentMode, previousMode) end
 
 ---@param on Bool
 ---@return nil
@@ -251,17 +277,25 @@ function vehicleColorSelectorGameController:ShowSBBar(val) end
 ---@return nil
 function vehicleColorSelectorGameController:SignalUICallBack() end
 
+---@param direction? Int32
 ---@param switchTo? vehicleColorSelectorActiveMode
 ---@return nil
-function vehicleColorSelectorGameController:SwitchActiveMode(switchTo) end
+function vehicleColorSelectorGameController:SwitchActiveMode(direction, switchTo) end
 
 ---@return nil
 function vehicleColorSelectorGameController:Update() end
 
+---@return nil
+function vehicleColorSelectorGameController:UpdateActiveModeBasedOnCursorPosition() end
+
 ---@param colorAngle Float
----@param primary Bool
+---@param selectedMode vehicleColorSelectorActiveMode
 ---@return Color
-function vehicleColorSelectorGameController:UpdateColor(colorAngle, primary) end
+function vehicleColorSelectorGameController:UpdateColor(colorAngle, selectedMode) end
+
+---@param reset? Bool
+---@return nil
+function vehicleColorSelectorGameController:UpdateLightsPreviewWidgets(reset) end
 
 ---@param colorAngle Float
 ---@param pointer vehicleColorSelectorPointerDef
@@ -283,7 +317,13 @@ function vehicleColorSelectorGameController:UpdateSBSliderPosition(direction, ac
 ---@return nil
 function vehicleColorSelectorGameController:UpdateSaturationAndBrightnessSlider(direction) end
 
----@param primary Bool
+---@param mode vehicleColorSelectorActiveMode
 ---@param isRestore? Bool
 ---@return nil
-function vehicleColorSelectorGameController:UpdateWidgetColor(primary, isRestore) end
+function vehicleColorSelectorGameController:UpdateSelectedColorDisplay(mode, isRestore) end
+
+---@return nil
+function vehicleColorSelectorGameController:UpdateVehicleManufacturer() end
+
+---@return Bool
+function vehicleColorSelectorGameController:VerifyVehicleValidity() end

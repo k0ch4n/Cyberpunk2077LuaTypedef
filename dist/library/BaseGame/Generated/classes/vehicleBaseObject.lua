@@ -20,7 +20,6 @@
 ---@field triggerPanicDrivingEventDelayID gameDelayID
 ---@field reactionTriggerEvent HandleReactionEvent
 ---@field fearInside Bool
----@field photoModeActiveListener redCallbackObject
 ---@field vehicleUpsideDown Bool
 ---@field isQhackUploadInProgress Bool
 ---@field hitByPlayer Bool
@@ -515,13 +514,13 @@ function vehicleBaseObject:OnVehicleFinishedMounting(evt) end
 ---@return Bool
 function vehicleBaseObject:OnVehicleFlippedOverEvent(evt) end
 
+---@param evt VehicleVisualCustomizationAppearanceChange
+---@return Bool
+function vehicleBaseObject:OnVehicleVisualCustomizationAppearanceChange(evt) end
+
 ---@param evt VehicleVisualCustomizationPerformedEvent
 ---@return Bool
 function vehicleBaseObject:OnVehicleVisualCustomizationPerformedEvent(evt) end
-
----@param val Bool
----@return Bool
-function vehicleBaseObject:OnVisualCustomizationPhotomodeStateChangeEvent(val) end
 
 ---@param evt WaitForPassengersToSpawnEvent
 ---@return Bool
@@ -670,24 +669,20 @@ function vehicleBaseObject:PanicDrivingBehavior() end
 ---@return nil
 function vehicleBaseObject:ReactToHitProcess(hitEvent) end
 
----@param tag CName|string
----@return Bool
-function vehicleBaseObject:RecordHasTag(tag) end
-
 ---@param vehicleRecord gamedataVehicle_Record
 ---@param tag CName|string
 ---@return Bool
 function vehicleBaseObject:RecordHasTag(vehicleRecord, tag) end
+
+---@param tag CName|string
+---@return Bool
+function vehicleBaseObject:RecordHasTag(tag) end
 
 ---@param character gameObject
 ---@param slotID CName|string
 ---@param stealingAction Bool
 ---@return Bool
 function vehicleBaseObject:ReevaluateStealing(character, slotID, stealingAction) end
-
----@param val Bool
----@return nil
-function vehicleBaseObject:RegisterVisualCustomizationPhotoModeListener(val) end
 
 ---@return nil
 function vehicleBaseObject:ResendHandleReactionEvent() end

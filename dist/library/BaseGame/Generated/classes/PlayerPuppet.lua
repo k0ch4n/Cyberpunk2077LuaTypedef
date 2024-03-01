@@ -442,6 +442,10 @@ function PlayerPuppet:OnForceBraindanceCameraToggle(evt) end
 ---@return Bool
 function PlayerPuppet:OnGameAttached() end
 
+---@param evt GameLoadedFactReset
+---@return Bool
+function PlayerPuppet:OnGameLoadedFactReset(evt) end
+
 ---@param evt HackTargetEvent
 ---@return Bool
 function PlayerPuppet:OnHackTargetEvent(evt) end
