@@ -18,6 +18,10 @@ function ResourceRef.GetHash(self) end
 function ResourceRef.GetPath(self) end
 
 ---@param self ResourceRef
+---@return ResourceToken
+function ResourceRef.GetToken(self) end
+
+---@param self ResourceRef
 ---@return Bool
 function ResourceRef.IsEmpty(self) end
 

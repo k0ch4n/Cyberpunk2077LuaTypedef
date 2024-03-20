@@ -9,6 +9,10 @@ ResourceToken = {}
 ---@return ResourceToken
 function ResourceToken.new(fields) end
 
+---@param arg CResource
+---@return ResourceToken
+function ResourceToken.FromResRef(arg) end
+
 ---@return Uint64
 function ResourceToken:GetHash() end
 
