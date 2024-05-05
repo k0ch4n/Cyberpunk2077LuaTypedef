@@ -16,7 +16,7 @@ function ResourceToken.FromResRef(arg) end
 ---@return Uint64
 function ResourceToken:GetHash() end
 
----@return CResource
+---@return redResourceReferenceScriptToken
 function ResourceToken:GetPath() end
 
 ---@return CResource
@@ -31,7 +31,7 @@ function ResourceToken:IsFinished() end
 ---@return Bool
 function ResourceToken:IsLoaded() end
 
----@param arg IScriptable
----@param arg CName|string
+---@param target IScriptable
+---@param function_ CName|string
 ---@return nil
-function ResourceToken:RegisterCallback(arg, arg) end
+function ResourceToken:RegisterCallback(target, function_) end

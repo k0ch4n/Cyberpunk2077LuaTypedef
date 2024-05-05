@@ -12,5 +12,5 @@
 ### Definition Files Compatibility
 
 - [Cyberpunk 2077](https://www.cyberpunk.net) patch 2.12
-- [CyberEngineTweaks](https://github.com/maximegmd/CyberEngineTweaks) v1.31.2
-- [Codeware](https://github.com/psiberx/cp2077-codeware) v1.8.1
+- [CyberEngineTweaks](https://github.com/maximegmd/CyberEngineTweaks) v1.32.2
+- [Codeware](https://github.com/psiberx/cp2077-codeware) v1.9.1

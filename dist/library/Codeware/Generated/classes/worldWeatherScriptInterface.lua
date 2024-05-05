@@ -9,6 +9,12 @@ worldWeatherScriptInterface = {}
 ---@return worldWeatherScriptInterface
 function worldWeatherScriptInterface.new(fields) end
 
+---@return worldEnvironmentDefinition
+function worldWeatherScriptInterface:GetEnvironmentDefinition() end
+
+---@return worldWeatherState
+function worldWeatherScriptInterface:GetWeatherState() end
+
 ---@param forceRestore? Bool
 ---@param blendTime? Float
 ---@return Bool

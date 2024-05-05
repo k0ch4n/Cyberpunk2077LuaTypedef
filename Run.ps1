@@ -9,16 +9,16 @@ if ($Clean -and (Test-Path -Path ".venv")) {
 }
 
 if (-not (Test-Path -Path ".venv")) {
-    py -m venv ".venv"
+    python -m venv ".venv"
 }
 
 & ".venv\Scripts\Activate.ps1"
 
 pip list --outdated | Select-Object -Skip 2 | ForEach-Object { ($_ -split "\s+")[0] } | ForEach-Object { py -m pip install --upgrade $_ --no-cache-dir }
-py -m pip install --requirement "requirements.txt" --upgrade --no-cache-dir
+python -m pip install --requirement "requirements.txt" --upgrade --no-cache-dir
 
 if (-not $Dry) {
-    py -B ".\src\main.py"
+    python -B ".\src\main.py"
 }
 
 if (-not $IsVenv) {

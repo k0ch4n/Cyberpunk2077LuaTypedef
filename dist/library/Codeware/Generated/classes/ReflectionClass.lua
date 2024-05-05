@@ -41,3 +41,6 @@ function ReflectionClass:IsAbstract() end
 
 ---@return Bool
 function ReflectionClass:IsNative() end
+
+---@return ISerializable
+function ReflectionClass:MakeHandle() end

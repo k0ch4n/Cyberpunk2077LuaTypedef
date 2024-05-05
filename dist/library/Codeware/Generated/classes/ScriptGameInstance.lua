@@ -23,6 +23,12 @@ function ScriptGameInstance.GetOpenWorldSystem() end
 ---@return ResourceDepot
 function ScriptGameInstance.GetResourceDepot() end
 
+---@return ScriptableServiceContainer
+function ScriptGameInstance.GetScriptableServiceContainer() end
+
+---@return StaticEntitySystem
+function ScriptGameInstance.GetStaticEntitySystem() end
+
 ---@return WorldStateSystem
 function ScriptGameInstance.GetWorldStateSystem() end
 

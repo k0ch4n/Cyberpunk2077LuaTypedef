@@ -9,32 +9,42 @@ CallbackSystem = {}
 ---@return CallbackSystem
 function CallbackSystem.new(fields) end
 
----@param event NamedEvent
+---@param eventObject CallbackSystemEvent
 ---@return nil
-function CallbackSystem:FireCallbacks(event) end
+function CallbackSystem:DispatchEvent(eventObject) end
 
----@param event CName|string
+---@param eventName CName|string
+---@param eventObject CallbackSystemEvent
+---@return nil
+function CallbackSystem:DispatchEventAs(eventName, eventObject) end
+
+---@param eventName CName|string
 ---@param target IScriptable
 ---@param function_ CName|string
 ---@param sticky? Bool
----@return nil
-function CallbackSystem:RegisterCallback(event, target, function_, sticky) end
+---@return CallbackSystemHandler
+function CallbackSystem:RegisterCallback(eventName, target, function_, sticky) end
 
----@param event CName|string
+---@param eventName CName|string
+---@param eventType? CName|string
+---@return Bool
+function CallbackSystem:RegisterEvent(eventName, eventType) end
+
+---@param eventName CName|string
 ---@param target CName|string
 ---@param function_ CName|string
 ---@param sticky? Bool
----@return nil
-function CallbackSystem:RegisterStaticCallback(event, target, function_, sticky) end
+---@return CallbackSystemHandler
+function CallbackSystem:RegisterStaticCallback(eventName, target, function_, sticky) end
 
----@param event CName|string
+---@param eventName CName|string
 ---@param target IScriptable
 ---@param function_? CName|string
 ---@return nil
-function CallbackSystem:UnregisterCallback(event, target, function_) end
+function CallbackSystem:UnregisterCallback(eventName, target, function_) end
 
----@param event CName|string
+---@param eventName CName|string
 ---@param target CName|string
 ---@param function_? CName|string
 ---@return nil
-function CallbackSystem:UnregisterStaticCallback(event, target, function_) end
+function CallbackSystem:UnregisterStaticCallback(eventName, target, function_) end

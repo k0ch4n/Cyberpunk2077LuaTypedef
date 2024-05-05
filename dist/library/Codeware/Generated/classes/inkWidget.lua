@@ -14,6 +14,10 @@ function inkWidget.new(fields) end
 ---@return nil
 function inkWidget:AttachController(controller, secondary) end
 
+---@param effect inkIEffect
+---@return nil
+function inkWidget:AddEffect(effect) end
+
 ---@return Bool
 function inkWidget:CanSupportFocus() end
 

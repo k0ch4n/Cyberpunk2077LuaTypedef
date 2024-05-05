@@ -20,6 +20,3 @@ DynamicEntitySpec = {}
 ---@param fields? DynamicEntitySpec
 ---@return DynamicEntitySpec
 function DynamicEntitySpec.new(fields) end
-
----@return Bool
-function DynamicEntitySpec:IsValid() end

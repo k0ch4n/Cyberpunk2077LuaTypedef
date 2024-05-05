@@ -1,7 +1,7 @@
 ---@meta
 
 
----@class GameSessionEvent: NamedEvent
+---@class GameSessionEvent: CallbackSystemEvent
 GameSessionEvent = {}
 
 

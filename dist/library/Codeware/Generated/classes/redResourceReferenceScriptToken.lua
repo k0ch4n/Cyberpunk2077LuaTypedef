@@ -16,3 +16,11 @@ function redResourceReferenceScriptToken.GetHash(self) end
 ---@param arg redResourceReferenceScriptToken
 ---@return Uint64
 function redResourceReferenceScriptToken.GetHash(arg) end
+
+---@param self redResourceReferenceScriptToken
+---@return String
+function redResourceReferenceScriptToken.ToString(self) end
+
+---@param arg redResourceReferenceScriptToken
+---@return String
+function redResourceReferenceScriptToken.ToString(arg) end

@@ -1,7 +1,7 @@
 ---@meta
 
 
----@class Codeware_UI_CustomPopupManager: Codeware_UI_ICustomPopupManager
+---@class Codeware_UI_CustomPopupManager: ScriptableService
 ---@field gameController gameuiWidgetGameController
 ---@field notificationsContainer inkCompoundWidget
 ---@field bracketsContainer inkCompoundWidget

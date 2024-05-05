@@ -28,3 +28,7 @@ function entEntity:GetComponents() end
 
 ---@return redResourceReferenceScriptToken
 function entEntity:GetTemplatePath() end
+
+---@param transform WorldTransform
+---@return nil
+function entEntity:SetWorldTransform(transform) end

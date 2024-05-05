@@ -3,7 +3,7 @@
 
 ---@class Codeware_UI_CustomPopupNotificationData: inkGameNotificationData
 ---@field controller Codeware_UI_CustomPopup
----@field manager Codeware_UI_ICustomPopupManager
+---@field manager Codeware_UI_CustomPopupManager
 Codeware_UI_CustomPopupNotificationData = {}
 
 

@@ -205,14 +205,20 @@ function Game.UTF8StrUpper(str) end
 UTF8StrUpper = Game.UTF8StrUpper
 
 ---@param path redResourceReferenceScriptToken
----@return ResourceRef res
+---@return ResourceAsyncRef res
 function Game.OperatorAssignMultiply(path) end
 OperatorAssignMultiply = Game.OperatorAssignMultiply
 
 ---@param path redResourceReferenceScriptToken
----@return ResourceAsyncRef res
+---@return ResourceRef res
 function Game.OperatorAssignMultiply(path) end
 OperatorAssignMultiply = Game.OperatorAssignMultiply
+
+---@param lhs ResourceAsyncRef
+---@param rhs redResourceReferenceScriptToken
+---@return Bool
+function Game.OperatorEqual(lhs, rhs) end
+OperatorEqual = Game.OperatorEqual
 
 ---@param lhs redResourceReferenceScriptToken
 ---@param rhs redResourceReferenceScriptToken
@@ -221,6 +227,12 @@ function Game.OperatorEqual(lhs, rhs) end
 OperatorEqual = Game.OperatorEqual
 
 ---@param lhs redResourceReferenceScriptToken
+---@param rhs redResourceReferenceScriptToken
+---@return Bool
+function Game.OperatorNotEqual(lhs, rhs) end
+OperatorNotEqual = Game.OperatorNotEqual
+
+---@param lhs ResourceAsyncRef
 ---@param rhs redResourceReferenceScriptToken
 ---@return Bool
 function Game.OperatorNotEqual(lhs, rhs) end

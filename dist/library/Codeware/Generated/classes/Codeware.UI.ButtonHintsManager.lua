@@ -1,7 +1,7 @@
 ---@meta
 
 
----@class Codeware_UI_ButtonHintsManager: Codeware_UI_IButtonHintsManager
+---@class Codeware_UI_ButtonHintsManager: ScriptableService
 ---@field buttonHints inkWidget
 ---@field inputHint inkInputDisplayController
 Codeware_UI_ButtonHintsManager = {}
@@ -17,6 +17,9 @@ function Codeware_UI_ButtonHintsManager.GetInstance() end
 ---@param controller gameuiWidgetGameController
 ---@return nil
 function Codeware_UI_ButtonHintsManager.InitializeFromController(controller) end
+
+---@return nil
+function Codeware_UI_ButtonHintsManager:OnUninitialize() end
 
 ---@param action CName|string
 ---@return String

@@ -1,7 +1,7 @@
 ---@meta
 
 
----@class EntityLifecycleEvent: NamedEvent
+---@class EntityLifecycleEvent: CallbackSystemEvent
 EntityLifecycleEvent = {}
 
 

@@ -1,7 +1,7 @@
 ---@meta
 
 
----@class KeyInputEvent: NamedEvent
+---@class KeyInputEvent: CallbackSystemEvent
 KeyInputEvent = {}
 
 

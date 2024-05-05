@@ -1,10 +1,10 @@
 ---@meta
 
 
----@class ScriptableEnv: IScriptable
+---@class ScriptableEnv: ScriptableService
 ScriptableEnv = {}
 
 
 ---@param name CName|string
----@return ScriptableEnv
+---@return ScriptableService
 function ScriptableEnv.Get(name) end

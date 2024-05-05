@@ -17,9 +17,9 @@ function ResourceDepot:ArchiveExists(name) end
 ---@return ResourceToken
 function ResourceDepot:LoadReference(arg) end
 
----@param arg CResource
+---@param path redResourceReferenceScriptToken
 ---@return ResourceToken
-function ResourceDepot:LoadResource(arg) end
+function ResourceDepot:LoadResource(path) end
 
 ---@param path redResourceReferenceScriptToken
 ---@return Bool
