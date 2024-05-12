@@ -2,6 +2,8 @@
 
 
 ---@class entIComponent: IScriptable
+---@field appearanceName CName
+---@field appearancePath redResourceReferenceScriptToken
 entIComponent = {}
 
 

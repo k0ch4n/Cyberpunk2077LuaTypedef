@@ -170,6 +170,16 @@ NameToHash = Game.NameToHash
 function Game.NodeRefToHash(ref) end
 NodeRefToHash = Game.NodeRefToHash
 
+---@param value Uint64
+---@return CRUID
+function Game.ToCRUID(value) end
+ToCRUID = Game.ToCRUID
+
+---@param ref String
+---@return NodeRef
+function Game.ToNodeRef(ref) end
+ToNodeRef = Game.ToNodeRef
+
 ---@param str String
 ---@param length Int32
 ---@return String
@@ -205,12 +215,12 @@ function Game.UTF8StrUpper(str) end
 UTF8StrUpper = Game.UTF8StrUpper
 
 ---@param path redResourceReferenceScriptToken
----@return ResourceAsyncRef res
+---@return ResourceRef res
 function Game.OperatorAssignMultiply(path) end
 OperatorAssignMultiply = Game.OperatorAssignMultiply
 
 ---@param path redResourceReferenceScriptToken
----@return ResourceRef res
+---@return ResourceAsyncRef res
 function Game.OperatorAssignMultiply(path) end
 OperatorAssignMultiply = Game.OperatorAssignMultiply
 
