@@ -175,6 +175,11 @@ NodeRefToHash = Game.NodeRefToHash
 function Game.ToCRUID(value) end
 ToCRUID = Game.ToCRUID
 
+---@param value Uint64
+---@return entEntityID
+function Game.ToEntityID(value) end
+ToEntityID = Game.ToEntityID
+
 ---@param ref String
 ---@return NodeRef
 function Game.ToNodeRef(ref) end

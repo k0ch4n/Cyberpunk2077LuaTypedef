@@ -20,6 +20,13 @@ function inkSystem:GetLayers() end
 ---@return String
 function inkSystem:GetClipboard() end
 
+---@return nil
+function inkSystem:ResetFocus() end
+
 ---@param data String
 ---@return nil
 function inkSystem:SetClipboard(data) end
+
+---@param widget inkWidget
+---@return nil
+function inkSystem:SetFocus(widget) end

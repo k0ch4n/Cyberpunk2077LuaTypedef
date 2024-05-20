@@ -18,3 +18,7 @@ function ISerializable.IsA(className) end
 ---@param className CName|string
 ---@return Bool
 function ISerializable.IsExactlyA(className) end
+
+---@param disablePreInitialization? Bool
+---@return nil
+function ISerializable.RefreshResource(disablePreInitialization) end
