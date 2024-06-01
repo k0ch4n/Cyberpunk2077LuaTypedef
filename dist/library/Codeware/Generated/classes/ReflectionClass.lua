@@ -36,6 +36,10 @@ function ReflectionClass:GetStaticFunction(name) end
 ---@return ReflectionStaticFunc[]
 function ReflectionClass:GetStaticFunctions() end
 
+---@param base CName|string
+---@return Bool
+function ReflectionClass:IsA(base) end
+
 ---@return Bool
 function ReflectionClass:IsAbstract() end
 

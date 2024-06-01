@@ -6,19 +6,19 @@ ISerializable = {}
 
 
 ---@return ISerializable
-function ISerializable.Clone() end
+function ISerializable:Clone() end
 
 ---@return CName
-function ISerializable.GetClassName() end
+function ISerializable:GetClassName() end
 
 ---@param className CName|string
 ---@return Bool
-function ISerializable.IsA(className) end
+function ISerializable:IsA(className) end
 
 ---@param className CName|string
 ---@return Bool
-function ISerializable.IsExactlyA(className) end
+function ISerializable:IsExactlyA(className) end
 
 ---@param disablePreInitialization? Bool
 ---@return nil
-function ISerializable.RefreshResource(disablePreInitialization) end
+function ISerializable:RefreshResource(disablePreInitialization) end

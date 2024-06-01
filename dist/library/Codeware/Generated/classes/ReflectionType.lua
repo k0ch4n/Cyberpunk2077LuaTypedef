@@ -18,6 +18,9 @@ function ReflectionType:GetMetaType() end
 ---@return CName
 function ReflectionType:GetName() end
 
+---@return Variant
+function ReflectionType:MakeInstance() end
+
 ---@return ReflectionClass
 function ReflectionType:AsClass() end
 

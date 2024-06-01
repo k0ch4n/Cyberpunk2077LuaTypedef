@@ -110,14 +110,9 @@ BitTest8 = Game.BitTest8
 function Game.CRUIDToHash(value) end
 CRUIDToHash = Game.CRUIDToHash
 
----@param value Uint64
----@return CRUID
-function Game.CreateCRUID(value) end
-CreateCRUID = Game.CreateCRUID
-
----@param ref String
+---@param value String
 ---@return NodeRef
-function Game.CreateNodeRef(ref) end
+function Game.CreateNodeRef(value) end
 CreateNodeRef = Game.CreateNodeRef
 
 ---@param data String
@@ -138,15 +133,20 @@ FNV1a64 = Game.FNV1a64
 function Game.GetStackTrace(depth, current) end
 GetStackTrace = Game.GetStackTrace
 
----@param hash Uint64
----@return String
-function Game.InspectHash(hash) end
-InspectHash = Game.InspectHash
+---@param value Uint64
+---@return CRUID
+function Game.HashToCRUID(value) end
+HashToCRUID = Game.HashToCRUID
 
----@param ref String
----@return String
-function Game.InspectRef(ref) end
-InspectRef = Game.InspectRef
+---@param value Uint64
+---@return CName
+function Game.HashToName(value) end
+HashToName = Game.HashToName
+
+---@param value Uint64
+---@return NodeRef
+function Game.HashToNodeRef(value) end
+HashToNodeRef = Game.HashToNodeRef
 
 ---@param mod CName|string
 ---@param text String
@@ -160,30 +160,15 @@ ModLog = Game.ModLog
 function Game.Murmur3(data, seed) end
 Murmur3 = Game.Murmur3
 
----@param name CName|string
+---@param value CName|string
 ---@return Uint64
-function Game.NameToHash(name) end
+function Game.NameToHash(value) end
 NameToHash = Game.NameToHash
 
----@param ref NodeRef
+---@param value NodeRef
 ---@return Uint64
-function Game.NodeRefToHash(ref) end
+function Game.NodeRefToHash(value) end
 NodeRefToHash = Game.NodeRefToHash
-
----@param value Uint64
----@return CRUID
-function Game.ToCRUID(value) end
-ToCRUID = Game.ToCRUID
-
----@param value Uint64
----@return entEntityID
-function Game.ToEntityID(value) end
-ToEntityID = Game.ToEntityID
-
----@param ref String
----@return NodeRef
-function Game.ToNodeRef(ref) end
-ToNodeRef = Game.ToNodeRef
 
 ---@param str String
 ---@param length Int32
@@ -219,16 +204,66 @@ UTF8StrRight = Game.UTF8StrRight
 function Game.UTF8StrUpper(str) end
 UTF8StrUpper = Game.UTF8StrUpper
 
----@param path redResourceReferenceScriptToken
----@return ResourceRef res
-function Game.OperatorAssignMultiply(path) end
-OperatorAssignMultiply = Game.OperatorAssignMultiply
+---@param value Uint64
+---@return NodeRef
+function Game.Cast(value) end
+Cast = Game.Cast
+
+---@param value CName|string
+---@return Uint64
+function Game.Cast(value) end
+Cast = Game.Cast
+
+---@param value entEntityID
+---@return Uint64
+function Game.Cast(value) end
+Cast = Game.Cast
+
+---@param value CRUID
+---@return Uint64
+function Game.Cast(value) end
+Cast = Game.Cast
+
+---@param value String
+---@return NodeRef
+function Game.Cast(value) end
+Cast = Game.Cast
+
+---@param value Uint64
+---@return CRUID
+function Game.Cast(value) end
+Cast = Game.Cast
+
+---@param value NodeRef
+---@return Uint64
+function Game.Cast(value) end
+Cast = Game.Cast
+
+---@param value Uint64
+---@return entEntityID
+function Game.Cast(value) end
+Cast = Game.Cast
+
+---@param value Uint64
+---@return CName
+function Game.Cast(value) end
+Cast = Game.Cast
+
+---@param value Uint64
+---@return CRUID
+function Game.CreateCRUID(value) end
+CreateCRUID = Game.CreateCRUID
 
 ---@param path redResourceReferenceScriptToken
 ---@return ResourceAsyncRef res
 function Game.OperatorAssignMultiply(path) end
 OperatorAssignMultiply = Game.OperatorAssignMultiply
 
+---@param path redResourceReferenceScriptToken
+---@return ResourceRef res
+function Game.OperatorAssignMultiply(path) end
+OperatorAssignMultiply = Game.OperatorAssignMultiply
+
 ---@param lhs ResourceAsyncRef
 ---@param rhs redResourceReferenceScriptToken
 ---@return Bool
@@ -252,3 +287,38 @@ OperatorNotEqual = Game.OperatorNotEqual
 ---@return Bool
 function Game.OperatorNotEqual(lhs, rhs) end
 OperatorNotEqual = Game.OperatorNotEqual
+
+---@param value Uint64
+---@return CRUID
+function Game.ToCRUID(value) end
+ToCRUID = Game.ToCRUID
+
+---@param value Uint64
+---@return entEntityID
+function Game.ToEntityID(value) end
+ToEntityID = Game.ToEntityID
+
+---@param value Uint64
+---@return CName
+function Game.ToName(value) end
+ToName = Game.ToName
+
+---@param value String
+---@return CName
+function Game.ToName(value) end
+ToName = Game.ToName
+
+---@param value String
+---@return NodeRef
+function Game.ToNodeRef(value) end
+ToNodeRef = Game.ToNodeRef
+
+---@param value Uint64
+---@return NodeRef
+function Game.ToNodeRef(value) end
+ToNodeRef = Game.ToNodeRef
+
+---@param value String
+---@return NodeRef
+function Game.ToNodeRef(value) end
+ToNodeRef = Game.ToNodeRef
